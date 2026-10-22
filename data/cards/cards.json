@@ -161,6 +161,20 @@
   "text_en": "If this card is discarded to the GY: Special Summon it.\n\nDeck Support- Fiendsmith",
   "text_ko": "①: 이 카드가 패에서 묘지로 버려졌을 경우에 발동한다. 이 카드를 특수 소환한다."
  },
+ "8492": {
+  "cid": 8492,
+  "en": "Preparation of Rites",
+  "ko": "의식의 준비",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Add 1 Level 7 or lower Ritual Monster from your Deck to your hand, then you can add 1 Ritual Spell from your GY to your hand.",
+  "text_ko": "①: 덱에서 레벨 7 이하의 의식 몬스터 1장을 패에 넣는다. 그 후, 자신 묘지에서 의식 마법 카드 1장을 패에 넣을 수 있다."
+ },
  "8933": {
   "cid": 8933,
   "en": "Effect Veiler",
@@ -312,6 +326,22 @@
   "md_rarity": "UR",
   "text_en": "1 Tuner + 1+ non-Tuner monsters\nWhile this Synchro Summoned card is on the field, your opponent cannot activate effects of monsters with the same original Attribute(s) as the \"Yang Zing\" monster(s) used for the Synchro Summon of this card. When this Synchro Summoned card is destroyed by battle or card effect and sent to the GY: You can add 1 Tuner from your Deck to your hand. Once per turn, when a monster(s) your opponent controls is destroyed by battle or card effect: You can Special Summon 1 Wyrm monster from your Deck, in Defense Position, whose original Attribute matches the original Attribute that 1 of those destroyed monsters had on the field.",
   "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>①: 싱크로 소환한 이 카드가 몬스터 존에 존재하는 한, 상대는 이 카드의 싱크로 소재로 한 \"룡성\" 몬스터와 원래 속성이 같은 몬스터의 효과를 발동할 수 없다. ②: 싱크로 소환한 이 카드가 전투 / 효과로 파괴되어 묘지로 보내졌을 때에 발동할 수 있다. 덱에서 튜너 1장을 패에 넣는다. ③: 1턴에 1번, 상대 필드의 몬스터가 전투 / 효과로 파괴되었을 때에 발동할 수 있다. 그 몬스터 1장과 원래 속성이 같은 환룡족 몬스터 1장을 자신 덱에서 수비 표시로 특수 소환한다."
+ },
+ "11927": {
+  "cid": 11927,
+  "en": "The Winged Dragon of Ra - Sphere Mode",
+  "ko": "라의 익신룡－구체형",
+  "ja": null,
+  "type": "Monster",
+  "race": "Divine-Beast",
+  "attribute": "DIVINE",
+  "level": 10,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "Cannot be Special Summoned. Requires 3 Tributes from either side of the field to Normal Summon to that side of the field (cannot be Normal Set), then shift control to this card's owner during the End Phase of the next turn. Cannot attack. Your opponent cannot target this card for attacks or by card effects. You can Tribute this card; Special Summon 1 \"The Winged Dragon of Ra\" from your hand or Deck, ignoring its Summoning conditions, and if you do, its ATK/DEF become 4000.",
+  "text_ko": "이 카드는 특수 소환할 수 없다. 이 카드를 통상 소환할 경우, 자신 필드의 몬스터 3장을 릴리스하고 자신 필드에 일반 소환, 또는 상대 필드의 몬스터 3장을 릴리스하고 상대 필드에 일반 소환해야 하며, 일반 소환한 이 카드의 컨트롤은 다음 턴의 엔드 페이즈에 원래의 주인에게 되돌아간다. ①: 이 카드는 공격할 수 없으며, 상대의 공격 / 효과의 대상이 되지 않는다. ②: 이 카드를 릴리스하고 발동할 수 있다. 패 / 덱에서 \"라의 익신룡\" 1장을, 소환 조건을 무시하고, 공격력 / 수비력을 4000 으로 하여 특수 소환한다."
  },
  "12067": {
   "cid": 12067,
@@ -3069,6 +3099,23 @@
   "text_en": "If this card is Normal or Special Summoned: You can add to your hand, or Special Summon, 1 \"Power Patron\" monster from your Deck. If this card is in your GY: You can shuffle 1 monster from your hand or face-up field into the Deck, and if you do, Special Summon this card, but banish it when it leaves the field. You can only use each effect of \"Medius the Pure\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"감옥신\" 몬스터 1장을 고르고, 패에 넣거나 특수 소환한다. ②: 이 카드가 묘지에 존재할 경우에 발동할 수 있다. 자신의 패 / 필드(앞면 표시)에서 몬스터 1장을 덱으로 되돌리고, 이 카드를 특수 소환한다. 이 효과로 특수 소환한 이 카드는, 필드에서 벗어났을 경우에 제외된다."
  },
+ "21444": {
+  "cid": 21444,
+  "en": "Nerva the Power Patron of Creation",
+  "ko": "창감옥신 네르바",
+  "ja": null,
+  "type": "Monster",
+  "race": "Illusion",
+  "attribute": "EARTH",
+  "level": 10,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "3 \"Artmage\" monsters\nMust first be either Fusion Summoned, or Special Summoned (from your Extra Deck) in Defense Position by Tributing 3 monsters with different Types. You can only Special Summon \"Nerva the Power Patron of Creation(s)\" once per turn. While a card is in the Field Zone, this card cannot be destroyed by card effects. Once per turn, when you activate an \"Artmage\" monster's effect (Quick Effect): You can make the activated effect become \"Destroy all cards your opponent controls\".",
+  "text_ko": "\"아르토메기아\" 몬스터 × 3<br>자신은 \"창감옥신 네르바\"를 1턴에 1번밖에 특수 소환할 수 없다. 이 카드는 융합 소환 및 이하의 방법으로만 엑스트라 덱에서 특수 소환할 수 있다. ●종족이 다른 자신 필드의 몬스터 3장을 릴리스했을 경우에 수비 표시로 특수 소환할 수 있다. ①: 필드 존에 카드가 존재하는 한, 이 카드는 효과로는 파괴되지 않는다. ②: 1턴에 1번, 자신이 \"아르토메기아\" 몬스터의 효과를 발동했을 때에 발동할 수 있다. 그 효과는 \"상대 필드의 카드를 전부 파괴한다\"가 된다."
+ },
  "21448": {
   "cid": 21448,
   "en": "Secreterion Dragon",
@@ -3760,6 +3807,22 @@
   "text_en": "If this card is in your hand (Quick Effect): You can send 1 other \"Elfnote\" card from your hand or face-up field to the GY; Special Summon this card. If this card is Normal or Special Summoned to the center Main Monster Zone: You can Special Summon 1 \"Elfnote\" monster from your Deck, except \"Elfnote Regina\". If this card is sent to the GY as Synchro Material: You can add this card to your hand. You can only use each effect of \"Elfnote Regina\" once per turn.",
   "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 / 상대 턴에, 자신의 패 / 필드(앞면 표시)에서 이 카드 이외의 \"엘펜노츠\" 카드 1장을 묘지로 보내고 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드를 중앙 메인 몬스터 존에 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"엘펜노츠 레기나\" 이외의 \"엘펜노츠\" 몬스터 1장을 특수 소환한다. ③: 이 카드가 싱크로 소재로서 묘지로 보내졌을 경우에 발동할 수 있다. 이 카드를 패에 넣는다."
  },
+ "22524": {
+  "cid": 22524,
+  "en": "Clown Crew Biancaviso",
+  "ko": "크라운 클랜 화이트페이스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Illusion",
+  "attribute": "LIGHT",
+  "level": 7,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "You can Tribute Summon this card face-up by Tributing 1 Ritual, Fusion, Synchro, Xyz, Pendulum, or Link Monster. If this card is Tribute Summoned: You can activate 1 of these effects (but you can only use each effect of \"Clown Crew Biancaviso\" once per turn);\n● Draw cards equal to the number of monsters Tributed.\n● Negate the effects of face-up cards your opponent controls, equal to the number of monsters Tributed.\nOnce per turn, during your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Tribute Summon 1 monster.",
+  "text_ko": "이 카드는 의식 / 융합 / 싱크로 / 엑시즈 / 펜듈럼 / 링크 몬스터 1장을 릴리스하고 앞면 표시로 어드밴스 소환할 수 있다. ①: 이 카드를 어드밴스 소환했을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다(이 카드명의 이하의 효과는 각각 1턴에 1번밖에 선택할 수 없다). ●이 카드의 어드밴스 소환을 위해 릴리스한 몬스터의 수만큼, 자신은 드로우한다. ●이 카드의 어드밴스 소환을 위해 릴리스한 몬스터의 수만큼, 상대 필드의 앞면 표시 카드의 효과를 무효로 한다. ②: 1턴에 1번, 상대 메인 페이즈에 발동할 수 있다. 몬스터 1장의 어드밴스 소환을 실행한다."
+ },
  "22531": {
   "cid": 22531,
   "en": "Kewl Tune Rotary",
@@ -3793,6 +3856,57 @@
   "md_rarity": "UR",
   "text_en": "When a monster your opponent controls activates its effect (Quick Effect): You can reveal this card in your hand and up to 5 Synchro Monsters in your Extra Deck; apply all of these effects in sequence, based on the number revealed, also you cannot activate the effects of monsters Special Summoned from the Extra Deck until the end of your next turn after this effect resolves, except Synchro Monsters.\n● 2+: Special Summon this card. ● 4+: Send 1 revealed Synchro Monster to the GY. ● 6: Destroy 1 monster your opponent controls.\nYou can only use this effect of \"Fydraulis Harmonia\" once per turn.\n\nOCG name- Fidraulis",
   "text_ko": "이 카드명의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 상대 필드의 몬스터가 효과를 발동했을 때, 패의 이 카드와 엑스트라 덱의 싱크로 몬스터 5장까지를 상대에게 보여주고 발동할 수 있다. 보여준 수에 따라 이하의 효과를 전부 적용한다. 이 효과의 발동 후, 다음 자신 턴의 종료시까지, 자신은 싱크로 몬스터 이외의 엑스트라 덱에서 특수 소환된 몬스터의 효과를 발동할 수 없다. ●2장 이상: 이 카드를 특수 소환한다. ●4장 이상: 보여준 싱크로 몬스터 중 1장을 묘지로 보낸다. ●6장: 상대 필드의 몬스터 1장을 파괴한다."
+ },
+ "22538": {
+  "cid": 22538,
+  "en": "Clown Crew Flair",
+  "ko": "크라운 클랜 플레어",
+  "ja": null,
+  "type": "Monster",
+  "race": "Beast-Warrior",
+  "attribute": "LIGHT",
+  "level": 1,
+  "monster_type": [
+   "Ritual",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "You can Ritual Summon this card with a \"Clown Crew\" card. You can reveal this card in your hand; add 1 \"Clown Crew\" card from your Deck to your hand, except a Ritual Monster, then discard 1 card. You can only use this effect of \"Clown Crew Flair\" once per turn. If this card is Tributed: You can activate 1 of these effects (but you can only use each of these effects of \"Clown Crew Flair\" once per turn);\n● Shuffle all Ritual Monsters from the field and the GYs into the Deck.\n● Change 1 Effect Monster on the field to face-down Defense Position.",
+  "text_ko": "\"크라운 클랜\" 카드에 의해 의식 소환<br>이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 패의 이 카드를 상대에게 보여주고 발동할 수 있다. 덱에서 의식 몬스터 이외의 \"크라운 클랜\" 카드 1장을 패에 넣는다. 그 후, 자신의 패를 1장 고르고 버린다. ②: 이 카드가 릴리스되었을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다(이 카드명의 이하의 효과는 각각 1턴에 1번밖에 선택할 수 없다). ●서로의 필드 / 묘지의 의식 몬스터를 전부 덱으로 되돌린다. ●필드의 효과 몬스터 1장을 뒷면 수비 표시로 한다."
+ },
+ "22541": {
+  "cid": 22541,
+  "en": "Clown Crew Diabolo",
+  "ko": "크라운 클랜 디아볼로",
+  "ja": null,
+  "type": "Monster",
+  "race": "Beast-Warrior",
+  "attribute": "LIGHT",
+  "level": 5,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2 monsters with the same Attribute but different Types\nIf your Tribute Summoned monster attacks a Defense Position monster, inflict double piercing battle damage to your opponent. If this card is Tributed: You can activate 1 of these effects (but you can only use each effect of \"Clown Crew Diabolo\" once per turn);\n● Return all Fusion Monsters from the field and the GYs to the Extra Deck.\n● Set 1 \"Clown Crew\" Trap from your Deck.",
+  "text_ko": "같은 속성으로 종족이 다른 몬스터 × 2<br>①: 어드밴스 소환한 자신 몬스터가 수비 표시 몬스터를 공격했을 경우, 그 수비력을 공격력이 넘은 만큼의 배의 수치만큼 상대에게 전투 데미지를 준다. ②: 이 카드가 릴리스되었을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다(이 카드명의 이하의 효과는 각각 1턴에 1번밖에 선택할 수 없다). ●서로의 필드 / 묘지의 융합 몬스터를 전부 엑스트라 덱으로 되돌린다. ●덱에서 \"크라운 클랜\" 함정 카드 1장을 자신 필드에 세트한다."
+ },
+ "22549": {
+  "cid": 22549,
+  "en": "Clown Crew Meteor",
+  "ko": "크라운 클랜 메테오",
+  "ja": null,
+  "type": "Monster",
+  "race": "Beast-Warrior",
+  "attribute": "LIGHT",
+  "level": 6,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "1 Tuner + 1+ non-Tuners\nYour opponent cannot activate cards or effects when you Tribute Summon a monster. If this card is Tributed: You can activate 1 of these effects (but you can only use each effect of \"Clown Crew Meteor\" once per turn);\n● Return all Synchro Monsters from the field and the GYs to the Extra Deck.\n● You can target 1 \"Clown Crew\" card in your GY, except \"Clown Crew Meteor\"; add it to your hand.",
+  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>①: 자신 몬스터의 어드밴스 소환 성공시에 상대는 마법 / 함정 / 몬스터의 효과를 발동할 수 없다. ②: 이 카드가 릴리스되었을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다(이 카드명의 이하의 효과는 각각 1턴에 1번밖에 선택할 수 없다). ●서로의 필드 / 묘지의 싱크로 몬스터를 전부 엑스트라 덱으로 되돌린다. ●\"크라운 클랜 메테오\" 이외의 자신 묘지의 \"크라운 클랜\" 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 패에 넣는다."
  },
  "22550": {
   "cid": 22550,
@@ -3829,6 +3943,23 @@
   "md_rarity": "SR",
   "text_en": "1 Tuner + 1+ Synchro Monsters\nThe Levels of monsters your opponent controls are increased by 2. Your Tuners can make a second attack during each Battle Phase. When your opponent activates a monster effect (Quick Effect): You can target 1 Tuner in your GY or banishment, except a Level 10 Tuner; add it to your hand or Special Summon it, then immediately after this effect resolves, you can Synchro Summon 1 Synchro Monster. You can only use this effect of \"Kewl Tune B2B\" twice per turn.",
   "text_ko": "튜너 ＋ 싱크로 몬스터 1장 이상<br>이 카드명의 ③의 효과는 1턴에 2번까지 사용할 수 있다. ①: 상대 필드의 몬스터의 레벨은 2개 올라간다. ②: 자신의 튜너는 1번의 배틀 페이즈 중에 2회 공격할 수 있다. ③: 상대가 몬스터의 효과를 발동했을 때, 레벨 10 이외의 자신의 묘지 / 제외 상태인 튜너 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 패에 넣거나 특수 소환한다. 그 후, 싱크로 몬스터 1장의 싱크로 소환을 실행할 수 있다."
+ },
+ "22555": {
+  "cid": 22555,
+  "en": "Clown Crew Fiends",
+  "ko": "크라운 클랜 데블즈",
+  "ja": null,
+  "type": "Monster",
+  "race": "Beast-Warrior",
+  "attribute": "LIGHT",
+  "level": 3,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2 Level 3 monsters\nTribute Summoned monsters you control gain 1000 ATK. If this card is Tributed: You can activate 1 of these effects (but you can only use each effect of \"Clown Crew Fiends\" once per turn);\n● Return all Xyz Monsters from the field and the GYs to the Extra Deck.\n● Set 1 \"Clown Crew\" Spell from your Deck.",
+  "text_ko": "레벨 3 몬스터 × 2<br>①: 자신 필드의 어드밴스 소환한 몬스터의 공격력은 1000 올린다. ②: 이 카드가 릴리스되었을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다(이 카드명의 이하의 효과는 각각 1턴에 1번밖에 선택할 수 없다).<br>●서로의 필드 / 묘지의 엑시즈 몬스터를 전부 엑스트라 덱으로 되돌린다.<br>●덱에서 \"크라운 클랜\" 마법 카드 1장을 자신 필드에 세트한다."
  },
  "22559": {
   "cid": 22559,
@@ -3874,6 +4005,76 @@
   "md_rarity": "SR",
   "text_en": "You can reveal 1 \"Power Patron\" monster in your Extra Deck; banish (face-down) 1 card from your hand, then add to your hand or Special Summon, 1 monster from your Deck that mentions that revealed monster's name (except in its once-per-turn restriction clause). You can only use this effect of \"Plundered Power Patron Plane - Vidolia\" once per turn. Monsters your opponent controls lose 100 ATK for each banished card. Your opponent cannot activate the effects of cards in the GY, while you control \"Nerva the Power Patron of Creation\", \"Jupiter the Power Patron of Destruction\", and \"Junora the Power Patron of Tuning\".",
   "text_ko": "이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 엑스트라 덱의 \"감옥신\" 몬스터 1장을 상대에게 보여주고 발동할 수 있다. 자신의 패를 1장 고르고 뒷면으로 제외한다. 그 후, 보여준 몬스터의 카드명이 쓰여진 몬스터 1장을 덱에서 고르고, 패에 넣거나 특수 소환한다. ②: 상대 필드의 몬스터의 공격력은, 제외 상태인 카드의 수 × 100 내린다. ③: 자신 필드에 \"창감옥신 네르바\" \"괴감옥신 유피테르\" \"조감옥신 쥬노라\"가 전부 존재하는 한, 상대는 묘지의 카드의 효과를 발동할 수 없다."
+ },
+ "22568": {
+  "cid": 22568,
+  "en": "Clown Crew Rehearsal",
+  "ko": "크라운 클랜 『리허설』",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Tribute 1 monster from your hand or field; add 1 \"Clown Crew Biancaviso\" and 1 \"Clown Crew\" Spell/Trap, except \"Clown Crew Rehearsal\", from your Deck to your hand. You can banish this card from your GY; Ritual Summon 1 \"Clown Crew\" Ritual Monster from your hand, by Tributing monsters from your hand or field whose total Levels equal or exceed its Level. You can only use each effect of \"Clown Crew Rehearsal\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 패 / 필드의 몬스터 1장을 릴리스하고 발동할 수 있다. 덱에서 \"크라운 클랜 『리허설』\" 이외의 \"크라운 클랜\" 마법 / 함정 카드 1장과 \"크라운 클랜 화이트페이스\" 1장을 패에 넣는다. ②: 묘지의 이 카드를 제외하고 발동할 수 있다. 레벨의 합계가 의식 소환할 몬스터의 레벨 이상이 되도록, 자신의 패 / 필드의 몬스터를 릴리스하고, 패에서 \"크라운 클랜\" 의식 몬스터 1장을 의식 소환한다."
+ },
+ "22569": {
+  "cid": 22569,
+  "en": "Clown Crew Matinee Operatics",
+  "ko": "크라운 클랜 『마티네』",
+  "ja": null,
+  "type": "Spell",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "During your Main Phase: You can Special Summon 1 \"Clown Crew\" monster from your Deck or Extra Deck, ignoring its Summoning conditions, also until the end of the next turn after this effect resolves, you cannot activate the effect of monsters Special Summoned from the Deck or Extra Deck. During the End Phase: You can draw cards equal to the number of different card types of monsters Tributed this turn (Ritual, Fusion, Synchro, Xyz, Pendulum, Link), then you can Set 1 Spell/Trap from your hand. You can only use each effect of \"Clown Crew Matinee Operatics\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 메인 페이즈에 발동할 수 있다. 덱 / 엑스트라 덱에서 \"크라운 클랜\" 몬스터 1장을 소환 조건을 무시하고 특수 소환한다. 이 효과의 발동 후, 다음 턴의 종료시까지 자신은 덱 / 엑스트라 덱에서 특수 소환된 몬스터의 효과를 발동할 수 없다. ②: 자신 / 상대의 엔드 페이즈에 발동할 수 있다. 이 턴에 릴리스된 몬스터의 종류(의식 / 융합 / 싱크로 / 엑시즈 / 펜듈럼 / 링크)의 수만큼 자신은 드로우한다. 그 후, 패에서 마법 / 함정 카드 1장을 세트할 수 있다."
+ },
+ "22570": {
+  "cid": 22570,
+  "en": "Clown Crew Malabarisme",
+  "ko": "크라운 클랜 『말라바리즘』",
+  "ja": null,
+  "type": "Spell",
+  "race": "Quick-Play",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "Special Summon up to 2 \"Clown Crew\" monsters from your Deck and/or Extra Deck, ignoring their Summoning conditions, also until the end of the next turn after this card resolves, you cannot activate the effects of monsters Special Summoned from the Deck or Extra Deck. During your Main Phase, if this card is in your GY, except the turn it was sent there: You can banish this card and Tribute 1 monster from your hand or field, then target 1 card on the field; return it to the hand. You can only use each effect of \"Clown Crew Malabarisme\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 덱 / 엑스트라 덱에서 \"크라운 클랜\" 몬스터를 2장까지 소환 조건을 무시하고 특수 소환한다. 이 카드의 발동 후, 다음 턴의 종료시까지 자신은 덱 / 엑스트라 덱에서 특수 소환된 몬스터의 효과를 발동할 수 없다. ②: 자신 메인 페이즈에, 이 턴에 묘지로 보내져 있지 않은 이 카드를 묘지에서 제외하고, 자신의 패 / 필드의 몬스터 1장을 릴리스하고, 필드의 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 패로 되돌린다."
+ },
+ "22582": {
+  "cid": 22582,
+  "en": "Clown Crew Soiree Operations",
+  "ko": "크라운 클랜 『스와레』",
+  "ja": null,
+  "type": "Trap",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "R",
+  "text_en": "Activate 1 of these effects (but you can only use each of these effects of \"Clown Crew Soiree Operations\" once per turn, also until the end of the next turn after this card resolves, you cannot activate the effects of monsters Special Summoned from the Deck or Extra Deck);\n● Special Summon up to 2 \"Clown Crew\" monsters from your Deck and/or Extra Deck, ignoring their Summoning conditions.\n● Add 1 \"Clown Crew\" monster from your Deck to your hand.\nDuring the Main Phase: You can banish this card from your GY; immediately after this effect resolves, Tribute Summon 1 \"Clown Crew\" monster face-up.",
+  "text_ko": "①: 이하의 효과에서 1개를 선택하고 발동할 수 있다(이 카드명의 이하의 효과는 각각 1턴에 1번밖에 선택할 수 없다). 이 카드의 발동 후, 다음 턴의 종료시까지 자신은 덱 / 엑스트라 덱에서 특수 소환된 몬스터의 효과를 발동할 수 없다. ●덱 / 엑스트라 덱에서 \"크라운 클랜\" 몬스터를 2장까지 소환 조건을 무시하고 특수 소환한다. ●덱에서 \"크라운 클랜\" 몬스터 1장을 패에 넣는다. ②: 자신 / 상대의 메인 페이즈에, 묘지의 이 카드를 제외하고 발동할 수 있다. \"크라운 클랜\" 몬스터 1장의 어드밴스 소환을 앞면 표시로 실행한다."
+ },
+ "22583": {
+  "cid": 22583,
+  "en": "Clown Crew New Face",
+  "ko": "크라운 클랜 『뉴페이스』",
+  "ja": null,
+  "type": "Trap",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "N",
+  "text_en": "During the Standby Phase: You can shuffle 3 \"Clown Crew\" cards from your GY and/or banishment into the Deck, then draw 1 card. If you Tribute Summon a monster: You can target other Spells/Traps on the field up to the number of monsters Tributed for its Tribute Summon; destroy them. If this card is sent to the GY, except from the field: You can place it face-up on your field. You can only use each effect of \"Clown Crew New Face\" once per turn.",
+  "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 / 상대의 스탠바이 페이즈에 발동할 수 있다. 자신의 묘지 / 제외 상태인 \"크라운 클랜\" 카드 3장을 덱으로 되돌린다. 그 후, 자신은 1장 드로우한다. ②: 자신이 몬스터를 어드밴스 소환했을 경우, 그 어드밴스 소환을 위해 릴리스한 몬스터의 수까지, 필드의 다른 마법 / 함정 카드를 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다. ③: 이 카드가 필드 이외에서 묘지로 보내졌을 경우에 발동할 수 있다. 이 카드를 자신 필드에 앞면 표시로 놓는다."
  },
  "22586": {
   "cid": 22586,
@@ -3988,6 +4189,23 @@
   "text_en": "1 Tuner + 1 non-Tuner Spellcaster monster\nWhile this card is in the center Main Monster Zone, neither player can declare attacks, except with monsters in their center Main Monster Zones. During the Main Phase, if this card is in the center Main Monster Zone (Quick Effect): You can return this card to the Extra Deck, and if you do, Special Summon up to 1 \"Elfnote\" monster each from your hand, Deck, and GY. You can only use this effect of \"Elfnote June Pride\" once per turn.",
   "text_ko": "튜너 ＋ 튜너 이외의 마법사족 몬스터 1장<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 중앙의 메인 몬스터 존에 존재하는 한, 양쪽 플레이어는 중앙의 메인 몬스터 존의 몬스터로밖에 공격 선언할 수 없다. ②: 이 카드가 중앙의 메인 몬스터 존에 존재할 경우, 자신 / 상대의 메인 페이즈에 발동할 수 있다. 이 카드를 엑스트라 덱으로 되돌리고, 자신의 패 / 덱 / 묘지에서 각각 1장까지, \"엘펜노츠\" 몬스터를 특수 소환한다."
  },
+ "22991": {
+  "cid": 22991,
+  "en": "Clown Crew Dristy",
+  "ko": "크라운 클랜 드리시",
+  "ja": null,
+  "type": "Monster",
+  "race": "Beast-Warrior",
+  "attribute": "LIGHT",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2 Ritual, Fusion, Synchro, Xyz, and/or Pendulum Monsters\nYour Tribute Summoned monsters can make a second attack during each Battle Phase. If this card is Tributed: You can activate 1 of these effects (but you can only use each effect of \"Clown Crew Dristy\" once per turn);\n● Return all Link Monsters from the field and the GYs to the Extra Deck.\n● Each player with a hand shuffles their entire hand into the Deck, then draws the same number of cards they shuffled into the Deck.",
+  "text_ko": "의식 / 융합 / 싱크로 / 엑시즈 / 펜듈럼 몬스터 2장<br>①: 어드밴스 소환한 자신 몬스터는 1번의 배틀 페이즈 중에 2회 공격할 수 있다. ②: 이 카드가 릴리스되었을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다(이 카드명의 이하의 효과는 각각 1턴에 1번밖에 선택할 수 없다). ●서로의 필드 / 묘지의 링크 몬스터를 전부 엑스트라 덱으로 되돌린다. ●양쪽 플레이어는 자신의 패를 전부 덱으로 되돌린다. 그 후, 양쪽 플레이어는 자신이 되돌린 수만큼 드로우한다."
+ },
  "23010": {
   "cid": 23010,
   "en": "Pot of Sloth",
@@ -4015,5 +4233,19 @@
   "md_rarity": "N",
   "text_en": "If you have a \"The Phantom Knights\" monster in your field or GY, you can activate this card the turn it was Set. Special Summon this card in Defense Position as a Normal Monster (Warrior/DARK/Level 3/ATK 0/DEF 300) (this card is NOT treated as a Trap), then you can change 1 Attack Position monster your opponent controls to Defense Position. You can banish this card from your GY; immediately after this effect resolves, Xyz Summon 1 DARK Xyz Monster. You can only use each effect of \"The Phantom Knights of Umbrage Veil\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. 자신의 필드나 묘지에 \"팬텀 나이츠\" 몬스터가 존재할 경우, 이 카드는 세트한 턴에도 발동할 수 있다. ①: 이 카드는 발동 후, 일반 몬스터(전사족 / 어둠 / 레벨 3 / 공 0 / 수 300)가 되고, 몬스터 존에 수비 표시로 특수 소환한다(함정 카드로는 취급하지 않는다). 그 후, 상대 필드의 공격 표시 몬스터 1장을 수비 표시로 할 수 있다. ②: 묘지의 이 카드를 제외하고 발동할 수 있다. 어둠 속성 엑시즈 몬스터 1장의 엑시즈 소환을 실행한다."
+ },
+ "23025": {
+  "cid": 23025,
+  "en": "Clown Crew Finale",
+  "ko": "크라운 클랜 『피날레』",
+  "ja": null,
+  "type": "Trap",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "N",
+  "text_en": "If you control a Tribute Summoned monster: Discard any number of cards, then target that many face-up cards on the field; destroy them. You can banish this card from your GY, and Tribute 1 Ritual, Fusion, Synchro, Xyz, Pendulum, or Link Monster from your hand or field; add 1 \"Clown Crew\" monster with a different original Level/Rank/Link Rating from your Deck or GY to your hand. You can only use each effect of \"Clown Crew Finale\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 어드밴스 소환한 몬스터가 자신 필드에 존재할 경우, 패를 임의의 수만큼 버리고, 그 수만큼 필드의 앞면 표시 카드를 대상으로 하여 발동할 수 있다. 그 카드를 파괴한다. ②: 묘지의 이 카드를 제외하고, 자신의 패 / 필드의 의식 / 융합 / 싱크로 / 엑시즈 / 펜듈럼 / 링크 몬스터 1장을 릴리스하여 발동할 수 있다. 그 몬스터와는 원래의 레벨 / 랭크 / 링크의 수치가 다른 \"크라운 클랜\" 몬스터 1장을 자신의 덱 / 묘지에서 패에 넣는다."
  }
 }

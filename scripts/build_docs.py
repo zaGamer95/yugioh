@@ -175,6 +175,18 @@ def main():
                 bad = set(s.get("class", [])) - set(classes)
                 if bad:
                     sys.exit(f"{f.name}: unknown effect class {bad}")
+        lines = {l["id"]: l for l in t.get("lines", [])}
+        hits = {h["id"]: set(h["hits"]) for h in ht}
+        for c in t.get("chokepoints", []):
+            line, step = lines.get(c.get("line")), c.get("step")
+            if c["severity"] == "bad" or not line or not step:
+                continue
+            if not 1 <= step <= len(line["steps"]):
+                print(f"경고 {f.name}: {c['line']} {step}단계가 없음")
+                continue
+            cls = set(line["steps"][step - 1].get("class", []))
+            if hits.get(c["handtrap"]) is not None and hits[c["handtrap"]] and not hits[c["handtrap"]] & cls:
+                print(f"경고 {f.name}: {c['handtrap']} 는 {c['line']} {step}단계 {sorted(cls)} 에 대응 못 함")
         (docs / f"{t['slug']}.md").write_text(build_theme(t, names, ht, classes), encoding="utf-8")
         themes.append(t)
 
