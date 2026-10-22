@@ -1,0 +1,187 @@
+# 죄보 (Sinful Spoils)
+
+> 상태: 초안 · 검증 필요 · 갱신: 2026-10-22 · 메타 점유율: 1.1% (8덱, 2026-09-22~10-22 랭크·DC)
+
+> 포함 변형: White Forest Azamina, Azamina, Snake-Eye
+
+## 한눈에 보기
+
+죄보(디아벨스타) 카드군은 현재 MD에서 단독 덱보다 '엔진'으로 쓰인다. 메인 테마로는 백림 아자미나(5덱)·아자미나(2덱)가 있고, 미츠루기·오르쿠스트·팬텀 나이츠·엘펜노츠·냠냠 계열에 “죄보사냥의 악마” (WANTED: Seeker of Sinful Spoils)+흑마녀 디아벨스타 (Diabellstar the Black Witch)+죄보의 기만 (Deception of the Sinful Spoils)+성스러운 아자미나 (The Hallowed Azamina) 묶음으로 섞인다(엔진 채용률 7~10%, 집계는 메인 테마 덱만). 엔진의 공통 골격은 'WANTED → 디아벨스타 → 기만 세트 → 아자미나 서치 → 아자미나 융합체'와 '디아벨스타 → 멸망의 흑마술사 (Dark Magician of Destruction) → 티마이오스의 안광 (The Gaze of Timaeus) → 초마도용기사－붉은 눈의 드라군 (Red-Eyes Dark Dragoon)'이다. 백림 아자미나는 여기에 백림 싱크로 축과 백마녀 디아벨제 (Diabellze the White Witch)→커스 오브 디아벨 (Curse of Diabell)→필리어스 디아벨 (Filia Diabell)→단죄의 디아벨스타 (Diabellstar Vengeance) 축이 붙어 무효·파괴 견제를 4~5개 쌓는다. 서치를 연달아 하는 구조라 드롤에 매우 약하고(덱 빌더들도 '드롤에 죽는다'고 적음), 엔진 단독으로 들어간 호스트 덱은 WANTED·디아벨스타 1장에 의존하므로 첫 서치를 끊으면 엔진 전체가 멈춘다.
+
+### 패트랩 상성 요약
+
+| 패트랩 | 평가 | 언제 / 어디에 |
+|---|---|---|
+| 하루 우라라 (Ash Blossom & Joyous Spring) | 🔴 치명 | 엔진은 WANTED, 백림 아자미나는 엘제트 ①. 기만의 아자미나 서치·성도 엘제트 묘지 서치도 좋은 대상. 디아벨스타 세트 효과에는 못 씀 |
+| 드롤 & 로크 버드 (Droll & Lock Bird) | 🔴 치명 | 첫 서치 처리 직후. 서치가 연속되는 덱이라 가장 아픈 패트랩 |
+| 증식의 G (Maxx "C") | 🟠 아픔 | 첫 특소 효과(엘제트 자체 특소 등)에 체인. 백림 아자미나는 특소 10회 이상 |
+| 마루챠미 후와로스 (Mulcharmy Fuwalos) | 🟠 아픔 | 싱크로·아자미나 융합 등 엑스트라 덱 특소가 많다. 내 필드가 비어 있을 때만 |
+| 무한포영 (Infinite Impermanence) | 🟠 아픔 | 디아벨스타의 죄보 마함 세트 효과에 체인(우라라로 못 막는 구간). 백림 쪽은 루시엘라 서치 |
+| 이펙트 뵐러 (Effect Veiler) | 🟠 아픔 | 무한포영과 같은 지점. 상대 메인 페이즈라 선공 전개 중 사용 가능 |
+| 유령토끼 (Ghost Ogre & Snow Rabbit) | 🟠 아픔 | 앞면 기만의 ① 효과에 체인해 파괴 → 할로우드 아자미나로 보낼 죄보 카드를 없앰 |
+| 도미나스 임펄스 (Dominus Impulse) | 🟠 아픔 | 할로우드 아자미나(특소), 엘제트 ①, 티마이오스의 눈빛 등 특소 포함 효과 무효. 디아벨스타 패 특소는 소환 규칙이라 불가 |
+| 도미나스 퍼지 (Dominus Purge) | 🟠 아픔 | WANTED·기만 서치 대응. 패 발동은 상대 필드에 카드가 있어야 함 |
+| 마루챠미 푸루리아 (Mulcharmy Purulia) | 🟡 할만함 | 실비 일반 소환, 엘제트·성도 엘제트·디아벨스타·디아벨제 패 특소에 반응. 앞부분에 몰려 있어 드로우는 2~4장 수준 |
+| 저택 와라시 (Ghost Belle & Haunted Mansion) | 🟡 할만함 | 할로우드 아자미나 묘지 회수, 실비 묘지 특소, 벤전스 묘지 특소 |
+| 사요 시구레 (Ghost Mourner & Moonlit Chill) | 🟡 할만함 | 디아벨스타 특소 직후 효과 무효(포영과 같은 효과)나 루시엘라 특소 직후 |
+| 금지된 일적 (Forbidden Droplet) | 🟡 할만함 | 후공 돌파용. 드래군은 대상 불가라도 일적은 대상이 아니라 통한다 |
+| 원시생명체 니비루 (Nibiru, the Primal Being) | 🟡 할만함 | 소환 수는 충분하지만 디아벨의 퀵 특소·일리아 실비아 무효로 대응 가능. 상대 견제를 먼저 쓰게 한 뒤에 |
+| 도미나스 스파크 (Dominus Spark) | 🟡 할만함 | 엘제트·성도 엘제트(패 효과)·성도 엘제트 묘지 효과 등 발동 후 견제 몬스터 1장 제외 |
+| PSY프레임기어 γ (PSY-Framegear Gamma) | 🟡 할만함 | 엘제트 ① 또는 디아벨스타 세트 효과에 체인. 내 필드에 몬스터가 없을 때 |
+| Mulcharmy Meowls ⚠ | ⚪ 약함 | 묘지 특소는 실비 퀵·벤전스 정도뿐 |
+| 삼전의 재 (Triple Tactics Talent) | ⚪ 약함 | 선공 견제가 아니라 후공 내 턴에 쓰는 카드 |
+| 비스테드 마그나무트 (Bystial Magnamhut) | ⚪ 약함 | 묘지의 디아벨스타/성도 엘제트 제외 정도 |
+| 말살의 지명자 (Crossout Designator) | ⛔ 비추 | 자기 덱의 카드만 선언 가능. 상대 테마 카드에는 사실상 못 쓴다. 나도 WANTED·디아벨스타를 넣은 경우에만 의미 |
+
+## 혈자리 (우선순위 순)
+
+1. 🔴 치명 **드롤 & 로크 버드** (Droll & Lock Bird) → **하얀 숲의 리제트** (Elzette of the White Forest) — wfa 1단계
+   - 타이밍: 엘제트의 서치(실비)가 처리된 직후, 다음 서치 전에 드롤 발동
+   - 이유: 백림 아자미나는 실비→전해짐→디아벨제/성도 엘제트→기만→아자미나→WANTED까지 서치 8~9회로 굴러간다. 첫 서치 뒤 드롤이면 루시엘라·성도 엘제트·기만·무 르시엘라고 서치가 전부 빈칸이 되고, 덱 빌더 메모에서도 '드롤에 죽는다'고 명시한다.
+   - 맞은 뒤 상대 루트: 실비 일반 소환 + 엘제트로 레벨 6 싱크로 1장 정도. 패에 미리 있던 기만·WANTED가 없으면 아자미나 축 진입 불가.
+2. 🔴 치명 **하루 우라라** (Ash Blossom & Joyous Spring) → **“죄보사냥의 악마”** (WANTED: Seeker of Sinful Spoils) — engine 1단계
+   - 타이밍: WANTED 발동에 체인
+   - 이유: 호스트 덱에 섞인 엔진은 WANTED(제한 1) 또는 디아벨스타 1장에서만 시작한다. 여기서 디아벨스타를 못 가져오면 기만·아자미나·드래군 견제 2개가 통째로 사라진다.
+   - 맞은 뒤 상대 루트: 패에 디아벨스타 실물이 있으면 엔진은 계속된다. 호스트 본체 전개는 별개.
+3. 🔴 치명 **하루 우라라** (Ash Blossom & Joyous Spring) → **하얀 숲의 리제트** (Elzette of the White Forest) — wfa 1단계
+   - 타이밍: 엘제트의 ① 효과(자체 특소 + 서치) 발동에 체인
+   - 이유: 특소와 서치가 한 효과라 우라라로 둘 다 무효가 된다. 비용으로 마함 1장도 이미 썼고, 실비가 없으면 싱크로 축 자체가 시작되지 않는다.
+   - 맞은 뒤 상대 루트: 패에 실비·마녀 등 다른 백림 초동이 있으면 우회. 비용 마함은 백림 카드라면 다시 세트되어 남는다.
+4. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **죄보의 기만** (Deception of the Sinful Spoils) — engine 5단계
+   - 타이밍: 앞면이 된 기만의 ① 효과(릴리스 → 아자미나 서치) 발동에 체인
+   - 이유: 서치는 처리되지만 기만 본체가 파괴되어 성스러운 아자미나 (The Hallowed Azamina)로 보낼 '죄보' 카드가 사라진다(호스트 덱은 다른 죄보 카드가 거의 없음). 무효가 아닌 파괴라는 점이 오히려 여기서는 이득.
+   - 맞은 뒤 상대 루트: 기만은 엔드 페이즈에 다시 세트되니 다음 턴 재사용. 디아벨스타 → 드래군 루트는 남는다.
+5. 🟠 아픔 **하루 우라라** (Ash Blossom & Joyous Spring) → **죄보의 기만** (Deception of the Sinful Spoils) — engine 5단계
+   - 타이밍: 기만의 아자미나 서치 효과에 체인
+   - 이유: 아자미나 융합(일리아 실비아 무효)이 사라진다. 릴리스 비용도 이미 냈다.
+   - 맞은 뒤 상대 루트: 디아벨스타는 필드에 남아 파괴의 흑마술사 → 드래군은 간다.
+6. 🟠 아픔 **무한포영** (Infinite Impermanence) → **흑마녀 디아벨스타** (Diabellstar the Black Witch) — engine 3단계
+   - 타이밍: 디아벨스타 특소 직후 '죄보 마함 세트' 효과 발동에 체인(뵐러도 동일)
+   - 이유: 세트 효과는 서치가 아니어서 우라라로는 못 막는다. 여기를 무효로 하면 기만/원죄보/모리안이 나오지 않아 아자미나 축이 끊긴다.
+   - 맞은 뒤 상대 루트: 디아벨스타 몸은 남아 파괴의 흑마술사 → 드래군 루트는 남음. 무한포영 세트 사용이 아니라면 디아벨스타 몸 무효 외 추가 이득은 없다.
+7. 🟠 아픔 **하루 우라라** (Ash Blossom & Joyous Spring) → **하얀 숲의 아자미나 리제트** (Elzette, Azamina of the White Forest) — wfa 9단계
+   - 타이밍: 디아벨 싱크로 후 성도 엘제트의 묘지 서치(기만)에 체인
+   - 이유: 백림 축과 아자미나 축을 잇는 다리. 기만이 없으면 무 르시엘라고 → WANTED → 일리아 실비아 라인이 끊긴다.
+   - 맞은 뒤 상대 루트: 디아벨·바롱 계열 싱크로 견제와 디아벨제 축은 남는다.
+8. 🟠 아픔 **증식의 G** (Maxx "C") → **하얀 숲의 리제트** (Elzette of the White Forest) — wfa 1단계
+   - 타이밍: 엘제트 자체 특소 효과 발동에 체인(가능한 한 이른 특소)
+   - 이유: 풀 전개는 특소가 10회 이상. 상대가 멈추면 견제가 1~2개로 줄고, 계속하면 대량 드로우.
+   - 맞은 뒤 상대 루트: 디아벨 싱크로 + 일리아 실비아 정도에서 멈추는 경우가 많다.
+9. 🟠 아픔 **마루챠미 후와로스** (Mulcharmy Fuwalos) → **하얀 숲의 마성 루시엘라** (Rciela, Sinister Soul of the White Forest) — wfa 4단계
+   - 타이밍: 첫 엑스트라 덱 특소(루시엘라 싱크로) 전에, 내 필드가 빈 상태로 사용
+   - 이유: 백림 아자미나의 특소는 대부분 엑스트라 덱(싱크로·아자미나 융합). 패 특소 위주인 앞부분만 지나면 G와 비슷한 압박.
+   - 맞은 뒤 상대 루트: 엔드 페이즈 패 매수 제한이 있으니 상대가 일찍 멈추면 이득이 작다.
+10. 🟡 할만함 **저택 와라시** (Ghost Belle & Haunted Mansion) → **단죄의 디아벨스타** (Diabellstar Vengeance) — wfa 25단계
+   - 타이밍: 벤전스의 묘지 특소 효과에 체인(또는 17단계 실비의 묘지 특소)
+   - 이유: 퀵 파괴 견제 1개를 지운다. 할로우드 아자미나 묘지 회수(14단계)에 쓰면 일리아 실비아를 막을 수 있다.
+   - 맞은 뒤 상대 루트: 앞에서 이미 견제가 다 깔린 뒤라 전개 자체는 멈추지 않는다.
+11. ⛔ 비추 **하루 우라라** (Ash Blossom & Joyous Spring) → **흑마녀 디아벨스타** (Diabellstar the Black Witch) — engine 3단계
+   - 타이밍: 디아벨스타의 죄보 마함 세트 효과
+   - 이유: 덱에서 '세트'하는 효과는 서치·특소·덤핑이 아니라 우라라 발동 조건이 안 된다. 디아벨스타의 패 특소도 소환 규칙이라 체인할 효과가 없다.
+   - 맞은 뒤 상대 루트: 우라라는 WANTED·기만·흑마술사 서치에 아껴 둔다.
+
+## 핵심 카드
+
+| 카드 | 역할 |
+|---|---|
+| “죄보사냥의 악마” (WANTED: Seeker of Sinful Spoils) | 엔진 1장 초동(MD 제한 1). 덱·묘지에서 디아벨스타 서치 |
+| 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 패/필드 1장을 보내고 자체 특소(소환 규칙). 소환 시 덱에서 '죄보' 마함 1장을 세트(서치가 아님) |
+| 죄보의 기만 (Deception of the Sinful Spoils) | 지속 마법. 몬스터 1장 릴리스로 '아자미나' 카드 서치. 필드에서 앞면으로 묘지에 가면 엔드 페이즈에 재세트 |
+| 성스러운 아자미나 (The Hallowed Azamina) | '죄보' 카드를 보내 아자미나 융합체를 특소(융합 소환 취급). 묘지 효과로 아자미나 몬스터를 덱에 넣고 자신 회수 |
+| 아자미나 레아 실비아 (Azamina Ilia Silvia) | 자신을 릴리스해 상대 효과 무효(퀵). 엔진의 기본 견제 |
+| 아자미나 무 루시엘라고 (Azamina Mu Rcielago) | 융합 소환 시 '아자미나'/'죄보' 카드 서치. 백림 아자미나에서 WANTED를 가져오는 다리 |
+| 멸망의 흑마술사 (Dark Magician of Destruction) | 디아벨스타(레벨 6 이상 어둠 마법사족)를 제외해 엑스트라 덱에서 특소, 블랙 매지션 관련 카드 서치 → 티마이오스의 눈빛 → 드래군 |
+| 하얀 숲의 리제트 (Elzette of the White Forest) | 백림 아자미나 초동. 마함 1장을 보내고 자체 특소 + '백림' 몬스터 서치 |
+| 하얀 숲의 아자미나 리제트 (Elzette, Azamina of the White Forest) | 패에서 공개해 자신을 특소, 싱크로 소재로 묘지에 가면 '죄보' 카드 서치 |
+| 백마녀 디아벨제 (Diabellze the White Witch) | 덱에서 커스 오브 디아벨 (Curse of Diabell)을 보내 디아벨 축 진입. 디아벨 몬스터 2장 이상이면 자기 몬스터 효과 파괴 내성 |
+| 단죄의 디아벨스타 (Diabellstar Vengeance) | 마법+함정 1장씩 제외로 패/묘지에서 특소. 퀵으로 반LP 지불 후 파괴 + 튜너 싱크로 특소 |
+
+## 전개: 죄보 엔진 공통: WANTED(또는 디아벨스타) 1장 → 아자미나 + 드래군 (`engine`)
+
+초동 패: **“죄보사냥의 악마”** (WANTED: Seeker of Sinful Spoils)
+
+오르쿠스트·팬텀 나이츠·미츠루기 오르쿠스트 등 호스트 덱의 공통 엔진 부분. 디아벨스타 특소 비용과 기만의 릴리스 비용은 호스트 카드로 낸다(미츠루기는 미츠루기 몬스터를 기만으로 릴리스해 릴리스 유발까지 챙김). 디아벨스타를 직접 잡았으면 1단계를 건너뛴다.
+
+| # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
+|---|---|---|---|---|
+| 1 | “죄보사냥의 악마” (WANTED: Seeker of Sinful Spoils) | 속공 마법 발동: 덱(또는 묘지)에서 디아벨스타 서치 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) 서치 | 우라라, 드롤, 도미나스 퍼지 |
+| 2 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 패/필드의 카드 1장을 묘지로 보내고 패에서 특소(효과 발동이 아닌 소환 규칙) |  | G, 푸루리아, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 3 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 특소 성공 시 효과: 덱에서 '죄보' 마함 1장 세트 | 죄보의 기만 (Deception of the Sinful Spoils) 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 4 | 죄보의 기만 (Deception of the Sinful Spoils) | 세트한 기만을 앞면으로 발동(카드 발동만, 효과 없음) |  | – |
+| 5 | 죄보의 기만 (Deception of the Sinful Spoils) | ① 효과: 패/필드 몬스터 1장 릴리스 → 덱에서 '아자미나' 카드 서치 | 성스러운 아자미나 (The Hallowed Azamina) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
+| 6 | 성스러운 아자미나 (The Hallowed Azamina) | 일반 마법: 필드의 기만('죄보' 카드)을 묘지로 보내고 레벨 6 아자미나 융합체 특소(융합 소환 취급) | 아자미나 레아 실비아 (Azamina Ilia Silvia)(견제) 또는 서치가 필요하면 아자미나 무 루시엘라고 (Azamina Mu Rcielago). 기만은 엔드 페이즈에 재세트 | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 7 | 멸망의 흑마술사 (Dark Magician of Destruction) | 이번 턴 마법을 발동했으므로 필드의 디아벨스타를 제외해 엑스트라 덱에서 특소(소환 규칙) |  | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 8 | 멸망의 흑마술사 (Dark Magician of Destruction) | 특소 성공 시 효과: 덱에서 '블랙 매지션' 또는 그 이름이 적힌 카드 서치 | 티마이오스의 안광 (The Gaze of Timaeus) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 9 | 티마이오스의 안광 (The Gaze of Timaeus) | 속공 마법: 파괴의 흑마술사(필드에서 '블랙 매지션' 취급)를 덱에 넣고 융합 소환 | 초마도용기사－붉은 눈의 드라군 (Red-Eyes Dark Dragoon) (다음 턴 엔드 페이즈에 제외) | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+
+**최종 필드 / 견제**: 초마도용기사－붉은 눈의 드라군 (Red-Eyes Dark Dragoon), 아자미나 레아 실비아 (Azamina Ilia Silvia), 죄보의 기만 (Deception of the Sinful Spoils)
+
+드래군 1회 발동 무효(대상 불가·효과 파괴 불가) + 일리아 실비아 1회 무효. 기만은 엔드 페이즈에 다시 세트되어 다음 턴 아자미나 서치·번 효과에 쓴다. 여기에 호스트 덱의 필드가 더해진다.
+
+## 전개: 백림 아자미나: 엘제트 + 마함 1장 풀 전개 (`wfa`)
+
+초동 패: **하얀 숲의 리제트** (Elzette of the White Forest) + **하얀 숲의 재앙** (Woes of the White Forest)
+
+MDM 덱 메모(2025-11 Master V)의 '베스트 케이스' 흐름을 카드 텍스트로 재구성. 두 번째 카드는 엘제트의 비용이 될 아무 마함이면 된다(백림 마함은 몬스터 효과 비용으로 묘지에 가면 스스로 세트). 패 상황에 따라 하얀 숲의 마녀 (Witch of the White Forest)나 하얀 숲의 실비 (Silvy of the White Forest)로 시작하는 변형이 많다.
+
+| # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
+|---|---|---|---|---|
+| 1 | 하얀 숲의 리제트 (Elzette of the White Forest) | 패/필드 마함 1장을 묘지로 보내고 자신을 패에서 특소, 그 후 덱에서 '백림' 몬스터 서치 | 하얀 숲의 실비 (Silvy of the White Forest) 서치 | 우라라, G, 푸루리아, 드롤, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 퍼지, 도미나스 스파크, 감마 |
+| 2 | 하얀 숲의 실비 (Silvy of the White Forest) | 일반 소환 |  | 푸루리아, 니비루 |
+| 3 | 하얀 숲의 실비 (Silvy of the White Forest) | 소환 성공 시 효과: 덱에서 '백림' 마함 서치 | 하얀 숲의 전해져오는 이야기 (Tales of the White Forest) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 4 | 하얀 숲의 마성 루시엘라 (Rciela, Sinister Soul of the White Forest) | 실비(레벨 4 튜너) + 엘제트(레벨 2)로 레벨 6 싱크로 소환 |  | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 5 | 하얀 숲의 마성 루시엘라 (Rciela, Sinister Soul of the White Forest) | 특소 시 효과: 패의 하얀 숲의 전해져오는 이야기 (Tales of the White Forest)를 보내고 '백림' 카드 서치 | 백마녀 디아벨제 (Diabellze the White Witch) 서치. 비용으로 보낸 전해짐은 자기 효과로 다시 세트 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 6 | 하얀 숲의 전해져오는 이야기 (Tales of the White Forest) | 다시 세트한 전해짐 발동: 덱에서 '백림' 몬스터 서치 | 하얀 숲의 아자미나 리제트 (Elzette, Azamina of the White Forest) 서치 | 우라라, 드롤, 도미나스 퍼지 |
+| 7 | 하얀 숲의 아자미나 리제트 (Elzette, Azamina of the White Forest) | 패에서 공개하고 자신을 특소 |  | G, 푸루리아, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 8 | 하얀 숲의 요마 디아벨 (Diabell, Queen of the White Forest) | 루시엘라(레벨 6 튜너 싱크로) + 성도 엘제트(레벨 2)로 레벨 8 싱크로 소환 |  | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 9 | 하얀 숲의 아자미나 리제트 (Elzette, Azamina of the White Forest) | 싱크로 소재로 묘지에 가서 발동: 덱에서 '죄보' 카드 서치 | 죄보의 기만 (Deception of the Sinful Spoils) 서치 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
+| 10 | 하얀 숲의 요마 디아벨 (Diabell, Queen of the White Forest) | 튜너 싱크로를 소재로 싱크로 소환된 경우 발동(8단계에 체인): 묘지의 마함 1장을 패에 넣음 | 비용으로 쓴 마함 회수(이후 디아벨제 비용 등) | 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 비스테드 마그남헛, 감마 |
+| 11 | 죄보의 기만 (Deception of the Sinful Spoils) | 발동 후 ① 효과: 패의 필요 없는 몬스터 1장 릴리스 → '아자미나' 카드 서치 | 성스러운 아자미나 (The Hallowed Azamina) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
+| 12 | 성스러운 아자미나 (The Hallowed Azamina) | 기만을 묘지로 보내고 레벨 6 아자미나 융합체 특소 | 아자미나 무 루시엘라고 (Azamina Mu Rcielago) | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 13 | 아자미나 무 루시엘라고 (Azamina Mu Rcielago) | 융합 소환 시 효과: '아자미나'/'죄보' 카드 서치 | “죄보사냥의 악마” (WANTED: Seeker of Sinful Spoils) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 14 | 성스러운 아자미나 (The Hallowed Azamina) | 묘지 효과: 묘지의 성도 엘제트(아자미나 몬스터)를 덱에 넣고 자신을 패로 |  | 와라시, 비스테드 마그남헛 |
+| 15 | 성스러운 아자미나 (The Hallowed Azamina) | 다시 발동하고 체인으로 WANTED 발동. 체인 처리 중 필드에 남아 있는 WANTED를 '죄보' 카드로 보내 융합체 특소 | 아자미나 레아 실비아 (Azamina Ilia Silvia) | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 16 | “죄보사냥의 악마” (WANTED: Seeker of Sinful Spoils) | (15단계에 체인) 덱에서 디아벨스타 서치 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) 서치 | 우라라, 드롤, 도미나스 퍼지 |
+| 17 | 하얀 숲의 실비 (Silvy of the White Forest) | 묘지에서 퀵 효과: 묘지의 루시엘라를 엑스트라 덱으로 되돌리고 자신을 특소(효과 무효) |  | G, 냐루스, 와라시, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 18 | 플뢰르 드 바로네스 (Baronne de Fleur) | 무 르시엘라고(레벨 6) + 실비(레벨 4 튜너)로 레벨 10 싱크로 | 또는 카오스 앙헬－혼돈의 쌍익－ (Chaos Angel) | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 19 | 백마녀 디아벨제 (Diabellze the White Witch) | 패/필드 마함 1장을 보내고 패에서 특소 |  | G, 푸루리아, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 20 | 백마녀 디아벨제 (Diabellze the White Witch) | 소환 시 효과: 덱에서 '죄보'/'디아벨' 카드 1장을 묘지로 | 커스 오브 디아벨 (Curse of Diabell) 덤핑 | 우라라, 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 21 | 커스 오브 디아벨 (Curse of Diabell) | 덱에서 묘지로 보내졌을 때 효과: 덱에서 '디아벨' 마함 서치 | 필리어스 디아벨 (Filia Diabell) 서치 | 우라라, 드롤, 도미나스 퍼지 |
+| 22 | 필리어스 디아벨 (Filia Diabell) | 일반 마법: 덱에서 레벨 8 이상 '디아벨' 몬스터 서치 | 단죄의 디아벨스타 (Diabellstar Vengeance) 서치 | 우라라, 드롤, 도미나스 퍼지 |
+| 23 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 패의 단죄의 디아벨스타 (Diabellstar Vengeance)를 묘지로 보내고 패에서 특소(소환 규칙) |  | G, 푸루리아, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 24 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 소환 시 효과: 덱에서 '죄보' 마함 세트 | 졸음의 죄보－모리안 (Sinful Spoils of Slumber - Morrian) 또는 배신의 죄보－실비아 (Sinful Spoils of Betrayal - Silvera) 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 25 | 단죄의 디아벨스타 (Diabellstar Vengeance) | 묘지의 필리어스 디아벨 (Filia Diabell)(마법)과 커스 오브 디아벨 (Curse of Diabell)(함정)을 제외하고 묘지에서 특소 | 필리아가 제외되어 디아벨 몬스터 공격력 500 상승 | G, 냐루스, 와라시, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+
+**최종 필드 / 견제**: 하얀 숲의 요마 디아벨 (Diabell, Queen of the White Forest), 아자미나 레아 실비아 (Azamina Ilia Silvia), 플뢰르 드 바로네스 (Baronne de Fleur), 백마녀 디아벨제 (Diabellze the White Witch), 흑마녀 디아벨스타 (Diabellstar the Black Witch), 단죄의 디아벨스타 (Diabellstar Vengeance), 졸음의 죄보－모리안 (Sinful Spoils of Slumber - Morrian)
+
+견제: 일리아 실비아 무효, 바롱 무효+파괴, 디아벨 퀵 효과(마함 1장 보내고 튜너 싱크로 특소 → 상대 턴 싱크로 연계), 벤전스 퀵 파괴, 세트한 모리안/실베라. 디아벨 몬스터 2장 이상이라 자기 몬스터는 상대 효과로 파괴되지 않는다. 몬스터 존이 모자라거나 패가 다르면 일부(바롱·필리아 등)를 생략한다.
+
+## 전개: 디아벨스타 → 원죄보로 스네이크아이 접속(엘펜노츠·냠냠 호스트) (`snake`)
+
+초동 패: **흑마녀 디아벨스타** (Diabellstar the Black Witch)
+
+스네이크아이를 함께 넣은 호스트(냠냠·엘펜노츠·스네이크아이)의 짧은 연결. 이후는 스네이크아이 덱의 영역이라 여기서는 엔진 진입 구간만 적는다.
+
+| # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
+|---|---|---|---|---|
+| 1 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 패/필드 카드 1장을 보내고 패에서 특소 |  | G, 푸루리아, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 2 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 소환 시 효과: 덱에서 '죄보' 마함 세트 | Original Sinful Spoils - Snake-Eye ⚠ 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 3 | Original Sinful Spoils - Snake-Eye ⚠ | 발동: 디아벨스타(자신 이외의 앞면 카드)를 묘지로 보내고 패/덱에서 레벨 1 화염 몬스터 특소 | Snake-Eye Ash ⚠ 특소 | 우라라, G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 4 | Snake-Eye Ash ⚠ | 특소 시 효과: 덱에서 레벨 1 화염 몬스터 서치 | Snake-Eye Oak ⚠ 등 서치 → 스네이크아이 전개로 이어짐 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+
+## 주의할 점
+
+- 디아벨스타의 패 특소는 효과 발동이 아니라 소환 규칙이다. 우라라·포영으로 막을 수 없고, 특소 '후' 세트 효과에만 포영·뵐러를 쓴다.
+- 디아벨스타의 세트 효과는 서치가 아니어서 우라라·드롤·퍼지 모두 반응하지 않는다.
+- 디아벨스타는 '상대 턴에' 패/필드에서 묘지로 가면 자체 소생한다. 상대 턴에 흑마녀 디아벨스타 (Diabellstar the Black Witch)를 묘지로 보내는 제거는 역이용될 수 있다.
+- 할로우드 아자미나·아자미나 채무자의 융합체 특소는 엑스트라 덱 특소라 우라라 대상이 아니다(G·후와로스·임펄스는 가능).
+- 레드아이즈 다크 드래군은 대상 불가·효과 파괴 불가. 제거는 비대상 무효(일적 등)나 릴리스·제외로.
+- 백림 아자미나는 백마녀 디아벨제 (Diabellze the White Witch)가 있으면 디아벨 몬스터 2장 이상일 때 효과 파괴가 통하지 않는다. 디아벨제를 먼저 처리하거나 파괴 외 수단을 쓴다.
+
+## 출처
+
+- https://game8.jp/yugioh-masterduel/667518 (Game8 白き森アザミナ デッキ 回し方, 2026-10-16 갱신)
+- https://www.masterduelmeta.com/top-decks/master-v/november-2025/white-forest-azamina/emu/tbOri (MDM White Forest Azamina 덱 메모, 2025-11 Master V)
+- https://www.masterduelmeta.com/top-decks/master-v/july-2026/white-forest-azamina/shachouroka/ZW9E2/ (MDM White Forest Azamina, 2026-07 Master V, 드롤·디멘션 시프터 약점 언급)
+- https://www.masterduelmeta.com/api/v1/cards (MDM 카드 API, MD 영문 텍스트·제한 상태)
+- https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=19196&request_locale=ko (공식 DB 한국어명 확인)

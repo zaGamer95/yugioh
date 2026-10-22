@@ -1,0 +1,633 @@
+{
+ "slug": "maliss",
+ "name": {
+  "en": "Maliss",
+  "ko": "M∀LICE"
+ },
+ "status": "draft",
+ "updated": "2026-10-22",
+ "meta": {
+  "decks": 23,
+  "share": 0.032,
+  "window": "2026-09-22~10-22 랭크·DC"
+ },
+ "variants": [
+  "Maliss"
+ ],
+ "overview_ko": "어둠 사이버스 Lv3 몬스터들이 '제외되면 스스로 특소/회수'하는 효과를 굴려 링크를 계속 쌓는 덱. [[Maliss P Dormouse]]·[[Maliss P White Rabbit]]·[[Maliss in Underground]]가 1장 초동이고, [[Backup @Ignister]]·[[Wizard @Ignister]]로 몸을 보충해 [[Maliss Q White Binder]]·[[Maliss Q Hearts Crypter]]·[[Allied Code Talker @Ignister]]로 끝낸다. MD에서는 [[Maliss Q Red Ransom]]이 금지라 필드 마법 서치 루트가 없고, [[Maliss P Dormouse]]·[[Maliss P White Rabbit]]·[[Maliss P Chessy Cat]]·[[Maliss in Underground]]가 제한 1이라 초동 수가 OCG보다 적다. 약점은 초동 몬스터 효과 무효(포영·뵐러)와, 제외 상태에서 특소하는 횟수가 많아 G·메오루스에 약하다는 점. 반대로 우라라는 첫 동작(덱 제외·함정 세트)에 맞지 않는다.",
+ "key_cards": [
+  {
+   "card": "Maliss P Dormouse",
+   "role_ko": "1장 초동(제한 1). 일반 소환 후 덱의 M∀LICE 몬스터를 제외해 그 몬스터의 '제외 시' 효과를 연다. 제외는 우라라 대상이 아님"
+  },
+  {
+   "card": "Maliss P White Rabbit",
+   "role_ko": "1장 초동(제한 1). 소환 시 덱에서 M∀LICE 함정 세트, 제외되면 300LP로 자신 특소"
+  },
+  {
+   "card": "Maliss C TB-11",
+   "role_ko": "세트한 턴에 필드의 M∀LICE를 제외해 발동. 덱에서 M∀LICE 몬스터 특소(우라라·임펄스 대상)"
+  },
+  {
+   "card": "Maliss P March Hare",
+   "role_ko": "패에서 다른 M∀LICE를 제외해 퀵 특소. 제외되면 제외된 M∀LICE 몬스터를 패로 회수하는 루프 엔진"
+  },
+  {
+   "card": "Maliss Q White Binder",
+   "role_ko": "특소 시 묘지 카드 3장까지 제외(=아군 M∀LICE 효과 트리거), 메인 페이즈에 M∀LICE 함정 세트. 제외되면 900LP로 부활+1드로우"
+  },
+  {
+   "card": "Cyberse Wicckid",
+   "role_ko": "링크처에 특소되면 묘지 사이버스를 제외하고 [[Backup @Ignister]] 서치"
+  },
+  {
+   "card": "Backup @Ignister",
+   "role_ko": "엑스트라에서 나온 사이버스가 있으면 패에서 특소, 소환 시 어둠 사이버스(M∀LICE 몬스터 포함) 서치"
+  },
+  {
+   "card": "Maliss Q Hearts Crypter",
+   "role_ko": "엔드 보드의 프리 체인 제외 견제. 링크처에 몬스터가 있으면 발동·효과가 무효되지 않음"
+  },
+  {
+   "card": "Allied Code Talker @Ignister",
+   "role_ko": "링크 소환 시 묘지의 공 2300 사이버스([[Maliss Q White Binder]] 등) 소생, 링크처 링크 몬스터를 릴리스해 상대 발동 무효+제외"
+  }
+ ],
+ "lines": [
+  {
+   "id": "dormouse",
+   "title_ko": "도마우스 1장 초동 (패 1장 버림 필요)",
+   "hand": [
+    "Maliss P Dormouse"
+   ],
+   "note_ko": "일반 소환권 사용. [[Backup @Ignister]]의 서치 후 버릴 패 1장이 더 필요하다. OCG 루트(레드 랜섬·다크플루이드·아코드 토커)를 MD 엑스트라 구성에 맞게 줄인 형태라 후반부(19번 이후)는 구축에 따라 다르다.",
+   "steps": [
+    {
+     "card": "Maliss P Dormouse",
+     "action_ko": "일반 소환",
+     "class": [
+      "normal_summon"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Maliss P Dormouse",
+     "action_ko": "메인 페이즈 효과: 덱에서 M∀LICE 몬스터 1장 제외 (+이번 턴 M∀LICE 공 600 업)",
+     "class": [
+      "monster_effect_field",
+      "banish_from_deck"
+     ],
+     "result_ko": "[[Maliss P White Rabbit]] 제외"
+    },
+    {
+     "card": "Maliss P White Rabbit",
+     "action_ko": "제외된 경우의 효과: 300LP를 내고 자신을 특소 (이번 턴 엑스트라에서는 링크만)",
+     "class": [
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Maliss P White Rabbit",
+     "action_ko": "특소 성공 시 효과: 덱에서 M∀LICE 함정 1장 세트",
+     "class": [
+      "monster_effect_field",
+      "place_from_deck"
+     ],
+     "result_ko": "[[Maliss C TB-11]] 세트"
+    },
+    {
+     "card": "Maliss C TB-11",
+     "action_ko": "필드의 [[Maliss P Dormouse]]를 제외하고 세트한 턴에 발동: 덱에서 M∀LICE 몬스터 특소 (이번 턴 공격·효과 발동 불가)",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Maliss P March Hare]] 특소"
+    },
+    {
+     "card": "Maliss P Dormouse",
+     "action_ko": "제외된 경우의 효과: 300LP를 내고 자신을 특소",
+     "class": [
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Splash Mage",
+     "action_ko": "[[Maliss P Dormouse]] + [[Maliss P March Hare]]로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Splash Mage",
+     "action_ko": "효과: 묘지의 사이버스 1장을 효과 무효로 수비 특소 (이후 사이버스만 특소 가능)",
+     "class": [
+      "monster_effect_field",
+      "ss_from_gy"
+     ],
+     "result_ko": "[[Maliss P March Hare]] 소생"
+    },
+    {
+     "card": "Maliss Q White Binder",
+     "action_ko": "[[Maliss P March Hare]] + [[Splash Mage]]로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Maliss Q White Binder",
+     "action_ko": "특소 시 효과: 묘지의 카드 3장까지 제외",
+     "class": [
+      "monster_effect_field",
+      "gy_effect"
+     ],
+     "result_ko": "[[Maliss P March Hare]]·[[Maliss C TB-11]] 등 제외"
+    },
+    {
+     "card": "Maliss P March Hare",
+     "action_ko": "제외된 경우의 효과: 300LP를 내고 제외된 M∀LICE 몬스터 1장을 패에 넣음 (제외 상태에서 발동)",
+     "class": [
+      "monster_effect_gy"
+     ],
+     "result_ko": "[[Maliss P March Hare]] 자신을 회수"
+    },
+    {
+     "card": "Maliss Q White Binder",
+     "action_ko": "메인 페이즈 효과: 덱·묘지에서 M∀LICE 함정 1장 세트",
+     "class": [
+      "monster_effect_field",
+      "place_from_deck"
+     ],
+     "result_ko": "[[Maliss C GWC-06]] 세트"
+    },
+    {
+     "card": "Cyberse Wicckid",
+     "action_ko": "[[Maliss P White Rabbit]] + [[Maliss Q White Binder]]로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Maliss P March Hare",
+     "action_ko": "패에서 퀵 효과: 묘지의 [[Maliss Q White Binder]]를 제외하고 자신을 [[Cyberse Wicckid]]의 링크처에 특소",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Cyberse Wicckid",
+     "action_ko": "링크처 특소에 반응: 묘지의 사이버스 1장을 제외하고 덱에서 사이버스 튜너 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Backup @Ignister]] 서치"
+    },
+    {
+     "card": "Maliss Q White Binder",
+     "action_ko": "제외된 경우의 효과: 900LP를 내고 자신을 특소, 1장 드로우",
+     "class": [
+      "ss_from_gy",
+      "draw"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Backup @Ignister",
+     "action_ko": "엑스트라에서 특소된 사이버스가 있으므로 패에서 특소",
+     "class": [
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Backup @Ignister",
+     "action_ko": "소환 시 효과: 덱에서 어둠 사이버스 1장 서치 후 패 1장 버림",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Wizard @Ignister]] 서치"
+    },
+    {
+     "card": "Wizard @Ignister",
+     "action_ko": "패에서 효과: 묘지의 어둠 사이버스 1장과 함께 수비 특소",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand",
+      "ss_from_gy"
+     ],
+     "result_ko": "[[Maliss P White Rabbit]] 등 소생"
+    },
+    {
+     "card": "Maliss Q Hearts Crypter",
+     "action_ko": "M∀LICE 포함 3장으로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Allied Code Talker @Ignister",
+     "action_ko": "남은 효과 몬스터 3장 이상으로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Allied Code Talker @Ignister",
+     "action_ko": "링크 소환 시 효과: 묘지의 공 2300 사이버스를 링크처에 가능한 한 특소 (이후 특소 불가)",
+     "class": [
+      "monster_effect_field",
+      "ss_from_gy"
+     ],
+     "result_ko": "[[Maliss Q White Binder]] 소생"
+    }
+   ],
+   "end_board": [
+    "Allied Code Talker @Ignister",
+    "Maliss Q White Binder",
+    "Maliss Q Hearts Crypter",
+    "Maliss C GWC-06"
+   ],
+   "end_board_note_ko": "견제: [[Allied Code Talker @Ignister]]의 발동 무효+제외 1번, [[Maliss Q Hearts Crypter]]의 프리 체인 필드 제외 1번, 상대 턴 [[Maliss C GWC-06]]으로 제외된 M∀LICE 소생. 묘지의 [[Linguriboh]]가 있으면 함정 무효도 추가된다. 정확한 마무리 모양은 엑스트라 구성(파이어월·액세스코드·리자도스)에 따라 다르다."
+  },
+  {
+   "id": "white-rabbit",
+   "title_ko": "화이트 래빗 1장 초동",
+   "hand": [
+    "Maliss P White Rabbit"
+   ],
+   "note_ko": "일반 소환권 사용. 12번 이후는 도마우스 라인 13번([[Cyberse Wicckid]] 링크)부터와 같다.",
+   "steps": [
+    {
+     "card": "Maliss P White Rabbit",
+     "action_ko": "일반 소환",
+     "class": [
+      "normal_summon"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Maliss P White Rabbit",
+     "action_ko": "소환 성공 시 효과: 덱에서 M∀LICE 함정 1장 세트",
+     "class": [
+      "monster_effect_field",
+      "place_from_deck"
+     ],
+     "result_ko": "[[Maliss C TB-11]] 세트"
+    },
+    {
+     "card": "Maliss C TB-11",
+     "action_ko": "필드의 [[Maliss P White Rabbit]]를 제외하고 발동: 덱에서 M∀LICE 몬스터 특소",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Maliss P Dormouse]] 특소(이번 턴 효과 발동 불가)"
+    },
+    {
+     "card": "Maliss P White Rabbit",
+     "action_ko": "제외된 경우의 효과: 300LP를 내고 자신을 특소",
+     "class": [
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Splash Mage",
+     "action_ko": "[[Maliss P White Rabbit]] + [[Maliss P Dormouse]]로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Splash Mage",
+     "action_ko": "효과: 묘지의 사이버스를 효과 무효로 특소",
+     "class": [
+      "monster_effect_field",
+      "ss_from_gy"
+     ],
+     "result_ko": "[[Maliss P Dormouse]] 소생"
+    },
+    {
+     "card": "Maliss Q White Binder",
+     "action_ko": "[[Maliss P Dormouse]] + [[Splash Mage]]로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Maliss Q White Binder",
+     "action_ko": "특소 시 효과: 묘지 카드 3장까지 제외",
+     "class": [
+      "monster_effect_field",
+      "gy_effect"
+     ],
+     "result_ko": "[[Maliss P Dormouse]]·[[Maliss C TB-11]] 제외"
+    },
+    {
+     "card": "Maliss P Dormouse",
+     "action_ko": "제외된 경우의 효과: 300LP를 내고 자신을 특소 (새로 나온 카드라 효과 사용 가능)",
+     "class": [
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Maliss Q White Binder",
+     "action_ko": "메인 페이즈 효과: M∀LICE 함정 세트",
+     "class": [
+      "monster_effect_field",
+      "place_from_deck"
+     ],
+     "result_ko": "[[Maliss C GWC-06]] 세트"
+    },
+    {
+     "card": "Maliss P Dormouse",
+     "action_ko": "메인 페이즈 효과: 덱에서 M∀LICE 몬스터 제외",
+     "class": [
+      "monster_effect_field",
+      "banish_from_deck"
+     ],
+     "result_ko": "[[Maliss P March Hare]] 제외"
+    },
+    {
+     "card": "Maliss P March Hare",
+     "action_ko": "제외된 경우의 효과: 300LP를 내고 자신을 패에 넣음",
+     "class": [
+      "monster_effect_gy"
+     ],
+     "result_ko": "이후 [[Cyberse Wicckid]] → [[Backup @Ignister]] 루트로 합류"
+    }
+   ],
+   "end_board": [
+    "Allied Code Talker @Ignister",
+    "Maliss Q White Binder",
+    "Maliss Q Hearts Crypter",
+    "Maliss C GWC-06"
+   ],
+   "end_board_note_ko": "도마우스 라인과 같은 마무리. 첫 동작이 일반 소환 → 함정 세트라서 패트랩이 끼어들 곳이 도마우스 라인보다 한 칸 적다."
+  },
+  {
+   "id": "underground",
+   "title_ko": "M∀LICE IN UNDERGROUND 초동 (일반 소환권 보존)",
+   "hand": [
+    "Maliss in Underground"
+   ],
+   "note_ko": "필드 마법 발동 시 덱의 [[Maliss P White Rabbit]]를 제외해 일반 소환 없이 시작한다. 패에 [[Maliss P Dormouse]]나 [[Backup @Ignister]]가 같이 있으면 일반 소환권이 남아 전개가 한 번 더 늘어난다.",
+   "steps": [
+    {
+     "card": "Maliss in Underground",
+     "action_ko": "필드 마법 발동: 패·덱·묘지에서 M∀LICE 카드 1장 제외",
+     "class": [
+      "spell_trap_activation",
+      "banish_from_deck"
+     ],
+     "result_ko": "[[Maliss P White Rabbit]] 제외"
+    },
+    {
+     "card": "Maliss P White Rabbit",
+     "action_ko": "제외된 경우의 효과: 300LP를 내고 자신을 특소",
+     "class": [
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Maliss P White Rabbit",
+     "action_ko": "특소 성공 시 효과: 덱에서 M∀LICE 함정 세트",
+     "class": [
+      "monster_effect_field",
+      "place_from_deck"
+     ],
+     "result_ko": "[[Maliss C TB-11]] 세트"
+    },
+    {
+     "card": "Maliss C TB-11",
+     "action_ko": "[[Maliss P White Rabbit]]를 제외하고 발동: 덱에서 M∀LICE 몬스터 특소",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Maliss P Dormouse]] 등 특소 → 화이트 래빗 라인 4번 이후와 같음"
+    }
+   ],
+   "end_board": [
+    "Allied Code Talker @Ignister",
+    "Maliss Q White Binder",
+    "Maliss Q Hearts Crypter",
+    "Maliss C GWC-06"
+   ],
+   "end_board_note_ko": "필드 마법이 남아 있어 제외된 M∀LICE 함정 3종 이상이면 M∀LICE 링크 공 3000 업, 공격 대상도 M∀LICE 링크로 고정된다."
+  }
+ ],
+ "chokepoints": [
+  {
+   "handtrap": "imperm",
+   "severity": "critical",
+   "line": "dormouse",
+   "step": 2,
+   "target_card": "Maliss P Dormouse",
+   "timing_ko": "[[Maliss P Dormouse]]의 '덱에서 M∀LICE 몬스터 제외' 효과 발동에 체인",
+   "why_ko": "도마우스 1장 초동의 유일한 시작점. 무효되면 [[Maliss P White Rabbit]]가 제외되지 않아 함정 세트·TB-11 루트가 전부 사라지고, 일반 소환권도 이미 썼다.",
+   "fallback_ko": "남은 도마우스(효과 무효)로 [[Linguriboh]]·[[Link Decoder]] 같은 링크 1을 만들고 [[Backup @Ignister]]를 패에서 특소하는 정도. 패에 Backup·[[Maliss P March Hare]]가 없으면 거의 멈춘다."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "critical",
+   "line": "dormouse",
+   "step": 3,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "제외된 [[Maliss P White Rabbit]]의 '300LP 내고 자신 특소' 효과 발동 시 (상대 필드에 도마우스가 있어 패에서 발동 가능)",
+   "why_ko": "래빗이 나오지 못해 TB-11 세트가 없고, 래빗의 특소 효과는 1턴에 1번이라 다시 쓸 수 없다. 우라라가 안 맞는 구간을 끊는 몇 안 되는 카드.",
+   "fallback_ko": "필드에 효과를 쓴 도마우스 1장만 남는다. 패의 [[Backup @Ignister]]·[[Maliss P March Hare]]에 의존. 단, 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과를 못 쓰니 내 덱 속성을 확인할 것."
+  },
+  {
+   "handtrap": "maxxc",
+   "severity": "strong",
+   "line": "dormouse",
+   "step": 3,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "첫 특소인 [[Maliss P White Rabbit]]의 제외 상태 특소 때(또는 도마우스 효과에 체인해 미리)",
+   "why_ko": "제외 상태 특소 + 링크 소환을 합쳐 한 턴에 10회 이상 특소한다. 끝까지 가면 대량 드로우를 주므로, 보통 [[Maliss Q White Binder]] + 세트 함정 정도에서 멈춘다.",
+   "fallback_ko": "멈추는 지점: 화이트 바인더 + [[Maliss C GWC-06]] 세트 + 남은 링크 1~2장. 올라이드 코드 토커까지 안 간다."
+  },
+  {
+   "handtrap": "meowls",
+   "severity": "strong",
+   "line": "dormouse",
+   "step": 3,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "[[Maliss P White Rabbit]]이 제외 상태에서 특소할 때",
+   "why_ko": "M∀LICE의 특소 대부분이 '제외 상태에서' 나오는 것이라 메오루스 드로우 조건과 정확히 맞는다(래빗·도마우스·화이트 바인더·하트 크립터). 내 필드가 비어 있어야 함.",
+   "fallback_ko": "G와 같이 화이트 바인더 근처에서 멈추거나, 드로우를 감수하고 끝까지 간다."
+  },
+  {
+   "handtrap": "imperm",
+   "severity": "strong",
+   "line": "dormouse",
+   "step": 4,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "[[Maliss P White Rabbit]]의 '덱에서 M∀LICE 함정 세트' 효과 발동에 체인",
+   "why_ko": "TB-11이 세트되지 않아 덱에서 몸을 늘리지 못한다. 화이트 래빗 1장 초동일 때는 이 지점이 첫 무효 타이밍이다.",
+   "fallback_ko": "도마우스 + 래빗 2장으로 [[Splash Mage]] → 소생 → [[Maliss Q White Binder]]까지는 갈 수 있어 견제가 1~2개 줄어드는 정도."
+  },
+  {
+   "handtrap": "fuwalos",
+   "severity": "strong",
+   "line": "dormouse",
+   "step": 5,
+   "target_card": "Maliss C TB-11",
+   "timing_ko": "전개 시작 전(도마우스 일반 소환 직후) 또는 TB-11의 덱 특소 때",
+   "why_ko": "덱·엑스트라 특소(TB-11, 링크 5~6회)만 세지만 그래도 4~6장 드로우가 나온다. 제외 상태 특소는 세지 않는 점은 G보다 약하다.",
+   "fallback_ko": "상대는 링크 횟수를 줄여 화이트 바인더 + 하트 크립터 정도로 끊을 수 있다."
+  },
+  {
+   "handtrap": "ash",
+   "severity": "ok",
+   "line": "dormouse",
+   "step": 5,
+   "target_card": "Maliss C TB-11",
+   "timing_ko": "[[Maliss C TB-11]]의 '덱에서 특소' 발동에 체인",
+   "why_ko": "도마우스(덱 제외)·래빗(함정 세트)에는 우라라를 쓸 수 없어서, 첫 우라라 타이밍은 TB-11이다. 덱에서 나올 몸 1장을 지운다.",
+   "fallback_ko": "코스트로 제외된 도마우스가 자신 특소해 래빗 + 도마우스로 [[Splash Mage]] 루트가 그대로 이어진다. 끊기기보다 견제 1개가 줄어드는 수준."
+  },
+  {
+   "handtrap": "belle",
+   "severity": "ok",
+   "line": "dormouse",
+   "step": 10,
+   "target_card": "Maliss Q White Binder",
+   "timing_ko": "[[Maliss Q White Binder]]의 '묘지 카드 3장까지 제외' 효과 발동에 체인",
+   "why_ko": "마치 헤어 회수 루프의 시동이 끊겨 [[Maliss P March Hare]] 재사용과 위키드 서치까지의 연결이 늦어진다. [[Splash Mage]]의 소생(8번)에 써도 된다.",
+   "fallback_ko": "패의 마치 헤어나 [[Backup @Ignister]]로 우회 가능."
+  },
+  {
+   "handtrap": "ash",
+   "severity": "ok",
+   "line": "dormouse",
+   "step": 15,
+   "target_card": "Cyberse Wicckid",
+   "timing_ko": "[[Cyberse Wicckid]]의 사이버스 튜너 서치 발동에 체인 (TB-11에 우라라를 안 썼다면)",
+   "why_ko": "[[Backup @Ignister]] → [[Wizard @Ignister]]로 이어지는 후반 몸 보충이 끊겨 올라이드 코드 토커까지 가기 어려워진다.",
+   "fallback_ko": "화이트 바인더·하트 크립터 + 세트 함정으로 마무리. 견제 1개 감소."
+  },
+  {
+   "handtrap": "droll",
+   "severity": "ok",
+   "line": "dormouse",
+   "step": 15,
+   "target_card": "Cyberse Wicckid",
+   "timing_ko": "[[Cyberse Wicckid]]의 서치가 처리된 뒤",
+   "why_ko": "이후 [[Backup @Ignister]]의 [[Wizard @Ignister]] 서치, [[Maliss C MTP-07]]의 서치, [[Maliss P Chessy Cat]]·[[Allure of Darkness]] 드로우를 막는다. 마치 헤어의 회수는 '제외 상태에서 패로'라 막지 못한다.",
+   "fallback_ko": "패에 Wizard가 이미 있으면 영향이 작다."
+  }
+ ],
+ "handtrap_summary": {
+  "imperm": {
+   "rating": "critical",
+   "note_ko": "[[Maliss P Dormouse]]의 덱 제외 효과, 또는 [[Maliss P White Rabbit]]의 함정 세트 효과에 체인. [[Linguriboh]]가 나온 뒤에는 함정이라 무효+제외당하니 그 전에 쓸 것"
+  },
+  "veiler": {
+   "rating": "critical",
+   "note_ko": "포영과 같은 지점(도마우스 덱 제외 / 래빗 함정 세트). 상대 턴 메인 페이즈라 선공 상대에게 그대로 사용 가능"
+  },
+  "impulse": {
+   "rating": "critical",
+   "note_ko": "제외된 래빗의 자신 특소, TB-11, [[Splash Mage]] 소생 모두 대상. 첫 특소(래빗)에 쓰는 게 가장 아픔. 함정이라 [[Linguriboh]] 착지 전에"
+  },
+  "maxxc": {
+   "rating": "strong",
+   "note_ko": "특소 횟수가 매우 많음. 첫 래빗 특소 때 던지면 보통 화이트 바인더 근처에서 멈춤"
+  },
+  "meowls": {
+   "rating": "strong",
+   "note_ko": "제외 상태에서 특소가 주력이라 조건이 잘 맞음"
+  },
+  "fuwalos": {
+   "rating": "strong",
+   "note_ko": "TB-11·링크만 셈. 그래도 4~6드로우"
+  },
+  "ash": {
+   "rating": "ok",
+   "note_ko": "도마우스(덱에서 제외)·래빗(함정 세트)·언더그라운드 첫 동작에는 못 씀. TB-11 덱 특소 또는 [[Cyberse Wicckid]]/[[Backup @Ignister]] 서치에. [[Maliss P Chessy Cat]]·[[Allure of Darkness]]의 드로우는 우라라 대상이 아님(드롤로만 막힘)"
+  },
+  "purge": {
+   "rating": "ok",
+   "note_ko": "[[Cyberse Wicckid]]·[[Backup @Ignister]] 서치에. 첫 동작에는 해당 없음. 패에서 쓰면 어둠·물·화염 효과 봉인"
+  },
+  "droll": {
+   "rating": "ok",
+   "note_ko": "첫 서치(위키드) 뒤에. 제외 상태에서 패로 넣는 마치 헤어는 못 막음"
+  },
+  "belle": {
+   "rating": "ok",
+   "note_ko": "화이트 바인더의 묘지 제외, [[Splash Mage]]·[[Wizard @Ignister]]의 묘지 소생에. 제외 상태 특소에는 해당 없음"
+  },
+  "mourner": {
+   "rating": "ok",
+   "note_ko": "제외 상태에서 특소된 [[Maliss P White Rabbit]]에 써서 함정 세트를 무효. 사실상 포영과 같은 지점"
+  },
+  "gamma": {
+   "rating": "strong",
+   "note_ko": "도마우스 효과 발동을 무효+파괴(묘지로 가서 제외 트리거도 없음)"
+  },
+  "nibiru": {
+   "rating": "ok",
+   "note_ko": "5번째 소환 이후 언제든 가능. 위키드·백업이 나온 뒤가 효율적. 릴리스는 묘지행이라 제외 트리거를 주지 않음. 다만 [[Maliss C GWC-06]]·남은 패로 복구 여지"
+  },
+  "purulia": {
+   "rating": "ok",
+   "note_ko": "도마우스·래빗 일반 소환, 마치 헤어·백업·위저드 패 특소에 반응. 2~4드로우"
+  },
+  "ogre": {
+   "rating": "weak",
+   "note_ko": "파괴라 효과는 처리됨. [[Maliss Q White Binder]] 트리거에 써서 묘지로 보내는 정도(제외가 아니라 부활 트리거 없음). 위키드는 링크 소환이면 파괴 내성"
+  },
+  "crossout": {
+   "rating": "bad",
+   "note_ko": "자기 메인 덱에 있는 카드명만 선언 가능해서 M∀LICE 카드에는 못 씀. 공용 카드(우라라·G 등)용"
+  },
+  "spark": {
+   "rating": "bad",
+   "note_ko": "마치 헤어 패 효과 뒤에 발동은 되지만 제외는 오히려 M∀LICE 효과를 켜 줌"
+  },
+  "magnamhut": {
+   "rating": "bad",
+   "note_ko": "묘지의 M∀LICE 몬스터를 제외하면 상대가 이득(제외 시 특소·회수)"
+  },
+  "droplet": {
+   "rating": "ok",
+   "note_ko": "후공 돌파용. 하트 크립터·올라이드 무효에. 함정을 보내면 상대가 [[Maliss C GWC-06]] 등 함정으로 체인 못 함"
+  },
+  "ttt": {
+   "rating": "ok",
+   "note_ko": "후공용. 상대가 내 턴에 하트 크립터·올라이드 효과를 쓰면 발동 조건 성립"
+  }
+ },
+ "notes_ko": [
+  "도마우스의 '덱에서 제외', 래빗·화이트 바인더의 '함정 세트', 언더그라운드의 '제외'는 우라라 대상이 아니다. 우라라는 TB-11(덱 특소)이나 위키드·백업 서치까지 아껴 둘 것.",
+  "M∀LICE 몬스터를 제외하는 카드(D.D. 크로우, 비스테드, 스파크 등)는 거의 항상 손해다. 제외되면 300~900LP를 내고 돌아오거나 패로 회수된다. 반대로 파괴·릴리스로 묘지에 보내는 건 제외 트리거를 주지 않는다.",
+  "[[Linguriboh]]가 필드에 나오면 함정(포영·도미나스 임펄스) 발동이 무효+제외당한다. 함정 계열 견제는 링크 1이 나오기 전에 쓴다.",
+  "[[Maliss Q Hearts Crypter]]는 링크처에 몬스터가 있으면 발동·효과가 무효되지 않는다. 후공에서는 링크처 몬스터를 먼저 치우거나 효과 무효를 '발동 전'에 걸어야 한다.",
+  "G를 맞으면 보통 화이트 바인더 + 세트 함정에서 끊는다. 이때 상대 턴의 [[Maliss C GWC-06]] 소생은 남는다."
+ ],
+ "sources": [
+  "https://appmedia.jp/master_duel/79063583 (appmedia: M∀LICE 덱 레시피와 전개 루트, 2026-09-16, OCG 엑스트라 기준)",
+  "https://www.masterduelmeta.com/tier-list/deck-types/Maliss (Master Duel Meta: Maliss 덱 타입 페이지·콤보)",
+  "https://raw.githubusercontent.com/ProjectIgnis/windbot/master/Game/AI/Decks/MalissExecutor.cs (WindBot Maliss AI 실행기: 루트·폴백 확인용)",
+  "https://www.masterduelmeta.com/api/v1/cards (Master Duel Meta 카드 API: MD 영문 텍스트·제한 상태)",
+  "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=20588&request_locale=ko (공식 카드 DB: M∀LICE IN UNDERGROUND 한국어명)"
+ ]
+}
