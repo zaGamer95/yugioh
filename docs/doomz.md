@@ -101,21 +101,21 @@
 | 3 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) | 일반 소환 |  | 푸루리아, 니비루 |
 | 4 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) | ①(소환 유발): 덱에서 둠즈 마함 1장 세트 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 5 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") | 발동해 엘라라에게 장착 |  | – |
-| 6 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) | ②(퀵): 자신과 장착 카드를 소재로 랭크4 바람 기계족 엑시즈 특소 | 둠즈 브레이크 디아크트로스 (DoomZ Break - Diactorus) | G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 7 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | 디아크트로스 위에 겹쳐 엑시즈 소환(소재 이동) |  | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 6 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) | ②(퀵): 자신과 장착 카드를 소재로 랭크4 바람 기계족 엑시즈 특소 | 둠즈 브레이크 디아크트로스 (DoomZ Break - Diactorus) | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 7 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | 디아크트로스 위에 겹쳐 엑시즈 소환(소재 이동) |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 8 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | ①: 소재(아드라스테이아) 1개 제거 → 둠즈 마함 서치 | 둠즈 레이더 (DoomZ Raiders) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
 | 9 | 둠즈 레이더 (DoomZ Raiders) | 지속 마법 발동 |  | – |
-| 10 | 둠즈 레이더 (DoomZ Raiders) | ①: 필드의 그라플레이오를 파괴 → 덱에서 둠즈 몬스터 특소 | 둠즈Ⅴ－아말테 (DoomZ V Five - Amalthe) 특소. 이번 턴 엑덱 특소는 엑시즈만 | 우라라, G, 후와로스, 유령토끼, 유령 어머니, 니비루, 도미나스 임펄스 |
-| 11 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | 효과로 파괴된 유발: 덱·묘지에서 비엑시즈 둠즈 특소(묘지도 고를 수 있는 효과라 와라시 가능) | 덱에서 감옥신영기－제그레도 (Jupredo the Shademachine Power Patron) 특소 (통산 5번째 소환) | 우라라, G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 10 | 둠즈 레이더 (DoomZ Raiders) | ①: 필드의 그라플레이오를 파괴 → 덱에서 둠즈 몬스터 특소 | 둠즈Ⅴ－아말테 (DoomZ V Five - Amalthe) 특소. 이번 턴 엑덱 특소는 엑시즈만 | 우라라, G, 후와로스, 유령토끼, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 11 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | 효과로 파괴된 유발: 덱·묘지에서 비엑시즈 둠즈 특소(묘지도 고를 수 있는 효과라 와라시 가능) | 덱에서 감옥신영기－제그레도 (Jupredo the Shademachine Power Patron) 특소 (통산 5번째 소환) | 우라라, G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 | 12 | 둠즈Ⅴ－아말테 (DoomZ V Five - Amalthe) | ①(특소 유발, 위 효과와 같은 체인): 둠즈 몬스터 서치 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
 | 13 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") | 묘지 효과: 주프레도에게 장착(레벨×100 데미지) |  | – |
-| 14 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") | ②: 장착된 주프레도를 파괴 → 묘지의 둠즈 몬스터를 수비 특소 | 묘지에서 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) 특소 | G, 냐루스, 유령토끼, 와라시, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 14 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") | ②: 장착된 주프레도를 파괴 → 묘지의 둠즈 몬스터를 수비 특소 | 묘지에서 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) 특소 | G, 냐루스, 유령토끼, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 15 | 감옥신영기－제그레도 (Jupredo the Shademachine Power Patron) | 엑덱에 앞면으로 들어간 유발: 감옥신·둠즈 마함 서치 | 둠즈 디스트럭션 (DoomZ Destruction) 서치 | 우라라, 드롤, 도미나스 퍼지 |
-| 16 | 스프리건즈 메리메이커 (Springans Merrymaker) | 엘라라 + 아말테로 엑시즈 소환 |  | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
-| 17 | 기간틱 "챔피언" 사르가스 (Gigantic "Champion" Sargas) | 메리메이커 위에 겹쳐 엑시즈 소환 |  | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 16 | 스프리건즈 메리메이커 (Springans Merrymaker) | 엘라라 + 아말테로 엑시즈 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 17 | 기간틱 "챔피언" 사르가스 (Gigantic "Champion" Sargas) | 메리메이커 위에 겹쳐 엑시즈 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 18 | 기간틱 "챔피언" 사르가스 (Gigantic "Champion" Sargas) | 소재가 있을 때: 스프리건즈·세리온즈 카드 서치 | 세리온즈 "킹" 레귤러스 (Therion "King" Regulus) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 19 | 세리온즈 "킹" 레귤러스 (Therion "King" Regulus) | 묘지의 감옥신기Doom－Z (Power Patron DoomZ)(기계족)를 대상으로 패에서 특소하고 장착 |  | G, 푸루리아, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 20 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) | ①: 레귤러스에 장착된 둠즈(둠즈 카드)를 파괴하고 패에서 특소, 덱에서 장착 마법 장착 | 둠즈 커맨드 『D.O.O.M.D.U.R.G.』 (DoomZ Command "D.O.O.M.D.U.R.G.") 장착 | G, 푸루리아, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 19 | 세리온즈 "킹" 레귤러스 (Therion "King" Regulus) | 묘지의 감옥신기Doom－Z (Power Patron DoomZ)(기계족)를 대상으로 패에서 특소하고 장착 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 20 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) | ①: 레귤러스에 장착된 둠즈(둠즈 카드)를 파괴하고 패에서 특소, 덱에서 장착 마법 장착 | 둠즈 커맨드 『D.O.O.M.D.U.R.G.』 (DoomZ Command "D.O.O.M.D.U.R.G.") 장착 | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 | 21 | 둠즈 디스트럭션 (DoomZ Destruction) | 세트하고 턴 종료 |  | – |
 
 **최종 필드 / 견제**: 기간틱 "챔피언" 사르가스 (Gigantic "Champion" Sargas), 세리온즈 "킹" 레귤러스 (Therion "King" Regulus), 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea), 둠즈 커맨드 『D.O.O.M.D.U.R.G.』 (DoomZ Command "D.O.O.M.D.U.R.G."), 둠즈 레이더 (DoomZ Raiders), 둠즈 디스트럭션 (DoomZ Destruction)
@@ -133,21 +133,21 @@
 | 1 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) | 일반 소환 |  | 푸루리아, 니비루 |
 | 2 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) | ①(소환 유발): 덱에서 둠즈 마함 세트 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 3 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") | 발동해 엘라라에게 장착 |  | – |
-| 4 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) | ②(퀵): 랭크4 엑시즈로 변신 | 둠즈 브레이크 디아크트로스 (DoomZ Break - Diactorus) | G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 5 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | 디아크트로스 위에 겹쳐 엑시즈 소환 |  | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 4 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) | ②(퀵): 랭크4 엑시즈로 변신 | 둠즈 브레이크 디아크트로스 (DoomZ Break - Diactorus) | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 5 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | 디아크트로스 위에 겹쳐 엑시즈 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 6 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | ①: 소재 1개 제거 → 둠즈 마함 서치, 이어서 자신을 파괴 | 둠즈 레이더 (DoomZ Raiders) 서치, 그라플레이오 파괴 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 7 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | 효과로 파괴된 유발: 덱에서 비엑시즈 둠즈 특소 | 감옥신기Doom－Z (Power Patron DoomZ) 특소 | 우라라, G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 7 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | 효과로 파괴된 유발: 덱에서 비엑시즈 둠즈 특소 | 감옥신기Doom－Z (Power Patron DoomZ) 특소 | 우라라, G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 | 8 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") | 묘지 효과: 둠즈에게 장착 |  | – |
-| 9 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") | ②: 장착된 둠즈를 파괴 → 묘지의 엘라라 수비 특소 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) 소생 (통산 5번째 소환) | G, 냐루스, 유령토끼, 와라시, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 9 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") | ②: 장착된 둠즈를 파괴 → 묘지의 엘라라 수비 특소 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) 소생 (통산 5번째 소환) | G, 냐루스, 유령토끼, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 10 | 감옥신기Doom－Z (Power Patron DoomZ) | 효과로 파괴된 유발: 둠즈 카드 서치 | 감옥신영기－제그레도 (Jupredo the Shademachine Power Patron) 서치 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
 | 11 | 감옥신영기－제그레도 (Jupredo the Shademachine Power Patron) | 펜듈럼 존에 발동 |  | – |
-| 12 | 둠즈 레이더 (DoomZ Raiders) | 발동 후 ①: P존의 주프레도(둠즈 취급)를 파괴 → 덱에서 둠즈 몬스터 특소 | 둠즈Ⅴ－아말테 (DoomZ V Five - Amalthe) 특소 | 우라라, G, 후와로스, 유령토끼, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 12 | 둠즈 레이더 (DoomZ Raiders) | 발동 후 ①: P존의 주프레도(둠즈 취급)를 파괴 → 덱에서 둠즈 몬스터 특소 | 둠즈Ⅴ－아말테 (DoomZ V Five - Amalthe) 특소 | 우라라, G, 후와로스, 유령토끼, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 13 | 둠즈Ⅴ－아말테 (DoomZ V Five - Amalthe) | ①(특소 유발): 둠즈 몬스터 서치 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
 | 14 | 감옥신영기－제그레도 (Jupredo the Shademachine Power Patron) | 엑덱 앞면 유발(위와 같은 체인): 둠즈 마함 서치 | 둠즈 체인저 (DoomZ Change) 서치 | 우라라, 드롤, 도미나스 퍼지 |
-| 15 | 스프리건즈 메리메이커 (Springans Merrymaker) | 엘라라 + 아말테로 엑시즈 소환 |  | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
-| 16 | 기간틱 "챔피언" 사르가스 (Gigantic "Champion" Sargas) | 메리메이커 위에 겹쳐 엑시즈 소환 → 레귤러스 서치 | 세리온즈 "킹" 레귤러스 (Therion "King" Regulus) 서치 | 우라라, G, 후와로스, 드롤, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 도미나스 퍼지, 감마 |
-| 17 | 세리온즈 "킹" 레귤러스 (Therion "King" Regulus) | 묘지의 둠즈를 대상으로 패에서 특소하고 장착 |  | G, 푸루리아, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 18 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) | ①: 장착된 둠즈를 파괴하고 패에서 특소, 장착 마법 장착 | 둠즈 커맨드 『D.O.O.M.D.U.R.G.』 (DoomZ Command "D.O.O.M.D.U.R.G.") 장착 | G, 푸루리아, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 15 | 스프리건즈 메리메이커 (Springans Merrymaker) | 엘라라 + 아말테로 엑시즈 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 16 | 기간틱 "챔피언" 사르가스 (Gigantic "Champion" Sargas) | 메리메이커 위에 겹쳐 엑시즈 소환 → 레귤러스 서치 | 세리온즈 "킹" 레귤러스 (Therion "King" Regulus) 서치 | 우라라, G, 후와로스, 드롤, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 도미나스 퍼지, 감마 |
+| 17 | 세리온즈 "킹" 레귤러스 (Therion "King" Regulus) | 묘지의 둠즈를 대상으로 패에서 특소하고 장착 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 18 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) | ①: 장착된 둠즈를 파괴하고 패에서 특소, 장착 마법 장착 | 둠즈 커맨드 『D.O.O.M.D.U.R.G.』 (DoomZ Command "D.O.O.M.D.U.R.G.") 장착 | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 | 19 | 둠즈 체인저 (DoomZ Change) | 발동(덱의 둠즈 디스트럭션 (DoomZ Destruction) 파괴)에 드라스테아가 DURG로 얻은 퀵 효과를 체인해 체인지를 자괴 → 체인지 묘지 효과로 둠즈 디스트럭션 (DoomZ Destruction) 회수 | 둠즈 디스트럭션 (DoomZ Destruction) 세트 | 와라시, 비스테드 마그남헛 |
 
 **최종 필드 / 견제**: 기간틱 "챔피언" 사르가스 (Gigantic "Champion" Sargas), 세리온즈 "킹" 레귤러스 (Therion "King" Regulus), 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea), 둠즈 레이더 (DoomZ Raiders), 둠즈 디스트럭션 (DoomZ Destruction)
@@ -164,14 +164,14 @@
 |---|---|---|---|---|
 | 1 | 둠즈Ⅴ－아말테 (DoomZ V Five - Amalthe) | 일반 소환 |  | 푸루리아, 니비루 |
 | 2 | 둠즈Ⅴ－아말테 (DoomZ V Five - Amalthe) | ①(소환 유발): 둠즈 몬스터 서치 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 3 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) | ①: 아말테를 파괴하고 패에서 특소, 덱에서 장착 마법 장착 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") 장착 (아말테 파괴 유발은 1턴 1번이라 이미 사용) | G, 푸루리아, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 4 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) | ②(퀵): 자신과 장착 카드를 소재로 랭크8 바람 기계족 엑시즈 특소 | 둠즈ⅩⅡ－드라스트리우스 (DoomZ XII End - Drastrius) | G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 5 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | 드라스트리우스 위에 겹쳐 엑시즈 소환 |  | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 3 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) | ①: 아말테를 파괴하고 패에서 특소, 덱에서 장착 마법 장착 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") 장착 (아말테 파괴 유발은 1턴 1번이라 이미 사용) | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 4 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) | ②(퀵): 자신과 장착 카드를 소재로 랭크8 바람 기계족 엑시즈 특소 | 둠즈ⅩⅡ－드라스트리우스 (DoomZ XII End - Drastrius) | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 5 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | 드라스트리우스 위에 겹쳐 엑시즈 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 6 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | ①: 소재(아드라스테이아) 제거 → 둠즈 마함 서치 | 둠즈 레이더 (DoomZ Raiders) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 7 | 둠즈 레이더 (DoomZ Raiders) | 발동 후 ①: 그라플레이오 파괴 → 덱에서 둠즈 몬스터 특소 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) 특소 | 우라라, G, 후와로스, 유령토끼, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 7 | 둠즈 레이더 (DoomZ Raiders) | 발동 후 ①: 그라플레이오 파괴 → 덱에서 둠즈 몬스터 특소 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) 특소 | 우라라, G, 후와로스, 유령토끼, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 8 | 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara) | ①(특소 유발): 둠즈 마함 세트 | 둠즈 커맨드 『D.O.O.M.D.U.R.G.』 (DoomZ Command "D.O.O.M.D.U.R.G.") 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 9 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | 효과로 파괴된 유발(위와 같은 체인): 덱에서 비엑시즈 둠즈 특소 | 감옥신기Doom－Z (Power Patron DoomZ) 특소 | 우라라, G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 10 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") | 묘지 효과로 둠즈에 장착 → ②로 둠즈 파괴, 묘지의 드라스테아 수비 특소 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) 소생 | G, 냐루스, 유령토끼, 와라시, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 9 | 둠즈ⅩⅢ－그라플레이오 (DoomZ XIII Over - Graflareio) | 효과로 파괴된 유발(위와 같은 체인): 덱에서 비엑시즈 둠즈 특소 | 감옥신기Doom－Z (Power Patron DoomZ) 특소 | 우라라, G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 10 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") | 묘지 효과로 둠즈에 장착 → ②로 둠즈 파괴, 묘지의 드라스테아 수비 특소 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) 소생 | G, 냐루스, 유령토끼, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 11 | 감옥신기Doom－Z (Power Patron DoomZ) | 효과로 파괴된 유발: 둠즈 카드 서치 | 둠즈 체인저 (DoomZ Change) 서치 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
 | 12 | 둠즈 커맨드 『D.O.O.M.D.U.R.G.』 (DoomZ Command "D.O.O.M.D.U.R.G.") | 발동해 드라스테아에게 장착 |  | – |
 | 13 | 둠즈 체인저 (DoomZ Change) | 발동(덱의 둠즈 디스트럭션 (DoomZ Destruction) 파괴)에 DURG 효과를 체인해 체인지 자괴 → 묘지 효과로 둠즈 디스트럭션 (DoomZ Destruction) 회수, 세트 | 둠즈 디스트럭션 (DoomZ Destruction) 세트 | 와라시, 비스테드 마그남헛 |

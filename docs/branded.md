@@ -102,10 +102,10 @@
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
-| 1 | 하얀 용의 낙윤 (Fallen of the White Dragon) | 패에서: 엑덱의 낙인룡 알비온 (Albion the Branded Dragon)을 묘지로 보내고(코스트) 자신 특소 | 알비온이 '이번 턴 묘지로 보내진' 상태가 됨 | G, 푸루리아, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 2 | 하얀 용의 낙윤 (Fallen of the White Dragon) | 특소 성공 시 효과: 덱에서 에클레시아 몬스터 특소 | 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) 특소 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 3 | 검은 용의 에클레시아 (Ecclesia and the Dark Dragon) | 하얀 용 + 에클레시아(튜너)로 레벨 8 싱크로 소환 |  | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
-| 4 | 검은 용의 에클레시아 (Ecclesia and the Dark Dragon) | 메인 페이즈 속공: 자신을 엔드 페이즈까지 제외하고 덱에서 알버스 언급 레벨 4 이하 특소 | 인도하는 성녀 쿠엠 (Guiding Quem, the Virtuous) 특소 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 1 | 하얀 용의 낙윤 (Fallen of the White Dragon) | 패에서: 엑덱의 낙인룡 알비온 (Albion the Branded Dragon)을 묘지로 보내고(코스트) 자신 특소 | 알비온이 '이번 턴 묘지로 보내진' 상태가 됨 | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 2 | 하얀 용의 낙윤 (Fallen of the White Dragon) | 특소 성공 시 효과: 덱에서 에클레시아 몬스터 특소 | 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) 특소 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 3 | 검은 용의 에클레시아 (Ecclesia and the Dark Dragon) | 하얀 용 + 에클레시아(튜너)로 레벨 8 싱크로 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 4 | 검은 용의 에클레시아 (Ecclesia and the Dark Dragon) | 메인 페이즈 속공: 자신을 엔드 페이즈까지 제외하고 덱에서 알버스 언급 레벨 4 이하 특소 | 인도하는 성녀 쿠엠 (Guiding Quem, the Virtuous) 특소 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 | 5 | 인도하는 성녀 쿠엠 (Guiding Quem, the Virtuous) | 소환 성공 시 효과: 덱에서 알버스 언급 카드를 묘지로 | 혁의 성녀 카르테시아 (Blazing Cartesia, the Virtuous) 묘지로 | 우라라, 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 6 | 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) | 엔드 페이즈(융합 몬스터가 이번 턴 묘지로 갔음): 묘지에서 자신을 패로 | 카르테시아도 같은 조건으로 묘지에서 패로 | 와라시, 도미나스 스파크, 비스테드 마그남헛, 감마 |
 | 7 | 낙인룡 알비온 (Albion the Branded Dragon) | 엔드 페이즈, 이번 턴 묘지로 보내졌으므로: 덱에서 낙인 마함 서치 또는 세트 | The Fallen & The Virtuous (The Fallen & The Virtuous) 세트 | 우라라, 드롤, 와라시, 도미나스 퍼지, 도미나스 스파크, 비스테드 마그남헛, 감마 |
@@ -125,14 +125,14 @@
 |---|---|---|---|---|
 | 1 | 데스피아의 도화 알베르 (Aluber the Jester of Despia) | 일반 소환 |  | 푸루리아, 니비루 |
 | 2 | 데스피아의 도화 알베르 (Aluber the Jester of Despia) | 소환 성공 시 효과: 덱에서 낙인 마함 서치 | 낙인융합 (Branded Fusion) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 3 | 낙인융합 (Branded Fusion) | 발동: 덱에서 하얀 용의 낙윤 (Fallen of the White Dragon) + 혁의 성녀 카르테시아 (Blazing Cartesia, the Virtuous)를 보내 융합 | 낙인룡 알비온 (Albion the Branded Dragon) 융합 소환 | 우라라, G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
-| 4 | 낙인룡 알비온 (Albion the Branded Dragon) | 융합 소환 시 효과: 묘지의 카르테시아 + 하얀 용을 제외해 융합 | 혁언룡 그랑기뇰 (Granguignol the Dusk Dragon) 융합 소환 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 와라시, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 비스테드 마그남헛, 감마 |
+| 3 | 낙인융합 (Branded Fusion) | 발동: 덱에서 하얀 용의 낙윤 (Fallen of the White Dragon) + 혁의 성녀 카르테시아 (Blazing Cartesia, the Virtuous)를 보내 융합 | 낙인룡 알비온 (Albion the Branded Dragon) 융합 소환 | 우라라, G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 4 | 낙인룡 알비온 (Albion the Branded Dragon) | 융합 소환 시 효과: 묘지의 카르테시아 + 하얀 용을 제외해 융합 | 혁언룡 그랑기뇰 (Granguignol the Dusk Dragon) 융합 소환 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 비스테드 마그남헛, 감마 |
 | 5 | 혁언룡 그랑기뇰 (Granguignol the Dusk Dragon) | 융합 소환 시 효과: 덱·엑덱에서 레벨 6 이상 빛·어둠 몬스터를 묘지로 | 엑덱의 성흔을 먹는 용 (The Dragon that Devours the Dogma) 묘지로 | 우라라, 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 6 | 성흔을 먹는 용 (The Dragon that Devours the Dogma) | 엔드 페이즈, 이번 턴 묘지로 보내졌으므로: 덱에서 드래그마·트라이브리게이드 카드 서치 | The Fallen & The Virtuous (The Fallen & The Virtuous) 서치 (드래그마 취급) | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
 | 7 | The Fallen & The Virtuous (The Fallen & The Virtuous) | 엔드 페이즈에 패에서 발동: 엑덱의 회신룡 배스터드 (Titaniklad the Ash Dragon)을 묘지로 보내고 자신의 알비온을 파괴 | 알비온·배스터드가 이번 턴 묘지로 감 | – |
 | 8 | 낙인룡 알비온 (Albion the Branded Dragon) | 엔드 페이즈 묘지 효과: 낙인 마함 세트 | 낙인단죄 (Branded Retribution) 세트 | 도미나스 스파크, 감마 |
-| 9 | 회신룡 배스터드 (Titaniklad the Ash Dragon) | 엔드 페이즈 묘지 효과: 덱에서 드래그마 몬스터 또는 알버스의 낙윤 (Fallen of Albaz) 특소 | 하얀 용의 낙윤 (Fallen of the White Dragon) 특소 | 우라라, G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 10 | 하얀 용의 낙윤 (Fallen of the White Dragon) | 특소 성공 시 효과: 덱에서 에클레시아 특소 | 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) 특소 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 9 | 회신룡 배스터드 (Titaniklad the Ash Dragon) | 엔드 페이즈 묘지 효과: 덱에서 드래그마 몬스터 또는 알버스의 낙윤 (Fallen of Albaz) 특소 | 하얀 용의 낙윤 (Fallen of the White Dragon) 특소 | 우라라, G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 10 | 하얀 용의 낙윤 (Fallen of the White Dragon) | 특소 성공 시 효과: 덱에서 에클레시아 특소 | 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) 특소 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 
 **최종 필드 / 견제**: 혁언룡 그랑기뇰 (Granguignol the Dusk Dragon), 데스피아의 도화 알베르 (Aluber the Jester of Despia), 하얀 용의 낙윤 (Fallen of the White Dragon), 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous), 낙인단죄 (Branded Retribution)
 
@@ -147,13 +147,13 @@
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
 | 1 | The Fallen & The Virtuous (The Fallen & The Virtuous) | 발동: 엑덱의 격철룡 린드블룸 (Rindbrumm the Striking Dragon)을 묘지로 보내고 우리 앞면 카드 1장 파괴 | 엑덱에서 카드가 떠나 쿠엠 ② 조건 성립 | – |
-| 2 | 격철룡 린드블룸 (Rindbrumm the Striking Dragon) | 상대 턴 묘지 속공: 묘지의 하얀 용(알버스 취급)을 대상으로 그쪽을 특소, 린드블룸은 제외 | 하얀 용의 낙윤 (Fallen of the White Dragon) 특소 | G, 냐루스, 와라시, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 3 | 하얀 용의 낙윤 (Fallen of the White Dragon) | 특소 성공 시 효과: 패의 에클레시아 특소 | 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) 특소 | G, 푸루리아, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 4 | 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) | 메인 페이즈 속공: 자신을 릴리스하고 덱에서 알버스의 낙윤 (Fallen of Albaz) 특소 |  | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 5 | 알버스의 낙윤 (Fallen of Albaz) | 특소 성공 시 효과: 패 1장 버리고 자신 + 우리 몬스터로 융합 | 우리 몬스터를 소재로 빼앗는 융합(우리 몬스터 속성·종족에 맞춰 성흔을 먹는 용 (The Dragon that Devours the Dogma)·낙인룡 알비온 (Albion the Branded Dragon) 등) | G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 6 | 인도하는 성녀 쿠엠 (Guiding Quem, the Virtuous) | 엑덱에서 카드가 떠났을 때: 묘지의 알버스 언급 몬스터 특소 | 혁의 성녀 카르테시아 (Blazing Cartesia, the Virtuous) 특소 | G, 냐루스, 무한포영, 뵐러, 유령토끼, 와라시, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 7 | 검은 용의 에클레시아 (Ecclesia and the Dark Dragon) | 메인 페이즈 속공: 자신을 제외하고 덱에서 트라이브리게이드 메르쿠리에 (Tri-Brigade Mercourier) 특소 | 메르쿠리에: 우리 몬스터 효과 발동 무효 대기 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 8 | 혁의 성녀 카르테시아 (Blazing Cartesia, the Virtuous) | 메인 페이즈 속공: 하얀 용 + 방금 만든 융합 몬스터로 융합 | 빙검룡 미라제이드 (Mirrorjade the Iceblade Dragon) → 엑덱 융합을 보내 필드 몬스터 1장 제외 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 2 | 격철룡 린드블룸 (Rindbrumm the Striking Dragon) | 상대 턴 묘지 속공: 묘지의 하얀 용(알버스 취급)을 대상으로 그쪽을 특소, 린드블룸은 제외 | 하얀 용의 낙윤 (Fallen of the White Dragon) 특소 | G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 3 | 하얀 용의 낙윤 (Fallen of the White Dragon) | 특소 성공 시 효과: 패의 에클레시아 특소 | 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) 특소 | G, 푸루리아, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 4 | 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) | 메인 페이즈 속공: 자신을 릴리스하고 덱에서 알버스의 낙윤 (Fallen of Albaz) 특소 |  | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 5 | 알버스의 낙윤 (Fallen of Albaz) | 특소 성공 시 효과: 패 1장 버리고 자신 + 우리 몬스터로 융합 | 우리 몬스터를 소재로 빼앗는 융합(우리 몬스터 속성·종족에 맞춰 성흔을 먹는 용 (The Dragon that Devours the Dogma)·낙인룡 알비온 (Albion the Branded Dragon) 등) | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 6 | 인도하는 성녀 쿠엠 (Guiding Quem, the Virtuous) | 엑덱에서 카드가 떠났을 때: 묘지의 알버스 언급 몬스터 특소 | 혁의 성녀 카르테시아 (Blazing Cartesia, the Virtuous) 특소 | G, 냐루스, 무한포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 7 | 검은 용의 에클레시아 (Ecclesia and the Dark Dragon) | 메인 페이즈 속공: 자신을 제외하고 덱에서 트라이브리게이드 메르쿠리에 (Tri-Brigade Mercourier) 특소 | 메르쿠리에: 우리 몬스터 효과 발동 무효 대기 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 8 | 혁의 성녀 카르테시아 (Blazing Cartesia, the Virtuous) | 메인 페이즈 속공: 하얀 용 + 방금 만든 융합 몬스터로 융합 | 빙검룡 미라제이드 (Mirrorjade the Iceblade Dragon) → 엑덱 융합을 보내 필드 몬스터 1장 제외 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 
 **최종 필드 / 견제**: 빙검룡 미라제이드 (Mirrorjade the Iceblade Dragon), 인도하는 성녀 쿠엠 (Guiding Quem, the Virtuous), 트라이브리게이드 메르쿠리에 (Tri-Brigade Mercourier), 혁의 성녀 카르테시아 (Blazing Cartesia, the Virtuous)
 

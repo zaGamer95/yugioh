@@ -107,16 +107,16 @@
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
 | 1 | 무구한 자 메디우스 (Medius the Pure) | 일반 소환 |  | 푸루리아, 니비루 |
-| 2 | 무구한 자 메디우스 (Medius the Pure) | 소환 성공 유발: 덱에서 감옥신 몬스터 특소 | 아르토메기아의 감옥신수 (Artmage Power Patron) 특소 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 3 | 아르토메기아의 감옥신수 (Artmage Power Patron) | 메인 페이즈 퀵: 자신+메디우스로 융합 소환 | 아르토메기아 디아크트로스 (Artmage Diactorus) 융합 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 2 | 무구한 자 메디우스 (Medius the Pure) | 소환 성공 유발: 덱에서 감옥신 몬스터 특소 | 아르토메기아의 감옥신수 (Artmage Power Patron) 특소 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 3 | 아르토메기아의 감옥신수 (Artmage Power Patron) | 메인 페이즈 퀵: 자신+메디우스로 융합 소환 | 아르토메기아 디아크트로스 (Artmage Diactorus) 융합 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 | 4 | 아르토메기아의 감옥신수 (Artmage Power Patron) | 묘지로 간 유발: 묘지에 없는 이름의 아르토메기아 마법·함정 서치 | 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis) 서치 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
 | 5 | 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis) | 필드 마법 발동 → 마함 1장 버리고 아르토메기아 몬스터 이름 선언해 서치 | 아르토메기아 그라플레어 (Artmage Graflare) 서치. 이 턴 아르토메기아·메디우스·엑스트라 이외 특소 불가 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
-| 6 | 아르토메기아 그라플레어 (Artmage Graflare) | 패에서 자신 특소 + 덱에서 아르토메기아 마법 세트 | 아르토메기아 버니시 －개변－ (Artmage Varnish -Alteration-) 세트 | G, 푸루리아, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 6 | 아르토메기아 그라플레어 (Artmage Graflare) | 패에서 자신 특소 + 덱에서 아르토메기아 마법 세트 | 아르토메기아 버니시 －개변－ (Artmage Varnish -Alteration-) 세트 | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 | 7 | 아르토메기아 버니시 －개변－ (Artmage Varnish -Alteration-) | 발동: 필드 마법이 있으므로 덱에서 아르토메기아 카드 서치 | 아르토메기아 메세나 －각성－ (Artmage Pact -Awakening-) 서치 | 우라라, 드롤, 도미나스 퍼지 |
 | 8 | 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis) | 각성을 버리고 다른 이름 선언해 서치 | 아르토메기아 리테라 (Artmage Litera) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
-| 9 | 아르토메기아 리테라 (Artmage Litera) | 패에서 자신 특소 + 묘지의 아르토메기아 카드 회수 | 아르토메기아 메세나 －각성－ (Artmage Pact -Awakening-) 회수 | G, 푸루리아, 와라시, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 비스테드 마그남헛, 감마 |
+| 9 | 아르토메기아 리테라 (Artmage Litera) | 패에서 자신 특소 + 묘지의 아르토메기아 카드 회수 | 아르토메기아 메세나 －각성－ (Artmage Pact -Awakening-) 회수 | G, 푸루리아, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 비스테드 마그남헛, 감마 |
 | 10 | 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis) | 각성을 다시 버리고 서치 | 아르토메기아 파인멜트 (Artmage Finmel) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
-| 11 | 아르토메기아 파인멜트 (Artmage Finmel) | 패에서 자신 특소 + 1드로우 |  | G, 푸루리아, 드롤, 유령 어머니, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 11 | 아르토메기아 파인멜트 (Artmage Finmel) | 패에서 자신 특소 + 1드로우 |  | G, 푸루리아, 드롤, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 
 **최종 필드 / 견제**: 아르토메기아 디아크트로스 (Artmage Diactorus), 아르토메기아 그라플레어 (Artmage Graflare), 아르토메기아 리테라 (Artmage Litera), 아르토메기아 파인멜트 (Artmage Finmel), 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis)
 
@@ -131,11 +131,11 @@
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
 | 1 | 무구한 자 메디우스 (Medius the Pure) | 일반 소환 |  | 푸루리아, 니비루 |
-| 2 | 무구한 자 메디우스 (Medius the Pure) | 소환 성공 유발: 덱에서 감옥신 몬스터 특소 | 감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron) 특소 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 3 | 아르토메기아＝논피니토 (Artmage Non-Finito) | 마함 1장 버리고 네르베도를 릴리스해 엑스트라에서 특소(소환 조건, 체인 불가) | 네르베도는 엑스트라 덱에 앞면으로 들어감 | G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
+| 2 | 무구한 자 메디우스 (Medius the Pure) | 소환 성공 유발: 덱에서 감옥신 몬스터 특소 | 감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron) 특소 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 3 | 아르토메기아＝논피니토 (Artmage Non-Finito) | 마함 1장 버리고 네르베도를 릴리스해 엑스트라에서 특소(소환 조건, 체인 불가) | 네르베도는 엑스트라 덱에 앞면으로 들어감 | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 4 | 아르토메기아＝논피니토 (Artmage Non-Finito) | 특소 유발: 덱에서 아르토메기아 마법·함정 세트 | 아르토메기아 임파스토 －탈환－ (Artmage Impasto -Recapture-) 세트(이 턴에도 발동 가능) | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 5 | 감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron) | 엑스트라 덱에 앞면으로 들어간 유발: 덱에서 감옥신·아르토메기아 몬스터 특소 | 아르토메기아의 감옥신수 (Artmage Power Patron) 특소 | 우라라, G, 후와로스, 유령 어머니, 니비루, 도미나스 임펄스 |
-| 6 | 아르토메기아의 감옥신수 (Artmage Power Patron) | 메인 페이즈 퀵: 자신+메디우스로 융합 | 아르토메기아 디아크트로스 (Artmage Diactorus) 융합 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 5 | 감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron) | 엑스트라 덱에 앞면으로 들어간 유발: 덱에서 감옥신·아르토메기아 몬스터 특소 | 아르토메기아의 감옥신수 (Artmage Power Patron) 특소 | 우라라, G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 6 | 아르토메기아의 감옥신수 (Artmage Power Patron) | 메인 페이즈 퀵: 자신+메디우스로 융합 | 아르토메기아 디아크트로스 (Artmage Diactorus) 융합 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 | 7 | 아르토메기아의 감옥신수 (Artmage Power Patron) | 묘지로 간 유발: 아르토메기아 마함 서치 | 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis) 서치 → 이후 main 라인 5단계부터 동일 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
 
 **최종 필드 / 견제**: 아르토메기아＝논피니토 (Artmage Non-Finito), 아르토메기아 디아크트로스 (Artmage Diactorus), 아르토메기아 그라플레어 (Artmage Graflare), 아르토메기아 파인멜트 (Artmage Finmel), 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis), 아르토메기아 임파스토 －탈환－ (Artmage Impasto -Recapture-)
@@ -154,7 +154,7 @@ main 라인 필드에 논피니토(상대 턴 퀵 융합)와 임파스토(융합
 | 2 | 아르토메기아의 감옥신수 (Artmage Power Patron) | 묘지로 간 유발: 아르토메기아 마함 서치 | 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis) 서치 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
 | 3 | 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis) | 필드 마법 발동(메디우스 추가 일반 소환 획득) |  | – |
 | 4 | 무구한 자 메디우스 (Medius the Pure) | 일반 소환 |  | 푸루리아, 니비루 |
-| 5 | 무구한 자 메디우스 (Medius the Pure) | 소환 성공 유발: 덱에서 감옥신 몬스터 특소 | 2번째 아르토메기아의 감옥신수 (Artmage Power Patron) 또는 감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron) → main 또는 nervedo 라인으로 합류 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 유령 어머니, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 5 | 무구한 자 메디우스 (Medius the Pure) | 소환 성공 유발: 덱에서 감옥신 몬스터 특소 | 2번째 아르토메기아의 감옥신수 (Artmage Power Patron) 또는 감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron) → main 또는 nervedo 라인으로 합류 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 
 **최종 필드 / 견제**: 아르토메기아 디아크트로스 (Artmage Diactorus), 아르토메기아 그라플레어 (Artmage Graflare), 아르토메기아 파인멜트 (Artmage Finmel), 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis)
 
@@ -164,7 +164,7 @@ main 라인 필드에 논피니토(상대 턴 퀵 융합)와 임파스토(융합
 
 - 패트랩은 메디우스(또는 테르미나스) 단계에 몰아서 쓴다. 아르토메기아＝논피니토 (Artmage Non-Finito)가 아르토메기아 임파스토 －탈환－ (Artmage Impasto -Recapture-)를 세트한 뒤에는 몬스터 패트랩(우라라·G·니비루 등)이 무효+파괴될 수 있다. 상대 필드에 융합 몬스터가 있고 세트 카드가 생겼다면 포영·도미나스 같은 함정 쪽을 쓴다.
 - 감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron)가 펜듈럼 존에 있으면, 감옥신·아르토메기아 몬스터 효과에 체인한 몬스터 효과(우라라·뵐러·유령토끼 등)가 1번 무효된다. 이때는 포영이나 드롤처럼 몬스터 효과가 아닌 카드, 또는 체인하지 않는 카드를 쓴다.
-- 아르토메기아의 감옥신수 (Artmage Power Patron)의 융합은 메인 페이즈 퀵이다. 특소된 순간에 포영·유령 어머니를 쓰면 바로 융합을 체인해 피한다. 융합 효과의 발동 자체에 체인할 것.
+- 아르토메기아의 감옥신수 (Artmage Power Patron)의 융합은 메인 페이즈 퀵이다. 특소된 순간에 포영·사요 시구레를 쓰면 바로 융합을 체인해 피한다. 융합 효과의 발동 자체에 체인할 것.
 - 디아크토러스·핀멜·그라플레어의 강한 효과는 '자신 필드 종족 3종류 이상'이 조건이다. 아르토메기아 몬스터를 1장만 줄여도 조건이 꺼지는 경우가 많으므로, 후공에서는 종족 수를 보고 처리할 몬스터를 고른다.
 - 아르토메기아 메세나 －각성－ (Artmage Pact -Awakening-)가 처리되면 그 턴 융합 효과의 발동이 무효되지 않고, 그 융합 소환에 상대는 체인할 수 없다. 각성이 세트돼 있으면 융합 효과보다 각성 발동 전을 노린다.
 - 무구한 자 메디우스 (Medius the Pure)·감옥신영정－쥬노르도 (Junoldo the Shadespirit Power Patron)·혼절감옥신 비도리움 (Vidolium the Unstable Power Patron of Unity) 등은 엘펜노츠·DoomZ·감옥신 덱과 같이 쓰는 엔진이다. 엘펜노츠에도 메디우스가 대부분 들어가므로 메디우스 유발이 공통 혈자리다(마스터 듀얼에는 '아르스 마그나' 카드가 아직 없음).

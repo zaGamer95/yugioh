@@ -157,6 +157,42 @@ def build_handtraps(ht, classes, names):
     return "\n".join(out) + "\n"
 
 
+def write_site_data(themes, hdef, names):
+    """GitHub Pages(docs/index.html)가 읽는 데이터 한 덩어리. 카드는 테마에 나온 것만 담는다."""
+    used = set()
+
+    def walk(o, key=None):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                walk(v, k)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v, key)
+        elif isinstance(o, str):
+            if key in ("card", "target_card", "hand", "end_board"):
+                used.add(o)
+            used.update(re.findall(r"\[\[([^\]]+)\]\]", o))
+
+    walk(themes)
+    walk(hdef["handtraps"])
+    cards = {}
+    for en in sorted(used):
+        c = names.by_en.get(en)
+        if c:
+            cards[en] = {"ko": c.get("ko"), "cid": c.get("cid"), "type": c.get("type"), "text": c.get("text_ko") or c.get("text_en")}
+    data = {
+        "generated": max((t.get("updated", "") for t in themes), default=""),
+        "kinds": hdef.get("kinds", {}),
+        "effect_classes": hdef["effect_classes"],
+        "handtraps": hdef["handtraps"],
+        "themes": themes,
+        "cards": cards,
+    }
+    out = ROOT / "docs" / "data" / "site.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true", help="한국어명이 없는 카드가 있으면 실패")
@@ -207,6 +243,8 @@ def main():
         status = {"draft": "초안", "reviewed": "검토 완료"}.get(t.get("status"), t.get("status", ""))
         idx.append(f"| {title} | {t.get('meta', {}).get('share', 0) * 100:.1f}% | {status} | {top_txt} |")
     (docs / "README.md").write_text("\n".join(idx) + "\n\n[패트랩 사전](handtraps.md)\n", encoding="utf-8")
+
+    write_site_data(themes, hdef, names)
 
     if names.missing:
         print("한국어명 없음:", ", ".join(sorted(names.missing)))
