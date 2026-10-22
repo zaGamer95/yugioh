@@ -1,0 +1,244 @@
+{
+  "slug": "magistus",
+  "name": {"en": "Magistus", "ko": "마기스토스"},
+  "status": "draft",
+  "updated": "2026-10-22",
+  "meta": {"decks": 20, "share": 0.028, "window": "2026-09-22~10-22 랭크·DC"},
+  "variants": ["Magistus Fairy Tail"],
+  "overview_ko": "마기스토스(장착으로 서치·특소를 잇는 마법사족)에 페어리테일과 엔디미온 파츠를 섞은 마법사족 혼합 덱. 초동은 [[Fairy Tail - Luna]]·[[Spenta, the Magistus Sealer]]·[[Regulus, the Prince of Endymion]]·[[Instant Fusion]] 등이고, 어느 쪽으로 시작해도 [[Fairy Tail - Wiccat]]의 덤핑 → [[Fairy Tail - Matchgiru]] → [[Fairy Tail Ball]] → [[Tails of the Fairy Tails]] 융합으로 [[Teller of Fairy Tails]]를 세우고, [[Artemis, the Magistus Moon Maiden]] → [[Crowley, the Gifted Magistus]] 융합으로 [[Zoroa, the Magistus Verethragna]]를 세운다. 최종 견제는 텔러(카드 무효 파괴)·조로아(몬스터 효과 무효 파괴)·페어리테일 볼(상대 특소 시 효과 무효)·묘지의 [[Fairy Tail - Snow]]. 서치 5회 이상, 특소 8회 이상을 거치므로 드롤·G·후와로스·니비루에 약하고, 위캣 덤핑 한 지점이 모든 루트의 공통 허브다. [[Genia of the Ring]]·매치리르의 제약 때문에 이 루트 중에는 마법사족만 특소할 수 있다.",
+  "key_cards": [
+    {"card": "Fairy Tail - Luna", "role_ko": "일반 소환 시 공격력 1850 마법사족 서치([[Genia of the Ring]]·[[Fairy Tail - Snow]] 등). 1장 초동"},
+    {"card": "Genia of the Ring", "role_ko": "패에서 필드의 앞면 몬스터를 대상으로 자체 특소 → 위캣 엑시즈 소재. 이후 엑스트라 덱 특소는 마법사족만"},
+    {"card": "Fairy Tail - Wiccat", "role_ko": "소재 최대 2개 제거로 페어리테일 카드 덤핑(매치리르 + 테일즈). 모든 루트의 허브"},
+    {"card": "Fairy Tail - Matchgiru", "role_ko": "1850 마법사족이 있으면 패·묘지에서 특소, 소환 시 페어리테일 마함 서치(볼)"},
+    {"card": "Tails of the Fairy Tails", "role_ko": "묘지에서 장착 + 추가 일반 소환, 장착 상태에서 마법사족 융합(텔러)"},
+    {"card": "Spenta, the Magistus Sealer", "role_ko": "패에서 버려 마기스토스 서치. 묘지에서 제외해 엑스트라 덱·묘지의 마기스토스를 장착"},
+    {"card": "Zoroa, the Magistus of Flame", "role_ko": "엑스트라 덱의 마기스토스를 장착하고, 장착되면 패·묘지의 레벨 4 마법사족 특소"},
+    {"card": "Artemis, the Magistus Moon Maiden", "role_ko": "장착된 상태에서 마기스토스 몬스터 서치(주로 크로울리)"},
+    {"card": "Crowley, the Gifted Magistus", "role_ko": "드로우 외로 패에 오면 자체 특소, 소환 시 마기스토스/소환수 융합(조로아 베레트라그나)"},
+    {"card": "Teller of Fairy Tails", "role_ko": "상대 카드 발동에 페어리테일 카드를 제외해 무효+파괴"},
+    {"card": "Zoroa, the Magistus Verethragna", "role_ko": "몬스터 효과 발동에 앞면 마기스토스 몬스터 카드를 묘지로 보내 무효 + 1장 파괴"}
+  ],
+  "lines": [
+    {
+      "id": "luna",
+      "title_ko": "페어리테일 루나 1장 초동 (텔러 + 조로아 + 볼)",
+      "hand": ["Fairy Tail - Luna"],
+      "note_ko": "MDM 콤보(2026-07~10) 공통 부분. 일반 소환권 사용 + 테일즈로 추가 일반 소환. 최근 리스트 일부는 끝에 [[Summon Sorceress]]·[[Charmer Quartet in Bloom]]으로 더 늘리지만 채용률 10% 정도라 여기서는 뺐다.",
+      "steps": [
+        {"card": "Fairy Tail - Luna", "action_ko": "일반 소환", "class": ["normal_summon"], "result_ko": ""},
+        {"card": "Fairy Tail - Luna", "action_ko": "일반 소환 유발: 공격력 1850 마법사족 서치", "class": ["monster_effect_field", "search"], "result_ko": "[[Genia of the Ring]] 서치"},
+        {"card": "Genia of the Ring", "action_ko": "패 효과: 루나를 대상으로 자체 특소 (이번 턴 엑스트라 덱 특소는 마법사족만)", "class": ["monster_effect_hand", "ss_from_hand"], "result_ko": ""},
+        {"card": "Fairy Tail - Wiccat", "action_ko": "루나 + 제니아로 엑시즈 소환", "class": ["ss_from_extra"], "result_ko": ""},
+        {"card": "Fairy Tail - Wiccat", "action_ko": "소재 2개 제거: 덱에서 페어리테일 카드 2장 덤핑", "class": ["monster_effect_field", "send_from_deck"], "result_ko": "[[Fairy Tail - Matchgiru]] + [[Tails of the Fairy Tails]] 묘지로"},
+        {"card": "Fairy Tail - Matchgiru", "action_ko": "묘지 효과: 1850 마법사족(위캣)이 있어 자체 특소 (이후 마법사족만 특소)", "class": ["monster_effect_gy", "ss_from_gy"], "result_ko": ""},
+        {"card": "Fairy Tail - Matchgiru", "action_ko": "특소 유발: 페어리테일 마함 서치", "class": ["monster_effect_field", "search"], "result_ko": "[[Fairy Tail Ball]] 서치"},
+        {"card": "Fairy Tail Ball", "action_ko": "발동 시 효과: 덱에서 페어리테일 몬스터 서치", "class": ["spell_trap_activation", "search"], "result_ko": "두 번째 [[Fairy Tail - Luna]] 서치"},
+        {"card": "Tails of the Fairy Tails", "action_ko": "묘지 효과: 매치리르에게 장착 → 추가 일반 소환 권리", "class": ["spell_trap_activation"], "result_ko": ""},
+        {"card": "Fairy Tail - Luna", "action_ko": "두 번째 루나 일반 소환(테일즈 효과)", "class": ["normal_summon"], "result_ko": ""},
+        {"card": "Fairy Tail - Luna", "action_ko": "일반 소환 유발: 1850 마법사족 서치", "class": ["monster_effect_field", "search"], "result_ko": "[[Fairy Tail - Snow]] 서치"},
+        {"card": "Tails of the Fairy Tails", "action_ko": "장착 상태 효과: 위캣(필드) + 스노우(패)로 마법사족 융합", "class": ["st_effect_field", "ss_from_extra"], "result_ko": "[[Teller of Fairy Tails]]"},
+        {"card": "Artemis, the Magistus Moon Maiden", "action_ko": "매치리르 1장으로 링크 소환", "class": ["ss_from_extra"], "result_ko": ""},
+        {"card": "Endymion, the Crescent Magistus", "action_ko": "아르테미스 + 루나로 링크 소환", "class": ["ss_from_extra"], "result_ko": ""},
+        {"card": "Endymion, the Crescent Magistus", "action_ko": "링크 소환 유발: 자신을 대상으로 묘지의 아르테미스를 장착", "class": ["monster_effect_field"], "result_ko": ""},
+        {"card": "Artemis, the Magistus Moon Maiden", "action_ko": "장착 상태 효과: 마기스토스 몬스터 서치", "class": ["st_effect_field", "search"], "result_ko": "[[Spenta, the Magistus Sealer]] 서치"},
+        {"card": "Spenta, the Magistus Sealer", "action_ko": "패에서 버리고 마기스토스 서치", "class": ["monster_effect_hand", "search"], "result_ko": "[[Crowley, the Gifted Magistus]] 서치"},
+        {"card": "Crowley, the Gifted Magistus", "action_ko": "드로우 외로 패에 들어와 자체 특소", "class": ["monster_effect_hand", "ss_from_hand"], "result_ko": ""},
+        {"card": "Crowley, the Gifted Magistus", "action_ko": "소환 유발: 크로울리 + 엔디미온(링크)으로 융합", "class": ["monster_effect_field", "ss_from_extra"], "result_ko": "[[Zoroa, the Magistus Verethragna]]"},
+        {"card": "Spenta, the Magistus Sealer", "action_ko": "묘지에서 제외: 조로아를 대상으로 묘지·엑스트라 덱의 마기스토스를 장착 (조로아 무효 코스트 확보)", "class": ["monster_effect_gy"], "result_ko": ""}
+      ],
+      "end_board": ["Teller of Fairy Tails", "Zoroa, the Magistus Verethragna", "Fairy Tail Ball"],
+      "end_board_note_ko": "텔러 카드 무효 1회, 조로아 몬스터 효과 무효+파괴 1회, 볼(상대가 특소하면 상대 효과 몬스터 1장 무효), 묘지 스노우(퀵으로 7장 제외해 특소 → 뒷면 수비). 엔디미온은 루트에 따라 필드에 남기도 한다."
+    },
+    {
+      "id": "spenta",
+      "title_ko": "스펜타 1장 초동 (조로아 → 코로조 → 위캣으로 페어리테일 합류)",
+      "hand": ["Spenta, the Magistus Sealer"],
+      "note_ko": "MDM 콤보 'Spenta, the Magistus Sealer'(2026-10-13)·'Spenta starter' 공통 앞부분을 정리. 마기스토스 장착 카드(몬스터 카드)를 코로조 접촉 융합 소재로 쓰는 것이 핵심. 위캣 이후는 루나 라인 5~14단계와 같다.",
+      "steps": [
+        {"card": "Spenta, the Magistus Sealer", "action_ko": "패에서 버리고 마기스토스 서치", "class": ["monster_effect_hand", "search"], "result_ko": "[[Zoroa, the Magistus of Flame]] 서치"},
+        {"card": "Zoroa, the Magistus of Flame", "action_ko": "일반 소환", "class": ["normal_summon"], "result_ko": ""},
+        {"card": "Zoroa, the Magistus of Flame", "action_ko": "기동 효과: 자신을 대상으로 엑스트라 덱의 아르테미스를 장착", "class": ["monster_effect_field"], "result_ko": "[[Artemis, the Magistus Moon Maiden]] 장착"},
+        {"card": "Zoroa, the Magistus of Flame", "action_ko": "장착 유발: 묘지의 스펜타를 수비 표시로 특소(효과 무효)", "class": ["monster_effect_field", "ss_from_gy"], "result_ko": ""},
+        {"card": "Artemis, the Magistus Moon Maiden", "action_ko": "스펜타 1장으로 두 번째 아르테미스 링크 소환", "class": ["ss_from_extra"], "result_ko": ""},
+        {"card": "Artemis, the Magistus Moon Maiden", "action_ko": "조로아에게 장착된 아르테미스의 효과: 마기스토스 서치", "class": ["st_effect_field", "search"], "result_ko": "[[Crowley, the Gifted Magistus]] 서치"},
+        {"card": "Crowley, the Gifted Magistus", "action_ko": "패에서 자체 특소", "class": ["monster_effect_hand", "ss_from_hand"], "result_ko": ""},
+        {"card": "Crowley, the Gifted Magistus", "action_ko": "소환 유발: 크로울리 + 아르테미스(링크)로 융합", "class": ["monster_effect_field", "ss_from_extra"], "result_ko": "[[Zoroa, the Magistus Verethragna]]"},
+        {"card": "Zoroa, the Magistus Verethragna", "action_ko": "기동 효과: 묘지의 크로울리를 장착", "class": ["monster_effect_field"], "result_ko": ""},
+        {"card": "Magistus Chorozo", "action_ko": "장착 카드인 아르테미스(링크)·크로울리(마법사족)를 묘지로 보내 엑스트라 덱에서 특소", "class": ["ss_from_extra"], "result_ko": ""},
+        {"card": "Fairy Tail - Wiccat", "action_ko": "조로아(화염, 레벨 4) + 코로조(레벨 4)로 엑시즈 소환", "class": ["ss_from_extra"], "result_ko": ""},
+        {"card": "Fairy Tail - Wiccat", "action_ko": "소재 2개 제거: 매치리르 + 테일즈 덤핑", "class": ["monster_effect_field", "send_from_deck"], "result_ko": ""},
+        {"card": "Fairy Tail - Matchgiru", "action_ko": "묘지에서 자체 특소 → 볼 서치 → 볼로 루나 서치", "class": ["monster_effect_gy", "ss_from_gy", "search"], "result_ko": "[[Fairy Tail Ball]] → [[Fairy Tail - Luna]]"},
+        {"card": "Tails of the Fairy Tails", "action_ko": "묘지에서 장착 → 루나 추가 일반 소환 → 스노우 서치", "class": ["spell_trap_activation", "normal_summon", "search"], "result_ko": "[[Fairy Tail - Snow]]"},
+        {"card": "Tails of the Fairy Tails", "action_ko": "장착 상태 효과: 위캣 + 스노우로 융합", "class": ["st_effect_field", "ss_from_extra"], "result_ko": "[[Teller of Fairy Tails]]"},
+        {"card": "Endymion, the Crescent Magistus", "action_ko": "매치리르 + 루나로 링크 소환 → 묘지의 마법사족 장착", "class": ["ss_from_extra", "monster_effect_field"], "result_ko": ""}
+      ],
+      "end_board": ["Zoroa, the Magistus Verethragna", "Teller of Fairy Tails", "Endymion, the Crescent Magistus", "Fairy Tail Ball"],
+      "end_board_note_ko": "조로아 몬스터 효과 무효, 텔러 카드 무효, 볼 특소 반응 무효, 엔디미온 퀵 회수. 13~14단계는 루나 라인과 같은 처리를 묶어 적었다."
+    },
+    {
+      "id": "regulus",
+      "title_ko": "레굴루스 + 마법사족 1장 (엔디미온 파츠 경유)",
+      "hand": ["Regulus, the Prince of Endymion", "Spenta, the Magistus Sealer"],
+      "note_ko": "두 번째 장은 공개할 마법사족이면 된다(공개한 몬스터 레벨×300 LP 지불). 조로아 베레트라그나까지만 검증. 이후 [[Verre Magic - Lacrima of Light]]·[[Witchcrafter Genni]]로 코로조 → 위캣에 합류하는 변형은 MDM 콤보에 있으나 세부 순서를 확인하지 못했다.",
+      "steps": [
+        {"card": "Regulus, the Prince of Endymion", "action_ko": "패의 마법사족을 공개하고 LP를 내 자체 특소", "class": ["monster_effect_hand", "ss_from_hand"], "result_ko": ""},
+        {"card": "Regulus, the Prince of Endymion", "action_ko": "특소 유발: 레굴루스가 적힌 마법 서치", "class": ["monster_effect_field", "search"], "result_ko": "[[Empire of Endymion]] 서치"},
+        {"card": "Empire of Endymion", "action_ko": "발동 시 효과: 레굴루스가 적힌 몬스터 서치", "class": ["spell_trap_activation", "search"], "result_ko": "[[Verre, the Maid of Endymion]] 서치"},
+        {"card": "Verre, the Maid of Endymion", "action_ko": "이번 턴 마법을 발동했으므로 패에서 자체 특소", "class": ["monster_effect_hand", "ss_from_hand"], "result_ko": ""},
+        {"card": "Verre, the Maid of Endymion", "action_ko": "특소 유발: 위치크래프트 마함 서치", "class": ["monster_effect_field", "search"], "result_ko": "[[Verre Magic - Lacrima of Light]] 서치"},
+        {"card": "Artemis, the Magistus Moon Maiden", "action_ko": "레굴루스 1장으로 링크 소환", "class": ["ss_from_extra"], "result_ko": ""},
+        {"card": "Endymion, the Crescent Magistus", "action_ko": "아르테미스 + 베르로 링크 소환 → 묘지의 아르테미스 장착", "class": ["ss_from_extra", "monster_effect_field"], "result_ko": ""},
+        {"card": "Artemis, the Magistus Moon Maiden", "action_ko": "장착 상태 효과: 마기스토스 서치", "class": ["st_effect_field", "search"], "result_ko": "[[Crowley, the Gifted Magistus]] (패의 스펜타는 그대로 보존하거나 서치에 사용)"},
+        {"card": "Crowley, the Gifted Magistus", "action_ko": "패에서 자체 특소", "class": ["monster_effect_hand", "ss_from_hand"], "result_ko": ""},
+        {"card": "Crowley, the Gifted Magistus", "action_ko": "소환 유발: 크로울리 + 엔디미온으로 융합", "class": ["monster_effect_field", "ss_from_extra"], "result_ko": "[[Zoroa, the Magistus Verethragna]]"},
+        {"card": "Verre Magic - Lacrima of Light", "action_ko": "마기스토스를 컨트롤해 덱에서 마법사족/마법 1장 덤핑(조로아·위치크래프트 제니 등)", "class": ["spell_trap_activation", "send_from_deck"], "result_ko": ""}
+      ],
+      "end_board": ["Zoroa, the Magistus Verethragna"],
+      "end_board_note_ko": "여기서 멈추면 조로아 1견제 + 패의 스펜타(공격력 반감/서치). 손에 라크리마가 더 있으면 상대 턴 발동에 체인해 마기스토스를 특소하는 견제가 추가된다."
+    }
+  ],
+  "chokepoints": [
+    {
+      "handtrap": "ash",
+      "severity": "critical",
+      "line": "luna", "step": 5,
+      "target_card": "Fairy Tail - Wiccat",
+      "timing_ko": "위캣이 소재를 제거하고 매치리르·테일즈를 덤핑하는 효과 발동에 체인",
+      "why_ko": "루나·스펜타 라인 모두 이 덤핑으로 페어리테일 엔진(매치리르 → 볼 → 루나 → 스노우 → 텔러)에 들어간다. 무효되면 위캣은 1턴 1번이라 다시 못 쓴다.",
+      "fallback_ko": "위캣은 랭크라 아르테미스 소재도 못 된다. 패에 다른 초동(레굴루스·인스턴트 퓨전 등)이 없으면 위캣 1장으로 종료."
+    },
+    {
+      "handtrap": "ash",
+      "severity": "critical",
+      "line": "luna", "step": 2,
+      "target_card": "Fairy Tail - Luna",
+      "timing_ko": "루나 1장 패라면: 루나의 일반 소환 유발(제니아 서치)에 체인",
+      "why_ko": "제니아가 없으면 위캣 엑시즈가 안 되고 일반 소환권도 이미 썼다.",
+      "fallback_ko": "패에 마법사족이 더 있으면 레굴루스 등으로 이어 간다. 패가 넉넉해 보이면 위캣 덤핑까지 아끼는 편이 안정적."
+    },
+    {
+      "handtrap": "imperm",
+      "severity": "critical",
+      "line": "spenta", "step": 3,
+      "target_card": "Zoroa, the Magistus of Flame",
+      "timing_ko": "조로아(화염)의 엑스트라 덱 장착 효과 발동에 체인",
+      "why_ko": "장착이 안 되면 장착 유발 특소도 아르테미스의 크로울리 서치도 없다. 스펜타 라인의 시작점. 뵐러도 같은 지점.",
+      "fallback_ko": "루나 라인에서는 위캣의 덤핑 효과 발동에 포영을 써도 우라라와 같은 결과(위캣 효과 무효)."
+    },
+    {
+      "handtrap": "droll",
+      "severity": "strong",
+      "line": "luna", "step": 2,
+      "target_card": "Fairy Tail - Luna",
+      "timing_ko": "첫 서치(제니아·조로아·엠파이어 등)가 패에 들어온 직후",
+      "why_ko": "루트 전체에 서치가 5회 이상(볼·루나·스노우·스펜타·크로울리). 볼·스노우가 없으면 텔러가 안 나오고 아르테미스 서치도 막힌다.",
+      "fallback_ko": "위캣 덤핑 → 매치리르 묘지 특소는 서치가 아니라 남는다. [[Weaver of Fairy Tails]](덱에서 페어리테일 특소)로 일부 보완 가능."
+    },
+    {
+      "handtrap": "maxxc",
+      "severity": "strong",
+      "line": "luna", "step": 3,
+      "target_card": "Genia of the Ring",
+      "timing_ko": "첫 특소(제니아·레굴루스·크로울리) 전후",
+      "why_ko": "루나 라인만 특소 8회(제니아·위캣·매치리르·텔러·아르테미스·엔디미온·크로울리·조로아). 끝까지 가면 드로우를 크게 준다.",
+      "fallback_ko": "위캣·텔러 정도에서 끊는 하프 보드가 된다."
+    },
+    {
+      "handtrap": "fuwalos",
+      "severity": "strong",
+      "line": "luna", "step": 4,
+      "target_card": "Fairy Tail - Wiccat",
+      "timing_ko": "위캣 엑시즈 소환 전, 내 필드가 비어 있을 때",
+      "why_ko": "엑스트라 덱 특소(위캣·텔러·아르테미스·엔디미온·조로아)가 5회 이상. 루트를 끝까지 가면 상대에게 큰 손해.",
+      "fallback_ko": "G와 같은 판단."
+    },
+    {
+      "handtrap": "mourner",
+      "severity": "strong",
+      "line": "luna", "step": 4,
+      "target_card": "Fairy Tail - Wiccat",
+      "timing_ko": "위캣이 엑시즈 소환된 직후(덤핑 효과를 쓰기 전)",
+      "why_ko": "위캣 효과가 무효되면 덤핑을 못 해 우라라와 같은 결과가 된다.",
+      "fallback_ko": "다른 초동이 없으면 거의 종료."
+    },
+    {
+      "handtrap": "belle",
+      "severity": "strong",
+      "line": "luna", "step": 6,
+      "target_card": "Fairy Tail - Matchgiru",
+      "timing_ko": "매치리르의 묘지 특소 효과 발동에 체인 (스펜타 라인에서는 조로아의 묘지 특소 유발도 대상)",
+      "why_ko": "매치리르가 안 나오면 볼 서치 → 루나 → 스노우 → 텔러가 끊긴다.",
+      "fallback_ko": "테일즈 묘지 효과로 위캣에 장착하고 패의 1850 마법사족을 추가 일반 소환하는 정도. 패에 없으면 위캣만 남는다."
+    },
+    {
+      "handtrap": "nibiru",
+      "severity": "strong",
+      "line": "luna", "step": 10,
+      "target_card": "Fairy Tail - Luna",
+      "timing_ko": "5번째 소환(두 번째 루나 일반 소환) 직후, 텔러 융합 전",
+      "why_ko": "위캣·매치리르(테일즈 장착)·루나를 한꺼번에 치워 텔러·아르테미스·엔디미온 줄기가 모두 사라진다.",
+      "fallback_ko": "패의 스노우·볼 정도만 남는다. 상대가 먼저 텔러를 세우면 텔러가 니비루를 무효할 수 있으니 그 전에."
+    },
+    {
+      "handtrap": "ogre",
+      "severity": "strong",
+      "line": "spenta", "step": 3,
+      "target_card": "Zoroa, the Magistus of Flame",
+      "timing_ko": "조로아(화염)가 자신을 대상으로 장착 효과를 발동했을 때",
+      "why_ko": "대상인 조로아가 파괴되어 장착이 불발되고 장착 유발 특소도 나오지 않는다.",
+      "fallback_ko": "루나 라인에서는 매치리르 서치나 장착된 아르테미스 서치에 써도 서치는 처리되므로 효과가 작다."
+    },
+    {
+      "handtrap": "imperm",
+      "severity": "bad",
+      "line": "luna", "step": 16,
+      "target_card": "Artemis, the Magistus Moon Maiden",
+      "timing_ko": "장착 상태의 아르테미스 서치에 포영·뵐러",
+      "why_ko": "장착된 아르테미스는 마법·함정 존의 장착 카드라 몬스터 대상 무효로 지정할 수 없다(토끼·우라라는 가능).",
+      "fallback_ko": "포영·뵐러는 필드 몬스터 효과(위캣 덤핑, 조로아 장착, 크로울리 융합)에 쓴다."
+    }
+  ],
+  "handtrap_summary": {
+    "ash":      {"rating": "critical", "note_ko": "위캣 덤핑이 최우선. 루나 1장이면 루나의 제니아 서치"},
+    "maxxc":    {"rating": "strong",   "note_ko": "특소 8회 이상"},
+    "fuwalos":  {"rating": "strong",   "note_ko": "엑스트라 덱 특소 5회 이상. 위캣 전에"},
+    "purulia":  {"rating": "strong",   "note_ko": "루나 일반 소환 2회 + 제니아·크로울리 패 특소로 3~4장"},
+    "meowls":   {"rating": "weak",     "note_ko": "묘지 특소는 매치리르·스노우·조로아 유발 정도"},
+    "droll":    {"rating": "strong",   "note_ko": "첫 서치 직후. 서치 5회 이상"},
+    "imperm":   {"rating": "strong",   "note_ko": "위캣 덤핑 또는 조로아(화염) 장착. 장착된 아르테미스에는 불가"},
+    "veiler":   {"rating": "strong",   "note_ko": "포영과 같은 지점"},
+    "ogre":     {"rating": "ok",       "note_ko": "조로아 장착 효과(대상이 자신)에 쓰면 강함. 서치 효과에는 약함"},
+    "belle":    {"rating": "strong",   "note_ko": "매치리르 묘지 특소, 조로아 장착 유발 특소"},
+    "mourner":  {"rating": "strong",   "note_ko": "위캣 엑시즈 직후 효과 무효"},
+    "crossout": {"rating": "weak",     "note_ko": "내 덱에 있는 카드만 선언 가능. 나도 크로울리 등 공유 카드를 쓸 때만 의미"},
+    "ttt":      {"rating": "weak",     "note_ko": "후공 내 턴용"},
+    "droplet":  {"rating": "ok",       "note_ko": "후공 돌파용. 몬스터를 보내면 조로아·텔러의 몬스터 체인을 막을 수 있으나 텔러는 마함 체인 가능"},
+    "nibiru":   {"rating": "strong",   "note_ko": "두 번째 루나 일반 소환 직후, 텔러 전"},
+    "impulse":  {"rating": "ok",       "note_ko": "제니아 자체 특소, 매치리르 묘지 특소, 테일즈·크로울리 융합"},
+    "purge":    {"rating": "strong",   "note_ko": "서치가 많아 우라라와 비슷하게 사용"},
+    "spark":    {"rating": "ok",       "note_ko": "제니아·스펜타·크로울리 패 효과 후 위캣 등 허브 제외"},
+    "magnamhut":{"rating": "weak",     "note_ko": "묘지의 빛 페어리테일(스노우) 제외 정도"},
+    "gamma":    {"rating": "strong",   "note_ko": "내 필드가 비었을 때 루나 서치나 위캣 덤핑에"}
+  },
+  "notes_ko": [
+    "포영·뵐러는 장착 상태의 [[Artemis, the Magistus Moon Maiden]]처럼 마법·함정 존에 있는 마기스토스에는 쓸 수 없다. 몬스터 존의 위캣·조로아·크로울리에 쓴다.",
+    "[[Genia of the Ring]]·[[Fairy Tail - Matchgiru]]를 쓴 턴에는 마법사족만 특소할 수 있다. 이 루트 중에는 [[Borreload Savage Dragon]]·[[Ninaruru, the Magistus Glass Goddess]] 같은 비마법사족을 못 낸다.",
+    "[[Fairy Tail Ball]] 발동 시 서치에 우라라를 쓰면 볼은 필드에 남아 특소 반응 무효가 그대로 남는다. 우선순위는 위캣 덤핑보다 낮다.",
+    "[[Teller of Fairy Tails]]가 서면 상대 카드 발동이 무효·파괴된다. 패트랩은 텔러 융합(테일즈 장착 효과) 전에 쓰고, 텔러 무효 코스트(페어리테일 카드 제외)가 남았는지 본다.",
+    "후공에서 볼이 있는 상대에게 특소하면 내 효과 몬스터 1장이 무효된다. 묘지의 스노우는 퀵으로 부활해 내 몬스터를 뒷면 수비로 만든다.",
+    "OCG 신규 마기스토스(CH02/CH03)는 MD 미수록. 여기 내용은 현재 MD 카드풀 기준."
+  ],
+  "sources": [
+    "https://www.masterduelmeta.com/combo/6ac94ac23a826fae9920fc50 (MDM: Fairy Tail Luna 1 Card Combo, 2026-10-09)",
+    "https://www.masterduelmeta.com/combo/6a5f55bd0a89ce0a71972050 (MDM: 1 Luna, 2026-07-21)",
+    "https://www.masterduelmeta.com/combo/6a4ef9a939169a57d311b6d0 (MDM: Luna 1cc, 2026-07-09)",
+    "https://www.masterduelmeta.com/combo/6ace5d7f3a826fae99429934 (MDM: Spenta, the Magistus Sealer, 2026-10-13)",
+    "https://www.masterduelmeta.com/combo/6a7c0a41ae9e6712b242b0df (MDM: Spenta starter, 2026-08-12)",
+    "https://www.masterduelmeta.com/combo/6a7d53f1f2a7373d430a5a22 (MDM: Regulus + any spellcaster, 2026-08-13)",
+    "https://www.masterduelmeta.com/combo/6ace3f32d386c394e3f53b5d (MDM: Fairy Tail Ball, 2026-10-13)",
+    "https://www.masterduelmeta.com/guides/invoked-taffy/ (MDM Invoked Guide: 마기스토스 파츠 설명)",
+    "https://www.masterduelmeta.com/api/v1/cards (MDM 카드 API, MD 영문 텍스트)",
+    "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=15619&request_locale=ko (공식 DB: 마기스토스 메이든 아르테미스)"
+  ]
+}

@@ -160,7 +160,7 @@ Game8의 '巳剣・エクス' 루트와 같은 발상(라이제올 엑시즈로 
 
 **최종 필드 / 견제**: Ryzeal Detonator ⚠, Ame no Murakumo no Mitsurugi ⚠, Futsu no Mitama no Mitsurugi ⚠, King of the Feral Imps ⚠, Mitsurugi Great Purification ⚠
 
-데토네이터(소재 2개) + 미츠루기 의식 필드. 남은 레벨 4로 Ryzeal Duo Drive ⚠나 Number 60: Dugares the Timeless ⚠(2드로우)까지 가는 경우도 있다. 정확한 마무리는 패에 따라 다르다.
+데토네이터(소재 2개) + 미츠루기 의식 필드. 남은 레벨 4로 Ryzeal Duo Drive ⚠나 No.60 타임리스의 듀가레스 (Number 60: Dugares the Timeless)(2드로우)까지 가는 경우도 있다. 정확한 마무리는 패에 따라 다르다.
 
 ## 주의할 점
 
