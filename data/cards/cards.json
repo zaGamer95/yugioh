@@ -2126,6 +2126,23 @@
   "text_en": "2+ Level 8 monsters\nOnce per turn, you can also Xyz Summon \"Gigantic \"Champion\" Sargas\" by using 1 \"Springans\" Xyz Monster you control. (Transfer its materials to this card.) While this card has material: You can add 1 \"Springans\" or \"Therion\" card from your Deck to your hand. If material is detached from a monster(s) on the field (except during the Damage Step): You can target 1 card on the field; either destroy it or return it to the hand. You can only use each effect of \"Gigantic \"Champion\" Sargas\" once per turn.",
   "text_ko": "레벨 8 몬스터 × 2장 이상<br>\"기간틱 \"챔피언\" 사르가스\"는 1턴에 1번, 자신 필드의 \"스프리건즈\" 엑시즈 몬스터 위에 겹쳐 엑시즈 소환할 수도 있다. 이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 엑시즈 소재를 가지고 있을 경우에 발동할 수 있다. 덱에서 \"스프리건즈\" 카드 또는 \"세리온즈\" 카드 1장을 패에 넣는다. ②: 필드의 엑시즈 소재가 제거되었을 경우, 필드의 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴하거나 주인의 패로 되돌린다."
  },
+ "18195": {
+  "cid": 18195,
+  "en": "Dyna Mondo",
+  "ko": "다이너 몬드",
+  "ja": null,
+  "type": "Monster",
+  "race": "Cyberse",
+  "attribute": "EARTH",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2 monsters, including a Ritual Monster\nIf this card is Special Summoned: You can target 1 card on the field and 1 Ritual Monster in your GY; shuffle both into the Deck. During your opponent's turn (Quick Effect): You can Tribute this card, then target 1 Ritual Monster in your GY; either add it to your hand or Special Summon it. You can only use each effect of \"Dyna Mondo\" once per turn.",
+  "text_ko": "의식 몬스터를 포함하는 몬스터 2장<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 특수 소환에 성공했을 경우, 필드의 카드 1장과 자신 묘지의 의식 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 2장을 주인의 덱으로 되돌린다. ②: 상대 턴에, 이 카드를 릴리스하고, 자신 묘지의 의식 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 패에 넣거나 특수 소환한다."
+ },
  "18214": {
   "cid": 18214,
   "en": "Triple Tactics Thrust",
@@ -2400,6 +2417,20 @@
   "md_rarity": "UR",
   "text_en": "2 Effect Monsters\nMust first be Link Summoned. You can only Special Summon \"Sky Striker Ace - Camellia(s)\" once per turn. Once per turn, if you have 3 or less Spells in your GY: You can send 1 \"Sky Striker\" card from your Deck to the GY. If this card is sent to the GY: You can target 1 monster your opponent controls; Special Summon this card to your opponent's field (but shift control to its owner during the End Phase of this turn), and if you do, send that targeted monster to the GY.",
   "text_ko": "효과 몬스터 2장<br>이 카드는 링크 소환으로밖에 엑스트라 덱에서 특수 소환할 수 없으며, 자신은 \"섬도희－카멜리아\"를 1턴에 1번밖에 특수 소환할 수 없다. ①: 1턴에 1번, 자신 묘지의 마법 카드가 3장 이하일 경우에 발동할 수 있다. 덱에서 \"섬도\" 카드 1장을 묘지로 보낸다. ②: 이 카드가 묘지로 보내졌을 경우, 상대 필드의 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 상대 필드에 특수 소환하고, 대상 몬스터를 묘지로 보낸다. 이 카드의 컨트롤은 이 턴의 엔드 페이즈에 원래의 주인에게 되돌아간다."
+ },
+ "19027": {
+  "cid": 19027,
+  "en": "Bonfire",
+  "ko": "화톳불",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "Add 1 Level 4 or lower Pyro monster from your Deck to your hand. You can only activate 1 \"Bonfire\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 덱에서 레벨 4 이하의 화염족 몬스터 1장을 패에 넣는다."
  },
  "19039": {
   "cid": 19039,
@@ -2741,6 +2772,23 @@
   "text_en": "1 Tuner + 1+ non-Tuner monsters\nIf this card is Synchro Summoned using a Tuner Synchro Monster: You can target 1 Spell/Trap in your GY; add it to your hand. When your opponent activates a card or effect (Quick Effect): You can send 1 Spell/Trap from your hand or field to the GY; Special Summon 1 Level 7 or lower Tuner Synchro Monster from your Extra Deck, GY, or banishment. You can only use each effect of \"Diabell, Queen of the White Forest\" once per turn.",
   "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 싱크로 몬스터의 튜너를 소재로서 싱크로 소환했을 경우, 자신 묘지의 마법 / 함정 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 패에 넣는다. ②: 상대가 마법 / 함정 / 몬스터의 효과를 발동했을 때, 자신의 패 / 필드에서 마법 / 함정 카드 1장을 묘지로 보내고 발동할 수 있다. 자신의 엑스트라 덱 / 묘지 / 제외 상태인 레벨 7 이하의 싱크로 몬스터의 튜너 1장을 특수 소환한다."
  },
+ "20227": {
+  "cid": 20227,
+  "en": "Ragnaraika Selene Snapper",
+  "ko": "뇌화의 쿠로카미츠키",
+  "ja": null,
+  "type": "Monster",
+  "race": "Reptile",
+  "attribute": "WATER",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "N",
+  "text_en": "2+ Insect, Plant, and/or Reptile monsters\nYou can banish up to 2 monsters from your GY, then target that many Spells/Traps your opponent controls; destroy them. If this card is in your GY: You can target 1 Insect, Plant, or Reptile monster you control; place it on the bottom of the Deck, and if you do, Special Summon this card, also you cannot Special Summon for the rest of this turn, except Insect, Plant, or Reptile monsters. You can only use each effect of \"Ragnaraika Selene Snapper\" once per turn.",
+  "text_ko": "곤충족 / 식물족 / 파충류족 몬스터 2장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 묘지에서 몬스터를 2장까지 제외하고, 그 수만큼 상대 필드의 마법 / 함정 카드를 대상으로 하여 발동할 수 있다. 그 카드를 파괴한다. ②: 이 카드가 묘지에 존재할 경우, 자신 필드의 곤충족 / 식물족 / 파충류족 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 덱 맨 아래로 되돌리고, 이 카드를 특수 소환한다. 이 턴에, 자신은 곤충족 / 식물족 / 파충류족 몬스터밖에 특수 소환할 수 없다."
+ },
  "20237": {
   "cid": 20237,
   "en": "Tales of the White Forest",
@@ -3078,6 +3126,104 @@
   "md_rarity": "UR",
   "text_en": "If your opponent controls a card, you can activate this card from your hand. When a card or effect is activated that includes an effect that Special Summons a monster(s): Negate that effect, then if you have a Trap in your GY, destroy that card. If you activated this card from your hand, you cannot activate the effects of LIGHT, EARTH, and WIND monsters for the rest of this Duel. You can only activate 1 \"Dominus Impulse\" per turn.",
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. 상대 필드에 카드가 존재할 경우, 이 카드의 발동은 패에서도 할 수 있다. ①: 몬스터를 특수 소환하는 효과를 포함하는, 마법 / 함정 / 몬스터의 효과가 발동했을 때에 발동할 수 있다. 그 효과를 무효로 한다. 자신 묘지에 함정 카드가 존재할 경우, 추가로 그 무효로 한 카드를 파괴한다. 이 카드를 패에서 발동했을 경우, 발동 후, 이 듀얼 중에 자신은 빛 / 땅 / 바람 속성 몬스터의 효과를 발동할 수 없다."
+ },
+ "20572": {
+  "cid": 20572,
+  "en": "Sword Ryzeal",
+  "ko": "스워드 라이제올",
+  "ja": null,
+  "type": "Monster",
+  "race": "Thunder",
+  "attribute": "FIRE",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "If you have a \"Ryzeal\" monster in your field or GY, you can Special Summon this card (from your hand). If Summoned this way, you cannot Special Summon from the Extra Deck for the rest of this turn, except Rank 4 Xyz Monsters. You can only Special Summon \"Sword Ryzeal\" once per turn this way. If this card is Normal or Special Summoned: You can add 1 LIGHT Pyro monster from your Deck to your hand. You can only use this effect of \"Sword Ryzeal\" once per turn.",
+  "text_ko": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신의 필드나 묘지에 \"라이제올\" 몬스터가 존재할 경우, 이 카드는 패에서 특수 소환할 수 있다. 이 방법으로 특수 소환한 턴에, 자신은 랭크 4 인 엑시즈 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 화염족 / 빛 속성 몬스터 1장을 패에 넣는다."
+ },
+ "20573": {
+  "cid": 20573,
+  "en": "Node Ryzeal",
+  "ko": "노드 라이제올",
+  "ja": null,
+  "type": "Monster",
+  "race": "Thunder",
+  "attribute": "FIRE",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "If you have an Xyz Monster in your field or GY, you can Special Summon this card (from your hand). If Summoned this way, you cannot Special Summon from the Extra Deck for the rest of this turn, except Rank 4 Xyz Monsters. You can only Special Summon \"Node Ryzeal\" once per turn this way. You can send 1 card from your hand or field to the GY, then target 1 \"Ryzeal\" monster in your GY, except \"Node Ryzeal\"; Special Summon it in Defense Position, but negate its effects. You can only use this effect of \"Node Ryzeal\" once per turn.",
+  "text_ko": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신의 필드나 묘지에 엑시즈 몬스터가 존재할 경우, 이 카드는 패에서 특수 소환할 수 있다. 이 방법으로 특수 소환한 턴에, 자신은 랭크 4 인 엑시즈 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 자신의 패 / 필드에서 카드 1장을 묘지로 보내고, \"노드 라이제올\" 이외의 자신 묘지의 \"라이제올\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 효과를 무효로 하고 수비 표시로 특수 소환한다."
+ },
+ "20574": {
+  "cid": 20574,
+  "en": "Ice Ryzeal",
+  "ko": "아이스 라이제올",
+  "ja": null,
+  "type": "Monster",
+  "race": "Pyro",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "You can Special Summon this card (from your hand) by sending 1 card from your hand or field to the GY. If Summoned this way, you cannot Special Summon from the Extra Deck for the rest of this turn, except Rank 4 Xyz Monsters. You can only Special Summon \"Ice Ryzeal\" once per turn this way. If this card is Normal Summoned: You can Special Summon 1 \"Ryzeal\" monster from your Deck, except \"Ice Ryzeal\". You can only use this effect of \"Ice Ryzeal\" once per turn.",
+  "text_ko": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드는 자신의 패 / 필드의 카드 1장을 묘지로 보내고, 패에서 특수 소환할 수 있다. 이 방법으로 특수 소환한 턴에, 자신은 랭크 4 인 엑시즈 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 이 카드를 일반 소환했을 경우에 발동할 수 있다. 덱에서 \"아이스 라이제올\" 이외의 \"라이제올\" 몬스터 1장을 특수 소환한다."
+ },
+ "20575": {
+  "cid": 20575,
+  "en": "Ext Ryzeal",
+  "ko": "엑스 라이제올",
+  "ja": null,
+  "type": "Monster",
+  "race": "Pyro",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "You can Special Summon this card (from your hand) by sending 1 Xyz Monster from your Extra Deck to the GY. If Summoned this way, you cannot Special Summon from the Extra Deck for the rest of this turn, except Rank 4 Xyz Monsters. You can only Special Summon \"Ext Ryzeal\" once per turn this way. If this card is Normal or Special Summoned and you control no other face-up monsters, except Level/Rank 4 monsters: You can add 1 FIRE Thunder monster from your Deck to your hand. You can only use this effect of \"Ext Ryzeal\" once per turn.",
+  "text_ko": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드는 엑스트라 덱의 엑시즈 몬스터 1장을 묘지로 보내고, 패에서 특수 소환할 수 있다. 이 방법으로 특수 소환한 턴에, 자신은 랭크 4 인 엑시즈 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 이 카드를 일반 소환 / 특수 소환했을 경우, 레벨 4 / 랭크 4 인 몬스터 이외의 앞면 표시 몬스터가 자신 필드에 존재하지 않으면 발동할 수 있다. 덱에서 번개족 / 화염 속성 몬스터 1장을 패에 넣는다."
+ },
+ "20577": {
+  "cid": 20577,
+  "en": "Ryzeal Duo Drive",
+  "ko": "라이제올 듀오드라이브",
+  "ja": null,
+  "type": "Monster",
+  "race": "Thunder",
+  "attribute": "FIRE",
+  "level": 4,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2+ Level 4 monsters\nFor each material this card has, monsters you control gain 100 ATK and monsters your opponent controls lose 100 ATK. You can only use each of the following effects of \"Ryzeal Duo Drive\" once per turn. If this card is Special Summoned: You can attach 1 \"Ryzeal\" monster from your GY to this card as material. During your Main Phase: You can detach 2 materials from a monster(s) you control, and if you do, add 2 \"Ryzeal\" cards with different names from your Deck to your hand.",
+  "text_ko": "레벨 4 몬스터 × 2장 이상<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 자신 묘지에서 \"라이제올\" 몬스터 1장을 이 카드의 엑시즈 소재로 한다. ②: 이 카드의 엑시즈 소재의 수 × 100 만큼, 자신 필드의 몬스터의 공격력은 올리고, 상대 필드의 몬스터의 공격력은 내린다. ③: 자신 메인 페이즈에 발동할 수 있다. 자신 필드의 엑시즈 소재를 2개 제거하고, 덱에서 \"라이제올\" 카드 2장을 패에 넣는다(같은 이름의 카드는 1장까지)."
+ },
+ "20578": {
+  "cid": 20578,
+  "en": "Ryzeal Detonator",
+  "ko": "라이제올 데드네이더",
+  "ja": null,
+  "type": "Monster",
+  "race": "Pyro",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2+ Level 4 \"Ryzeal\" monsters\nWhen your opponent activates a card or effect (Quick Effect): You can detach 1 material from this card, then target 1 card on the field; destroy it. You can only use each of the following effects of \"Ryzeal Detonator\" once per turn. If this card is Special Summoned: You can attach 1 monster from your GY to this card as material. If an Xyz Monster(s) you control would be destroyed by battle or card effect, you can detach 1 material from this card instead.",
+  "text_ko": "레벨 4 \"라이제올\" 몬스터 × 2장 이상<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 자신 묘지의 몬스터 1장을 이 카드의 엑시즈 소재로 한다. ②: 상대가 카드의 효과를 발동했을 때, 이 카드의 엑시즈 소재를 1개 제거하고, 필드의 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 파괴한다. ③: 자신 필드의 엑시즈 몬스터가 전투 / 효과로 파괴될 경우, 대신에 이 카드의 엑시즈 소재를 1개 제거할 수 있다."
  },
  "20582": {
   "cid": 20582,
@@ -5391,6 +5537,23 @@
   "md_rarity": "UR",
   "text_en": "1 Fusion Monster + 1 face-up monster on the field\n(This card is always treated as an \"Elemental HERO\" card.)\nIf this card is Special Summoned from the Extra Deck: You can shuffle 5 monsters from your GY into the Deck, then draw 2 cards, and if you do, this card gains 1000 ATK. You can only use this effect of \"Favorite HERO Shining Flare Wingman\" once per turn. If this card destroys a monster by battle: Inflict damage to your opponent equal to that monster's original ATK.",
   "text_ko": "융합 몬스터 ＋ 필드의 앞면 표시 몬스터<br>이 카드명은 룰상 \"엘리멘틀 히어로\" 카드로도 취급한다. 이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 엑스트라 덱에서 특수 소환했을 경우에 발동할 수 있다. 자신 묘지에서 몬스터 5장을 덱으로 되돌린다. 그 후, 자신은 2장 드로우하고, 이 카드의 공격력은 1000 올린다. ②: 이 카드가 전투로 몬스터를 파괴했을 경우에 발동한다. 그 몬스터의 원래 공격력만큼의 데미지를 상대에게 준다."
+ },
+ "22715": {
+  "cid": 22715,
+  "en": "W:P Fancy Ball",
+  "ko": "우:피 팬시볼",
+  "ja": null,
+  "type": "Monster",
+  "race": "Cyberse",
+  "attribute": "DARK",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2+ Effect Monsters\nWhen your opponent activates a monster effect on the field or GY (Quick Effect): You can banish this card that was Special Summoned this turn until the End Phase; negate that effect, and if you do, banish it. During your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Link Summon 1 Link Monster, and if this card you control would be used as material for that Link Summon, you can also use 1 Link-2 or lower monster your opponent controls. Neither player can activate the effects of Link Monsters in response to this effect's activation. You can only use each effect of \"W:P Fancy Ball\" once per turn.",
+  "text_ko": "효과 몬스터 2장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 상대가 필드 / 묘지의 몬스터의 효과를 발동했을 때, 이 턴에 특수 소환한 이 카드를 엔드 페이즈까지 제외하고 발동할 수 있다. 그 효과를 무효로 하고 제외한다. ②: 상대 메인 페이즈에 발동할 수 있다(이 발동에 대하여 양쪽 플레이어는 링크 몬스터의 효과를 발동할 수 없다). 링크 몬스터 1장의 링크 소환을 실행한다. 자신 필드의 이 카드를 링크 소재로 할 경우, 상대 필드의 링크 2 이하의 링크 몬스터 1장도 링크 소재로 할 수 있다."
  },
  "22920": {
   "cid": 22920,
