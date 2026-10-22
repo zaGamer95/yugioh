@@ -241,6 +241,23 @@
   "text_en": "1 Tuner + 1+ non-Tuner monsters\nIf a monster is Synchro Summoned: Draw 1 card. This card must be face-up on the field to activate and to resolve this effect.",
   "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>①: 이 카드가 몬스터 존에 존재하는 상태에서, 자신이나 상대가 싱크로 몬스터를 싱크로 소환했을 경우에 발동한다. 이 카드가 필드에 앞면 표시로 존재할 경우, 자신은 1장 드로우한다."
  },
+ "9963": {
+  "cid": 9963,
+  "en": "Superdreadnought Rail Cannon Gustav Max",
+  "ko": "초노급포탑열차 구스타프 맥스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "EARTH",
+  "level": 10,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2 Level 10 monsters\nOnce per turn: You can detach 1 material from this card; inflict 2000 damage to your opponent.",
+  "text_ko": "레벨 10 몬스터 × 2<br>①: 1턴에 1번, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 상대에게 2000 데미지를 준다."
+ },
  "10537": {
   "cid": 10537,
   "en": "King of the Feral Imps",
@@ -325,6 +342,23 @@
   "md_rarity": "UR",
   "text_en": "2 Level 4 monsters\nOnce per Chain, during your Main Phase or your opponent's Battle Phase, if your opponent has more total cards in their hand and field than you do (Quick Effect): You can detach 1 material from this card; destroy all other cards on the field, also for the rest of this turn, your opponent takes no damage.",
   "text_ko": "레벨 4 몬스터 × 2<br>①: 자신 메인 페이즈 및 상대 배틀 페이즈에, 상대의 패 / 필드의 카드의 수가, 자신의 패 / 필드의 카드의 수보다 많을 경우, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다(동일한 체인 위에서는 1번까지). 필드의 다른 카드를 전부 파괴한다. 이 효과의 발동 후, 턴 종료시까지 상대가 받는 모든 데미지는 0 이 된다."
+ },
+ "11074": {
+  "cid": 11074,
+  "en": "Number 80: Rhapsody in Berserk",
+  "ko": "No.80 광장패왕 랩소디 인 버서크",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "DARK",
+  "level": 4,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "2 Level 4 monsters\nYou can target 1 face-up Xyz Monster you control; equip this monster you control to that target. It gains 1200 ATK. You can detach 1 Xyz Material from this card, then target 1 card in your opponent's GY; banish that target. You can use this effect of \"Number 80: Rhapsody in Berserk\" up to twice per turn.",
+  "text_ko": "레벨 4 몬스터 × 2<br>자신의 메인 페이즈시, 자신 필드 위의 이 몬스터를, 공격력 1200 포인트 올리는 장착 카드로 취급하여 자신 필드 위의 엑시즈 몬스터에 장착할 수 있다. 또한, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 상대 묘지의 카드 1장을 선택하고 게임에서 제외한다. \"No.80 광장패왕 랩소디 인 버서크\"의 이 효과는 1턴에 2번까지 사용할 수 있다."
  },
  "11384": {
   "cid": 11384,
@@ -428,6 +462,22 @@
   "md_rarity": "UR",
   "text_en": "1 Tuner + 1+ non-Tuner monsters\nWhile this Synchro Summoned card is on the field, your opponent cannot activate effects of monsters with the same original Attribute(s) as the \"Yang Zing\" monster(s) used for the Synchro Summon of this card. When this Synchro Summoned card is destroyed by battle or card effect and sent to the GY: You can add 1 Tuner from your Deck to your hand. Once per turn, when a monster(s) your opponent controls is destroyed by battle or card effect: You can Special Summon 1 Wyrm monster from your Deck, in Defense Position, whose original Attribute matches the original Attribute that 1 of those destroyed monsters had on the field.",
   "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>①: 싱크로 소환한 이 카드가 몬스터 존에 존재하는 한, 상대는 이 카드의 싱크로 소재로 한 \"룡성\" 몬스터와 원래 속성이 같은 몬스터의 효과를 발동할 수 없다. ②: 싱크로 소환한 이 카드가 전투 / 효과로 파괴되어 묘지로 보내졌을 때에 발동할 수 있다. 덱에서 튜너 1장을 패에 넣는다. ③: 1턴에 1번, 상대 필드의 몬스터가 전투 / 효과로 파괴되었을 때에 발동할 수 있다. 그 몬스터 1장과 원래 속성이 같은 환룡족 몬스터 1장을 자신 덱에서 수비 표시로 특수 소환한다."
+ },
+ "11829": {
+  "cid": 11829,
+  "en": "Retaliating \"C\"",
+  "ko": "응전의 G",
+  "ja": null,
+  "type": "Monster",
+  "race": "Insect",
+  "attribute": "EARTH",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "N",
+  "text_en": "When your opponent activates a Spell Card that includes an effect that Special Summons a monster(s) (Quick Effect): You can Special Summon this card from your hand. If Summoned this way, while this card is face-up on the field, any card sent to the GY is banished instead. If this card is sent from the field to the GY: You can add 1 EARTH Insect monster with 1500 or less ATK from your Deck to your hand, except \"Retaliating \"C\"\".",
+  "text_ko": "①: 몬스터를 특수 소환하는 효과를 포함하는 마법 카드를 상대가 발동했을 때에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드의 ①의 효과로 특수 소환한 이 카드가 몬스터 존에 존재하는 한, 묘지로 보내지는 카드는 묘지로는 가지 않으며 제외된다. ③: 이 카드가 필드에서 묘지로 보내졌을 경우에 발동할 수 있다. \"응전의 G\"가 아닌, 공격력 1500 이하의 곤충족 / 땅 속성 몬스터 1장을 덱에서 패에 넣는다."
  },
  "11927": {
   "cid": 11927,
@@ -592,6 +642,22 @@
   "text_en": "Add 1 Ritual Spell from your Deck to your hand, and add 1 Ritual Monster from your Deck or GY to your hand whose name is mentioned on that Ritual Spell. You can only activate 1 \"Pre-Preparation of Rites\" per turn.",
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 덱에서 의식 마법 카드 1장을 고르고, 추가로 그 의식 마법 카드에 카드명이 쓰여진 의식 몬스터 1장을 자신의 덱 / 묘지에서 고른다. 그 카드 2장을 패에 넣는다."
  },
+ "12441": {
+  "cid": 12441,
+  "en": "Fairy Tail - Snow",
+  "ko": "페어리테일－백설",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "If this card is Normal or Special Summoned: You can target 1 face-up monster your opponent controls; change it to face-down Defense Position. If this card is in your GY (Quick Effect): You can banish 7 other cards from your hand, field, and/or GY; Special Summon this card.",
+  "text_ko": "①: 이 카드를 일반 소환 / 특수 소환했을 경우, 상대 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 뒷면 수비 표시로 한다. ②: 자신 / 상대 턴에, 이 카드가 묘지에 존재할 경우, 자신의 패 / 필드 / 묘지에서 이 카드 이외의 카드 7장을 제외하고 발동할 수 있다. 이 카드를 특수 소환한다."
+ },
  "12465": {
   "cid": 12465,
   "en": "Pot of Desires",
@@ -620,6 +686,135 @@
   "text_en": "If you have more cards in your Deck than your opponent does: Send cards from the top of your Deck to the GY so you have the same number of cards in the Deck as your opponent.",
   "text_ko": "①: 자신의 덱의 매수가 상대보다도 많을 경우에 발동할 수 있다. 덱의 매수가 상대와 같아지도록, 자신의 덱 위에서 카드를 묘지로 보낸다."
  },
+ "12843": {
+  "cid": 12843,
+  "en": "Aleister the Invoker",
+  "ko": "소환사 알레이스터",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "DARK",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "(Quick Effect): You can send this card from your hand to the GY, then target 1 Fusion Monster you control; it gains 1000 ATK/DEF until the end of this turn. If this card is Normal Summoned or flipped face-up: You can add 1 \"Invocation\" from your Deck to your hand.",
+  "text_ko": "①: 자신 / 상대 턴에, 이 카드를 패에서 묘지로 보내고, 자신 필드의 융합 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터의 공격력 / 수비력은 턴 종료시까지 1000 올린다. ②: 이 카드를 일반 소환 / 리버스했을 경우에 발동할 수 있다. 덱에서 \"소환마술\" 1장을 패에 넣는다."
+ },
+ "12844": {
+  "cid": 12844,
+  "en": "Invoked Caliga",
+  "ko": "소환수 칼리굴라",
+  "ja": null,
+  "type": "Monster",
+  "race": "Beast",
+  "attribute": "DARK",
+  "level": 4,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "\"Aleister the Invoker\" + 1 DARK monster\nEach player can only attempt to activate 1 monster effect per turn. Each player can only attack with 1 monster during each Battle Phase.",
+  "text_ko": "\"소환사 알레이스터\" ＋ 어둠 속성 몬스터<br>①: 이 카드가 몬스터 존에 존재하는 한, 그 동안은 서로, 1턴에 1번밖에 몬스터의 효과를 발동할 수 없으며, 1번의 배틀 페이즈 중에 몬스터 1장으로밖에 공격할 수 없다."
+ },
+ "12845": {
+  "cid": 12845,
+  "en": "Invoked Raidjin",
+  "ko": "소환수 라이딘",
+  "ja": null,
+  "type": "Monster",
+  "race": "Warrior",
+  "attribute": "WIND",
+  "level": 5,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "N",
+  "text_en": "\"Aleister the Invoker\" + 1 WIND monster\nOnce per turn (Quick Effect): You can target 1 face-up monster on the field; change it to face-down Defense Position.",
+  "text_ko": "\"소환사 알레이스터\" ＋ 바람 속성 몬스터<br>①: 1턴에 1번, 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 뒷면 수비 표시로 한다. 이 효과는 상대 턴에도 발동할 수 있다."
+ },
+ "12849": {
+  "cid": 12849,
+  "en": "Invoked Mechaba",
+  "ko": "소환수 메르카바",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "LIGHT",
+  "level": 9,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "\"Aleister the Invoker\" + 1 LIGHT monster\r\nOnce per turn, when a Spell/Trap Card, or monster effect, is activated (Quick Effect): You can send the same type of card (Monster, Spell, or Trap) from your hand to the GY; negate the activation, and if you do, banish that card.",
+  "text_ko": "\"소환사 알레이스터\" ＋ 빛 속성 몬스터<br>①: 1턴에 1번, 몬스터의 효과 / 마법 / 함정 카드가 발동했을 때, 그 효과와 같은 종류(몬스터 / 마법 / 함정)의 카드 1장을 패에서 묘지로 보내고 발동할 수 있다. 그 발동을 무효로 하고 제외한다."
+ },
+ "12850": {
+  "cid": 12850,
+  "en": "Invoked Elysium",
+  "ko": "소환수 엘리시온",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fairy",
+  "attribute": "LIGHT",
+  "level": 10,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 \"Invoked\" monster + 1 monster that was Special Summoned from the Extra Deck\nMust first be Fusion Summoned with the above Fusion Materials. While face-up on the field, this card is also DARK, EARTH, WATER, FIRE, and WIND-Attribute. Once per turn (Quick Effect): You can target 1 \"Invoked\" monster you control or in your GY; banish it and all monsters your opponent controls with the same Attribute as that monster.",
+  "text_ko": "\"소환수\" 몬스터 ＋ 엑스트라 덱에서 특수 소환된 몬스터<br>이 카드는 상기의 카드를 융합 소재로 한 융합 소환으로만 엑스트라 덱에서 특수 소환할 수 있다. ①: 이 카드가 몬스터 존에 존재하는 한, 이 카드의 속성은 \"어둠\" \"땅\" \"물\" \"화염\" \"바람\"으로도 취급한다. ②: 1턴에 1번, 자신의 필드 / 묘지의 \"소환수\" 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터 및 그 몬스터와 같은 속성을 가지는 상대 필드의 몬스터를 전부 제외한다. 이 효과는 상대 턴에도 발동할 수 있다."
+ },
+ "12851": {
+  "cid": 12851,
+  "en": "Magical Meltdown",
+  "ko": "폭주마법진",
+  "ja": null,
+  "type": "Spell",
+  "race": "Field",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "R",
+  "text_en": "When this card is activated: You can add 1 \"Aleister the Invoker\" from your Deck to your hand. The activation of your cards and effects that include an effect that Fusion Summons a Fusion Monster cannot be negated, also your opponent's cards and effects cannot activate when a monster is Fusion Summoned this way. You can only activate 1 \"Magical Meltdown\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 이 카드의 발동시의 효과 처리로서, 덱에서 \"소환사 알레이스터\" 1장을 패에 넣을 수 있다. ②: 이 카드가 필드 존에 존재하는 한, 융합 몬스터를 융합 소환하는 효과를 포함하는 효과를 자신이 발동했을 경우, 그 발동은 무효화되지 않으며, 그 융합 소환 성공시에 상대는 마법 / 함정 / 몬스터의 효과를 발동할 수 없다."
+ },
+ "12852": {
+  "cid": 12852,
+  "en": "Invocation",
+  "ko": "소환마술",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from your hand as material. If Summoning an \"Invoked\" Fusion Monster this way, you can also banish monsters from your field and/or either player's GY as material. If this card is in your GY: You can target 1 of your banished \"Aleister the Invoker\"; shuffle this card into the Deck, and if you do, add that monster to your hand. You can only use this effect of \"Invocation\" once per turn.",
+  "text_ko": "이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 패의 몬스터를 융합 소재로 하고, 융합 몬스터 1장을 융합 소환한다. \"소환수\" 융합 몬스터를 융합 소환할 경우, 자신 필드 및 자신 / 상대 묘지의 몬스터를 제외하고 융합 소재로 할 수도 있다. ②: 이 카드가 묘지에 존재할 경우, 자신의 제외 상태인 \"소환사 알레이스터\" 1장을 대상으로 하고 발동할 수 있다. 이 카드를 덱으로 되돌리고, 대상 몬스터를 패에 넣는다."
+ },
+ "12870": {
+  "cid": 12870,
+  "en": "Predaplant Dragostapelia",
+  "ko": "프레데터 플랜츠 드라고스타페리아",
+  "ja": null,
+  "type": "Monster",
+  "race": "Plant",
+  "attribute": "DARK",
+  "level": 8,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "1 Fusion Monster + 1 DARK monster\r\nOnce per turn (Quick Effect): You can target 1 face-up monster your opponent controls; place 1 Predator Counter on it, and if it is Level 2 or higher, it becomes Level 1 as long as it has a Predator Counter. Negate the activated effects of your opponent's monsters that have Predator Counters.",
+  "text_ko": "융합 몬스터 ＋ 어둠 속성 몬스터<br>①: 1턴에 1번, 상대 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터에 포식 카운터를 1개 놓는다. 포식 카운터가 놓여진 레벨 2 이상의 몬스터 레벨은 1 이 된다. 이 효과는 상대 턴에도 발동할 수 있다. ②: 이 카드가 몬스터 존에 존재하는 한, 상대가 발동한, 포식 카운터가 놓여 있는 몬스터의 효과는 무효화된다."
+ },
  "12950": {
   "cid": 12950,
   "en": "Ash Blossom & Joyous Spring",
@@ -636,6 +831,39 @@
   "md_rarity": "UR",
   "text_en": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n● Add a card from the Deck to the hand.\n● Special Summon from the Deck.\n● Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
   "text_ko": "이 카드명의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이하의 어느 효과를 포함하는 마법 / 함정 / 몬스터의 효과가 발동했을 때, 이 카드를 패에서 버리고 발동할 수 있다. 그 효과를 무효로 한다.<br>●덱에서 카드를 패에 넣는 효과<br>●덱에서 몬스터를 특수 소환하는 효과<br>●덱에서 카드를 묘지로 보내는 효과"
+ },
+ "12952": {
+  "cid": 12952,
+  "en": "Fairy Tail - Luna",
+  "ko": "페어리테일－카구야",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "When this card is Normal Summoned: You can add 1 Spellcaster monster with 1850 ATK from your Deck to your hand. Once per turn (Quick Effect): You can target 1 face-up monster your opponent controls; your opponent can send 1 card with that monster's name from their Deck or Extra Deck to the GY to negate this effect, otherwise return both this card and that monster to the hand.",
+  "text_ko": "①: 이 카드를 일반 소환했을 때에 발동할 수 있다. 덱에서 공격력 1850 인 마법사족 몬스터 1장을 패에 넣는다. ②: 자신 / 상대 턴에 1번, 상대 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 상대는 그 몬스터와 같은 이름의 카드 1장을 자신의 덱 / 엑스트라 덱에서 묘지로 보내고 이 효과를 무효로 할 수 있다. 묘지로 보내지 않았을 경우, 이 카드와 대상 몬스터를 패로 되돌린다."
+ },
+ "13019": {
+  "cid": 13019,
+  "en": "Tornado Dragon",
+  "ko": "토네이드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Wyrm",
+  "attribute": "WIND",
+  "level": 4,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2 Level 4 monsters\nOnce per turn (Quick Effect): You can detach 1 material from this card, then target 1 Spell/Trap on the field; destroy it.",
+  "text_ko": "레벨 4 몬스터 × 2<br>①: 자신 / 상대 턴에 1번, 이 카드의 엑시즈 소재를 1개 제거하고, 필드의 마법 / 함정 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 파괴한다."
  },
  "13034": {
   "cid": 13034,
@@ -670,6 +898,20 @@
   "md_rarity": "UR",
   "text_en": "2+ monsters\r\nOnce while face-up on the field (Quick Effect): You can target monsters on the field and/or GY up to the number of monsters co-linked to this card; return them to the hand. If a monster this card points to is destroyed by battle or sent to the GY: You can Special Summon 1 Cyberse monster from your hand. You can only use each effect of \"Firewall Dragon\" once per turn.",
   "text_ko": "몬스터 2장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 필드에 앞면 표시로 존재하는 한 1번만, 자신 / 상대 턴에, 이 카드의 상호 링크 앞의 몬스터의 수까지, 자신 / 상대의, 필드 / 묘지의 몬스터를 대상으로 하고 발동할 수 있다. 그 몬스터를 패로 되돌린다. ②: 이 카드의 링크 앞의 몬스터가, 전투로 파괴되었을 경우 또는 묘지로 보내졌을 경우에 발동할 수 있다. 패에서 사이버스족 몬스터 1장을 특수 소환한다."
+ },
+ "13293": {
+  "cid": 13293,
+  "en": "Evenly Matched",
+  "ko": "길항승부",
+  "ja": null,
+  "type": "Trap",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "At the end of the Battle Phase, if your opponent controls more cards than you do: You can make your opponent banish cards from their field face-down so they control the same number of cards as you do. If you control no cards, you can activate this card from your hand.",
+  "text_ko": "자신 필드에 카드가 존재하지 않을 경우, 이 카드의 발동은 패에서도 할 수 있다. ①: 상대 필드의 카드의 수가 자신 필드의 카드보다 많을 경우, 자신 / 상대의 배틀 페이즈 종료시에 발동할 수 있다. 자신 필드의 카드의 수와 같아지도록, 상대는 자신 필드의 카드를 고르고 뒷면 표시로 제외해야 한다."
  },
  "13346": {
   "cid": 13346,
@@ -738,6 +980,57 @@
   "md_rarity": "UR",
   "text_en": "2 Level 3 monsters\r\nMonsters this card points to cannot be destroyed by card effects. If this card would be destroyed by battle or an opponent's card effect, you can send 1 other card you control to the GY instead. You can send 1 Level 3 monster from your Deck to the GY, then target 1 \"Burning Abyss\" monster on the field; it gains ATK/DEF equal to the ATK/DEF of the monster sent to the GY, until the end of this turn. You can only use this effect of \"Cherubini, Ebon Angel of the Burning Abyss\" once per turn.",
   "text_ko": "레벨 3 몬스터 2장<br>이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 링크 앞의 몬스터는 효과로는 파괴되지 않는다. ②: 필드의 이 카드가 전투 또는 상대 효과로 파괴될 경우, 대신에 자신 필드의 카드 1장을 묘지로 보낼 수 있다. ③: 덱에서 레벨 3 몬스터 1장을 묘지로 보내고, 필드의 \"피안\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터의 공격력 / 수비력은 턴 종료시까지, 묘지로 보낸 몬스터 각각의 수치만큼 올린다."
+ },
+ "13507": {
+  "cid": 13507,
+  "en": "Heavymetalfoes Electrumite",
+  "ko": "헤비메탈포제 엘렉트럼",
+  "ja": null,
+  "type": "Monster",
+  "race": "Psychic",
+  "attribute": "FIRE",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2 Pendulum Monsters\r\nIf this card is Link Summoned: You can add 1 Pendulum Monster from your Deck to your Extra Deck face-up. Once per turn: You can target 1 other face-up card you control; destroy it, then add 1 face-up Pendulum Monster from your Extra Deck to your hand. If a card(s) in your Pendulum Zone leaves the field: Draw 1 card. You can only use this effect of \"Heavymetalfoes Electrumite\" once per turn.",
+  "text_ko": "펜듈럼 몬스터 2장<br>이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 링크 소환했을 경우에 발동할 수 있다. 덱에서 펜듈럼 몬스터 1장을 엑스트라 덱에 앞면으로 넣는다. ②: 1턴에 1번, 자신 필드의 다른 앞면 표시 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다. 그 후, 자신의 엑스트라 덱(앞면)에서 펜듈럼 몬스터 1장을 패에 넣는다. ③: 자신의 펜듈럼 존의 카드가 필드에서 벗어났을 경우에 발동한다. 자신은 1장 드로우한다."
+ },
+ "13509": {
+  "cid": 13509,
+  "en": "Aleister the Invoker of Madness",
+  "ko": "폭주소환사 알레이스터",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "DARK",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "2 monsters with different Types and different Attributes\r\nThis card's name becomes \"Aleister the Invoker\" while on the field or in the GY. If a monster is Fusion Summoned while you control this monster (except during the Damage Step): You can discard 1 card, and if you do, add 1 \"Invocation\" or \"The Book of the Law\" from your Deck to your hand. If this face-up card you control leaves the field because of an opponent's card effect: You can add 1 \"Omega Summon\" from your Deck to your hand.",
+  "text_ko": "종족과 속성이 다른 몬스터 2장<br>①: 이 카드의 카드명은, 필드 / 묘지에 존재하는 한 \"소환사 알레이스터\"로 취급한다. ②: 이 카드가 몬스터 존에 존재하는 상태에서, 융합 몬스터가 융합 소환되었을 경우에 발동할 수 있다. 자신의 패를 1장 골라 버리고, 덱에서 \"소환마술\"이나 \"법의 성전\" 1장을 패에 넣는다. ③: 앞면 표시의 이 카드가 상대 효과로 필드에서 벗어났을 경우에 발동할 수 있다. 덱에서 \"마법명－\"투 메가 세리온\"\" 1장을 패에 넣는다."
+ },
+ "13554": {
+  "cid": 13554,
+  "en": "Summon Sorceress",
+  "ko": "서몬 소서리스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "DARK",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2+ monsters with the same Type, except Tokens\nIf this card is Link Summoned: You can Special Summon 1 monster from your hand in Defense Position to your opponent's zone this card points to (but negate its effects), then you can Special Summon 1 monster from your Deck in Defense Position with the same Type as that monster (but negate its effects). If you Summon from your Deck this way, you cannot Special Summon for the rest of this turn, except monsters with that same original Type. You can only use this effect of \"Summon Sorceress\" once per turn.",
+  "text_ko": "토큰 이외의 같은 종족의 몬스터 2장 이상<br>이 카드명의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 링크 소환했을 경우에 발동할 수 있다. 패에서 몬스터 1장을 효과를 무효로 하고, 이 카드의 링크 앞이 되는 상대 필드에 수비 표시로 특수 소환한다. 그 후, 이 효과로 특수 소환한 몬스터와 같은 종족의 몬스터 1장을 덱에서 효과를 무효로 하고 수비 표시로 특수 소환할 수 있다. 이 효과로 덱에서 특수 소환한 턴에, 자신은 덱에서 특수 소환한 그 몬스터와 원래의 종족이 같은 몬스터밖에 특수 소환할 수 없다."
  },
  "13587": {
   "cid": 13587,
@@ -944,6 +1237,40 @@
   "text_en": "2+ Level 3 monsters\r\nOnce per turn, when an opponent's monster activates its effect (Quick Effect): You can detach 2 materials from this card; the activated effect becomes \"both players draw 1 card\". You can target 1 other \"Number\" Xyz Monster you control; attach this card to it as material. (Transfer its materials to that monster.) You can only use this effect of \"Number 75: Bamboozling Gossip Shadow\" once per turn.",
   "text_ko": "레벨 3 몬스터 × 2장 이상<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 1턴에 1번, 상대가 몬스터의 효과를 발동했을 때, 이 카드의 엑시즈 소재를 2개 제거하고 발동할 수 있다. 그 효과는 \"양쪽 플레이어는 각각 1장 드로우한다\"가 된다. ②: 자신 필드의 다른 \"No.\" 엑시즈 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 그 몬스터의 엑시즈 소재로 한다(이 카드가 엑시즈 소재를 가지고 있을 경우, 그것들도 전부 엑시즈 소재로 한다)."
  },
+ "13826": {
+  "cid": 13826,
+  "en": "Number 90: Galaxy-Eyes Photon Lord",
+  "ko": "No.90 갤럭시아이즈 포톤 로드",
+  "ja": null,
+  "type": "Monster",
+  "race": "Warrior",
+  "attribute": "LIGHT",
+  "level": 8,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2 Level 8 monsters\nIf this card has a \"Photon\" card as material, it cannot be destroyed by card effects. You can only use each of the following effects of \"Number 90: Galaxy-Eyes Photon Lord\" once per turn.\n● When an opponent's monster activates its effect (Quick Effect): You can detach 1 material from this card; negate that monster's effect, and if the detached material was a \"Galaxy\" card, destroy that card.\n● During your opponent's turn (Quick Effect): You can take 1 \"Photon\" or \"Galaxy\" card from your Deck, and either add it to your hand or attach it to this card as material.",
+  "text_ko": "레벨 8 몬스터 × 2<br>이 카드명의 ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: \"포톤\" 카드를 엑시즈 소재로 하고 있는 이 카드는 효과로는 파괴되지 않는다. ②: 상대가 몬스터의 효과를 발동했을 때, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 그 효과를 무효로 한다. 제거한 엑시즈 소재가 \"갤럭시\" 카드일 경우, 추가로 그 몬스터를 파괴한다. ③: 상대 턴에 발동할 수 있다. 덱에서 \"포톤\" 카드나 \"갤럭시\" 카드 1장을 고르고, 패에 넣거나 이 카드의 엑시즈 소재로 한다."
+ },
+ "14114": {
+  "cid": 14114,
+  "en": "Borreload Savage Dragon",
+  "ko": "바렐로드 새비지 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "DARK",
+  "level": 8,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 Tuner + 1+ non-Tuner monsters\r\nIf this card is Synchro Summoned: You can equip 1 Link Monster from your GY to this card, and if you do, place Borrel Counters on this card equal to that Link Monster's Link Rating. This card gains ATK equal to half the ATK of the monster equipped to it by its effect. When your opponent activates a card or effect (Quick Effect): You can remove 1 Borrel Counter from this card; negate the activation. You can only use this effect of \"Borreload Savage Dragon\" once per turn.",
+  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 싱크로 소환에 성공했을 경우에 발동할 수 있다. 자신 묘지에서 링크 몬스터 1장을 골라, 장착 카드로 취급하여 이 카드에 장착하고, 그 링크 마커의 수만큼 이 카드에 바렐 카운터를 놓는다. ②: 이 카드의 공격력은, 이 카드의 효과로 장착한 몬스터의 공격력의 절반 올린다. ③: 상대 효과가 발동했을 때, 이 카드의 바렐 카운터를 1개 제거하고 발동할 수 있다. 그 발동을 무효로 한다."
+ },
  "14121": {
   "cid": 14121,
   "en": "Cyberse Wicckid",
@@ -995,6 +1322,34 @@
   "text_en": "2 Level 5 monsters\nWhen this card destroys an opponent's monster by battle: You can attach that monster to this card. You can only use each of the following effects of \"Infinitrack River Stormer\" once per turn. You can detach 1 material from this card; take 1 EARTH Machine monster from your Deck, and either add it to your hand or send it to the GY. If this card is in your GY: You can Tribute 1 Machine Link Monster; Special Summon this card in Defense Position.",
   "text_ko": "레벨 5 몬스터 × 2<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 덱에서 기계족 / 땅 속성 몬스터 1장을 고르고, 패에 넣거나 묘지로 보낸다. ②: 이 카드가 전투로 상대 몬스터를 파괴했을 때에 발동할 수 있다. 그 몬스터를 이 카드의 아래에 겹쳐 엑시즈 소재로 한다. ③: 이 카드가 묘지에 존재할 경우, 자신 필드의 기계족 링크 몬스터 1장을 릴리스하고 발동할 수 있다. 이 카드를 수비 표시로 특수 소환한다."
  },
+ "14410": {
+  "cid": 14410,
+  "en": "Witchcrafter Creation",
+  "ko": "위치크래프트 크리에이션",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Add 1 \"Witchcrafter\" monster from your Deck to your hand. During your End Phase, if you control a \"Witchcrafter\" monster, while this card is in your GY: You can add this card to your hand. You can only use 1 \"Witchcrafter Creation\" effect per turn, and only once that turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 덱에서 \"위치크래프트\" 몬스터 1장을 패에 넣는다. ②: 자신 엔드 페이즈에, 이 카드가 묘지에 존재하고, 자신 필드에 \"위치크래프트\" 몬스터가 존재할 경우에 발동할 수 있다. 이 카드를 패에 넣는다."
+ },
+ "14443": {
+  "cid": 14443,
+  "en": "Spell Power Mastery",
+  "ko": "마력통할",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Add 1 \"Endymion\" card from your Deck to your hand, then you can count the number of \"Spell Power Mastery\" and \"Spell Power Grasp\" you control and/or have in your GY, and place that many Spell Counters among card(s) you control that you can place a Spell Counter on. You can only activate 1 \"Spell Power Mastery\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 덱에서 \"엔디미온\" 카드 1장을 패에 넣는다. 그 후, 자신 필드의 마력 카운터를 놓을 수 있는 카드에, 자신의 필드 / 묘지의 \"마력통할\" \"마력장악\"의 수까지 가능한 한 마력 카운터를 놓을 수 있다."
+ },
  "14564": {
   "cid": 14564,
   "en": "Number 60: Dugares the Timeless",
@@ -1042,6 +1397,23 @@
   "md_rarity": "UR",
   "text_en": "2 non-Link Monsters\r\nDuring your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Link Summon 1 Link Monster using materials you control, including this card. You can only use this effect of \"I:P Masquerena\" once per turn. A Link Monster that used this card as material cannot be destroyed by your opponent's card effects.",
   "text_ko": "링크 몬스터 이외의 몬스터 2장<br>이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 상대 메인 페이즈에 발동할 수 있다. 이 카드를 포함하는 자신 필드의 몬스터를 소재로서 링크 소환을 실행한다. ②: 이 카드를 링크 소재로 한 링크 몬스터는 상대 효과로는 파괴되지 않는다."
+ },
+ "14708": {
+  "cid": 14708,
+  "en": "Go! - D/D/D Divine Zero King Rage",
+  "ko": "GO－DDD 신령왕 제로갓 레이지",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "DARK",
+  "level": 10,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "[ Pendulum Effect ]\nIf you would take effect damage, you take no damage. If you Normal Summon 1 Level 5 or higher \"D/D\" monster, you can do it without Tributing. You can only use each Pendulum Effect of \"Go! - D/D/D Divine Zero King Rage\" once per turn.\n----------------------------------------\n[ Monster Effect ]\nWhen this card declares an attack, if your opponent's LP is 4000 or less: You can make this card gain ATK equal to your opponent's LP, until the end of this turn. Cannot be destroyed by battle, also you take no damage from battles involving this card.\nYou can Tribute 1 other monster; apply 1 of these effects until the end of this turn.\n● This card can attack directly.\n● Your opponent cannot activate cards or effects in the Spell & Trap Zones.\n● Your opponent cannot activate card effects in their hand or GY.",
+  "text_ko": "이 카드명의 ①②의 펜듈럼 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 펜듈럼 존에 존재하고, 자신이 효과 데미지를 받을 경우, 그 데미지는 0 이 된다. ②: 이 카드가 펜듈럼 존에 존재하는 한, 자신은 레벨 5 이상의 \"DD(디디)\" 몬스터를 일반 소환할 경우에 필요한 릴리스를 없앨 수 있다."
  },
  "14740": {
   "cid": 14740,
@@ -1091,6 +1463,22 @@
   "text_en": "If a \"Sky Striker Ace\" monster(s) is Normal or Special Summoned, except \"Sky Striker Ace - Roze\" (except during the Damage Step): You can Special Summon this card from your hand. If an opponent's monster in the Extra Monster Zone is destroyed by battle, or leaves the field by your card effect, while this card is in your GY: You can Special Summon this card, then you can negate the effects of 1 face-up monster your opponent controls, until the end of this turn. You can only use each effect of \"Sky Striker Ace - Roze\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: \"섬도희－로제\" 이외의 \"섬도희\" 몬스터가 일반 소환 / 특수 소환되었을 경우에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드가 묘지에 존재하는 상태에서, 엑스트라 몬스터 존의 상대 몬스터가 전투로 파괴되었을 경우, 또는 자신의 카드의 효과로 필드에서 벗어났을 경우에 발동할 수 있다. 이 카드를 특수 소환한다. 그 후, 상대 필드의 앞면 표시 몬스터 1장의 효과를 턴 종료시까지 무효로 할 수 있다."
  },
+ "14830": {
+  "cid": 14830,
+  "en": "Witchcrafter Genni",
+  "ko": "위치크래프트 제니",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "WIND",
+  "level": 1,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "During the Main Phase (Quick Effect): You can Tribute this card and discard 1 Spell; Special Summon 1 \"Witchcrafter\" monster from your Deck, except \"Witchcrafter Genni\". You can banish this card and 1 \"Witchcrafter\" Spell from your GY; this effect becomes that Spell's effect when that card is activated. You can only use each effect of \"Witchcrafter Genni\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 / 상대의 메인 페이즈에, 이 카드를 릴리스하고, 패에서 마법 카드 1장을 버리고 발동할 수 있다. 덱에서 \"위치크래프트 제니\" 이외의 \"위치크래프트\" 몬스터 1장을 특수 소환한다. ②: 자신 묘지에서 이 카드와 \"위치크래프트\" 마법 카드 1장을 제외하고 발동할 수 있다. 그 마법 카드 발동시의 효과를 적용한다."
+ },
  "14851": {
   "cid": 14851,
   "en": "Wind Pegasus @Ignister",
@@ -1107,6 +1495,40 @@
   "md_rarity": "SR",
   "text_en": "1 Tuner + 1+ non-Tuner monsters\r\nDuring your Main Phase: You can destroy Spells/Traps your opponent controls, up to the number of \"@Ignister\" monsters you control. If another card(s) you control is destroyed by battle or an opponent's card effect, while this card is on the field or in the GY: You can banish this card, then target 1 card your opponent controls; shuffle it into the Deck. You can only use each effect of \"Wind Pegasus @Ignister\" once per turn.",
   "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 메인 페이즈에 발동할 수 있다. 자신 필드의 \"＠(앳)이그니스터\" 몬스터의 수까지, 상대 필드의 마법 / 함정 카드를 고르고 파괴한다. ②: 이 카드가 필드 / 묘지에 존재하는 상태에서, 이 카드 이외의 자신 필드의 카드가 전투 또는 상대 효과로 파괴되었을 경우, 이 카드를 제외하고, 상대 필드의 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 주인의 덱으로 되돌린다."
+ },
+ "14853": {
+  "cid": 14853,
+  "en": "Light Dragon @Ignister",
+  "ko": "라이트드래곤＠이그니스터",
+  "ja": null,
+  "type": "Monster",
+  "race": "Cyberse",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2 Level 4 monsters\nIf a monster(s) you control would be destroyed by card effect, you can detach 1 material from this card instead. You can only use each of the following effects of \"Light Dragon @Ignister\" once per turn. You can detach 1 material from this card; destroy face-up monsters your opponent controls, up to the number of \"@Ignister\" monsters you control. When another Cyberse monster you control inflicts battle damage to your opponent: You can Special Summon 1 Link Monster from your GY.",
+  "text_ko": "레벨 4 몬스터 × 2<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 자신 필드의 \"＠(앳)이그니스터\" 몬스터의 수까지, 상대 필드의 앞면 표시 몬스터를 고르고 파괴한다. ②: 이 카드 이외의 자신의 사이버스족 몬스터가 상대에게 전투 데미지를 주었을 때에 발동할 수 있다. 자신 묘지에서 링크 몬스터 1장을 고르고 특수 소환한다. ③: 자신 필드의 몬스터가 효과로 파괴될 경우, 대신에 이 카드의 엑시즈 소재를 1개 제거할 수 있다."
+ },
+ "14856": {
+  "cid": 14856,
+  "en": "Cross-Sheep",
+  "ko": "쿠로시프",
+  "ja": null,
+  "type": "Monster",
+  "race": "Beast",
+  "attribute": "EARTH",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "2 monsters with different names\nIf a monster is Special Summoned to a zone this card points to (except during the Damage Step): You can apply the following effects, in sequence, based on the card types of the monster(s) this card points to.\n● Ritual: Draw 2 cards, then discard 2 cards. ● Fusion: Special Summon 1 Level 4 or lower monster from your GY. ● Synchro: All monsters you control gain 700 ATK. ● Xyz: All monsters your opponent controls lose 700 ATK.\nYou can only use this effect of \"Cross-Sheep\" once per turn.",
+  "text_ko": "카드명이 다른 몬스터 2장<br>이 카드명의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 링크 앞에 몬스터가 특수 소환되었을 경우에 발동할 수 있다. 이 카드의 링크 앞의 몬스터 종류에 따라 이하의 효과를 각각 적용한다. ●의식: 자신은 2장 드로우한다. 그 후, 자신의 패를 2장 고르고 버린다. ●융합: 자신 묘지에서 레벨 4 이하의 몬스터 1장을 특수 소환한다. ●싱크로: 자신 필드의 모든 몬스터의 공격력은 700 올린다. ●엑시즈: 상대 필드의 모든 몬스터의 공격력은 700 내린다."
  },
  "14904": {
   "cid": 14904,
@@ -1141,6 +1563,23 @@
   "md_rarity": "UR",
   "text_en": "2 Level 4 monsters\r\nYou can detach 1 material from this card, then target 1 Xyz Monster in your GY, except \"Gagagaga Magician\"; Special Summon it, but negate its effects. You can only use this effect of \"Gagagaga Magician\" once per turn. A \"Utopic Future\" Xyz Monster that has this card as material gains this effect.\r\n● During your Main Phase: You can detach 2 materials from this card, then target 1 Xyz Monster you control; until the end of this turn, change its ATK to 4000, also negate its effects.",
   "text_ko": "레벨 4 몬스터 × 2<br>이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 엑시즈 소재를 1개 제거하고, \"가가가가 매지션\" 이외의 자신 묘지의 엑시즈 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 효과를 무효로 하고 특수 소환한다. ②: 이 카드를 엑시즈 소재로 하고 있는 \"미래황 호프\" 엑시즈 몬스터는 이하의 효과를 얻는다. ●이 카드의 엑시즈 소재를 2개 제거하고, 자신 필드의 엑시즈 몬스터 1장을 대상으로 하여 발동할 수 있다. 턴 종료시까지, 그 몬스터의 공격력은 4000 이 되고, 효과는 무효화된다."
+ },
+ "14937": {
+  "cid": 14937,
+  "en": "Selene, Queen of the Master Magicians",
+  "ko": "신성마황후 셀레네",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2+ monsters, including a Spellcaster monster\r\nIf this card is Link Summoned: Place Spell Counters on this card, equal to the number of Spells on the field and in the GYs. While an \"Endymion\" card(s) is on the field, your opponent's monsters cannot target this card for attacks. Once per turn, during the Main Phase (Quick Effect): You can remove 3 Spell Counters from your field; Special Summon 1 Spellcaster monster from your hand or GY in Defense Position, to your zone this card points to.",
+  "text_ko": "마법사족 몬스터를 포함하는 몬스터 2장 이상<br>①: 이 카드를 링크 소환했을 경우에 발동한다. 서로의 필드 / 묘지의 마법 카드의 수만큼 이 카드에 마력 카운터를 놓는다. ②: 필드에 \"엔디미온\" 카드가 존재하는 한, 상대 몬스터는 이 카드를 공격 대상으로 선택할 수 없다. ③: 1턴에 1번, 자신 / 상대의 메인 페이즈에, 자신 필드의 마력 카운터를 3개 제거하고 발동할 수 있다. 자신의 패 / 묘지에서 마법사족 몬스터 1장을 고르고, 이 카드의 링크 앞이 되는 자신 필드에 수비 표시로 특수 소환한다."
  },
  "14944": {
   "cid": 14944,
@@ -1243,6 +1682,23 @@
   "md_rarity": "UR",
   "text_en": "If your opponent Special Summons a monster(s) face-up (except during the Damage Step): You can discard this card, then target 1 of those face-up monsters; negate its effects until the end of this turn, also if that face-up monster leaves the field this turn, its controller takes damage equal to its original ATK. You can only use this effect of \"Ghost Mourner & Moonlit Chill\" once per turn.",
   "text_ko": "이 카드명의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 상대가 몬스터를 앞면 표시로 특수 소환했을 경우, 이 카드를 패에서 버리고, 그 앞면 표시 몬스터 중의 1장을 대상으로 하여 발동할 수 있다. 그 몬스터의 효과는 턴 종료시까지 무효화되고, 이 턴 중에 대상의 앞면 표시 몬스터가 필드에서 벗어났을 때에 그 컨트롤러는 대상 몬스터의 원래 공격력만큼의 데미지를 받는다."
+ },
+ "15026": {
+  "cid": 15026,
+  "en": "Invoked Augoeides",
+  "ko": "소환수 아우고에이데스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fairy",
+  "attribute": "LIGHT",
+  "level": 8,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "\"Aleister the Invoker\" + 1 Fusion Monster\r\nIf this card is Special Summoned, or a monster(s) is Special Summoned to your opponent's field: You can target 1 monster your opponent controls; destroy it. You can only use this effect of \"Invoked Augoeides\" once per turn. Once per turn: You can banish 1 Fusion Monster from your GY; this card gains ATK equal to that banished monster's ATK, until the end of your opponent's turn.",
+  "text_ko": "\"소환사 알레이스터\" ＋ 융합 몬스터<br>이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 특수 소환에 성공했을 경우, 또는 상대 필드에 몬스터가 특수 소환되었을 경우, 상대 필드의 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 파괴한다. ②: 1턴에 1번, 자신 묘지에서 융합 몬스터 1장을 제외하고 발동할 수 있다. 이 카드의 공격력은 상대 턴 종료시까지, 제외한 몬스터의 공격력만큼 올린다."
  },
  "15029": {
   "cid": 15029,
@@ -1420,6 +1876,124 @@
   "text_en": "2 Level 12 monsters\nOnce per turn, if an Xyz Monster battled this turn, you can also Xyz Summon \"Divine Arsenal AA-ZEUS - Sky Thunder\" by using 1 Xyz Monster you control as material (transfer its materials to this card). (Quick Effect): You can detach 2 materials from this card; send all other cards from the field to the GY. Once per turn, if another card(s) you control is destroyed by battle or an opponent's card effect: You can attach 1 card from your hand, Deck, or Extra Deck to this card.",
   "text_ko": "레벨 12 몬스터 × 2<br>\"네가로기어 아제우스\"는, 엑시즈 몬스터가 전투를 실행한 턴에 1번, 자신 필드의 엑시즈 몬스터 위에 겹쳐 엑시즈 소환할 수도 있다. ①: 자신 / 상대 턴에, 이 카드의 엑시즈 소재를 2개 제거하고 발동할 수 있다. 필드의 다른 카드를 전부 묘지로 보낸다. ②: 1턴에 1번, 자신 필드의 다른 카드가 전투 또는 상대 효과로 파괴되었을 경우에 발동할 수 있다. 패 / 덱 / 엑스트라 덱에서 카드 1장을 이 카드의 엑시즈 소재로 한다."
  },
+ "15529": {
+  "cid": 15529,
+  "en": "Geonator Transverser",
+  "ko": "전정의 코디네랄",
+  "ja": null,
+  "type": "Monster",
+  "race": "Rock",
+  "attribute": "EARTH",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "N",
+  "text_en": "2 Effect Monsters\r\nThis linked card and monsters it points to cannot be destroyed by your opponent's card effects. If this card points to 2 monsters: You can switch control of those monsters. You can only use this effect of \"Geonator Transverser\" once per turn.",
+  "text_ko": "효과 몬스터 2장<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 링크 상태의 이 카드 및 이 카드의 링크 앞의 몬스터는 상대 효과로는 파괴되지 않는다. ②: 이 카드의 링크 앞에 몬스터가 2장 존재할 경우에 발동할 수 있다. 그 몬스터 2장의 컨트롤을 맞바꾼다."
+ },
+ "15613": {
+  "cid": 15613,
+  "en": "Zoroa, the Magistus of Flame",
+  "ko": "마기스토스 플레임 조로아",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "FIRE",
+  "level": 4,
+  "monster_type": [
+   "Tuner",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "You can target 1 \"Magistus\" monster you control; equip it with 1 \"Magistus\" monster from your Extra Deck. If this card becomes equipped with a \"Magistus\" Monster Card: You can Special Summon 1 Level 4 Spellcaster monster from your hand or GY in Defense Position, except \"Zoroa, the Magistus of Flame\", but its effects are negated. You can only use each effect of \"Zoroa, the Magistus of Flame\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드의 \"마기스토스\" 몬스터 1장을 대상으로 하고 발동할 수 있다. 엑스트라 덱에서 \"마기스토스\" 몬스터 1장을 장착 마법 카드로 취급하여 대상 몬스터에 장착한다. ②: 이 카드가 \"마기스토스\" 몬스터 카드를 장착했을 경우에 발동할 수 있다. 자신의 패 / 묘지에서 \"마기스토스 플레임 조로아\" 이외의 마법사족 / 레벨 4 몬스터 1장을 수비 표시로 특수 소환한다. 이 효과로 특수 소환한 몬스터의 효과는 무효화된다."
+ },
+ "15614": {
+  "cid": 15614,
+  "en": "Rilliona, the Magistus of Verre",
+  "ko": "마기스토스 베르 산드리용",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "If this card is Normal or Special Summoned: You can activate 1 of these effects;\r\n● Add 1 \"Magistus\" Spell/Trap from your Deck to your hand.\r\n● Return 1 of your banished Level 4 or lower Spellcaster monsters to your GY.\r\nYou can banish this card from your GY, then target 1 \"Magistus\" monster you control; equip it with 1 \"Magistus\" monster from your GY, except a Level 4 monster.\r\nYou can only use each effect of \"Rilliona, the Magistus of Verre\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 일반 소환 / 특수 소환에 성공했을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다.<br>●덱에서 \"마기스토스\" 마법 / 함정 카드 1장을 패에 넣는다.<br>●제외되어 있는 자신의 레벨 4 이하의 마법사족 몬스터 1장을 고르고 묘지로 되돌린다.<br>②: 묘지의 이 카드를 제외하고, 자신 필드의 \"마기스토스\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 자신 묘지에서 레벨 4 이외의 \"마기스토스\" 몬스터 1장을 고르고, 장착 카드로 취급하여 대상 몬스터에 장착한다."
+ },
+ "15616": {
+  "cid": 15616,
+  "en": "Aiwass, the Magistus Spell Spirit",
+  "ko": "마기스토스 세인트 아이와스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "WIND",
+  "level": 8,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "1 \"Magistus\" monster + 1 Spellcaster monster\r\nWhile this card is an Equip Card, the equipped monster gains 1000 ATK/DEF. During the Main Phase (Quick Effect): You can target 1 other face-up monster on the field; equip this card you control to it. If this card was equipped to an opponent's monster by this effect, take control of the equipped monster, also it cannot activate its effects. You can only use this effect of \"Aiwass, the Magistus Spell Spirit\" once per turn.",
+  "text_ko": "\"마기스토스\" 몬스터 ＋ 마법사족 몬스터<br>이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신 / 상대의 메인 페이즈에 이 카드 이외의 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 자신 필드의 이 카드를 장착 카드로 취급하여 그 몬스터에 장착한다. 이 효과로 이 카드를 상대 몬스터에 장착했을 경우에는, 장착 몬스터의 효과는 발동할 수 없으며, 그 컨트롤을 얻는다. ②: 이 카드를 장착한 몬스터의 공격력 / 수비력은 1000 올린다."
+ },
+ "15617": {
+  "cid": 15617,
+  "en": "Vahram, the Magistus Divinity Dragon",
+  "ko": "마기스토스 드래곤 바흐람",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "FIRE",
+  "level": 8,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "1 Tuner + 1+ non-Tuner monsters\r\nWhile this card is an Equip Card, the equipped monster cannot be destroyed by your opponent's Spell/Trap effects. You can only use each of the following effects of \"Vahram, the Magistus Divinity Dragon\" once per turn. If this Synchro Summoned card is destroyed: You can destroy all face-up cards your opponent controls. At the start of the Damage Step, if the monster this card is equipped to battles an opponent's monster: You can destroy that opponent's monster.",
+  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 싱크로 소환한 이 카드가 파괴되었을 경우에 발동할 수 있다. 상대 필드의 앞면 표시의 카드를 전부 파괴한다. ②: 이 카드를 장착한 몬스터는 상대의 마법 / 함정 카드의 효과로는 파괴되지 않는다. ③: 이 카드를 장착한 몬스터가 상대 몬스터와 전투를 실행하는 데미지 스텝 개시시에 발동할 수 있다. 그 상대 몬스터를 파괴한다."
+ },
+ "15618": {
+  "cid": 15618,
+  "en": "Ninaruru, the Magistus Glass Goddess",
+  "ko": "마기스토스 가디스 닌아루루",
+  "ja": null,
+  "type": "Monster",
+  "race": "Rock",
+  "attribute": "EARTH",
+  "level": 4,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "2 Level 4 Spellcaster monsters\r\nWhile this card is an Equip Card, the equipped monster can make up to 2 attacks on monsters during each Battle Phase. You can only use each of the following effects of \"Ninaruru, the Magistus Glass Goddess\" once per turn. You can detach 1 material from this card, then target 1 Level 4 or higher Spellcaster monster in your GY; add it to your hand. While this card is equipped to a monster: You can target 1 \"Magistus\" card in your Spell & Trap Zone and 1 Spell/Trap your opponent controls; destroy them.",
+  "text_ko": "마법사족 레벨 4 몬스터 × 2<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 엑시즈 소재를 1개 제거하고, 자신 묘지의 레벨 4 이상의 마법사족 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 패에 넣는다. ②: 이 카드를 장착한 몬스터는 1번의 배틀 페이즈 중에 2회까지 몬스터에 공격할 수 있다. ③: 이 카드가 장착되어 있을 경우, 자신의 마법 & 함정 존의 \"마기스토스\" 카드 1장과 상대 필드의 마법 / 함정 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다."
+ },
+ "15619": {
+  "cid": 15619,
+  "en": "Artemis, the Magistus Moon Maiden",
+  "ko": "마기스토스 메이든 아르테미스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "1 Level 4 or lower Spellcaster monster\r\nIf another \"Magistus\" monster(s) is Normal or Special Summoned while you control this monster (except during the Damage Step): You can target 1 of those monsters; equip this card you control to it. While this card is equipped to a monster: You can add 1 \"Magistus\" monster from your Deck to your hand. You can only use each effect of \"Artemis, the Magistus Moon Maiden\" once per turn. You can only Special Summon \"Artemis, the Magistus Moon Maiden\" once per turn.",
+  "text_ko": "레벨 4 이하의 마법사족 몬스터 1장<br>자신은 \"마기스토스 메이든 아르테미스\"를 1턴에 1번밖에 특수 소환할 수 없으며, 그 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 몬스터 존에 존재하는 상태에서, \"마기스토스\" 몬스터가 일반 소환 / 특수 소환되었을 경우, 그 중의 1장을 대상으로 하고 발동할 수 있다. 자신 필드의 이 카드를 장착 마법 카드로 취급하고 그 몬스터에 장착한다. ②: 이 카드가 장착되어 있을 경우에 발동할 수 있다. 덱에서 \"마기스토스\" 몬스터 1장을 패에 넣는다."
+ },
  "15994": {
   "cid": 15994,
   "en": "Albion the Branded Dragon",
@@ -1453,6 +2027,23 @@
   "md_rarity": "SR",
   "text_en": "2 Level 4 monsters\r\nIf this card is Special Summoned from your Extra Deck: You can send 1 \"Springans\" monster from your Deck to the GY. During your opponent's Main or Battle Phase (Quick Effect): You can banish this card until the End Phase, then if you banished this card with 2 or more Xyz Materials, you can also send 1 Fusion Monster from your Extra Deck to the GY that lists \"Fallen of Albaz\" as material. You can only use each effect of \"Springans Merrymaker\" once per turn.",
   "text_ko": "레벨 4 몬스터 × 2<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 엑스트라 덱에서의 특수 소환에 성공했을 경우에 발동할 수 있다. 덱에서 \"스프리건즈\" 몬스터 1장을 묘지로 보낸다. ②: 상대의 메인 페이즈 및 배틀 페이즈에 발동할 수 있다. 이 카드를 엔드 페이즈까지 제외한다. 엑시즈 소재를 2개 이상 가지고 있는 이 카드를 제외했을 경우, 추가로 엑스트라 덱에서 \"알버스의 낙윤\"을 융합 소재로 하는 융합 몬스터 1장을 묘지로 보낼 수 있다."
+ },
+ "16003": {
+  "cid": 16003,
+  "en": "Rilliona, the Wondrous Magistus Witch Wardrobe",
+  "ko": "마기스토스 위치 산드리용",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2 Level 4 Spellcaster monsters with different Attributes\r\nYou can detach 1 material from this card; Special Summon 1 \"Magistus\" monster from your Deck, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except \"Magistus\" monsters. While this card is equipped to a monster: You can target 1 Effect Monster your opponent controls; negate its effects until the end of this turn. You can only use each effect of \"Rilliona, the Wondrous Magistus Witch Wardrobe\" once per turn.",
+  "text_ko": "속성이 다른 마법사족 레벨 4 몬스터 × 2<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 덱에서 \"마기스토스\" 몬스터 1장을 특수 소환한다. 이 효과의 발동 후, 턴 종료시까지 자신은 \"마기스토스\" 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 이 카드가 장착되어 있을 경우, 상대 필드의 효과 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터의 효과를 턴 종료시까지 무효로 한다."
  },
  "16016": {
   "cid": 16016,
@@ -1595,6 +2186,20 @@
   "text_en": "Reveal 1 Synchro Monster in your Extra Deck, choose 1 of the Synchro Materials mentioned on it, and add to your hand or Special Summon that monster, from your Deck or GY, also you cannot Special Summon from the Extra Deck the turn you activate this card, except Synchro Monsters. You can only activate 1 \"Synchro Overtake\" per turn.",
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없으며, 이 카드를 발동하는 턴에, 자신은 싱크로 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ①: 엑스트라 덱의 싱크로 몬스터 1장을 상대에게 보여주고, 그 몬스터에 카드명이 쓰여진 싱크로 소재 몬스터 1장을 자신의 덱 / 묘지에서 골라, 패에 넣거나 특수 소환한다."
  },
+ "16257": {
+  "cid": 16257,
+  "en": "Pendulum Treasure",
+  "ko": "펜듈럼 트레져",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Add 1 Pendulum Monster from your Deck to your Extra Deck face-up. You can only activate 1 \"Pendulum Treasure\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 덱에서 펜듈럼 몬스터 1장을 엑스트라 덱에 앞면으로 넣는다."
+ },
  "16386": {
   "cid": 16386,
   "en": "Baronne de Fleur",
@@ -1628,6 +2233,23 @@
   "md_rarity": "SR",
   "text_en": "If your opponent controls more monsters than you do, you can Special Summon this card (from your hand). You can only Special Summon \"Incredible Ecclesia, the Virtuous\" once per turn this way. You can only use each of the following effects of \"Incredible Ecclesia, the Virtuous\" once per turn. During the Main Phase (Quick Effect): You can Tribute this card; Special Summon 1 \"Swordsoul\" monster or 1 \"Fallen of Albaz\" from your hand or Deck. During the End Phase, if a Fusion Monster(s) was sent to your GY this turn: You can add this card from the GY to your hand.",
   "text_ko": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 상대 필드의 몬스터의 수가 자신 필드의 몬스터보다 많을 경우, 이 카드는 패에서 특수 소환할 수 있다. ②: 자신 / 상대의 메인 페이즈에, 이 카드를 릴리스하고 발동할 수 있다. 패 / 덱에서 \"상검\" 몬스터나 \"알버스의 낙윤\" 1장을 특수 소환한다. ③: 이 턴에 융합 몬스터가 자신 묘지로 보내져 있을 경우, 엔드 페이즈에 발동할 수 있다. 묘지의 이 카드를 패에 넣는다."
+ },
+ "16531": {
+  "cid": 16531,
+  "en": "Zoroa, the Magistus Conflagrant Calamity",
+  "ko": "마기스토스 다이몬 조로아",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "FIRE",
+  "level": 8,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 Spellcaster Tuner + 1+ non-Tuner monsters\r\nIf this card is Synchro Summoned: You can equip 1 \"Magistus\" monster from your Extra Deck to this card. Your opponent cannot activate the effects of monsters with the same card type (Fusion, Synchro, Xyz, or Link) as a \"Magistus\" Monster Card in your Spell & Trap Zone. If this card is in your GY: You can target 1 \"Magistus\" card you control; destroy it, and if you do, Special Summon this card. You can only use this effect of \"Zoroa, the Magistus Conflagrant Calamity\" once per turn.",
+  "text_ko": "마법사족 튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 싱크로 소환에 성공했을 경우에 발동할 수 있다. 엑스트라 덱에서 \"마기스토스\" 몬스터 1장을 장착 카드로 취급하여 이 카드에 장착한다. ②: 자신의 마법 & 함정 존의 \"마기스토스\" 몬스터 카드와 같은 종류(융합 / 싱크로 / 엑시즈 / 링크)의 몬스터 효과를 상대는 발동할 수 없다. ③: 자신 필드의 \"마기스토스\" 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴하고, 이 카드를 묘지에서 특수 소환한다."
  },
  "16541": {
   "cid": 16541,
@@ -1943,6 +2565,23 @@
   "text_en": "1 Tuner + 1+ non-Tuner monsters\nWhile your LP are less than or equal to your opponent's, this Synchro Summoned card is unaffected by your opponent's activated effects. Once per turn: You can pay 1000 LP, then target 1 monster you control and 1 card your opponent controls; banish them. At the start of the Battle Phase: You can make this card gain ATK equal to the difference in your LP and your opponent's.",
   "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>①: 자신의 LP가 상대의 LP 이하일 경우, 싱크로 소환한 이 카드는 상대가 발동한 효과를 받지 않는다. ②: 1턴에 1번, 1000 LP를 지불하고, 자신 필드의 몬스터 1장과 상대 필드의 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 제외한다. ③: 자신 / 상대의 배틀 페이즈 개시시에 발동할 수 있다. 이 카드의 공격력은, 서로의 LP의 차의 수치만큼 올린다."
  },
+ "17159": {
+  "cid": 17159,
+  "en": "Beyond the Pendulum",
+  "ko": "비욘드 더 펜듈럼",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "DARK",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2 Effect Monsters, including a Pendulum Monster\nIf this card is Link Summoned in the Extra Monster Zone: You can pay 1200 LP; add 1 Pendulum Monster from your Deck to your hand, but for the rest of this turn, unless you Pendulum Summon after this effect resolves, you cannot activate monster effects, and the effects of any cards in your Pendulum Zones are negated. If 2 monsters with different original Levels are Pendulum Summoned at the same time to the zones this card points to: You can target 2 cards on the field; destroy them. You can only use this effect of \"Beyond the Pendulum\" once per turn.",
+  "text_ko": "펜듈럼 몬스터를 포함하는 효과 몬스터 2장<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 엑스트라 몬스터 존에 링크 소환했을 경우, 1200 LP를 지불하고 발동할 수 있다. 덱에서 펜듈럼 몬스터 1장을 패에 넣는다. 이 턴에 자신은 펜듈럼 소환에 성공하지 않는 한, 몬스터의 효과를 발동할 수 없으며, 자신의 펜듈럼 존의 카드 효과는 무효화된다. ②: 이 카드의 링크 앞에 원래 레벨이 다른 몬스터 2장이 동시에 펜듈럼 소환되었을 경우, 필드의 카드 2장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다."
+ },
  "17253": {
   "cid": 17253,
   "en": "Accel Synchro Stardust Dragon",
@@ -2057,6 +2696,23 @@
   "md_rarity": "UR",
   "text_en": "If you have \"Fallen of Albaz\" in your field or GY: You can Special Summon this card from your hand. During the Main Phase (Quick Effect): You can Fusion Summon 1 Level 8 or higher Fusion Monster from your Extra Deck, using monsters from your hand or field. During the End Phase, if a Fusion Monster(s) was sent to your GY this turn: You can add this card from the GY to your hand. You can only use each effect of \"Blazing Cartesia, the Virtuous\" once per turn.",
   "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 필드나 묘지에 \"알버스의 낙윤\"이 존재할 경우에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 자신 / 상대의 메인 페이즈에 발동할 수 있다. 자신의 패 / 필드의 몬스터를 융합 소재로 하고, 레벨 8 이상의 융합 몬스터 1장을 융합 소환한다. ③: 이 턴에 융합 몬스터가 자신의 묘지로 보내져 있을 경우, 엔드 페이즈에 발동할 수 있다. 묘지의 이 카드를 패에 넣는다."
+ },
+ "17801": {
+  "cid": 17801,
+  "en": "Mereologic Aggregator",
+  "ko": "메레올로직 애그리게이터",
+  "ja": null,
+  "type": "Monster",
+  "race": "Cyberse",
+  "attribute": "DARK",
+  "level": 9,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2+ Level 9 monsters\nIf this card is Xyz Summoned: You can send 1 monster from your Extra Deck to the GY. You can target monsters in your GY, up to the number of materials this card has; detach materials from this card equal to the number of those targets in the GY, and if you do, attach those targets to this card. If this card is sent to the GY: You can target 1 face-up card on the field; negate its effects until the end of this turn. You can only use each effect of \"Mereologic Aggregator\" once per turn.\n\nDeck Support- Firewall Dragon Darkfluid Neo Tempest Terahertz",
+  "text_ko": "레벨 9 몬스터 × 2장 이상<br>이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 엑시즈 소환했을 경우에 발동할 수 있다. 엑스트라 덱에서 몬스터 1장을 묘지로 보낸다. ②: 이 카드의 엑시즈 소재의 수까지 자신 묘지의 몬스터를 대상으로 하고 발동할 수 있다. 대상 몬스터의 수만큼 이 카드의 엑시즈 소재를 제거하고, 대상 몬스터를 이 카드의 엑시즈 소재로 한다. ③: 이 카드가 묘지로 보내졌을 경우, 필드의 앞면 표시의 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드의 효과를 턴 종료시까지 무효로 한다."
  },
  "17805": {
   "cid": 17805,
@@ -2464,6 +3120,38 @@
   "text_en": "You can Special Summon this card (from your hand) by sending 1 card from your hand or field to the GY. You can only Special Summon \"Diabellstar the Black Witch\" once per turn this way. You can only use each of the following effects of \"Diabellstar the Black Witch\" once per turn. If this card is Normal or Special Summoned: You can Set 1 \"Sinful Spoils\" Spell/Trap from your Deck. During your opponent's turn, if this card is sent from its owner's hand or field to the GY: You can send 1 card from your hand or field to the GY, and if you do, Special Summon this card.",
   "text_ko": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드는 자신의 패 / 필드의 카드 1장을 묘지로 보내고, 패에서 특수 소환할 수 있다. ②: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"죄보\" 마법 / 함정 카드 1장을 자신 필드에 세트한다. ③: 이 카드가 상대 턴에 패 / 필드에서 묘지로 보내졌을 경우에 발동할 수 있다. 자신의 패 / 필드에서 카드 1장을 묘지로 보내고, 이 카드를 특수 소환한다."
  },
+ "19149": {
+  "cid": 19149,
+  "en": "Snake-Eye Ash",
+  "ko": "스네이크아이 엑셀",
+  "ja": null,
+  "type": "Monster",
+  "race": "Pyro",
+  "attribute": "FIRE",
+  "level": 1,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "If this card is Normal or Special Summoned: You can add 1 Level 1 FIRE monster from your Deck to your hand. You can send 2 face-up cards you control to the GY, including this card; Special Summon 1 \"Snake-Eye\" monster from your hand or Deck, except \"Snake-Eye Ash\". You can only use each effect of \"Snake-Eye Ash\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 화염 속성 / 레벨 1 몬스터 1장을 패에 넣는다. ②: 이 카드를 포함하는 자신 필드의 앞면 표시 카드 2장을 묘지로 보내고 발동할 수 있다. 패 / 덱에서 \"스네이크아이 엑셀\" 이외의 \"스네이크아이\" 몬스터 1장을 특수 소환한다."
+ },
+ "19150": {
+  "cid": 19150,
+  "en": "Snake-Eye Oak",
+  "ko": "스네이크아이 오크",
+  "ja": null,
+  "type": "Monster",
+  "race": "Pyro",
+  "attribute": "FIRE",
+  "level": 1,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "N",
+  "text_en": "If this card is Normal or Special Summoned: You can target 1 of your Level 1 FIRE monsters that is banished or in your GY; either add it to your hand or Special Summon it. You can send 2 face-up cards you control to the GY, including this card; Special Summon 1 \"Snake-Eye\" monster from your hand or Deck, except \"Snake-Eye Oak\". You can only use each effect of \"Snake-Eye Oak\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우, 자신의 묘지 / 제외 상태인 화염 속성 / 레벨 1 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 패에 넣거나 특수 소환한다. ②: 이 카드를 포함하는 자신 필드의 앞면 표시 카드 2장을 묘지로 보내고 발동할 수 있다. 패 / 덱에서 \"스네이크아이 오크\" 이외의 \"스네이크아이\" 몬스터 1장을 특수 소환한다."
+ },
  "19160": {
   "cid": 19160,
   "en": "Vanquish Soul Jiaolong",
@@ -2497,6 +3185,23 @@
   "text_en": "2 Level 12 monsters\nDuring the turn, or turn after, your opponent Special Summoned 2 or more monsters from the Extra Deck, you can also Xyz Summon this card by using 1 monster you control with the highest ATK (your choice, if tied). (Transfer its materials to this card.) If you do, you cannot Normal or Special Summon monsters for the rest of this turn. While this Xyz Summoned monster is on the field, neither player can activate the effects of monsters with 3000 or more ATK. Once per turn: You can detach 1 material from this card; return 1 monster from the field to the hand.",
   "text_ko": "레벨 12 몬스터 × 2<br>이 카드는 상대가 엑스트라 덱에서 2장 이상의 몬스터를 특수 소환한 턴 및 그 다음 턴에, 자신 필드의 공격력이 가장 높은 몬스터 위에 겹쳐 엑시즈 소환할 수도 있다. 이 방법으로 특수 소환한 턴에, 자신은 몬스터를 일반 소환 / 특수 소환할 수 없다. ①: 엑시즈 소환한 이 카드가 몬스터 존에 존재하는 한, 서로 공격력 3000 이상의 몬스터의 효과를 발동할 수 없다. ②: 1턴에 1번, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 필드의 몬스터 1장을 패로 되돌린다."
  },
+ "19187": {
+  "cid": 19187,
+  "en": "Exceed the Pendulum",
+  "ko": "엑시드 더 펜듈럼",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2+ Effect Monsters, including a Pendulum Monster\nGains 100 ATK for each Pendulum Monster Card you control. You can only use each of the following effects of \"Exceed the Pendulum\" once per turn. If this card is Link Summoned: You can add 1 face-up Pendulum Monster from your Extra Deck to your hand. During the Main Phase (Quick Effect): You can Special Summon 1 Pendulum Monster from your hand or GY in Defense Position, with a Level between the Pendulum Scales of the 2 cards in your Pendulum Zones.",
+  "text_ko": "펜듈럼 몬스터를 포함하는 효과 몬스터 2장 이상<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 링크 소환했을 경우에 발동할 수 있다. 자신의 엑스트라 덱에서 앞면의 펜듈럼 몬스터 1장을 패에 넣는다. ②: 이 카드의 공격력은, 자신 필드의 펜듈럼 몬스터 카드의 수 × 100 올린다. ③: 자신 / 상대의 메인 페이즈에 발동할 수 있다. 자신의 펜듈럼 존의 카드 2장의 펜듈럼 스케일로 펜듈럼 소환 가능한 레벨을 가지는 펜듈럼 몬스터 1장을 자신의 패 / 묘지에서 수비 표시로 특수 소환한다."
+ },
  "19188": {
   "cid": 19188,
   "en": "S:P Little Knight",
@@ -2527,6 +3232,20 @@
   "md_rarity": "UR",
   "text_en": "Add 1 \"Diabellstar\" monster from your Deck or GY to your hand. During your Main Phase: You can banish this card from your GY, then target 1 of your \"Sinful Spoils\" Spells/Traps that is banished or in your GY, except \"WANTED: Seeker of Sinful Spoils\"; place it on the bottom of the Deck, then draw 1 card. You can only use each effect of \"WANTED: Seeker of Sinful Spoils\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 덱 / 묘지에서 \"디아벨스타\" 몬스터 1장을 패에 넣는다. ②: 자신 메인 페이즈에 묘지의 이 카드를 제외하고, \"“죄보사냥의 악마”\" 이외의 자신의 묘지 / 제외 상태인 \"죄보\" 마법 / 함정 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 덱 맨 아래로 되돌린다. 그 후, 자신은 1장 드로우한다."
+ },
+ "19199": {
+  "cid": 19199,
+  "en": "Original Sinful Spoils - Snake-Eye",
+  "ko": "원죄보－스네이크아이",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "Send 1 other face-up card you control to the GY; Special Summon 1 Level 1 FIRE monster from your hand or Deck. You can banish this card from your GY, then target 1 \"Snake-Eye\" or \"Diabellstar\" monster in your GY; add 1 Level 1 FIRE monster from your Deck to your hand, then place the targeted monster on the bottom of the Deck. You can only use 1 \"Original Sinful Spoils - Snake-Eye\" effect per turn, and only once that turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 이 카드 이외의 자신 필드의 앞면 표시 카드 1장을 묘지로 보내고 발동할 수 있다. 패 / 덱에서 화염 속성 / 레벨 1 몬스터 1장을 특수 소환한다. ②: 묘지의 이 카드를 제외하고, 자신 묘지의 \"스네이크아이\" 몬스터나 \"디아벨스타\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 덱에서 화염 속성 / 레벨 1 몬스터 1장을 패에 넣는다. 그 후, 대상 몬스터를 덱 맨 아래로 되돌린다."
  },
  "19216": {
   "cid": 19216,
@@ -2572,6 +3291,23 @@
   "md_rarity": "UR",
   "text_en": "1 Tuner + 1+ non-Tuner monsters\nIf this card is Synchro Summoned, or sent to the GY: You can target 1 monster in your GY, or 1 face-up monster your opponent controls; discard 1 card, and if you do, place that monster in its owner's Spell & Trap Zone as a face-up Continuous Trap. During either player's turn, if this card is a Continuous Trap: You can Special Summon 1 face-up Monster Card from your Spell & Trap Zone. You can only use each effect of \"Enigmaster Packbit\" once per turn.",
   "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 싱크로 소환했을 경우 또는 이 카드가 묘지로 보내졌을 경우, 자신 묘지나 상대 필드(앞면 표시)의 몬스터 1장을 대상으로 하고 발동할 수 있다. 자신의 패를 1장 골라 버리고, 대상 몬스터를 지속 함정 카드로 취급하여 원래 주인의 마법 & 함정 존에 앞면 표시로 놓는다. ②: 이 카드를 지속 함정 카드로 취급할 경우, 자신 / 상대 턴에 발동할 수 있다. 자신의 마법 & 함정 존의 앞면 표시 몬스터 카드 1장을 특수 소환한다."
+ },
+ "19721": {
+  "cid": 19721,
+  "en": "Full Armored Utopic Ray Lancer",
+  "ko": "FA－호프 레이 랜서",
+  "ja": null,
+  "type": "Monster",
+  "race": "Beast-Warrior",
+  "attribute": "WATER",
+  "level": 4,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "3 Level 4 monsters\nOnce per turn, you can also Xyz Summon \"Full Armored Utopic Ray Lancer\" by discarding 1 Spell/Trap and using 1 Rank 4 or lower Xyz Monster you control. (Transfer its materials to this card.) Monsters your opponent controls lose 500 ATK. At the start of the Battle Phase: You can negate the effects of all Attack Position monsters your opponent currently controls. When this attacking card destroys an opponent's monster by battle: You can detach 1 material from this card; it can make a second attack in a row.",
+  "text_ko": "레벨 4 몬스터 × 3<br>\"FA(풀아머드)－호프 레이 랜서\"는 1턴에 1번, 패의 마법 / 함정 카드 1장을 버리고, 자신 필드의 랭크 4 이하의 엑시즈 몬스터 위에 겹쳐 엑시즈 소환할 수도 있다. ①: 상대 필드의 몬스터의 공격력은 500 내린다. ②: 자신 / 상대의 배틀 페이즈 개시시에 발동할 수 있다. 상대 필드의 모든 공격 표시 몬스터 효과는 무효화된다. ③: 이 카드의 공격으로 상대 몬스터를 파괴했을 때, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 이 카드는 1번만 더 이어서 공격할 수 있다."
  },
  "19886": {
   "cid": 19886,
@@ -3225,10 +3961,24 @@
   "text_en": "2+ Level 4 \"Ryzeal\" monsters\nWhen your opponent activates a card or effect (Quick Effect): You can detach 1 material from this card, then target 1 card on the field; destroy it. You can only use each of the following effects of \"Ryzeal Detonator\" once per turn. If this card is Special Summoned: You can attach 1 monster from your GY to this card as material. If an Xyz Monster(s) you control would be destroyed by battle or card effect, you can detach 1 material from this card instead.",
   "text_ko": "레벨 4 \"라이제올\" 몬스터 × 2장 이상<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 자신 묘지의 몬스터 1장을 이 카드의 엑시즈 소재로 한다. ②: 상대가 카드의 효과를 발동했을 때, 이 카드의 엑시즈 소재를 1개 제거하고, 필드의 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 파괴한다. ③: 자신 필드의 엑시즈 몬스터가 전투 / 효과로 파괴될 경우, 대신에 이 카드의 엑시즈 소재를 1개 제거할 수 있다."
  },
+ "20580": {
+  "cid": 20580,
+  "en": "Ryzeal Cross",
+  "ko": "라이제올 크로스",
+  "ja": null,
+  "type": "Spell",
+  "race": "Field",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "R",
+  "text_en": "You cannot Xyz Summon monsters with the same name as a card you control. You can target 2 \"Ryzeal\" cards in your GY, except \"Ryzeal Cross\"; place them on the bottom of the Deck in any order, then draw 1 card. You can only use this effect of \"Ryzeal Cross\" once per turn. Once per turn, when a monster effect activated by your opponent resolves, you can detach 1 material from a \"Ryzeal\" Xyz Monster you control, and if you do, negate that effect.",
+  "text_ko": "이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신은 같은 이름의 카드가 자신 필드에 존재하지 않는 몬스터밖에 엑시즈 소환할 수 없다. ②: \"라이제올 크로스\" 이외의 자신 묘지의 \"라이제올\" 카드 2장을 대상으로 하고 발동할 수 있다. 그 카드를 좋아하는 순서대로 덱 아래로 되돌린다. 그 후, 자신은 1장 드로우한다. ③: 1턴에 1번, 상대가 발동한 몬스터의 효과 처리시에, 자신은 자신 필드의 \"라이제올\" 엑시즈 몬스터의 엑시즈 소재를 1개 제거할 수 있다. 그 경우, 그 효과는 무효화된다."
+ },
  "20582": {
   "cid": 20582,
   "en": "Maliss P White Rabbit",
-  "ko": "M∀LICE",
+  "ko": "M∀LICE<P>White Rabbit",
   "ja": null,
   "type": "Monster",
   "race": "Cyberse",
@@ -3244,7 +3994,7 @@
  "20583": {
   "cid": 20583,
   "en": "Maliss P Chessy Cat",
-  "ko": "M∀LICE",
+  "ko": "M∀LICE<P>Cheshire Cat",
   "ja": null,
   "type": "Monster",
   "race": "Cyberse",
@@ -3260,7 +4010,7 @@
  "20584": {
   "cid": 20584,
   "en": "Maliss P Dormouse",
-  "ko": "M∀LICE",
+  "ko": "M∀LICE<P>Dormouse",
   "ja": null,
   "type": "Monster",
   "race": "Cyberse",
@@ -3273,10 +4023,27 @@
   "text_en": "\"Maliss\" Link Monsters that point to this card cannot be destroyed by card effects. You can only use each of the following effects of \"Maliss <P> Dormouse\" once per turn. During your Main Phase: You can activate this effect; banish 1 \"Maliss\" monster from your Deck, also for the rest of this turn, \"Maliss\" monsters you control gain 600 ATK. If this card is banished: You can pay 300 LP; Special Summon it, also you cannot Special Summon from the Extra Deck for the rest of this turn, except Link Monsters.",
   "text_ko": "이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 메인 페이즈에 발동할 수 있다. 덱에서 \"M∀LICE(맬리스)\" 몬스터 1장을 제외한다. 이 턴 중에, 자신 필드의 \"M∀LICE(맬리스)\" 몬스터의 공격력은 600 올린다. ②: 이 카드를 링크 앞으로 하는 \"M∀LICE(맬리스)\" 링크 몬스터는 효과로는 파괴되지 않는다. ③: 이 카드가 제외되었을 경우, 300 LP를 지불하고 발동할 수 있다. 이 카드를 특수 소환한다. 이 턴에, 자신은 링크 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다."
  },
+ "20585": {
+  "cid": 20585,
+  "en": "Maliss Q Red Ransom",
+  "ko": "M∀LICE<Q>RED RANSOM",
+  "ja": null,
+  "type": "Monster",
+  "race": "Cyberse",
+  "attribute": "DARK",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2+ monsters, including a \"Maliss\" monster\nWhile this card points to a monster, the original ATK and DEF of all Effect Monsters your opponent controls are switched. You can only use each of the following effects of \"Maliss <Q> Red Ransom\" once per turn. If this card is Special Summoned: You can add 1 \"Maliss\" Spell from your Deck to your hand. If this card is banished: You can pay 900 LP; Special Summon it, then you can banish 1 Cyberse monster from your Deck.",
+  "text_ko": "\"M∀LICE(맬리스)\" 몬스터를 포함하는 몬스터 2장 이상<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"M∀LICE(맬리스)\" 마법 카드 1장을 패에 넣는다. ②: 이 카드의 링크 앞에 몬스터가 존재하는 한, 상대 필드의 효과 몬스터의 원래 공격력과 원래 수비력은 맞바뀐다. ③: 이 카드가 제외되었을 경우, 900 LP를 지불하고 발동할 수 있다. 이 카드를 특수 소환한다. 그 후, 덱에서 사이버스족 몬스터 1장을 제외할 수 있다."
+ },
  "20586": {
   "cid": 20586,
   "en": "Maliss Q White Binder",
-  "ko": "M∀LICE",
+  "ko": "M∀LICE<Q>WHITE BINDER",
   "ja": null,
   "type": "Monster",
   "race": "Cyberse",
@@ -3293,7 +4060,7 @@
  "20587": {
   "cid": 20587,
   "en": "Maliss Q Hearts Crypter",
-  "ko": "M∀LICE",
+  "ko": "M∀LICE<Q>HEARTS OF CRYPTER",
   "ja": null,
   "type": "Monster",
   "race": "Cyberse",
@@ -3324,7 +4091,7 @@
  "20589": {
   "cid": 20589,
   "en": "Maliss C MTP-07",
-  "ko": "M∀LICE",
+  "ko": "M∀LICE<C>MTP－07",
   "ja": null,
   "type": "Trap",
   "race": "Normal",
@@ -3338,7 +4105,7 @@
  "20590": {
   "cid": 20590,
   "en": "Maliss C GWC-06",
-  "ko": "M∀LICE",
+  "ko": "M∀LICE<C>GWC－06",
   "ja": null,
   "type": "Trap",
   "race": "Normal",
@@ -3352,7 +4119,7 @@
  "20591": {
   "cid": 20591,
   "en": "Maliss C TB-11",
-  "ko": "M∀LICE",
+  "ko": "M∀LICE<C>TB－11",
   "ja": null,
   "type": "Trap",
   "race": "Normal",
@@ -3362,6 +4129,22 @@
   "md_rarity": "R",
   "text_en": "You can activate this card the turn it was Set, by banishing 1 face-up \"Maliss\" monster you control. Special Summon 1 \"Maliss\" monster from your Deck, or if your opponent controls 3 or more cards, you can Special Summon 1 \"Maliss\" Link Monster from your Extra Deck instead. For the rest of this turn, that Summoned monster cannot attack and neither player can activate its effects. You can only activate 1 \"Maliss <C> TB-11\" per turn.",
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. 이 카드는 자신 필드의 앞면 표시의 \"M∀LICE(맬리스)\" 몬스터 1장을 제외하고, 세트한 턴에 발동할 수도 있다. ①: 덱에서 \"M∀LICE(맬리스)\" 몬스터 1장을 특수 소환한다. 상대 필드에 카드가 3장 이상 존재할 경우, 대신에 엑스트라 덱에서 \"M∀LICE(맬리스)\" 링크 몬스터 1장을 특수 소환할 수도 있다. 이 턴에, 이 효과로 특수 소환한 몬스터는 공격할 수 없으며, 그 효과는 발동할 수 없다."
+ },
+ "20732": {
+  "cid": 20732,
+  "en": "Spenta, the Magistus Sealer",
+  "ko": "씰 오브 마기스토스 스푼",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "You can discard this card, then activate 1 of these effects;\n● Add 1 \"Magistus\" monster from your Deck to your hand, except \"Spenta, the Magistus Sealer\".\n●  Halve the ATK of 1 monster your opponent controls until the end of this turn.\nYou can banish this card from your GY, then target 1 face-up monster you control; equip 1 \"Magistus\" monster from your Extra Deck or GY to it as an Equip Spell. You can only use each effect of \"Spenta, the Magistus Sealer\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 패에서 버리고, 이하의 효과에서 1개를 선택하여 발동할 수 있다. ●덱에서 \"씰 오브 마기스토스 스푼\" 이외의 \"마기스토스\" 몬스터 1장을 패에 넣는다. ●상대 필드의 몬스터 1장의 공격력을 턴 종료시까지 절반으로 한다. ②: 묘지의 이 카드를 제외하고, 자신 필드의 앞면 표시 몬스터 1장을 대상으로 하여 발동할 수 있다. 자신의 엑스트라 덱 / 묘지에서 \"마기스토스\" 몬스터 1장을 장착 마법 카드로 취급하고 대상 몬스터에 장착한다."
  },
  "20747": {
   "cid": 20747,
@@ -3378,6 +4161,22 @@
   "md_rarity": "UR",
   "text_en": "You can reveal this card in your hand; Special Summon 1 \"White Forest\" or \"Azamina\" monster from your hand. During your Main Phase: You can Fusion Summon 1 \"Azamina\" Fusion Monster from your Extra Deck, using monsters from your hand or field. If this card is sent to the GY as Synchro Material: You can add 1 \"Sinful Spoils\" card from your Deck to your hand. You can only use each effect of \"Elzette, Azamina of the White Forest\" once per turn.",
   "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 패의 이 카드를 상대에게 보여주고 발동할 수 있다. 패에서 \"하얀 숲\" 몬스터나 \"아자미나\" 몬스터 1장을 특수 소환한다. ②: 자신 메인 페이즈에 발동할 수 있다. 자신의 패 / 필드의 몬스터를 융합 소재로 하고, \"아자미나\" 융합 몬스터 1장을 융합 소환한다. ③: 이 카드가 싱크로 소재로서 묘지로 보내졌을 경우에 발동할 수 있다. 덱에서 \"죄보\" 카드 1장을 패에 넣는다."
+ },
+ "20764": {
+  "cid": 20764,
+  "en": "Mulcharmy Meowls",
+  "ko": "마루챠미 냐루스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Beast",
+  "attribute": "EARTH",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n● Each time your opponent Special Summons a monster(s) from any GY(s) or banishment, immediately draw 1 card.\n● Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
+  "text_ko": "이 카드의 효과를 발동하는 턴에, 자신은 이 카드 이외의 \"마루챠미\" 몬스터의 효과를 1번밖에 발동할 수 없다. ①: 자신 / 상대 턴에, 자신 필드에 카드가 존재하지 않을 경우, 이 카드를 패에서 버리고 발동할 수 있다. 이 턴 중에, 이하의 효과를 적용한다. ●상대가 묘지 / 제외 상태인 몬스터를 특수 소환할 때마다, 자신은 1장 드로우한다. ●엔드 페이즈에, 자신의 패가 상대 필드의 카드의 수 ＋ 6장보다 많을 경우, 그 차의 수만큼 자신의 패를 무작위로 덱으로 되돌린다."
  },
  "20772": {
   "cid": 20772,
@@ -3412,6 +4211,23 @@
   "md_rarity": "SR",
   "text_en": "2 Level 6 or higher monsters (1 Fusion + 1 Synchro)\nYour opponent cannot target cards in their field, GY, or banishment, or this card on the field, with card effects. Your opponent takes any battle damage you would have taken. If this card was Fusion Summoned this turn (Quick Effect): You can Special Summon 1 Level 9 or lower \"Azamina\" monster from your Deck or Extra Deck. You can only use this effect of \"Saint Azamina\" once per turn.",
   "text_ko": "레벨 6 이상의 융합 몬스터 ＋ 레벨 6 이상의 싱크로 몬스터<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 몬스터 존에 존재하는 한, 이 카드 및 상대의 필드 / 묘지 / 제외 상태인 카드를 상대는 효과의 대상으로 할 수 없으며, 자신이 받는 전투 데미지는 대신에 상대가 받는다. ②: 이 카드를 융합 소환한 자신 / 상대 턴에 발동할 수 있다. 덱 / 엑스트라 덱에서 레벨 9 이하의 \"아자미나\" 몬스터 1장을 특수 소환한다."
+ },
+ "20784": {
+  "cid": 20784,
+  "en": "Eclipse Twins",
+  "ko": "이클립스의 쌍둥이",
+  "ja": null,
+  "type": "Monster",
+  "race": "Warrior",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2 Level 4 monsters\nFor this card's Xyz Summon, you can treat Rank 4 monsters you control as Level 4 monsters for material. You can detach 1 material from this card; this card can make up to 2 attacks on monsters during each Battle Phase this turn. If this card is sent to the GY: You can target 2 other Rank 4 or lower Xyz Monsters in your GY; Special Summon 1 of them and attach the other to it as material. You can only use this effect of \"Eclipse Twins\" once per turn.",
+  "text_ko": "레벨 4 몬스터 × 2<br>이 카드를 엑시즈 소환할 경우, 자신 필드의 랭크 4 몬스터를 레벨 4 몬스터로 하고 소재로 할 수 있다. 이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 이 턴에, 이 카드는 1번의 배틀 페이즈 중에 2회까지 몬스터에 공격할 수 있다. ②: 이 카드가 묘지로 보내졌을 경우, 자신 묘지의 다른 랭크 4 이하의 엑시즈 몬스터 2장을 대상으로 하고 발동할 수 있다. 그 2장 중 1장을 특수 소환하고, 나머지 1장을 그 엑시즈 소재로 한다."
  },
  "20787": {
   "cid": 20787,
@@ -3582,6 +4398,37 @@
   "text_en": "If this face-up card is used as Fusion Material, its name can be treated as \"Aleister the Invoker\". You can only use each of the following effects of \"Crowley, the Gifted Magistus\" once per turn. If this card is added to your hand, except by drawing it: You can Special Summon it. If this card is Normal or Special Summoned (except during the Damage Step): You can Fusion Summon 1 \"Magistus\" or \"Invoked\" Fusion Monster from your Extra Deck, using monsters from your hand or field.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 드로우 이외의 방법으로 패에 넣어졌을 경우에 발동할 수 있다. 이 카드를 특수 소환한다. ②: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 자신의 패 / 필드의 몬스터를 융합 소재로 하고, \"마기스토스\" 융합 몬스터나 \"소환수\" 융합 몬스터 1장을 융합 소환한다. ③: 필드의 앞면 표시의 이 카드를 융합 소재로 할 경우, 카드명을 \"소환사 알레이스터\"로 취급할 수 있다."
  },
+ "21073": {
+  "cid": 21073,
+  "en": "Zoroa, the Magistus Verethragna",
+  "ko": "마기스토스 우르스라그나 조로아",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "FIRE",
+  "level": 8,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "1 \"Magistus\" monster + 1 Fusion, Synchro, Xyz, or Link Monster\nYou can target 1 Effect Monster in your GY or your opponent controls; equip that Effect Monster to this card. When a monster effect is activated (Quick Effect): You can send 1 face-up \"Magistus\" Monster Card you control to the GY; negate that effect, then you can destroy 1 card your opponent controls. You can only use each effect of \"Zoroa, the Magistus Verethragna\" once per turn.",
+  "text_ko": "\"마기스토스\" 몬스터 ＋ 융합 / 싱크로 / 엑시즈 / 링크 몬스터<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 묘지나 상대 필드의 효과 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 효과 몬스터를 장착 마법 카드로 취급하고 이 카드에 장착한다. ②: 몬스터의 효과가 발동했을 때, 자신 필드의 앞면 표시의 \"마기스토스\" 몬스터 카드 1장을 묘지로 보내고 발동할 수 있다. 그 효과를 무효로 한다. 그 후, 상대 필드의 카드 1장을 파괴할 수 있다."
+ },
+ "21074": {
+  "cid": 21074,
+  "en": "Verre Magic - Lacrima of Light",
+  "ko": "베르 매직 빛의 라크리마",
+  "ja": null,
+  "type": "Spell",
+  "race": "Quick-Play",
+  "attribute": "DARK",
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "(This card is always treated as a \"Magistus\" and \"Witchcrafter\" card.)\nActivate 1 of these effects (but you can only use each effect of \"Verre Magic - Lacrima of Light\" once per turn);\n● If you control a \"Magistus\" or \"Witchcrafter\" monster: Send 1 Spellcaster monster or 1 Spell from your Deck to the GY.\n● When your opponent activates a card or effect: Special Summon 1 \"Magistus\" or \"Witchcrafter\" monster from your hand or Deck.",
+  "text_ko": "이 카드명은 룰상 \"마기스토스\" 카드, \"위치크래프트\" 카드로도 취급한다. ①: 이하의 효과에서 1개를 선택하고 발동할 수 있다(이 카드명의 이하의 효과는 각각 1턴에 1번밖에 선택할 수 없다). ●자신 필드에 \"마기스토스\" 몬스터나 \"위치크래프트\" 몬스터가 존재할 경우에 발동할 수 있다. 덱에서 마법사족 몬스터 1장이나 마법 카드 1장을 묘지로 보낸다. ●상대가 효과를 발동했을 때에 발동할 수 있다. 패 / 덱에서 \"마기스토스\" 몬스터나 \"위치크래프트\" 몬스터 1장을 특수 소환한다."
+ },
  "21138": {
   "cid": 21138,
   "en": "Wizard @Ignister",
@@ -3647,10 +4494,26 @@
   "text_en": "(This card is always treated as a \"White Forest\" card.)\nMonsters you control cannot be destroyed by your opponent's card effects, while you control 2 or more \"Diabell\" monsters. You can only use each of the following effects of \"Diabellze the White Witch\" once per turn. You can send 1 Spell/Trap from your hand or field to the GY; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can send 1 \"Sinful Spoils\" or \"Diabell\" card from your Deck to the GY.",
   "text_ko": "이 카드명은 룰상 \"하얀 숲\" 카드로도 취급한다. 이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 패 / 필드에서 마법 / 함정 카드 1장을 묘지로 보내고 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"죄보\" 카드나 \"디아벨\" 카드 1장을 묘지로 보낸다. ③: 자신 필드에 \"디아벨\" 몬스터가 2장 이상 존재하는 한, 자신 필드의 몬스터는 상대 효과로는 파괴되지 않는다."
  },
+ "21159": {
+  "cid": 21159,
+  "en": "Star Ryzeal",
+  "ko": "스타 라이제올",
+  "ja": null,
+  "type": "Monster",
+  "race": "Pyro",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "You can Special Summon this card (from your hand) by detaching 1 material from a monster you control. If Summoned this way, you cannot Special Summon from the Extra Deck for the rest of this turn, except Rank 4 Xyz Monsters. You can only Special Summon \"Star Ryzeal\" once per turn this way. If this card is Special Summoned: You can Set 1 \"Ryzeal\" Spell/Trap from your Deck. You can only use this effect of \"Star Ryzeal\" once per turn.",
+  "text_ko": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드는 자신 필드의 엑시즈 소재를 1개 제거하고, 패에서 특수 소환할 수 있다. 이 방법으로 특수 소환한 턴에, 자신은 랭크 4 의 엑시즈 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"라이제올\" 마법 / 함정 카드 1장을 자신 필드에 세트한다."
+ },
  "21160": {
   "cid": 21160,
   "en": "Maliss P March Hare",
-  "ko": "M∀LICE",
+  "ko": "M∀LICE<P>March Hare",
   "ja": null,
   "type": "Monster",
   "race": "Cyberse",
@@ -3732,6 +4595,23 @@
   "text_en": "1 Tuner + 1+ non-Tuner monsters\nEach time your opponent activates a card or effect, gain 300 LP when it resolves. During your opponent's turn (Quick Effect): You can pay 1500 LP and Tribute this card, then activate 1 of these effects;\n● Destroy all face-up monsters your opponent controls.\n● Destroy all face-up Spells and Traps your opponent controls.\nYou can only use this effect of \"Juraishin, the Cursed Thunder God\" once per turn.",
   "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 몬스터 존에 존재하는 한, 상대가 카드의 효과를 발동할 때마다, 자신은 300 LP 회복한다. ②: 상대 턴에, 1500 LP를 지불하고, 이 카드를 릴리스하고, 이하의 효과에서 1개를 선택하여 발동할 수 있다. ●상대 필드의 앞면 표시 몬스터를 전부 파괴한다. ●상대 필드의 앞면 표시의 마법 / 함정 카드를 전부 파괴한다."
  },
+ "21181": {
+  "cid": 21181,
+  "en": "Code Igniter",
+  "ko": "코드 이그나이터",
+  "ja": null,
+  "type": "Monster",
+  "race": "Cyberse",
+  "attribute": "DARK",
+  "level": 4,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "2 Level 4 monsters\nIf this card is Xyz Summoned: You can add 1 Cyberse Ritual Monster from your Deck to your hand. You can detach 1 material from this card; Ritual Summon 1 Ritual Monster from your hand, by Tributing monsters from your hand or field whose total Levels equal or exceed its Level. If this card is sent to the GY as Link Material: You can add 1 \"A.I.\" Trap from your Deck to your hand. You can only use each effect of \"Code Igniter\" once per turn.",
+  "text_ko": "레벨 4 몬스터 × 2<br>이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 엑시즈 소환했을 경우에 발동할 수 있다. 덱에서 사이버스족의 의식 몬스터 1장을 패에 넣는다. ②: 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 레벨의 합계가 의식 소환할 몬스터의 레벨 이상이 되도록, 자신의 패 / 필드의 몬스터를 릴리스하고, 패에서 의식 몬스터 1장을 의식 소환한다. ③: 이 카드가 링크 소재로서 묘지로 보내졌을 경우에 발동할 수 있다. 덱에서 \"Ai(아이)\" 함정 카드 1장을 패에 넣는다."
+ },
  "21188": {
   "cid": 21188,
   "en": "Allied Code Talker @Ignister",
@@ -3804,6 +4684,37 @@
   "md_rarity": "SR",
   "text_en": "If you control 2 or more \"Diabell\" monsters: Send 1 monster you control to the GY; destroy all face-up cards your opponent controls. If this card is sent to the GY, or banished, from the hand or Deck: You can add 1 \"Diabell\" Spell/Trap from your Deck to your hand, except \"Curse of Diabell\". You can only use each effect of \"Curse of Diabell\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드에 \"디아벨\" 몬스터가 2장 이상 존재할 경우, 자신 필드의 몬스터 1장을 묘지로 보내고 발동할 수 있다. 상대 필드의 앞면 표시 카드를 전부 파괴한다. ②: 이 카드가 패 / 덱에서, 묘지로 보내졌을 경우 또는 제외되었을 경우에 발동할 수 있다. 덱에서 \"커스 오브 디아벨\" 이외의 \"디아벨\" 마법 / 함정 카드 1장을 패에 넣는다."
+ },
+ "21215": {
+  "cid": 21215,
+  "en": "Songs of the Dominators",
+  "ko": "열왕시편",
+  "ja": null,
+  "type": "Trap",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "If you have no monsters in your GY, you can activate this card from your hand. When your opponent activates a monster effect on the field: Negate that effect, then if you have a Trap in your GY, you can add 1 \"Dominus\" card from your Deck to your hand. If you activated this card from your hand, you cannot activate the effects of monsters in your hand, GY, and banishment, until the end of the next turn. You can only activate 1 \"Songs of the Dominators\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. 자신 묘지에 몬스터가 존재하지 않을 경우, 이 카드의 발동은 패에서도 할 수 있다. ①: 상대가 필드의 몬스터의 효과를 발동했을 때에 발동할 수 있다. 그 효과를 무효로 한다. 자신 묘지에 함정 카드가 존재할 경우, 추가로 덱에서 \"도미나스\" 카드 1장을 패에 넣을 수 있다. 이 카드를 패에서 발동했을 경우, 발동 후, 다음 턴 종료시까지 자신은 패 / 묘지 / 제외 상태인 몬스터의 효과를 발동할 수 없다."
+ },
+ "21220": {
+  "cid": 21220,
+  "en": "Endymion, the Crescent Magistus",
+  "ko": "크레센트 오브 마기스토스 엔디미온",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2 monsters, including a Level 4 Spellcaster monster\nIf this card is Link Summoned: You can target 1 \"Magistus\" monster you control; equip it with 1 Spellcaster monster from your GY or banishment as an Equip Spell. During the Main Phase (Quick Effect): You can target 1 Spellcaster Monster Card in your Spell & Trap Zone treated as an Equip Spell; return it to the hand. You can only use 1 \"Endymion, the Crescent Magistus\" effect per turn, and only once that turn.",
+  "text_ko": "마법사족 / 레벨 4 몬스터를 포함하는 몬스터 2장<br>이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 이 카드를 링크 소환했을 경우, 자신 필드의 \"마기스토스\" 몬스터 1장을 대상으로 하고 발동할 수 있다. 자신의 묘지 / 제외 상태인 마법사족 몬스터 1장을 장착 마법 카드로 취급하고 대상 몬스터에 장착한다. ②: 자신 / 상대의 메인 페이즈에, 자신의 마법 & 함정 존의 장착 마법 카드 취급의 마법사족 몬스터 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 패로 되돌린다."
  },
  "21347": {
   "cid": 21347,
@@ -4180,6 +5091,70 @@
   "text_en": "If this card is Normal or Special Summoned: You can add to your hand, or Special Summon, 1 \"Power Patron\" monster from your Deck. If this card is in your GY: You can shuffle 1 monster from your hand or face-up field into the Deck, and if you do, Special Summon this card, but banish it when it leaves the field. You can only use each effect of \"Medius the Pure\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"감옥신\" 몬스터 1장을 고르고, 패에 넣거나 특수 소환한다. ②: 이 카드가 묘지에 존재할 경우에 발동할 수 있다. 자신의 패 / 필드(앞면 표시)에서 몬스터 1장을 덱으로 되돌리고, 이 카드를 특수 소환한다. 이 효과로 특수 소환한 이 카드는, 필드에서 벗어났을 경우에 제외된다."
  },
+ "21420": {
+  "cid": 21420,
+  "en": "Artmage Finmel",
+  "ko": "아르토메기아 파인멜트",
+  "ja": null,
+  "type": "Monster",
+  "race": "Warrior",
+  "attribute": "LIGHT",
+  "level": 7,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "Your opponent cannot target Level 6 or lower \"Artmage\" monsters you control with card effects. You can only use each of the following effects of \"Artmage Finmel\" once per turn. If you control an \"Artmage\" card: You can Special Summon this card from your hand, then you can draw 1 card. During the Main Phase, if you have 3 or more different Monster Types on your field (Quick Effect): You can negate the effects of all face-up monsters your opponent currently controls, also until the end of this turn, their ATK's become halved.",
+  "text_ko": "이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드에 \"아르토메기아\" 카드가 존재할 경우에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. 그 후, 자신은 1장 드로우할 수 있다. ②: 자신 필드의 레벨 6 이하의 \"아르토메기아\" 몬스터를 상대는 효과의 대상으로 할 수 없다. ③: 자신 / 상대의 메인 페이즈에, 자신 필드의 몬스터의 종족이 3종류 이상일 경우에 발동할 수 있다. 상대 필드의 모든 앞면 표시 몬스터의 효과는 무효화되고, 그 공격력은 턴 종료시까지 절반이 된다."
+ },
+ "21421": {
+  "cid": 21421,
+  "en": "Artmage Graflare",
+  "ko": "아르토메기아 그라플레어",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": 5,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "The first time this card would be destroyed by battle each turn, it is not destroyed. You can only use each of the following effects of \"Artmage Graflare\" once per turn. If you control an \"Artmage\" card: You can Special Summon this card from your hand, then you can Set 1 \"Artmage\" Spell from your Deck. You can target 1 Spell/Trap your opponent controls; destroy it. This is a Quick Effect if you have 3 or more different Monster Types on your field.",
+  "text_ko": "이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드에 \"아르토메기아\" 카드가 존재할 경우에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. 그 후, 덱에서 \"아르토메기아\" 마법 카드 1장을 자신 필드에 세트할 수 있다. ②: 이 카드는 1턴에 1번만 전투로는 파괴되지 않는다. ③: 상대 필드의 마법 / 함정 카드 1장을 대상으로 하고 발동할 수 있다(자신 필드의 몬스터의 종족이 3종류 이상일 경우, 이 효과는 상대 턴에도 발동할 수 있다). 그 카드를 파괴한다."
+ },
+ "21422": {
+  "cid": 21422,
+  "en": "Artmage Litera",
+  "ko": "아르토메기아 리테라",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": 3,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "You take no damage from battles involving this card. You can only use each of the following effects of \"Artmage Litera\" once per turn. If you control an \"Artmage\" card: You can Special Summon this card from your hand, then you can add 1 \"Artmage\" card from your GY to your hand. During your opponent's Main Phase (Quick Effect): You can Special Summon 1 \"Artmage\" monster from your hand or GY, except \"Artmage Litera\", then return this card from the field to the hand.",
+  "text_ko": "이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드에 \"아르토메기아\" 카드가 존재할 경우에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. 그 후, 자신 묘지에서 \"아르토메기아\" 카드 1장을 패에 넣을 수 있다. ②: 이 카드의 전투로 발생하는 자신에게로의 전투 데미지는 0 이 된다. ③: 상대 메인 페이즈에 발동할 수 있다. 자신의 패 / 묘지에서 \"아르토메기아 리테라\" 이외의 \"아르토메기아\" 몬스터 1장을 특수 소환한다. 그 후, 필드의 이 카드를 패로 되돌린다."
+ },
+ "21423": {
+  "cid": 21423,
+  "en": "Artmage Power Patron",
+  "ko": "아르토메기아의 감옥신수",
+  "ja": null,
+  "type": "Monster",
+  "race": "Illusion",
+  "attribute": "EARTH",
+  "level": 1,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "You cannot Special Summon from the Extra Deck, except Fusion Monsters. You can only use each of the following effects of \"Artmage Power Patron\" once per turn. During the Main Phase (Quick Effect): You can Fusion Summon 1 \"Artmage\" Fusion Monster or 1 \"Nerva the Power Patron of Creation\" from your Extra Deck, using this card you control and monsters from your hand or field. If this card is sent from the hand or field to the GY: You can add 1 \"Artmage\" Spell/Trap from your Deck to your hand, with a different name from the cards in your GY.",
+  "text_ko": "이 카드명의 ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신은 융합 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 자신 / 상대의 메인 페이즈에 발동할 수 있다. 필드의 이 카드를 포함하는 자신의 패 / 필드의 몬스터를 융합 소재로 하고, \"아르토메기아\" 융합 몬스터나 \"창감옥신 네르바\" 1장을 융합 소환한다. ③: 이 카드가 패 / 필드에서 묘지로 보내졌을 경우에 발동할 수 있다. 같은 이름의 카드가 자신 묘지에 존재하지 않는 \"아르토메기아\" 마법 / 함정 카드 1장을 덱에서 패에 넣는다."
+ },
  "21433": {
   "cid": 21433,
   "en": "Vanquish Soul Hollie Sue",
@@ -4195,6 +5170,23 @@
   "md_rarity": "UR",
   "text_en": "During the Main Phase (Quick Effect): You can reveal 1 other \"Vanquish Soul\" monster in your hand; Special Summon this card from your hand. (Quick Effect): You can activate 1 of these effects, by revealing monster(s) in your hand with the listed Attribute(s);\n● EARTH & DARK: Take control of 1 monster your opponent controls with the lowest ATK (your choice, if tied) until the End Phase.\n● FIRE & DARK: Special Summon 1 non-Psychic \"Vanquish Soul\" monster from your Deck.\nYou can only use each effect of \"Vanquish Soul Hollie Sue\" once per turn, and cannot activate more than 1 in the same Chain.",
   "text_ko": "이 카드명의 ①②의 효과는, 각각 1턴에 1번밖에 사용할 수 없으며, 동일한 체인 위에서는 발동할 수 없다. ①: 자신 / 상대의 메인 페이즈에, 패의 다른 \"VS(뱅키시 소울)\" 몬스터 1장을 상대에게 보여주고 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 자신 / 상대 턴에, 이하에서 1개 선택하고, 그 속성의 패의 몬스터를 1장씩 상대에게 보여주고 발동할 수 있다. ●땅 / 어둠: 상대 필드의 공격력이 가장 낮은 몬스터 1장의 컨트롤을 엔드 페이즈까지 얻는다. ●화염 / 어둠: 덱에서 사이킥족 이외의 \"VS(뱅키시 소울)\" 몬스터 1장을 특수 소환한다."
+ },
+ "21443": {
+  "cid": 21443,
+  "en": "Artmage Diactorus",
+  "ko": "아르토메기아 디아크트로스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fairy",
+  "attribute": "LIGHT",
+  "level": 8,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "\"Medius the Pure\" + 1 \"Artmage\" monster\nYou can target 1 monster on the field; change its battle position. When your opponent activates a card or effect on the field, if you have 3 or more different Monster Types on your field (Quick Effect): You can negate the activation, and if you do, destroy that card. If this Fusion Summoned card is destroyed: You can Special Summon 1 \"Medius the Pure\" from your hand, Deck, or banishment. You can only use each effect of \"Artmage Diactorus\" once per turn.",
+  "text_ko": "\"무구한 자 메디우스\" ＋ \"아르토메기아\" 몬스터<br>이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 필드의 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터의 표시 형식을 변경한다. ②: 자신 필드의 몬스터의 종족이 3종류 이상이고, 상대가 마법 / 함정 / 몬스터의 효과를 필드에서 발동했을 때에 발동할 수 있다. 그 발동을 무효로 하고 파괴한다. ③: 융합 소환한 이 카드가 파괴되었을 경우에 발동할 수 있다. 자신의 패 / 덱 / 제외 상태인 \"무구한 자 메디우스\" 1장을 특수 소환한다."
  },
  "21444": {
   "cid": 21444,
@@ -4315,6 +5307,48 @@
   "text_en": "2+ Effect Monsters\nYou cannot Summon/Set monsters to a zone(s) this card points to. Monsters this card points to cannot attack, also their activated effects are negated. Gains ATK equal to the total original ATK of monsters this card points to. Cannot be destroyed by battle or monster effects, while this card points to no monsters.",
   "text_ko": "효과 몬스터 2장 이상<br>자신은 이 카드의 링크 앞에 몬스터를 낼 수 없다. ①: 이 카드의 링크 앞의 몬스터는 공격할 수 없으며, 그 몬스터의 발동한 효과는 무효화된다. ②: 이 카드의 공격력은, 이 카드의 링크 앞의 몬스터의 원래 공격력만큼 올린다. ③: 이 카드의 링크 앞에 몬스터가 존재하지 않을 경우, 이 카드는 전투 및 몬스터의 효과로는 파괴되지 않는다."
  },
+ "21465": {
+  "cid": 21465,
+  "en": "Artmage Academic Arcane Arts Acropolis",
+  "ko": "신예학도 아르토메기아",
+  "ja": null,
+  "type": "Spell",
+  "race": "Field",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "During your Main Phase, you can Normal Summon 1 \"Medius the Pure\", in addition to your Normal Summon/Set (you can only gain this effect once per turn). You can discard 1 Spell/Trap, and declare 1 \"Artmage\" Monster Card name that is not among the monsters you control and has not been declared for \"Artmage Academic Arcane Arts Acropolis\" this turn; add that monster from your Deck to your hand, also you cannot Special Summon for the rest of this turn, except \"Artmage\" monsters, \"Medius the Pure\", or from the Extra Deck.",
+  "text_ko": "①: 자신은 통상 소환 외에도 1번만, 자신 메인 페이즈에 \"무구한 자 메디우스\" 1장을 일반 소환할 수 있다. ②: 패에서 마법 / 함정 카드 1장을 버리고, 같은 이름의 몬스터가 자신 필드에 존재하지 않는 \"아르토메기아\" 몬스터의 카드명을 1개 선언하여 발동할 수 있다(이 턴에, 이 카드명의 이 효과를 발동하기 위해 같은 카드명을 선언할 수 없다). 선언한 몬스터 1장을 덱에서 패에 넣는다. 이 턴에, 자신은 \"아르토메기아\" 몬스터 및 \"무구한 자 메디우스\"밖에 특수 소환할 수 없다(엑스트라 덱에서의 특수 소환 이외)."
+ },
+ "21468": {
+  "cid": 21468,
+  "en": "Artmage Vandalism -Assault-",
+  "ko": "아르토메기아 반달리즘 －습격－",
+  "ja": null,
+  "type": "Spell",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "When this card is activated: You can add 1 \"Medius the Pure\" from your Deck to your hand. You can target 1 face-up monster you control; if that face-up monster would be used as Fusion Material this turn, it can be treated as an \"Artmage\" monster. You can only use this effect of \"Artmage Vandalism -Assault-\" once per turn. If \"Artmage Academic Arcane Arts Acropolis\" you control would be destroyed by card effect, you can send this card you control to the GY instead. You can only activate 1 \"Artmage Vandalism -Assault-\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없으며, 이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 발동시의 효과 처리로서, 덱에서 \"무구한 자 메디우스\" 1장을 패에 넣을 수 있다. ②: 자신 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 턴에, 그 앞면 표시 몬스터를 융합 소재로 할 경우, \"아르토메기아\" 몬스터로 취급할 수 있다. ③: 자신 필드의 \"신예학도 아르토메기아\"가 효과로 파괴될 경우, 대신에 필드의 이 카드를 묘지로 보낼 수 있다."
+ },
+ "21469": {
+  "cid": 21469,
+  "en": "Artmage Varnish -Alteration-",
+  "ko": "아르토메기아 버니시 －개변－",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Place 1 \"Artmage Academic Arcane Arts Acropolis\" from your Deck or GY, face-up in your Field Zone, or if you control \"Artmage Academic Arcane Arts Acropolis\", add 1 \"Artmage\" card from your Deck to your hand instead, except \"Artmage Varnish -Alteration-\". When your \"Artmage\" monster is targeted for an attack: You can banish this card from your GY; negate that attack, then you can Special Summon 1 \"Medius the Pure\" from your hand. You can only use each effect of \"Artmage Varnish -Alteration-\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 덱 / 묘지에서 \"신예학도 아르토메기아\" 1장을 자신의 필드 존에 앞면 표시로 놓는다. 자신 필드에 \"신예학도 아르토메기아\"가 존재할 경우, 대신에 덱에서 \"아르토메기아 버니시 －개변－\" 이외의 \"아르토메기아\" 카드 1장을 패에 넣는다. ②: 자신의 \"아르토메기아\" 몬스터가 공격 대상으로 선택되었을 때, 묘지의 이 카드를 제외하고 발동할 수 있다. 그 공격을 무효로 한다. 그 후, 패에서 \"무구한 자 메디우스\" 1장을 특수 소환할 수 있다."
+ },
  "21477": {
   "cid": 21477,
   "en": "Vanquish Soul, Start!",
@@ -4342,6 +5376,37 @@
   "md_rarity": "UR",
   "text_en": "Target an equal number of \"Sky Striker Ace\" monsters and \"Sky Striker\" Spells in your GY; shuffle them into the Deck, then, for every 3 shuffled cards, you can return up to 1 card on the field to the hand. If a \"Sky Striker\" monster(s) is Special Summoned to your field, while this card is in your GY (except during the Damage Step): You can banish this card; immediately after this effect resolves, Link Summon 1 \"Sky Striker Ace\" Link Monster. You can only use each effect of \"Sky Striker Special Maneuver - Lemnisgate!\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 묘지의 \"섬도희\" 몬스터와 \"섬도\" 마법 카드를 각각 같은 수만큼 대상으로 하고 발동할 수 있다. 그 카드를 덱으로 되돌린다. 그 후, 되돌린 카드 3장당 1장까지, 필드의 카드를 패로 되돌릴 수 있다. ②: 이 카드가 묘지에 존재하는 상태에서, 자신 필드에 \"섬도\" 몬스터가 특수 소환되었을 경우, 이 카드를 제외하고 발동할 수 있다. \"섬도희\" 링크 몬스터 1장의 링크 소환을 실행한다."
+ },
+ "21486": {
+  "cid": 21486,
+  "en": "Artmage Pact -Awakening-",
+  "ko": "아르토메기아 메세나 －각성－",
+  "ja": null,
+  "type": "Trap",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "R",
+  "text_en": "Special Summon 1 \"Artmage\" monster or 1 \"Medius the Pure\" from your Deck, also for the rest of this turn, the activation of your cards and effects that include an effect that Fusion Summons a Fusion Monster cannot be negated, also your opponent cannot activate cards or effects when a monster is Fusion Summoned this way. You can banish this card from your GY, then target 1 \"Artmage\" monster you control; return that monster to the hand/Extra Deck, and if you do, destroy 1 card your opponent controls. You can only use 1 \"Artmage Pact -Awakening-\" effect per turn, and only once that turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 덱에서 \"아르토메기아\" 몬스터나 \"무구한 자 메디우스\" 1장을 특수 소환한다. 이 턴에, 융합 몬스터를 융합 소환하는 효과를 포함하는 효과를 자신이 발동했을 경우, 그 발동은 무효화되지 않으며, 그 융합 소환 성공시에 상대는 카드의 효과를 발동할 수 없다. ②: 묘지의 이 카드를 제외하고, 자신 필드의 \"아르토메기아\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 패 / 엑스트라 덱으로 되돌리고, 상대 필드의 카드 1장을 파괴한다."
+ },
+ "21577": {
+  "cid": 21577,
+  "en": "Invoked Magistus Omega",
+  "ko": "소환수 마기스토스 세리온",
+  "ja": null,
+  "type": "Monster",
+  "race": "Beast",
+  "attribute": "DARK",
+  "level": 8,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "\"Aleister the Invoker\" + 1 Fusion, Synchro, Xyz, or Link Monster\nIf this card is Special Summoned: You can target 1 Fusion, Synchro, Xyz, or Link Monster in your GY and 1 monster on the field; banish them. If this Fusion Summoned card is destroyed by battle or card effect: You can Special Summon 1 Level 4 Spellcaster monster from your Deck, then you can equip this card to it as an Equip Spell that gives it 1000 ATK. You can only use each effect of \"Invoked Magistus Omega\" once per turn.",
+  "text_ko": "\"소환사 알레이스터\" ＋ 융합 / 싱크로 / 엑시즈 / 링크 몬스터<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우, 자신 묘지의 융합 / 싱크로 / 엑시즈 / 링크 몬스터 1장과 필드의 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 제외한다. ②: 융합 소환한 이 카드가 전투 / 효과로 파괴되었을 경우에 발동할 수 있다. 덱에서 마법사족 / 레벨 4 몬스터 1장을 특수 소환한다. 그 후, 이 카드를 공격력 1000 올리는 장착 마법 카드로 취급하고 그 몬스터에 장착할 수 있다."
  },
  "21600": {
   "cid": 21600,
@@ -4984,6 +6049,23 @@
   "text_en": "If you control a \"Tri-Brigade\" or \"Springans\" monster, except \"Tri-Brigade Springans Kitt\": You can Special Summon this card from your hand. If this card is sent to the GY: You can Special Summon 1 of the following monsters from your GY in Defense Position, except \"Tri-Brigade Springans Kitt\".\n● \"Tri-Brigade\" monster ● \"Springans\" monster\n● \"Fallen of Albaz\" or 1 monster that mentions it\nYou can only use each effect of \"Tri-Brigade Springans Kitt\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드에 \"트라이브리게이드 스프리건즈 키트\" 이외의, \"트라이브리게이드\" 몬스터나 \"스프리건즈\" 몬스터가 존재할 경우에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드가 묘지로 보내졌을 경우에 발동할 수 있다. \"트라이브리게이드 스프리건즈 키트\"가 아닌, 이하의 몬스터 중 1장을 자신 묘지에서 수비 표시로 특수 소환한다. ●\"트라이브리게이드\" 몬스터 ●\"스프리건즈\" 몬스터 ●\"알버스의 낙윤\" 또는 그 카드명이 쓰여진 몬스터"
  },
+ "22138": {
+  "cid": 22138,
+  "en": "Artmage Non-Finito",
+  "ko": "아르토메기아＝논피니토",
+  "ja": null,
+  "type": "Monster",
+  "race": "Illusion",
+  "attribute": "EARTH",
+  "level": 7,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2 \"Artmage\" monsters\nMust be either Fusion Summoned, or Special Summoned (from your Extra Deck) by discarding 1 Spell/Trap and Tributing 1 Level 7 or higher \"Artmage\" monster from your hand or field. You can only Special Summon \"Artmage Non-Finito\" once per turn this way, no matter which method you use. If this card is Special Summoned: You can Set 1 \"Artmage\" Spell/Trap from your Deck. Once per opponent's turn (Quick Effect): You can Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters you control.",
+  "text_ko": "\"아르토메기아\" 몬스터 × 2<br>\"아르토메기아＝논피니토\"는 1턴에 1번, 융합 소환 및 이하의 방법으로만 특수 소환할 수 있다. ●패의 마법 / 함정 카드 1장을 버리고, 자신의 패 / 필드의 레벨 7 이상의 \"아르토메기아\" 몬스터 1장을 릴리스했을 경우에 엑스트라 덱에서 특수 소환할 수 있다. ①: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"아르토메기아\" 마법 / 함정 카드 1장을 자신 필드에 세트한다. ②: 상대 턴에 1번, 발동할 수 있다. 자신 필드의 몬스터를 융합 소재로 하고, 융합 몬스터 1장을 융합 소환한다."
+ },
  "22142": {
   "cid": 22142,
   "en": "Junora the Power Patron of Tuning",
@@ -5123,6 +6205,69 @@
   "text_en": "If you control a Tuner: Special Summon 1 Tuner from your hand, Deck, or GY, also you cannot Special Summon from the Extra Deck for the rest of this turn after this card resolves, except Synchro Monsters. You can only activate 1 \"Over Tuning\" per turn.",
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 자신 필드에 튜너가 존재할 경우에 발동할 수 있다. 자신의 패 / 덱 / 묘지에서 튜너 1장을 특수 소환한다. 이 카드의 발동 후, 턴 종료시까지 자신은 싱크로 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다."
  },
+ "22320": {
+  "cid": 22320,
+  "en": "Genni, the Maid of Endymion",
+  "ko": "엔디미온의 시녀 제니",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "WIND",
+  "level": 1,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "(This card is always treated as a \"Witchcrafter\" card.)\nIf you control a Spellcaster monster and this card is in your hand: You can Special Summon this card. During the Main Phase (Quick Effect): You can target 1 Spellcaster monster you control; banish it, and if you do, Special Summon 1 \"Witchcrafter\" monster from your Deck, except \"Genni, the Maid of Endymion\". You can only use each effect of \"Genni, the Maid of Endymion\" once per turn.",
+  "text_ko": "이 카드명은 룰상 \"위치크래프트\" 카드로도 취급한다. 이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 패에 존재하고, 자신 필드에 마법사족 몬스터가 존재할 경우에 발동할 수 있다. 이 카드를 특수 소환한다. ②: 자신 / 상대의 메인 페이즈에, 자신 필드의 마법사족 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 제외하고, 덱에서 \"엔디미온의 시녀 제니\" 이외의 \"위치크래프트\" 몬스터 1장을 특수 소환한다."
+ },
+ "22321": {
+  "cid": 22321,
+  "en": "Empire of Endymion",
+  "ko": "엔디미온 황국",
+  "ja": null,
+  "type": "Spell",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "R",
+  "text_en": "When this card is activated: Add 1 \"Regulus, the Prince of Endymion\" or 1 monster that mentions it from your Deck to your hand, then if your opponent controls a monster, you can Special Summon 1 Spellcaster monster from your hand. If a card(s) you control would be destroyed by battle or card effect, you can destroy 1 \"Regulus, the Prince of Endymion\" in your hand or face-up field instead. You can only use this effect of \"Empire of Endymion\" once per turn. You can only activate 1 \"Empire of Endymion\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없으며, 이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 발동시의 효과 처리로서, \"프린스 오브 엔디미온 레굴루스\" 또는 그 카드명이 쓰여진 몬스터 1장을 덱에서 패에 넣는다. 상대 필드에 몬스터가 존재할 경우, 추가로 패에서 마법사족 몬스터 1장을 특수 소환할 수 있다. ②: 자신 필드의 카드가 전투 / 효과로 파괴될 경우, 대신에 자신의 패 / 필드(앞면 표시)의 \"프린스 오브 엔디미온 레굴루스\" 1장을 파괴할 수 있다."
+ },
+ "22330": {
+  "cid": 22330,
+  "en": "Mercurium the Living Quicksilver",
+  "ko": "생명의 수은 메르쿠리움",
+  "ja": null,
+  "type": "Monster",
+  "race": "Aqua",
+  "attribute": "DARK",
+  "level": 10,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2+ Level 10 monsters\nIf this card is Xyz Summoned: You can attach 1 monster from your Deck to this card as material. You can only use this effect of \"Mercurium the Living Quicksilver\" once per turn. While this card has material, your opponent cannot activate the effects of monsters in their GY with the same Attribute as a monster in your GY. Once per turn, during the End Phase: Detach 1 material from this card or take 3000 damage.",
+  "text_ko": "레벨 10 몬스터 × 2장 이상<br>이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 엑시즈 소환했을 경우에 발동할 수 있다. 덱에서 몬스터 1장을 이 카드의 엑시즈 소재로 한다. ②: 엑시즈 소재를 가지고 있는 이 카드가 몬스터 존에 존재하는 한, 자신 묘지의 몬스터 중 어느 것과 같은 속성을 가지는 상대 묘지의 몬스터 효과는 발동할 수 없다. ③: 자신 / 상대의 엔드 페이즈에 발동한다. 이 카드의 엑시즈 소재를 1개 제거하거나, 자신은 3000 데미지를 받는다."
+ },
+ "22331": {
+  "cid": 22331,
+  "en": "Vodnika the Fountain Spirit",
+  "ko": "환류의 정 보드니카",
+  "ja": null,
+  "type": "Monster",
+  "race": "Aqua",
+  "attribute": "LIGHT",
+  "level": 10,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "If a Level 10 monster(s) is sent to the GY, except \"Vodnika the Fountain Spirit\" (except during the Damage Step): You can Special Summon this card from your GY (if it was there when the monster was sent) or hand (even if not) in Defense Position, but banish it when it leaves the field. You can target 1 Level 10 monster in your GY; Special Summon it to your opponent's field (but negate its effects), then draw 1 card. You can only use each effect of \"Vodnika the Fountain Spirit\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: \"환류의 정 보드니카\" 이외의 레벨 10 몬스터가 묘지로 보내졌을 경우에 발동할 수 있다. 이 카드를 패 / 묘지에서 수비 표시로 특수 소환한다. 이 효과로 특수 소환한 이 카드는, 필드에서 벗어났을 경우에 제외된다. ②: 자신 묘지의 레벨 10 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 효과를 무효로 하고 상대 필드에 특수 소환한다. 그 후, 자신은 1장 드로우한다."
+ },
  "22356": {
   "cid": 22356,
   "en": "The Three Champions of Swordsoul",
@@ -5140,6 +6285,38 @@
   "text_en": "1 Level 4 Tuner + 1+ non-Tuners\nIf this card is Synchro Summoned: You can add 1 Level 4 or 8 Spellcaster monster whose ATK equals its own DEF from your Deck or GY to your hand. You can target 1 face-up card on the field; negate its effects, then if an \"Ecclesia\" monster or \"Fallen of Albaz\" is in your GY, you can destroy that card. You can only use each effect of \"The Three Champions of Swordsoul\" once per turn.\n\nOld name- The Three Brave Swordsouls",
   "text_ko": "레벨 4 튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 싱크로 소환했을 경우에 발동할 수 있다. 공격력과 수비력의 수치가 같은 레벨 4 / 8 의 마법사족 몬스터 1장을 자신의 덱 / 묘지에서 패에 넣는다. ②: 필드의 앞면 표시 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드의 효과를 무효로 한다. 자신 묘지에 \"에클레시아\" 몬스터나 \"알버스의 낙윤\"이 존재할 경우, 추가로 대상의 카드를 파괴할 수 있다."
  },
+ "22498": {
+  "cid": 22498,
+  "en": "Regulus, the Prince of Endymion",
+  "ko": "프린스 오브 엔디미온 레굴루스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "The first time this card would be destroyed by battle each turn, it is not destroyed. You can only use each of the following effects of \"Regulus, the Prince of Endymion\" once per turn. If this card is in your hand: You can reveal 1 other Spellcaster monster in your hand; you lose LP equal to the revealed monster's Level x 300, and if you do, Special Summon this card. If this card is Special Summoned: You can add 1 Spell that mentions \"Regulus, the Prince of Endymion\" from your Deck to your hand.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 패에 존재할 경우, 패의 다른 마법사족 몬스터 1장을 상대에게 보여주고 발동할 수 있다. 자신은 보여준 몬스터의 레벨 × 300 LP를 상실하고, 이 카드를 특수 소환한다. ②: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"프린스 오브 엔디미온 레굴루스\"의 카드명이 쓰여진 마법 카드 1장을 패에 넣는다. ③: 이 카드는 1턴에 1번만 전투로는 파괴되지 않는다."
+ },
+ "22499": {
+  "cid": 22499,
+  "en": "Verre, the Maid of Endymion",
+  "ko": "엔디미온의 시녀 베르",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "(This card is always treated as a \"Witchcrafter\" card.)\nGains 2300 ATK while you have \"Regulus, the Prince of Endymion\" in your field or GY. You can only use each of the following effects of \"Verre, the Maid of Endymion\" once per turn. During your Main Phase, if a Spell Card or effect was activated this turn: You can Special Summon this card from your hand. If this card is Special Summoned: You can add 1 \"Witchcrafter\" Spell/Trap or \"Magical Dimension\" from your Deck to your hand.",
+  "text_ko": "이 카드명은 룰상 \"위치크래프트\" 카드로도 취급한다. 이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 마법 카드의 효과가 발동한 턴의 자신 메인 페이즈에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"위치크래프트\" 마법 / 함정 카드나 \"디멘션 매직\" 1장을 패에 넣는다. ③: 자신의 필드나 묘지에 \"프린스 오브 엔디미온 레굴루스\"가 존재하는 한, 이 카드의 공격력은 2300 올린다."
+ },
  "22519": {
   "cid": 22519,
   "en": "Vidolium the Unstable Power Patron of Unity",
@@ -5156,6 +6333,23 @@
   "md_rarity": "UR",
   "text_en": "[ Pendulum Effect ]\nYou can activate 1 of these effects;\n● Destroy this card, and if you do, Special Summon 1 \"Power Patron\" monster from your hand or GY.\n● Destroy this card, also for the rest of this turn, \"Power Patron\" monsters you control whose original Level is 12 gain 5000 ATK.\nYou can only use this effect of \"Vidolium the Unstable Power Patron of Unity\" once per turn.\n----------------------------------------\n[ Monster Effect ]\nCannot be Normal Summoned/Set. Must be Special Summoned (from your Extra Deck or GY) by returning 3 monsters (1 Fusion, 1 Synchro, and 1 Xyz) from your face-up field and/or GY to the Extra Deck. Unaffected by monster effects, except \"Power Patron\" monsters. If this card is added to your Extra Deck face-up: You can add 1 \"Power Patron\" card from your Deck to your hand. You can only use this effect of \"Vidolium the Unstable Power Patron of Unity\" once per turn. If this card is Special Summoned: Banish (face-down) all cards in the GYs.",
   "text_ko": "이 카드명의 펜듈럼 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이하의 효과에서 1개를 선택하고 발동할 수 있다. ●이 카드를 파괴하고, 자신의 패 / 묘지에서 \"감옥신\" 몬스터 1장을 특수 소환한다. ●이 카드를 파괴한다. 이 턴 중에, 자신 필드의 원래의 레벨이 12 인 \"감옥신\" 몬스터의 공격력은 5000 올린다."
+ },
+ "22520": {
+  "cid": 22520,
+  "en": "Nervedo the Shadebeast Power Patron",
+  "ko": "감옥신영수－네르베도",
+  "ja": null,
+  "type": "Monster",
+  "race": "Illusion",
+  "attribute": "DARK",
+  "level": 10,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "[ Pendulum Effect ]\nYou can negate a monster effect activated by your opponent in response to the activation of a \"Power Patron\" or \"Artmage\" monster effect, then destroy this card. You can only use this effect of \"Nervedo the Shadebeast Power Patron\" once per turn.\n----------------------------------------\n[ Monster Effect ]\n(This card is always treated as an \"Artmage\" card.)\nYou can banish the top 3 cards of your Deck, face-down; destroy this card, and if you do, Special Summon 1 \"Nerva the Power Patron of Creation\" from your Extra Deck (this is treated as a Fusion Summon). If this card is added to your Extra Deck face-up: You can Special Summon 1 \"Power Patron\" or \"Artmage\" monster from your Deck or face-up Extra Deck, except \"Nervedo the Shadebeast Power Patron\". You can only use each effect of \"Nervedo the Shadebeast Power Patron\" once per turn.",
+  "text_ko": "이 카드명의 펜듈럼 효과는 1턴에 1번밖에 사용할 수 없다. ①: \"감옥신\" 몬스터나 \"아르토메기아\" 몬스터의 효과 발동에 체인하여 상대가 발동한 몬스터의 효과 처리시에, 그 효과를 무효로 할 수 있다. 그 후, 이 카드를 파괴한다."
  },
  "22521": {
   "cid": 22521,
@@ -5222,6 +6416,22 @@
   "md_rarity": "UR",
   "text_en": "You can Tribute Summon this card face-up by Tributing 1 Ritual, Fusion, Synchro, Xyz, Pendulum, or Link Monster. If this card is Tribute Summoned: You can activate 1 of these effects (but you can only use each effect of \"Clown Crew Biancaviso\" once per turn);\n● Draw cards equal to the number of monsters Tributed.\n● Negate the effects of face-up cards your opponent controls, equal to the number of monsters Tributed.\nOnce per turn, during your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Tribute Summon 1 monster.",
   "text_ko": "이 카드는 의식 / 융합 / 싱크로 / 엑시즈 / 펜듈럼 / 링크 몬스터 1장을 릴리스하고 앞면 표시로 어드밴스 소환할 수 있다. ①: 이 카드를 어드밴스 소환했을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다(이 카드명의 이하의 효과는 각각 1턴에 1번밖에 선택할 수 없다). ●이 카드의 어드밴스 소환을 위해 릴리스한 몬스터의 수만큼, 자신은 드로우한다. ●이 카드의 어드밴스 소환을 위해 릴리스한 몬스터의 수만큼, 상대 필드의 앞면 표시 카드의 효과를 무효로 한다. ②: 1턴에 1번, 상대 메인 페이즈에 발동할 수 있다. 몬스터 1장의 어드밴스 소환을 실행한다."
+ },
+ "22525": {
+  "cid": 22525,
+  "en": "Fairy Tail - Matchgiru",
+  "ko": "페어리테일－매치리르",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "If a Spellcaster monster with 1850 original ATK is on the field: You can Special Summon this card from your hand or GY, also you cannot Special Summon for the rest of this turn, except Spellcaster monsters. If this card is Normal or Special Summoned: You can add 1 \"Fairy Tail\" Spell/Trap or 1 \"Fairy Tale Tails\" from your Deck to your hand. You can pay 500 LP; the name of 1 Effect Monster your opponent controls becomes \"Prince of Fairies\". You can only use each effect of \"Fairy Tail - Matchgiru\" once per turn.",
+  "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 필드에 원래의 공격력이 1850 인 마법사족 몬스터가 존재할 경우에 발동할 수 있다. 이 카드를 패 / 묘지에서 특수 소환한다. 이 턴에, 자신은 마법사족 몬스터밖에 특수 소환할 수 없다. ②: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"페어리테일\" 마법 / 함정 카드나 \"페어리 테일\" 1장을 패에 넣는다. ③: 500 LP를 지불하고 발동할 수 있다. 상대 필드의 효과 몬스터 1장의 카드명을 \"요정의 왕자님\"으로 취급한다."
  },
  "22531": {
   "cid": 22531,
@@ -5290,6 +6500,40 @@
   "md_rarity": "SR",
   "text_en": "2 monsters with the same Attribute but different Types\nIf your Tribute Summoned monster attacks a Defense Position monster, inflict double piercing battle damage to your opponent. If this card is Tributed: You can activate 1 of these effects (but you can only use each effect of \"Clown Crew Diabolo\" once per turn);\n● Return all Fusion Monsters from the field and the GYs to the Extra Deck.\n● Set 1 \"Clown Crew\" Trap from your Deck.",
   "text_ko": "같은 속성으로 종족이 다른 몬스터 × 2<br>①: 어드밴스 소환한 자신 몬스터가 수비 표시 몬스터를 공격했을 경우, 그 수비력을 공격력이 넘은 만큼의 배의 수치만큼 상대에게 전투 데미지를 준다. ②: 이 카드가 릴리스되었을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다(이 카드명의 이하의 효과는 각각 1턴에 1번밖에 선택할 수 없다). ●서로의 필드 / 묘지의 융합 몬스터를 전부 엑스트라 덱으로 되돌린다. ●덱에서 \"크라운 클랜\" 함정 카드 1장을 자신 필드에 세트한다."
+ },
+ "22542": {
+  "cid": 22542,
+  "en": "Weaver of Fairy Tails",
+  "ko": "페어리테일을 엮는 자",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "EARTH",
+  "level": 4,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "1 \"Fairy Tail\" monster + 1 Spellcaster monster\nAll \"Prince of Fairies\" on the field become Spellcaster monsters. During your Main Phase: You can Special Summon 1 \"Fairy Tail\" monster from your Deck or banishment. You can only use this effect of \"Weaver of Fairy Tails\" once per turn. If you Normal or Special Summon a non-EARTH \"Fairy Tail\" monster, while this card is in your Monster Zone (except during the Damage Step): You can target 1 Effect Monster your opponent controls; negate its effects, also its name becomes \"Prince of Fairies\".",
+  "text_ko": "\"페어리테일\" 몬스터 ＋ 마법사족 몬스터<br>이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신 메인 페이즈에 발동할 수 있다. 자신의 덱 / 제외 상태인 \"페어리테일\" 몬스터 1장을 특수 소환한다. ②: 이 카드가 몬스터 존에 존재하는 상태에서, 자신이 땅 속성 이외의 \"페어리테일\" 몬스터를 일반 소환 / 특수 소환했을 경우, 상대 필드의 효과 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터의 효과는 무효화되고, 카드명을 \"요정의 왕자님\"으로 취급한다. ③: 필드의 \"요정의 왕자님\"은 마법사족이 된다."
+ },
+ "22543": {
+  "cid": 22543,
+  "en": "Teller of Fairy Tails",
+  "ko": "페어리테일을 이야기하는 자",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "EARTH",
+  "level": 4,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 LIGHT \"Fairy Tail\" monster + 1 Spellcaster monster\n\"Fairy Tail\" monsters you control cannot be destroyed by battle. You can only use each of the following effects of \"Teller of Fairy Tails\" once per turn. If this card is Fusion Summoned using \"Prince of Fairies\" as material: You can destroy as many cards your opponent controls as possible, and if you do, inflict 500 damage to your opponent for each card destroyed. When your opponent activates a card or effect (Quick Effect): You can banish 1 \"Fairy Tail\" card from your hand or GY; negate the activation, and if you do, destroy that card.",
+  "text_ko": "빛 속성의 \"페어리테일\" 몬스터 ＋ 마법사족 몬스터<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 \"요정의 왕자님\"을 소재로서 융합 소환했을 경우에 발동할 수 있다. 상대 필드의 카드를 전부 파괴하고, 파괴한 수 × 500 데미지를 상대에게 준다. ②: 자신의 \"페어리테일\" 몬스터는 전투로는 파괴되지 않는다. ③: 상대가 마법 / 함정 / 몬스터의 효과를 발동했을 때, 자신의 패 / 묘지에서 \"페어리테일\" 카드 1장을 제외하고 발동할 수 있다. 그 발동을 무효로 하고 파괴한다."
  },
  "22549": {
   "cid": 22549,
@@ -5377,6 +6621,23 @@
   "md_rarity": "SR",
   "text_en": "2 Level 3 monsters\nTribute Summoned monsters you control gain 1000 ATK. If this card is Tributed: You can activate 1 of these effects (but you can only use each effect of \"Clown Crew Fiends\" once per turn);\n● Return all Xyz Monsters from the field and the GYs to the Extra Deck.\n● Set 1 \"Clown Crew\" Spell from your Deck.",
   "text_ko": "레벨 3 몬스터 × 2<br>①: 자신 필드의 어드밴스 소환한 몬스터의 공격력은 1000 올린다. ②: 이 카드가 릴리스되었을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다(이 카드명의 이하의 효과는 각각 1턴에 1번밖에 선택할 수 없다).<br>●서로의 필드 / 묘지의 엑시즈 몬스터를 전부 엑스트라 덱으로 되돌린다.<br>●덱에서 \"크라운 클랜\" 마법 카드 1장을 자신 필드에 세트한다."
+ },
+ "22556": {
+  "cid": 22556,
+  "en": "Fairy Tail - Wiccat",
+  "ko": "페어리테일－위캣",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "DARK",
+  "level": 4,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "2 Level 4 Spellcaster monsters\nEach \"Fairy Tail\" monster you control whose original Attribute is LIGHT, is unaffected by your opponent's activated effects. You can only use each of the following effects of \"Fairy Tail - Wiccat\" once per turn. You can detach up to 2 materials from this card; send \"Fairy Tail\" cards from your Deck to the GY, equal to the number detached. If this card is in your GY (Quick Effect): You can target 1 \"Fairy Tail\" monster you control whose original Attribute is LIGHT; Special Summon this card, and if you do, send that monster to the GY.",
+  "text_ko": "마법사족 레벨 4 몬스터 × 2<br>이 카드명의 ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드의 원래의 속성이 빛 속성인 \"페어리테일\" 몬스터는 상대가 발동한 효과를 받지 않는다. ②: 이 카드의 엑시즈 소재를 2개까지 제거하고 발동할 수 있다. 제거한 수만큼 덱에서 \"페어리테일\" 카드를 묘지로 보낸다. ③: 자신 / 상대 턴에, 이 카드가 묘지에 존재할 경우, 자신 필드의 원래 속성이 빛 속성인 \"페어리테일\" 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 특수 소환하고, 대상의 몬스터를 묘지로 보낸다."
  },
  "22559": {
   "cid": 22559,
@@ -5479,6 +6740,62 @@
   "text_en": "Special Summon up to 2 \"Clown Crew\" monsters from your Deck and/or Extra Deck, ignoring their Summoning conditions, also until the end of the next turn after this card resolves, you cannot activate the effects of monsters Special Summoned from the Deck or Extra Deck. During your Main Phase, if this card is in your GY, except the turn it was sent there: You can banish this card and Tribute 1 monster from your hand or field, then target 1 card on the field; return it to the hand. You can only use each effect of \"Clown Crew Malabarisme\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 덱 / 엑스트라 덱에서 \"크라운 클랜\" 몬스터를 2장까지 소환 조건을 무시하고 특수 소환한다. 이 카드의 발동 후, 다음 턴의 종료시까지 자신은 덱 / 엑스트라 덱에서 특수 소환된 몬스터의 효과를 발동할 수 없다. ②: 자신 메인 페이즈에, 이 턴에 묘지로 보내져 있지 않은 이 카드를 묘지에서 제외하고, 자신의 패 / 필드의 몬스터 1장을 릴리스하고, 필드의 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 패로 되돌린다."
  },
+ "22571": {
+  "cid": 22571,
+  "en": "Once Upon a Fairy Tail",
+  "ko": "페어리테일의 옛날옛적에",
+  "ja": null,
+  "type": "Spell",
+  "race": "Quick-Play",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Special Summon up to 1 LIGHT \"Fairy Tail\" monster each from your hand, GY, and banishment, with different names, also you cannot Special Summon for the rest of this turn, except Spellcaster monsters. If this card is banished, or sent to the GY except from the field: You can Set this card, but it cannot be activated unless you control a \"Fairy Tail\" monster. You can only use each effect of \"Once Upon a Fairy Tail\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 패 / 묘지 / 제외 상태에서 각각 1장까지, 빛 속성의 \"페어리테일\" 몬스터를 특수 소환한다(같은 이름의 카드는 1장까지). 이 턴에, 자신은 마법사족 몬스터밖에 특수 소환할 수 없다. ②: 이 카드가 제외되었을 경우, 또는 필드 이외에서 묘지로 보내졌을 경우에 발동할 수 있다. 이 카드를 자신 필드에 세트한다. 이 효과로 세트한 이 카드는, 자신 필드에 \"페어리테일\" 몬스터가 존재하지 않을 경우에는 발동할 수 없다."
+ },
+ "22572": {
+  "cid": 22572,
+  "en": "Fairy Tail Ball",
+  "ko": "페어리테일의 무답회",
+  "ja": null,
+  "type": "Spell",
+  "race": "Field",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "When this card is activated: You can add 1 \"Fairy Tail\" monster or 1 \"Fairy Tale Tails\" from your Deck or banishment to your hand. Your \"Fairy Tail\" monsters can attack directly. Once per turn, if your opponent Special Summons a monster(s) and you control a \"Fairy Tail\" monster (except during the Damage Step): You can target 1 Effect Monster your opponent controls; negate its effects, also its name becomes \"Prince of Fairies\". You can only activate 1 \"Fairy Tail Ball\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 이 카드의 발동시의 효과 처리로서, 자신의 덱 / 제외 상태인 \"페어리테일\" 몬스터 1장이나 \"페어리 테일\" 1장을 패에 넣을 수 있다. ②: 자신의 \"페어리테일\" 몬스터는 직접 공격할 수 있다. ③: 1턴에 1번, 상대가 몬스터를 특수 소환했을 경우, 자신 필드에 \"페어리테일\" 몬스터가 존재하고 있으면, 상대 필드의 효과 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터의 효과는 무효화되고, 카드명을 \"요정의 왕자님\"으로 취급한다."
+ },
+ "22573": {
+  "cid": 22573,
+  "en": "Tails of the Fairy Tails",
+  "ko": "테일즈오브 페어리테일",
+  "ja": null,
+  "type": "Spell",
+  "race": "Equip",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "R",
+  "text_en": "The equipped monster gains 1000 ATK. Once per turn, during your Main Phase: You can Fusion Summon 1 Spellcaster Fusion Monster from your Extra Deck, using monsters from your hand, field, and/or \"Prince of Fairies\" your opponent controls as material. If this card is in your GY: You can equip this card to 1 \"Fairy Tail\" monster on the field, then immediately after this effect resolves, you can Normal Summon 1 Spellcaster monster with 1850 ATK. You can only use this effect of \"Tails of the Fairy Tails\" once per turn.",
+  "text_ko": "이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 장착 몬스터의 공격력은 1000 올린다. ②: 1턴에 1번, 자신 메인 페이즈에 발동할 수 있다. 자신의 패 / 필드의 몬스터를 융합 소재로 하고, 마법사족 융합 몬스터 1장을 융합 소환한다. 그 시기에, 상대 필드의 \"요정의 왕자님\"도 융합 소재로 할 수 있다. ③: 이 카드가 묘지에 존재할 경우에 발동할 수 있다. 이 카드를 필드의 \"페어리테일\" 몬스터 1장에 장착한다. 그 후, 공격력 1850 인 마법사족 몬스터 1장의 일반 소환을 실행할 수 있다."
+ },
+ "22581": {
+  "cid": 22581,
+  "en": "Artmage Impasto -Recapture-",
+  "ko": "아르토메기아 임파스토 －탈환－",
+  "ja": null,
+  "type": "Trap",
+  "race": "Counter",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "If you control an \"Artmage\" monster, you can activate this card the turn it was Set. When your opponent activates a monster effect: You can banish 1 Fusion Monster you control (until the End Phase), and if you do, negate the activation, and if you do that, destroy that monster, then if you have 3 or more different Monster Types on your field, you can return all Spells/Traps your opponent controls to the hand. You can only activate 1 \"Artmage Impasto -Recapture-\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. 자신 필드에 \"아르토메기아\" 몬스터가 존재할 경우, 이 카드는 세트한 턴에도 발동할 수 있다. ①: 상대가 몬스터의 효과를 발동했을 때에 발동할 수 있다. 자신 필드의 융합 몬스터 1장을 엔드 페이즈까지 제외하고, 그 발동을 무효로 하여 파괴한다. 그 후, 자신 필드의 몬스터의 종족이 3종류 이상일 경우, 상대 필드의 마법 / 함정 카드를 전부 패로 되돌릴 수 있다."
+ },
  "22582": {
   "cid": 22582,
   "en": "Clown Crew Soiree Operations",
@@ -5572,6 +6889,87 @@
   "text_en": "[ Pendulum Effect ]\nDuring your Main Phase: You can send 1 non-Pendulum \"Clown Crew\" card from your Deck to the GY, and if you do, Special Summon this card, also until the end of the next turn after this effect resolves, you cannot activate the effect of monsters Special Summoned from the Deck or Extra Deck. You can only use this effect of \"Clown Crew Cappello\" once per turn.\n----------------------------------------\n[ Monster Effect ]\nMonsters your opponent controls lose 1500 DEF while you control a Tribute Summoned monster. If this card is Tributed: You can activate 1 of these effects (but you can only use each effect of \"Clown Crew Cappello\" once per turn);\n● Shuffle all Pendulum Monsters from the face-up Extra Decks and the field into the Deck.\n● Special Summon 1 non-Pendulum \"Clown Crew\" monster from your Deck or Extra Deck, ignoring its Summoning conditions.",
   "text_ko": null
  },
+ "22925": {
+  "cid": 22925,
+  "en": "Shade the Obscure",
+  "ko": "셰이드 디 옵스큐어",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fairy",
+  "attribute": "DARK",
+  "level": 4,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "[ Pendulum Effect ]\nYou cannot Pendulum Summon, except Pendulum Monsters (this effect cannot be negated). If a monster(s) with 1000 ATK or less is Special Summoned (except during the Damage Step): You can return this card to the hand. You can only use this effect of \"Shade the Obscure\" once per turn.\n----------------------------------------\n[ Monster Effect ]\nIf you have a card in your Pendulum Zone and this card is in your hand: You can Special Summon this card. You can pay 1000 LP; destroy 1 Pendulum Monster Card in your hand or face-up field, then you can add 1 Pendulum Monster from your Deck to your face-up Extra Deck. You can only use each effect of \"Shade the Obscure\" once per turn.",
+  "text_ko": "이 카드명의 ②의 펜듈럼 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신은 펜듈럼 몬스터밖에 펜듈럼 소환할 수 없다. 이 효과는 무효화되지 않는다. ②: 공격력 1000 이하의 몬스터가 특수 소환되었을 경우에 발동할 수 있다. 이 카드를 패로 되돌린다."
+ },
+ "22927": {
+  "cid": 22927,
+  "en": "Genia of the Ring",
+  "ko": "반지의 정령 지냐",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "EARTH",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "If this card is in your hand: You can target 1 face-up monster on the field; Special Summon this card, also that target becomes a Spellcaster monster. The next time that target would be destroyed by card effect this turn, it is not destroyed, also you cannot Special Summon from the Extra Deck for the rest of this turn, except Spellcaster monsters. If this card is Tributed, or banished, to activate a Spellcaster monster's effect: You can add this card to your hand. You can only use each effect of \"Genia of the Ring\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 패에 존재할 경우, 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 특수 소환한다. 대상의 앞면 표시 몬스터는 마법사족이 되고, 이 턴에 1번만 효과로는 파괴되지 않는다. 이 턴에, 자신은 마법사족 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 이 카드가 마법사족 몬스터의 효과를 발동하기 위해, 릴리스되었을 경우 또는 제외되었을 경우에 발동할 수 있다. 이 카드를 패에 넣는다."
+ },
+ "22964": {
+  "cid": 22964,
+  "en": "Aleister the Reminiscent",
+  "ko": "추억의 알레이스터",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "DARK",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "If this card is in your hand: You can target 1 Spellcaster monster or 1 Fusion Monster on the field; Special Summon this card, and if you do, the targeted monster gains 1000 ATK until the end of this turn. If this card is Normal or Special Summoned, or flipped face-up: You can banish 1 \"Invoked\" monster from your Extra Deck; add 1 \"Invocation\", or 1 Spell that mentions it, from your Deck to your hand. You can only use each effect of \"Aleister the Reminiscent\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 패에 존재할 경우, 필드의 마법사족 몬스터나 융합 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 특수 소환하고, 대상 몬스터의 공격력을 턴 종료시까지 1000 올린다. ②: 이 카드를 일반 소환 / 특수 소환 / 리버스했을 경우, 엑스트라 덱에서 \"소환수\" 몬스터 1장을 제외하고 발동할 수 있다. \"소환마술\" 또는 그 카드명이 쓰여진 마법 카드 1장을 덱에서 패에 넣는다."
+ },
+ "22965": {
+  "cid": 22965,
+  "en": "Aiwass, Divine Spirit of the Law",
+  "ko": "법의 신령 아이와스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "WIND",
+  "level": 8,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "You can banish this card from your hand or field; add 1 \"Aleister\" monster from your Deck to your hand, then if this effect was activated on the field, immediately after this effect resolves, you can Normal Summon 1 Spellcaster monster. If a face-up Fusion Monster(s) you control is sent to the GY, except by battle, while this card is in your GY (except during the Damage Step): You can Special Summon this card, then you can Fusion Summon 1 \"Invoked\" monster from your Extra Deck, using monsters from your hand or field. You can only use each effect of \"Aiwass, Divine Spirit of the Law\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 패 / 필드의 이 카드를 제외하고 발동할 수 있다. 덱에서 \"알레이스터\" 몬스터 1장을 패에 넣는다. 필드에서 발동했을 경우, 추가로 마법사족 몬스터 1장의 일반 소환을 실행할 수 있다. ②: 이 카드가 묘지에 존재하는 상태에서, 자신 필드의 앞면 표시의 융합 몬스터가 전투 이외로 묘지로 보내졌을 경우에 발동할 수 있다. 이 카드를 특수 소환한다. 그 후, 자신의 패 / 필드의 몬스터를 융합 소재로 하고, \"소환수\" 몬스터 1장을 융합 소환할 수 있다."
+ },
+ "22966": {
+  "cid": 22966,
+  "en": "Virakam, the Divine Spirit of Artifice",
+  "ko": "인공신령 비라캄",
+  "ja": null,
+  "type": "Monster",
+  "race": "Illusion",
+  "attribute": "LIGHT",
+  "level": 3,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "If you have an \"Aleister\" monster in your field or GY: You can Special Summon this card from your hand. If this card is Special Summoned: You can Set 1 \"Invocation\", or 1 Spell that mentions it, from your Deck. When your opponent activates a card or effect in response to your Fusion Monster's effect activation (Quick Effect): You can banish this card you control, and if you do, negate that opponent's effect, and if you do that, banish it. You can only use each effect of \"Virakam, the Divine Spirit of Artifice\" once per turn.",
+  "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 필드나 묘지에 \"알레이스터\" 몬스터가 존재할 경우에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드를 특수 소환했을 경우에 발동할 수 있다. \"소환마술\" 또는 그 카드명이 쓰여진 마법 카드 1장을 덱에서 자신 필드에 세트한다. ③: 자신의 융합 몬스터의 효과 발동에 체인하여, 상대가 카드의 효과를 발동했을 때에 발동할 수 있다. 필드의 이 카드를 제외하고, 그 상대의 효과를 무효로 하여 제외한다."
+ },
  "22967": {
   "cid": 22967,
   "en": "The Phantom Knights of Decayed Cloak",
@@ -5620,6 +7018,90 @@
   "text_en": "You can reveal this card and 1 Spell/Trap in your hand; until the end of the next turn, neither player can activate cards or effects in response to the activation of cards, or effects of cards, with the revealed Spell/Trap's name. If this card is sent from the hand or field to the GY by a Spell/Trap effect: You can Special Summon this card. If this card is Special Summoned from the GY: You can take control of 1 monster your opponent controls with the highest ATK (your choice, if tied). You can only use each effect of \"Phara the Primordial Goddess\" once per turn.",
   "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 패의 이 카드와 패의 마법 / 함정 카드 1장을 상대에게 보여주고 발동할 수 있다. 다음 턴 종료시까지, 보여준 마법 / 함정 카드 및 그와 같은 이름의 카드의 효과 발동에 대하여 양쪽 플레이어는 효과를 발동할 수 없다. ②: 이 카드가 마법 / 함정 카드의 효과로 패 / 필드에서 묘지로 보내졌을 경우에 발동할 수 있다. 이 카드를 특수 소환한다. ③: 이 카드를 묘지에서 특수 소환했을 경우에 발동할 수 있다. 상대 필드의 공격력이 가장 높은 몬스터 1장의 컨트롤을 얻는다."
  },
+ "22973": {
+  "cid": 22973,
+  "en": "Sorcerer of the Swamp",
+  "ko": "늪지의 마방왕",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "WATER",
+  "level": 3,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "If this card is in your hand: You can reveal 1 Fusion Monster in your Extra Deck and banish 1 material whose name is mentioned on it from your Deck, then Special Summon this card, and if you do, this card's name can be treated as the banished monster's, if used as Fusion Material this turn. You can only use this effect of \"Sorcerer of the Swamp\" once per turn.",
+  "text_ko": "이 카드명의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 패에 존재할 경우에 발동할 수 있다. 엑스트라 덱의 융합 몬스터 1장을 상대에게 보여주고, 그 몬스터에 카드명이 쓰여진 융합 소재 몬스터 1장을 덱에서 제외한다. 그 후, 이 카드를 특수 소환한다. 이 턴에, 이 효과로 특수 소환한 이 카드를 융합 소재로 할 경우, 이 효과로 제외한 몬스터와 같은 이름의 카드로 취급할 수 있다."
+ },
+ "22979": {
+  "cid": 22979,
+  "en": "Invoked Sorath",
+  "ko": "소환수 소라트",
+  "ja": null,
+  "type": "Monster",
+  "race": "Pyro",
+  "attribute": "LIGHT",
+  "level": 6,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "1 \"Aleister\" monster + 1 FIRE or WIND monster\nDuring the Main Phase (Quick Effect): You can target 1 Level 6 or lower monster in either GY; Special Summon it to your field in Defense Position, but negate its effects. If this card is in your GY: You can Fusion Summon 1 \"Invoked\" Fusion Monster from your Extra Deck, by banishing this card from your GY and monsters from your field or GY as material. You can only use each effect of \"Invoked Sorath\" once per turn.",
+  "text_ko": "\"알레이스터\" 몬스터 ＋ 화염 / 바람 속성 몬스터<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 / 상대의 메인 페이즈에, 자신이나 상대 묘지의 레벨 6 이하의 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 자신 필드에 수비 표시로 특수 소환한다. 이 효과로 특수 소환한 몬스터의 효과는 무효화된다. ②: 이 카드가 묘지에 존재할 경우에 발동할 수 있다. 묘지의 이 카드를 포함하는 자신의 필드 / 묘지의 몬스터를 융합 소재로서 제외하고, \"소환수\" 융합 몬스터 1장을 융합 소환한다."
+ },
+ "22980": {
+  "cid": 22980,
+  "en": "Invoked Baybarron",
+  "ko": "소환수 베이발론",
+  "ja": null,
+  "type": "Monster",
+  "race": "Illusion",
+  "attribute": "FIRE",
+  "level": 7,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "1 \"Aleister\" monster + 1 LIGHT or EARTH monster\nIf this card is Special Summoned: You can add 1 \"Virakam, the Divine Spirit of Artifice\" or 1 \"Gamma Summon\" from your Deck to your hand, then you can banish 1 monster from either GY. You can banish this card from your GY, then target 1 Fusion Monster you control; monsters your opponent currently controls lose ATK equal to the targeted monster's ATK, until the end of this turn. You can only use each effect of \"Invoked Baybarron\" once per turn.",
+  "text_ko": "\"알레이스터\" 몬스터 ＋ 빛 / 땅 속성 몬스터<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"인공신령 비라캄\" 1장이나 \"마법명－\"로사문디\"\" 1장을 패에 넣는다. 그 후, 자신이나 상대 묘지에서 몬스터 1장을 제외할 수 있다. ②: 묘지의 이 카드를 제외하고, 자신 필드의 융합 몬스터 1장을 대상으로 하여 발동할 수 있다. 상대 필드의 모든 몬스터의 공격력은 턴 종료시까지 대상 몬스터의 공격력만큼 내린다."
+ },
+ "22981": {
+  "cid": 22981,
+  "en": "Invoked Oceanus",
+  "ko": "소환수 오케아노스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Sea Serpent",
+  "attribute": "EARTH",
+  "level": 9,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "1 \"Aleister\" monster + 1 DARK or WATER monster\nWhile this card is in the Main Monster Zone, your opponent's monsters cannot target monsters for attacks, except this one. While this card is in the Extra Monster Zone, any monster sent to your opponent's GY is banished instead. You can banish this card from your GY, then target 1 Fusion Monster you control; it can attack directly this turn. You can only use this effect of \"Invoked Oceanus\" once per turn.",
+  "text_ko": "\"알레이스터\" 몬스터 ＋ 어둠 / 물 속성 몬스터<br>이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 메인 몬스터 존에 존재하는 한, 상대 몬스터는 다른 몬스터를 공격 대상으로 선택할 수 없다. ②: 이 카드가 엑스트라 몬스터 존에 존재하는 한, 상대 묘지로 보내지는 몬스터는 묘지로는 가지 않으며 제외된다. ③: 묘지의 이 카드를 제외하고, 자신 필드의 융합 몬스터 1장을 대상으로 하여 발동할 수 있다. 이 턴에, 그 몬스터는 직접 공격할 수 있다."
+ },
+ "22982": {
+  "cid": 22982,
+  "en": "Hyperinvoked Aeon",
+  "ko": "초월소환수 아이온",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "DARK",
+  "level": 10,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2+ Fusion Monsters with different Attributes\nIf this card is Fusion Summoned: You can banish cards from the field and/or GYs, up to the number of monsters used as material, then if you used 3 or more materials, you can look at your opponent's Extra Deck and banish up to 3 cards from it. (Quick Effect): You can declare 1 Attribute; all other monsters on the field become that Attribute until the end of this turn. You can only use 1 \"Hyperinvoked Aeon\" effect per turn, and only once that turn.",
+  "text_ko": "속성이 다른 융합 몬스터 × 2장 이상<br>이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 이 카드를 융합 소환했을 경우에 발동할 수 있다. 그 융합 소재로 한 몬스터의 수까지, 자신 / 상대의, 필드 / 묘지의 카드를 제외한다. 3장 이상을 소재로 했을 경우, 추가로 상대의 엑스트라 덱을 확인하고 그 중에서 3장까지 제외할 수 있다. ②: 자신 / 상대 턴에, 속성을 1개 선언하고 발동할 수 있다. 이 카드 이외의 필드의 모든 몬스터는 턴 종료시까지 선언한 속성이 된다."
+ },
  "22984": {
   "cid": 22984,
   "en": "Elfnote June Pride",
@@ -5636,6 +7118,23 @@
   "md_rarity": "UR",
   "text_en": "1 Tuner + 1 non-Tuner Spellcaster monster\nWhile this card is in the center Main Monster Zone, neither player can declare attacks, except with monsters in their center Main Monster Zones. During the Main Phase, if this card is in the center Main Monster Zone (Quick Effect): You can return this card to the Extra Deck, and if you do, Special Summon up to 1 \"Elfnote\" monster each from your hand, Deck, and GY. You can only use this effect of \"Elfnote June Pride\" once per turn.",
   "text_ko": "튜너 ＋ 튜너 이외의 마법사족 몬스터 1장<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 중앙의 메인 몬스터 존에 존재하는 한, 양쪽 플레이어는 중앙의 메인 몬스터 존의 몬스터로밖에 공격 선언할 수 없다. ②: 이 카드가 중앙의 메인 몬스터 존에 존재할 경우, 자신 / 상대의 메인 페이즈에 발동할 수 있다. 이 카드를 엑스트라 덱으로 되돌리고, 자신의 패 / 덱 / 묘지에서 각각 1장까지, \"엘펜노츠\" 몬스터를 특수 소환한다."
+ },
+ "22988": {
+  "cid": 22988,
+  "en": "Purification Power Patron",
+  "ko": "무구한 기도의 감옥신사",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fairy",
+  "attribute": "DARK",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2 non-Link Monsters\nIf this card is Link Summoned, and you have a \"Power Patron\" monster in your GY: You can add 1 \"Theorealize\" card from your Deck to your hand. During the Main Phase, if you control another DARK Fairy monster, you can (Quick Effect): Immediately after this effect resolves, Link Summon 1 Link Monster using materials you control, including this card. You can only use each effect of \"Purification Power Patron\" once per turn.",
+  "text_ko": "링크 몬스터 이외의 몬스터 2장<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 링크 소환했을 경우, 자신 묘지에 \"감옥신\" 몬스터가 존재하고 있으면 발동할 수 있다. 덱에서 \"테오리얼라이즈\" 카드 1장을 패에 넣는다. ②: 자신 / 상대의 메인 페이즈에, 자신 필드에 다른 천사족 / 어둠 속성 몬스터가 존재할 경우에 발동할 수 있다. 이 카드를 포함하는 자신 필드의 몬스터를 소재로서 링크 소환을 실행한다."
  },
  "22991": {
   "cid": 22991,
@@ -5654,6 +7153,48 @@
   "text_en": "2 Ritual, Fusion, Synchro, Xyz, and/or Pendulum Monsters\nYour Tribute Summoned monsters can make a second attack during each Battle Phase. If this card is Tributed: You can activate 1 of these effects (but you can only use each effect of \"Clown Crew Dristy\" once per turn);\n● Return all Link Monsters from the field and the GYs to the Extra Deck.\n● Each player with a hand shuffles their entire hand into the Deck, then draws the same number of cards they shuffled into the Deck.",
   "text_ko": "의식 / 융합 / 싱크로 / 엑시즈 / 펜듈럼 몬스터 2장<br>①: 어드밴스 소환한 자신 몬스터는 1번의 배틀 페이즈 중에 2회 공격할 수 있다. ②: 이 카드가 릴리스되었을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다(이 카드명의 이하의 효과는 각각 1턴에 1번밖에 선택할 수 없다). ●서로의 필드 / 묘지의 링크 몬스터를 전부 엑스트라 덱으로 되돌린다. ●양쪽 플레이어는 자신의 패를 전부 덱으로 되돌린다. 그 후, 양쪽 플레이어는 자신이 되돌린 수만큼 드로우한다."
  },
+ "23002": {
+  "cid": 23002,
+  "en": "Invocation - \"Sword\"",
+  "ko": "소환마술－「검」",
+  "ja": null,
+  "type": "Spell",
+  "race": "Quick-Play",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters you control. If Summoning an \"Invoked\" Fusion Monster this way, you can also return monsters from any banishment to the GY as material. During your Main Phase, if this card is in your GY: You can target 1 \"Aleister\" monster or \"Invocation\" in your GY; shuffle this card into the Deck, and if you do, add that target to your hand. You can only use each effect of \"Invocation - \"Sword\"\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드의 몬스터를 융합 소재로 하고, 융합 몬스터 1장을 융합 소환한다. \"소환수\" 융합 몬스터를 융합 소환할 경우, 자신 / 상대의 제외 상태인 몬스터를 묘지로 되돌리고 융합 소재로 할 수도 있다. ②: 자신 메인 페이즈에 이 카드가 묘지에 존재할 경우, 자신 묘지의 \"알레이스터\" 몬스터 1장이나 \"소환마술\" 1장을 대상으로 하고 발동할 수 있다. 이 카드를 덱으로 되돌리고, 대상의 카드를 패에 넣는다."
+ },
+ "23003": {
+  "cid": 23003,
+  "en": "Sacred Spirit Sword Aiwass",
+  "ko": "신령검 아이와스",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Activate 1 of these effects, but you cannot declare attacks for the rest of this turn, except with Fusion Monsters;\n● Special Summon 1 \"Aiwass, Divine Spirit of the Law\" from your Deck or GY.\n● Take 1 \"Aleister\" monster from your Deck, and either send it to the GY or banish it.\n● Look at 3 random face-down cards in your opponent's Extra Deck, and if you do, banish 1 of them.\nYou can only activate 1 \"Sacred Spirit Sword Aiwass\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 이하의 효과에서 1개를 선택하고 발동할 수 있다. 이 턴에, 자신은 융합 몬스터로밖에 공격 선언할 수 없다.<br>●자신의 덱 / 묘지에서 \"법의 신령 아이와스\" 1장을 특수 소환한다.<br>●덱에서 \"알레이스터\" 몬스터 1장을 고르고, 묘지로 보내거나 제외한다.<br>●상대의 엑스트라 덱의 뒷면의 카드를 무작위로 3장 확인하고, 그 중의 1장을 골라 제외한다."
+ },
+ "23005": {
+  "cid": 23005,
+  "en": "Theorealize Past Lull",
+  "ko": "파스토 랄 테오리얼라이즈",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "If you control an \"Artmage\", \"DoomZ\", or \"Elfnote\" card: You can Special Summon 1 \"Medius the Pure\" from your hand or Deck. Your opponent cannot activate cards or effects when that monster is Special Summoned. You can banish this card from your GY, then target 1 Fusion, Synchro, or Xyz Monster in your GY; Special Summon it to your zone a Link Monster points to. You can only use 1 \"Theorealize Past Lull\" effect per turn, and only once that turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 자신 필드에 \"아르토메기아\", \"둠즈\", \"엘펜노츠\" 카드 중 어느 것이 존재할 경우에 발동할 수 있다. 패 / 덱에서 \"무구한 자 메디우스\" 1장을 특수 소환한다. 그 특수 소환 성공시에 상대는 카드의 효과를 발동할 수 없다. ②: 묘지의 이 카드를 제외하고, 자신 묘지의 융합 / 싱크로 / 엑시즈 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 링크 몬스터의 링크 앞이 되는 자신 필드에 특수 소환한다."
+ },
  "23010": {
   "cid": 23010,
   "en": "Pot of Sloth",
@@ -5667,6 +7208,20 @@
   "md_rarity": "UR",
   "text_en": "Draw cards equal to the number of cards your opponent controls, then if you drew 2 or more cards, place cards from your hand on the bottom of the Deck in any order, equal to the number you drew -1. For the rest of this turn after this card resolves, you cannot activate \"Pot of Sloth\".",
   "text_ko": "①: 상대 필드의 카드의 수만큼 자신은 드로우한다. 2장 이상 드로우했을 경우, 추가로 그 수 －1장만큼, 자신의 패를 고르고 좋아하는 순서대로 덱 아래로 되돌린다. 이 카드의 발동 후, 턴 종료시까지 자신은 \"태만의 항아리\"를 발동할 수 없다."
+ },
+ "23019": {
+  "cid": 23019,
+  "en": "Gamma Summon",
+  "ko": "마법명－\"로사문디\"",
+  "ja": null,
+  "type": "Trap",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "N",
+  "text_en": "Banish 1 \"Aleister\" monster or 1 Fusion Monster from your GY; Special Summon 1 \"Invoked\" monster from your Extra Deck, ignoring its Summoning conditions, but banish it during the End Phase. If a monster is banished face-up, while this card is in your GY (except during the Damage Step): You can banish this card, then target 1 of your banished \"Invoked\" monsters; Special Summon it. You can only use each effect of \"Gamma Summon\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 묘지에서 \"알레이스터\" 몬스터나 융합 몬스터 1장을 제외하고 발동할 수 있다. 엑스트라 덱에서 \"소환수\" 몬스터 1장을 소환 조건을 무시하고 특수 소환한다. 이 효과로 특수 소환한 몬스터는 엔드 페이즈에 제외된다. ②: 이 카드가 묘지에 존재하는 상태에서, 몬스터가 앞면으로 제외되었을 경우, 이 카드를 제외하고, 자신의 제외 상태인 \"소환수\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 특수 소환한다."
  },
  "23022": {
   "cid": 23022,
@@ -5695,5 +7250,36 @@
   "md_rarity": "N",
   "text_en": "If you control a Tribute Summoned monster: Discard any number of cards, then target that many face-up cards on the field; destroy them. You can banish this card from your GY, and Tribute 1 Ritual, Fusion, Synchro, Xyz, Pendulum, or Link Monster from your hand or field; add 1 \"Clown Crew\" monster with a different original Level/Rank/Link Rating from your Deck or GY to your hand. You can only use each effect of \"Clown Crew Finale\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 어드밴스 소환한 몬스터가 자신 필드에 존재할 경우, 패를 임의의 수만큼 버리고, 그 수만큼 필드의 앞면 표시 카드를 대상으로 하여 발동할 수 있다. 그 카드를 파괴한다. ②: 묘지의 이 카드를 제외하고, 자신의 패 / 필드의 의식 / 융합 / 싱크로 / 엑시즈 / 펜듈럼 / 링크 몬스터 1장을 릴리스하여 발동할 수 있다. 그 몬스터와는 원래의 레벨 / 랭크 / 링크의 수치가 다른 \"크라운 클랜\" 몬스터 1장을 자신의 덱 / 묘지에서 패에 넣는다."
+ },
+ "23360": {
+  "cid": 23360,
+  "en": "Invoked De Anima",
+  "ko": "소환수 데 아니마",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "DARK",
+  "level": 8,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 \"Aleister\" monster + 1 monster Special Summoned from the Extra Deck\nIf this card is Special Summoned: You can activate 1 of these effects;\n● Destroy all monsters your opponent controls that were Special Summoned from the Extra Deck.\n● Destroy all Spells/Traps your opponent controls.\nWhen your opponent activates a card effect in the GY (Quick Effect): You can banish this card you control; Special Summon 1 \"Aleister\" monster from your Deck, and if you do, negate that activated effect. You can only use each effect of \"Invoked De Anima\" once per turn.",
+  "text_ko": "\"알레이스터\" 몬스터 ＋ 엑스트라 덱에서 특수 소환된 몬스터<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다. ●엑스트라 덱에서 특수 소환된 상대 필드의 몬스터를 전부 파괴한다. ●상대 필드의 마법 / 함정 카드를 전부 파괴한다. ②: 상대가 묘지의 카드의 효과를 발동했을 때, 필드의 이 카드를 제외하고 발동할 수 있다. 덱에서 \"알레이스터\" 몬스터 1장을 특수 소환하고, 그 발동한 효과를 무효로 한다."
+ },
+ "23389": {
+  "cid": 23389,
+  "en": "Invocation - \"Grail\"",
+  "ko": "소환마술－「잔」",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "If you have an \"Aleister\" monster in your field, GY, or banishment: Activate 1 of these effects;\n● Fusion Summon 1 \"Invoked\" Fusion Monster from your Extra Deck, by banishing 1 monster in your hand or field and 1 monster in your Deck as material.\n● Fusion Summon 1 \"Invoked\" Fusion Monster from your Extra Deck, by banishing 1 monster you control and 1 face-up monster your opponent controls as material.\nYou can only activate 1 \"Invocation - \"Grail\"\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 자신의 필드나 묘지나 제외 상태에 \"알레이스터\" 몬스터가 존재할 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다.<br>●자신의 패 / 필드의 몬스터 1장과 자신의 덱의 몬스터 1장을 융합 소재로서 제외하고, \"소환수\" 융합 몬스터 1장을 융합 소환한다.<br>●자신 필드의 몬스터 1장과 상대 필드의 앞면 표시 몬스터 1장을 융합 소재로서 제외하고, \"소환수\" 융합 몬스터 1장을 융합 소환한다."
  }
 }

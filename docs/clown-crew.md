@@ -29,7 +29,7 @@
 | 마루챠미 푸루리아 (Mulcharmy Purulia) | ⚪ 약함 | 패에서의 소환은 바이앙카비소 어드밴스 소환·플레어 의식 소환 정도라 1~2장. |
 | 저택 와라시 (Ghost Belle & Haunted Mansion) | ⚪ 약함 | 크라운 클랜 메테오 (Clown Crew Meteor) 묘지 회수나 크라운 클랜 『피날레』 (Clown Crew Finale) 서치(덱·묘지에서 가져오는 효과)에 쓸 수 있다. 전개는 거의 안 끊긴다. |
 | 사요 시구레 (Ghost Mourner & Moonlit Chill) | ⚪ 약함 | 특소된 몬스터 효과 무효인데, 이 덱 몬스터는 필드에서 효과를 거의 안 쓴다. |
-| Mulcharmy Meowls ⚠ | ⚪ 약함 | 묘지·제외에서 특소하는 경우가 거의 없다. |
+| 마루챠미 냐루스 (Mulcharmy Meowls) | ⚪ 약함 | 묘지·제외에서 특소하는 경우가 거의 없다. |
 | 비스테드 마그나무트 (Bystial Magnamhut) | ⚪ 약함 | 묘지의 빛 속성 크라운 클랜을 제외해 메테오·피날레 회수 대상을 줄이는 정도. |
 | 말살의 지명자 (Crossout Designator) | ⚪ 약함 | 자기 메인 덱에 있는 카드만 선언 가능. 크라운 클랜 카드에는 못 쓴다. 상대가 쓰는 공용 패트랩 대책용. |
 

@@ -37,7 +37,8 @@ def fetch(url):
 
 def konami(cid, locale):
     page = fetch(KONAMI.format(cid, locale))
-    title = re.search(r"<title>([^|<]*)", page)
+    # 카드명에 <P> 같은 꺾쇠가 그대로 들어간 경우가 있어 ' | ' 까지 읽는다
+    title = re.search(r"<title>(.*?)\s\|\s", page, re.S)
     text = re.search(r'class="item_box_text">.*?class="text_linebreak">(.*?)</div>', page, re.S)
     name = html.unescape(title.group(1)).strip() if title else None
     body = html.unescape(re.sub(r"<[^>]+>", "\n", text.group(1))).strip() if text else None
@@ -96,9 +97,23 @@ def names_from_meta(min_rate):
 
 def names_from_themes():
     names = set()
+
+    def walk(o, key=None):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                walk(v, k)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v, key)
+        elif isinstance(o, str):
+            if key in ("card", "target_card", "hand", "end_board"):
+                names.add(o)
+            names.update(re.findall(r"\[\[([^\]]+)\]\]", o))
+
     for f in (ROOT / "data/themes").glob("*.json"):
-        t = json.loads(f.read_text(encoding="utf-8"))
-        names |= set(re.findall(r'"card":\s*"([^"]+)"', json.dumps(t, ensure_ascii=False)))
+        walk(json.loads(f.read_text(encoding="utf-8")))
+    ht = json.loads((ROOT / "data/handtraps.json").read_text(encoding="utf-8"))
+    names.update(h["card"] for h in ht["handtraps"])
     return sorted(names)
 
 

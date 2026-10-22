@@ -40,7 +40,8 @@ class Names:
         if not c or not c.get("ko"):
             self.missing.add(en)
             return None
-        return c["ko"]
+        # M∀LICE<P>Dormouse 처럼 꺾쇠가 든 이름이 HTML 태그로 먹히지 않게
+        return c["ko"].replace("<", "&lt;").replace(">", "&gt;")
 
     def __call__(self, en):
         ko = self.ko(en)
@@ -193,13 +194,18 @@ def main():
     (docs / "handtraps.md").write_text(build_handtraps(ht, classes, names), encoding="utf-8")
 
     themes.sort(key=lambda t: -t.get("meta", {}).get("share", 0))
-    idx = ["# 테마 목록\n", "| 테마 | 점유율 | 상태 | 가장 아픈 패트랩 |", "|---|---|---|---|"]
+    idx = ["# 테마 목록\n", "| 테마 | 점유율 | 상태 | 치명 혈자리 (패트랩 → 대상) |", "|---|---|---|---|"]
     ht_by_id = {h["id"]: h for h in ht}
     for t in themes:
-        top = [c for c in t.get("chokepoints", []) if c["severity"] == "critical"][:3]
-        top_txt = ", ".join(ht_by_id[c["handtrap"]]["short_ko"] for c in top if c["handtrap"] in ht_by_id)
+        top = [c for c in t.get("chokepoints", []) if c["severity"] == "critical" and c["handtrap"] in ht_by_id][:3]
+        top_txt = "<br>".join(
+            f"{ht_by_id[c['handtrap']]['short_ko']} → {names.ko(c['target_card']) or c['target_card']}"
+            if c.get("target_card") else ht_by_id[c["handtrap"]]["short_ko"]
+            for c in top
+        )
         title = f"[{t['name'].get('ko') or t['name']['en']} ({t['name']['en']})]({t['slug']}.md)"
-        idx.append(f"| {title} | {t.get('meta', {}).get('share', 0) * 100:.1f}% | {t.get('status', '')} | {top_txt} |")
+        status = {"draft": "초안", "reviewed": "검토 완료"}.get(t.get("status"), t.get("status", ""))
+        idx.append(f"| {title} | {t.get('meta', {}).get('share', 0) * 100:.1f}% | {status} | {top_txt} |")
     (docs / "README.md").write_text("\n".join(idx) + "\n\n[패트랩 사전](handtraps.md)\n", encoding="utf-8")
 
     if names.missing:

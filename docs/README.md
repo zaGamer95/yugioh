@@ -1,20 +1,20 @@
 # 테마 목록
 
-| 테마 | 점유율 | 상태 | 가장 아픈 패트랩 |
+| 테마 | 점유율 | 상태 | 치명 혈자리 (패트랩 → 대상) |
 |---|---|---|---|
-| [엘펜노츠 (Elfnote)](elfnote.md) | 9.9% | draft | 우라라, 무한포영 |
-| [드래곤테일 (Dracotail)](dracotail.md) | 7.7% | draft | 우라라, 우라라, 우라라 |
-| [낙인 (Branded)](branded.md) | 6.3% | draft | 우라라, 무한포영, 와라시 |
-| [섬도 (Sky Striker)](sky-striker.md) | 5.2% | draft | 드롤, 우라라, 도미나스 임펄스 |
-| [크라운 클랜 (Clown Crew)](clown-crew.md) | 4.7% | draft | 우라라, 우라라, 드롤 |
-| [킬러튠 (Kewl Tune)](kewl-tune.md) | 4.5% | draft | 우라라, 드롤 |
-| [M∀LICE (Maliss)](maliss.md) | 3.2% | draft | 무한포영, 도미나스 임펄스 |
-| [소환수 (Invoked)](invoked.md) | 3.0% | draft | 우라라 |
-| [둠즈 (DoomZ)](doomz.md) | 2.9% | draft | 우라라, 무한포영, 우라라 |
-| [마기스토스 (Magistus)](magistus.md) | 2.8% | draft | 우라라, 우라라, 무한포영 |
-| [미츠루기 (Mitsurugi)](mitsurugi.md) | 2.6% | draft | 우라라, 드롤, 우라라 |
-| [VS K9 (Vanquish Soul K9)](vanquish-soul-k9.md) | 2.4% | draft | 무한포영 |
-| [아르토메기아 (Artmage)](artmage.md) | 2.3% | draft | 우라라, 우라라, 무한포영 |
-| [죄보 (Sinful Spoils)](sinful-spoils.md) | 1.1% | draft | 드롤, 우라라, 우라라 |
+| [엘펜노츠 (Elfnote)](elfnote.md) | 9.9% | 초안 | 우라라 → 엘펜노츠 루키나<br>무한포영 → 엘펜노츠 루키나 |
+| [드래곤테일 (Dracotail)](dracotail.md) | 7.7% | 초안 | 우라라 → 드래곤테일 루키아스<br>우라라 → 라후 드래곤테일<br>우라라 → 낙인융합 |
+| [낙인 (Branded)](branded.md) | 6.3% | 초안 | 우라라 → 낙인융합<br>무한포영 → 낙인룡 알비온<br>와라시 → 낙인룡 알비온 |
+| [섬도 (Sky Striker)](sky-striker.md) | 5.2% | 초안 | 드롤 → 섬도희＝제로<br>우라라 → 섬도기동－인게이지<br>도미나스 임펄스 → 섬도희－레이 |
+| [크라운 클랜 (Clown Crew)](clown-crew.md) | 4.7% | 초안 | 우라라 → 크라운 클랜 『리허설』<br>우라라 → 크라운 클랜 플레어<br>드롤 → 크라운 클랜 플레어 |
+| [킬러튠 (Kewl Tune)](kewl-tune.md) | 4.5% | 초안 | 우라라 → 킬러튠 큐<br>드롤 → 킬러튠 레코 |
+| [M∀LICE (Maliss)](maliss.md) | 3.2% | 초안 | 무한포영 → M∀LICE&lt;P&gt;Dormouse<br>도미나스 임펄스 → M∀LICE&lt;P&gt;White Rabbit |
+| [소환수 (Invoked)](invoked.md) | 3.0% | 초안 | 우라라 → 추억의 알레이스터 |
+| [둠즈 (DoomZ)](doomz.md) | 2.9% | 초안 | 우라라 → 감옥신기Doom－Z<br>무한포영 → 둠즈Ⅶ－엘라라<br>우라라 → 둠즈ⅩⅢ－그라플레이오 |
+| [마기스토스 (Magistus)](magistus.md) | 2.8% | 초안 | 우라라 → 페어리테일－위캣<br>우라라 → 페어리테일－카구야<br>무한포영 → 마기스토스 플레임 조로아 |
+| [미츠루기 (Mitsurugi)](mitsurugi.md) | 2.6% | 초안 | 우라라 → 아메노하바키리노미츠루기<br>드롤 → 미츠루기노미코토 사지<br>우라라 → 의식의 밑준비 |
+| [VS K9 (Vanquish Soul K9)](vanquish-soul-k9.md) | 2.4% | 초안 | 무한포영 → VS 라젠 |
+| [아르토메기아 (Artmage)](artmage.md) | 2.3% | 초안 | 우라라 → 무구한 자 메디우스<br>우라라 → 절해한 감옥신문－테르미나스<br>무한포영 → 무구한 자 메디우스 |
+| [죄보 (Sinful Spoils)](sinful-spoils.md) | 1.1% | 초안 | 드롤 → 하얀 숲의 리제트<br>우라라 → “죄보사냥의 악마”<br>우라라 → 하얀 숲의 리제트 |
 
 [패트랩 사전](handtraps.md)
