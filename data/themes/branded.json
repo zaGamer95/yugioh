@@ -1,0 +1,555 @@
+{
+ "slug": "branded",
+ "name": {
+  "en": "Branded",
+  "ko": "낙인"
+ },
+ "status": "draft",
+ "updated": "2026-10-22",
+ "meta": {
+  "decks": 46,
+  "share": 0.063,
+  "window": "2026-09-22~10-22 랭크·DC"
+ },
+ "variants": [
+  "Branded"
+ ],
+ "overview_ko": "[[Fallen of Albaz]]를 축으로 데스피아·드래그마·트라이브리게이드·상검 카드를 섞은 융합·싱크로 미드레인지. 2026년 MD 지원([[Fallen of the White Dragon]]·[[Ecclesia and the Dark Dragon]]·[[Tri-Brigade Springans Kitt]]) 이후 [[Branded Fusion]](제한 1) 없이도 하얀 용 1장으로 싱크로 → 쿠엠 → 엔드 페이즈 세트까지 이어진다. 선공 판면은 몬스터 3~4장 + [[The Fallen & The Virtuous]]/[[Branded Retribution]] 세트 정도로 작지만, 상대 턴에 에클레시아·린드블룸·쿠엠·카르테시아로 [[Fallen of Albaz]] 융합과 [[Mirrorjade the Iceblade Dragon]]을 연달아 꺼내며 견제를 늘린다. 엔드 페이즈 효과(알비온 세트, 에클레시아·카르테시아 회수)가 많아 묘지 대책에 약하고, 흐름이 긴 대신 한 장 한 장의 효과가 1턴 1번이라 '이번 턴 다시 못 쓰는' 효과를 정확히 끊는 게 핵심.",
+ "key_cards": [
+  {
+   "card": "Fallen of the White Dragon",
+   "role_ko": "패에서 엑덱의 알버스 언급 몬스터를 묘지로 보내 자신 특소(이후 엑덱은 레벨 8 융합·싱크로만), 소환 시 에클레시아 몬스터를 패·덱·묘지에서 특소. 이름은 항상 [[Fallen of Albaz]]로 취급."
+  },
+  {
+   "card": "Ecclesia and the Dark Dragon",
+   "role_ko": "레벨 8 싱크로. 메인 페이즈 속공으로 자신을 엔드 페이즈까지 제외하고 덱·묘지에서 [[Fallen of Albaz]] 또는 알버스 언급 레벨 4 이하 특소. 상대 턴에 다시 쓴다."
+  },
+  {
+   "card": "Guiding Quem, the Virtuous",
+   "role_ko": "소환 시 알버스(언급 카드) 덤핑, 엑덱에서 카드가 떠날 때마다(1턴 1번) 묘지의 알버스 언급 몬스터 소생. 드래그마·데스피아 취급."
+  },
+  {
+   "card": "Incredible Ecclesia, the Virtuous",
+   "role_ko": "메인 페이즈 속공으로 릴리스해 [[Fallen of Albaz]]를 덱에서 특소 → 상대 몬스터를 소재로 융합. 융합이 묘지로 간 턴 엔드 페이즈에 자신 회수."
+  },
+  {
+   "card": "Blazing Cartesia, the Virtuous",
+   "role_ko": "메인 페이즈 속공 융합(레벨 8 이상). 상대 턴 [[Mirrorjade the Iceblade Dragon]] 등. 엔드 페이즈 자신 회수."
+  },
+  {
+   "card": "Aluber the Jester of Despia",
+   "role_ko": "소환 시 낙인 마함 서치(보통 [[Branded Fusion]]). 우라라를 빼는 미끼로도 쓴다."
+  },
+  {
+   "card": "Branded Fusion",
+   "role_ko": "덱에서 소재 2장을 보내 알버스 언급 융합. 발동 턴은 엑덱이 융합만 되므로 싱크로 라인과 같은 턴에 못 쓴다. MD 제한 1."
+  },
+  {
+   "card": "Albion the Branded Dragon",
+   "role_ko": "융합 소환 시 재료를 제외해 추가 융합. 이번 턴 묘지로 간 상태라면 엔드 페이즈에 낙인 마함을 서치 또는 세트."
+  },
+  {
+   "card": "The Fallen & The Virtuous",
+   "role_ko": "속공. 엑덱의 알버스 언급 몬스터를 묘지로 보내 앞면 카드 1장 파괴, 또는 에클레시아가 있으면 양쪽 묘지 몬스터 1장 소생. MD 제한 2."
+  },
+  {
+   "card": "Rindbrumm the Striking Dragon",
+   "role_ko": "TFTV·미러제이드 코스트로 묘지에 보낸 뒤, 상대 턴에 묘지에서 알버스(하얀 용) 또는 자신을 특소."
+  },
+  {
+   "card": "Mirrorjade the Iceblade Dragon",
+   "role_ko": "엑덱 융합 1장을 묘지로 보내 필드 몬스터 1장 제외(속공). 상대에 의해 떠나면 엔드 페이즈에 상대 몬스터 전부 파괴."
+  },
+  {
+   "card": "Branded Retribution",
+   "role_ko": "특소를 포함한 발동을 무효·파괴하는 카운터 함정. 알비온 엔드 페이즈로 세트."
+  },
+  {
+   "card": "Branded in High Spirits",
+   "role_ko": "엑덱 레벨 8 융합을 묘지로 + 공개 몬스터를 버리고 알버스(언급 몬스터) 서치. 엔드 페이즈 회수."
+  }
+ ],
+ "lines": [
+  {
+   "id": "white",
+   "title_ko": "하얀 용 1장 초동 (싱크로 → 쿠엠 → TFTV 세트)",
+   "hand": [
+    "Fallen of the White Dragon"
+   ],
+   "note_ko": "일반 소환권을 쓰지 않는다. 이 라인 뒤에는 엑덱이 레벨 8 융합·싱크로만 되고, 싱크로를 했으니 같은 턴 [[Branded Fusion]]은 발동할 수 없다. G를 맞으면 보통 쿠엠까지(4드로우)에서 멈추고 엔드 페이즈 세트만 챙긴다. 손에 알베르·낙인융합 같은 추가 초동이 있으면 엔드 페이즈의 알비온으로 [[Branded in High Spirits]]·[[Branded in Red]]를 서치해 [[Mirrorjade the Iceblade Dragon]]까지 늘린다.",
+   "steps": [
+    {
+     "card": "Fallen of the White Dragon",
+     "action_ko": "패에서: 엑덱의 [[Albion the Branded Dragon]]을 묘지로 보내고(코스트) 자신 특소",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand"
+     ],
+     "result_ko": "알비온이 '이번 턴 묘지로 보내진' 상태가 됨"
+    },
+    {
+     "card": "Fallen of the White Dragon",
+     "action_ko": "특소 성공 시 효과: 덱에서 에클레시아 몬스터 특소",
+     "class": [
+      "monster_effect_field",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Incredible Ecclesia, the Virtuous]] 특소"
+    },
+    {
+     "card": "Ecclesia and the Dark Dragon",
+     "action_ko": "하얀 용 + 에클레시아(튜너)로 레벨 8 싱크로 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Ecclesia and the Dark Dragon",
+     "action_ko": "메인 페이즈 속공: 자신을 엔드 페이즈까지 제외하고 덱에서 알버스 언급 레벨 4 이하 특소",
+     "class": [
+      "monster_effect_field",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Guiding Quem, the Virtuous]] 특소"
+    },
+    {
+     "card": "Guiding Quem, the Virtuous",
+     "action_ko": "소환 성공 시 효과: 덱에서 알버스 언급 카드를 묘지로",
+     "class": [
+      "monster_effect_field",
+      "send_from_deck"
+     ],
+     "result_ko": "[[Blazing Cartesia, the Virtuous]] 묘지로"
+    },
+    {
+     "card": "Incredible Ecclesia, the Virtuous",
+     "action_ko": "엔드 페이즈(융합 몬스터가 이번 턴 묘지로 갔음): 묘지에서 자신을 패로",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect"
+     ],
+     "result_ko": "카르테시아도 같은 조건으로 묘지에서 패로"
+    },
+    {
+     "card": "Albion the Branded Dragon",
+     "action_ko": "엔드 페이즈, 이번 턴 묘지로 보내졌으므로: 덱에서 낙인 마함 서치 또는 세트",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "place_from_deck",
+      "search"
+     ],
+     "result_ko": "[[The Fallen & The Virtuous]] 세트"
+    },
+    {
+     "card": "Ecclesia and the Dark Dragon",
+     "action_ko": "엔드 페이즈에 제외에서 필드로 돌아옴 (효과 발동 아님)",
+     "class": [],
+     "result_ko": ""
+    }
+   ],
+   "end_board": [
+    "Ecclesia and the Dark Dragon",
+    "Guiding Quem, the Virtuous",
+    "The Fallen & The Virtuous"
+   ],
+   "end_board_note_ko": "패에 [[Incredible Ecclesia, the Virtuous]]·[[Blazing Cartesia, the Virtuous]]. 상대 턴 견제: TFTV 파괴, 그 코스트로 보낸 [[Rindbrumm the Striking Dragon]]의 묘지 소생에서 시작하는 알버스 융합, [[Ecclesia and the Dark Dragon]] 재사용([[Tri-Brigade Mercourier]] 특소 → 몬스터 효과 무효), 카르테시아 융합으로 [[Mirrorjade the Iceblade Dragon]] 제외. 실제 흐름은 `opp_turn` 라인 참고."
+  },
+  {
+   "id": "bfusion",
+   "title_ko": "알베르 → 낙인융합 (알비온 → 그랑기뇰 → 성흔을 먹는 용 → TFTV)",
+   "hand": [
+    "Aluber the Jester of Despia"
+   ],
+   "note_ko": "[[Branded Fusion]]을 직접 잡았다면 1~2단계를 건너뛴다. 낙인융합 발동 턴은 엑덱이 융합만. 메인 페이즈 소환 3회(알베르·알비온·그랑기뇰)라 니비루 조건에 못 미치고, 엔드 페이즈 소환까지 G 4장.",
+   "steps": [
+    {
+     "card": "Aluber the Jester of Despia",
+     "action_ko": "일반 소환",
+     "class": [
+      "normal_summon"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Aluber the Jester of Despia",
+     "action_ko": "소환 성공 시 효과: 덱에서 낙인 마함 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Branded Fusion]] 서치"
+    },
+    {
+     "card": "Branded Fusion",
+     "action_ko": "발동: 덱에서 [[Fallen of the White Dragon]] + [[Blazing Cartesia, the Virtuous]]를 보내 융합",
+     "class": [
+      "spell_trap_activation",
+      "send_from_deck",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Albion the Branded Dragon]] 융합 소환"
+    },
+    {
+     "card": "Albion the Branded Dragon",
+     "action_ko": "융합 소환 시 효과: 묘지의 카르테시아 + 하얀 용을 제외해 융합",
+     "class": [
+      "monster_effect_field",
+      "gy_effect",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Granguignol the Dusk Dragon]] 융합 소환"
+    },
+    {
+     "card": "Granguignol the Dusk Dragon",
+     "action_ko": "융합 소환 시 효과: 덱·엑덱에서 레벨 6 이상 빛·어둠 몬스터를 묘지로",
+     "class": [
+      "monster_effect_field",
+      "send_from_deck"
+     ],
+     "result_ko": "엑덱의 [[The Dragon that Devours the Dogma]] 묘지로"
+    },
+    {
+     "card": "The Dragon that Devours the Dogma",
+     "action_ko": "엔드 페이즈, 이번 턴 묘지로 보내졌으므로: 덱에서 드래그마·트라이브리게이드 카드 서치",
+     "class": [
+      "monster_effect_gy",
+      "search"
+     ],
+     "result_ko": "[[The Fallen & The Virtuous]] 서치 (드래그마 취급)"
+    },
+    {
+     "card": "The Fallen & The Virtuous",
+     "action_ko": "엔드 페이즈에 패에서 발동: 엑덱의 [[Titaniklad the Ash Dragon]]을 묘지로 보내고 자신의 알비온을 파괴",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": "알비온·배스터드가 이번 턴 묘지로 감"
+    },
+    {
+     "card": "Albion the Branded Dragon",
+     "action_ko": "엔드 페이즈 묘지 효과: 낙인 마함 세트",
+     "class": [
+      "monster_effect_gy",
+      "place_from_deck"
+     ],
+     "result_ko": "[[Branded Retribution]] 세트"
+    },
+    {
+     "card": "Titaniklad the Ash Dragon",
+     "action_ko": "엔드 페이즈 묘지 효과: 덱에서 드래그마 몬스터 또는 [[Fallen of Albaz]] 특소",
+     "class": [
+      "monster_effect_gy",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Fallen of the White Dragon]] 특소"
+    },
+    {
+     "card": "Fallen of the White Dragon",
+     "action_ko": "특소 성공 시 효과: 덱에서 에클레시아 특소",
+     "class": [
+      "monster_effect_field",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Incredible Ecclesia, the Virtuous]] 특소"
+    }
+   ],
+   "end_board": [
+    "Granguignol the Dusk Dragon",
+    "Aluber the Jester of Despia",
+    "Fallen of the White Dragon",
+    "Incredible Ecclesia, the Virtuous",
+    "Branded Retribution"
+   ],
+   "end_board_note_ko": "견제 3~4개: 에클레시아 릴리스 → [[Fallen of Albaz]] 덱 특소 → 상대 몬스터를 소재로 융합, [[Granguignol the Dusk Dragon]] ②(상대가 몬스터 효과로 특소하면 자신을 제외하고 덱의 드래그마(쿠엠) 또는 엑덱의 데스피아 융합 특소), [[Branded Retribution]] 카운터. 손에 TFTV가 하나 더 있거나 [[Super Polymerization]]이 있으면 견제가 늘어난다."
+  },
+  {
+   "id": "opp_turn",
+   "title_ko": "상대 턴(우리 턴)의 낙인 움직임 (`white` 판면 기준)",
+   "hand": [
+    "Incredible Ecclesia, the Virtuous",
+    "Blazing Cartesia, the Virtuous"
+   ],
+   "note_ko": "우리 턴이라 뵐러는 못 쓴다. 무한포영을 패에서 쓰려면 우리 필드가 비어 있어야 하므로 메인 페이즈 1 시작에 먼저 쓰는 것이 기본. 낙인 측은 보통 우리가 처음 움직인 카드에 TFTV를 맞추며 시작한다.",
+   "steps": [
+    {
+     "card": "The Fallen & The Virtuous",
+     "action_ko": "발동: 엑덱의 [[Rindbrumm the Striking Dragon]]을 묘지로 보내고 우리 앞면 카드 1장 파괴",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": "엑덱에서 카드가 떠나 쿠엠 ② 조건 성립"
+    },
+    {
+     "card": "Rindbrumm the Striking Dragon",
+     "action_ko": "상대 턴 묘지 속공: 묘지의 하얀 용(알버스 취급)을 대상으로 그쪽을 특소, 린드블룸은 제외",
+     "class": [
+      "monster_effect_gy",
+      "ss_from_gy"
+     ],
+     "result_ko": "[[Fallen of the White Dragon]] 특소"
+    },
+    {
+     "card": "Fallen of the White Dragon",
+     "action_ko": "특소 성공 시 효과: 패의 에클레시아 특소",
+     "class": [
+      "monster_effect_field",
+      "ss_from_hand"
+     ],
+     "result_ko": "[[Incredible Ecclesia, the Virtuous]] 특소"
+    },
+    {
+     "card": "Incredible Ecclesia, the Virtuous",
+     "action_ko": "메인 페이즈 속공: 자신을 릴리스하고 덱에서 [[Fallen of Albaz]] 특소",
+     "class": [
+      "monster_effect_field",
+      "ss_from_deck"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Fallen of Albaz",
+     "action_ko": "특소 성공 시 효과: 패 1장 버리고 자신 + 우리 몬스터로 융합",
+     "class": [
+      "monster_effect_field",
+      "ss_from_extra"
+     ],
+     "result_ko": "우리 몬스터를 소재로 빼앗는 융합(우리 몬스터 속성·종족에 맞춰 [[The Dragon that Devours the Dogma]]·[[Albion the Branded Dragon]] 등)"
+    },
+    {
+     "card": "Guiding Quem, the Virtuous",
+     "action_ko": "엑덱에서 카드가 떠났을 때: 묘지의 알버스 언급 몬스터 특소",
+     "class": [
+      "monster_effect_field",
+      "ss_from_gy"
+     ],
+     "result_ko": "[[Blazing Cartesia, the Virtuous]] 특소"
+    },
+    {
+     "card": "Ecclesia and the Dark Dragon",
+     "action_ko": "메인 페이즈 속공: 자신을 제외하고 덱에서 [[Tri-Brigade Mercourier]] 특소",
+     "class": [
+      "monster_effect_field",
+      "ss_from_deck"
+     ],
+     "result_ko": "메르쿠리에: 우리 몬스터 효과 발동 무효 대기"
+    },
+    {
+     "card": "Blazing Cartesia, the Virtuous",
+     "action_ko": "메인 페이즈 속공: 하얀 용 + 방금 만든 융합 몬스터로 융합",
+     "class": [
+      "monster_effect_field",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Mirrorjade the Iceblade Dragon]] → 엑덱 융합을 보내 필드 몬스터 1장 제외"
+    }
+   ],
+   "end_board": [
+    "Mirrorjade the Iceblade Dragon",
+    "Guiding Quem, the Virtuous",
+    "Tri-Brigade Mercourier",
+    "Blazing Cartesia, the Virtuous"
+   ],
+   "end_board_note_ko": "견제 수: TFTV 파괴, 알버스 융합(우리 몬스터 소재), 메르쿠리에 무효, 미러제이드 제외 = 4. 미러제이드 코스트로 린드블룸이 또 묘지에 가면 다음 상대 턴에도 알버스 소생이 가능하다."
+  }
+ ],
+ "chokepoints": [
+  {
+   "handtrap": "ash",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 3,
+   "target_card": "Branded Fusion",
+   "timing_ko": "[[Branded Fusion]] 발동에 체인 (덱에서 소재 2장을 묘지로 보내는 효과). 알베르 서치는 통과시키고 여기서",
+   "why_ko": "제한 1이라 대체가 없고, 알비온 → 그랑기뇰 → 성흔을 먹는 용 → TFTV → 엔드 페이즈 세트·특소가 전부 이 1장에서 나온다. 알베르 서치에 쓰면 다른 낙인 마함(기염 등)으로 갈아탈 여지를 준다.",
+   "fallback_ko": "낙인융합 발동 턴이라 이후 엑덱은 융합만, 싱크로 라인도 막힌다. 필드에 알베르만 남고 손의 하얀 용·카르테시아·[[Super Polymerization]]에 의존."
+  },
+  {
+   "handtrap": "imperm",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 4,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "[[Albion the Branded Dragon]]의 융합 소환 시 효과(묘지 재료 제외 융합) 발동에 체인. 뵐러도 가능",
+   "why_ko": "그랑기뇰이 안 나와 성흔을 먹는 용 → TFTV 연결이 끊긴다. 알비온이 필드에 남아 묘지로 가지 않으므로 엔드 페이즈 세트도 없다.",
+   "fallback_ko": "알비온 + 알베르로 턴 종료. 손에 TFTV가 있으면 자기 알비온을 파괴해 엔드 페이즈 세트를 살리는 정도."
+  },
+  {
+   "handtrap": "belle",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 4,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "같은 [[Albion the Branded Dragon]] 융합 효과(묘지의 카드를 제외하는 효과)에 체인",
+   "why_ko": "발동 무효라 무한포영과 같은 결과. 무한포영을 다른 곳에 아껴야 할 때 대체 수단. 다만 [[Branded Lost]]가 앞면이면 융합하는 효과의 발동은 무효할 수 없으니 그때는 효과 무효형(무한포영·뵐러)을 쓴다.",
+   "fallback_ko": "무한포영과 동일."
+  },
+  {
+   "handtrap": "ash",
+   "severity": "strong",
+   "line": "white",
+   "step": 2,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "[[Fallen of the White Dragon]]이 특소된 뒤 '에클레시아 특소' 효과 발동에 체인 (무한포영·뵐러로 하얀 용을 무효해도 같음)",
+   "why_ko": "에클레시아가 안 나오면 레벨 8 싱크로가 안 되어 쿠엠·카르테시아 덤핑까지 사라진다. 하얀 용 ①은 엑덱에서 보내는 코스트라 우라라가 안 맞으므로 여기가 첫 타점.",
+   "fallback_ko": "손에 [[Blazing Cartesia, the Virtuous]]가 있으면 알버스가 필드에 있어 자신을 특소 → 하얀 용과 싱크로로 복구. 그래도 엔드 페이즈 알비온 TFTV 세트는 남는다."
+  },
+  {
+   "handtrap": "ogre",
+   "severity": "strong",
+   "line": "white",
+   "step": 4,
+   "target_card": "Ecclesia and the Dark Dragon",
+   "timing_ko": "[[Ecclesia and the Dark Dragon]]의 '자신 제외 → 덱에서 특소' 효과 발동에 체인",
+   "why_ko": "파괴되어 자신을 제외하지 못하므로 'and if you do' 이후의 특소가 일어나지 않고, 몸통도 사라져 상대 턴 재사용도 없다. 우라라·무한포영으로 막으면 검은 용 에클레시아이 필드에 남아 상대 턴에 다시 쓴다.",
+   "fallback_ko": "쿠엠이 안 나와 카르테시아 덤핑도 없다. 묘지의 검은 용 에클레시아 ②(융합 몬스터와 필드 카드를 덱으로)는 남는다."
+  },
+  {
+   "handtrap": "maxxc",
+   "severity": "strong",
+   "line": "white",
+   "step": 2,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "첫 특소(하얀 용 자신 특소) 시점",
+   "why_ko": "어느 라인이든 선공 턴 특소는 4회 안팎이지만 상대 턴에도 특소를 반복하는 덱이라, G로 받은 패로 상대 턴 견제를 넘기기 쉽다. 하얀 용 라인은 쿠엠까지 4장.",
+   "fallback_ko": "보통 검은 용 에클레시아·쿠엠까지만 하고 엔드 페이즈 세트로 마무리. 후와로스는 덱·엑덱 특소만 세어 3장."
+  },
+  {
+   "handtrap": "magnamhut",
+   "severity": "strong",
+   "line": "white",
+   "step": 7,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "엔드 페이즈 전(메인 페이즈 중 상대 필드에 몬스터가 있을 때 속공)으로 묘지의 [[Albion the Branded Dragon]]을 제외하며 특소",
+   "why_ko": "하얀 용 코스트로 메인 페이즈 시작부터 알비온이 묘지에 있다. 엔드 페이즈 전에 지우면 TFTV 세트가 사라져 상대 턴 시작점(TFTV → 린드블룸)이 없어진다.",
+   "fallback_ko": "검은 용 에클레시아·쿠엠·패의 에클레시아로 상대 턴 알버스 융합 1회는 남는다. 비스테드는 제한 1."
+  },
+  {
+   "handtrap": "ash",
+   "severity": "strong",
+   "line": "opp_turn",
+   "step": 4,
+   "target_card": "Incredible Ecclesia, the Virtuous",
+   "timing_ko": "우리 턴, [[Incredible Ecclesia, the Virtuous]]의 '릴리스 → 덱에서 [[Fallen of Albaz]] 특소' 발동에 체인",
+   "why_ko": "우리 몬스터를 소재로 빼앗는 알버스 융합이 사라진다. 에클레시아는 이미 릴리스되어 몸통도 없다. 검은 용 에클레시아의 메르쿠리에 특소(덱 특소)도 우라라 대상이지만 이쪽이 이득이 크다.",
+   "fallback_ko": "쿠엠 소생·검은 용 에클레시아·카르테시아 융합은 남는다. 알버스 융합을 유령토끼로 끊어도 된다(알버스가 파괴되면 '이 카드를 포함한' 소재 조건이 안 맞음)."
+  },
+  {
+   "handtrap": "ogre",
+   "severity": "bad",
+   "line": "bfusion",
+   "step": 4,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "알비온의 융합 효과에 유령토끼",
+   "why_ko": "재료는 묘지에서 제외하므로 알비온이 파괴돼도 그랑기뇰은 그대로 나오고, 알비온이 묘지로 가서 엔드 페이즈 낙인 마함 세트 조건까지 채워 준다.",
+   "fallback_ko": "알비온에는 무한포영·와라시. 유령토끼는 검은 용 에클레시아이나 알버스에."
+  },
+  {
+   "handtrap": "ash",
+   "severity": "bad",
+   "line": "opp_turn",
+   "step": 1,
+   "target_card": "The Fallen & The Virtuous",
+   "timing_ko": "TFTV 파괴 모드, 하얀 용 ①, [[Branded in High Spirits]]의 '엑덱에서 묘지로' 부분",
+   "why_ko": "엑스트라 덱에서 묘지로 보내는 것은 우라라 조건(덱에서 묘지)이 아니다. TFTV·하얀 용 ①에는 발동 자체가 안 된다. 기염은 덱 서치가 포함되어 있어 그 서치를 노리고 쓰는 것은 가능.",
+   "fallback_ko": "우라라는 낙인융합·하얀 용 ②·검은 용 에클레시아 ①·그랑기뇰 ①·에클레시아 ①에."
+  }
+ ],
+ "handtrap_summary": {
+  "ash": {
+   "rating": "critical",
+   "note_ko": "낙인융합 > 하얀 용 ② > 검은 용 에클레시아 ① > 그랑기뇰 ①. TFTV·하얀 용 ①(엑덱에서 보냄)에는 못 쓴다. 알베르 서치는 미끼."
+  },
+  "maxxc": {
+   "rating": "strong",
+   "note_ko": "선공 특소 4회 안팎이지만 상대 턴 전개용 패를 크게 늘려 준다."
+  },
+  "fuwalos": {
+   "rating": "ok",
+   "note_ko": "덱·엑덱 특소만 세어 하얀 용 라인 3장, 낙인융합 라인 4장."
+  },
+  "purulia": {
+   "rating": "weak",
+   "note_ko": "하얀 용 자신 특소·알베르 일반 소환 정도."
+  },
+  "meowls": {
+   "rating": "weak",
+   "note_ko": "선공 턴 묘지 특소가 거의 없다. 상대 턴 린드블룸·쿠엠 소생에 가깝다."
+  },
+  "droll": {
+   "rating": "ok",
+   "note_ko": "알베르 서치 뒤에 쓰면 성흔을 먹는 용 엔드 페이즈 서치·기염을 막는다. 알비온은 '세트'로 우회한다."
+  },
+  "imperm": {
+   "rating": "strong",
+   "note_ko": "알비온 융합 효과(낙인융합 라인)가 최고 타점. 하얀 용 ②·검은 용 에클레시아 ①도 좋다. 우리 턴에는 시작 직후 검은 용 에클레시아에."
+  },
+  "veiler": {
+   "rating": "strong",
+   "note_ko": "선공 턴 전용. 무한포영과 같은 대상. 상대 턴(우리 턴) 전개에는 못 쓴다."
+  },
+  "ogre": {
+   "rating": "strong",
+   "note_ko": "검은 용 에클레시아 ①(몸통까지 제거), 알버스 ① 융합(소재 조건 붕괴). 알비온에는 쓰지 말 것."
+  },
+  "belle": {
+   "rating": "strong",
+   "note_ko": "알비온 융합(묘지 제외), 검은 용 에클레시아 ①·하얀 용 ②(묘지에서도 특소 가능한 효과), 린드블룸·쿠엠 소생, 에클레시아·카르테시아 엔드 페이즈 회수."
+  },
+  "mourner": {
+   "rating": "ok",
+   "note_ko": "하얀 용 특소 직후 효과 무효로 에클레시아 특소를 막는 용도. 검은 용 에클레시아은 속공이라 체인으로 피한다."
+  },
+  "crossout": {
+   "rating": "ok",
+   "note_ko": "자기 덱에 있는 카드만 선언 가능. 내가 알버스 엔진([[Fallen of the White Dragon]]·[[Branded Fusion]])을 쓰는 덱이라면 선공 전 [[Fallen of the White Dragon]] 선언이 강력(같은 이름 효과가 전부 무효)."
+  },
+  "ttt": {
+   "rating": "ok",
+   "note_ko": "후공용. 우리 턴에 에클레시아·알버스·검은 용 에클레시아이 몬스터 효과를 쓰므로 조건이 쉽게 맞는다."
+  },
+  "droplet": {
+   "rating": "strong",
+   "note_ko": "후공용. 검은 용 에클레시아·쿠엠을 묶어 상대 턴 전개 축을 끊는다."
+  },
+  "nibiru": {
+   "rating": "weak",
+   "note_ko": "선공 메인 페이즈 소환이 3~4회라 거의 조건이 안 된다."
+  },
+  "impulse": {
+   "rating": "strong",
+   "note_ko": "낙인융합·하얀 용 ②·검은 용 에클레시아 ①·알버스 ① 등 특소 효과 전부. 패에서 쓰면 빛·땅·바람 효과 제한 확인."
+  },
+  "purge": {
+   "rating": "ok",
+   "note_ko": "알베르·성흔을 먹는 용·기염 서치. 엔드 페이즈 알비온 서치는 세트로 바뀌어 회피된다."
+  },
+  "spark": {
+   "rating": "ok",
+   "note_ko": "하얀 용(패)·린드블룸(묘지)이 효과를 쓴 턴에 검은 용 에클레시아 등 제외."
+  },
+  "magnamhut": {
+   "rating": "strong",
+   "note_ko": "엔드 페이즈 전에 묘지의 알비온(또는 성흔을 먹는 용·배스터드)을 제외해 엔드 페이즈 효과를 끊는다. 제한 1."
+  },
+  "gamma": {
+   "rating": "strong",
+   "note_ko": "검은 용 에클레시아 ① 또는 하얀 용 ② 무효+파괴."
+  }
+ },
+ "notes_ko": [
+  "TFTV·하얀 용 ①·미러제이드 코스트는 엑스트라 덱에서 묘지로 보내는 것이라 우라라가 안 맞는다.",
+  "검은 용 에클레시아 ①은 '자신을 제외하고, 제외했다면 특소'라서 체인에 유령토끼로 파괴하면 특소까지 막힌다. 우라라·무한포영은 특소만 막고 몸통이 남는다.",
+  "알비온 엔드 페이즈 효과는 '서치 또는 세트'라 드롤이 걸려 있어도 세트로 우회된다. 비스테드·와라시처럼 묘지에서 지우는 쪽이 확실.",
+  "[[Super Polymerization]](96% 채용)은 체인 불가라 막을 수 없다. 상대 턴 초융합 소재가 될 몬스터를 미리 줄이는 것 외에 대책이 없다.",
+  "[[Branded Lost]]가 앞면이면 융합하는 효과의 '발동'은 무효할 수 없다(와라시처럼 발동을 무효하는 카드는 불가). 우라라·무한포영처럼 '효과'를 무효하는 카드는 쓸 수 있다.",
+  "하얀 용 라인(싱크로)을 했다면 그 턴 낙인융합은 발동 불가. 반대로 낙인융합을 먼저 쓰면 검은 용 에클레시아 싱크로가 막힌다. 상대가 어느 쪽을 골랐는지 보고 남은 타점을 판단."
+ ],
+ "sources": [
+  "https://card-information.sakura.ne.jp/%e9%81%8a%e6%88%af%e7%8e%8b%e3%83%9e%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%87%e3%83%a5%e3%82%a8%e3%83%ab/%e3%80%8c%e7%83%99%e5%8d%b0%e3%80%8d%e5%b1%95%e9%96%8b%e3%83%ab%e3%83%bc%e3%83%88%e8%a7%a3%e8%aa%ac%ef%bd%9c1%e6%9e%9a%e5%88%9d%e5%8b%95%e3%83%bb%e7%9b%b8%e6%89%8b%e3%82%bf%e3%83%bc%e3%83%b3%e4%b8%ad/ (遊戯王カードインフォメーション: 2026「烙印」展開ルート解説 1枚初動・相手ターン, 2026-06-14)",
+  "https://ygoprodeck.com/deck/branded-synchro-june-2026-masterduel-715908 (YGOPRODeck: Branded Synchro June 2026 MD 콤보 해설)",
+  "https://www.masterduelmeta.com/top-decks/master-i/october-2026/branded/xmaster/kZqJx/ (Master Duel Meta: Branded Master I 2026-10 덱과 작성자 메모)",
+  "https://www.masterduelmeta.com/api/v1/cards (Master Duel Meta 카드 API: MD 영문 텍스트·제한 상태)"
+ ]
+}

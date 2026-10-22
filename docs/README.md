@@ -4,8 +4,10 @@
 |---|---|---|---|
 | [엘펜노츠 (Elfnote)](elfnote.md) | 9.9% | draft | 우라라, 무한포영 |
 | [드래곤테일 (Dracotail)](dracotail.md) | 7.7% | draft | 우라라, 우라라, 우라라 |
+| [낙인 (Branded)](branded.md) | 6.3% | draft | 우라라, 무한포영, 와라시 |
 | [섬도 (Sky Striker)](sky-striker.md) | 5.2% | draft | 드롤, 우라라, 도미나스 임펄스 |
 | [크라운 클랜 (Clown Crew)](clown-crew.md) | 4.7% | draft | 우라라, 우라라, 드롤 |
+| [킬러튠 (Kewl Tune)](kewl-tune.md) | 4.5% | draft | 우라라, 드롤 |
 | [M∀LICE (Maliss)](maliss.md) | 3.2% | draft | 무한포영, 도미나스 임펄스 |
 | [소환수 (Invoked)](invoked.md) | 3.0% | draft | 우라라 |
 | [둠즈 (DoomZ)](doomz.md) | 2.9% | draft | 우라라, 무한포영, 우라라 |
