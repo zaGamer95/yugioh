@@ -1,4 +1,4 @@
-/* MD 혈자리 노트 — data/site.json 을 읽어 그리는 정적 페이지 (빌드: scripts/build_docs.py) */
+/* 자겜의 족보 — data/site.json 을 읽어 그리는 정적 페이지 (빌드: scripts/build_docs.py) */
 (() => {
   "use strict";
 
@@ -81,7 +81,7 @@
       .join("");
 
     app.innerHTML = `
-      <h1>마스터 듀얼 혈자리 노트</h1>
+      <h1>자겜의 족보 <span class="en">마스터 듀얼 혈자리 노트</span></h1>
       <p class="lede">메타 테마별 1턴 전개를 단계별로 펼치고, 각 단계에서 어떤 패트랩이 맞는지와 어디가 <b>치명적인 위치(혈자리)</b>인지 표시했습니다.
       카드명은 모두 인게임 검색에 그대로 쓸 수 있는 <b>공식 한국어명</b>입니다. 집계 기간: ${esc(D.themes[0]?.meta.window || "")}.</p>
       <div class="theme-grid">${tcards}</div>
