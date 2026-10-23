@@ -94,10 +94,10 @@
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
 | 1 | 섬도희－레이 (Sky Striker Ace - Raye) | 일반 소환 |  | 푸루리아, 니비루 |
-| 2 | 섬도희－레이 (Sky Striker Ace - Raye) | 퀵 효과: 자신을 릴리스(코스트)하고 엑스트라 덱의 섬도희 1장을 엑스트라 몬스터 존에 특소 | 섬도희＝제로 (Sky Striker Ace = Zero) 특소 | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 3 | 섬도희＝제로 (Sky Striker Ace = Zero) | 특소 성공 시 효과: 덱·묘지에서 섬도 마법 1장을 패에 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 4 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 메인 몬스터 존이 비었으므로 발동: 덱에서 섬도 카드 서치 (묘지 마법 3장 이상이면 1드로우) | 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor) / 2번째 섬도희－레이 (Sky Striker Ace - Raye) 등 | 우라라, 드롤, 도미나스 퍼지 |
-| 5 | 욕망과 탐욕의 항아리 (Pot of Desires) | (채용 시) 덱 위 10장을 뒷면 제외하고 2드로우 |  | 우라라, 드롤 |
+| 2 | 섬도희－레이 (Sky Striker Ace - Raye) | 퀵 효과: 자신을 릴리스(코스트)하고 엑스트라 덱의 섬도희 1장을 엑스트라 몬스터 존에 특소 | 섬도희＝제로 (Sky Striker Ace = Zero) 특소 | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마, 하르모니아, 금지된 성관 |
+| 3 | 섬도희＝제로 (Sky Striker Ace = Zero) | 특소 성공 시 효과: 덱·묘지에서 섬도 마법 1장을 패에 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마, 하르모니아, 금지된 성관 |
+| 4 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 메인 몬스터 존이 비었으므로 발동: 덱에서 섬도 카드 서치 (묘지 마법 3장 이상이면 1드로우) | 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor) / 2번째 섬도희－레이 (Sky Striker Ace - Raye) 등 | 우라라, 드롤, 도미나스 퍼지, 싸이크론 |
+| 5 | 욕망과 탐욕의 항아리 (Pot of Desires) | (채용 시) 덱 위 10장을 뒷면 제외하고 2드로우 |  | 우라라, 드롤, 싸이크론 |
 | 6 | 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor) | 속공 마법들을 세트하고 턴 종료 | 섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)·섬도아식－렘니스게이트 (Sky Striker Special Maneuver - Lemnisgate!)·The Fallen & The Virtuous (The Fallen & The Virtuous) 등 함께 세트 | – |
 
 **최종 필드 / 견제**: 섬도희＝제로 (Sky Striker Ace = Zero), 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor), 섬도기동－링케이지 (Sky Striker Mobilize - Linkage!), The Fallen & The Virtuous (The Fallen & The Virtuous)
@@ -112,11 +112,11 @@
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
-| 1 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 발동: 덱에서 섬도 카드 서치 | 섬도희－레이 (Sky Striker Ace - Raye) 서치 | 우라라, 드롤, 도미나스 퍼지 |
+| 1 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 발동: 덱에서 섬도 카드 서치 | 섬도희－레이 (Sky Striker Ace - Raye) 서치 | 우라라, 드롤, 도미나스 퍼지, 싸이크론 |
 | 2 | 섬도희－레이 (Sky Striker Ace - Raye) | 일반 소환 |  | 푸루리아, 니비루 |
-| 3 | 섬도희－레이 (Sky Striker Ace - Raye) | 퀵 효과: 자신을 릴리스하고 섬도희를 엑스트라 몬스터 존에 특소 | 섬도희＝제로 (Sky Striker Ace = Zero) 특소 | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 4 | 섬도희＝제로 (Sky Striker Ace = Zero) | 특소 성공 시 효과: 묘지의 섬도기동－인게이지 (Sky Striker Mobilize - Engage!)를 패에 (덱에서 다른 섬도 마법을 가져와도 됨) | 인게이지 회수 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 도미나스 퍼지, 마그나무트, 감마 |
-| 5 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 다시 발동: 덱에서 섬도 카드 서치 | 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor) 또는 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) | 우라라, 드롤, 도미나스 퍼지 |
+| 3 | 섬도희－레이 (Sky Striker Ace - Raye) | 퀵 효과: 자신을 릴리스하고 섬도희를 엑스트라 몬스터 존에 특소 | 섬도희＝제로 (Sky Striker Ace = Zero) 특소 | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마, 하르모니아, 금지된 성관 |
+| 4 | 섬도희＝제로 (Sky Striker Ace = Zero) | 특소 성공 시 효과: 묘지의 섬도기동－인게이지 (Sky Striker Mobilize - Engage!)를 패에 (덱에서 다른 섬도 마법을 가져와도 됨) | 인게이지 회수 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 도미나스 퍼지, 마그나무트, 감마, 하르모니아, 금지된 성관, 드루이드브룸 |
+| 5 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 다시 발동: 덱에서 섬도 카드 서치 | 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor) 또는 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) | 우라라, 드롤, 도미나스 퍼지, 싸이크론 |
 
 **최종 필드 / 견제**: 섬도희＝제로 (Sky Striker Ace = Zero), 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor), 섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)
 
@@ -130,10 +130,10 @@
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
-| 1 | 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) | 속공 발동: 섬도희 토큰 1장 수비 특소 |  | – |
+| 1 | 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) | 속공 발동: 섬도희 토큰 1장 수비 특소 |  | 싸이크론 |
 | 2 | 섬도희－카가리 (Sky Striker Ace - Kagari) | 토큰 1장으로 링크 소환 (엑스트라 몬스터 존) |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 3 | 섬도희－카가리 (Sky Striker Ace - Kagari) | 특소 성공 시 효과: 묘지의 섬도 마법 1장을 대상으로 패에 | 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) 또는 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) 회수 | 포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마 |
-| 4 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 메인 몬스터 존이 비었으므로 발동: 섬도 카드 서치 |  | 우라라, 드롤, 도미나스 퍼지 |
+| 3 | 섬도희－카가리 (Sky Striker Ace - Kagari) | 특소 성공 시 효과: 묘지의 섬도 마법 1장을 대상으로 패에 | 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) 또는 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) 회수 | 포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마, 하르모니아, 금지된 성관, 드루이드브룸 |
+| 4 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 메인 몬스터 존이 비었으므로 발동: 섬도 카드 서치 |  | 우라라, 드롤, 도미나스 퍼지, 싸이크론 |
 
 **최종 필드 / 견제**: 섬도희－카가리 (Sky Striker Ace - Kagari), 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor), 섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)
 
