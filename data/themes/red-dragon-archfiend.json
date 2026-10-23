@@ -176,7 +176,7 @@
     },
     {
      "card": "Darkness Resonator",
-     "action_ko": "패에서 ①: 엑스트라 덱의 [[Red Dragon Archfiend]]를 보여 주고 자신 특소 (이번 턴 엑스트라는 싱크로만)",
+     "action_ko": "패에서 ①: 엑스트라 덱의 [[Red Dragon Archfiend]]을 보여 주고 자신 특소 (이번 턴 엑스트라는 싱크로만)",
      "class": [
       "monster_effect_hand",
       "ss_from_hand"
@@ -357,7 +357,7 @@
     "The Bystial Lubellion",
     "Crimson Gaia"
    ],
-   "end_board_note_ko": "엔드 페이즈에 [[Bystial Magnamhut]]의 예약 효과로 [[Fydraulis Harmonia]]를 패에 넣는다(이미 있으면 [[Bystial Druiswurm]]). 상대 턴 견제: [[Crimson Dragon Quetzalcoatl]] 몬스터 효과 발동 무효(다른 드래곤족 싱크로 1장을 엑스트라로 되돌림), [[Hot Red Dragon Archfiend Abyss]] 앞면 카드 1장 효과 무효(퀵·대상), [[Bystial Dis Pater]] 몬스터 효과에 직접 체인해 무효/파괴(제외된 카드가 있어야 함), [[The Crimson King]] 몬스터 효과에 반응해 자신을 제외하고 공격력 6000·상대 효과 파괴 내성 [[Red Dragon Archfiend]] 특소, 패의 [[Fydraulis Harmonia]](싱크로 5장 공개 → [[Golden Cloud Beast - Malong]]을 묘지로 보내 바운스 + 몬스터 1장 파괴). 묘지의 [[Soul Resonator]]는 [[The Crimson King]]·[[Red Dragon Archfiend]]가 앞면인 동안 효과 파괴를 1번 대신 받는다. 증G 기준 특소 17회 안팎, 후와로스 기준(덱·엑스트라 특소) 6회."
+   "end_board_note_ko": "엔드 페이즈에 [[Bystial Magnamhut]]의 예약 효과로 [[Fydraulis Harmonia]]를 패에 넣는다(이미 있으면 [[Bystial Druiswurm]]). 상대 턴 견제: [[Crimson Dragon Quetzalcoatl]] 몬스터 효과 발동 무효(다른 드래곤족 싱크로 1장을 엑스트라로 되돌림), [[Hot Red Dragon Archfiend Abyss]] 앞면 카드 1장 효과 무효(퀵·대상), [[Bystial Dis Pater]] 몬스터 효과에 직접 체인해 무효/파괴(제외된 카드가 있어야 함), [[The Crimson King]] 몬스터 효과에 반응해 자신을 제외하고 공격력 6000·상대 효과 파괴 내성 [[Red Dragon Archfiend]] 특소, 패의 [[Fydraulis Harmonia]](싱크로 5장 공개 → [[Golden Cloud Beast - Malong]]을 묘지로 보내 바운스 + 몬스터 1장 파괴). 묘지의 [[Soul Resonator]]는 [[The Crimson King]]·[[Red Dragon Archfiend]]이 앞면인 동안 효과 파괴를 1번 대신 받는다. 증G 기준 특소 17회 안팎, 후와로스 기준(덱·엑스트라 특소) 6회."
   },
   {
    "id": "fallen",
@@ -508,7 +508,7 @@
     "King's Resonance",
     "The Fallen & The Virtuous"
    ],
-   "end_board_note_ko": "[[Crimson Gaia]]는 [[Bone Archfiend]]의 코스트로 보냈다면 없다. 상대 턴: [[Draco Berserker of the Tenyi]]가 몬스터 효과를 발동한 몬스터를 제외(효과 자체는 처리), [[The Crimson King]]의 [[Red Dragon Archfiend]] 특소, [[King's Resonance]](상대 특소 수 1+ 어둠 싱크로 소생 / 3+ 레드 데몬즈가 상대 발동 효과 내성 / 5+ 상대 몬스터 전부 뒷면 수비), [[The Fallen & The Virtuous]](앞면 카드 파괴, 또는 묘지의 에클레시아로 양쪽 묘지 몬스터 소생). 묘지의 [[Soul Resonator]] 파괴 대체도 켜져 있다."
+   "end_board_note_ko": "[[Crimson Gaia]]는 [[Bone Archfiend]]의 코스트로 보냈다면 없다. 상대 턴: [[Draco Berserker of the Tenyi]]이 몬스터 효과를 발동한 몬스터를 제외(효과 자체는 처리), [[The Crimson King]]의 [[Red Dragon Archfiend]] 특소, [[King's Resonance]](상대 특소 수 1+ 어둠 싱크로 소생 / 3+ 레드 데몬즈가 상대 발동 효과 내성 / 5+ 상대 몬스터 전부 뒷면 수비), [[The Fallen & The Virtuous]](앞면 카드 파괴, 또는 묘지의 에클레시아로 양쪽 묘지 몬스터 소생). 묘지의 [[Soul Resonator]] 파괴 대체도 켜져 있다."
   },
   {
    "id": "maxxc_stop",
@@ -631,7 +631,7 @@
    "target_card": "Power Vice Dragon",
    "timing_ko": "[[Power Vice Dragon]]의 서치가 처리된 직후(패에 덱의 카드가 들어간 뒤) 발동",
    "why_ko": "이후 서치가 6번 넘게 남아 있다(소울, 크림즌 킹, 비전 묘지, 헬가이아, 크림즌 블레이드, 루벨리온, 마그나무트 엔드 페이즈). 드롤 뒤에는 덱에서 패로 가져오는 것이 모두 막혀 [[The Crimson King]] 1장 정도로 끝난다.",
-   "fallback_ko": "[[Bone Archfiend]]의 덱 덤핑과 [[Synkron Resonator]]의 묘지 회수는 막히지 않는다. 그래서 크림즌 킹은 [[Crimson Gaia]]를 먼저 서치하는 경우가 있다(헬가이아는 묘지에서도 회수 가능). 세트한 [[King's Resonance]]·[[Red Dragon Archfiend's Chains]]가 미리 패에 있었다면 그대로 깐다.",
+   "fallback_ko": "[[Bone Archfiend]]의 덱 덤핑과 [[Synkron Resonator]]의 묘지 회수는 막히지 않는다. 그래서 크림즌 킹은 [[Crimson Gaia]]를 먼저 서치하는 경우가 있다(헬가이아는 묘지에서도 회수 가능). 세트한 [[King's Resonance]]·[[Red Dragon Archfiend's Chains]]이 미리 패에 있었다면 그대로 깐다.",
    "rulings": [
     "qa-12797"
    ]
@@ -654,7 +654,7 @@
    "target_card": "Red Rising Dragon",
    "timing_ko": "[[Red Rising Dragon]]의 싱크로 소환 시 '묘지의 레조네이터 특소' 효과에 체인",
    "why_ko": "튜너 [[Synkron Resonator]]가 돌아오지 않으면 필드는 [[The Crimson King]]·[[Red Rising Dragon]]·[[Crimson Gaia]]뿐이고 패에 튜너가 없다(다크니스는 이미 소재, 소울은 일반 소환에 사용). [[Crimson Blade Dragon]]·루벨리온·디스 파테르·어비스·켓차코아틀이 전부 사라진다.",
-   "fallback_ko": "패에 남은 다른 초동이 있으면 이어 가지만 대부분 크림즌 킹 1견제로 끝난다. 와라시 후보는 이 밖에도 [[Crimson Blade Dragon]] ①(묘지 특소 포함, 17단계), [[Synkron Resonator]] 회수(18·27단계), [[Bystial Magnamhut]]의 묘지 제외(20단계), [[Crimson Dragon Quetzalcoatl]]의 일괄 소생(30단계)이 있다. [[Bone Archfiend]]가 패에서 ①을 쓸 때는 와라시를 체인할 수 없다(묘지에서 쓸 때만 가능).",
+   "fallback_ko": "패에 남은 다른 초동이 있으면 이어 가지만 대부분 크림즌 킹 1견제로 끝난다. 와라시 후보는 이 밖에도 [[Crimson Blade Dragon]] ①(묘지 특소 포함, 17단계), [[Synkron Resonator]] 회수(18·27단계), [[Bystial Magnamhut]]의 묘지 제외(20단계), [[Crimson Dragon Quetzalcoatl]]의 일괄 소생(30단계)이 있다. [[Bone Archfiend]]이 패에서 ①을 쓸 때는 와라시를 체인할 수 없다(묘지에서 쓸 때만 가능).",
    "rulings": [
     "qa-23215",
     "qa-23218",
@@ -827,7 +827,7 @@
    "target_card": "Power Vice Dragon",
    "timing_ko": "[[Power Vice Dragon]] ①(패 특소) 발동에 체인 (내 필드에 카드가 없을 것)",
    "why_ko": "패에서의 소환이 파워 바이스(1)·소울 일반 소환(3)·본 데몬(7)·다크니스(11)·마그나무트(20)·다크니스 추가 일반 소환(23)·비전(28)으로 7번 → 끝까지 가면 7드로우. 상대는 보통 크림즌 킹 근처에서 멈춘다.",
-   "fallback_ko": "maxxc_stop 라인처럼 크림즌 킹 + 헬가이아 + 세트 [[King's Resonance]]로 끝내면 2드로우(파워 바이스·소울)."
+   "fallback_ko": "maxxc_stop 라인처럼 크림즌 킹 + 헬가이아 + 세트 [[King's Resonance]]으로 끝내면 2드로우(파워 바이스·소울)."
   },
   {
    "handtrap": "ogre",
@@ -859,7 +859,7 @@
    "step": 14,
    "target_card": "Red Rising Dragon",
    "timing_ko": "[[Red Rising Dragon]]이 싱크로 소환된 직후 버리고 레드 라이징 대상 (레드 라이징의 소생 유발이 체인 1, 사요 시구레가 체인 2)",
-   "why_ko": "레드 라이징의 효과가 무효가 되어 체인 1의 [[Synkron Resonator]] 소생도 무효로 처리된다. 와라시를 15단계에 맞춘 것과 같은 결과로 튜너가 끊겨 크림즌 블레이드·디스 파테르·어비스·켓차코아틀이 사라진다. 이 시점에는 [[The Crimson King]]이 앞면이라, 내 몬스터 효과 발동에 반응해 크림즌 킹을 제외하고 공격력 6000 [[Red Dragon Archfiend]]를 낼 수 있다. 무효·발동 자체는 막지 못하고, 상대는 상대 턴용 견제 하나를 자기 턴에 쓰게 된다.",
+   "why_ko": "레드 라이징의 효과가 무효가 되어 체인 1의 [[Synkron Resonator]] 소생도 무효로 처리된다. 와라시를 15단계에 맞춘 것과 같은 결과로 튜너가 끊겨 크림즌 블레이드·디스 파테르·어비스·켓차코아틀이 사라진다. 이 시점에는 [[The Crimson King]]이 앞면이라, 내 몬스터 효과 발동에 반응해 크림즌 킹을 제외하고 공격력 6000 [[Red Dragon Archfiend]]을 낼 수 있다. 무효·발동 자체는 막지 못하고, 상대는 상대 턴용 견제 하나를 자기 턴에 쓰게 된다.",
    "fallback_ko": "필드는 크림즌 킹(또는 그것으로 낸 레드 데몬즈)·레드 라이징·헬가이아. 패에 다른 튜너가 없으면 여기서 끝난다.",
    "rulings": [
     "supp-12695",
@@ -873,7 +873,7 @@
    "step": 15,
    "target_card": "Red Rising Dragon",
    "timing_ko": "[[Red Rising Dragon]]의 레조네이터 소생 유발에 체인해 레드 라이징 대상",
-   "why_ko": "소생이 무효가 되어 튜너 [[Synkron Resonator]]가 돌아오지 않는다. 와라시와 같은 결과로 이후 싱크로가 대부분 막힌다. 2단계를 놓쳤을 때의 지점. 이 시점에는 [[The Crimson King]]이 앞면이라, 내 몬스터 효과 발동에 반응해 크림즌 킹을 제외하고 공격력 6000 [[Red Dragon Archfiend]]를 낼 수 있다. 무효·발동 자체는 막지 못하고, 상대는 상대 턴용 견제 하나를 자기 턴에 쓰게 된다.",
+   "why_ko": "소생이 무효가 되어 튜너 [[Synkron Resonator]]가 돌아오지 않는다. 와라시와 같은 결과로 이후 싱크로가 대부분 막힌다. 2단계를 놓쳤을 때의 지점. 이 시점에는 [[The Crimson King]]이 앞면이라, 내 몬스터 효과 발동에 반응해 크림즌 킹을 제외하고 공격력 6000 [[Red Dragon Archfiend]]을 낼 수 있다. 무효·발동 자체는 막지 못하고, 상대는 상대 턴용 견제 하나를 자기 턴에 쓰게 된다.",
    "fallback_ko": "와라시(15단계)와 같다.",
    "rulings": [
     "supp-12695",
@@ -887,7 +887,7 @@
    "step": 15,
    "target_card": "Synkron Resonator",
    "timing_ko": "[[Red Rising Dragon]]이 묘지의 [[Synkron Resonator]]를 대상으로 소생 효과를 발동했을 때 체인해 그 싱클론(어둠)을 제외하고 특소 (상대 필드에 몬스터가 있어 퀵)",
-   "why_ko": "대상이 사라져 소생이 불발된다. 튜너가 없어 크림즌 블레이드·루벨리온·디스 파테르·어비스·켓차코아틀이 통째로 사라진다. 대가: 제외된 싱클론이 생겨 이후 [[Bystial Dis Pater]]가 나오면 ①로 돌아오고 ②도 켜지지만, 이 상황에서는 디스 파테르까지 갈 튜너가 없다. [[Bystial Druiswurm]]도 같은 지점에 쓸 수 있다. 이 시점에는 [[The Crimson King]]이 앞면이라, 내 몬스터 효과 발동에 반응해 크림즌 킹을 제외하고 공격력 6000 [[Red Dragon Archfiend]]를 낼 수 있다. 무효·발동 자체는 막지 못하고, 상대는 상대 턴용 견제 하나를 자기 턴에 쓰게 된다.",
+   "why_ko": "대상이 사라져 소생이 불발된다. 튜너가 없어 크림즌 블레이드·루벨리온·디스 파테르·어비스·켓차코아틀이 통째로 사라진다. 대가: 제외된 싱클론이 생겨 이후 [[Bystial Dis Pater]]가 나오면 ①로 돌아오고 ②도 켜지지만, 이 상황에서는 디스 파테르까지 갈 튜너가 없다. [[Bystial Druiswurm]]도 같은 지점에 쓸 수 있다. 이 시점에는 [[The Crimson King]]이 앞면이라, 내 몬스터 효과 발동에 반응해 크림즌 킹을 제외하고 공격력 6000 [[Red Dragon Archfiend]]을 낼 수 있다. 무효·발동 자체는 막지 못하고, 상대는 상대 턴용 견제 하나를 자기 턴에 쓰게 된다.",
    "fallback_ko": "필드는 크림즌 킹(또는 레드 데몬즈)·레드 라이징·헬가이아. 늦은 대안은 27단계 싱클론의 [[Vision Resonator]] 회수 대상을 제외(켓차코아틀 차단).",
    "rulings": [
     "supp-12695",
@@ -901,7 +901,7 @@
    "step": 4,
    "target_card": "The Crimson King",
    "timing_ko": "[[The Crimson King]]의 싱크로 소환 시 서치(헬가이아) 유발에 직접 체인. 상대 필드에 카드가 있어 패에서 발동 가능",
-   "why_ko": "이 라인의 첫 '덱에서 패'다. 헬가이아가 없으면 파워 바이스 서치 → 소울 → 본 데몬 → [[Draco Berserker of the Tenyi]]가 모두 사라지고 크림즌 킹 1장이 된다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다.",
+   "why_ko": "이 라인의 첫 '덱에서 패'다. 헬가이아가 없으면 파워 바이스 서치 → 소울 → 본 데몬 → [[Draco Berserker of the Tenyi]]이 모두 사라지고 크림즌 킹 1장이 된다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다.",
    "fallback_ko": "크림즌 킹 + 엔드 페이즈의 [[The Fallen & The Virtuous]] 세트. 크림즌 킹은 퍼지(함정)에 반응하지 않는다(몬스터 효과에만 반응)."
   },
   {
@@ -925,7 +925,7 @@
    "target_card": "Hot Red Dragon Archfiend Abyss",
    "timing_ko": "[[Hot Red Dragon Archfiend Abyss]] 싱크로와 [[Synkron Resonator]]의 [[Vision Resonator]] 회수가 끝난 오픈 상태(28단계 비전 특소 전)",
    "why_ko": "이미 소환이 10회를 넘었다. 이 시점 필드는 어비스·디스 파테르·루벨리온뿐이고, [[The Crimson King]]은 묘지, 제외된 카드가 없어 [[Bystial Dis Pater]]도 대응할 수 없다(어비스는 패의 몬스터를 대상으로 못 함). 전부 릴리스되면 [[Vision Resonator]]의 특소 조건(레벨 5 이상 어둠)이 없어 [[Crimson Dragon Quetzalcoatl]]이 나오지 않는다.",
-   "fallback_ko": "상대 필드에 토큰과 [[Crimson Gaia]], 패에 [[Vision Resonator]]만 남는다(마그나무트 예약으로 엔드 페이즈에 하르모니아는 들어온다). 크림즌 킹이 필드에 있을 때 쓰면 크림즌 킹이 체인해 자신을 제외하고 [[Red Dragon Archfiend]]를 내지만, 그것도 함께 릴리스된다."
+   "fallback_ko": "상대 필드에 토큰과 [[Crimson Gaia]], 패에 [[Vision Resonator]]만 남는다(마그나무트 예약으로 엔드 페이즈에 하르모니아는 들어온다). 크림즌 킹이 필드에 있을 때 쓰면 크림즌 킹이 체인해 자신을 제외하고 [[Red Dragon Archfiend]]을 내지만, 그것도 함께 릴리스된다."
   },
   {
    "handtrap": "druiswurm",
@@ -962,7 +962,7 @@
    "step": 5,
    "target_card": "Crimson Gaia",
    "timing_ko": "[[Crimson Gaia]]의 카드 발동에 체인해 파괴 (fallen 라인: 아직 [[Soul Resonator]]가 묘지에 없음)",
-   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 헬가이아가 파괴되면 [[Power Vice Dragon]] 서치가 없어 [[The Crimson King]] 1장으로 끝난다. power_vice 라인에서는 헬가이아 발동(9단계) 때 이미 소울이 묘지에 있고 크림즌 킹이 앞면이라 파괴가 소울 제외로 대신된다(bad). 다른 용도: 상대 엔드 페이즈에 세트된 [[King's Resonance]]를 파괴(세트한 턴이라 체인 불가).",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 헬가이아가 파괴되면 [[Power Vice Dragon]] 서치가 없어 [[The Crimson King]] 1장으로 끝난다. power_vice 라인에서는 헬가이아 발동(9단계) 때 이미 소울이 묘지에 있고 크림즌 킹이 앞면이라 파괴가 소울 제외로 대신된다(bad). 다른 용도: 상대 엔드 페이즈에 세트된 [[King's Resonance]]을 파괴(세트한 턴이라 체인 불가).",
    "fallback_ko": "패에 다른 초동이 있으면 재개. 크림즌 킹은 이미 섰다.",
    "rulings": [
     "supp-19014"
@@ -1415,7 +1415,7 @@
       "card": "Soul Resonator",
       "kind": "protection",
       "zone": "gy",
-      "timing_ko": "[[The Crimson King]] 또는 [[Red Dragon Archfiend]]가 앞면이면, 상대 필드 카드가 효과로 파괴될 때 묘지의 소울을 제외해 대신한다 (발동 아님, 1턴 1번)",
+      "timing_ko": "[[The Crimson King]] 또는 [[Red Dragon Archfiend]]이 앞면이면, 상대 필드 카드가 효과로 파괴될 때 묘지의 소울을 제외해 대신한다 (발동 아님, 1턴 1번)",
       "answered_by": [
        {
         "id": "magnamhut",
@@ -1507,7 +1507,7 @@
       "card": "Soul Resonator",
       "kind": "protection",
       "zone": "gy",
-      "timing_ko": "[[The Crimson King]] 또는 [[Red Dragon Archfiend]]가 앞면이면, 상대 필드 카드가 효과로 파괴될 때 묘지의 소울을 제외해 대신한다 (발동 아님, 1턴 1번)",
+      "timing_ko": "[[The Crimson King]] 또는 [[Red Dragon Archfiend]]이 앞면이면, 상대 필드 카드가 효과로 파괴될 때 묘지의 소울을 제외해 대신한다 (발동 아님, 1턴 1번)",
       "answered_by": [
        {
         "id": "magnamhut",
@@ -1626,7 +1626,7 @@
       "card": "Soul Resonator",
       "kind": "protection",
       "zone": "gy",
-      "timing_ko": "[[The Crimson King]] 또는 [[Red Dragon Archfiend]]가 앞면이면, 상대 필드 카드가 효과로 파괴될 때 묘지의 소울을 제외해 대신한다 (발동 아님, 1턴 1번)",
+      "timing_ko": "[[The Crimson King]] 또는 [[Red Dragon Archfiend]]이 앞면이면, 상대 필드 카드가 효과로 파괴될 때 묘지의 소울을 제외해 대신한다 (발동 아님, 1턴 1번)",
       "answered_by": [
        {
         "id": "magnamhut",
@@ -1792,7 +1792,7 @@
       "card": "Soul Resonator",
       "kind": "protection",
       "zone": "gy",
-      "timing_ko": "[[The Crimson King]] 또는 [[Red Dragon Archfiend]]가 앞면이면, 상대 필드 카드가 효과로 파괴될 때 묘지의 소울을 제외해 대신한다 (발동 아님, 1턴 1번)",
+      "timing_ko": "[[The Crimson King]] 또는 [[Red Dragon Archfiend]]이 앞면이면, 상대 필드 카드가 효과로 파괴될 때 묘지의 소울을 제외해 대신한다 (발동 아님, 1턴 1번)",
       "answered_by": [
        {
         "id": "magnamhut",
@@ -1879,7 +1879,7 @@
    },
    "cosmic": {
     "rating": "weak",
-    "note_ko": "풀 보드에는 대상이 헬가이아뿐. 알버스·증G 정지 보드에서 [[King's Resonance]]를 메인 페이즈 1 시작에 제외하면 ok."
+    "note_ko": "풀 보드에는 대상이 헬가이아뿐. 알버스·증G 정지 보드에서 [[King's Resonance]]을 메인 페이즈 1 시작에 제외하면 ok."
    },
    "mst": {
     "rating": "weak",
@@ -2002,7 +2002,7 @@
    "필드 몬스터 효과를 처음 쓸 때 상대 패의 하르모니아(파괴 + 마룡 바운스)를 의식한다. 가장 중요한 몬스터 효과는 하르모니아를 받아낸 뒤에.",
    "번개·라이트닝 스톰은 크림즌 킹을 먼저 치우거나(괴수·초융합) 작은 파괴로 소울 대체를 소모시킨 뒤에.",
    "마그나무트·드루이드브룸·길항승부처럼 카드를 제외하는 수는 디스 파테르를 처리한 뒤로. 제외된 카드가 없으면 디스 파테르 ②는 발동할 수 없다.",
-   "[[King's Resonance]]가 보이는 보드(알버스·증G 정지형)는 메인 페이즈 1 시작, 특소 0회일 때 코즈믹·싸이크론·해피로 지운다. 특소를 5회 이상 하면 내 몬스터가 전부 뒷면이 된다."
+   "[[King's Resonance]]이 보이는 보드(알버스·증G 정지형)는 메인 페이즈 1 시작, 특소 0회일 때 코즈믹·싸이크론·해피로 지운다. 특소를 5회 이상 하면 내 몬스터가 전부 뒷면이 된다."
   ]
  }
 }

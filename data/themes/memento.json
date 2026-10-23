@@ -319,7 +319,7 @@
      "class": [
       "ss_from_hand"
      ],
-     "result_ko": "[[Mementotlan Fusion]]는 세트"
+     "result_ko": "[[Mementotlan Fusion]]은 세트"
     },
     {
      "card": "Mementomictlan",
@@ -340,7 +340,7 @@
     "Mementotlan Fusion",
     "Mementotlan Bone Party"
    ],
-   "end_board_note_ko": "패에는 처음 손패 4장(보통 패트랩)만 남는다. 견제: [[S:P Little Knight]] 제외 1회, [[Mementoal Tecuhtlica - Combined Creation]]의 '상대가 발동한 체인 처리 뒤 패·묘지에서 메멘토 특소'(묘지의 [[Mementotlan Angwitch]]을 꺼내 [[Mementotlan Shleepy]]·[[Mementotlan Mace]] 서치로 이어짐), 세트 [[Mementotlan Bone Party]]로 [[Mementotlan-Horned Dragon]]을 파괴 → [[Mementotlan-Horned Dragon]]이 자신의 메멘토 포함 앞면 3장 파괴(상대 카드 2장), 세트 [[Mementotlan Fusion]]로 상대 메인 페이즈 융합(손패·필드로 [[Guardian Chimera]] 등), [[Mementomictlan]]의 파괴 시 후속 특소. 몬스터 효과 무효는 거의 없고 파괴·제외·소환으로 견제한다. 손패에 [[The Fallen & The Virtuous]]가 있으면 세트해 두고 상대 턴에 자기 [[Mementotlan-Horned Dragon]]을 파괴하는 견제가 하나 더 붙는다."
+   "end_board_note_ko": "패에는 처음 손패 4장(보통 패트랩)만 남는다. 견제: [[S:P Little Knight]] 제외 1회, [[Mementoal Tecuhtlica - Combined Creation]]의 '상대가 발동한 체인 처리 뒤 패·묘지에서 메멘토 특소'(묘지의 [[Mementotlan Angwitch]]를 꺼내 [[Mementotlan Shleepy]]·[[Mementotlan Mace]] 서치로 이어짐), 세트 [[Mementotlan Bone Party]]로 [[Mementotlan-Horned Dragon]]을 파괴 → [[Mementotlan-Horned Dragon]]이 자신의 메멘토 포함 앞면 3장 파괴(상대 카드 2장), 세트 [[Mementotlan Fusion]]으로 상대 메인 페이즈 융합(손패·필드로 [[Guardian Chimera]] 등), [[Mementomictlan]]의 파괴 시 후속 특소. 몬스터 효과 무효는 거의 없고 파괴·제외·소환으로 견제한다. 손패에 [[The Fallen & The Virtuous]]가 있으면 세트해 두고 상대 턴에 자기 [[Mementotlan-Horned Dragon]]을 파괴하는 견제가 하나 더 붙는다."
   },
   {
    "id": "breakout",
@@ -758,7 +758,7 @@
     "Mementotlan Fusion",
     "Mementotlan Bone Party"
    ],
-   "end_board_note_ko": "패에 [[Mementotlan-Horned Dragon]](필드에 내지 않음). 엔드 페이즈에 [[Mementomictlan]]로 [[Mementotlan Bone Party]]를 세트. 견제: [[Mementomictlan Tecuhtlica - Creation King]] 퀵 파괴(자신의 메멘토 수만큼 상대 카드), [[Mementoal Tecuhtlica - Combined Creation]] 특소, 세트 [[Mementotlan Bone Party]](패의 [[Mementotlan-Horned Dragon]]을 파괴해 덱에서 메멘토), 세트 [[Mementotlan Fusion]]. 후와로스 드로우 1장, 증G 8장."
+   "end_board_note_ko": "패에 [[Mementotlan-Horned Dragon]](필드에 내지 않음). 엔드 페이즈에 [[Mementomictlan]]으로 [[Mementotlan Bone Party]]를 세트. 견제: [[Mementomictlan Tecuhtlica - Creation King]] 퀵 파괴(자신의 메멘토 수만큼 상대 카드), [[Mementoal Tecuhtlica - Combined Creation]] 특소, 세트 [[Mementotlan Bone Party]](패의 [[Mementotlan-Horned Dragon]]을 파괴해 덱에서 메멘토), 세트 [[Mementotlan Fusion]]. 후와로스 드로우 1장, 증G 8장."
   }
  ],
  "chokepoints": [
@@ -790,7 +790,7 @@
    "target_card": "Mementotlan Tatsunootoshigo",
    "timing_ko": "[[Mementotlan Tatsunootoshigo]] ②(자신 파괴 → 덱에서 묘지로) 발동에 체인",
    "why_ko": "무효가 되면 파괴도 덤핑도 일어나지 않는다. 엔위치 ②의 대상이 묘지에 없고, 메이스 → 메멘토 퓨전 → [[Mementomictlan Tecuhtlica - Creation King]]로 가는 흐름이 통째로 사라진다. 엔위치 서치에 우라라를 못 맞췄다면 여기가 2순위.",
-   "fallback_ko": "필드에 엔위치 + [[Mementotlan Tatsunootoshigo]]가 남아 [[S:P Little Knight]] 1장 정도. 손패에 [[Goblin Biker Grand Breakout]]·[[Mementotlan Goblin]]가 있으면 고블린 덤핑으로 재개. [[Mementomictlan Tecuhtlica - Creation King]]의 덤핑(8단계)도 우라라 타점이지만 이미 융합까지 끝난 뒤라 효과가 작다.",
+   "fallback_ko": "필드에 엔위치 + [[Mementotlan Tatsunootoshigo]]가 남아 [[S:P Little Knight]] 1장 정도. 손패에 [[Goblin Biker Grand Breakout]]·[[Mementotlan Goblin]]이 있으면 고블린 덤핑으로 재개. [[Mementomictlan Tecuhtlica - Creation King]]의 덤핑(8단계)도 우라라 타점이지만 이미 융합까지 끝난 뒤라 효과가 작다.",
    "rulings": [
     "supp-19362"
    ]
@@ -935,7 +935,7 @@
    "target_card": "Mementotlan Angwitch",
    "timing_ko": "세트해 둔 금지된 성관을 엔위치의 서치 효과 발동에 체인해 엔위치에 적용 (몬스터 효과로는 체인할 수 없다)",
    "why_ko": "서치가 무효가 되고, 엔위치는 이번 턴 파괴되지 않으며 융합 소재로도 못 쓴다. [[Mementotlan Tatsunootoshigo]]를 다른 방법으로 들고 와도 엔위치 ②(자신 파괴)가 먹히지 않아 우라라보다 결과가 크다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
-   "fallback_ko": "손패의 [[Mementotlan Tatsunootoshigo]]·[[Mementotlan Goblin]]·[[Goblin Biker Grand Breakout]]로 재개. 엔위치는 필드에 남지만 파괴되지 않아 메멘토 연쇄의 재료가 안 된다."
+   "fallback_ko": "손패의 [[Mementotlan Tatsunootoshigo]]·[[Mementotlan Goblin]]·[[Goblin Biker Grand Breakout]]으로 재개. 엔위치는 필드에 남지만 파괴되지 않아 메멘토 연쇄의 재료가 안 된다."
   },
   {
    "handtrap": "imperm",
@@ -958,7 +958,7 @@
    "target_card": "Mementotlan Tatsunootoshigo",
    "timing_ko": "[[Mementotlan Tatsunootoshigo]] ② 발동에 체인해 [[Mementotlan Tatsunootoshigo]]를 파괴",
    "why_ko": "② 처리 시점에 파괴할 메멘토를 고르므로 [[Mementotlan Tatsunootoshigo]]가 없으면 필드의 엔위치(레벨 3)를 대신 파괴하고 레벨 합계 3 이하만 보낸다(공식 보충 정보). 엔위치 ②를 쓸 몸이 사라지고 덤핑도 줄어 [[Mementotlan Ghattic]] 1장 정도만 남는다. 이 덱에 파괴를 쓰는 것은 대부분 손해지만, 어차피 자신을 파괴하는 이 효과에만은 예외.",
-   "fallback_ko": "보통 [[Mementotlan Ghattic]] + [[Mementotlan Goblin]]를 보내 [[Mementotlan Ghattic]] 특소 → 묘지 카드 회수. 손패에 [[Goblin Biker Grand Breakout]]가 있으면 [[Mementotlan Ghattic]]을 릴리스해 고블린으로 이어간다. 하르모니아(싱크로 5장 공개)도 같은 타이밍에 같은 결과.",
+   "fallback_ko": "보통 [[Mementotlan Ghattic]] + [[Mementotlan Goblin]]을 보내 [[Mementotlan Ghattic]] 특소 → 묘지 카드 회수. 손패에 [[Goblin Biker Grand Breakout]]이 있으면 [[Mementotlan Ghattic]]을 릴리스해 고블린으로 이어간다. 하르모니아(싱크로 5장 공개)도 같은 타이밍에 같은 결과.",
    "rulings": [
     "supp-19362"
    ]
@@ -969,7 +969,7 @@
    "line": "angwitch",
    "step": 9,
    "target_card": "Mementotlan Ghattic",
-   "timing_ko": "[[Mementomictlan Tecuhtlica - Creation King]] 덤핑 뒤 [[Mementotlan Ghattic]]가 묘지에서 ②(자신 특소)를 발동했을 때, 상대 필드에 [[Mementomictlan Tecuhtlica - Creation King]]가 있으니 퀵으로 묘지의 [[Mementotlan Ghattic]](어둠)를 제외",
+   "timing_ko": "[[Mementomictlan Tecuhtlica - Creation King]] 덤핑 뒤 [[Mementotlan Ghattic]]이 묘지에서 ②(자신 특소)를 발동했을 때, 상대 필드에 [[Mementomictlan Tecuhtlica - Creation King]]가 있으니 퀵으로 묘지의 [[Mementotlan Ghattic]](어둠)를 제외",
    "why_ko": "[[Mementotlan Ghattic]]이 특소되지 않아 [[Mementotlan Shleepy]] 회수와 이후 트윈 드래곤 융합 소재가 사라진다. 메멘토 몬스터 대부분이 어둠([[Mementotlan Ghattic]]·고블린·엔위치·[[Mementotlan Dark Blade]]·[[Mementotlan-Horned Dragon]])·빛(메이스·트윈 드래곤)이라 이후 메멘토랄의 '묘지 5종' 조건도 깎인다.",
    "fallback_ko": "[[Mementomictlan Tecuhtlica - Creation King]]는 남고, 2번째 [[Mementomictlan Tecuhtlica - Creation King]] → 필드 마법 → 퓨전 묘지 효과로 [[Mementomictlan Tecuhtlica - Creation King]] 파괴 → [[Mementotlan Akihiron]]·고블린 특소로 일부는 이어간다. 판면이 한 단계 작아진다."
   },
@@ -1171,7 +1171,7 @@
    "line": "angwitch",
    "step": 9,
    "target_card": "Mementomictlan Tecuhtlica - Creation King",
-   "timing_ko": "[[Mementotlan Ghattic]]가 묘지에서 ②(자신 특소)를 발동했을 때 체인해 필드의 [[Mementomictlan Tecuhtlica - Creation King]]을 제외 ([[Mementotlan Tatsunootoshigo]] ①·[[Mementotlan Ghattic]] ②로 '패·묘지 몬스터 효과' 조건이 이미 채워짐)",
+   "timing_ko": "[[Mementotlan Ghattic]]이 묘지에서 ②(자신 특소)를 발동했을 때 체인해 필드의 [[Mementomictlan Tecuhtlica - Creation King]]를 제외 ([[Mementotlan Tatsunootoshigo]] ①·[[Mementotlan Ghattic]] ②로 '패·묘지 몬스터 효과' 조건이 이미 채워짐)",
    "why_ko": "제외라 메멘토의 파괴 유발이 하나도 붙지 않는다. [[Mementomictlan Tecuhtlica - Creation King]]가 사라지면 13단계 퓨전 묘지 효과로 파괴할 레벨 9가 없어 필드 마법 소생 폭이 줄고, [[Mementomictlan Tecuhtlica - Creation King]] 퀵 파괴도 사라진다. 다만 덤핑은 이미 처리되어 전개 자체는 이어진다.",
    "fallback_ko": "상대는 [[Mementotlan Ghattic]]을 파괴 대상으로 바꿔 트윈 드래곤 루트로 간다. 내 묘지에 함정이 없으면 상대가 패에서 1장 특소할 수 있다. 마지막 단계(S:P가 선 뒤)에 쓰면 S:P가 체인해 대상을 엔드 페이즈까지 피신시키니 그 전에 쓴다."
   },
@@ -1309,7 +1309,7 @@
    "note_ko": "[[Mementotlan Tatsunootoshigo]] ①(패 특소) 발동에 체인 → 엔위치만 남는다. [[Goblin Biker Grand Breakout]] 발동, 메멘토 퓨전 발동도 대상. 내 묘지에 함정이 있으면 패의 [[Mementotlan Tatsunootoshigo]]가 파괴되어 [[Mementotlan Shleepy]] 조건을 채워 주니 주의. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 불가."
   },
   "purge": {
-   "rating": "strong",
+   "rating": "critical",
    "note_ko": "엔위치 서치 무효(우라라와 같은 위치). [[Goblin Biker Grand Breakout]] 라인은 트윈 드래곤 서치. 패에서 쓰면 이 듀얼 동안 어둠·물·화염 몬스터 효과 불가."
   },
   "spark": {
@@ -1360,7 +1360,7 @@
   "[[Mementotlan Twin Dragon]] ③은 '융합 소환된 이 카드'가 파괴됐을 때만. 묘지에서 소생한 트윈 드래곤은 다시 파괴돼도 플로트하지 않는다(공식 Q&A 17721).",
   "[[Mementotlan Bone Party]] ①은 처리 시 파괴할 메멘토(패 또는 필드)를 고른다. 대상을 지정하지 않으므로 무한포영 등으로 특정 몬스터를 미리 꺼 둬도 다른 몬스터를 파괴해 처리된다(공식 Q&A 18723·보충 정보).",
   "[[Mementotlan Mace]] ①(컨트롤 탈취)과 [[Mementotlan Goblin]] ①(대상 내성)은 필드에 [[Mementoal Tecuhtlica - Combined Creation]]가 앞면으로 있을 때만 패에서 쓰는 퀵 효과다. 메멘토랄을 먼저 치우면 둘 다 죽은 카드가 된다.",
-  "MD 차이: OCG 가이드에 자주 나오는 [[Apollousa, Bow of the Goddess]]·[[Called by the Grave]]는 MD 금지. 메멘토 카드는 MD에서 전부 무제한. 최근 MD 리스트는 [[The Fallen & The Virtuous]](MD 제한 2)를 엑덱의 [[Albion the Branded Dragon]]·[[Ecclesia and the Dark Dragon]]을 보내 자기 메멘토 몬스터를 파괴하는 용도로 쓰고, 후공용 [[Super Polymerization]]·[[Forbidden Crown]]·[[Forbidden Droplet]]·[[Guardian Chimera]]를 섞는다."
+  "MD 차이: OCG 가이드에 자주 나오는 [[Apollousa, Bow of the Goddess]]·[[Called by the Grave]]는 MD 금지. 메멘토 카드는 MD에서 전부 무제한. 최근 MD 리스트는 [[The Fallen & The Virtuous]](MD 제한 2)를 엑덱의 [[Albion the Branded Dragon]]·[[Ecclesia and the Dark Dragon]]를 보내 자기 메멘토 몬스터를 파괴하는 용도로 쓰고, 후공용 [[Super Polymerization]]·[[Forbidden Crown]]·[[Forbidden Droplet]]·[[Guardian Chimera]]를 섞는다."
  ],
  "sources": [
   "https://www.masterduelmeta.com/tier-list/deck-types/Memento (Master Duel Meta: Memento deck breakdown·콤보 가이드 by Biggstarr, 2026-06-21 갱신 — Angwitch/Tatsunoo/Goblin or Breakout/Mace/Sheep/Fuwalos/Droll 루트)",
@@ -1426,7 +1426,7 @@
       "card": "Mementoal Tecuhtlica - Combined Creation",
       "kind": "other",
       "zone": "monster",
-      "timing_ko": "내가 카드·효과를 발동하면 그 체인 처리 뒤(1턴 1번) 패·묘지에서 메멘토 몬스터 특소. 보통 묘지의 [[Mementotlan Angwitch]] → [[Mementotlan Shleepy]]·[[Mementotlan Mace]] 서치 → [[Mementotlan Shleepy]] 퀵 특소·트윈 드래곤 융합, 메이스로 내 몬스터 컨트롤 탈취([[Mementoal Tecuhtlica - Combined Creation]]이 필드에 있어야 함)",
+      "timing_ko": "내가 카드·효과를 발동하면 그 체인 처리 뒤(1턴 1번) 패·묘지에서 메멘토 몬스터 특소. 보통 묘지의 [[Mementotlan Angwitch]] → [[Mementotlan Shleepy]]·[[Mementotlan Mace]] 서치 → [[Mementotlan Shleepy]] 퀵 특소·트윈 드래곤 융합, 메이스로 내 몬스터 컨트롤 탈취([[Mementoal Tecuhtlica - Combined Creation]]가 필드에 있어야 함)",
       "answered_by": [
        {
         "id": "imperm",
@@ -1716,7 +1716,7 @@
       "card": "Mementoal Tecuhtlica - Combined Creation",
       "kind": "other",
       "zone": "monster",
-      "timing_ko": "내가 카드·효과를 발동하면 그 체인 처리 뒤(1턴 1번) 패·묘지에서 메멘토 몬스터 특소. 보통 묘지의 [[Mementotlan Angwitch]] → [[Mementotlan Shleepy]]·[[Mementotlan Mace]] 서치 → [[Mementotlan Shleepy]] 퀵 특소·트윈 드래곤 융합, 메이스로 내 몬스터 컨트롤 탈취([[Mementoal Tecuhtlica - Combined Creation]]이 필드에 있어야 함)",
+      "timing_ko": "내가 카드·효과를 발동하면 그 체인 처리 뒤(1턴 1번) 패·묘지에서 메멘토 몬스터 특소. 보통 묘지의 [[Mementotlan Angwitch]] → [[Mementotlan Shleepy]]·[[Mementotlan Mace]] 서치 → [[Mementotlan Shleepy]] 퀵 특소·트윈 드래곤 융합, 메이스로 내 몬스터 컨트롤 탈취([[Mementoal Tecuhtlica - Combined Creation]]가 필드에 있어야 함)",
       "answered_by": [
        {
         "id": "imperm",
@@ -1947,7 +1947,7 @@
    }
   },
   "sequencing_ko": [
-   "메인 페이즈 1 시작, 아무것도 깔기 전에 [[Infinite Impermanence]](패)로 [[Mementoal Tecuhtlica - Combined Creation]]이나 [[S:P Little Knight]]을 끈다. [[Forbidden Droplet]]이 있으면 마법을 보내 메멘토랄·S:P·[[Mementotlan-Horned Dragon]]을 한꺼번에 무효하고 본 파티·퓨전 체인도 막는다.",
+   "메인 페이즈 1 시작, 아무것도 깔기 전에 [[Infinite Impermanence]](패)로 [[Mementoal Tecuhtlica - Combined Creation]]나 [[S:P Little Knight]]를 끈다. [[Forbidden Droplet]]이 있으면 마법을 보내 메멘토랄·S:P·[[Mementotlan-Horned Dragon]]을 한꺼번에 무효하고 본 파티·퓨전 체인도 막는다.",
    "[[Mementotlan-Horned Dragon]]은 파괴하지 말 것. [[Super Polymerization]]·괴수·[[Kurikara Divincarnate]]·[[Evenly Matched]]처럼 파괴가 아닌 처리로 치우거나, [[Forbidden Crown]]으로 파괴 불가를 걸어 본 파티 연계를 끊는다.",
    "[[Mementomictlan]]은 [[Cosmic Cyclone]]·싸이크론으로 먼저 치운다. 남겨 두면 몬스터를 처리할 때마다 소생이 따라오고 엔드 페이즈에 본 파티를 다시 세트한다.",
    "메멘토랄의 특소는 내 체인이 끝난 뒤에 온다. 엔위치가 나오면 [[Mementotlan Mace]]가 서치되어 내 몬스터를 빼앗을 수 있으니, 엑스트라 덱 핵심 몬스터를 내기 전에 메멘토랄을 처리한다.",

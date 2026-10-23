@@ -12,17 +12,17 @@
 
 | 패트랩 | 평가 | 언제 / 어디에 |
 |---|---|---|
-| 하루 우라라 (Ash Blossom & Joyous Spring) | 🔴 치명 | 첫 서치(파워 바이스 드래곤 (Power Vice Dragon) ②, 알바스 루트면 하얀 용의 낙윤 (Fallen of the White Dragon)의 에클레시아 덱 특소)에. 서치 지점이 8곳 넘게 있어 2번째 초동이 있으면 이어 간다. |
-| 증식의 G (Maxx "C") | 🔴 치명 | 풀 전개 특소 17회 안팎. 첫 특소에 던지면 크림즌 킹 근처에서 멈추게 된다. 알바스 루트(6회)로 바꾸면 덜 아프다. |
+| 하루 우라라 (Ash Blossom & Joyous Spring) | 🔴 치명 | 첫 서치(파워 바이스 드래곤 (Power Vice Dragon) ②, 알버스 루트면 하얀 용의 낙윤 (Fallen of the White Dragon)의 에클레시아 덱 특소)에. 서치 지점이 8곳 넘게 있어 2번째 초동이 있으면 이어 간다. |
+| 증식의 G (Maxx "C") | 🔴 치명 | 풀 전개 특소 17회 안팎. 첫 특소에 던지면 크림즌 킹 근처에서 멈추게 된다. 알버스 루트(6회)로 바꾸면 덜 아프다. |
 | 드롤 & 로크 버드 (Droll & Lock Bird) | 🔴 치명 | 파워 바이스 서치 처리 직후. 이후 서치가 6번 넘게 막힌다. 본 데몬 덤핑·싱클론 회수(묘지→패)는 못 막는다. |
 | 무한포영 (Infinite Impermanence) | 🔴 치명 | 선공 턴: 파워 바이스 서치, 크림즌 킹 서치, 레드 라이징 소생 순. 내 턴: 어비스가 앞면 카드(발동한 함정 포함)를 무효로 응수하므로 어비스를 먼저 소모시킨 뒤 켓차코아틀에. |
-| 이펙트 뵐러 (Effect Veiler) | 🔴 치명 | 상대 턴에만. 파워 바이스 서치(파워 바이스 대상) > 레드 라이징 소생. 알바스 루트는 낙윤의 에클레시아 특소. 내 턴 돌파에는 쓸 수 없다. |
+| 이펙트 뵐러 (Effect Veiler) | 🔴 치명 | 상대 턴에만. 파워 바이스 서치(파워 바이스 대상) > 레드 라이징 소생. 알버스 루트는 낙윤의 에클레시아 특소. 내 턴 돌파에는 쓸 수 없다. |
 | 저택 와라시 (Ghost Belle & Haunted Mansion) | 🔴 치명 | 레드 라이징 드래곤 (Red Rising Dragon)의 레조네이터 소생이 최고. 크림즌 블레이드 ①(묘지 포함)·싱클론 회수·마그나무트 제외·켓차코아틀 일괄 소생도 대상. 본 데몬 패 특소에는 못 씀. |
-| 사요 시구레 (Ghost Mourner & Moonlit Chill) | 🔴 치명 | 파워 바이스 특소 직후(서치 유발까지 무효) 또는 레드 라이징 드래곤 (Red Rising Dragon) 싱크로 직후(소생 유발까지 무효). 알바스 루트는 낙윤 특소 직후. |
-| 도미나스 퍼지 (Dominus Purge) | 🔴 치명 | 우라라와 같이 파워 바이스 서치에(상대 필드에 파워 바이스가 있어 패에서 발동 가능). 알바스 루트는 크림즌 킹 서치. 묘지에 함정이 있으면 파워 바이스까지 파괴. 패에서 쓰면 이 듀얼 동안 어둠·물·화염 몬스터 효과 불가. |
+| 사요 시구레 (Ghost Mourner & Moonlit Chill) | 🔴 치명 | 파워 바이스 특소 직후(서치 유발까지 무효) 또는 레드 라이징 드래곤 (Red Rising Dragon) 싱크로 직후(소생 유발까지 무효). 알버스 루트는 낙윤 특소 직후. |
+| 도미나스 퍼지 (Dominus Purge) | 🔴 치명 | 우라라와 같이 파워 바이스 서치에(상대 필드에 파워 바이스가 있어 패에서 발동 가능). 알버스 루트는 크림즌 킹 서치. 묘지에 함정이 있으면 파워 바이스까지 파괴. 패에서 쓰면 이 듀얼 동안 어둠·물·화염 몬스터 효과 불가. |
 | PSY프레임기어 γ (PSY-Framegear Gamma) | 🔴 치명 | 선공 턴: 파워 바이스(또는 낙윤) 패 특소 효과에 직접 체인해 무효+파괴(패에 그대로 있으므로 파괴됨). 내 턴: 켓차코아틀·어비스·디스 파테르·크림즌 킹 중 먼저 발동한 것에 체인. 제한 1. |
-| 마루챠미 후와로스 (Mulcharmy Fuwalos) | 🟠 아픔 | 덱·엑스트라 특소만 세어 풀 전개 6드로우(싱크로 6번). 크림즌 킹 싱크로 전에 내 필드가 빈 상태로 발동. 알바스 루트는 3번. |
-| 마루챠미 푸루리아 (Mulcharmy Purulia) | 🟠 아픔 | 패에서의 소환이 7번(파워 바이스·소울 일반 소환·본 데몬·다크니스·마그나무트·다크니스 추가 소환·비전). 파워 바이스 ①(패 특소) 발동에 체인한다. 알바스 루트는 4번. |
+| 마루챠미 후와로스 (Mulcharmy Fuwalos) | 🟠 아픔 | 덱·엑스트라 특소만 세어 풀 전개 6드로우(싱크로 6번). 크림즌 킹 싱크로 전에 내 필드가 빈 상태로 발동. 알버스 루트는 3번. |
+| 마루챠미 푸루리아 (Mulcharmy Purulia) | 🟠 아픔 | 패에서의 소환이 7번(파워 바이스·소울 일반 소환·본 데몬·다크니스·마그나무트·다크니스 추가 소환·비전). 파워 바이스 ①(패 특소) 발동에 체인한다. 알버스 루트는 4번. |
 | 유령토끼 (Ghost Ogre & Snow Rabbit) | 🟠 아픔 | 소울이 묘지에 가기 전에만. 소울 서치(4단계)에 써서 소울을 파괴하면 크림즌 킹의 튜너가 사라진다. 파워 바이스 서치(2단계)는 하르모니아와 같은 결과. 5~25단계는 소울의 파괴 대체로 막힌다. |
 | 원시생명체 니비루 (Nibiru, the Primal Being) | 🟠 아픔 | 어비스 싱크로·비전 회수 뒤, 비전 특소 전. 크림즌 킹이 묘지에 있고 제외된 카드가 없어 대응이 없으며, 다 릴리스되면 켓차코아틀이 안 나온다. |
 | 도미나스 임펄스 (Dominus Impulse) | 🟠 아픔 | 레드 라이징 소생에. 첫 파워 바이스 패 특소에는 상대 필드가 비어 패에서 못 쓴다. 내 턴에는 크림즌 킹의 레드 데몬즈 특소·하르모니아 특소를 무효. |
@@ -33,8 +33,8 @@
 | The Fallen & The Virtuous (The Fallen & The Virtuous) | 🟡 할만함 | 세트해 둔 경우만. 파워 바이스 서치나 26단계 이후 켓차코아틀에. 크림즌 킹 + 묘지 소울 상태에서는 파괴가 대체되고, 어비스가 선 뒤에는 이 카드가 무효당할 수 있다. |
 | 초융합 (Super Polymerization) | 🟡 할만함 | 세트해 둔 경우만. 켓차코아틀 + 어비스(어둠 드래곤족 2장)로 공명의 날개 가루라 (Garura, Wings of Resonant Life). 체인 불가라 견제 2개를 한 번에. |
 | 비스테드 드루이드브룸 (Bystial Druiswurm) | 🟡 할만함 | 싱클론 회수의 대상(비전, 27단계)을 제외. 제외된 카드가 생기면 디스 파테르 ②가 켜진다. |
-| 싸이크론 (Mystical Space Typhoon) | 🟡 할만함 | 알바스 루트의 크림즌 헬가이아 (Crimson Gaia) 발동(소울이 아직 묘지에 없음)이나, 상대 엔드 페이즈의 세트된 패자의 명동 (King's Resonance)에. 파워 바이스 루트의 헬가이아는 소울 대체 때문에 bad. |
-| 말살의 지명자 (Crossout Designator) | ⚪ 약함 | 내 덱에 있는 카드만 선언 가능. 같은 하르모니아/마그나무트/알바스 엔진을 공유한다면 피드라울리스＝하르모니아 (Fydraulis Harmonia)·하얀 용의 낙윤 (Fallen of the White Dragon) 선언 정도. |
+| 싸이크론 (Mystical Space Typhoon) | 🟡 할만함 | 알버스 루트의 크림즌 헬가이아 (Crimson Gaia) 발동(소울이 아직 묘지에 없음)이나, 상대 엔드 페이즈의 세트된 패자의 명동 (King's Resonance)에. 파워 바이스 루트의 헬가이아는 소울 대체 때문에 bad. |
+| 말살의 지명자 (Crossout Designator) | ⚪ 약함 | 내 덱에 있는 카드만 선언 가능. 같은 하르모니아/마그나무트/알버스 엔진을 공유한다면 피드라울리스＝하르모니아 (Fydraulis Harmonia)·하얀 용의 낙윤 (Fallen of the White Dragon) 선언 정도. |
 | 삼전의 재 (Triple Tactics Talent) | ⚪ 약함 | 상대 1턴 전개에는 쓸 곳이 거의 없음(일반 마법이라 상대 턴에 발동 불가). 내 턴(후공)에: 어비스·켓차코아틀·크림즌 킹이 내 메인 페이즈에 몬스터 효과를 쓰면 발동해 켓차코아틀을 빼앗거나 2드로우. 어비스가 앞면 카드(발동한 이 카드 포함)를 무효로 할 수 있으니 어비스를 먼저 소모시킨다. |
 | 금지된 일적 (Forbidden Droplet) | ⚪ 약함 | 상대 1턴 전개에는 쓸 곳이 거의 없음(속공 마법이라 미리 세트해 둬야 하고, 후공 1턴에는 불가). 내 턴(후공)에: 몬스터를 보내 발동하면 어비스·켓차코아틀·디스 파테르·크림즌 킹이 모두 체인 불가. 무효할 수를 늘려 켓차코아틀·어비스·디스 파테르를 함께. |
 | 도미나스 스파크 (Dominus Spark) | ⚪ 약함 | 상대가 패의 몬스터 효과(파워 바이스·본 데몬 등)를 쓴 뒤 몬스터 1장 제외. 제외된 크림즌 킹 등은 비스테드 디스 파테르 (Bystial Dis Pater) ①로 돌아오고, 제외된 카드가 생기면 디스 파테르 ②도 켜진다. |
@@ -186,7 +186,7 @@
    - 이유: 에클레시아는 나오지만 크림즌 킹의 비튜너(낙윤)가 사라진다. 아직 크림즌 킹·소울이 없어 파괴 대체도 없다.
    - 맞은 뒤 상대 루트: 에클레시아의 퀵 효과(자신 릴리스 → 패·덱의 '알버스의 낙윤' 특소)로 다른 낙윤을 꺼낼 수 있으면 이어 간다. 덱에 낙윤이 더 없으면 에클레시아 1장.
 37. ⛔ 비추 **유령토끼** (Ghost Ogre & Snow Rabbit) → **본 데몬** (Bone Archfiend) — power_vice 13단계
-   - 타이밍: 더 크림즌 킹 (The Crimson King)이 앞면이고 소울 레조네이터 (Soul Resonator)가 묘지에 있는 동안(power_vice 5~25단계) 유령토끼·하르모니아·TFTV 같은 '파괴' 견제를 쓰는 것
+   - 타이밍: 더 크림즌 킹 (The Crimson King)이 앞면이고 소울 레조네이터 (Soul Resonator)가 묘지에 있는 동안(power_vice 5~25단계) 유령토끼·하르모니아·The Fallen & The Virtuous (The Fallen & The Virtuous) 같은 '파괴' 견제를 쓰는 것
    - 이유: 소울 레조네이터 (Soul Resonator)가 묘지에 있고 더 크림즌 킹 (The Crimson King)(또는 레드 데몬즈 드래곤 (Red Dragon Archfiend))이 앞면이면(power_vice 5~25단계) 상대 필드 카드의 효과 파괴는 소울을 제외하는 것으로 대신된다(1턴 1번). 유령토끼는 무효가 아니라서 파괴가 대체되면 그냥 손해다. 쓰려면 소울이 묘지에 가기 전(1~4단계)이나, 크림즌 킹이 소재로 묘지에 간 26단계 이후를 노린다. 상대가 이미 소울 대체를 쓴 턴이면 통한다.
 
 ## 핵심 카드
@@ -252,11 +252,11 @@ MDM 콤보 'Power Vice 1CC (No Crimson Call)'의 Soul 분기를 카드 텍스트
 
 엔드 페이즈에 비스테드 마그나무트 (Bystial Magnamhut)의 예약 효과로 피드라울리스＝하르모니아 (Fydraulis Harmonia)를 패에 넣는다(이미 있으면 비스테드 드루이드브룸 (Bystial Druiswurm)). 상대 턴 견제: 붉은 용 켓차코아틀 (Crimson Dragon Quetzalcoatl) 몬스터 효과 발동 무효(다른 드래곤족 싱크로 1장을 엑스트라로 되돌림), 염마룡 레드 데몬 어비스 (Hot Red Dragon Archfiend Abyss) 앞면 카드 1장 효과 무효(퀵·대상), 비스테드 디스 파테르 (Bystial Dis Pater) 몬스터 효과에 직접 체인해 무효/파괴(제외된 카드가 있어야 함), 더 크림즌 킹 (The Crimson King) 몬스터 효과에 반응해 자신을 제외하고 공격력 6000·상대 효과 파괴 내성 레드 데몬즈 드래곤 (Red Dragon Archfiend) 특소, 패의 피드라울리스＝하르모니아 (Fydraulis Harmonia)(싱크로 5장 공개 → 금운수－마룡 (Golden Cloud Beast - Malong)을 묘지로 보내 바운스 + 몬스터 1장 파괴). 묘지의 소울 레조네이터 (Soul Resonator)는 더 크림즌 킹 (The Crimson King)·레드 데몬즈 드래곤 (Red Dragon Archfiend)이 앞면인 동안 효과 파괴를 1번 대신 받는다. 증G 기준 특소 17회 안팎, 후와로스 기준(덱·엑스트라 특소) 6회.
 
-## 전개: 백룡의 낙윤(알바스 엔진) 1장 초동 (`fallen`)
+## 전개: 하얀 용의 낙윤 (Fallen of the White Dragon)(알버스 엔진) 1장 초동 (`fallen`)
 
 초동 패: **하얀 용의 낙윤** (Fallen of the White Dragon)
 
-MD 리스트 71%가 넣는 알바스 엔진 루트(MDM 'Fallen of the White Dragon SS 1/1.5CC'). 견제는 3개 정도로 적지만 다음 턴 자원이 많고, 특소 수가 6회라 증G·후와로스에 덜 아프다. 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous)를 일반 소환해 덱의 하얀 용의 낙윤 (Fallen of the White Dragon)을 꺼내도 같은 흐름.
+MD 리스트 71%가 넣는 알버스 엔진 루트(MDM 'Fallen of the White Dragon SS 1/1.5CC'). 견제는 3개 정도로 적지만 다음 턴 자원이 많고, 특소 수가 6회라 증G·후와로스에 덜 아프다. 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous)를 일반 소환해 덱의 하얀 용의 낙윤 (Fallen of the White Dragon)을 꺼내도 같은 흐름.
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
@@ -274,7 +274,7 @@ MD 리스트 71%가 넣는 알바스 엔진 루트(MDM 'Fallen of the White Drag
 | 12 | 본 데몬 (Bone Archfiend) | 패에서 ①: 패 1장(없으면 필드의 크림즌 헬가이아 (Crimson Gaia))을 묘지로 보내고 자신 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 | 13 | 본 데몬 (Bone Archfiend) | ② 필드 효과: 자신을 대상, 덱에서 비전 레조네이터 (Vision Resonator)를 묘지로 보내고 레벨 +1 |  | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관 |
 | 14 | 비전 레조네이터 (Vision Resonator) | 묘지로 보내진 경우 유발: "레드 데몬즈 드래곤"이 쓰인 마법·함정 서치 | 패자의 명동 (King's Resonance) 서치 → 세트 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
-| 15 | 낙인룡 알비온 (Albion the Branded Dragon) | 엔드 페이즈, 이번 턴 묘지로 보내졌으므로 유발: 덱에서 "낙인" 마법·함정을 패에 넣거나 세트 | The Fallen & The Virtuous (The Fallen & The Virtuous) 세트. 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous)는 묘지에 남겨 TFTV의 소생 모드를 켠다 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마, 싸이크론 |
+| 15 | 낙인룡 알비온 (Albion the Branded Dragon) | 엔드 페이즈, 이번 턴 묘지로 보내졌으므로 유발: 덱에서 "낙인" 마법·함정을 패에 넣거나 세트 | The Fallen & The Virtuous (The Fallen & The Virtuous) 세트. 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous)는 묘지에 남겨 The Fallen & The Virtuous (The Fallen & The Virtuous)의 소생 모드를 켠다 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마, 싸이크론 |
 
 **최종 필드 / 견제**: 더 크림즌 킹 (The Crimson King), 천위의 용귀신 (Draco Berserker of the Tenyi), 본 데몬 (Bone Archfiend), 크림즌 헬가이아 (Crimson Gaia), 패자의 명동 (King's Resonance), The Fallen & The Virtuous (The Fallen & The Virtuous)
 
