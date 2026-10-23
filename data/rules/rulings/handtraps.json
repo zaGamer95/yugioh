@@ -1,0 +1,1895 @@
+{
+ "_comment": "패트랩(handtraps.json)·후공 돌파(breakers.json) 카드의 공식 재정. 출처는 KONAMI 遊戯王OCG カードデータベース Q&A (Master Duel은 OCG 재정을 따름). 요약은 직접 작성.",
+ "sources": {
+  "konami-db-faq": {
+   "title": "遊戯王ニューロン(オフィシャルカードゲーム カードデータベース) Q&A",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rulings": [
+  {
+   "id": "qa-24163",
+   "fid": 24163,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24163&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring",
+    "Triple Tactics Talent"
+   ],
+   "handtraps": [
+    "ash",
+    "ttt"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Triple Tactics Talent]]를 발동했을 때 [[Ash Blossom & Joyous Spring]]을 체인할 수 있나?",
+   "answer_ko": "'2장 드로우'를 골라 발동했을 때만 가능하다. 컨트롤 탈취·핸드 확인을 골랐다면 체인할 수 없다. 어느 효과를 쓸지는 발동할 때 상대에게 알려야 한다.",
+   "quote_ja": "１つ目の『●自分は２枚ドローする』効果を選択して「三戦の才」を発動したのであれば、「灰流うらら」の効果をチェーンして発動できます。",
+   "impact_ko": "드로우 효과도 우라라의 '덱에서 카드를 패에 넣는 효과'에 해당한다는 공식 근거. '우라라는 드로우를 못 막는다'는 서술은 틀렸다."
+  },
+  {
+   "id": "qa-23940",
+   "fid": 23940,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23940&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "'자신 드로우 페이즈의 통상 드로우가 2장이 된다' 같은 효과의 발동에 [[Ash Blossom & Joyous Spring]]을 체인할 수 있나?",
+   "answer_ko": "못 한다. 통상 드로우의 매수를 바꾸는 효과일 뿐, '덱에서 카드를 패에 넣는 효과'가 아니다.",
+   "impact_ko": "우라라가 닿지 않는 드로우 관련 효과는 '드로우 매수 변경'처럼 효과 스스로 드로우를 하지 않는 경우다. 효과로 직접 드로우하는 카드와 구분해야 한다."
+  },
+  {
+   "id": "qa-23378",
+   "fid": 23378,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23378&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Pot of Prosperity",
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Pot of Prosperity]]의 발동이 무효가 된 경우와 효과가 [[Ash Blossom & Joyous Spring]] 등으로 무효가 된 경우, 그 턴 효과로 드로우할 수 있나?",
+   "answer_ko": "발동이 무효면 드로우할 수 있다. 효과만 무효(우라라 등)면 '이 턴 효과로 드로우할 수 없다'는 제약이 남아서 그 턴 드로우할 수 없다.",
+   "impact_ko": "우라라는 '효과 무효'라서 발동 조건·코스트로 걸리는 제약은 남는다. 항아리류를 우라라로 끊으면 그 턴 드로우 봉쇄까지 상대에게 남는다."
+  },
+  {
+   "id": "qa-20586",
+   "fid": 20586,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=20586&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Shaddoll Fusion",
+    "Ash Blossom & Joyous Spring",
+    "Branded Fusion",
+    "Rahu Dracotail"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [
+    "branded",
+    "dracotail"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Shaddoll Fusion]] 같은 '덱의 몬스터도 소재로 쓸 수 있는' 융합 카드의 발동에 [[Ash Blossom & Joyous Spring]]을 체인할 수 있나?",
+   "answer_ko": "가능하다. 덱에서 묘지로 보내는 효과를 포함하기 때문이다. 상대 필드 상황과 관계없다. [[Branded Fusion]]·[[Rahu Dracotail]](羅睺星辰) 등도 같은 예로 명시돼 있다.",
+   "impact_ko": "덱 융합 카드는 실제로 덱 소재를 쓰는지와 상관없이 우라라 대상이다. 낙인·드래곤테일 초동의 혈자리 근거."
+  },
+  {
+   "id": "qa-24226",
+   "fid": 24226,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24226&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mitsurugi Ritual",
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Mitsurugi Ritual]](巳剣降臨)의 '패·덱·필드의 파충류족을 릴리스해 의식 소환' 효과에 [[Ash Blossom & Joyous Spring]]을 체인할 수 있나?",
+   "answer_ko": "못 한다. 릴리스된 몬스터는 결과적으로 묘지로 가지만, 이 효과는 '덱에서 묘지로 보내는 효과'로 취급하지 않는다.",
+   "impact_ko": "덱의 몬스터를 '릴리스'하는 효과는 덤핑이 아니다. 미츠루기 의식의 덱 릴리스는 우라라로 못 막는다."
+  },
+  {
+   "id": "qa-23996",
+   "fid": 23996,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23996&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "'덱의 몬스터를 골라 파괴한다' 효과의 발동에 [[Ash Blossom & Joyous Spring]]을 체인할 수 있나?",
+   "answer_ko": "못 한다. 파괴된 카드는 결과적으로 묘지로 가지만 '덱에서 묘지로 보내는 효과'로 보지 않는다. 다만 '패에 넣거나 파괴' 중 고르는 효과처럼 서치 선택지가 있으면 체인할 수 있다.",
+   "impact_ko": "덱 파괴는 덤핑이 아니다. 우라라 대상인지는 결과(묘지행)가 아니라 효과문에 '덱→패/특소/묘지 보내기'가 있는지로 판단한다."
+  },
+  {
+   "id": "qa-11993",
+   "fid": 11993,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11993&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Gold Sarcophagus",
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Gold Sarcophagus]](덱에서 1장 제외, 2번째 스탠바이에 패에 넣음)의 발동에 [[Ash Blossom & Joyous Spring]]을 체인할 수 있나?",
+   "answer_ko": "못 한다.",
+   "impact_ko": "덱에서 제외하는 효과는 나중에 패에 넣더라도 발동 시점의 효과가 '덱→패'가 아니면 우라라 대상이 아니다."
+  },
+  {
+   "id": "qa-7315",
+   "fid": 7315,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=7315&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Macro Cosmos",
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "[[Macro Cosmos]]의 카드 발동(발동 시 덱에서 특소 가능)에 [[Ash Blossom & Joyous Spring]]을 체인하면 무엇이 무효가 되나?",
+   "answer_ko": "우라라는 직접 체인한 체인 블록의 효과 처리만 무효로 한다. 덱 특소 처리는 무효가 되지만, 필드에 남은 지속 효과(묘지 대신 제외)는 무효가 되지 않는다.",
+   "impact_ko": "지속 마함·필드 마법을 우라라로 맞춰도 카드는 남고 지속 효과도 그대로다. 그 카드를 없애는 건 따로 해야 한다."
+  },
+  {
+   "id": "qa-12336",
+   "fid": 12336,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12336&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "패에서 발동한 [[Ash Blossom & Joyous Spring]]에 '그 발동을 무효로 하고 덱으로 되돌린다' 효과를 체인하면 어떻게 되나?",
+   "answer_ko": "우라라의 발동은 무효가 되지만 우라라는 코스트로 이미 묘지에 있으므로 덱으로 돌아가지 않는다. 그 뒤 처리(특소 등)도 적용되지 않는다.",
+   "impact_ko": "패에서 버리며 발동하는 패트랩은 발동 무효를 당해도 묘지에 남는다. 묘지 효과 활용·매수 계산에 영향."
+  },
+  {
+   "id": "qa-23815",
+   "fid": 23815,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23815&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring",
+    "Ghost Belle & Haunted Mansion",
+    "Mulcharmy Fuwalos",
+    "Mulcharmy Meowls"
+   ],
+   "handtraps": [
+    "ash",
+    "belle",
+    "fuwalos",
+    "purulia",
+    "meowls"
+   ],
+   "themes": [],
+   "topic": "cost",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외된다' 효과가 적용 중일 때 '이 카드를 패에서 버리고 발동' 하는 효과를 쓸 수 있나?",
+   "answer_ko": "쓸 수 있다. 버린 카드는 결과적으로 제외되지만, 텍스트에 '묘지로 버리고'라고 쓰여 있지 않으면 발동할 수 있다. [[Ghost Belle & Haunted Mansion]]·마루챠미 몬스터 등이 예로 명시돼 있다. 반면 '묘지로 버리고 발동'이라고 쓰인 효과는 발동할 수 없다.",
+   "impact_ko": "[[Macro Cosmos]]류 아래서도 우라라·와라시·마루챠미는 쓸 수 있다. '묘지로 보내서' 발동하는 증G·드롤과 다르다."
+  },
+  {
+   "id": "qa-21685",
+   "fid": 21685,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=21685&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Knightmare Phoenix",
+    "Ash Blossom & Joyous Spring",
+    "Dominus Purge"
+   ],
+   "handtraps": [
+    "ash",
+    "purge"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Knightmare Phoenix]]의 링크 소환 시 효과(상호 링크면 1장 드로우 추가)에 [[Ash Blossom & Joyous Spring]]·[[Dominus Purge]]를 체인할 수 있나?",
+   "answer_ko": "발동할 때 상호 링크 상태였다면(드로우 포함) 체인할 수 있고, 아니었다면 못 한다.",
+   "impact_ko": "드로우를 포함하는 효과는 우라라·퍼지 대상이며, 포함 여부는 '발동 시 상태'로 정해진다."
+  },
+  {
+   "id": "qa-11640",
+   "fid": 11640,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11640&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Maxx \"C\""
+   ],
+   "handtraps": [
+    "maxxc"
+   ],
+   "themes": [],
+   "topic": "timing",
+   "question_ko": "[[Maxx \"C\"]]의 드로우는 언제 하나? 같은 체인에서 여러 번 특소하면?",
+   "answer_ko": "특수 소환이 완료된 시점에 드로우한다. 효과 처리 중에 특소한 경우에는 그 효과 처리가 끝난 시점에 드로우한다.",
+   "impact_ko": "체인 처리 도중의 특소는 처리 종료 후 드로우. 증G로 뽑은 패트랩을 그 체인 안에서 쓸 수는 없다."
+  },
+  {
+   "id": "qa-10918",
+   "fid": 10918,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=10918&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Maxx \"C\""
+   ],
+   "handtraps": [
+    "maxxc"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "[[Maxx \"C\"]] 적용 중 펜듈럼 소환으로 2체 이상을 동시에 특소하면 몇 장 드로우하나?",
+   "answer_ko": "1장이다. 펜듈럼 소환은 몇 체든 한 번에 동시에 특소하는 것이다.",
+   "impact_ko": "증G 드로우 수는 '특소 횟수' 기준. 한 번에 여러 체를 내는 효과는 1장만 준다."
+  },
+  {
+   "id": "qa-13745",
+   "fid": 13745,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=13745&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Junk Anchor",
+    "Maxx \"C\""
+   ],
+   "handtraps": [
+    "maxxc"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "[[Junk Anchor]]처럼 특소 후 바로 싱크로 소환하는 효과를 [[Maxx \"C\"]] 적용 중 쓰면 몇 장 드로우하나?",
+   "answer_ko": "특소가 2번 일어난 것이므로 2장 드로우한다.",
+   "impact_ko": "효과 하나에 특소가 여러 번 들어 있으면 횟수만큼 드로우. 전개 단계별 증G 드로우 수를 셀 때 기준이 된다."
+  },
+  {
+   "id": "qa-6173",
+   "fid": 6173,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=6173&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Lava Golem",
+    "Maxx \"C\""
+   ],
+   "handtraps": [
+    "maxxc"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "[[Maxx \"C\"]]를 쓴 플레이어 필드에 상대가 [[Lava Golem]]을 특소해 주면 드로우하나?",
+   "answer_ko": "드로우한다. 몬스터가 놓인 곳이 아니라 특소를 '한' 플레이어가 기준이다.",
+   "impact_ko": "상대 필드로 특소하는 카드도 증G 드로우를 준다. 파괴수로 후공 돌파할 때 상대 증G가 적용 중이면 상대가 1장 뽑는다."
+  },
+  {
+   "id": "qa-11639",
+   "fid": 11639,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11639&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Maxx \"C\""
+   ],
+   "handtraps": [
+    "maxxc"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "발동 후 묘지의 [[Maxx \"C\"]]가 제외되는 등 묘지에서 없어지면 드로우할 수 없나?",
+   "answer_ko": "그래도 드로우한다.",
+   "impact_ko": "증G는 발동 후 묘지 카드를 치워도 멈추지 않는다."
+  },
+  {
+   "id": "qa-14540",
+   "fid": 14540,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=14540&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Maxx \"C\"",
+    "Forbidden Droplet"
+   ],
+   "handtraps": [
+    "maxxc",
+    "droplet"
+   ],
+   "themes": [],
+   "topic": "cost",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외된다' 효과 적용 중에 '묘지로 보내서' 발동하는 효과를 쓸 수 있나?",
+   "answer_ko": "못 한다. 코스트로 카드를 묘지에 보낼 수 없기 때문이다. [[Maxx \"C\"]]·[[Forbidden Droplet]]이 예로 명시돼 있다.",
+   "impact_ko": "[[Macro Cosmos]]류 아래서는 증G·금지된 일적을 쓸 수 없다. 패에서 '버리는' 우라라·마루챠미와 구분된다."
+  },
+  {
+   "id": "qa-22388",
+   "fid": 22388,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22388&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Maxx \"C\"",
+    "Accode Talker @Ignister",
+    "Gameciel, the Sea Turtle Kaiju"
+   ],
+   "handtraps": [
+    "maxxc",
+    "kaiju"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Maxx \"C\"]]의 발동에 '발동을 무효로 하고 제외' 효과를 체인하면 증G는 제외되나?",
+   "answer_ko": "발동은 무효가 되지만 증G는 이미 코스트로 묘지에 있으므로 제외되지 않고 묘지에 남는다. [[Gameciel, the Sea Turtle Kaiju]]의 효과도 같다.",
+   "impact_ko": "패에서 발동한 패트랩에 대한 '무효+제외'는 무효만 적용된다."
+  },
+  {
+   "id": "qa-24217",
+   "fid": 24217,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24217&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mulcharmy Fuwalos"
+   ],
+   "handtraps": [
+    "fuwalos"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "상대가 [[Mulcharmy Fuwalos]]를 적용 중일 때, 내가 '상대 덱'에서 몬스터를 내 필드에 특소하면 상대는 드로우하나?",
+   "answer_ko": "드로우한다. 내가 상대의 덱·엑스트라 덱에서 특소한 경우도 같다.",
+   "impact_ko": "후와로스 조건은 '상대가 덱·EX에서 특소'이며, 누구의 덱이냐는 묻지 않는다."
+  },
+  {
+   "id": "qa-23504",
+   "fid": 23504,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23504&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Maxx \"C\"",
+    "Mulcharmy Fuwalos",
+    "Magical Hats"
+   ],
+   "handtraps": [
+    "maxxc",
+    "fuwalos"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "[[Magical Hats]] 등으로 덱의 마법·함정을 몬스터로 특소하면 [[Maxx \"C\"]]·[[Mulcharmy Fuwalos]]로 드로우하나?",
+   "answer_ko": "증G는 드로우한다. 후와로스는 드로우하지 않는다.",
+   "impact_ko": "후와로스는 '덱에서 몬스터를 특소'만 센다. 덱의 마함을 몬스터로 꺼내는 효과는 해당하지 않는다."
+  },
+  {
+   "id": "qa-7813",
+   "fid": 7813,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=7813&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mulcharmy Fuwalos",
+    "Mulcharmy Purulia",
+    "Mulcharmy Meowls"
+   ],
+   "handtraps": [
+    "fuwalos",
+    "purulia",
+    "meowls"
+   ],
+   "themes": [],
+   "topic": "opt",
+   "question_ko": "[[Mulcharmy Fuwalos]]의 발동이 무효가 된 뒤 2장째 후와로스를 발동했다. 같은 턴 3장째 마루챠미를 쓸 수 있나?",
+   "answer_ko": "못 한다. '이 턴 다른 마루챠미 효과는 1번만' 제약은 발동이 무효가 된 마루챠미 효과도 센다. 푸루리아·냐루스도 같다.",
+   "impact_ko": "마루챠미는 한 턴에 최대 2장까지이며, 무효가 된 발동도 그 2장에 들어간다."
+  },
+  {
+   "id": "qa-24390",
+   "fid": 24390,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24390&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Maxx \"C\"",
+    "Mulcharmy Purulia"
+   ],
+   "handtraps": [
+    "maxxc",
+    "purulia"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "[[Maxx \"C\"]]와 [[Mulcharmy Purulia]]가 동시에 적용 중일 때 패에서 1체를 특소하면?",
+   "answer_ko": "두 효과로 각각 1장씩 드로우한다(공식 Q&A는 이를 '합계 2장 드로우'로 전제하고 그 뒤 처리를 답한다).",
+   "impact_ko": "패에서 특소는 증G와 푸루리아 양쪽에 걸린다. 겹쳐 맞으면 특소 1번에 2장."
+  },
+  {
+   "id": "qa-24096",
+   "fid": 24096,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24096&request_locale=ja",
+   "official": true,
+   "cards": [
+    "PSY-Framegear Gamma",
+    "Mulcharmy Fuwalos",
+    "Mulcharmy Purulia",
+    "Mulcharmy Meowls",
+    "Infinite Impermanence"
+   ],
+   "handtraps": [
+    "gamma",
+    "fuwalos",
+    "purulia",
+    "meowls",
+    "imperm"
+   ],
+   "themes": [],
+   "topic": "timing",
+   "question_ko": "내 필드가 비었고 내가 몬스터를 특소하려는 순간 상대가 '특소를 무효' 효과를 발동했다. [[PSY-Framegear Gamma]]를 쓸 수 있나?",
+   "answer_ko": "쓸 수 있다. 특소가 아직 성공하지 않았으므로 내 필드에 몬스터가 없는 상태다. 카드가 하나도 없다면 마루챠미 3종의 발동과 [[Infinite Impermanence]]의 패 발동 조건도 충족된다.",
+   "impact_ko": "'자신 필드에 카드/몬스터가 없을 때' 조건은 소환 무효 타이밍에도 충족된다."
+  },
+  {
+   "id": "qa-12797",
+   "fid": 12797,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12797&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Droll & Lock Bird",
+    "Maxx \"C\"",
+    "Mulcharmy Fuwalos",
+    "Mulcharmy Purulia",
+    "Mulcharmy Meowls"
+   ],
+   "handtraps": [
+    "droll",
+    "maxxc",
+    "fuwalos",
+    "purulia",
+    "meowls"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "[[Droll & Lock Bird]]의 '이 턴 서로 덱에서 패에 넣을 수 없음'이 적용 중일 때 [[Maxx \"C\"]]를 발동할 수 있나?",
+   "answer_ko": "발동은 할 수 있지만 실제로 드로우할 수는 없다. 증G가 먼저 적용되고 나중에 드롤이 적용된 경우도 같다. 마루챠미 3종도 같다.",
+   "quote_ja": "その効果によってドローする状況になった際には、実際にカードをドローすることはできません。",
+   "impact_ko": "드롤 적용 뒤에는 드로우도 막힌다. 드로우를 '덱에서 패에 넣기'로 취급한다는 근거다. 같은 텍스트 해석으로 드로우 페이즈 밖의 드로우는 드롤의 발동 조건도 충족한다(발동 조건 자체를 직접 다룬 Q&A는 찾지 못함)."
+  },
+  {
+   "id": "qa-12854",
+   "fid": 12854,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12854&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Droll & Lock Bird",
+    "Card Destruction"
+   ],
+   "handtraps": [
+    "droll"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "[[Droll & Lock Bird]]의 효과가 적용 중인 턴에 [[Card Destruction]]을 발동할 수 있나?",
+   "answer_ko": "발동할 수 없다. 누가 드롤을 썼는지와 상관없다.",
+   "impact_ko": "드롤 적용 중에는 드로우가 들어간 카드는 발동 자체가 막힌다."
+  },
+  {
+   "id": "qa-15780",
+   "fid": 15780,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=15780&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Droll & Lock Bird",
+    "Side Effects?"
+   ],
+   "handtraps": [
+    "droll"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "[[Droll & Lock Bird]] 적용 중 [[Side Effects?]]를 발동할 수 있나? 그 발동에 드롤을 체인하면?",
+   "answer_ko": "적용 중에는 발동할 수 없다. 체인으로 드롤이 적용되면 드로우 처리를 못 하고 그에 따른 회복도 없다.",
+   "impact_ko": "드롤을 체인으로 끼우면 드로우 효과의 해결도 막힌다."
+  },
+  {
+   "id": "qa-24396",
+   "fid": 24396,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24396&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Droll & Lock Bird",
+    "Clown Crew Dristy"
+   ],
+   "handtraps": [
+    "droll"
+   ],
+   "themes": [
+    "clown-crew"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Droll & Lock Bird]] 적용 중 '패를 덱에 넣고 그 수만큼 드로우' 선택지를 쓸 수 있나? 같은 체인에서 드롤이 적용되면?",
+   "answer_ko": "드로우 선택지는 고를 수 없다. 같은 체인에서 드롤이 먼저 적용되면 패를 덱에 넣는 처리만 하고 드로우는 하지 않는다.",
+   "impact_ko": "드롤 아래에서 드로우 포함 선택지는 막히고, 체인으로 끼우면 '되돌리기만 하고 못 뽑는' 상황이 된다."
+  },
+  {
+   "id": "qa-22837",
+   "fid": 22837,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22837&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Droll & Lock Bird",
+    "Danger! Bigfoot!"
+   ],
+   "handtraps": [
+    "droll"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "'덱에서 패에 넣을 수 없음'이 적용 중일 때 [[Danger! Bigfoot!]] 같은 미계역 몬스터 효과를 발동할 수 있나?",
+   "answer_ko": "발동할 수 있다. 버리기와 특소는 하지만 1장 드로우는 하지 않는다.",
+   "impact_ko": "드롤은 드로우가 섞인 효과의 발동까지 늘 막는 건 아니다. 드로우 부분만 못 하는 경우가 있다."
+  },
+  {
+   "id": "qa-24197",
+   "fid": 24197,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24197&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Droll & Lock Bird"
+   ],
+   "handtraps": [
+    "droll"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "상대 서치에 체인해 내가 '상대 덱에서 내가 고른 카드를 상대가 패에 넣는' 카드를 쓰면, 이후 누가 [[Droll & Lock Bird]]를 쓸 수 있나?",
+   "answer_ko": "내가 쓸 수 있다. 카드를 고른 건 나지만 패에 넣는 건 상대이므로 '상대가 드로우 페이즈 이외에 덱에서 패에 넣었을 때' 조건을 충족한다.",
+   "impact_ko": "드롤 조건은 '누가 패에 넣었는가' 기준이다."
+  },
+  {
+   "id": "qa-24256",
+   "fid": 24256,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24256&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Droll & Lock Bird",
+    "Forbidden Crown"
+   ],
+   "handtraps": [
+    "droll"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "서치 처리 뒤 내 [[Forbidden Crown]]과 상대의 [[Droll & Lock Bird]]를 둘 다 쓰고 싶을 때 누가 먼저인가?",
+   "answer_ko": "턴 플레이어가 먼저 체인 1로 발동할 수 있다. [[Forbidden Crown]]의 발동에는 몬스터 효과로 체인할 수 없으므로 드롤은 체인 2로 못 쓰고, 그 뒤에는 조건 타이밍이 지나 쓸 수 없다. 동시 발동 우선순위(강제 → 공개 정보 임의 → 비공개·체인 전제)도 이 Q&A에 정리돼 있다.",
+   "impact_ko": "드롤은 서치 처리 직후에만 쓸 수 있는 유발 즉시 효과다. 체인 불가 카드를 먼저 깔면 그 타이밍을 놓친다."
+  },
+  {
+   "id": "qa-24162",
+   "fid": 24162,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24162&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Triple Tactics Thrust",
+    "Droll & Lock Bird",
+    "Dominus Purge",
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "droll",
+    "purge",
+    "ash"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Droll & Lock Bird]]가 적용돼 서치할 수 없는 상황에서 [[Triple Tactics Thrust]]가 발동되면 [[Dominus Purge]]·[[Ash Blossom & Joyous Spring]]을 체인할 수 있나?",
+   "answer_ko": "가능하다. 실제로 패에 넣을 수 없는 상황이라도 효과에 '덱에서 패에 넣기'가 포함돼 있으면 대상이 된다. 상대 필드에 몬스터가 없는 경우도 같다.",
+   "impact_ko": "우라라·퍼지는 '처리할 수 있는지'가 아니라 '효과문에 포함되는지'로 판단한다."
+  },
+  {
+   "id": "qa-8398",
+   "fid": 8398,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=8398&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Infinite Impermanence",
+    "Effect Veiler",
+    "Dark Ruler No More",
+    "Forbidden Droplet"
+   ],
+   "handtraps": [
+    "imperm",
+    "veiler",
+    "dark_ruler",
+    "droplet"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Infinite Impermanence]]가 적용된 몬스터가 (A) 묘지로 간 뒤 묘지 효과를 쓰거나 (B) 자신을 코스트로 릴리스·제외하며 필드에서 효과를 쓰면 무효가 되나?",
+   "answer_ko": "(A) 묘지에서 발동한 효과는 무효가 아니다. 무효가 되는 건 몬스터 존에서 발동한 효과와 몬스터 존에 있는 동안의 지속 효과뿐이다. (B) 몬스터 존에서 발동한 것이므로 처리 때 필드에 없어도 무효다. [[Effect Veiler]]·[[Dark Ruler No More]]·[[Forbidden Droplet]] 등의 무효도 같다.",
+   "quote_ja": "モンスターゾーンで発動する効果と、モンスターゾーンに存在する限り適用される永続効果のみとなります。",
+   "impact_ko": "필드 무효형 패트랩(포영·뵐러·명왕결계파·일적)은 '묘지로 간 뒤의 효과'를 막지 못한다. 반대로 자신을 코스트로 필드에서 발동한 효과는 막는다."
+  },
+  {
+   "id": "qa-21698",
+   "fid": 21698,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=21698&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Infinite Impermanence"
+   ],
+   "handtraps": [
+    "imperm"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "세트한 [[Infinite Impermanence]]의 세로열 무효가 적용 중일 때, 같은 열의 마법·함정이 자신을 코스트로 보내며 효과를 발동하면?",
+   "answer_ko": "그 효과도 무효가 된다. 같은 열에서 발동한 마함의 카드 발동 효과와 효과 발동 모두 무효다.",
+   "impact_ko": "세로열 무효는 지속·장착 카드가 코스트로 묘지로 가며 쓰는 효과에도 통한다."
+  },
+  {
+   "id": "qa-21703",
+   "fid": 21703,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=21703&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Infinite Impermanence"
+   ],
+   "handtraps": [
+    "imperm"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "세트한 [[Infinite Impermanence]]의 세로열 무효 적용 뒤, 같은 열에 상대가 패에서 마법을 새로 발동하면?",
+   "answer_ko": "그 마법의 효과도 무효가 된다. 처리 시점에 있던 카드뿐 아니라 그 뒤 그 열에서 발동한 마법도 포함된다.",
+   "impact_ko": "세트 포영은 그 턴 동안 그 열을 '마함 금지 구역'으로 만든다. 상대 메인 존 배치 위치를 노려 세트할 가치가 있다."
+  },
+  {
+   "id": "qa-12385",
+   "fid": 12385,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12385&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Effect Veiler"
+   ],
+   "handtraps": [
+    "veiler"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Effect Veiler]]가 적용된 몬스터가 뒷면이 됐다가 다시 앞면이 되면 무효가 유지되나?",
+   "answer_ko": "유지되지 않는다. 뒷면이 되면 뵐러의 적용이 끝난다.",
+   "impact_ko": "필드 무효는 뒷면·필드 이탈로 리셋된다. 포영·명왕결계파도 같은 원리."
+  },
+  {
+   "id": "qa-12332",
+   "fid": 12332,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12332&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Number 16: Shock Master",
+    "Effect Veiler"
+   ],
+   "handtraps": [
+    "veiler"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Number 16: Shock Master]]의 발동에 [[Effect Veiler]]를 체인하면 다음 턴 이후 그 봉인은?",
+   "answer_ko": "효과 처리가 무효가 되므로 봉인은 처음부터 적용되지 않는다.",
+   "impact_ko": "발동한 필드 효과에 뵐러·포영을 체인하면 그 처리 자체가 무효가 된다. 이미 끝난 처리를 되돌리지는 못한다."
+  },
+  {
+   "id": "qa-14999",
+   "fid": 14999,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=14999&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Cyber Dragon Infinity",
+    "Effect Veiler"
+   ],
+   "handtraps": [
+    "veiler"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "패에서 발동한 [[Effect Veiler]]에 [[Cyber Dragon Infinity]]의 '발동 무효 후 파괴'를 체인할 수 있나?",
+   "answer_ko": "가능하다. 뵐러의 발동은 무효가 되지만 이미 묘지에 있는 뵐러는 파괴되지 않는다.",
+   "impact_ko": "패트랩은 상대 보드의 발동 무효 효과에 그대로 무효당한다. 무효 효과를 먼저 쓰게 하는 미끼 순서가 중요하다."
+  },
+  {
+   "id": "qa-15063",
+   "fid": 15063,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=15063&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Stardust Dragon",
+    "Ghost Ogre & Snow Rabbit"
+   ],
+   "handtraps": [
+    "ogre"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "자신을 릴리스해서 발동한 [[Stardust Dragon]]의 효과에 [[Ghost Ogre & Snow Rabbit]]을 체인할 수 있나?",
+   "answer_ko": "못 한다. 스타더스트는 이미 묘지에 있어 파괴할 카드가 없으므로 토끼 효과를 발동할 수 없다.",
+   "impact_ko": "자신을 코스트로 필드에서 치우며 쓰는 효과에는 토끼를 못 쓴다. 쓰려면 그 카드가 필드에 남아 있어야 한다."
+  },
+  {
+   "id": "qa-15061",
+   "fid": 15061,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=15061&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Skill Drain",
+    "Ghost Ogre & Snow Rabbit"
+   ],
+   "handtraps": [
+    "ogre"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "[[Skill Drain]] 적용 중 필드 몬스터가 효과를 발동했을 때 [[Ghost Ogre & Snow Rabbit]]을 쓸 수 있나?",
+   "answer_ko": "쓸 수 있다. 다만 토끼가 그 몬스터를 파괴하면 처리 때 몬스터가 필드에 없어서 스킬 드레인에 무효되지 않고, 효과는 그대로 처리된다.",
+   "impact_ko": "토끼는 파괴만 하고 효과는 막지 않는다. 오히려 무효 상황을 풀어 줄 수도 있다."
+  },
+  {
+   "id": "qa-15060",
+   "fid": 15060,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=15060&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Qliphort Scout",
+    "Ghost Ogre & Snow Rabbit"
+   ],
+   "handtraps": [
+    "ogre"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "펜듈럼 존의 [[Qliphort Scout]] 펜듈럼 효과(서치)에 [[Ghost Ogre & Snow Rabbit]]을 체인할 수 있나?",
+   "answer_ko": "가능하다. 이 경우 툴이 파괴되어 서치 처리를 할 수 없다.",
+   "impact_ko": "토끼는 원칙적으로 효과를 막지 않지만, '자신이 필드에 있어야 처리되는' 효과는 파괴로 사실상 막힌다."
+  },
+  {
+   "id": "qa-15058",
+   "fid": 15058,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=15058&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dragunity Phalanx",
+    "Ghost Ogre & Snow Rabbit"
+   ],
+   "handtraps": [
+    "ogre"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "장착 카드 상태의 [[Dragunity Phalanx]]의 '장착된 이 카드를 특소' 효과에 [[Ghost Ogre & Snow Rabbit]]을 체인할 수 있나?",
+   "answer_ko": "가능하다. 팔랑크스가 파괴되어 특소 처리는 적용되지 않는다.",
+   "impact_ko": "필드에 앞면으로 있는 마함(장착 카드 포함)이 발동한 효과에도 토끼를 쓸 수 있다."
+  },
+  {
+   "id": "qa-6334",
+   "fid": 6334,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=6334&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Lavalval Chain",
+    "Ghost Ogre & Snow Rabbit",
+    "Book of Moon"
+   ],
+   "handtraps": [
+    "ogre"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "[[Ghost Ogre & Snow Rabbit]]에 체인해 대상 몬스터를 [[Book of Moon]]으로 뒷면으로 만들면?",
+   "answer_ko": "토끼는 대상을 지정하지 않으므로 뒷면이 된 그 몬스터도 파괴된다. 그래도 원래 발동한 효과는 정상 처리된다.",
+   "quote_ja": "（その場合でも、発動した「ラヴァルバル・チェイン」の効果処理は通常通り適用されます。）",
+   "impact_ko": "토끼는 비대상 파괴이고 효과를 무효로 하지 않는다는 공식 근거."
+  },
+  {
+   "id": "qa-24161",
+   "fid": 24161,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24161&request_locale=ja",
+   "official": true,
+   "cards": [
+    "S:P Little Knight",
+    "Ghost Belle & Haunted Mansion"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[S:P Little Knight]]의 제외 효과에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있나?",
+   "answer_ko": "묘지 카드를 대상으로 발동했을 때만 가능하다. 필드 카드만 대상이면 체인할 수 없다. '묘지에서 패·덱·EX로 넣기' '묘지에서 특소' '묘지 카드 제외'도 같은 방식으로 판단한다.",
+   "impact_ko": "대상 선택형 효과는 대상이 묘지일 때만 와라시 대상이다. 상대가 어디를 대상으로 했는지 보고 쓴다."
+  },
+  {
+   "id": "qa-23218",
+   "fid": 23218,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23218&request_locale=ja",
+   "official": true,
+   "cards": [
+    "K9-ØØ Lupis",
+    "Ghost Belle & Haunted Mansion"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "vanquish-soul-k9"
+   ],
+   "topic": "negate",
+   "question_ko": "'이 카드를 패·묘지에서 특소' 하는 [[K9-ØØ Lupis]]의 효과에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있나?",
+   "answer_ko": "묘지에서 발동했을 때만 가능하다. 패에서 발동했다면 '패에서 특소'로 취급해 체인할 수 없다.",
+   "impact_ko": "'패·묘지에서 자신을 특소' 하는 몬스터는 발동 위치를 보고 와라시를 쓴다."
+  },
+  {
+   "id": "qa-23215",
+   "fid": 23215,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23215&request_locale=ja",
+   "official": true,
+   "cards": [
+    "The True Light",
+    "Ghost Belle & Haunted Mansion"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "elfnote",
+    "mitsurugi"
+   ],
+   "topic": "negate",
+   "question_ko": "묘지에 해당 몬스터가 없는 상태에서 '패·묘지에서 특소' 효과가 발동되면 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있나?",
+   "answer_ko": "가능하다. 묘지에 대상 몬스터가 있는지와 관계없이 '묘지에서 특소하는 효과'를 포함하는 것으로 본다. 카드 발동이 무효가 된 지속 마함은 묘지로 가고, 이미 앞면인 카드의 효과 발동이 무효가 된 경우 카드는 필드에 남는다.",
+   "impact_ko": "선택형 '패·묘지에서 특소'는 발동 시 묘지 상황과 상관없이 와라시 대상이다."
+  },
+  {
+   "id": "qa-9826",
+   "fid": 9826,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=9826&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Maliss in Underground",
+    "Ghost Belle & Haunted Mansion"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "maliss"
+   ],
+   "topic": "negate",
+   "question_ko": "묘지에 해당 카드가 없을 때 [[Maliss in Underground]]의 발동(패·덱·묘지에서 제외)에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있나?",
+   "answer_ko": "가능하다. '묘지에서 카드를 제외하는 효과'가 포함돼 있기 때문이다.",
+   "impact_ko": "마리스 언더그라운드 발동은 와라시로 발동 자체를 끊을 수 있다."
+  },
+  {
+   "id": "qa-18784",
+   "fid": 18784,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18784&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Polymerization",
+    "Ghost Belle & Haunted Mansion"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "'묘지의 몬스터도 제외해서 융합 소재로 쓸 수 있다'가 적용 중일 때 [[Polymerization]]의 발동에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있나?",
+   "answer_ko": "못 한다. 처리 중 묘지 몬스터를 제외할 수 있더라도 융합 카드 자체의 효과에는 '묘지에서 제외'가 포함되지 않는다.",
+   "impact_ko": "와라시 대상은 다른 카드가 덧붙인 처리가 아니라 그 효과문 자체로 판단한다."
+  },
+  {
+   "id": "qa-21722",
+   "fid": 21722,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=21722&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dracotail Horn",
+    "Ghost Belle & Haunted Mansion",
+    "Bystial Magnamhut"
+   ],
+   "handtraps": [
+    "belle",
+    "magnamhut"
+   ],
+   "themes": [
+    "dracotail"
+   ],
+   "topic": "negate",
+   "question_ko": "묘지에 드래곤테일 카드가 없을 때 [[Dracotail Horn]](星辰の裂角)의 발동에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있나?",
+   "answer_ko": "가능하다. '묘지·제외 카드를 덱에 되돌리는 효과'를 포함한다. [[Bystial Magnamhut]]의 ②(덱·묘지에서 드래곤족을 패에)도 같은 목록에 있다.",
+   "impact_ko": "드래곤테일 혼은 1장 드로우 선택지 때문에 우라라 대상이기도 하고, 와라시 대상이기도 하다. 마그나무트 ②도 와라시로 끊을 수 있다."
+  },
+  {
+   "id": "qa-24264",
+   "fid": 24264,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24264&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Belle & Haunted Mansion"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "메인 몬스터 존에서 발동한 '상대 마함 전부 파괴, 이 카드가 EX 몬스터 존이면 추가로 상대 묘지 마함 제외 가능' 효과에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있나?",
+   "answer_ko": "가능하다.",
+   "impact_ko": "'○○라면 추가로 묘지 카드 제외' 같은 조건부 처리도 효과에 포함되므로 와라시 대상이다."
+  },
+  {
+   "id": "qa-22948",
+   "fid": 22948,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22948&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Mourner & Moonlit Chill",
+    "Nibiru, the Primal Being"
+   ],
+   "handtraps": [
+    "mourner",
+    "nibiru"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Ghost Mourner & Moonlit Chill]]은 통상 몬스터·토큰·공격력 0 몬스터를 대상으로 쓸 수 있나?",
+   "answer_ko": "원래 공격력이 0이나 ?가 아니거나, 효과가 무효가 아닌 효과 몬스터라면 대상으로 할 수 있다. 토큰은 그 토큰을 낸 카드에 적힌 공격력 기준이며, [[Nibiru, the Primal Being]]의 토큰(공격력 ?)은 대상으로 할 수 없다.",
+   "impact_ko": "시구레는 토큰·통상 몬스터에도 쓸 수 있는 경우가 있지만, 니비루 토큰에는 못 쓴다."
+  },
+  {
+   "id": "qa-23552",
+   "fid": 23552,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23552&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Mourner & Moonlit Chill"
+   ],
+   "handtraps": [
+    "mourner"
+   ],
+   "themes": [],
+   "topic": "damage_step",
+   "question_ko": "효과를 받지 않는 몬스터에 [[Ghost Mourner & Moonlit Chill]]을 쓴 뒤, 그 몬스터가 필드를 떠나면 데미지가 들어가나?",
+   "answer_ko": "들어간다.",
+   "impact_ko": "무효가 안 통하는 내성 몬스터라도 시구레의 번(이탈 시 데미지)은 적용된다."
+  },
+  {
+   "id": "qa-22947",
+   "fid": 22947,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22947&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Mourner & Moonlit Chill"
+   ],
+   "handtraps": [
+    "mourner"
+   ],
+   "themes": [],
+   "topic": "damage_step",
+   "question_ko": "[[Ghost Mourner & Moonlit Chill]] 적용 뒤 그 몬스터의 컨트롤이 바뀌어 필드를 떠나면 누가 데미지를 받나?",
+   "answer_ko": "떠날 때 그 몬스터를 컨트롤하던 플레이어가 받는다.",
+   "impact_ko": "시구레를 맞은 몬스터를 내가 빼앗아 처리하면 내가 데미지를 받는다."
+  },
+  {
+   "id": "qa-23637",
+   "fid": 23637,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23637&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Gunkan Suship Shari Red",
+    "Crossout Designator"
+   ],
+   "handtraps": [
+    "crossout"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "[[Crossout Designator]]로 '덱에서는 다른 이름으로 취급되는' 카드를 선언할 수 있나?",
+   "answer_ko": "못 한다. 말살의 지명자는 '자신의 덱에 있는 카드'의 카드명을 선언한다. 덱에서 다른 이름으로 취급되면 그 이름으로는 선언할 수 없다.",
+   "quote_ja": "「抹殺の指名者」を発動する際には、自分のデッキに存在するカードのカード名を宣言します。",
+   "impact_ko": "말살의 지명자는 자기 덱에 있는 카드만 선언할 수 있다는 공식 근거. 상대 테마 전용 카드에는 쓸 수 없다."
+  },
+  {
+   "id": "qa-22674",
+   "fid": 22674,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22674&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Crossout Designator",
+    "Maxx \"C\""
+   ],
+   "handtraps": [
+    "crossout",
+    "maxxc"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "상대가 내 [[Maxx \"C\"]]에 [[Crossout Designator]]를 체인했을 때, 나도 말살의 지명자를 체인하며 '말살의 지명자'를 선언할 수 있나?",
+   "answer_ko": "가능하다. 내 처리로 덱의 말살의 지명자를 제외하면 상대 말살의 지명자가 무효가 되어 증G가 정상 적용된다.",
+   "impact_ko": "말살의 지명자 대 말살의 지명자 싸움이 공식 처리로 인정된다."
+  },
+  {
+   "id": "qa-22631",
+   "fid": 22631,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22631&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Crossout Designator"
+   ],
+   "handtraps": [
+    "crossout"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "'룰상 ○○로 취급'하는 카드들의 기본 이름(예: Harpie Lady)을 [[Crossout Designator]]로 선언할 수 있나?",
+   "answer_ko": "내 덱에 그 이름의 카드가 있으면 가능하다. 그러면 원래 카드명이 같은 카드들의 효과가 턴 종료시까지 무효가 된다.",
+   "impact_ko": "선언·제외는 '자신의 덱'이 전제다."
+  },
+  {
+   "id": "qa-22671",
+   "fid": 22671,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22671&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Crossout Designator"
+   ],
+   "handtraps": [
+    "crossout"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "이미 적용된 효과의 카드를 [[Crossout Designator]]로 나중에 무효하면?",
+   "answer_ko": "이미 적용된 효과(공격력 상승 등)는 그대로다. 그 뒤 새로 발동하는 효과는 무효가 된다.",
+   "impact_ko": "말살의 지명자는 사후에 써도 이미 처리된 결과를 되돌리지 못한다. 상대 발동에 체인해서 쓰는 게 기본."
+  },
+  {
+   "id": "qa-12781",
+   "fid": 12781,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12781&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Triple Tactics Talent"
+   ],
+   "handtraps": [
+    "ttt"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "상대의 [[Triple Tactics Talent]]에 '드로우·핸드 관련 효과에 체인하는' 카드를 쓸 수 있는지는 무엇으로 정해지나?",
+   "answer_ko": "발동할 때 고른 선택지로 정해진다. 드로우나 핸드 확인을 골랐다면 체인할 수 있고, 컨트롤 탈취를 골랐다면 못 한다.",
+   "impact_ko": "삼재는 발동 시 효과를 고르므로, 상대는 고른 효과를 보고 우라라 등을 쓸지 정한다."
+  },
+  {
+   "id": "qa-24016",
+   "fid": 24016,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24016&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Triple Tactics Talent",
+    "I:P Masquerena",
+    "S:P Little Knight"
+   ],
+   "handtraps": [
+    "ttt"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "[[Triple Tactics Talent]](컨트롤 탈취)에 상대가 [[I:P Masquerena]]로 링크 소환해 대응했고, 그 몬스터를 내가 빼앗았다. 그 몬스터의 소환 유발 효과는 누가 쓰나?",
+   "answer_ko": "체인 처리 후 시점의 컨트롤러인 내가 쓸 수 있다.",
+   "impact_ko": "삼재 탈취에 대응한 퀵 링크는 오히려 내가 빼앗아 쓸 수 있다."
+  },
+  {
+   "id": "qa-8410",
+   "fid": 8410,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=8410&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Forbidden Droplet"
+   ],
+   "handtraps": [
+    "droplet"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "몬스터로 특소된 함정 카드를 코스트로 보내 [[Forbidden Droplet]]을 발동하면 상대는 무엇을 체인할 수 없나?",
+   "answer_ko": "원래 종류가 함정인 카드다. 체인 금지는 코스트로 보낸 카드의 '원래 종류(몬스터/마법/함정)' 기준이다.",
+   "impact_ko": "일적의 체인 봉쇄는 코스트 종류로 정해지므로, 막고 싶은 상대 카드 종류에 맞춰 코스트를 고른다."
+  },
+  {
+   "id": "qa-13338",
+   "fid": 13338,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=13338&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Forbidden Droplet"
+   ],
+   "handtraps": [
+    "droplet"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "이미 효과가 무효인 몬스터에 [[Forbidden Droplet]]을 적용할 수 있나?",
+   "answer_ko": "가능하다. 원래의 무효가 나중에 풀려도 일적에 의한 무효는 턴 종료시까지 남는다.",
+   "impact_ko": "임시 무효가 걸린 몬스터에도 일적을 겹쳐 두면 안전하다."
+  },
+  {
+   "id": "qa-24195",
+   "fid": 24195,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24195&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Forbidden Droplet"
+   ],
+   "handtraps": [
+    "droplet"
+   ],
+   "themes": [],
+   "topic": "cost",
+   "question_ko": "필드의 펜듈럼 몬스터 카드를 [[Forbidden Droplet]]의 코스트로 보낼 수 있나?",
+   "answer_ko": "패의 펜듈럼은 보낼 수 있지만 필드(뒷면 포함)의 펜듈럼 카드는 고를 수 없다. 묘지 대신 엑스트라 덱으로 가기 때문이다.",
+   "impact_ko": "일적 코스트 계산 시 필드의 펜듈럼 카드는 셀 수 없다."
+  },
+  {
+   "id": "qa-22804",
+   "fid": 22804,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22804&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Nibiru, the Primal Being",
+    "El Shaddoll Winda",
+    "Evilswarm Ophion"
+   ],
+   "handtraps": [
+    "nibiru"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "특소를 1턴 1번으로 제한하거나 레벨 5 이상 특소를 막는 효과가 적용 중일 때 [[Nibiru, the Primal Being]]을 쓸 수 있나?",
+   "answer_ko": "못 한다. 니비루 효과는 자신과 토큰 2번의 특소를 하는 레벨 5 이상 특소 효과다. 이 Q&A의 OCG 텍스트는 '상대가 5체 이상의 몬스터를 일반·특수 소환한 턴'이라고 적혀 있다.",
+   "quote_ja": "相手が５体以上のモンスターを召喚・特殊召喚した自分・相手ターンのメインフェイズに発動できる。",
+   "impact_ko": "니비루 조건은 소환한 '몬스터 수(5체)' 기준이다. 한 번에 여러 체를 내는 소환은 체수만큼 센다."
+  },
+  {
+   "id": "qa-22810",
+   "fid": 22810,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22810&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Nibiru, the Primal Being"
+   ],
+   "handtraps": [
+    "nibiru"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "릴리스할 수 없는 몬스터가 있을 때 [[Nibiru, the Primal Being]]을 쓸 수 있나? 하나도 릴리스하지 못하면?",
+   "answer_ko": "다른 앞면 몬스터가 있으면 쓸 수 있고, 릴리스할 수 없는 몬스터는 남는다. 처리 때 1체도 릴리스하지 못하면 니비루는 패에 남고 토큰도 나오지 않는다.",
+   "impact_ko": "니비루는 '릴리스 불가' 몬스터를 처리하지 못한다. 그런 보드에서는 그 몬스터가 남는다."
+  },
+  {
+   "id": "qa-23657",
+   "fid": 23657,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23657&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Nibiru, the Primal Being"
+   ],
+   "handtraps": [
+    "nibiru"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "[[Nibiru, the Primal Being]]으로 토큰을 릴리스하면 토큰의 원래 공·수는 얼마로 계산하나?",
+   "answer_ko": "그 토큰을 낸 카드에 적힌 수치다.",
+   "impact_ko": "니비루 토큰 수치 계산 시 토큰도 원래 수치로 더한다."
+  },
+  {
+   "id": "qa-23898",
+   "fid": 23898,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23898&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Nibiru, the Primal Being",
+    "Maxx \"C\""
+   ],
+   "handtraps": [
+    "nibiru",
+    "maxxc"
+   ],
+   "themes": [],
+   "topic": "timing",
+   "question_ko": "[[Maxx \"C\"]] 적용 중 상대 [[Nibiru, the Primal Being]]의 처리(니비루+토큰 특소)는 언제 몇 장 드로우하나?",
+   "answer_ko": "체인 블록 처리 후 바로 2장을 동시에 드로우한다.",
+   "impact_ko": "니비루로 증G 상대에게 2장을 준다."
+  },
+  {
+   "id": "qa-24123",
+   "fid": 24123,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24123&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Nibiru, the Primal Being"
+   ],
+   "handtraps": [
+    "nibiru"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "[[Nibiru, the Primal Being]]과 같은 체인에서 '이 효과를 발동한 턴 특정 몬스터만 특소 가능' 효과를 내가 쓰면?",
+   "answer_ko": "릴리스는 하지만 니비루와 토큰은 특소되지 않고 니비루는 패에 남는다.",
+   "impact_ko": "니비루 쪽 특소 제약을 미리 확인해야 한다. 릴리스만 하고 끝나는 경우가 있다."
+  },
+  {
+   "id": "qa-23933",
+   "fid": 23933,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23933&request_locale=ja",
+   "official": true,
+   "cards": [
+    "I:P Masquerena",
+    "Dominus Impulse",
+    "Kewl Tune Synchro"
+   ],
+   "handtraps": [
+    "impulse"
+   ],
+   "themes": [
+    "kewl-tune",
+    "vanquish-soul-k9"
+   ],
+   "topic": "negate",
+   "question_ko": "[[I:P Masquerena]]처럼 '링크 소환을 하는' 효과는 '몬스터를 특수 소환하는 효과'를 포함하나?",
+   "answer_ko": "포함한다. 싱크로·엑시즈·링크·펜듈럼 소환을 하는 효과도 모두 특소 효과로 본다. [[Kewl Tune Synchro]]·K9 등이 예로 명시돼 있다.",
+   "impact_ko": "퀵 싱크로·퀵 링크 효과는 [[Dominus Impulse]] 대상이다."
+  },
+  {
+   "id": "qa-24278",
+   "fid": 24278,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24278&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dominus Spark",
+    "Dominus Impulse"
+   ],
+   "handtraps": [
+    "impulse",
+    "spark"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Dominus Spark]]는 '몬스터를 특소하는 효과'를 포함하나?",
+   "answer_ko": "포함한다. 상대 묘지에 함정이 있는지나 실제로 특소할 수 있는지는 상관없다. [[Dominus Impulse]] 등을 체인할 수 있다.",
+   "impact_ko": "도미나스 스파크는 임펄스 대상이다. 상대가 스파크로 내 몬스터를 제외하려 할 때 임펄스로 받아칠 수 있다."
+  },
+  {
+   "id": "qa-24159",
+   "fid": 24159,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24159&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ketu Dracotail",
+    "Dominus Impulse"
+   ],
+   "handtraps": [
+    "impulse"
+   ],
+   "themes": [
+    "dracotail"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Ketu Dracotail]](計都星辰)의 발동에 '특소 효과를 포함한 발동' 대응 카드를 체인할 수 있나?",
+   "answer_ko": "가능하다. 필드에 몬스터가 없거나 융합 처리를 할 수 없는 상황이어도 마찬가지이며, [[Dominus Impulse]]도 명시돼 있다.",
+   "impact_ko": "드래곤테일 속공 융합 마법은 임펄스 대상이다."
+  },
+  {
+   "id": "qa-24299",
+   "fid": 24299,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24299&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dominus Impulse",
+    "Dominus Purge",
+    "Dominus Spark"
+   ],
+   "handtraps": [
+    "impulse",
+    "purge",
+    "spark"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "도미나스 함정을 패에서 쓴 뒤의 속성 제약 아래, 여러 속성을 가진 몬스터의 효과는 발동할 수 있나?",
+   "answer_ko": "못 한다. 금지된 속성을 하나라도 가지면 발동할 수 없다.",
+   "impact_ko": "도미나스 패 발동 제약은 다중 속성 몬스터에도 걸린다. 덱의 주요 속성과 맞춰 봐야 한다."
+  },
+  {
+   "id": "qa-23949",
+   "fid": 23949,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23949&request_locale=ja",
+   "official": true,
+   "cards": [
+    "PSY-Framegear Gamma",
+    "Dominus Impulse",
+    "Dominus Purge"
+   ],
+   "handtraps": [
+    "gamma",
+    "impulse",
+    "purge"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "'무효로 하고 파괴'하는 효과의 처리 때, 그 몬스터가 효과를 발동한 장소에 없으면?",
+   "answer_ko": "무효는 적용되지만 파괴는 되지 않는다(패로 돌아갔으면 패에, 필드로 나왔으면 필드에 남는다). [[PSY-Framegear Gamma]]·[[Dominus Impulse]]·[[Dominus Purge]]도 같다.",
+   "impact_ko": "패에서 발동하는 몬스터 효과를 감마·임펄스·퍼지로 무효해도 그 몬스터 자체는 파괴되지 않는다."
+  },
+  {
+   "id": "qa-23050",
+   "fid": 23050,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23050&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dominus Purge",
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "purge",
+    "ash"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "'자신 필드 카드를 최대 3장 파괴하고 특소, 그 뒤 몬스터를 파괴했으면 1장 드로우' 효과에 [[Dominus Purge]]·[[Ash Blossom & Joyous Spring]]을 체인할 수 있나?",
+   "answer_ko": "가능하다. 대상에 몬스터가 포함되는지와 상관없다.",
+   "impact_ko": "조건부 드로우가 포함된 효과도 퍼지·우라라 대상이다."
+  },
+  {
+   "id": "qa-24279",
+   "fid": 24279,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24279&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dominus Spark",
+    "Maxx \"C\""
+   ],
+   "handtraps": [
+    "spark",
+    "maxxc"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "[[Dominus Spark]] 처리로 상대가 패에서 특소하면 누가 [[Maxx \"C\"]]로 드로우하나?",
+   "answer_ko": "상대가 특소한 것이므로 나(스파크 사용자)만 드로우한다.",
+   "impact_ko": "스파크의 '상대 패에서 특소'는 상대의 특소다."
+  },
+  {
+   "id": "qa-18106",
+   "fid": 18106,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18106&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dominus Spark"
+   ],
+   "handtraps": [
+    "spark"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "상대 효과로 서로 특소할 수 없고 내 묘지에 함정이 없을 때 [[Dominus Spark]]를 발동할 수 있나?",
+   "answer_ko": "가능하다. 상대의 특소 처리는 임의이기 때문이다.",
+   "impact_ko": "특소 봉쇄 상황에서도 스파크로 제외할 수 있다."
+  },
+  {
+   "id": "qa-16820",
+   "fid": 16820,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=16820&request_locale=ja",
+   "official": true,
+   "cards": [
+    "PSY-Framegear Alpha",
+    "PSY-Framegear Delta",
+    "PSY-Framegear Gamma"
+   ],
+   "handtraps": [
+    "gamma"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "패에 PSY프레임기어가 여러 장 있으면 같은 체인에서 각각 쓸 수 있나?",
+   "answer_ko": "알파·베타처럼 유발 효과인 것은 같은 체인에서 1장만 쓸 수 있다. [[PSY-Framegear Gamma]]·델타·엡실론은 유발 효과가 아니라서 서로 같은 체인에서 쓸 수 있지만, 각각 '같은 체인에서 1번'이다.",
+   "impact_ko": "감마의 '1체인 1번'은 같은 체인에서 감마를 2번 쓸 수 없다는 뜻이다. 다른 체인이면 다시 쓸 수 있다."
+  },
+  {
+   "id": "qa-9491",
+   "fid": 9491,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=9491&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Evilswarm Ophion",
+    "PSY-Framegear Gamma"
+   ],
+   "handtraps": [
+    "gamma"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "레벨 5 이상 특소를 막는 효과가 적용 중일 때 [[PSY-Framegear Gamma]]를 쓸 수 있나?",
+   "answer_ko": "못 한다. 레벨 6인 드라이버를 특소할 수 없어 처리를 못 하므로 발동 자체가 불가능하다.",
+   "impact_ko": "감마는 드라이버까지 2체를 특소할 수 있어야 쓸 수 있다. 특소 제약 보드에서는 확인이 필요하다."
+  },
+  {
+   "id": "qa-23969",
+   "fid": 23969,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23969&request_locale=ja",
+   "official": true,
+   "cards": [
+    "PSY-Framegear Gamma"
+   ],
+   "handtraps": [
+    "gamma"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "'비 물 속성 앞면 몬스터는 필드에 1체' 같은 제약이 있을 때 [[PSY-Framegear Gamma]]를 쓸 수 있나?",
+   "answer_ko": "쓸 수 있다. 감마·드라이버를 특소하고 무효+파괴한 뒤, 룰에 따라 한쪽을 묘지로 보낸다.",
+   "impact_ko": "체수 제한형 견제는 감마를 막지 못한다."
+  },
+  {
+   "id": "qa-9097",
+   "fid": 9097,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=9097&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Evenly Matched"
+   ],
+   "handtraps": [
+    "evenly_matched"
+   ],
+   "themes": [],
+   "topic": "timing",
+   "question_ko": "내 필드가 비었고 상대 필드에 카드가 1장뿐일 때 패에서 [[Evenly Matched]]를 쓸 수 있나?",
+   "answer_ko": "못 한다. 패에서 쓰면 자신의 마함 존에 놓고 발동하므로 길항승부 자신도 내 필드 카드로 센다. 상대 필드 카드가 그보다 많아야 한다.",
+   "impact_ko": "패 길항승부는 상대 필드가 2장 이상이어야 쓸 수 있고, 처리 후 상대는 1장을 남긴다."
+  },
+  {
+   "id": "qa-21194",
+   "fid": 21194,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=21194&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Evenly Matched"
+   ],
+   "handtraps": [
+    "evenly_matched"
+   ],
+   "themes": [],
+   "topic": "timing",
+   "question_ko": "패에서 [[Evenly Matched]]를 발동하면 상대는 필드를 전부 제외해야 하나?",
+   "answer_ko": "아니다. 처리 때 내 필드에는 길항승부 1장이 있으므로 상대는 1장을 남기도록 골라 뒷면으로 제외한다.",
+   "impact_ko": "길항승부는 상대가 고른 1장을 남긴다. 남길 카드는 상대가 고른다."
+  },
+  {
+   "id": "qa-12740",
+   "fid": 12740,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12740&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Evenly Matched",
+    "Scapegoat"
+   ],
+   "handtraps": [
+    "evenly_matched"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "상대 필드에 토큰이 여러 체 있으면 [[Evenly Matched]]는 어떻게 처리하나?",
+   "answer_ko": "발동은 할 수 있지만 토큰은 뒷면으로 제외할 수 없어 남고, 토큰 이외의 카드만 제외한다.",
+   "impact_ko": "토큰을 늘어놓은 보드에는 길항승부가 덜 통한다."
+  },
+  {
+   "id": "qa-23931",
+   "fid": 23931,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23931&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Evenly Matched"
+   ],
+   "handtraps": [
+    "evenly_matched"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "'함정 효과를 받지 않는' 몬스터가 있을 때 [[Evenly Matched]]를 처리하면?",
+   "answer_ko": "상대는 그 몬스터도 고를 수 있고, 골라야 할 수도 있다. 길항승부는 플레이어에게 적용되는 효과라서 이 제외는 '효과에 의한 제외'로 취급하지 않는다.",
+   "impact_ko": "내성 몬스터가 있는 보드에도 길항승부가 통한다. 다만 무엇을 남길지는 상대가 정한다."
+  },
+  {
+   "id": "qa-21243",
+   "fid": 21243,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=21243&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Evenly Matched"
+   ],
+   "handtraps": [
+    "evenly_matched"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "'효과로 제외되지 않는' 카드가 있을 때 [[Evenly Matched]]는?",
+   "answer_ko": "그 카드도 제외 대상으로 고를 수 있다. 효과에 의한 제외가 아니기 때문이다.",
+   "impact_ko": "제외 내성도 길항승부를 막지 못한다."
+  },
+  {
+   "id": "qa-24365",
+   "fid": 24365,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24365&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Evenly Matched"
+   ],
+   "handtraps": [
+    "evenly_matched"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "상대가 패에서 [[Evenly Matched]]를 발동했을 때 '상대가 패·묘지·제외 상태의 카드 효과를 발동했을 때' 대응 효과를 체인할 수 있나?",
+   "answer_ko": "못 한다. 패에서 마함을 필드에 놓고 발동하는 것은 그 조건에 해당하지 않는다.",
+   "impact_ko": "패에서 발동한 길항승부·포영은 '패에서 발동한 효과'로 대응하는 카드에 걸리지 않는다."
+  },
+  {
+   "id": "qa-23956",
+   "fid": 23956,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23956&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dark Ruler No More",
+    "Skill Drain"
+   ],
+   "handtraps": [
+    "dark_ruler"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Dark Ruler No More]]의 처리 때 [[Skill Drain]]으로 이미 무효인 몬스터는 어떻게 되나?",
+   "answer_ko": "이미 무효인 몬스터에는 명왕결계파가 적용되지 않는다. 스킬 드레인이 사라지면 그 몬스터의 효과는 다시 적용된다. 명왕결계파로 무효가 된 몬스터는 턴 종료시까지 무효 그대로다. 무효로 만든 수와 관계없이 이후 상대가 받는 데미지는 0이다.",
+   "impact_ko": "명왕결계파는 처리 시점 앞면 몬스터를 무효로 한다. 처리 뒤 새로 나온 몬스터는 막지 못한다."
+  },
+  {
+   "id": "qa-298",
+   "fid": 298,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=298&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Gameciel, the Sea Turtle Kaiju"
+   ],
+   "handtraps": [
+    "kaiju"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "'다른 카드의 효과를 받지 않는' 상대 몬스터를 릴리스해 [[Gameciel, the Sea Turtle Kaiju]]를 특소할 수 있나?",
+   "answer_ko": "가능하다. 이 특소 방법은 상대 몬스터에 적용하는 효과가 아니다. 다른 파괴수도 같다.",
+   "impact_ko": "파괴수는 효과 내성 몬스터를 처리할 수 있다. 대상 지정도 효과 적용도 아니다."
+  },
+  {
+   "id": "qa-11566",
+   "fid": 11566,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11566&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Gameciel, the Sea Turtle Kaiju"
+   ],
+   "handtraps": [
+    "kaiju"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "[[Gameciel, the Sea Turtle Kaiju]]의 특소 방법으로 릴리스된 상대 몬스터는 '효과로 릴리스된' 취급인가?",
+   "answer_ko": "아니다. 그래서 '상대 효과로 필드를 떠났을 때' 발동하는 효과는 발동하지 않는다.",
+   "impact_ko": "파괴수 릴리스에는 '상대 효과로 떠났을 때' 유발이 걸리지 않는다."
+  },
+  {
+   "id": "qa-20733",
+   "fid": 20733,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=20733&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Gameciel, the Sea Turtle Kaiju"
+   ],
+   "handtraps": [
+    "kaiju"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "상대 EX 몬스터 존의 몬스터를 릴리스해 [[Gameciel, the Sea Turtle Kaiju]]를 특소할 수 있나?",
+   "answer_ko": "가능하다. 다만 파괴수는 상대 메인 몬스터 존에 나오므로 그곳에 빈칸이 없으면 EX 존 몬스터를 릴리스할 수 없다.",
+   "impact_ko": "상대 메인 존이 꽉 찬 보드에서는 메인 존의 몬스터만 파괴수로 처리할 수 있다."
+  },
+  {
+   "id": "qa-6",
+   "fid": 6,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=6&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Kumongous, the Sticky String Kaiju"
+   ],
+   "handtraps": [
+    "kaiju"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "상대 마함 존에 파괴수가 앞면으로 있을 때 상대 몬스터 존에 파괴수를 특소할 수 있나?",
+   "answer_ko": "가능하다. 파괴수는 서로의 몬스터 존에 각 1체만 있을 수 있으며, 상대 몬스터 존에 파괴수가 없으면 된다.",
+   "impact_ko": "파괴수 1체 제한은 몬스터 존 기준이다."
+  },
+  {
+   "id": "qa-6383",
+   "fid": 6383,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=6383&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Gameciel, the Sea Turtle Kaiju"
+   ],
+   "handtraps": [
+    "kaiju"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "[[Gameciel, the Sea Turtle Kaiju]]의 무효 효과는 1턴에 여러 번 쓸 수 있나?",
+   "answer_ko": "파괴수 카운터를 2개씩 제거할 수 있으면 여러 번 쓸 수 있다.",
+   "impact_ko": "상대 필드에 낸 가메시엘은 상대가 조종하므로, 필드에 카운터가 2개 이상 쌓이면 상대가 내 발동을 무효로 할 수 있다."
+  },
+  {
+   "id": "qa-19928",
+   "fid": 19928,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=19928&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Interrupted Kaiju Slumber"
+   ],
+   "handtraps": [
+    "kaiju_slumber"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "필드에 이미 파괴수가 있을 때 [[Interrupted Kaiju Slumber]]를 발동할 수 있나?",
+   "answer_ko": "가능하다. 전부 파괴하고 덱에서 파괴수 2체를 1체씩 특소한다.",
+   "impact_ko": "기존 파괴수가 있어도 쓸 수 있다."
+  },
+  {
+   "id": "qa-19891",
+   "fid": 19891,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=19891&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Interrupted Kaiju Slumber",
+    "Forbidden Lance"
+   ],
+   "handtraps": [
+    "kaiju_slumber"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "[[Interrupted Kaiju Slumber]]에 체인해 파괴수가 마법 효과를 받지 않게 되어 파괴되지 않으면?",
+   "answer_ko": "파괴는 하지만 필드에 파괴수가 남아 있으면 그 뒤의 파괴수 특소는 하지 않는다.",
+   "impact_ko": "파괴 내성 파괴수가 남으면 잠의 후반 처리가 사라진다."
+  },
+  {
+   "id": "qa-18851",
+   "fid": 18851,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18851&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Cosmic Cyclone",
+    "Mystical Space Typhoon"
+   ],
+   "handtraps": [
+    "cosmic",
+    "mst"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "[[Cosmic Cyclone]]의 대상이 된 세트 카드가 체인해서 발동되면?",
+   "answer_ko": "그 카드의 효과는 정상 처리되지만 카드는 필드에 있으므로 코즈믹 싸이크론이 그대로 제외한다.",
+   "impact_ko": "대상이 된 세트 카드를 체인해 써도 효과는 처리되지만, 그 카드는 묘지가 아니라 제외된다."
+  },
+  {
+   "id": "qa-111",
+   "fid": 111,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=111&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Swords of Revealing Light",
+    "Mystical Space Typhoon"
+   ],
+   "handtraps": [
+    "mst"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "지속 마법의 카드 발동에 [[Mystical Space Typhoon]]을 체인해 파괴하면?",
+   "answer_ko": "발동 시 효과 처리는 정상 적용되지만, 필드에 있는 동안만 적용되는 지속 효과는 적용되지 않는다.",
+   "impact_ko": "지속 마함의 발동에 싸이크론을 체인하면 지속 효과를 지울 수 있다. 발동 시 처리(서치 등)는 막지 못한다."
+  },
+  {
+   "id": "qa-10824",
+   "fid": 10824,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=10824&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Super Polymerization"
+   ],
+   "handtraps": [
+    "super_poly"
+   ],
+   "themes": [],
+   "topic": "chain",
+   "question_ko": "[[Super Polymerization]]의 발동에 카운터 함정을 체인할 수 있나?",
+   "answer_ko": "못 한다. 마법·함정·몬스터 효과 등 어떤 카드나 효과도 체인할 수 없다.",
+   "quote_ja": "いかなるカードや効果もチェーンして発動する事はできません。",
+   "impact_ko": "초융합은 카운터 함정을 포함해 어떤 대응도 받지 않는다."
+  },
+  {
+   "id": "qa-23510",
+   "fid": 23510,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23510&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Super Polymerization"
+   ],
+   "handtraps": [
+    "super_poly"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "상대 몬스터가 '효과를 받지 않는' 상태라 소재 조합이 없으면 [[Super Polymerization]]을 발동할 수 있나?",
+   "answer_ko": "못 한다. 소재로 쓸 수 있는 조합이 하나라도 있어야 발동할 수 있다.",
+   "impact_ko": "효과 내성 몬스터는 초융합 소재가 될 수 없다. 엑스트라 덱의 융합 몬스터와 소재를 미리 맞춰야 한다."
+  },
+  {
+   "id": "qa-20055",
+   "fid": 20055,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=20055&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Super Polymerization"
+   ],
+   "handtraps": [
+    "super_poly"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "'융합 소재로 할 수 없는' 지속 효과를 가진 몬스터를 [[Super Polymerization]]으로 소재로 쓸 수 있나?",
+   "answer_ko": "못 한다.",
+   "impact_ko": "소재 불가 몬스터는 초융합으로도 처리할 수 없다."
+  },
+  {
+   "id": "qa-12768",
+   "fid": 12768,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12768&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Super Polymerization"
+   ],
+   "handtraps": [
+    "super_poly"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "[[Super Polymerization]]으로 상대의 '융합 소재 대체' 몬스터를 소재로 쓸 수 있나?",
+   "answer_ko": "가능하다. 대체 효과도 적용된다.",
+   "impact_ko": "초융합은 상대 몬스터의 소재 효과도 그대로 쓴다."
+  },
+  {
+   "id": "qa-7654",
+   "fid": 7654,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=7654&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Book of Eclipse"
+   ],
+   "handtraps": [
+    "book_eclipse"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "필드 몬스터가 토큰뿐이면 [[Book of Eclipse]]를 발동할 수 있나? 토큰이 섞여 있으면?",
+   "answer_ko": "토큰뿐이면 발동할 수 없다. 섞여 있으면 토큰은 앞면 그대로 남는다.",
+   "impact_ko": "토큰은 개기일식으로 뒷면이 되지 않는다."
+  },
+  {
+   "id": "qa-7436",
+   "fid": 7436,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=7436&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Book of Eclipse"
+   ],
+   "handtraps": [
+    "book_eclipse"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "[[Book of Eclipse]] 적용 뒤에 세트된 상대 몬스터도 엔드 페이즈에 앞면이 되나? 그만큼 드로우하나?",
+   "answer_ko": "앞면이 되고, 그만큼 상대가 드로우한다.",
+   "impact_ko": "개기일식 이후 상대가 세트한 몬스터도 상대 드로우 수에 들어간다."
+  },
+  {
+   "id": "qa-23635",
+   "fid": 23635,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23635&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Kurikara Divincarnate"
+   ],
+   "handtraps": [
+    "kurikara"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "이번 턴 상대 몬스터 존에서 효과를 발동한 몬스터 중 일부만 릴리스해서 [[Kurikara Divincarnate]]를 특소할 수 있나?",
+   "answer_ko": "못 한다. 조건에 맞는 몬스터는 내 필드에 있는 것까지 전부 릴리스해야 한다.",
+   "impact_ko": "쿠리카라는 조건에 맞는 몬스터 전부를 쓸어 간다(골라서 남길 수 없다)."
+  },
+  {
+   "id": "qa-23638",
+   "fid": 23638,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23638&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Kurikara Divincarnate"
+   ],
+   "handtraps": [
+    "kurikara"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "몬스터로 특소된 함정 카드도 [[Kurikara Divincarnate]]로 릴리스할 수 있나?",
+   "answer_ko": "이번 턴 상대 몬스터 존에서 몬스터 효과를 발동했다면 가능하며, 공격력 상승에도 포함된다.",
+   "impact_ko": "함정 몬스터도 효과를 썼다면 쿠리카라 대상이다."
+  },
+  {
+   "id": "qa-24286",
+   "fid": 24286,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24286&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Fydraulis Harmonia"
+   ],
+   "handtraps": [
+    "harmonia"
+   ],
+   "themes": [],
+   "topic": "misc",
+   "question_ko": "싱크로 6체를 공개해 [[Fydraulis Harmonia]] 효과를 발동한 뒤 처리 때 이 카드가 패에 없으면?",
+   "answer_ko": "자신 특소는 하지 않지만, 싱크로 1체 묘지 보내기와 상대 몬스터 1체 파괴는 텍스트대로 한다.",
+   "impact_ko": "하르모니아는 패에서 사라져도 파괴는 처리된다."
+  }
+ ]
+}

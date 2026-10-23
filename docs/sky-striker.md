@@ -97,7 +97,7 @@
 | 2 | 섬도희－레이 (Sky Striker Ace - Raye) | 퀵 효과: 자신을 릴리스(코스트)하고 엑스트라 덱의 섬도희 1장을 엑스트라 몬스터 존에 특소 | 섬도희＝제로 (Sky Striker Ace = Zero) 특소 | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 | 3 | 섬도희＝제로 (Sky Striker Ace = Zero) | 특소 성공 시 효과: 덱·묘지에서 섬도 마법 1장을 패에 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
 | 4 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 메인 몬스터 존이 비었으므로 발동: 덱에서 섬도 카드 서치 (묘지 마법 3장 이상이면 1드로우) | 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor) / 2번째 섬도희－레이 (Sky Striker Ace - Raye) 등 | 우라라, 드롤, 도미나스 퍼지 |
-| 5 | 욕망과 탐욕의 항아리 (Pot of Desires) | (채용 시) 덱 위 10장을 뒷면 제외하고 2드로우 |  | 드롤 |
+| 5 | 욕망과 탐욕의 항아리 (Pot of Desires) | (채용 시) 덱 위 10장을 뒷면 제외하고 2드로우 |  | 우라라, 드롤 |
 | 6 | 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor) | 속공 마법들을 세트하고 턴 종료 | 섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)·섬도아식－렘니스게이트 (Sky Striker Special Maneuver - Lemnisgate!)·The Fallen & The Virtuous (The Fallen & The Virtuous) 등 함께 세트 | – |
 
 **최종 필드 / 견제**: 섬도희＝제로 (Sky Striker Ace = Zero), 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor), 섬도기동－링케이지 (Sky Striker Mobilize - Linkage!), The Fallen & The Virtuous (The Fallen & The Virtuous)

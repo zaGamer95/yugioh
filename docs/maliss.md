@@ -113,7 +113,7 @@
 | 13 | 사이버스 위키드 (Cyberse Wicckid) | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) + M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 14 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) | 패에서 퀵 효과: 묘지의 M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)를 제외하고 자신을 사이버스 위키드 (Cyberse Wicckid)의 링크처에 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 | 15 | 사이버스 위키드 (Cyberse Wicckid) | 링크처 특소에 반응: 묘지의 사이버스 1장을 제외하고 덱에서 사이버스 튜너 서치 | 백업＠이그니스터 (Backup @Ignister) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 16 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 제외된 경우의 효과: 900LP를 내고 자신을 특소, 1장 드로우 |  | 증G, 드롤, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 16 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 제외된 경우의 효과: 900LP를 내고 자신을 특소, 1장 드로우 |  | 우라라, 증G, 드롤, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 17 | 백업＠이그니스터 (Backup @Ignister) | 엑스트라에서 특소된 사이버스가 있으므로 패에서 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 18 | 백업＠이그니스터 (Backup @Ignister) | 소환 시 효과: 덱에서 어둠 사이버스 1장 서치 후 패 1장 버림 | 위저드＠이그니스터 (Wizard @Ignister) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
 | 19 | 위저드＠이그니스터 (Wizard @Ignister) | 패에서 효과: 묘지의 어둠 사이버스 1장과 함께 수비 특소 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) 등 소생 | 증G, 푸루리아, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |

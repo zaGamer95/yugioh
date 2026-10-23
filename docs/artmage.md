@@ -116,7 +116,7 @@
 | 8 | 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis) | 각성을 버리고 다른 이름 선언해 서치 | 아르토메기아 리테라 (Artmage Litera) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
 | 9 | 아르토메기아 리테라 (Artmage Litera) | 패에서 자신 특소 + 묘지의 아르토메기아 카드 회수 | 아르토메기아 메세나 －각성－ (Artmage Pact -Awakening-) 회수 | 증G, 푸루리아, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 마그나무트, 감마 |
 | 10 | 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis) | 각성을 다시 버리고 서치 | 아르토메기아 파인멜트 (Artmage Finmel) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
-| 11 | 아르토메기아 파인멜트 (Artmage Finmel) | 패에서 자신 특소 + 1드로우 |  | 증G, 푸루리아, 드롤, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 11 | 아르토메기아 파인멜트 (Artmage Finmel) | 패에서 자신 특소 + 1드로우 |  | 우라라, 증G, 푸루리아, 드롤, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 
 **최종 필드 / 견제**: 아르토메기아 디아크트로스 (Artmage Diactorus), 아르토메기아 그라플레어 (Artmage Graflare), 아르토메기아 리테라 (Artmage Litera), 아르토메기아 파인멜트 (Artmage Finmel), 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis)
 

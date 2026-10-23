@@ -107,11 +107,11 @@
 | 9 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) | ①: 덱·엑덱에서 크라운 클랜 1장 특소 | 덱에서 크라운 클랜 플레어 (Clown Crew Flair) 특소 | 우라라, 증G, 후와로스, 유령토끼, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 10 | 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme) | 발동: 덱·엑덱에서 크라운 클랜 2장 소환 조건 무시 특소 | 크라운 클랜 디아볼로 (Clown Crew Diabolo) + 크라운 클랜 메테오 (Clown Crew Meteor) (이 시점이 통산 5번째 소환) | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 11 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) | 디아볼로·메테오 2장을 릴리스해 어드밴스 소환 |  | 푸루리아, 니비루 |
-| 12 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) | 어드밴스 소환 성공 유발: 릴리스 수만큼 드로우(메테오·디아볼로 유발이 체인으로 같이 올라감) | 2장 드로우 | 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 12 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) | 어드밴스 소환 성공 유발: 릴리스 수만큼 드로우(메테오·디아볼로 유발이 체인으로 같이 올라감) | 2장 드로우 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 13 | 크라운 클랜 메테오 (Clown Crew Meteor) | 릴리스된 유발 효과: 묘지의 크라운 클랜 1장 회수 | 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme) 회수 | 와라시, 도미나스 스파크, 마그나무트, 감마 |
 | 14 | 크라운 클랜 디아볼로 (Clown Crew Diabolo) | 릴리스된 유발 효과: 덱에서 크라운 클랜 함정 1장 세트 | 크라운 클랜 『스와레』 (Clown Crew Soiree Operations) 세트 | 도미나스 스파크, 감마 |
 | 15 | 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme) | 회수한 말라바리즘을 세트 |  | – |
-| 16 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) | 엔드 페이즈: 이번 턴 릴리스한 몬스터 종류 수만큼 드로우, 마함 1장 세트 | 펜듈럼·엑시즈·융합·싱크로 = 4장 드로우 | 드롤, 유령토끼 |
+| 16 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) | 엔드 페이즈: 이번 턴 릴리스한 몬스터 종류 수만큼 드로우, 마함 1장 세트 | 펜듈럼·엑시즈·융합·싱크로 = 4장 드로우 | 우라라, 드롤, 유령토끼 |
 
 **최종 필드 / 견제**: 크라운 클랜 화이트페이스 (Clown Crew Biancaviso), 크라운 클랜 플레어 (Clown Crew Flair), 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics), 크라운 클랜 『스와레』 (Clown Crew Soiree Operations), 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme)
 
@@ -129,14 +129,14 @@
 | 2 | 크라운 클랜 『리허설』 (Clown Crew Rehearsal) | 발동(코스트로 패의 플레어 릴리스): 바이앙카비소 + 크라운 클랜 마함 서치 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) + 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme) | 우라라, 드롤, 도미나스 퍼지 |
 | 3 | 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme) | 발동: 엑덱에서 크라운 클랜 2장 소환 조건 무시 특소 | 크라운 클랜 메테오 (Clown Crew Meteor) + 크라운 클랜 데블즈 (Clown Crew Fiends) | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 4 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) | 메테오·데빌즈를 릴리스해 어드밴스 소환 |  | 푸루리아, 니비루 |
-| 5 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) | 어드밴스 소환 성공 유발: 2장 드로우(데빌즈·메테오 유발 체인) | 2장 드로우 | 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 5 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) | 어드밴스 소환 성공 유발: 2장 드로우(데빌즈·메테오 유발 체인) | 2장 드로우 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 6 | 크라운 클랜 데블즈 (Clown Crew Fiends) | 릴리스된 유발 효과: 덱에서 크라운 클랜 마법 세트 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) 세트 | 도미나스 스파크, 감마 |
 | 7 | 크라운 클랜 메테오 (Clown Crew Meteor) | 릴리스된 유발 효과: 묘지의 크라운 클랜 1장 회수 | 크라운 클랜 플레어 (Clown Crew Flair) 회수 | 와라시, 도미나스 스파크, 마그나무트, 감마 |
 | 8 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) | 세트한 지속 마법을 발동 |  | – |
 | 9 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) | ①: 덱·엑덱에서 크라운 클랜 1장 특소 | 크라운 클랜 디아볼로 (Clown Crew Diabolo) 특소 | 우라라, 증G, 후와로스, 유령토끼, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 10 | 크라운 클랜 『리허설』 (Clown Crew Rehearsal) | 묘지의 자신을 제외: 디아볼로를 릴리스해 패의 플레어를 의식 소환 | 크라운 클랜 플레어 (Clown Crew Flair) 의식 소환 (통산 5번째 소환) | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 11 | 크라운 클랜 디아볼로 (Clown Crew Diabolo) | 릴리스된 유발 효과: 덱에서 크라운 클랜 함정 세트 | 크라운 클랜 『스와레』 (Clown Crew Soiree Operations) 세트 | 도미나스 스파크, 감마 |
-| 12 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) | 엔드 페이즈: 릴리스한 종류 수만큼 드로우 | 의식·싱크로·엑시즈·융합 = 최대 4장 | 드롤, 유령토끼 |
+| 12 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) | 엔드 페이즈: 릴리스한 종류 수만큼 드로우 | 의식·싱크로·엑시즈·융합 = 최대 4장 | 우라라, 드롤, 유령토끼 |
 
 **최종 필드 / 견제**: 크라운 클랜 화이트페이스 (Clown Crew Biancaviso), 크라운 클랜 플레어 (Clown Crew Flair), 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics), 크라운 클랜 『스와레』 (Clown Crew Soiree Operations)
 
@@ -153,12 +153,12 @@
 | 1 | 크라운 클랜 『리허설』 (Clown Crew Rehearsal) | 발동(코스트로 패의 몬스터 릴리스): 바이앙카비소 + 크라운 클랜 마함 서치 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) + 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme) | 우라라, 드롤, 도미나스 퍼지 |
 | 2 | 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme) | 발동: 엑덱에서 크라운 클랜 2장 소환 조건 무시 특소 | 크라운 클랜 디아볼로 (Clown Crew Diabolo) + 크라운 클랜 데블즈 (Clown Crew Fiends) | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 3 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) | 디아볼로·데빌즈를 릴리스해 어드밴스 소환 |  | 푸루리아, 니비루 |
-| 4 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) | 어드밴스 소환 성공 유발: 2장 드로우 | 2장 드로우 | 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 4 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) | 어드밴스 소환 성공 유발: 2장 드로우 | 2장 드로우 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 5 | 크라운 클랜 디아볼로 (Clown Crew Diabolo) | 릴리스된 유발 효과: 덱에서 크라운 클랜 함정 세트 | 크라운 클랜 『스와레』 (Clown Crew Soiree Operations) 세트 | 도미나스 스파크, 감마 |
 | 6 | 크라운 클랜 데블즈 (Clown Crew Fiends) | 릴리스된 유발 효과: 덱에서 크라운 클랜 마법 세트 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) 세트 | 도미나스 스파크, 감마 |
 | 7 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) | 세트한 지속 마법을 발동 |  | – |
 | 8 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) | ①: 엑덱에서 크라운 클랜 1장 특소 | 크라운 클랜 메테오 (Clown Crew Meteor) 특소 (상대 턴 어드밴스 소환에 체인 불가 부여) | 우라라, 증G, 후와로스, 유령토끼, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 9 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) | 엔드 페이즈: 릴리스한 종류 수만큼 드로우 | 융합·엑시즈 = 2장 (코스트 몬스터가 의식·펜듈럼이면 +1) | 드롤, 유령토끼 |
+| 9 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) | 엔드 페이즈: 릴리스한 종류 수만큼 드로우 | 융합·엑시즈 = 2장 (코스트 몬스터가 의식·펜듈럼이면 +1) | 우라라, 드롤, 유령토끼 |
 
 **최종 필드 / 견제**: 크라운 클랜 화이트페이스 (Clown Crew Biancaviso), 크라운 클랜 메테오 (Clown Crew Meteor), 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics), 크라운 클랜 『스와레』 (Clown Crew Soiree Operations)
 

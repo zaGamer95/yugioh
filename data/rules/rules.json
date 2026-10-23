@@ -1,0 +1,1053 @@
+{
+ "sources": {
+  "rulebook-jp": {
+   "title": "遊戯王OCG 公式ルールブック マスタールール（2020年4月1日改訂版）対応 ver1.0",
+   "url": "https://www.yugioh-card.com/japan/howto/data/rulebook_masterrule20200401_ver1.0.pdf",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "howto-jp": {
+   "title": "遊戯王OCG あそびかた（カードの置き方・公式ルールブック）",
+   "url": "https://www.yugioh-card.com/japan/howto/",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "masterrule2020-jp": {
+   "title": "マスタールール（2020年4月1日改訂版）の概要・ルールQ&A",
+   "url": "https://www.yugioh-card.com/japan/howto/masterrule2020/",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "rulebook-en": {
+   "title": "Yu-Gi-Oh! TRADING CARD GAME Official Rulebook Version 10",
+   "url": "https://www.yugioh-card.com/en/downloads/rulebook/SD_RuleBook_EN_10.pdf",
+   "publisher": "KONAMI",
+   "lang": "en"
+  },
+  "fast-effect-timing-en": {
+   "title": "Fast Effect Timing (Advanced Rules Information)",
+   "url": "https://www.yugioh-card.com/en/play/fast-effect-timing/",
+   "publisher": "KONAMI",
+   "lang": "en"
+  },
+  "rules-update-2021-en": {
+   "title": "2021 Rules Update",
+   "url": "https://www.yugioh-card.com/en/play/2021_rules_update/",
+   "publisher": "KONAMI",
+   "lang": "en"
+  },
+  "card-lucina": {
+   "title": "カードデータベース: 耀聖の花詩ルキナ (Elfnote Lucina)",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=22116&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "card-dominus-impulse": {
+   "title": "カードデータベース: 霊王の波動 (Dominus Impulse)",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=20555&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "card-imperm": {
+   "title": "カードデータベース: 無限泡影 (Infinite Impermanence)",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=13631&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "card-evenly": {
+   "title": "カードデータベース: 拮抗勝負 (Evenly Matched)",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=13293&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "card-droll": {
+   "title": "カードデータベース: ドロール＆ロックバード (Droll & Lock Bird)",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=9279&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "card-dark-ruler": {
+   "title": "カードデータベース: 冥王結界波 (Dark Ruler No More)",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=14742&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "card-veiler": {
+   "title": "カードデータベース: エフェクト・ヴェーラー (Effect Veiler)",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=8933&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-24174": {
+   "title": "OCG Q&A: 同じタイミングで発動する/できる効果が複数存在する場合のチェーンの組み方",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24174&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-23948": {
+   "title": "OCG Q&A: 手札で公開されているモンスターの誘発効果と相手のクイックエフェクトの順番",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23948&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-23105": {
+   "title": "OCG Q&A: コストとして捨てられた「灰流うらら」と「魔轟神アンドレイス」",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23105&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-11507": {
+   "title": "OCG Q&A: 「妨げられた壊獣の眠り」に「灰流うらら」をチェーンできるか",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11507&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-24096": {
+   "title": "OCG Q&A: 特殊召喚を無効にする効果に「PSYフレームギア・γ」を発動できるか",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24096&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-23933": {
+   "title": "OCG Q&A: S・X・L・P召喚を行う効果は『モンスターを特殊召喚する効果』を含むか",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23933&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-8398": {
+   "title": "OCG Q&A: 「無限泡影」はモンスターゾーンに存在しないモンスターの効果を無効にできるか",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=8398&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-12385": {
+   "title": "OCG Q&A: 「エフェクト・ヴェーラー」適用後に裏側表示になったモンスター",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12385&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-23931": {
+   "title": "OCG Q&A: 「拮抗勝負」の処理時、罠の効果を受けないモンスターはどうなるか",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23931&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-21194": {
+   "title": "OCG Q&A: 手札から発動した「拮抗勝負」の処理",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=21194&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-12797": {
+   "title": "OCG Q&A: 「ドロール＆ロックバード」適用ターンの「増殖するG」",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12797&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-12854": {
+   "title": "OCG Q&A: 「ドロール＆ロックバード」適用ターンの「手札抹殺」",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12854&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-6173": {
+   "title": "OCG Q&A: 相手フィールドへの特殊召喚と「増殖するG」",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=6173&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-23793": {
+   "title": "OCG Q&A: 「魔導書の神判」に「灰流うらら」を発動できるか（エンドフェイズに処理する効果）",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23793&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-298": {
+   "title": "OCG Q&A: 「海亀壊獣ガメシエル」の①の方法で効果を受けないモンスターをリリースできるか",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=298&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-11566": {
+   "title": "OCG Q&A: 「海亀壊獣ガメシエル」の①の方法でリリースされたモンスターは効果でリリースされた扱いか",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11566&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-22542": {
+   "title": "OCG Q&A: ドローする効果に「灰流うらら」を発動できるか",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22542&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-7813": {
+   "title": "OCG Q&A: 発動が無効になったモンスター効果も回数に数えるか（カリギュラ・マルチャミー）",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=7813&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-17377": {
+   "title": "OCG Q&A: 発動が無効になったカードの1ターンに1度",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=17377&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-11640": {
+   "title": "OCG Q&A: 「増殖するG」のドローのタイミング",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11640&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-23898": {
+   "title": "OCG Q&A: 「増殖するG」適用中の「原始生命態ニビル」の処理とドロー",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23898&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-23617": {
+   "title": "OCG Q&A: 『相手が発動した効果を受けない』モンスターを対象にした効果",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23617&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-24238": {
+   "title": "OCG Q&A: 対象に取った後で『対象にできない』状態になった場合",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24238&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-8410": {
+   "title": "OCG Q&A: 「禁じられた一滴」の発動にチェーンできなくなるカード",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=8410&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-22886": {
+   "title": "OCG Q&A: 「クロシープ」の効果に「灰流うらら」等をチェーンできるか",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22886&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-14999": {
+   "title": "OCG Q&A: 手札・墓地で発動した効果の発動を『無効にし破壊する』場合",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=14999&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-23949": {
+   "title": "OCG Q&A: 『無効にし破壊する』処理時に発動場所にいないモンスター",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23949&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-24277": {
+   "title": "OCG Q&A: 発動が無効になり墓地へ送られた魔法・罠はフィールドから墓地へ送られた扱いか",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24277&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-19644": {
+   "title": "OCG Q&A: 裏側表示で除外されているモンスターを対象にできるか（大欲な壺）",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=19644&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  },
+  "qa-17783": {
+   "title": "OCG Q&A: 裏側表示で除外されているカードを対象にできるか（DDリビルド）",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=17783&request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rules": [
+  {
+   "id": "chain-basics",
+   "category": "chain",
+   "title_ko": "체인 만들기와 역순 처리",
+   "body_ko": "카드나 효과가 발동하면 상대에게는 항상 그 발동에 체인할 기회가 주어진다. 상대가 체인하면 다시 내가 체인할 수 있고, 상대가 체인하지 않으면 내가 내 발동에 이어서 체인할 수도 있다. 양쪽이 더 이상 체인하지 않으면 마지막으로 발동한 체인부터 거꾸로(체인 N → 체인 1) 처리한다. 처리를 시작하기 전에 상대가 체인할지 반드시 확인해야 한다.",
+   "handtrap_ko": "패트랩은 대부분 상대 효과의 '발동에 체인'해서 쓰므로 상대 효과보다 먼저 처리된다. 예를 들어 서치 효과(체인 1)에 [[Ash Blossom & Joyous Spring]](체인 2)를 체인하면 우라라가 먼저 처리되어 서치가 무효가 된다. 반대로 상대가 우라라 위에 다시 체인하면(체인 3) 그쪽이 가장 먼저 처리된다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "中級編「チェーンとスペルスピード」「チェーンのしくみ」p.58-59"
+    },
+    {
+     "id": "rulebook-en",
+     "locator": "Battles and Chains: Chains and Spell Speed / How a Chain Works p.44-47"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "spell-speed",
+   "category": "spell_speed",
+   "title_ko": "스펠 스피드 1·2·3과 체인할 수 있는 조건",
+   "body_ko": "스펠 스피드 1: 일반·장착·지속·필드·의식 마법, 몬스터의 기동·유발 효과. 다른 발동에 체인할 수 없고 보통 체인 1에만 온다. 스펠 스피드 2: 속공 마법, 일반·지속 함정, 몬스터의 유발즉시 효과(퀵 이펙트). 스펠 스피드 1·2에 체인할 수 있다. 스펠 스피드 3: 카운터 함정뿐이며, 여기에는 스펠 스피드 3으로만 체인할 수 있다. 체인하려면 스펠 스피드가 2 이상이면서 직전 체인 이상이어야 한다.",
+   "handtrap_ko": "[[Ash Blossom & Joyous Spring]]·[[Effect Veiler]]·[[Maxx \"C\"]] 같은 패 몬스터 효과는 퀵 이펙트라 스펠 스피드 2이고, [[Infinite Impermanence]]·[[Dominus Impulse]]는 일반 함정이라 역시 2다. 그래서 상대의 기동·유발 효과나 속공 마법에는 체인할 수 있지만, 카운터 함정(스펠 스피드 3)의 발동에는 체인할 수 없다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "中級編「スペルスピード一覧」p.60"
+    },
+    {
+     "id": "rulebook-en",
+     "locator": "Spell Speeds p.44-45"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "not-activations",
+   "category": "chain",
+   "title_ko": "체인할 수 없는 행동: 소환·코스트·페이즈 이동",
+   "body_ko": "체인은 카드나 효과의 '발동'에만 만들 수 있다. 몬스터의 각종 소환(일반·특수·싱크로·링크 등), 릴리스, 표시 형식 변경, 코스트 지불, 페이즈의 시작·종료 선언은 효과의 발동이 아니므로 여기에 체인해서 무언가를 할 수 없다.",
+   "handtrap_ko": "링크 소환이나 룰 특수 소환 자체에는 [[Ash Blossom & Joyous Spring]]·[[Infinite Impermanence]]를 '체인'할 수 없다. 패트랩은 그 소환 뒤에 나오는 효과의 발동에 맞추거나, 턴 플레이어가 우선권을 넘길 때 쓴다. 소환 자체를 막으려면 소환을 무효로 하는 카운터 함정류가 필요하다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編「効果の発動と基本的なチェーンの仕方について」p.67"
+    },
+    {
+     "id": "rulebook-en",
+     "locator": "Other Rules: Actions which cannot be Chained to p.51"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "turn-player-priority",
+   "category": "timing",
+   "title_ko": "턴 플레이어의 우선권 (메인 페이즈는 턴 플레이어가 먼저)",
+   "body_ko": "각 페이즈·스텝에서 가장 먼저 카드를 발동할 권리(우선권)는 항상 턴 플레이어에게 있다. 턴 플레이어가 우선권을 가진 동안 상대는 유발 효과처럼 자동으로 발동하는 효과 외에는 발동할 수 없다. 카드가 발동하거나, 턴 플레이어가 페이즈·스텝을 넘기겠다고 선언하면 우선권이 상대에게 넘어간다. 그래서 상대는 '그 페이즈가 끝나기 전에' 카드를 발동할 수 있다.",
+   "handtrap_ko": "내 턴이 아니라면 상대가 메인 페이즈에 들어서자마자 먼저 패트랩을 꽂을 수는 없다. 상대의 첫 발동에 체인하거나, 상대가 페이즈를 넘기며 우선권을 넘길 때 써야 한다. 그래서 '체인 없이 나오는 룰 특수 소환'(엘펜노츠 등)에는 [[Maxx \"C\"]]를 미리(스탠바이 페이즈 종료 전) 쓰거나 첫 효과 발동에 체인하는 수밖에 없다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編「ターンプレイヤーの優先権」p.71-72"
+    },
+    {
+     "id": "rulebook-en",
+     "locator": "TURN PLAYER'S PRIORITY p.48"
+    },
+    {
+     "id": "fast-effect-timing-en",
+     "locator": "Turn Player Actions / chart A-D"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "simultaneous-triggers",
+   "category": "timing",
+   "title_ko": "같은 타이밍에 여러 효과가 발동할 때 (SEGOC·OCG 우선도)",
+   "body_ko": "룰북의 기본: 같은 타이밍에 여러 효과가 발동하면 턴 플레이어의 효과부터 체인을 쌓고, 그 위에 상대 효과를 쌓는다(TCG 룰북은 턴 플레이어 강제 → 상대 강제 → 턴 플레이어 임의 → 상대 임의 순서로 적는다). OCG 공식 Q&A는 이를 3단계 우선도로 정리한다. 우선도 1은 반드시 발동하는 강제 효과, 우선도 2는 공개된 카드(필드 앞면·묘지 등)의 임의 효과와 '필드를 떠난 경우' 효과다. 우선도 3은 비공개 카드(세트·패)의 임의 효과, '발동했을 때 직접 체인하는' 효과, 아무 타이밍에나 쓸 수 있는 효과다. 우선도 1, 2는 각각 턴 플레이어가 먼저 쌓고, 같은 플레이어의 여러 효과는 그 플레이어가 순서를 정한다. 우선도 3은 우선도 1·2에서 마지막으로 체인을 쌓은 플레이어의 상대부터, 한 번 발동하거나 넘길 때마다 번갈아 정한다.",
+   "handtrap_ko": "[[Maxx \"C\"]]·[[Infinite Impermanence]] 같은 패·세트 카드는 우선도 3이라, 상대의 유발 효과가 모두 체인으로 쌓인 다음에 끼어든다. 어느 효과에 맞출지(어느 체인 위에 쓸지)는 그때 고를 수 있다. Master Duel은 OCG 판정을 따르므로 이 Q&A 기준이 맞다.",
+   "sources": [
+    {
+     "id": "qa-24174",
+     "locator": "Q&A 本文（優先度１〜３）"
+    },
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編「同時に複数のカードが発動した場合」p.67"
+    },
+    {
+     "id": "rulebook-en",
+     "locator": "When multiple cards are activated simultaneously p.50"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "revealed-hand-priority",
+   "category": "timing",
+   "title_ko": "패에서 공개 중인 카드의 유발 효과는 패트랩보다 먼저 체인된다",
+   "body_ko": "패에 있어도 효과로 '공개된 상태'인 카드의 임의 유발 효과는 공개 카드로 취급되어, 비공개 카드나 '발동에 직접 체인하는' 효과보다 우선도가 높다. 그래서 같은 타이밍에 상대가 [[Ash Blossom & Joyous Spring]]를 쓰려 해도, 턴 플레이어는 공개 중인 카드의 효과를 체인 2로 먼저 쌓을 수 있다.",
+   "handtrap_ko": "우라라를 쓰려던 타이밍에 상대가 공개 패의 유발 효과를 먼저 쌓을 수 있다. 우라라는 그 체인 위에 쓰게 되므로, 무효로 할 효과를 다시 골라야 한다.",
+   "sources": [
+    {
+     "id": "qa-23948",
+     "locator": "Q&A 本文"
+    },
+    {
+     "id": "qa-24174",
+     "locator": "優先度２・３の定義"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "when-vs-if",
+   "category": "timing",
+   "title_ko": "'~했을 때(時)'와 '~했을 경우(場合)' — 타이밍을 놓치는 효과",
+   "body_ko": "'~했을 때' 쓰는 임의 효과는 그 처리나 조건이 충족된 '직후'에만 쓸 수 있다. 그래서 체인 처리 도중에 조건이 충족되고 그 뒤에 다른 처리가 이어지면 쓸 수 없다(타이밍을 놓친다). '~했을 경우' 쓰는 효과는 체인 처리 도중에 조건이 충족되었어도, 그 처리가 끝난 뒤 새로 체인을 만들어 발동할 수 있다.",
+   "handtrap_ko": "[[Ash Blossom & Joyous Spring]]·[[Ghost Belle & Haunted Mansion]]는 '효과가 발동했을 때'라서 반드시 그 발동에 바로 체인해야 한다. 한 체인이 끝난 뒤에 거슬러 올라가 쓸 수는 없다. 반대로 '~했을 경우' 유발 효과는 우라라가 처리된 뒤 새 체인 1로 발동할 수 있다(예: 코스트로 버려진 우라라를 노리는 효과).",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編 ルール用語辞典「『時』と『場合』」p.81"
+    },
+    {
+     "id": "qa-23105",
+     "locator": "誘発効果は処理完了後に新たなチェーンで発動"
+    },
+    {
+     "id": "qa-24174",
+     "locator": "『効果が発動した時に直接チェーンして発動することを前提とした効果』"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "must-vs-can",
+   "category": "timing",
+   "title_ko": "'~한다'(강제)와 '~할 수 있다'(임의)",
+   "body_ko": "카드 텍스트의 '~한다'는 반드시 해야 하는 효과, '~할 수 있다'는 실행할지 플레이어가 고르는 효과다. 강제 유발 효과는 같은 타이밍의 임의 효과보다 먼저 체인에 쌓인다(우선도 1).",
+   "handtrap_ko": "상대의 강제 유발 효과는 반드시 체인 아래쪽에 깔리므로, 그 위에 무엇을 쌓을지 예측하기 쉽다. 강제 효과는 '발동하지 않음'을 고를 수 없어서 우라라 같은 무효 패트랩의 확실한 표적이 된다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編 ルール用語辞典「『する』と『できる』」p.81"
+    },
+    {
+     "id": "qa-24174",
+     "locator": "優先度１"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "cost-vs-effect",
+   "category": "cost",
+   "title_ko": "코스트와 효과 — 무효로 되돌릴 수 없는 것",
+   "body_ko": "코스트(버리기·릴리스·LP 지불·제외 등)는 발동하기 위해 '발동 선언 전에' 지불하는 것으로, 효과의 일부가 아니다. 그래서 발동이나 효과가 무효가 되어도 코스트는 돌려받지 못한다. 텍스트에서 세미콜론(;) 앞이 발동 시 하는 일(코스트·대상 지정), 문장 끝이 처리 시 하는 일이다. 코스트나 릴리스로 묘지에 보낸 카드는 '파괴'가 아니다.",
+   "handtrap_ko": "[[Ash Blossom & Joyous Spring]]·[[Effect Veiler]]는 '이 카드를 패에서 버리는 것'이 코스트라, 무효를 당해도 패로 돌아오지 않는다. 마찬가지로 상대 [[Pot of Desires]]를 우라라로 무효로 해도 코스트로 뒷면 제외한 10장은 돌아오지 않는다. 이미 자신을 묘지로 보낸 몬스터는 '무효로 하고 파괴'해도 파괴되지 않는다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編 ルール用語辞典「カードの効果」p.79"
+    },
+    {
+     "id": "rulebook-en",
+     "locator": "Glossary: Effects of Cards p.52 / Pay a Cost p.54 / Colon and Semi-colon p.53"
+    },
+    {
+     "id": "qa-23105",
+     "locator": "コストで捨てられたうらら"
+    },
+    {
+     "id": "qa-14999",
+     "locator": "既に墓地へ送られているヴェーラーは破壊されない"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "negate-activation-vs-effect",
+   "category": "negate",
+   "title_ko": "발동 무효 vs 효과 무효",
+   "body_ko": "'그 발동을 무효로 한다'([[Ghost Belle & Haunted Mansion]]·[[PSY-Framegear Gamma]]·[[Baronne de Fleur]] 등)는 발동 자체를 없던 것으로 만든다. '그 효과를 무효로 한다'([[Ash Blossom & Joyous Spring]]·[[Dominus Impulse]] 등)는 발동은 인정하되 처리만 하지 않게 한다. 어느 쪽이든 상대 효과는 처리되지 않고, 코스트는 돌아오지 않으며, '1턴에 1번' 제약도 사용한 것으로 센다. '무효로 하고 파괴/제외한다' 효과는 처리 시 그 카드가 효과를 발동한 장소에 없으면 파괴·제외만 하지 않는다. 발동이 무효가 된 마법·함정은 묘지로 가지만 '필드에서 묘지로 보내진' 것으로 취급하지 않는다.",
+   "handtrap_ko": "'발동은 무효로 되지 않는다' 또는 '효과는 무효화되지 않는다' 같은 내성은 둘 중 한쪽만 막는 경우가 많으니, 패트랩이 어느 쪽인지 확인해야 한다. 우라라·도미나스 임펄스는 '효과 무효', 저택 와라시·감마는 '발동 무효'다.",
+   "sources": [
+    {
+     "id": "qa-17377",
+     "locator": "発動が無効でも1ターンに1度を使用"
+    },
+    {
+     "id": "qa-23949",
+     "locator": "発動場所に存在しない場合は破壊しない"
+    },
+    {
+     "id": "qa-14999",
+     "locator": "手札・墓地で発動した効果の無効"
+    },
+    {
+     "id": "qa-24277",
+     "locator": "発動が無効になった魔法・罠の扱い"
+    },
+    {
+     "id": "rulebook-en",
+     "locator": "How a Chain Works example (activation negated) p.46-47"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "imperm-veiler-scope",
+   "category": "negate",
+   "title_ko": "몬스터 효과 무효(포영·뵐러)가 닿는 범위",
+   "body_ko": "[[Infinite Impermanence]]·[[Effect Veiler]]처럼 '필드의 앞면 몬스터의 효과를 무효로 하는' 효과는 몬스터 존에서 발동하는 효과와, 몬스터 존에 있는 동안 적용되는 지속 효과만 무효로 한다. 그 몬스터가 묘지 등 다른 장소에서 효과를 발동하면 무효가 되지 않는다. 반면 몬스터 존에서 발동한 효과라면, 코스트로 자신을 릴리스·제외해 처리 시 필드에 없어도 무효가 된다. 뵐러로 무효가 된 몬스터가 뒷면이 되었다가 다시 앞면이 되면 무효는 풀린다.",
+   "handtrap_ko": "포영·뵐러는 필드에서 발동한 효과에 체인하면 그 효과까지 멈추지만, 패나 묘지에서 발동한 효과는 못 멈춘다. 장소에 상관없이 몬스터 효과의 '발동'을 무효로 하려면 [[PSY-Framegear Gamma]] 같은 발동 무효가 필요하다. 포영은 자신 필드에 카드가 없으면 패에서도 발동할 수 있다.",
+   "sources": [
+    {
+     "id": "qa-8398",
+     "locator": "無限泡影/エフェクト・ヴェーラー等で無効化される範囲"
+    },
+    {
+     "id": "qa-12385",
+     "locator": "裏側表示になると無効が解除"
+    },
+    {
+     "id": "card-imperm",
+     "locator": "カードテキスト"
+    },
+    {
+     "id": "card-veiler",
+     "locator": "カードテキスト"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "cannot-respond-scope",
+   "category": "chain",
+   "title_ko": "'이 발동에 체인할 수 없다'의 범위",
+   "body_ko": "'이 카드의 발동에 대해 ~를 발동할 수 없다' 같은 제약은 그 카드의 발동에 직접 체인하는 것만 막는다. 막히는 종류도 텍스트가 정한 범위뿐이다. 예를 들어 [[Forbidden Droplet]]은 코스트로 보낸 카드와 '원래 종류(몬스터·마법·함정)'가 같은 카드의 효과만 체인으로 발동할 수 없게 한다. [[Dark Ruler No More]]는 발동에 대해 몬스터 효과를 발동할 수 없게 한다. 그 체인이 끝난 뒤에는 다시 자유롭게 발동할 수 있다.",
+   "handtrap_ko": "상대가 몬스터를 코스트로 [[Forbidden Droplet]]을 쓰면 그 발동에 패트랩 몬스터 효과로 체인할 수 없지만, 함정인 [[Infinite Impermanence]]·[[Dominus Impulse]]는 체인할 수 있다. 반대로 내가 쓸 때 보낼 카드 종류를 고르면, 상대의 어떤 반격을 봉쇄할지 정할 수 있다.",
+   "sources": [
+    {
+     "id": "qa-8410",
+     "locator": "禁じられた一滴: 元々の種類が同じカードの効果をチェーンして発動できない"
+    },
+    {
+     "id": "card-dark-ruler",
+     "locator": "カードテキスト"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "hand-activation-traps",
+   "category": "misc",
+   "title_ko": "패에서 발동하는 함정 (포영·대치승부·도미나스)",
+   "body_ko": "함정은 원래 세트한 다음 턴부터 발동할 수 있지만, 텍스트에 조건이 적힌 카드는 그 조건을 만족하면 패에서 바로 발동할 수 있다. [[Infinite Impermanence]]·[[Evenly Matched]]는 '자신 필드에 카드가 없으면', [[Dominus Impulse]]는 '상대 필드에 카드가 있으면' 패에서 발동할 수 있다. 패에서 발동한 [[Evenly Matched]]는 처리할 때 발동 중인 자신을 1장으로 세므로, 상대는 필드에 1장만 남기고 뒷면 제외한다. [[Infinite Impermanence]]는 상대가 내 특수 소환을 무효로 하는 등, 내 소환이 아직 성공하지 않은 상황에서도 '필드에 카드가 없다'는 조건을 만족한다.",
+   "handtrap_ko": "패에서 쓴 포영은 '세트되어 있었다면' 적용되는 같은 세로열 마법·함정 무효가 없다. [[Dominus Impulse]]를 패에서 쓰면 그 듀얼 동안 빛·땅·바람 속성 몬스터 효과를 발동할 수 없는 대가가 붙는다.",
+   "sources": [
+    {
+     "id": "card-imperm",
+     "locator": "カードテキスト"
+    },
+    {
+     "id": "card-evenly",
+     "locator": "カードテキスト"
+    },
+    {
+     "id": "card-dominus-impulse",
+     "locator": "カードテキスト"
+    },
+    {
+     "id": "qa-21194",
+     "locator": "手札から発動した拮抗勝負は自身を1枚と数える"
+    },
+    {
+     "id": "qa-24096",
+     "locator": "特殊召喚が無効になる場面での無限泡影の手札発動条件"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "handtrap-monster-quick",
+   "category": "spell_speed",
+   "title_ko": "패트랩 몬스터 = 패에서 쓰는 퀵 이펙트",
+   "body_ko": "퀵 이펙트(유발즉시 효과)는 스펠 스피드 2인 몬스터 효과로, 조건만 맞으면 상대 턴에도 발동할 수 있다. 패트랩 몬스터는 이 퀵 이펙트를 패에서, 대개 자신을 버리는 것을 코스트로 발동한다. 체인 처리가 끝난 뒤나 상대가 다음 행동을 하기 전에, 턴 플레이어부터 순서대로 퀵 이펙트를 쓸지 확인한다.",
+   "handtrap_ko": "패에서 발동한 효과도 '몬스터 효과의 발동'이다. 그래서 상대의 몬스터 효과 발동 무효([[PSY-Framegear Gamma]]·[[Baronne de Fleur]] 등)에 걸리고, '몬스터 효과를 발동할 수 없다' 제약에도 걸린다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編 ルール用語辞典「クイックエフェクト」p.88"
+    },
+    {
+     "id": "rulebook-en",
+     "locator": "Effect Monsters: Quick Effect / Spell Speed 2 p.44"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "inherent-special-summon",
+   "category": "summon",
+   "title_ko": "룰 특수 소환(내장 특소): 체인이 생기지 않는다",
+   "body_ko": "특수 소환에는 두 종류가 있다. ① 카드에 적힌 고유 방법으로 하는 소환으로, 효과의 발동이 아니다. 특수 소환 몬스터나 '이 카드는 (패에서) 특수 소환할 수 있다' 같은 몬스터가 여기에 해당한다. ② 마법·함정·몬스터 효과의 발동으로 하는 소환이다. ①은 체인 블록을 만들지 않으므로 여기에 체인해서 무효로 할 수 없다. 이때 하는 릴리스도 '효과에 의한 릴리스'가 아니라서, 효과를 받지 않는 몬스터도 릴리스할 수 있다(카이주가 대표 예). [[Elfnote Lucina]]의 '이 카드는 (패에서) 자신의 중앙 메인 몬스터 존에 특수 소환할 수 있다'도 ①이다.",
+   "handtrap_ko": "①에는 [[Ash Blossom & Joyous Spring]]를 쓸 수 없지만(덱 특소가 아니고 발동도 아님), '특수 소환에 성공할 때마다' 드로우하는 [[Maxx \"C\"]]는 그대로 드로우한다. [[Mulcharmy Purulia]]는 '패에서 소환'에 반응하므로 패에서 하는 룰 특소에도 드로우한다. 체인이 없으니 이런 드로우 패트랩은 미리 써 두어야 한다. [[Gameciel, the Sea Turtle Kaiju]] 같은 카이주는 상대 몬스터를 릴리스해 상대 필드에 나오는 룰 소환이라, 효과를 받지 않는 몬스터도 치울 수 있다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編「モンスターの特殊召喚について」p.71"
+    },
+    {
+     "id": "rulebook-en",
+     "locator": "Actions which cannot be Chained to p.51"
+    },
+    {
+     "id": "qa-298",
+     "locator": "効果を受けないモンスターもリリースできる"
+    },
+    {
+     "id": "qa-11566",
+     "locator": "効果によってリリースされた扱いにならない"
+    },
+    {
+     "id": "qa-6173",
+     "locator": "相手フィールドへの特殊召喚でも増殖するGはドロー"
+    },
+    {
+     "id": "qa-11507",
+     "locator": "対比: 『妨げられた壊獣の眠り』の発動（デッキから特殊召喚する効果）にはうららを発動できる"
+    },
+    {
+     "id": "card-lucina",
+     "locator": "カードテキスト"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "ss-effect-includes",
+   "category": "summon",
+   "title_ko": "'몬스터를 특수 소환하는 효과를 포함하는' 효과의 범위",
+   "body_ko": "효과로 싱크로·엑시즈·링크·펜듈럼 소환을 '하는' 효과도 '몬스터를 특수 소환하는 효과'를 포함한 것으로 취급한다. 효과에 '특수 소환' 처리가 들어 있으면, 처리 시 실제로 소환할 수 있는지와 상관없이 발동 시점에 그 효과를 '포함한다'고 판단한다.",
+   "handtrap_ko": "[[Dominus Impulse]](특소 효과를 포함하는 발동의 효과 무효)는 상대 턴에 효과로 하는 싱크로·링크 소환 같은 효과에도 쓸 수 있다. 처리 후반에 소환할지 고르는 효과에도 발동 시점에 쓸 수 있다. 같은 기준으로, 서치·덱 특소 처리를 '포함'하기만 하면 [[Ash Blossom & Joyous Spring]]를 쓸 수 있다.",
+   "sources": [
+    {
+     "id": "qa-23933",
+     "locator": "S・X・L・P召喚を行う効果も『モンスターを特殊召喚する効果』を含む"
+    },
+    {
+     "id": "qa-22886",
+     "locator": "リンク先の状況に関わらず『含む』"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "summon-negation-window",
+   "category": "summon",
+   "title_ko": "소환 무효 타이밍과 '소환 성공' 뒤의 창",
+   "body_ko": "소환을 무효로 하는 효과는 몬스터가 소환되려는 순간(소환할 때)에 쓰며, 이때 그 몬스터는 아직 필드에 있지 않다. 소환이 성공하면 그 뒤 '소환에 성공했을 때' 유발 효과가 체인을 만들고, 다음 행동의 우선권은 턴 플레이어에게 있다. 상대는 그 유발 효과의 발동에 체인하거나, 턴 플레이어가 우선권을 넘길 때 퀵 이펙트를 쓴다. 소환 자체는 발동이 아니므로 일반 패트랩으로 체인할 수 없다.",
+   "handtrap_ko": "소환을 막는 건 카운터 함정류의 영역이고, 패트랩은 소환 뒤에 나오는 효과를 노린다. 내 특수 소환을 상대가 무효로 하려 할 때는 그 몬스터가 아직 필드에 없으므로, '자신 필드에 몬스터가 없을 때' 조건인 [[PSY-Framegear Gamma]]나 패의 [[Infinite Impermanence]]를 그 무효 효과에 맞춰 쓸 수 있다.",
+   "sources": [
+    {
+     "id": "qa-24096",
+     "locator": "まだ特殊召喚に成功していない＝フィールドに存在しない"
+    },
+    {
+     "id": "rulebook-en",
+     "locator": "Actions which cannot be Chained to p.51"
+    },
+    {
+     "id": "fast-effect-timing-en",
+     "locator": "After an action that does NOT start a Chain (row B/D)"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "maxx-draw-timing",
+   "category": "summon",
+   "title_ko": "특수 소환 드로우 패트랩([[Maxx \"C\"]] 계열)이 드로우하는 시점",
+   "body_ko": "[[Maxx \"C\"]]의 드로우는 특수 소환이 완료된 시점에 한다. 효과 처리 도중에 특수 소환하면 그 효과 처리가 끝난 시점에 드로우하고, 한 처리에서 여러 번 소환되면 처리 후 한꺼번에 드로우한다. 상대 필드에 몬스터를 보내는 소환이라도, 소환을 '한' 플레이어가 상대라면 드로우한다.",
+   "handtrap_ko": "증G는 발동 뒤에 일어나는 소환에만 반응하므로, 이미 끝난 소환으로 거슬러 올라가 드로우하지는 않는다. 상대가 [[Nibiru, the Primal Being]]를 써도 처리 뒤에 한꺼번에 드로우한다.",
+   "sources": [
+    {
+     "id": "qa-11640",
+     "locator": "ドローのタイミング"
+    },
+    {
+     "id": "qa-23898",
+     "locator": "ニビルの処理後に２枚同時にドロー"
+    },
+    {
+     "id": "qa-6173",
+     "locator": "特殊召喚を行ったプレイヤー基準"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "opt-soft-hard",
+   "category": "opt",
+   "title_ko": "1턴에 1번: 카드 단위(소프트)와 이름 단위(하드)",
+   "body_ko": "'1턴에 1번'만 적힌 효과는 그 카드 1장 기준이라, 같은 이름의 다른 카드는 따로 쓸 수 있다. 상대 카드나 내 다른 동명 카드와는 공유하지 않는다. '「○○」의 효과는 1턴에 1번'처럼 카드명을 적은 효과는 같은 이름의 카드 전체를 통틀어 1턴에 1번이다. '「○○」의 이 효과는 1턴에 1번'이면 그 효과만 해당한다. 1턴에 1번 효과는 내 턴과 상대 턴에 각각 1번씩 쓸 수 있다.",
+   "handtrap_ko": "[[Ash Blossom & Joyous Spring]]는 카드명 지정 1턴 1번이라, 한 턴에 우라라는 1번만 발동할 수 있다(2장이 있어도). 상대 테마의 하드 1턴 1번 효과를 패트랩으로 무효로 하면, 그 턴에는 같은 이름의 다른 카드로 다시 쓸 수 없다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編 ルール用語辞典「１ターンに１度」p.85、「『○○の効果』と『○○のこの効果』」p.86"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "opt-used-when-negated",
+   "category": "opt",
+   "title_ko": "무효가 되어도 '사용한 것'으로 센다",
+   "body_ko": "발동이 무효가 되어도 그 카드나 효과는 그 턴에 1번 '사용한' 것으로 취급한다. 그래서 하드 1턴 1번 효과는 같은 턴에 다시 발동할 수 없다. '이 효과를 발동하는 턴, 다른 ○○ 효과는 1번만' 같은 횟수 제한도 무효가 된 발동을 포함해서 센다.",
+   "handtrap_ko": "패트랩으로 상대 초동을 무효로 하면 그 이름의 1턴 1번 효과는 그 턴에 끝난다. 반대로 내가 쓴 [[Mulcharmy Fuwalos]]가 무효가 되어도, 다른 '멀챠미' 효과를 쓸 수 있는 횟수는 이미 1번 쓴 것으로 계산된다.",
+   "sources": [
+    {
+     "id": "qa-17377",
+     "locator": "発動が無効になっても①の効果を使用した扱い"
+    },
+    {
+     "id": "qa-7813",
+     "locator": "マルチャミー・カリギュラの回数に数える"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "summon-procedure-limit",
+   "category": "opt",
+   "title_ko": "'이 방법으로는 1턴에 1번' 소환 제한",
+   "body_ko": "'이 방법으로 「○○」의 특수 소환은 1턴에 1번' 같은 문구는 효과의 1턴 1번이 아니라 룰 소환 절차의 횟수 제한이다. 그래서 그 소환을 패트랩 효과로 '무효'로 할 수 없고, 같은 카드의 다른 효과(예: 서치)와는 별개로 센다. TCG 2021 공지는 '이 턴에 소환할 수 없다'나 '1턴에 1번 특수 소환' 제한이 실제로 소환에 '성공한' 몬스터만 센다고 밝혔다.",
+   "handtrap_ko": "[[Elfnote Lucina]]의 중앙 존 패 특소는 1턴 1번이지만 체인을 만들지 않는다. 그래서 막으려면 소환 무효(카운터 함정)가 필요하고, 패트랩은 그 뒤의 서치 효과를 노린다.",
+   "sources": [
+    {
+     "id": "card-lucina",
+     "locator": "カードテキスト（『この方法による特殊召喚は1ターンに1度』）"
+    },
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編「モンスターの特殊召喚について」p.71"
+    },
+    {
+     "id": "rules-update-2021-en",
+     "locator": "successfully summoned 項目 (TCG)"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "face-down-cards",
+   "category": "misc",
+   "title_ko": "뒷면(세트) 카드의 취급",
+   "body_ko": "필드의 뒷면 카드는 내용이 비공개 정보다. 몬스터 존의 세트 카드는 '몬스터'라는 것만 알 수 있고, 마법&함정 존의 세트 카드는 '마법 또는 함정'이라는 것만 알 수 있다. 그래서 카드명·종족·속성·몬스터 종류 등을 지정하는 효과는 뒷면 카드를 고르거나 적용할 수 없다. 대부분의 몬스터 효과는 뒷면인 동안 쓸 수 없고, 뒷면이 되면 그때까지 받던 효과 적용(무효 등)이 끊긴다.",
+   "handtrap_ko": "[[Effect Veiler]]·[[Infinite Impermanence]]는 '앞면 몬스터'가 대상이라 뒷면 몬스터에는 쓸 수 없다. 무효로 한 몬스터가 뒷면이 되었다가 다시 앞면이 되면 무효가 풀린다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編「裏側表示のカード（セットされたカード）について」p.70"
+    },
+    {
+     "id": "qa-12385",
+     "locator": "裏側表示→表側表示で無効が解除"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "banished-face-down",
+   "category": "misc",
+   "title_ko": "뒷면 제외",
+   "body_ko": "제외된 카드는 원칙적으로 그 듀얼에서 다시 쓸 수 없고, 효과가 있을 때만 돌아온다. 뒷면으로 제외된 카드는 '제외된 몬스터'나 '제외된 ○○ 카드'를 대상으로 하는 효과에 고를 수 없다. [[Evenly Matched]]의 뒷면 제외는 상대 카드에 적용하는 효과가 아니라 '상대 플레이어가 스스로 골라 제외하는' 처리다. 그래서 함정 효과를 받지 않는 몬스터도 제외되고, '효과로 제외된' 것으로 취급하지 않는다.",
+   "handtrap_ko": "[[Evenly Matched]]는 내성 몬스터만 남긴 보드에도 통한다. 단, 무엇을 남길지는 상대가 고른다. 뒷면 제외된 카드는 상대의 재활용 효과로 되돌릴 수 없어서, 묘지·제외 회수를 노리는 테마에 특히 아프다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編 ルール用語辞典「除外する」p.87"
+    },
+    {
+     "id": "qa-19644",
+     "locator": "裏側表示で除外されているモンスターは対象にできない"
+    },
+    {
+     "id": "qa-17783",
+     "locator": "裏側除外の「DD」は対象にできない"
+    },
+    {
+     "id": "qa-23931",
+     "locator": "拮抗勝負は効果を受けないモンスターも除外"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "continuous-vs-activated",
+   "category": "misc",
+   "title_ko": "지속 효과 vs 발동하는 효과",
+   "body_ko": "'발동'은 체인 블록을 만드는 것이다. 지속 마법이나 몬스터의 지속 효과처럼 필드에 앞면으로 있는 동안 계속 적용되는 효과는 발동이 아니므로 체인 블록을 만들지 않는다. 단, 마법·함정 카드를 패에서 필드에 놓으며 쓰는 것 자체는 지속 마법이라도 '카드의 발동'이다.",
+   "handtrap_ko": "지속 효과(예: '효과를 받지 않는다', '공격할 수 없다')에는 [[Ash Blossom & Joyous Spring]]처럼 '발동에 체인'하는 패트랩을 쓸 수 없다. 필드에서 끄려면 [[Infinite Impermanence]]·[[Effect Veiler]]처럼 몬스터의 효과 자체를 무효로 하는 카드가 필요하다. 이들은 몬스터 존의 지속 효과도 무효로 한다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編 ルール用語辞典「発動」p.80"
+    },
+    {
+     "id": "qa-8398",
+     "locator": "永続効果も無効化される"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "unaffected-vs-untargetable",
+   "category": "misc",
+   "title_ko": "'효과를 받지 않는다' vs '대상으로 할 수 없다'",
+   "body_ko": "'대상으로 할 수 없다'는 효과를 발동할 때 그 카드를 대상으로 고르지 못하게 할 뿐이다. 이미 대상으로 잡고 발동한 뒤에 그 상태가 되어도 효과는 그대로 처리된다. '효과를 받지 않는다'는 대상으로 고르는 것은 막지 않지만, 처리 시 그 카드에 적용되는 효과를 받지 않는다. 플레이어에게 적용되는 처리([[Evenly Matched]])나 룰상 릴리스(카이주 소환)는 카드에 적용되는 효과가 아니라서 내성을 뚫는다.",
+   "handtrap_ko": "'대상 불가' 몬스터에는 [[Infinite Impermanence]]·[[Effect Veiler]](대상 지정)를 쓸 수 없지만, 대상을 잡지 않는 무효나 [[Dark Ruler No More]]는 통한다. '효과를 받지 않는' 몬스터는 [[Gameciel, the Sea Turtle Kaiju]] 같은 카이주나 [[Evenly Matched]]로 치운다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編 ルール用語辞典「対象を取る（指定する）効果」p.85"
+    },
+    {
+     "id": "qa-24238",
+     "locator": "後から対象にできなくなってもテキスト通り処理"
+    },
+    {
+     "id": "qa-23617",
+     "locator": "効果を受けないモンスターには処理時に適用されない"
+    },
+    {
+     "id": "qa-23931",
+     "locator": "拮抗勝負"
+    },
+    {
+     "id": "qa-298",
+     "locator": "壊獣のリリース"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "damage-step-limits",
+   "category": "damage_step",
+   "title_ko": "데미지 스텝에서 발동할 수 있는 카드",
+   "body_ko": "데미지 스텝에서는 원칙적으로 카운터 함정과 몬스터의 공격력·수비력을 직접 바꾸는 효과만 발동할 수 있고, 그것도 데미지 계산 전까지만 가능하다. 그 밖에 '데미지 스텝 개시 시', '전투로 파괴되었을 때'처럼 데미지 스텝 안의 특정 타이밍이 적힌 효과와, 그 타이밍에 강제로 유발하는 효과가 예외로 발동한다.",
+   "handtrap_ko": "[[Ash Blossom & Joyous Spring]]·[[Effect Veiler]]·[[Infinite Impermanence]]는 공격력 변경도 카운터 함정도 아니라 데미지 스텝에 발동할 수 없다. 공식 Q&A도 우라라가 나중에 처리되는 효과에 대응할 수 있는 조건으로 '데미지 스텝 이외에 발동했다면'이라고 적는다. 전투 중 패트랩은 배틀 스텝까지 써야 한다.",
+   "sources": [
+    {
+     "id": "rulebook-jp",
+     "locator": "上級編「ダメージステップの詳細について」p.77-78"
+    },
+    {
+     "id": "rulebook-en",
+     "locator": "DAMAGE STEP RULES p.41"
+    },
+    {
+     "id": "qa-23793",
+     "locator": "『ダメージステップ以外で発動したのであれば』"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "zones-emz",
+   "category": "misc",
+   "title_ko": "엑스트라 몬스터 존과 메인 몬스터 존",
+   "body_ko": "메인 몬스터 존은 5칸, 엑스트라 몬스터 존은 가운데 2칸이고, 엑스트라 몬스터 존은 원칙적으로 양쪽 플레이어가 1칸씩 쓴다. 마스터 룰(2020년 4월 개정)부터 엑스트라 덱의 융합·싱크로·엑시즈 몬스터는 엑스트라 몬스터 존이나 자신의 메인 몬스터 존 아무 데나 특수 소환할 수 있다. 링크 몬스터와 엑스트라 덱의 앞면 펜듈럼 몬스터는 엑스트라 몬스터 존이나 링크 마커가 가리키는 메인 몬스터 존에만 나올 수 있다. 엑스트라 덱 이외의 장소에서 특수 소환하는 몬스터는 메인 몬스터 존에 나온다.",
+   "handtrap_ko": "링크 몬스터를 중심으로 전개하는 테마는 엑스트라 몬스터 존과 링크 마커 자리가 막히면 전개가 끊긴다. 반면 싱크로·엑시즈 중심 테마는 이 제약이 없어 메인 존만 비어 있으면 계속 소환할 수 있다.",
+   "sources": [
+    {
+     "id": "howto-jp",
+     "locator": "カードの置き方（デュエルフィールド）①⑦"
+    },
+    {
+     "id": "masterrule2020-jp",
+     "locator": "これまでとの変更点・ルールQ&A"
+    },
+    {
+     "id": "rules-update-2021-en",
+     "locator": "Fusion, Synchro, and Xyz Monsters ... any of your Main Monster Zones"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "center-main-monster-zone",
+   "category": "misc",
+   "title_ko": "중앙 메인 몬스터 존 (엘펜노츠)",
+   "body_ko": "메인 몬스터 존 5칸 중 가운데(세 번째) 칸이 '중앙 메인 몬스터 존'이다. [[Elfnote Lucina]] 같은 카드는 이 칸에만 룰 특수 소환할 수 있어서, 그 칸이 비어 있어야 한다. 엘펜노츠의 위치 교환 효과로 중앙에 있는 몬스터가 바뀌면 '중앙에 있는 몬스터'를 기준으로 하는 효과의 적용 대상도 바뀐다. '중앙 몬스터를 대상으로 할 수 없다'는 효과는 발동 시점만 보므로, 대상으로 잡힌 뒤 중앙으로 옮겨도 이미 발동한 효과는 그대로 처리된다.",
+   "handtrap_ko": "엘펜노츠 상대로는 중앙 존을 먼저 차지하거나 중앙 몬스터를 치우면 룰 특소와 중앙 기준 효과가 함께 막힌다. 대상 내성은 발동 시점에 판정하므로, 중앙에 오기 전에 대상 지정 효과를 쓰는 것이 유리하다.",
+   "sources": [
+    {
+     "id": "card-lucina",
+     "locator": "カードテキスト（自分の中央のメインモンスターゾーンに特殊召喚）"
+    },
+    {
+     "id": "qa-24238",
+     "locator": "対象を取った後で中央に移動した場合"
+    },
+    {
+     "id": "howto-jp",
+     "locator": "カードの置き方 ①メインモンスターゾーン"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "draw-and-ash",
+   "category": "negate",
+   "title_ko": "드로우는 '덱에서 패에 넣는' 효과인가 — 우라라·드롤 (OCG 판정)",
+   "body_ko": "OCG 공식 Q&A는 드로우 효과도 [[Ash Blossom & Joyous Spring]]의 '덱에서 카드를 패에 넣는 효과'에 포함한다. '1장 드로우한다'만 하는 효과의 발동에도 우라라를 체인해 그 효과를 무효로 할 수 있다고 답했고, 우라라를 쓸 수 있는 효과 목록에 [[Maxx \"C\"]]도 들어 있다. [[Droll & Lock Bird]]가 적용된 턴에는 '덱에서 패에 넣을 수 없으므로' 드로우 처리도 실제로 할 수 없다. 이런 상황에서도 증G·멀챠미 같은 드로우 효과의 발동 자체는 가능하다.",
+   "handtrap_ko": "Master Duel은 OCG 판정을 따르므로 상대 [[Pot of Desires]]·[[Upstart Goblin]] 같은 드로우 효과, 그리고 [[Maxx \"C\"]]에도 우라라를 쓸 수 있다. 서로 우라라를 증G에 쓸지, 전개 효과용으로 아낄지가 실전 선택지가 된다. '드로우는 우라라로 무효로 할 수 없다'는 설명은 이 판정과 맞지 않는다(TCG 판정은 따로 확인하지 못했다).",
+   "sources": [
+    {
+     "id": "qa-22542",
+     "locator": "ドローする効果に灰流うらら（発動できる・ドローしない）"
+    },
+    {
+     "id": "qa-23793",
+     "locator": "灰流うららをチェーンできる効果の一覧に「増殖するG」"
+    },
+    {
+     "id": "qa-12797",
+     "locator": "ドロール適用中はドローできない"
+    },
+    {
+     "id": "qa-12854",
+     "locator": "ドロール適用中は手札抹殺を発動できない"
+    },
+    {
+     "id": "card-droll",
+     "locator": "カードテキスト"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "droll-trigger",
+   "category": "misc",
+   "title_ko": "[[Droll & Lock Bird]]의 발동 조건과 적용 범위",
+   "body_ko": "드롤은 드로우 페이즈 이외에 상대 패에 메인 덱의 카드가 들어간 뒤 발동하는 퀵 이펙트로, 이미 들어간 서치·드로우 자체는 막지 못한다. 처리 후 그 턴에는 서로 메인 덱에서 패에 카드를 넣을 수 없다(서치·드로우 모두). 패에 넣는 처리가 들어 있는 카드는 발동은 할 수 있어도 그 처리를 할 수 없다. '패를 버리고 그만큼 드로우한다'처럼 드로우가 필수인 카드는 발동 자체를 할 수 없다.",
+   "handtrap_ko": "첫 서치는 통과시키고 두 번째 서치·드로우부터 막는 카드다. [[Ash Blossom & Joyous Spring]]로 첫 서치를 막고, 드롤로 나머지 서치·드로우를 잠그는 조합이 강하다. 드롤 적용 중에는 상대의 [[Maxx \"C\"]]가 발동은 되어도 드로우는 하지 않는다.",
+   "sources": [
+    {
+     "id": "card-droll",
+     "locator": "カードテキスト"
+    },
+    {
+     "id": "qa-12797",
+     "locator": "増殖するGは発動できるがドローできない"
+    },
+    {
+     "id": "qa-12854",
+     "locator": "手札抹殺は発動できない"
+    }
+   ],
+   "official": true
+  },
+  {
+   "id": "md-differences",
+   "category": "misc",
+   "title_ko": "Master Duel 고유 룰 차이에 대한 공식 문서",
+   "body_ko": "KONAMI의 Master Duel 전용 룰북이나, OCG 판정과의 차이를 정리한 공식 문서는 찾지 못했다(2026-10 기준). 이 사이트는 Master Duel이 OCG 공식 Q&A 판정을 따른다는 전제로 정리한다. TCG 룰북(Version 10, 2017)은 엑스트라 몬스터 존 규정이 2020 개정 전 내용이다. 또 같은 타이밍의 효과 순서와 드로우·우라라 판정에서 OCG Q&A와 표현이나 결론이 다를 수 있으니, 충돌하면 OCG Q&A를 우선한다.",
+   "handtrap_ko": "영문 커뮤니티 자료(TCG 판정 기준)를 옮길 때는 특히 '드로우에 우라라 사용 가능 여부'와 '같은 타이밍 체인 순서'를 OCG Q&A로 다시 확인해야 한다.",
+   "official": false,
+   "sources": [
+    {
+     "id": "rulebook-en",
+     "locator": "Version 10 (2017) — EMZ 記述は2020改訂前"
+    },
+    {
+     "id": "masterrule2020-jp",
+     "locator": "2020年改訂の変更点"
+    },
+    {
+     "id": "qa-24174",
+     "locator": "OCG の優先度ルール"
+    },
+    {
+     "id": "qa-22542",
+     "locator": "OCG のドロー×うらら判定"
+    }
+   ]
+  }
+ ],
+ "rulings": [
+  {
+   "id": "qa-24174",
+   "fid": 24174,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24174&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Maxx \"C\"",
+    "Infinite Impermanence"
+   ],
+   "handtraps": [
+    "maxxc",
+    "imperm"
+   ],
+   "themes": [],
+   "topic": "timing",
+   "question_ko": "같은 타이밍에 양쪽이 발동하고 싶은 효과(강제·임의 유발, 패의 [[Maxx \"C\"]], 세트한 [[Infinite Impermanence]] 등)가 여럿일 때 체인 순서는?",
+   "answer_ko": "우선도 1(강제 효과) → 우선도 2(공개 카드의 임의 효과·필드를 떠난 경우의 효과) 순으로, 각각 턴 플레이어가 먼저 쌓는다. 그 뒤 우선도 3(패·세트 카드의 임의 효과, 발동에 직접 체인하는 효과, 아무 때나 쓰는 효과)은 마지막으로 쌓은 플레이어의 상대부터 1개씩 번갈아 발동 여부를 정한다.",
+   "quote_ja": "優先度３の効果を発動したい場合は、優先度１や２の効果の内、最後にチェーンを組んだプレイヤーから見て相手のプレイヤーから効果を発動するかどうかを決めることができます。",
+   "impact_ko": "증G·포영 같은 패·세트 패트랩은 상대 유발 효과가 다 쌓인 뒤 번갈아 끼어든다. 테마 데이터의 '체인 위치' 설명은 이 우선도 기준으로 적는다."
+  },
+  {
+   "id": "qa-23948",
+   "fid": 23948,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23948&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [],
+   "topic": "timing",
+   "question_ko": "턴 플레이어의 유발 효과(체인 1)에, 턴 플레이어는 패에서 공개 중인 카드의 유발 효과를, 상대는 [[Ash Blossom & Joyous Spring]]를 체인 2로 쓰고 싶다. 누가 체인 2인가?",
+   "answer_ko": "공개 중인 패 카드의 효과가 체인 2가 된다. 턴 플레이어는 공개 카드 효과를 체인 1로, 원래 효과를 체인 2로 쌓을 수도 있다.",
+   "quote_ja": "自分が「天獄の王」の②の効果をチェーン２で発動できます。",
+   "impact_ko": "우라라는 공개 패 카드의 유발 효과보다 우선도가 낮다. 우라라를 맞히려던 효과 위에 다른 효과가 끼어들 수 있음을 전제로 혈자리를 고른다."
+  },
+  {
+   "id": "qa-23933",
+   "fid": 23933,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23933&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dominus Impulse"
+   ],
+   "handtraps": [
+    "impulse"
+   ],
+   "themes": [],
+   "topic": "summon",
+   "question_ko": "효과로 링크 소환을 하는 효과의 발동에 '몬스터를 특수 소환하는 효과를 포함하는 효과'에 반응하는 카드를 체인할 수 있는가?",
+   "answer_ko": "할 수 있다. 효과로 싱크로·엑시즈·링크·펜듈럼 소환을 하는 효과도 '몬스터를 특수 소환하는 효과'를 포함한다.",
+   "quote_ja": "「I：Pマスカレーナ」の①の効果は『モンスターを特殊召喚する効果』を含む効果として扱われます。",
+   "impact_ko": "[[Dominus Impulse]]는 상대 턴의 효과 싱크로·링크(퀵 싱크로 등)에도 쓸 수 있다. 테마 데이터에서 이런 효과의 effect_class를 ss_from_extra로 잡는 것과 맞는다."
+  },
+  {
+   "id": "qa-23949",
+   "fid": 23949,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23949&request_locale=ja",
+   "official": true,
+   "cards": [
+    "PSY-Framegear Gamma",
+    "Baronne de Fleur"
+   ],
+   "handtraps": [
+    "gamma"
+   ],
+   "themes": [],
+   "topic": "negate",
+   "question_ko": "'그 발동을 무효로 하고 파괴한다'([[PSY-Framegear Gamma]] 등)의 처리 시, 효과를 발동한 몬스터가 발동한 장소에 없으면 어떻게 되는가?",
+   "answer_ko": "발동(효과)은 무효가 되지만, 발동한 장소에 없으므로 파괴·제외는 하지 않는다. [[Baronne de Fleur]]의 ② 등도 같다.",
+   "quote_ja": "効果を発動した場所（モンスターゾーン）に存在しませんので、破壊されずに手札に残ります。",
+   "impact_ko": "자신을 패로 되돌리거나 특소하며 발동하는 효과에 감마·바로네스를 써도 무효만 되고 몬스터는 남는다. 견제 소모 계산에 반영한다."
+  },
+  {
+   "id": "qa-24238",
+   "fid": 24238,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24238&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Elfnote Lucina"
+   ],
+   "handtraps": [],
+   "themes": [
+    "elfnote"
+   ],
+   "topic": "misc",
+   "question_ko": "상대가 [[Elfnote Lucina]]를 대상으로 효과를 발동한 뒤, 체인해서 루키나를 중앙 메인 몬스터 존(상대가 대상으로 할 수 없는 자리)으로 옮기면?",
+   "answer_ko": "이미 대상으로 잡고 발동한 효과는 텍스트대로 처리된다. '대상으로 할 수 없다'는 발동할 때만 판단한다.",
+   "quote_ja": "後から対象にできなくなったとしても、「耀聖の花詩ルキナ」を対象として発動した相手の効果はテキスト通り処理を行います。",
+   "impact_ko": "엘펜노츠의 중앙 대상 내성은 발동 시점 기준이라, 대상 지정 패트랩([[Infinite Impermanence]]·[[Effect Veiler]])은 이동으로 피해지지 않는다."
+  }
+ ]
+}

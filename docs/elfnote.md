@@ -150,7 +150,7 @@
 | 18 | 엘펜노츠 포르토나 (Elfnote Fortuna) | 덱에서 엘펜노츠 지속 함정 놓기 | 엘펜노츠~광주의 랩소디아~ (Elfnotes: Rhapsodia of Madness) | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 19 | 감옥신영정－쥬노르도 (Junoldo the Shadespirit Power Patron) | 펜듈럼 존에 발동 |  | – |
 | 20 | 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia) | 감옥신정(1) + 레기나(6)로 레벨 7 싱크로 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 21 | 감옥신영정－쥬노르도 (Junoldo the Shadespirit Power Patron) | P효과(엘펜노츠 특소에 반응): 자신 파괴 → 2드로우 1장 버림 |  | 드롤, 유령토끼 |
+| 21 | 감옥신영정－쥬노르도 (Junoldo the Shadespirit Power Patron) | P효과(엘펜노츠 특소에 반응): 자신 파괴 → 2드로우 1장 버림 |  | 우라라, 드롤, 유령토끼 |
 | 22 | 감옥신영정－쥬노르도 (Junoldo the Shadespirit Power Patron) | 앞면으로 엑스트라에 추가된 경우: 엑스트라(앞면)·묘지의 엘펜노츠/감옥신 카드 회수 | 묘지의 엘펜노츠 레기나 (Elfnote Regina) 회수 | 와라시, 마그나무트 |
 | 23 | 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia) | 퀵: 묘지의 감옥신정 특소 |  | 증G, 냐루스, 포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 | 24 | 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon) | 스트리치아(7) + 감옥신정(1)으로 싱크로 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
