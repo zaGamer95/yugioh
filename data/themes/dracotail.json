@@ -505,6 +505,55 @@
       ]
     },
     {
+      "handtrap": "gamma",
+      "severity": "critical",
+      "line": "lukias",
+      "step": 2,
+      "target_card": "Dracotail Lukias",
+      "timing_ko": "[[Dracotail Lukias]]의 서치 효과 발동에 체인 (내 필드에 몬스터가 없을 때)",
+      "why_ko": "서치가 무효가 되고 루키아스까지 파괴된다. 우라라보다 크다: 파이메나가 안 들어오고, 루키아스는 소재가 아니라 파괴로 묘지에 가서 세트 효과도 없다. 필드에 드래곤테일이 남지 않는다.",
+      "fallback_ko": "손의 [[Dracotail Mululu]]·[[Rahu Dracotail]]·[[Ketu Dracotail]]로 다시 시작할 수 있다. 감마·드라이버는 엔드 페이즈에 제외되고, 그 전에 [[Dracotail Gulamel]]이 나오면 파괴 대상이 될 수 있다.",
+      "rulings": [
+        "qa-23949"
+      ]
+    },
+    {
+      "handtrap": "purge",
+      "severity": "critical",
+      "line": "lukias",
+      "step": 2,
+      "target_card": "Dracotail Lukias",
+      "timing_ko": "[[Dracotail Lukias]]의 서치 효과 발동에 체인. 루키아스가 필드에 있어 패에서 발동할 수 있다",
+      "why_ko": "우라라와 같은 지점. 파이메나가 안 들어와 첫 융합이 막힌다. 내 묘지에 함정이 있으면 루키아스까지 파괴되어(소재가 아니라 세트 효과도 없음) 감마와 같은 결과.",
+      "fallback_ko": "손의 무루루·라후·케투로 다시 시작. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다.",
+      "rulings": [
+        "supp-20257"
+      ]
+    },
+    {
+      "handtrap": "veiler",
+      "severity": "critical",
+      "line": "lukias",
+      "step": 2,
+      "target_card": "Dracotail Lukias",
+      "timing_ko": "[[Dracotail Lukias]]의 서치 효과 발동에 체인해 루키아스 대상",
+      "why_ko": "서치가 무효가 되어 파이메나가 안 들어온다. 우라라와 같은 결과. 루키아스는 필드에 남지만 손에 융합 수단이 없으면 소재로 쓰지 못한다.",
+      "fallback_ko": "손의 무루루·라후·케투가 있으면 루키아스를 소재로 융합(루키아스 ② 세트는 묘지 효과라 무효가 남지 않음)."
+    },
+    {
+      "handtrap": "impulse",
+      "severity": "critical",
+      "line": "lukias",
+      "step": 3,
+      "target_card": "Dracotail Faimena",
+      "timing_ko": "[[Dracotail Faimena]]가 패에서 자신을 버리고 융합 효과를 발동했을 때 체인. 루키아스가 필드에 있어 패에서 발동할 수 있다",
+      "why_ko": "파이메나는 이미 코스트로 버려졌고 1턴 1번도 썼다. 융합이 무효가 되어 루키아스는 소재로 묘지에 가지 않으므로 세트 효과도 없다. 서치(2단계)를 통과시켜도 여기서 막으면 우라라를 루키아스에 쓴 것보다 결과가 크다.",
+      "fallback_ko": "루키아스가 필드에 남아 손의 [[Rahu Dracotail]]·무루루로 이어질 수 있다. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 못 쓴다.",
+      "rulings": [
+        "supp-20555"
+      ]
+    },
+    {
       "handtrap": "crown",
       "severity": "strong",
       "line": "lukias",
@@ -595,6 +644,164 @@
       "fallback_ko": "[[Dracotail Faimena]] 융합, [[Dracotail Horn]]·[[Dracotail Flame]]은 남는다. 그라멜은 파괴·효과 내성이 생기고 소재로도 못 쓰므로 이번 턴 다른 카드(초융합 등)로 치울 수는 없다."
     },
     {
+      "handtrap": "impulse",
+      "severity": "strong",
+      "line": "mululu",
+      "step": 2,
+      "target_card": "Dracotail Mululu",
+      "timing_ko": "[[Dracotail Mululu]]의 융합 효과 발동에 체인. 무루루가 필드에 있어 패에서 발동할 수 있다",
+      "why_ko": "우라라가 안 맞는 무루루 융합을 막을 수 있는 카드다. 알자리온이 안 나오고 무루루는 소재로 묘지에 가지 않아 세트(라후)도 없다. 내 묘지에 함정이 있으면 무루루도 파괴된다.",
+      "fallback_ko": "무루루 ①은 1턴 1번을 썼다. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 못 쓴다.",
+      "rulings": [
+        "supp-20555"
+      ]
+    },
+    {
+      "handtrap": "gamma",
+      "severity": "strong",
+      "line": "mululu",
+      "step": 2,
+      "target_card": "Dracotail Mululu",
+      "timing_ko": "[[Dracotail Mululu]]의 융합 효과 발동에 체인 (내 필드에 몬스터가 없을 때)",
+      "why_ko": "발동 무효 + 무루루 파괴. 알자리온이 안 나오고, 무루루는 파괴로 묘지에 가서 세트 효과도 없다.",
+      "fallback_ko": "손에 다른 드래곤테일 초동이 있으면 다시 시작.",
+      "rulings": [
+        "qa-23949"
+      ]
+    },
+    {
+      "handtrap": "veiler",
+      "severity": "strong",
+      "line": "mululu",
+      "step": 2,
+      "target_card": "Dracotail Mululu",
+      "timing_ko": "[[Dracotail Mululu]]의 융합 효과(필드에서 발동하는 퀵) 발동에 체인해 무루루 대상",
+      "why_ko": "처리 때 무루루가 무효라 융합이 일어나지 않는다. 무루루는 필드에 남지만 ①은 1턴 1번을 썼다.",
+      "fallback_ko": "무루루를 다른 융합의 소재로 쓰면 묘지 효과(세트 + 상대 몬스터 무효)는 쓸 수 있다."
+    },
+    {
+      "handtrap": "mourner",
+      "severity": "strong",
+      "line": "lukias",
+      "step": 3,
+      "target_card": "Dracotail Arthalion",
+      "timing_ko": "[[Dracotail Faimena]] 융합으로 [[Dracotail Arthalion]]이 융합 소환된 직후, 알자리온 회수 유발·루키아스 ② 세트와 같은 체인에서 사요 시구레를 버리고 알자리온 대상",
+      "why_ko": "알자리온이 무효가 되어 체인 1의 파이메나 회수가 무효로 처리된다. 무한포영과 같은 결과이고, 체인 순서와 상관없이 닿는다.",
+      "fallback_ko": "손에 몬스터가 남아 있으면 [[Rahu Dracotail]] → 그라멜까지는 간다(무한포영과 같음). 알자리온이 이번 턴 필드를 떠나면 원래 공격력만큼 상대가 데미지."
+    },
+    {
+      "handtrap": "mourner",
+      "severity": "strong",
+      "line": "mululu",
+      "step": 2,
+      "target_card": "Dracotail Arthalion",
+      "timing_ko": "[[Dracotail Mululu]] 융합으로 [[Dracotail Arthalion]]이 융합 소환된 직후 알자리온 대상",
+      "why_ko": "무루루 회수가 무효가 되어 [[Rahu Dracotail]]에 쓸 '패의 몬스터'가 하나 줄어든다.",
+      "fallback_ko": "무루루 ②(세트)는 묘지 효과라 그대로 처리된다."
+    },
+    {
+      "handtrap": "veiler",
+      "severity": "strong",
+      "line": "lukias",
+      "step": 4,
+      "target_card": "Dracotail Arthalion",
+      "timing_ko": "[[Dracotail Arthalion]]의 회수(체인 1) 위에 루키아스 ②가 쌓인 시점에 체인 3으로 알자리온 대상. 무한포영과 같은 타이밍(대상 지정 무효는 직접 체인할 필요가 없다)",
+      "why_ko": "처리 때 알자리온이 무효라 파이메나가 패로 돌아오지 않는다. 루키아스 서치에 뵐러를 이미 썼다면 해당 없음.",
+      "fallback_ko": "손에 다른 몬스터가 있으면 [[Rahu Dracotail]] → 그라멜, 우르굴라로 파이메나 회수까지 간다."
+    },
+    {
+      "handtrap": "fuwalos",
+      "severity": "strong",
+      "line": "branded",
+      "step": 1,
+      "target_card": "Branded Fusion",
+      "timing_ko": "[[Branded Fusion]] 발동에 체인해 버린다. 내 필드에 카드가 없어야 한다",
+      "why_ko": "덱·엑덱 특소만 센다: 알비온·사크라멘툼 드라군·알자리온(엑덱), 에클레시아(덱)로 4장 안팎. 낙인형이 보이면 첫 동작에 던진다.",
+      "fallback_ko": "프리클·파이메나 묘지 특소, 하얀 용 패 특소는 세지 않는다. 엔드 페이즈 패 매수 제한 주의."
+    },
+    {
+      "handtrap": "droll",
+      "severity": "strong",
+      "line": "branded",
+      "step": 3,
+      "target_card": "Ketu Dracotail",
+      "timing_ko": "[[Ketu Dracotail]]의 서치(루키아스)가 처리된 직후",
+      "why_ko": "다음 [[Dracotail Lukias]]의 서치(파이메나)가 막혀 [[Secreterion Dragon]] 융합 → 프리클 → 라후 → 하얀 용 흐름 전체가 사라진다.",
+      "fallback_ko": "알비온·루키아스는 필드에 남고 세트 효과는 덱에서 패로가 아니라 막지 못한다. 기본형 `lukias`는 루키아스 서치 이후 덱에서 패로 넣는 효과가 없어 드롤이 거의 안 듣는다."
+    },
+    {
+      "handtrap": "purge",
+      "severity": "strong",
+      "line": "branded",
+      "step": 3,
+      "target_card": "Ketu Dracotail",
+      "timing_ko": "[[Ketu Dracotail]] 발동에 체인. 상대 필드에 알비온이 있어 패에서 발동할 수 있다(첫 동작인 [[Branded Fusion]] 때는 상대 필드가 비어 불가)",
+      "why_ko": "루키아스가 안 들어와 파이메나·사크라멘툼 드라군 이후가 없다. 내 묘지에 함정이 있으면 케투도 파괴된다.",
+      "fallback_ko": "알비온과 패가 남는다. 루키아스 서치(5단계)를 노려도 되지만 그 전에 케투에서 끊는 편이 크다.",
+      "rulings": [
+        "supp-20257"
+      ]
+    },
+    {
+      "handtrap": "veiler",
+      "severity": "strong",
+      "line": "branded",
+      "step": 5,
+      "target_card": "Dracotail Lukias",
+      "timing_ko": "[[Dracotail Lukias]]의 서치 효과 발동에 체인해 루키아스 대상",
+      "why_ko": "파이메나가 안 들어와 [[Secreterion Dragon]]·프리클·라후 흐름이 끊긴다.",
+      "fallback_ko": "알비온 + 루키아스가 남는다. 손에 다른 융합 수단이 있으면 루키아스를 소재로 쓸 수 있다."
+    },
+    {
+      "handtrap": "gamma",
+      "severity": "strong",
+      "line": "branded",
+      "step": 5,
+      "target_card": "Dracotail Lukias",
+      "timing_ko": "[[Dracotail Lukias]]의 서치 효과 발동에 체인 (내 필드에 몬스터가 없을 때)",
+      "why_ko": "서치 무효 + 루키아스 파괴로 파이메나도, 루키아스 세트도 없다.",
+      "fallback_ko": "알비온과 손패가 남는다.",
+      "rulings": [
+        "qa-23949"
+      ]
+    },
+    {
+      "handtrap": "mourner",
+      "severity": "strong",
+      "line": "branded",
+      "step": 6,
+      "target_card": "Secreterion Dragon",
+      "timing_ko": "[[Secreterion Dragon]]가 융합 소환된 직후 사요 시구레를 버리고 사크라멘툼 드라군 대상",
+      "why_ko": "이번 턴 효과가 무효가 되어 묘지의 프리클 특소(8단계)가 없고, 이후 파이메나 회수 → 라후 → 하얀 용 회수가 끊긴다. 지속 효과(특소된 드래곤·마법사 효과 봉인)도 이번 턴은 꺼진다.",
+      "fallback_ko": "루키아스 ② 세트(라후)는 묘지 효과라 남는다. 손에 몬스터가 있으면 라후로 1장 더 융합."
+    },
+    {
+      "handtrap": "impulse",
+      "severity": "strong",
+      "line": "branded",
+      "step": 6,
+      "target_card": "Dracotail Faimena",
+      "timing_ko": "[[Dracotail Faimena]]의 융합 효과(알비온 + 루키아스) 발동에 체인",
+      "why_ko": "[[Secreterion Dragon]]가 안 나오고 루키아스는 소재로 묘지에 가지 않아 라후 세트도 없다.",
+      "fallback_ko": "알비온·루키아스가 남는다. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 못 쓴다.",
+      "rulings": [
+        "supp-20555"
+      ]
+    },
+    {
+      "handtrap": "spark",
+      "severity": "strong",
+      "line": "lukias",
+      "step": 9,
+      "target_card": "Dracotail Gulamel",
+      "timing_ko": "[[Dracotail Urgula]]의 묘지 효과(파이메나 회수) 발동에 체인해 패에서 발동, [[Dracotail Gulamel]] 제외. 파이메나가 3단계에서 패에서 효과를 썼으므로 조건이 맞는다",
+      "why_ko": "그라멜 파괴가 이 판면 견제의 축이다. 제외라 '2장 이상 동시에 묘지로' 소생도 없다. 내 필드가 비어 있어 그라멜은 우르굴라 발동에 체인할 대상이 없다.",
+      "fallback_ko": "알자리온·혼·플레임과 회수한 파이메나는 남는다. 내 묘지에 함정이 없으면 상대가 패에서 몬스터 1장을 특소할 수 있다(이 시점 파이메나는 아직 묘지). 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 못 쓴다.",
+      "rulings": [
+        "supp-21360"
+      ]
+    },
+    {
       "handtrap": "super_poly",
       "severity": "ok",
       "line": "lukias",
@@ -632,6 +839,66 @@
         "qa-21722",
         "supp-21360"
       ]
+    },
+    {
+      "handtrap": "fuwalos",
+      "severity": "ok",
+      "line": "lukias",
+      "step": 3,
+      "target_card": "Dracotail Faimena",
+      "timing_ko": "[[Dracotail Faimena]]의 융합 효과 발동에 체인해 버린다(루키아스 서치 때 미리 써도 된다). 내 필드에 카드가 없어야 한다",
+      "why_ko": "알자리온·그라멜(엑덱) 2장. 덱 특소가 없어 드로우가 적다.",
+      "fallback_ko": "루키아스 일반 소환은 세지 않는다."
+    },
+    {
+      "handtrap": "fuwalos",
+      "severity": "ok",
+      "line": "mululu",
+      "step": 2,
+      "target_card": "Dracotail Mululu",
+      "timing_ko": "[[Dracotail Mululu]]의 융합 효과 발동에 체인해 버린다. 내 필드에 카드가 없어야 한다",
+      "why_ko": "알자리온·그라멜(엑덱) 2장.",
+      "fallback_ko": "무루루 일반 소환은 세지 않는다."
+    },
+    {
+      "handtrap": "spark",
+      "severity": "ok",
+      "line": "mululu",
+      "step": 6,
+      "target_card": "Dracotail Gulamel",
+      "timing_ko": "[[Dracotail Urgula]]의 융합 소재 세트 효과(묘지에서 발동) 발동에 체인해 패에서 발동, [[Dracotail Gulamel]] 제외",
+      "why_ko": "이 라인의 견제는 플레임 + 그라멜 파괴 2개뿐이라 그라멜을 지우면 플레임만 남는다. 제외라 소생도 없다.",
+      "fallback_ko": "내 묘지에 함정이 없으면 상대가 패에서 1장 특소할 수 있다. 우르굴라 세트 뒤 '마함 1장 파괴'는 내 필드에 마함이 없으면 의미가 없다."
+    },
+    {
+      "handtrap": "spark",
+      "severity": "ok",
+      "line": "branded",
+      "step": 15,
+      "target_card": "Secreterion Dragon",
+      "timing_ko": "전개 마지막 [[Dracotail Urgula]]의 묘지 효과(파이메나 회수) 발동에 체인해 패에서 발동, [[Secreterion Dragon]] 제외",
+      "why_ko": "내 턴에 특소한 드래곤·마법사 효과를 봉인하는 지속 효과가 사라진다. 프리클 묘지 효과(2단계) 이후라 조건은 일찍부터 맞는다.",
+      "fallback_ko": "에클레시아·TFTV·플레임·혼·파이메나는 남는다. 내 묘지에 함정이 없으면 상대가 패에서 1장 특소."
+    },
+    {
+      "handtrap": "droplet",
+      "severity": "ok",
+      "line": "lukias",
+      "step": 4,
+      "target_card": "Dracotail Arthalion",
+      "timing_ko": "세트해 둔 금지된 일적을 [[Dracotail Arthalion]] 회수 효과(체인 1, 위에 루키아스 ②)에 체인 3으로 발동해 알자리온 무효. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+      "why_ko": "무한포영과 같은 결과(파이메나가 패로 돌아오지 않음).",
+      "fallback_ko": "무효는 이번 턴까지라 우리 턴에는 다시 필요하다. 후공이면 우리 턴에 그라멜·알자리온을 함께 무효하는 용도가 주력(함정을 보내면 혼·플레임 체인도 봉쇄)."
+    },
+    {
+      "handtrap": "droplet",
+      "severity": "ok",
+      "line": "branded",
+      "step": 8,
+      "target_card": "Secreterion Dragon",
+      "timing_ko": "세트해 둔 금지된 일적을 [[Secreterion Dragon]]의 '묘지의 드래곤·마법사 특소' 발동에 체인해 사크라멘툼 드라군 무효. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+      "why_ko": "프리클이 돌아오지 않아 파이메나 회수 → 라후 흐름이 끊긴다(와라시와 같은 지점).",
+      "fallback_ko": "라후는 세트되어 있어 손에 몬스터가 있으면 알자리온 1장은 더 나온다."
     },
     {
       "handtrap": "ash",
@@ -684,7 +951,7 @@
     },
     "fuwalos": {
       "rating": "ok",
-      "note_ko": "덱·엑덱 특소만 세어 기본형 2장, 낙인형 최대 5장. 필드가 비어 있어야 함."
+      "note_ko": "덱·엑덱 특소만 센다. 기본형(`lukias`·`mululu`)은 2장, 낙인형(`branded` 1단계 낙인융합에 체인)은 4장 안팎. 내 필드에 카드가 없어야 한다."
     },
     "purulia": {
       "rating": "weak",
@@ -696,7 +963,7 @@
     },
     "droll": {
       "rating": "ok",
-      "note_ko": "루키아스 서치 뒤에 쓰면 케투·2번째 서치를 막는다. 우르굴라 회수는 묘지→패라 못 막는다."
+      "note_ko": "낙인형: 케투 서치 처리 뒤(`branded` 3)에 쓰면 루키아스 서치가 막혀 사크라멘툼 드라군 이후가 사라진다. 기본형은 루키아스 서치 뒤 덱에서 패로 넣는 효과가 없고 우르굴라 회수는 묘지→패라 못 막는다."
     },
     "imperm": {
       "rating": "strong",
@@ -704,7 +971,7 @@
     },
     "veiler": {
       "rating": "strong",
-      "note_ko": "선공 턴에만. 알자리온·무루루·루키아스에 무한포영과 같은 용도. 우리 턴(상대 턴 융합)에는 못 쓴다."
+      "note_ko": "상대 메인 페이즈(선공 1턴 전개 중)에만. 루키아스 서치(`lukias` 2, 우라라와 같은 결과) > 무루루 융합 발동에 체인(`mululu` 2) > 알자리온 회수 체인 3(`lukias` 4). 우리 턴(상대 턴 융합)에는 못 쓴다."
     },
     "ogre": {
       "rating": "strong",
@@ -719,44 +986,53 @@
       ]
     },
     "mourner": {
-      "rating": "ok",
-      "note_ko": "알자리온 융합 소환 직후에 효과 무효를 걸면 회수가 막힌다(무한포영과 같은 효과)."
+      "rating": "strong",
+      "note_ko": "알자리온 융합 소환 직후 무효로 회수 차단(`lukias` 3·`mululu` 2, 무한포영과 같은 결과). 낙인형은 사크라멘툼 드라군 융합 직후(`branded` 6)에 쓰면 프리클 소생이 막힌다. 우리 턴에는 파이메나로 나온 2번째 알자리온의 바운스를 막는다."
     },
     "crossout": {
       "rating": "weak",
       "note_ko": "자기 덱에 있는 카드만 선언 가능. 내가 알버스 엔진을 쓴다면 [[Branded Fusion]]·[[Fallen of the White Dragon]] 선언으로 낙인형만 견제할 수 있다."
     },
     "ttt": {
-      "rating": "ok",
-      "note_ko": "후공용. 우리 턴에 파이메나·그라멜이 몬스터 효과를 쓰므로 조건이 쉽게 맞는다."
+      "rating": "weak",
+      "note_ko": "상대 1턴 전개에는 쓸 곳이 거의 없음(내 메인 페이즈 중 상대의 몬스터 효과가 조건). 내 턴(후공)에: 파이메나·그라멜이 내 메인 페이즈에 효과를 쓰므로 조건이 쉽게 맞는다. 2드로우, 또는 그라멜·알자리온 탈취(소재로 쓸 때 다른 몬스터와 함께 묘지로 보내면 그 카드 자신은 소생하지 않지만 묘지의 다른 알자리온·그라멜은 반응). 일반 마법이라 플레임에 무효당할 수 있다."
     },
     "droplet": {
-      "rating": "strong",
-      "note_ko": "후공용. 그라멜·알자리온을 동시에 무효. 함정과 같은 종류로 버리면 혼·플레임 체인도 막는다."
+      "rating": "ok",
+      "note_ko": "속공 마법이라 상대 턴에 쓰려면 세트가 필요해 후공 1턴의 상대 전개에는 못 쓴다. 세트해 두었다면 알자리온 회수(`lukias` 4)·사크라멘툼 드라군 소생(`branded` 8)에. 주 용도는 내 턴(후공): 그라멜·알자리온을 동시에 무효, 함정을 보내면 혼·플레임 체인도 막는다."
     },
     "nibiru": {
       "rating": "weak",
       "note_ko": "기본형은 소환 3회로 조건 미달. 낙인형은 파이메나 특소가 5번째라 그 뒤에 쓸 수 있다."
     },
     "impulse": {
-      "rating": "ok",
-      "note_ko": "라후·낙인융합·무루루·파이메나 융합 같은 특소 효과를 무효. 상대 필드에 카드가 있어야 패에서 발동 가능."
+      "rating": "strong",
+      "note_ko": "파이메나 융합(`lukias` 3: 루키아스가 소재로 안 가 세트도 없음) > 무루루 융합(`mululu` 2, 우라라가 못 막는 곳) > 라후. 낙인형은 낙인융합이 상대 필드가 빈 첫 동작이라 패에서 못 쓰고, 파이메나 융합(`branded` 6)에. 패에서 쓰면 빛·땅·바람 몬스터 효과 영구 봉인.",
+      "rulings": [
+        "supp-20555"
+      ]
     },
     "purge": {
-      "rating": "ok",
-      "note_ko": "루키아스·케투 서치 무효."
+      "rating": "strong",
+      "note_ko": "루키아스 서치(`lukias` 2, 우라라와 같은 지점, 묘지에 함정이 있으면 루키아스까지 파괴). 낙인형은 케투(`branded` 3). 무루루 라인에는 서치가 없다. 패에서 쓰면 어둠·물·화염 몬스터 효과 영구 봉인.",
+      "rulings": [
+        "supp-20257"
+      ]
     },
     "spark": {
       "rating": "ok",
-      "note_ko": "파이메나(패)·우르굴라(묘지)가 효과를 쓴 턴에 그라멜 등을 제외."
+      "note_ko": "파이메나(패)·우르굴라·루키아스(묘지)가 효과를 쓴 뒤 전개 끝의 우르굴라 효과에 체인해 그라멜 제외(`lukias` 9, 제외라 소생 없음). 낙인형은 사크라멘툼 드라군. 내 묘지에 함정이 없으면 상대가 패에서 1장 특소."
     },
     "magnamhut": {
       "rating": "weak",
       "note_ko": "묘지의 알비온을 엔드 페이즈 전에 제외하는 정도(낙인형)."
     },
     "gamma": {
-      "rating": "ok",
-      "note_ko": "루키아스 서치나 파이메나 융합 무효. 필드에 몬스터가 없어야 함."
+      "rating": "strong",
+      "note_ko": "루키아스 서치에 체인해 무효 + 파괴(`lukias` 2, 우라라보다 큼: 루키아스 세트도 없음). 무루루 융합(`mululu` 2)도 가능. 내 필드에 몬스터가 없어야 한다.",
+      "rulings": [
+        "qa-23949"
+      ]
     },
     "harmonia": {
       "rating": "strong",
@@ -845,6 +1121,13 @@
               {
                 "id": "spark",
                 "note_ko": "상대가 패의 파이메나 효과를 쓴 뒤라면 그라멜을 제외. 함정이라 플레임이 못 막고, 묘지로 안 가서 자기 소생도 없다"
+              },
+              {
+                "id": "ttt",
+                "note_ko": "내 메인 페이즈에 상대가 파이메나·그라멜 효과를 쓴 뒤 발동해 그라멜(또는 알자리온) 컨트롤 탈취. 탈취한 몬스터를 다른 몬스터와 함께 링크·싱크로 소재로 보내면 그 카드 자신은 소생하지 않지만, 묘지에 남은 다른 알자리온·그라멜은 2장 동시 묘지행에 반응한다. 일반 마법이라 플레임이 남아 있으면 무효당한다",
+                "rulings": [
+                  "supp-21359"
+                ]
               }
             ],
             "bait_ko": "아무 드래곤테일 발동에나 1번 붙으므로, 플레임·혼을 먼저 끌어내면 그 발동에서 파괴를 써 버린다. 가장 덜 중요한 앞면 카드를 먼저 깔아 두면 그걸 파괴 대상으로 고르게 유도할 수 있다."
@@ -928,7 +1211,7 @@
               },
               {
                 "id": "droplet",
-                "note_ko": "함정을 보내면 함정으로 체인 불가라 플레임이 이 드롭렛에 못 끼어든다"
+                "note_ko": "함정을 보내면 함정으로 체인 불가라 플레임이 이 금지된 일적에 못 끼어든다"
               },
               {
                 "id": "super_poly",
@@ -1129,7 +1412,7 @@
               },
               {
                 "id": "droplet",
-                "note_ko": "함정을 보내면 함정으로 체인 불가라 플레임이 이 드롭렛에 못 끼어든다"
+                "note_ko": "함정을 보내면 함정으로 체인 불가라 플레임이 이 금지된 일적에 못 끼어든다"
               },
               {
                 "id": "super_poly",
@@ -1162,7 +1445,7 @@
               },
               {
                 "id": "imperm",
-                "note_ko": "내 필드가 비어 있을 때 패에서 미리 무효. 세크레테리온은 대응할 퀵 효과가 없다"
+                "note_ko": "내 필드가 비어 있을 때 패에서 미리 무효. [[Secreterion Dragon]]은 대응할 퀵 효과가 없다"
               },
               {
                 "id": "dark_ruler",
@@ -1174,7 +1457,7 @@
               },
               {
                 "id": "super_poly",
-                "note_ko": "세크레테리온을 소재로 흡수. 체인 불가"
+                "note_ko": "[[Secreterion Dragon]]을 소재로 흡수. 체인 불가"
               },
               {
                 "id": "ultimate_slayer",
@@ -1314,7 +1597,7 @@
               },
               {
                 "id": "droplet",
-                "note_ko": "함정을 보내면 함정으로 체인 불가라 플레임이 이 드롭렛에 못 끼어든다"
+                "note_ko": "함정을 보내면 함정으로 체인 불가라 플레임이 이 금지된 일적에 못 끼어든다"
               },
               {
                 "id": "super_poly",

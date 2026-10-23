@@ -1,0 +1,59 @@
+{
+  "sources": {
+    "konami-db-faq": {
+      "title": "遊戯王ニューロン（オフィシャルカードゲーム カードデータベース）カードに関連するQ&A・補足情報",
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+      "publisher": "KONAMI",
+      "lang": "ja"
+    }
+  },
+  "rules": [],
+  "rulings": [
+    {
+      "id": "qa-11533",
+      "fid": 11533,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11533&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Albion the Branded Dragon",
+        "Dominus Purge"
+      ],
+      "handtraps": [
+        "purge",
+        "ash"
+      ],
+      "themes": [
+        "branded"
+      ],
+      "topic": "timing",
+      "question_ko": "스탠바이 페이즈·엔드 페이즈에 할 처리가 여러 개 있으면 순서가 정해져 있나? (예: 이번 턴 묘지로 간 [[Albion the Branded Dragon]]의 엔드 페이즈 효과)",
+      "answer_ko": "각 페이즈 처음에는 턴 플레이어가 우선권을 가지므로 턴 플레이어가 먼저, 원하는 순서대로 하나씩 발동·처리할 수 있다. 턴 플레이어가 우선권을 넘기면 상대도 같은 식으로 처리한다. 알비온의 효과는 반드시 발동하는 효과가 아니므로 발동 시점을 미룰 수도 있다.",
+      "quote_ja": "各フェイズの最初に優先権を持っているのはターンプレイヤーであるため、まずターンプレイヤーから先に発動・処理を行うことができます。行いたい処理が複数ある場合は、好きな順番でその発動・処理を行うことができます。",
+      "impact_ko": "엔드 페이즈의 '이번 턴 묘지로 보내졌다면 발동' 효과들(알비온·에클레시아·카르테시아 등)은 한 체인에 묶이지 않고 하나씩 체인 1로 발동된다. 그래서 알비온의 서치·세트 효과에는 [[Dominus Purge]]·[[Ash Blossom & Joyous Spring]]처럼 직접 체인해야 하는 카드도 닿는다."
+    },
+    {
+      "id": "supp-20257",
+      "fid": null,
+      "cid": 20257,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20257&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Dominus Purge"
+      ],
+      "handtraps": [
+        "purge"
+      ],
+      "themes": [
+        "branded",
+        "dracotail",
+        "sky-striker"
+      ],
+      "topic": "negate",
+      "question_ko": "[[Dominus Purge]]는 언제 패에서 발동할 수 있고, 무엇을 무효로 하나?",
+      "answer_ko": "'상대 필드에 카드가 있으면 패에서 발동 가능'은 효과가 아니며, 이 조건이 맞으면 자신·상대 턴 모두 패에서 발동할 수 있다. ①은 덱에서 카드를 패에 넣는 효과를 포함한 마법·함정·몬스터 효과에 직접 체인해서 발동하고, 직전 체인 블록 1개의 효과 처리 전체를 무효로 한다(그 체인 블록에 다른 처리가 섞여 있어도 모두 적용되지 않는다). 자신 묘지에 함정이 있으면 무효로 한 카드를 파괴한다. 데미지 스텝에는 발동할 수 없다.",
+      "quote_ja": "■デッキからカードを手札に加える効果を含む、魔法・罠・モンスターの効果に、直接チェーンして発動できます。…■直前のチェーンブロック１つ分の効果処理が無効化されます。",
+      "impact_ko": "상대 필드가 빈 상태의 첫 동작(빈 필드에서 발동한 마법 등)에는 패에서 쓸 수 없다. '서치 또는 세트'처럼 서치를 포함한 선택형 효과도 체인 블록 전체가 무효가 되므로 세트로 피할 수 없다. 다른 체인이 위에 쌓인 효과에는 닿지 않는다."
+    }
+  ]
+}
