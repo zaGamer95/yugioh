@@ -244,7 +244,7 @@
     "DoomZ Raiders",
     "DoomZ Destruction"
    ],
-   "end_board_note_ko": "상대 턴: 레귤러스 무효(자신을 묘지로), 소재가 빠질 때마다 사르가스 파괴/바운스, 드라스테아 퀵 변신으로 [[DoomZ XII End - Drastrius]](DURG가 소재가 되면 대상 내성) → 필드·묘지 몬스터 효과 무효 + 장착, [[DoomZ Destruction]] 발동으로 서치 봉쇄. [[DoomZ Raiders]]는 효과로 파괴되면 앞면 몬스터 1장을 파괴한다."
+   "end_board_note_ko": "상대 턴: 레귤러스 무효(패·앞면 필드의 세리온 몬스터 카드 1장을 묘지로), 소재가 빠질 때마다 사르가스 파괴/바운스, 드라스테아 퀵 변신으로 [[DoomZ XII End - Drastrius]](DURG가 소재가 되면 대상 내성) → 필드·묘지 몬스터 효과 무효 + 장착, [[DoomZ Destruction]] 발동으로 서치 봉쇄. [[DoomZ Raiders]]는 효과로 파괴되면 앞면 몬스터 1장을 파괴한다."
   },
   {
    "id": "elara",
@@ -787,7 +787,7 @@
       "card": "Therion \"King\" Regulus",
       "kind": "quick_negate",
       "zone": "monster",
-      "timing_ko": "카드·효과 발동 시 1회 무효(퀵). 자신을 묘지로 보내는 코스트라 쓰면 필드에서 사라진다",
+      "timing_ko": "카드·효과 발동 시 1턴 1회 무효(퀵). 코스트는 패·앞면 필드의 세리온 몬스터 카드 1장(레귤러스 자신이나 장착된 세리온 등)이라, 패에 세리온이 있으면 레귤러스가 필드에 남을 수도 있다",
       "answered_by": [
        {
         "id": "dark_ruler",

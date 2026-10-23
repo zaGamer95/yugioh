@@ -1,0 +1,605 @@
+{
+ "sources": {
+  "konami-qa": {
+   "title": "遊戯王ニューロン(オフィシャルカードゲーム カードデータベース) Q&A",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rulings": [
+  {
+   "id": "qa-23996",
+   "fid": 23996,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23996&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring",
+    "DoomZ Change"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [
+    "doomz"
+   ],
+   "topic": "chain",
+   "question_ko": "덱에 있는 카드를 '파괴'하는 효과(예: 덱에서 몬스터를 골라 파괴)에 [[Ash Blossom & Joyous Spring]]을 체인할 수 있는가?",
+   "answer_ko": "할 수 없다. 파괴된 카드는 결과적으로 묘지에 가지만, 이런 효과는 '덱에서 카드를 묘지로 보내는 효과'로 보지 않는다.",
+   "quote_ja": "この効果そのものは『●デッキからカードを墓地へ送る効果』とみなしません。",
+   "impact_ko": "[[DoomZ Change]] ①(패·덱·필드의 둠즈 카드 1장 파괴)도 같은 구조라 우라라를 쓸 수 없고, 이어지는 파괴 유발(예: [[Power Patron DoomZ]]의 서치)을 노려야 한다는 doomz 데이터가 공식 판정과 맞는다."
+  },
+  {
+   "id": "qa-12482",
+   "fid": 12482,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12482&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Elfnotes: Rhapsodia of Madness",
+    "Kewl Tune RS"
+   ],
+   "handtraps": [],
+   "themes": [
+    "elfnote",
+    "kewl-tune"
+   ],
+   "topic": "negate",
+   "question_ko": "일반 마법·일반 함정처럼 처리 후 묘지로 가는 카드의 발동에 체인해, 그 카드를 대상으로 '앞면 카드의 효과를 무효'로 하는 효과([[Number 22: Zombiestein]])를 쓰면 그 카드의 효과를 무효로 할 수 있는가?",
+   "answer_ko": "할 수 있다. 체인 위에서 발동 중인 일반 마법·함정도 앞면 카드이므로 효과를 무효로 할 수 있다. 다만 처리 시 그 카드가 필드에 없으면(코스트로 묘지에 갔으면) 무효로 하지 못한다.",
+   "quote_ja": "通常魔法・通常罠カード等の発動にチェーンして、その通常魔法・通常罠カード等を対象に「No.22 不乱健」の効果を発動し、その効果を無効にする事はできます。",
+   "impact_ko": "[[Elfnotes: Rhapsodia of Madness]] ②나 [[Kewl Tune RS]] ③처럼 '상대 필드의 앞면 카드 1장의 효과를 무효'로 하는 효과도 같은 구조라, 내가 발동한 일반·속공 마법에 체인해 그 효과를 무효로 할 수 있다(카드별 판정은 아직 없고 같은 구조의 공식 판정에 근거)."
+  },
+  {
+   "id": "qa-17304",
+   "fid": 17304,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=17304&request_locale=ja",
+   "official": true,
+   "cards": [
+    "PSY-Framegear Gamma",
+    "Chaos Angel",
+    "F.A. Dawn Dragster"
+   ],
+   "handtraps": [
+    "gamma"
+   ],
+   "themes": [
+    "elfnote"
+   ],
+   "topic": "negate",
+   "question_ko": "어떤 종류의 효과를 받지 않는 몬스터가 효과를 발동했을 때, 그 종류의 카드로 '그 발동을 무효로 하고 파괴'하면 어떻게 되는가? (예: 함정 효과를 받지 않는 몬스터에 함정으로 발동 무효)",
+   "answer_ko": "발동 무효와 파괴가 모두 적용되지 않는다. 그 몬스터의 효과는 그대로 처리된다(무효 카드의 다른 처리, 예: 드로우는 적용).",
+   "quote_ja": "「無償交換」の『その発動を無効にし破壊する』処理は適用されず",
+   "impact_ko": "[[Chaos Angel]](빛 소재)의 '내 싱크로는 상대가 발동한 몬스터 효과를 받지 않는다'가 적용 중이면, [[PSY-Framegear Gamma]](몬스터 효과)로 [[F.A. Dawn Dragster]]·[[Crystal Wing Synchro Dragon]]의 발동을 무효로 할 수도 없다. elfnote 데이터의 '무효는 되고 파괴만 안 된다'는 추정은 틀렸다."
+  },
+  {
+   "id": "qa-23491",
+   "fid": 23491,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23491&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Chaos Angel",
+    "Fairy Tail - Wiccat",
+    "Ghost Ogre & Snow Rabbit",
+    "PSY-Framegear Gamma"
+   ],
+   "handtraps": [
+    "ogre",
+    "gamma"
+   ],
+   "themes": [
+    "elfnote",
+    "magistus"
+   ],
+   "topic": "negate",
+   "question_ko": "'상대가 발동한 효과를 받지 않는' 몬스터에 지속형 효과(스킬 드레인 등)나 나중에 적용되는 효과가 적용되는가?",
+   "answer_ko": "'발동한 효과를 받지 않는다'는 상대가 발동한 효과의 처리 시(체인 처리 시)에 적용되는 효과를 받지 않는다는 뜻이다. 다만 발동 처리 후에도 계속 적용되는 효과(스킬 드레인 등)나 처리 시 이외에 적용되는 효과는 받는다. 답변의 예시 목록에 [[Chaos Angel]]('몬스터가 발동한 효과를 받지 않는다')과 [[Fairy Tail - Wiccat]] ①이 적용된 빛 속성 페어리테일 몬스터('상대가 발동한 효과를 받지 않는다')가 들어 있다.",
+   "quote_ja": "相手が発動した効果の処理時（チェーンブロックの処理時）に適用される効果を受けません。",
+   "impact_ko": "[[Chaos Angel]]이 있는 감옥신 보드에서는 [[Ghost Ogre & Snow Rabbit]]·[[PSY-Framegear Gamma]]·[[Fydraulis Harmonia]] 같은 몬스터 효과로 싱크로를 처리할 수 없다. 마법인 [[Dark Ruler No More]]·[[Forbidden Droplet]]은 [[Chaos Angel]]의 내성 대상이 아니다."
+  },
+  {
+   "id": "qa-23933",
+   "fid": 23933,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23933&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Kewl Tune Synchro",
+    "Elfnote Power Patron",
+    "Dominus Impulse"
+   ],
+   "handtraps": [
+    "impulse"
+   ],
+   "themes": [
+    "kewl-tune",
+    "elfnote"
+   ],
+   "topic": "summon",
+   "question_ko": "효과 처리로 싱크로·엑시즈·링크·펜듈럼 소환을 하는 효과는 '몬스터를 특수 소환하는 효과'를 포함하는가?",
+   "answer_ko": "포함한다. 예시 목록에 [[Kewl Tune Synchro]] ①과 [[Elfnote Power Patron]] ②가 직접 나온다. 따라서 '특수 소환하는 효과를 포함하는 효과가 발동했을 때' 쓰는 카드로 대응할 수 있다.",
+   "quote_ja": "シンクロ召喚・エクシーズ召喚・リンク召喚・ペンデュラム召喚を行う効果も『モンスターを特殊召喚する効果』を含みます。",
+   "impact_ko": "[[Dominus Impulse]]로 [[Kewl Tune Synchro]](서치 후 싱크로)와 [[Elfnote Power Patron]]의 레벨 업+싱크로를 무효로 할 수 있다. kewl-tune 데이터의 '실전 확인 필요'를 공식 판정으로 확인했다."
+  },
+  {
+   "id": "qa-24054",
+   "fid": 24054,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24054&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Kewl Tune Synchro",
+    "Kewl Tune Remix",
+    "Kewl Tune Clip",
+    "Kewl Tune B2B"
+   ],
+   "handtraps": [],
+   "themes": [
+    "kewl-tune"
+   ],
+   "topic": "summon",
+   "question_ko": "효과를 발동해 그 처리로 싱크로 소환할 때, 그 싱크로 소환 자체를 무효로 하는 카드(신의 선고 등)를 쓸 수 있는가?",
+   "answer_ko": "그 효과가 체인 1로 발동했다면 싱크로 소환 시 소환 무효 카드를 쓸 수 있다. 체인 2 이후로 발동했다면 쓸 수 없다. 같은 취급인 카드 목록에 [[Kewl Tune Synchro]]·[[Kewl Tune Remix]]·[[Kewl Tune Clip]]·[[Kewl Tune B2B]]가 들어 있다.",
+   "quote_ja": "チェーン１で効果を発動したことによってモンスターがシンクロ召喚・エクシーズ召喚・ペンデュラム召喚・リンク召喚される際には発動できます",
+   "impact_ko": "후공 내 턴에 상대가 체인 2 이후로 퀵 싱크로를 하면 소환 무효 카드로는 막을 수 없다. 그 효과 발동 자체에 대응하는 카드([[Dominus Impulse]]·[[PSY-Framegear Gamma]] 등)가 필요하다."
+  },
+  {
+   "id": "qa-23949",
+   "fid": 23949,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23949&request_locale=ja",
+   "official": true,
+   "cards": [
+    "PSY-Framegear Gamma",
+    "Zalen the Shackled Dragon",
+    "Baronne de Fleur",
+    "Crystal Wing Synchro Dragon",
+    "Kewl Tune Remix"
+   ],
+   "handtraps": [
+    "gamma"
+   ],
+   "themes": [
+    "kewl-tune",
+    "elfnote"
+   ],
+   "topic": "negate",
+   "question_ko": "[[PSY-Framegear Gamma]] 등의 '발동을 무효로 하고 파괴' 처리 시, 효과를 발동한 몬스터가 발동한 장소에 없으면 어떻게 되는가?",
+   "answer_ko": "발동(또는 효과)은 무효가 되지만, 발동한 장소에 없으므로 파괴·제외 처리는 하지 않는다. [[Zalen the Shackled Dragon]] ②·[[Baronne de Fleur]] ②·[[Crystal Wing Synchro Dragon]] ①도 같다.",
+   "quote_ja": "効果を発動した場所（モンスターゾーン）に存在しませんので、破壊されずに手札に残ります。",
+   "impact_ko": "자신을 릴리스(코스트)해서 발동하는 [[Kewl Tune Remix]] ②에 [[PSY-Framegear Gamma]]를 쓰면 회수·특소·싱크로는 전부 무효가 되고, 파괴 처리는 없다(이미 묘지)."
+  },
+  {
+   "id": "qa-23215",
+   "fid": 23215,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23215&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Belle & Haunted Mansion",
+    "Kewl Tune Cue",
+    "Elfnote Seraphim Strelitzia",
+    "DoomZ XIII Over - Graflareio",
+    "Vidolium the Unstable Power Patron of Unity"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "doomz",
+    "artmage",
+    "magistus"
+   ],
+   "topic": "chain",
+   "question_ko": "'패·묘지에서 몬스터를 골라 특수 소환하는' 효과에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있는가? 묘지에 해당 몬스터가 없을 때는?",
+   "answer_ko": "할 수 있다. 이런 효과는 발동 시 묘지 상황과 상관없이 '묘지에서 몬스터를 특수 소환하는 효과'를 포함한다. 예시 목록에 [[Kewl Tune Cue]] ①, [[Elfnote Seraphim Strelitzia]] ②, [[DoomZ XIII Over - Graflareio]] ②, [[Vidolium the Unstable Power Patron of Unity]]의 P효과 ① 첫 번째 효과가 직접 나온다.",
+   "quote_ja": "その発動時の墓地の「青眼の白龍」の数を問わず、『墓地からモンスターを特殊召喚する効果を含む効果』に該当します。",
+   "impact_ko": "스트리치아 소생·비도리움 P효과·그라플레이오 파괴 유발·큐의 튜너 특소에 와라시를 쓸 수 있다는 데이터가 공식으로 확인된다. 같은 구조(패·묘지·제외 상태 등에서 골라 특소)인 [[Artmage Litera]] ③, [[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]] ②, [[Zoroa, the Magistus of Flame]] ②에도 같은 원칙이 적용된다."
+  },
+  {
+   "id": "qa-23218",
+   "fid": 23218,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23218&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Belle & Haunted Mansion",
+    "Fairy Tail - Matchgiru"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "magistus"
+   ],
+   "topic": "chain",
+   "question_ko": "'이 카드를 패·묘지에서 특수 소환한다'는 자기 소생 효과에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있는가?",
+   "answer_ko": "그 효과를 묘지에서 발동했을 때만 체인할 수 있다. 패에서 발동했다면 '패에서 특수 소환하는 효과'라 체인할 수 없다.",
+   "quote_ja": "手札で発動した「K９－ØØ号 ルプス」の効果にチェーンして「屋敷わらし」の効果を発動することはできません。",
+   "impact_ko": "[[Fairy Tail - Matchgiru]] ①(패·묘지에서 자신을 특소)은 묘지에서 발동했을 때만 와라시 대상이다. magistus 데이터의 '매치리르의 묘지 특소 효과 발동에 체인'과 맞다."
+  },
+  {
+   "id": "qa-15060",
+   "fid": 15060,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=15060&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Ogre & Snow Rabbit",
+    "Vidolium the Unstable Power Patron of Unity"
+   ],
+   "handtraps": [
+    "ogre"
+   ],
+   "themes": [
+    "elfnote"
+   ],
+   "topic": "chain",
+   "question_ko": "펜듈럼 존에 있는 펜듈럼 몬스터의 펜듈럼 효과 발동에 [[Ghost Ogre & Snow Rabbit]]을 체인할 수 있는가?",
+   "answer_ko": "할 수 있다. 그 펜듈럼 카드가 파괴되므로, 예시의 서치 처리는 적용되지 않는다.",
+   "quote_ja": "ペンデュラムゾーンに存在するペンデュラムモンスターのペンデュラム効果の発動にチェーンして「幽鬼うさぎ」の効果を発動する事はできます。",
+   "impact_ko": "[[Vidolium the Unstable Power Patron of Unity]]의 P효과(펜듈럼 존)에도 유령토끼를 체인할 수 있다. 비도리움 전용 판정은 없지만 같은 구조다."
+  },
+  {
+   "id": "qa-9056",
+   "fid": 9056,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=9056&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Ogre & Snow Rabbit",
+    "Vidolium the Unstable Power Patron of Unity"
+   ],
+   "handtraps": [
+    "ogre"
+   ],
+   "themes": [
+    "elfnote"
+   ],
+   "topic": "chain",
+   "question_ko": "'그 카드를 파괴하고, …' 펜듈럼 효과에 [[Ghost Ogre & Snow Rabbit]]이 체인되어 효과를 발동한 펜듈럼 카드 자신이 파괴되면 어떻게 되는가?",
+   "answer_ko": "처리 시 효과를 발동한 펜듈럼 카드가 파괴되어 있으면 그 효과의 처리는 적용되지 않는다.",
+   "quote_ja": "効果を発動した「竜剣士ラスターP」自身が破壊されている場合には、『そのカードを破壊し、そのカードの同名カード１枚をデッキから手札に加える』処理は適用されません。",
+   "impact_ko": "[[Vidolium the Unstable Power Patron of Unity]]의 P효과('이 카드를 파괴하고 패·묘지에서 감옥신 특소')에 유령토끼를 쓰면 특소가 처리되지 않는다는 elfnote 데이터의 추정을 같은 구조의 공식 판정으로 뒷받침한다."
+  },
+  {
+   "id": "qa-12625",
+   "fid": 12625,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12625&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Artmage Diactorus"
+   ],
+   "handtraps": [],
+   "themes": [
+    "artmage"
+   ],
+   "topic": "chain",
+   "question_ko": "'마법 카드의 효과가 필드에서 발동했을 때' 쓸 수 있는 효과([[Number 38: Hope Harbinger Dragon Titanic Galaxy]])를 일반 마법의 카드 발동에 체인할 수 있는가?",
+   "answer_ko": "할 수 있다. 일반 마법의 카드 발동은 '필드에서 발동한 마법 카드의 효과'로 취급된다(예시에서는 그 마법에 무효 내성이 있어 무효는 되지 않았다).",
+   "quote_ja": "「ポルターガイスト」のカードの発動にチェーンして、「No.38 希望魁竜タイタニック・ギャラクシー」の『その効果を無効にし、そのカードをこのカードの下に重ねてX素材とする』効果を発動する事はできます。",
+   "impact_ko": "[[Artmage Diactorus]] ②('상대가 마법·함정·몬스터 효과를 필드에서 발동했을 때')가 패에서 발동하는 일반·속공 마법에도 반응한다는 artmage 데이터를 같은 구조의 판정으로 뒷받침한다. 패에서 발동하는 함정([[Infinite Impermanence]] 등)은 직접 판정이 없다(qa-23478 참고)."
+  },
+  {
+   "id": "qa-23478",
+   "fid": 23478,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23478&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Infinite Impermanence",
+    "Artmage Diactorus"
+   ],
+   "handtraps": [
+    "imperm"
+   ],
+   "themes": [
+    "artmage"
+   ],
+   "topic": "misc",
+   "question_ko": "'상대는 마법·함정 존의 카드 효과를 발동할 수 없다' 또는 '상대는 패·묘지의 카드 효과를 발동할 수 없다'가 적용 중일 때 [[Infinite Impermanence]]를 패에서 마법·함정 존에 놓고 발동할 수 있는가?",
+   "answer_ko": "'마법·함정 존의 카드 효과 발동 불가'만 적용 중이면 발동할 수 있다. '패·묘지의 카드 효과 발동 불가'가 적용 중이면 발동할 수 없다. 즉 패에서 발동하는 포영은 '패의 카드 효과 발동'으로 취급된다.",
+   "quote_ja": "（B）発動できません。",
+   "impact_ko": "[[Artmage Diactorus]] ②가 패에서 발동한 [[Infinite Impermanence]]를 '필드에서 발동한 함정'으로 보고 무효로 할 수 있는지는 공식 판정으로 확정되지 않았다. 이 판정은 반대 방향을 시사하므로, artmage 데이터의 '패에서 써도 디아크토러스에 무효된다'는 확인 필요로 본다."
+  },
+  {
+   "id": "qa-21720",
+   "fid": 21720,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=21720&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Belle & Haunted Mansion",
+    "Kewl Tune Loudness War"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "kewl-tune"
+   ],
+   "topic": "cost",
+   "question_ko": "발동 코스트로 묘지의 카드를 제외하지만 효과 처리에서는 묘지를 건드리지 않는 효과에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있는가?",
+   "answer_ko": "할 수 없다. 와라시는 효과 처리에 '묘지에서 회수·특소·제외'가 포함된 효과에만 쓸 수 있고, 코스트로 묘지 카드를 제외하는 것은 해당하지 않는다.",
+   "quote_ja": "効果処理では、墓地からカードを手札やデッキに加えたり、墓地からモンスターを特殊召喚したり、墓地のカードを除外したりする処理は行われません。",
+   "impact_ko": "[[Kewl Tune Loudness War]] ②는 묘지의 킬러튠을 코스트로 제외하므로 와라시로 막을 수 없다는 kewl-tune 데이터가 맞다."
+  },
+  {
+   "id": "qa-24251",
+   "fid": 24251,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24251&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Kewl Tune Loudness War",
+    "Kewl Tune Mix"
+   ],
+   "handtraps": [],
+   "themes": [
+    "kewl-tune"
+   ],
+   "topic": "opt",
+   "question_ko": "[[Kewl Tune Mix]] ②를 이미 쓴 턴에 그 [[Kewl Tune Mix]]를 제외해 [[Kewl Tune Loudness War]] ②를 발동할 수 있는가?",
+   "answer_ko": "할 수 있다. 적용하는 카드의 '1턴에 1번' 제한은 고려하지 않으며, 상대 몬스터 1장 파괴 처리를 한다.",
+   "quote_ja": "適用するカードに記載されている『１ターンに１度しか使用できない』は考慮しません。",
+   "impact_ko": "[[Kewl Tune Loudness War]]는 같은 턴에 이미 쓴 소재 유발(몬스터 파괴·마함 파괴·바운스)을 한 번 더 쓸 수 있다. 후공 내 턴에 상대 퀵 싱크로 뒤에도 이 견제가 남는다."
+  },
+  {
+   "id": "qa-24238",
+   "fid": 24238,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24238&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Kewl Tune Loudness War",
+    "Artmage Finmel",
+    "Infinite Impermanence"
+   ],
+   "handtraps": [
+    "imperm"
+   ],
+   "themes": [
+    "kewl-tune",
+    "artmage",
+    "elfnote"
+   ],
+   "topic": "timing",
+   "question_ko": "상대가 내 몬스터를 대상으로 효과를 발동한 뒤, 체인 처리 중 그 몬스터가 '대상으로 할 수 없는' 상태가 되면 어떻게 되는가?",
+   "answer_ko": "이미 대상으로 잡고 발동한 효과는 텍스트대로 처리된다. 대상 지정 불가는 그 뒤의 새 발동만 막는다. 예시 목록에 [[Kewl Tune Loudness War]] ①과 [[Artmage Finmel]] ②가 들어 있다.",
+   "quote_ja": "既に対象に取って相手は効果を発動していますので、後から対象にできなくなったとしても、",
+   "impact_ko": "[[Infinite Impermanence]] 등으로 튜너를 먼저 대상으로 잡았다면, 상대가 체인해서 [[Kewl Tune Loudness War]]를 싱크로해도 그 효과는 그대로 처리된다."
+  },
+  {
+   "id": "qa-24208",
+   "fid": 24208,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24208&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Kewl Tune Mix",
+    "Kewl Tune Clip",
+    "Kewl Tune Reco",
+    "Kewl Tune Cue",
+    "Kewl Tune Track Maker",
+    "Kewl Tune Rotary"
+   ],
+   "handtraps": [],
+   "themes": [
+    "kewl-tune"
+   ],
+   "topic": "summon",
+   "question_ko": "필드의 [[Kewl Tune Mix]]와 [[Kewl Tune Clip]]을 소재로 싱크로할 때 패의 튜너는 몇 장까지 소재로 쓸 수 있는가?",
+   "answer_ko": "2장까지. '필드의 이 카드를 소재로 할 때 패의 튜너 1장도 소재로 할 수 있다'를 가진 필드 몬스터 1장마다 1장씩 늘어난다.",
+   "quote_ja": "手札のチューナーを２体までシンクロ素材に含めることができます。",
+   "impact_ko": "킬러튠은 필드 몬스터 수보다 많은 소재로 싱크로할 수 있어, 필드를 줄여도 패의 튜너로 레벨을 맞춰 온다."
+  },
+  {
+   "id": "qa-24228",
+   "fid": 24228,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24228&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Kewl Tune Remix",
+    "Kewl Tune Mix"
+   ],
+   "handtraps": [],
+   "themes": [
+    "kewl-tune"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Kewl Tune Remix]] ②로 묘지의 [[Kewl Tune Mix]]를 특소하고, 이어지는 싱크로 소환의 소재로 보냈다. [[Kewl Tune Mix]] ①(소환 시 서치)은 발동할 수 있는가?",
+   "answer_ko": "발동할 수 없다. 체인 처리 중에 조건을 채운 유발 효과는 처리 후 발동하는데, 그때 [[Kewl Tune Mix]]가 몬스터 존에 없기 때문이다.",
+   "quote_ja": "モンスターゾーンで発動できる誘発効果である①の効果を発動することはできません。",
+   "impact_ko": "[[Kewl Tune Remix]]로 특소한 튜너를 곧바로 싱크로 소재로 쓰면 그 튜너의 소환 유발은 나오지 않는다. 대신 싱크로 소재 유발(묘지 유발)은 나온다."
+  },
+  {
+   "id": "qa-8398",
+   "fid": 8398,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=8398&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Infinite Impermanence",
+    "Kewl Tune Remix"
+   ],
+   "handtraps": [
+    "imperm"
+   ],
+   "themes": [
+    "kewl-tune"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Infinite Impermanence]]가 적용된 몬스터가 자신을 릴리스·제외하는 코스트로 효과를 발동하면 무효가 되는가? 묘지에서 발동하면?",
+   "answer_ko": "몬스터 존에서 발동한 효과라면 코스트로 필드를 떠나도 무효가 된다. 묘지에서 발동한 효과는 무효가 되지 않는다.",
+   "quote_ja": "効果自体はモンスターゾーンで発動していますので、無効化されます。",
+   "impact_ko": "[[Kewl Tune Remix]]에 포영을 쓰면 상대가 체인해 릴리스로 피할 수 있지만, 포영이 먼저 처리되어 적용된 뒤라면 그 턴 [[Kewl Tune Remix]] ②(필드에서 자신을 릴리스해 발동)는 무효가 된다."
+  },
+  {
+   "id": "qa-23294",
+   "fid": 23294,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23294&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Artemis, the Magistus Moon Maiden",
+    "Zoroa, the Magistus Verethragna",
+    "Infinite Impermanence"
+   ],
+   "handtraps": [
+    "imperm"
+   ],
+   "themes": [
+    "magistus"
+   ],
+   "topic": "negate",
+   "question_ko": "장착 카드 상태의 [[Artemis, the Magistus Moon Maiden]] ②(장착되어 있을 때 서치)는 몬스터 효과인가?",
+   "answer_ko": "아니다. 장착 마법 카드의 효과로 취급되며, 링크 몬스터의 효과가 아니다.",
+   "quote_ja": "装備魔法カードの効果として扱われます。リンクモンスターの効果ではありません。",
+   "impact_ko": "장착된 [[Artemis, the Magistus Moon Maiden]]는 마법·함정 존의 장착 마법이라 [[Infinite Impermanence]]·[[Effect Veiler]](몬스터 대상)로 막을 수 없다. 서치이므로 [[Ash Blossom & Joyous Spring]]은 쓸 수 있다."
+  },
+  {
+   "id": "qa-18770",
+   "fid": 18770,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18770&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Fairy Tail - Snow"
+   ],
+   "handtraps": [],
+   "themes": [
+    "magistus"
+   ],
+   "topic": "cost",
+   "question_ko": "네크로밸리 적용 중에 [[Fairy Tail - Snow]] ②(패·필드·묘지의 다른 카드 7장을 제외하고 자신을 특소)를 발동할 수 있는가?",
+   "answer_ko": "묘지의 카드를 제외할 수 없으므로 패와 필드의 카드만으로 7장을 제외할 수 있어야 발동할 수 있다. 또 이 효과는 '묘지의 카드에 미치는 효과'라 네크로밸리에 의해 무효가 된다.",
+   "quote_ja": "手札とフィールドのカードのみでコストとなるカード7枚を除外できる状態でなければ",
+   "impact_ko": "스노우의 코스트 7장은 묘지만이 아니라 패·필드·묘지 합계로 센다. magistus 데이터의 '묘지가 7장 이상일 때만'을 바로잡았다."
+  },
+  {
+   "id": "qa-14741",
+   "fid": 14741,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=14741&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Fairy Tail - Snow"
+   ],
+   "handtraps": [],
+   "themes": [
+    "magistus"
+   ],
+   "topic": "cost",
+   "question_ko": "상대 공격 선언 시 묘지의 [[Fairy Tail - Snow]] ②를 패·필드의 카드를 포함한 7장을 제외해 발동했다. 그 결과 조건을 채운 다른 패 효과를 체인할 수 있는가?",
+   "answer_ko": "할 수 있다. 스노우의 코스트로 패·필드 카드가 제외되어 조건이 채워졌다면 체인해 발동할 수 있다.",
+   "quote_ja": "自分の手札と自分フィールドのカードを含む7枚のカードを除外しました。",
+   "impact_ko": "스노우 ② 코스트에 패·필드 카드를 섞어 쓸 수 있음을 보여 준다. 후공에서 상대 패·필드가 많으면 묘지가 적어도 스노우가 나올 수 있다."
+  },
+  {
+   "id": "qa-14540",
+   "fid": 14540,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=14540&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Zoroa, the Magistus Verethragna",
+    "Therion \"King\" Regulus",
+    "Maxx \"C\""
+   ],
+   "handtraps": [],
+   "themes": [
+    "magistus",
+    "doomz"
+   ],
+   "topic": "cost",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외된다'가 적용 중일 때, 코스트로 카드를 묘지로 보내는 효과를 발동할 수 있는가?",
+   "answer_ko": "발동할 수 없다. 예시 목록에 [[Zoroa, the Magistus Verethragna]], [[Therion \"King\" Regulus]] ②, [[Maxx \"C\"]]가 들어 있다.",
+   "quote_ja": "コストとしてカードを墓地へ送ることができないためです。",
+   "impact_ko": "[[Zoroa, the Magistus Verethragna]] ②의 '앞면 마기스토스 몬스터 카드를 묘지로 보낸다'는 코스트다. 코스트로 보낼 마기스토스 카드가 없으면 무효를 발동할 수 없다. [[Therion \"King\" Regulus]]의 무효도 같은 코스트 구조다."
+  },
+  {
+   "id": "qa-24283",
+   "fid": 24283,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24283&request_locale=ja",
+   "official": true,
+   "cards": [
+    "DoomZ XII End - Drastrius",
+    "DoomZ Command \"A.D.R.A.S.T.E.I.A.\""
+   ],
+   "handtraps": [],
+   "themes": [
+    "doomz"
+   ],
+   "topic": "misc",
+   "question_ko": "[[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]]를 장착한 [[DoomZ XII End - Drastrius]]는 1턴에 몇 번 전투로 파괴되지 않는가?",
+   "answer_ko": "1번뿐이다. 첫 전투에서 두 효과(전투 파괴 1회 내성, 전투·효과 파괴 1회 내성)가 모두 적용되어, 두 번째 전투에서는 파괴된다. 그 뒤에는 효과로도 파괴된다.",
+   "quote_ja": "結果的に１ターンに１度だけ戦闘で破壊されないことになり",
+   "impact_ko": "드라스트리우스의 파괴 내성은 첫 전투에서 함께 소모된다. 공격으로 내성을 먼저 빼면 이후 파괴 효과가 통한다."
+  },
+  {
+   "id": "qa-20542",
+   "fid": 20542,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=20542&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring",
+    "Fairy Tail Ball"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [
+    "magistus"
+   ],
+   "topic": "chain",
+   "question_ko": "'카드의 발동 시 효과 처리로 서치'하는 지속·필드 마법의 발동에 [[Ash Blossom & Joyous Spring]]을 체인하면 그 카드는 어떻게 되는가?",
+   "answer_ko": "체인할 수 있고, 발동 시 효과 처리만 무효가 된다. 카드의 발동은 이루어졌으므로 카드는 필드에 남는다.",
+   "quote_ja": "カードの発動は行われていますので、「黒の魔導陣」のカード自体は魔法＆罠ゾーンに残ります。",
+   "impact_ko": "[[Fairy Tail Ball]]의 발동 시 서치에 우라라를 쓰면 볼은 필드에 남아 특소 반응 무효(③)가 그대로 남는다는 magistus 데이터가 맞다."
+  },
+  {
+   "id": "qa-24092",
+   "fid": 24092,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24092&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Artmage Diactorus",
+    "Teller of Fairy Tails",
+    "Therion \"King\" Regulus"
+   ],
+   "handtraps": [],
+   "themes": [
+    "artmage",
+    "magistus",
+    "doomz"
+   ],
+   "topic": "chain",
+   "question_ko": "필드 마법·지속 마법·지속 함정·장착 마법의 카드 발동은 '카드의 효과의 발동'에 해당하는가?",
+   "answer_ko": "해당한다. 발동 시 처리할 것이 없는 카드 발동이나, 펜듈럼 카드를 펜듈럼 존에 놓아 발동하는 것도 마찬가지다.",
+   "quote_ja": "魔法・罠カードのカードの発動は、”カードの効果の発動”に該当します。",
+   "impact_ko": "'상대가 효과를 발동했을 때' 쓰는 무효([[Artmage Diactorus]]·[[Teller of Fairy Tails]]·[[Therion \"King\" Regulus]] 등)는 내가 지속·필드 마법을 내기만 해도 반응할 수 있다. 싼 지속 마법은 무효를 빼는 미끼로 쓸 수 있다."
+  },
+  {
+   "id": "qa-24255",
+   "fid": 24255,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24255&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Elfnotes: Welcome Home",
+    "Elfnotes: Rhapsodia of Madness"
+   ],
+   "handtraps": [],
+   "themes": [
+    "elfnote"
+   ],
+   "topic": "cost",
+   "question_ko": "'자신은 화염 속성만 특소할 수 있다' 같은 제약을 주는 몬스터를 코스트로 보내 [[Elfnotes: Welcome Home]] ②를 발동할 수 있는가?",
+   "answer_ko": "할 수 없다. 발동 전에, 코스트로 보낼 몬스터와 그 속성을 기준으로 특소할 수 있는 몬스터의 조합이 있어야 한다. [[Elfnotes: Rhapsodia of Madness]] ②도 같다.",
+   "quote_ja": "コストとして正しいモンスターとその属性を参照して特殊召喚できるモンスターの組み合わせが存在する必要があります。",
+   "impact_ko": "엘펜노츠의 '속성이 다른 몬스터를 특소' 효과는 코스트와 특소 대상의 조합을 발동 전에 확인한다. 특소 제한을 거는 카드가 있으면 발동 자체가 막힐 수 있다."
+  },
+  {
+   "id": "qa-24276",
+   "fid": 24276,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24276&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Artmage Academic Arcane Arts Acropolis",
+    "Nervedo the Shadebeast Power Patron"
+   ],
+   "handtraps": [],
+   "themes": [
+    "artmage"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Artmage Academic Arcane Arts Acropolis]] ②로, 규칙상 아르토메기아 카드로도 취급하는 [[Nervedo the Shadebeast Power Patron]]를 선언해 서치할 수 있는가?",
+   "answer_ko": "할 수 있다. 그 턴에는 [[Nervedo the Shadebeast Power Patron]]를 다시 선언할 수 없다.",
+   "quote_ja": "（そのターン、「獄神影獣－ネルヴェド」は宣言できなくなります。）",
+   "impact_ko": "필드 마법 서치는 이름만 바꾸면 같은 턴에 여러 번 쓸 수 있고, [[Nervedo the Shadebeast Power Patron]]도 서치 대상이다. 첫 서치 직후 [[Droll & Lock Bird]]가 강한 이유다."
+  }
+ ]
+}

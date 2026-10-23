@@ -120,7 +120,7 @@
 
 **최종 필드 / 견제**: 기간틱 "챔피언" 사르가스 (Gigantic "Champion" Sargas), 세리온즈 "킹" 레귤러스 (Therion "King" Regulus), 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea), 둠즈 커맨드 『D.O.O.M.D.U.R.G.』 (DoomZ Command "D.O.O.M.D.U.R.G."), 둠즈 레이더 (DoomZ Raiders), 둠즈 디스트럭션 (DoomZ Destruction)
 
-상대 턴: 레귤러스 무효(자신을 묘지로), 소재가 빠질 때마다 사르가스 파괴/바운스, 드라스테아 퀵 변신으로 둠즈ⅩⅡ－드라스트리우스 (DoomZ XII End - Drastrius)(DURG가 소재가 되면 대상 내성) → 필드·묘지 몬스터 효과 무효 + 장착, 둠즈 디스트럭션 (DoomZ Destruction) 발동으로 서치 봉쇄. 둠즈 레이더 (DoomZ Raiders)는 효과로 파괴되면 앞면 몬스터 1장을 파괴한다.
+상대 턴: 레귤러스 무효(패·앞면 필드의 세리온 몬스터 카드 1장을 묘지로), 소재가 빠질 때마다 사르가스 파괴/바운스, 드라스테아 퀵 변신으로 둠즈ⅩⅡ－드라스트리우스 (DoomZ XII End - Drastrius)(DURG가 소재가 되면 대상 내성) → 필드·묘지 몬스터 효과 무효 + 장착, 둠즈 디스트럭션 (DoomZ Destruction) 발동으로 서치 봉쇄. 둠즈 레이더 (DoomZ Raiders)는 효과로 파괴되면 앞면 몬스터 1장을 파괴한다.
 
 ## 전개: 엘라라 1장 초동 (`elara`)
 
