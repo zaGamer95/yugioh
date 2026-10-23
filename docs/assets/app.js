@@ -5,7 +5,7 @@
   const SEV = ["critical", "strong", "ok", "weak", "bad"];
   const SEV_KO = { critical: "치명", strong: "아픔", ok: "할만함", weak: "약함", bad: "비추" };
   const SEV_G = { critical: "●", strong: "▲", ok: "◆", weak: "○", bad: "✕" };
-  const KIND_ORDER = ["search", "negate", "draw", "gy", "destroy", "dominus", "going2nd", "not_handtrap"];
+  const KIND_ORDER = ["search", "negate", "draw", "gy", "destroy", "dominus", "going2nd", "engine", "not_handtrap"];
 
   let D = null;
   let HT = {};

@@ -244,6 +244,85 @@
    ],
    "note_ko": "자신 필드에 몬스터가 없을 때 상대 몬스터 효과 발동에 체인해서 발동(같은 체인에서는 1번만). 드라이버와 함께 특소하고 그 발동을 무효+파괴(그 몬스터가 효과를 발동한 위치에 없으면 무효만 됨). 레벨 5 이상 특소를 막는 상황에서는 발동 불가. 제한 1.",
    "kind": "negate"
+  },
+  {
+   "id": "harmonia",
+   "card": "Fydraulis Harmonia",
+   "short_ko": "하르모니아",
+   "hits": [
+    "monster_effect_field"
+   ],
+   "note_ko": "상대 필드의 몬스터가 효과를 발동했을 때(퀵) 패에서 공개. 싱크로 몬스터를 엑스트라 덱에서 최대 5장 함께 공개해 그 수만큼 적용: 2+ 자신 특소, 4+ 공개한 싱크로 1장 묘지로, 6(싱크로 5장)이면 상대 몬스터 1장 파괴. 무효가 아니라 파괴라 발동한 효과는 처리된다. 이후 다음 턴 끝까지 엑스트라에서 특소한 싱크로 이외 몬스터 효과 발동 불가. 싱크로 덱 전용.",
+   "kind": "engine",
+   "tags": [
+    "monster_remove"
+   ]
+  },
+  {
+   "id": "fallen_virtuous",
+   "card": "The Fallen & The Virtuous",
+   "short_ko": "The Fallen & The Virtuous",
+   "hits": [],
+   "note_ko": "속공 마법. 엑스트라 덱의 알바스 관련 몬스터를 묘지로 보내고 앞면 카드 1장 파괴(또는 에클레시아가 있으면 묘지 몬스터 소생). 상대 턴 아무 때나 쓸 수 있는 파괴 견제. 알바스 엔진 덱 전용.",
+   "kind": "engine",
+   "tags": [
+    "monster_remove",
+    "st_remove"
+   ]
+  },
+  {
+   "id": "super_poly",
+   "card": "Super Polymerization",
+   "short_ko": "초융합",
+   "hits": [],
+   "note_ko": "속공 마법. 1장 버리고 양쪽 필드의 몬스터로 융합 소환. 발동에 체인 불가. 상대 턴에 상대 핵심 몬스터를 소재로 빼앗아 치우는 견제로도 쓴다. 맞는 융합 몬스터가 엑스트라에 있어야 함. 제한 2.",
+   "kind": "engine",
+   "tags": [
+    "steal",
+    "monster_remove",
+    "unresponsive"
+   ]
+  },
+  {
+   "id": "mst",
+   "card": "Mystical Space Typhoon",
+   "short_ko": "싸이크론",
+   "hits": [
+    "st_effect_field",
+    "spell_trap_activation",
+    "place_from_deck"
+   ],
+   "note_ko": "속공 마법. 마함 1장 파괴. 상대가 지속·필드 마법을 발동하거나 효과를 쓸 때 체인해서 치운다(발동에 체인해 파괴하면 그 카드의 효과는 적용되지 않음).",
+   "kind": "engine",
+   "tags": [
+    "st_remove"
+   ]
+  },
+  {
+   "id": "crown",
+   "card": "Forbidden Crown",
+   "short_ko": "금지된 성관",
+   "hits": [
+    "monster_effect_field"
+   ],
+   "kind": "engine",
+   "tags": [
+    "monster_negate"
+   ],
+   "note_ko": "속공 마법. 앞면 몬스터 1장에 이번 턴: 효과 무효, 공격 불가, 파괴·발동한 효과 내성, 릴리스·소재 불가. 발동에 몬스터 효과로 체인 불가. 상대 몬스터에 쓰면 효과 무효 + 소재로 못 쓰게 막는다(대신 파괴·제거도 안 됨). 1턴 1장."
+  },
+  {
+   "id": "druiswurm",
+   "card": "Bystial Druiswurm",
+   "short_ko": "드루이드브룸",
+   "hits": [
+    "gy_effect"
+   ],
+   "kind": "engine",
+   "tags": [
+    "monster_remove"
+   ],
+   "note_ko": "서로의 묘지의 빛·어둠 몬스터 1장을 제외하고 패에서 특소(상대 필드에 몬스터가 있으면 퀵). 필드에서 묘지로 가면 상대가 특소한 몬스터 1장을 묘지로 보낸다. 마그나무트처럼 묘지 자원을 지우는 견제 + 링크 소재로 써서 후속 제거."
   }
  ],
  "kinds": {
@@ -278,6 +357,10 @@
   "not_handtrap": {
    "ko": "패트랩 아님 · 내 턴 전용",
    "desc_ko": "상대 1턴 전개를 막지 못하고, 내 메인 페이즈에 쓰는 카드 (후공 돌파용)"
+  },
+  "engine": {
+   "ko": "덱 전용 견제 (엔진·속공 마법)",
+   "desc_ko": "패트랩은 아니지만 상대 턴에 던지는 견제. 싱크로·알바스 엔진 등 덱 조건이 있다."
   }
  }
 }
