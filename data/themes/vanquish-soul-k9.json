@@ -15,7 +15,7 @@
     "Vanquish Soul K9",
     "K9"
   ],
-  "overview_ko": "VS(뱅퀴시 소울) 몬스터의 '패 공개' 퀵 효과와 K9 레벨 5 엔진을 섞은 미드레인지 덱. 선공 필드는 크지 않고, 대신 패에 화염·어둠·땅 몬스터를 남겨 상대 턴에 [[Vanquish Soul Razen]]의 세로열 파괴, [[Vanquish Soul Hollie Sue]]의 덱 특소, [[Vanquish Soul Caesar Valius]]의 파괴, [[Vanquish Soul Snow Devil]]의 전체 파괴 등으로 방해한다. K9 쪽은 [[K9-66a Jokul]]+레벨 5 또는 [[K9-04 Noroi]] 1장으로 [[K9-17 \"Ripper\"]]와 [[Number C104: Umbral Horror Masquerade]]를 세우고, [[K9-17 Izuna]]·[[K9-ØØ Lupis]]를 패·묘지에 남긴다. 가장 중요한 특징은 K9이 '상대가 패·묘지에서 몬스터 효과를 발동한 턴'에 깨어난다는 점이다. 우라라·증G·후와로스·드롤·뵐러 같은 몬스터 패트랩을 쓰는 순간 이즈나·루푸스 특소, Ripper의 무효, Jacks의 파괴, Case의 공격력 상승 조건이 모두 열린다. 그래서 포영·도미나스 같은 함정 패트랩이 가장 효율이 좋고, 몬스터 패트랩은 Ripper가 서기 전에 써야 한다. 초동은 라젠(제한 2)·노로이·요쿨(제한 2)·[[Reinforcement of the Army]]·[[Stake your Soul!]](제한 1)로 많지 않아 첫 서치를 끊으면 약하다. K9 엔진은 이 덱 말고도 미츠루기 계열·뇌룡·스타 등 레벨 5를 쓰는 덱에 출장(Tier 3 'K9 Engine')으로 들어가므로, K9 부분의 혈자리는 그런 덱에도 그대로 적용된다.",
+  "overview_ko": "VS(뱅퀴시 소울) 몬스터의 '패 공개' 퀵 효과와 K9 레벨 5 엔진을 섞은 미드레인지 덱. 선공 필드는 크지 않고, 대신 패에 화염·어둠·땅 몬스터를 남겨 상대 턴에 [[Vanquish Soul Razen]]의 세로열 파괴, [[Vanquish Soul Hollie Sue]]의 덱 특소, [[Vanquish Soul Caesar Valius]]의 파괴, [[Vanquish Soul Snow Devil]]의 전체 파괴 등으로 방해한다. K9 쪽은 [[K9-66a Jokul]]+레벨 5 또는 [[K9-04 Noroi]] 1장으로 [[K9-17 \"Ripper\"]]와 [[Number C104: Umbral Horror Masquerade]]를 세우고, [[K9-17 Izuna]]·[[K9-ØØ Lupis]]를 패·묘지에 남긴다. 가장 중요한 특징은 K9이 '상대가 패·묘지에서 몬스터 효과를 발동한 턴'에 깨어난다는 점이다. 우라라·증G·후와로스·드롤·뵐러 같은 몬스터 패트랩을 쓰는 순간 이즈나·루푸스 특소, Ripper의 무효, Jacks의 파괴, Case의 공격력 상승 조건이 모두 열린다. 그래서 포영·도미나스 같은 함정 패트랩이 가장 효율이 좋고, 몬스터 패트랩은 Ripper가 서기 전에 써야 한다. 초동은 라젠(제한 2)·노로이·요쿨(제한 2)·[[Reinforcement of the Army]]·[[Stake your Soul!]](제한 1)로 많지 않아 첫 서치를 끊으면 약하다. K9 엔진은 이 덱 말고도 미츠루기 계열·뇌룡·스타 등 레벨 5를 쓰는 덱에 출장(Tier 3 'K9 Engine')으로 들어가므로, K9 부분의 패트랩 타이밍는 그런 덱에도 그대로 적용된다.",
   "key_cards": [
     {
       "card": "Vanquish Soul Razen",
@@ -810,7 +810,7 @@
     "[[Vanquish Soul Razen]]에 우라라를 서두르지 말 것: 상대 패에 이즈나가 있으면 그 우라라로 이즈나가 깨어난다. 라젠에는 포영이 가장 좋다.",
     "VS 쪽 진짜 방해는 상대 턴(패트랩을 쓴 쪽의 턴)에 나온다. 선공 1턴에 다 막지 못해도 패의 화염·어둠·땅 몬스터 수를 줄이는 게 중요하다. 패 공개 효과가 많아 상대 패가 거의 보이므로 공개된 카드를 기억해 둘 것.",
     "포영을 패에서 쓰려면 자기 필드가 비어 있어야 한다. 후와로스·푸루리아·냐루스도 자기 필드에 카드가 없을 때만 발동 가능.",
-    "K9 엔진은 VS K9 외에도 미츠루기·뇌룡 등 레벨 5를 쓰는 덱에 출장으로 들어간다(Tier 3 'K9 Engine'). 출장형이어도 요쿨/노로이 → Ripper → Case·랜턴 흐름은 같으므로 jokul·noroi 라인의 혈자리를 그대로 적용하면 된다."
+    "K9 엔진은 VS K9 외에도 미츠루기·뇌룡 등 레벨 5를 쓰는 덱에 출장으로 들어간다(Tier 3 'K9 Engine'). 출장형이어도 요쿨/노로이 → Ripper → Case·랜턴 흐름은 같으므로 jokul·noroi 라인의 패트랩 타이밍를 그대로 적용하면 된다."
   ],
   "sources": [
     "https://game8.jp/yugioh-masterduel/759688 (Game8: VSK9 덱 레시피와 회전법·대책, 2026-10-22 갱신)",

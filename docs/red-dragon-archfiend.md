@@ -213,7 +213,7 @@
 
 초동 패: **파워 바이스 드래곤** (Power Vice Dragon)
 
-MDM 콤보 'Power Vice 1CC (No Crimson Call)'의 Soul 분기를 카드 텍스트로 한 단계씩 검증해 옮긴 것. MD 리스트 대부분이 크림즌 헬콜 (Crimson Call)·Chain Resonator·Crimson Resonator 없이 이 형태다. 본 데몬 (Bone Archfiend) 일반 소환 1장 초동도 비전 레조네이터 (Vision Resonator) → 크림즌 헬가이아 (Crimson Gaia) → 다크니스 레조네이터 (Darkness Resonator) → 더 크림즌 킹 (The Crimson King) → 파워 바이스 드래곤 (Power Vice Dragon) 순으로 같은 최종 필드에 도착한다(같은 혈자리). 낙인의 야수 (Branded Beast)를 넣은 리스트(14%)는 22단계 뒤 더 비스테드 루벨리온 (The Bystial Lubellion)으로 그것을 놓는다. 소환 제약(파워 바이스·소울: 어둠 싱크로, 본 데몬: 어둠 드래곤족 싱크로, 다크니스: 싱크로)은 모두 지켜진다.
+MDM 콤보 'Power Vice 1CC (No Crimson Call)'의 Soul 분기를 카드 텍스트로 한 단계씩 검증해 옮긴 것. MD 리스트 대부분이 크림즌 헬콜 (Crimson Call)·Chain Resonator·Crimson Resonator 없이 이 형태다. 본 데몬 (Bone Archfiend) 일반 소환 1장 초동도 비전 레조네이터 (Vision Resonator) → 크림즌 헬가이아 (Crimson Gaia) → 다크니스 레조네이터 (Darkness Resonator) → 더 크림즌 킹 (The Crimson King) → 파워 바이스 드래곤 (Power Vice Dragon) 순으로 같은 최종 필드에 도착한다(같은 패트랩 타이밍). 낙인의 야수 (Branded Beast)를 넣은 리스트(14%)는 22단계 뒤 더 비스테드 루벨리온 (The Bystial Lubellion)으로 그것을 놓는다. 소환 제약(파워 바이스·소울: 어둠 싱크로, 본 데몬: 어둠 드래곤족 싱크로, 다크니스: 싱크로)은 모두 지켜진다.
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|

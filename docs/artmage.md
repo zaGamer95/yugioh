@@ -6,7 +6,7 @@
 
 ## 한눈에 보기
 
-무구한 자 메디우스 (Medius the Pure)로 아르토메기아의 감옥신수 (Artmage Power Patron)를 불러 아르토메기아 디아크트로스 (Artmage Diactorus)를 융합하고, 아르토메기아의 감옥신수 (Artmage Power Patron)가 묘지로 가며 가져오는 필드 마법 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis)로 아르토메기아 그라플레어 (Artmage Graflare)·아르토메기아 리테라 (Artmage Litera)·아르토메기아 파인멜트 (Artmage Finmel)를 연속 서치해 패에서 특소하는 융합 덱. 필드의 몬스터 종족이 3종류 이상이면 아르토메기아 디아크트로스 (Artmage Diactorus)의 무효·파괴, 아르토메기아 파인멜트 (Artmage Finmel)의 전체 무효, 그라플레어의 퀵 마함 파괴가 켜지고, 상대 턴에 아르토메기아의 감옥신수 (Artmage Power Patron)의 퀵 융합으로 창감옥신 네르바 (Nerva the Power Patron of Creation)를 내 '아르토메기아 몬스터 효과'를 '상대 카드 전부 파괴'로 바꿔 끝낸다. 2026-10-06 추가된 감옥신 펜듈럼(감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron) 등)·절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus)·펜듈럼 트레져 (Pendulum Treasure)가 들어가 초동이 늘었다. 메디우스는 절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus)·아르토메기아 반달리즘 －습격－ (Artmage Vandalism -Assault-)로도 서치된다. 약점은 모든 루트가 메디우스(또는 테르미나스)의 첫 효과와 필드 마법의 반복 서치에 모인다는 점. 그 둘 중 하나를 끊으면 종족 3종류 조건을 맞추기 어렵다. 무구한 자 메디우스 (Medius the Pure)와 감옥신 펜듈럼은 엘펜노츠·DoomZ·감옥신 덱과 공유하는 엔진이라, 메디우스 쪽 혈자리는 그 덱들에도 비슷하게 적용된다.
+무구한 자 메디우스 (Medius the Pure)로 아르토메기아의 감옥신수 (Artmage Power Patron)를 불러 아르토메기아 디아크트로스 (Artmage Diactorus)를 융합하고, 아르토메기아의 감옥신수 (Artmage Power Patron)가 묘지로 가며 가져오는 필드 마법 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis)로 아르토메기아 그라플레어 (Artmage Graflare)·아르토메기아 리테라 (Artmage Litera)·아르토메기아 파인멜트 (Artmage Finmel)를 연속 서치해 패에서 특소하는 융합 덱. 필드의 몬스터 종족이 3종류 이상이면 아르토메기아 디아크트로스 (Artmage Diactorus)의 무효·파괴, 아르토메기아 파인멜트 (Artmage Finmel)의 전체 무효, 그라플레어의 퀵 마함 파괴가 켜지고, 상대 턴에 아르토메기아의 감옥신수 (Artmage Power Patron)의 퀵 융합으로 창감옥신 네르바 (Nerva the Power Patron of Creation)를 내 '아르토메기아 몬스터 효과'를 '상대 카드 전부 파괴'로 바꿔 끝낸다. 2026-10-06 추가된 감옥신 펜듈럼(감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron) 등)·절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus)·펜듈럼 트레져 (Pendulum Treasure)가 들어가 초동이 늘었다. 메디우스는 절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus)·아르토메기아 반달리즘 －습격－ (Artmage Vandalism -Assault-)로도 서치된다. 약점은 모든 루트가 메디우스(또는 테르미나스)의 첫 효과와 필드 마법의 반복 서치에 모인다는 점. 그 둘 중 하나를 끊으면 종족 3종류 조건을 맞추기 어렵다. 무구한 자 메디우스 (Medius the Pure)와 감옥신 펜듈럼은 엘펜노츠·DoomZ·감옥신 덱과 공유하는 엔진이라, 메디우스 쪽 패트랩 타이밍는 그 덱들에도 비슷하게 적용된다.
 
 ### 패트랩 상성 요약
 
@@ -257,7 +257,7 @@ main 라인 필드에 논피니토(상대 턴 퀵 융합)와 임파스토(융합
 - 아르토메기아의 감옥신수 (Artmage Power Patron)의 융합은 메인 페이즈 퀵이다. 특소된 순간에 포영·사요 시구레를 쓰면 바로 융합을 체인해 피한다. 융합 효과의 발동 자체에 체인할 것.
 - 아르토메기아 디아크트로스 (Artmage Diactorus)·아르토메기아 파인멜트 (Artmage Finmel)·그라플레어의 강한 효과는 '자신 필드 종족 3종류 이상'이 조건이다. 아르토메기아 몬스터를 1장만 줄여도 조건이 꺼지는 경우가 많으므로, 후공에서는 종족 수를 보고 처리할 몬스터를 고른다.
 - 아르토메기아 메세나 －각성－ (Artmage Pact -Awakening-)가 처리되면 그 턴 융합 효과의 발동이 무효되지 않고, 그 융합 소환에 상대는 체인할 수 없다. 각성이 세트돼 있으면 융합 효과보다 각성 발동 전을 노린다.
-- 무구한 자 메디우스 (Medius the Pure)·감옥신영정－쥬노르도 (Junoldo the Shadespirit Power Patron)·혼절감옥신 비도리움 (Vidolium the Unstable Power Patron of Unity) 등은 엘펜노츠·DoomZ·감옥신 덱과 같이 쓰는 엔진이다. 엘펜노츠에도 메디우스가 대부분 들어가므로 메디우스 유발이 공통 혈자리다(마스터 듀얼에는 '아르스 마그나' 카드가 아직 없음).
+- 무구한 자 메디우스 (Medius the Pure)·감옥신영정－쥬노르도 (Junoldo the Shadespirit Power Patron)·혼절감옥신 비도리움 (Vidolium the Unstable Power Patron of Unity) 등은 엘펜노츠·DoomZ·감옥신 덱과 같이 쓰는 엔진이다. 엘펜노츠에도 메디우스가 대부분 들어가므로 메디우스 유발이 공통 패트랩 타이밍다(마스터 듀얼에는 '아르스 마그나' 카드가 아직 없음).
 
 ## 출처
 
