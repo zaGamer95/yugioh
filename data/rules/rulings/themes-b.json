@@ -1,0 +1,1247 @@
+{
+ "sources": {
+  "konami-qa": {
+   "title": "遊戯王ニューロン(オフィシャルカードゲーム カードデータベース) Q&A",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rulings": [
+  {
+   "id": "qa-20586",
+   "fid": 20586,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=20586&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring",
+    "Rahu Dracotail",
+    "Branded Fusion"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [
+    "dracotail",
+    "branded"
+   ],
+   "topic": "chain",
+   "question_ko": "덱의 몬스터를 융합 소재로 묘지에 보내는 융합 마법([[Rahu Dracotail]]·[[Branded Fusion]] 등)에 [[Ash Blossom & Joyous Spring]]을 체인할 수 있는가?",
+   "answer_ko": "체인할 수 있다. 이런 융합 효과에는 '덱에서 카드를 묘지로 보내는 효과'가 포함되어 있다고 본다. 답변에 [[Rahu Dracotail]]과 [[Branded Fusion]]이 직접 예시로 나온다.",
+   "quote_ja": "以下の融合召喚を行う効果も同様に『●デッキからカードを墓地へ送る効果』が含まれています",
+   "impact_ko": "드래곤테일의 라후, 낙인의 낙인융합에 우라라를 쓰는 혈자리가 공식으로 확인된다."
+  },
+  {
+   "id": "qa-22372",
+   "fid": 22372,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22372&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring",
+    "Dracotail Horn",
+    "Dracotail Flame",
+    "Dracotail Sting"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [
+    "dracotail"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Dracotail Horn]]·[[Dracotail Flame]]·[[Dracotail Sting]]의 발동에 [[Ash Blossom & Joyous Spring]]을 체인할 수 있는가?",
+   "answer_ko": "체인할 수 있다. 세 장 모두 효과에 '1장 드로우'(덱에서 패에 넣기)가 들어 있어서다. 드로우가 붙은 ● 부분을 적용할 수 없는 상황에서 발동했어도 체인할 수 있다.",
+   "quote_ja": "以下のカードについても同様に、「灰流うらら」の効果をチェーンして発動できます。",
+   "impact_ko": "'드래곤테일 함정의 드로우는 우라라로 무효할 수 없다'는 기존 설명은 틀렸다. 후공 내 턴에 혼·플레임을 우라라로 통째로 무효할 수 있다."
+  },
+  {
+   "id": "qa-21722",
+   "fid": 21722,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=21722&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Belle & Haunted Mansion",
+    "Dracotail Horn",
+    "Dracotail Flame",
+    "Dracotail Sting"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "dracotail"
+   ],
+   "topic": "chain",
+   "question_ko": "상대 묘지에 드래곤테일 카드가 없는 상태에서 발동한 [[Dracotail Horn]]에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있는가?",
+   "answer_ko": "체인할 수 있다. 혼에는 '묘지의 카드를 덱에 넣는 효과'가 포함되어 있기 때문이다. [[Dracotail Sting]]·[[Dracotail Flame]]도 같은 이유로 체인할 수 있다.",
+   "quote_ja": "「星辰の裂角」には『●墓地からカードを手札・デッキ・EXデッキに加える効果』が含まれているためです。",
+   "impact_ko": "드래곤테일 함정 3종에 와라시를 맞추는 대응이 공식으로 확인된다."
+  },
+  {
+   "id": "qa-24158",
+   "fid": 24158,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24158&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dracotail Arthalion",
+    "Dracotail Gulamel"
+   ],
+   "handtraps": [],
+   "themes": [
+    "dracotail"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Dracotail Arthalion]]·[[Dracotail Gulamel]]의 '몬스터 2장 이상이 동시에 묘지로 보내지면 묘지에서 자신 특소' 효과는 어떤 경우에 발동할 수 있는가?",
+   "answer_ko": "묘지에서 몬스터인 카드 2장 이상이 동시에 묘지로 가면 어디서 왔든 발동할 수 있다. 엑시즈 소재, 마함 존의 몬스터 카드, 패·덱·엑스트라 덱에서 묘지로 간 경우도 포함한다. 제외된 카드를 묘지로 '되돌리는' 것은 묘지로 보낸 것이 아니라 조건이 안 된다.",
+   "quote_ja": "どこから墓地へ送られたかを問わず発動できます。",
+   "impact_ko": "알자리온·그라멜이 묘지에 있을 때 파이메나 융합(소재 2장), 라후의 덱 소재, 전체 파괴, 쿠리카라 릴리스 등이 모두 소생 조건을 채운다."
+  },
+  {
+   "id": "supp-21359",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21359&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dracotail Arthalion"
+   ],
+   "handtraps": [],
+   "themes": [
+    "dracotail"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Dracotail Arthalion]] 카드 보충 정보: ②의 묘지 소생은 언제 쓸 수 없는가?",
+   "answer_ko": "이 카드가 이미 묘지에 있는 상태에서 몬스터 2장 이상이 동시에 묘지로 가야 한다. 이 카드를 포함해 융합·싱크로·링크 소재로 보내는 등 이 카드와 다른 몬스터가 함께 묘지로 간 경우에는 발동할 수 없다. 데미지 스텝에는 불가.",
+   "quote_ja": "このカードと他のモンスターが同時に墓地へ送られた場合には発動できません。",
+   "impact_ko": "알자리온·그라멜 2장을 한꺼번에 묘지로 보내는 제거(초융합 소재, 번개 등)는 그 자리에서 소생을 부르지 않는다."
+  },
+  {
+   "id": "supp-21360",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21360&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dracotail Gulamel"
+   ],
+   "handtraps": [],
+   "themes": [
+    "dracotail"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Dracotail Gulamel]] 카드 보충 정보: ① 파괴 효과는 언제 체인할 수 있는가?",
+   "answer_ko": "자신이 드래곤테일 카드의 효과를 발동했을 때 거기에 직접 체인한다. 이때는 반드시 상대에게 먼저 체인 여부를 확인하고, 상대가 아무것도 발동하지 않았을 때만 그라멜을 체인할 수 있다. ②의 묘지 소생 조건은 알자리온과 같다(이 카드와 함께 묘지로 간 경우는 불가).",
+   "quote_ja": "必ず相手にチェーンの確認を行い、相手が効果を発動しなければ、自分がこの効果をチェーンして発動できます。",
+   "impact_ko": "파이메나·혼·플레임 발동에 내가 바로 체인(임펄스·와라시·우라라 등)하면 그라멜은 그 발동에 끼어들 수 없다. '그라멜 파괴는 발동 시점에 이미 걸린다'는 기존 설명은 틀렸다."
+  },
+  {
+   "id": "supp-21357",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21357&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dracotail Urgula"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "dracotail"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Dracotail Urgula]] 카드 보충 정보: ② 묘지 효과는 어떤 효과인가?",
+   "answer_ko": "묘지에서 발동하는 기동 효과다. 처리 때 자신을 덱 맨 아래로 되돌리고, 성공하면 대상(묘지의 마법사족 드래곤테일)을 패에 넣는다. 두 처리는 동시에 일어난 것으로 본다. ①의 '그 후 마함 1장 파괴'는 세트에 성공했을 때만 할 수 있는 선택 처리다.",
+   "quote_ja": "デッキの一番下に戻す処理と手札に加える処理は同時に行われる扱いです。",
+   "impact_ko": "묘지에서 발동해 묘지 카드를 패·덱에 넣는 효과이므로 [[Ghost Belle & Haunted Mansion]]의 대상이 된다(와라시 카드 텍스트 기준, 우르굴라를 직접 언급한 Q&A는 없음)."
+  },
+  {
+   "id": "qa-23195",
+   "fid": 23195,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23195&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dracotail Urgula"
+   ],
+   "handtraps": [],
+   "themes": [
+    "dracotail"
+   ],
+   "topic": "chain",
+   "question_ko": "'카드를 파괴할 수 있다'처럼 파괴를 고를 수 있는 효과([[Dracotail Urgula]] ① 등)에 '파괴하는 효과'에 체인하는 카드를 쓸 수 있는가?",
+   "answer_ko": "쓸 수 없다. 발동할 때 파괴할지가 정해지지 않은 효과는 '카드를 파괴하는 효과'로 다루지 않는다. 답변에 [[Dracotail Urgula]] ①이 예시로 나온다.",
+   "quote_ja": "発動時にカードを破壊する処理を行うかどうかが決まっていない効果は、カードを破壊する効果…として扱いません。",
+   "impact_ko": "우르굴라 ①의 마함 파괴에 '파괴 효과 발동 시' 조건 카드로 응수할 수 없다."
+  },
+  {
+   "id": "qa-24330",
+   "fid": 24330,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24330&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dracotail Urgula",
+    "Dracotail Lukias",
+    "Dracotail Faimena",
+    "Dracotail Mululu",
+    "Dracotail Phryxul",
+    "Invocation - \"Sword\""
+   ],
+   "handtraps": [],
+   "themes": [
+    "dracotail",
+    "invoked"
+   ],
+   "topic": "timing",
+   "question_ko": "제외된 [[Dracotail Urgula]]를 [[Invocation - \"Sword\"]] 등으로 묘지에 되돌려 융합 소재로 썼다. '융합 소재로 묘지에 보내졌을 때' 효과가 발동하는가?",
+   "answer_ko": "발동하지 않는다. 제외 상태에서 묘지로 되돌린 카드는 묘지로 '보내진' 것이 아니다. 루키아스·파이메나·무루루·프리클도 같다.",
+   "quote_ja": "除外状態のカードが墓地へ戻された場合、そのカードは墓地へ送られたことにはならないためです。",
+   "impact_ko": "드래곤테일의 '소재로 묘지에 가면 세트' 효과는 진짜로 묘지로 보내질 때만 나온다."
+  },
+  {
+   "id": "qa-24159",
+   "fid": 24159,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24159&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ketu Dracotail",
+    "Retaliating \"C\""
+   ],
+   "handtraps": [
+    "maxxc"
+   ],
+   "themes": [
+    "dracotail"
+   ],
+   "topic": "chain",
+   "question_ko": "상대가 [[Ketu Dracotail]]을 발동했을 때 [[Retaliating \"C\"]]를 체인할 수 있는가?",
+   "answer_ko": "체인할 수 있다. 내 필드에 몬스터가 없거나 상대가 융합 부분(●)을 적용할 수 없는 상황이어도 특소를 포함한 마법의 발동으로 본다.",
+   "quote_ja": "自分はチェーンして「応戦するG」の①の効果を発動できます。",
+   "impact_ko": "케투 발동에 응전하는 G를 내면, 이후 묘지로 가는 소재가 제외되어 드래곤테일의 세트 효과가 나오지 않는다."
+  },
+  {
+   "id": "qa-23817",
+   "fid": 23817,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23817&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Rahu Dracotail",
+    "Branded Fusion",
+    "Fallen of Albaz",
+    "Blazing Cartesia, the Virtuous",
+    "Invocation"
+   ],
+   "handtraps": [],
+   "themes": [
+    "dracotail",
+    "branded",
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외된다' 효과([[Retaliating \"C\"]] 등)가 적용 중일 때 융합 소환할 수 있는가?",
+   "answer_ko": "할 수 있다. 소재는 제외되지만 융합 소환은 그대로 진행된다. [[Rahu Dracotail]]·[[Branded Fusion]]·[[Fallen of Albaz]]·[[Blazing Cartesia, the Virtuous]]·[[Invocation]] 등이 예시에 있다.",
+   "quote_ja": "墓地へ送られる融合素材モンスターは除外されますが、エクストラデッキから融合モンスターを融合召喚する処理を行います。",
+   "impact_ko": "응전하는 G는 융합 자체는 못 막지만 '소재로 묘지에 갔을 때' 효과(드래곤테일 세트, 알비온 엔드 페이즈 등)를 지운다."
+  },
+  {
+   "id": "qa-9826",
+   "fid": 9826,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=9826&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Belle & Haunted Mansion",
+    "Albion the Branded Dragon",
+    "Invoked Baybarron",
+    "Invocation"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "branded",
+    "invoked"
+   ],
+   "topic": "chain",
+   "question_ko": "묘지에 해당 카드가 없을 때 발동한 '패·묘지에서 카드를 골라 제외하는 효과'에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있는가?",
+   "answer_ko": "체인할 수 있다. '묘지에서 카드를 제외하는 효과'가 포함되어 있으면 된다. [[Albion the Branded Dragon]] ①, [[Invoked Baybarron]] ①, [[Invocation]] ①이 같은 예시로 나온다.",
+   "quote_ja": "『●墓地からカードを除外する効果』が含まれていますので…「屋敷わらし」の効果をチェーンして発動できます。",
+   "impact_ko": "알비온의 융합 효과, 베이바론 서치, 소환마술 발동에 와라시를 쓸 수 있다는 근거."
+  },
+  {
+   "id": "qa-23472",
+   "fid": 23472,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23472&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Branded Lost",
+    "Branded Fusion",
+    "Magical Meltdown",
+    "Baronne de Fleur",
+    "Ash Blossom & Joyous Spring",
+    "Dominus Impulse"
+   ],
+   "handtraps": [
+    "ash",
+    "impulse"
+   ],
+   "themes": [
+    "branded",
+    "invoked"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Branded Lost]]가 적용 중일 때 [[Branded Fusion]]에 [[Baronne de Fleur]](발동 무효)나 [[Ash Blossom & Joyous Spring]]·[[Dominus Impulse]](효과 무효)를 체인하면 어떻게 되는가?",
+   "answer_ko": "발동을 무효로 하는 효과(바롱)는 적용되지 않아 낙인융합이 그대로 처리된다. 효과를 무효로 하는 우라라·임펄스는 그대로 통해 낙인융합의 효과가 무효가 된다. [[Magical Meltdown]] ②도 같은 종류의 효과로 예시에 나온다.",
+   "quote_ja": "”発動を無効にする効果”の場合、「失烙印」の効果によって適用されず",
+   "impact_ko": "실낙인·폭주마법진 아래에서는 우라라·임펄스·무한포영은 통하고, 와라시·바롱처럼 '발동 무효'는 통하지 않는다."
+  },
+  {
+   "id": "supp-15994",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=15994&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Albion the Branded Dragon"
+   ],
+   "handtraps": [
+    "imperm",
+    "ogre",
+    "magnamhut"
+   ],
+   "themes": [
+    "branded"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Albion the Branded Dragon]] 카드 보충 정보: ① 융합과 ② 엔드 페이즈 효과는 어떻게 처리되는가?",
+   "answer_ko": "①은 몬스터 존에서 발동하는 유발 효과로, 패·필드·묘지의 소재를 제외한 뒤 융합 소환한다(동시가 아님). ②는 묘지에서 발동하며, 이 카드가 그 턴에 묘지로 가서 엔드 페이즈까지 계속 묘지에 있어야 한다.",
+   "quote_ja": "このカードが墓地へ送られ、そのままそのターンのエンドフェイズまで墓地に存在し続けた場合に発動できます。",
+   "impact_ko": "알비온 본체는 ①의 소재가 아니어서 유령토끼로 파괴해도 융합은 나오고 오히려 ② 조건을 채운다. 엔드 페이즈 전에 묘지에서 제외(마그나무트)하면 ②가 사라진다."
+  },
+  {
+   "id": "supp-18179",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=18179&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Rindbrumm the Striking Dragon",
+    "Fallen of Albaz",
+    "Fallen of the White Dragon"
+   ],
+   "handtraps": [
+    "belle",
+    "magnamhut"
+   ],
+   "themes": [
+    "branded"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Rindbrumm the Striking Dragon]] 카드 보충 정보: ② 묘지 효과의 처리 때 대상이 사라지면?",
+   "answer_ko": "②는 묘지에서 쓰는 유발 즉시 효과(데미지 스텝 불가)다. 처리 때 이 카드와 대상(묘지의 알버스) 중 하나라도 묘지에 없으면 아무것도 하지 않는다. 한 번도 융합 소환되지 않은 채 묘지에 간 린드블룸(엑스트라 덱에서 코스트로 보낸 경우 등)은 자신을 특소할 수 없어 반드시 알버스를 특소하고 자신을 제외한다.",
+   "quote_ja": "処理時に、このカードと対象のカードの少なくとも片方が墓地に存在しなくなった場合、処理を行いません。",
+   "impact_ko": "린드블룸 발동에 체인해 대상 알버스([[Fallen of the White Dragon]])를 묘지에서 제외하면 소생이 통째로 불발한다. TFTV 코스트로 보낸 린드블룸은 알버스 쪽만 꺼낼 수 있다."
+  },
+  {
+   "id": "supp-18474",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=18474&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Guiding Quem, the Virtuous"
+   ],
+   "handtraps": [],
+   "themes": [
+    "branded"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Guiding Quem, the Virtuous]] 카드 보충 정보: ② 소생 효과는 어떤 카드가 엑스트라 덱을 떠날 때 발동하는가?",
+   "answer_ko": "몬스터 존에서 발동하는 유발 효과로, 엑스트라 덱의 앞면·뒷면 어느 카드가 떠나도 발동할 수 있다. 데미지 스텝에는 불가.",
+   "quote_ja": "エクストラデッキの表側・裏側のどちらのカードがエクストラデッキから離れた場合でも発動できます。",
+   "impact_ko": "카드 텍스트에 '자신의'가 없어 상대(나)의 엑스트라 덱 소환·코스트에도 반응한다는 읽기와 맞다. 다만 양쪽 엑스트라 덱을 명시한 Q&A는 찾지 못했다."
+  },
+  {
+   "id": "supp-22144",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22144&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ecclesia and the Dark Dragon"
+   ],
+   "handtraps": [
+    "ogre",
+    "imperm"
+   ],
+   "themes": [
+    "branded"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Ecclesia and the Dark Dragon]] 카드 보충 정보: ① '자신 제외 → 특소'는 어떻게 처리되는가?",
+   "answer_ko": "처리 때 이 카드를 엔드 페이즈까지 제외하고, 제외에 성공한 경우에만 덱·묘지에서 알버스(또는 알버스가 적힌 레벨 4 이하)를 특소한다. 뒷면 수비라면 뒷면으로 제외된다.",
+   "quote_ja": "除外に成功した場合、『自分のデッキ・墓地から…特殊召喚する』処理を行います。",
+   "impact_ko": "발동에 체인해 유령토끼로 파괴하면 제외에 실패해 특소도 없다. 무한포영으로 효과만 무효하면 몸통은 필드에 남는다."
+  },
+  {
+   "id": "qa-23215",
+   "fid": 23215,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23215&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Belle & Haunted Mansion",
+    "Fallen of the White Dragon",
+    "Ecclesia and the Dark Dragon",
+    "Diabell, Queen of the White Forest",
+    "Sacred Spirit Sword Aiwass",
+    "Mitsurugi Prayers"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "branded",
+    "sinful-spoils",
+    "invoked",
+    "mitsurugi"
+   ],
+   "topic": "chain",
+   "question_ko": "묘지에 해당 몬스터가 없을 때 발동한 '패·묘지에서 몬스터를 골라 특소하는 효과'에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있는가?",
+   "answer_ko": "체인할 수 있다. 발동 시 묘지에 대상이 있든 없든 '묘지에서 특소하는 효과'로 본다. [[Fallen of the White Dragon]] ②, [[Ecclesia and the Dark Dragon]] ①, [[Diabell, Queen of the White Forest]] ②, [[Sacred Spirit Sword Aiwass]] ①의 1번째 ●, [[Mitsurugi Prayers]]가 예시에 있다.",
+   "quote_ja": "『●墓地からモンスターを特殊召喚する効果』を含んでいますので…チェーンして「屋敷わらし」の効果を発動できます。",
+   "impact_ko": "하얀 용의 에클레시아 특소, 검은 용 에클레시아 ①, 디아벨 퀵 특소, 기도의 특소에 와라시를 쓸 수 있다."
+  },
+  {
+   "id": "qa-23173",
+   "fid": 23173,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23173&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Granguignol the Dusk Dragon",
+    "I:P Masquerena"
+   ],
+   "handtraps": [],
+   "themes": [
+    "branded",
+    "mitsurugi"
+   ],
+   "topic": "timing",
+   "question_ko": "상대가 [[I:P Masquerena]] 효과로 링크 소환했다. [[Granguignol the Dusk Dragon]]의 '상대가 발동한 몬스터 효과로 특소된 경우' 효과를 발동할 수 있는가?",
+   "answer_ko": "발동할 수 없다. 효과 처리 결과로 싱크로·엑시즈·링크 소환을 하는 효과는 체인 처리 뒤에 소환을 하므로 '발동한 효과로 특소'된 것이 아니다.",
+   "quote_ja": "「I：Pマスカレーナ」の①の効果によるリンク召喚で、「赫焉竜グランギニョル」の②の効果の発動の条件は満たされません。",
+   "impact_ko": "그랑기뇰은 효과 처리 중에 몬스터가 특소될 때만 반응한다. 마스카레나 퀵 링크 같은 소환에는 반응하지 않는다."
+  },
+  {
+   "id": "supp-17069",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=17069&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mirrorjade the Iceblade Dragon"
+   ],
+   "handtraps": [],
+   "themes": [
+    "branded"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Mirrorjade the Iceblade Dragon]] 카드 보충 정보: ③ '상대에 의해 필드를 떠나면 엔드 페이즈에 상대 몬스터 전부 파괴'는 어떤 경우에 발동하는가?",
+   "answer_ko": "융합 소환된 이 카드가 원래 주인의 몬스터 존에서 상대에 의해 묘지로 가거나 앞면으로 제외됐을 때 발동한다. 엑스트라 덱으로 돌아가거나 뒷면으로 제외된 경우, 컨트롤이 넘어간 상태에서 떠난 경우에는 발동하지 않는다. 엔드 페이즈 파괴에는 체인 블록이 생기지 않는다.",
+   "quote_ja": "エクストラデッキに戻ったり、裏側表示で除外された場合は発動できません。",
+   "impact_ko": "[[Ultimate Slayer]]처럼 미러제이드를 엑스트라 덱으로 되돌리거나 [[Evenly Matched]]로 뒷면 제외하면 엔드 페이즈 전체 파괴가 없다. 파괴·릴리스·앞면 제외는 걸린다."
+  },
+  {
+   "id": "qa-23934",
+   "fid": 23934,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23934&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mirrorjade the Iceblade Dragon"
+   ],
+   "handtraps": [],
+   "themes": [
+    "branded"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Mirrorjade the Iceblade Dragon]]이 파괴되어 묘지로 간 뒤 곧바로 제외되면 ③을 발동할 수 있는가?",
+   "answer_ko": "발동할 수 없다. 필드를 떠나 처음 간 곳이 묘지라면 묘지에서만 발동할 수 있고, 발동할 때까지 묘지에 남아 있어야 한다.",
+   "quote_ja": "発動するタイミングまで墓地に存在し続けている必要があります。",
+   "impact_ko": "미러제이드를 '파괴 후 제외'하는 카드로 치우면 엔드 페이즈 전체 파괴를 피할 수 있다."
+  },
+  {
+   "id": "qa-24250",
+   "fid": 24250,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24250&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Fallen of the White Dragon",
+    "Fallen of Albaz"
+   ],
+   "handtraps": [
+    "crossout"
+   ],
+   "themes": [
+    "branded",
+    "dracotail"
+   ],
+   "topic": "negate",
+   "question_ko": "'지정자' 계열로 [[Fallen of the White Dragon]]을 제외했을 때 [[Fallen of Albaz]]의 효과도 무효가 되는가?",
+   "answer_ko": "된다. 반대로 알버스를 제외하면 하얀 용의 효과도 무효가 된다. 하얀 용은 카드명이 항상 '알버스의 낙윤'이기 때문이다.",
+   "quote_ja": "どちらの場合でも無効化されます。",
+   "impact_ko": "[[Crossout Designator]]처럼 카드명을 선언하는 카드는 알버스·하얀 용 어느 쪽을 선언해도 둘 다 막는다(선언은 내 덱에 있는 카드만)."
+  },
+  {
+   "id": "qa-24244",
+   "fid": 24244,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24244&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Fallen of the White Dragon",
+    "Fallen of Albaz"
+   ],
+   "handtraps": [],
+   "themes": [
+    "branded",
+    "dracotail"
+   ],
+   "topic": "opt",
+   "question_ko": "[[Fallen of the White Dragon]]의 효과를 쓴 턴에 [[Fallen of Albaz]]의 효과를 쓸 수 있는가(반대도)?",
+   "answer_ko": "둘 다 쓸 수 있다. 카드명이 같게 취급되어도 각자의 '1턴 1번'은 별개다.",
+   "quote_ja": "どちらもできます。",
+   "impact_ko": "하얀 용 라인 뒤에 알버스(에클레시아로 덱 특소)가 또 융합 효과를 쓸 수 있다."
+  },
+  {
+   "id": "supp-17062",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=17062&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Tri-Brigade Mercourier"
+   ],
+   "handtraps": [],
+   "themes": [
+    "branded"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Tri-Brigade Mercourier]] 카드 보충 정보: ① 무효 효과의 조건은?",
+   "answer_ko": "패나 몬스터 존에서 쓰는 유발 즉시 효과로, 상대가 몬스터 효과를 발동했을 때 직접 체인한다. '알버스를 융합 소재로 하는 융합 몬스터'는 소재로 알버스의 카드명이 적힌 융합 몬스터를 말한다. 데미지 스텝 불가.",
+   "quote_ja": "相手がモンスターの効果を発動した時に、直接チェーンして発動できます。",
+   "impact_ko": "메르쿠리에는 몬스터 효과만 막는다. 마법·함정 돌파는 통과한다."
+  },
+  {
+   "id": "supp-12851",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=12851&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Magical Meltdown"
+   ],
+   "handtraps": [
+    "ash",
+    "belle",
+    "imperm"
+   ],
+   "themes": [
+    "invoked"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Magical Meltdown]] 카드 보충 정보: ② '융합 소환 성공 시 상대는 효과를 발동할 수 없다'는 언제 적용되는가?",
+   "answer_ko": "자신이 체인 1로 발동한 효과로 융합 소환에 성공하고 그 뒤 다른 처리가 없었을 때, 그 체인 처리 후가 '융합 소환 성공 시'가 되어 상대는 효과를 발동할 수 없다. 체인 2 이후에서 융합했거나 융합 뒤에 다른 처리가 있었다면 상대는 효과를 발동할 수 있다. '융합 소환 취급 특소' 효과에도 적용된다.",
+   "quote_ja": "自分がチェーン１で発動した効果によって融合召喚に成功し、その後に処理が行われなかった場合…相手は効果を発動できなくなります。",
+   "impact_ko": "폭주마법진이 있으면, 체인 1 융합으로 나온 베이바론·아이온의 소환 유발에도 패트랩을 체인할 수 없다(qa-23451 참고). 융합이 체인 2 이후였다면 가능."
+  },
+  {
+   "id": "qa-23451",
+   "fid": 23451,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23451&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Magical Meltdown",
+    "Branded Lost"
+   ],
+   "handtraps": [
+    "ash",
+    "imperm"
+   ],
+   "themes": [
+    "invoked",
+    "branded"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Magical Meltdown]]·[[Branded Lost]] 적용 중, 체인 2에서 융합 소환하고 그 뒤 체인 1이 처리됐다. 그 융합 몬스터의 소환 유발 효과에 상대가 체인할 수 있는가?",
+   "answer_ko": "체인할 수 있다. 융합 소환 뒤에 체인 1의 처리가 있었으므로 그 체인 처리 후는 '융합 소환 성공 시'가 아니다.",
+   "quote_ja": "この一連のチェーン処理後は『その融合召喚成功時』にはあたりません。",
+   "impact_ko": "거꾸로 말하면 체인 1로 융합하고 끝났다면 그 몬스터의 소환 유발에도 체인할 수 없다. 폭주마법진 아래 '베이바론 서치 유발에는 체인 가능'은 융합이 체인 2 이후였을 때만 맞다."
+  },
+  {
+   "id": "qa-20206",
+   "fid": 20206,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=20206&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Magical Meltdown"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "invoked"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Magical Meltdown]] 적용 중, 융합 소환을 포함하지 않는 묘지 효과(묘지의 융합 몬스터를 엑스트라 덱에 되돌리고 드로우)의 발동을 무효로 할 수 있는가?",
+   "answer_ko": "무효로 할 수 있다. 폭주마법진은 '융합 소환하는 효과를 포함한 효과'에만 적용된다.",
+   "quote_ja": "『融合モンスターを融合召喚する効果を含む効果』ではありませんので、その効果処理の際には「暴走魔法陣」の効果は適用されません。",
+   "impact_ko": "소라트 소생, 소검·소환마술의 묘지 회수처럼 융합을 포함하지 않는 효과는 폭주마법진이 있어도 와라시로 발동을 무효로 할 수 있다."
+  },
+  {
+   "id": "qa-22936",
+   "fid": 22936,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22936&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Magical Meltdown",
+    "Branded Lost"
+   ],
+   "handtraps": [],
+   "themes": [
+    "invoked",
+    "branded"
+   ],
+   "topic": "negate",
+   "question_ko": "다른 효과를 복사해 결과적으로 융합 소환하는 효과에도 [[Magical Meltdown]] ②가 적용되는가?",
+   "answer_ko": "적용되지 않는다. 결과적으로 융합 소환이 일어나도 '융합 소환하는 효과를 포함한 효과'로 다루지 않으므로, 발동 무효도 가능하고 융합 소환 성공 시에도 상대가 효과를 발동할 수 있다. [[Branded Lost]]도 같다.",
+   "quote_ja": "『融合モンスターを融合召喚する効果を含む効果』としては扱われませんので",
+   "impact_ko": "폭주마법진·실낙인의 보호는 텍스트에 융합 소환이 적힌 효과에만 붙는다."
+  },
+  {
+   "id": "supp-22966",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22966&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Virakam, the Divine Spirit of Artifice"
+   ],
+   "handtraps": [
+    "imperm",
+    "veiler",
+    "ogre"
+   ],
+   "themes": [
+    "invoked"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Virakam, the Divine Spirit of Artifice]] 카드 보충 정보: ③ 보호 효과는 언제 쓸 수 있는가?",
+   "answer_ko": "자기 융합 몬스터의 효과 발동에 상대가 체인해 효과를 발동했을 때, 그 상대 효과에 직접 체인한다. 처리 때 자신을 제외하고 성공하면 그 효과를 무효로 하고 제외한다. 데미지 스텝 불가.",
+   "quote_ja": "自分の融合モンスターの効果の発動にチェーンして、相手がカードの効果を発動した時、その効果に直接チェーンして発動できます。",
+   "impact_ko": "비라캄이 서면 융합 몬스터 효과에 대한 패트랩 응답은 1번 무효·제외된다. 포영·뵐러·토끼는 비라캄 전에 쓴다."
+  },
+  {
+   "id": "supp-12849",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=12849&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Invoked Mechaba"
+   ],
+   "handtraps": [],
+   "themes": [
+    "invoked"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Invoked Mechaba]] 카드 보충 정보: 무효 효과의 코스트는?",
+   "answer_ko": "몬스터 효과·마법·함정이 발동했을 때 직접 체인하는 유발 즉시 효과다. 코스트로 직전에 발동한 카드와 같은 종류의 카드를 패에서 묘지로 보낸다. 데미지 스텝에도 쓸 수 있다.",
+   "quote_ja": "直前に効果を発動したカードと同じ種類のカードを手札から墓地へ送ります。",
+   "impact_ko": "상대 패에 같은 종류 카드가 없으면 메르카바는 그 발동을 막지 못한다."
+  },
+  {
+   "id": "supp-23002",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=23002&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Invocation - \"Sword\""
+   ],
+   "handtraps": [],
+   "themes": [
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Invocation - \"Sword\"]] 카드 보충 정보: 제외된 몬스터를 소재로 쓰는 처리는?",
+   "answer_ko": "소환수 융합 몬스터를 낼 때는 필드의 몬스터에 더해 자신·상대의 제외 상태(앞면) 몬스터를 묘지로 되돌려 소재로 쓸 수 있다. 뒷면으로 제외된 카드는 고를 수 없다. ②는 묘지에서 발동해 자신을 덱으로 되돌리고 대상을 패에 넣는다.",
+   "quote_ja": "裏側で除外されているカードを選ぶことはできません。",
+   "impact_ko": "세트 소검이 무엇을 낼지 계산할 때 양쪽의 앞면 제외 몬스터까지 센다. [[Evenly Matched]]처럼 뒷면 제외된 카드는 소재가 되지 않는다."
+  },
+  {
+   "id": "supp-16386",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=16386&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Baronne de Fleur"
+   ],
+   "handtraps": [],
+   "themes": [
+    "sinful-spoils",
+    "invoked"
+   ],
+   "topic": "opt",
+   "question_ko": "[[Baronne de Fleur]]의 무효 효과(②)는 OCG 텍스트로 몇 번 쓸 수 있는가?",
+   "answer_ko": "OCG 텍스트도 '이 카드가 앞면으로 존재하는 한 1번만' 발동할 수 있고, 별도로 '이 카드명의 ②는 1턴에 1번'이다. 보충 정보상 효과가 발동했을 때 직접 체인하는 유발 즉시 효과다.",
+   "quote_ja": "②：このカードが表側表示で存在する限り１度だけ、魔法・罠・モンスターの効果が発動した時に発動できる。",
+   "impact_ko": "MD 텍스트의 '앞면으로 있는 동안 1번'이 OCG와 같다. 한 번 무효를 쓰면 그 바롱은 끝이다."
+  },
+  {
+   "id": "qa-16838",
+   "fid": 16838,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=16838&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Baronne de Fleur"
+   ],
+   "handtraps": [],
+   "themes": [
+    "sinful-spoils",
+    "invoked"
+   ],
+   "topic": "opt",
+   "question_ko": "'앞면으로 있는 동안 1번' 효과를 쓴 몬스터가 일시적으로 제외되었다가 돌아오면 다시 쓸 수 있는가?",
+   "answer_ko": "다시 쓸 수 있다. 다만 [[Baronne de Fleur]] ②는 이미 그 턴에 썼다면 그 턴에는 쓸 수 없다(이름 1턴 1번).",
+   "quote_ja": "「フルール・ド・バロネス」②（すでに②の効果を使用したターンは発動できません。）",
+   "impact_ko": "SPLK 등으로 바롱을 엔드 페이즈까지 제외하면 다음 턴 바롱이 무효를 다시 얻는다."
+  },
+  {
+   "id": "qa-16839",
+   "fid": 16839,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=16839&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Baronne de Fleur"
+   ],
+   "handtraps": [],
+   "themes": [
+    "sinful-spoils",
+    "invoked"
+   ],
+   "topic": "opt",
+   "question_ko": "'앞면으로 있는 동안 1번' 효과를 쓴 몬스터가 뒷면 수비가 되었다가 다시 앞면이 되면?",
+   "answer_ko": "다시 쓸 수 있다. [[Baronne de Fleur]] ②는 같은 턴에는 다시 쓸 수 없다.",
+   "quote_ja": "モンスターゾーンに表側表示で存在しなくなった（裏側守備表示になった）時点で『このカードがフィールドに表側表示で存在する限り１度だけ』は考慮しなくなります。",
+   "impact_ko": "[[Book of Eclipse]]는 엔드 페이즈에 바롱을 앞면으로 되돌리므로 다음 턴 바롱의 무효가 다시 살아난다."
+  },
+  {
+   "id": "qa-23438",
+   "fid": 23438,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23438&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Baronne de Fleur"
+   ],
+   "handtraps": [
+    "gamma",
+    "imperm"
+   ],
+   "themes": [
+    "sinful-spoils",
+    "invoked"
+   ],
+   "topic": "opt",
+   "question_ko": "'앞면으로 있는 동안 1번' 효과의 발동이나 효과가 무효가 되면 다시 쓸 수 있는가?",
+   "answer_ko": "쓸 수 없다. 무효가 되어도 사용한 것으로 친다. [[Baronne de Fleur]] ②가 예시에 있다.",
+   "quote_ja": "効果の発動や効果が無効になった場合は再度発動することはできません。",
+   "impact_ko": "바롱의 무효에 [[PSY-Framegear Gamma]]를 체인하면 그 바롱은 무효 능력을 잃는다."
+  },
+  {
+   "id": "qa-24092",
+   "fid": 24092,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24092&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Baronne de Fleur",
+    "Ryzeal Detonator",
+    "Ame no Murakumo no Mitsurugi",
+    "Mitsurugi Great Purification",
+    "Diabell, Queen of the White Forest"
+   ],
+   "handtraps": [],
+   "themes": [
+    "sinful-spoils",
+    "mitsurugi",
+    "invoked"
+   ],
+   "topic": "chain",
+   "question_ko": "상대가 아무 처리도 없는 지속 마법·지속 함정·필드 마법·장착 마법을 발동했을 때 '카드의 효과를 발동했을 때' 반응하는 효과를 쓸 수 있는가?",
+   "answer_ko": "쓸 수 있다. 마법·함정 카드의 발동은 '카드의 효과의 발동'에 해당한다. [[Ryzeal Detonator]] ②, [[Ame no Murakumo no Mitsurugi]] ②, [[Baronne de Fleur]] ②, 디아벨 ②, [[Mitsurugi Great Purification]] ① 등이 예시다.",
+   "quote_ja": "魔法・罠カードのカードの発動は、”カードの効果の発動”に該当します。",
+   "impact_ko": "지속 마함을 미끼로 깔아도 데토네이터·무라쿠모·바롱이 반응한다. 미끼로 쓸 수 있다는 뜻이기도 하다."
+  },
+  {
+   "id": "supp-19148",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19148&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Diabellstar the Black Witch"
+   ],
+   "handtraps": [
+    "ash",
+    "imperm",
+    "veiler",
+    "droll"
+   ],
+   "themes": [
+    "sinful-spoils"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Diabellstar the Black Witch]] 카드 보충 정보: ① 패 특소, ② 세트, ③ 묘지 소생은 어떤 효과인가?",
+   "answer_ko": "①은 어느 효과 분류에도 속하지 않는 소환 규칙이다(카드 1장을 묘지로 보낸 뒤 특소, 동시가 아님. 무효가 되면 그 턴 다시 이 방법으로 특소 가능). ②는 몬스터 존의 유발 효과. ③은 원래 주인 입장에서 상대 턴에 패·필드에서 원래 주인의 묘지로 보내졌을 때 묘지에서 발동하며, 패·필드의 카드 1장을 묘지로 보내는 데 성공하면 자신을 특소한다.",
+   "quote_ja": "起動効果・誘発効果・誘発即時効果・永続効果のいずれにも分類されない効果です。",
+   "impact_ko": "디아벨스타 패 특소에는 체인할 효과가 없다. 포영·뵐러는 특소 뒤 ② 세트에. 내 턴에 디아벨스타를 묘지로 보내면 ③으로 돌아온다."
+  },
+  {
+   "id": "qa-23218",
+   "fid": 23218,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23218&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Belle & Haunted Mansion",
+    "Diabellstar Vengeance"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "sinful-spoils"
+   ],
+   "topic": "chain",
+   "question_ko": "'패·묘지에서 자신을 특소하는 효과'에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있는가?",
+   "answer_ko": "묘지에서 발동했을 때만 체인할 수 있다. 패에서 발동한 경우는 패에서 특소하는 효과라 체인할 수 없다. [[Diabellstar Vengeance]]도 패에서 발동하면 체인할 수 없다는 예시에 있다.",
+   "quote_ja": "手札で発動した「K９－ØØ号 ルプス」の効果にチェーンして「屋敷わらし」の効果を発動することはできません。",
+   "impact_ko": "벤전스에 와라시를 쓰려면 묘지에서 발동할 때를 노린다."
+  },
+  {
+   "id": "supp-20193",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20193&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Elzette of the White Forest"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [
+    "sinful-spoils"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Elzette of the White Forest]] 카드 보충 정보: ① 효과의 처리 순서는?",
+   "answer_ko": "패에서 쓰는 기동 효과로, 덱에서 백림 몬스터를 서치할 수 있는 상황에서만 발동할 수 있다. 처리 때 자신을 특소하고, 성공하면 그 뒤 서치한다(동시가 아님). 코스트로 마함 존의 몬스터 카드도 보낼 수 있다.",
+   "quote_ja": "『デッキから「白き森のリゼット」以外の「白き森」モンスター１体を手札に加える』処理を行う事ができる状況で発動できます。",
+   "impact_ko": "특소와 서치가 한 효과라 우라라 1장으로 둘 다 막힌다. 드롤이 걸려 있으면 엘제트 ① 자체를 발동할 수 없다."
+  },
+  {
+   "id": "supp-20194",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20194&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Silvy of the White Forest"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "sinful-spoils"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Silvy of the White Forest]] 카드 보충 정보: ② 묘지 효과는?",
+   "answer_ko": "묘지에서 쓰는 유발 즉시 효과로, 묘지나 몬스터 존(앞면)의 백림 싱크로를 대상으로 한다. 처리 때 그것을 엑스트라 덱으로 되돌리고, 성공하면 자신을 효과 무효로 특소한다(동시 처리). 데미지 스텝 불가.",
+   "quote_ja": "処理時に、『そのモンスターをEXデッキに戻し』の処理を行い、戻すことに成功した場合、『このカードを効果を無効にして特殊召喚する』処理を行います。",
+   "impact_ko": "실비는 내 제거에 체인해 루시엘라를 엑스트라 덱으로 피신시킨다. 묘지에서 특소하는 효과라 와라시가 맞는다."
+  },
+  {
+   "id": "supp-20219",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20219&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Diabell, Queen of the White Forest"
+   ],
+   "handtraps": [],
+   "themes": [
+    "sinful-spoils"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Diabell, Queen of the White Forest]] 카드 보충 정보: ② 퀵 특소는?",
+   "answer_ko": "몬스터 존의 유발 즉시 효과로 상대의 마법·함정·몬스터 효과에 직접 체인한다. 데미지 스텝 불가. 코스트로 마함 존의 몬스터 카드도 보낼 수 있다. 묘지·제외 상태에서 특소하는 몬스터는 한 번 정규 방법으로 특소된 적이 있어야 한다.",
+   "quote_ja": "そのモンスターは１度正規の方法で特殊召喚に成功している必要があります。",
+   "impact_ko": "디아벨의 퀵 싱크로 특소는 상대 효과 발동에만 반응한다."
+  },
+  {
+   "id": "supp-21149",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21149&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Diabellze the White Witch"
+   ],
+   "handtraps": [],
+   "themes": [
+    "sinful-spoils"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Diabellze the White Witch]] 카드 보충 정보: ③ 파괴 내성은?",
+   "answer_ko": "몬스터 존에서 적용하는 지속 효과다. 자기 몬스터 존에 '디아벨' 몬스터가 앞면으로 2장 이상 있는 한, 자기 몬스터 존의 몬스터는 상대 효과로 파괴되지 않는다. 이 카드는 효과가 무효여도 '백림' 카드로 취급된다.",
+   "quote_ja": "自分のモンスターゾーンのモンスターは相手の効果では破壊されなくなります。",
+   "impact_ko": "디아벨 몬스터가 2장 이상이면 번개·라이고·유령토끼의 파괴가 통하지 않는다. 디아벨제를 무효로 하거나 디아벨 몬스터를 1장 이하로 줄여야 한다."
+  },
+  {
+   "id": "qa-24148",
+   "fid": 24148,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24148&request_locale=ja",
+   "official": true,
+   "cards": [
+    "The Hallowed Azamina"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "sinful-spoils"
+   ],
+   "topic": "cost",
+   "question_ko": "[[The Hallowed Azamina]]와 같은 체인에서 발동한 '죄보' 카드의 발동이 무효가 되었다. 할로우드 아자미나의 처리 때 그 카드를 보낼 수 있는가?",
+   "answer_ko": "보낼 수 없다. 발동이 무효가 된 마함은 필드의 카드로 다루지 않는다. 다른 '죄보' 카드가 없으면 할로우드 아자미나는 아무것도 하지 않는다(융합 몬스터를 보여주는 처리도 없다).",
+   "quote_ja": "手札・フィールドに他の「罪宝」カードが１枚も無い場合、「聖なる薊花」の処理は何も行われません。",
+   "impact_ko": "할로우드 아자미나는 처리 때 보낼 '죄보' 카드가 남아 있어야 한다. 그 카드를 미리 없애면(유령토끼로 기만 파괴 등) 아자미나 융합이 불발한다."
+  },
+  {
+   "id": "qa-24098",
+   "fid": 24098,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24098&request_locale=ja",
+   "official": true,
+   "cards": [
+    "The Hallowed Azamina",
+    "Retaliating \"C\""
+   ],
+   "handtraps": [
+    "maxxc"
+   ],
+   "themes": [
+    "sinful-spoils"
+   ],
+   "topic": "summon",
+   "question_ko": "[[The Hallowed Azamina]]에 [[Retaliating \"C\"]]가 체인되어 '묘지로 가는 카드는 제외' 상태가 되면?",
+   "answer_ko": "융합 몬스터를 보여주고 '죄보' 카드를 제외하지만, 묘지로 보낸 카드가 1장도 없으므로 융합 몬스터는 특소되지 않는다.",
+   "quote_ja": "見せた融合モンスターは特殊召喚されずにエクストラデッキに残ります。",
+   "impact_ko": "할로우드 아자미나에 응전하는 G를 체인하면 아자미나 융합 자체가 나오지 않는다."
+  },
+  {
+   "id": "supp-21054",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21054&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ame no Murakumo no Mitsurugi"
+   ],
+   "handtraps": [
+    "ash",
+    "belle",
+    "droll"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Ame no Murakumo no Mitsurugi]] 카드 보충 정보: ② 소프트 무효와 ③ 릴리스 유발은 어떻게 처리되는가?",
+   "answer_ko": "②는 상대 손패가 0장이어도 발동할 수 있다. ③은 릴리스되어 처음 간 곳(묘지 또는 앞면 제외)에서 발동하는 유발 효과다. 처리 때 먼저 서치하고, 서치에 성공했으며 한 번 정규 방법으로 특소된 이 카드가 발동한 곳에 남아 있을 때만 그 뒤 자신을 특소할 수 있다(동시가 아님).",
+   "quote_ja": "手札に加えることに成功し、一度正規の方法で特殊召喚されたこのカードが効果を発動した場所に残っている場合、その後、『このカードを特殊召喚』する処理を行うことができます。",
+   "impact_ko": "드롤로 서치를 못 하면 자신 특소도 없다. 의식 소환되지 않은 채 패·덱에서 릴리스된 무라쿠모는 서치만 하고 특소하지 못한다."
+  },
+  {
+   "id": "supp-21055",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21055&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Futsu no Mitama no Mitsurugi"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "opt",
+   "question_ko": "[[Futsu no Mitama no Mitsurugi]] 카드 보충 정보·OCG 텍스트: ① 소생은 몇 번 쓸 수 있는가?",
+   "answer_ko": "OCG 텍스트상 ①은 '같은 체인 위에서 1번만' 발동할 수 있고 1턴 1번 제한은 없다(②만 1턴 1번). ①은 이 카드가 앞면으로 있을 때 상대가 몬스터를 특소하면 발동한다. ②는 무라쿠모와 같은 '서치 성공 후 자신 특소' 구조다.",
+   "quote_ja": "①の効果は同一チェーン上では１度しか発動できず、②の効果は１ターンに１度しか使用できない。",
+   "impact_ko": "후츠노미타마는 내 특소마다(체인이 달라질 때마다) 반복해서 묘지 파충류를 소생시킨다."
+  },
+  {
+   "id": "supp-21349",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21349&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ame no Habakiri no Mitsurugi"
+   ],
+   "handtraps": [
+    "ash",
+    "impulse"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Ame no Habakiri no Mitsurugi]] 카드 보충 정보: ① 패 공개 효과와 ③ 릴리스 유발은?",
+   "answer_ko": "①은 패에서 쓰는 기동 효과로, 덱에서 미츠루기 몬스터를 특소하고 성공하면 그 뒤 자기 몬스터 1장을 릴리스한다. ③은 무라쿠모와 같이 서치에 성공하고 정규 특소된 적이 있을 때만 자신 특소까지 이어진다.",
+   "quote_ja": "特殊召喚に成功した場合、その後、『自分フィールドのモンスター１体をリリースする』処理を行います。",
+   "impact_ko": "하바키리 ①은 덱 특소라 우라라·임펄스가 맞는다. 특소가 막히면 릴리스도 없어 사지 서치도 없다."
+  },
+  {
+   "id": "qa-23336",
+   "fid": 23336,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23336&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ame no Habakiri no Mitsurugi"
+   ],
+   "handtraps": [
+    "ash",
+    "impulse"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "opt",
+   "question_ko": "[[Ame no Habakiri no Mitsurugi]] ①(듀얼 중 1번)의 발동이나 효과가 무효가 되면 그 듀얼 중 다시 쓸 수 있는가?",
+   "answer_ko": "쓸 수 없다. 무효가 되었든, 다른 효과로 바뀌었든, 특소 처리를 못 했든 ①을 사용한 것으로 친다.",
+   "quote_ja": "そのデュエル中に再び発動することはできなくなります。",
+   "impact_ko": "하바키리 ①에 우라라를 맞히면 그 듀얼 내내 그 하바키리의 초동은 없다."
+  },
+  {
+   "id": "qa-24225",
+   "fid": 24225,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24225&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Belle & Haunted Mansion",
+    "Ame no Murakumo no Mitsurugi",
+    "Futsu no Mitama no Mitsurugi",
+    "Ame no Habakiri no Mitsurugi"
+   ],
+   "handtraps": [
+    "belle",
+    "impulse"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "chain",
+   "question_ko": "패·덱에서 릴리스되어 묘지로 간(의식 소환되지 않은) [[Ame no Murakumo no Mitsurugi]]가 ③을 발동했을 때 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있는가?",
+   "answer_ko": "체인할 수 있다. 실제로 특소할 수 있든 없든 묘지에서 발동한 ③에는 '묘지에서 특소하는 효과'가 포함된다. 제외 상태에서 발동했을 때는 포함되지 않아 체인할 수 없다. 후츠노미타마 ②, 하바키리 ③도 같고 [[Dominus Impulse]]도 체인할 수 있다.",
+   "quote_ja": "墓地で③の効果が発動したのであれば、『●墓地からモンスターを特殊召喚する効果』が含まれます。",
+   "impact_ko": "미츠루기의 릴리스 유발(묘지 발동)에는 언제나 와라시·임펄스를 쓸 수 있다."
+  },
+  {
+   "id": "qa-24239",
+   "fid": 24239,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24239&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ame no Habakiri no Mitsurugi",
+    "Ame no Murakumo no Mitsurugi",
+    "Futsu no Mitama no Mitsurugi"
+   ],
+   "handtraps": [
+    "magnamhut"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "timing",
+   "question_ko": "묘지에서 발동한 [[Ame no Habakiri no Mitsurugi]] ③에 체인해 그 하바키리를 묘지에서 제외하면?",
+   "answer_ko": "서치는 처리되지만, 발동한 곳(묘지)을 떠났으므로 자신을 특소하는 처리는 하지 않는다. 무라쿠모·후츠노미타마도 같다.",
+   "quote_ja": "自身を特殊召喚する処理は行われません。",
+   "impact_ko": "릴리스된 무라쿠모의 ③ 발동에 체인해 묘지에서 제외하면([[Bystial Magnamhut]] 등) 재특소와 전체 파괴를 막을 수 있다(서치는 남음)."
+  },
+  {
+   "id": "qa-24070",
+   "fid": 24070,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24070&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ame no Habakiri no Mitsurugi",
+    "Ame no Murakumo no Mitsurugi",
+    "Futsu no Mitama no Mitsurugi"
+   ],
+   "handtraps": [
+    "magnamhut"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "timing",
+   "question_ko": "릴리스되어 묘지로 간 몬스터가 '릴리스되었을 때' 효과를 발동하기 전에 묘지를 떠나면 효과가 발동하는가?",
+   "answer_ko": "발동하지 않는다. 이 효과는 릴리스된 체인 처리 뒤 처음 간 곳에서 발동하므로, 발동 전에 그곳을 떠나면 안 된다. [[Ame no Habakiri no Mitsurugi]] ③, [[Ame no Murakumo no Mitsurugi]] ③, [[Futsu no Mitama no Mitsurugi]] ②가 예시에 있다.",
+   "quote_ja": "最初に送られたところから離れている場合には発動しません。",
+   "impact_ko": "릴리스(예: 대불 코스트)와 같은 체인에서 묘지의 미츠루기를 제외하면 서치·재특소가 모두 사라진다."
+  },
+  {
+   "id": "qa-24226",
+   "fid": 24226,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24226&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring",
+    "Mitsurugi Ritual"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Mitsurugi Ritual]]의 2번째 ●(패·덱·필드의 파충류를 최대 2장 릴리스해 패의 의식 몬스터를 의식 소환)에 [[Ash Blossom & Joyous Spring]]을 체인할 수 있는가?",
+   "answer_ko": "체인할 수 없다. 덱에서 릴리스된 몬스터는 결과적으로 묘지로 가지만, 이 효과는 '덱에서 카드를 묘지로 보내는 효과'로 보지 않는다.",
+   "quote_ja": "この効果そのものは『●デッキからカードを墓地へ送る効果』とみなしません。",
+   "impact_ko": "덱 릴리스로 패의 하바키리를 의식 소환하는 단계에는 우라라를 쓸 수 없다. 우라라는 1번째 ●(덱에서 의식 소환)에."
+  },
+  {
+   "id": "qa-24163",
+   "fid": 24163,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24163&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring",
+    "Mitsurugi Ritual",
+    "Triple Tactics Talent"
+   ],
+   "handtraps": [
+    "ash",
+    "ttt"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "chain",
+   "question_ko": "●를 골라 발동하는 카드([[Triple Tactics Talent]] 등)에 [[Ash Blossom & Joyous Spring]]을 체인할 수 있는가?",
+   "answer_ko": "발동할 때 고른 ●가 우라라 대상 효과일 때만 체인할 수 있다. TTT는 '2장 드로우'를 골랐을 때 가능하다. [[Mitsurugi Ritual]]은 1번째 ●(덱에서 의식 소환)를 골랐을 때 가능하다.",
+   "quote_ja": "それぞれの『●』の効果を発動した時に限り、「灰流うらら」の効果をチェーンして発動できます。",
+   "impact_ko": "미츠루기 강림은 1번째 ●에만 우라라를 맞힐 수 있다. 드로우도 우라라 대상이라는 점도 확인된다."
+  },
+  {
+   "id": "qa-24085",
+   "fid": 24085,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24085&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring",
+    "Mitsurugi Prayers"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "chain",
+   "question_ko": "몬스터를 릴리스하지 않고 발동한 [[Mitsurugi Prayers]]에 [[Ash Blossom & Joyous Spring]]을 체인할 수 있는가?",
+   "answer_ko": "체인할 수 있다. '덱에서 카드를 패에 넣는 효과'가 포함되어 있다.",
+   "quote_ja": "モンスターをリリースせずに発動した「巳剣勧請」にも『●デッキからカードを手札に加える効果』効果が含まれます",
+   "impact_ko": "기도도 우라라 대상이다."
+  },
+  {
+   "id": "qa-24161",
+   "fid": 24161,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24161&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ghost Belle & Haunted Mansion",
+    "S:P Little Knight",
+    "Mitsurugi no Mikoto, Kusanagi",
+    "Dracotail Arthalion"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "mitsurugi",
+    "dracotail",
+    "invoked"
+   ],
+   "topic": "chain",
+   "question_ko": "[[S:P Little Knight]] ①에 [[Ghost Belle & Haunted Mansion]]을 체인할 수 있는가?",
+   "answer_ko": "묘지의 카드를 대상으로 발동했을 때만 체인할 수 있다. 필드 카드만 대상이면 불가. [[Mitsurugi no Mikoto, Kusanagi]] ①, [[Dracotail Arthalion]] ①도 묘지 카드를 대상으로 했을 때만 와라시를 체인할 수 있다는 예시에 있다.",
+   "quote_ja": "墓地のカードを対象として「S：Pリトルナイト」の①の効果を発動した時であれば…チェーンして「屋敷わらし」の効果を発動できます。",
+   "impact_ko": "쿠사나기의 묘지 회수에는 와라시를 쓸 수 있다. 알자리온 ①은 필드만 대상이면 와라시가 안 된다."
+  },
+  {
+   "id": "supp-21060",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21060&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mitsurugi Great Purification"
+   ],
+   "handtraps": [],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "cost",
+   "question_ko": "[[Mitsurugi Great Purification]] 카드 보충 정보: 코스트로 뒷면 수비 몬스터를 릴리스할 수 있는가?",
+   "answer_ko": "할 수 있다. ①의 코스트로 뒷면 수비인 레벨 5 이상 파충류족도 릴리스할 수 있다. ①은 상대가 마함·몬스터 효과를 발동했을 때 직접 체인한다(데미지 스텝 불가). ①②는 1턴에 1번, 둘 중 하나만.",
+   "quote_ja": "このカードを発動する際のコストとして、裏側守備表示で存在するレベル５以上の爬虫類族モンスターもリリースできます。",
+   "impact_ko": "상대 몬스터를 뒷면으로 만들어도 대불의 코스트는 남는다. 대불을 막으려면 레벨 5 이상 파충류족 자체를 필드에서 없애야 한다."
+  },
+  {
+   "id": "supp-20578",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20578&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ryzeal Detonator"
+   ],
+   "handtraps": [],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "opt",
+   "question_ko": "[[Ryzeal Detonator]] 카드 보충 정보·OCG 텍스트: ② 파괴 효과에 횟수 제한이 있는가?",
+   "answer_ko": "1턴 1번 제한은 ①③에만 있고 ②에는 없다. 보충 정보에 '같은 체인 위에서 여러 번 발동할 수도 있다'고 적혀 있다. ②는 상대가 카드의 효과를 발동했을 때 직접 체인한다. ③(엑시즈 몬스터 파괴 대체)은 동시에 여러 장이 효과로 파괴될 때도 소재 1개로 대신할 수 있다.",
+   "quote_ja": "同一チェーン上で複数回発動することもできます。",
+   "impact_ko": "데토네이터는 소재 수만큼 연속으로 파괴할 수 있다. 미끼 발동으로 소재를 먼저 소모시킨다."
+  },
+  {
+   "id": "supp-21358",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21358&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dracotail Mululu",
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "ash",
+    "imperm"
+   ],
+   "themes": [
+    "dracotail"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Dracotail Mululu]] 카드 보충 정보: ① 융합은 어디의 소재를 쓰는가?",
+   "answer_ko": "몬스터 존에서 쓰는 유발 즉시 효과로, 처리 때 자신의 패·필드의 몬스터를 소재로 한 뒤 드래곤테일 융합 몬스터를 융합 소환한다(동시가 아님). 처리 뒤 그 턴은 융합 몬스터만 엑스트라 덱에서 특소할 수 있다. ②는 묘지의 유발 효과로, 세트에 성공하면 상대 앞면 몬스터 1장의 효과를 무효로 할 수 있다.",
+   "quote_ja": "処理時に、『自分の手札・フィールドのモンスターを融合素材とし』の処理を行います。",
+   "impact_ko": "무루루 ①은 덱을 건드리지 않아 [[Ash Blossom & Joyous Spring]]의 조건(덱에서 서치·특소·묘지 송치)에 해당하지 않는다(우라라 텍스트 기준, 무루루를 직접 다룬 Q&A는 없음)."
+  },
+  {
+   "id": "qa-9295",
+   "fid": 9295,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=9295&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ame no Murakumo no Mitsurugi"
+   ],
+   "handtraps": [],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Ame no Murakumo no Mitsurugi]] ②로 내가 패를 1장 버렸다. 그 카드는 누가 버린 것으로 취급되는가?",
+   "answer_ko": "무라쿠모 ②를 발동한 플레이어(상대)의 효과로 버려진 것으로 취급된다. '상대 효과로 버려졌을 때' 효과가 있는 카드는 그 효과를 쓸 수 있다.",
+   "quote_ja": "「天叢雲之巳剣」の②の効果を発動したプレイヤーによって捨てられたことになります。",
+   "impact_ko": "무라쿠모의 '패 1장 버리기'는 무효 대신 고를 수 있는 선택지이며, 버린 카드는 상대 효과로 버려진 것이 된다."
+  }
+ ]
+}
