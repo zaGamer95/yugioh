@@ -39,7 +39,7 @@
 | 비스테드 드루이드브룸 (Bystial Druiswurm) | ⚪ 약함 | 묘지의 빛·어둠은 대개 무구한 자 메디우스 (Medius the Pure)(어둠)뿐이고 아르토메기아의 감옥신수 (Artmage Power Patron)는 땅이라 대상 불가. 메디우스를 지워도 아르토메기아 디아크트로스 (Artmage Diactorus) ③이 제외 상태의 메디우스도 꺼낸다. 패에서 쓰는 몬스터 효과라 아르토메기아 임파스토 －탈환－ (Artmage Impasto -Recapture-)에 막힌다. 남은 몸통의 ②는 파괴 내성 창감옥신 네르바 (Nerva the Power Patron of Creation)도 묘지로 보낼 수 있어 우리 턴 돌파용. |
 | 말살의 지명자 (Crossout Designator) | ⛔ 비추 | 자기 덱에 없는 이름은 선언 불가. 내가 메디우스를 쓰는 덱일 때만 유효 |
 
-## 혈자리 (우선순위 순)
+## 패트랩 타이밍 (우선순위 순)
 
 1. 🔴 치명 **하루 우라라** (Ash Blossom & Joyous Spring) → **무구한 자 메디우스** (Medius the Pure) — main 2단계
    - 타이밍: 무구한 자 메디우스 (Medius the Pure)의 소환 성공 유발(덱에서 감옥신 몬스터 특소)에 체인

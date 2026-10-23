@@ -39,7 +39,7 @@
 | 삼전의 재 (Triple Tactics Talent) | ⚪ 약함 | 후공 내 턴용 |
 | 비스테드 마그나무트 (Bystial Magnamhut) | ⚪ 약함 | 묘지의 빛 페어리테일(스노우) 제외 정도 |
 
-## 혈자리 (우선순위 순)
+## 패트랩 타이밍 (우선순위 순)
 
 1. 🔴 치명 **하루 우라라** (Ash Blossom & Joyous Spring) → **페어리테일－위캣** (Fairy Tail - Wiccat) — luna 5단계
    - 타이밍: 위캣이 소재를 제거하고 매치리르·테일즈를 덤핑하는 효과 발동에 체인

@@ -39,7 +39,7 @@
 | 말살의 지명자 (Crossout Designator) | ⚪ 약함 | 내 덱에 있는 카드만 선언 가능. 같은 하르모니아/마그나무트/알바스 엔진을 공유한다면 피드라울리스＝하르모니아 (Fydraulis Harmonia)·하얀 용의 낙윤 (Fallen of the White Dragon) 선언 정도. |
 | 도미나스 스파크 (Dominus Spark) | ⚪ 약함 | 상대가 패의 몬스터 효과(파워 바이스·본 데몬 등)를 쓴 뒤 몬스터 1장 제외. 제외된 크림즌 킹 등은 비스테드 디스 파테르 (Bystial Dis Pater) ①로 돌아오고, 제외된 카드가 생기면 디스 파테르 ②도 켜진다. |
 
-## 혈자리 (우선순위 순)
+## 패트랩 타이밍 (우선순위 순)
 
 1. 🔴 치명 **하루 우라라** (Ash Blossom & Joyous Spring) → **파워 바이스 드래곤** (Power Vice Dragon) — power_vice 2단계
    - 타이밍: 파워 바이스 드래곤 (Power Vice Dragon) 특소 직후 '레조네이터 서치' 유발 효과에 체인

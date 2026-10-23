@@ -39,7 +39,7 @@
 | 피드라울리스＝하르모니아 (Fydraulis Harmonia) | ⚪ 약함 | 미츠루기 몬스터는 패·묘지에서 효과를 써서 직접 체인할 필드 몬스터 효과가 라이제올·킹그렘린 (King of the Feral Imps) 정도다. 그때는 아메노무라쿠모노미츠루기 (Ame no Murakumo no Mitsurugi)가 서 있고, 하르모니아가 특소되면 후츠노미타마노미츠루기 (Futsu no Mitama no Mitsurugi)가 소생시킨다 |
 | 말살의 지명자 (Crossout Designator) | ⛔ 비추 | 자기 덱의 카드만 선언 가능. 미츠루기 카드를 내가 안 쓰면 선언 불가 |
 
-## 혈자리 (우선순위 순)
+## 패트랩 타이밍 (우선순위 순)
 
 1. 🔴 치명 **하루 우라라** (Ash Blossom & Joyous Spring) → **아메노하바키리노미츠루기** (Ame no Habakiri no Mitsurugi) — habakiri 1단계
    - 타이밍: 하바키리 패 공개 효과(덱에서 특소) 발동에 체인

@@ -6,7 +6,7 @@
 
 ## 한눈에 보기
 
-릴리스(어드밴스 소환·의식 소환·코스트)로 묘지에 간 크라운 클랜 몬스터들의 '릴리스되었을 때' 효과를 연쇄로 쓰는 덱. 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme)·크라운 클랜 『마티네』 (Clown Crew Matinee Operatics)로 엑스트라 덱 몬스터를 소환 조건 무시로 꺼내고, 그걸 크라운 클랜 화이트페이스 (Clown Crew Biancaviso)의 어드밴스 소환 재료로 써서 드로우하고, 엔드 페이즈에 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics)로 릴리스한 종류 수만큼 또 드로우한다. 선공 필드 자체는 얇은 편이다. 견제는 상대 메인 페이즈에 크라운 클랜 화이트페이스 (Clown Crew Biancaviso)의 퀵 어드밴스 소환, 세트한 크라운 클랜 『스와레』 (Clown Crew Soiree Operations)·크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme), 그리고 드로우로 잡은 패트랩에 나눠 들고 있다. 초동은 크라운 클랜 플레어 (Clown Crew Flair)·카드 상세 (Clown Crew Cappello)·크라운 클랜 『리허설』 (Clown Crew Rehearsal)가 사실상 전부라서 첫 서치 지점이 가장 약하다. 서치·드로우 의존도가 높아 드롤에도 약하다.
+릴리스(어드밴스 소환·의식 소환·코스트)로 묘지에 간 크라운 클랜 몬스터들의 '릴리스되었을 때' 효과를 연쇄로 쓰는 덱. 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme)·크라운 클랜 『마티네』 (Clown Crew Matinee Operatics)로 엑스트라 덱 몬스터를 소환 조건 무시로 꺼내고, 그걸 크라운 클랜 화이트페이스 (Clown Crew Biancaviso)의 어드밴스 소환 재료로 써서 드로우하고, 엔드 페이즈에 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics)로 릴리스한 종류 수만큼 또 드로우한다. 선공 필드 자체는 얇은 편이다. 견제는 상대 메인 페이즈에 크라운 클랜 화이트페이스 (Clown Crew Biancaviso)의 퀵 어드밴스 소환, 세트한 크라운 클랜 『스와레』 (Clown Crew Soiree Operations)·크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme), 그리고 드로우로 잡은 패트랩에 나눠 들고 있다. 초동은 크라운 클랜 플레어 (Clown Crew Flair)·Clown Crew Cappello ⚠·크라운 클랜 『리허설』 (Clown Crew Rehearsal)가 사실상 전부라서 첫 서치 지점이 가장 약하다. 서치·드로우 의존도가 높아 드롤에도 약하다.
 
 ### 패트랩 상성 요약
 
@@ -39,7 +39,7 @@
 | 말살의 지명자 (Crossout Designator) | ⚪ 약함 | 자기 메인 덱에 있는 카드만 선언 가능. 크라운 클랜 카드에는 못 쓴다. 상대가 쓰는 공용 패트랩 대책용. |
 | 피드라울리스＝하르모니아 (Fydraulis Harmonia) | ⚪ 약함 | 선공 1턴에는 직접 체인할 필드 몬스터 효과가 사실상 없다(크라운 클랜 화이트페이스 (Clown Crew Biancaviso) 유발은 묘지 유발에 덮임). 내 턴에 상대가 바이앙카비소 퀵 효과를 쓸 때가 실질적인 사용처 |
 
-## 혈자리 (우선순위 순)
+## 패트랩 타이밍 (우선순위 순)
 
 1. 🔴 치명 **하루 우라라** (Ash Blossom & Joyous Spring) → **크라운 클랜 『리허설』** (Clown Crew Rehearsal) — flair 2단계
    - 타이밍: 크라운 클랜 『리허설』 (Clown Crew Rehearsal) 발동(2장 서치)에 체인
@@ -48,18 +48,18 @@
 2. 🔴 치명 **하루 우라라** (Ash Blossom & Joyous Spring) → **크라운 클랜 플레어** (Clown Crew Flair) — flair 1단계
    - 타이밍: 패에서 공개한 크라운 클랜 플레어 (Clown Crew Flair)의 서치 효과에 체인
    - 이유: 플레어 1장 초동이면 바로 끝난다. 다만 상대 패에 크라운 클랜 『리허설』 (Clown Crew Rehearsal)가 따로 있으면 우라라를 리허설용으로 아끼는 편이 더 아프다. 상대 패를 모르면 첫 서치에 던지는 게 안전하다.
-   - 맞은 뒤 상대 루트: 패에 카드 상세 (Clown Crew Cappello)/크라운 클랜 『리허설』 (Clown Crew Rehearsal)/의식의 준비 (Preparation of Rites)가 있으면 다른 초동으로 재시작.
+   - 맞은 뒤 상대 루트: 패에 Clown Crew Cappello ⚠/크라운 클랜 『리허설』 (Clown Crew Rehearsal)/의식의 준비 (Preparation of Rites)가 있으면 다른 초동으로 재시작.
 3. 🔴 치명 **드롤 & 로크 버드** (Droll & Lock Bird) → **크라운 클랜 플레어** (Clown Crew Flair) — flair 1단계
    - 타이밍: 첫 서치(크라운 클랜 플레어 (Clown Crew Flair)·크라운 클랜 『피날레』 (Clown Crew Finale)·의식의 준비 (Preparation of Rites))가 처리된 직후, 크라운 클랜 『리허설』 (Clown Crew Rehearsal) 발동 전에
    - 이유: 크라운 클랜 『리허설』 (Clown Crew Rehearsal)의 2장 서치를 쓸 수 없게 된다. 드롤의 봉쇄는 드로우에도 적용되어 바이앙카비소 드로우와 마티네의 엔드 페이즈 드로우도 그 턴 실제로 드로우되지 않는다. 서치와 드로우가 함께 잠겨 효과가 크다.
    - 맞은 뒤 상대 루트: 패에 이미 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme)/크라운 클랜 화이트페이스 (Clown Crew Biancaviso)가 있으면 최소 필드(바이앙카비소 + 세트 1~2장)는 나온다.
-4. 🔴 치명 **하루 우라라** (Ash Blossom & Joyous Spring) → **카드 상세** (Clown Crew Cappello) — cappello 2단계
-   - 타이밍: 펜듈럼 존 카드 상세 (Clown Crew Cappello)의 P효과(덱에서 피날레 덤핑 + 자기 특소)에 체인
+4. 🔴 치명 **하루 우라라** (Ash Blossom & Joyous Spring) → **Clown Crew Cappello** ⚠ — cappello 2단계
+   - 타이밍: 펜듈럼 존 Clown Crew Cappello ⚠의 P효과(덱에서 피날레 덤핑 + 자기 특소)에 체인
    - 이유: 카펠로 1장 초동은 여기서 크라운 클랜 『피날레』 (Clown Crew Finale)가 묘지로 가야 플레어를 서치할 수 있다. 무효로 하면 그 뒤가 전부 없다.
    - 맞은 뒤 상대 루트: 카펠로는 P존에 남지만 1턴 1번이라 다시 못 쓴다. 다른 초동이 있으면 그쪽으로.
 5. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **크라운 클랜 『마티네』** (Clown Crew Matinee Operatics) — cappello 9단계
    - 타이밍: 앞면 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics)가 ①(덱·엑덱 특소)을 발동했을 때 체인
-   - 이유: 파괴라서 특소 자체는 처리되지만, 마티네가 없어지면 엔드 페이즈 대량 드로우(2~4장)와 마함 세트가 사라진다. 이 덱의 다음 턴 자원 대부분이 날아간다. 펜듈럼 존 카드 상세 (Clown Crew Cappello)의 P효과에 쓰면 카펠로가 파괴되어 자기 특소가 안 되므로 그쪽도 유효.
+   - 이유: 파괴라서 특소 자체는 처리되지만, 마티네가 없어지면 엔드 페이즈 대량 드로우(2~4장)와 마함 세트가 사라진다. 이 덱의 다음 턴 자원 대부분이 날아간다. 펜듈럼 존 Clown Crew Cappello ⚠의 P효과에 쓰면 카펠로가 파괴되어 자기 특소가 안 되므로 그쪽도 유효.
    - 맞은 뒤 상대 루트: 선공 견제(바이앙카비소, 세트 함정)는 그대로 남는다.
 6. 🟠 아픔 **싸이크론** (Mystical Space Typhoon) → **크라운 클랜 『마티네』** (Clown Crew Matinee Operatics) — cappello 8단계
    - 타이밍: 세트된 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics)를 발동했을 때 체인해 파괴(flair 8단계, rehearsal 7단계도 같다)
@@ -102,14 +102,14 @@
    - 이유: 이 몬스터들은 말라바리즘·마티네 제약 때문에 원래 필드에서 효과를 발동할 수 없다. 핵심 효과는 릴리스된 뒤 묘지에서 발동하므로 필드 무효는 아무 의미가 없다.
 16. ⛔ 비추 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **크라운 클랜 화이트페이스** (Clown Crew Biancaviso) — flair 5단계
    - 타이밍: 크라운 클랜 화이트페이스 (Clown Crew Biancaviso)의 어드밴스 소환 유발을 노리고 하르모니아를 쓰려는 것
-   - 이유: 선공 전개 중 필드에서 효과를 발동하는 몬스터는 바이앙카비소뿐인데, 그 유발 위에 릴리스된 몬스터들의 묘지 유발이 함께 쌓여 '직접 체인'해야 하는 하르모니아는 닿지 않는다. 펜듈럼 존의 카드 상세 (Clown Crew Cappello)는 몬스터가 아니다.
+   - 이유: 선공 전개 중 필드에서 효과를 발동하는 몬스터는 바이앙카비소뿐인데, 그 유발 위에 릴리스된 몬스터들의 묘지 유발이 함께 쌓여 '직접 체인'해야 하는 하르모니아는 닿지 않는다. 펜듈럼 존의 Clown Crew Cappello ⚠는 몬스터가 아니다.
 
 ## 핵심 카드
 
 | 카드 | 역할 |
 |---|---|
 | 크라운 클랜 플레어 (Clown Crew Flair) | 1장 초동. 패에서 공개해 의식 몬스터 이외의 크라운 클랜 카드 서치(주로 크라운 클랜 『리허설』 (Clown Crew Rehearsal)) 후 1장 버림. 의식의 준비 (Preparation of Rites)로도 서치된다. |
-| 카드 상세 (Clown Crew Cappello) | 1장 초동(펜듈럼). P효과로 덱에서 크라운 클랜 『피날레』 (Clown Crew Finale)를 묘지로 보내고 자신을 특소. 릴리스되면 덱·엑덱에서 비펜듈럼 크라운 클랜 특소. |
+| Clown Crew Cappello ⚠ | 1장 초동(펜듈럼). P효과로 덱에서 크라운 클랜 『피날레』 (Clown Crew Finale)를 묘지로 보내고 자신을 특소. 릴리스되면 덱·엑덱에서 비펜듈럼 크라운 클랜 특소. |
 | 크라운 클랜 『리허설』 (Clown Crew Rehearsal) | 몬스터 1장 릴리스 코스트로 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) + 크라운 클랜 마함 1장 동시 서치. 묘지에서 제외하면 크라운 클랜 의식 소환. |
 | 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme) | 속공. 덱·엑덱에서 크라운 클랜 2장 소환 조건 무시 특소(대신 다음 턴 종료까지 덱·엑덱에서 특소된 몬스터 효과 발동 불가). |
 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) | 메인 에이스. 어드밴스 소환 시 릴리스 수만큼 드로우 또는 상대 앞면 카드 효과 무효. 상대 메인 페이즈에 퀵으로 어드밴스 소환 1회. |
@@ -119,16 +119,16 @@
 
 ## 전개: 카펠로 1장 초동 (`cappello`)
 
-초동 패: **카드 상세** (Clown Crew Cappello)
+초동 패: **Clown Crew Cappello** ⚠
 
 일반 소환권은 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) 어드밴스 소환에 쓴다. 덱에 크라운 클랜 플레어 (Clown Crew Flair)가 2장 이상 필요(5에서 버리고 9에서 덱에서 꺼냄).
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
-| 1 | 카드 상세 (Clown Crew Cappello) | 펜듈럼 존에 발동 |  | 싸이크론 |
-| 2 | 카드 상세 (Clown Crew Cappello) | P효과: 덱에서 크라운 클랜 『피날레』 (Clown Crew Finale)를 묘지로 보내고 자신을 특소 | 카펠로 필드, 피날레 묘지. 다음 턴 종료까지 덱·엑덱에서 특소된 몬스터 효과 발동 불가 | 우라라, 유령토끼, 싸이크론 |
+| 1 | Clown Crew Cappello ⚠ | 펜듈럼 존에 발동 |  | 싸이크론 |
+| 2 | Clown Crew Cappello ⚠ | P효과: 덱에서 크라운 클랜 『피날레』 (Clown Crew Finale)를 묘지로 보내고 자신을 특소 | 카펠로 필드, 피날레 묘지. 다음 턴 종료까지 덱·엑덱에서 특소된 몬스터 효과 발동 불가 | 우라라, 유령토끼, 싸이크론 |
 | 3 | 크라운 클랜 『피날레』 (Clown Crew Finale) | 묘지의 자신을 제외하고 카펠로(펜듈럼)를 릴리스: 레벨이 다른 크라운 클랜 몬스터를 덱·묘지에서 서치 | 크라운 클랜 플레어 (Clown Crew Flair) 서치 | 우라라, 드롤, 와라시, 도미나스 퍼지, 마그나무트, 드루이드브룸 |
-| 4 | 카드 상세 (Clown Crew Cappello) | 릴리스된 유발 효과: 덱·엑덱에서 비펜듈럼 크라운 클랜 1장을 소환 조건 무시 특소(덱도 포함하는 효과라 우라라 대상) | 크라운 클랜 데블즈 (Clown Crew Fiends) 특소 | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 4 | Clown Crew Cappello ⚠ | 릴리스된 유발 효과: 덱·엑덱에서 비펜듈럼 크라운 클랜 1장을 소환 조건 무시 특소(덱도 포함하는 효과라 우라라 대상) | 크라운 클랜 데블즈 (Clown Crew Fiends) 특소 | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 | 5 | 크라운 클랜 플레어 (Clown Crew Flair) | 패에서 공개: 크라운 클랜 카드 서치 후 1장 버림 | 크라운 클랜 『리허설』 (Clown Crew Rehearsal) 서치, 플레어를 버림 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
 | 6 | 크라운 클랜 『리허설』 (Clown Crew Rehearsal) | 발동(코스트로 필드의 데빌즈 릴리스): 바이앙카비소 + 크라운 클랜 마함 서치 | 크라운 클랜 화이트페이스 (Clown Crew Biancaviso) + 크라운 클랜 『말라바리즘』 (Clown Crew Malabarisme) | 우라라, 드롤, 도미나스 퍼지, 싸이크론 |
 | 7 | 크라운 클랜 데블즈 (Clown Crew Fiends) | 릴리스된 유발 효과: 덱에서 크라운 클랜 마법 1장 세트 | 크라운 클랜 『마티네』 (Clown Crew Matinee Operatics) 세트 | 도미나스 스파크, 감마, 싸이크론 |

@@ -39,7 +39,7 @@
 | 비스테드 마그나무트 (Bystial Magnamhut) | ⛔ 비추 | 묘지의 M∀LICE 몬스터를 제외하면 상대가 이득(제외 시 특소·회수) |
 | 비스테드 드루이드브룸 (Bystial Druiswurm) | ⛔ 비추 | 묘지의 M∀LICE(전부 어둠)를 제외하면 '제외되면 특소·회수'가 나와 상대 이득. 묘지의 백업＠이그니스터 (Backup @Ignister) 등 비 M∀LICE만 제외할 수 있을 때 몸을 내는 정도 |
 
-## 혈자리 (우선순위 순)
+## 패트랩 타이밍 (우선순위 순)
 
 1. 🔴 치명 **무한포영** (Infinite Impermanence) → **M∀LICE&lt;P&gt;Dormouse** (Maliss P Dormouse) — dormouse 2단계
    - 타이밍: M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)의 '덱에서 M∀LICE 몬스터 제외' 효과 발동에 체인

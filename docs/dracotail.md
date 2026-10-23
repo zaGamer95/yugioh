@@ -39,7 +39,7 @@
 | 비스테드 마그나무트 (Bystial Magnamhut) | ⚪ 약함 | 묘지의 알비온을 엔드 페이즈 전에 제외하는 정도(낙인형). |
 | 싸이크론 (Mystical Space Typhoon) | ⚪ 약함 | 치울 마함은 세트된 드래곤테일 혼 (Dracotail Horn)·드래곤테일 플레임 (Dracotail Flame)(통상 함정) 정도의 1:1. 엔드 페이즈에 체인 대상이 없는 플레임을 노린다. 라후 드래곤테일 (Rahu Dracotail)은 세트되자마자 발동해 노릴 틈이 없다. |
 
-## 혈자리 (우선순위 순)
+## 패트랩 타이밍 (우선순위 순)
 
 1. 🔴 치명 **하루 우라라** (Ash Blossom & Joyous Spring) → **드래곤테일 루키아스** (Dracotail Lukias) — lukias 2단계
    - 타이밍: 드래곤테일 루키아스 (Dracotail Lukias) 일반 소환 후 서치 효과 발동에 체인
