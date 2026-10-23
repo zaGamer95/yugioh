@@ -540,5 +540,638 @@
     "https://www.masterduelmeta.com/top-decks/master-i/october-2026/artmage/the-mad-walrus/JYcuf/ (Master Duel Meta: 2026년 10월 Artmage 덱 리스트)",
     "https://www.masterduelmeta.com/api/v1/cards (Master Duel Meta 카드 API: 카드 텍스트·출시일·제한 상태)",
     "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=21423&request_locale=ko (공식 카드 DB: 한국어 테마명 확인)"
-  ]
+  ],
+  "going_second": {
+    "summary_ko": "풀 전개는 천사·드래곤·마법사·전사 4종족으로, [[Artmage Diactorus]]의 필드 발동 무효+파괴와 [[Artmage Finmel]]의 전체 몬스터 무효가 핵심 무효 2개이고, [[Artmage Graflare]]가 퀵 마함 파괴, [[Artmage Litera]]가 내 메인 페이즈에 [[Artmage Power Patron]]를 불러 [[Nerva the Power Patron of Creation]]의 전체 파괴까지 이어진다. 디아크토러스는 패에서 발동하는 마법·함정도 막으므로 마법 돌파는 미끼를 먼저 써야 하고, [[Dark Ruler No More]]·[[Super Polymerization]]·[[Forbidden Droplet]]처럼 체인을 막는 카드가 특히 강하다. 디아크토러스·핀멜·그라플레어는 '종족 3종류 이상'이 조건이라 2종족을 지우면 꺼지지만, 리테라→네르바 루트는 종족 조건이 없으니 리테라도 함께 처리해야 한다. 디아크토러스는 파괴되면 메디우스로 재전개하므로 릴리스·바운스·융합 소재로 치운다.",
+    "difficulty": "hard",
+    "boards": [
+      {
+        "id": "full",
+        "title_ko": "풀 전개 (메디우스 + 마함 1장)",
+        "line": "main",
+        "interruptions": [
+          {
+            "id": "diactorus",
+            "card": "Artmage Diactorus",
+            "kind": "quick_negate",
+            "zone": "monster",
+            "timing_ko": "종족 3종류 이상일 때, 내가 필드에서 카드·효과를 발동하면 1회 무효+파괴 (퀵). 패에서 발동하는 마법·함정도 필드에서 발동하는 것이라 대상이 된다. 패·묘지에서 발동하는 몬스터 효과에는 반응 불가",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "몬스터 효과로 체인 불가라 디아크토러스가 막을 수 없다. 무효된 채로 파괴하면 묘지에서 유발하는 메디우스 특소는 나가므로 파괴 말고 전투·다른 수단으로"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "체인 불가. 아르토메기아 몬스터는 전부 빛 속성이라 디아크토러스+다른 아르토메기아 몬스터로 [[Mudragon of the Swamp]] 융합이 가능. 융합 소재는 파괴가 아니라 메디우스 특소도 없다"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터 1장을 코스트로 보내면 디아크토러스·핀멜이 체인할 수 없다. 대상 지정이 아니라 핀멜의 대상 내성도 무관"
+              },
+              {
+                "id": "ultimate_slayer",
+                "note_ko": "몬스터 효과로 체인 불가. 디아크토러스는 레벨 8 융합이라 핀멜의 대상 내성(레벨 6 이하) 밖. 덱으로 되돌려 메디우스 특소도 없음. 내 엑스트라에 융합이 있어야 함"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "소환 절차라 무효 대상이 아님. 릴리스라 메디우스 특소도 없다. 다만 넘겨준 괴수의 종족이 상대 필드 종족 수에 더해지는 점 주의"
+              },
+              {
+                "id": "kurikara",
+                "note_ko": "디아크토러스가 무효를 쓴 뒤 다른 효과를 쓴 몬스터와 함께 릴리스. 소환 절차라 막히지 않음"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "디아크토러스의 무효 발동에 패에서 체인해 무효+파괴(패에서 발동이라 디아크토러스가 막을 수 없음). 파괴되므로 메디우스 특소는 나감. 내 필드에 몬스터가 없어야 함"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "패에서 써도 필드에서 발동하는 함정이라 디아크토러스에 무효된다. 사실상 디아크토러스 무효를 소모시키는 미끼"
+              }
+            ],
+            "bait_ko": "통하면 좋은 마법(라이트닝 스톰·태풍·코즈믹 등)이나 포영을 먼저 발동해 무효를 받아낸 뒤 진짜 돌파 카드를 쓴다. 패에서 발동하는 몬스터 효과는 아예 반응하지 못한다"
+          },
+          {
+            "id": "finmel",
+            "card": "Artmage Finmel",
+            "kind": "quick_negate",
+            "zone": "monster",
+            "timing_ko": "메인 페이즈 퀵, 종족 3종류 이상일 때 내 앞면 몬스터 효과 전부 무효+공격력 반감 (1턴 1회). 발동 무효가 아니라 그 시점에 필드에 있는 몬스터만 멈춤. 레벨 6 이하 아르토메기아는 대상 지정 불가",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "체인 불가로 무효"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터를 코스트로 보내면 체인 불가. 대상 지정이 아니라 핀멜의 대상 내성 무시"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "디아크토러스 무효가 소모된 뒤라면 메인 페이즈 시작 시 미리 무효. 내 필드에 몬스터가 없으면 핀멜은 체인해도 무효할 대상이 없다. 핀멜 자신은 레벨 7이라 대상으로 잡을 수 있다"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "체인 불가. 핀멜(빛)+다른 아르토메기아(빛)로 [[Mudragon of the Swamp]]"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "대상 지정이 아니라 핀멜의 대상 내성 무시"
+              },
+              {
+                "id": "lightning_storm",
+                "note_ko": "디아크토러스 무효가 소모된 뒤에. 핀멜은 공격 표시가 보통"
+              },
+              {
+                "id": "raigeki",
+                "note_ko": "디아크토러스 무효가 소모된 뒤에"
+              },
+              {
+                "id": "book_eclipse",
+                "note_ko": "디아크토러스 무효가 소모된 뒤에. 뒷면이 되면 효과를 못 쓰고 종족 수도 사라진다"
+              }
+            ],
+            "bait_ko": "핀멜은 '지금 필드에 있는' 내 몬스터만 무효한다. 효과를 쓸 몬스터를 낸 직후가 아니라, 먼저 덜 중요한 몬스터를 내 핀멜을 쓰게 한 뒤 핵심 몬스터를 낸다. 종족 3종류 조건이 깨지면 발동 자체가 안 된다"
+          },
+          {
+            "id": "graflare",
+            "card": "Artmage Graflare",
+            "kind": "removal",
+            "zone": "monster",
+            "timing_ko": "마법·함정 1장 대상 파괴 (1턴 1회). 종족 3종류 이상이면 퀵이 되어 내 턴에 세트 카드·지속 마함을 친다",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "체인 불가로 무효"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터를 코스트로 보내면 체인 불가"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "디아크토러스 무효가 소모된 뒤 미리 무효. 레벨 5라 핀멜이 있으면 대상 불가"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "그라플레어(빛·드래곤족)+다른 아르토메기아로 [[Mudragon of the Swamp]]"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "대상 지정 없이 릴리스"
+              }
+            ],
+            "bait_ko": "종족 수를 2종류 이하로 줄이면 퀵이 아니게 되어 내 턴에는 쓸 수 없다. 그라플레어를 직접 지우기보다 다른 종족을 줄이는 편이 효율적인 경우가 많다"
+          },
+          {
+            "id": "litera_nerva",
+            "card": "Artmage Litera",
+            "kind": "recursion",
+            "zone": "monster",
+            "timing_ko": "내 메인 페이즈 퀵으로 묘지의 [[Artmage Power Patron]]를 특소하고 자신은 패로 → [[Artmage Power Patron]]의 퀵 융합으로 [[Nerva the Power Patron of Creation]](아르토메기아 3장) 융합. 종족 조건이 없어 종족 수를 줄여도 남는 루트",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "체인 불가로 리테라 무효. 묘지의 [[Artmage Power Patron]]는 나오지 못한다"
+              },
+              {
+                "id": "belle",
+                "note_ko": "리테라의 '묘지에서 특소'를 포함한 효과에 체인해 무효. 패에서 발동이라 디아크토러스가 막지 못함"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "리테라 효과 발동을 무효+파괴. 내 필드에 몬스터가 없어야 함"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터를 코스트로 보내면 체인 불가로 무효"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "리테라(빛·마법사족)+디아크토러스로 [[Mudragon of the Swamp]]를 만들면 네르바 루트와 디아크토러스를 동시에 지운다"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "디아크토러스 무효가 소모된 뒤에. 리테라는 레벨 3이라 핀멜이 있으면 대상 불가. 리테라는 퀵이라 체인해서 발동할 수 있음"
+              },
+              {
+                "id": "ash",
+                "note_ko": "리테라 자체는 막지 못하지만, 네르바 융합 소재로 묘지에 간 [[Artmage Power Patron]]의 마함 서치에는 체인 가능"
+              },
+              {
+                "id": "ogre",
+                "note_ko": "리테라 효과 발동 시 파괴하지만 [[Artmage Power Patron]] 특소는 처리된다. 효과 적음"
+              }
+            ],
+            "bait_ko": "리테라 효과는 '상대 메인 페이즈' 퀵이라 내 배틀 페이즈에는 못 쓴다. 메인 페이즈 1에서 리테라를 먼저 처리하지 못했다면 [[Nerva the Power Patron of Creation]]가 나올 것을 전제로 카드를 아낀다"
+          },
+          {
+            "id": "nerva",
+            "card": "Nerva the Power Patron of Creation",
+            "kind": "removal",
+            "zone": "monster",
+            "timing_ko": "융합되어 나오면, 이후 상대가 아르토메기아 몬스터 효과를 발동할 때 그 효과를 '상대 카드 전부 파괴'로 바꿈 (1턴 1회, 퀵). 필드 마법이 있으면 효과 파괴 내성",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "네르바가 나온 뒤 쓰면 무효. 먼저 리테라를 막는 편이 확실"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터를 코스트로 보내면 체인 불가로 무효"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "파괴 내성을 무시하고 릴리스"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "체인 불가. 네르바(땅)에 맞는 융합이 있어야 해서 어렵다"
+              },
+              {
+                "id": "cosmic",
+                "note_ko": "필드 마법 [[Artmage Academic Arcane Arts Acropolis]]를 제거하면 파괴 내성이 사라진다. 디아크토러스 무효 주의"
+              },
+              {
+                "id": "mst",
+                "note_ko": "코즈믹과 같은 용도. [[Artmage Vandalism -Assault-]]가 있으면 대신 묘지로 보내 지킨다"
+              }
+            ],
+            "bait_ko": "네르바의 전체 파괴는 아르토메기아 몬스터 효과 발동에 겹쳐야 하므로, 네르바가 선 뒤에는 상대가 쓸 아르토메기아 효과가 남아 있는지 본다. 내 전개를 끝내기 전에 네르바가 남아 있으면 필드를 다 잃을 수 있다"
+          },
+          {
+            "id": "diactorus_float",
+            "card": "Artmage Diactorus",
+            "kind": "recursion",
+            "zone": "gy",
+            "timing_ko": "융합 소환된 디아크토러스가 파괴되면(전투 포함) 패·덱·제외 상태의 [[Medius the Pure]] 특소 → 메디우스 소환 유발로 [[Artmage Power Patron]] 특소 → 메인 페이즈 퀵 융합으로 재전개",
+            "answered_by": [
+              {
+                "id": "ash",
+                "note_ko": "특소된 메디우스의 덱 특소·서치 유발에 체인해 무효"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "특소된 메디우스의 유발에 체인. 패에서 쓰려면 내 필드가 비어 있어야 함"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "메디우스 유발에 체인해 무효+파괴. 내 필드에 몬스터가 없어야 함"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "융합 소재로 보내면 파괴가 아니라 메디우스가 나오지 않는다"
+              },
+              {
+                "id": "ultimate_slayer",
+                "note_ko": "덱으로 되돌려 메디우스가 나오지 않는다"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "릴리스라 메디우스가 나오지 않는다"
+              }
+            ],
+            "bait_ko": "디아크토러스는 파괴보다 릴리스·덱 바운스·융합 소재로 치우는 것이 좋다"
+          }
+        ]
+      },
+      {
+        "id": "full_nervedo",
+        "title_ko": "풀 전개 (네르베도 경유: 논피니토 + 임파스토)",
+        "line": "nervedo",
+        "interruptions": [
+          {
+            "id": "diactorus_nv",
+            "card": "Artmage Diactorus",
+            "kind": "quick_negate",
+            "zone": "monster",
+            "timing_ko": "종족 3종류 이상일 때, 내가 필드에서 카드·효과를 발동하면 1회 무효+파괴 (퀵). 패에서 발동하는 마법·함정도 필드에서 발동하는 것이라 대상이 된다. 패·묘지에서 발동하는 몬스터 효과에는 반응 불가",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "몬스터 효과로 체인 불가라 디아크토러스가 막을 수 없다. 무효된 채로 파괴하면 묘지에서 유발하는 메디우스 특소는 나가므로 파괴 말고 전투·다른 수단으로"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "체인 불가. 아르토메기아 몬스터는 전부 빛 속성이라 디아크토러스+다른 아르토메기아 몬스터로 [[Mudragon of the Swamp]] 융합이 가능. 융합 소재는 파괴가 아니라 메디우스 특소도 없다"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터 1장을 코스트로 보내면 디아크토러스·핀멜이 체인할 수 없다. 대상 지정이 아니라 핀멜의 대상 내성도 무관"
+              },
+              {
+                "id": "ultimate_slayer",
+                "note_ko": "몬스터 효과로 체인 불가. 디아크토러스는 레벨 8 융합이라 핀멜의 대상 내성(레벨 6 이하) 밖. 덱으로 되돌려 메디우스 특소도 없음. 내 엑스트라에 융합이 있어야 함"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "소환 절차라 무효 대상이 아님. 릴리스라 메디우스 특소도 없다. 다만 넘겨준 괴수의 종족이 상대 필드 종족 수에 더해지는 점 주의"
+              },
+              {
+                "id": "kurikara",
+                "note_ko": "디아크토러스가 무효를 쓴 뒤 다른 효과를 쓴 몬스터와 함께 릴리스. 소환 절차라 막히지 않음"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "디아크토러스의 무효 발동에 패에서 체인해 무효+파괴(패에서 발동이라 디아크토러스가 막을 수 없음). 파괴되므로 메디우스 특소는 나감. 내 필드에 몬스터가 없어야 함"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "패에서 써도 필드에서 발동하는 함정이라 디아크토러스에 무효된다. 사실상 디아크토러스 무효를 소모시키는 미끼"
+              }
+            ],
+            "bait_ko": "통하면 좋은 마법(라이트닝 스톰·태풍·코즈믹 등)이나 포영을 먼저 발동해 무효를 받아낸 뒤 진짜 돌파 카드를 쓴다. 패에서 발동하는 몬스터 효과는 아예 반응하지 못한다"
+          },
+          {
+            "id": "finmel_nv",
+            "card": "Artmage Finmel",
+            "kind": "quick_negate",
+            "zone": "monster",
+            "timing_ko": "메인 페이즈 퀵, 종족 3종류 이상일 때 내 앞면 몬스터 효과 전부 무효+공격력 반감 (1턴 1회). 발동 무효가 아니라 그 시점에 필드에 있는 몬스터만 멈춤. 레벨 6 이하 아르토메기아는 대상 지정 불가",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "체인 불가로 무효"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터를 코스트로 보내면 체인 불가. 대상 지정이 아니라 핀멜의 대상 내성 무시"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "디아크토러스 무효가 소모된 뒤라면 메인 페이즈 시작 시 미리 무효. 내 필드에 몬스터가 없으면 핀멜은 체인해도 무효할 대상이 없다. 핀멜 자신은 레벨 7이라 대상으로 잡을 수 있다"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "체인 불가. 핀멜(빛)+다른 아르토메기아(빛)로 [[Mudragon of the Swamp]]"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "대상 지정이 아니라 핀멜의 대상 내성 무시"
+              },
+              {
+                "id": "lightning_storm",
+                "note_ko": "디아크토러스 무효가 소모된 뒤에. 핀멜은 공격 표시가 보통"
+              },
+              {
+                "id": "raigeki",
+                "note_ko": "디아크토러스 무효가 소모된 뒤에"
+              },
+              {
+                "id": "book_eclipse",
+                "note_ko": "디아크토러스 무효가 소모된 뒤에. 뒷면이 되면 효과를 못 쓰고 종족 수도 사라진다"
+              }
+            ],
+            "bait_ko": "핀멜은 '지금 필드에 있는' 내 몬스터만 무효한다. 효과를 쓸 몬스터를 낸 직후가 아니라, 먼저 덜 중요한 몬스터를 내 핀멜을 쓰게 한 뒤 핵심 몬스터를 낸다. 종족 3종류 조건이 깨지면 발동 자체가 안 된다"
+          },
+          {
+            "id": "graflare_nv",
+            "card": "Artmage Graflare",
+            "kind": "removal",
+            "zone": "monster",
+            "timing_ko": "마법·함정 1장 대상 파괴 (1턴 1회). 종족 3종류 이상이면 퀵이 되어 내 턴에 세트 카드·지속 마함을 친다",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "체인 불가로 무효"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터를 코스트로 보내면 체인 불가"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "디아크토러스 무효가 소모된 뒤 미리 무효. 레벨 5라 핀멜이 있으면 대상 불가"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "그라플레어(빛·드래곤족)+다른 아르토메기아로 [[Mudragon of the Swamp]]"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "대상 지정 없이 릴리스"
+              }
+            ],
+            "bait_ko": "종족 수를 2종류 이하로 줄이면 퀵이 아니게 되어 내 턴에는 쓸 수 없다. 그라플레어를 직접 지우기보다 다른 종족을 줄이는 편이 효율적인 경우가 많다"
+          },
+          {
+            "id": "non_finito",
+            "card": "Artmage Non-Finito",
+            "kind": "other",
+            "zone": "monster",
+            "timing_ko": "상대 턴 1회 퀵으로 자기 필드 몬스터를 소재로 융합 소환(2번째 디아크토러스나 [[Nerva the Power Patron of Creation]]). 내 처리 효과에 체인해 소재를 피신시키는 용도로도 쓰임",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "체인 불가로 무효"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터를 코스트로 보내면 체인 불가"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "디아크토러스 무효가 소모된 뒤 미리 무효. 논피니토는 퀵이라 체인해서 융합할 수 있다"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "논피니토(땅)에 맞는 융합이 필요. 디아크토러스·리테라 쪽을 노리는 편이 쉽다"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "릴리스로 처리"
+              }
+            ],
+            "bait_ko": ""
+          },
+          {
+            "id": "impasto",
+            "card": "Artmage Impasto -Recapture-",
+            "kind": "trigger_negate",
+            "zone": "st",
+            "timing_ko": "카운터 함정. 내가 몬스터 효과를 발동하면 상대 융합 몬스터 1장을 엔드 페이즈까지 제외하고 발동 무효+파괴, 종족 3종류 이상이면 내 마함 전부 패로. 몬스터 효과에만 반응",
+            "answered_by": [
+              {
+                "id": "harpie",
+                "note_ko": "임파스토는 몬스터 효과에만 반응해 깃털에 체인할 수 없다. 디아크토러스 무효를 먼저 소모시킨 뒤에"
+              },
+              {
+                "id": "heavy_storm",
+                "note_ko": "깃털과 같음. 내 마함도 파괴"
+              },
+              {
+                "id": "cosmic",
+                "note_ko": "임파스토가 체인 불가. 디아크토러스 무효 주의"
+              },
+              {
+                "id": "mst",
+                "note_ko": "코즈믹과 같음"
+              },
+              {
+                "id": "lightning_storm",
+                "note_ko": "마함 모드로 임파스토와 필드 마법을 함께. 디아크토러스 무효 주의"
+              },
+              {
+                "id": "dark_ruler",
+                "note_ko": "명왕결계파 자체는 막히지 않지만 임파스토는 남는다. 이후 몬스터 효과는 마법·함정 위주로"
+              }
+            ],
+            "bait_ko": "덜 중요한 몬스터 효과를 먼저 발동해 임파스토를 받아낸다. 임파스토가 융합 몬스터를 제외하면 그 턴 종족 수가 줄어 디아크토러스·핀멜 조건이 꺼질 수도 있다"
+          },
+          {
+            "id": "diactorus_float_nv",
+            "card": "Artmage Diactorus",
+            "kind": "recursion",
+            "zone": "gy",
+            "timing_ko": "융합 소환된 디아크토러스가 파괴되면(전투 포함) 패·덱·제외 상태의 [[Medius the Pure]] 특소 → 메디우스 소환 유발로 [[Artmage Power Patron]] 특소 → 메인 페이즈 퀵 융합으로 재전개",
+            "answered_by": [
+              {
+                "id": "ash",
+                "note_ko": "특소된 메디우스의 덱 특소·서치 유발에 체인해 무효"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "특소된 메디우스의 유발에 체인. 패에서 쓰려면 내 필드가 비어 있어야 함"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "메디우스 유발에 체인해 무효+파괴. 내 필드에 몬스터가 없어야 함"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "융합 소재로 보내면 파괴가 아니라 메디우스가 나오지 않는다"
+              },
+              {
+                "id": "ultimate_slayer",
+                "note_ko": "덱으로 되돌려 메디우스가 나오지 않는다"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "릴리스라 메디우스가 나오지 않는다"
+              }
+            ],
+            "bait_ko": "디아크토러스는 파괴보다 릴리스·덱 바운스·융합 소재로 치우는 것이 좋다"
+          }
+        ]
+      },
+      {
+        "id": "after_ash_medius",
+        "title_ko": "메디우스의 감옥신 특소에 우라라를 맞은 경우 (메디우스 1장 패)",
+        "after": {
+          "handtrap": "ash",
+          "line": "main",
+          "step": 2
+        },
+        "interruptions": []
+      },
+      {
+        "id": "after_droll",
+        "title_ko": "첫 서치 직후 드롤을 맞은 경우 (디아크토러스 + 필드 마법)",
+        "after": {
+          "handtrap": "droll",
+          "line": "main",
+          "step": 4
+        },
+        "interruptions": [
+          {
+            "id": "diactorus_float_droll",
+            "card": "Artmage Diactorus",
+            "kind": "recursion",
+            "zone": "gy",
+            "timing_ko": "종족이 1~2종류라 디아크토러스의 무효는 꺼져 있다. 남는 것은 파괴 시 [[Medius the Pure]] 특소 → [[Artmage Power Patron]] → 퀵 융합 재전개뿐",
+            "answered_by": [
+              {
+                "id": "ash",
+                "note_ko": "특소된 메디우스의 덱 특소·서치 유발에 체인해 무효"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "특소된 메디우스의 유발에 체인. 패에서 쓰려면 내 필드가 비어 있어야 함"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "메디우스 유발에 체인해 무효+파괴. 내 필드에 몬스터가 없어야 함"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "융합 소재로 보내면 파괴가 아니라 메디우스가 나오지 않는다"
+              },
+              {
+                "id": "ultimate_slayer",
+                "note_ko": "덱으로 되돌려 메디우스가 나오지 않는다"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "릴리스라 메디우스가 나오지 않는다"
+              }
+            ],
+            "bait_ko": "디아크토러스는 파괴보다 릴리스·덱 바운스·융합 소재로 치우는 것이 좋다"
+          }
+        ]
+      }
+    ],
+    "breakers": {
+      "lightning_storm": {
+        "rating": "weak",
+        "note_ko": "디아크토러스에 무효된다. 무효를 소모시킨 뒤라면 공격 표시 몬스터 전부 파괴로 강하지만, 리테라는 수비 표시인 경우가 많고 디아크토러스 파괴 시 메디우스가 나온다. 미끼로 먼저 쓰는 용도"
+      },
+      "evenly_matched": {
+        "rating": "ok",
+        "note_ko": "제외라 디아크토러스의 메디우스 특소가 없지만 패에서 발동해도 디아크토러스에 무효된다. 무효를 소모시킨 뒤 배틀 페이즈 종료 시에"
+      },
+      "dark_ruler": {
+        "rating": "critical",
+        "note_ko": "몬스터 효과로 체인 불가라 디아크토러스·핀멜·그라플레어·리테라를 한 번에 무효. 리테라가 멈춰 네르바도 안 나온다. 이후 디아크토러스를 파괴하면 메디우스가 나오므로 전투로 칠 때는 주의"
+      },
+      "harpie": {
+        "rating": "weak",
+        "note_ko": "필드 마법 정도만 맞는다(네르베도 라인은 임파스토도). 디아크토러스에 무효되므로 미끼용"
+      },
+      "heavy_storm": {
+        "rating": "weak",
+        "note_ko": "깃털과 같고 내 마함도 파괴. 제한 1"
+      },
+      "raigeki": {
+        "rating": "ok",
+        "note_ko": "디아크토러스에 무효된다. 무효 소모 후라면 전부 파괴지만 디아크토러스가 메디우스로 재전개하고, 네르바는 필드 마법이 있으면 파괴 내성"
+      },
+      "dark_hole": {
+        "rating": "weak",
+        "note_ko": "번개와 같은 문제에 내 몬스터도 파괴"
+      },
+      "kaiju": {
+        "rating": "strong",
+        "note_ko": "소환 절차라 디아크토러스가 막지 못하고, 대상 지정이 없어 핀멜 내성, 릴리스라 메디우스 특소·네르바 파괴 내성을 모두 무시. 다만 넘겨준 괴수가 상대 필드 종족 수를 1 늘린다"
+      },
+      "kaiju_slumber": {
+        "rating": "weak",
+        "note_ko": "디아크토러스에 무효되고, 통해도 디아크토러스 재전개가 남는다"
+      },
+      "cosmic": {
+        "rating": "weak",
+        "note_ko": "필드 마법이나 임파스토 제거용. 디아크토러스에 무효되므로 미끼로 쓰거나 무효 소모 후에"
+      },
+      "mst": {
+        "rating": "weak",
+        "note_ko": "코즈믹과 같음. [[Artmage Vandalism -Assault-]]가 있으면 필드 마법은 지켜진다"
+      },
+      "super_poly": {
+        "rating": "critical",
+        "note_ko": "체인 불가. 아르토메기아 몬스터는 모두 빛 속성이라 디아크토러스+리테라로 [[Mudragon of the Swamp]]를 만들면 무효 1개와 네르바 루트가 동시에 사라지고 종족도 2종류로 줄어 핀멜·그라플레어가 꺼진다. 융합 소재라 메디우스 특소도 없음. 제한 2"
+      },
+      "book_eclipse": {
+        "rating": "ok",
+        "note_ko": "디아크토러스에 무효된다. 무효 소모 후라면 전부 뒷면이 되어 효과·종족 수가 모두 꺼진다. 엔드 페이즈에 상대 드로우"
+      },
+      "kurikara": {
+        "rating": "strong",
+        "note_ko": "소환 절차라 디아크토러스가 막지 못한다. 디아크토러스·핀멜·그라플레어가 효과를 쓴 뒤라면 한꺼번에 릴리스"
+      },
+      "ultimate_slayer": {
+        "rating": "strong",
+        "note_ko": "몬스터 효과로 체인 불가. 레벨 8 융합 디아크토러스(또는 네르바·논피니토)를 덱으로 되돌려 메디우스 특소도 없다. 내 엑스트라에 융합이 필요하고, 남은 3종족 조건은 그대로"
+      },
+      "fallen_virtuous": {
+        "rating": "weak",
+        "note_ko": "속공 마법이라 디아크토러스에 무효된다. 무효 소모 후 리테라나 필드 마법 처리용"
+      },
+      "harmonia": {
+        "rating": "ok",
+        "note_ko": "패에서 공개하는 효과라 디아크토러스가 막지 못한다. 싱크로 덱 전용"
+      },
+      "imperm": {
+        "rating": "ok",
+        "note_ko": "패에서 써도 디아크토러스에 무효되므로 디아크토러스 무효를 소모시키는 미끼로 가장 무난. 무효 소모 후에는 리테라·핀멜 대상(레벨 6 이하라 핀멜이 있으면 대상 불가)"
+      },
+      "ogre": {
+        "rating": "weak",
+        "note_ko": "파괴만 하고 효과는 처리된다. 디아크토러스를 파괴하면 메디우스가 나옴"
+      },
+      "gamma": {
+        "rating": "strong",
+        "note_ko": "패에서 발동이라 디아크토러스가 막지 못한다. 리테라의 특소 효과나 디아크토러스의 무효 발동에 체인해 무효. 내 필드에 몬스터가 없어야 함. 제한 1"
+      },
+      "belle": {
+        "rating": "strong",
+        "note_ko": "리테라의 묘지 특소 효과를 무효해 네르바 루트를 끊는다. 패에서 발동이라 디아크토러스가 막지 못함"
+      },
+      "droplet": {
+        "rating": "strong",
+        "note_ko": "몬스터를 코스트로 보내면 디아크토러스·핀멜이 체인 불가. 무효된 몬스터도 종족은 남으므로 디아크토러스+리테라처럼 2장 이상 보내야 효과가 크다"
+      },
+      "ttt": {
+        "rating": "ok",
+        "note_ko": "상대가 내 메인 페이즈에 디아크토러스·핀멜·리테라를 쓰면 발동 가능. 탈취 모드로 디아크토러스를 가져오면 종족이 줄고 무효를 내가 쓴다. 디아크토러스 무효가 남아 있으면 무효된다"
+      },
+      "spark": {
+        "rating": "weak",
+        "note_ko": "상대가 내 턴에 패·묘지 몬스터 효과를 써야 발동 조건이 생긴다(메디우스 재전개 정도)"
+      },
+      "crossout": {
+        "rating": "bad",
+        "note_ko": "내 메인 덱에 [[Medius the Pure]]가 있을 때만 메디우스를 선언해 재전개를 막는 정도"
+      },
+      "veiler": {
+        "rating": "bad",
+        "note_ko": "상대 메인 페이즈에만 발동 가능해 내 턴 돌파에 못 씀"
+      },
+      "ash": {
+        "rating": "weak",
+        "note_ko": "디아크토러스 재전개 때 메디우스의 유발이나 [[Artmage Power Patron]]의 서치를 끊는 정도"
+      },
+      "nibiru": {
+        "rating": "bad",
+        "note_ko": "상대가 내 턴에 5번 소환할 일이 없어 돌파용이 아님"
+      }
+    },
+    "sequencing_ko": [
+      "디아크토러스는 필드에서 발동하는 카드·효과를 1번 무효+파괴한다. 패에서 쓰는 마법·함정도 해당하므로 [[Infinite Impermanence]]나 덜 중요한 마법을 먼저 던져 무효를 받아낸다.",
+      "체인을 막는 카드([[Dark Ruler No More]]·[[Super Polymerization]]·[[Forbidden Droplet]]·[[Ultimate Slayer]])와 패에서 발동하는 몬스터 효과([[PSY-Framegear Gamma]]·[[Ghost Belle & Haunted Mansion]])는 디아크토러스 무효를 무시한다.",
+      "종족 수를 센다: 4종족에서 2종족을 지우면 디아크토러스·핀멜·그라플레어가 모두 꺼진다. 같은 종족 몬스터가 있으면 그쪽은 남겨도 된다.",
+      "[[Artmage Litera]]는 종족 조건 없이 내 메인 페이즈에 [[Artmage Power Patron]]를 불러 [[Nerva the Power Patron of Creation]]로 간다. 리테라를 남기면 내 아르토메기아 처리 도중 상대 필드 전체 파괴가 나올 수 있으니 우선 처리 대상.",
+      "디아크토러스는 파괴되면 [[Medius the Pure]]로 재전개한다. 릴리스([[Gameciel, the Sea Turtle Kaiju]]·[[Kurikara Divincarnate]]), 덱 바운스, 융합 소재로 치우거나 메디우스 유발에 우라라·포영을 남겨 둔다.",
+      "네르베도 라인이면 [[Artmage Impasto -Recapture-]]가 내 몬스터 효과를 1번 무효한다. 몬스터 효과를 쓰기 전에 마함 제거로 지우거나 덜 중요한 몬스터 효과로 받아낸다."
+    ]
+  }
 }
