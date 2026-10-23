@@ -52,11 +52,11 @@
  "lines": [
   {
    "id": "change",
-   "title_ko": "체인지 1장 초동 (둠즈 서치 경유)",
+   "title_ko": "체인저 1장 초동 (감옥신기 서치 경유)",
    "hand": [
     "DoomZ Change"
    ],
-   "note_ko": "통산 소환 10번. 니비루는 11(주프레도 특소, 5번째) 이후 가능. 레귤러스 무효가 서기(19) 전에 던지는 게 좋다.",
+   "note_ko": "통산 소환 10번. 니비루는 11(제그레도 특소, 5번째) 이후 가능. 레귤러스 무효가 서기(19) 전에 던지는 게 좋다.",
    "steps": [
     {
      "card": "DoomZ Change",
@@ -64,7 +64,7 @@
      "class": [
       "spell_trap_activation"
      ],
-     "result_ko": "둠즈 묘지"
+     "result_ko": "감옥신기 묘지"
     },
     {
      "card": "Power Patron DoomZ",
@@ -119,7 +119,7 @@
     },
     {
      "card": "DoomZ XIII Over - Graflareio",
-     "action_ko": "①: 소재(아드라스테이아) 1개 제거 → 둠즈 마함 서치",
+     "action_ko": "①: 소재(A.D.R.A.S.T.E.I.A.) 1개 제거 → 둠즈 마함 서치",
      "class": [
       "monster_effect_field",
       "search"
@@ -163,7 +163,7 @@
     },
     {
      "card": "DoomZ Command \"A.D.R.A.S.T.E.I.A.\"",
-     "action_ko": "묘지 효과: 주프레도에게 장착(레벨×100 데미지)",
+     "action_ko": "묘지 효과: 제그레도에게 장착(레벨×100 데미지)",
      "class": [
       "spell_trap_activation"
      ],
@@ -171,7 +171,7 @@
     },
     {
      "card": "DoomZ Command \"A.D.R.A.S.T.E.I.A.\"",
-     "action_ko": "②: 장착된 주프레도를 파괴 → 묘지의 둠즈 몬스터를 수비 특소",
+     "action_ko": "②: 장착된 제그레도를 파괴 → 묘지의 둠즈 몬스터를 수비 특소",
      "class": [
       "st_effect_field",
       "ss_from_gy"
@@ -222,7 +222,7 @@
     },
     {
      "card": "DoomZ XII Zero - Drastea",
-     "action_ko": "①: 레귤러스에 장착된 둠즈(둠즈 카드)를 파괴하고 패에서 특소, 덱에서 장착 마법 장착",
+     "action_ko": "①: 레귤러스에 장착된 [[Power Patron DoomZ]](둠즈 카드)를 파괴하고 패에서 특소, 덱에서 장착 마법 장착",
      "class": [
       "monster_effect_hand",
       "ss_from_hand"
@@ -244,7 +244,7 @@
     "DoomZ Raiders",
     "DoomZ Destruction"
    ],
-   "end_board_note_ko": "상대 턴: 레귤러스 무효(패·앞면 필드의 세리온 몬스터 카드 1장을 묘지로), 소재가 빠질 때마다 사르가스 파괴/바운스, 드라스테아 퀵 변신으로 [[DoomZ XII End - Drastrius]](DURG가 소재가 되면 대상 내성) → 필드·묘지 몬스터 효과 무효 + 장착, [[DoomZ Destruction]] 발동으로 서치 봉쇄. [[DoomZ Raiders]]는 효과로 파괴되면 앞면 몬스터 1장을 파괴한다."
+   "end_board_note_ko": "상대 턴: 레귤러스 무효(패·앞면 필드의 세리온 몬스터 카드 1장을 묘지로), 소재가 빠질 때마다 사르가스 파괴/바운스, 드라스티아 퀵 변신으로 [[DoomZ XII End - Drastrius]](DURG가 소재가 되면 대상 내성) → 필드·묘지 몬스터 효과 무효 + 장착, [[DoomZ Destruction]] 발동으로 서치 봉쇄. [[DoomZ Raiders]]는 효과로 파괴되면 앞면 몬스터 1장을 파괴한다."
   },
   {
    "id": "elara",
@@ -316,7 +316,7 @@
     },
     {
      "card": "DoomZ Command \"A.D.R.A.S.T.E.I.A.\"",
-     "action_ko": "묘지 효과: 둠즈에게 장착",
+     "action_ko": "묘지 효과: [[Power Patron DoomZ]]에게 장착",
      "class": [
       "spell_trap_activation"
      ],
@@ -324,7 +324,7 @@
     },
     {
      "card": "DoomZ Command \"A.D.R.A.S.T.E.I.A.\"",
-     "action_ko": "②: 장착된 둠즈를 파괴 → 묘지의 엘라라 수비 특소",
+     "action_ko": "②: 장착된 감옥신기를 파괴 → 묘지의 엘라라 수비 특소",
      "class": [
       "st_effect_field",
       "ss_from_gy"
@@ -350,7 +350,7 @@
     },
     {
      "card": "DoomZ Raiders",
-     "action_ko": "발동 후 ①: P존의 주프레도(둠즈 취급)를 파괴 → 덱에서 둠즈 몬스터 특소",
+     "action_ko": "발동 후 ①: P존의 제그레도(둠즈 취급)를 파괴 → 덱에서 둠즈 몬스터 특소",
      "class": [
       "spell_trap_activation",
       "st_effect_field",
@@ -395,7 +395,7 @@
     },
     {
      "card": "Therion \"King\" Regulus",
-     "action_ko": "묘지의 둠즈를 대상으로 패에서 특소하고 장착",
+     "action_ko": "묘지의 [[Power Patron DoomZ]]를 대상으로 패에서 특소하고 장착",
      "class": [
       "monster_effect_hand",
       "ss_from_hand"
@@ -404,7 +404,7 @@
     },
     {
      "card": "DoomZ XII Zero - Drastea",
-     "action_ko": "①: 장착된 둠즈를 파괴하고 패에서 특소, 장착 마법 장착",
+     "action_ko": "①: 장착된 감옥신기를 파괴하고 패에서 특소, 장착 마법 장착",
      "class": [
       "monster_effect_hand",
       "ss_from_hand"
@@ -413,7 +413,7 @@
     },
     {
      "card": "DoomZ Change",
-     "action_ko": "발동(덱의 [[DoomZ Destruction]] 파괴)에 드라스테아가 DURG로 얻은 퀵 효과를 체인해 체인지를 자괴 → 체인지 묘지 효과로 [[DoomZ Destruction]] 회수",
+     "action_ko": "발동(덱의 [[DoomZ Destruction]] 파괴)에 드라스티아가 DURG로 얻은 퀵 효과를 체인해 체인저를 자괴 → 체인저 묘지 효과로 [[DoomZ Destruction]] 회수",
      "class": [
       "spell_trap_activation",
       "gy_effect"
@@ -428,11 +428,11 @@
     "DoomZ Raiders",
     "DoomZ Destruction"
    ],
-   "end_board_note_ko": "체인지 루트와 거의 같은 필드. 마지막 단계는 소스 요약 기반이라 세부 순서가 다를 수 있다."
+   "end_board_note_ko": "체인저 루트와 거의 같은 필드. 마지막 단계는 소스 요약 기반이라 세부 순서가 다를 수 있다."
   },
   {
    "id": "amalthe",
-   "title_ko": "아말테 1장 초동 (드라스테아 경유)",
+   "title_ko": "아말테 1장 초동 (드라스티아 경유)",
    "hand": [
     "DoomZ V Five - Amalthe"
    ],
@@ -483,7 +483,7 @@
     },
     {
      "card": "DoomZ XIII Over - Graflareio",
-     "action_ko": "①: 소재(아드라스테이아) 제거 → 둠즈 마함 서치",
+     "action_ko": "①: 소재(A.D.R.A.S.T.E.I.A.) 제거 → 둠즈 마함 서치",
      "class": [
       "monster_effect_field",
       "search"
@@ -520,7 +520,7 @@
     },
     {
      "card": "DoomZ Command \"A.D.R.A.S.T.E.I.A.\"",
-     "action_ko": "묘지 효과로 둠즈에 장착 → ②로 둠즈 파괴, 묘지의 드라스테아 수비 특소",
+     "action_ko": "묘지 효과로 [[Power Patron DoomZ]]에 장착 → ②로 감옥신기 파괴, 묘지의 드라스티아 수비 특소",
      "class": [
       "st_effect_field",
       "ss_from_gy"
@@ -538,7 +538,7 @@
     },
     {
      "card": "DoomZ Command \"D.O.O.M.D.U.R.G.\"",
-     "action_ko": "발동해 드라스테아에게 장착",
+     "action_ko": "발동해 드라스티아에게 장착",
      "class": [
       "spell_trap_activation"
      ],
@@ -546,7 +546,7 @@
     },
     {
      "card": "DoomZ Change",
-     "action_ko": "발동(덱의 [[DoomZ Destruction]] 파괴)에 DURG 효과를 체인해 체인지 자괴 → 묘지 효과로 [[DoomZ Destruction]] 회수, 세트",
+     "action_ko": "발동(덱의 [[DoomZ Destruction]] 파괴)에 DURG 효과를 체인해 체인저 자괴 → 묘지 효과로 [[DoomZ Destruction]] 회수, 세트",
      "class": [
       "spell_trap_activation",
       "gy_effect"
@@ -561,7 +561,7 @@
     "DoomZ Raiders",
     "DoomZ Destruction"
    ],
-   "end_board_note_ko": "상대 턴에 드라스테아가 퀵으로 [[DoomZ XII End - Drastrius]]로 변신(DURG가 소재라 대상 내성)해 몬스터 효과를 무효로 한다. 여기에 [[DoomZ Destruction]] 서치 봉쇄와 레이더스 파괴 유발. 사르가스·레귤러스 루트보다 견제 수가 1~2개 적다."
+   "end_board_note_ko": "상대 턴에 드라스티아가 퀵으로 [[DoomZ XII End - Drastrius]]로 변신(DURG가 소재라 대상 내성)해 몬스터 효과를 무효로 한다. 여기에 [[DoomZ Destruction]] 서치 봉쇄와 레이더 파괴 유발. 사르가스·레귤러스 루트보다 견제 수가 1~2개 적다."
   }
  ],
  "chokepoints": [
@@ -572,7 +572,7 @@
    "step": 2,
    "target_card": "Power Patron DoomZ",
    "timing_ko": "[[DoomZ Change]]로 덱에서 파괴된 [[Power Patron DoomZ]]의 서치 효과에 체인",
-   "why_ko": "체인지 1장 초동은 이 서치가 유일한 연결이다. 체인지 ① 자체(덱의 카드 파괴)는 서치·덤핑이 아니라 우라라를 쓸 수 없으니, 그 다음 둠즈 유발을 기다렸다 던진다.",
+   "why_ko": "체인저 1장 초동은 이 서치가 유일한 연결이다. 체인저 ① 자체(덱의 카드 파괴)는 서치·덤핑이 아니라 우라라를 쓸 수 없으니, 그 다음 둠즈 유발을 기다렸다 던진다.",
    "fallback_ko": "패의 다른 하급 둠즈·[[Prohibited Power Patron Portal - Terminus]]로 재시작할 수 있다.",
    "rulings": [
     "qa-23996"
@@ -595,8 +595,8 @@
    "step": 6,
    "target_card": "DoomZ XIII Over - Graflareio",
    "timing_ko": "[[DoomZ XIII Over - Graflareio]]의 ①(소재 제거 → 마함 서치 + 파괴) 발동에 체인",
-   "why_ko": "[[DoomZ Raiders]]도 안 오고, 그라플레이오가 자신을 파괴하는 처리까지 같이 무효가 된다. 그래서 그라플레이오 파괴 유발(덱 특소)도 나오지 않는다. 엘라라·체인지 루트의 중간 허리를 통째로 끊는 지점.",
-   "fallback_ko": "필드에 그라플레이오 1장만 남고, 다른 패가 없으면 거의 끝. 레이더스 특소에 우라라를 아끼는 것보다 여기가 낫다."
+   "why_ko": "[[DoomZ Raiders]]도 안 오고, 그라플레이오가 자신을 파괴하는 처리까지 같이 무효가 된다. 그래서 그라플레이오 파괴 유발(덱 특소)도 나오지 않는다. 엘라라·체인저 루트의 중간 허리를 통째로 끊는 지점.",
+   "fallback_ko": "필드에 그라플레이오 1장만 남고, 다른 패가 없으면 거의 끝. 레이더 특소에 우라라를 아끼는 것보다 여기가 낫다."
   },
   {
    "handtrap": "ash",
@@ -607,6 +607,132 @@
    "timing_ko": "일반 소환된 [[DoomZ V Five - Amalthe]]의 서치 효과에 체인",
    "why_ko": "아말테 1장 초동은 [[DoomZ XII Zero - Drastea]]가 안 오면 아무것도 못 한다. 포영·뵐러·감마도 같은 지점에서 효과가 같다.",
    "fallback_ko": "패에 엘라라가 있으면 아말테와 엮어 랭크4 엑시즈 루트로 재시작."
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "critical",
+   "line": "elara",
+   "step": 2,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "일반 소환된 [[DoomZ VII Seven - Elara]]의 ①(덱에서 마함 세트) 발동에 체인. 선공 상대의 메인 페이즈라 뵐러를 쓸 수 있다",
+   "why_ko": "포영과 같은 지점. 앞면 엘라라의 효과가 무효가 되므로 체인에 올라간 세트 효과도 무효로 처리되고, 턴 종료까지 ②(장착 시 엑시즈 변신)도 쓸 수 없다. 뵐러는 발동에 바로 붙일 필요가 없어서, 상대가 엘라라 ① 위에 다른 효과를 쌓아도 체인 끝에 붙이면 된다.",
+   "fallback_ko": "패에 [[DoomZ Change]]나 다른 하급 둠즈가 있으면 다른 몸으로 재시작한다. 1장 초동이면 엘라라 1장으로 끝."
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "critical",
+   "line": "amalthe",
+   "step": 2,
+   "target_card": "DoomZ V Five - Amalthe",
+   "timing_ko": "일반 소환된 [[DoomZ V Five - Amalthe]]의 서치 효과 발동에 체인",
+   "why_ko": "아말테 1장 초동은 [[DoomZ XII Zero - Drastea]]를 못 가져오면 끝난다. 앞면 아말테의 효과가 무효가 되어 체인 위의 서치도 무효로 처리된다.",
+   "fallback_ko": "패에 엘라라가 있으면 아말테와 엮어 랭크4 엑시즈 루트로 재시작한다. 장착 카드를 단 드라스티아·엘라라에 뵐러를 쓰면 퀵 엑시즈 변신으로 피하니, 장착 전의 하급에 쓴다."
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "change",
+   "step": 2,
+   "target_card": "Power Patron DoomZ",
+   "timing_ko": "[[DoomZ Change]]로 덱에서 파괴된 [[Power Patron DoomZ]]가 묘지에서 서치 효과를 발동했을 때 바로 체인 (내 필드에 몬스터가 없을 때)",
+   "why_ko": "우라라와 같은 지점. 감마는 묘지에서 발동한 몬스터 효과도 무효로 한다. 감옥신기는 이미 묘지에 있어서 파괴는 일어나지 않고 발동만 무효가 되지만, 체인저 1장 초동은 이 서치가 유일한 연결이라 그것으로 충분하다.",
+   "fallback_ko": "패의 다른 하급 둠즈·[[Prohibited Power Patron Portal - Terminus]]로 재시작할 수 있다. 감마는 같은 체인에 1번뿐이다.",
+   "rulings": [
+    "qa-23949"
+   ]
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "elara",
+   "step": 2,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "일반 소환된 [[DoomZ VII Seven - Elara]]의 ①(덱에서 마함 세트) 발동에 바로 체인 (내 필드에 몬스터가 없을 때)",
+   "why_ko": "발동을 무효로 하고 엘라라를 파괴한다. 엘라라의 '소환되면 / 효과로 파괴되면'은 같은 ① 효과(1턴 1번)이고, 무효가 된 발동도 1번 쓴 것으로 세기 때문에 파괴되어도 다시 발동하지 않는다. 세트도 장착할 몸도 사라진다.",
+   "fallback_ko": "패에 [[DoomZ Change]]나 다른 하급 둠즈가 있으면 재시작. 1장 초동이면 끝."
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "amalthe",
+   "step": 2,
+   "target_card": "DoomZ V Five - Amalthe",
+   "timing_ko": "일반 소환된 [[DoomZ V Five - Amalthe]]의 서치 효과 발동에 바로 체인 (내 필드에 몬스터가 없을 때)",
+   "why_ko": "발동 무효 + 아말테 파괴. 아말테의 파괴 유발은 같은 ①이라 다시 나오지 않는다. 서치가 없고, 필드에 둠즈 카드도 없어서 패의 [[DoomZ XII Zero - Drastea]]도 나올 수 없다.",
+   "fallback_ko": "패에 엘라라·체인저 등 다른 둠즈 카드가 있으면 재시작."
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "change",
+   "step": 2,
+   "target_card": "Power Patron DoomZ",
+   "timing_ko": "[[DoomZ Change]]로 파괴된 [[Power Patron DoomZ]]의 서치 효과 발동에 체인 (상대 필드에 카드가 있으면 패에서 발동 가능)",
+   "why_ko": "우라라와 같은 지점. 체인저 1장 초동은 이 서치가 유일한 연결이다. 감옥신기는 묘지에 있으니 내 묘지에 함정이 있어도 파괴 처리는 의미가 없다. 패에서 쓰면 이 듀얼 동안 어둠·물·화염 몬스터 효과(우라라·푸루리아 등)를 쓸 수 없다.",
+   "fallback_ko": "패의 다른 하급 둠즈·[[Prohibited Power Patron Portal - Terminus]]로 재시작."
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "amalthe",
+   "step": 2,
+   "target_card": "DoomZ V Five - Amalthe",
+   "timing_ko": "일반 소환된 [[DoomZ V Five - Amalthe]]의 서치 효과 발동에 체인",
+   "why_ko": "[[DoomZ XII Zero - Drastea]]가 안 오면 아말테 1장 초동은 끝난다. 내 묘지에 함정이 있으면 아말테를 파괴하지만, 아말테의 파괴 유발은 같은 ①이라 다시 나오지 않는다.",
+   "fallback_ko": "패에 엘라라가 있으면 랭크4 엑시즈 루트로 재시작."
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "elara",
+   "step": 6,
+   "target_card": "DoomZ XIII Over - Graflareio",
+   "timing_ko": "[[DoomZ XIII Over - Graflareio]]의 ①(소재 제거 → 마함 서치 + 카드 1장 파괴) 발동에 체인",
+   "why_ko": "우라라와 같은 지점. 서치와 자괴가 함께 무효라 [[DoomZ Raiders]]도, 그라플레이오 파괴 유발(덱 특소)도 나오지 않는다. 단 내 묘지에 함정이 있으면 퍼지가 그라플레이오를 파괴해서 오히려 파괴 유발을 준다. 후공 1턴에는 보통 묘지에 함정이 없다.",
+   "fallback_ko": "그라플레이오 1장이 남는다. 체인저 루트에서는 8단계가 같은 지점이다."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "critical",
+   "line": "elara",
+   "step": 4,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "[[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]]를 장착한 엘라라의 ②(퀵 엑시즈 변신) 발동에 체인 (상대 필드에 카드가 있으면 패에서 발동 가능)",
+   "why_ko": "엑스트라 덱 특소 효과라 무효. 엘라라 ②는 1턴 1번이라 다시 못 쓰고, 둠즈 엑시즈가 없으니 그라플레이오도 겹쳐 낼 수 없다. 엘라라 ①은 이미 썼으므로 내 묘지에 함정이 있어 엘라라가 파괴되어도 유발은 없다. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과(감마·뵐러·후와로스·사요 시구레 등)를 쓸 수 없다.",
+   "fallback_ko": "장착된 엘라라는 남는다. 패에 [[DoomZ XII Zero - Drastea]]가 있으면 엘라라를 파괴하고 나와 드라스트리우스로 변신하는 짧은 루트가 남는다."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "critical",
+   "line": "change",
+   "step": 6,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "[[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]]를 장착한 엘라라의 ②(퀵 엑시즈 변신) 발동에 체인",
+   "why_ko": "엘라라 루트 4단계와 같다. 디아크트로스·그라플레이오·레이더로 이어지는 허리가 시작되지 않는다. 체인저 ①과 감옥신기 서치는 특소 효과가 아니라 임펄스를 쓸 수 없으니 여기까지 기다린다.",
+   "fallback_ko": "패에 [[DoomZ XII Zero - Drastea]]가 있으면 엘라라를 깔고 나오는 짧은 루트."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "critical",
+   "line": "amalthe",
+   "step": 3,
+   "target_card": "DoomZ XII Zero - Drastea",
+   "timing_ko": "[[DoomZ XII Zero - Drastea]]의 ①(아말테를 파괴하고 패에서 특소) 발동에 체인",
+   "why_ko": "효과가 무효가 되어 아말테는 파괴되지 않고 드라스티아는 패에 남는다. 드라스티아 ①은 1턴 1번이라 다시 못 쓴다. 아말테 서치(2단계)를 놓쳤을 때 아말테 루트를 끝내는 두 번째 지점이다.",
+   "fallback_ko": "필드에 아말테만 남는다. 패에 엘라라가 있으면 랭크4 엑시즈 루트."
+  },
+  {
+   "handtrap": "spark",
+   "severity": "critical",
+   "line": "amalthe",
+   "step": 3,
+   "target_card": "DoomZ V Five - Amalthe",
+   "timing_ko": "[[DoomZ XII Zero - Drastea]]의 ①(아말테를 대상으로 파괴, 패에서 특소) 발동에 체인해 아말테를 제외. 드라스티아 ①이 패에서 발동한 몬스터 효과라 바로 조건이 충족된다",
+   "why_ko": "대상이 사라져 드라스티아는 특소되지 않고 장착 마법도 오지 않는다. 아말테 ①은 이미 서치로 썼고, 제외라 파괴 유발도 없다. 패에서 쓰면 이 듀얼 동안 땅·물·화염·바람 몬스터 효과를 쓸 수 없다.",
+   "fallback_ko": "내 묘지에 함정이 없으면 상대는 스파크 처리로 패에서 1장(보통 드라스티아)을 특소할 수 있다. 장착 카드가 없고 ①도 이미 써서 변신하지 못한다. 패에 엘라라·체인저가 있으면 재시작.",
+   "rulings": [
+    "supp-21774"
+   ]
   },
   {
    "handtrap": "crown",
@@ -626,7 +752,7 @@
    "target_card": "DoomZ VII Seven - Elara",
    "timing_ko": "일반 소환된 [[DoomZ VII Seven - Elara]]의 ① 발동 시 하르모니아 공개 → 엘라라 파괴",
    "why_ko": "엘라라의 '소환되면 / 효과로 파괴되면'은 같은 ① 효과(1턴 1번)라, 이미 소환 유발로 쓴 지금 파괴하면 다시 발동할 수 없다. 세트는 처리되지만 장착·엑시즈 변신을 할 몸이 없다. 토끼와 같은 지점이고 하르모니아는 패에서 쓰므로 후공에도 가능.",
-   "fallback_ko": "세트된 [[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]]를 다른 몬스터에 써서 이어간다. 그라플레이오·둠즈·레이더스 등 다른 둠즈 카드를 파괴하면 유발을 주므로 하르모니아는 소환 유발을 쓴 하급에만 쓴다."
+   "fallback_ko": "세트된 [[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]]를 다른 몬스터에 써서 이어간다. 그라플레이오·감옥신기·레이더 등 다른 둠즈 카드를 파괴하면 유발을 주므로 하르모니아는 소환 유발을 쓴 하급에만 쓴다."
   },
   {
    "handtrap": "harmonia",
@@ -636,7 +762,7 @@
    "target_card": "DoomZ V Five - Amalthe",
    "timing_ko": "일반 소환된 [[DoomZ V Five - Amalthe]]의 서치 발동 시 하르모니아 공개 → 아말테 파괴",
    "why_ko": "아말테의 파괴 유발도 같은 효과라 다시 쓰지 못한다. 서치된 [[DoomZ XII Zero - Drastea]]는 '자신 필드의 둠즈 카드 1장을 파괴하고' 특소하는데, 필드에 둠즈 카드가 없어서 나오지 못한다.",
-   "fallback_ko": "패에 엘라라·체인지 등 다른 둠즈 카드가 있으면 그것을 깔고 드라스테아를 낸다."
+   "fallback_ko": "패에 엘라라·체인저 등 다른 둠즈 카드가 있으면 그것을 깔고 드라스티아를 낸다."
   },
   {
    "handtrap": "droll",
@@ -644,9 +770,9 @@
    "line": "change",
    "step": 2,
    "target_card": "Power Patron DoomZ",
-   "timing_ko": "첫 서치(둠즈 서치, 그라플레이오 서치, 아말테 서치) 처리 직후",
-   "why_ko": "이후 그라플레이오·아말테·주프레도·사르가스 서치가 모두 막힌다. 레이더스는 '서치 또는 특소'라서 특소로 우회하지만, 드라스테아·레귤러스를 못 가져와 필드가 엑시즈 1~2장 수준으로 줄어든다.",
-   "fallback_ko": "패에 드라스테아가 있거나, 세트 효과(엘라라)·특소 효과만으로 가는 짧은 루트."
+   "timing_ko": "첫 서치(감옥신기 서치, 그라플레이오 서치, 아말테 서치) 처리 직후",
+   "why_ko": "이후 그라플레이오·아말테·제그레도·사르가스 서치가 모두 막힌다. 레이더는 '서치 또는 특소'라서 특소로 우회하지만, 드라스티아·레귤러스를 못 가져와 필드가 엑시즈 1~2장 수준으로 줄어든다.",
+   "fallback_ko": "패에 드라스티아가 있거나, 세트 효과(엘라라)·특소 효과만으로 가는 짧은 루트."
   },
   {
    "handtrap": "maxxc",
@@ -654,7 +780,7 @@
    "line": "change",
    "step": 6,
    "target_card": "DoomZ VII Seven - Elara",
-   "timing_ko": "첫 특소 효과(엘라라 ② 엑시즈 변신 또는 레이더스 덱 특소) 발동에 체인",
+   "timing_ko": "첫 특소 효과(엘라라 ② 엑시즈 변신 또는 레이더 덱 특소) 발동에 체인",
    "why_ko": "풀 전개는 특소 9번 안팎이라 끝까지 가면 증G 드로우가 매우 많다. 멈추면 그라플레이오나 디아크트로스 1장 수준에서 턴을 넘긴다.",
    "fallback_ko": "엑시즈 1장 + 세트 마함으로 멈추는 경우가 많다."
   },
@@ -666,7 +792,7 @@
    "target_card": "Jupredo the Shademachine Power Patron",
    "timing_ko": "통산 5번째 소환 이후, [[Therion \"King\" Regulus]]·[[DoomZ XII End - Drastrius]] 무효가 서기 전",
    "why_ko": "니비루는 파괴가 아니라 릴리스라서 둠즈의 '효과로 파괴되었을 때' 유발이 하나도 발동하지 않는다. 장착 카드도 같이 떨어져 엑시즈 변신 루트가 끊긴다.",
-   "fallback_ko": "패에 남은 드라스테아·레귤러스 정도. 묘지 자원은 남으니 다음 턴 체인지 회수는 가능."
+   "fallback_ko": "패에 남은 드라스티아·레귤러스 정도. 묘지 자원은 남으니 다음 턴 체인저 회수는 가능."
   },
   {
    "handtrap": "ogre",
@@ -684,9 +810,65 @@
    "line": "change",
    "step": 15,
    "target_card": "DoomZ VII Seven - Elara",
-   "timing_ko": "[[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]] ②로 엘라라가 소생하고 주프레도의 '엑스트라 덱에 앞면으로 들어간' 서치가 발동했을 때 체인. 엘라라 + 아말테(둘 다 어둠 드래곤족, 이름이 다름)로 [[Garura, Wings of Resonant Life]]. elara 라인이면 13~14단계(아말테·주프레도 서치 체인)에 같은 방법",
+   "timing_ko": "[[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]] ②로 엘라라가 소생하고 제그레도의 '엑스트라 덱에 앞면으로 들어간' 서치가 발동했을 때 체인. 엘라라 + 아말테(둘 다 어둠 드래곤족, 이름이 다름)로 [[Garura, Wings of Resonant Life]]. elara 라인이면 13~14단계(아말테·제그레도 서치 체인)에 같은 방법",
    "why_ko": "소재는 묘지로 보내지는 것이라 '효과로 파괴되면' 유발이 하나도 나오지 않는다. [[Springans Merrymaker]] → [[Gigantic \"Champion\" Sargas]] → [[Therion \"King\" Regulus]] 가지가 통째로 사라진다. 체인 불가라 [[DoomZ XII End - Drastrius]]·레귤러스가 있어도 막지 못한다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).",
-   "fallback_ko": "패의 [[DoomZ XII Zero - Drastea]]는 필드의 둠즈 카드([[DoomZ Raiders]] 등)를 파괴하고 나올 수 있다. 레이더스를 파괴하면 레이더스의 유발로 내 융합 몬스터가 파괴될 수 있다."
+   "fallback_ko": "패의 [[DoomZ XII Zero - Drastea]]는 필드의 둠즈 카드([[DoomZ Raiders]] 등)를 파괴하고 나올 수 있다. 레이더를 파괴하면 레이더의 유발로 내 융합 몬스터가 파괴될 수 있다."
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "change",
+   "step": 4,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "[[Power Patron DoomZ]] 서치로 가져온 [[DoomZ VII Seven - Elara]]를 일반 소환하고 ①(마함 세트)을 발동했을 때 체인",
+   "why_ko": "체인저 루트에서 뵐러가 닿는 첫 몬스터다. 감옥신기의 서치(2단계)는 묘지에서 발동해서 뵐러로 막을 수 없다. 엘라라의 세트와 ② 엑시즈 변신이 막히면 그라플레이오·레이더 가지가 열리지 않는다.",
+   "fallback_ko": "엘라라는 필드에 남는다. 체인저는 일반 마법이라 효과로 파괴되지 않아 묘지 효과도 없다. 패에 다른 하급 둠즈나 감옥신 초동이 있어야 이어간다."
+  },
+  {
+   "handtrap": "fuwalos",
+   "severity": "strong",
+   "line": "change",
+   "step": 6,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "늦어도 [[DoomZ VII Seven - Elara]]의 ②(엑시즈 변신) 발동에 체인. 내 필드에 카드가 없으면 언제든 쓸 수 있으니 [[DoomZ Change]] 발동이나 감옥신기 서치에 체인해 미리 깔아 두어도 된다",
+   "why_ko": "체인저 루트는 덱·엑덱 특소가 6번이다(디아크트로스, 그라플레이오, 아말테, 제그레도, 메리메이커, 사르가스). 끝까지 가면 6장을 뽑고, 멈추면 엑시즈 1장 수준에서 턴을 넘긴다. 엔드 페이즈에 패가 (상대 필드 카드 수+6)장을 넘으면 넘는 만큼 덱으로 돌아가지만 상대 필드가 6장 안팎이라 거의 남는다.",
+   "fallback_ko": "증G와 같다. 멈추면 엑시즈 1장 + 세트 마함 정도가 남는다."
+  },
+  {
+   "handtrap": "fuwalos",
+   "severity": "strong",
+   "line": "elara",
+   "step": 4,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "늦어도 장착된 [[DoomZ VII Seven - Elara]]의 ②(엑시즈 변신) 발동에 체인. 엘라라 ①(2단계)에 체인해 일찍 깔아 두어도 된다",
+   "why_ko": "엘라라 루트도 덱·엑덱 특소가 6번이다(디아크트로스, 그라플레이오, 감옥신기, 아말테, 메리메이커, 사르가스).",
+   "fallback_ko": "멈추면 디아크트로스나 그라플레이오 1장 + 세트 마함."
+  },
+  {
+   "handtrap": "spark",
+   "severity": "strong",
+   "line": "change",
+   "step": 20,
+   "target_card": "Therion \"King\" Regulus",
+   "timing_ko": "[[DoomZ XII Zero - Drastea]]가 ①(레귤러스에 장착된 감옥신기를 대상으로 파괴, 패에서 특소)을 발동했을 때 체인해 [[Therion \"King\" Regulus]]를 제외. 이 턴 감옥신기·그라플레이오가 묘지에서 효과를 썼으므로 패에서 발동할 수 있다",
+   "why_ko": "레귤러스가 제외되면 장착된 감옥신기는 룰로 묘지에 갈 뿐 효과로 파괴된 것이 아니라 서치가 나오지 않고, 대상이 사라진 드라스티아 ①은 처리되지 않는다. 레귤러스가 자신을 코스트로 스파크를 무효로 해도 장착 카드가 같이 떨어지므로 결과는 같다. 한 장으로 레귤러스와 드라스티아를 지운다. 패에서 쓰면 이 듀얼 동안 땅·물·화염·바람 몬스터 효과(우라라·후와로스·사요 시구레 등)를 쓸 수 없다.",
+   "fallback_ko": "내 묘지에 함정이 없으면 상대는 스파크 처리로 패에서 1장을 특소할 수 있어 드라스티아를 그냥 낼 수 있다. 하지만 장착 카드가 없고(A.D.R.A.S.T.E.I.A. 묘지 장착은 13단계에서 이미 씀) ①도 썼으니 변신하지 못하고, 둠즈 엑시즈가 없어 디스트럭션도 쓸 곳이 없다. 사르가스는 남는다.",
+   "rulings": [
+    "supp-21774"
+   ]
+  },
+  {
+   "handtrap": "spark",
+   "severity": "strong",
+   "line": "elara",
+   "step": 18,
+   "target_card": "Therion \"King\" Regulus",
+   "timing_ko": "[[DoomZ XII Zero - Drastea]]가 ①(레귤러스에 장착된 감옥신기를 대상으로 파괴)을 발동했을 때 체인해 [[Therion \"King\" Regulus]]를 제외. 그라플레이오(7)·감옥신기(10) 묘지 효과로 발동 조건이 이미 충족돼 있다",
+   "why_ko": "체인저 루트 20단계와 같다. 장착 카드가 룰로 묘지에 가서 서치도 없고, 드라스티아 ①은 대상이 없어 처리되지 않는다.",
+   "fallback_ko": "상대가 스파크 처리로 드라스티아를 패에서 내도 장착 카드가 없어 변신하지 못한다. 마지막 체인저 → 디스트럭션 세트(19)는 DURG 퀵 효과가 필요해서 막힌다.",
+   "rulings": [
+    "supp-21774"
+   ]
   },
   {
    "handtrap": "fallen_virtuous",
@@ -696,7 +878,7 @@
    "target_card": "DoomZ VII Seven - Elara",
    "timing_ko": "일반 소환된 [[DoomZ VII Seven - Elara]]의 ① 발동에 체인해 엘라라 파괴 (아말테 초동이면 아말테의 서치에 체인)",
    "why_ko": "하르모니아와 같은 원리. 이미 소환 유발로 쓴 ①은 파괴되어도 다시 나오지 않는다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).",
-   "fallback_ko": "그라플레이오·레이더스·둠즈 등 '효과로 파괴되면' 유발이 남은 카드는 절대 노리지 말 것. 드라스트리우스는 1턴에 1번 파괴되지 않는다."
+   "fallback_ko": "그라플레이오·레이더·감옥신기 등 '효과로 파괴되면' 유발이 남은 카드는 절대 노리지 말 것. 드라스트리우스는 1턴에 1번 파괴되지 않는다."
   },
   {
    "handtrap": "belle",
@@ -704,9 +886,9 @@
    "line": "change",
    "step": 14,
    "target_card": "DoomZ Command \"A.D.R.A.S.T.E.I.A.\"",
-   "timing_ko": "아드라스테이아 ②(장착 몬스터 파괴 → 묘지 둠즈 특소) 발동에 체인",
-   "why_ko": "엘라라 소생이 막혀 메리메이커 → 사르가스 → 레귤러스 가지가 사라진다. 패·제외 상태에서도 특소할 수 있는 효과지만, 묘지 특소를 포함하므로 와라시 대상이다. 그라플레이오 파괴 유발(덱·묘지 특소)이나 체인지 묘지 회수에도 쓸 수 있다.",
-   "fallback_ko": "드라스테아 + 드라스트리우스 변신 가지는 남는다.",
+   "timing_ko": "A.D.R.A.S.T.E.I.A. ②(장착 몬스터 파괴 → 묘지 둠즈 특소) 발동에 체인",
+   "why_ko": "엘라라 소생이 막혀 메리메이커 → 사르가스 → 레귤러스 가지가 사라진다. 패·제외 상태에서도 특소할 수 있는 효과지만, 묘지 특소를 포함하므로 와라시 대상이다. 그라플레이오 파괴 유발(덱·묘지 특소)이나 체인저 묘지 회수에도 쓸 수 있다.",
+   "fallback_ko": "드라스티아 + 드라스트리우스 변신 가지는 남는다.",
    "rulings": [
     "qa-23215"
    ]
@@ -718,8 +900,81 @@
    "step": 3,
    "target_card": "DoomZ Command \"A.D.R.A.S.T.E.I.A.\"",
    "timing_ko": "[[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]]의 카드 발동(엘라라에게 장착)에 체인해 싸이크론으로 파괴",
-   "why_ko": "발동에 체인해 장착 마법을 파괴하면 장착되지 않는다. 아드라스테이아는 파괴 유발이 없다. 상대는 묘지 효과(1턴 1번)로 엘라라에 다시 장착해 엑시즈 변신은 하지만, 나중에 쓸 묘지 장착 → ② 소생(elara 8~9단계)이 사라져 와라시와 비슷한 피해를 준다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).",
+   "why_ko": "발동에 체인해 장착 마법을 파괴하면 장착되지 않는다. A.D.R.A.S.T.E.I.A.는 파괴 유발이 없다. 상대는 묘지 효과(1턴 1번)로 엘라라에 다시 장착해 엑시즈 변신은 하지만, 나중에 쓸 묘지 장착 → ② 소생(elara 8~9단계)이 사라져 와라시와 비슷한 피해를 준다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).",
    "fallback_ko": "[[DoomZ Raiders]]·[[DoomZ Change]]·[[DoomZ Destruction]]은 효과로 파괴되면 유발이 있어서 싸이크론으로 노리면 손해. 엔드 보드의 [[DoomZ Command \"D.O.O.M.D.U.R.G.\"]](대상 내성 부여)는 장착 카드 자체는 대상으로 할 수 있다."
+  },
+  {
+   "handtrap": "fuwalos",
+   "severity": "ok",
+   "line": "amalthe",
+   "step": 4,
+   "target_card": "DoomZ XII Zero - Drastea",
+   "timing_ko": "늦어도 [[DoomZ XII Zero - Drastea]]의 ②(랭크8 엑시즈 변신) 발동에 체인. 아말테 서치(2단계)에 체인해 깔아 두어도 된다",
+   "why_ko": "아말테 루트는 덱·엑덱 특소가 4번(드라스트리우스, 그라플레이오, 엘라라, 감옥신기)이라 드로우가 적다.",
+   "fallback_ko": "멈추면 드라스트리우스 1장으로 턴을 넘긴다."
+  },
+  {
+   "handtrap": "purulia",
+   "severity": "ok",
+   "line": "change",
+   "step": 3,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "엘라라 일반 소환 전에, 2단계 감옥신기 서치에 체인해서 발동 (내 필드에 카드가 없을 때)",
+   "why_ko": "패에서의 소환은 엘라라 일반 소환(3), [[Therion \"King\" Regulus]](19), [[DoomZ XII Zero - Drastea]](20) 3번이라 최대 3장. 덱·엑덱 특소가 더 많은 덱이라 증G·후와로스보다 압박이 약하다.",
+   "fallback_ko": "레귤러스·드라스티아를 패에서 내지 않으면 드로우는 1장이지만, 필드가 사르가스 정도로 줄어든다."
+  },
+  {
+   "handtrap": "purulia",
+   "severity": "ok",
+   "line": "elara",
+   "step": 17,
+   "target_card": "Therion \"King\" Regulus",
+   "timing_ko": "엘라라 ①(2단계)에 체인해 발동해 두면 레귤러스(17)·드라스티아(18)가 패에서 특소될 때마다 드로우. 첫 엘라라 일반 소환은 그 전이라 세지 않는다",
+   "why_ko": "이 루트는 2장 드로우가 상한이다.",
+   "fallback_ko": "레귤러스·드라스티아를 포기하면 견제가 크게 준다."
+  },
+  {
+   "handtrap": "droplet",
+   "severity": "ok",
+   "line": "elara",
+   "step": 2,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "일반 소환된 [[DoomZ VII Seven - Elara]]의 ① 발동에 체인 (아말테 초동이면 아말테 서치). 속공 마법이라 내 턴에 미리 세트해 둔 경우만 쓸 수 있고, 후공 1턴에는 쓸 수 없다",
+   "why_ko": "패·필드의 다른 카드 1장을 보내 엘라라의 효과를 무효로 한다. 앞면 엘라라가 무효가 되므로 체인 위의 세트와 ② 엑시즈 변신이 모두 막힌다. 보낸 카드와 같은 종류(몬스터/마법/함정)의 카드로는 상대가 일적 발동에 체인할 수 없다.",
+   "fallback_ko": "포영과 같다. 패에 다른 하급 둠즈·체인저가 있으면 재시작.",
+   "rulings": [
+    "qa-8410"
+   ]
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "ok",
+   "line": "change",
+   "step": 10,
+   "target_card": "DoomZ V Five - Amalthe",
+   "timing_ko": "[[DoomZ Raiders]] ①로 아말테가 덱에서 특소되었을 때 발동해 아말테를 지정. 그라플레이오 파괴 유발·아말테 서치 유발 위에 올라간다",
+   "why_ko": "아말테의 효과가 무효가 되어 체인에 올라간 서치(12단계)가 무효로 처리된다. [[DoomZ XII Zero - Drastea]]가 안 와서 드라스티아·드라스트리우스 가지가 없어진다. 아말테가 이번 턴 필드를 떠나면(메리메이커 소재 등) 원래 공격력만큼 상대가 데미지를 받는다.",
+   "fallback_ko": "그라플레이오 유발의 제그레도 특소와 사르가스·레귤러스 가지는 남는다."
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "ok",
+   "line": "elara",
+   "step": 12,
+   "target_card": "DoomZ V Five - Amalthe",
+   "timing_ko": "[[DoomZ Raiders]] ①로 아말테가 덱에서 특소되었을 때 발동해 아말테를 지정",
+   "why_ko": "아말테 서치가 무효로 처리되어 [[DoomZ XII Zero - Drastea]]가 오지 않는다.",
+   "fallback_ko": "제그레도 서치(14)로 [[DoomZ Change]]는 오고, 사르가스·레귤러스 가지도 남는다."
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "ok",
+   "line": "amalthe",
+   "step": 7,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "[[DoomZ Raiders]] ①로 엘라라가 덱에서 특소되었을 때 발동해 엘라라를 지정",
+   "why_ko": "엘라라의 세트([[DoomZ Command \"D.O.O.M.D.U.R.G.\"]])가 무효로 처리된다. 소생한 드라스티아(10)는 장착 카드가 없어 변신하지 못한다.",
+   "fallback_ko": "감옥신기 서치(11)를 체인저 대신 DURG로 바꾸면 드라스티아 변신은 남고 디스트럭션이 빠진다. 장착 카드를 단 드라스티아에 사요 시구레를 쓰면 퀵 변신으로 피하니 쓰지 않는다."
   },
   {
    "handtrap": "ogre",
@@ -727,8 +982,8 @@
    "line": "elara",
    "step": 6,
    "target_card": "DoomZ XIII Over - Graflareio",
-   "timing_ko": "그라플레이오·아말테·둠즈·레이더스 등 '효과로 파괴되면' 유발이 있는 카드를 토끼·하르모니아·도미나스(파괴 처리)로 깨는 것",
-   "why_ko": "토끼는 무효가 아니라서 원래 효과도 처리되고, 파괴 유발까지 덤으로 준다(그라플레이오: 덱 특소, 레이더스: 내 몬스터 파괴). 토끼는 엘라라 ① 정도에만 쓴다.",
+   "timing_ko": "그라플레이오·아말테·감옥신기·레이더 등 '효과로 파괴되면' 유발이 있는 카드를 토끼·하르모니아·도미나스(파괴 처리)로 깨는 것",
+   "why_ko": "토끼는 무효가 아니라서 원래 효과도 처리되고, 파괴 유발까지 덤으로 준다(그라플레이오: 덱 특소, 레이더: 내 몬스터 파괴). 토끼는 엘라라 ① 정도에만 쓴다.",
    "fallback_ko": ""
   },
   {
@@ -738,14 +993,14 @@
    "step": 1,
    "target_card": "DoomZ Change",
    "timing_ko": "[[DoomZ Change]] 발동이나 [[DoomZ Raiders]]·[[DoomZ Destruction]]에 싸이크론",
-   "why_ko": "체인지는 일반 마법이라 발동에 체인해 파괴해도 효과가 처리되고, 오히려 '효과로 파괴되면 묘지의 둠즈 회수 + 패에서 특소'가 나온다. 레이더스는 파괴되면 필드 몬스터 1장 파괴(그라플레이오를 깨서 덱 특소로 이어가거나 내 몬스터 제거), 디스트럭션은 파괴되면 덱의 둠즈를 장착해 준다.",
+   "why_ko": "체인저는 일반 마법이라 발동에 체인해 파괴해도 효과가 처리되고, 오히려 '효과로 파괴되면 묘지의 둠즈 회수 + 패에서 특소'가 나온다. 레이더는 파괴되면 필드 몬스터 1장 파괴(그라플레이오를 깨서 덱 특소로 이어가거나 내 몬스터 제거), 디스트럭션은 파괴되면 덱의 둠즈를 장착해 준다.",
    "fallback_ko": "싸이크론은 [[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]] 발동 정도에만 쓴다."
   }
  ],
  "handtrap_summary": {
   "ash": {
    "rating": "critical",
-   "note_ko": "첫 둠즈 서치(둠즈·아말테) 또는 그라플레이오 ① 서치. 체인지 ① 자체에는 못 쓴다.",
+   "note_ko": "첫 서치(감옥신기·아말테) 또는 그라플레이오 ① 서치. 체인저 ① 자체에는 못 쓴다.",
    "rulings": [
     "qa-23996"
    ]
@@ -756,23 +1011,23 @@
   },
   "veiler": {
    "rating": "critical",
-   "note_ko": "선공 상대의 메인 페이즈라서 포영과 같은 지점(엘라라·아말테 소환 유발)에 쓸 수 있다."
+   "note_ko": "포영과 같은 지점(엘라라·아말테 소환 유발, 체인저 루트는 4단계 엘라라). 체인 끝에 붙여도 된다. 장착 카드를 단 엘라라·드라스티아는 퀵 변신으로 피하니 장착 전에 쓴다."
   },
   "gamma": {
-   "rating": "strong",
-   "note_ko": "엘라라·아말테 소환 유발을 무효+파괴. 파괴 유발은 같은 ①이라 다시 못 쓴다."
+   "rating": "critical",
+   "note_ko": "우라라와 같은 감옥신기 서치(체인저 2단계)나 엘라라·아말테 소환 유발에 바로 체인. 엘라라·아말테는 파괴되어도 파괴 유발이 같은 ①이라 다시 안 나온다. 내 필드에 몬스터가 없을 때만."
   },
   "droll": {
    "rating": "strong",
-   "note_ko": "첫 서치 처리 직후. 드라스테아·레귤러스·레이더스 접근을 막는다."
+   "note_ko": "첫 서치 처리 직후. 드라스티아·레귤러스·레이더 접근을 막는다."
   },
   "maxxc": {
    "rating": "strong",
-   "note_ko": "특소 9번 안팎. 첫 엑시즈 변신이나 레이더스 특소에 체인."
+   "note_ko": "특소 9번 안팎. 첫 엑시즈 변신이나 레이더 특소에 체인."
   },
   "fuwalos": {
    "rating": "strong",
-   "note_ko": "덱·엑덱 특소가 6번 안팎(디아크트로스·그라플레이오·아말테·주프레도·메리메이커·사르가스)."
+   "note_ko": "덱·엑덱 특소가 6번 안팎(디아크트로스·그라플레이오·아말테·제그레도·메리메이커·사르가스). 늦어도 첫 엑시즈 변신(엘라라 ②)에 체인. 아말테 루트는 4번."
   },
   "nibiru": {
    "rating": "strong",
@@ -780,15 +1035,15 @@
   },
   "purge": {
    "rating": "strong",
-   "note_ko": "둠즈·아말테·그라플레이오 서치 무효. 패에서 쓰면 어둠·물·화염 몬스터 효과 봉인."
+   "note_ko": "감옥신기·아말테·그라플레이오 서치 무효(우라라와 같은 지점). 묘지에 함정이 있으면 그라플레이오를 파괴해 유발을 주니 주의. 패에서 쓰면 어둠·물·화염 몬스터 효과 봉인."
   },
   "impulse": {
    "rating": "strong",
-   "note_ko": "엘라라 ②·드라스테아 ①·레이더스 ① 같은 특소 효과를 무효. 단 묘지에 함정이 있어 파괴까지 하면 파괴 유발을 줄 수 있다."
+   "note_ko": "장착된 엘라라 ②(엑시즈 변신)나 아말테 루트의 드라스티아 ①에 체인. 체인저 ①·감옥신기 서치는 특소 효과가 아니다. 묘지에 함정이 있어 파괴까지 하면 파괴 유발을 줄 수 있다. 패에서 쓰면 빛·땅·바람 몬스터 효과 봉인."
   },
   "droplet": {
-   "rating": "strong",
-   "note_ko": "후공 돌파용. DURG를 소재로 한 드라스트리우스는 대상 내성이라, 대상을 잡지 않는 일적이 잘 맞는다."
+   "rating": "ok",
+   "note_ko": "상대 턴에는 미리 세트해 둔 경우만 엘라라·아말테 소환 유발에 체인(후공 1턴 불가). 주 용도는 후공 돌파: DURG를 소재로 한 드라스트리우스는 대상 내성이라, 대상을 잡지 않는 일적이 잘 맞는다."
   },
   "ogre": {
    "rating": "ok",
@@ -796,42 +1051,42 @@
   },
   "belle": {
    "rating": "ok",
-   "note_ko": "아드라스테이아 ② 묘지 소생, 그라플레이오 파괴 유발(덱·묘지 특소), 체인지 묘지 회수.",
+   "note_ko": "A.D.R.A.S.T.E.I.A. ② 묘지 소생, 그라플레이오 파괴 유발(덱·묘지 특소), 체인저 묘지 회수.",
    "rulings": [
     "qa-23215"
    ]
   },
   "purulia": {
    "rating": "ok",
-   "note_ko": "패에서의 소환이 일반 소환 + 레귤러스·드라스테아 정도라 2~3장."
+   "note_ko": "패에서의 소환이 일반 소환 + 레귤러스·드라스티아 정도라 2~3장. 체인저 루트는 감옥신기 서치(2단계)에 체인해 엘라라 일반 소환 전에 깐다. 아말테 루트는 1장."
   },
   "mourner": {
    "rating": "ok",
-   "note_ko": "레이더스로 덱에서 특소된 아말테/엘라라의 특소 유발을 무효로 할 수 있다."
+   "note_ko": "레이더로 덱에서 특소된 아말테/엘라라를 지정해 같은 체인의 서치·세트 유발을 무효로 한다. 장착 카드를 단 드라스티아는 퀵 변신으로 피한다."
   },
   "spark": {
-   "rating": "ok",
-   "note_ko": "둠즈 묘지 효과나 드라스테아 패 효과를 쓴 턴에 발동. 파괴가 아니라 제외라 유발이 안 나온다."
+   "rating": "strong",
+   "note_ko": "드라스티아 ①(장착 카드·아말테를 대상으로 파괴)에 체인해 대상이 걸린 몬스터(레귤러스·아말테)를 제외하면 드라스티아까지 멈춘다. 파괴가 아니라 제외라 유발이 안 나온다. 패에서 쓰면 땅·물·화염·바람 몬스터 효과 봉인."
   },
   "meowls": {
    "rating": "weak",
-   "note_ko": "묘지 소생은 아드라스테이아 ② 1~2번뿐."
+   "note_ko": "묘지 소생은 A.D.R.A.S.T.E.I.A. ② 1~2번뿐."
   },
   "magnamhut": {
    "rating": "weak",
-   "note_ko": "묘지의 어둠 하급 둠즈를 제외해도 아드라스테이아 ②는 제외 상태에서도 특소할 수 있다. [[Power Patron DoomZ]]는 바람 속성이라 대상 불가."
+   "note_ko": "묘지의 어둠 하급 둠즈를 제외해도 A.D.R.A.S.T.E.I.A. ②는 제외 상태에서도 특소할 수 있다. [[Power Patron DoomZ]]는 바람 속성이라 대상 불가."
   },
   "crossout": {
    "rating": "weak",
    "note_ko": "자기 메인 덱의 카드만 선언 가능. 둠즈 카드에는 못 쓴다. 내가 같은 감옥신 엔진([[Medius the Pure]] 등)을 쓸 때만 의미가 있다."
   },
   "ttt": {
-   "rating": "ok",
-   "note_ko": "후공 내 턴용. 내 메인 페이즈에 드라스트리우스·레귤러스 무효가 나오면 발동 조건이 된다."
+   "rating": "weak",
+   "note_ko": "상대 1턴 전개에는 쓸 곳이 거의 없음(일반 마법이고, 내 메인 페이즈에 상대가 몬스터 효과를 써야 발동 가능). 내 턴(후공)에: 레귤러스·드라스트리우스가 내 메인 페이즈에 효과를 쓰면 발동해 사르가스나 드라스티아를 빼앗거나(대상을 잡지 않아 DURG 내성 무시) 2장 드로우."
   },
   "harmonia": {
    "rating": "strong",
-   "note_ko": "소환 유발을 쓴 엘라라·아말테를 파괴(파괴 유발은 같은 효과라 다시 안 나옴). 아말테 초동은 드라스테아가 깔고 나올 둠즈 카드가 없어진다. 다른 둠즈 카드를 파괴하면 유발을 줌"
+   "note_ko": "소환 유발을 쓴 엘라라·아말테를 파괴(파괴 유발은 같은 효과라 다시 안 나옴). 아말테 초동은 드라스티아가 깔고 나올 둠즈 카드가 없어진다. 다른 둠즈 카드를 파괴하면 유발을 줌"
   },
   "fallen_virtuous": {
    "rating": "ok",
@@ -847,17 +1102,17 @@
   },
   "druiswurm": {
    "rating": "weak",
-   "note_ko": "아드라스테이아 ②는 제외 상태에서도 특소할 수 있고 그라플레이오는 덱에서도 꺼내서 묘지 제외가 거의 안 통한다. 특소된 드루이드브룸을 둠즈가 효과로 파괴하면 상대 특소 몬스터 1장을 묘지로 보내는(파괴가 아님) 견제가 되는 정도"
+   "note_ko": "A.D.R.A.S.T.E.I.A. ②는 제외 상태에서도 특소할 수 있고 그라플레이오는 덱에서도 꺼내서 묘지 제외가 거의 안 통한다. 특소된 드루이드브룸을 둠즈가 효과로 파괴하면 상대 특소 몬스터 1장을 묘지로 보내는(파괴가 아님) 견제가 되는 정도"
   },
   "mst": {
    "rating": "ok",
-   "note_ko": "아드라스테이아 발동에 체인해 장착을 막으면 묘지 장착을 미리 쓰게 해 나중의 소생을 없앤다. 체인지·레이더스·디스트럭션은 파괴 유발이 있어 금지. 미리 세트해 둬야 함"
+   "note_ko": "A.D.R.A.S.T.E.I.A. 발동에 체인해 장착을 막으면 묘지 장착을 미리 쓰게 해 나중의 소생을 없앤다. 체인저·레이더·디스트럭션은 파괴 유발이 있어 금지. 미리 세트해 둬야 함"
   }
  },
  "notes_ko": [
-  "둠즈 카드 대부분은 '효과로 파괴되면' 유발을 갖고 있다(아말테 서치, 엘라라 세트, 둠즈 서치, 그라플레이오 특소, 레이더스 몬스터 파괴, 체인지 회수, 결괴 장착). 파괴형 견제(토끼, 하르모니아, 파괴하는 도미나스)는 자원을 대 주는 경우가 많다. 무효(우라라·포영·뵐러)나 릴리스(니비루)·제외(스파크)가 낫다.",
-  "[[DoomZ Raiders]]는 지속 마법이라서, 토끼로 파괴해도 이미 발동한 ①은 그대로 처리된다(덱 서치/특소가 나온다). 파괴된 레이더스의 유발은 '1턴에 레이더스 효과 1번' 제한 때문에 그 턴에는 다시 쓸 수 없다.",
-  "[[DoomZ Destruction]]이 둠즈 엑시즈에 장착되면 상대는 드로우 이외로 메인 덱에서 패에 넣을 수 없다. 후공 내 턴에 서치 초동을 쓸 거면 결괴 발동에 체인해서 먼저 서치하거나, 필드 카드(장착 대상)를 먼저 치운다.",
+  "둠즈 카드 대부분은 '효과로 파괴되면' 유발을 갖고 있다(아말테 서치, 엘라라 세트, 감옥신기 서치, 그라플레이오 특소, 레이더 몬스터 파괴, 체인저 회수, 디스트럭션 장착). 파괴형 견제(토끼, 하르모니아, 파괴하는 도미나스)는 자원을 대 주는 경우가 많다. 무효(우라라·포영·뵐러)나 릴리스(니비루)·제외(스파크)가 낫다.",
+  "[[DoomZ Raiders]]는 지속 마법이라서, 토끼로 파괴해도 이미 발동한 ①은 그대로 처리된다(덱 서치/특소가 나온다). 파괴된 레이더의 유발은 '1턴에 레이더 효과 1번' 제한 때문에 그 턴에는 다시 쓸 수 없다.",
+  "[[DoomZ Destruction]]이 둠즈 엑시즈에 장착되면 상대는 드로우 이외로 메인 덱에서 패에 넣을 수 없다. 후공 내 턴에 서치 초동을 쓸 거면 디스트럭션 발동에 체인해서 먼저 서치하거나, 필드 카드(장착 대상)를 먼저 치운다.",
   "[[Prohibited Power Patron Portal - Terminus]](~3장)로 [[Medius the Pure]]를 서치하고, 메디우스 소환 유발로 덱에서 [[Power Patron DoomZ]]를 특소하는 감옥신 초동도 흔하다. 이때는 메디우스 소환 유발(덱 특소)이 우라라 포인트다.",
   "[[DoomZ Change]] ①(패·덱·필드의 둠즈 카드 파괴)은 서치·덱 특소·덤핑 어디에도 해당하지 않아 우라라를 쓸 수 없다. 그 다음 파괴 유발을 노린다."
  ],
@@ -868,12 +1123,12 @@
   "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=21776 (KONAMI DB: 終刻竜機Ⅶ－エララ / 둠즈Ⅶ－엘라라)"
  ],
  "going_second": {
-  "summary_ko": "풀 전개는 견제가 6겹이다. [[Therion \"King\" Regulus]]의 만능 무효 1회, [[DoomZ XII Zero - Drastea]]의 퀵 변신으로 나오는 [[DoomZ XII End - Drastrius]](소환 시 내 몬스터 흡수, 몬스터 효과 무효), 소재가 빠질 때마다 발동하는 [[Gigantic \"Champion\" Sargas]]의 파괴/바운스, DURG로 스스로 깨는 [[DoomZ Raiders]]의 몬스터 파괴, 서치 봉쇄 [[DoomZ Destruction]]이다. 레귤러스를 먼저 소모시키고, 대상 내성이 있는 드라스테아는 비대상 카드로 처리한다. [[Dark Ruler No More]]·[[Forbidden Droplet]]처럼 체인을 막는 일괄 무효에 특히 약하다. 반면 파괴 기반 돌파는 레귤러스 무효, 드라스트리우스 파괴 내성, 레이더스·결괴의 파괴 유발 때문에 효율이 나쁘다.",
+  "summary_ko": "풀 전개는 견제가 6겹이다. [[Therion \"King\" Regulus]]의 만능 무효 1회, [[DoomZ XII Zero - Drastea]]의 퀵 변신으로 나오는 [[DoomZ XII End - Drastrius]](소환 시 내 몬스터 흡수, 몬스터 효과 무효), 소재가 빠질 때마다 발동하는 [[Gigantic \"Champion\" Sargas]]의 파괴/바운스, DURG로 스스로 깨는 [[DoomZ Raiders]]의 몬스터 파괴, 서치 봉쇄 [[DoomZ Destruction]]이다. 레귤러스를 먼저 소모시키고, 대상 내성이 있는 드라스티아는 비대상 카드로 처리한다. [[Dark Ruler No More]]·[[Forbidden Droplet]]처럼 체인을 막는 일괄 무효에 특히 약하다. 반면 파괴 기반 돌파는 레귤러스 무효, 드라스트리우스 파괴 내성, 레이더·디스트럭션의 파괴 유발 때문에 효율이 나쁘다.",
   "difficulty": "hard",
   "boards": [
    {
     "id": "full",
-    "title_ko": "풀 전개 (체인지 1장 초동)",
+    "title_ko": "풀 전개 (체인저 1장 초동)",
     "line": "change",
     "interruptions": [
      {
@@ -919,7 +1174,7 @@
       "answered_by": [
        {
         "id": "dark_ruler",
-        "note_ko": "체인 불가로 무효. DURG가 주는 효과(대상 내성·퀵 파괴)도 같이 꺼지고, 둠즈 엑시즈가 없으니 결괴도 발동할 수 없다"
+        "note_ko": "체인 불가로 무효. DURG가 주는 효과(대상 내성·퀵 파괴)도 같이 꺼지고, 둠즈 엑시즈가 없으니 디스트럭션도 발동할 수 없다"
        },
        {
         "id": "droplet",
@@ -940,6 +1195,10 @@
        {
         "id": "impulse",
         "note_ko": "엑덱 특소 효과라 무효. 레귤러스가 남아 있으면 레귤러스로 막힌다"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "대상을 잡지 않는 컨트롤 탈취라 DURG 내성을 무시한다. 레귤러스·드라스트리우스가 내 메인 페이즈에 효과를 쓴 뒤에"
        }
       ],
       "bait_ko": "[[Infinite Impermanence]]는 DURG 대상 내성 때문에 고를 수 없다. 내 몬스터를 내기 전에 변신을 끌어내면 흡수할 대상이 없다."
@@ -1012,6 +1271,10 @@
        {
         "id": "kurikara",
         "note_ko": "유발을 쓴 뒤에 릴리스로 정리"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "레귤러스·드라스트리우스가 내 메인 페이즈에 효과를 쓴 뒤 발동해 사르가스를 빼앗는다. 대상을 잡지 않는다"
        }
       ],
       "bait_ko": "드라스트리우스의 무효를 끌어내면 같이 발동한다. 둘 다 1턴 1번이라 미끼 몬스터 효과 1개로 같이 소모시킬 수 있다."
@@ -1029,7 +1292,7 @@
        },
        {
         "id": "harpie",
-        "note_ko": "내 필드에 몬스터가 없을 때 쓰면 파괴 유발이 잡을 대상이 없다. 결괴·DURG까지 같이 정리. 레귤러스가 무효로 할 수 있다"
+        "note_ko": "내 필드에 몬스터가 없을 때 쓰면 파괴 유발이 잡을 대상이 없다. 디스트럭션·DURG까지 같이 정리. 레귤러스가 무효로 할 수 있다"
        },
        {
         "id": "heavy_storm",
@@ -1041,7 +1304,7 @@
        },
        {
         "id": "dark_ruler",
-        "note_ko": "드라스테아의 DURG 퀵 효과가 꺼져서 스스로 깨는 루트가 사라진다. 레이더스 자체는 남는다"
+        "note_ko": "드라스티아의 DURG 퀵 효과가 꺼져서 스스로 깨는 루트가 사라진다. 레이더 자체는 남는다"
        }
       ]
      },
@@ -1074,10 +1337,10 @@
        },
        {
         "id": "dark_ruler",
-        "note_ko": "드라스테아가 변신할 수 없으니 둠즈 엑시즈가 생기지 않아 발동 조건이 맞지 않는다"
+        "note_ko": "드라스티아가 변신할 수 없으니 둠즈 엑시즈가 생기지 않아 발동 조건이 맞지 않는다"
        }
       ],
-      "bait_ko": "서치 초동은 드라스트리우스가 나오기 전에 쓴다. 또는 결괴를 먼저 치운다."
+      "bait_ko": "서치 초동은 드라스트리우스가 나오기 전에 쓴다. 또는 디스트럭션을 먼저 치운다."
      }
     ]
    },
@@ -1095,7 +1358,7 @@
       "answered_by": [
        {
         "id": "dark_ruler",
-        "note_ko": "체인 불가로 무효. 결괴도 발동 조건이 사라진다"
+        "note_ko": "체인 불가로 무효. 디스트럭션도 발동 조건이 사라진다"
        },
        {
         "id": "droplet",
@@ -1220,7 +1483,7 @@
    },
    {
     "id": "after_ash_change",
-    "title_ko": "체인지 → 둠즈 서치에 우라라를 맞은 경우",
+    "title_ko": "체인저 → 감옥신기 서치에 우라라를 맞은 경우",
     "after": {
      "handtrap": "ash",
      "line": "change",
@@ -1242,7 +1505,7 @@
   "breakers": {
    "lightning_storm": {
     "rating": "ok",
-    "note_ko": "마함 모드로 레이더스·결괴·DURG를 정리한다. 내 필드가 비어 있을 때만 쓸 수 있어서 레이더스 파괴 유발이 잡을 대상이 없다. 레귤러스가 무효로 할 수 있고, 몬스터 모드는 드라스트리우스 파괴 내성에 막힌다."
+    "note_ko": "마함 모드로 레이더·디스트럭션·DURG를 정리한다. 내 필드가 비어 있을 때만 쓸 수 있어서 레이더 파괴 유발이 잡을 대상이 없다. 레귤러스가 무효로 할 수 있고, 몬스터 모드는 드라스트리우스 파괴 내성에 막힌다."
    },
    "evenly_matched": {
     "rating": "strong",
@@ -1250,11 +1513,11 @@
    },
    "dark_ruler": {
     "rating": "critical",
-    "note_ko": "레귤러스·드라스테아·사르가스가 체인하지 못하고 무효가 된다. DURG가 주는 효과도 꺼지고, 둠즈 엑시즈가 생기지 않아 결괴도 발동할 수 없다. 이번 턴 데미지는 줄 수 없다."
+    "note_ko": "레귤러스·드라스티아·사르가스가 체인하지 못하고 무효가 된다. DURG가 주는 효과도 꺼지고, 둠즈 엑시즈가 생기지 않아 디스트럭션도 발동할 수 없다. 이번 턴 데미지는 줄 수 없다."
    },
    "harpie": {
     "rating": "ok",
-    "note_ko": "레이더스·결괴·DURG 정리. 레귤러스를 먼저 소모시키고, 내 몬스터가 없을 때 쓴다. 드라스테아가 체인으로 변신하면 DURG는 소재로 도망간다."
+    "note_ko": "레이더·디스트럭션·DURG 정리. 레귤러스를 먼저 소모시키고, 내 몬스터가 없을 때 쓴다. 드라스티아가 체인으로 변신하면 DURG는 소재로 도망간다."
    },
    "heavy_storm": {
     "rating": "ok",
@@ -1262,7 +1525,7 @@
    },
    "raigeki": {
     "rating": "weak",
-    "note_ko": "레귤러스가 무효로 하고, 드라스테아는 체인으로 변신한다. 드라스트리우스는 파괴 내성이 있다."
+    "note_ko": "레귤러스가 무효로 하고, 드라스티아는 체인으로 변신한다. 드라스트리우스는 파괴 내성이 있다."
    },
    "dark_hole": {
     "rating": "weak",
@@ -1270,27 +1533,27 @@
    },
    "kaiju": {
     "rating": "strong",
-    "note_ko": "체인 불가·비대상 릴리스라 DURG 대상 내성, 드라스트리우스 파괴 내성, 파괴 유발을 전부 무시한다. 드라스테아(DURG 째로)나 레귤러스를 노린다."
+    "note_ko": "체인 불가·비대상 릴리스라 DURG 대상 내성, 드라스트리우스 파괴 내성, 파괴 유발을 전부 무시한다. 드라스티아(DURG 째로)나 레귤러스를 노린다."
    },
    "kaiju_slumber": {
     "rating": "weak",
-    "note_ko": "파괴라 레귤러스 무효, 드라스트리우스 내성, 레이더스 유발에 걸린다."
+    "note_ko": "파괴라 레귤러스 무효, 드라스트리우스 내성, 레이더 유발에 걸린다."
    },
    "cosmic": {
     "rating": "ok",
-    "note_ko": "레이더스·결괴를 제외해 파괴 유발 없이 처리한다. 레귤러스가 무효로 할 수 있다."
+    "note_ko": "레이더·디스트럭션을 제외해 파괴 유발 없이 처리한다. 레귤러스가 무효로 할 수 있다."
    },
    "mst": {
     "rating": "weak",
-    "note_ko": "파괴라서 레이더스·결괴 유발이 나온다."
+    "note_ko": "파괴라서 레이더·디스트럭션 유발이 나온다."
    },
    "super_poly": {
     "rating": "strong",
-    "note_ko": "체인 불가·비대상으로 상대 몬스터 2장(드라스테아 + 레귤러스/사르가스)을 소재로 한다. 맞는 융합 몬스터가 필요하다."
+    "note_ko": "체인 불가·비대상으로 상대 몬스터 2장(드라스티아 + 레귤러스/사르가스)을 소재로 한다. 맞는 융합 몬스터가 필요하다."
    },
    "book_eclipse": {
     "rating": "weak",
-    "note_ko": "레귤러스가 무효로 하고, 드라스테아가 체인으로 변신한다."
+    "note_ko": "레귤러스가 무효로 하고, 드라스티아가 체인으로 변신한다."
    },
    "kurikara": {
     "rating": "ok",
@@ -1302,31 +1565,31 @@
    },
    "fallen_virtuous": {
     "rating": "weak",
-    "note_ko": "알바스 엔진 한정. 파괴라 레귤러스 무효와 파괴 유발에 걸린다."
+    "note_ko": "[[Fallen of Albaz]] 엔진 한정. 파괴라 레귤러스 무효와 파괴 유발에 걸린다."
    },
    "harmonia": {
     "rating": "ok",
-    "note_ko": "레귤러스·드라스테아·드라스트리우스·사르가스가 효과를 쓰면 반응해 몬스터 1장을 파괴한다. 드라스트리우스는 파괴 내성이 있다."
+    "note_ko": "레귤러스·드라스티아·드라스트리우스·사르가스가 효과를 쓰면 반응해 몬스터 1장을 파괴한다. 드라스트리우스는 파괴 내성이 있다."
    },
    "imperm": {
     "rating": "ok",
-    "note_ko": "레귤러스·사르가스만 대상으로 잡을 수 있다. 드라스테아·드라스트리우스는 DURG 대상 내성. 레귤러스를 소모시키는 미끼로 쓴다."
+    "note_ko": "레귤러스·사르가스만 대상으로 잡을 수 있다. 드라스티아·드라스트리우스는 DURG 대상 내성. 레귤러스를 소모시키는 미끼로 쓴다."
    },
    "gamma": {
     "rating": "strong",
-    "note_ko": "내 필드에 몬스터가 없을 때 레귤러스 무효나 드라스테아 변신에 체인한다. 패에서 발동해서 드라스트리우스로 무효할 수 없다."
+    "note_ko": "내 필드에 몬스터가 없을 때 레귤러스 무효나 드라스티아 변신에 체인한다. 패에서 발동해서 드라스트리우스로 무효할 수 없다."
    },
    "droplet": {
     "rating": "strong",
-    "note_ko": "대상을 잡지 않아 DURG 내성을 무시한다. 몬스터 카드를 보내면 레귤러스·드라스테아가 체인할 수 없다. 3장을 보내면 몬스터 3장을 다 무효로 한다."
+    "note_ko": "대상을 잡지 않아 DURG 내성을 무시한다. 몬스터 카드를 보내면 레귤러스·드라스티아가 체인할 수 없다. 3장을 보내면 몬스터 3장을 다 무효로 한다."
    },
    "impulse": {
     "rating": "ok",
-    "note_ko": "드라스테아의 변신(엑덱 특소)을 무효로 한다. 레귤러스가 남아 있으면 막힌다."
+    "note_ko": "드라스티아의 변신(엑덱 특소)을 무효로 한다. 레귤러스가 남아 있으면 막힌다."
    },
    "ttt": {
     "rating": "ok",
-    "note_ko": "레귤러스·드라스트리우스가 내 메인 페이즈에 효과를 쓰면 발동 조건이 된다. 사르가스를 탈취해 재료로 쓴다."
+    "note_ko": "레귤러스·드라스트리우스가 내 메인 페이즈에 효과를 쓰면 발동 조건이 된다. 컨트롤 탈취는 대상을 잡지 않아 DURG 대상 내성과 상관없이 사르가스·드라스티아를 빼앗아 소재로 쓸 수 있다."
    },
    "ogre": {
     "rating": "bad",
@@ -1359,11 +1622,11 @@
   },
   "sequencing_ko": [
    "[[Therion \"King\" Regulus]]의 만능 무효부터 덜 중요한 카드로 소모시킨다. 다만 [[Dark Ruler No More]]·[[Forbidden Droplet]](몬스터 카드를 보냄)은 레귤러스가 체인할 수 없으니 바로 쓴다.",
-   "내 필드가 비어 있을 때 마함 제거([[Harpie's Feather Duster]]·[[Lightning Storm]]·[[Cosmic Cyclone]])로 [[DoomZ Raiders]]·[[DoomZ Destruction]]을 먼저 정리한다. 그러면 레이더스 파괴 유발이 잡을 내 몬스터가 없고, 드라스트리우스가 나오기 전이라 결괴도 체인할 수 없다.",
+   "내 필드가 비어 있을 때 마함 제거([[Harpie's Feather Duster]]·[[Lightning Storm]]·[[Cosmic Cyclone]])로 [[DoomZ Raiders]]·[[DoomZ Destruction]]을 먼저 정리한다. 그러면 레이더 파괴 유발이 잡을 내 몬스터가 없고, 드라스트리우스가 나오기 전이라 디스트럭션도 체인할 수 없다.",
    "[[DoomZ XII Zero - Drastea]]와 [[DoomZ XII End - Drastrius]]는 DURG 때문에 대상으로 잡을 수 없다. 괴수·초융합·일적 같은 비대상 카드로 처리한다.",
    "드라스트리우스는 필드·묘지의 몬스터 효과만 무효로 한다. 마법·함정과 패에서 발동하는 효과(감마 등)로 돌파하면 놀게 된다.",
    "[[Gigantic \"Champion\" Sargas]]는 내 엑시즈가 소재를 떼도 발동한다. 사르가스를 치우기 전에는 소재 제거 효과를 조심한다.",
-   "파괴로 치우면 유발이 나온다(레이더스: 몬스터 파괴, 결괴: 둠즈 장착). 드라스트리우스는 1번 파괴되지 않는다. 제외·릴리스·덱 되돌리기를 우선한다."
+   "파괴로 치우면 유발이 나온다(레이더: 몬스터 파괴, 디스트럭션: 둠즈 장착). 드라스트리우스는 1번 파괴되지 않는다. 제외·릴리스·덱 되돌리기를 우선한다."
   ]
  }
 }

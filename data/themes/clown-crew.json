@@ -52,7 +52,7 @@
  "lines": [
   {
    "id": "cappello",
-   "title_ko": "카펠로 1장 초동",
+   "title_ko": "[[Clown Crew Cappello]] 1장 초동",
    "hand": [
     "Clown Crew Cappello"
    ],
@@ -73,11 +73,11 @@
       "st_effect_field",
       "send_from_deck"
      ],
-     "result_ko": "카펠로 필드, 피날레 묘지. 다음 턴 종료까지 덱·엑덱에서 특소된 몬스터 효과 발동 불가"
+     "result_ko": "[[Clown Crew Cappello]] 필드, 피날레 묘지. 다음 턴 종료까지 덱·엑덱에서 특소된 몬스터 효과 발동 불가"
     },
     {
      "card": "Clown Crew Finale",
-     "action_ko": "묘지의 자신을 제외하고 카펠로(펜듈럼)를 릴리스: 레벨이 다른 크라운 클랜 몬스터를 덱·묘지에서 서치",
+     "action_ko": "묘지의 자신을 제외하고 [[Clown Crew Cappello]](펜듈럼)를 릴리스: 레벨이 다른 크라운 클랜 몬스터를 덱·묘지에서 서치",
      "class": [
       "gy_effect",
       "search"
@@ -105,7 +105,7 @@
     },
     {
      "card": "Clown Crew Rehearsal",
-     "action_ko": "발동(코스트로 필드의 데빌즈 릴리스): 바이앙카비소 + 크라운 클랜 마함 서치",
+     "action_ko": "발동(코스트로 필드의 [[Clown Crew Fiends]] 릴리스): [[Clown Crew Biancaviso]] + 크라운 클랜 마함 서치",
      "class": [
       "spell_trap_activation",
       "search"
@@ -227,7 +227,7 @@
     },
     {
      "card": "Clown Crew Rehearsal",
-     "action_ko": "발동(코스트로 패의 플레어 릴리스): 바이앙카비소 + 크라운 클랜 마함 서치",
+     "action_ko": "발동(코스트로 패의 플레어 릴리스): [[Clown Crew Biancaviso]] + 크라운 클랜 마함 서치",
      "class": [
       "spell_trap_activation",
       "search"
@@ -246,7 +246,7 @@
     },
     {
      "card": "Clown Crew Biancaviso",
-     "action_ko": "메테오·데빌즈를 릴리스해 어드밴스 소환",
+     "action_ko": "메테오·[[Clown Crew Fiends]]를 릴리스해 어드밴스 소환",
      "class": [
       "normal_summon"
      ],
@@ -254,7 +254,7 @@
     },
     {
      "card": "Clown Crew Biancaviso",
-     "action_ko": "어드밴스 소환 성공 유발: 2장 드로우(데빌즈·메테오 유발 체인)",
+     "action_ko": "어드밴스 소환 성공 유발: 2장 드로우([[Clown Crew Fiends]]·메테오 유발 체인)",
      "class": [
       "monster_effect_field",
       "draw"
@@ -330,7 +330,7 @@
     "Clown Crew Matinee Operatics",
     "Clown Crew Soiree Operations"
    ],
-   "end_board_note_ko": "드로우한 [[Clown Crew Malabarisme]]가 있으면 추가로 세트. 견제 구조는 카펠로 루트와 같다."
+   "end_board_note_ko": "드로우한 [[Clown Crew Malabarisme]]가 있으면 추가로 세트. 견제 구조는 [[Clown Crew Cappello]] 루트와 같다."
   },
   {
    "id": "rehearsal",
@@ -338,11 +338,11 @@
    "hand": [
     "Clown Crew Rehearsal"
    ],
-   "note_ko": "패의 아무 몬스터를 리허설 코스트로 릴리스. 통산 소환이 4번이라 니비루 조건이 안 된다. 증G를 맞으면 보통 3(바이앙카비소 어드밴스 소환)까지 하고 8(마티네 특소)을 생략한다. 그러면 증G 드로우는 2장이고 필드는 바이앙카비소 + 세트 2장이 된다.",
+   "note_ko": "패의 아무 몬스터를 리허설 코스트로 릴리스. 통산 소환이 4번이라 니비루 조건이 안 된다. 증G를 맞으면 보통 3([[Clown Crew Biancaviso]] 어드밴스 소환)까지 하고 8(마티네 특소)을 생략한다. 그러면 증G 드로우는 2장이고 필드는 [[Clown Crew Biancaviso]] + 세트 2장이 된다.",
    "steps": [
     {
      "card": "Clown Crew Rehearsal",
-     "action_ko": "발동(코스트로 패의 몬스터 릴리스): 바이앙카비소 + 크라운 클랜 마함 서치",
+     "action_ko": "발동(코스트로 패의 몬스터 릴리스): [[Clown Crew Biancaviso]] + 크라운 클랜 마함 서치",
      "class": [
       "spell_trap_activation",
       "search"
@@ -361,7 +361,7 @@
     },
     {
      "card": "Clown Crew Biancaviso",
-     "action_ko": "디아볼로·데빌즈를 릴리스해 어드밴스 소환",
+     "action_ko": "디아볼로·[[Clown Crew Fiends]]를 릴리스해 어드밴스 소환",
      "class": [
       "normal_summon"
      ],
@@ -439,8 +439,35 @@
    "step": 2,
    "target_card": "Clown Crew Rehearsal",
    "timing_ko": "[[Clown Crew Rehearsal]] 발동(2장 서치)에 체인",
-   "why_ko": "세 루트 모두 [[Clown Crew Rehearsal]]로 [[Clown Crew Biancaviso]]와 [[Clown Crew Malabarisme]]를 가져온다. 릴리스 코스트는 이미 냈기 때문에 무효로 하면 카드 2장이 그냥 사라진다. 바이앙카비소도 소환 재료(엑덱 몬스터)도 없어서 전개가 끝난다.",
+   "why_ko": "세 루트 모두 [[Clown Crew Rehearsal]]로 [[Clown Crew Biancaviso]]와 [[Clown Crew Malabarisme]]를 가져온다. 릴리스 코스트는 이미 냈기 때문에 무효로 하면 카드 2장이 그냥 사라진다. [[Clown Crew Biancaviso]]도 소환 재료(엑덱 몬스터)도 없어서 전개가 끝난다.",
    "fallback_ko": "패에 2번째 [[Clown Crew Rehearsal]]나 [[Clown Crew Malabarisme]]/[[Clown Crew Soiree Operations]]가 있으면 일부 재개. 리허설 묘지 효과(의식 소환)는 무효로 해도 이후에 쓸 수 있다."
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "flair",
+   "step": 2,
+   "target_card": "Clown Crew Rehearsal",
+   "timing_ko": "[[Clown Crew Rehearsal]] 발동(2장 서치)에 직접 체인. 리허설이 필드에 놓인 상태라 '상대 필드에 카드가 있으면' 조건을 만족해 패에서 발동할 수 있다",
+   "why_ko": "우라라와 같은 지점. 릴리스 코스트는 이미 냈으므로 무효로 하면 [[Clown Crew Biancaviso]]와 [[Clown Crew Malabarisme]]를 둘 다 못 가져온다. 1단계 [[Clown Crew Flair]] 서치는 상대 필드가 비어 있어서 패에서 쓸 수 없다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 발동할 수 없다.",
+   "fallback_ko": "패에 2번째 [[Clown Crew Rehearsal]]·[[Clown Crew Malabarisme]]가 있으면 일부 재개. 퍼지는 드로우도 '덱에서 패에 넣기'라 놓쳤다면 엔드 페이즈 [[Clown Crew Matinee Operatics]] 드로우 효과(앞면 지속 마법이 단독으로 발동)에 직접 체인해 2~4장 드로우를 무효로 하는 것도 된다.",
+   "rulings": [
+    "supp-20257",
+    "qa-21685"
+   ]
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "rehearsal",
+   "step": 1,
+   "target_card": "Clown Crew Rehearsal",
+   "timing_ko": "[[Clown Crew Rehearsal]] 발동(2장 서치)에 직접 체인. 리허설 자신이 필드에 있어 패에서 발동 가능",
+   "why_ko": "리허설 루트는 이 서치 1번에 전부 걸려 있다. 코스트로 패의 몬스터도 이미 릴리스했으니 무효로 하면 사실상 전개가 끝난다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 발동할 수 없다.",
+   "fallback_ko": "패에 [[Clown Crew Malabarisme]]·[[Clown Crew Biancaviso]]가 따로 있으면 최소 필드. 엔드 페이즈 [[Clown Crew Matinee Operatics]] 드로우에도 쓸 수 있다.",
+   "rulings": [
+    "supp-20257"
+   ]
   },
   {
    "handtrap": "ash",
@@ -453,14 +480,27 @@
    "fallback_ko": "패에 [[Clown Crew Cappello]]/[[Clown Crew Rehearsal]]/[[Preparation of Rites]]가 있으면 다른 초동으로 재시작."
   },
   {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "flair",
+   "step": 1,
+   "target_card": "Clown Crew Flair",
+   "timing_ko": "패에서 공개한 [[Clown Crew Flair]]의 서치 효과 발동에 체인(내 필드에 몬스터가 없을 때)",
+   "why_ko": "몬스터 효과라 감마가 닿는다. 발동이 무효가 되어 [[Clown Crew Rehearsal]]를 못 가져오고, 플레어 1장 초동이면 바로 끝난다. 플레어는 패에 그대로 있으므로 파괴까지 된다(발동한 장소에 남아 있으면 파괴).",
+   "fallback_ko": "패에 [[Clown Crew Cappello]]·[[Clown Crew Rehearsal]]가 있으면 재시작. 플레어 효과는 1턴에 1번이라 같은 턴에 다시 못 쓴다.",
+   "rulings": [
+    "qa-23949"
+   ]
+  },
+  {
    "handtrap": "droll",
    "severity": "critical",
    "line": "flair",
    "step": 1,
    "target_card": "Clown Crew Flair",
    "timing_ko": "첫 서치([[Clown Crew Flair]]·[[Clown Crew Finale]]·[[Preparation of Rites]])가 처리된 직후, [[Clown Crew Rehearsal]] 발동 전에",
-   "why_ko": "[[Clown Crew Rehearsal]]의 2장 서치를 쓸 수 없게 된다. 드롤의 봉쇄는 드로우에도 적용되어 바이앙카비소 드로우와 마티네의 엔드 페이즈 드로우도 그 턴 실제로 드로우되지 않는다. 서치와 드로우가 함께 잠겨 효과가 크다.",
-   "fallback_ko": "패에 이미 [[Clown Crew Malabarisme]]/[[Clown Crew Biancaviso]]가 있으면 최소 필드(바이앙카비소 + 세트 1~2장)는 나온다.",
+   "why_ko": "[[Clown Crew Rehearsal]]의 2장 서치를 쓸 수 없게 된다. 드롤의 봉쇄는 드로우에도 적용되어 [[Clown Crew Biancaviso]] 드로우와 마티네의 엔드 페이즈 드로우도 그 턴 실제로 드로우되지 않는다. 서치와 드로우가 함께 잠겨 효과가 크다.",
+   "fallback_ko": "패에 이미 [[Clown Crew Malabarisme]]/[[Clown Crew Biancaviso]]가 있으면 최소 필드([[Clown Crew Biancaviso]] + 세트 1~2장)는 나온다.",
    "rulings": [
     "qa-12797",
     "qa-24396"
@@ -473,11 +513,37 @@
    "step": 2,
    "target_card": "Clown Crew Cappello",
    "timing_ko": "펜듈럼 존 [[Clown Crew Cappello]]의 P효과(덱에서 피날레 덤핑 + 자기 특소)에 체인",
-   "why_ko": "카펠로 1장 초동은 여기서 [[Clown Crew Finale]]가 묘지로 가야 플레어를 서치할 수 있다. 무효로 하면 그 뒤가 전부 없다.",
-   "fallback_ko": "카펠로는 P존에 남지만 1턴 1번이라 다시 못 쓴다. 다른 초동이 있으면 그쪽으로.",
+   "why_ko": "[[Clown Crew Cappello]] 1장 초동은 여기서 [[Clown Crew Finale]]가 묘지로 가야 플레어를 서치할 수 있다. 무효로 하면 그 뒤가 전부 없다.",
+   "fallback_ko": "[[Clown Crew Cappello]]는 P존에 남지만 1턴 1번이라 다시 못 쓴다. 다른 초동이 있으면 그쪽으로.",
    "rulings": [
     "supp-22920",
     "supp-12950"
+   ]
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "cappello",
+   "step": 5,
+   "target_card": "Clown Crew Flair",
+   "timing_ko": "패에서 공개한 [[Clown Crew Flair]]의 서치 효과에 직접 체인(필드에 [[Clown Crew Fiends]]가 있어 패에서 발동 가능)",
+   "why_ko": "3단계 [[Clown Crew Finale]] 서치 때는 [[Clown Crew Cappello]]가 코스트로 릴리스되어 상대 필드가 비므로 패에서 쓸 수 없다. 여기서 플레어 서치를 무효로 하면 [[Clown Crew Rehearsal]]가 없어 [[Clown Crew Biancaviso]]·[[Clown Crew Malabarisme]]가 나오지 않는다. 리허설을 가져온 뒤라면 6단계 리허설 발동에 써도 된다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 발동할 수 없다.",
+   "fallback_ko": "다른 초동([[Clown Crew Rehearsal]]·[[Preparation of Rites]])이 패에 있으면 재개.",
+   "rulings": [
+    "supp-20257"
+   ]
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "cappello",
+   "step": 5,
+   "target_card": "Clown Crew Flair",
+   "timing_ko": "[[Clown Crew Finale]]로 가져온 [[Clown Crew Flair]]를 패에서 공개해 서치할 때 체인(내 필드에 몬스터가 없을 때)",
+   "why_ko": "[[Clown Crew Cappello]] 루트에서 감마가 닿는 몬스터 효과는 4단계 [[Clown Crew Cappello]] 릴리스 유발(묘지)과 5단계 플레어다. 4단계를 무효로 하면 데블즈만 빠지고 플레어 → 리허설은 그대로 이어지지만, 5단계 플레어를 무효로 하면 [[Clown Crew Rehearsal]]가 없어 [[Clown Crew Biancaviso]]·[[Clown Crew Malabarisme]]까지 못 간다. 2단계 P효과는 펜듈럼 존의 마법 효과라 감마 대상이 아니다.",
+   "fallback_ko": "패에 [[Clown Crew Rehearsal]]가 따로 있으면 재개.",
+   "rulings": [
+    "qa-23949"
    ]
   },
   {
@@ -487,8 +553,8 @@
    "step": 9,
    "target_card": "Clown Crew Matinee Operatics",
    "timing_ko": "앞면 [[Clown Crew Matinee Operatics]]가 ①(덱·엑덱 특소)을 발동했을 때 체인",
-   "why_ko": "파괴라서 특소 자체는 처리되지만, 마티네가 없어지면 엔드 페이즈 대량 드로우(2~4장)와 마함 세트가 사라진다. 이 덱의 다음 턴 자원 대부분이 날아간다. 펜듈럼 존 [[Clown Crew Cappello]]의 P효과에 쓰면 카펠로가 파괴되어 자기 특소가 안 되므로 그쪽도 유효.",
-   "fallback_ko": "선공 견제(바이앙카비소, 세트 함정)는 그대로 남는다."
+   "why_ko": "파괴라서 특소 자체는 처리되지만, 마티네가 없어지면 엔드 페이즈 대량 드로우(2~4장)와 마함 세트가 사라진다. 이 덱의 다음 턴 자원 대부분이 날아간다. 펜듈럼 존 [[Clown Crew Cappello]]의 P효과에 쓰면 [[Clown Crew Cappello]]가 파괴되어 자기 특소가 안 되므로 그쪽도 유효.",
+   "fallback_ko": "선공 견제([[Clown Crew Biancaviso]], 세트 함정)는 그대로 남는다."
   },
   {
    "handtrap": "mst",
@@ -509,9 +575,9 @@
    "line": "rehearsal",
    "step": 9,
    "target_card": "Clown Crew Biancaviso",
-   "timing_ko": "엔드 페이즈(마티네 드로우 발동 등)에 [[Clown Crew Biancaviso]](빛·환상마족) + [[Clown Crew Meteor]](빛·야수전사족)로 [[Mudragon of the Swamp]]. cappello·flair 루트는 바이앙카비소 + [[Clown Crew Flair]](빛·야수전사족)",
-   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 체인할 수 없고, 융합 소재로 보내는 것은 릴리스가 아니라 메테오·플레어의 '릴리스되었을 때' 효과가 발동하지 않는다. 메테오가 사라져 내 턴에 상대 어드밴스 소환에 대응할 수 있게 되고, 퀵 어드밴스 소환원인 바이앙카비소도 없어진다.",
-   "fallback_ko": "세트한 [[Clown Crew Soiree Operations]]·[[Clown Crew Malabarisme]]로 재료를 꺼내 2장째 바이앙카비소를 노린다(패에 있을 때).",
+   "timing_ko": "엔드 페이즈(마티네 드로우 발동 등)에 [[Clown Crew Biancaviso]](빛·환상마족) + [[Clown Crew Meteor]](빛·야수전사족)로 [[Mudragon of the Swamp]]. cappello·flair 루트는 [[Clown Crew Biancaviso]] + [[Clown Crew Flair]](빛·야수전사족)",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 체인할 수 없고, 융합 소재로 보내는 것은 릴리스가 아니라 메테오·플레어의 '릴리스되었을 때' 효과가 발동하지 않는다. 메테오가 사라져 내 턴에 상대 어드밴스 소환에 대응할 수 있게 되고, 퀵 어드밴스 소환원인 [[Clown Crew Biancaviso]]도 없어진다.",
+   "fallback_ko": "세트한 [[Clown Crew Soiree Operations]]·[[Clown Crew Malabarisme]]로 재료를 꺼내 2장째 [[Clown Crew Biancaviso]]를 노린다(패에 있을 때).",
    "rulings": [
     "qa-10824"
    ]
@@ -524,7 +590,7 @@
    "target_card": "Clown Crew Matinee Operatics",
    "timing_ko": "[[Clown Crew Matinee Operatics]] 카드 발동에 체인해 파괴",
    "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 싸이크론과 같은 결과. 마티네를 놓쳤다면 최종 필드의 [[Clown Crew Biancaviso]]를 파괴한다(릴리스가 아니라 크라운 클랜 유발 없음).",
-   "fallback_ko": "바이앙카비소와 세트 카드 견제는 남는다."
+   "fallback_ko": "[[Clown Crew Biancaviso]]와 세트 카드 견제는 남는다."
   },
   {
    "handtrap": "ash",
@@ -533,10 +599,49 @@
    "step": 3,
    "target_card": "Clown Crew Malabarisme",
    "timing_ko": "[[Clown Crew Malabarisme]] 발동(덱·엑덱에서 2장 특소)에 체인",
-   "why_ko": "덱에서 특소할 수 있는 효과라 우라라가 닿는다. 어드밴스 소환 재료가 없어서 [[Clown Crew Biancaviso]]를 낼 수 없거나 재료가 1장(드로우 1장)으로 줄고, 데빌즈·디아볼로 세트도 사라진다.",
+   "why_ko": "덱에서 특소할 수 있는 효과라 우라라가 닿는다. 어드밴스 소환 재료가 없어서 [[Clown Crew Biancaviso]]를 낼 수 없거나 재료가 1장(드로우 1장)으로 줄고, [[Clown Crew Fiends]]·디아볼로 세트도 사라진다.",
    "fallback_ko": "패의 다른 몬스터 또는 [[Clown Crew Rehearsal]] 묘지 의식 소환으로 일부 회복.",
    "rulings": [
     "qa-22687"
+   ]
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "[[Clown Crew Malabarisme]] 발동(덱·엑덱에서 2장 특소)에 직접 체인. 필드에 말라바리즘이 놓여 있어 패에서 발동 가능",
+   "why_ko": "우라라와 같은 지점. 어드밴스 소환 재료가 없어 [[Clown Crew Biancaviso]]가 못 나오거나 패의 다른 몬스터로 1장 릴리스(드로우 1장)로 줄고, 데블즈·메테오 릴리스 유발도 사라진다. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 발동할 수 없다.",
+   "fallback_ko": "패의 다른 몬스터 또는 [[Clown Crew Rehearsal]] 묘지 의식 소환으로 일부 회복.",
+   "rulings": [
+    "supp-20555"
+   ]
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "rehearsal",
+   "step": 2,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "[[Clown Crew Malabarisme]] 발동에 직접 체인(패에서 발동 가능)",
+   "why_ko": "리허설 루트의 어드밴스 소환 재료는 말라바리즘 2장이 전부다. 무효로 하면 [[Clown Crew Biancaviso]] 소환·드로우와 디아볼로·데블즈의 세트가 모두 사라진다. 1단계 리허설 서치는 특소 효과가 아니라서 임펄스 대상이 아니다. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 발동할 수 없다.",
+   "fallback_ko": "패에 의식·융합 등 엑스트라 계열 몬스터가 있으면 그걸 1장 릴리스해 화이트페이스를 낸다(드로우 1장).",
+   "rulings": [
+    "supp-20555"
+   ]
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "cappello",
+   "step": 10,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "[[Clown Crew Malabarisme]] 발동(디아볼로 + 메테오 특소)에 직접 체인. 더 이르게는 2단계 펜듈럼 존 [[Clown Crew Cappello]]의 P효과(자신을 특소하는 효과)에도 체인할 수 있다",
+   "why_ko": "2단계 P효과는 [[Clown Crew Cappello]]가 펜듈럼 존에 있어 패에서 발동 조건이 맞고, 무효로 하면 [[Clown Crew Finale]]가 묘지에 가지 않아 루트 전체가 멈춘다(우라라와 같은 지점). 2단계를 놓쳤다면 4단계([[Clown Crew Cappello]] 유발)는 상대 필드가 비어 있어 못 쓰고, 9단계 마티네①이나 이 10단계 말라바리즘이 다음 기회다. 말라바리즘을 무효로 하면 화이트페이스 재료가 마티네로 나온 플레어 1장뿐이라 드로우 1장으로 줄고 디아볼로·메테오 유발이 없다. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 발동할 수 없다.",
+   "fallback_ko": "마티네로 꺼낸 [[Clown Crew Flair]](의식)를 1장 릴리스해 [[Clown Crew Biancaviso]]를 내는 루트는 남는다.",
+   "rulings": [
+    "supp-20555"
    ]
   },
   {
@@ -545,9 +650,48 @@
    "line": "flair",
    "step": 3,
    "target_card": "Clown Crew Malabarisme",
-   "timing_ko": "첫 특소 효과([[Clown Crew Malabarisme]] 또는 카펠로 P효과) 발동에 체인",
+   "timing_ko": "첫 특소 효과([[Clown Crew Malabarisme]] 또는 [[Clown Crew Cappello]] P효과) 발동에 체인",
    "why_ko": "끝까지 가면 증G 드로우 3~4장. 상대도 드로우 덱이라 멈추지 않고 진행하는 경우가 있어서, 그만큼 내 패를 늘려 받아치기 좋다. 멈추면 마티네 드로우와 세트 함정이 빠진다.",
-   "fallback_ko": "바이앙카비소 어드밴스 소환까지만 하고 턴을 넘기는 최소 루트(rehearsal 라인 note 참고)."
+   "fallback_ko": "[[Clown Crew Biancaviso]] 어드밴스 소환까지만 하고 턴을 넘기는 최소 루트(rehearsal 라인 note 참고)."
+  },
+  {
+   "handtrap": "fuwalos",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 4,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "내 필드에 카드가 없을 때, 첫 덱·엑덱 특소인 [[Clown Crew Cappello]] 릴리스 유발(데블즈 특소)에 체인. 2단계 P효과는 펜듈럼 존에서 나오는 특소라 드로우가 안 된다",
+   "why_ko": "[[Clown Crew Cappello]] 루트의 덱·엑덱 특소는 4단계(데블즈), 9단계(마티네로 플레어), 10단계(말라바리즘 2장 동시 = 1번) 해서 3번이라 3장 드로우. 상대가 멈추면 마티네·세트 카드가 빠진다.",
+   "fallback_ko": "엔드 페이즈에 내 패가 (상대 필드 카드 수 + 6)장을 넘으면 넘은 만큼 덱으로 돌아간다.",
+   "rulings": [
+    "supp-20500"
+   ]
+  },
+  {
+   "handtrap": "fuwalos",
+   "severity": "ok",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "내 필드에 카드가 없을 때 [[Clown Crew Malabarisme]] 발동에 체인",
+   "why_ko": "플레어 루트의 덱·엑덱 특소는 3단계(말라바리즘 2장 동시 = 1번)와 9단계(마티네로 디아볼로) 2번이라 2장 드로우. 의식 소환(10단계)은 패에서 나오므로 세지 않는다.",
+   "fallback_ko": "엔드 페이즈 패 매수 제한(상대 필드 카드 수 + 6)에 주의.",
+   "rulings": [
+    "supp-20500"
+   ]
+  },
+  {
+   "handtrap": "fuwalos",
+   "severity": "ok",
+   "line": "rehearsal",
+   "step": 2,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "내 필드에 카드가 없을 때 [[Clown Crew Malabarisme]] 발동에 체인",
+   "why_ko": "리허설 루트의 덱·엑덱 특소는 2단계 말라바리즘(1번)과 8단계 마티네의 메테오(1번)라 2장. 증G와 마찬가지로 상대가 8단계를 생략하고 멈추면 1장에 그치지만 [[Clown Crew Meteor]]가 필드에 남지 않는다.",
+   "fallback_ko": "엔드 페이즈 패 매수 제한에 주의.",
+   "rulings": [
+    "supp-20500"
+   ]
   },
   {
    "handtrap": "imperm",
@@ -556,11 +700,55 @@
    "step": 5,
    "target_card": "Clown Crew Biancaviso",
    "timing_ko": "[[Clown Crew Biancaviso]]의 어드밴스 소환 성공 유발(드로우)에 체인, 또는 상대 턴 퀵 어드밴스 소환 전에",
-   "why_ko": "드로우 2장을 막거나, 다음 내 턴 바이앙카비소의 퀵 어드밴스 소환을 미리 봉한다. 같은 체인에 올라간 메테오·데빌즈 유발(묘지)은 못 막는다.",
+   "why_ko": "드로우 2장을 막거나, 다음 내 턴 [[Clown Crew Biancaviso]]의 퀵 어드밴스 소환을 미리 봉한다. 같은 체인에 올라간 메테오·[[Clown Crew Fiends]] 유발(묘지)은 못 막는다.",
    "fallback_ko": "세트한 [[Clown Crew Soiree Operations]]·[[Clown Crew Malabarisme]]로 다른 몬스터를 어드밴스 소환하는 견제는 남는다.",
    "rulings": [
     "qa-23977",
     "supp-22524"
+   ]
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "ok",
+   "line": "flair",
+   "step": 5,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "[[Clown Crew Biancaviso]] 소환 유발(드로우) 위에 데블즈·메테오 묘지 유발이 쌓인 뒤, 체인 맨 끝에 화이트페이스를 대상으로",
+   "why_ko": "뵐러는 대상을 잡는 무효라 직접 체인할 필요가 없다. 묘지 유발이 위에 쌓여 있어도 체인 맨 끝에 놓으면 먼저 처리되고, 아래의 드로우 효과는 처리 때 화이트페이스가 무효 상태라 드로우하지 않는다. 같은 체인의 [[Clown Crew Meteor]]는 이 소환의 재료로 릴리스되어 필드에 없으므로 '어드밴스 소환 시 상대는 발동 불가'가 걸리지 않는다(메테오가 필드에 남아 있을 때만 적용). 무효는 이번 턴까지라 내 턴의 퀵 어드밴스 소환은 막지 못한다.",
+   "fallback_ko": "데블즈 세트·메테오 회수, 의식 소환 루트와 마티네 드로우는 남는다.",
+   "rulings": [
+    "supp-22524",
+    "supp-22549",
+    "supp-8933"
+   ]
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 12,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "[[Clown Crew Biancaviso]] 어드밴스 소환 유발(드로우) 위에 메테오·디아볼로 묘지 유발이 쌓인 뒤, 체인 맨 끝에 뵐러를 놓아 화이트페이스를 대상으로",
+   "why_ko": "뵐러는 대상을 잡는 무효라 직접 체인할 필요가 없다. 묘지 유발이 위에 쌓여 있어도 체인 맨 끝에 놓으면 먼저 처리되고, 아래의 드로우 효과는 처리 때 화이트페이스가 무효 상태라 드로우하지 않는다. 같은 체인의 [[Clown Crew Meteor]]는 이 소환의 재료로 릴리스되어 필드에 없으므로 '어드밴스 소환 시 상대는 발동 불가'가 걸리지 않는다(메테오가 필드에 남아 있을 때만 적용). 무효는 이번 턴까지라 내 턴의 퀵 어드밴스 소환은 막지 못한다. [[Clown Crew Cappello]] 루트는 2장 드로우를 지운다.",
+   "fallback_ko": "메테오 회수·디아볼로 세트와 엔드 페이즈 마티네 드로우는 그대로. 말라바리즘·마티네로 나온 몬스터에게 쓰는 건 의미가 없다.",
+   "rulings": [
+    "supp-22524",
+    "supp-22549",
+    "supp-8933"
+   ]
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "ok",
+   "line": "rehearsal",
+   "step": 4,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "[[Clown Crew Biancaviso]] 소환 유발(드로우) 위에 디아볼로·데블즈 묘지 유발이 쌓인 뒤, 체인 맨 끝에 화이트페이스를 대상으로",
+   "why_ko": "뵐러는 대상을 잡는 무효라 직접 체인할 필요가 없다. 묘지 유발이 위에 쌓여 있어도 체인 맨 끝에 놓으면 먼저 처리되고, 아래의 드로우 효과는 처리 때 화이트페이스가 무효 상태라 드로우하지 않는다. 같은 체인의 [[Clown Crew Meteor]]는 이 소환의 재료로 릴리스되어 필드에 없으므로 '어드밴스 소환 시 상대는 발동 불가'가 걸리지 않는다(메테오가 필드에 남아 있을 때만 적용). 무효는 이번 턴까지라 내 턴의 퀵 어드밴스 소환은 막지 못한다. 증G를 맞고 멈추는 리허설 루트에서는 이 2장 드로우가 상대 패 보충의 대부분이다.",
+   "fallback_ko": "디아볼로·데블즈 세트와 마티네는 그대로.",
+   "rulings": [
+    "supp-22524",
+    "supp-8933"
    ]
   },
   {
@@ -569,11 +757,63 @@
    "line": "flair",
    "step": 5,
    "target_card": "Clown Crew Biancaviso",
-   "timing_ko": "[[Clown Crew Biancaviso]] 어드밴스 소환 유발(드로우) 위에 데빌즈·메테오 묘지 유발까지 쌓인 뒤 마지막으로 발동, 바이앙카비소 선택",
+   "timing_ko": "[[Clown Crew Biancaviso]] 어드밴스 소환 유발(드로우) 위에 [[Clown Crew Fiends]]·메테오 묘지 유발까지 쌓인 뒤 마지막으로 발동, [[Clown Crew Biancaviso]] 선택",
    "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 필드 몬스터 효과 무효라 체인 1의 2장 드로우가 무효. 조건 없는 속공이라 체인 가드 위에서도 닿고, 몬스터 효과로 체인할 수 없다. 말라바리즘·마티네로 나온 몬스터는 원래 필드에서 효과를 못 쓰고, 릴리스 불가도 이번 턴뿐이라 다른 대상은 약하다.",
-   "fallback_ko": "데빌즈·메테오 묘지 유발과 마티네 엔드 페이즈 드로우는 그대로.",
+   "fallback_ko": "[[Clown Crew Fiends]]·메테오 묘지 유발과 마티네 엔드 페이즈 드로우는 그대로.",
    "rulings": [
     "supp-22169"
+   ]
+  },
+  {
+   "handtrap": "droplet",
+   "severity": "ok",
+   "line": "flair",
+   "step": 5,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "(세트해 둔 경우만) [[Clown Crew Biancaviso]] 드로우 유발 위에 데블즈·메테오 유발이 쌓인 뒤 체인 끝에서 화이트페이스를 고른다",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 뵐러처럼 대상 무효라 묘지 유발이 위에 쌓여 있어도 체인 끝에서 화이트페이스를 고르면 드로우가 무효가 된다. 무효와 공격력 반감은 이번 턴까지라 내 턴 퀵 어드밴스 소환은 못 막는다. 이 카드의 진짜 쓰임은 후공 내 턴(후공 대책 참고).",
+   "fallback_ko": "릴리스 유발과 마티네 드로우는 그대로.",
+   "rulings": [
+    "supp-15299"
+   ]
+  },
+  {
+   "handtrap": "droplet",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 12,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "(세트해 둔 경우만) [[Clown Crew Biancaviso]] 드로우 유발 위에 묘지 유발이 쌓인 뒤 체인 끝에서, 패·필드 1장을 보내고 화이트페이스를 고른다",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 뵐러처럼 대상 무효라 묘지 유발이 위에 쌓여 있어도 체인 끝에서 화이트페이스를 고르면 드로우가 무효가 된다. 무효와 공격력 반감은 이번 턴까지라 내 턴 퀵 어드밴스 소환은 못 막는다. 이 카드의 진짜 쓰임은 후공 내 턴(후공 대책 참고).",
+   "fallback_ko": "릴리스 유발과 마티네 드로우는 그대로.",
+   "rulings": [
+    "supp-15299"
+   ]
+  },
+  {
+   "handtrap": "droplet",
+   "severity": "ok",
+   "line": "rehearsal",
+   "step": 4,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "(세트해 둔 경우만) [[Clown Crew Biancaviso]] 드로우 유발 위에 디아볼로·데블즈 유발이 쌓인 뒤 체인 끝에서 화이트페이스를 고른다",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 뵐러처럼 대상 무효라 묘지 유발이 위에 쌓여 있어도 체인 끝에서 화이트페이스를 고르면 드로우가 무효가 된다. 무효와 공격력 반감은 이번 턴까지라 내 턴 퀵 어드밴스 소환은 못 막는다. 이 카드의 진짜 쓰임은 후공 내 턴(후공 대책 참고).",
+   "fallback_ko": "릴리스 유발과 마티네 드로우는 그대로.",
+   "rulings": [
+    "supp-15299"
+   ]
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "ok",
+   "line": "rehearsal",
+   "step": 6,
+   "target_card": "Clown Crew Fiends",
+   "timing_ko": "[[Clown Crew Biancaviso]] 소환 유발(드로우) 위에 디아볼로·데블즈 묘지 유발이 쌓인 뒤, 맨 위에 놓인 묘지 유발에 체인(보통 [[Clown Crew Fiends]]의 마법 세트)",
+   "why_ko": "감마는 '발동했을 때' 직접 체인이라 아래에 깔린 화이트페이스 드로우에는 닿지 않는다. 맨 위 효과만 노릴 수 있고 순서는 상대가 정한다. 데블즈 세트를 무효로 하면 [[Clown Crew Matinee Operatics]]가 없어 엔드 페이즈 드로우와 [[Clown Crew Meteor]] 특소가 사라지고, 디아볼로가 맨 위면 [[Clown Crew Soiree Operations]] 세트를 지운다. 묘지에서 발동한 효과라 파괴는 안 된다.",
+   "fallback_ko": "리허설 루트는 1단계 리허설 서치 말고는 감마를 쓸 몬스터 효과가 이 체인뿐이다. 우라라·퍼지가 있으면 1단계가 훨씬 낫다.",
+   "rulings": [
+    "qa-23949"
    ]
   },
   {
@@ -582,11 +822,50 @@
    "line": "flair",
    "step": 7,
    "target_card": "Clown Crew Flair",
-   "timing_ko": "바이앙카비소 유발과 함께 쌓인 [[Clown Crew Meteor]]의 묘지 회수(대상: 묘지의 [[Clown Crew Flair]])에 체인해 플레어를 제외하고 특소(상대 필드에 바이앙카비소가 있어 퀵)",
+   "timing_ko": "[[Clown Crew Biancaviso]] 유발과 함께 쌓인 [[Clown Crew Meteor]]의 묘지 회수(대상: 묘지의 [[Clown Crew Flair]])에 체인해 플레어를 제외하고 특소(상대 필드에 [[Clown Crew Biancaviso]]가 있어 퀵)",
    "why_ko": "크라운 클랜 몬스터는 전부 빛 속성이다. 대상이 사라져 회수가 불발되고, 10단계에서 패의 플레어를 의식 소환할 수 없어 [[Clown Crew Diabolo]]가 릴리스되지 않는다. [[Clown Crew Soiree Operations]] 세트와 마티네 드로우 1장(융합 종류)이 빠진다.",
-   "fallback_ko": "드로우로 다른 재료가 들어오면 일부 회복. 드루이드브룸은 내 필드에 남지만 바이앙카비소는 어드밴스 소환이라 ②(특소된 몬스터를 묘지로)의 대상이 아니다.",
+   "fallback_ko": "드로우로 다른 재료가 들어오면 일부 회복. 드루이드브룸은 내 필드에 남지만 [[Clown Crew Biancaviso]]는 어드밴스 소환이라 ②(특소된 몬스터를 묘지로)의 대상이 아니다.",
    "rulings": [
     "supp-17764"
+   ]
+  },
+  {
+   "handtrap": "spark",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 14,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "화이트페이스 소환 유발 체인(12~14단계) 처리 뒤, 또는 엔드 페이즈에 [[Clown Crew Biancaviso]]를 대상으로",
+   "why_ko": "상대가 패([[Clown Crew Flair]] 공개)나 묘지(릴리스 유발)에서 몬스터 효과를 발동한 턴이라 패에서 쓸 수 있다. 무효가 아니라 대상 제외라 언제든 쓸 수 있으니, 화이트페이스가 소환되고 릴리스 유발 체인이 끝난 뒤(또는 엔드 페이즈)에 [[Clown Crew Biancaviso]]를 제외해 내 턴의 퀵 어드밴스 소환을 미리 없앤다. 내 묘지에 함정이 없으면 상대가 패에서 몬스터 1장을 특소할 수 있다. 패에 2번째 화이트페이스가 있으면 그대로 나오니 주의. 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 발동할 수 없다.",
+   "fallback_ko": "세트된 [[Clown Crew Soiree Operations]]·[[Clown Crew Malabarisme]]로 내 턴에 다른 화이트페이스를 어드밴스 소환하는 견제는 남는다.",
+   "rulings": [
+    "supp-22586"
+   ]
+  },
+  {
+   "handtrap": "spark",
+   "severity": "ok",
+   "line": "flair",
+   "step": 11,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "의식 소환·디아볼로 유발(10~11단계) 처리 뒤, 또는 엔드 페이즈에 [[Clown Crew Biancaviso]]를 대상으로",
+   "why_ko": "상대가 패([[Clown Crew Flair]] 공개)나 묘지(릴리스 유발)에서 몬스터 효과를 발동한 턴이라 패에서 쓸 수 있다. 무효가 아니라 대상 제외라 언제든 쓸 수 있으니, 화이트페이스가 소환되고 릴리스 유발 체인이 끝난 뒤(또는 엔드 페이즈)에 [[Clown Crew Biancaviso]]를 제외해 내 턴의 퀵 어드밴스 소환을 미리 없앤다. 내 묘지에 함정이 없으면 상대가 패에서 몬스터 1장을 특소할 수 있다. 패에 2번째 화이트페이스가 있으면 그대로 나오니 주의. 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 발동할 수 없다.",
+   "fallback_ko": "세트된 [[Clown Crew Soiree Operations]]로 재료를 꺼내 2번째 화이트페이스를 노리는 견제는 남는다.",
+   "rulings": [
+    "supp-22586"
+   ]
+  },
+  {
+   "handtrap": "spark",
+   "severity": "ok",
+   "line": "rehearsal",
+   "step": 6,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "디아볼로·데블즈 유발 체인(4~6단계) 처리 뒤, 또는 엔드 페이즈에 [[Clown Crew Biancaviso]]를 대상으로. 필드에 남는 [[Clown Crew Meteor]]보다 화이트페이스가 우선",
+   "why_ko": "상대가 패([[Clown Crew Flair]] 공개)나 묘지(릴리스 유발)에서 몬스터 효과를 발동한 턴이라 패에서 쓸 수 있다. 무효가 아니라 대상 제외라 언제든 쓸 수 있으니, 화이트페이스가 소환되고 릴리스 유발 체인이 끝난 뒤(또는 엔드 페이즈)에 [[Clown Crew Biancaviso]]를 제외해 내 턴의 퀵 어드밴스 소환을 미리 없앤다. 내 묘지에 함정이 없으면 상대가 패에서 몬스터 1장을 특소할 수 있다. 패에 2번째 화이트페이스가 있으면 그대로 나오니 주의. 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 발동할 수 없다.",
+   "fallback_ko": "세트된 [[Clown Crew Soiree Operations]]의 특소·묘지 어드밴스 소환은 남는다.",
+   "rulings": [
+    "supp-22586"
    ]
   },
   {
@@ -595,8 +874,8 @@
    "line": "cappello",
    "step": 10,
    "target_card": "Clown Crew Malabarisme",
-   "timing_ko": "통산 5번째 소환(카펠로 루트의 말라바리즘 특소, 플레어 루트의 의식 소환) 이후",
-   "why_ko": "카펠로 루트라면 바이앙카비소 어드밴스 소환 전에 재료를 모두 릴리스시킬 수 있다. 다만 크라운 클랜은 '릴리스되면' 유발이 핵심이라 니비루의 릴리스로도 효과가 발동한다. 이득은 생각보다 작다.",
+   "timing_ko": "통산 5번째 소환([[Clown Crew Cappello]] 루트의 말라바리즘 특소, 플레어 루트의 의식 소환) 이후",
+   "why_ko": "[[Clown Crew Cappello]] 루트라면 [[Clown Crew Biancaviso]] 어드밴스 소환 전에 재료를 모두 릴리스시킬 수 있다. 다만 크라운 클랜은 '릴리스되면' 유발이 핵심이라 니비루의 릴리스로도 효과가 발동한다. 이득은 생각보다 작다.",
    "fallback_ko": "릴리스 유발(세트·회수·특소)이 그대로 발동한다. 리허설 2장 초동은 소환이 4번뿐이라 조건이 안 된다."
   },
   {
@@ -605,7 +884,7 @@
    "line": "flair",
    "step": 3,
    "target_card": "Clown Crew Meteor",
-   "timing_ko": "말라바리즘·마티네로 꺼낸 몬스터에게 무효계를 쓰는 것",
+   "timing_ko": "말라바리즘·마티네로 꺼낸 몬스터([[Clown Crew Meteor]] 등)에게 무효계를 쓰는 것. 뵐러는 [[Clown Crew Biancaviso]] 드로우 유발 때 체인 끝에 쓴다(위 항목)",
    "why_ko": "이 몬스터들은 말라바리즘·마티네 제약 때문에 원래 필드에서 효과를 발동할 수 없다. 핵심 효과는 릴리스된 뒤 묘지에서 발동하므로 필드 무효는 아무 의미가 없다.",
    "fallback_ko": "",
    "rulings": [
@@ -619,8 +898,8 @@
    "line": "flair",
    "step": 5,
    "target_card": "Clown Crew Biancaviso",
-   "timing_ko": "[[Clown Crew Biancaviso]]의 어드밴스 소환 유발을 노리고 하르모니아를 쓰려는 것",
-   "why_ko": "선공 전개 중 필드에서 효과를 발동하는 몬스터는 바이앙카비소뿐인데, 그 유발 위에 릴리스된 몬스터들의 묘지 유발이 함께 쌓여 '직접 체인'해야 하는 하르모니아는 닿지 않는다. 펜듈럼 존의 [[Clown Crew Cappello]]는 몬스터가 아니다.",
+   "timing_ko": "[[Clown Crew Biancaviso]]의 어드밴스 소환 유발을 노리고 하르모니아를 쓰려는 것. 하르모니아는 내 턴(후공)에 화이트페이스의 퀵 효과에 쓴다(후공 대책 참고)",
+   "why_ko": "선공 전개 중 필드에서 효과를 발동하는 몬스터는 화이트페이스뿐인데, 그 유발 위에 릴리스된 몬스터들의 묘지 유발이 함께 쌓여 '직접 체인'해야 하는 하르모니아는 닿지 않는다. 릴리스된 몬스터가 유발을 하나도 쓰지 않아 화이트페이스 유발이 혼자 발동했을 때만 예외. 펜듈럼 존의 [[Clown Crew Cappello]]는 몬스터가 아니다.",
    "fallback_ko": "",
    "rulings": [
     "supp-22533"
@@ -630,11 +909,11 @@
  "handtrap_summary": {
   "ash": {
    "rating": "critical",
-   "note_ko": "[[Clown Crew Rehearsal]] 발동이 1순위. 플레어 1장 초동이면 플레어 서치, 카펠로 1장이면 카펠로 P효과."
+   "note_ko": "[[Clown Crew Rehearsal]] 발동이 1순위. 플레어 1장 초동이면 플레어 서치, [[Clown Crew Cappello]] 1장이면 [[Clown Crew Cappello]] P효과."
   },
   "droll": {
    "rating": "critical",
-   "note_ko": "첫 서치 처리 직후. 리허설 2장 서치를 막고, 드롤 적용 중에는 드로우도 '덱에서 패에 넣기'라 바이앙카비소·마티네 드로우까지 막힌다.",
+   "note_ko": "첫 서치 처리 직후. 리허설 2장 서치를 막고, 드롤 적용 중에는 드로우도 '덱에서 패에 넣기'라 [[Clown Crew Biancaviso]]·마티네 드로우까지 막힌다.",
    "rulings": [
     "qa-12797",
     "qa-24396"
@@ -642,27 +921,40 @@
   },
   "maxxc": {
    "rating": "strong",
-   "note_ko": "첫 특소(말라바리즘/카펠로 P효과)에 체인. 3~4장 드로우 또는 마티네 생략."
+   "note_ko": "첫 특소(말라바리즘/[[Clown Crew Cappello]] P효과)에 체인. 3~4장 드로우 또는 마티네 생략."
   },
   "gamma": {
-   "rating": "strong",
-   "note_ko": "패에서 공개한 [[Clown Crew Flair]] 효과(몬스터 효과)를 무효+파괴. 플레어 1장 초동이면 우라라급."
+   "rating": "critical",
+   "note_ko": "내 필드에 몬스터가 없을 때. 패에서 공개한 [[Clown Crew Flair]]의 서치(flair 1단계, cappello 5단계)에 체인해 발동 무효. 플레어 1장 초동이면 우라라급. 리허설 루트는 화이트페이스 유발 위에 쌓인 맨 위 묘지 유발에만 닿는다.",
+   "rulings": [
+    "qa-23949"
+   ]
   },
   "purge": {
-   "rating": "strong",
-   "note_ko": "플레어·리허설 서치를 무효. 패에서 쓰면 어둠·물·화염 몬스터 효과 봉인."
+   "rating": "critical",
+   "note_ko": "[[Clown Crew Rehearsal]] 발동에 직접 체인(우라라와 같은 지점). 리허설이 필드에 놓여 있어 패에서 발동 가능. 첫 [[Clown Crew Flair]] 서치는 상대 필드가 비어 있으면 패에서 못 쓴다. [[Clown Crew Cappello]] 루트는 데블즈가 나온 뒤의 플레어 서치. 드로우도 무효로 할 수 있어 엔드 페이즈 [[Clown Crew Matinee Operatics]] 드로우에도 쓴다. 패에서 쓰면 내 어둠·물·화염 몬스터 효과 봉인.",
+   "rulings": [
+    "supp-20257",
+    "qa-21685"
+   ]
   },
   "ogre": {
    "rating": "strong",
-   "note_ko": "[[Clown Crew Matinee Operatics]] ① 발동에 체인해 엔드 페이즈 드로우를 지운다. 카펠로 P효과에도 유효. 패에서 발동하는 마법(리허설·말라바리즘)에는 못 쓴다."
+   "note_ko": "[[Clown Crew Matinee Operatics]] ① 발동에 체인해 엔드 페이즈 드로우를 지운다. [[Clown Crew Cappello]] P효과에도 유효. 패에서 발동하는 마법(리허설·말라바리즘)에는 못 쓴다."
   },
   "impulse": {
    "rating": "strong",
-   "note_ko": "[[Clown Crew Malabarisme]]·마티네①·카펠로 P효과(특소 효과) 무효. 단, 패에서 쓰면 빛 속성 몬스터 효과 봉인이라 내 덱과 상성 확인."
+   "note_ko": "[[Clown Crew Malabarisme]] 발동에 직접 체인(flair 3단계, rehearsal 2단계, cappello 10단계). [[Clown Crew Cappello]] 1장 초동이면 2단계 P효과(펜듈럼 존에서 자신 특소)에 체인하는 게 더 아프다. 1단계 리허설 서치는 대상이 아니다. 패에서 쓰면 빛·땅·바람 몬스터 효과 봉인이라 내 덱과 상성 확인.",
+   "rulings": [
+    "supp-20555"
+   ]
   },
   "fuwalos": {
    "rating": "ok",
-   "note_ko": "덱·엑덱 특소가 2~4번(말라바리즘·마티네·카펠로 유발). 드로우 2~3장 정도."
+   "note_ko": "내 필드에 카드가 없을 때 첫 덱·엑덱 특소에 체인(cappello 4단계, flair 3단계, rehearsal 2단계). 특소 횟수 기준이라 말라바리즘 2장 동시는 1장. [[Clown Crew Cappello]] 루트 3장, 플레어·리허설 루트 2장.",
+   "rulings": [
+    "supp-20500"
+   ]
   },
   "imperm": {
    "rating": "ok",
@@ -670,19 +962,27 @@
   },
   "veiler": {
    "rating": "ok",
-   "note_ko": "임퍼머넌스와 같은 용도(바이앙카비소). 그 외 대상은 거의 없다."
+   "note_ko": "[[Clown Crew Biancaviso]] 어드밴스 소환 유발(드로우)에 체인 맨 끝에서 화이트페이스를 대상으로(cappello 12단계, flair 5단계, rehearsal 4단계). 묘지 유발이 위에 쌓여 있어도 대상 무효라 닿고, 재료로 릴리스된 메테오는 체인 불가를 걸지 못한다. 상대 메인 페이즈 전용이라 내 턴 퀵 어드밴스 소환에는 못 쓴다. 말라바리즘·마티네로 나온 몬스터에게는 쓰지 말 것.",
+   "rulings": [
+    "supp-22524",
+    "supp-22549",
+    "supp-8933"
+   ]
   },
   "nibiru": {
    "rating": "ok",
-   "note_ko": "카펠로·플레어 루트에서 5번째 소환 이후. 단 릴리스 유발이 발동하므로 이득은 제한적."
+   "note_ko": "[[Clown Crew Cappello]]·플레어 루트에서 5번째 소환 이후. 단 릴리스 유발이 발동하므로 이득은 제한적."
   },
   "spark": {
    "rating": "ok",
-   "note_ko": "플레어(패 몬스터 효과)를 쓴 턴에 바이앙카비소를 제외. 파괴·바운스가 아니라 제외라 깔끔하다."
+   "note_ko": "플레어 공개나 릴리스 유발(패·묘지 몬스터 효과)이 나온 턴이라 패에서 발동 가능. 화이트페이스 소환 유발 체인이 끝난 뒤나 엔드 페이즈에 [[Clown Crew Biancaviso]]를 제외해 내 턴 퀵 어드밴스 소환을 없앤다. 내 묘지에 함정이 없으면 상대가 패에서 1장 특소할 수 있다(2번째 화이트페이스 주의).",
+   "rulings": [
+    "supp-22586"
+   ]
   },
   "purulia": {
    "rating": "weak",
-   "note_ko": "패에서의 소환은 바이앙카비소 어드밴스 소환·플레어 의식 소환 정도라 1~2장."
+   "note_ko": "패에서의 소환은 [[Clown Crew Biancaviso]] 어드밴스 소환·플레어 의식 소환 정도라 1~2장."
   },
   "belle": {
    "rating": "weak",
@@ -705,16 +1005,22 @@
    "note_ko": "자기 메인 덱에 있는 카드만 선언 가능. 크라운 클랜 카드에는 못 쓴다. 상대가 쓰는 공용 패트랩 대책용."
   },
   "ttt": {
-   "rating": "ok",
-   "note_ko": "후공 내 턴용. 상대가 내 메인 페이즈에 몬스터 효과를 쓰면(하르모니아 등) 발동."
+   "rating": "weak",
+   "note_ko": "상대 1턴 전개에는 쓸 곳이 거의 없음(내 메인 페이즈 중 조건이라 상대 턴에는 발동 불가). 내 턴(후공)에: 상대가 [[Clown Crew Biancaviso]] 퀵 효과나 하르모니아 등 몬스터 효과를 쓰면 발동 조건이 된다. 컨트롤 탈취로 화이트페이스를 가져와 내 어드밴스 소환·링크 재료로 쓰거나 2장 드로우.",
+   "rulings": [
+    "qa-12781"
+   ]
   },
   "droplet": {
    "rating": "ok",
-   "note_ko": "후공 돌파용. 바이앙카비소를 무효로 하면 퀵 어드밴스 소환이 안 된다."
+   "note_ko": "주로 후공 돌파용: 몬스터 카드를 보내 [[Clown Crew Biancaviso]]를 무효로 하면 화이트페이스 퀵 효과로 체인할 수 없고, 퀵 어드밴스 소환도 못 한다. 세트해 둔 경우(내가 선공이었을 때 등)에는 상대 전개 중 화이트페이스 드로우 유발에 체인 끝에서 써서 드로우를 무효로 할 수도 있다.",
+   "rulings": [
+    "supp-15299"
+   ]
   },
   "harmonia": {
    "rating": "weak",
-   "note_ko": "선공 1턴에는 직접 체인할 필드 몬스터 효과가 사실상 없다([[Clown Crew Biancaviso]] 유발은 묘지 유발에 덮임). 내 턴에 상대가 바이앙카비소 퀵 효과를 쓸 때가 실질적인 사용처",
+   "note_ko": "상대 1턴 전개에는 쓸 곳이 거의 없음([[Clown Crew Biancaviso]] 유발 위에 묘지 유발이 쌓여 직접 체인이 안 된다). 내 턴(후공)에: 화이트페이스가 '상대 메인 페이즈에 퀵으로 어드밴스 소환' 효과를 발동하면 직접 체인. 싱크로 1장 이상 함께 공개(2+)면 하르모니아가 레벨 7 튜너로 내 필드에 나오고, 싱크로 5장(6)이면 화이트페이스를 파괴한다. 다만 어드밴스 소환은 그대로 처리되고, 나온 새 화이트페이스의 무효 유발에 하르모니아도 대상이 될 수 있다.",
    "rulings": [
     "supp-22533"
    ]
@@ -732,14 +1038,14 @@
   },
   "crown": {
    "rating": "ok",
-   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 바이앙카비소 드로우 유발에 체인 가드 위에서도 닿아 2장 드로우를 무효. 그 밖의 몬스터는 원래 필드 효과를 못 쓴다",
+   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). [[Clown Crew Biancaviso]] 드로우 유발에 체인 가드 위에서도 닿아 2장 드로우를 무효. 그 밖의 몬스터는 원래 필드 효과를 못 쓴다",
    "rulings": [
     "supp-22169"
    ]
   },
   "druiswurm": {
    "rating": "ok",
-   "note_ko": "크라운 클랜은 전부 빛. [[Clown Crew Meteor]]가 묘지의 [[Clown Crew Flair]]를 회수할 때 체인해 제외하면 의식 소환·디아볼로 세트가 끊긴다. 바이앙카비소는 어드밴스 소환이라 ②의 대상이 아니다",
+   "note_ko": "크라운 클랜은 전부 빛. [[Clown Crew Meteor]]가 묘지의 [[Clown Crew Flair]]를 회수할 때 체인해 제외하면 의식 소환·디아볼로 세트가 끊긴다. [[Clown Crew Biancaviso]]는 어드밴스 소환이라 ②의 대상이 아니다",
    "rulings": [
     "supp-17764"
    ]
@@ -754,8 +1060,8 @@
  },
  "notes_ko": [
   "크라운 클랜 몬스터의 핵심 효과는 '릴리스되었을 때' 묘지에서 발동한다. 필드 무효(뵐러·포영)는 [[Clown Crew Biancaviso]] 외에는 의미가 거의 없다.",
-  "말라바리즘·마티네·소와레·카펠로는 '다음 턴 종료까지 덱·엑덱에서 특소된 몬스터 효과 발동 불가' 제약이 걸린다. 상대 덱의 엑덱 몬스터는 재료 역할일 뿐이다.",
-  "[[Clown Crew Meteor]]가 필드에 있으면 상대의 어드밴스 소환 성공 시(그때 발동한 소환 유발 포함)에 효과를 발동할 수 없다. 단 체인 2 이후의 효과로 소환되어 뒤에 다른 처리가 이어졌다면 체인 처리 후에는 대응할 수 있다. 퀵 어드밴스 소환을 막으려면 바이앙카비소의 퀵 효과 발동 전·발동 시점에 무효로 하거나 메테오를 먼저 치워야 한다.",
+  "말라바리즘·마티네·[[Clown Crew Soiree Operations]]·[[Clown Crew Cappello]]는 '다음 턴 종료까지 덱·엑덱에서 특소된 몬스터 효과 발동 불가' 제약이 걸린다. 상대 덱의 엑덱 몬스터는 재료 역할일 뿐이다.",
+  "[[Clown Crew Meteor]]가 필드에 있으면 상대의 어드밴스 소환 성공 시(그때 발동한 소환 유발 포함)에 효과를 발동할 수 없다. 단 체인 2 이후의 효과로 소환되어 뒤에 다른 처리가 이어졌다면 체인 처리 후에는 대응할 수 있다. 퀵 어드밴스 소환을 막으려면 [[Clown Crew Biancaviso]]의 퀵 효과 발동 전·발동 시점에 무효로 하거나 메테오를 먼저 치워야 한다.",
   "상대 턴 [[Clown Crew Biancaviso]] 어드밴스 소환으로 릴리스되는 크라운 클랜은 '같은 종류 몬스터(싱크로/엑시즈/융합/링크/의식/펜듈럼)를 필드·묘지에서 전부 덱/엑덱으로 되돌리기'를 고를 수 있다. 엑스트라 덱 의존 덱은 전개 도중 한꺼번에 날아갈 수 있다.",
   "[[Fydraulis Harmonia]]를 거의 다 채용(94%)한다. 후공 내 턴에 필드 몬스터 효과를 발동하면 하르모니아가 패에서 튀어나와 파괴할 수 있다는 점도 염두에 둔다."
  ],
@@ -768,12 +1074,12 @@
   "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=22538 (KONAMI DB: 道化の一座 フレア / 크라운 클랜 플레어)"
  ],
  "going_second": {
-  "summary_ko": "선공 필드에 무효 카드가 상주하지 않는다. 견제의 핵심은 내 메인 페이즈에 [[Clown Crew Biancaviso]]가 퀵으로 하는 어드밴스 소환이다. 새로 나온 바이앙카비소의 소환 유발로 내 앞면 카드를 무효로 하고, 세트한 [[Clown Crew Soiree Operations]]·[[Clown Crew Malabarisme]]로 그 재료를 꺼낸다. 이 효과들은 1턴에 1번이다. 릴리스된 [[Clown Crew Flair]]는 내 효과 몬스터를 뒷면으로 만들고, 데빌즈·디아볼로·메테오는 내 엑시즈·융합·싱크로를 엑덱으로 되돌린다. 그래서 바이앙카비소부터 무효로 하고 세트 2장의 특소를 끊어야 한다. 파괴되었을 때 발동하는 효과가 없어서 [[Raigeki]]·[[Dark Hole]]가 깨끗하게 통한다. 반대로 괴수·쿠리카라 같은 '릴리스' 처리는 상대 유발을 대 준다. 드로우로 손패가 많아 [[Fydraulis Harmonia]] 같은 패 견제를 들고 있을 가능성이 높다.",
+  "summary_ko": "선공 필드에 무효 카드가 상주하지 않는다. 견제의 핵심은 내 메인 페이즈에 [[Clown Crew Biancaviso]]가 퀵으로 하는 어드밴스 소환이다. 새로 나온 [[Clown Crew Biancaviso]]의 소환 유발로 내 앞면 카드를 무효로 하고, 세트한 [[Clown Crew Soiree Operations]]·[[Clown Crew Malabarisme]]로 그 재료를 꺼낸다. 이 효과들은 1턴에 1번이다. 릴리스된 [[Clown Crew Flair]]는 내 효과 몬스터를 뒷면으로 만들고, [[Clown Crew Fiends]]·디아볼로·메테오는 내 엑시즈·융합·싱크로를 엑덱으로 되돌린다. 그래서 [[Clown Crew Biancaviso]]부터 무효로 하고 세트 2장의 특소를 끊어야 한다. 파괴되었을 때 발동하는 효과가 없어서 [[Raigeki]]·[[Dark Hole]]가 깨끗하게 통한다. 반대로 괴수·쿠리카라 같은 '릴리스' 처리는 상대 유발을 대 준다. 드로우로 손패가 많아 [[Fydraulis Harmonia]] 같은 패 견제를 들고 있을 가능성이 높다.",
   "difficulty": "medium",
   "boards": [
    {
     "id": "full",
-    "title_ko": "풀 전개 (카펠로 1장 초동)",
+    "title_ko": "풀 전개 ([[Clown Crew Cappello]] 1장 초동)",
     "line": "cappello",
     "interruptions": [
      {
@@ -781,11 +1087,11 @@
       "card": "Clown Crew Biancaviso",
       "kind": "trigger_negate",
       "zone": "monster",
-      "timing_ko": "내 메인 페이즈에 퀵으로 어드밴스 소환(1턴 1번). 패의 2번째 바이앙카비소가 나와 소환 유발로 내 앞면 카드를 릴리스 수만큼 무효",
+      "timing_ko": "내 메인 페이즈에 퀵으로 어드밴스 소환(1턴 1번). 패의 2번째 [[Clown Crew Biancaviso]]가 나와 소환 유발로 내 앞면 카드를 릴리스 수만큼 무효",
       "answered_by": [
        {
         "id": "imperm",
-        "note_ko": "내 필드가 비어 있을 때 메인 페이즈 시작 시 패에서 바이앙카비소에게. 체인으로 퀵 어드밴스 소환을 해도 이때는 무효로 할 내 앞면 카드가 없다. 대신 드로우를 고를 수 있다"
+        "note_ko": "내 필드가 비어 있을 때 메인 페이즈 시작 시 패에서 [[Clown Crew Biancaviso]]에게. 체인으로 퀵 어드밴스 소환을 해도 이때는 무효로 할 내 앞면 카드가 없다. 대신 드로우를 고를 수 있다"
        },
        {
         "id": "dark_ruler",
@@ -793,15 +1099,15 @@
        },
        {
         "id": "droplet",
-        "note_ko": "몬스터 카드를 코스트로 보내면 바이앙카비소 퀵 효과로 체인할 수 없다"
+        "note_ko": "몬스터 카드를 코스트로 보내면 [[Clown Crew Biancaviso]] 퀵 효과로 체인할 수 없다"
        },
        {
         "id": "gamma",
-        "note_ko": "내 필드에 몬스터가 없을 때. 퀵 효과 발동이나 새 바이앙카비소의 소환 유발에 체인해 무효+파괴"
+        "note_ko": "내 필드에 몬스터가 없을 때. 퀵 효과 발동이나 새 [[Clown Crew Biancaviso]]의 소환 유발에 체인해 무효+파괴"
        },
        {
         "id": "kaiju",
-        "note_ko": "소환 절차라 체인할 수 없고, 바이앙카비소는 릴리스 유발이 없어 안전하다. 다만 상대 필드에 준 괴수가 다음 어드밴스 소환 재료가 된다"
+        "note_ko": "소환 절차라 체인할 수 없고, [[Clown Crew Biancaviso]]는 릴리스 유발이 없어 안전하다. 다만 상대 필드에 준 괴수가 다음 어드밴스 소환 재료가 된다"
        },
        {
         "id": "super_poly",
@@ -809,7 +1115,7 @@
        },
        {
         "id": "book_eclipse",
-        "note_ko": "체인으로 퀵 소환을 당해도 새 바이앙카비소까지 뒷면이 되어 소환 유발을 쓰기 어렵다. 엔드 페이즈에 상대가 드로우한다"
+        "note_ko": "체인으로 퀵 소환을 당해도 새 [[Clown Crew Biancaviso]]까지 뒷면이 되어 소환 유발을 쓰기 어렵다. 엔드 페이즈에 상대가 드로우한다"
        },
        {
         "id": "raigeki",
@@ -821,7 +1127,21 @@
        },
        {
         "id": "lightning_storm",
-        "note_ko": "몬스터 모드. 공격 표시만 파괴되고, 체인으로 나온 바이앙카비소도 같이 파괴된다"
+        "note_ko": "몬스터 모드. 공격 표시만 파괴되고, 체인으로 나온 [[Clown Crew Biancaviso]]도 같이 파괴된다"
+       },
+       {
+        "id": "harmonia",
+        "note_ko": "퀵 효과 발동에 직접 체인. 6(싱크로 5장 공개)이면 화이트페이스를 파괴하지만 어드밴스 소환은 그대로 처리된다. 2+면 레벨 7 튜너가 내 필드에 나온다(새 화이트페이스의 무효 대상이 될 수 있다)",
+        "rulings": [
+         "supp-22533"
+        ]
+       },
+       {
+        "id": "ttt",
+        "note_ko": "퀵 효과가 나온 뒤에야 발동할 수 있는 받아치기. 무효를 맞은 뒤 화이트페이스를 탈취해 재료로 쓰거나 2장 드로우",
+        "rulings": [
+         "qa-12781"
+        ]
        }
       ],
       "bait_ko": "어드밴스 소환할 몬스터가 패에 있어야 쓸 수 있다. 메인 페이즈 시작에 포영이나 아무 앞면 카드 1장으로 먼저 끌어내면, 이후 전개는 무효를 맞지 않는다.",
@@ -834,7 +1154,7 @@
       "card": "Clown Crew Flair",
       "kind": "other",
       "zone": "monster",
-      "timing_ko": "어드밴스 소환 재료로 릴리스되면(의식 몬스터라 1장으로 바이앙카비소 소환 가능) 내 효과 몬스터 1장을 뒷면 수비로",
+      "timing_ko": "어드밴스 소환 재료로 릴리스되면(의식 몬스터라 1장으로 [[Clown Crew Biancaviso]] 소환 가능) 내 효과 몬스터 1장을 뒷면 수비로",
       "answered_by": [
        {
         "id": "raigeki",
@@ -867,7 +1187,7 @@
       "card": "Clown Crew Soiree Operations",
       "kind": "bounce",
       "zone": "st",
-      "timing_ko": "세트 함정. 덱·엑덱에서 크라운 클랜 2장 특소(어드밴스 소환 재료). 이후 묘지에서 제외해 어드밴스 소환 1회 더. 릴리스된 데빌즈·디아볼로·메테오는 내 엑시즈·융합·싱크로를 전부 엑덱으로",
+      "timing_ko": "세트 함정. 덱·엑덱에서 크라운 클랜 2장 특소(어드밴스 소환 재료). 이후 묘지에서 제외해 어드밴스 소환 1회 더. 릴리스된 [[Clown Crew Fiends]]·디아볼로·메테오는 내 엑시즈·융합·싱크로를 전부 엑덱으로",
       "answered_by": [
        {
         "id": "ash",
@@ -889,7 +1209,7 @@
       "card": "Clown Crew Malabarisme",
       "kind": "bounce",
       "zone": "st",
-      "timing_ko": "세트 속공. 덱·엑덱에서 크라운 클랜 2장 특소. 바이앙카비소 퀵 어드밴스 소환 재료와 릴리스 유발(엑덱 되돌리기·마함 세트)을 공급",
+      "timing_ko": "세트 속공. 덱·엑덱에서 크라운 클랜 2장 특소. [[Clown Crew Biancaviso]] 퀵 어드밴스 소환 재료와 릴리스 유발(엑덱 되돌리기·마함 세트)을 공급",
       "answered_by": [
        {
         "id": "ash",
@@ -918,7 +1238,7 @@
       "card": "Clown Crew Biancaviso",
       "kind": "trigger_negate",
       "zone": "monster",
-      "timing_ko": "내 메인 페이즈에 퀵으로 어드밴스 소환. [[Clown Crew Meteor]]가 필드에 있어서 소환 자체와, 체인 1로 소환된 새 바이앙카비소의 소환 유발에는 체인할 수 없다. 새 바이앙카비소 유발로 내 앞면 카드 무효",
+      "timing_ko": "내 메인 페이즈에 퀵으로 어드밴스 소환. [[Clown Crew Meteor]]가 필드에 있어서 소환 자체와, 체인 1로 소환된 새 [[Clown Crew Biancaviso]]의 소환 유발에는 체인할 수 없다. 새 [[Clown Crew Biancaviso]] 유발로 내 앞면 카드 무효",
       "answered_by": [
        {
         "id": "imperm",
@@ -926,7 +1246,7 @@
        },
        {
         "id": "dark_ruler",
-        "note_ko": "체인 불가로 바이앙카비소·메테오를 같이 무효. 소와레 묘지 효과로 나중에 나오는 몬스터는 별도"
+        "note_ko": "체인 불가로 [[Clown Crew Biancaviso]]·메테오를 같이 무효. [[Clown Crew Soiree Operations]] 묘지 효과로 나중에 나오는 몬스터는 별도"
        },
        {
         "id": "droplet",
@@ -934,7 +1254,7 @@
        },
        {
         "id": "gamma",
-        "note_ko": "내 필드에 몬스터가 없을 때 바이앙카비소의 퀵 효과 발동에 체인한다. 메테오가 있으면 체인 1로 소환된 새 바이앙카비소의 소환 유발에는 체인할 수 없다(체인 2 이후로 소환됐다면 체인 처리 후 가능)",
+        "note_ko": "내 필드에 몬스터가 없을 때 [[Clown Crew Biancaviso]]의 퀵 효과 발동에 체인한다. 메테오가 있으면 체인 1로 소환된 새 [[Clown Crew Biancaviso]]의 소환 유발에는 체인할 수 없다(체인 2 이후로 소환됐다면 체인 처리 후 가능)",
         "rulings": [
          "supp-22549",
          "qa-14791",
@@ -943,7 +1263,7 @@
        },
        {
         "id": "kaiju",
-        "note_ko": "바이앙카비소를 릴리스해 체인 없이 처리. 메테오는 릴리스하면 유발이 나오니 대상으로 고르지 않는다"
+        "note_ko": "[[Clown Crew Biancaviso]]를 릴리스해 체인 없이 처리. 메테오는 릴리스하면 유발이 나오니 대상으로 고르지 않는다"
        },
        {
         "id": "super_poly",
@@ -956,9 +1276,23 @@
        {
         "id": "dark_hole",
         "note_ko": "번개와 같다"
+       },
+       {
+        "id": "harmonia",
+        "note_ko": "퀵 효과 발동에 직접 체인. 6(싱크로 5장 공개)이면 화이트페이스를 파괴하지만 어드밴스 소환은 그대로 처리된다. 2+면 레벨 7 튜너가 내 필드에 나온다(새 화이트페이스의 무효 대상이 될 수 있다)",
+        "rulings": [
+         "supp-22533"
+        ]
+       },
+       {
+        "id": "ttt",
+        "note_ko": "퀵 효과가 나온 뒤에야 발동할 수 있는 받아치기. 무효를 맞은 뒤 화이트페이스를 탈취해 재료로 쓰거나 2장 드로우",
+        "rulings": [
+         "qa-12781"
+        ]
        }
       ],
-      "bait_ko": "메테오가 있으면 어드밴스 소환 성공 시(소환 유발 포함)에 대응할 수 없으니, 바이앙카비소의 퀵 효과 발동 전이나 그 발동에 체인해 무효로 하거나 메테오를 먼저 치운다. 내 카드에 체인해(체인 2 이후로) 퀵 소환했다면 체인 처리 후 소환 유발에 대응할 수 있다.",
+      "bait_ko": "메테오가 있으면 어드밴스 소환 성공 시(소환 유발 포함)에 대응할 수 없으니, [[Clown Crew Biancaviso]]의 퀵 효과 발동 전이나 그 발동에 체인해 무효로 하거나 메테오를 먼저 치운다. 내 카드에 체인해(체인 2 이후로) 퀵 소환했다면 체인 처리 후 소환 유발에 대응할 수 있다.",
       "rulings": [
        "supp-22549",
        "qa-14791",
@@ -1035,7 +1369,7 @@
    },
    {
     "id": "after_maxxc_stop",
-    "title_ko": "증G를 맞고 바이앙카비소 + 세트 2장으로 멈춘 경우",
+    "title_ko": "증G를 맞고 [[Clown Crew Biancaviso]] + 세트 2장으로 멈춘 경우",
     "after": {
      "handtrap": "maxxc",
      "line": "flair",
@@ -1047,7 +1381,7 @@
       "card": "Clown Crew Biancaviso",
       "kind": "trigger_negate",
       "zone": "monster",
-      "timing_ko": "내 메인 페이즈에 퀵으로 어드밴스 소환해 내 앞면 카드 무효. 재료는 세트한 소와레에서 꺼낸다",
+      "timing_ko": "내 메인 페이즈에 퀵으로 어드밴스 소환해 내 앞면 카드 무효. 재료는 세트한 [[Clown Crew Soiree Operations]]에서 꺼낸다",
       "answered_by": [
        {
         "id": "imperm",
@@ -1067,7 +1401,7 @@
        },
        {
         "id": "kaiju",
-        "note_ko": "체인 불가. 바이앙카비소는 릴리스 유발이 없다"
+        "note_ko": "체인 불가. [[Clown Crew Biancaviso]]는 릴리스 유발이 없다"
        },
        {
         "id": "super_poly",
@@ -1117,7 +1451,7 @@
   "breakers": {
    "lightning_storm": {
     "rating": "strong",
-    "note_ko": "몬스터 모드가 기본. 바이앙카비소는 공격 표시인 경우가 많고, 파괴 유발이 없다. 마함 모드로 쓰면 세트 소와레·말라바리즘이 체인으로 발동해 버린다."
+    "note_ko": "몬스터 모드가 기본. [[Clown Crew Biancaviso]]는 공격 표시인 경우가 많고, 파괴 유발이 없다. 마함 모드로 쓰면 세트 [[Clown Crew Soiree Operations]]·말라바리즘이 체인으로 발동해 버린다."
    },
    "evenly_matched": {
     "rating": "ok",
@@ -1125,11 +1459,11 @@
    },
    "dark_ruler": {
     "rating": "strong",
-    "note_ko": "바이앙카비소 퀵 어드밴스 소환을 체인 없이 봉쇄. 소와레 묘지 효과로 나오는 2번째 바이앙카비소와 세트 마함 특소는 남는다. 이번 턴 데미지를 줄 수 없다."
+    "note_ko": "[[Clown Crew Biancaviso]] 퀵 어드밴스 소환을 체인 없이 봉쇄. [[Clown Crew Soiree Operations]] 묘지 효과로 나오는 2번째 [[Clown Crew Biancaviso]]와 세트 마함 특소는 남는다. 이번 턴 데미지를 줄 수 없다."
    },
    "harpie": {
     "rating": "weak",
-    "note_ko": "세트 소와레·말라바리즘은 체인해서 발동하므로 막지 못한다. 마티네를 지워 엔드 페이즈 드로우를 끊는 정도."
+    "note_ko": "세트 [[Clown Crew Soiree Operations]]·말라바리즘은 체인해서 발동하므로 막지 못한다. 마티네를 지워 엔드 페이즈 드로우를 끊는 정도."
    },
    "heavy_storm": {
     "rating": "weak",
@@ -1137,7 +1471,7 @@
    },
    "raigeki": {
     "rating": "strong",
-    "note_ko": "크라운 클랜은 파괴 유발이 없어서 깨끗하다. 내 필드가 비어 있을 때 쓰면 바이앙카비소가 체인해 퀵 소환을 해도 무효로 할 대상이 없다."
+    "note_ko": "크라운 클랜은 파괴 유발이 없어서 깨끗하다. 내 필드가 비어 있을 때 쓰면 [[Clown Crew Biancaviso]]가 체인해 퀵 소환을 해도 무효로 할 대상이 없다."
    },
    "dark_hole": {
     "rating": "strong",
@@ -1145,7 +1479,7 @@
    },
    "kaiju": {
     "rating": "ok",
-    "note_ko": "바이앙카비소에게만 쓴다(릴리스 유발 없음). 플레어·메테오 등 다른 크라운 클랜을 릴리스하면 유발을 대 준다. 상대 필드에 준 괴수가 어드밴스 소환 재료가 된다.",
+    "note_ko": "[[Clown Crew Biancaviso]]에게만 쓴다(릴리스 유발 없음). 플레어·메테오 등 다른 크라운 클랜을 릴리스하면 유발을 대 준다. 상대 필드에 준 괴수가 어드밴스 소환 재료가 된다.",
     "rulings": [
      "qa-11566"
     ]
@@ -1164,11 +1498,11 @@
    },
    "super_poly": {
     "rating": "strong",
-    "note_ko": "체인 불가. 융합 소재는 릴리스가 아니라서 크라운 클랜 유발이 나오지 않는다. 바이앙카비소 + 플레어/메테오를 한 번에 치운다."
+    "note_ko": "체인 불가. 융합 소재는 릴리스가 아니라서 크라운 클랜 유발이 나오지 않는다. [[Clown Crew Biancaviso]] + 플레어/메테오를 한 번에 치운다."
    },
    "book_eclipse": {
     "rating": "strong",
-    "note_ko": "대상을 잡지 않는다. 체인으로 퀵 소환한 바이앙카비소도 뒷면이 되어 소환 유발을 쓰기 어렵다. 엔드 페이즈에 상대가 드로우한다.",
+    "note_ko": "대상을 잡지 않는다. 체인으로 퀵 소환한 [[Clown Crew Biancaviso]]도 뒷면이 되어 소환 유발을 쓰기 어렵다. 엔드 페이즈에 상대가 드로우한다.",
     "rulings": [
      "supp-7752",
      "supp-22524"
@@ -1176,31 +1510,35 @@
    },
    "kurikara": {
     "rating": "ok",
-    "note_ko": "필드의 크라운 클랜은 효과를 거의 발동하지 않는다. 바이앙카비소가 퀵 효과를 쓴 뒤에만 대상이 된다. 바이앙카비소에게는 릴리스 유발이 없다."
+    "note_ko": "필드의 크라운 클랜은 효과를 거의 발동하지 않는다. [[Clown Crew Biancaviso]]가 퀵 효과를 쓴 뒤에만 대상이 된다. [[Clown Crew Biancaviso]]에게는 릴리스 유발이 없다."
    },
    "ultimate_slayer": {
     "rating": "weak",
-    "note_ko": "바이앙카비소(일반 효과 몬스터)·플레어(의식)는 대상이 안 된다. 메테오(싱크로)가 필드에 남은 보드에서만 쓸 만하다."
+    "note_ko": "[[Clown Crew Biancaviso]](일반 효과 몬스터)·플레어(의식)는 대상이 안 된다. 메테오(싱크로)가 필드에 남은 보드에서만 쓸 만하다."
    },
    "fallen_virtuous": {
     "rating": "ok",
-    "note_ko": "알바스 엔진 한정. 속공으로 바이앙카비소를 파괴한다. 체인으로 퀵 소환은 할 수 있다."
+    "note_ko": "알버스 엔진 한정. 속공으로 [[Clown Crew Biancaviso]]를 파괴한다. 체인으로 퀵 소환은 할 수 있다."
    },
    "harmonia": {
-    "rating": "weak",
-    "note_ko": "바이앙카비소 퀵 효과 발동에 반응해 파괴할 수 있지만, 어드밴스 소환은 그대로 처리된다."
+    "rating": "ok",
+    "note_ko": "화이트페이스의 퀵 효과(어드밴스 소환) 발동에 직접 체인. 2+ 공개면 레벨 7 튜너가 내 필드에 나와 싱크로 재료가 되고, 6이면 화이트페이스를 파괴한다. 파괴해도 효과 처리 직후의 어드밴스 소환은 그대로 일어나고, 새 화이트페이스의 무효 유발이 하르모니아에 걸릴 수 있다. 엑스트라 덱에서 나온 싱크로 이외 몬스터 효과 제약이 다음 내 턴까지 걸린다.",
+    "rulings": [
+     "supp-22533",
+     "supp-22524"
+    ]
    },
    "imperm": {
     "rating": "strong",
-    "note_ko": "메인 페이즈 시작 시 패에서 바이앙카비소에게. 체인 퀵 소환을 끌어내도 내 앞면 카드가 없어서 무효가 허공에 뜬다."
+    "note_ko": "메인 페이즈 시작 시 패에서 [[Clown Crew Biancaviso]]에게. 체인 퀵 소환을 끌어내도 내 앞면 카드가 없어서 무효가 허공에 뜬다."
    },
    "gamma": {
     "rating": "strong",
-    "note_ko": "내 필드에 몬스터가 없을 때. 바이앙카비소 퀵 효과나 새 바이앙카비소의 소환 유발을 무효+파괴."
+    "note_ko": "내 필드에 몬스터가 없을 때. [[Clown Crew Biancaviso]] 퀵 효과나 새 [[Clown Crew Biancaviso]]의 소환 유발을 무효+파괴."
    },
    "droplet": {
     "rating": "strong",
-    "note_ko": "몬스터 카드를 보내면 바이앙카비소로 체인할 수 없다. 마법 카드도 보내면 말라바리즘, 함정 카드도 보내면 소와레까지 체인을 막는다."
+    "note_ko": "몬스터 카드를 보내면 [[Clown Crew Biancaviso]]로 체인할 수 없다. 마법 카드도 보내면 말라바리즘, 함정 카드도 보내면 [[Clown Crew Soiree Operations]]까지 체인을 막는다."
    },
    "ash": {
     "rating": "strong",
@@ -1208,15 +1546,18 @@
    },
    "impulse": {
     "rating": "ok",
-    "note_ko": "소와레·말라바리즘의 특소를 무효. 바이앙카비소의 어드밴스 소환은 특소가 아니라서 막을 수 없다."
+    "note_ko": "[[Clown Crew Soiree Operations]]·말라바리즘의 특소를 무효. [[Clown Crew Biancaviso]]의 어드밴스 소환은 특소가 아니라서 막을 수 없다."
    },
    "ogre": {
     "rating": "weak",
-    "note_ko": "바이앙카비소 퀵 효과에 체인해 파괴해도 어드밴스 소환은 처리된다."
+    "note_ko": "[[Clown Crew Biancaviso]] 퀵 효과에 체인해 파괴해도 어드밴스 소환은 처리된다."
    },
    "ttt": {
     "rating": "ok",
-    "note_ko": "내 메인 페이즈에 바이앙카비소 퀵 효과가 나오면 발동 조건이 된다. 컨트롤 탈취로 바이앙카비소를 가져와 내 재료로 쓴다."
+    "note_ko": "상대 1턴 전개에는 못 쓴다. 내 메인 페이즈에 화이트페이스 퀵 효과(또는 하르모니아 등 패트랩)가 나오면 발동 조건이 된다. 무효를 맞은 뒤 받아치는 카드: 컨트롤 탈취로 필드의 화이트페이스를 가져와 내 재료로 쓰거나(엔드 페이즈에 돌아가므로 소재·릴리스로 써 버린다), 2장 드로우.",
+    "rulings": [
+     "qa-12781"
+    ]
    },
    "spark": {
     "rating": "weak",
@@ -1245,7 +1586,7 @@
   "sequencing_ko": [
    "메인 페이즈 시작 시 내 필드가 비어 있을 때 [[Infinite Impermanence]]·[[Raigeki]] 등으로 [[Clown Crew Biancaviso]]부터 처리한다. 체인으로 퀵 어드밴스 소환이 와도 이때는 무효로 할 내 앞면 카드가 없다.",
    "세트된 [[Clown Crew Soiree Operations]]·[[Clown Crew Malabarisme]]는 마함 제거에 체인해서 발동된다. [[Ash Blossom & Joyous Spring]]·[[Dominus Impulse]]로 특소를 무효로 하는 게 확실하다.",
-   "엑시즈·융합·싱크로 몬스터는 상대의 어드밴스 소환(릴리스)이 끝난 뒤에 낸다. 데빌즈·디아볼로·메테오의 릴리스 유발로 필드·묘지의 같은 종류 몬스터가 전부 엑덱으로 돌아간다.",
+   "엑시즈·융합·싱크로 몬스터는 상대의 어드밴스 소환(릴리스)이 끝난 뒤에 낸다. [[Clown Crew Fiends]]·디아볼로·메테오의 릴리스 유발로 필드·묘지의 같은 종류 몬스터가 전부 엑덱으로 돌아간다.",
    "제거는 파괴(번개·블랙홀)나 융합 소재(초융합)로 한다. 괴수·쿠리카라 같은 릴리스는 [[Clown Crew Biancaviso]]에게만 쓴다.",
    "[[Fydraulis Harmonia]] 채용률이 높다. 필드 몬스터 효과를 처음 발동할 때 파괴될 수 있으니, 중요한 몬스터 전에 미끼 효과를 먼저 쓴다."
   ]

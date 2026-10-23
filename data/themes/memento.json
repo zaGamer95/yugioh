@@ -796,6 +796,138 @@
    ]
   },
   {
+   "handtrap": "imperm",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "[[Mementotlan Angwitch]]의 서치 효과 발동에 체인해 엔위치 대상 (패에서 쓰려면 내 필드가 비어 있을 것)",
+   "why_ko": "엔위치는 필드에 앞면으로 남은 채 서치를 처리하므로 그 서치가 무효가 된다. 이번 턴 엔위치 효과가 전부 꺼져 ②(자신 파괴 → 묘지의 레벨 2 이하 메멘토 특소)도 못 쓴다. 우라라와 같은 지점이지만 엔위치 몸까지 묶는다.",
+   "fallback_ko": "손패의 [[Mementotlan Tatsunootoshigo]]·[[Mementotlan Goblin]]·[[Goblin Biker Grand Breakout]]으로 재개. 놓쳤다면 4단계 타츠노오토시고 ②에."
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "[[Mementotlan Angwitch]]의 서치 효과 발동에 체인해 엔위치 대상 (상대 메인 페이즈라 사용 가능)",
+   "why_ko": "무한포영과 같다. 엔위치가 필드에 남아 처리되므로 서치가 무효가 되고, 이번 턴 엔위치 ②도 못 쓴다. 우라라·퍼지보다 엔위치 몸까지 묶는 점이 낫다.",
+   "fallback_ko": "손패의 [[Mementotlan Tatsunootoshigo]](엔위치가 메멘토라 패 특소 가능)·[[Mementotlan Goblin]]·[[Goblin Biker Grand Breakout]]으로 재개. 놓쳤다면 4단계 타츠노오토시고 ②에."
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "[[Mementotlan Angwitch]]의 서치 효과 발동에 직접 체인 (내 필드에 몬스터가 없을 것)",
+   "why_ko": "서치가 무효가 되고 엔위치도 파괴된다. 타츠노오토시고가 들어오지 않아 엔위치 1장 초동이 바로 끝난다. 엔위치가 효과로 파괴되어 스리피·메멘토 퓨전의 '이번 턴 효과로 파괴' 조건은 채워지지만, 1장 초동이면 이어갈 카드가 없다.",
+   "fallback_ko": "손패에 [[Mementotlan Shleepy]]·[[Mementotlan Goblin]]·[[Goblin Biker Grand Breakout]]이 있으면 재개(스리피는 파괴 조건이 켜져 패에서 특소 가능). 감마는 제한 1."
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "[[Mementotlan Angwitch]]의 서치 효과 발동에 직접 체인. 상대 필드에 엔위치가 있어 패에서 발동 가능",
+   "why_ko": "우라라와 같은 결과로 타츠노오토시고가 들어오지 않는다. 내 묘지에 함정이 있으면 엔위치까지 파괴한다(후공 1턴이면 보통 없음). 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓰니 내 덱 속성을 확인할 것.",
+   "fallback_ko": "우라라와 같다."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 3,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "[[Mementotlan Tatsunootoshigo]] ①(패에서 자신 특소) 발동에 직접 체인. 상대 필드에 엔위치가 있어 패에서 발동 가능",
+   "why_ko": "특소가 무효가 되어 타츠노오토시고가 패에 남고 ①은 이번 턴 다시 못 쓴다. 엔위치 ②의 대상이 묘지에 없어 엔위치 1장으로 끝난다. 주의: 내 묘지에 함정이 있으면 패의 타츠노오토시고를 파괴하는데, 패의 메멘토가 효과로 파괴되면 스리피·메멘토 퓨전의 '이번 턴 효과로 파괴' 조건을 채워 준다(후공 1턴이면 보통 묘지에 함정이 없다). 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 못 쓴다.",
+   "fallback_ko": "손패의 고블린·브레이크아웃으로 재개. 놓쳤다면 7단계 메멘토 퓨전 발동에 써서 크리에이션 킹을 막는다."
+  },
+  {
+   "handtrap": "belle",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 7,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "[[Mementotlan Fusion]] 카드 발동에 체인 (묘지의 메멘토를 덱으로 되돌려 소재로 하는 융합)",
+   "why_ko": "공식 Q&A가 메멘토 퓨전 ①을 '묘지의 카드를 덱에 넣는 효과를 포함한 카드'로 명시해 와라시를 체인할 수 있다. 발동이 무효가 되면 크리에이션 킹이 나오지 않는다. 이때 필드는 비어 있고(엔위치·메이스가 자괴), 묘지의 스리피·고블린을 꺼낼 수단도 없어 전개가 끝난다. 메멘토 퓨전 ①은 1턴 1번이라 무효가 된 뒤 2장째도 못 쓴다.",
+   "fallback_ko": "손패에 [[Goblin Biker Grand Breakout]]·[[Mementotlan Goblin]]이 있으면 재개. 9단계 가티크 묘지 특소에 쓰는 것보다 훨씬 크다. 메멘토 퓨전 ②(묘지의 자신을 제외)와 크리에이션 킹의 필드 마법 서치는 묘지 제외가 비용이라 와라시로 못 막는다.",
+   "rulings": [
+    "qa-21722",
+    "qa-21720",
+    "supp-19904"
+   ]
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 3,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "[[Mementotlan Goblin]] ②(자신 파괴 → 덱에서 2장 묘지로) 발동에 체인해 고블린 대상",
+   "why_ko": "파괴도 덤핑도 일어나지 않는다. 이 라인은 고블린 덤핑 하나로 가티크·메멘토 퓨전을 묘지에 놓아 시작하므로 여기서 멈춘다. 릴리스한 몬스터는 이미 비용으로 썼고 일반 소환권도 없다.",
+   "fallback_ko": "필드에 고블린 1장. 손패에 [[Mementotlan Tatsunootoshigo]]가 있으면 패 특소로 재개."
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 3,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "[[Mementotlan Goblin]] ② 발동에 직접 체인 (내 필드에 몬스터가 없을 것)",
+   "why_ko": "무효 + 고블린 파괴. 덤핑이 없어 가티크·메멘토 퓨전이 묘지에 가지 않는다. 고블린이 효과로 파괴되어 스리피 조건은 켜지지만 스리피가 패에 없으면 의미가 없다.",
+   "fallback_ko": "손패의 타츠노오토시고·스리피로 재개. 감마는 제한 1."
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 2,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "[[Goblin Biker Grand Breakout]]으로 [[Mementotlan Goblin]]이 덱에서 특소된 직후 버리고 고블린 대상",
+   "why_ko": "고블린 효과가 무효가 되어 ②를 못 쓴다. 뵐러를 3단계에 맞춘 것과 같은 결과로 이 라인이 시작되지 않는다.",
+   "fallback_ko": "필드에 고블린 1장. 손패의 타츠노오토시고로 재개."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 2,
+   "target_card": "Goblin Biker Grand Breakout",
+   "timing_ko": "[[Goblin Biker Grand Breakout]] 발동에 직접 체인 (덱에서 고블린 특소 = 특소를 포함). 상대 필드에 브레이크아웃이 있어 패에서 발동 가능",
+   "why_ko": "릴리스는 비용이라 상대 몬스터는 이미 묘지로 갔고, 고블린은 나오지 않는다. 상대는 일반 소환권도 썼다. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 못 쓴다.",
+   "fallback_ko": "손패의 타츠노오토시고·엔위치가 있어도 일반 소환권이 없어 엔위치는 못 낸다. 놓쳤다면 6단계 메멘토 퓨전 발동에."
+  },
+  {
+   "handtrap": "belle",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 6,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "가티크로 회수한 [[Mementotlan Fusion]] 발동에 체인 (묘지의 고블린을 덱으로 되돌려 소재로 하는 융합)",
+   "why_ko": "공식 Q&A로 메멘토 퓨전 ①에 와라시를 체인할 수 있다. 트윈 드래곤이 나오지 않아 스리피·타츠노오토시고 서치가 없고, 필드의 가티크 1장만 남는다. 메멘토 퓨전 ①은 이번 턴 다시 못 쓴다.",
+   "fallback_ko": "가티크 + 손패. 손패에 메멘토 몬스터가 더 있으면 가티크와 함께 다른 수로 이어 간다.",
+   "rulings": [
+    "qa-21722",
+    "supp-19904"
+   ]
+  },
+  {
+   "handtrap": "belle",
+   "severity": "critical",
+   "line": "fuwalos",
+   "step": 7,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "[[Mementotlan Fusion]] 카드 발동에 체인 (angwitch 라인 7단계와 같다)",
+   "why_ko": "크리에이션 킹이 나오지 않아 후와로스 드로우 1장도 주지 않고 전개가 끝난다.",
+   "fallback_ko": "angwitch 라인 7단계와 같다.",
+   "rulings": [
+    "qa-21722"
+   ]
+  },
+  {
    "handtrap": "crown",
    "severity": "strong",
    "line": "angwitch",
@@ -811,8 +943,8 @@
    "line": "angwitch",
    "step": 4,
    "target_card": "Mementotlan Tatsunootoshigo",
-   "timing_ko": "[[Mementotlan Tatsunootoshigo]] ② 발동에 체인해 타츠노오토시고 대상. 뵐러도 같은 타이밍(뵐러는 특소 직후 ② 발동 전에 걸어도 된다)",
-   "why_ko": "효과가 무효가 되어 파괴·덤핑이 없다. 우라라와 같은 결과에 내 손에서 우라라를 아낄 수 있다. 엔위치 서치(2단계)에 걸면 서치는 이미 처리된 뒤라 의미가 없으니 반드시 타츠노오토시고에.",
+   "timing_ko": "[[Mementotlan Tatsunootoshigo]] ② 발동에 체인해 타츠노오토시고 대상. 2단계 엔위치 서치를 놓쳤을 때의 2순위",
+   "why_ko": "효과가 무효가 되어 파괴·덤핑이 없다. 우라라와 같은 결과에 내 손에서 우라라를 아낄 수 있다.",
    "fallback_ko": "필드에 엔위치 + 타츠노오토시고. [[S:P Little Knight]] 정도로 끝나거나, 손패 확장(고블린·브레이크아웃)이 있으면 재개.",
    "rulings": [
     "supp-19362"
@@ -882,6 +1014,115 @@
    "fallback_ko": "`fuwalos` 라인 판면: 크리에이션 킹, 가티크, 메멘토랄, 필드 마법, 세트 퓨전·본 파티, 패에 호른 드래곤."
   },
   {
+   "handtrap": "droll",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "엔위치의 서치가 처리되어 [[Mementotlan Tatsunootoshigo]]가 패에 들어온 직후 발동",
+   "why_ko": "이후 덱에서 패로 넣는 것이 전부 막힌다: 메이스의 메멘토 퓨전 서치, 크리에이션 킹의 필드 마법 서치, 퓨전 묘지 효과의 본 파티 서치, 트윈 드래곤의 2장 서치. 판면의 필드 마법·본 파티·메멘토랄·호른 드래곤이 대부분 빠진다.",
+   "fallback_ko": "완전히 멈추지는 않는다. 타츠노오토시고로 고블린·메이스·스리피를 덤핑 → 엔위치 ②로 고블린 소생 → 고블린 ②로 메멘토 퓨전과 가티크를 덤핑 → 가티크 특소·퓨전 회수(묘지 → 패는 드롤에 안 걸림) → 크리에이션 킹까지는 우회할 수 있다. 그래도 필드 마법이 없어 이후 소생 연쇄가 끊긴다.",
+   "rulings": [
+    "qa-12797"
+   ]
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 3,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "[[Mementotlan Tatsunootoshigo]]가 패에서 특소된 직후 버리고 타츠노오토시고 대상",
+   "why_ko": "효과가 무효가 되어 ②(자신 파괴 → 덤핑)를 못 쓴다. 엔위치 ②의 대상이 묘지에 생기지 않아 4단계에 우라라·뵐러를 맞춘 것과 같은 결과. 이번 턴 타츠노오토시고가 필드를 떠나면(링크 소재 등) 상대가 원래 공격력만큼 데미지를 받는다.",
+   "fallback_ko": "필드에 엔위치 + 타츠노오토시고. [[S:P Little Knight]] 정도로 끝나거나 손패 고블린·브레이크아웃으로 재개."
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 4,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "[[Mementotlan Tatsunootoshigo]] ② 발동에 체인해 타츠노오토시고 대상 (특소 직후 ② 발동 전에 걸어도 된다)",
+   "why_ko": "② 처리 때 파괴·덤핑이 모두 일어나지 않는다. ②는 이번 턴 다시 못 쓰고, 엔위치 ②의 대상(묘지의 레벨 2 이하 메멘토)도 생기지 않아 메이스 → 메멘토 퓨전 → 크리에이션 킹이 통째로 사라진다. 2단계를 놓쳤을 때의 2순위.",
+   "fallback_ko": "필드에 엔위치 + 타츠노오토시고. [[S:P Little Knight]] 1장 정도로 끝나거나 손패 고블린·브레이크아웃으로 재개.",
+   "rulings": [
+    "supp-19362"
+   ]
+  },
+  {
+   "handtrap": "meowls",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 5,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "엔위치 ②(자신 파괴 → 묘지의 메이스 특소) 발동에 체인, 첫 묘지 특소 직전 (내 필드에 카드가 없을 것)",
+   "why_ko": "이후 묘지 특소가 메이스·가티크(9)·고블린(16)·아키히론(17)·메이스 플로트(21)·메멘토랄(25)로 6번 → 6드로우. 끝까지 가면 상대가 손해라 크리에이션 킹 근처에서 멈추게 만든다.",
+   "fallback_ko": "상대는 가티크·아키히론 소생을 줄이고 메멘토랄을 패에서 꺼내는(냐루스 대상 아님) 식으로 줄인다. 그래도 2~3드로우는 남는다."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 7,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "[[Mementotlan Fusion]] 카드 발동에 직접 체인 (융합 소환 = 특소를 포함하는 효과)",
+   "why_ko": "3단계를 놓쳤을 때의 2순위. 메멘토 퓨전 효과가 무효가 되어 크리에이션 킹이 나오지 않고, 필드가 빈 상태로 묘지만 쌓인다. 내 묘지에 함정이 있으면 메멘토 퓨전도 파괴된다(어차피 묘지로 간다).",
+   "fallback_ko": "와라시와 같다. 묘지에 들어간 메멘토 퓨전 ②는 '자기 필드 몬스터 파괴'라 필드가 비면 못 쓴다."
+  },
+  {
+   "handtrap": "droll",
+   "severity": "strong",
+   "line": "breakout",
+   "step": 7,
+   "target_card": "Mementotlan Twin Dragon",
+   "timing_ko": "[[Mementotlan Twin Dragon]]의 서치(스리피·타츠노오토시고)가 처리된 직후 발동 (이 라인의 첫 '덱에서 패' — 가티크 회수는 묘지에서라 해당 없음)",
+   "why_ko": "이후 크리에이션 킹의 필드 마법 서치, 퓨전 묘지 효과의 본 파티 서치, 엔위치의 메멘토랄 서치가 전부 막힌다. 필드 마법이 없어 다크 블레이드 소생 → 엔위치 → S:P 흐름도 끊긴다.",
+   "fallback_ko": "크리에이션 킹 융합과 덤핑(덱 → 묘지는 가능)까지는 간다. 손패에 메멘토랄·필드 마법이 미리 있으면 일부 복구.",
+   "rulings": [
+    "qa-12797"
+   ]
+  },
+  {
+   "handtrap": "purge",
+   "severity": "strong",
+   "line": "breakout",
+   "step": 7,
+   "target_card": "Mementotlan Twin Dragon",
+   "timing_ko": "[[Mementotlan Twin Dragon]]의 서치 효과 발동에 직접 체인 (상대 필드에 트윈 드래곤이 있어 패에서 발동 가능)",
+   "why_ko": "효과 전체가 무효라 파괴도 서치도 없다. 트윈 드래곤이 파괴되지 않아 ③ 플로트도 없고, 스리피·타츠노오토시고가 들어오지 않아 크리에이션 킹을 못 만든다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다.",
+   "fallback_ko": "묘지의 메멘토 퓨전 ②(자신 제외 → 트윈 드래곤 파괴 → 본 파티 서치)로 트윈 드래곤 플로트를 일으켜 일부 잇는다. 그래도 크리에이션 킹이 없어 판면이 크게 줄어든다."
+  },
+  {
+   "handtrap": "spark",
+   "severity": "strong",
+   "line": "breakout",
+   "step": 9,
+   "target_card": "Mementotlan Ghattic",
+   "timing_ko": "[[Mementotlan Shleepy]] ①(패에서 퀵 특소) 발동에 체인해 필드의 [[Mementotlan Ghattic]]을 제외 (가티크 묘지 효과로 조건 충족)",
+   "why_ko": "스리피의 융합은 '패·필드'의 소재만 쓰므로 가티크가 빠지면 스리피 + 패의 타츠노오토시고 2장뿐이라 크리에이션 킹(소재 3장)을 못 만든다. 트윈 드래곤은 서치·플로트를 이미 써서 다시 내도 몸 하나다. 크리에이션 킹이 없으니 필드 마법 서치·덤핑·다크 블레이드 소생이 전부 사라진다.",
+   "fallback_ko": "내 묘지에 함정이 없으면 상대가 패에서 1장 특소할 수 있다(타츠노오토시고를 내면 소재가 하나 늘어나니 주의). 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 못 쓴다."
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "fuwalos",
+   "step": 8,
+   "target_card": "Mementomictlan Tecuhtlica - Creation King",
+   "timing_ko": "후와로스를 맞은 상대가 짧은 루트로 갈 때, [[Mementomictlan Tecuhtlica - Creation King]]의 융합 소환 시 덤핑 효과에 체인해 크리에이션 킹 대상",
+   "why_ko": "덤핑이 무효가 되어 2번째 크리에이션 킹·가티크·아키히론이 묘지에 가지 않는다. 필드 마법 서치, 가티크 특소·스리피 회수, 아키히론 소생이 모두 사라져 크리에이션 킹 1장 + 손패로 끝난다. 크리에이션 킹의 퀵 파괴는 이번 턴만 꺼지므로 내 턴에는 다시 살아 있다.",
+   "fallback_ko": "1~4단계는 angwitch 라인과 같으니 그때 뵐러가 있었다면 2단계 엔위치가 더 낫다."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "fuwalos",
+   "step": 7,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "[[Mementotlan Fusion]] 카드 발동에 직접 체인 (angwitch 라인 7단계와 같다)",
+   "why_ko": "크리에이션 킹이 나오지 않는다. 후와로스와 같은 턴에 써도 된다(후와로스 발동 뒤라도 패에서 발동 조건은 '상대 필드에 카드'뿐).",
+   "fallback_ko": "angwitch 라인 7단계와 같다."
+  },
+  {
    "handtrap": "mst",
    "severity": "ok",
    "line": "angwitch",
@@ -900,6 +1141,72 @@
    "timing_ko": "세트해 둔 The Fallen & The Virtuous를 [[Mementomictlan]] 발동에 체인해 그 필드 마법 파괴 (앞면 카드 대상)",
    "why_ko": "싸이크론과 같은 결과. 몬스터를 파괴하면 아키히론·필드 마법·스리피 조건을 채워 주므로 이 카드는 필드 마법에만 쓴다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다.",
    "fallback_ko": "싸이크론과 같다."
+  },
+  {
+   "handtrap": "purulia",
+   "severity": "ok",
+   "line": "angwitch",
+   "step": 3,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "[[Mementotlan Tatsunootoshigo]] ①(패 특소) 발동에 체인 (내 필드에 카드가 없을 것). 상대 스탠바이 페이즈 등 엔위치 일반 소환 전에 쓸 수 있으면 1장 더",
+   "why_ko": "남은 패 소환은 타츠노오토시고·스리피(14단계)·호른 드래곤(26단계)으로 3드로우. 메멘토랄은 묘지에서 나와 세지 않는다.",
+   "fallback_ko": "상대는 호른 드래곤을 빼고 끝내는 정도로 대응한다. 드로우가 적어 우선순위는 낮다."
+  },
+  {
+   "handtrap": "belle",
+   "severity": "ok",
+   "line": "angwitch",
+   "step": 9,
+   "target_card": "Mementotlan Ghattic",
+   "timing_ko": "크리에이션 킹 덤핑 뒤 [[Mementotlan Ghattic]]의 묘지 특소 효과에 체인",
+   "why_ko": "가티크가 나오지 않아 스리피 회수와 트윈 드래곤 융합 소재가 사라진다(마그나무트와 같은 결과). 7단계에 쓸 수 있었다면 그쪽이 훨씬 낫다.",
+   "fallback_ko": "크리에이션 킹은 남고, 2번째 크리에이션 킹 → 필드 마법 → 퓨전 묘지 효과로 일부 이어간다.",
+   "rulings": [
+    "qa-23218"
+   ]
+  },
+  {
+   "handtrap": "spark",
+   "severity": "ok",
+   "line": "angwitch",
+   "step": 9,
+   "target_card": "Mementomictlan Tecuhtlica - Creation King",
+   "timing_ko": "[[Mementotlan Ghattic]]가 묘지에서 ②(자신 특소)를 발동했을 때 체인해 필드의 [[Mementomictlan Tecuhtlica - Creation King]]을 제외 (타츠노오토시고 ①·가티크 ②로 '패·묘지 몬스터 효과' 조건이 이미 채워짐)",
+   "why_ko": "제외라 메멘토의 파괴 유발이 하나도 붙지 않는다. 크리에이션 킹이 사라지면 13단계 퓨전 묘지 효과로 파괴할 레벨 9가 없어 필드 마법 소생 폭이 줄고, 크리에이션 킹 퀵 파괴도 사라진다. 다만 덤핑은 이미 처리되어 전개 자체는 이어진다.",
+   "fallback_ko": "상대는 가티크를 파괴 대상으로 바꿔 트윈 드래곤 루트로 간다. 내 묘지에 함정이 없으면 상대가 패에서 1장 특소할 수 있다. 마지막 단계(S:P가 선 뒤)에 쓰면 S:P가 체인해 대상을 엔드 페이즈까지 피신시키니 그 전에 쓴다."
+  },
+  {
+   "handtrap": "meowls",
+   "severity": "ok",
+   "line": "breakout",
+   "step": 4,
+   "target_card": "Mementotlan Ghattic",
+   "timing_ko": "[[Mementotlan Ghattic]]의 묘지 특소 효과 발동에 체인 (내 필드에 카드가 없을 것)",
+   "why_ko": "묘지 특소가 가티크·가티크 플로트(8)·다크 블레이드(15)·아키히론(16)으로 4번 → 4드로우. 메멘토랄은 패에서 나와 세지 않는다.",
+   "fallback_ko": "상대는 크리에이션 킹 뒤에서 멈추는 등으로 줄인다."
+  },
+  {
+   "handtrap": "purulia",
+   "severity": "ok",
+   "line": "breakout",
+   "step": 9,
+   "target_card": "Mementotlan Shleepy",
+   "timing_ko": "[[Mementotlan Shleepy]] ①(패 특소) 발동에 체인 (내 필드에 카드가 없을 것). [[Goblin Biker Grand Breakout]] 발동에 맞춰도 드로우 수는 같다",
+   "why_ko": "남은 패 소환은 스리피·메멘토랄(21단계, 패에서)로 2드로우. 1단계 일반 소환 전(스탠바이 페이즈 등)에 쓰면 3드로우.",
+   "fallback_ko": "드로우가 적어 우선순위는 낮다."
+  },
+  {
+   "handtrap": "meowls",
+   "severity": "ok",
+   "line": "fuwalos",
+   "step": 9,
+   "target_card": "Mementotlan Ghattic",
+   "timing_ko": "후와로스를 이미 썼어도 2번째 마루챠미로 [[Mementotlan Ghattic]] 묘지 특소 효과에 체인 (내 필드에 카드가 없을 것)",
+   "why_ko": "이 라인의 남은 묘지 특소는 가티크·아키히론(14)·고블린(18)·메멘토랄(21)로 4번. 후와로스 1장과 합쳐 5드로우가 된다. 마루챠미는 '다른 마루챠미 1번'까지라 후와로스 + 냐루스는 가능하고 3장째는 안 된다.",
+   "fallback_ko": "상대가 더 줄이면 크리에이션 킹 + 가티크 정도에서 멈춘다.",
+   "rulings": [
+    "qa-7813"
+   ]
   },
   {
    "handtrap": "harmonia",
@@ -935,26 +1242,32 @@
   },
   "purulia": {
    "rating": "ok",
-   "note_ko": "패에서의 소환이 엔위치 일반 소환, 타츠노오토시고·스리피·호른 드래곤 특소, 메멘토랄(패에서 나올 때)으로 4~5회."
+   "note_ko": "패 소환은 엔위치 라인 타츠노오토시고·스리피·호른 드래곤 3회(엔위치 일반 소환 전에 쓰면 4회), 브레이크아웃 라인 스리피·메멘토랄 2회. 타츠노오토시고 패 특소에 체인."
   },
   "meowls": {
    "rating": "strong",
-   "note_ko": "묘지 특소가 메이스·가티크·고블린·아키히론·트윈 드래곤 플로트·메멘토랄로 6회 전후. 첫 묘지 특소(엔위치 ②의 메이스)에 던진다."
+   "note_ko": "엔위치 ② 발동에 체인하면 묘지 특소 6회(메이스·가티크·고블린·아키히론·메이스 플로트·메멘토랄). 브레이크아웃 라인은 가티크 묘지 특소에 체인해 4회. 후와로스를 이미 썼어도 2번째 마루챠미로 쓸 수 있다.",
+   "rulings": [
+    "qa-7813"
+   ]
   },
   "droll": {
    "rating": "strong",
-   "note_ko": "엔위치 서치 직후 쓰면 메이스(퓨전 서치)·크리에이션 킹(필드 마법)·퓨전 묘지(본 파티)·트윈 드래곤 서치가 전부 막힌다. 가티크 회수는 묘지→패라 못 막고, MDM 가이드에 드롤을 맞은 루트(크리에이션 킹 + S:P + 메멘토랄)가 따로 있다."
+   "note_ko": "엔위치 서치 직후(브레이크아웃 라인은 트윈 드래곤 서치 직후). 메이스·크리에이션 킹·퓨전 묘지·트윈 드래곤 서치가 막힌다. 고블린 덤핑 → 가티크 회수(묘지 → 패)로 크리에이션 킹까지는 우회 가능하지만 필드 마법이 없어 판면이 크게 준다.",
+   "rulings": [
+    "qa-12797"
+   ]
   },
   "imperm": {
-   "rating": "strong",
-   "note_ko": "선공 턴: 타츠노오토시고 ② 발동에 체인(엔위치 서치에는 늦다). 우리 턴: 메인 페이즈 시작 시 메멘토랄 또는 S:P를 미리 무효.",
+   "rating": "critical",
+   "note_ko": "선공 턴: 엔위치 서치에 체인해 엔위치 대상(서치 무효 + ② 봉인). 놓치면 타츠노오토시고 ②. 우리 턴: 메인 페이즈 시작 시 메멘토랄 또는 S:P를 미리 무효.",
    "rulings": [
     "supp-19362"
    ]
   },
   "veiler": {
-   "rating": "strong",
-   "note_ko": "선공 턴에만. 타츠노오토시고 특소 직후(② 발동 전)에 걸어도 된다. 우리 턴에는 못 쓴다."
+   "rating": "critical",
+   "note_ko": "상대 턴에만. 엔위치 서치에 체인(엔위치 대상) > 타츠노오토시고 ②. 브레이크아웃 라인은 고블린 ②, 후와로스 라인은 크리에이션 킹 덤핑. 끝에 붙여도 되는 대상 무효라 다른 유발이 쌓여 있어도 된다. 내 턴에는 못 쓴다."
   },
   "ogre": {
    "rating": "ok",
@@ -964,48 +1277,52 @@
    ]
   },
   "belle": {
-   "rating": "ok",
-   "note_ko": "가티크 묘지 특소, 아키히론 묘지 효과, 크리에이션 킹 묘지 서치, 퓨전 묘지 효과(묘지 제외 포함), 트윈 드래곤 플로트에 맞는다. 체인 하나만 끊어서는 대체 루트가 많다."
+   "rating": "critical",
+   "note_ko": "[[Mementotlan Fusion]] 카드 발동에 체인(공식 Q&A: 묘지 → 덱 되돌리기 포함) → 크리에이션 킹·트윈 드래곤이 나오지 않는다. 놓치면 가티크 묘지 특소. 메멘토 퓨전 ②·크리에이션 킹 필드 마법 서치는 묘지 제외가 비용이라 못 쓴다.",
+   "rulings": [
+    "qa-21720",
+    "qa-21722"
+   ]
   },
   "mourner": {
    "rating": "strong",
-   "note_ko": "타츠노오토시고 패 특소 직후 효과를 무효하면 ②를 못 쓴다(뵐러와 같은 결과). 엔위치는 일반 소환이라 대상이 아니다."
+   "note_ko": "타츠노오토시고 패 특소 직후(②를 못 씀). 브레이크아웃 라인은 덱에서 나온 고블린 → 라인이 시작되지 않는다(critical). 엔위치는 일반 소환이라 대상이 아니다."
   },
   "crossout": {
    "rating": "weak",
    "note_ko": "자기 덱의 카드만 선언 가능. 메멘토도 TFTV·초융합·금지된 성관을 쓰므로, 내가 같은 카드를 쓴다면 그 이름을 선언하는 정도."
   },
   "ttt": {
-   "rating": "ok",
-   "note_ko": "후공용. 우리 턴에 메멘토랄 특소 효과·S:P·호른 드래곤 같은 몬스터 효과를 쓰므로 조건은 쉽게 맞는다."
+   "rating": "weak",
+   "note_ko": "상대 1턴 전개에는 쓸 곳이 거의 없음(일반 마법이라 상대 턴에 발동 불가). 내 턴(후공)에: 메멘토랄·S:P가 내 메인 페이즈에 효과를 쓰면 발동해 2드로우, 또는 메멘토랄을 빼앗아 링크 소재로 치운다(파괴가 아니라 유발 없음)."
   },
   "droplet": {
-   "rating": "strong",
-   "note_ko": "후공용. 메멘토랄·S:P·호른 드래곤을 동시에 무효. 마법을 보내 발동하면 세트한 본 파티·메멘토 퓨전(속공 마법)으로 체인할 수 없다."
+   "rating": "weak",
+   "note_ko": "상대 1턴 전개에는 쓸 곳이 거의 없음(속공 마법이라 미리 세트해 둬야 하고, 후공 1턴에는 불가). 내 턴(후공)에: 마법을 보내 발동해 메멘토랄·S:P·호른 드래곤을 함께 무효, 세트한 본 파티·메멘토 퓨전의 체인도 막는다."
   },
   "nibiru": {
    "rating": "strong",
    "note_ko": "5번째 소환이 가티크 특소로 빠르다. 릴리스라 메멘토의 파괴 유발이 하나도 안 붙는다."
   },
   "impulse": {
-   "rating": "strong",
-   "note_ko": "타츠노오토시고 ①(자신 특소), 엔위치 ②, 메멘토 퓨전 발동 모두 '특소를 포함한 효과'. 타츠노오토시고에 쓰면 엔위치만 남는다."
+   "rating": "critical",
+   "note_ko": "타츠노오토시고 ①(패 특소) 발동에 체인 → 엔위치만 남는다. 브레이크아웃 발동, 메멘토 퓨전 발동도 대상. 내 묘지에 함정이 있으면 패의 타츠노오토시고가 파괴되어 스리피 조건을 채워 주니 주의. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 불가."
   },
   "purge": {
    "rating": "strong",
-   "note_ko": "엔위치 서치 무효. 우라라와 같은 위치."
+   "note_ko": "엔위치 서치 무효(우라라와 같은 위치). 브레이크아웃 라인은 트윈 드래곤 서치. 패에서 쓰면 이 듀얼 동안 어둠·물·화염 몬스터 효과 불가."
   },
   "spark": {
    "rating": "ok",
-   "note_ko": "타츠노오토시고(패)·가티크(묘지)가 효과를 쓴 뒤 크리에이션 킹 등을 제외. 제외라 파괴 유발이 없다."
+   "note_ko": "패·묘지 몬스터 효과(타츠노오토시고 ①·가티크 ②·스리피 ①) 뒤에. 브레이크아웃 라인은 스리피 ① 발동에 체인해 가티크를 제외하면 크리에이션 킹 소재가 모자란다(strong). 엔위치 라인은 가티크 묘지 특소 때 크리에이션 킹 제외 정도. S:P가 선 뒤에는 S:P가 대상을 피신시킨다."
   },
   "magnamhut": {
    "rating": "strong",
    "note_ko": "메멘토 몬스터 대부분이 어둠·빛. 가티크 묘지 특소에 체인해 제외하는 것이 가장 크다. 묘지를 깎아 메멘토랄의 5종 조건도 어렵게 만든다."
   },
   "gamma": {
-   "rating": "strong",
-   "note_ko": "엔위치 서치 무효+파괴. 내 필드에 몬스터가 없어야 한다."
+   "rating": "critical",
+   "note_ko": "엔위치 서치(브레이크아웃 라인은 고블린 ②)에 직접 체인해 무효+파괴. 내 필드에 몬스터가 없어야 한다. 제한 1."
   },
   "harmonia": {
    "rating": "bad",
@@ -1096,6 +1413,10 @@
        {
         "id": "dark_ruler",
         "note_ko": "몬스터 효과로 체인 불가. 단 세트한 본 파티·메멘토 퓨전은 체인 가능"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "S:P가 제외 효과를 쓴 뒤(그 턴 1번은 소모) 발동해 2드로우나 메멘토랄 탈취"
        }
       ],
       "bait_ko": "아무 발동에나 반응하므로 덜 중요한 몬스터 효과를 먼저 써서 S:P를 끌어내면 그 몬스터 + S:P가 함께 빠진다. 핵심 몬스터는 S:P가 사라진 뒤에."
@@ -1141,6 +1462,10 @@
        {
         "id": "ash",
         "note_ko": "메멘토랄이 꺼낸 엔위치의 서치나 본 파티(덱에서 패·특소)에 체인. 메멘토랄 효과 자체는 못 막는다"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "메멘토랄이 내 메인 페이즈에 특소 효과를 쓴 뒤 발동해 컨트롤 탈취 → 링크 소재 등으로 치운다(파괴가 아니라 유발 없음). S:P가 남아 있으면 발동에 체인당할 수 있다"
        }
       ],
       "bait_ko": "체인 처리 뒤에 반응하므로 첫 발동을 가벼운 카드로 하면 그 뒤 바로 특소가 들어온다. 엔위치 → 메이스로 이어지면 내 몬스터를 빼앗기므로 메이스를 쓰기 전에 메멘토랄을 치운다."
@@ -1591,7 +1916,7 @@
    },
    "ttt": {
     "rating": "ok",
-    "note_ko": "내 메인 페이즈에 메멘토랄·S:P가 몬스터 효과를 쓰므로 조건이 쉽게 맞는다. 일반 마법."
+    "note_ko": "내 메인 페이즈에 메멘토랄(특소)·S:P(제외)가 몬스터 효과를 쓰면 발동 조건이 맞는다. 2드로우, 또는 메멘토랄 컨트롤 탈취 → 링크 소재로 치우면 파괴가 아니라 호른 드래곤·필드 마법이 반응하지 않는다. 일반 마법이라 S:P가 발동에 체인해 제외로 응수할 수 있으니 S:P를 먼저 끌어낸 뒤에."
    },
    "crossout": {
     "rating": "weak",
