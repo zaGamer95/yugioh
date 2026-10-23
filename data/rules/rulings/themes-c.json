@@ -1,0 +1,1031 @@
+{
+  "sources": {
+    "konami-db-faq": {
+      "title": "遊戯王ニューロン（オフィシャルカードゲーム カードデータベース）カードに関連するQ&A・補足情報",
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+      "publisher": "KONAMI",
+      "lang": "ja"
+    }
+  },
+  "rules": [],
+  "rulings": [
+    {
+      "id": "qa-24353",
+      "fid": 24353,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24353&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Maliss Q Hearts Crypter",
+        "Infinite Impermanence"
+      ],
+      "handtraps": [
+        "imperm",
+        "gamma",
+        "dark_ruler",
+        "droplet"
+      ],
+      "themes": [
+        "maliss"
+      ],
+      "topic": "negate",
+      "question_ko": "[[Maliss Q Hearts Crypter]]의 '링크처에 몬스터가 있으면 이 발동과 효과는 무효되지 않는다'는 어느 시점의 링크처를 보나?",
+      "answer_ko": "무효 방식에 따라 다르다. (1) [[Fleur de Baronne]]처럼 체인해서 '발동을 무효'하는 효과는 그 무효 효과가 처리될 때의 링크처를 본다. (2) 체인해서 '효과를 무효'하는 효과는 무효 처리 시점과 크립터 처리 시점을 모두 본다. (3) [[Infinite Impermanence]]처럼 카드 자체의 효과를 무효로 하는 효과나, 체인 없이 계속 적용되는 무효는 크립터의 효과가 처리될 때 링크처에 몬스터가 있는지로 결정된다.",
+      "quote_ja": "カード自体の効果を無効化する効果や、チェーンブロックを作らずに適用され続ける効果で無効化される場合、発動した「M∀LICE＜Q＞HEARTS OF CRYPTER」の効果処理時に、リンク先にモンスターが存在するかによって、無効化されるかが決まります。",
+      "impact_ko": "[[PSY-Framegear Gamma]]처럼 발동을 무효하는 카드는 그 처리 시점에 링크처가 비어 있어야 통한다. 포영·[[Dark Ruler No More]]·[[Forbidden Droplet]]로 '미리' 효과를 무효로 해 두어도, 크립터가 처리될 때 링크처에 몬스터가 있으면 크립터의 제외는 그대로 처리된다."
+    },
+    {
+      "id": "qa-23275",
+      "fid": 23275,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23275&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Maliss Q Hearts Crypter"
+      ],
+      "handtraps": [
+        "dark_ruler",
+        "droplet"
+      ],
+      "themes": [
+        "maliss"
+      ],
+      "topic": "negate",
+      "question_ko": "효과가 계속 무효로 되는 상황([[Skill Drain]] 적용 중)에서 '이 효과는 무효되지 않는다'가 붙은 효과를 발동하면 무효가 되나?",
+      "answer_ko": "무효되지 않는다. 계속 무효 상태에서도 발동할 수 있고, 처리 시점에 조건을 채우면 효과가 그대로 적용된다. 예시 목록에 [[Maliss Q Hearts Crypter]]의 ①(링크처에 몬스터가 있을 때)이 들어 있다.",
+      "impact_ko": "효과 무효 상태의 몬스터도 효과 발동 자체는 할 수 있다는 근거. 미리 효과를 무효로 해 두는 것만으로는 링크처에 몬스터가 있는 하트 크립터의 제외를 막지 못한다."
+    },
+    {
+      "id": "qa-24144",
+      "fid": 24144,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24144&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Maliss Q Hearts Crypter",
+        "Maliss C TB-11"
+      ],
+      "handtraps": [],
+      "themes": [
+        "maliss"
+      ],
+      "topic": "negate",
+      "question_ko": "[[Maliss C TB-11]]로 엑스트라 덱에서 특소한 [[Maliss Q Hearts Crypter]]는 그 턴 ① 효과를 발동할 수 있나?",
+      "answer_ko": "발동할 수 없다. TB-11로 나온 몬스터는 그 턴 효과를 발동할 수 없고, 크립터의 '무효되지 않는다'는 '발동할 수 있었다면 무효되지 않는다'는 뜻이다. 또 이렇게 나온 크립터는 링크 소환된 것이 아니라서, 제외되어도 ② 부활 효과를 쓸 수 없다.",
+      "quote_ja": "『この効果の発動と効果は無効化されない』ですが、”発動できた場合は無効化されない”という意味になります。",
+      "impact_ko": "'무효되지 않는다'는 발동 자체를 막는 효과까지 막아 주지는 않는다. TB-11로 꺼낸 크립터는 그 턴 견제가 아니다."
+    },
+    {
+      "id": "supp-20584",
+      "fid": null,
+      "cid": 20584,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20584&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Maliss P Dormouse",
+        "Ash Blossom & Joyous Spring"
+      ],
+      "handtraps": [
+        "ash"
+      ],
+      "themes": [
+        "maliss"
+      ],
+      "topic": "chain",
+      "question_ko": "[[Maliss P Dormouse]]의 ① 효과는 무엇을 하고, ③ 부활은 어떤 상태에서 발동하나?",
+      "answer_ko": "①은 처리 시 '덱에서 M∀LICE 몬스터 1장을 제외'하고 이번 턴 공격력 600 상승을 적용하는 기동 효과다. ③은 '앞면으로 제외된' 이 카드가 발동하는 유발 효과다.",
+      "quote_ja": "表側表示で除外されたこのカードが発動できる誘発効果です。",
+      "impact_ko": "①은 덱에서 '제외'라서 [[Ash Blossom & Joyous Spring]]의 대상 항목(덱에서 패에 넣기·덱에서 특소·덱에서 묘지로 보내기)에 들어가지 않는다. 뒷면으로 제외되면 ③을 쓸 수 없다."
+    },
+    {
+      "id": "supp-20586",
+      "fid": null,
+      "cid": 20586,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20586&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Maliss Q White Binder",
+        "Evenly Matched"
+      ],
+      "handtraps": [
+        "evenly_matched",
+        "belle"
+      ],
+      "themes": [
+        "maliss"
+      ],
+      "topic": "misc",
+      "question_ko": "[[Maliss Q White Binder]]의 ③(제외되면 900LP를 내고 특소) 효과는 어떤 경우에 발동하나?",
+      "answer_ko": "앞면으로 제외된 이 카드가, 그리고 한 번 정규 방법으로 특소(링크 소환)된 적이 있을 때만 발동할 수 있다. 하트 크립터②·도마우스③·화이트 래빗③·마치 헤어③의 보충 정보도 '앞면으로 제외된' 경우로 같다.",
+      "quote_ja": "表側表示で除外されたこのカードが発動できる誘発効果です。",
+      "impact_ko": "[[Evenly Matched]]처럼 뒷면으로 제외하면 M∀LICE의 부활 효과가 발동하지 않는다. 앞면 제외(D.D. 크로우·[[Cosmic Cyclone]] 외 제외 효과)만 부활을 준다."
+    },
+    {
+      "id": "supp-13293",
+      "fid": null,
+      "cid": 13293,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=13293&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Evenly Matched"
+      ],
+      "handtraps": [
+        "evenly_matched"
+      ],
+      "themes": [
+        "maliss",
+        "vanquish-soul-k9"
+      ],
+      "topic": "misc",
+      "question_ko": "[[Evenly Matched]]는 어떻게 처리되나?",
+      "answer_ko": "배틀 페이즈 엔드 스텝에 발동하며, 상대에게 '자기 필드 카드를 골라 뒷면으로 제외해야 한다'는 효과를 적용한다. 이렇게 뒷면 제외된 몬스터는 함정 효과로 필드를 떠난 것으로 취급하지 않는다.",
+      "quote_ja": "プレイヤーが選んだモンスターは裏側で除外されます。",
+      "impact_ko": "제외가 '뒷면'이라 앞면 제외를 조건으로 하는 M∀LICE의 부활이 일어나지 않는다. 파괴가 아니므로 [[Vanquish Soul, Start!]]의 파괴 대체도 적용되지 않는다."
+    },
+    {
+      "id": "supp-12950",
+      "fid": null,
+      "cid": 12950,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=12950&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Ash Blossom & Joyous Spring"
+      ],
+      "handtraps": [
+        "ash"
+      ],
+      "themes": [
+        "maliss",
+        "sky-striker",
+        "clown-crew",
+        "vanquish-soul-k9"
+      ],
+      "topic": "chain",
+      "question_ko": "[[Ash Blossom & Joyous Spring]]는 어떤 효과에 체인할 수 있나?",
+      "answer_ko": "카드 텍스트의 항목(덱에서 패에 넣기, 덱에서 몬스터 특소, 덱에서 묘지로 보내기 등)을 '포함하는' 효과가 발동했을 때 바로 체인할 수 있고, 그 체인 블록 전체를 무효로 한다. 해당하지 않는 처리가 같이 들어 있어도 전부 무효가 된다.",
+      "quote_ja": "●のいずれかを含む魔法・罠・モンスターの効果が発動した時に、直接チェーンして発動できます。",
+      "impact_ko": "덱에서 '제외'하는 [[Maliss P Dormouse]]의 ①이나 덱에서 함정을 '세트'하는 효과는 항목에 없어 체인할 수 없다."
+    },
+    {
+      "id": "qa-24092",
+      "fid": 24092,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24092&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Allied Code Talker @Ignister"
+      ],
+      "handtraps": [
+        "imperm"
+      ],
+      "themes": [
+        "maliss"
+      ],
+      "topic": "chain",
+      "question_ko": "상대가 지속 마법·필드 마법 등을 '카드의 발동'으로 냈을 때, '상대가 카드의 효과를 발동했을 때' 반응하는 효과를 쓸 수 있나?",
+      "answer_ko": "쓸 수 있다. 마법·함정의 카드 발동은 '카드 효과의 발동'에 해당한다. 예시 목록에 [[Allied Code Talker @Ignister]]의 ②가 있다.",
+      "impact_ko": "올라이드는 내가 마법·함정을 발동하는 것에도 반응한다. 버려도 되는 마법·함정으로 무효를 먼저 끌어내는 미끼 전략의 근거."
+    },
+    {
+      "id": "qa-11566",
+      "fid": 11566,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11566&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Gameciel, the Sea Turtle Kaiju",
+        "Dogoran, the Mad Flame Kaiju"
+      ],
+      "handtraps": [
+        "kaiju"
+      ],
+      "themes": [
+        "maliss",
+        "sky-striker",
+        "clown-crew",
+        "vanquish-soul-k9"
+      ],
+      "topic": "summon",
+      "question_ko": "괴수를 '상대 몬스터 1장을 릴리스하고 상대 필드에 특소'하는 방법으로 냈을 때, 릴리스된 몬스터는 '효과로' 릴리스된 것인가?",
+      "answer_ko": "아니다. 괴수의 소환 방법으로 릴리스된 몬스터는 카드 효과로 릴리스된 것으로 취급하지 않는다. 그래서 '상대 효과로 필드를 떠난 경우'의 효과([[Gameciel, the Sea Turtle Kaiju]]로 릴리스한 堕ち武者)는 발동하지 않는다.",
+      "impact_ko": "괴수는 효과 발동이 아니라 소환 절차라서 체인을 받지 않는다. 섬도희 링크를 괴수로 릴리스해도 [[Sky Striker Ace - Raye]]의 '상대 효과로 떠난 경우' 소생은 일어나지 않는다. 반대로 '릴리스된 경우'라고만 적힌 크라운 클랜 유발은 발동한다."
+    },
+    {
+      "id": "supp-7752",
+      "fid": null,
+      "cid": 7752,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=7752&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Book of Eclipse"
+      ],
+      "handtraps": [
+        "book_eclipse"
+      ],
+      "themes": [
+        "maliss",
+        "sky-striker",
+        "clown-crew",
+        "vanquish-soul-k9"
+      ],
+      "topic": "misc",
+      "question_ko": "[[Book of Eclipse]]는 언제 발동할 수 있고 엔드 페이즈에는 무엇이 일어나나?",
+      "answer_ko": "필드에 링크 몬스터도 토큰도 아닌 앞면 몬스터가 있을 때 발동할 수 있다. 뒷면으로 바꾸는 데 성공했는지와 관계없이, 발동·효과가 무효되지 않았다면 엔드 페이즈에 상대 뒷면 몬스터를 앞면 수비로 돌리고 그 수만큼 상대가 드로우한다(체인 없음).",
+      "quote_ja": "モンスターゾーンにリンクモンスターでもトークンでもない表側表示モンスターが存在する状況で発動できます。",
+      "impact_ko": "링크 몬스터는 뒷면으로 할 수 없어 M∀LICE·섬도희 링크 보드에는 쓸모가 없다. 엔드 페이즈 드로우는 체인 블록이 아니라서 막을 수 없다."
+    },
+    {
+      "id": "qa-9826",
+      "fid": 9826,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=9826&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Maliss in Underground",
+        "Maliss P March Hare",
+        "Ghost Belle & Haunted Mansion"
+      ],
+      "handtraps": [
+        "belle"
+      ],
+      "themes": [
+        "maliss"
+      ],
+      "topic": "chain",
+      "question_ko": "상대 묘지에 M∀LICE 카드가 없을 때 [[Maliss in Underground]]의 '패·덱·묘지에서 M∀LICE 1장 제외' 효과에 [[Ghost Belle & Haunted Mansion]]를 체인할 수 있나?",
+      "answer_ko": "할 수 있다. 이 효과에는 '묘지에서 카드를 제외하는 효과'가 포함된다. [[Maliss P March Hare]]의 ①도 같은 이유로 와라시를 체인할 수 있다.",
+      "impact_ko": "와라시는 묘지에 실제로 카드가 있는지와 상관없이 '묘지 제외를 포함한' 효과에 체인할 수 있다. [[Maliss Q White Binder]]의 '묘지 카드 3장까지 제외'도 같은 범주라 와라시 대상이다."
+    },
+    {
+      "id": "supp-20555",
+      "fid": null,
+      "cid": 20555,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20555&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Dominus Impulse"
+      ],
+      "handtraps": [
+        "impulse"
+      ],
+      "themes": [
+        "maliss",
+        "sky-striker",
+        "clown-crew",
+        "vanquish-soul-k9"
+      ],
+      "topic": "chain",
+      "question_ko": "[[Dominus Impulse]]는 언제 패에서 발동할 수 있고 무엇을 무효로 하나?",
+      "answer_ko": "상대 필드에 카드가 있으면 패에서 발동할 수 있다(내 턴·상대 턴 모두). 몬스터를 특소하는 효과를 포함한 효과에 바로 체인해 그 체인 블록을 무효로 하고, 내 묘지에 함정이 있으면 파괴까지 한다. 패에서 발동했다면 그 듀얼 동안 빛·땅·바람 몬스터 효과를 발동할 수 없다.",
+      "quote_ja": "相手フィールドにカードが存在する場合には、このカードを手札から魔法＆罠ゾーンに表側表示で置いて発動することができます。",
+      "impact_ko": "상대 필드가 비어 있는 첫 특소(필드가 빈 상태의 요쿨 등)에는 패에서 쓸 수 없다. 패에서 쓰면 내 덱의 빛·땅·바람 몬스터 효과가 막힌다."
+    },
+    {
+      "id": "qa-8398",
+      "fid": 8398,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=8398&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Infinite Impermanence",
+        "Sky Striker Ace - Raye",
+        "Sky Striker Mecha - Widow Anchor",
+        "Dark Ruler No More",
+        "Forbidden Droplet"
+      ],
+      "handtraps": [
+        "imperm",
+        "veiler",
+        "dark_ruler",
+        "droplet"
+      ],
+      "themes": [
+        "sky-striker"
+      ],
+      "topic": "negate",
+      "question_ko": "[[Infinite Impermanence]]가 적용된 몬스터가 (A) 묘지로 간 뒤 효과를 발동하거나 (B) 자신을 릴리스·제외하는 코스트로 효과를 발동하면 무효되나?",
+      "answer_ko": "(A) 묘지에서 발동한 효과는 무효되지 않는다. (B) 몬스터 존에서 발동한 효과이므로 처리 시 필드에 없어도 무효된다. [[Effect Veiler]]·[[Dark Ruler No More]]·[[Forbidden Droplet]]·[[Sky Striker Mecha - Widow Anchor]] 등도 같다.",
+      "quote_ja": "効果自体はモンスターゾーンで発動していますので、無効化されます。",
+      "impact_ko": "포영이 먼저 처리되면, 그 뒤 [[Sky Striker Ace - Raye]]·[[Sky Striker Ace = Zero]]가 자신을 릴리스해 발동하는 효과도 무효된다. 다만 상대는 보통 포영 발동에 체인해서 먼저 효과를 쓴다. 크라운 클랜처럼 릴리스된 뒤 묘지에서 발동하는 효과는 필드 무효로 막을 수 없다."
+    },
+    {
+      "id": "supp-13631",
+      "fid": null,
+      "cid": 13631,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=13631&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Infinite Impermanence"
+      ],
+      "handtraps": [
+        "imperm"
+      ],
+      "themes": [
+        "sky-striker",
+        "vanquish-soul-k9",
+        "maliss",
+        "clown-crew"
+      ],
+      "topic": "negate",
+      "question_ko": "[[Infinite Impermanence]]의 패 발동 조건과 대상 조건은?",
+      "answer_ko": "내 필드에 카드가 없으면 패에서 발동할 수 있다(내 턴·상대 턴 모두). 상대 몬스터 존의 앞면 몬스터를 대상으로 하며, 이미 효과가 무효된 몬스터나 (듀얼이 아닌) 일반 몬스터는 대상으로 할 수 없다. 적용된 몬스터가 자기 효과의 코스트로 몬스터 존을 떠나도 그 효과는 무효된다.",
+      "quote_ja": "自身の効果を発動する際のコストとしてモンスターゾーンを離れた場合や、チェーンして発動した効果のコストや処理によってモンスターゾーンを離れた場合、無効になりますので、その処理は行われません。",
+      "impact_ko": "패에서 쓰려면 내 필드가 비어 있어야 한다. 몬스터 존을 떠나는 코스트를 가진 퀵 효과(레이·제로)도 포영이 먼저 처리되면 무효된다."
+    },
+    {
+      "id": "qa-21941",
+      "fid": 21941,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=21941&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Sky Striker Ace - Raye",
+        "Ghost Ogre & Snow Rabbit"
+      ],
+      "handtraps": [
+        "ogre"
+      ],
+      "themes": [
+        "sky-striker"
+      ],
+      "topic": "chain",
+      "question_ko": "[[Sky Striker Ace - Raye]]가 자신을 릴리스해 ① 효과를 발동했을 때, '상대 필드의 몬스터가 효과를 발동했을 때' 쓰는 [[Black Bird Close]]를 체인할 수 있나?",
+      "answer_ko": "체인할 수 있다. 자신을 릴리스해 발동한 것도 '필드의 몬스터가 효과를 발동했을 때'에 해당한다. 다만 레이는 이미 묘지에 있어 파괴할 수 없다.",
+      "impact_ko": "같은 조건의 [[Ghost Ogre & Snow Rabbit]]는 레이·제로의 발동에 체인할 수는 있지만 파괴할 몬스터가 없어 손해다."
+    },
+    {
+      "id": "qa-23614",
+      "fid": 23614,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23614&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Sky Striker Ace - Raye"
+      ],
+      "handtraps": [
+        "kaiju",
+        "ultimate_slayer",
+        "super_poly"
+      ],
+      "themes": [
+        "sky-striker"
+      ],
+      "topic": "misc",
+      "question_ko": "'카드 효과로 몬스터가 필드를 떠난 경우'는 어떤 상황인가?",
+      "answer_ko": "몬스터 존의 카드가 그 효과의 처리로 필드에 없게 된 경우다. 파괴·제외·패로 되돌리기·덱으로 되돌리기 효과가 그 예다. 엑시즈 소재가 되는 것이나 마함 존으로 옮기는 것은 원칙적으로 필드를 떠난 것이 아니다. [[Sky Striker Ace - Raye]]의 ②가 같은 조건의 예로 나와 있다.",
+      "impact_ko": "[[Ultimate Slayer]]처럼 엑스트라 덱으로 되돌리거나 [[Raigeki]]로 파괴하면 묘지의 레이가 소생한다."
+    },
+    {
+      "id": "qa-23445",
+      "fid": 23445,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23445&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Sky Striker Ace - Raye"
+      ],
+      "handtraps": [],
+      "themes": [
+        "sky-striker"
+      ],
+      "topic": "misc",
+      "question_ko": "상대가 효과로 내 섬도희 링크를 소재로 써서 링크 소환했다. 묘지의 [[Sky Striker Ace - Raye]] ②를 발동할 수 있나?",
+      "answer_ko": "발동할 수 없다. 소재로 써서 소환하는 효과의 결과로 떠난 것은 '상대 효과로 필드를 떠난' 것으로 취급하지 않는다.",
+      "impact_ko": "소환의 소재로 섬도희 링크가 사라지는 경우는 레이 소생 조건이 아니다. 괴수의 소환 절차 릴리스(qa-11566)도 효과가 아니라 소생이 없다. [[Super Polymerization]]의 융합 소재 경우를 직접 다룬 공식 Q&A는 찾지 못했다."
+    },
+    {
+      "id": "supp-13670",
+      "fid": null,
+      "cid": 13670,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=13670&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Sky Striker Ace - Raye"
+      ],
+      "handtraps": [
+        "imperm",
+        "veiler",
+        "ash"
+      ],
+      "themes": [
+        "sky-striker"
+      ],
+      "topic": "chain",
+      "question_ko": "[[Sky Striker Ace - Raye]]의 ①②는 어떤 효과인가?",
+      "answer_ko": "①은 몬스터 존에서 발동하는 퀵 효과(데미지 스텝 불가)로, 엑스트라 몬스터 존에 특소할 수 없으면 발동할 수 없고 링크 소환이 아니다. ②는 묘지 유발 효과로, 섬도희 링크가 상대 효과로 떠나거나 전투 파괴된 시점에 레이가 이미 묘지에 있어야 한다.",
+      "quote_ja": "このカードが既に墓地に存在する必要があります。",
+      "impact_ko": "레이의 특소는 엑스트라 덱에서 하므로 우라라가 체인할 수 없다(qa-20545). 레이와 섬도희 링크가 동시에 파괴되면 그 레이는 소생하지 않는다."
+    },
+    {
+      "id": "supp-21460",
+      "fid": null,
+      "cid": 21460,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21460&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Sky Striker Ace = Zero",
+        "Sky Striker Ace - Raye",
+        "Sky Striker Ace - Roze"
+      ],
+      "handtraps": [
+        "ash",
+        "impulse",
+        "belle"
+      ],
+      "themes": [
+        "sky-striker"
+      ],
+      "topic": "opt",
+      "question_ko": "[[Sky Striker Ace = Zero]]의 ②(자신 릴리스 → 레이+로제 특소)는 언제 발동할 수 있고 어떻게 처리되나?",
+      "answer_ko": "레이와 로제를 둘 다 특소할 수 있을 때만 발동할 수 있다. 처리 시 둘 중 하나라도 특소할 수 없으면 아무것도 하지 않는다. 특소한 뒤 '필드 카드 1장 파괴'는 따로(동시가 아니게) 처리한다. 제로의 효과는 둘 중 하나만 1턴에 1번이다.",
+      "impact_ko": "우라라·임펄스로 제로의 ②를 무효하면 제로는 코스트로 사라진 채 아무것도 나오지 않는다. 덱·묘지 특소라서 [[Ghost Belle & Haunted Mansion]]도 체인할 수 있다(qa-23215)."
+    },
+    {
+      "id": "supp-17034",
+      "fid": null,
+      "cid": 17034,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=17034&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Sky Striker Mobilize - Linkage!"
+      ],
+      "handtraps": [
+        "impulse",
+        "kaiju"
+      ],
+      "themes": [
+        "sky-striker"
+      ],
+      "topic": "timing",
+      "question_ko": "[[Sky Striker Mobilize - Linkage!]]는 엑스트라 몬스터 존에 몬스터가 있을 때 어떻게 처리되나? 처리 시 메인 몬스터 존을 다시 확인하나?",
+      "answer_ko": "메인 몬스터 존에 몬스터가 없으면 엑스트라 몬스터 존에 자기 몬스터가 있어도 발동할 수 있다. 처리 시 엑스트라 몬스터 존에 자기 몬스터가 있으면 묘지로 보낼 카드로 그 몬스터만 고를 수 있다. 보내기와 특소는 동시에 처리된다. 보충 정보에는 처리 시 메인 몬스터 존을 다시 확인한다는 내용이 없다(발동 조건으로만 적혀 있음).",
+      "quote_ja": "『墓地へ送り』の処理を適用するカードとして、そのエクストラモンスターゾーンの自分のモンスターしか選べません。",
+      "impact_ko": "제로가 엑스트라 몬스터 존에 있으면 링키지는 반드시 제로를 보내야 한다. 세트 카드를 보내고 링크를 하나 더 꺼내는 건 엑스트라 몬스터 존이 비어 있을 때만 가능하다."
+    },
+    {
+      "id": "qa-20545",
+      "fid": 20545,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=20545&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Ash Blossom & Joyous Spring"
+      ],
+      "handtraps": [
+        "ash"
+      ],
+      "themes": [
+        "sky-striker",
+        "clown-crew"
+      ],
+      "topic": "chain",
+      "question_ko": "상대가 '엑스트라 덱에서 융합 몬스터 1장을 특소'하는 [[Devil Frankenstein]]의 효과를 발동했을 때 [[Ash Blossom & Joyous Spring]]를 체인할 수 있나?",
+      "answer_ko": "체인할 수 없다. 엑스트라 덱에서의 특소는 우라라의 '덱에서 특소' 항목에 해당하지 않는다.",
+      "impact_ko": "엑스트라 덱에서만 특소하는 [[Sky Striker Ace - Raye]]의 ①이나 [[Sky Striker Mobilize - Linkage!]]에는 우라라를 쓸 수 없다."
+    },
+    {
+      "id": "qa-23215",
+      "fid": 23215,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23215&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Ghost Belle & Haunted Mansion",
+        "Sky Striker Ace = Zero",
+        "Maliss C GWC-06"
+      ],
+      "handtraps": [
+        "belle"
+      ],
+      "themes": [
+        "sky-striker",
+        "maliss"
+      ],
+      "topic": "chain",
+      "question_ko": "묘지에 대상 몬스터가 없는 상태에서 발동한 '패·묘지에서 특소' 효과에 [[Ghost Belle & Haunted Mansion]]를 체인할 수 있나?",
+      "answer_ko": "할 수 있다. 발동 시 묘지에 해당 몬스터가 있는지와 관계없이 '묘지에서 특소하는 효과를 포함한 효과'로 취급한다. 예시 목록에 [[Sky Striker Ace = Zero]]의 ②와 [[Maliss C GWC-06]]가 있다.",
+      "impact_ko": "와라시는 제로의 레이+로제 특소(덱·묘지)와 GWC-06의 소생에도 체인할 수 있다."
+    },
+    {
+      "id": "supp-22570",
+      "fid": null,
+      "cid": 22570,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22570&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Clown Crew Malabarisme",
+        "Clown Crew Matinee Operatics",
+        "Clown Crew Soiree Operations"
+      ],
+      "handtraps": [
+        "veiler",
+        "imperm"
+      ],
+      "themes": [
+        "clown-crew"
+      ],
+      "topic": "misc",
+      "question_ko": "[[Clown Crew Malabarisme]] 등의 '다음 턴 종료 시까지 덱·엑스트라 덱에서 특소된 몬스터의 효과를 발동할 수 없다' 제약은 어디까지 막나?",
+      "answer_ko": "해당 몬스터가 몬스터 존에서 발동하는 효과만 막는다. 몬스터 존 이외(묘지 등)에서 발동하는 효과는 제한되지 않는다. 특소에 성공했는지와 관계없이 발동·효과가 무효되지 않았다면 제약은 걸린다. [[Clown Crew Matinee Operatics]]·[[Clown Crew Soiree Operations]]의 보충 정보도 같다.",
+      "quote_ja": "モンスターゾーン以外で発動できる効果の発動が制限されることはありません。",
+      "impact_ko": "덱·엑스트라 덱에서 나온 크라운 클랜은 필드에서는 효과를 못 쓰지만, 릴리스된 뒤 묘지·엑스트라 덱에서 발동하는 유발은 그대로 쓴다. 필드 무효(뵐러·포영)는 의미가 없다."
+    },
+    {
+      "id": "supp-22538",
+      "fid": null,
+      "cid": 22538,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22538&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Clown Crew Flair"
+      ],
+      "handtraps": [
+        "belle",
+        "veiler",
+        "imperm"
+      ],
+      "themes": [
+        "clown-crew"
+      ],
+      "topic": "misc",
+      "question_ko": "[[Clown Crew Flair]]의 ②(릴리스된 경우) 효과는 어디서 발동하나?",
+      "answer_ko": "유발 효과다. 릴리스되어 묘지로 가면 묘지에서, 앞면으로 제외되면 제외 상태에서 발동한다(릴리스되어 처음 간 곳에서). 데미지 스텝에도 발동할 수 있고, 발동할 때 ● 하나를 고른다.",
+      "impact_ko": "필드에서 무효로 해 둬도 릴리스 후 유발은 막지 못한다. 막으려면 릴리스가 아닌 파괴·융합 소재로 치워야 한다."
+    },
+    {
+      "id": "supp-22920",
+      "fid": null,
+      "cid": 22920,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22920&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Clown Crew Cappello"
+      ],
+      "handtraps": [
+        "ash",
+        "ogre"
+      ],
+      "themes": [
+        "clown-crew"
+      ],
+      "topic": "misc",
+      "question_ko": "[[Clown Crew Cappello]]의 P효과와 릴리스 유발은 어떻게 처리되나?",
+      "answer_ko": "P효과는 덱에서 비펜듈럼 크라운 클랜 1장을 묘지로 보내고, 성공하면 자신을 특소한다(동시 처리). 이후 다음 턴 종료 시까지 덱·엑스트라 덱에서 특소된 몬스터 효과를 발동할 수 없다. 릴리스 유발은 엑스트라 덱(앞면)·제외 상태·묘지 중 릴리스되어 처음 간 곳에서 발동한다.",
+      "impact_ko": "P효과는 '덱에서 묘지로 보내기'를 포함하므로 우라라 대상이다. 펜듈럼이라 릴리스되면 엑스트라 덱에서도 유발이 나온다."
+    },
+    {
+      "id": "supp-22524",
+      "fid": null,
+      "cid": 22524,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22524&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Clown Crew Biancaviso"
+      ],
+      "handtraps": [
+        "imperm",
+        "gamma",
+        "book_eclipse"
+      ],
+      "themes": [
+        "clown-crew"
+      ],
+      "topic": "opt",
+      "question_ko": "[[Clown Crew Biancaviso]]의 ①(어드밴스 소환 시 드로우/무효)과 ②(상대 메인 페이즈 퀵 어드밴스 소환)의 1턴 제한과 처리는?",
+      "answer_ko": "①은 '이 카드명의 ● 효과는 각각 1턴에 1번만 고를 수 있다'라서 여러 장이어도 무효 ●는 1턴에 1번이다. ②는 '1턴에 1번'(카드명 제한 없음)인 퀵 효과로, 체인 블록 처리 직후 바로 어드밴스 소환을 하며 뒷면 수비로 어드밴스 소환할 수도 있다.",
+      "quote_ja": "この効果のチェーンブロックの処理後、ただちにモンスター１体をアドバンス召喚します。（裏側守備表示でアドバンス召喚することもできます。）",
+      "impact_ko": "같은 턴에 무효 ●를 한 번 쓰면(무효당해도 qa-23977) 다른 바이앙카비소로도 다시 고를 수 없다. ②는 카드마다 1번이다."
+    },
+    {
+      "id": "qa-23977",
+      "fid": 23977,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23977&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Clown Crew Biancaviso",
+        "Clown Crew Flair",
+        "Clown Crew Meteor"
+      ],
+      "handtraps": [
+        "imperm",
+        "ash",
+        "belle"
+      ],
+      "themes": [
+        "clown-crew"
+      ],
+      "topic": "opt",
+      "question_ko": "'이 카드명의 ● 효과는 각각 1턴에 1번만 고를 수 있다' 효과의 발동이나 효과가 무효되었다면, 같은 턴에 같은 ●를 다시 고를 수 있나?",
+      "answer_ko": "고를 수 없다. 무효되어도 그 ●를 고른 것으로 친다. 다른 ●로는 다시 발동할 수 있다. [[Clown Crew Biancaviso]]①, [[Clown Crew Flair]]②, [[Clown Crew Meteor]]②, 데빌즈·디아볼로②, [[Clown Crew Soiree Operations]]①이 같은 예다.",
+      "impact_ko": "바이앙카비소의 소환 유발을 포영 등으로 무효하면 그 턴 같은 ●(드로우 또는 무효)는 다른 바이앙카비소로도 쓸 수 없다."
+    },
+    {
+      "id": "supp-22549",
+      "fid": null,
+      "cid": 22549,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22549&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Clown Crew Meteor",
+        "Clown Crew Biancaviso"
+      ],
+      "handtraps": [
+        "gamma",
+        "imperm"
+      ],
+      "themes": [
+        "clown-crew"
+      ],
+      "topic": "timing",
+      "question_ko": "[[Clown Crew Meteor]]의 ①(어드밴스 소환 성공 시 상대는 발동 불가)은 언제까지 적용되나?",
+      "answer_ko": "몬스터 존에서 적용하는 지속 효과다. 체인 2 이후에 발동한 효과로 어드밴스 소환하는 등 소환 뒤에 다른 처리가 이어졌다면, 그 체인 처리 후는 '어드밴스 소환 성공 시'가 아니므로 상대가 효과를 발동할 수 있다.",
+      "quote_ja": "その一連のチェーン処理後はアドバンス召喚成功時にはあたりませんので、相手は効果を発動することが可能です。",
+      "impact_ko": "바이앙카비소의 퀵 소환이 체인 1로 깔끔하게 끝나면 그 소환 성공 시에는 대응할 수 없다. 내 카드에 체인해서(체인 2 이후로) 소환했다면 체인이 끝난 뒤 새 바이앙카비소의 소환 유발에 체인할 수 있다."
+    },
+    {
+      "id": "qa-14791",
+      "fid": 14791,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=14791&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Clown Crew Meteor"
+      ],
+      "handtraps": [
+        "gamma",
+        "imperm"
+      ],
+      "themes": [
+        "clown-crew"
+      ],
+      "topic": "timing",
+      "question_ko": "'그 소환 성공 시 상대는 마법·함정·몬스터 효과를 발동할 수 없다'가 적용될 때, 소환한 쪽이 그 타이밍에 카드를 발동하면 상대가 체인할 수 있나?",
+      "answer_ko": "체인할 수 없다([[Junk Giant]]의 예). 그 소환 성공 시에 효과를 발동할 수 있는 것은 소환한 플레이어뿐이다.",
+      "impact_ko": "[[Clown Crew Meteor]]가 있을 때 체인 1로 어드밴스 소환된 바이앙카비소의 소환 유발(무효·드로우)에는 그 타이밍에 체인할 수 없다고 보는 근거(같은 문구의 다른 카드 판정). 무효는 소환 전에 걸어야 한다."
+    },
+    {
+      "id": "qa-23451",
+      "fid": 23451,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23451&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Clown Crew Meteor"
+      ],
+      "handtraps": [],
+      "themes": [
+        "clown-crew"
+      ],
+      "topic": "timing",
+      "question_ko": "'융합 소환 성공 시 상대는 발동할 수 없다'가 적용되는 중에, 체인 2의 효과로 융합 소환하고 그 뒤 체인 1이 처리되었다. 체인 처리 후 상대가 발동할 수 있나?",
+      "answer_ko": "발동할 수 있다. 체인 2로 소환한 뒤 체인 1의 처리가 이어졌으므로 그 체인 처리 후는 '그 융합 소환 성공 시'가 아니다.",
+      "impact_ko": "[[Clown Crew Meteor]] 보충 정보와 같은 원리. 바이앙카비소가 내 카드에 체인해서 퀵 소환했다면, 체인이 끝난 뒤 소환 유발에 대응할 수 있다."
+    },
+    {
+      "id": "qa-22687",
+      "fid": 22687,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22687&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Ash Blossom & Joyous Spring"
+      ],
+      "handtraps": [
+        "ash"
+      ],
+      "themes": [
+        "clown-crew"
+      ],
+      "topic": "chain",
+      "question_ko": "'자신을 패에서 특소한 뒤, 패·덱에서 다른 몬스터를 특소할 수 있다' 효과에 [[Ash Blossom & Joyous Spring]]를 체인할 수 있나?",
+      "answer_ko": "체인할 수 있다. 그 효과는 통째로 무효되어 몬스터는 패에 남는다(제약은 적용).",
+      "impact_ko": "덱 이외의 장소에서도 특소할 수 있는 효과라도 '덱에서 특소'를 포함하면 우라라가 닿는다. '덱·엑스트라 덱에서 특소'하는 [[Clown Crew Malabarisme]]·[[Clown Crew Soiree Operations]]·[[Clown Crew Cappello]]의 릴리스 유발에도 같은 원리가 적용된다고 본다(크라운 클랜 카드를 직접 다룬 Q&A는 아직 없음)."
+    },
+    {
+      "id": "qa-24267",
+      "fid": 24267,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24267&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Clown Crew Flair",
+        "Ghost Belle & Haunted Mansion"
+      ],
+      "handtraps": [
+        "belle"
+      ],
+      "themes": [
+        "clown-crew"
+      ],
+      "topic": "chain",
+      "question_ko": "[[Clown Crew Flair]]·데빌즈·디아볼로의 ②(릴리스된 경우) 효과에 [[Ghost Belle & Haunted Mansion]]를 체인할 수 있나?",
+      "answer_ko": "첫 번째 ●(필드·묘지의 같은 종류 몬스터를 덱/엑스트라 덱으로 되돌리기)를 골랐을 때만 체인할 수 있다. 두 번째 ●를 골랐을 때는 체인할 수 없다.",
+      "impact_ko": "와라시로 막을 수 있는 건 '되돌리기' ●뿐이다. 플레어의 '뒷면 수비로 바꾸기'에는 쓸 수 없다."
+    },
+    {
+      "id": "supp-21477",
+      "fid": null,
+      "cid": 21477,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21477&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Vanquish Soul, Start!"
+      ],
+      "handtraps": [],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "misc",
+      "question_ko": "[[Vanquish Soul, Start!]]의 ② 파괴 대체는 어떻게 적용되나?",
+      "answer_ko": "체인 블록을 만들지 않는 효과다. 자기 몬스터 존의 앞면 VS 몬스터가 전투·효과로 파괴될 때 적용할 수 있고, 여러 장이 동시에 효과로 파괴되어도 '패의 VS 몬스터 1장 공개'로 전부 대신할 수 있다. 스타트!와 VS 몬스터가 동시에 파괴되면 스타트!는 파괴되지만 VS 몬스터는 남는다. ①②③은 각각 1턴에 1번이다.",
+      "quote_ja": "自分フィールドの複数枚の「VS」モンスターが同時に効果で破壊される状況でも、その破壊する処理の代わりに『手札の「VS」モンスター１体を見せる』処理を行うことができます。",
+      "impact_ko": "[[Raigeki]]·[[Dark Hole]] 같은 전체 파괴는 한 번 막힌다. 파괴가 아닌 처리(괴수·[[Evenly Matched]]·[[Book of Eclipse]])나 필드 마법 선제거가 답이다."
+    },
+    {
+      "id": "supp-18732",
+      "fid": null,
+      "cid": 18732,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=18732&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Vanquish Soul Caesar Valius"
+      ],
+      "handtraps": [
+        "gamma",
+        "kaiju"
+      ],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "opt",
+      "question_ko": "[[Vanquish Soul Caesar Valius]]의 효과는 몇 번, 어떻게 쓸 수 있나?",
+      "answer_ko": "①(패에서 특소)과 ②는 각각 1턴에 1번이고 같은 체인에서 둘 다 발동할 수 없다. ②는 발동할 때 ●를 하나 고르고 그 속성 몬스터를 코스트로 공개한다. 즉 '땅: 상대가 발동한 효과를 받지 않음'과 '땅·화염·어둠: 다른 카드 1장 파괴' 중 하나만 1턴에 1번 쓸 수 있다.",
+      "quote_ja": "この効果を発動する際に●を１つ選択し、コストとして●の属性を持つ手札のモンスターを属性につき１体ずつ相手に見せ、その●の効果として発動します。",
+      "impact_ko": "바리우스가 내성을 쓴 턴에는 파괴를 쓸 수 없고, 파괴를 쓴 턴에는 내성을 쓸 수 없다."
+    },
+    {
+      "id": "qa-23491",
+      "fid": 23491,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23491&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Vanquish Soul Caesar Valius"
+      ],
+      "handtraps": [
+        "kaiju",
+        "dark_ruler"
+      ],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "misc",
+      "question_ko": "'상대가 발동한 효과를 받지 않는' 몬스터에게 스킬 드레인·차원 장벽·강탈 같은 효과는 적용되나?",
+      "answer_ko": "적용된다. '발동한 효과를 받지 않는' 몬스터는 상대가 발동한 효과의 체인 블록 처리 시 적용되는 효과만 받지 않는다. 처리 시 적용을 시작해 계속 적용되는 효과나, 체인 블록 처리 이외에 적용되는 효과는 받는다. 예시에 [[Vanquish Soul Caesar Valius]]가 있다.",
+      "impact_ko": "바리우스가 땅 내성을 쓰면 [[Raigeki]]·[[Dark Ruler No More]] 같은 일회성 처리는 받지 않는다. 효과 발동이 아닌 괴수의 소환 절차 릴리스는 내성과 관계없이 통한다."
+    },
+    {
+      "id": "qa-23510",
+      "fid": 23510,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23510&request_locale=ja",
+      "official": true,
+      "cards": [
+        "Super Polymerization",
+        "Vanquish Soul Caesar Valius"
+      ],
+      "handtraps": [
+        "super_poly"
+      ],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "summon",
+      "question_ko": "효과를 받지 않는 상대 몬스터가 있을 때 [[Super Polymerization]]을 발동할 수 있나?",
+      "answer_ko": "융합 소재로 쓸 수 있는 조합이 없으면 발동 자체를 할 수 없다. 예시에 [[Vanquish Soul Caesar Valius]]가 있다.",
+      "impact_ko": "바리우스가 내성을 쓴 상태라면 초융합의 소재로 계산할 수 없다."
+    },
+    {
+      "id": "qa-16363",
+      "fid": 16363,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=16363&request_locale=ja",
+      "official": true,
+      "cards": [
+        "K9-ØØ Lupis",
+        "K9-17 \"Ripper\""
+      ],
+      "handtraps": [
+        "imperm",
+        "ultimate_slayer",
+        "dark_ruler",
+        "droplet"
+      ],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "misc",
+      "question_ko": "효과가 무효된 [[K9-ØØ Lupis]]를 소재로 엑시즈 소환하면 '상대는 이 카드를 효과의 대상으로 할 수 없다'가 적용되나?",
+      "answer_ko": "적용된다. 이 효과는 엑시즈 몬스터가 적용하는 효과라서 루푸스가 소재가 되기 전 무효였는지는 따지지 않는다. 그 엑시즈 몬스터의 효과가 무효되면 대상 내성도 사라진다(무효가 풀리면 다시 적용).",
+      "impact_ko": "루푸스를 소재로 가진 [[K9-17 \"Ripper\"]]는 포영·[[Ultimate Slayer]]로 대상 지정할 수 없다. 대상을 잡지 않는 [[Dark Ruler No More]]·[[Forbidden Droplet]]로 무효하면 대상 내성도 같이 꺼진다."
+    },
+    {
+      "id": "supp-21379",
+      "fid": null,
+      "cid": 21379,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21379&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "K9-ØØ Lupis",
+        "K9-17 Izuna"
+      ],
+      "handtraps": [
+        "ash",
+        "maxxc",
+        "droll"
+      ],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "chain",
+      "question_ko": "[[K9-ØØ Lupis]]의 ①(상대가 패·묘지 몬스터 효과를 발동한 턴에 특소)과 ②(상대 턴 엑시즈)는 어떻게 처리되나?",
+      "answer_ko": "①은 패·묘지에서 발동하는 퀵 효과로, 상대가 메인 페이즈에 패·묘지 몬스터 효과를 발동했으면 그 같은 체인 위에서도 발동할 수 있다. 상대의 그 발동이 무효되었다면 조건은 채워지지 않는다. ②는 체인 블록 처리 직후 바로 이 카드를 포함해 엑시즈 소환한다.",
+      "quote_ja": "相手が手札・墓地のモンスターの効果を発動し、その発動が無効になった場合、この効果の発動条件は満たされません。",
+      "impact_ko": "우라라·증G 같은 패 몬스터 효과를 쓰는 순간 루푸스가 그 체인에 바로 끼어들 수 있다. [[K9-17 Izuna]]의 보충 정보도 같다. 리퍼가 '효과'를 무효해도 '발동'은 무효된 게 아니므로 조건은 남는다."
+    },
+    {
+      "id": "qa-23218",
+      "fid": 23218,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23218&request_locale=ja",
+      "official": true,
+      "cards": [
+        "K9-ØØ Lupis",
+        "Ghost Belle & Haunted Mansion"
+      ],
+      "handtraps": [
+        "belle"
+      ],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "chain",
+      "question_ko": "[[K9-ØØ Lupis]]의 ①(패·묘지에서 자신을 특소) 발동에 [[Ghost Belle & Haunted Mansion]]를 체인할 수 있나?",
+      "answer_ko": "묘지에서 발동했을 때만 체인할 수 있다. 패에서 발동했을 때는 '패에서 특소하는 효과'라 체인할 수 없다.",
+      "impact_ko": "와라시는 묘지로 보내진 루푸스(이즈나 덤핑 후)의 특소에만 쓴다."
+    },
+    {
+      "id": "qa-23933",
+      "fid": 23933,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23933&request_locale=ja",
+      "official": true,
+      "cards": [
+        "K9-ØØ Lupis"
+      ],
+      "handtraps": [
+        "impulse"
+      ],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "summon",
+      "question_ko": "싱크로·엑시즈·링크 소환을 하는 효과는 '몬스터를 특소하는 효과'를 포함하나?",
+      "answer_ko": "포함한다. 예시 목록에 [[K9-ØØ Lupis]]의 ②가 있다.",
+      "impact_ko": "루푸스의 상대 턴 엑시즈 효과에는 [[Dominus Impulse]]처럼 '특소하는 효과를 포함한 효과'에 반응하는 카드를 체인할 수 있다."
+    },
+    {
+      "id": "supp-21380",
+      "fid": null,
+      "cid": 21380,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21380&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "K9-17 \"Ripper\""
+      ],
+      "handtraps": [
+        "ash",
+        "maxxc",
+        "droll",
+        "gamma"
+      ],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "opt",
+      "question_ko": "[[K9-17 \"Ripper\"]]의 무효 효과는 무엇에 반응하고 몇 번 쓰나?",
+      "answer_ko": "카드 텍스트상 '이 카드명의 ①②는 각각 1턴에 1번'이다. ②는 상대가 발동한 패·묘지 몬스터 효과에 바로 체인하는 퀵 효과(데미지 스텝 불가)로, 그 '효과'를 무효로 한다.",
+      "quote_ja": "このカード名の①②の効果はそれぞれ１ターンに１度しか使用できない。",
+      "impact_ko": "리퍼 2장이 있어도 무효는 그 턴 1번뿐이다. 루푸스로 두 번째 리퍼를 꺼내도 첫 리퍼가 이미 무효를 썼다면 추가 무효는 없다."
+    },
+    {
+      "id": "supp-21433",
+      "fid": null,
+      "cid": 21433,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21433&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Vanquish Soul Hollie Sue"
+      ],
+      "handtraps": [
+        "imperm",
+        "gamma",
+        "ash"
+      ],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "opt",
+      "question_ko": "[[Vanquish Soul Hollie Sue]]의 ② 효과는 몇 번 쓰나?",
+      "answer_ko": "①②는 각각 1턴에 1번이고 같은 체인에서 둘 다 쓸 수 없다. ②는 발동할 때 ●를 하나 고른다. 그래서 '땅·어둠: 탈취'와 '화염·어둠: 덱 특소' 중 하나만 1턴에 1번이다. 탈취는 상대 앞면 몬스터 중 공격력이 가장 낮은 1장이고, 내 메인 몬스터 존이 꽉 찼으면 대신 그 몬스터가 파괴된다(효과 파괴 아님).",
+      "impact_ko": "홀리 수가 덱 특소를 쓰면 그 턴 탈취는 없다. 공격력 낮은 미끼를 먼저 내는 전략은 탈취를 고른 경우에만 의미가 있다."
+    },
+    {
+      "id": "supp-19160",
+      "fid": null,
+      "cid": 19160,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19160&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Vanquish Soul Jiaolong"
+      ],
+      "handtraps": [
+        "imperm",
+        "lightning_storm"
+      ],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "opt",
+      "question_ko": "[[Vanquish Soul Jiaolong]]의 ② 효과는 몇 번 쓰나?",
+      "answer_ko": "①②는 각각 1턴에 1번이고 같은 체인에서 둘 다 쓸 수 없다. ②는 ● 하나를 골라 발동하므로 '화염: 표시 형식 변경'과 '화염 2장: VS 서치' 중 하나만 1턴에 1번이다. 둘 다 대상을 잡지 않는다. ①은 'VS 카드 효과를 발동하는 코스트로 패를 보였을 때' 체인 처리 후 발동한다.",
+      "impact_ko": "교룡이 서치를 썼다면 그 턴 [[Lightning Storm]]에 체인해 표시 형식을 바꿀 수 없다."
+    },
+    {
+      "id": "qa-23949",
+      "fid": 23949,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23949&request_locale=ja",
+      "official": true,
+      "cards": [
+        "PSY-Framegear Gamma",
+        "Vanquish Soul Razen",
+        "Vanquish Soul Caesar Valius",
+        "Allied Code Talker @Ignister"
+      ],
+      "handtraps": [
+        "gamma"
+      ],
+      "themes": [
+        "vanquish-soul-k9",
+        "maliss"
+      ],
+      "topic": "negate",
+      "question_ko": "'무효로 하고 파괴'하는 효과의 처리 시, 무효될 몬스터가 효과를 발동한 곳에 없으면 어떻게 되나?",
+      "answer_ko": "발동·효과는 무효되지만 파괴(또는 제외)는 하지 않는다. 예: [[Vanquish Soul Razen]]의 발동에 [[PSY-Framegear Gamma]]가 체인했고, 거기에 [[Vanquish Soul Caesar Valius]]로 라젠을 패로 되돌렸다면 라젠은 무효되지만 패에 남는다. [[Allied Code Talker @Ignister]]의 '무효로 하고 제외'도 같다.",
+      "impact_ko": "감마로 VS 퀵 효과를 무효해도 바리우스·헤비 보거로 되돌려지면 몸은 남는다."
+    },
+    {
+      "id": "supp-10659",
+      "fid": null,
+      "cid": 10659,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=10659&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Number C104: Umbral Horror Masquerade"
+      ],
+      "handtraps": [
+        "imperm"
+      ],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "negate",
+      "question_ko": "[[Number C104: Umbral Horror Masquerade]]의 ● 무효 효과는 무엇에 반응하나?",
+      "answer_ko": "상대 몬스터 존의 몬스터 효과가 발동했을 때 바로 체인하는 퀵 효과(데미지 스텝 가능)다. 발동을 무효로 하고, 그 뒤 상대 패 무작위 1장을 묘지로 보내고 상대 LP를 반으로 할 수 있다.",
+      "impact_ko": "패·묘지·마함 존에서 발동한 효과에는 반응하지 않는다. 함정인 포영으로 미리 무효하면 대응할 수 없다."
+    },
+    {
+      "id": "supp-19220",
+      "fid": null,
+      "cid": 19220,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19220&request_locale=ja",
+      "official": true,
+      "source_kind": "card_supplement",
+      "cards": [
+        "Vanquish Soul Snow Devil"
+      ],
+      "handtraps": [
+        "harpie",
+        "ttt"
+      ],
+      "themes": [
+        "vanquish-soul-k9"
+      ],
+      "topic": "misc",
+      "question_ko": "[[Vanquish Soul Snow Devil]]는 어떻게 처리되나?",
+      "answer_ko": "자기 몬스터 존에 VS 몬스터가 없어도 발동할 수 있다. 처리 시 조건을 채운 ●를 위에서부터 전부 적용한다(1개: 400 데미지 후 패에서 VS 특소 / 2개: 600 데미지 + 이번 턴 VS 몬스터 효과 파괴 내성 / 3개: 800 데미지 후 필드 몬스터 전부 파괴).",
+      "impact_ko": "공개 속성 수가 3이면 내 몬스터가 전부 파괴된다. 패의 속성 수를 줄이거나 세트 상태에서 먼저 소모시킨다."
+    }
+  ]
+}
