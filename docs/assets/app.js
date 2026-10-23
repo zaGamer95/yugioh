@@ -5,7 +5,7 @@
   const SEV = ["critical", "strong", "ok", "weak", "bad"];
   const SEV_KO = { critical: "치명", strong: "아픔", ok: "할만함", weak: "약함", bad: "비추" };
   const SEV_G = { critical: "●", strong: "▲", ok: "◆", weak: "○", bad: "✕" };
-  const KIND_ORDER = ["search", "negate", "draw", "gy", "destroy", "dominus", "going2nd"];
+  const KIND_ORDER = ["search", "negate", "draw", "gy", "destroy", "dominus", "going2nd", "not_handtrap"];
 
   let D = null;
   let HT = {};
@@ -21,11 +21,32 @@
     const label = k ? `<b>${esc(k)}</b>${opts.noEn ? "" : ` <span class="en">${esc(en)}</span>`}` : `<b>${esc(en)}</b>`;
     return `<span class="card" tabindex="0" data-card="${esc(en)}">${label}</span>`;
   };
-  const prose = (s) =>
-    String(s ?? "")
-      .split(/\[\[([^\]]+)\]\]/)
-      .map((part, i) => (i % 2 ? card(part, { noEn: true }) : esc(part).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")))
-      .join("");
+  // [[Card]] 뒤 조사를 공식 한국어명의 받침에 맞춘다 (을/를, 이/가, 은/는, 과/와, 으로/로)
+  const JOSA = { "을": ["을", "를"], "를": ["을", "를"], "이": ["이", "가"], "가": ["이", "가"], "은": ["은", "는"], "는": ["은", "는"], "과": ["과", "와"], "와": ["과", "와"], "으로": ["으로", "로"], "로": ["으로", "로"] };
+  const finalOf = (word) => {
+    const ch = String(word).trim().slice(-1);
+    const code = ch.charCodeAt(0) - 0xac00;
+    if (code >= 0 && code <= 11171) return code % 28; // 0 = 받침 없음, 8 = ㄹ
+    return /[0-9a-zA-Z]/.test(ch) ? -1 : 0;
+  };
+  const fixJosa = (name, j) => {
+    const pair = JOSA[j];
+    const f = finalOf(name);
+    if (!pair || f < 0) return j;
+    if (j === "으로" || j === "로") return f === 0 || f === 8 ? "로" : "으로";
+    return f ? pair[0] : pair[1];
+  };
+  const JOSA_RE = /\[\[([^\]]+)\]\](으로|을|를|이|가|은|는|과|와|로)?/g;
+  const prose = (s) => {
+    const str = String(s ?? "");
+    const txt = (t) => esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+    let out = "", last = 0;
+    for (const m of str.matchAll(JOSA_RE)) {
+      out += txt(str.slice(last, m.index)) + card(m[1], { noEn: true }) + (m[2] ? fixJosa(ko(m[1]) || m[1], m[2]) : "");
+      last = m.index + m[0].length;
+    }
+    return out + txt(str.slice(last));
+  };
   const sevBadge = (sev, text) => `<span class="sev sev-${sev}" data-g="${SEV_G[sev]}">${esc(text || SEV_KO[sev])}</span>`;
   const sevRank = (s) => (SEV.indexOf(s) < 0 ? 99 : SEV.indexOf(s));
   const img = (en, kind) => {
@@ -130,7 +151,7 @@
     }).join("");
     return `<table class="heat">${head}<tbody>${rows}</tbody></table>`;
   }
-  const stripBr = (s) => String(s || "").replace(/\[\[([^\]]+)\]\]/g, (_, n) => ko(n) || n);
+  const stripBr = (s) => String(s || "").replace(JOSA_RE, (_, n, j) => (ko(n) || n) + (j ? fixJosa(ko(n) || n, j) : ""));
 
   /* ---------- theme ---------- */
   function renderTheme(slug, params) {
@@ -422,7 +443,7 @@
   }
 
   function renderPlay(params) {
-    const ALL = [...D.handtraps.map((h) => ({ ...h, group: h.kind })), ...D.breakers.map((b) => ({ ...b, group: "breaker" }))];
+    const ALL = [...D.handtraps.map((h) => ({ ...h, group: h.kind === "not_handtrap" ? "breaker" : h.kind })), ...D.breakers.map((b) => ({ ...b, group: "breaker" }))];
     const state = {
       first: params.get("s") === "1" ? true : params.get("s") === "2" ? false : store.get("play.first", false),
       theme: params.get("t") || null,
@@ -521,7 +542,7 @@
       }
       const cmap = chokeMap(t);
       const held = state.held;
-      const heldHT = [...held].filter((id) => HT[id]);
+      const heldHT = [...held].filter((id) => HT[id] && HT[id].kind !== "not_handtrap");
 
       // A. 상대 턴: 패트랩 던질 곳
       const plans = heldHT
@@ -595,15 +616,15 @@
             <h2>돌파 가능성 <span class="muted small">후공 · ${esc({ hard: "풀 보드 난이도 높음", medium: "풀 보드 난이도 보통", easy: "풀 보드 난이도 낮음" }[gs.difficulty] || "")}</span></h2>
             <p class="small">${prose(gs.summary_ko)}</p>
             <div class="chips" role="group" aria-label="상대 보드">${boards
-              .map((b) => `<button type="button" class="chip sub" data-board="${b.id}" aria-pressed="${b.id === bid}">${esc(b.title_ko)}</button>`)
+              .map((b) => `<button type="button" class="chip sub" data-board="${b.id}" aria-pressed="${b.id === bid}">${esc(stripBr(b.title_ko))}</button>`)
               .join("")}</div>
-            <div class="verdict v-${v.cls}"><b>${v.label}</b><span>${esc(v.text)}</span>
+            <div class="verdict v-${v.cls}"><b>${v.label}</b><span>${esc(v.text)}<br><span class="muted small">카드 1장 = 견제 1개로 센 단순 판정입니다. 상대 무효가 내 돌파 카드를 먼저 막을 수 있으니 '미끼'와 권장 순서를 함께 보세요.</span></span>
               <span class="meter" aria-hidden="true">${res.map((r) => `<i class="${r.by ? "ok" : ""}"></i>`).join("")}</span></div>
             <ul class="ints">${res
               .map(
                 (r) => `<li class="${r.by ? "solved" : "open"}">
                   ${thumb(r.it.card, "tgt")}
-                  <div><div><b>${esc(ko(r.it.card) || r.it.card)}</b> <span class="muted small">${esc(r.it.timing_ko || "")}</span></div>
+                  <div><div><b>${esc(ko(r.it.card) || r.it.card)}</b> <span class="muted small">${prose(r.it.timing_ko || "")}</span></div>
                   ${
                     r.by
                       ? `<div class="small ans">✓ ${esc(anyName(r.by.id))} — ${prose(r.by.note_ko || "")}</div>`

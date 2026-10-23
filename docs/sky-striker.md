@@ -31,7 +31,7 @@
 | 마루챠미 냐루스 (Mulcharmy Meowls) | ⚪ 약함 | 레이·로제의 묘지 소생, 제로의 묘지 특소 때만. 선공 1턴에는 거의 해당 없음 |
 | 도미나스 스파크 (Dominus Spark) | ⚪ 약함 | 레이 효과는 필드 발동이라 조건이 잘 안 섬. 로제 패 특소가 나온 턴에만 |
 | 원시생명체 니비루 (Nibiru, the Primal Being) | ⛔ 비추 | 1턴 소환 횟수가 5회에 못 미침 |
-| 말살의 지명자 (Crossout Designator) | ⛔ 비추 | 자기 메인 덱에 있는 카드명만 선언 가능해 섬도 카드에는 못 씀. 내가 현람(사이크론·견신)을 같이 쓰면 그 이름 정도 |
+| 말살의 지명자 (Crossout Designator) | ⛔ 비추 | 자기 메인 덱에 있는 카드명만 선언 가능해 섬도 카드에는 못 씀. 내가 현람한 견신 등 현람 카드을 같이 쓰면 그 이름 정도 |
 
 ## 혈자리 (우선순위 순)
 
@@ -115,14 +115,14 @@
 | 1 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 발동: 덱에서 섬도 카드 서치 | 섬도희－레이 (Sky Striker Ace - Raye) 서치 | 우라라, 드롤, 도미나스 퍼지 |
 | 2 | 섬도희－레이 (Sky Striker Ace - Raye) | 일반 소환 |  | 푸루리아, 니비루 |
 | 3 | 섬도희－레이 (Sky Striker Ace - Raye) | 퀵 효과: 자신을 릴리스하고 섬도희를 엑스트라 몬스터 존에 특소 | 섬도희＝제로 (Sky Striker Ace = Zero) 특소 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 4 | 섬도희＝제로 (Sky Striker Ace = Zero) | 특소 성공 시 효과: 묘지의 섬도기동－인게이지 (Sky Striker Mobilize - Engage!)를 패에 (덱에서 다른 섬도 마법을 가져와도 됨) | 인게이지 회수 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 도미나스 퍼지, 비스테드 마그남헛, 감마 |
+| 4 | 섬도희＝제로 (Sky Striker Ace = Zero) | 특소 성공 시 효과: 묘지의 섬도기동－인게이지 (Sky Striker Mobilize - Engage!)를 패에 (덱에서 다른 섬도 마법을 가져와도 됨) | 인게이지 회수 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 도미나스 퍼지, 마그나무트, 감마 |
 | 5 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 다시 발동: 덱에서 섬도 카드 서치 | 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor) 또는 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) | 우라라, 드롤, 도미나스 퍼지 |
 
 **최종 필드 / 견제**: 섬도희＝제로 (Sky Striker Ace = Zero), 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor), 섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)
 
 레이-제로 라인과 같지만 패 소모가 한 장 적다. 1번 서치를 우라라로 끊으면 레이가 없어 제로 루트 자체가 없다.
 
-## 전개: 레이가 막혔을 때: 호넷 드론 토큰 → 카가리 회수 (`hornet-kagari`)
+## 전개: 레이가 막혔을 때: 섬도희 토큰 → 카가리 회수 (`hornet-kagari`)
 
 초동 패: **섬도기동－인게이지** (Sky Striker Mobilize - Engage!) + **섬도기－호넷비트** (Sky Striker Mecha - Hornet Drones)
 
@@ -132,7 +132,7 @@
 |---|---|---|---|---|
 | 1 | 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) | 속공 발동: 섬도희 토큰 1장 수비 특소 |  | – |
 | 2 | 섬도희－카가리 (Sky Striker Ace - Kagari) | 토큰 1장으로 링크 소환 (엑스트라 몬스터 존) |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 3 | 섬도희－카가리 (Sky Striker Ace - Kagari) | 특소 성공 시 효과: 묘지의 섬도 마법 1장을 대상으로 패에 | 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) 또는 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) 회수 | 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 비스테드 마그남헛, 감마 |
+| 3 | 섬도희－카가리 (Sky Striker Ace - Kagari) | 특소 성공 시 효과: 묘지의 섬도 마법 1장을 대상으로 패에 | 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) 또는 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) 회수 | 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마 |
 | 4 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 메인 몬스터 존이 비었으므로 발동: 섬도 카드 서치 |  | 우라라, 드롤, 도미나스 퍼지 |
 
 **최종 필드 / 견제**: 섬도희－카가리 (Sky Striker Ace - Kagari), 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor), 섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)
@@ -144,7 +144,7 @@
 - 레이·제로의 퀵 효과는 자신을 릴리스하는 코스트라 대상 지정 무효(포영·뵐러)·파괴(유령토끼)가 안 맞는다. 미리 걸면 체인해서 도망간다. 레이에는 도미나스 임펄스·감마만 유효.
 - 유령토끼는 패에서 발동하는 마법 카드에 못 쓴다. 섬도의 주요 카드가 전부 속공·일반 마법이라 유령토끼는 사이드 아웃 후보.
 - 섬도희 링크 몬스터를 상대 효과로 치우면 묘지의 레이가 소생한다(1턴 1번). 후공에서 제로를 먼저 치울 때는 레이 소생까지 계산할 것.
-- 후공 사이드: 드롤·우라라·와라시를 유지하고, 세트 속공을 치우는 싸이크론 (Mystical Space Typhoon)/코즈믹 사이클론/하피의 깃털 빗자루, 마법 체인을 막는 금지된 일적 (Forbidden Droplet)(마법을 보내 발동), 이블리 매치드를 넣는다. 포영·뵐러·니비루·유령토끼는 빼는 쪽.
+- 후공 사이드: 드롤·우라라·와라시를 유지하고, 세트 속공을 치우는 싸이크론 (Mystical Space Typhoon)/코즈믹 싸이크론 (Cosmic Cyclone)/해피의 깃털 (Harpie's Feather Duster), 마법 체인을 막는 금지된 일적 (Forbidden Droplet)(마법을 보내 발동), 이블리 매치드를 넣는다. 포영·뵐러·니비루·유령토끼는 빼는 쪽.
 - 후공에서 상대 턴(=내 턴) 제로의 '레이+로제 덱·묘지 특소'는 우라라·임펄스 대상. 위도우 앵커는 메인 몬스터 존에 몬스터가 없을 때만 발동되므로 상대가 로제·레이를 꺼낸 뒤에는 위도우 앵커를 못 쓴다.
 - 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor)는 묘지 마법 3장 이상이면 내 몬스터를 빼앗는다. 핵심 몬스터 효과는 위도우 앵커를 먼저 소모시킨 뒤에 쓰는 게 좋다.
 

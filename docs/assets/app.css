@@ -319,3 +319,6 @@ table.heat tr.kind th { text-align: left; padding: 10px 8px 2px; color: var(--mu
   .staples .bar { display: none; }
 }
 .pl.blocked { opacity: .6; }
+#playOut > * { min-width: 0; }
+.break .chips { flex-wrap: wrap; overflow: visible; }
+.break .chip { white-space: normal; text-align: left; }

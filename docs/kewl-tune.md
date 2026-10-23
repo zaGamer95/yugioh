@@ -82,7 +82,7 @@
 | 킬러튠 큐 (Kewl Tune Cue) | 1장 초동(제한 1). 일반 소환 시 패·덱·묘지에서 큐 이외 튜너 특소(이후 이번 턴 튜너만 특소). 싱크로 소재로 가면 상대 덱 위 2장 중 1장 제외 |
 | 킬러튠 로터리 (Kewl Tune Rotary) | 제한 1. 공개+패 튜너로 추가 일반 소환. 싱크로 소재로 가면 상대 패를 보고 킬러튠 마함 서치(또는 상대 묘지 1장 덱 아래로) → 이때 상대 패트랩이 다 보인다 |
 | 킬러튠 레코 (Kewl Tune Reco) | 1장 초동(제한 2). 소환 시 레벨 3 이외 킬러튠 몬스터를 덱·묘지에서 서치. 소재로 가면 상대 마함 1장 파괴 |
-| 킬러튠 믹스 (Kewl Tune Mix) | 소환 시 레벨 2 이외 킬러튠 몬스터 덱·묘지 서치. 소재로 가면 상대 몬스터 1장 파괴. 증원 (Reinforcement of the Army)로 서치 가능 |
+| 킬러튠 믹스 (Kewl Tune Mix) | 소환 시 레벨 2 이외 킬러튠 몬스터 덱·묘지 서치. 소재로 가면 상대 몬스터 1장 파괴. 증원 (Reinforcement of the Army)으로 서치 가능 |
 | 킬러튠 트랙메이커 (Kewl Tune Track Maker) | 레벨 4 튜너 싱크로. 특소 시 킬러튠 카드 서치(주로 주크조인트 “Killer Tune” (JJ "Kewl Tune")). 소재로 가면 상대 카드 1장 바운스 |
 | 주크조인트 “Killer Tune” (JJ "Kewl Tune") | 필드 마법. 튜너 추가 일반 소환권 + 튜너 1장 릴리스로 덱에서 킬러튠 몬스터 서치/특소(이후 튜너만 특소) |
 | 킬러튠 싱크로 (Kewl Tune Synchro) | 속공 마법(제한 2, 1턴 2장까지). 킬러튠 카드 서치 후 바로 튜너 싱크로. 세트해 두고 상대 턴에 쓴다 |
@@ -185,7 +185,7 @@ MDM 'Elfnote Kewl Tune'. game8(2026-10-22)·note 루트 요약. 엘펜노츠 파
 - 킬러튠은 상대 턴이 본 전개다. 선공 상대에게 패트랩을 다 쓰고 나서 내 턴에 상대가 킬러튠 싱크로 (Kewl Tune Synchro)·킬러튠 리믹스 (Kewl Tune Remix)로 퀵 싱크로를 시작하면 쇄박룡 잘렌 (Zalen the Shackled Dragon)이 체인 2 이상을 노린다. 내 턴 효과를 체인 1로만 쓰는 순서에 주의.
 - G·후와로스는 상대 턴에 쓸 거면 드로우/스탠바이에 선사용. 메인 페이즈까지 기다리면 상대가 킬러튠 싱크로를 체인해 드로우 전에 착지할 수 있다(mdarchive 상대 턴 기준 지적, 출처 미확인).
 - 엘펜노츠 혼합형은 엘펜노츠 파트(루키나 서치·레기나 덱 특소·스트리치아 소생)가 먼저 나오므로 elfnote 문서의 혈자리가 그대로 우선. 킬러튠 파트는 환룡성－쵸호우 (Chaofeng, Phantom of the Yang Zing)의 튜너 서치부터 시작된다.
-- 순수형은 듀얼리스트 제네시스 (Duelist Genesis)(튜너가 있으면 '싱크로' 마함 = 킬러튠 싱크로 서치)·오버 튜닝 (Over Tuning)·증원 (Reinforcement of the Army)(믹스)·지박수인 스톤 스위퍼 (Earthbound Prisoner Stone Sweeper)(레코)로 초동을 늘린다. 저택 와라시 (Ghost Belle & Haunted Mansion)을 거의 3장 쓰므로, 묘지 소생 위주의 내 덱은 와라시를 의식할 것.
+- 순수형은 듀얼리스트 제네시스 (Duelist Genesis)(튜너가 있으면 '싱크로' 마함 = 킬러튠 싱크로 서치)·오버 튜닝 (Over Tuning)·증원 (Reinforcement of the Army)(믹스)·지박수인 스톤 스위퍼 (Earthbound Prisoner Stone Sweeper)(레코)로 초동을 늘린다. 저택 와라시 (Ghost Belle & Haunted Mansion)를 거의 3장 쓰므로, 묘지 소생 위주의 내 덱은 와라시를 의식할 것.
 
 ## 출처
 

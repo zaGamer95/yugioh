@@ -6,7 +6,7 @@
 
 ## 한눈에 보기
 
-무구한 자 메디우스 (Medius the Pure)로 아르토메기아의 감옥신수 (Artmage Power Patron)를 불러 아르토메기아 디아크트로스 (Artmage Diactorus)를 융합하고, 아르토메기아의 감옥신수 (Artmage Power Patron)가 묘지로 가며 가져오는 필드 마법 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis)로 아르토메기아 그라플레어 (Artmage Graflare)·아르토메기아 리테라 (Artmage Litera)·아르토메기아 파인멜트 (Artmage Finmel)을 연속 서치해 패에서 특소하는 융합 덱. 필드의 몬스터 종족이 3종류 이상이면 디아크토러스의 무효·파괴, 핀멜의 전체 무효, 그라플레어의 퀵 마함 파괴가 켜지고, 상대 턴에 아르토메기아의 감옥신수 (Artmage Power Patron)의 퀵 융합으로 창감옥신 네르바 (Nerva the Power Patron of Creation)를 내 '아르토메기아 몬스터 효과'를 '상대 카드 전부 파괴'로 바꿔 끝낸다. 2026-10-06 추가된 감옥신 펜듈럼(감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron) 등)·절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus)·펜듈럼 트레져 (Pendulum Treasure)가 들어가 초동이 늘었다. 메디우스는 절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus)·아르토메기아 반달리즘 －습격－ (Artmage Vandalism -Assault-)로도 서치된다. 약점은 모든 루트가 메디우스(또는 테르미나스)의 첫 효과와 필드 마법의 반복 서치에 모인다는 점. 그 둘 중 하나를 끊으면 종족 3종류 조건을 맞추기 어렵다. 무구한 자 메디우스 (Medius the Pure)와 감옥신 펜듈럼은 엘펜노츠·DoomZ·감옥신 덱과 공유하는 엔진이라, 메디우스 쪽 혈자리는 그 덱들에도 비슷하게 적용된다.
+무구한 자 메디우스 (Medius the Pure)로 아르토메기아의 감옥신수 (Artmage Power Patron)를 불러 아르토메기아 디아크트로스 (Artmage Diactorus)를 융합하고, 아르토메기아의 감옥신수 (Artmage Power Patron)가 묘지로 가며 가져오는 필드 마법 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis)로 아르토메기아 그라플레어 (Artmage Graflare)·아르토메기아 리테라 (Artmage Litera)·아르토메기아 파인멜트 (Artmage Finmel)를 연속 서치해 패에서 특소하는 융합 덱. 필드의 몬스터 종족이 3종류 이상이면 디아크토러스의 무효·파괴, 핀멜의 전체 무효, 그라플레어의 퀵 마함 파괴가 켜지고, 상대 턴에 아르토메기아의 감옥신수 (Artmage Power Patron)의 퀵 융합으로 창감옥신 네르바 (Nerva the Power Patron of Creation)를 내 '아르토메기아 몬스터 효과'를 '상대 카드 전부 파괴'로 바꿔 끝낸다. 2026-10-06 추가된 감옥신 펜듈럼(감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron) 등)·절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus)·펜듈럼 트레져 (Pendulum Treasure)가 들어가 초동이 늘었다. 메디우스는 절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus)·아르토메기아 반달리즘 －습격－ (Artmage Vandalism -Assault-)로도 서치된다. 약점은 모든 루트가 메디우스(또는 테르미나스)의 첫 효과와 필드 마법의 반복 서치에 모인다는 점. 그 둘 중 하나를 끊으면 종족 3종류 조건을 맞추기 어렵다. 무구한 자 메디우스 (Medius the Pure)와 감옥신 펜듈럼은 엘펜노츠·DoomZ·감옥신 덱과 공유하는 엔진이라, 메디우스 쪽 혈자리는 그 덱들에도 비슷하게 적용된다.
 
 ### 패트랩 상성 요약
 
@@ -114,7 +114,7 @@
 | 6 | 아르토메기아 그라플레어 (Artmage Graflare) | 패에서 자신 특소 + 덱에서 아르토메기아 마법 세트 | 아르토메기아 버니시 －개변－ (Artmage Varnish -Alteration-) 세트 | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 | 7 | 아르토메기아 버니시 －개변－ (Artmage Varnish -Alteration-) | 발동: 필드 마법이 있으므로 덱에서 아르토메기아 카드 서치 | 아르토메기아 메세나 －각성－ (Artmage Pact -Awakening-) 서치 | 우라라, 드롤, 도미나스 퍼지 |
 | 8 | 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis) | 각성을 버리고 다른 이름 선언해 서치 | 아르토메기아 리테라 (Artmage Litera) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
-| 9 | 아르토메기아 리테라 (Artmage Litera) | 패에서 자신 특소 + 묘지의 아르토메기아 카드 회수 | 아르토메기아 메세나 －각성－ (Artmage Pact -Awakening-) 회수 | G, 푸루리아, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 비스테드 마그남헛, 감마 |
+| 9 | 아르토메기아 리테라 (Artmage Litera) | 패에서 자신 특소 + 묘지의 아르토메기아 카드 회수 | 아르토메기아 메세나 －각성－ (Artmage Pact -Awakening-) 회수 | G, 푸루리아, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 마그나무트, 감마 |
 | 10 | 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis) | 각성을 다시 버리고 서치 | 아르토메기아 파인멜트 (Artmage Finmel) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
 | 11 | 아르토메기아 파인멜트 (Artmage Finmel) | 패에서 자신 특소 + 1드로우 |  | G, 푸루리아, 드롤, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 

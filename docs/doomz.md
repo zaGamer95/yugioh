@@ -148,7 +148,7 @@
 | 16 | 기간틱 "챔피언" 사르가스 (Gigantic "Champion" Sargas) | 메리메이커 위에 겹쳐 엑시즈 소환 → 레귤러스 서치 | 세리온즈 "킹" 레귤러스 (Therion "King" Regulus) 서치 | 우라라, G, 후와로스, 드롤, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 도미나스 퍼지, 감마 |
 | 17 | 세리온즈 "킹" 레귤러스 (Therion "King" Regulus) | 묘지의 둠즈를 대상으로 패에서 특소하고 장착 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 | 18 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) | ①: 장착된 둠즈를 파괴하고 패에서 특소, 장착 마법 장착 | 둠즈 커맨드 『D.O.O.M.D.U.R.G.』 (DoomZ Command "D.O.O.M.D.U.R.G.") 장착 | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 19 | 둠즈 체인저 (DoomZ Change) | 발동(덱의 둠즈 디스트럭션 (DoomZ Destruction) 파괴)에 드라스테아가 DURG로 얻은 퀵 효과를 체인해 체인지를 자괴 → 체인지 묘지 효과로 둠즈 디스트럭션 (DoomZ Destruction) 회수 | 둠즈 디스트럭션 (DoomZ Destruction) 세트 | 와라시, 비스테드 마그남헛 |
+| 19 | 둠즈 체인저 (DoomZ Change) | 발동(덱의 둠즈 디스트럭션 (DoomZ Destruction) 파괴)에 드라스테아가 DURG로 얻은 퀵 효과를 체인해 체인지를 자괴 → 체인지 묘지 효과로 둠즈 디스트럭션 (DoomZ Destruction) 회수 | 둠즈 디스트럭션 (DoomZ Destruction) 세트 | 와라시, 마그나무트 |
 
 **최종 필드 / 견제**: 기간틱 "챔피언" 사르가스 (Gigantic "Champion" Sargas), 세리온즈 "킹" 레귤러스 (Therion "King" Regulus), 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea), 둠즈 레이더 (DoomZ Raiders), 둠즈 디스트럭션 (DoomZ Destruction)
 
@@ -174,7 +174,7 @@
 | 10 | 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") | 묘지 효과로 둠즈에 장착 → ②로 둠즈 파괴, 묘지의 드라스테아 수비 특소 | 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea) 소생 | G, 냐루스, 유령토끼, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 11 | 감옥신기Doom－Z (Power Patron DoomZ) | 효과로 파괴된 유발: 둠즈 카드 서치 | 둠즈 체인저 (DoomZ Change) 서치 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
 | 12 | 둠즈 커맨드 『D.O.O.M.D.U.R.G.』 (DoomZ Command "D.O.O.M.D.U.R.G.") | 발동해 드라스테아에게 장착 |  | – |
-| 13 | 둠즈 체인저 (DoomZ Change) | 발동(덱의 둠즈 디스트럭션 (DoomZ Destruction) 파괴)에 DURG 효과를 체인해 체인지 자괴 → 묘지 효과로 둠즈 디스트럭션 (DoomZ Destruction) 회수, 세트 | 둠즈 디스트럭션 (DoomZ Destruction) 세트 | 와라시, 비스테드 마그남헛 |
+| 13 | 둠즈 체인저 (DoomZ Change) | 발동(덱의 둠즈 디스트럭션 (DoomZ Destruction) 파괴)에 DURG 효과를 체인해 체인지 자괴 → 묘지 효과로 둠즈 디스트럭션 (DoomZ Destruction) 회수, 세트 | 둠즈 디스트럭션 (DoomZ Destruction) 세트 | 와라시, 마그나무트 |
 
 **최종 필드 / 견제**: 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea), 둠즈Ⅶ－엘라라 (DoomZ VII Seven - Elara), 둠즈 커맨드 『D.O.O.M.D.U.R.G.』 (DoomZ Command "D.O.O.M.D.U.R.G."), 둠즈 레이더 (DoomZ Raiders), 둠즈 디스트럭션 (DoomZ Destruction)
 

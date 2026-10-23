@@ -107,7 +107,7 @@
 | 7 | 스플래시 메이지 (Splash Mage) | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) + M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 8 | 스플래시 메이지 (Splash Mage) | 효과: 묘지의 사이버스 1장을 효과 무효로 수비 특소 (이후 사이버스만 특소 가능) | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) 소생 | G, 냐루스, 무한포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 | 9 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) + 스플래시 메이지 (Splash Mage)로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 10 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 특소 시 효과: 묘지의 카드 3장까지 제외 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)·M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 등 제외 | 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 비스테드 마그남헛, 감마 |
+| 10 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 특소 시 효과: 묘지의 카드 3장까지 제외 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)·M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 등 제외 | 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마 |
 | 11 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) | 제외된 경우의 효과: 300LP를 내고 제외된 M∀LICE 몬스터 1장을 패에 넣음 (제외 상태에서 발동) | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) 자신을 회수 | 도미나스 스파크, 감마 |
 | 12 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 메인 페이즈 효과: 덱·묘지에서 M∀LICE 함정 1장 세트 | M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 13 | 사이버스 위키드 (Cyberse Wicckid) | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) + M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
@@ -140,7 +140,7 @@
 | 5 | 스플래시 메이지 (Splash Mage) | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) + M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 6 | 스플래시 메이지 (Splash Mage) | 효과: 묘지의 사이버스를 효과 무효로 특소 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) 소생 | G, 냐루스, 무한포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 | 7 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) + 스플래시 메이지 (Splash Mage)로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 8 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 특소 시 효과: 묘지 카드 3장까지 제외 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)·M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 제외 | 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 비스테드 마그남헛, 감마 |
+| 8 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 특소 시 효과: 묘지 카드 3장까지 제외 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)·M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 제외 | 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마 |
 | 9 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) | 제외된 경우의 효과: 300LP를 내고 자신을 특소 (새로 나온 카드라 효과 사용 가능) |  | G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 10 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 메인 페이즈 효과: M∀LICE 함정 세트 | M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 11 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) | 메인 페이즈 효과: 덱에서 M∀LICE 몬스터 제외 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) 제외 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |

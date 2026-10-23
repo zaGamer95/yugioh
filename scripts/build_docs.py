@@ -52,10 +52,29 @@ class Names:
         return f"{ko} ({en})" if ko else f"{en} ⚠"
 
 
+JOSA = {"을": "을를", "를": "을를", "이": "이가", "가": "이가", "은": "은는", "는": "은는", "과": "과와", "와": "과와"}
+
+
+def fix_josa(word, j):
+    """공식 한국어명 받침에 맞춰 조사를 고른다. 영문으로 끝나면 그대로."""
+    ch = word.strip()[-1:] if word else ""
+    code = ord(ch) - 0xAC00 if ch else -1
+    if not 0 <= code <= 11171:
+        return j
+    final = code % 28
+    if j in ("으로", "로"):
+        return "로" if final in (0, 8) else "으로"
+    pair = JOSA.get(j)
+    return (pair[0] if final else pair[1]) if pair else j
+
+
 def link_names(obj, names):
-    """설명문 안의 [[English Name]] 을 '한국어명 (English)' 으로 바꾼다."""
+    """설명문 안의 [[English Name]] 을 '한국어명 (English)' 으로 바꾸고 뒤 조사를 맞춘다."""
     if isinstance(obj, str):
-        return re.sub(r"\[\[([^\]]+)\]\]", lambda m: names.plain(m.group(1)), obj)
+        def sub(m):
+            en, j = m.group(1), m.group(2) or ""
+            return names.plain(en) + (fix_josa(names.ko(en) or en, j) if j else "")
+        return re.sub(r"\[\[([^\]]+)\]\](으로|을|를|이|가|은|는|과|와|로)?", sub, obj)
     if isinstance(obj, list):
         return [link_names(x, names) for x in obj]
     if isinstance(obj, dict):

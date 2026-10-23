@@ -6,7 +6,7 @@
 
 ## 한눈에 보기
 
-알버스의 낙윤 (Fallen of Albaz)를 축으로 데스피아·드래그마·트라이브리게이드·상검 카드를 섞은 융합·싱크로 미드레인지. 2026년 MD 지원(하얀 용의 낙윤 (Fallen of the White Dragon)·검은 용의 에클레시아 (Ecclesia and the Dark Dragon)·트라이브리게이드 스프리건즈 키트 (Tri-Brigade Springans Kitt)) 이후 낙인융합 (Branded Fusion)(제한 1) 없이도 하얀 용 1장으로 싱크로 → 쿠엠 → 엔드 페이즈 세트까지 이어진다. 선공 판면은 몬스터 3~4장 + The Fallen & The Virtuous (The Fallen & The Virtuous)/낙인단죄 (Branded Retribution) 세트 정도로 작지만, 상대 턴에 에클레시아·린드블룸·쿠엠·카르테시아로 알버스의 낙윤 (Fallen of Albaz) 융합과 빙검룡 미라제이드 (Mirrorjade the Iceblade Dragon)을 연달아 꺼내며 견제를 늘린다. 엔드 페이즈 효과(알비온 세트, 에클레시아·카르테시아 회수)가 많아 묘지 대책에 약하고, 흐름이 긴 대신 한 장 한 장의 효과가 1턴 1번이라 '이번 턴 다시 못 쓰는' 효과를 정확히 끊는 게 핵심.
+알버스의 낙윤 (Fallen of Albaz)을 축으로 데스피아·드래그마·트라이브리게이드·상검 카드를 섞은 융합·싱크로 미드레인지. 2026년 MD 지원(하얀 용의 낙윤 (Fallen of the White Dragon)·검은 용의 에클레시아 (Ecclesia and the Dark Dragon)·트라이브리게이드 스프리건즈 키트 (Tri-Brigade Springans Kitt)) 이후 낙인융합 (Branded Fusion)(제한 1) 없이도 하얀 용 1장으로 싱크로 → 쿠엠 → 엔드 페이즈 세트까지 이어진다. 선공 판면은 몬스터 3~4장 + The Fallen & The Virtuous (The Fallen & The Virtuous)/낙인단죄 (Branded Retribution) 세트 정도로 작지만, 상대 턴에 에클레시아·린드블룸·쿠엠·카르테시아로 알버스의 낙윤 (Fallen of Albaz) 융합과 빙검룡 미라제이드 (Mirrorjade the Iceblade Dragon)를 연달아 꺼내며 견제를 늘린다. 엔드 페이즈 효과(알비온 세트, 에클레시아·카르테시아 회수)가 많아 묘지 대책에 약하고, 흐름이 긴 대신 한 장 한 장의 효과가 1턴 1번이라 '이번 턴 다시 못 쓰는' 효과를 정확히 끊는 게 핵심.
 
 ### 패트랩 상성 요약
 
@@ -45,7 +45,7 @@
    - 맞은 뒤 상대 루트: 알비온 + 알베르로 턴 종료. 손에 TFTV가 있으면 자기 알비온을 파괴해 엔드 페이즈 세트를 살리는 정도.
 3. 🔴 치명 **저택 와라시** (Ghost Belle & Haunted Mansion) → **낙인룡 알비온** (Albion the Branded Dragon) — bfusion 4단계
    - 타이밍: 같은 낙인룡 알비온 (Albion the Branded Dragon) 융합 효과(묘지의 카드를 제외하는 효과)에 체인
-   - 이유: 발동 무효라 무한포영과 같은 결과. 무한포영을 다른 곳에 아껴야 할 때 대체 수단. 다만 실낙인 (Branded Lost)가 앞면이면 융합하는 효과의 발동은 무효할 수 없으니 그때는 효과 무효형(무한포영·뵐러)을 쓴다.
+   - 이유: 발동 무효라 무한포영과 같은 결과. 무한포영을 다른 곳에 아껴야 할 때 대체 수단. 다만 실낙인 (Branded Lost)이 앞면이면 융합하는 효과의 발동은 무효할 수 없으니 그때는 효과 무효형(무한포영·뵐러)을 쓴다.
    - 맞은 뒤 상대 루트: 무한포영과 동일.
 4. 🟠 아픔 **하루 우라라** (Ash Blossom & Joyous Spring) → **하얀 용의 낙윤** (Fallen of the White Dragon) — white 2단계
    - 타이밍: 하얀 용의 낙윤 (Fallen of the White Dragon)이 특소된 뒤 '에클레시아 특소' 효과 발동에 체인 (무한포영·뵐러로 하얀 용을 무효해도 같음)
@@ -80,10 +80,10 @@
 
 | 카드 | 역할 |
 |---|---|
-| 하얀 용의 낙윤 (Fallen of the White Dragon) | 패에서 엑덱의 알버스 언급 몬스터를 묘지로 보내 자신 특소(이후 엑덱은 레벨 8 융합·싱크로만), 소환 시 에클레시아 몬스터를 패·덱·묘지에서 특소. 이름은 항상 알버스의 낙윤 (Fallen of Albaz)로 취급. |
+| 하얀 용의 낙윤 (Fallen of the White Dragon) | 패에서 엑덱의 알버스 언급 몬스터를 묘지로 보내 자신 특소(이후 엑덱은 레벨 8 융합·싱크로만), 소환 시 에클레시아 몬스터를 패·덱·묘지에서 특소. 이름은 항상 알버스의 낙윤 (Fallen of Albaz)으로 취급. |
 | 검은 용의 에클레시아 (Ecclesia and the Dark Dragon) | 레벨 8 싱크로. 메인 페이즈 속공으로 자신을 엔드 페이즈까지 제외하고 덱·묘지에서 알버스의 낙윤 (Fallen of Albaz) 또는 알버스 언급 레벨 4 이하 특소. 상대 턴에 다시 쓴다. |
 | 인도하는 성녀 쿠엠 (Guiding Quem, the Virtuous) | 소환 시 알버스(언급 카드) 덤핑, 엑덱에서 카드가 떠날 때마다(1턴 1번) 묘지의 알버스 언급 몬스터 소생. 드래그마·데스피아 취급. |
-| 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) | 메인 페이즈 속공으로 릴리스해 알버스의 낙윤 (Fallen of Albaz)를 덱에서 특소 → 상대 몬스터를 소재로 융합. 융합이 묘지로 간 턴 엔드 페이즈에 자신 회수. |
+| 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) | 메인 페이즈 속공으로 릴리스해 알버스의 낙윤 (Fallen of Albaz)을 덱에서 특소 → 상대 몬스터를 소재로 융합. 융합이 묘지로 간 턴 엔드 페이즈에 자신 회수. |
 | 혁의 성녀 카르테시아 (Blazing Cartesia, the Virtuous) | 메인 페이즈 속공 융합(레벨 8 이상). 상대 턴 빙검룡 미라제이드 (Mirrorjade the Iceblade Dragon) 등. 엔드 페이즈 자신 회수. |
 | 데스피아의 도화 알베르 (Aluber the Jester of Despia) | 소환 시 낙인 마함 서치(보통 낙인융합 (Branded Fusion)). 우라라를 빼는 미끼로도 쓴다. |
 | 낙인융합 (Branded Fusion) | 덱에서 소재 2장을 보내 알버스 언급 융합. 발동 턴은 엑덱이 융합만 되므로 싱크로 라인과 같은 턴에 못 쓴다. MD 제한 1. |
@@ -98,7 +98,7 @@
 
 초동 패: **하얀 용의 낙윤** (Fallen of the White Dragon)
 
-일반 소환권을 쓰지 않는다. 이 라인 뒤에는 엑덱이 레벨 8 융합·싱크로만 되고, 싱크로를 했으니 같은 턴 낙인융합 (Branded Fusion)은 발동할 수 없다. G를 맞으면 보통 쿠엠까지(4드로우)에서 멈추고 엔드 페이즈 세트만 챙긴다. 손에 알베르·낙인융합 같은 추가 초동이 있으면 엔드 페이즈의 알비온으로 낙인의 기염 (Branded in High Spirits)·혁의 낙인 (Branded in Red)를 서치해 빙검룡 미라제이드 (Mirrorjade the Iceblade Dragon)까지 늘린다.
+일반 소환권을 쓰지 않는다. 이 라인 뒤에는 엑덱이 레벨 8 융합·싱크로만 되고, 싱크로를 했으니 같은 턴 낙인융합 (Branded Fusion)은 발동할 수 없다. G를 맞으면 보통 쿠엠까지(4드로우)에서 멈추고 엔드 페이즈 세트만 챙긴다. 손에 알베르·낙인융합 같은 추가 초동이 있으면 엔드 페이즈의 알비온으로 낙인의 기염 (Branded in High Spirits)·혁의 낙인 (Branded in Red)을 서치해 빙검룡 미라제이드 (Mirrorjade the Iceblade Dragon)까지 늘린다.
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
@@ -107,8 +107,8 @@
 | 3 | 검은 용의 에클레시아 (Ecclesia and the Dark Dragon) | 하얀 용 + 에클레시아(튜너)로 레벨 8 싱크로 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 4 | 검은 용의 에클레시아 (Ecclesia and the Dark Dragon) | 메인 페이즈 속공: 자신을 엔드 페이즈까지 제외하고 덱에서 알버스 언급 레벨 4 이하 특소 | 인도하는 성녀 쿠엠 (Guiding Quem, the Virtuous) 특소 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 | 5 | 인도하는 성녀 쿠엠 (Guiding Quem, the Virtuous) | 소환 성공 시 효과: 덱에서 알버스 언급 카드를 묘지로 | 혁의 성녀 카르테시아 (Blazing Cartesia, the Virtuous) 묘지로 | 우라라, 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 6 | 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) | 엔드 페이즈(융합 몬스터가 이번 턴 묘지로 갔음): 묘지에서 자신을 패로 | 카르테시아도 같은 조건으로 묘지에서 패로 | 와라시, 도미나스 스파크, 비스테드 마그남헛, 감마 |
-| 7 | 낙인룡 알비온 (Albion the Branded Dragon) | 엔드 페이즈, 이번 턴 묘지로 보내졌으므로: 덱에서 낙인 마함 서치 또는 세트 | The Fallen & The Virtuous (The Fallen & The Virtuous) 세트 | 우라라, 드롤, 와라시, 도미나스 퍼지, 도미나스 스파크, 비스테드 마그남헛, 감마 |
+| 6 | 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) | 엔드 페이즈(융합 몬스터가 이번 턴 묘지로 갔음): 묘지에서 자신을 패로 | 카르테시아도 같은 조건으로 묘지에서 패로 | 와라시, 도미나스 스파크, 마그나무트, 감마 |
+| 7 | 낙인룡 알비온 (Albion the Branded Dragon) | 엔드 페이즈, 이번 턴 묘지로 보내졌으므로: 덱에서 낙인 마함 서치 또는 세트 | The Fallen & The Virtuous (The Fallen & The Virtuous) 세트 | 우라라, 드롤, 와라시, 도미나스 퍼지, 도미나스 스파크, 마그나무트, 감마 |
 | 8 | 검은 용의 에클레시아 (Ecclesia and the Dark Dragon) | 엔드 페이즈에 제외에서 필드로 돌아옴 (효과 발동 아님) |  | – |
 
 **최종 필드 / 견제**: 검은 용의 에클레시아 (Ecclesia and the Dark Dragon), 인도하는 성녀 쿠엠 (Guiding Quem, the Virtuous), The Fallen & The Virtuous (The Fallen & The Virtuous)
@@ -126,10 +126,10 @@
 | 1 | 데스피아의 도화 알베르 (Aluber the Jester of Despia) | 일반 소환 |  | 푸루리아, 니비루 |
 | 2 | 데스피아의 도화 알베르 (Aluber the Jester of Despia) | 소환 성공 시 효과: 덱에서 낙인 마함 서치 | 낙인융합 (Branded Fusion) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
 | 3 | 낙인융합 (Branded Fusion) | 발동: 덱에서 하얀 용의 낙윤 (Fallen of the White Dragon) + 혁의 성녀 카르테시아 (Blazing Cartesia, the Virtuous)를 보내 융합 | 낙인룡 알비온 (Albion the Branded Dragon) 융합 소환 | 우라라, G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 4 | 낙인룡 알비온 (Albion the Branded Dragon) | 융합 소환 시 효과: 묘지의 카르테시아 + 하얀 용을 제외해 융합 | 혁언룡 그랑기뇰 (Granguignol the Dusk Dragon) 융합 소환 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 비스테드 마그남헛, 감마 |
+| 4 | 낙인룡 알비온 (Albion the Branded Dragon) | 융합 소환 시 효과: 묘지의 카르테시아 + 하얀 용을 제외해 융합 | 혁언룡 그랑기뇰 (Granguignol the Dusk Dragon) 융합 소환 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 마그나무트, 감마 |
 | 5 | 혁언룡 그랑기뇰 (Granguignol the Dusk Dragon) | 융합 소환 시 효과: 덱·엑덱에서 레벨 6 이상 빛·어둠 몬스터를 묘지로 | 엑덱의 성흔을 먹는 용 (The Dragon that Devours the Dogma) 묘지로 | 우라라, 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 6 | 성흔을 먹는 용 (The Dragon that Devours the Dogma) | 엔드 페이즈, 이번 턴 묘지로 보내졌으므로: 덱에서 드래그마·트라이브리게이드 카드 서치 | The Fallen & The Virtuous (The Fallen & The Virtuous) 서치 (드래그마 취급) | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
-| 7 | The Fallen & The Virtuous (The Fallen & The Virtuous) | 엔드 페이즈에 패에서 발동: 엑덱의 회신룡 배스터드 (Titaniklad the Ash Dragon)을 묘지로 보내고 자신의 알비온을 파괴 | 알비온·배스터드가 이번 턴 묘지로 감 | – |
+| 7 | The Fallen & The Virtuous (The Fallen & The Virtuous) | 엔드 페이즈에 패에서 발동: 엑덱의 회신룡 배스터드 (Titaniklad the Ash Dragon)를 묘지로 보내고 자신의 알비온을 파괴 | 알비온·배스터드가 이번 턴 묘지로 감 | – |
 | 8 | 낙인룡 알비온 (Albion the Branded Dragon) | 엔드 페이즈 묘지 효과: 낙인 마함 세트 | 낙인단죄 (Branded Retribution) 세트 | 도미나스 스파크, 감마 |
 | 9 | 회신룡 배스터드 (Titaniklad the Ash Dragon) | 엔드 페이즈 묘지 효과: 덱에서 드래그마 몬스터 또는 알버스의 낙윤 (Fallen of Albaz) 특소 | 하얀 용의 낙윤 (Fallen of the White Dragon) 특소 | 우라라, G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 | 10 | 하얀 용의 낙윤 (Fallen of the White Dragon) | 특소 성공 시 효과: 덱에서 에클레시아 특소 | 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) 특소 | 우라라, G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
@@ -165,7 +165,7 @@
 - 검은 용 에클레시아 ①은 '자신을 제외하고, 제외했다면 특소'라서 체인에 유령토끼로 파괴하면 특소까지 막힌다. 우라라·무한포영은 특소만 막고 몸통이 남는다.
 - 알비온 엔드 페이즈 효과는 '서치 또는 세트'라 드롤이 걸려 있어도 세트로 우회된다. 비스테드·와라시처럼 묘지에서 지우는 쪽이 확실.
 - 초융합 (Super Polymerization)(96% 채용)은 체인 불가라 막을 수 없다. 상대 턴 초융합 소재가 될 몬스터를 미리 줄이는 것 외에 대책이 없다.
-- 실낙인 (Branded Lost)가 앞면이면 융합하는 효과의 '발동'은 무효할 수 없다(와라시처럼 발동을 무효하는 카드는 불가). 우라라·무한포영처럼 '효과'를 무효하는 카드는 쓸 수 있다.
+- 실낙인 (Branded Lost)이 앞면이면 융합하는 효과의 '발동'은 무효할 수 없다(와라시처럼 발동을 무효하는 카드는 불가). 우라라·무한포영처럼 '효과'를 무효하는 카드는 쓸 수 있다.
 - 하얀 용 라인(싱크로)을 했다면 그 턴 낙인융합은 발동 불가. 반대로 낙인융합을 먼저 쓰면 검은 용 에클레시아 싱크로가 막힌다. 상대가 어느 쪽을 골랐는지 보고 남은 타점을 판단.
 
 ## 출처
