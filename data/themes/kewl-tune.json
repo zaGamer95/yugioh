@@ -730,5 +730,685 @@
   "https://game8.jp/yugioh-masterduel/763849 (Game8: エルフェンノーツ 回し方, 2026-10-22 갱신, 엘펜노츠 킬러튠 루키나 루트)",
   "https://appmedia.jp/master_duel/80001052 (AppMedia: エルフェンノーツ, 2026-10-22, 혼합형 레시피 참고)",
   "https://www.masterduelmeta.com/api/v1/cards (Master Duel Meta 카드 API, MD 영문 텍스트·제한 상태)"
- ]
+ ],
+ "going_second": {
+  "summary_ko": "1턴째 필드는 [[Kewl Tune Remix]]·[[Kewl Tune Reco]]·[[JJ \"Kewl Tune\"]]·세트한 [[Kewl Tune Synchro]]뿐이라 얇지만, 내 턴에 [[Kewl Tune Synchro]]·[[Kewl Tune Remix]](페이즈 제한 없는 퀵)·패의 [[Kewl Tune Clip]]로 튜너 싱크로를 연달아 내며 소재로 간 킬러튠의 묘지 유발(몬스터 파괴·마함 파괴·바운스·엑스트라 제외)과 [[Zalen the Shackled Dragon]](체인 2 무효)·[[Kewl Tune Loudness War]]·[[Kewl Tune B2B]]로 견제하는 '내 턴에 커지는' 보드다. 핵심은 [[Kewl Tune Remix]]: 릴리스가 코스트라 [[Infinite Impermanence]]·[[Ghost Ogre & Snow Rabbit]]는 안 통하고, [[PSY-Framegear Gamma]]·[[Ghost Belle & Haunted Mansion]]·[[Dominus Impulse]]나 체인 불가인 [[Gameciel, the Sea Turtle Kaiju]]·[[Super Polymerization]]가 잘 듣는다. 전체 파괴 마법은 상대가 퀵 싱크로로 받아 넘기므로 약하다. 엘펜노츠 혼합형은 여기에 [[Baronne de Fleur]]·[[Elfnotes: Rhapsodia of Madness]]가 더해져 훨씬 어렵다.",
+  "difficulty": "medium",
+  "boards": [
+   {
+    "id": "full",
+    "title_ko": "풀 전개 ([[Kewl Tune Cue]] 1장 초동, 순수형)",
+    "line": "cue",
+    "interruptions": [
+     {
+      "id": "kewl_synchro",
+      "card": "Kewl Tune Synchro",
+      "kind": "other",
+      "zone": "st",
+      "timing_ko": "세트된 속공 마법. 내 턴 아무 때나(드로우·스탠바이 포함) 덱에서 킬러튠 카드 서치 → 곧바로 튜너 싱크로. 필드의 [[Kewl Tune Reco]] + 패의 튜너로 [[Kewl Tune Track Maker]]·[[Kewl Tune Loudness War]]·[[Zalen the Shackled Dragon]] 등을 내고, 소재로 간 [[Kewl Tune Reco]]가 내 마함 1장 파괴. 1턴 2장까지(제한 2)",
+      "answered_by": [
+       {
+        "id": "ash",
+        "note_ko": "서치를 포함한 효과라 발동에 체인하면 서치와 싱크로가 함께 무효"
+       },
+       {
+        "id": "purge",
+        "note_ko": "서치 포함 효과라 무효. 패에서 쓰면 이 듀얼 동안 어둠·물·화염 몬스터 효과 봉인"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "효과 처리 중 싱크로 소환을 하므로 특소 포함 효과로 보고 무효 가능(테마 문서 기준, 실전 확인 필요)"
+       }
+      ],
+      "bait_ko": "마함 제거([[Mystical Space Typhoon]]·[[Cosmic Cyclone]]·[[Harpie's Feather Duster]])를 쓰면 상대가 체인해 발동할 뿐이라 답은 아니지만, 내가 중요한 카드를 내기 전에 쓰게 만드는 효과는 있다"
+     },
+     {
+      "id": "remix",
+      "card": "Kewl Tune Remix",
+      "kind": "recursion",
+      "zone": "monster",
+      "timing_ko": "상대 턴(=내 턴) 퀵, 페이즈 제한 없음: 자신을 릴리스(코스트)하고 묘지의 비싱크로 튜너 2장 중 1장 회수+1장 특소 → 곧바로 튜너 싱크로. 소재로 간 킬러튠의 묘지 유발([[Kewl Tune Mix]] 몬스터 파괴·[[Kewl Tune Reco]] 마함 파괴·[[Kewl Tune Track Maker]] 바운스)이 실질적인 견제가 된다. 1턴 1번",
+      "answered_by": [
+       {
+        "id": "gamma",
+        "note_ko": "릴리스는 코스트라 [[Kewl Tune Remix]]는 사라지고, 발동이 무효+파괴되어 회수·특소·싱크로가 전부 없다. 내 필드에 몬스터가 없어야 하며, 이미 [[Zalen the Shackled Dragon]]가 있으면 체인 2가 되어 [[Zalen the Shackled Dragon]]에 무효된다"
+       },
+       {
+        "id": "belle",
+        "note_ko": "묘지에서 패에 넣기·묘지 특소를 포함해 발동째 무효(코스트 릴리스는 이미 끝)"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "특소 포함 효과라 무효"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 체인 불가 → [[Kewl Tune Remix]]가 효과를 쓰기 전에 릴리스로 치움. 상대가 스탠바이 등에 먼저 쓰지 않았을 때만"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. [[Kewl Tune Remix]](어둠·전사족)+내 어둠·다른 종족 몬스터로 [[Mudragon of the Swamp]] 등. 1장 버려야 함"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가라 [[Kewl Tune Remix]]를 무효. 단 메인 페이즈 전용이라 상대가 스탠바이에 먼저 쓰면 늦고, [[Kewl Tune Synchro]](마법)은 체인 가능"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내면 몬스터 효과로 체인 불가 → 무효. 마법도 보내면 [[Kewl Tune Synchro]] 체인도 막힘"
+       }
+      ],
+      "bait_ko": "[[Infinite Impermanence]]·[[Ghost Ogre & Snow Rabbit]]를 [[Kewl Tune Remix]]에 쓰면 릴리스(코스트)로 체인해 피한다. 반대로 상대가 [[Kewl Tune Remix]]를 쓰게 만드는 미끼로는 쓸 수 있다"
+     },
+     {
+      "id": "reco_destroy",
+      "card": "Kewl Tune Reco",
+      "kind": "removal",
+      "zone": "monster",
+      "timing_ko": "싱크로 소재로 묘지에 가면 내 마함 1장 파괴(1턴 1번). 필드에 있는 동안 패의 튜너를 함께 소재로 쓰게 해 주는 퀵 싱크로의 받침대",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스는 싱크로 소재가 아니라 묘지 유발이 안 나온다. 상대 필드 튜너가 줄어 퀵 싱크로가 어려워짐"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "융합 소재로 보내면 싱크로 소재가 아니라 유발 없음(체인 불가)"
+       }
+      ],
+      "bait_ko": "애초에 마함을 세트하지 않고 패에서 바로 쓰는 카드 위주로 돌파하면 파괴 대상이 없다"
+     },
+     {
+      "id": "track_maker",
+      "card": "Kewl Tune Track Maker",
+      "kind": "bounce",
+      "zone": "monster",
+      "timing_ko": "특소 시 킬러튠 카드 서치, 싱크로 소재로 묘지에 가면 내 카드 1장 바운스(각 1턴 1번). [[Kewl Tune Loudness War]]가 묘지의 [[Kewl Tune Track Maker]]를 제외해 같은 바운스를 한 번 더 쓸 수 있다. 1턴째 필드에는 없고 내 턴 퀵 싱크로로 나온다",
+      "answered_by": [
+       {
+        "id": "ash",
+        "note_ko": "특소 시 서치에 체인(내 턴에 새로 싱크로된 경우)"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 싱크로 소재가 아님 → 바운스 유발 없음"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "덱으로 되돌려 묘지 유발 없음, 몬스터 효과로 체인 불가. 내 엑스트라에 싱크로 필요 ([[Kewl Tune Loudness War]]가 있으면 다른 튜너는 대상 지정 불가)"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "융합 소재로 보내 유발 없음"
+       }
+      ],
+      "bait_ko": "바운스 대상이 엑스트라 덱 몬스터면 엑스트라로 돌아간다. 큰 엑스트라 몬스터는 [[Kewl Tune Track Maker]]를 처리한 뒤에 낸다"
+     },
+     {
+      "id": "zalen",
+      "card": "Zalen the Shackled Dragon",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "내 턴 퀵 싱크로로 등장. 체인 2 이상이 생기면 그중 첫 번째 또는 두 번째 효과를 무효+파괴(1턴 1번). 상대가 내 체인 1에 자기 효과로 체인 2를 만든 뒤 [[Zalen the Shackled Dragon]]으로 내 체인 1을 무효하는 것도 가능",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 체인이 생기지 않는다. 대상도 안 잡아 [[Kewl Tune Loudness War]] 보호도 무시"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "발동에 체인 불가 → 체인 2가 생기지 않는다"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가 → [[Zalen the Shackled Dragon]] 포함 전체 무효. 단 [[Kewl Tune Synchro]](마법)이 체인하면 체인 2가 되어 [[Zalen the Shackled Dragon]]이 [[Dark Ruler No More]]를 무효할 수 있다(세트 카드가 없을 때 쓸 것)"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가. [[Kewl Tune Loudness War]]가 있으면 [[Zalen the Shackled Dragon]](튜너)은 대상 불가"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "[[Zalen the Shackled Dragon]]이 효과를 쓴 뒤 릴리스"
+       }
+      ],
+      "bait_ko": "내 효과는 체인 1로만 쓰고, 상대 효과에 체인하지 않는다. [[Zalen the Shackled Dragon]] 무효를 버려도 되는 카드에 상대가 체인하게 만든 뒤 본명을 낸다"
+     },
+     {
+      "id": "loudness_war",
+      "card": "Kewl Tune Loudness War",
+      "kind": "removal",
+      "zone": "monster",
+      "timing_ko": "내 카드·효과 발동 시 1턴 1번(퀵): 묘지의 킬러튠 1장을 제외해 그 카드의 싱크로 소재 유발 적용([[Kewl Tune Mix]]=몬스터 파괴, [[Kewl Tune Reco]]=마함 파괴, [[Kewl Tune Track Maker]]=바운스). 다른 튜너에 대상 지정·효과 파괴 내성",
+      "answered_by": [
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가 → [[Kewl Tune Loudness War]] 자신은 대상으로 잡을 수 있다(보호는 '다른' 튜너만)"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가. 보호도 함께 사라진다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 반응 불가"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내면 체인 불가 → 무효(내성 해제)"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "효과를 쓴 뒤 릴리스. 대상을 잡지 않아 보호 무관"
+       }
+      ],
+      "bait_ko": "어떤 발동에도 반응하므로 버려도 되는 카드로 먼저 쓰게 만든다. 제외 코스트라 [[Ghost Belle & Haunted Mansion]]로는 못 막는다"
+     },
+     {
+      "id": "b2b",
+      "card": "Kewl Tune B2B",
+      "kind": "recursion",
+      "zone": "monster",
+      "timing_ko": "내가 몬스터 효과를 발동할 때마다(1턴 2번, 퀵) 묘지·제외 상태의 튜너를 회수/특소 → 곧바로 싱크로. 상대 몬스터 레벨 +2",
+      "answered_by": [
+       {
+        "id": "belle",
+        "note_ko": "묘지의 튜너를 대상으로 했다면 회수·특소 둘 다 [[Ghost Belle & Haunted Mansion]] 대상. 제외 상태의 튜너를 고르면 무효 불가"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "몬스터 효과 발동이라 [[PSY-Framegear Gamma]]로 무효+파괴. 단 [[PSY-Framegear Gamma]]가 체인 2가 되므로 [[Zalen the Shackled Dragon]]가 있으면 무효당한다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 반응 불가"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가 → 무효"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "효과를 쓴 뒤 릴리스"
+       }
+      ],
+      "bait_ko": "B2B가 서 있으면 몬스터 효과 대신 마법·함정 위주로 돌파. 몬스터 효과를 쓸 때마다 상대 필드가 늘어난다"
+     },
+     {
+      "id": "clip",
+      "card": "Kewl Tune Clip",
+      "kind": "other",
+      "zone": "hand",
+      "timing_ko": "패에 있으면 내 메인 페이즈에 퀵 자가 특소 → 곧바로 튜너 싱크로. 소재로 가면 내 엑스트라 덱 뒷면 카드 1장 무작위 제외. 패에 있을 때만([[Kewl Tune Synchro]]·[[Kewl Tune Rotary]]로 서치되기 쉬움)",
+      "answered_by": [
+       {
+        "id": "impulse",
+        "note_ko": "자가 특소 효과라 무효"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "패에서 발동한 몬스터 효과에도 반응(내 필드에 몬스터가 없을 때)"
+       },
+       {
+        "id": "spark",
+        "note_ko": "패에서 몬스터 효과를 쓴 턴이라 발동 가능 → 상대 몬스터 1장 제외"
+       }
+      ],
+      "bait_ko": ""
+     }
+    ]
+   },
+   {
+    "id": "full_hybrid",
+    "title_ko": "풀 전개 (엘펜노츠 혼합형, [[Elfnote Lucina]] 1장 초동)",
+    "line": "elfnote_hybrid",
+    "interruptions": [
+     {
+      "id": "baronne_h",
+      "card": "Baronne de Fleur",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "카드·효과 발동 시 1회 발동 무효+파괴 (퀵). 파괴 효과는 기동이라 내 턴에는 안 씀",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 시작 시 대상으로 하면 [[Baronne de Fleur]]가 체인해 무효 → 무효 소모 미끼"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가. [[Kewl Tune Remix]]·[[Kewl Tune Track Maker]]도 함께 무효. [[Elfnotes: Rhapsodia of Madness]]·[[Kewl Tune Synchro]]는 체인 가능"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내면 체인 불가"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 무효 불가"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. [[Baronne de Fleur]](바람·전사족)+내 바람·다른 종족 몬스터로 [[Mudragon of the Swamp]]"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가. 내 엑스트라에 싱크로 필요"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "[[Baronne de Fleur]]의 무효 발동에 체인해 무효+파괴. 이후 [[Zalen the Shackled Dragon]]가 나오면 이런 체인 2 플레이는 막힌다"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "무효 발동 시 파괴(무효는 처리됨)"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "무효를 쓴 뒤 릴리스. 같은 턴 효과를 쓴 킬러튠 몬스터도 함께"
+       }
+      ],
+      "bait_ko": "싼 카드를 먼저 발동해 무효를 받아낸다"
+     },
+     {
+      "id": "rhapsodia_h",
+      "card": "Elfnotes: Rhapsodia of Madness",
+      "kind": "quick_negate",
+      "zone": "st",
+      "timing_ko": "지속 함정 효과(1턴 1번): 몬스터 1장을 보내고 묘지의 엘펜노츠 소생 → 싱크로가 있으면 내 앞면 카드 1장 효과 무효. [[Elfnotes: Welcome Home]]도 앞면으로 남아 중앙 몬스터에 효과 파괴 내성",
+      "answered_by": [
+       {
+        "id": "belle",
+        "note_ko": "묘지 특소를 포함하므로 발동째 무효 → 앞면 카드 무효도 사라짐"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "특소 포함 효과라 무효"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "앞면 함정 효과 발동 시 파괴. 효과는 처리됨"
+       }
+      ],
+      "bait_ko": "1턴 1번이라 중요하지 않은 앞면 카드로 먼저 소모시킨다"
+     },
+     {
+      "id": "track_maker_h",
+      "card": "Kewl Tune Track Maker",
+      "kind": "bounce",
+      "zone": "monster",
+      "timing_ko": "특소 시 킬러튠 카드 서치, 싱크로 소재로 묘지에 가면 내 카드 1장 바운스(각 1턴 1번). [[Kewl Tune Loudness War]]가 묘지의 [[Kewl Tune Track Maker]]를 제외해 같은 바운스를 한 번 더 쓸 수 있다. 이 보드에서는 1턴째부터 필드에 있어 [[Kewl Tune Synchro]]의 싱크로 소재(패 튜너 포함)가 된다",
+      "answered_by": [
+       {
+        "id": "ash",
+        "note_ko": "특소 시 서치에 체인(내 턴에 새로 싱크로된 경우)"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 싱크로 소재가 아님 → 바운스 유발 없음"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "덱으로 되돌려 묘지 유발 없음, 몬스터 효과로 체인 불가. 내 엑스트라에 싱크로 필요 ([[Kewl Tune Loudness War]]가 있으면 다른 튜너는 대상 지정 불가)"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "융합 소재로 보내 유발 없음"
+       }
+      ],
+      "bait_ko": "바운스 대상이 엑스트라 덱 몬스터면 엑스트라로 돌아간다. 큰 엑스트라 몬스터는 [[Kewl Tune Track Maker]]를 처리한 뒤에 낸다"
+     },
+     {
+      "id": "remix_h",
+      "card": "Kewl Tune Remix",
+      "kind": "recursion",
+      "zone": "monster",
+      "timing_ko": "상대 턴(=내 턴) 퀵, 페이즈 제한 없음: 자신을 릴리스(코스트)하고 묘지의 비싱크로 튜너 2장 중 1장 회수+1장 특소 → 곧바로 튜너 싱크로. 소재로 간 킬러튠의 묘지 유발([[Kewl Tune Mix]] 몬스터 파괴·[[Kewl Tune Reco]] 마함 파괴·[[Kewl Tune Track Maker]] 바운스)이 실질적인 견제가 된다. 1턴 1번",
+      "answered_by": [
+       {
+        "id": "gamma",
+        "note_ko": "릴리스는 코스트라 [[Kewl Tune Remix]]는 사라지고, 발동이 무효+파괴되어 회수·특소·싱크로가 전부 없다. 내 필드에 몬스터가 없어야 하며, 이미 [[Zalen the Shackled Dragon]]가 있으면 체인 2가 되어 [[Zalen the Shackled Dragon]]에 무효된다"
+       },
+       {
+        "id": "belle",
+        "note_ko": "묘지에서 패에 넣기·묘지 특소를 포함해 발동째 무효(코스트 릴리스는 이미 끝)"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "특소 포함 효과라 무효"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 체인 불가 → [[Kewl Tune Remix]]가 효과를 쓰기 전에 릴리스로 치움. 상대가 스탠바이 등에 먼저 쓰지 않았을 때만"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. [[Kewl Tune Remix]](어둠·전사족)+내 어둠·다른 종족 몬스터로 [[Mudragon of the Swamp]] 등. 1장 버려야 함"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가라 [[Kewl Tune Remix]]를 무효. 단 메인 페이즈 전용이라 상대가 스탠바이에 먼저 쓰면 늦고, [[Kewl Tune Synchro]](마법)은 체인 가능"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내면 몬스터 효과로 체인 불가 → 무효. 마법도 보내면 [[Kewl Tune Synchro]] 체인도 막힘"
+       }
+      ],
+      "bait_ko": "[[Infinite Impermanence]]·[[Ghost Ogre & Snow Rabbit]]를 [[Kewl Tune Remix]]에 쓰면 릴리스(코스트)로 체인해 피한다. 반대로 상대가 [[Kewl Tune Remix]]를 쓰게 만드는 미끼로는 쓸 수 있다"
+     },
+     {
+      "id": "kewl_synchro_h",
+      "card": "Kewl Tune Synchro",
+      "kind": "other",
+      "zone": "st",
+      "timing_ko": "세트된 속공 마법. 내 턴 아무 때나(드로우·스탠바이 포함) 덱에서 킬러튠 카드 서치 → 곧바로 튜너 싱크로. 필드의 [[Kewl Tune Reco]] + 패의 튜너로 [[Kewl Tune Track Maker]]·[[Kewl Tune Loudness War]]·[[Zalen the Shackled Dragon]] 등을 내고, 소재로 간 [[Kewl Tune Reco]]가 내 마함 1장 파괴. 1턴 2장까지(제한 2)",
+      "answered_by": [
+       {
+        "id": "ash",
+        "note_ko": "서치를 포함한 효과라 발동에 체인하면 서치와 싱크로가 함께 무효"
+       },
+       {
+        "id": "purge",
+        "note_ko": "서치 포함 효과라 무효. 패에서 쓰면 이 듀얼 동안 어둠·물·화염 몬스터 효과 봉인"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "효과 처리 중 싱크로 소환을 하므로 특소 포함 효과로 보고 무효 가능(테마 문서 기준, 실전 확인 필요)"
+       }
+      ],
+      "bait_ko": "마함 제거([[Mystical Space Typhoon]]·[[Cosmic Cyclone]]·[[Harpie's Feather Duster]])를 쓰면 상대가 체인해 발동할 뿐이라 답은 아니지만, 내가 중요한 카드를 내기 전에 쓰게 만드는 효과는 있다"
+     },
+     {
+      "id": "zalen_h",
+      "card": "Zalen the Shackled Dragon",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "내 턴 퀵 싱크로로 등장. 체인 2 이상이 생기면 그중 첫 번째 또는 두 번째 효과를 무효+파괴(1턴 1번). 상대가 내 체인 1에 자기 효과로 체인 2를 만든 뒤 [[Zalen the Shackled Dragon]]으로 내 체인 1을 무효하는 것도 가능",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 체인이 생기지 않는다. 대상도 안 잡아 [[Kewl Tune Loudness War]] 보호도 무시"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "발동에 체인 불가 → 체인 2가 생기지 않는다"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가 → [[Zalen the Shackled Dragon]] 포함 전체 무효. 단 [[Kewl Tune Synchro]](마법)이 체인하면 체인 2가 되어 [[Zalen the Shackled Dragon]]이 [[Dark Ruler No More]]를 무효할 수 있다(세트 카드가 없을 때 쓸 것)"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가. [[Kewl Tune Loudness War]]가 있으면 [[Zalen the Shackled Dragon]](튜너)은 대상 불가"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "[[Zalen the Shackled Dragon]]이 효과를 쓴 뒤 릴리스"
+       }
+      ],
+      "bait_ko": "내 효과는 체인 1로만 쓰고, 상대 효과에 체인하지 않는다. [[Zalen the Shackled Dragon]] 무효를 버려도 되는 카드에 상대가 체인하게 만든 뒤 본명을 낸다"
+     }
+    ]
+   },
+   {
+    "id": "after_ash_cue",
+    "title_ko": "[[Kewl Tune Cue]]의 튜너 특소에 [[Ash Blossom & Joyous Spring]]을 맞은 경우 (패에 다른 튜너 없음)",
+    "after": {
+     "handtrap": "ash",
+     "line": "cue",
+     "step": 2
+    },
+    "interruptions": []
+   },
+   {
+    "id": "after_droll_reco",
+    "title_ko": "[[Kewl Tune Reco]] 서치 직후 [[Droll & Lock Bird]]를 맞은 경우 ([[Kewl Tune Track Maker]]만 남음)",
+    "after": {
+     "handtrap": "droll",
+     "line": "reco",
+     "step": 2
+    },
+    "interruptions": [
+     {
+      "id": "track_maker_d",
+      "card": "Kewl Tune Track Maker",
+      "kind": "bounce",
+      "zone": "monster",
+      "timing_ko": "특소 시 킬러튠 카드 서치, 싱크로 소재로 묘지에 가면 내 카드 1장 바운스(각 1턴 1번). [[Kewl Tune Loudness War]]가 묘지의 [[Kewl Tune Track Maker]]를 제외해 같은 바운스를 한 번 더 쓸 수 있다. 1턴째 서치가 막혀 이 카드만 남지만, 패에 [[Kewl Tune Clip]]가 있으면 내 메인 페이즈에 [[Kewl Tune Clip]]+[[Kewl Tune Track Maker]]로 싱크로해 바운스가 나온다",
+      "answered_by": [
+       {
+        "id": "ash",
+        "note_ko": "특소 시 서치에 체인(내 턴에 새로 싱크로된 경우)"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 싱크로 소재가 아님 → 바운스 유발 없음"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "덱으로 되돌려 묘지 유발 없음, 몬스터 효과로 체인 불가. 내 엑스트라에 싱크로 필요 ([[Kewl Tune Loudness War]]가 있으면 다른 튜너는 대상 지정 불가)"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "융합 소재로 보내 유발 없음"
+       }
+      ],
+      "bait_ko": "바운스 대상이 엑스트라 덱 몬스터면 엑스트라로 돌아간다. 큰 엑스트라 몬스터는 [[Kewl Tune Track Maker]]를 처리한 뒤에 낸다"
+     },
+     {
+      "id": "clip_d",
+      "card": "Kewl Tune Clip",
+      "kind": "other",
+      "zone": "hand",
+      "timing_ko": "패에 있으면 내 메인 페이즈에 퀵 자가 특소 → 곧바로 튜너 싱크로. 소재로 가면 내 엑스트라 덱 뒷면 카드 1장 무작위 제외. 패에 있을 때만([[Kewl Tune Synchro]]·[[Kewl Tune Rotary]]로 서치되기 쉬움)",
+      "answered_by": [
+       {
+        "id": "impulse",
+        "note_ko": "자가 특소 효과라 무효"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "패에서 발동한 몬스터 효과에도 반응(내 필드에 몬스터가 없을 때)"
+       },
+       {
+        "id": "spark",
+        "note_ko": "패에서 몬스터 효과를 쓴 턴이라 발동 가능 → 상대 몬스터 1장 제외"
+       }
+      ],
+      "bait_ko": ""
+     }
+    ]
+   },
+   {
+    "id": "after_ogre_jj",
+    "title_ko": "[[JJ \"Kewl Tune\"]]의 릴리스 효과에 [[Ghost Ogre & Snow Rabbit]]을 맞은 경우 ([[Kewl Tune RS]] 착지)",
+    "after": {
+     "handtrap": "ogre",
+     "line": "cue",
+     "step": 8
+    },
+    "interruptions": [
+     {
+      "id": "rs_o",
+      "card": "Kewl Tune RS",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "메인 페이즈 퀵(1턴 1번): 묘지의 튜너 1장을 제외하고 내 앞면 카드 1장 효과를 턴 종료시까지 무효. 발동 무효가 아니라 앞면 카드 무효",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가 → 무효"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내면 체인 불가"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "RS의 무효 발동에 체인해 무효+파괴"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 반응 불가"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가. 내 엑스트라에 싱크로 필요"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "RS가 효과를 발동하면 파괴(무효는 처리됨)"
+       }
+      ],
+      "bait_ko": "[[Infinite Impermanence]]처럼 앞면으로 남는 카드에는 RS가 체인해 무효하므로, 버려도 되는 앞면 카드를 먼저 내서 소모시킨다"
+     }
+    ]
+   }
+  ],
+  "breakers": {
+   "lightning_storm": {
+    "rating": "weak",
+    "note_ko": "마함 모드는 [[JJ \"Kewl Tune\"]]·세트 [[Kewl Tune Synchro]]를 치우지만 [[Kewl Tune Synchro]]가 체인해 발동된다. 몬스터 모드는 [[Kewl Tune Remix]]가 릴리스로 피하며 받아친다"
+   },
+   "evenly_matched": {
+    "rating": "ok",
+    "note_ko": "배틀 페이즈 종료 시라 그때까지 상대 퀵 싱크로를 다 쓰게 만들면 남은 보드를 크게 줄인다. 상대가 남길 카드를 고른다"
+   },
+   "dark_ruler": {
+    "rating": "ok",
+    "note_ko": "[[Kewl Tune Remix]]·[[Zalen the Shackled Dragon]]·[[Kewl Tune Loudness War]]·[[Kewl Tune B2B]]가 체인 불가로 무효. 다만 메인 페이즈 전용이라 상대가 스탠바이에 [[Kewl Tune Remix]]를 먼저 쓰면 늦고, [[Kewl Tune Synchro]]가 체인하면 [[Zalen the Shackled Dragon]]가 [[Dark Ruler No More]]를 무효할 수 있다. 처리 뒤의 [[Kewl Tune Clip]] 특소는 못 막음"
+   },
+   "harpie": {
+    "rating": "weak",
+    "note_ko": "[[JJ \"Kewl Tune\"]]·세트 [[Kewl Tune Synchro]]뿐이라 가치가 낮고 [[Kewl Tune Synchro]]는 체인으로 발동된다. 혼합형이면 엘펜노츠 마함까지 치워 가치가 오른다. 제한 1"
+   },
+   "heavy_storm": {
+    "rating": "weak",
+    "note_ko": "[[Harpie's Feather Duster]]과 같고 내 마함도 파괴. 제한 1"
+   },
+   "raigeki": {
+    "rating": "weak",
+    "note_ko": "[[Kewl Tune Remix]]가 릴리스로 피하고 [[Kewl Tune Synchro]]로 받아친다. 상대가 퀵 싱크로를 다 쓴 뒤라면 정리용으로 ok. [[Kewl Tune Loudness War]]가 있으면 다른 튜너는 파괴 불가"
+   },
+   "dark_hole": {
+    "rating": "weak",
+    "note_ko": "[[Raigeki]]와 같은 문제에 내 몬스터도 파괴"
+   },
+   "kaiju": {
+    "rating": "strong",
+    "note_ko": "소환 절차라 체인이 안 생겨 [[Zalen the Shackled Dragon]]도 반응 못 하고, 대상을 안 잡아 [[Kewl Tune Loudness War]] 보호도 무시. [[Kewl Tune Remix]]를 효과 사용 전에 치울 수 있다"
+   },
+   "kaiju_slumber": {
+    "rating": "weak",
+    "note_ko": "[[Kewl Tune Remix]]가 릴리스로 피한다. [[Kewl Tune Loudness War]]가 있으면 튜너는 파괴 불가"
+   },
+   "cosmic": {
+    "rating": "weak",
+    "note_ko": "세트 [[Kewl Tune Synchro]]를 노리면 체인해서 쓴다. 내가 중요한 카드를 내기 전에 쓰게 만드는 정도"
+   },
+   "mst": {
+    "rating": "weak",
+    "note_ko": "[[Cosmic Cyclone]]과 같음"
+   },
+   "super_poly": {
+    "rating": "strong",
+    "note_ko": "체인 불가라 [[Zalen the Shackled Dragon]]·[[Kewl Tune Remix]]·[[Kewl Tune Loudness War]] 모두 반응 못 함. [[Kewl Tune Remix]](어둠·전사족)+내 어둠·다른 종족, [[Kewl Tune Track Maker]](빛·기계족)+내 빛·다른 종족 등으로 [[Mudragon of the Swamp]]. 제한 2"
+   },
+   "book_eclipse": {
+    "rating": "weak",
+    "note_ko": "[[Kewl Tune Remix]]가 릴리스로 피하고 [[Kewl Tune Synchro]]가 체인한다"
+   },
+   "kurikara": {
+    "rating": "strong",
+    "note_ko": "상대가 내 턴에 퀵 싱크로·서치·[[Zalen the Shackled Dragon]]·[[Kewl Tune Loudness War]] 등 효과를 쓴 뒤라면 그 몬스터를 전부 릴리스. 소환 절차라 체인 불가"
+   },
+   "ultimate_slayer": {
+    "rating": "ok",
+    "note_ko": "몬스터 효과로 체인 불가, 덱으로 되돌려 묘지 유발도 없다. 단 [[Kewl Tune Loudness War]]가 있으면 다른 튜너는 대상 불가, [[Kewl Tune Synchro]](마법)는 체인 가능. 내 엑스트라에 싱크로 필요"
+   },
+   "fallen_virtuous": {
+    "rating": "weak",
+    "note_ko": "알바스 엔진 전용. 대상을 잡는 파괴라 [[Kewl Tune Loudness War]] 보호에 막힌다"
+   },
+   "harmonia": {
+    "rating": "weak",
+    "note_ko": "몬스터 효과 발동에 반응해 파괴까지 가지만 [[Kewl Tune Loudness War]]가 있으면 다른 튜너는 파괴 불가. 싱크로 덱 전용"
+   },
+   "imperm": {
+    "rating": "weak",
+    "note_ko": "[[Kewl Tune Remix]]에는 릴리스로 피한다. 내 턴에 나온 [[Zalen the Shackled Dragon]]·[[Kewl Tune Loudness War]]·[[Kewl Tune B2B]]에 쓰는 정도인데 [[Kewl Tune Loudness War]]가 있으면 다른 튜너는 대상 불가"
+   },
+   "ogre": {
+    "rating": "weak",
+    "note_ko": "[[Kewl Tune Remix]]는 코스트 릴리스라 무의미. [[Kewl Tune Loudness War]]가 있으면 다른 튜너는 효과 파괴 불가"
+   },
+   "gamma": {
+    "rating": "strong",
+    "note_ko": "[[Kewl Tune Remix]]의 발동을 무효+파괴([[Kewl Tune Remix]]는 코스트로 이미 사라짐) → 내 턴 상대 전개의 핵심을 끊는다. [[Zalen the Shackled Dragon]]가 나온 뒤에는 체인 2가 되어 무효당하니 첫 퀵 효과에"
+   },
+   "belle": {
+    "rating": "strong",
+    "note_ko": "[[Kewl Tune Remix]]의 회수+특소, [[Kewl Tune B2B]]의 묘지 튜너 회수/특소를 발동째 무효"
+   },
+   "droplet": {
+    "rating": "ok",
+    "note_ko": "몬스터+마법을 보내면 [[Kewl Tune Remix]]·[[Kewl Tune Synchro]] 모두 체인 불가로 [[Kewl Tune Remix]]·[[Kewl Tune Reco]] 무효. 다만 이후 [[Kewl Tune Clip]]·[[Kewl Tune Synchro]]로 다시 퀵 싱크로가 나올 수 있다"
+   },
+   "ttt": {
+    "rating": "ok",
+    "note_ko": "상대가 내 메인 페이즈에 퀵 싱크로·묘지 유발 등 몬스터 효과를 쓰는 일이 많아 발동 조건을 채우기 쉽다"
+   },
+   "spark": {
+    "rating": "ok",
+    "note_ko": "묘지 유발이나 패의 [[Kewl Tune Clip]]가 나온 턴에 발동 가능. 함정이라 대상 지정 → [[Kewl Tune Loudness War]]가 있으면 다른 튜너는 못 노림"
+   },
+   "crossout": {
+    "rating": "bad",
+    "note_ko": "킬러튠 카드는 내 덱에 없어 선언 불가"
+   },
+   "veiler": {
+    "rating": "bad",
+    "note_ko": "상대 메인 페이즈 전용이라 내 턴에는 못 쓴다"
+   },
+   "ash": {
+    "rating": "ok",
+    "note_ko": "[[Kewl Tune Synchro]]의 서치(싱크로까지 통째 무효), 새로 나온 [[Kewl Tune Track Maker]]의 서치에"
+   },
+   "nibiru": {
+    "rating": "weak",
+    "note_ko": "내 턴 퀵 싱크로가 길어지면 5번 소환을 채울 수도 있다(내 메인 페이즈 한정). 보통은 그 전에 멈춘다"
+   },
+   "impulse": {
+    "rating": "strong",
+    "note_ko": "[[Kewl Tune Remix]]·[[Kewl Tune Clip]]·[[Kewl Tune B2B]] 등 특소 포함 효과가 많다. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 봉인"
+   },
+   "purge": {
+    "rating": "ok",
+    "note_ko": "[[Kewl Tune Synchro]]·[[Kewl Tune Track Maker]]의 서치에. 패에서 쓰면 어둠·물·화염 봉인"
+   },
+   "mourner": {
+    "rating": "weak",
+    "note_ko": "퀵 싱크로로 나온 몬스터를 무효할 수는 있지만 턴 플레이어인 내 유발이 체인 1이 되어 상대 특소 유발이 먼저 처리된다"
+   },
+   "maxxc": {
+    "rating": "ok",
+    "note_ko": "내 턴 상대 퀵 싱크로·특소마다 드로우. 테마 문서에서도 내 턴 사용 가치를 높게 본다"
+   }
+  },
+  "sequencing_ko": [
+   "[[Kewl Tune Remix]]·[[Kewl Tune Synchro]]는 내 드로우·스탠바이 페이즈에도 쓸 수 있다. 메인 페이즈 전용 카드([[Dark Ruler No More]]·[[Forbidden Droplet]])는 상대가 먼저 움직이면 늦는다는 점을 염두에 둔다.",
+   "[[Kewl Tune Remix]]에는 [[PSY-Framegear Gamma]]·[[Ghost Belle & Haunted Mansion]]·[[Dominus Impulse]]를 맞춘다. [[Infinite Impermanence]]·[[Ghost Ogre & Snow Rabbit]]은 릴리스 코스트로 피한다.",
+   "[[Zalen the Shackled Dragon]]가 나오면 내 효과는 체인 1로만. 상대가 자기 효과로 체인 2를 만들어 [[Zalen the Shackled Dragon]]을 쓰는 것도 가능하니 중요 카드 전에 버려도 되는 카드로 [[Zalen the Shackled Dragon]]을 소모시킨다.",
+   "마함은 세트하지 말고 패에서 바로 쓴다([[Kewl Tune Reco]] 소재 유발·[[Kewl Tune Loudness War]]가 마함을 파괴). 큰 엑스트라 몬스터는 [[Kewl Tune Track Maker]] 바운스를 처리한 뒤에 낸다.",
+   "[[Kewl Tune Loudness War]]가 서면 다른 튜너는 대상 지정·효과 파괴 불가 → [[Kewl Tune Loudness War]] 자체를 먼저 치우거나 대상을 안 잡는 [[Gameciel, the Sea Turtle Kaiju]]·[[Super Polymerization]]·[[Kurikara Divincarnate]]로.",
+   "엘펜노츠 혼합형은 [[Baronne de Fleur]] 무효·[[Elfnotes: Rhapsodia of Madness]]를 먼저 소모시키는 엘펜노츠 쪽 순서가 우선이다(elfnote 문서 참고)."
+  ]
+ }
 }
