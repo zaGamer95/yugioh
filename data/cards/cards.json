@@ -984,7 +984,8 @@
   ],
   "md_rarity": "SR",
   "text_en": "1 Fusion Monster + 1 DARK monster\r\nOnce per turn (Quick Effect): You can target 1 face-up monster your opponent controls; place 1 Predator Counter on it, and if it is Level 2 or higher, it becomes Level 1 as long as it has a Predator Counter. Negate the activated effects of your opponent's monsters that have Predator Counters.",
-  "text_ko": "융합 몬스터 ＋ 어둠 속성 몬스터<br>①: 1턴에 1번, 상대 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터에 포식 카운터를 1개 놓는다. 포식 카운터가 놓여진 레벨 2 이상의 몬스터 레벨은 1 이 된다. 이 효과는 상대 턴에도 발동할 수 있다. ②: 이 카드가 몬스터 존에 존재하는 한, 상대가 발동한, 포식 카운터가 놓여 있는 몬스터의 효과는 무효화된다."
+  "text_ko": "융합 몬스터 ＋ 어둠 속성 몬스터<br>①: 1턴에 1번, 상대 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터에 포식 카운터를 1개 놓는다. 포식 카운터가 놓여진 레벨 2 이상의 몬스터 레벨은 1 이 된다. 이 효과는 상대 턴에도 발동할 수 있다. ②: 이 카드가 몬스터 존에 존재하는 한, 상대가 발동한, 포식 카운터가 놓여 있는 몬스터의 효과는 무효화된다.",
+  "password": 69946549
  },
  "12950": {
   "cid": 12950,
