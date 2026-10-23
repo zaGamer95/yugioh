@@ -20,6 +20,11 @@
 | 도미나스 임펄스 (Dominus Impulse) | 🟠 아픔 | 메디우스 유발 또는 아르토메기아의 감옥신수 (Artmage Power Patron) 융합 발동에 |
 | 도미나스 퍼지 (Dominus Purge) | 🟠 아픔 | 아르토메기아의 감옥신수 (Artmage Power Patron)의 필드 마법 서치, 테르미나스, 필드 마법 서치에 |
 | PSY프레임기어 γ (PSY-Framegear Gamma) | 🟠 아픔 | 메디우스 유발에 체인해 무효+파괴. 내 필드에 몬스터가 없어야 함 |
+| 피드라울리스＝하르모니아 (Fydraulis Harmonia) | 🟠 아픔 | 아르토메기아의 감옥신수 (Artmage Power Patron)의 퀵 융합 발동에 필드의 무구한 자 메디우스 (Medius the Pure)를 파괴하면 융합 불발 + 필드 마법 서치 없음. 감옥신수를 파괴하면 서치가 일어나니 금물. `nervedo`에서 아르토메기아 임파스토 －탈환－ (Artmage Impasto -Recapture-)가 세트된 뒤에는 무효·파괴된다. 싱크로 5장 공개 기준, 후공 1턴에 쓸 수 있다. |
+| The Fallen & The Virtuous (The Fallen & The Virtuous) | 🟠 아픔 | 하르모니아와 같은 타점(감옥신수 융합 발동에 메디우스 파괴) 또는 필드 마법 발동에 체인해 파괴. 종족 3종류 뒤에는 아르토메기아 디아크트로스 (Artmage Diactorus)에 무효·파괴되고, 디아크토러스를 깨면 메디우스가 나온다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다. |
+| 초융합 (Super Polymerization) | 🟠 아픔 | 완성 판면(모두 빛·다른 종족)에서 2장을 빼 종족 3종류 조건을 무너뜨린다. 체인 불가·비대상이라 디아크토러스·핀멜이 못 막는다. 늪지의 도로곤 (Mudragon of the Swamp)·사크라멘툼 드라군 (Secreterion Dragon)·마기스토스 코로조 (Magistus Chorozo), 아르토메기아 사용자는 메디우스+아르토메기아로 아르토메기아 디아크트로스 (Artmage Diactorus). 상대 턴은 세트 필요, 후공이면 우리 턴 패에서. |
+| 금지된 성관 (Forbidden Crown) | 🟠 아픔 | 무구한 자 메디우스 (Medius the Pure) 유발에 체인하면 특소 무효 + 소재 불가. 몬스터 효과로 체인할 수 없어 아르토메기아 디아크트로스 (Artmage Diactorus)·네르베도에 막히지 않는다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다. |
+| 싸이크론 (Mystical Space Typhoon) | 🟠 아픔 | 필드 마법 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis)의 카드 발동에 체인해 파괴하면 반복 서치가 전부 사라진다(이 시점 1종족이라 디아크토러스 무효 없음). 세트된 아르토메기아 임파스토 －탈환－ (Artmage Impasto -Recapture-)도 체인 없이 깬다. 아르토메기아 반달리즘 －습격－ (Artmage Vandalism -Assault-)가 앞면이면 대신 묘지로 보내 지킨다. |
 | 사요 시구레 (Ghost Mourner & Moonlit Chill) | 🟡 할만함 | 메디우스에는 유효(유발 무효). 특소된 아르토메기아의 감옥신수 (Artmage Power Patron)에 쓰면 퀵 융합을 체인당함 |
 | 이펙트 뵐러 (Effect Veiler) | 🟡 할만함 | 메디우스 유발이나 아르토메기아의 감옥신수 (Artmage Power Patron) 융합 발동에. 펜듈럼 존의 네르베도·세트된 임파스토가 있으면 무효될 수 있음 |
 | 유령토끼 (Ghost Ogre & Snow Rabbit) | 🟡 할만함 | 필드 마법의 서치 발동에 써서 필드 마법 파괴. 반달리즘 대체 주의 |
@@ -31,6 +36,7 @@
 | 비스테드 마그나무트 (Bystial Magnamhut) | ⚪ 약함 | 묘지의 메디우스(어둠)를 제외해 자기 소생을 막는 정도. 아르토메기아의 감옥신수 (Artmage Power Patron)는 땅 속성이라 대상 불가 |
 | 마루챠미 냐루스 (Mulcharmy Meowls) | ⚪ 약함 | 묘지 특소는 메디우스 소생·리테라 퀵 정도 |
 | 마루챠미 후와로스 (Mulcharmy Fuwalos) | ⚪ 약함 | 덱·엑스트라 특소가 적어 드로우 기대치가 낮음 |
+| 비스테드 드루이드브룸 (Bystial Druiswurm) | ⚪ 약함 | 묘지의 빛·어둠은 대개 무구한 자 메디우스 (Medius the Pure)(어둠)뿐이고 아르토메기아의 감옥신수 (Artmage Power Patron)는 땅이라 대상 불가. 메디우스를 지워도 아르토메기아 디아크트로스 (Artmage Diactorus) ③이 제외 상태의 메디우스도 꺼낸다. 패에서 쓰는 몬스터 효과라 아르토메기아 임파스토 －탈환－ (Artmage Impasto -Recapture-)에 막힌다. 남은 몸통의 ②는 파괴 내성 창감옥신 네르바 (Nerva the Power Patron of Creation)도 묘지로 보낼 수 있어 우리 턴 돌파용. |
 | 말살의 지명자 (Crossout Designator) | ⛔ 비추 | 자기 덱에 없는 이름은 선언 불가. 내가 메디우스를 쓰는 덱일 때만 유효 |
 
 ## 혈자리 (우선순위 순)
@@ -51,36 +57,64 @@
    - 타이밍: 첫 서치(아르토메기아의 감옥신수 (Artmage Power Patron)의 필드 마법 서치 또는 테르미나스의 메디우스 서치)가 처리된 직후
    - 이유: 필드 마법은 같은 턴 여러 번 서치하는 카드라 드롤 1장으로 그라플레어·리테라·핀멜 서치와 바니시 서치가 전부 막힌다. 종족 3종류를 맞추지 못한다.
    - 맞은 뒤 상대 루트: 그라플레어의 '덱에서 세트'는 패에 넣기가 아니라서 막히지 않는다. 이미 패에 있는 아르토메기아 몬스터는 특소된다.
-5. 🟠 아픔 **증식의 G** (Maxx "C") → **무구한 자 메디우스** (Medius the Pure) — main 2단계
+5. 🟠 아픔 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **무구한 자 메디우스** (Medius the Pure) — main 3단계
+   - 타이밍: 아르토메기아의 감옥신수 (Artmage Power Patron)가 필드에서 퀵 융합을 발동했을 때, 패의 하르모니아 + 싱크로 5장 공개로 필드의 무구한 자 메디우스 (Medius the Pure) 파괴
+   - 이유: 처리 때 메디우스가 없어 아르토메기아 디아크트로스 (Artmage Diactorus)(메디우스 + 아르토메기아) 소재가 맞지 않아 융합이 불발한다. 감옥신수의 융합은 1턴 1번이라 다시 못 하고, 감옥신수는 필드에 남아 묘지로 가지 않으므로 필드 마법 서치도 없다. 감옥신수를 파괴하면 '패·필드에서 묘지로 보내졌을 때' 서치가 일어나니 반드시 메디우스를 고를 것. 후공 1턴에 쓸 수 있다.
+   - 맞은 뒤 상대 루트: 메디우스는 묘지 효과(패·필드의 몬스터 1장을 덱으로 되돌리고 자신 특소)로 돌아오지만 융합 기회는 지났다. `nervedo` 라인에서 아르토메기아 임파스토 －탈환－ (Artmage Impasto -Recapture-)가 세트된 뒤라면 하르모니아가 무효·파괴된다.
+6. 🟠 아픔 **싸이크론** (Mystical Space Typhoon) → **신예학도 아르토메기아** (Artmage Academic Arcane Arts Acropolis) — main 5단계
+   - 타이밍: 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis)의 카드 발동에 체인해 세트해 둔 싸이크론으로 파괴 (`terminus` 라인은 3단계)
+   - 이유: 필드 마법의 카드 발동에는 처리할 효과가 없어, 체인으로 파괴되면 필드에 남지 못하고 그라플레어·리테라·핀멜 서치와 메디우스 추가 일반 소환이 전부 사라진다. 이 시점 필드는 아르토메기아 디아크트로스 (Artmage Diactorus) 1종족뿐이라 무효당하지 않는다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.
+   - 맞은 뒤 상대 루트: 아르토메기아 반달리즘 －습격－ (Artmage Vandalism -Assault-)가 앞면이면 대신 그 카드를 묘지로 보내 필드 마법을 지킨다. 패의 아르토메기아 버니시 －개변－ (Artmage Varnish -Alteration-)는 덱·묘지의 필드 마법을 다시 놓는다.
+7. 🟠 아픔 **금지된 성관** (Forbidden Crown) → **무구한 자 메디우스** (Medius the Pure) — main 2단계
+   - 타이밍: 무구한 자 메디우스 (Medius the Pure)의 소환 성공 유발 발동에 체인해 세트해 둔 금지된 성관을 메디우스에 적용
+   - 이유: 감옥신 특소가 무효가 되고, 메디우스는 이번 턴 융합 소재가 될 수 없어 아르토메기아 디아크트로스 (Artmage Diactorus)를 못 만든다. 몬스터 효과로 체인할 수 없어 아르토메기아 디아크트로스 (Artmage Diactorus)·펜듈럼 존의 감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron)가 반응하지 못한다. 종족 3종류가 갖춰진 뒤에도 디아크토러스에 막히지 않는 마법 견제다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.
+   - 맞은 뒤 상대 루트: 절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus)·2번째 메디우스로 재시작. 감옥신수가 이미 나왔다면 아르토메기아의 감옥신수 (Artmage Power Patron)의 융합 발동에 감옥신수에 써도 융합 무효 + 묘지로 가지 않는다.
+8. 🟠 아픔 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **무구한 자 메디우스** (Medius the Pure) — main 3단계
+   - 타이밍: 아르토메기아의 감옥신수 (Artmage Power Patron)의 퀵 융합 발동에 체인해 세트해 둔 The Fallen & The Virtuous로 필드의 무구한 자 메디우스 (Medius the Pure) 파괴
+   - 이유: 하르모니아와 같은 결과(소재 부족으로 융합 불발, 감옥신수가 묘지로 가지 않아 필드 마법 서치 없음). 디아크토러스가 나오기 전이라 무효당하지 않는다. 감옥신수를 깨면 서치가 일어나니 메디우스를 고를 것. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.
+   - 맞은 뒤 상대 루트: 늦었다면 필드 마법의 카드 발동에 체인해 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis)를 파괴(싸이크론과 같은 효과). 종족 3종류가 된 뒤에는 필드에서 발동한 카드라 아르토메기아 디아크트로스 (Artmage Diactorus)에 무효·파괴된다.
+9. 🟠 아픔 **증식의 G** (Maxx "C") → **무구한 자 메디우스** (Medius the Pure) — main 2단계
    - 타이밍: 메디우스 유발의 덱 특소에 체인(임파스토가 세트되기 전)
    - 이유: main 라인만으로 특소 6회 이상(감옥신·디아크토러스·그라플레어·리테라·핀멜 등)이고 상대 턴 네르바까지 간다. 일찍 맞으면 디아크토러스+필드 마법 서치 정도에서 멈춘다.
    - 맞은 뒤 상대 루트: 멈춰도 필드 마법 서치는 특소가 아니라 패를 채울 수 있다. nervedo 라인에서 임파스토가 세트된 뒤에는 증G가 무효될 수 있다.
-6. 🟠 아픔 **마루챠미 푸루리아** (Mulcharmy Purulia) → **무구한 자 메디우스** (Medius the Pure) — main 1단계
+10. 🟠 아픔 **마루챠미 푸루리아** (Mulcharmy Purulia) → **무구한 자 메디우스** (Medius the Pure) — main 1단계
    - 타이밍: 상대가 움직이기 전, 자신 필드가 빈 상태에서 미리
    - 이유: 메디우스 일반 소환(필드 마법으로 2번까지)과 그라플레어·리테라·핀멜의 패 특소가 모두 드로우가 된다.
    - 맞은 뒤 상대 루트: 덱·엑스트라 특소(감옥신·융합)는 세지 않는다.
-7. 🟠 아픔 **도미나스 임펄스** (Dominus Impulse) → **아르토메기아의 감옥신수** (Artmage Power Patron) — main 3단계
+11. 🟠 아픔 **도미나스 임펄스** (Dominus Impulse) → **아르토메기아의 감옥신수** (Artmage Power Patron) — main 3단계
    - 타이밍: 메디우스 유발(서치 또는 특소) 또는 아르토메기아의 감옥신수 (Artmage Power Patron)의 융합 효과 발동에 체인. 메디우스가 필드에 있어 패에서 발동 가능
    - 이유: 함정이라 네르베도·임파스토에 막히지 않고, 융합을 끊으면 필드 마법 서치도 사라진다.
    - 맞은 뒤 상대 루트: 패에서 쓰면 빛·땅·바람 몬스터 효과를 못 쓰게 되니 자기 덱 속성을 확인.
-8. 🟠 아픔 **도미나스 퍼지** (Dominus Purge) → **아르토메기아의 감옥신수** (Artmage Power Patron) — main 4단계
+12. 🟠 아픔 **도미나스 퍼지** (Dominus Purge) → **아르토메기아의 감옥신수** (Artmage Power Patron) — main 4단계
    - 타이밍: 아르토메기아의 감옥신수 (Artmage Power Patron)의 필드 마법 서치, 또는 필드 마법의 첫 서치에 체인
    - 이유: 필드 마법이 없거나 첫 서치가 막히면 종족 3종류를 맞추기 어렵다.
    - 맞은 뒤 상대 루트: 필드 마법 효과 자체는 1턴 1번 제한이 없어 코스트가 남으면 다시 서치한다. 필드 마법 서치보다 아르토메기아의 감옥신수 (Artmage Power Patron) 서치에 쓰는 편이 확실.
-9. 🟡 할만함 **유령토끼** (Ghost Ogre & Snow Rabbit) → **신예학도 아르토메기아** (Artmage Academic Arcane Arts Acropolis) — main 5단계
+13. 🟠 아픔 **초융합** (Super Polymerization) → **아르토메기아 파인멜트** (Artmage Finmel) — main 11단계
+   - 타이밍: 아르토메기아 파인멜트 (Artmage Finmel)가 특소된 뒤(드로우 유발에 체인하거나 엔드 페이즈에) 세트해 둔 초융합. 후공이면 우리 턴 메인 페이즈에 패에서
+   - 이유: 초융합에는 체인할 수 없어 아르토메기아 디아크트로스 (Artmage Diactorus)가 무효하지 못하고, 대상을 잡지 않아 핀멜의 대상 내성도 상관없다. 디아크토러스(천사)+핀멜(전사)처럼 2종족을 빼면 남은 종족이 2개라 디아크토러스·핀멜·그라플레어의 '3종족 이상' 효과가 꺼진다. 빛 2장으로 늪지의 도로곤 (Mudragon of the Swamp), 그라플레어+리테라로 사크라멘툼 드라군 (Secreterion Dragon), 디아크토러스+리테라로 마기스토스 코로조 (Magistus Chorozo). 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.
+   - 맞은 뒤 상대 루트: 디아크토러스는 파괴가 아니라 소재로 묘지에 가므로 ③(메디우스 특소)이 없다. 우리 턴이면 아르토메기아 리테라 (Artmage Litera)의 퀵 특소나 아르토메기아의 감옥신수 (Artmage Power Patron)의 퀵 융합(창감옥신 네르바 (Nerva the Power Patron of Creation))으로 종족 수를 복구할 수 있다.
+14. 🟡 할만함 **유령토끼** (Ghost Ogre & Snow Rabbit) → **신예학도 아르토메기아** (Artmage Academic Arcane Arts Acropolis) — main 5단계
    - 타이밍: 필드 마법이 필드에서 서치 효과를 발동했을 때
    - 이유: 그 서치는 처리되지만 필드 마법이 사라져 이후 반복 서치와 메디우스 추가 소환이 없어진다.
    - 맞은 뒤 상대 루트: 아르토메기아 반달리즘 －습격－ (Artmage Vandalism -Assault-)가 있으면 대신 묘지로 보내 필드 마법을 지키고, 아르토메기아 버니시 －개변－ (Artmage Varnish -Alteration-)는 묘지의 필드 마법을 다시 놓을 수 있다.
-10. 🟡 할만함 **원시생명체 니비루** (Nibiru, the Primal Being) → **아르토메기아 리테라** (Artmage Litera) — main 9단계
+15. 🟡 할만함 **원시생명체 니비루** (Nibiru, the Primal Being) → **아르토메기아 리테라** (Artmage Litera) — main 9단계
    - 타이밍: 5번째 소환(리테라 특소) 이후, 핀멜이 나오기 전
    - 이유: 디아크토러스는 '필드에서' 발동한 효과만 무효로 하므로 패의 니비루를 막지 못한다. 필드가 토큰 1장으로 정리된다.
    - 맞은 뒤 상대 루트: nervedo 라인처럼 임파스토가 세트돼 있으면 니비루가 무효된다. 묘지의 메디우스·리테라 회수로 일부 재전개 가능.
-11. ⚪ 약함 **마루챠미 후와로스** (Mulcharmy Fuwalos) → **무구한 자 메디우스** (Medius the Pure) — main 2단계
+16. 🟡 할만함 **싸이크론** (Mystical Space Typhoon) → **아르토메기아 임파스토 －탈환－** (Artmage Impasto -Recapture-) — nervedo 4단계
+   - 타이밍: 아르토메기아＝논피니토 (Artmage Non-Finito)가 아르토메기아 임파스토 －탈환－ (Artmage Impasto -Recapture-)를 세트한 뒤, 상대의 다음 효과 발동에 체인해 그 세트 카드에 싸이크론
+   - 이유: 임파스토는 상대가 몬스터 효과를 발동했을 때만 쓰는 카운터 함정이라 싸이크론에 체인할 수 없다. 지워 두면 이후 내 몬스터 효과 견제(우라라·증G·하르모니아·드루이드브룸 등)가 임파스토에 막히지 않는다.
+   - 맞은 뒤 상대 루트: 아르토메기아 몬스터가 있으면 임파스토는 세트한 턴에도 발동할 수 있으니, 몬스터 효과 패트랩보다 싸이크론을 먼저 쓴다.
+17. ⚪ 약함 **마루챠미 후와로스** (Mulcharmy Fuwalos) → **무구한 자 메디우스** (Medius the Pure) — main 2단계
    - 이유: 덱·엑스트라 특소는 감옥신·디아크토러스(+논피니토·네르바) 정도로, 주요 특소는 패에서 나온다.
-12. ⛔ 비추 **말살의 지명자** (Crossout Designator) → **무구한 자 메디우스** (Medius the Pure) — main 1단계
+18. ⛔ 비추 **말살의 지명자** (Crossout Designator) → **무구한 자 메디우스** (Medius the Pure) — main 1단계
    - 타이밍: 상대가 움직이기 전 선제 사용
    - 이유: 자기 메인 덱에 있는 이름만 선언할 수 있어 아르토메기아 카드는 대상이 안 된다.
    - 맞은 뒤 상대 루트: 내 덱이 엘펜노츠·DoomZ 등 무구한 자 메디우스 (Medius the Pure)를 쓰는 덱이면 메디우스를 선언해 상대 메디우스를 그 턴 내내 무효로 할 수 있다. 그때만 유효.
+19. ⛔ 비추 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **아르토메기아 디아크트로스** (Artmage Diactorus) — main 11단계
+   - 타이밍: 판면이 완성된 뒤 The Fallen & The Virtuous·하르모니아로 아르토메기아 디아크트로스 (Artmage Diactorus) 파괴
+   - 이유: 종족 3종류가 있으면 필드에서 발동한 The Fallen & The Virtuous는 디아크토러스에 무효·파괴된다. 하르모니아(패에서 발동)로 파괴가 통해도 융합 소환된 디아크토러스가 파괴되면 패·덱·제외 상태의 무구한 자 메디우스 (Medius the Pure)가 특소된다.
+   - 맞은 뒤 상대 루트: 완성 판면에는 반응할 수 없는 초융합 (Super Polymerization)·금지된 성관 (Forbidden Crown).
 
 ## 핵심 카드
 
@@ -133,7 +167,7 @@
 | 1 | 무구한 자 메디우스 (Medius the Pure) | 일반 소환 |  | 푸루리아, 니비루 |
 | 2 | 무구한 자 메디우스 (Medius the Pure) | 소환 성공 유발: 덱에서 감옥신 몬스터 특소 | 감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron) 특소 | 우라라, 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마, 하르모니아, 금지된 성관 |
 | 3 | 아르토메기아＝논피니토 (Artmage Non-Finito) | 마함 1장 버리고 네르베도를 릴리스해 엑스트라에서 특소(소환 조건, 체인 불가) | 네르베도는 엑스트라 덱에 앞면으로 들어감 | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 4 | 아르토메기아＝논피니토 (Artmage Non-Finito) | 특소 유발: 덱에서 아르토메기아 마법·함정 세트 | 아르토메기아 임파스토 －탈환－ (Artmage Impasto -Recapture-) 세트(이 턴에도 발동 가능) | 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관 |
+| 4 | 아르토메기아＝논피니토 (Artmage Non-Finito) | 특소 유발: 덱에서 아르토메기아 마법·함정 세트 | 아르토메기아 임파스토 －탈환－ (Artmage Impasto -Recapture-) 세트(이 턴에도 발동 가능) | 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 싸이크론, 금지된 성관 |
 | 5 | 감옥신영수－네르베도 (Nervedo the Shadebeast Power Patron) | 엑스트라 덱에 앞면으로 들어간 유발: 덱에서 감옥신·아르토메기아 몬스터 특소 | 아르토메기아의 감옥신수 (Artmage Power Patron) 특소 | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 6 | 아르토메기아의 감옥신수 (Artmage Power Patron) | 메인 페이즈 퀵: 자신+메디우스로 융합 | 아르토메기아 디아크트로스 (Artmage Diactorus) 융합 | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마, 하르모니아, 금지된 성관 |
 | 7 | 아르토메기아의 감옥신수 (Artmage Power Patron) | 묘지로 간 유발: 아르토메기아 마함 서치 | 신예학도 아르토메기아 (Artmage Academic Arcane Arts Acropolis) 서치 → 이후 main 라인 5단계부터 동일 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |

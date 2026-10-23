@@ -1,0 +1,41 @@
+{
+ "sources": {
+  "konami-qa": {
+   "title": "遊戯王ニューロン(オフィシャルカードゲーム カードデータベース) Q&A",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rules": [],
+ "rulings": [
+  {
+   "id": "qa-24323",
+   "fid": 24323,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24323&request_locale=ja",
+   "official": true,
+   "cards": ["Fydraulis Harmonia", "Granguignol the Dusk Dragon"],
+   "handtraps": ["harmonia"],
+   "themes": ["branded"],
+   "topic": "timing",
+   "question_ko": "[[Granguignol the Dusk Dragon]]의 효과에 체인해 상대가 싱크로 5장을 공개한 [[Fydraulis Harmonia]]로 그랑기뇰을 파괴했다. 체인 처리 뒤 묘지의 그랑기뇰 ②(상대가 발동한 몬스터 효과로 몬스터가 특소되면 자신을 제외하고 드래그마·데스피아 특소)를 발동할 수 있는가?",
+   "answer_ko": "발동할 수 없다. 하르모니아가 특소된 시점에 그랑기뇰은 몬스터 존에 있었고, 그 뒤 파괴되어 묘지로 갔으므로 '묘지에 있는 상태에서 상대 몬스터 효과로 특소'라는 조건을 만족하지 않는다.",
+   "quote_ja": "発動できません。（「赫焉竜グランギニョル」が『墓地に存在する状態で、相手が発動したモンスターの効果でモンスターが特殊召喚された場合』を満たしていないためです。）",
+   "impact_ko": "하르모니아의 자신 특소는 '상대가 발동한 몬스터 효과로 특소'에 해당해 그랑기뇰 ②를 부를 수 있다. 하르모니아로 그랑기뇰 자신을 파괴하면 ②가 나오지 않지만, 다른 몬스터를 파괴하면 필드·묘지에 남은 그랑기뇰이 반응한다."
+  },
+  {
+   "id": "qa-24237",
+   "fid": 24237,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24237&request_locale=ja",
+   "official": true,
+   "cards": ["Mystical Space Typhoon", "Artmage Academic Arcane Arts Acropolis"],
+   "handtraps": ["mst", "fallen_virtuous"],
+   "themes": ["artmage"],
+   "topic": "chain",
+   "question_ko": "필드 마법의 카드 발동에 [[Mystical Space Typhoon]]을 체인했다. 그 필드 마법이 '필드에 있는 한' 적용되는 지속 효과(이름 변경 등)를 가지고 있어도 파괴되는가?",
+   "answer_ko": "파괴된다. 카드를 발동한 시점에 그 카드는 필드에 있지만, 체인을 확인하는 단계에서는 아직 '필드에 있는 한' 효과가 적용되지 않는다. 지속 마법이 '몬스터 효과로 파괴되지 않는다'를 가진 경우에도 같은 체인의 몬스터 효과로 파괴된다.",
+   "quote_ja": "チェーンの確認を行うタイミングでは、まだ『②：このカードはフィールドゾーンに存在する限り、カード名を「王家の神殿」として扱う』効果は適用されていません。",
+   "impact_ko": "필드 마법·지속 마법은 카드 발동에 체인해 깨면 필드에 남지 못하고 지속 효과도 쓰지 못한다. [[Artmage Academic Arcane Arts Acropolis]]처럼 발동 시 처리가 없는 필드 마법은 발동에 싸이크론을 맞추면 이후 서치 효과를 한 번도 못 쓴다(다른 카드에 의한 파괴 대체는 별개)."
+  }
+ ]
+}

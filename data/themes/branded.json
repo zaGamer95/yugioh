@@ -215,6 +215,7 @@
      "action_ko": "엔드 페이즈, 이번 턴 묘지로 보내졌으므로: 덱에서 드래그마·트라이브리게이드 카드 서치",
      "class": [
       "monster_effect_gy",
+      "gy_effect",
       "search"
      ],
      "result_ko": "[[The Fallen & The Virtuous]] 서치 (드래그마 취급)"
@@ -396,6 +397,29 @@
    ]
   },
   {
+   "handtrap": "crown",
+   "severity": "strong",
+   "line": "bfusion",
+   "step": 4,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "세트해 둔 금지된 성관을 [[Albion the Branded Dragon]]의 융합 소환 시 효과(묘지 소재 제외 융합) 발동에 체인해 알비온에 적용",
+   "why_ko": "효과가 무효가 되어 [[Granguignol the Dusk Dragon]]이 안 나오고, 알비온은 필드에 남아 묘지로 가지 않으므로 엔드 페이즈 세트도 없다. 몬스터 효과로 체인할 수 없고, 이번 턴 파괴·효과 내성이 붙어 상대가 [[The Fallen & The Virtuous]]로 자기 알비온을 깨 엔드 페이즈 효과를 살리는 우회도 막힌다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "알베르 + 알비온으로 턴 종료. 손에 [[Fallen of the White Dragon]]이 있으면 그쪽으로 다시 시작하지만 낙인융합 턴이라 엑덱은 융합만.",
+   "rulings": [
+    "supp-15994"
+   ]
+  },
+  {
+   "handtrap": "druiswurm",
+   "severity": "strong",
+   "line": "bfusion",
+   "step": 6,
+   "target_card": "The Dragon that Devours the Dogma",
+   "timing_ko": "[[Granguignol the Dusk Dragon]]이 엑스트라 덱의 [[The Dragon that Devours the Dogma]]를 묘지로 보낸 뒤, 엔드 페이즈 전(상대 필드에 몬스터가 있어 속공)에 그 용을 제외하며 패에서 특소",
+   "why_ko": "엔드 페이즈의 [[The Fallen & The Virtuous]] 서치가 사라지면 자기 알비온 파괴 → [[Branded Retribution]] 세트, [[Titaniklad the Ash Dragon]] → 하얀 용 → 에클레시아 특소까지 6~10단계가 통째로 없어진다. 후공 1턴에 쓸 수 있다.",
+   "fallback_ko": "필드의 알베르·알비온·그랑기뇰은 남는다. 드루이드브룸의 자신 특소는 '상대가 발동한 몬스터 효과로 특소'라 그랑기뇰 ②(자신 제외 → 덱의 드래그마 또는 엑덱의 데스피아 특소)를 부른다. 이 라인에서는 묘지의 알비온이 엔드 페이즈 직전에야 생기므로 이쪽이 마그나무트 타점보다 먼저다."
+  },
+  {
    "handtrap": "ash",
    "severity": "strong",
    "line": "white",
@@ -406,6 +430,16 @@
    "fallback_ko": "손에 [[Blazing Cartesia, the Virtuous]]가 있으면 알버스가 필드에 있어 자신을 특소 → 하얀 용과 싱크로로 복구. 그래도 엔드 페이즈 알비온 TFTV 세트는 남는다."
   },
   {
+   "handtrap": "crown",
+   "severity": "strong",
+   "line": "white",
+   "step": 2,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "세트해 둔 금지된 성관을 [[Fallen of the White Dragon]]의 '에클레시아 특소' 효과 발동에 체인해 하얀 용에 적용",
+   "why_ko": "에클레시아가 안 나오고, 하얀 용은 이번 턴 싱크로·융합 소재가 될 수 없어 손의 [[Blazing Cartesia, the Virtuous]]로 복구하는 루트(카르테시아 특소 → 하얀 용과 싱크로)도 막힌다. 체인할 수 없는 마법이라 상대가 반응하지 못한다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "하얀 용 코스트로 알비온이 이미 묘지에 있어 엔드 페이즈 TFTV 세트는 남는다. 드루이드브룸·마그나무트로 함께 지우면 좋다."
+  },
+  {
    "handtrap": "ogre",
    "severity": "strong",
    "line": "white",
@@ -414,6 +448,19 @@
    "timing_ko": "[[Ecclesia and the Dark Dragon]]의 '자신 제외 → 덱에서 특소' 효과 발동에 체인",
    "why_ko": "파괴되어 자신을 제외하지 못하므로 'and if you do' 이후의 특소가 일어나지 않고, 몸통도 사라져 상대 턴 재사용도 없다. 우라라·무한포영으로 막으면 검은 용 에클레시아이 필드에 남아 상대 턴에 다시 쓴다.",
    "fallback_ko": "쿠엠이 안 나와 카르테시아 덤핑도 없다. 묘지의 검은 용 에클레시아 ②(융합 몬스터와 필드 카드를 덱으로)는 남는다.",
+   "rulings": [
+    "supp-22144"
+   ]
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "strong",
+   "line": "white",
+   "step": 4,
+   "target_card": "Ecclesia and the Dark Dragon",
+   "timing_ko": "세트해 둔 The Fallen & The Virtuous를 [[Ecclesia and the Dark Dragon]]의 '자신 제외 → 덱에서 특소' 발동에 체인해 검은 용 에클레시아 파괴",
+   "why_ko": "처리 때 자신을 제외하지 못해 [[Guiding Quem, the Virtuous]]가 안 나오고, 몸통도 사라져 상대 턴 재사용이 없다. 유령토끼와 같은 결과. 내 엑덱에서 알버스 언급 융합을 보내야 하므로 알버스 엔진 덱 전용. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "쿠엠 → 카르테시아 덤핑이 없다. 묘지의 검은 용 에클레시아 ②(묘지의 레벨 8 융합 + 필드 카드 1장을 덱으로)는 묘지의 [[Albion the Branded Dragon]]을 써서 쓸 수 있다.",
    "rulings": [
     "supp-22144"
    ]
@@ -442,6 +489,19 @@
    ]
   },
   {
+   "handtrap": "druiswurm",
+   "severity": "strong",
+   "line": "white",
+   "step": 7,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "엔드 페이즈 전(메인 페이즈 중 상대 필드에 몬스터가 있을 때 속공)에 묘지의 [[Albion the Branded Dragon]]을 제외하며 패에서 특소",
+   "why_ko": "[[Bystial Magnamhut]]와 같은 타점(TFTV 세트 차단). 1턴 1번이 카드 이름별이라 둘 다 있으면 알비온과 싱크로 소재로 묘지에 간 [[Fallen of the White Dragon]]까지 지울 수 있다. 하얀 용을 지우면 상대 턴 [[Rindbrumm the Striking Dragon]]의 소생 대상과 카르테시아 특소 조건(알버스가 필드·묘지에)이 사라진다.",
+   "fallback_ko": "드루이드브룸이 필드에서 묘지로 가면 특소된 상대 몬스터 1장(검은 용 에클레시아 등)을 묘지로 보낸다. 반대로 내 필드의 드루이드브룸은 상대 턴(우리 턴)에 [[Fallen of Albaz]] 융합 소재로 빼앗길 수 있다.",
+   "rulings": [
+    "supp-15994"
+   ]
+  },
+  {
    "handtrap": "ash",
    "severity": "strong",
    "line": "opp_turn",
@@ -450,6 +510,44 @@
    "timing_ko": "우리 턴, [[Incredible Ecclesia, the Virtuous]]의 '릴리스 → 덱에서 [[Fallen of Albaz]] 특소' 발동에 체인",
    "why_ko": "우리 몬스터를 소재로 빼앗는 알버스 융합이 사라진다. 에클레시아는 이미 릴리스되어 몸통도 없다. 검은 용 에클레시아의 메르쿠리에 특소(덱 특소)도 우라라 대상이지만 이쪽이 이득이 크다.",
    "fallback_ko": "쿠엠 소생·검은 용 에클레시아·카르테시아 융합은 남는다. 알버스 융합을 유령토끼로 끊어도 된다(알버스가 파괴되면 '이 카드를 포함한' 소재 조건이 안 맞음)."
+  },
+  {
+   "handtrap": "super_poly",
+   "severity": "ok",
+   "line": "bfusion",
+   "step": 5,
+   "target_card": "Granguignol the Dusk Dragon",
+   "timing_ko": "[[Granguignol the Dusk Dragon]]의 융합 소환 시 효과(덤핑) 발동에 체인해 세트해 둔 초융합 발동",
+   "why_ko": "필드에 [[Albion the Branded Dragon]](어둠·드래곤·융합)과 그랑기뇰(빛·마법사·융합)이 함께 있는 순간. [[Hyperinvoked Aeon]]이면 체인 처리 뒤 융합 소환 시 효과로 묘지의 알비온과 방금 보내진 [[The Dragon that Devours the Dogma]]를 제외해 엔드 페이즈 효과까지 지운다. 그 밖에 [[Secreterion Dragon]]·[[Magistus Chorozo]]·[[Predaplant Dragostapelia]](융합 + 어둠). 체인할 수 없으니 반응도 없다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "아이온이 아니면 알비온이 소재로 묘지에 가 엔드 페이즈 세트 조건을 채우고, 성흔을 먹는 용 서치도 남는다. 후공이면 우리 턴에 패에서 [[Ecclesia and the Dark Dragon]]+[[Guiding Quem, the Virtuous]](빛 마법사 2장)로 [[Garura, Wings of Resonant Life]]·[[Magistus Chorozo]], 내 알버스 + 검은 용 에클레시아로 [[Mirrorjade the Iceblade Dragon]].",
+   "rulings": [
+    "qa-10824",
+    "supp-15994"
+   ]
+  },
+  {
+   "handtrap": "mst",
+   "severity": "ok",
+   "line": "bfusion",
+   "step": 8,
+   "target_card": "Branded Retribution",
+   "timing_ko": "상대 엔드 페이즈에 [[Branded Retribution]]이 세트된 뒤 세트해 둔 싸이크론으로 파괴 (후공이면 우리 턴 메인 페이즈에 패에서)",
+   "why_ko": "낙인단죄는 '특소하는 효과를 포함한 발동'에만 쓸 수 있는 카운터 함정이라 싸이크론에 체인할 수 없다. 우리 턴 특소 1번을 무효·파괴하는 견제가 1:1로 사라진다.",
+   "fallback_ko": "묘지에 간 낙인단죄는 자신을 제외해 묘지의 다른 낙인 마함([[Branded Fusion]] 등)을 회수할 수 있다. 세트된 [[The Fallen & The Virtuous]]는 노리지 말 것(bad)."
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "ok",
+   "line": "white",
+   "step": 4,
+   "target_card": "Ecclesia and the Dark Dragon",
+   "timing_ko": "[[Ecclesia and the Dark Dragon]]이 ①을 발동했을 때 패의 하르모니아 + 싱크로 5장 공개로 검은 용 에클레시아 파괴",
+   "why_ko": "유령토끼와 같은 이유로 쿠엠 특소가 불발한다. 후공 1턴에 쓸 수 있다. 다만 하르모니아는 내 필드에 특소되어, 우리 턴에 [[Incredible Ecclesia, the Virtuous]] → [[Fallen of Albaz]] 융합의 소재로 빼앗길 수 있다.",
+   "fallback_ko": "`bfusion` 라인에서는 필드·묘지의 [[Granguignol the Dusk Dragon]]이 하르모니아의 자신 특소('상대가 발동한 몬스터 효과로 특소')에 반응해 ②를 쓴다. 그랑기뇰 자신을 파괴 대상으로 고르면 ②를 쓸 수 없다.",
+   "rulings": [
+    "supp-22144",
+    "qa-24323"
+   ]
   },
   {
    "handtrap": "ogre",
@@ -465,6 +563,19 @@
    ]
   },
   {
+   "handtrap": "harmonia",
+   "severity": "bad",
+   "line": "bfusion",
+   "step": 4,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "[[Albion the Branded Dragon]]의 융합 효과에 하르모니아·The Fallen & The Virtuous로 알비온 파괴",
+   "why_ko": "소재는 묘지에서 제외하므로 그랑기뇰은 그대로 나오고, 알비온이 묘지로 가 엔드 페이즈 낙인 마함 세트 조건을 채운다. 유령토끼와 같은 실수.",
+   "fallback_ko": "알비온에는 [[Infinite Impermanence]]·[[Ghost Belle & Haunted Mansion]]·금지된 성관. 파괴형은 검은 용 에클레시아에.",
+   "rulings": [
+    "supp-15994"
+   ]
+  },
+  {
    "handtrap": "ash",
    "severity": "bad",
    "line": "opp_turn",
@@ -473,6 +584,16 @@
    "timing_ko": "TFTV 파괴 모드, 하얀 용 ①, [[Branded in High Spirits]]의 '엑덱에서 묘지로' 부분",
    "why_ko": "엑스트라 덱에서 묘지로 보내는 것은 우라라 조건(덱에서 묘지)이 아니다. TFTV·하얀 용 ①에는 발동 자체가 안 된다. 기염은 덱 서치가 포함되어 있어 그 서치를 노리고 쓰는 것은 가능.",
    "fallback_ko": "우라라는 낙인융합·하얀 용 ②·검은 용 에클레시아 ①·그랑기뇰 ①·에클레시아 ①에."
+  },
+  {
+   "handtrap": "mst",
+   "severity": "bad",
+   "line": "white",
+   "step": 7,
+   "target_card": "The Fallen & The Virtuous",
+   "timing_ko": "엔드 페이즈에 세트된 [[The Fallen & The Virtuous]]를 싸이크론으로",
+   "why_ko": "속공 마법이라 싸이크론에 체인해 파괴 모드(내 앞면 카드)나 소생 모드로 써 버린다. 상대가 원하는 때에 견제를 쓰게 만드는 것뿐이다.",
+   "fallback_ko": "싸이크론은 [[Branded Retribution]]에."
   }
  ],
  "handtrap_summary": {
@@ -566,6 +687,33 @@
   "gamma": {
    "rating": "strong",
    "note_ko": "검은 용 에클레시아 ① 또는 하얀 용 ② 무효+파괴."
+  },
+  "harmonia": {
+   "rating": "ok",
+   "note_ko": "싱크로 5장 공개 기준. [[Ecclesia and the Dark Dragon]] ① 발동에 파괴하면 쿠엠 특소가 불발(유령토끼와 같음). 하르모니아의 자신 특소는 필드·묘지의 [[Granguignol the Dusk Dragon]] ②를 깨우고(그랑기뇰 자체를 파괴하면 불가), 내 필드의 하르모니아는 [[Fallen of Albaz]] 융합 소재가 될 수 있다. 알비온 파괴는 엔드 페이즈 세트를 돕는다.",
+   "rulings": [
+    "qa-24323"
+   ]
+  },
+  "fallen_virtuous": {
+   "rating": "strong",
+   "note_ko": "검은 용 에클레시아 ① 발동에 체인해 파괴. 알비온에는 쓰지 말 것. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다."
+  },
+  "super_poly": {
+   "rating": "ok",
+   "note_ko": "1턴 동안 상대 필드에 몬스터 2장이 함께 있는 순간이 적다. `bfusion`의 알비온+그랑기뇰 → [[Hyperinvoked Aeon]](알비온·성흔을 먹는 용 제외까지)·[[Secreterion Dragon]]·[[Magistus Chorozo]]. 엔드 페이즈·우리 턴의 검은 용 에클레시아+쿠엠 → [[Garura, Wings of Resonant Life]]·[[Magistus Chorozo]], 내 알버스가 있으면 [[Mirrorjade the Iceblade Dragon]]. 상대 턴은 세트 필요, 후공이면 우리 턴 패에서."
+  },
+  "crown": {
+   "rating": "strong",
+   "note_ko": "[[Albion the Branded Dragon]] 융합 효과(알비온이 필드에 남아 엔드 페이즈 세트도 없음) > 하얀 용 ②(하얀 용이 소재도 못 됨). 몬스터 효과로 체인 불가. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다."
+  },
+  "druiswurm": {
+   "rating": "strong",
+   "note_ko": "마그나무트처럼 엔드 페이즈 전에 묘지의 [[Albion the Branded Dragon]]·[[The Dragon that Devours the Dogma]](둘 다 어둠)를 제외. 이름이 달라 마그나무트와 같은 턴에 둘 다 쓸 수 있다. 자신 특소가 그랑기뇰 ②를 깨우고, 남은 몸통이 알버스 융합 소재가 될 수 있는 점에 주의."
+  },
+  "mst": {
+   "rating": "ok",
+   "note_ko": "세트된 [[Branded Retribution]]은 싸이크론에 체인할 수 없어 깔끔하게 깬다. 세트된 [[The Fallen & The Virtuous]]는 속공이라 체인해서 쓰므로 노리지 말 것."
   }
  },
  "notes_ko": [

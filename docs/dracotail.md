@@ -17,6 +17,9 @@
 | 이펙트 뵐러 (Effect Veiler) | 🟠 아픔 | 선공 턴에만. 알자리온·무루루·루키아스에 무한포영과 같은 용도. 우리 턴(상대 턴 융합)에는 못 쓴다. |
 | 유령토끼 (Ghost Ogre & Snow Rabbit) | 🟠 아픔 | 루키아스 서치·무루루 융합에 쓰면 소재를 없애 융합을 막는다. 알자리온 효과는 루키아스 ②가 위에 쌓여 직접 체인이 안 된다. |
 | 금지된 일적 (Forbidden Droplet) | 🟠 아픔 | 후공용. 그라멜·알자리온을 동시에 무효. 함정과 같은 종류로 버리면 혼·플레임 체인도 막는다. |
+| 피드라울리스＝하르모니아 (Fydraulis Harmonia) | 🟠 아픔 | 싱크로 5장 공개 기준. 드래곤테일 루키아스 (Dracotail Lukias) 서치나 드래곤테일 무루루 (Dracotail Mululu) 융합 발동에 그 몬스터를 파괴하면 소재가 사라져 첫 융합이 막힌다(유령토끼와 같은 결과 + 내 필드에 레벨 7 튜너). 2~3장 공개는 자신 특소, 4~5장은 싱크로 1장 묘지로까지라 막는 것이 없다. 드래곤테일 파이메나 (Dracotail Faimena)는 패 효과라 반응 대상이 아니다. 라후 전에 드래곤테일 알자리온 (Dracotail Arthalion)을 파괴하면 라후 소재 2장과 함께 묘지에서 돌아온다(bad). |
+| The Fallen & The Virtuous (The Fallen & The Virtuous) | 🟠 아픔 | 드래곤테일 파이메나 (Dracotail Faimena) 융합 발동에 체인해 필드의 드래곤테일 루키아스 (Dracotail Lukias)를 파괴하면 파이메나만 버려진 채 융합이 불발한다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다. 우리 턴에 드래곤테일 그라멜 (Dracotail Gulamel)을 파괴하면 2장 이상 동시에 묘지로 갈 때 되살아나므로 그때는 금지된 성관 (Forbidden Crown)이 낫다. |
+| 금지된 성관 (Forbidden Crown) | 🟠 아픔 | 상대 턴(세트 필요): 드래곤테일 루키아스 (Dracotail Lukias) 서치에 체인해 서치 무효 + 소재 불가. 우리 턴(패): 시작 직후 드래곤테일 그라멜 (Dracotail Gulamel)에 써서 그 턴 파괴를 끈다. 몬스터 효과로 체인할 수 없고 파괴가 아니라 소생도 없다. 후공 1턴의 상대 전개에는 못 쓴다. |
 | 증식의 G (Maxx "C") | 🟡 할만함 | 기본형은 소환 3회라 2장 정도. 낙인 혼합 루트(소환 8회 전후)에서는 strong. 첫 특소에 던진다. |
 | 마루챠미 후와로스 (Mulcharmy Fuwalos) | 🟡 할만함 | 덱·엑덱 특소만 세어 기본형 2장, 낙인형 최대 5장. 필드가 비어 있어야 함. |
 | 드롤 & 로크 버드 (Droll & Lock Bird) | 🟡 할만함 | 루키아스 서치 뒤에 쓰면 케투·2번째 서치를 막는다. 우르굴라 회수는 묘지→패라 못 막는다. |
@@ -27,11 +30,14 @@
 | 도미나스 퍼지 (Dominus Purge) | 🟡 할만함 | 루키아스·케투 서치 무효. |
 | 도미나스 스파크 (Dominus Spark) | 🟡 할만함 | 파이메나(패)·우르굴라(묘지)가 효과를 쓴 턴에 그라멜 등을 제외. |
 | PSY프레임기어 γ (PSY-Framegear Gamma) | 🟡 할만함 | 루키아스 서치나 파이메나 융합 무효. 필드에 몬스터가 없어야 함. |
+| 초융합 (Super Polymerization) | 🟡 할만함 | 드래곤테일 알자리온 (Dracotail Arthalion)+드래곤테일 그라멜 (Dracotail Gulamel)로 사크라멘툼 드라군 (Secreterion Dragon)·초월소환수 아이온 (Hyperinvoked Aeon)·마기스토스 코로조 (Magistus Chorozo). 체인 불가라 그라멜이 반응 못 한다. 낙인형에서는 상대의 하얀 용의 낙윤 (Fallen of the White Dragon)(알버스 취급)도 소재가 되어 알버스 융합(낙인룡 알비온 (Albion the Branded Dragon) 등)도 가능. 둘을 함께 보내면 바로는 안 살아나지만 이후 2장 동시 묘지행에 소생하므로 아이온의 제외가 가장 깔끔. 상대 턴은 세트 필요, 후공이면 우리 턴 패에서. |
+| 비스테드 드루이드브룸 (Bystial Druiswurm) | 🟡 할만함 | 기본형(`lukias`) 묘지에는 빛·어둠 몬스터가 없어 발동조차 못 한다(파이메나 물, 루키아스 땅, 우르굴라 화염). 낙인형의 하얀 용의 낙윤 (Fallen of the White Dragon)(어둠)·무루루형의 드래곤테일 무루루 (Dracotail Mululu)(어둠) 회수에 체인해 제외. 리스트 대부분이 낙인 혼합형이라 ok. |
 | 마루챠미 푸루리아 (Mulcharmy Purulia) | ⚪ 약함 | 패에서의 소환이 일반 소환 1회와 하얀 용 특소 정도라 드로우가 적다. |
 | 마루챠미 냐루스 (Mulcharmy Meowls) | ⚪ 약함 | 묘지 특소는 낙인형의 사크라멘툼 드라군·프리클 정도. 기본형에는 거의 없다. |
 | 말살의 지명자 (Crossout Designator) | ⚪ 약함 | 자기 덱에 있는 카드만 선언 가능. 내가 알버스 엔진을 쓴다면 낙인융합 (Branded Fusion)·하얀 용의 낙윤 (Fallen of the White Dragon) 선언으로 낙인형만 견제할 수 있다. |
 | 원시생명체 니비루 (Nibiru, the Primal Being) | ⚪ 약함 | 기본형은 소환 3회로 조건 미달. 낙인형은 파이메나 특소가 5번째라 그 뒤에 쓸 수 있다. |
 | 비스테드 마그나무트 (Bystial Magnamhut) | ⚪ 약함 | 묘지의 알비온을 엔드 페이즈 전에 제외하는 정도(낙인형). |
+| 싸이크론 (Mystical Space Typhoon) | ⚪ 약함 | 치울 마함은 세트된 드래곤테일 혼 (Dracotail Horn)·드래곤테일 플레임 (Dracotail Flame)(통상 함정) 정도의 1:1. 엔드 페이즈에 체인 대상이 없는 플레임을 노린다. 라후 드래곤테일 (Rahu Dracotail)은 세트되자마자 발동해 노릴 틈이 없다. |
 
 ## 혈자리 (우선순위 순)
 
@@ -47,34 +53,66 @@
    - 타이밍: 낙인융합 (Branded Fusion) 발동에 체인 (덱에서 소재 2장을 보냄)
    - 이유: 낙인 1장 초동은 여기서 전부 시작한다. 제한 1이라 두 번째가 없다.
    - 맞은 뒤 상대 루트: 낙인융합 발동 턴이라 엑덱은 융합만. 패의 다른 드래곤테일 초동이 있으면 기본형 라인으로 이어간다.
-4. 🟠 아픔 **무한포영** (Infinite Impermanence) → **드래곤테일 알자리온** (Dracotail Arthalion) — lukias 4단계
+4. 🟠 아픔 **금지된 성관** (Forbidden Crown) → **드래곤테일 루키아스** (Dracotail Lukias) — lukias 2단계
+   - 타이밍: 세트해 둔 금지된 성관을 드래곤테일 루키아스 (Dracotail Lukias)의 서치 효과 발동에 체인해 루키아스에 적용 (몬스터 효과로는 체인할 수 없다)
+   - 이유: 서치가 무효가 되고, 루키아스는 이번 턴 융합 소재로 쓸 수 없어 손의 다른 드래곤테일로 융합하더라도 루키아스를 쓰지 못한다. 루키아스의 세트 효과도 '융합 소재로 묘지에 갔을 때'라 함께 사라진다. 결과는 하루 우라라 (Ash Blossom & Joyous Spring)보다 크다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.
+   - 맞은 뒤 상대 루트: 손의 드래곤테일 무루루 (Dracotail Mululu)·라후 드래곤테일 (Rahu Dracotail)·케투 드래곤테일 (Ketu Dracotail)로 다시 시작한다. 루키아스는 필드에 남지만 소재로는 못 쓴다.
+5. 🟠 아픔 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **드래곤테일 루키아스** (Dracotail Lukias) — lukias 3단계
+   - 타이밍: 드래곤테일 파이메나 (Dracotail Faimena)가 패에서 자신을 버리고 융합 효과를 발동했을 때, 세트해 둔 The Fallen & The Virtuous로 필드의 드래곤테일 루키아스 (Dracotail Lukias)를 파괴
+   - 이유: 파이메나는 이미 코스트로 버려졌고 1턴 1번도 썼다. 처리 때 필드에 드래곤테일이 없어 '드래곤테일 + 패의 몬스터' 소재가 맞지 않아 융합이 불발하고, 루키아스는 소재가 아니라 파괴로 묘지에 가서 세트 효과도 없다. 루키아스 서치(2단계)에 맞추면 파이메나가 손에 그대로 남으므로 한 박자 늦춘 이 타이밍이 낫다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.
+   - 맞은 뒤 상대 루트: 손에 드래곤테일 몬스터 + 다른 몬스터가 있거나 라후 드래곤테일 (Rahu Dracotail)과 몬스터가 있으면 융합은 이어진다. `mululu` 라인이면 드래곤테일 무루루 (Dracotail Mululu)의 융합 발동(2단계)에 무루루를 파괴.
+6. 🟠 아픔 **무한포영** (Infinite Impermanence) → **드래곤테일 알자리온** (Dracotail Arthalion) — lukias 4단계
    - 타이밍: 드래곤테일 알자리온 (Dracotail Arthalion) 융합 소환 후 체인 1(회수) 위에 루키아스 ②가 쌓인 시점에 체인 3으로 알자리온 대상. 뵐러도 같은 타이밍에 가능
    - 이유: 파이메나가 패로 돌아오지 않는다. 라후 드래곤테일 (Rahu Dracotail)로 나오는 알자리온·그라멜은 둘 다 '패의 몬스터'가 소재로 필요해서, 손에 다른 몬스터가 없으면 라후가 헛발이 된다.
    - 맞은 뒤 상대 루트: 손에 몬스터(패트랩 포함)가 남아 있으면 그걸 소재로 라후 드래곤테일 (Rahu Dracotail) → 그라멜까지는 간다. 그때 드래곤테일 우르굴라 (Dracotail Urgula)의 묘지 효과로 묘지의 파이메나를 패로 되돌리면 상대 턴 융합도 남는다. 손에 다른 몬스터가 없을 때만 파이메나 상대 턴 융합까지 사라진다.
-5. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **드래곤테일 루키아스** (Dracotail Lukias) — lukias 2단계
+7. 🟠 아픔 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **드래곤테일 루키아스** (Dracotail Lukias) — lukias 2단계
+   - 타이밍: 드래곤테일 루키아스 (Dracotail Lukias)가 필드에서 서치 효과를 발동했을 때, 패의 하르모니아 + 엑스트라 덱의 싱크로 5장을 공개(6장)해 루키아스 파괴
+   - 이유: 서치는 처리되지만 필드에 드래곤테일이 없어져 드래곤테일 파이메나 (Dracotail Faimena)가 '드래곤테일 + 패의 몬스터'를 맞추지 못한다. 루키아스는 파괴로 묘지에 가 세트 효과도 없다. 유령토끼 (Ghost Ogre & Snow Rabbit)와 같은 결과에 내 필드에 레벨 7 튜너가 남고, 후공 1턴에도 쓸 수 있다. 싱크로를 5장 못 보이면(2~5장) 파괴가 없어 의미가 없다. 파이메나는 패에서 쓰는 효과라 하르모니아의 발동 조건이 아니다.
+   - 맞은 뒤 상대 루트: 손에 다른 드래곤테일 몬스터 + 몬스터, 또는 라후 드래곤테일 (Rahu Dracotail) + 몬스터가 있으면 융합은 이어진다. `mululu` 라인이면 드래곤테일 무루루 (Dracotail Mululu)의 융합 발동(2단계)에 같은 방법으로 무루루를 파괴.
+8. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **드래곤테일 루키아스** (Dracotail Lukias) — lukias 2단계
    - 타이밍: 드래곤테일 루키아스 (Dracotail Lukias)의 서치 효과 발동에 체인
    - 이유: 서치는 처리되지만 루키아스가 파괴되어 필드에 드래곤테일이 없다. 파이메나는 코스트로 버려지므로 '드래곤테일 + 패의 몬스터' 소재를 맞추지 못하고, 루키아스도 소재가 아니라 파괴로 묘지에 가서 세트 효과가 없다.
    - 맞은 뒤 상대 루트: 손에 드래곤테일 몬스터와 다른 몬스터가 함께 있을 때만 파이메나로 융합 가능.
-6. 🟠 아픔 **증식의 G** (Maxx "C") → **낙인융합** (Branded Fusion) — branded 1단계
+9. 🟠 아픔 **증식의 G** (Maxx "C") → **낙인융합** (Branded Fusion) — branded 1단계
    - 타이밍: 낙인 혼합 라인의 첫 특소(낙인융합 (Branded Fusion) 융합) 시점
    - 이유: 낙인 루트는 특소 8회 전후. 끝까지 가면 8장을 준다. 기본형(`lukias`)에는 2장뿐이라 증G는 낙인 엔진이 보일 때 아껴 둔다.
    - 맞은 뒤 상대 루트: 보통 알자리온·사크라멘툼 드라군까지만 만들고 멈춘다. 후와로스는 덱·엑덱 특소만 세어 최대 5장.
-7. 🟠 아픔 **저택 와라시** (Ghost Belle & Haunted Mansion) → **사크라멘툼 드라군** (Secreterion Dragon) — branded 8단계
+10. 🟠 아픔 **저택 와라시** (Ghost Belle & Haunted Mansion) → **사크라멘툼 드라군** (Secreterion Dragon) — branded 8단계
    - 타이밍: 사크라멘툼 드라군 (Secreterion Dragon)의 '묘지의 드래곤·마법사 중 하나 특소' 효과 발동에 체인
    - 이유: 프리클이 돌아오지 않아 파이메나 회수 → 라후 융합 흐름이 끊긴다. 이후 하얀 용의 낙윤 (Fallen of the White Dragon) 회수도 없다.
    - 맞은 뒤 상대 루트: 라후는 세트되어 있으니 손에 몬스터가 있으면 알자리온 1장은 더 나온다. 와라시는 프리클 ①이나 하얀 용의 낙윤 (Fallen of the White Dragon)의 에클레시아 특소에도 걸리지만 여기가 가장 앞쪽 분기점.
-8. 🟠 아픔 **무한포영** (Infinite Impermanence) → **드래곤테일 그라멜** (Dracotail Gulamel) — opp_turn 2단계
+11. 🟠 아픔 **무한포영** (Infinite Impermanence) → **드래곤테일 그라멜** (Dracotail Gulamel) — opp_turn 2단계
    - 타이밍: 우리 턴 메인 페이즈 1 시작 직후, 아무것도 깔기 전(필드가 비어 있을 때 패에서) 드래곤테일 그라멜 (Dracotail Gulamel)을 대상으로
    - 이유: 그라멜 파괴가 이 판면 견제의 축이다. 먼저 꺼 두면 파이메나 융합·혼·플레임이 전부 파괴 없이 처리된다. 무효는 턴 종료시까지라 이번 턴 내내 유효.
    - 맞은 뒤 상대 루트: 파이메나 융합 + 알자리온 바운스, 혼, 플레임은 그대로 남는다. 금지된 일적 (Forbidden Droplet)으로도 같은 목적.
-9. 🟡 할만함 **저택 와라시** (Ghost Belle & Haunted Mansion) → **드래곤테일 혼** (Dracotail Horn) — opp_turn 4단계
+12. 🟠 아픔 **금지된 성관** (Forbidden Crown) → **드래곤테일 그라멜** (Dracotail Gulamel) — opp_turn 2단계
+   - 타이밍: 우리 턴 메인 페이즈 1 시작 직후 패에서 금지된 성관을 드래곤테일 그라멜 (Dracotail Gulamel)에 적용
+   - 이유: 그 턴 그라멜의 파괴가 꺼진다. 몬스터 효과로 체인할 수 없어 그라멜이 반응하지 못하고, 파괴하는 것이 아니라서 '2장 이상 동시에 묘지로' 소생 걱정도 없다. 무한포영 (Infinite Impermanence)과 달리 우리 필드에 카드가 있어도 쓸 수 있다. 우리 턴이라 패에서 발동하면 되므로 후공에서도 쓴다.
+   - 맞은 뒤 상대 루트: 드래곤테일 파이메나 (Dracotail Faimena) 융합, 드래곤테일 혼 (Dracotail Horn)·드래곤테일 플레임 (Dracotail Flame)은 남는다. 그라멜은 파괴·효과 내성이 생기고 소재로도 못 쓰므로 이번 턴 다른 카드(초융합 등)로 치울 수는 없다.
+13. 🟡 할만함 **초융합** (Super Polymerization) → **드래곤테일 그라멜** (Dracotail Gulamel) — lukias 7단계
+   - 타이밍: 라후 드래곤테일 (Rahu Dracotail)로 드래곤테일 그라멜 (Dracotail Gulamel)이 나온 뒤 드래곤테일 우르굴라 (Dracotail Urgula)·드래곤테일 파이메나 (Dracotail Faimena)의 세트 유발에 체인해 세트해 둔 초융합 발동 (후공이면 우리 턴 메인 페이즈에 패에서)
+   - 이유: 초융합에는 아무것도 체인할 수 없어 그라멜도 반응하지 못한다. 드래곤테일 알자리온 (Dracotail Arthalion)(땅·드래곤)+드래곤테일 그라멜 (Dracotail Gulamel)(물·마법사)로 사크라멘툼 드라군 (Secreterion Dragon)(드래곤+마법사)·초월소환수 아이온 (Hyperinvoked Aeon)(속성이 다른 융합 2장)·마기스토스 코로조 (Magistus Chorozo)(융합+마법사)를 만들면 바운스·파괴 몸통이 함께 사라진다. 두 장이 같이 묘지로 가므로 그 자리에서는 소생하지 않는다. 늪지의 도로곤 (Mudragon of the Swamp)·공명의 날개 가루라 (Garura, Wings of Resonant Life)는 속성이 달라 안 된다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.
+   - 맞은 뒤 상대 루트: 그 뒤 몬스터 2장 이상이 동시에 묘지로 가면(파이메나 융합 소재, 우리 싱크로·링크 소재 등 어디서 왔든) 두 장 모두 묘지에서 나온다. 초월소환수 아이온 (Hyperinvoked Aeon)의 융합 소환 시 효과로 두 장을 제외하면 해결. 세트된 혼·플레임과 패의 파이메나는 남는다.
+14. 🟡 할만함 **비스테드 드루이드브룸** (Bystial Druiswurm) → **하얀 용의 낙윤** (Fallen of the White Dragon) — branded 11단계
+   - 타이밍: 드래곤테일 알자리온 (Dracotail Arthalion)이 묘지의 하얀 용의 낙윤 (Fallen of the White Dragon)을 대상으로 회수 효과를 발동했을 때 체인해, 드루이드브룸으로 그 하얀 용을 제외하며 패에서 특소 (상대 필드에 몬스터가 있어 속공)
+   - 이유: 하얀 용이 돌아오지 않으면 순백의 성녀 에클레시아 (Incredible Ecclesia, the Virtuous) 특소도, 하얀 용 코스트로 묘지에 갈 낙인룡 알비온 (Albion the Branded Dragon)의 엔드 페이즈 The Fallen & The Virtuous (The Fallen & The Virtuous) 세트도 없다. 후공 1턴에 쓸 수 있다.
+   - 맞은 뒤 상대 루트: 회수 이외의 세트 2장은 처리된다. 기본형 `lukias`는 묘지에 빛·어둠 몬스터가 없어 발동할 수 없다. `mululu` 라인은 알자리온의 무루루 회수(3단계)에 체인해 드래곤테일 무루루 (Dracotail Mululu)(어둠)를 제외하면 라후 드래곤테일 (Rahu Dracotail)의 '패의 몬스터' 소재가 비기 쉽다. 남은 드루이드브룸이 필드에서 묘지로 가면 특소된 상대 몬스터 1장을 묘지로 보낸다.
+15. 🟡 할만함 **저택 와라시** (Ghost Belle & Haunted Mansion) → **드래곤테일 혼** (Dracotail Horn) — opp_turn 4단계
    - 타이밍: 드래곤테일 혼 (Dracotail Horn)·드래곤테일 플레임 (Dracotail Flame)·드래곤테일 스팅 (Dracotail Sting) 발동에 체인 (묘지 카드를 덱으로 되돌리는 효과를 포함해 발동 자체가 무효)
    - 이유: 바운스·마법 무효를 통째로 막는다. 그라멜은 드래곤테일 발동에 상대가 아무것도 체인하지 않았을 때만 직접 체인할 수 있으므로, 와라시를 바로 체인하면 그 발동에는 그라멜 파괴도 붙지 않는다.
    - 맞은 뒤 상대 루트: 다른 함정과 파이메나는 남는다. 선공 턴에 드래곤테일 우르굴라 (Dracotail Urgula) 묘지 회수에 와라시를 써서 파이메나를 미리 빼는 선택도 있다.
-10. ⛔ 비추 **하루 우라라** (Ash Blossom & Joyous Spring) → **드래곤테일 무루루** (Dracotail Mululu) — mululu 2단계
+16. ⛔ 비추 **하루 우라라** (Ash Blossom & Joyous Spring) → **드래곤테일 무루루** (Dracotail Mululu) — mululu 2단계
    - 타이밍: 무루루·파이메나의 융합 효과
    - 이유: 패·필드 몬스터만 소재로 쓰는 융합이라 덱을 건드리지 않아 우라라가 발동 조건을 못 맞춘다. 파이메나는 패에서 쓰는 효과라 무한포영도 안 된다.
    - 맞은 뒤 상대 루트: 우라라는 루키아스 서치·케투 서치·라후·낙인융합에 남겨 둔다.
+17. ⛔ 비추 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **드래곤테일 알자리온** (Dracotail Arthalion) — lukias 4단계
+   - 타이밍: 라후 드래곤테일 (Rahu Dracotail) 전에 드래곤테일 알자리온 (Dracotail Arthalion)의 회수 효과에 하르모니아(또는 The Fallen & The Virtuous)로 알자리온 파괴
+   - 이유: 회수는 그대로 처리되고, 알자리온이 혼자 묘지에 간 뒤 라후가 소재 2장을 동시에 묘지로 보내면 그 자리에서 알자리온이 다시 특소된다(필드를 떠나면 제외). 드래곤테일 그라멜 (Dracotail Gulamel)도 같은 성질이라, 파괴형 견제를 드래곤테일 융합 몬스터에 일찍 쓰면 손해다.
+   - 맞은 뒤 상대 루트: 파괴형 견제는 소재가 될 루키아스·무루루에, 또는 마지막 융합이 끝난 뒤에 쓴다.
+18. ⛔ 비추 **싸이크론** (Mystical Space Typhoon) → **라후 드래곤테일** (Rahu Dracotail) — lukias 6단계
+   - 타이밍: 세트된 라후 드래곤테일 (Rahu Dracotail)을 싸이크론으로 노리기
+   - 이유: 루키아스 ②로 세트된 라후는 체인 처리 직후 턴 플레이어가 바로 발동하므로 세트 상태에서 칠 틈이 없고, 발동에 체인해 파괴해도 통상 마법의 효과는 그대로 처리된다.
+   - 맞은 뒤 상대 루트: 싸이크론은 상대 엔드 페이즈에 세트된 드래곤테일 플레임 (Dracotail Flame)에(앞면 마법이 없으면 체인해서 발동할 수 없다). 드래곤테일 혼 (Dracotail Horn)은 공격 표시 몬스터를 대상으로 체인할 수 있다.
 
 ## 핵심 카드
 

@@ -218,7 +218,8 @@
           "card": "Artmage Non-Finito",
           "action_ko": "특소 유발: 덱에서 아르토메기아 마법·함정 세트",
           "class": [
-            "monster_effect_field"
+            "monster_effect_field",
+            "place_from_deck"
           ],
           "result_ko": "[[Artmage Impasto -Recapture-]] 세트(이 턴에도 발동 가능)"
         },
@@ -363,6 +364,53 @@
       "fallback_ko": "그라플레어의 '덱에서 세트'는 패에 넣기가 아니라서 막히지 않는다. 이미 패에 있는 아르토메기아 몬스터는 특소된다."
     },
     {
+      "handtrap": "harmonia",
+      "severity": "strong",
+      "line": "main",
+      "step": 3,
+      "target_card": "Medius the Pure",
+      "timing_ko": "[[Artmage Power Patron]]가 필드에서 퀵 융합을 발동했을 때, 패의 하르모니아 + 싱크로 5장 공개로 필드의 [[Medius the Pure]] 파괴",
+      "why_ko": "처리 때 메디우스가 없어 [[Artmage Diactorus]](메디우스 + 아르토메기아) 소재가 맞지 않아 융합이 불발한다. 감옥신수의 융합은 1턴 1번이라 다시 못 하고, 감옥신수는 필드에 남아 묘지로 가지 않으므로 필드 마법 서치도 없다. 감옥신수를 파괴하면 '패·필드에서 묘지로 보내졌을 때' 서치가 일어나니 반드시 메디우스를 고를 것. 후공 1턴에 쓸 수 있다.",
+      "fallback_ko": "메디우스는 묘지 효과(패·필드의 몬스터 1장을 덱으로 되돌리고 자신 특소)로 돌아오지만 융합 기회는 지났다. `nervedo` 라인에서 [[Artmage Impasto -Recapture-]]가 세트된 뒤라면 하르모니아가 무효·파괴된다."
+    },
+    {
+      "handtrap": "mst",
+      "severity": "strong",
+      "line": "main",
+      "step": 5,
+      "target_card": "Artmage Academic Arcane Arts Acropolis",
+      "timing_ko": "[[Artmage Academic Arcane Arts Acropolis]]의 카드 발동에 체인해 세트해 둔 싸이크론으로 파괴 (`terminus` 라인은 3단계)",
+      "why_ko": "필드 마법의 카드 발동에는 처리할 효과가 없어, 체인으로 파괴되면 필드에 남지 못하고 그라플레어·리테라·핀멜 서치와 메디우스 추가 일반 소환이 전부 사라진다. 이 시점 필드는 [[Artmage Diactorus]] 1종족뿐이라 무효당하지 않는다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+      "fallback_ko": "[[Artmage Vandalism -Assault-]]가 앞면이면 대신 그 카드를 묘지로 보내 필드 마법을 지킨다. 패의 [[Artmage Varnish -Alteration-]]는 덱·묘지의 필드 마법을 다시 놓는다.",
+      "rulings": [
+        "qa-24237",
+        "qa-111"
+      ]
+    },
+    {
+      "handtrap": "crown",
+      "severity": "strong",
+      "line": "main",
+      "step": 2,
+      "target_card": "Medius the Pure",
+      "timing_ko": "[[Medius the Pure]]의 소환 성공 유발 발동에 체인해 세트해 둔 금지된 성관을 메디우스에 적용",
+      "why_ko": "감옥신 특소가 무효가 되고, 메디우스는 이번 턴 융합 소재가 될 수 없어 [[Artmage Diactorus]]를 못 만든다. 몬스터 효과로 체인할 수 없어 [[Artmage Diactorus]]·펜듈럼 존의 [[Nervedo the Shadebeast Power Patron]]가 반응하지 못한다. 종족 3종류가 갖춰진 뒤에도 디아크토러스에 막히지 않는 마법 견제다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+      "fallback_ko": "[[Prohibited Power Patron Portal - Terminus]]·2번째 메디우스로 재시작. 감옥신수가 이미 나왔다면 [[Artmage Power Patron]]의 융합 발동에 감옥신수에 써도 융합 무효 + 묘지로 가지 않는다."
+    },
+    {
+      "handtrap": "fallen_virtuous",
+      "severity": "strong",
+      "line": "main",
+      "step": 3,
+      "target_card": "Medius the Pure",
+      "timing_ko": "[[Artmage Power Patron]]의 퀵 융합 발동에 체인해 세트해 둔 The Fallen & The Virtuous로 필드의 [[Medius the Pure]] 파괴",
+      "why_ko": "하르모니아와 같은 결과(소재 부족으로 융합 불발, 감옥신수가 묘지로 가지 않아 필드 마법 서치 없음). 디아크토러스가 나오기 전이라 무효당하지 않는다. 감옥신수를 깨면 서치가 일어나니 메디우스를 고를 것. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+      "fallback_ko": "늦었다면 필드 마법의 카드 발동에 체인해 [[Artmage Academic Arcane Arts Acropolis]]를 파괴(싸이크론과 같은 효과). 종족 3종류가 된 뒤에는 필드에서 발동한 카드라 [[Artmage Diactorus]]에 무효·파괴된다.",
+      "rulings": [
+        "qa-12625"
+      ]
+    },
+    {
       "handtrap": "maxxc",
       "severity": "strong",
       "line": "main",
@@ -403,6 +451,19 @@
       "fallback_ko": "필드 마법 효과 자체는 1턴 1번 제한이 없어 코스트가 남으면 다시 서치한다. 필드 마법 서치보다 [[Artmage Power Patron]] 서치에 쓰는 편이 확실."
     },
     {
+      "handtrap": "super_poly",
+      "severity": "strong",
+      "line": "main",
+      "step": 11,
+      "target_card": "Artmage Finmel",
+      "timing_ko": "[[Artmage Finmel]]이 특소된 뒤(드로우 유발에 체인하거나 엔드 페이즈에) 세트해 둔 초융합. 후공이면 우리 턴 메인 페이즈에 패에서",
+      "why_ko": "초융합에는 체인할 수 없어 [[Artmage Diactorus]]가 무효하지 못하고, 대상을 잡지 않아 핀멜의 대상 내성도 상관없다. 디아크토러스(천사)+핀멜(전사)처럼 2종족을 빼면 남은 종족이 2개라 디아크토러스·핀멜·그라플레어의 '3종족 이상' 효과가 꺼진다. 빛 2장으로 [[Mudragon of the Swamp]], 그라플레어+리테라로 [[Secreterion Dragon]], 디아크토러스+리테라로 [[Magistus Chorozo]]. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+      "fallback_ko": "디아크토러스는 파괴가 아니라 소재로 묘지에 가므로 ③(메디우스 특소)이 없다. 우리 턴이면 [[Artmage Litera]]의 퀵 특소나 [[Artmage Power Patron]]의 퀵 융합([[Nerva the Power Patron of Creation]])으로 종족 수를 복구할 수 있다.",
+      "rulings": [
+        "qa-10824"
+      ]
+    },
+    {
       "handtrap": "ogre",
       "severity": "ok",
       "line": "main",
@@ -423,6 +484,16 @@
       "fallback_ko": "nervedo 라인처럼 임파스토가 세트돼 있으면 니비루가 무효된다. 묘지의 메디우스·리테라 회수로 일부 재전개 가능."
     },
     {
+      "handtrap": "mst",
+      "severity": "ok",
+      "line": "nervedo",
+      "step": 4,
+      "target_card": "Artmage Impasto -Recapture-",
+      "timing_ko": "[[Artmage Non-Finito]]가 [[Artmage Impasto -Recapture-]]를 세트한 뒤, 상대의 다음 효과 발동에 체인해 그 세트 카드에 싸이크론",
+      "why_ko": "임파스토는 상대가 몬스터 효과를 발동했을 때만 쓰는 카운터 함정이라 싸이크론에 체인할 수 없다. 지워 두면 이후 내 몬스터 효과 견제(우라라·증G·하르모니아·드루이드브룸 등)가 임파스토에 막히지 않는다.",
+      "fallback_ko": "아르토메기아 몬스터가 있으면 임파스토는 세트한 턴에도 발동할 수 있으니, 몬스터 효과 패트랩보다 싸이크론을 먼저 쓴다."
+    },
+    {
       "handtrap": "fuwalos",
       "severity": "weak",
       "line": "main",
@@ -441,6 +512,19 @@
       "timing_ko": "상대가 움직이기 전 선제 사용",
       "why_ko": "자기 메인 덱에 있는 이름만 선언할 수 있어 아르토메기아 카드는 대상이 안 된다.",
       "fallback_ko": "내 덱이 엘펜노츠·DoomZ 등 [[Medius the Pure]]를 쓰는 덱이면 메디우스를 선언해 상대 메디우스를 그 턴 내내 무효로 할 수 있다. 그때만 유효."
+    },
+    {
+      "handtrap": "fallen_virtuous",
+      "severity": "bad",
+      "line": "main",
+      "step": 11,
+      "target_card": "Artmage Diactorus",
+      "timing_ko": "판면이 완성된 뒤 The Fallen & The Virtuous·하르모니아로 [[Artmage Diactorus]] 파괴",
+      "why_ko": "종족 3종류가 있으면 필드에서 발동한 The Fallen & The Virtuous는 디아크토러스에 무효·파괴된다. 하르모니아(패에서 발동)로 파괴가 통해도 융합 소환된 디아크토러스가 파괴되면 패·덱·제외 상태의 [[Medius the Pure]]가 특소된다.",
+      "fallback_ko": "완성 판면에는 반응할 수 없는 [[Super Polymerization]]·[[Forbidden Crown]].",
+      "rulings": [
+        "qa-12625"
+      ]
     }
   ],
   "handtrap_summary": {
@@ -523,6 +607,33 @@
     "ttt": {
       "rating": "ok",
       "note_ko": "후공 내 턴에 상대가 리테라·디아크토러스 등 몬스터 효과를 쓰면 발동 가능. 선공 방해용은 아님"
+    },
+    "harmonia": {
+      "rating": "strong",
+      "note_ko": "[[Artmage Power Patron]]의 퀵 융합 발동에 필드의 [[Medius the Pure]]를 파괴하면 융합 불발 + 필드 마법 서치 없음. 감옥신수를 파괴하면 서치가 일어나니 금물. `nervedo`에서 [[Artmage Impasto -Recapture-]]가 세트된 뒤에는 무효·파괴된다. 싱크로 5장 공개 기준, 후공 1턴에 쓸 수 있다."
+    },
+    "fallen_virtuous": {
+      "rating": "strong",
+      "note_ko": "하르모니아와 같은 타점(감옥신수 융합 발동에 메디우스 파괴) 또는 필드 마법 발동에 체인해 파괴. 종족 3종류 뒤에는 [[Artmage Diactorus]]에 무효·파괴되고, 디아크토러스를 깨면 메디우스가 나온다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다."
+    },
+    "super_poly": {
+      "rating": "strong",
+      "note_ko": "완성 판면(모두 빛·다른 종족)에서 2장을 빼 종족 3종류 조건을 무너뜨린다. 체인 불가·비대상이라 디아크토러스·핀멜이 못 막는다. [[Mudragon of the Swamp]]·[[Secreterion Dragon]]·[[Magistus Chorozo]], 아르토메기아 사용자는 메디우스+아르토메기아로 [[Artmage Diactorus]]. 상대 턴은 세트 필요, 후공이면 우리 턴 패에서."
+    },
+    "crown": {
+      "rating": "strong",
+      "note_ko": "[[Medius the Pure]] 유발에 체인하면 특소 무효 + 소재 불가. 몬스터 효과로 체인할 수 없어 [[Artmage Diactorus]]·네르베도에 막히지 않는다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다."
+    },
+    "druiswurm": {
+      "rating": "weak",
+      "note_ko": "묘지의 빛·어둠은 대개 [[Medius the Pure]](어둠)뿐이고 [[Artmage Power Patron]]는 땅이라 대상 불가. 메디우스를 지워도 [[Artmage Diactorus]] ③이 제외 상태의 메디우스도 꺼낸다. 패에서 쓰는 몬스터 효과라 [[Artmage Impasto -Recapture-]]에 막힌다. 남은 몸통의 ②는 파괴 내성 [[Nerva the Power Patron of Creation]]도 묘지로 보낼 수 있어 우리 턴 돌파용."
+    },
+    "mst": {
+      "rating": "strong",
+      "note_ko": "필드 마법 [[Artmage Academic Arcane Arts Acropolis]]의 카드 발동에 체인해 파괴하면 반복 서치가 전부 사라진다(이 시점 1종족이라 디아크토러스 무효 없음). 세트된 [[Artmage Impasto -Recapture-]]도 체인 없이 깬다. [[Artmage Vandalism -Assault-]]가 앞면이면 대신 묘지로 보내 지킨다.",
+      "rulings": [
+        "qa-24237"
+      ]
     }
   },
   "notes_ko": [
