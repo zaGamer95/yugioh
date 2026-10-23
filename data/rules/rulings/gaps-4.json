@@ -1,0 +1,37 @@
+{
+ "sources": {
+  "konami-db-faq": {
+   "title": "遊戯王ニューロン（オフィシャルカードゲーム カードデータベース）カードに関連するQ&A・補足情報",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rules": [],
+ "rulings": [
+  {
+   "id": "supp-22586",
+   "fid": null,
+   "cid": 22586,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22586&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Dominus Spark"
+   ],
+   "handtraps": [
+    "spark"
+   ],
+   "themes": [
+    "invoked",
+    "magistus",
+    "mitsurugi"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Dominus Spark]]를 패에서 발동할 수 있는 '상대가 패·묘지의 몬스터 효과를 발동한 턴'은 언제부터인가? 그 발동에 바로 체인할 수 있나?",
+   "answer_ko": "상대가 패·묘지의 몬스터 효과를 발동하면 그 체인 위에서 바로 패에서 발동할 수 있다. 그 발동이 무효가 되지 않았다면 그 턴 동안 언제든 패에서 발동할 수 있다. 이 조건은 효과가 아니다. 상대 패가 0장이거나 상대가 특소할 수 없어도 발동할 수 있고, 패에서 발동했다면 제외·특소 성공 여부와 상관없이 처리 후부터 땅·물·화염·바람 몬스터 효과를 발동할 수 없다.",
+   "quote_ja": "相手が手札・墓地のモンスターの効果を発動した場合、そのチェーン上でこの方法で手札から発動できます。また、相手が手札・墓地のモンスターの効果を発動し、その発動が無効にならなかった場合、そのターン中にこの方法で発動できます。",
+   "impact_ko": "상대의 첫 패 효과(지냐·크로울리·알레이스터 버리기 등)나 묘지 효과에 그대로 체인해 필드의 핵심 몬스터를 제외할 수 있다. 상대가 그 턴 아직 패·묘지 몬스터 효과를 쓰지 않았다면 패에서 쓸 수 없다."
+  }
+ ]
+}

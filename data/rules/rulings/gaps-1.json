@@ -1,0 +1,203 @@
+{
+ "sources": {
+  "konami-db-faq": {
+   "title": "遊戯王ニューロン（オフィシャルカードゲーム カードデータベース）カードに関連するQ&A・補足情報",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rulings": [
+  {
+   "id": "supp-20257",
+   "fid": null,
+   "cid": 20257,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20257&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Dominus Purge"
+   ],
+   "handtraps": [
+    "purge"
+   ],
+   "themes": [
+    "clown-crew",
+    "elfnote",
+    "kewl-tune"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Dominus Purge]]는 언제 패에서 발동할 수 있고, 무엇을 무효로 하나?",
+   "answer_ko": "상대 필드에 카드가 있으면 패에서 마함 존에 앞면으로 놓고 발동할 수 있다(내 턴·상대 턴 모두). '덱에서 패에 넣는 효과'를 포함한 효과에 직접 체인해서만 발동하며, 직전 체인 블록 하나의 처리 전체를 무효로 한다(같은 블록 안의 다른 처리도 적용되지 않음). 패에서 발동했다면 처리 이후 이 듀얼 동안 어둠·물·화염 몬스터 효과를 발동할 수 없다.",
+   "quote_ja": "デッキからカードを手札に加える効果を含む、魔法・罠・モンスターの効果に、直接チェーンして発動できます。",
+   "impact_ko": "상대 필드가 비어 있는 첫 서치(패에서 공개하는 [[Clown Crew Flair]] 등)에는 패에서 쓸 수 없다. 마법을 발동하면 그 카드가 필드에 있으므로 [[Clown Crew Rehearsal]]·[[Prohibited Power Patron Portal - Terminus]] 발동에는 쓸 수 있다. 직접 체인이라 다른 유발이 위에 쌓인 서치에는 닿지 않는다."
+  },
+  {
+   "id": "supp-8933",
+   "fid": null,
+   "cid": 8933,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=8933&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Effect Veiler"
+   ],
+   "handtraps": [
+    "veiler"
+   ],
+   "themes": [
+    "clown-crew",
+    "elfnote",
+    "kewl-tune",
+    "artmage"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Effect Veiler]]는 어떻게 처리되고, 대상 몬스터가 이미 발동한 효과는 어떻게 되나?",
+   "answer_ko": "패에서 발동하는 유발즉시 효과다. 처리 때 대상이 상대 몬스터 존에 앞면으로 있으면 그 몬스터의 효과가 무효가 된다(없으면 아무것도 안 함). 이 효과가 적용된 몬스터가 자신의 효과 코스트나 체인한 효과의 코스트·처리로 몬스터 존을 떠나도, 그 효과는 무효가 되어 처리되지 않는다.",
+   "quote_ja": "処理時に、対象のモンスターが相手のモンスターゾーンに表側表示で存在する場合、そのモンスターは効果が無効化された状態になります。",
+   "impact_ko": "대상을 잡는 무효라 직접 체인할 필요가 없다. 몬스터 존에서 발동한 효과가 체인 아래에 있고 다른 유발이 위에 쌓여 있어도, 체인 맨 끝에 뵐러를 놓아 그 몬스터를 고르면 그 효과는 무효로 처리된다(예: [[Clown Crew Biancaviso]] 드로우 유발, [[Kewl Tune Track Maker]] 서치 유발). 상대가 체인해서 그 몬스터를 코스트로 필드에서 치우면(엘펜노츠 레기나 등) 처리 때 대상이 없어 무효가 적용되지 않는다."
+  },
+  {
+   "id": "supp-20500",
+   "fid": null,
+   "cid": 20500,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20500&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Mulcharmy Fuwalos"
+   ],
+   "handtraps": [
+    "fuwalos"
+   ],
+   "themes": [
+    "clown-crew"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Mulcharmy Fuwalos]]는 상대가 한 번에 여러 장 특소하면 몇 장 드로우하나?",
+   "answer_ko": "특소된 몬스터 수가 아니라 특소한 횟수로 센다. 동시에 여러 장 특소하면 1장만 드로우한다. 드로우할 때 체인 블록은 만들어지지 않는다. 같은 턴 2장째 후와로스도 발동할 수 있고, 그러면 1번마다 2장씩 드로우한다.",
+   "quote_ja": "特殊召喚されたモンスターの数ではなく、相手が行った特殊召喚の回数に応じて適用されます。",
+   "impact_ko": "[[Clown Crew Malabarisme]]처럼 2장을 동시에 꺼내는 효과는 1장으로 센다."
+  },
+  {
+   "id": "supp-22586",
+   "fid": null,
+   "cid": 22586,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22586&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Dominus Spark"
+   ],
+   "handtraps": [
+    "spark"
+   ],
+   "themes": [
+    "clown-crew",
+    "elfnote",
+    "kewl-tune",
+    "artmage"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Dominus Spark]]는 언제 패에서 발동할 수 있고 어떻게 처리되나?",
+   "answer_ko": "상대가 그 턴에 패·묘지의 몬스터 효과를 발동했다면 패에서 마함 존에 앞면으로 놓고 발동할 수 있다. 상대가 패·묘지 몬스터 효과를 발동한 그 체인 위에서도 쓸 수 있고, 그 발동이 무효되지 않았다면 그 턴 동안 언제든 쓸 수 있다. 처리 때 대상을 제외하고, 내 묘지에 함정이 없으면 상대는 패에서 몬스터 1장을 특소할 수 있다(손패가 0장이거나 특소할 수 없어도 발동은 가능). 패에서 발동했다면 이 듀얼 동안 땅·물·화염·바람 몬스터 효과를 발동할 수 없다.",
+   "quote_ja": "相手が手札・墓地のモンスターの効果を発動した場合、そのチェーン上でこの方法で手札から発動できます。",
+   "impact_ko": "상대의 첫 묘지 유발(서치 등)에 체인해 바로 필드의 핵심 몬스터를 제외할 수 있다. 상대 손패의 몬스터가 대신 나올 수 있다는 점은 감안한다."
+  },
+  {
+   "id": "supp-15299",
+   "fid": null,
+   "cid": 15299,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=15299&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Forbidden Droplet"
+   ],
+   "handtraps": [
+    "droplet"
+   ],
+   "themes": [
+    "clown-crew",
+    "artmage"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Forbidden Droplet]]은 어떻게 처리되나? 이미 발동한 효과는?",
+   "answer_ko": "코스트로 패·필드의 다른 카드를 원하는 수(적용할 수 있는 상대 몬스터 수까지)만큼 묘지로 보낸다. 처리 때 상대 효과 몬스터가 보낸 수보다 적으면 아무것도 하지 않는다. 적용된 몬스터가 자신 효과의 코스트나 체인한 효과로 몬스터 존을 떠나도 그 효과는 무효가 되어 처리되지 않는다. 몬스터 존을 떠나거나 뒷면이 되면 적용이 끝난다.",
+   "quote_ja": "この効果が適用されたモンスターが、自身の効果を発動する際のコストとしてモンスターゾーンを離れた場合や、チェーンして発動した効果のコストや処理によってモンスターゾーンを離れた場合、無効になりますので、その処理は行われません。",
+   "impact_ko": "뵐러처럼 체인 끝에서 써도 이미 발동된 필드 몬스터 효과를 무효로 한다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해야 한다."
+  },
+  {
+   "id": "supp-15022",
+   "fid": null,
+   "cid": 15022,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=15022&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Ghost Mourner & Moonlit Chill"
+   ],
+   "handtraps": [
+    "mourner"
+   ],
+   "themes": [
+    "elfnote",
+    "artmage"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Ghost Mourner & Moonlit Chill]]의 효과는 어떤 종류이고 어떻게 처리되나?",
+   "answer_ko": "패에서 발동하는 유발 효과다(데미지 스텝 불가). 코스트로 이 카드를 버린다. 처리 때 대상이 몬스터 존에 앞면으로 없으면 아무것도 하지 않는다. 적용된 몬스터가 자신 효과의 코스트 등으로 몬스터 존을 떠나도 그 효과는 무효가 된다.",
+   "quote_ja": "手札で発動できる誘発効果です。",
+   "impact_ko": "유발 효과라 특소 직후 바로 발동한다. 패에서 레벨 6이 규칙으로 특소된 [[Elfnote Lucina]]처럼 기동 효과로 서치하는 몬스터는 서치 전에 무효가 된다. 상대 턴에는 상대의 소환 유발이 체인 1, 사요 시구레가 체인 2라 먼저 처리되고([[Artmage Non-Finito]]의 세트 유발이 무효), 내 턴에는 내 유발이 체인 1이라 상대 유발이 먼저 처리된다."
+  },
+  {
+   "id": "supp-20764",
+   "fid": null,
+   "cid": 20764,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20764&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Mulcharmy Meowls"
+   ],
+   "handtraps": [
+    "meowls"
+   ],
+   "themes": [
+    "elfnote"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Mulcharmy Meowls]]는 한 번에 여러 장 소생하면 몇 장 드로우하나?",
+   "answer_ko": "특소한 횟수로 센다. 묘지·제외 상태에서 동시에 여러 장 특소하면 1장만 드로우한다. 드로우 때 체인 블록은 만들어지지 않는다.",
+   "quote_ja": "特殊召喚されたモンスターの数ではなく、相手が行った特殊召喚の回数に応じて適用されます。",
+   "impact_ko": "[[Elfnote June Pride]]처럼 패·덱·묘지에서 동시에 꺼내는 효과는 1장으로 센다."
+  },
+  {
+   "id": "supp-21956",
+   "fid": null,
+   "cid": 21956,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21956&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Kewl Tune Cue",
+    "Kewl Tune Track Maker"
+   ],
+   "handtraps": [
+    "veiler",
+    "imperm",
+    "impulse",
+    "belle",
+    "ash"
+   ],
+   "themes": [
+    "kewl-tune"
+   ],
+   "topic": "summon",
+   "question_ko": "킬러튠 몬스터의 '필드의 이 카드를 싱크로 소재로 할 때 패의 튜너 1장도 소재로 할 수 있다'는 효과가 무효되면 못 쓰나?",
+   "answer_ko": "효과로 취급하지 않는다. 효과가 무효된 상태여도 필드의 그 카드를 소재로 하면 패의 튜너 1장도 소재로 할 수 있다. [[Kewl Tune Cue]]의 ①(일반 소환 유발)은 몬스터 존에서 발동하는 유발 효과이고, 발동·처리가 무효되지 않았다면 '이 턴 튜너만 특소 가능' 제약이 걸린다.",
+   "quote_ja": "効果として扱いません。（効果が無効化されている状況でも、フィールドのこのカードを素材としてS召喚する場合、手札のチューナー１体もS素材にできます。）",
+   "impact_ko": "큐·레코에 뵐러·포영을 써도 패 튜너 싱크로([[Kewl Tune Track Maker]])는 막지 못한다. 큐를 필드에서 없애는 감마(발동 무효+파괴)가 더 확실하다. [[Kewl Tune Track Maker]]의 보충 정보도 같다."
+  }
+ ]
+}
