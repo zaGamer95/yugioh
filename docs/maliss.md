@@ -19,6 +19,8 @@
 | 증식의 G (Maxx "C") | 🟠 아픔 | 특소 횟수가 매우 많음. 첫 White Rabbit 특소 때 던지면 보통 WHITE BINDER 근처에서 멈춤 |
 | 마루챠미 냐루스 (Mulcharmy Meowls) | 🟠 아픔 | 제외 상태에서 특소가 주력이라 조건이 잘 맞음 |
 | 마루챠미 후와로스 (Mulcharmy Fuwalos) | 🟠 아픔 | TB-11·링크만 셈. 그래도 4~6드로우 |
+| 사요 시구레 (Ghost Mourner & Moonlit Chill) | 🟠 아픔 | 제외 상태에서 특소된 M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)에 써서 함정 세트를 무효(포영과 같은 결과). 놓쳤으면 링크 소환된 M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)에 써서 묘지 제외·함정 세트를 둘 다 막는다 |
+| 원시생명체 니비루 (Nibiru, the Primal Being) | 🟠 아픔 | 5번째 소환(스플래시 메이지 (Splash Mage)) 이후 가능. 백업＠이그니스터 (Backup @Ignister) 서치에 체인하면 위키드·Backup까지 전부 릴리스해 위저드＠이그니스터 (Wizard @Ignister)도 막힌다. 릴리스는 묘지행이라 제외 부활을 주지 않음. 어코드 토커＠이그니스터 (Allied Code Talker @Ignister)가 서기 전에. M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06)은 다음 턴부터 남는다 |
 | 피드라울리스＝하르모니아 (Fydraulis Harmonia) | 🟠 아픔 | 아직 '제외되면 특소'를 쓰지 않은 M∀LICE를 파괴(묘지행이라 부활 안 함). Dormouse 덱 제외 발동 때 Dormouse, White Rabbit 초동이면 일반 소환된 White Rabbit을 파괴해 M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11)의 코스트(앞면 M∀LICE)를 없앤다. 싱크로 5장 공개 기준이고, 2~3장이면 자신 특소뿐이라 방해가 아님 |
 | The Fallen & The Virtuous (The Fallen & The Virtuous) | 🟠 아픔 | 하르모니아와 같은 지점(Dormouse·White Rabbit 파괴). 파괴는 제외가 아니라 M∀LICE 부활을 주지 않는다. 사이버스 위키드 (Cyberse Wicckid)·Dormouse가 가리키는 링크는 파괴 내성이고 어코드 토커＠이그니스터 (Allied Code Talker @Ignister)가 서면 무효당하니 초반에. 속공 마법이라 미리 세트해 둬야 함 |
 | 초융합 (Super Polymerization) | 🟠 아픔 | Dormouse + White Rabbit(어둠 사이버스, 이름이 다름)으로 공명의 날개 가루라 (Garura, Wings of Resonant Life). 소재는 묘지로 가서 부활하지 않고, 필드가 비면 TB-11을 발동할 수 없다. 엔드 보드의 코드 토커 + HEARTS OF CRYPTER도 공명의 날개 가루라 (Garura, Wings of Resonant Life)로 치울 수 있음. 미리 세트해 둬야 함 |
@@ -27,8 +29,6 @@
 | 도미나스 퍼지 (Dominus Purge) | 🟡 할만함 | 사이버스 위키드 (Cyberse Wicckid)·백업＠이그니스터 (Backup @Ignister) 서치에(우라라와 같은 지점). Dormouse 제외·White Rabbit 세트 같은 첫 동작에는 해당 없음. 패에서 쓰면 어둠·물·화염 효과 봉인 |
 | 드롤 & 로크 버드 (Droll & Lock Bird) | 🟡 할만함 | 첫 서치(위키드) 뒤에. 제외 상태에서 패로 넣는 March Hare는 못 막음 |
 | 저택 와라시 (Ghost Belle & Haunted Mansion) | 🟡 할만함 | WHITE BINDER의 묘지 제외, 스플래시 메이지 (Splash Mage)·위저드＠이그니스터 (Wizard @Ignister)의 묘지 소생에. 제외 상태 특소에는 해당 없음 |
-| 사요 시구레 (Ghost Mourner & Moonlit Chill) | 🟡 할만함 | 제외 상태에서 특소된 M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)에 써서 함정 세트를 무효(포영과 같은 결과). 놓쳤으면 링크 소환된 M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)에 써서 묘지 제외·함정 세트를 둘 다 막는다 |
-| 원시생명체 니비루 (Nibiru, the Primal Being) | 🟡 할만함 | 5번째 소환(스플래시 메이지 (Splash Mage)) 이후 가능. 백업＠이그니스터 (Backup @Ignister) 서치에 체인하면 위키드·Backup까지 전부 릴리스해 위저드＠이그니스터 (Wizard @Ignister)도 막힌다. 릴리스는 묘지행이라 제외 부활을 주지 않음. 어코드 토커＠이그니스터 (Allied Code Talker @Ignister)가 서기 전에. M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06)은 다음 턴부터 남는다 |
 | 마루챠미 푸루리아 (Mulcharmy Purulia) | 🟡 할만함 | Dormouse 효과에 체인해 깔면 March Hare·Backup·Wizard 패 특소로 2~3드로우. 첫 일반 소환 전에는 깔기 어렵다 |
 | 금지된 일적 (Forbidden Droplet) | 🟡 할만함 | 상대 턴에는 미리 세트해 둔 경우만 Dormouse·White Rabbit 효과에 체인(후공 1턴 불가). 주 용도는 후공 돌파: HEARTS OF CRYPTER·어코드 토커 무효에. 함정을 보내면 상대가 M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 등 함정으로 체인 못 함 |
 | 싸이크론 (Mystical Space Typhoon) | 🟡 할만함 | M∀LICE IN UNDERGROUND (Maliss in Underground) 발동에 체인하면 제외 처리가 안 돼 UNDERGROUND 초동이 끝난다. 세트된 M∀LICE 함정은 체인 발동되니 노리지 말 것. 미리 세트해 둬야 함 |

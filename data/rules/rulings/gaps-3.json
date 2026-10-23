@@ -1,0 +1,29 @@
+{
+ "sources": {},
+ "rules": [],
+ "rulings": [
+  {
+   "id": "supp-21774",
+   "fid": null,
+   "cid": 21774,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21774&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "DoomZ XII Zero - Drastea"
+   ],
+   "handtraps": [
+    "spark",
+    "impulse"
+   ],
+   "themes": [
+    "doomz"
+   ],
+   "topic": "summon",
+   "question_ko": "[[DoomZ XII Zero - Drastea]]의 ①(자신 필드의 둠즈 카드 1장을 대상으로 파괴하고 패에서 특소)은 어떻게 처리되나?",
+   "answer_ko": "패에서 발동하는 기동 효과이고, 자신 필드에 앞면으로 있는 둠즈 카드 1장을 대상으로 한다. 처리할 때 그 카드를 파괴하고, 파괴에 성공했을 때만 이 카드를 패에서 특소한다(파괴와 특소는 동시). 특소에 성공하면 그 뒤 덱의 장착 마법 1장을 장착할 수 있다. 효과가 끝난 뒤 이 카드가 무효가 되어도 장착 마법은 그대로 남는다.",
+   "quote_ja": "処理時に、『そのカードを破壊』する処理を行い、破壊に成功した場合、『このカードを手札から特殊召喚する』処理を行います。",
+   "impact_ko": "드라스티아 ①에 체인해 대상(아말테, 또는 레귤러스에 장착된 [[Power Patron DoomZ]])을 필드에서 치우면 파괴할 수 없으니 드라스티아도 나오지 않는다. [[Dominus Spark]]로 장착 대상인 [[Therion \"King\" Regulus]]를 제외하면 장착 카드는 룰로 묘지에 갈 뿐(효과 파괴가 아님) 감옥신기의 서치도 나오지 않는다. ①은 1턴 1번이라 그 턴 다시 쓸 수 없다."
+  }
+ ]
+}

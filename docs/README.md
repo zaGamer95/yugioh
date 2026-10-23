@@ -7,9 +7,9 @@
 | [낙인 (Branded)](branded.md) | 6.3% | 초안 | 우라라 → 낙인융합<br>포영 → 낙인룡 알비온<br>와라시 → 낙인룡 알비온 |
 | [섬도 (Sky Striker)](sky-striker.md) | 5.2% | 초안 | 드롤 → 섬도희＝제로<br>우라라 → 섬도기동－인게이지<br>감마 → 섬도희－레이 |
 | [크라운 클랜 (Clown Crew)](clown-crew.md) | 4.7% | 초안 | 우라라 → 크라운 클랜 『리허설』<br>도미나스 퍼지 → 크라운 클랜 『리허설』<br>도미나스 퍼지 → 크라운 클랜 『리허설』 |
-| [킬러튠 (Kewl Tune)](kewl-tune.md) | 4.5% | 초안 | 우라라 → 킬러튠 큐<br>하르모니아 → 킬러튠 큐<br>드롤 → 킬러튠 레코 |
+| [킬러튠 (Kewl Tune)](kewl-tune.md) | 4.5% | 초안 | 우라라 → 킬러튠 큐<br>와라시 → 킬러튠 큐<br>감마 → 킬러튠 큐 |
 | [M∀LICE (Maliss)](maliss.md) | 3.2% | 초안 | 포영 → M∀LICE&lt;P&gt;Dormouse<br>도미나스 임펄스 → M∀LICE&lt;P&gt;White Rabbit<br>뵐러 → M∀LICE&lt;P&gt;Dormouse |
-| [소환수 (Invoked)](invoked.md) | 3.0% | 초안 | 우라라 → 추억의 알레이스터 |
+| [소환수 (Invoked)](invoked.md) | 3.0% | 초안 | 우라라 → 추억의 알레이스터<br>감마 → 추억의 알레이스터<br>감마 → 소환사 알레이스터 |
 | [둠즈 (DoomZ)](doomz.md) | 2.9% | 초안 | 우라라 → 감옥신기Doom－Z<br>포영 → 둠즈Ⅶ－엘라라<br>우라라 → 둠즈ⅩⅢ－그라플레이오 |
 | [마기스토스 (Magistus)](magistus.md) | 2.8% | 초안 | 우라라 → 페어리테일－위캣<br>우라라 → 페어리테일－카구야<br>포영 → 마기스토스 플레임 조로아 |
 | [미츠루기 (Mitsurugi)](mitsurugi.md) | 2.6% | 초안 | 우라라 → 아메노하바키리노미츠루기<br>드롤 → 미츠루기노미코토 사지<br>우라라 → 의식의 밑준비 |

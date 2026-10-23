@@ -857,7 +857,7 @@
    "note_ko": "WHITE BINDER의 묘지 제외, [[Splash Mage]]·[[Wizard @Ignister]]의 묘지 소생에. 제외 상태 특소에는 해당 없음"
   },
   "mourner": {
-   "rating": "ok",
+   "rating": "strong",
    "note_ko": "제외 상태에서 특소된 [[Maliss P White Rabbit]]에 써서 함정 세트를 무효(포영과 같은 결과). 놓쳤으면 링크 소환된 [[Maliss Q White Binder]]에 써서 묘지 제외·함정 세트를 둘 다 막는다"
   },
   "gamma": {
@@ -865,7 +865,7 @@
    "note_ko": "Dormouse 효과·White Rabbit 세트 발동을 무효+파괴(묘지로 가서 제외 부활도 없음). UNDERGROUND 초동이면 제외된 White Rabbit의 자신 특소 발동을 무효. 내 필드에 몬스터가 없을 때"
   },
   "nibiru": {
-   "rating": "ok",
+   "rating": "strong",
    "note_ko": "5번째 소환([[Splash Mage]]) 이후 가능. [[Backup @Ignister]] 서치에 체인하면 위키드·Backup까지 전부 릴리스해 [[Wizard @Ignister]]도 막힌다. 릴리스는 묘지행이라 제외 부활을 주지 않음. [[Allied Code Talker @Ignister]]가 서기 전에. [[Maliss C GWC-06]]은 다음 턴부터 남는다"
   },
   "purulia": {
