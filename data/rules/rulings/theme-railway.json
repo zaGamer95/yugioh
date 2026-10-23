@@ -1,0 +1,279 @@
+{
+ "sources": {},
+ "rules": [],
+ "rulings": [
+  {
+   "id": "supp-22515",
+   "fid": null,
+   "cid": 22515,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22515&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Heavy Armored Knight Babeldecker"
+   ],
+   "handtraps": [
+    "ash",
+    "imperm",
+    "veiler",
+    "maxxc"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Heavy Armored Knight Babeldecker]]의 ③(상대가 이번 턴 카드·효과를 발동했다면 자신 위에 랭크 10 엑시즈를 겹쳐 특소)은 어떤 효과이고, 발동 조건은 언제 충족되나?",
+   "answer_ko": "몬스터 존에서 발동하는 기동 효과다. 상대가 카드의 효과를 발동했더라도 그 발동이 무효가 되었다면 조건을 만족하지 않는다. 처리할 때 이 카드가 자신 몬스터 존에 앞면으로 있으면 기계족·땅·랭크 10 엑시즈 1장을 이 카드 위에 겹쳐 엑시즈 소환 취급으로 특소한다. ②(일반·특수 소환 시 패의 땅 기계족 특소)는 유발 효과, ①(릴리스 없이 일반 소환)은 어느 분류에도 속하지 않는다.",
+   "quote_ja": "相手がカードの効果を発動し、その発動が無効になった場合、この効果の発動条件は満たされません。",
+   "impact_ko": "레일웨이 턴에 패트랩·견제를 하나라도 쓰면 바벨데커 ③이 열린다. 반대로 내가 아무것도 쓰지 않았거나, 내 발동이 무효가 되었다면(예: [[Superdreadnought Rail Cannon Gustav Rocket]]에 무효됨) 조건이 충족되지 않는다. 기동 효과이므로 포영·뵐러로 ③ 발동에 체인하면 엑시즈가 일어나지 않는다."
+  },
+  {
+   "id": "supp-19480",
+   "fid": null,
+   "cid": 19480,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19480&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Carnot the Eternal Machine"
+   ],
+   "handtraps": [
+    "belle",
+    "druiswurm",
+    "magnamhut"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Carnot the Eternal Machine]]의 '상대가 이 듀얼 중 패·묘지의 몬스터 효과를 발동했다면 패·묘지에서 특소할 수 있다'는 효과인가?",
+   "answer_ko": "효과로 취급하지 않는 특수 소환 방법이다(체인 블록이 생기지 않음). 이 방법으로 한 번 특소된 뒤 묘지로 가거나 앞면 제외되면 다른 효과로도 특소할 수 있다. ②(필드에서 묘지로 가면 덱으로 되돌림)는 강제 유발이며, 엑시즈 소재로 떼어져 묘지로 가도 발동한다.",
+   "quote_ja": "効果として扱いません。このモンスターの特殊召喚の方法です。",
+   "impact_ko": "카르노의 묘지 특소는 발동이 아니라 와라시·드루이드브룸으로 끊을 수 없다. 조건은 '내가 이 듀얼 중 패·묘지에서 몬스터 효과를 한 번이라도 썼는가'라서, 우라라·증G·후와로스를 한 장 쓰는 순간 열린다."
+  },
+  {
+   "id": "supp-22516",
+   "fid": null,
+   "cid": 22516,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22516&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Night Train Blue Traveler"
+   ],
+   "handtraps": [
+    "belle",
+    "meowls"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Night Train Blue Traveler]]의 ②(묘지에서 자신과 다른 땅 기계족을 함께 특소)는 어떤 효과이고, 기계족 제약은 언제 걸리나?",
+   "answer_ko": "묘지에서 발동하는 기동 효과다. 처리 시 대상 몬스터나 이 카드가 묘지에 없으면 아무것도 하지 않는다. 발동이나 효과가 무효가 되지 않았다면 특소에 성공했는지와 관계없이 '이 턴 엑스트라 덱에서 기계족만 특소' 제약이 걸린다.",
+   "quote_ja": "特殊召喚の処理に成功したかに関わらず、この効果の発動や効果が無効にならなかったのであれば",
+   "impact_ko": "기동 효과라 상대(레일웨이)가 원하는 타이밍에 쓴다. 와라시로 발동을 무효하는 것이 정답이고, 대상인 [[Scrap Recycler]]를 체인으로 묘지에서 치워도 제약은 남는다."
+  },
+  {
+   "id": "qa-23336",
+   "fid": 23336,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23336&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Night Train Blue Traveler"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "misc",
+   "question_ko": "'듀얼 중 1번' 효과의 발동이나 효과가 무효가 되면, 그 듀얼 중 다시 발동할 수 있나? ([[Night Train Blue Traveler]] ② 포함)",
+   "answer_ko": "다시 발동할 수 없다. 발동·효과가 무효가 된 경우, 효과가 바뀌어 처리된 경우, 다른 효과 때문에 특소 처리를 못 한 경우 모두 그 효과를 '사용한' 것으로 본다. 예시 목록에 「夜光列車ブルートラベラー」②가 직접 나온다.",
+   "quote_ja": "いずれの場合でも、「天羽々斬之巳剣」の①の効果を使用したことになりますので、そのデュエル中に再び発動することはできなくなります。",
+   "impact_ko": "와라시로 블루트래블러 ②를 무효하면 그 듀얼 동안 2번째 블루트래블러가 와도 묘지 효과를 다시 쓸 수 없다. 이 덱의 '레벨 10 2장을 공짜로 세우는' 핵심이 영구히 사라진다."
+  },
+  {
+   "id": "supp-22563",
+   "fid": null,
+   "cid": 22563,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22563&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Exceptional Schedule"
+   ],
+   "handtraps": [
+    "ash",
+    "belle",
+    "purge"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Exceptional Schedule]]의 ①(서치 후 상대 필드에 토큰)과 ②(묘지에서 제외하고 레벨 10 기계족 소생)는 어떻게 처리되나?",
+   "answer_ko": "①은 카드 발동 시 효과다. 덱에서 '임시 다이어'나 [[Urgent Schedule]] 1장을 패에 넣는 데 성공한 경우에만, 그 후 상대 필드에 '다이어그램 토큰'(기계족·땅·레벨 10·공수 3000)을 특소할 수 있다. 두 처리는 동시에 하지 않는다. ②는 묘지에서 발동하는 체인 블록이 생기는 효과로, 자신 필드의 카드 1장을 묘지로 보내는 데 성공하면 대상을 특소한다(동시 처리 취급).",
+   "quote_ja": "手札に加えることに成功した場合、その後、『相手フィールドに「ダイヤグラムトークン」…１体を特殊召喚』する処理を行うことができます。",
+   "impact_ko": "우라라로 ① 서치를 무효하면 토큰도 나오지 않는다. 선공 레일웨이는 토큰이 없으면 [[Urgent Schedule]]의 조건(상대 몬스터가 더 많음)을 맞출 수 없다. ②는 묘지에서 제외하는 효과라 와라시 대상."
+  },
+  {
+   "id": "supp-22687",
+   "fid": null,
+   "cid": 22687,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22687&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Subspace Battle"
+   ],
+   "handtraps": [
+    "ash",
+    "droll"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Subspace Battle]]로 공개한 몬스터의 '효과 발동 불가'는 누구에게 걸리나?",
+   "answer_ko": "처리 이후 '이 턴, 서로는 이 효과로 **자신이** 고른 몬스터 및 그 같은 이름 몬스터의 효과를 발동할 수 없다'가 적용된다. 손에 넣기·파괴·데미지 처리의 성공 여부와 관계없이 적용된다. 고른 몬스터가 마법·함정 카드 효과로 발동하는 효과는 쓸 수 있다. 어느 한쪽이 공격력 ? 이외의 몬스터를 고를 수 없으면 아무 처리도 하지 않는다.",
+   "quote_ja": "このターン、お互いはこの効果で自身が選んだモンスター及びその同名モンスターの効果を発動できない",
+   "impact_ko": "내가 공개한 이름의 몬스터 효과만 이 턴 봉인된다. 패에 든 패트랩과 같은 이름(우라라·증G 등)은 공개하지 말고, 효과를 쓸 일이 없는 몬스터를 고른다."
+  },
+  {
+   "id": "qa-24270",
+   "fid": 24270,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24270&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Subspace Battle",
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "ash"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Subspace Battle]]의 발동에 [[Ash Blossom & Joyous Spring]]을 체인할 수 있나?",
+   "answer_ko": "발동할 수 있다.",
+   "quote_ja": "発動できます。",
+   "impact_ko": "아공간 배틀은 '덱에서 패에 넣는 효과'를 포함하므로 우라라 대상이다. 무효하면 레일웨이는 [[Jizukiru, the Star Destroying Kaiju]] 같은 고공격력 카드를 못 가져오고 내 덱 몬스터도 파괴되지 않는다."
+  },
+  {
+   "id": "qa-24259",
+   "fid": 24259,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24259&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Subspace Battle",
+    "Droll & Lock Bird"
+   ],
+   "handtraps": [
+    "droll"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Droll & Lock Bird]]가 적용되어 서로 덱에서 패에 넣을 수 없을 때 [[Subspace Battle]]을 발동할 수 있나?",
+   "answer_ko": "발동할 수 있다. 공격력이 높은 쪽 몬스터는 패 대신 묘지로 보내진다(효과로 묘지로 보낸 취급은 아님). 낮은 쪽 파괴·500 데미지와 '이 턴 자신이 고른 몬스터 효과 발동 불가'는 텍스트대로 처리한다.",
+   "quote_ja": "攻撃力が高い方のモンスターは墓地に送られます。（効果で墓地に送られた扱いにはなりません。）",
+   "impact_ko": "[[Pot of Sloth]] 드로우 뒤 드롤을 쓰면 이후 아공간 배틀은 레일웨이에게 카드를 주지 못하고 묘지만 채운다([[Carnot the Eternal Machine]]이 묘지로 가면 특소 소재가 되는 점은 주의)."
+  },
+  {
+   "id": "qa-22239",
+   "fid": 22239,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22239&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Urgent Schedule"
+   ],
+   "handtraps": [
+    "ash",
+    "impulse",
+    "fuwalos"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "summon",
+   "question_ko": "상대 몬스터 존에만 몬스터가 있고 내 몬스터 존이 비어 있을 때 [[Urgent Schedule]]을 발동할 수 있나?",
+   "answer_ko": "발동할 수 있다. 상대 몬스터 존에만 몬스터가 있어도 '상대 필드의 몬스터가 자신 필드보다 많은 경우'에 해당한다.",
+   "quote_ja": "『相手フィールドのモンスターの数が自分フィールドのモンスターより多い場合』にあたりますので、自分は「緊急ダイヤ」を発動する事ができます。",
+   "impact_ko": "블라인드 후공 레일웨이는 내 선공 보드에 몬스터가 1장만 있어도 [[Exceptional Schedule]] 없이 긴급 다이어를 바로 쓴다. 선공이면 토큰이 필요하다."
+  },
+  {
+   "id": "supp-14183",
+   "fid": null,
+   "cid": 14183,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=14183&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Urgent Schedule"
+   ],
+   "handtraps": [
+    "mst"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Urgent Schedule]]의 ②(세트된 이 카드가 필드에서 묘지로 가면 레벨 10 기계족 서치)는 어떤 효과인가?",
+   "answer_ko": "묘지에서 발동하는 체인 블록이 생기는 효과이고 데미지 스텝에도 발동할 수 있다. 또 이 카드를 발동한 턴은 기계족으로만 공격 선언할 수 있다.",
+   "quote_ja": "墓地で発動できるチェーンブロックの作られる効果です。",
+   "impact_ko": "세트된 긴급 다이어를 [[Mystical Space Typhoon]]·[[Harpie's Feather Duster]]로 파괴해 묘지로 보내면 레일웨이가 레벨 10을 서치한다. 지울 거면 [[Cosmic Cyclone]](제외)이 낫다."
+  },
+  {
+   "id": "supp-14180",
+   "fid": null,
+   "cid": 14180,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=14180&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Superdreadnought Rail Cannon Juggernaut Liebe"
+   ],
+   "handtraps": [
+    "mourner",
+    "crown"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Superdreadnought Rail Cannon Juggernaut Liebe]]를 랭크 10 기계족 엑시즈 위에 겹쳐 엑시즈 소환하는 것은 효과인가?",
+   "answer_ko": "효과로 취급하지 않는 엑시즈 소환 절차이며 체인 블록이 생기지 않는다. 정규 엑시즈 소환이다. ①(소재 1개 떼고 공수 +2000, 이 턴 이 카드로만 공격)은 기동 효과이고, '이 카드로만 공격 선언'은 플레이어에게 적용된다.",
+   "quote_ja": "この方法でエクシーズ召喚する際にチェーンブロックは作られません。",
+   "impact_ko": "리베가 나오는 순간에는 체인할 틈이 없다. 막으려면 그 전에 [[Superdreadnought Rail Cannon Gustav Max]]를 치우거나 [[Forbidden Crown]]으로 '소재 불가'를 걸어야 한다. 나온 뒤에는 사요 시구레(특소 반응)나 ① 발동에 포영으로 +2000을 지운다."
+  },
+  {
+   "id": "supp-22552",
+   "fid": null,
+   "cid": 22552,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22552&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Superdreadnought Rail Cannon Gustav Rocket"
+   ],
+   "handtraps": [
+    "dark_ruler",
+    "droplet",
+    "ogre",
+    "harmonia"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Superdreadnought Rail Cannon Gustav Rocket]]의 무효 효과는 언제 쓸 수 있고 어떻게 처리되나?",
+   "answer_ko": "몬스터 존에서 발동하는 유발즉시 효과로, 상대가 몬스터 효과를 발동했을 때 직접 체인해서 발동한다(데미지 스텝 불가). 처리 시 그 효과를 무효로 하고 파괴하며, 파괴에 성공하면 그 후 1000 데미지를 준다(동시 처리 아님). 엔드 페이즈 효과는 유발 효과. [[Superdreadnought Rail Cannon Gustav Max]] 위에 겹치는 소환은 효과가 아닌 정규 엑시즈 소환 방법이다.",
+   "quote_ja": "相手がモンスターの効果を発動した時に、直接チェーンして発動できます。",
+   "impact_ko": "로켓은 마법·함정에 반응하지 않는다. 몬스터 효과를 쓰기 전에 마법([[Dark Ruler No More]]·[[Forbidden Droplet]] 등)으로 먼저 처리하거나, 덜 중요한 몬스터 효과로 무효를 받아낸다."
+  }
+ ]
+}
