@@ -457,6 +457,7 @@
       theme: params.get("t") || null,
       held: new Set((params.get("h") || "").split(",").filter((x) => anyCard(x))),
       board: params.get("b") || null,
+      line: params.get("l") || null,
       q: "",
       editDeck: false,
       deck: new Set(store.get("play.deck", [])),
@@ -474,6 +475,7 @@
         <input id="themeSearch" class="search" type="search" placeholder="상대 테마 검색 (한글·영문·카드명)" autocomplete="off">
       </div>
       <div id="themePick" class="pick"></div>
+      <section id="strip" class="strip-wrap" hidden></section>
       <section class="hand-panel">
         <div class="hand-head">
           <h2>지금 내 패</h2>
@@ -491,6 +493,7 @@
       if (state.theme) q.set("t", state.theme);
       if (state.held.size) q.set("h", [...state.held].join(","));
       if (state.board) q.set("b", state.board);
+      if (state.line) q.set("l", state.line);
       history.replaceState(null, "", "#/p?" + q);
       store.set("play.first", state.first);
     };
@@ -679,7 +682,63 @@
         ${stHTML}`;
     }
 
-    const redraw = () => { sync(); drawSeg(); drawThemes(); drawHand(); drawOut(); };
+    // 전개 스트립: 상대 전개를 일러스트로 늘어놓고, 내 패트랩을 던질 단계 바로 아래에 표시
+    function drawStrip() {
+      const el = document.getElementById("strip");
+      const t = D.themes.find((x) => x.slug === state.theme);
+      if (!t) { el.hidden = true; return; }
+      el.hidden = false;
+      const cmap = chokeMap(t);
+      const held = [...state.held].filter((id) => HT[id] && HT[id].kind !== "not_handtrap");
+      const lineScore = (l) => Object.values(cmap[l.id]).flat().filter((c) => held.includes(c.handtrap) && c.severity !== "bad").length;
+      let line = t.lines.find((l) => l.id === state.line);
+      if (!line) line = held.length ? [...t.lines].sort((a, b) => lineScore(b) - lineScore(a))[0] : t.lines[0];
+      const blockedNote = (id) => {
+        const isSpell = (D.cards[HT[id].card] || {}).type === "Spell";
+        if (!state.first && isSpell) return "후공이면 상대 1턴엔 못 씀(속공 마법)";
+        if (state.first && NEEDS_EMPTY.has(id)) return "내 필드가 비어 있어야 함";
+        return "";
+      };
+      const cols = line.steps
+        .map((s, i) => {
+          const cps = (cmap[line.id][i] || [])
+            .filter((c) => held.includes(c.handtrap))
+            .sort((a, b) => (a.severity === "bad") - (b.severity === "bad") || sevRank(a.severity) - sevRank(b.severity) || a.rank - b.rank);
+          const seen = new Set();
+          const marks = cps
+            .filter((c) => (seen.has(c.handtrap) ? false : seen.add(c.handtrap)))
+            .map((c) => {
+              const warn = c.severity === "bad" ? "" : blockedNote(c.handtrap);
+              const tipText = `${htName(c.handtrap)} · ${c.severity === "bad" ? "쓰지 말 것" : SEV_KO[c.severity] + " (혈자리 " + c.rank + "순위)"}\n${stripBr(c.timing_ko || "")}\n\n${stripBr(c.why_ko)}`;
+              return `<div class="mk mk-${c.severity}${warn ? " mk-blocked" : ""}" data-tip="${esc(tipText)}">
+                ${thumb(HT[c.handtrap].card, "mk-art")}
+                <div class="mk-name">${c.severity === "bad" ? "✕ " : SEV_G[c.severity] + " "}${esc(htName(c.handtrap))}</div>
+                <div class="mk-time">${c.severity === "bad" ? "쓰지 말 것" : prose(c.timing_ko || "")}</div>
+                ${warn ? `<div class="mk-warn">⚠ ${esc(warn)}</div>` : ""}
+              </div>`;
+            })
+            .join("");
+          const top = cps.find((c) => c.severity !== "bad");
+          return `<div class="sc${marks ? " has" : ""}${top ? " sc-" + top.severity : ""}">
+            <div class="sc-card" data-card="${esc(s.card)}">
+              ${thumb(s.card, "sc-art")}<span class="sc-n">${i + 1}</span>
+            </div>
+            <div class="sc-act" title="${esc(stripBr(s.action_ko))}">${esc(ko(s.card) || s.card)}</div>
+            ${marks}
+          </div>`;
+        })
+        .join('<div class="sc-arrow" aria-hidden="true">›</div>');
+      const tabs = t.lines.length > 1
+        ? `<div class="chips">${t.lines.map((l) => `<button type="button" class="chip sub" data-line="${esc(l.id)}" aria-pressed="${l.id === line.id}">${esc(stripBr(l.title_ko))}${held.length ? ` · ${lineScore(l)}` : ""}</button>`).join("")}</div>`
+        : "";
+      el.innerHTML = `<div class="strip-head"><h2>${esc(t.name.ko)} 전개 <span class="muted small">${esc(stripBr(line.title_ko))}</span></h2>
+          <a class="small" href="#/t/${t.slug}?line=${encodeURIComponent(line.id)}">자세히 →</a></div>
+        ${tabs}
+        ${held.length ? "" : `<p class="small muted">아래에서 들고 있는 패트랩을 고르면, 던질 단계 아래에 표시됩니다.</p>`}
+        <div class="strip">${cols}</div>`;
+    }
+
+    const redraw = () => { sync(); drawSeg(); drawThemes(); drawStrip(); drawHand(); drawOut(); };
 
     app.onclick = (e) => {
       const f = e.target.closest("[data-first]");
@@ -687,18 +746,19 @@
       const hc = e.target.closest("[data-card-id]");
       const bd = e.target.closest("[data-board]");
       if (f) state.first = f.dataset.first === "1";
-      else if (th) { state.theme = state.theme === th.dataset.theme ? null : th.dataset.theme; state.board = null; }
+      else if (th) { state.theme = state.theme === th.dataset.theme ? null : th.dataset.theme; state.board = null; state.line = null; }
       else if (hc) {
         const id = hc.dataset.cardId;
         const set = state.editDeck ? state.deck : state.held;
         set.has(id) ? set.delete(id) : set.add(id);
         if (state.editDeck) store.set("play.deck", [...state.deck]);
       } else if (bd) state.board = bd.dataset.board;
+      else if (e.target.closest("#strip [data-line]")) state.line = e.target.closest("[data-line]").dataset.line;
       else if (e.target.closest("#deckEdit")) state.editDeck = !state.editDeck;
       else if (e.target.closest("#clearHand")) state.held.clear();
       else return;
       redraw();
-      if (th && state.theme) document.getElementById("playOut").scrollIntoView({ behavior: "smooth", block: "start" });
+      if (th && state.theme) document.getElementById("strip").scrollIntoView({ behavior: "smooth", block: "start" });
     };
     app.oninput = (e) => {
       if (e.target.id === "themeSearch") { state.q = e.target.value.trim(); drawThemes(); }
@@ -706,7 +766,7 @@
     document.getElementById("themeSearch").addEventListener("keydown", (e) => {
       if (e.key !== "Enter") return;
       const first = D.themes.find((t) => themeMatches(t, state.q));
-      if (first) { state.theme = first.slug; state.board = null; redraw(); }
+      if (first) { state.theme = first.slug; state.board = null; state.line = null; redraw(); }
     });
     redraw();
     window.scrollTo(0, 0);
