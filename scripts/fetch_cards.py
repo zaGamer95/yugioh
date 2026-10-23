@@ -43,8 +43,10 @@ def konami(cid, locale):
     name = html.unescape(title.group(1)).strip() if title else None
     body = html.unescape(re.sub(r"<[^>]+>", "\n", text.group(1))).strip() if text else None
     # 존재하지 않는 로케일이면 검색 페이지 제목이 돌아온다
-    if name and ("카드 검색" in name or "Card Search" in name or "カード検索" in name):
+    # 존재하지 않는 로케일·미발매 카드면 이름 대신 공통 페이지 제목('카드 상세' 등)이 돌아온다
+    if name and any(w in name for w in ("카드 검색", "카드 상세", "Card Search", "Card Details", "カード検索", "カード詳細")):
         name = None
+        body = None
     return name, body
 
 

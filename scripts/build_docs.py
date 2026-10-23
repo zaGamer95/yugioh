@@ -112,7 +112,7 @@ def build_theme(t, names, ht, classes):
         out.append("")
 
     if t.get("chokepoints"):
-        out.append("## 혈자리 (우선순위 순)\n")
+        out.append("## 패트랩 타이밍 (우선순위 순)\n")
         for i, c in enumerate(t["chokepoints"], 1):
             h = ht_by_id.get(c["handtrap"])
             hname = names(h["card"]) if h else c["handtrap"]
@@ -218,7 +218,7 @@ def write_site_data(themes, hdef, names):
     for en in sorted(used):
         c = names.by_en.get(en)
         if c:
-            cards[en] = {"ko": c.get("ko"), "cid": c.get("cid"), "pw": c.get("password"), "type": c.get("type"), "text": c.get("text_ko") or c.get("text_en")}
+            cards[en] = {"ko": c.get("ko"), "cid": c.get("cid"), "pw": c.get("password"), "type": c.get("type"), "text": c.get("text_ko"), "te": c.get("text_en")}
     for t in themes:
         # 개요 카드 배경용 대표 카드: 지정이 없으면 핵심 카드 첫 장
         t.setdefault("cover", (t.get("key_cards") or [{}])[0].get("card"))
@@ -298,7 +298,7 @@ def main():
     (docs / "handtraps.md").write_text(build_handtraps(ht, classes, names), encoding="utf-8")
 
     themes.sort(key=lambda t: -t.get("meta", {}).get("share", 0))
-    idx = ["# 테마 목록\n", "| 테마 | 점유율 | 상태 | 치명 혈자리 (패트랩 → 대상) |", "|---|---|---|---|"]
+    idx = ["# 테마 목록\n", "| 테마 | 점유율 | 상태 | 가장 아픈 타이밍 (패트랩 → 대상) |", "|---|---|---|---|"]
     ht_by_id = {h["id"]: h for h in ht}
     for t in themes:
         top = [c for c in t.get("chokepoints", []) if c["severity"] == "critical" and c["handtrap"] in ht_by_id][:3]

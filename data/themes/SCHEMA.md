@@ -17,7 +17,7 @@
   "key_cards": [{"card": "Elfnote Lucina", "role_ko": "1장 초동. 메인 페이즈에 엘펜노츠 몬스터 서치"}],
   "lines": [
     {
-      "id": "main",                                      // 혈자리에서 참조
+      "id": "main",                                      // chokepoints(패트랩 타이밍)에서 참조
       "title_ko": "루키나 1장 초동",
       "hand": ["Elfnote Lucina"],
       "note_ko": "선택: 전제 조건, 소환권 사용 여부 등",

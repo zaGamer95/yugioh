@@ -17,9 +17,17 @@
   /* ---------- helpers ---------- */
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const ko = (en) => (D.cards[en] && D.cards[en].ko) || null;
+  // 표기 모드: 즉석 족보는 선택한 언어 하나로(ko|en), 나머지 페이지는 한·영 병기(both)
+  let MODE = "both";
+  let LANG = "ko";
+  try { LANG = localStorage.getItem("lang") === "en" ? "en" : "ko"; } catch (_) {}
+  const nm = (en) => (MODE === "en" ? en : ko(en) || en);
   const card = (en, opts = {}) => {
     const k = ko(en);
-    const label = k ? `<b>${esc(k)}</b>${opts.noEn ? "" : ` <span class="en">${esc(en)}</span>`}` : `<b>${esc(en)}</b>`;
+    let label;
+    if (MODE === "en") label = `<b>${esc(en)}</b>`;
+    else if (MODE === "ko") label = `<b>${esc(k || en)}</b>`;
+    else label = k ? `<b>${esc(k)}</b>${opts.noEn ? "" : ` <span class="en">${esc(en)}</span>`}` : `<b>${esc(en)}</b> <span class="en">공식 한국어명 미확인</span>`;
     return `<span class="card" tabindex="0" data-card="${esc(en)}">${label}</span>`;
   };
   // [[Card]] 뒤 조사를 공식 한국어명의 받침에 맞춘다 (을/를, 이/가, 은/는, 과/와, 으로/로)
@@ -43,7 +51,7 @@
     const txt = (t) => esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
     let out = "", last = 0;
     for (const m of str.matchAll(JOSA_RE)) {
-      out += txt(str.slice(last, m.index)) + card(m[1], { noEn: true }) + (m[2] ? fixJosa(ko(m[1]) || m[1], m[2]) : "");
+      out += txt(str.slice(last, m.index)) + card(m[1], { noEn: true }) + (m[2] ? fixJosa(nm(m[1]), m[2]) : "");
       last = m.index + m[0].length;
     }
     return out + txt(str.slice(last));
@@ -54,7 +62,7 @@
     const c = D.cards[en];
     return c && c.pw ? `img/${kind}/${c.pw}.webp` : null;
   };
-  const htName = (id) => (HT[id] ? HT[id].short_ko : id);
+  const htName = (id) => (HT[id] ? (MODE === "en" ? HT[id].card : HT[id].short_ko) : id);
 
   function chokeMap(theme) {
     // lineId -> stepIndex -> [chokepoint]
@@ -86,6 +94,8 @@
     const [path, query] = h.split("?");
     const params = new URLSearchParams(query || "");
     document.querySelectorAll("[data-nav]").forEach((a) => a.classList.toggle("active", (path === "/" && a.dataset.nav === "home") || path.startsWith("/" + a.dataset.nav)));
+    MODE = path.startsWith("/p") ? LANG : "both";
+    document.body.classList.toggle("play-mode", path.startsWith("/p"));
     const m = path.match(/^\/t\/([\w-]+)/);
     if (m) return renderTheme(m[1], params);
     if (path.startsWith("/h")) return renderHandtraps();
@@ -111,8 +121,8 @@
       .join("");
 
     app.innerHTML = `
-      <h1>자겜의 족보 <span class="en">마스터 듀얼 혈자리 노트</span></h1>
-      <p class="lede">메타 테마별 1턴 전개를 단계별로 펼치고, 각 단계에서 어떤 패트랩이 맞는지와 어디가 <b>치명적인 위치(혈자리)</b>인지 표시했습니다.
+      <h1>자겜의 족보 <span class="en">마스터 듀얼 패트랩 타이밍 노트</span></h1>
+      <p class="lede">메타 테마별 1턴 전개를 단계별로 펼치고, 각 단계에서 어떤 패트랩이 맞는지와 어디가 <b>가장 아픈 타이밍</b>인지 표시했습니다.
       카드명은 모두 인게임 검색에 그대로 쓸 수 있는 <b>공식 한국어명</b>입니다. 집계 기간: ${esc(D.themes[0]?.meta.window || "")}.</p>
       <div class="theme-grid">${tcards}</div>
 
@@ -124,7 +134,7 @@
 
   function legend(withHit) {
     const items = SEV.map((s) => `<span><span class="sw cell c-${s}" style="display:inline-block;min-width:0;width:14px;height:14px"></span>${SEV_G[s]} ${SEV_KO[s]}</span>`);
-    if (withHit) items.push(`<span><span class="sw" style="background:var(--hit)"></span>대응 가능(혈자리 아님)</span>`);
+    if (withHit) items.push(`<span><span class="sw" style="background:var(--hit)"></span>쓸 수는 있음 (추천 타이밍 아님)</span>`);
     return `<div class="legend">${items.join("")}</div>`;
   }
 
@@ -153,7 +163,7 @@
     }).join("");
     return `<table class="heat">${head}<tbody>${rows}</tbody></table>`;
   }
-  const stripBr = (s) => String(s || "").replace(JOSA_RE, (_, n, j) => (ko(n) || n) + (j ? fixJosa(ko(n) || n, j) : ""));
+  const stripBr = (s) => String(s || "").replace(JOSA_RE, (_, n, j) => nm(n) + (j ? fixJosa(nm(n), j) : ""));
 
   /* ---------- theme ---------- */
   function renderTheme(slug, params) {
@@ -195,7 +205,7 @@
         .map((l) => `<button class="tab" role="tab" data-line="${esc(l.id)}">${esc(l.title_ko)}</button>`)
         .join("")}</div>
 
-      <h2 style="margin-top:0">혈자리 지도 <span class="muted small">패트랩 × 전개 단계</span></h2>
+      <h2 style="margin-top:0">패트랩 타이밍표 <span class="muted small">패트랩 × 전개 단계</span></h2>
       ${legend(true)}
       <div class="scroll-x" id="grid"></div>
 
@@ -268,7 +278,7 @@
                   if (w) {
                     cls = `c-${w.severity}`;
                     g = SEV_G[w.severity];
-                    tipText = `${h.short_ko} · ${SEV_KO[w.severity]} (혈자리 ${w.rank}순위)\n${head}\n${stripBr(w.why_ko)}`;
+                    tipText = `${h.short_ko} · ${SEV_KO[w.severity]} (우선순위 ${w.rank})\n${head}\n${stripBr(w.why_ko)}`;
                   } else if (canHit) {
                     cls = "c-hit";
                     g = "·";
@@ -312,7 +322,7 @@
             .sort((a, b) => a.rank - b.rank)
             .map(
               (c) => `<div class="cp sev-${c.severity}" style="--sev-c:var(--sev-${c.severity})">
-                <p>${sevBadge(c.severity)} <b>${esc(htName(c.handtrap))}</b> <span class="muted small">혈자리 ${c.rank}순위${c.inferred ? " · 대상 카드 기준 배치" : ""}</span> ${rulingChips(c.rulings)}</p>
+                <p>${sevBadge(c.severity)} <b>${esc(htName(c.handtrap))}</b> <span class="muted small">우선순위 ${c.rank}${c.inferred ? " · 대상 카드 기준 배치" : ""}</span> ${rulingChips(c.rulings)}</p>
                 ${c.timing_ko ? `<p><span class="lbl">타이밍</span>${prose(c.timing_ko)}</p>` : ""}
                 <p><span class="lbl">이유</span>${prose(c.why_ko)}</p>
                 ${c.fallback_ko ? `<p><span class="lbl">맞은 뒤</span>${prose(c.fallback_ko)}</p>` : ""}
@@ -408,7 +418,7 @@
     },
   };
   const anyCard = (id) => HT[id] || BK[id];
-  const anyName = (id) => (anyCard(id) ? anyCard(id).short_ko : id);
+  const anyName = (id) => (anyCard(id) ? (MODE === "en" ? anyCard(id).card : anyCard(id).short_ko) : id);
   const thumb = (en, cls = "mini") => {
     const src = img(en, "art");
     return src ? `<img class="${cls}" src="${src}" alt="" loading="lazy">` : `<span class="${cls} ph"></span>`;
@@ -513,7 +523,7 @@
       document.getElementById("themePick").innerHTML = list.length
         ? list
             .map((t) => `<button type="button" class="ptheme${state.theme === t.slug ? " on" : ""}" data-theme="${t.slug}">
-              ${thumb(t.cover, "pt-art")}<span><b>${esc(t.name.ko)}</b><span class="en">${esc(t.name.en)}</span></span></button>`)
+              ${thumb(t.cover, "pt-art")}<span><b>${esc(MODE === "en" ? t.name.en : t.name.ko)}</b>${MODE === "en" ? "" : `<span class="en">${esc(t.name.en)}</span>`}</span></button>`)
             .join("")
         : `<p class="muted small">검색 결과가 없습니다.</p>`;
     }
@@ -532,7 +542,7 @@
             .map((c) => {
               const on = state.editDeck ? state.deck.has(c.id) : state.held.has(c.id);
               return `<button type="button" class="hcard${on ? " on" : ""}${state.editDeck ? " edit" : ""}" data-card-id="${c.id}" aria-pressed="${on}">
-                ${thumb(c.card)}<span>${esc(c.short_ko)}</span></button>`;
+                ${thumb(c.card)}<span>${esc(MODE === "en" ? c.card : c.short_ko)}</span></button>`;
             })
             .join("")}</div></div>`;
         })
@@ -600,15 +610,19 @@
                         ${where ? `<div class="pl-target">${thumb(where.s.card, "tgt")}<div><div>${card(c.target_card || where.s.card, { noEn: true })}</div><div class="muted small">${esc(where.line.title_ko)} · ${where.i + 1}단계</div></div></div>` : ""}
                         ${c.timing_ko ? `<p><span class="lbl">타이밍</span>${prose(c.timing_ko)}</p>` : ""}
                         <p class="small">${prose(c.why_ko)} ${rulingChips([...(c.rulings || []), ...rulingsFor({ theme: t.slug, handtrap: p.id }).map((q) => q.id)])}</p>
-                        ${p.more.length ? `<p class="small muted">다른 지점: ${p.more.map((m) => `${SEV_G[m.severity]} ${esc(ko(m.target_card) || m.target_card || "")}`).join(" · ")}</p>` : ""}
+                        ${p.more.length ? `<p class="small muted">다른 지점: ${p.more.map((m) => `${SEV_G[m.severity]} ${esc(m.target_card ? nm(m.target_card) : "")}`).join(" · ")}</p>` : ""}
                       </div>`
-                    : `<div class="pl-body"><p class="small">${p.sum ? prose(p.sum.note_ko) : "이 테마 상대로 정리된 사용 지점이 없습니다."}</p></div>`
+                    : `<div class="pl-body"><p class="small"><span class="lbl">상대 턴</span>${p.sum ? prose(p.sum.note_ko) : "상대 1턴 전개 중에는 정리된 사용 지점이 없습니다."}</p>
+                        ${(() => {
+                          const my = t.going_second?.breakers?.[p.id];
+                          return my ? `<p class="small my-turn"><span class="lbl">내 턴(후공)</span>${sevBadge(my.rating)} ${prose(my.note_ko)} ${rulingChips(my.rulings)}</p>` : "";
+                        })()}</div>`
                 }
                 ${p.bad.length ? `<p class="pl-bad small">✕ 쓰지 말 것: ${p.bad.map((b) => prose(b.why_ko)).join(" / ")}</p>` : ""}
               </li>`;
             })
             .join("")}</ol>`
-        : `<p class="muted small">위에서 들고 있는 패트랩을 고르면 던질 순서가 나옵니다. 이 테마 기준 혈자리 1~3순위:</p>
+        : `<p class="muted small">위에서 들고 있는 패트랩을 고르면 던질 순서가 나옵니다. 이 테마에서 가장 아픈 타이밍 1~3순위:</p>
            <ol class="plan compact">${t.chokepoints
              .filter((c) => c.severity !== "bad")
              .slice(0, 3)
@@ -644,7 +658,7 @@
               .map(
                 (r) => `<li class="${r.by ? "solved" : "open"}">
                   ${thumb(r.it.card, "tgt")}
-                  <div><div><b>${esc(ko(r.it.card) || r.it.card)}</b> <span class="muted small">${prose(r.it.timing_ko || "")}</span></div>
+                  <div><div><b>${esc(nm(r.it.card))}</b> <span class="muted small">${prose(r.it.timing_ko || "")}</span></div>
                   ${
                     r.by
                       ? `<div class="small ans">✓ ${esc(anyName(r.by.id))} — ${prose(r.by.note_ko || "")} ${rulingChips(r.by.rulings)}</div>`
@@ -671,7 +685,7 @@
         : "";
 
       out.innerHTML = `
-        <div class="play-title">${thumb(t.cover, "pt-art lg")}<div><h2 style="margin:0">${esc(t.name.ko)} <span class="en">${esc(t.name.en)}</span></h2>
+        <div class="play-title">${thumb(t.cover, "pt-art lg")}<div><h2 style="margin:0">${esc(MODE === "en" ? t.name.en : t.name.ko)}</h2>
           <a class="small" href="#/t/${t.slug}">전개 흐름 전체 보기 →</a></div></div>
         <section class="panel">
           <h2>${state.first ? "상대 턴(후공 2턴)에 던질 곳" : "상대 1턴에 던질 곳"}</h2>
@@ -709,7 +723,7 @@
             .filter((c) => (seen.has(c.handtrap) ? false : seen.add(c.handtrap)))
             .map((c) => {
               const warn = c.severity === "bad" ? "" : blockedNote(c.handtrap);
-              const tipText = `${htName(c.handtrap)} · ${c.severity === "bad" ? "쓰지 말 것" : SEV_KO[c.severity] + " (혈자리 " + c.rank + "순위)"}\n${stripBr(c.timing_ko || "")}\n\n${stripBr(c.why_ko)}`;
+              const tipText = `${htName(c.handtrap)} · ${c.severity === "bad" ? "쓰지 말 것" : SEV_KO[c.severity] + " (우선순위 " + c.rank + ")"}\n${stripBr(c.timing_ko || "")}\n\n${stripBr(c.why_ko)}`;
               return `<div class="mk mk-${c.severity}${warn ? " mk-blocked" : ""}" data-tip="${esc(tipText)}">
                 ${thumb(HT[c.handtrap].card, "mk-art")}
                 <div class="mk-name">${c.severity === "bad" ? "✕ " : SEV_G[c.severity] + " "}${esc(htName(c.handtrap))}</div>
@@ -723,7 +737,7 @@
             <div class="sc-card" data-card="${esc(s.card)}">
               ${thumb(s.card, "sc-art")}<span class="sc-n">${i + 1}</span>
             </div>
-            <div class="sc-act" title="${esc(stripBr(s.action_ko))}">${esc(ko(s.card) || s.card)}</div>
+            <div class="sc-act" title="${esc(stripBr(s.action_ko))}">${esc(nm(s.card))}</div>
             ${marks}
           </div>`;
         })
@@ -731,7 +745,7 @@
       const tabs = t.lines.length > 1
         ? `<div class="chips">${t.lines.map((l) => `<button type="button" class="chip sub" data-line="${esc(l.id)}" aria-pressed="${l.id === line.id}">${esc(stripBr(l.title_ko))}${held.length ? ` · ${lineScore(l)}` : ""}</button>`).join("")}</div>`
         : "";
-      el.innerHTML = `<div class="strip-head"><h2>${esc(t.name.ko)} 전개 <span class="muted small">${esc(stripBr(line.title_ko))}</span></h2>
+      el.innerHTML = `<div class="strip-head"><h2>${esc(MODE === "en" ? t.name.en : t.name.ko)} 전개 <span class="muted small">${esc(stripBr(line.title_ko))}</span></h2>
           <a class="small" href="#/t/${t.slug}?line=${encodeURIComponent(line.id)}">자세히 →</a></div>
         ${tabs}
         ${held.length ? "" : `<p class="small muted">아래에서 들고 있는 패트랩을 고르면, 던질 단계 아래에 표시됩니다.</p>`}
@@ -908,7 +922,7 @@
         })
         .join("")}</div>`;
     }).join("");
-    app.innerHTML = `<h1>패트랩 사전</h1><p class="lede">종류별로 묶었습니다. 아래 테마 칩은 그 패트랩의 테마별 평가 순서이고, 누르면 해당 테마의 혈자리만 보여 줍니다.</p>${legend(false)}${groups}`;
+    app.innerHTML = `<h1>패트랩 사전</h1><p class="lede">종류별로 묶었습니다. 아래 테마 칩은 그 패트랩의 테마별 평가 순서이고, 누르면 해당 테마의 패트랩 타이밍만 보여 줍니다.</p>${legend(false)}${groups}`;
     window.scrollTo(0, 0);
   }
 
@@ -919,7 +933,11 @@
       const en = el.dataset.card;
       const c = D.cards[en] || {};
       const pic = img(en, "card");
-      html = `${pic ? `<img class="tip-card" src="${pic}" alt="" width="120" height="175">` : ""}<div class="tip-body"><b>${esc(c.ko || en)}</b>\n${esc(en)}${c.text ? "\n\n" + esc(c.text) : ""}</div>`;
+      let head, body;
+      if (MODE === "en") { head = esc(en); body = c.te || c.text; }
+      else if (MODE === "ko") { head = esc(c.ko || en) + (c.ko ? "" : "\n(공식 한국어명 미확인)"); body = c.text || (c.te ? "(한국어 텍스트 미발매)\n" + c.te : ""); }
+      else { head = `${esc(c.ko || en)}\n${esc(en)}${c.ko ? "" : "\n(공식 한국어명 미확인)"}`; body = c.text || (c.te ? "(한국어 텍스트 미발매)\n" + c.te : ""); }
+      html = `${pic ? `<img class="tip-card" src="${pic}" alt="" width="120" height="175">` : ""}<div class="tip-body"><b>${head}</b>${body ? "\n\n" + esc(body) : ""}</div>`;
     } else if (el.dataset.tip) {
       html = esc(el.dataset.tip);
     }
@@ -991,6 +1009,19 @@
   document.addEventListener("focusout", () => { if (!pinned) hideTip(); });
   // 페이지·스트립 안쪽 스크롤 모두에서 닫기 (scroll 은 버블링되지 않아 capture 로 받음)
   document.addEventListener("scroll", () => (pinned ? unpin() : hideTip()), { passive: true, capture: true });
+
+  /* ---------- 카드명 언어 (즉석 족보 전용) ---------- */
+  const langBtn = document.getElementById("langToggle");
+  const drawLang = () => langBtn.querySelectorAll("[data-lang]").forEach((b) => b.setAttribute("aria-pressed", b.dataset.lang === LANG));
+  langBtn.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-lang]");
+    if (!b || b.dataset.lang === LANG) return;
+    LANG = b.dataset.lang;
+    try { localStorage.setItem("lang", LANG); } catch (_) {}
+    drawLang();
+    route();
+  });
+  drawLang();
 
   /* ---------- theme toggle ---------- */
   const root = document.documentElement;

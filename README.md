@@ -1,9 +1,9 @@
-# 자겜의 족보 — Master Duel 혈자리 노트 (Hand Trap Chokepoints)
+# 자겜의 족보 — Master Duel 패트랩 타이밍 노트 (Hand Trap Timing)
 
 유희왕 마스터 듀얼 메타 테마별로 **전개 순서**와, 각 단계에서 **어떤 패트랩을 던지면 치명적인지**를 정리한 자료입니다.
 카드명은 모두 **공식 한국어명 (공식 영문명)** 으로 적어서 인게임 검색에 그대로 쓸 수 있습니다.
 
-- **웹 페이지 (시각화)**: https://wonbo.site/yugioh/ — 테마별 전개 흐름, 패트랩 × 단계 혈자리 지도, 패트랩 × 테마 상성표
+- **웹 페이지 (시각화)**: https://wonbo.site/yugioh/ — 테마별 전개 흐름, 패트랩 타이밍표 (패트랩 × 전개 단계), 패트랩 × 테마 상성표
 - 테마 목록 (Markdown): [docs/README.md](docs/README.md)
 - 패트랩 사전: [docs/handtraps.md](docs/handtraps.md)
 
@@ -11,7 +11,7 @@
 
 ```
 data/
-  themes/<slug>.json   테마별 전개·혈자리 원본 데이터 (스키마: data/themes/SCHEMA.md)
+  themes/<slug>.json   테마별 전개·패트랩 타이밍 원본 데이터 (스키마: data/themes/SCHEMA.md)
   handtraps.json       패트랩 정의와 "어떤 효과에 대응하는가" 분류
   cards/cards.json     KONAMI 카드 ID 기준 공식 영/한/일 이름·텍스트 캐시
   meta/latest.json     Master Duel Meta 상위 덱 집계 (테마 점유율, 채용률)
