@@ -196,6 +196,24 @@ def write_site_data(themes, hdef, names):
     walk(themes)
     walk(hdef["handtraps"])
     walk(bdef["breakers"])
+    # 공식 룰·판정 (data/rules/rules.json + data/rules/rulings/*.json), id 기준 병합
+    rules_dir = ROOT / "data" / "rules"
+    rsources, rules, rulings = {}, [], {}
+    for f in [rules_dir / "rules.json", *sorted((rules_dir / "rulings").glob("*.json"))]:
+        if not f.exists():
+            continue
+        r = load_json(f)
+        rsources.update(r.get("sources", {}))
+        rules.extend(r.get("rules", []))
+        for q in r.get("rulings", []):
+            prev = rulings.get(q["id"])
+            if prev:  # 같은 판정을 여러 파일이 가져왔으면 연결 정보만 합친다
+                for k in ("cards", "handtraps", "themes"):
+                    prev[k] = sorted(set(prev.get(k, [])) | set(q.get(k, [])))
+            else:
+                rulings[q["id"]] = q
+    walk(rules)
+    walk(list(rulings.values()))
     cards = {}
     for en in sorted(used):
         c = names.by_en.get(en)
@@ -232,6 +250,9 @@ def write_site_data(themes, hdef, names):
         "handtraps": hdef["handtraps"],
         "breakers": bdef["breakers"],
         "answer_tags": bdef["answer_tags"],
+        "rule_sources": rsources,
+        "rules": rules,
+        "rulings": sorted(rulings.values(), key=lambda q: q["id"]),
         "themes": themes,
         "cards": cards,
     }

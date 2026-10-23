@@ -10,6 +10,7 @@
   let D = null;
   let HT = {};
   let BK = {};
+  let RQ = {};
   const app = document.getElementById("app");
   const tip = document.getElementById("tip");
 
@@ -89,6 +90,7 @@
     if (m) return renderTheme(m[1], params);
     if (path.startsWith("/h")) return renderHandtraps();
     if (path.startsWith("/p")) return renderPlay(params);
+    if (path.startsWith("/r")) return renderRules(params);
     renderHome();
   }
 
@@ -202,6 +204,12 @@
         <aside class="panel"><h2 style="margin-top:0">패트랩 상성 요약</h2><div class="summary" id="summary"></div></aside>
       </div>
 
+      ${(() => {
+        const rs = rulingsFor({ theme: t.slug });
+        return rs.length
+          ? `<h2>관련 공식 판정 <span class="muted small">${rs.length}건</span></h2><div class="htlist">${rs.slice(0, 6).map(rulingCard).join("")}</div>${rs.length > 6 ? `<p><a href="#/r?tab=rulings&t=${t.slug}">판정 ${rs.length}건 모두 보기 →</a></p>` : ""}`
+          : "";
+      })()}
       ${t.notes_ko?.length ? `<h2>주의할 점</h2><ul class="notes">${t.notes_ko.map((n) => `<li>${prose(n)}</li>`).join("")}</ul>` : ""}
       ${t.sources?.length ? `<h2>출처</h2><ul class="sources">${t.sources.map((s) => `<li>${linkify(s)}</li>`).join("")}</ul>` : ""}
     `;
@@ -304,7 +312,7 @@
             .sort((a, b) => a.rank - b.rank)
             .map(
               (c) => `<div class="cp sev-${c.severity}" style="--sev-c:var(--sev-${c.severity})">
-                <p>${sevBadge(c.severity)} <b>${esc(htName(c.handtrap))}</b> <span class="muted small">혈자리 ${c.rank}순위${c.inferred ? " · 대상 카드 기준 배치" : ""}</span></p>
+                <p>${sevBadge(c.severity)} <b>${esc(htName(c.handtrap))}</b> <span class="muted small">혈자리 ${c.rank}순위${c.inferred ? " · 대상 카드 기준 배치" : ""}</span> ${rulingChips(c.rulings)}</p>
                 ${c.timing_ko ? `<p><span class="lbl">타이밍</span>${prose(c.timing_ko)}</p>` : ""}
                 <p><span class="lbl">이유</span>${prose(c.why_ko)}</p>
                 ${c.fallback_ko ? `<p><span class="lbl">맞은 뒤</span>${prose(c.fallback_ko)}</p>` : ""}
@@ -337,7 +345,7 @@
       const act = active();
       const rows = Object.entries(t.handtrap_summary).sort((a, b) => sevRank(a[1].rating) - sevRank(b[1].rating));
       document.getElementById("summary").innerHTML = rows
-        .map(([id, s]) => `<div class="sumrow ${act.has(id) ? "" : "dim"}"><div><div class="nm">${esc(htName(id))}</div>${sevBadge(s.rating)}</div><div>${prose(s.note_ko)}</div></div>`)
+        .map(([id, s]) => `<div class="sumrow ${act.has(id) ? "" : "dim"}"><div><div class="nm">${esc(htName(id))}</div>${sevBadge(s.rating)}</div><div>${prose(s.note_ko)} ${rulingChips(s.rulings)}</div></div>`)
         .join("");
     }
 
@@ -579,7 +587,7 @@
                     ? `<div class="pl-body">
                         ${where ? `<div class="pl-target">${thumb(where.s.card, "tgt")}<div><div>${card(c.target_card || where.s.card, { noEn: true })}</div><div class="muted small">${esc(where.line.title_ko)} · ${where.i + 1}단계</div></div></div>` : ""}
                         ${c.timing_ko ? `<p><span class="lbl">타이밍</span>${prose(c.timing_ko)}</p>` : ""}
-                        <p class="small">${prose(c.why_ko)}</p>
+                        <p class="small">${prose(c.why_ko)} ${rulingChips([...(c.rulings || []), ...rulingsFor({ theme: t.slug, handtrap: p.id }).map((q) => q.id)])}</p>
                         ${p.more.length ? `<p class="small muted">다른 지점: ${p.more.map((m) => `${SEV_G[m.severity]} ${esc(ko(m.target_card) || m.target_card || "")}`).join(" · ")}</p>` : ""}
                       </div>`
                     : `<div class="pl-body"><p class="small">${p.sum ? prose(p.sum.note_ko) : "이 테마 상대로 정리된 사용 지점이 없습니다."}</p></div>`
@@ -627,10 +635,10 @@
                   <div><div><b>${esc(ko(r.it.card) || r.it.card)}</b> <span class="muted small">${prose(r.it.timing_ko || "")}</span></div>
                   ${
                     r.by
-                      ? `<div class="small ans">✓ ${esc(anyName(r.by.id))} — ${prose(r.by.note_ko || "")}</div>`
+                      ? `<div class="small ans">✓ ${esc(anyName(r.by.id))} — ${prose(r.by.note_ko || "")} ${rulingChips(r.by.rulings)}</div>`
                       : `<div class="small miss">✗ 처리할 카드 없음${(r.it.answered_by || []).length ? ` · 해결 카드: ${r.it.answered_by.map((a) => esc(anyName(a.id))).join(", ")}` : ""}</div>`
                   }
-                  ${r.it.bait_ko ? `<div class="small muted">미끼: ${prose(r.it.bait_ko)}</div>` : ""}</div>
+                  ${r.it.bait_ko ? `<div class="small muted">미끼: ${prose(r.it.bait_ko)}</div>` : ""}${rulingChips(r.it.rulings)}</div>
                 </li>`
               )
               .join("")}</ul>
@@ -695,6 +703,115 @@
     window.scrollTo(0, 0);
   }
 
+  /* ---------- 공식 룰·판정 ---------- */
+  const RULE_CAT = { chain: "체인", spell_speed: "스펠 스피드", timing: "타이밍·유발", cost: "코스트", negate: "무효", summon: "소환", opt: "1턴에 1번", damage_step: "데미지 스텝", misc: "기타" };
+  const rulingTip = (q) => `공식 판정 ${q.id}\nQ. ${stripBr(q.question_ko)}\nA. ${stripBr(q.answer_ko)}`;
+  // ids: 명시된 판정 id 목록. 같은 판정을 여러 번 그리지 않도록 호출하는 쪽에서 모아 넘긴다.
+  const rulingChips = (ids) => {
+    const list = [...new Set(ids || [])].map((id) => RQ[id]).filter(Boolean);
+    if (!list.length) return "";
+    return `<span class="rqs">${list
+      .map((q) => `<a class="rq" href="${esc(q.url)}" target="_blank" rel="noopener" data-tip="${esc(rulingTip(q))}">📘 ${q.official === false ? "비공식" : "공식 판정"}</a>`)
+      .join("")}</span>`;
+  };
+  const rulingsFor = ({ theme, handtrap, card } = {}) =>
+    (D.rulings || []).filter(
+      (q) => (!theme || (q.themes || []).includes(theme)) && (!handtrap || (q.handtraps || []).includes(handtrap)) && (!card || (q.cards || []).includes(card))
+    );
+  const rulingCard = (q) => `<article class="ruling" id="r-${esc(q.id)}">
+      <div class="r-head">${(q.cards || []).slice(0, 3).map((c) => thumb(c)).join("")}
+        <span class="pill">${esc(RULE_CAT[q.topic] || q.topic || "판정")}</span>
+        ${q.official === false ? `<span class="pill">비공식</span>` : ""}
+        <a class="small" href="${esc(q.url)}" target="_blank" rel="noopener">KONAMI Q&amp;A ${q.fid ? "#" + q.fid : ""} ↗</a></div>
+      <p class="q"><b>Q.</b> ${prose(q.question_ko)}</p>
+      <p class="a"><b>A.</b> ${prose(q.answer_ko)}</p>
+      ${q.quote_ja ? `<p class="ja small muted">「${esc(q.quote_ja)}」</p>` : ""}
+      ${q.impact_ko ? `<p class="small impact">→ ${prose(q.impact_ko)}</p>` : ""}
+      ${(q.themes || []).length ? `<div class="small muted">관련 테마: ${q.themes.map((s) => { const t = D.themes.find((x) => x.slug === s); return t ? `<a href="#/t/${s}">${esc(t.name.ko)}</a>` : esc(s); }).join(" · ")}</div>` : ""}
+    </article>`;
+
+  function renderRules(params) {
+    app.onclick = null;
+    app.oninput = null;
+    const state = { q: params.get("q") || "", tab: params.get("tab") || "rules", ht: params.get("ht") || "", theme: params.get("t") || "" };
+    const srcLink = (s) => {
+      const src = D.rule_sources?.[s.id];
+      return src ? `<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.title)}</a>${s.locator ? ` <span class="muted">· ${esc(s.locator)}</span>` : ""}` : esc(s.id);
+    };
+    app.innerHTML = `
+      <h1>룰·판정 <span class="en">공식 룰북 · KONAMI 공식 Q&amp;A</span></h1>
+      <p class="lede">패트랩 실전에 필요한 체인·타이밍 규칙과 카드별 공식 판정을 모았습니다. 모든 항목에 출처 링크가 있습니다.
+      마스터 듀얼은 OCG 판정(KONAMI 공식 Q&amp;A)을 따릅니다. 판정 원문은 일본어이고, 여기 적힌 건 한국어 요약입니다.</p>
+      <div class="tabs" role="tablist">
+        <button class="tab" role="tab" data-rtab="rules">기본 룰 (${(D.rules || []).length})</button>
+        <button class="tab" role="tab" data-rtab="rulings">카드 판정 (${(D.rulings || []).length})</button>
+      </div>
+      <div class="play-top"><input id="ruleSearch" class="search" type="search" placeholder="검색 (예: 체인, 우라라, 코스트, 엘펜노츠)" autocomplete="off" value="${esc(state.q)}"></div>
+      <div id="ruleFilters"></div>
+      <div id="ruleOut"></div>`;
+
+    const match = (txt) => !state.q || state.q.toLowerCase().split(/\s+/).every((w) => txt.toLowerCase().includes(w));
+    const draw = () => {
+      app.querySelectorAll("[data-rtab]").forEach((b) => b.setAttribute("aria-selected", b.dataset.rtab === state.tab));
+      const q = new URLSearchParams();
+      if (state.tab !== "rules") q.set("tab", state.tab);
+      if (state.q) q.set("q", state.q);
+      if (state.ht) q.set("ht", state.ht);
+      if (state.theme) q.set("t", state.theme);
+      history.replaceState(null, "", "#/r" + (q.toString() ? "?" + q : ""));
+      const out = document.getElementById("ruleOut");
+      const filt = document.getElementById("ruleFilters");
+      if (state.tab === "rules") {
+        filt.innerHTML = "";
+        const groups = {};
+        (D.rules || [])
+          .filter((r) => match([r.title_ko, r.body_ko, r.handtrap_ko, RULE_CAT[r.category]].join(" ")))
+          .forEach((r) => (groups[r.category] = groups[r.category] || []).push(r));
+        out.innerHTML =
+          Object.keys(RULE_CAT)
+            .filter((c) => groups[c])
+            .map(
+              (c) => `<h2>${esc(RULE_CAT[c])}</h2><div class="htlist">${groups[c]
+                .map(
+                  (r) => `<article class="ht" id="rule-${esc(r.id)}"><h3>${esc(r.title_ko)}</h3>
+                    <p class="small">${prose(r.body_ko)}</p>
+                    ${r.handtrap_ko ? `<p class="small impact">패트랩 실전: ${prose(r.handtrap_ko)}</p>` : ""}
+                    <div class="small muted">출처: ${(r.sources || []).map(srcLink).join(" / ")}</div></article>`
+                )
+                .join("")}</div>`
+            )
+            .join("") || `<p class="muted">${D.rules?.length ? "검색 결과가 없습니다." : "데이터 준비 중입니다."}</p>`;
+      } else {
+        const hts = [...new Set((D.rulings || []).flatMap((q) => q.handtraps || []))].filter((id) => anyCard(id));
+        filt.innerHTML = `<div class="chips">${['<button class="chip sub" data-rht="" aria-pressed="' + !state.ht + '">전체</button>', ...hts.map((id) => `<button class="chip sub" data-rht="${id}" aria-pressed="${state.ht === id}">${esc(anyName(id))}</button>`)].join("")}</div>
+          <div class="chips"><button class="chip sub" data-rth="" aria-pressed="${!state.theme}">모든 테마</button>${D.themes
+            .filter((t) => (D.rulings || []).some((q) => (q.themes || []).includes(t.slug)))
+            .map((t) => `<button class="chip sub" data-rth="${t.slug}" aria-pressed="${state.theme === t.slug}">${esc(t.name.ko)}</button>`)
+            .join("")}</div>`;
+        const list = (D.rulings || []).filter(
+          (q) =>
+            (!state.ht || (q.handtraps || []).includes(state.ht)) &&
+            (!state.theme || (q.themes || []).includes(state.theme)) &&
+            match([q.question_ko, q.answer_ko, q.impact_ko, ...(q.cards || []), ...(q.cards || []).map((c) => ko(c) || ""), ...(q.handtraps || []).map(anyName)].join(" "))
+        );
+        out.innerHTML = list.length ? `<div class="htlist">${list.map(rulingCard).join("")}</div>` : `<p class="muted">${D.rulings?.length ? "검색 결과가 없습니다." : "데이터 준비 중입니다."}</p>`;
+      }
+    };
+    app.onclick = (e) => {
+      const t = e.target.closest("[data-rtab]"), h = e.target.closest("[data-rht]"), th = e.target.closest("[data-rth]");
+      if (t) state.tab = t.dataset.rtab;
+      else if (h) state.ht = h.dataset.rht;
+      else if (th) state.theme = th.dataset.rth;
+      else return;
+      draw();
+    };
+    app.oninput = (e) => {
+      if (e.target.id === "ruleSearch") { state.q = e.target.value.trim(); draw(); }
+    };
+    draw();
+    window.scrollTo(0, 0);
+  }
+
   /* ---------- handtrap dictionary ---------- */
   function renderHandtraps() {
     app.onclick = null;
@@ -711,6 +828,7 @@
             <h3>${card(h.card)} <span class="muted small">· ${esc(h.short_ko)}</span></h3>
             <div class="small">${prose(h.note_ko)}</div>
             ${h.hits.length ? `<div class="small muted" style="margin-top:4px">대응: ${h.hits.map((c) => esc(D.effect_classes[c])).join(" · ")}</div>` : ""}
+            ${(() => { const n = rulingsFor({ handtrap: h.id }).length; return n ? `<div class="small" style="margin-top:4px"><a href="#/r?tab=rulings&ht=${h.id}">📘 공식 판정 ${n}건 →</a></div>` : ""; })()}
             <div class="row">${rated
               .map((t) => {
                 const r = t.handtrap_summary[h.id].rating;
@@ -791,6 +909,7 @@
       D.themes.sort((a, b) => (b.meta.share || 0) - (a.meta.share || 0));
       D.handtraps.forEach((h) => (HT[h.id] = h));
       (D.breakers || []).forEach((b) => (BK[b.id] = b));
+      (D.rulings || []).forEach((q) => (RQ[q.id] = q));
       window.addEventListener("hashchange", route);
       route();
     })

@@ -322,3 +322,12 @@ table.heat tr.kind th { text-align: left; padding: 10px 8px 2px; color: var(--mu
 #playOut > * { min-width: 0; }
 .break .chips { flex-wrap: wrap; overflow: visible; }
 .break .chip { white-space: normal; text-align: left; }
+
+/* rules & rulings */
+.rqs { display: inline-flex; flex-wrap: wrap; gap: 4px; vertical-align: middle; }
+.rq { font-size: 11px; font-weight: 700; padding: 0 7px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 14%, var(--surface)); color: var(--accent); white-space: nowrap; text-decoration: none !important; }
+.ruling { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
+.ruling .r-head { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px; }
+.ruling .q, .ruling .a { margin: 4px 0; font-size: 14px; }
+.ruling .ja { margin: 4px 0; }
+.impact { color: var(--text-2); }
