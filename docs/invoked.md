@@ -55,7 +55,7 @@
    - 맞은 뒤 상대 루트: 파괴된 알레이스터는 묘지에 있으므로 다른 경로로 소환마술 (Invocation)을 잡으면 묘지의 알레이스터를 제외해 융합 소재로 쓴다. 감마·드라이버가 필드에 남아 이번 턴 마루챠미는 못 쓴다.
 4. 🔴 치명 **도미나스 퍼지** (Dominus Purge) → **추억의 알레이스터** (Aleister the Reminiscent) — rem1 2단계
    - 타이밍: 추억의 알레이스터 (Aleister the Reminiscent)의 서치 효과 발동에 직접 체인(상대 필드에 추억의 알레이스터가 있어 패에서 발동 가능)
-   - 이유: 우라라와 같다. 서치가 무효가 되어 소환마술－「검」 (Invocation - "Sword")가 없고 소환수 소라트 (Invoked Sorath)가 안 나온다. '효과 무효'라서 폭주마법진 (Magical Meltdown)의 '발동 무효 불가'와 상관없다.
+   - 이유: 우라라와 같다. 서치가 무효가 되어 소환마술－「검」 (Invocation - "Sword")이 없고 소환수 소라트 (Invoked Sorath)가 안 나온다. '효과 무효'라서 폭주마법진 (Magical Meltdown)의 '발동 무효 불가'와 상관없다.
    - 맞은 뒤 상대 루트: 코스트로 제외한 소환수는 그대로 제외된다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다. 초동 서치를 놓쳤다면 13단계 소환수 베이발론 (Invoked Baybarron)의 인공신령 비라캄 (Virakam, the Divine Spirit of Artifice) 서치에.
 5. 🔴 치명 **도미나스 퍼지** (Dominus Purge) → **소환사 알레이스터** (Aleister the Invoker) — inv15 2단계
    - 타이밍: 소환사 알레이스터 (Aleister the Invoker)의 일반 소환 유발(소환마술 (Invocation) 서치)에 직접 체인
@@ -111,7 +111,7 @@
    - 맞은 뒤 상대 루트: 폭주마법진 (Magical Meltdown)이 앞면이고 베이발론을 낸 크로울리 융합이 체인 1로 끝났다면, 그 소환 유발에는 체인할 수 없다. 그때는 10단계 장착된 아르테미스의 크로울리 서치에 쓴다.
 18. 🟠 아픔 **이펙트 뵐러** (Effect Veiler) → **추억의 알레이스터** (Aleister the Reminiscent) — rem1 2단계
    - 타이밍: 추억의 알레이스터 (Aleister the Reminiscent)의 소환 유발(서치) 발동에 이펙트 뵐러 (Effect Veiler)로 그 알레이스터를 지정. 직접 체인할 필요는 없다(체인 끝에 놓아도 된다)
-   - 이유: 필드에서 발동한 효과라 알레이스터가 무효가 되면 서치도 처리되지 않는다. 우라라와 같은 결과로 소환마술－「검」 (Invocation - "Sword")가 없다. 상대 메인 페이즈라 쓸 수 있다.
+   - 이유: 필드에서 발동한 효과라 알레이스터가 무효가 되면 서치도 처리되지 않는다. 우라라와 같은 결과로 소환마술－「검」 (Invocation - "Sword")이 없다. 상대 메인 페이즈라 쓸 수 있다.
    - 맞은 뒤 상대 루트: 초동이 여러 장 보이면 4단계 소라트 소생에 아껴 두는 편이 안정적이다. 코스트로 제외한 소환수는 그대로 제외된다.
 19. 🟠 아픔 **이펙트 뵐러** (Effect Veiler) → **소환수 소라트** (Invoked Sorath) — rem1 4단계
    - 타이밍: 소환수 소라트 (Invoked Sorath)가 묘지의 추억의 알레이스터를 소생하는 퀵 효과를 발동했을 때 소라트에 이펙트 뵐러 (Effect Veiler). 비라캄이 나오기 전이라 보호받지 않는다
@@ -166,7 +166,7 @@
    - 이유: 엔디미온·소라트가 릴리스되어 장착(아르테미스 서치) → 크로울리 → 베이발론 → 비라캄이 끊긴다.
    - 맞은 뒤 상대 루트: 소라트 묘지 효과로 소라트 + 묘지의 알레이스터를 제외해 소환수 메르카바 (Invoked Mechaba) 1장은 남는다.
 32. 🟡 할만함 **사요 시구레** (Ghost Mourner & Moonlit Chill) → **소환수 소라트** (Invoked Sorath) — rem1 3단계
-   - 타이밍: 소환마술－「검」 (Invocation - "Sword")로 소환수 소라트 (Invoked Sorath)가 융합 소환된 직후 사요 시구레 (Ghost Mourner & Moonlit Chill)로 소라트를 지정
+   - 타이밍: 소환마술－「검」 (Invocation - "Sword")으로 소환수 소라트 (Invoked Sorath)가 융합 소환된 직후 사요 시구레 (Ghost Mourner & Moonlit Chill)로 소라트를 지정
    - 이유: 소라트 효과가 이번 턴 무효라 4단계 소생 퀵 효과를 쓸 수 없다. 포영과 같은 하프 보드.
    - 맞은 뒤 상대 루트: 소라트가 링크 소재 등으로 필드를 떠나면 묘지 효과는 쓸 수 있고, 그때 상대가 소라트 원래 공격력만큼 데미지를 받는다. 폭주마법진 (Magical Meltdown)이 앞면이고 그 융합이 체인 1로 끝났다면 소환 성공 시점에 발동할 수 없다.
 33. 🟡 할만함 **사요 시구레** (Ghost Mourner & Moonlit Chill) → **소환수 베이발론** (Invoked Baybarron) — rem1 12단계
