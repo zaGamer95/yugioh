@@ -69,7 +69,7 @@
    - 맞은 뒤 상대 루트: 디아벨 싱크로 + 일리아 실비아 정도에서 멈추는 경우가 많다.
 9. 🟠 아픔 **마루챠미 후와로스** (Mulcharmy Fuwalos) → **하얀 숲의 마성 루시엘라** (Rciela, Sinister Soul of the White Forest) — wfa 4단계
    - 타이밍: 첫 엑스트라 덱 특소(루시엘라 싱크로) 전에, 내 필드가 빈 상태로 사용
-   - 이유: 백림 아자미나의 특소는 대부분 엑스트라 덱(싱크로·아자미나 융합). 패 특소 위주인 앞부분만 지나면 G와 비슷한 압박.
+   - 이유: 백림 아자미나의 특소는 대부분 엑스트라 덱(싱크로·아자미나 융합). 패 특소 위주인 앞부분만 지나면 증G와 비슷한 압박.
    - 맞은 뒤 상대 루트: 엔드 페이즈 패 매수 제한이 있으니 상대가 일찍 멈추면 이득이 작다.
 10. 🟡 할만함 **저택 와라시** (Ghost Belle & Haunted Mansion) → **단죄의 디아벨스타** (Diabellstar Vengeance) — wfa 25단계
    - 타이밍: 벤전스의 묘지 특소 효과에 체인(또는 17단계 실비의 묘지 특소)
@@ -105,14 +105,14 @@
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
 | 1 | “죄보사냥의 악마” (WANTED: Seeker of Sinful Spoils) | 속공 마법 발동: 덱(또는 묘지)에서 디아벨스타 서치 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) 서치 | 우라라, 드롤, 도미나스 퍼지 |
-| 2 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 패/필드의 카드 1장을 묘지로 보내고 패에서 특소(효과 발동이 아닌 소환 규칙) |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 3 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 특소 성공 시 효과: 덱에서 '죄보' 마함 1장 세트 | 죄보의 기만 (Deception of the Sinful Spoils) 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 2 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 패/필드의 카드 1장을 묘지로 보내고 패에서 특소(효과 발동이 아닌 소환 규칙) |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 3 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 특소 성공 시 효과: 덱에서 '죄보' 마함 1장 세트 | 죄보의 기만 (Deception of the Sinful Spoils) 세트 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 4 | 죄보의 기만 (Deception of the Sinful Spoils) | 세트한 기만을 앞면으로 발동(카드 발동만, 효과 없음) |  | – |
 | 5 | 죄보의 기만 (Deception of the Sinful Spoils) | ① 효과: 패/필드 몬스터 1장 릴리스 → 덱에서 '아자미나' 카드 서치 | 성스러운 아자미나 (The Hallowed Azamina) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
-| 6 | 성스러운 아자미나 (The Hallowed Azamina) | 일반 마법: 필드의 기만('죄보' 카드)을 묘지로 보내고 레벨 6 아자미나 융합체 특소(융합 소환 취급) | 아자미나 레아 실비아 (Azamina Ilia Silvia)(견제) 또는 서치가 필요하면 아자미나 무 루시엘라고 (Azamina Mu Rcielago). 기만은 엔드 페이즈에 재세트 | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 7 | 멸망의 흑마술사 (Dark Magician of Destruction) | 이번 턴 마법을 발동했으므로 필드의 디아벨스타를 제외해 엑스트라 덱에서 특소(소환 규칙) |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 8 | 멸망의 흑마술사 (Dark Magician of Destruction) | 특소 성공 시 효과: 덱에서 '블랙 매지션' 또는 그 이름이 적힌 카드 서치 | 티마이오스의 안광 (The Gaze of Timaeus) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 9 | 티마이오스의 안광 (The Gaze of Timaeus) | 속공 마법: 파괴의 흑마술사(필드에서 '블랙 매지션' 취급)를 덱에 넣고 융합 소환 | 초마도용기사－붉은 눈의 드라군 (Red-Eyes Dark Dragoon) (다음 턴 엔드 페이즈에 제외) | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 6 | 성스러운 아자미나 (The Hallowed Azamina) | 일반 마법: 필드의 기만('죄보' 카드)을 묘지로 보내고 레벨 6 아자미나 융합체 특소(융합 소환 취급) | 아자미나 레아 실비아 (Azamina Ilia Silvia)(견제) 또는 서치가 필요하면 아자미나 무 루시엘라고 (Azamina Mu Rcielago). 기만은 엔드 페이즈에 재세트 | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 7 | 멸망의 흑마술사 (Dark Magician of Destruction) | 이번 턴 마법을 발동했으므로 필드의 디아벨스타를 제외해 엑스트라 덱에서 특소(소환 규칙) |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 8 | 멸망의 흑마술사 (Dark Magician of Destruction) | 특소 성공 시 효과: 덱에서 '블랙 매지션' 또는 그 이름이 적힌 카드 서치 | 티마이오스의 안광 (The Gaze of Timaeus) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 9 | 티마이오스의 안광 (The Gaze of Timaeus) | 속공 마법: 파괴의 흑마술사(필드에서 '블랙 매지션' 취급)를 덱에 넣고 융합 소환 | 초마도용기사－붉은 눈의 드라군 (Red-Eyes Dark Dragoon) (다음 턴 엔드 페이즈에 제외) | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 
 **최종 필드 / 견제**: 초마도용기사－붉은 눈의 드라군 (Red-Eyes Dark Dragoon), 아자미나 레아 실비아 (Azamina Ilia Silvia), 죄보의 기만 (Deception of the Sinful Spoils)
 
@@ -126,31 +126,31 @@ MDM 덱 메모(2025-11 Master V)의 '베스트 케이스' 흐름을 카드 텍�
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
-| 1 | 하얀 숲의 리제트 (Elzette of the White Forest) | 패/필드 마함 1장을 묘지로 보내고 자신을 패에서 특소, 그 후 덱에서 '백림' 몬스터 서치 | 하얀 숲의 실비 (Silvy of the White Forest) 서치 | 우라라, G, 푸루리아, 드롤, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 퍼지, 도미나스 스파크, 감마 |
+| 1 | 하얀 숲의 리제트 (Elzette of the White Forest) | 패/필드 마함 1장을 묘지로 보내고 자신을 패에서 특소, 그 후 덱에서 '백림' 몬스터 서치 | 하얀 숲의 실비 (Silvy of the White Forest) 서치 | 우라라, 증G, 푸루리아, 드롤, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 퍼지, 도미나스 스파크, 감마 |
 | 2 | 하얀 숲의 실비 (Silvy of the White Forest) | 일반 소환 |  | 푸루리아, 니비루 |
-| 3 | 하얀 숲의 실비 (Silvy of the White Forest) | 소환 성공 시 효과: 덱에서 '백림' 마함 서치 | 하얀 숲의 전해져오는 이야기 (Tales of the White Forest) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 4 | 하얀 숲의 마성 루시엘라 (Rciela, Sinister Soul of the White Forest) | 실비(레벨 4 튜너) + 엘제트(레벨 2)로 레벨 6 싱크로 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 5 | 하얀 숲의 마성 루시엘라 (Rciela, Sinister Soul of the White Forest) | 특소 시 효과: 패의 하얀 숲의 전해져오는 이야기 (Tales of the White Forest)를 보내고 '백림' 카드 서치 | 백마녀 디아벨제 (Diabellze the White Witch) 서치. 비용으로 보낸 전해짐은 자기 효과로 다시 세트 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 3 | 하얀 숲의 실비 (Silvy of the White Forest) | 소환 성공 시 효과: 덱에서 '백림' 마함 서치 | 하얀 숲의 전해져오는 이야기 (Tales of the White Forest) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 4 | 하얀 숲의 마성 루시엘라 (Rciela, Sinister Soul of the White Forest) | 실비(레벨 4 튜너) + 엘제트(레벨 2)로 레벨 6 싱크로 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 5 | 하얀 숲의 마성 루시엘라 (Rciela, Sinister Soul of the White Forest) | 특소 시 효과: 패의 하얀 숲의 전해져오는 이야기 (Tales of the White Forest)를 보내고 '백림' 카드 서치 | 백마녀 디아벨제 (Diabellze the White Witch) 서치. 비용으로 보낸 전해짐은 자기 효과로 다시 세트 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
 | 6 | 하얀 숲의 전해져오는 이야기 (Tales of the White Forest) | 다시 세트한 전해짐 발동: 덱에서 '백림' 몬스터 서치 | 하얀 숲의 아자미나 리제트 (Elzette, Azamina of the White Forest) 서치 | 우라라, 드롤, 도미나스 퍼지 |
-| 7 | 하얀 숲의 아자미나 리제트 (Elzette, Azamina of the White Forest) | 패에서 공개하고 자신을 특소 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 8 | 하얀 숲의 요마 디아벨 (Diabell, Queen of the White Forest) | 루시엘라(레벨 6 튜너 싱크로) + 성도 엘제트(레벨 2)로 레벨 8 싱크로 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 7 | 하얀 숲의 아자미나 리제트 (Elzette, Azamina of the White Forest) | 패에서 공개하고 자신을 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 8 | 하얀 숲의 요마 디아벨 (Diabell, Queen of the White Forest) | 루시엘라(레벨 6 튜너 싱크로) + 성도 엘제트(레벨 2)로 레벨 8 싱크로 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 9 | 하얀 숲의 아자미나 리제트 (Elzette, Azamina of the White Forest) | 싱크로 소재로 묘지에 가서 발동: 덱에서 '죄보' 카드 서치 | 죄보의 기만 (Deception of the Sinful Spoils) 서치 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
-| 10 | 하얀 숲의 요마 디아벨 (Diabell, Queen of the White Forest) | 튜너 싱크로를 소재로 싱크로 소환된 경우 발동(8단계에 체인): 묘지의 마함 1장을 패에 넣음 | 비용으로 쓴 마함 회수(이후 디아벨제 비용 등) | 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마 |
+| 10 | 하얀 숲의 요마 디아벨 (Diabell, Queen of the White Forest) | 튜너 싱크로를 소재로 싱크로 소환된 경우 발동(8단계에 체인): 묘지의 마함 1장을 패에 넣음 | 비용으로 쓴 마함 회수(이후 디아벨제 비용 등) | 포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마 |
 | 11 | 죄보의 기만 (Deception of the Sinful Spoils) | 발동 후 ① 효과: 패의 필요 없는 몬스터 1장 릴리스 → '아자미나' 카드 서치 | 성스러운 아자미나 (The Hallowed Azamina) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
-| 12 | 성스러운 아자미나 (The Hallowed Azamina) | 기만을 묘지로 보내고 레벨 6 아자미나 융합체 특소 | 아자미나 무 루시엘라고 (Azamina Mu Rcielago) | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 13 | 아자미나 무 루시엘라고 (Azamina Mu Rcielago) | 융합 소환 시 효과: '아자미나'/'죄보' 카드 서치 | “죄보사냥의 악마” (WANTED: Seeker of Sinful Spoils) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 12 | 성스러운 아자미나 (The Hallowed Azamina) | 기만을 묘지로 보내고 레벨 6 아자미나 융합체 특소 | 아자미나 무 루시엘라고 (Azamina Mu Rcielago) | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 13 | 아자미나 무 루시엘라고 (Azamina Mu Rcielago) | 융합 소환 시 효과: '아자미나'/'죄보' 카드 서치 | “죄보사냥의 악마” (WANTED: Seeker of Sinful Spoils) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
 | 14 | 성스러운 아자미나 (The Hallowed Azamina) | 묘지 효과: 묘지의 성도 엘제트(아자미나 몬스터)를 덱에 넣고 자신을 패로 |  | 와라시, 마그나무트 |
-| 15 | 성스러운 아자미나 (The Hallowed Azamina) | 다시 발동하고 체인으로 WANTED 발동. 체인 처리 중 필드에 남아 있는 WANTED를 '죄보' 카드로 보내 융합체 특소 | 아자미나 레아 실비아 (Azamina Ilia Silvia) | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 15 | 성스러운 아자미나 (The Hallowed Azamina) | 다시 발동하고 체인으로 WANTED 발동. 체인 처리 중 필드에 남아 있는 WANTED를 '죄보' 카드로 보내 융합체 특소 | 아자미나 레아 실비아 (Azamina Ilia Silvia) | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 16 | “죄보사냥의 악마” (WANTED: Seeker of Sinful Spoils) | (15단계에 체인) 덱에서 디아벨스타 서치 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) 서치 | 우라라, 드롤, 도미나스 퍼지 |
-| 17 | 하얀 숲의 실비 (Silvy of the White Forest) | 묘지에서 퀵 효과: 묘지의 루시엘라를 엑스트라 덱으로 되돌리고 자신을 특소(효과 무효) |  | G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 18 | 플뢰르 드 바로네스 (Baronne de Fleur) | 무 르시엘라고(레벨 6) + 실비(레벨 4 튜너)로 레벨 10 싱크로 | 또는 카오스 앙헬－혼돈의 쌍익－ (Chaos Angel) | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 19 | 백마녀 디아벨제 (Diabellze the White Witch) | 패/필드 마함 1장을 보내고 패에서 특소 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 20 | 백마녀 디아벨제 (Diabellze the White Witch) | 소환 시 효과: 덱에서 '죄보'/'디아벨' 카드 1장을 묘지로 | 커스 오브 디아벨 (Curse of Diabell) 덤핑 | 우라라, 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 17 | 하얀 숲의 실비 (Silvy of the White Forest) | 묘지에서 퀵 효과: 묘지의 루시엘라를 엑스트라 덱으로 되돌리고 자신을 특소(효과 무효) |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 18 | 플뢰르 드 바로네스 (Baronne de Fleur) | 무 르시엘라고(레벨 6) + 실비(레벨 4 튜너)로 레벨 10 싱크로 | 또는 카오스 앙헬－혼돈의 쌍익－ (Chaos Angel) | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 19 | 백마녀 디아벨제 (Diabellze the White Witch) | 패/필드 마함 1장을 보내고 패에서 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 20 | 백마녀 디아벨제 (Diabellze the White Witch) | 소환 시 효과: 덱에서 '죄보'/'디아벨' 카드 1장을 묘지로 | 커스 오브 디아벨 (Curse of Diabell) 덤핑 | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 21 | 커스 오브 디아벨 (Curse of Diabell) | 덱에서 묘지로 보내졌을 때 효과: 덱에서 '디아벨' 마함 서치 | 필리어스 디아벨 (Filia Diabell) 서치 | 우라라, 드롤, 도미나스 퍼지 |
 | 22 | 필리어스 디아벨 (Filia Diabell) | 일반 마법: 덱에서 레벨 8 이상 '디아벨' 몬스터 서치 | 단죄의 디아벨스타 (Diabellstar Vengeance) 서치 | 우라라, 드롤, 도미나스 퍼지 |
-| 23 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 패의 단죄의 디아벨스타 (Diabellstar Vengeance)를 묘지로 보내고 패에서 특소(소환 규칙) |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 24 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 소환 시 효과: 덱에서 '죄보' 마함 세트 | 졸음의 죄보－모리안 (Sinful Spoils of Slumber - Morrian) 또는 배신의 죄보－실비아 (Sinful Spoils of Betrayal - Silvera) 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 25 | 단죄의 디아벨스타 (Diabellstar Vengeance) | 묘지의 필리어스 디아벨 (Filia Diabell)(마법)과 커스 오브 디아벨 (Curse of Diabell)(함정)을 제외하고 묘지에서 특소 | 필리아가 제외되어 디아벨 몬스터 공격력 500 상승 | G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 23 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 패의 단죄의 디아벨스타 (Diabellstar Vengeance)를 묘지로 보내고 패에서 특소(소환 규칙) |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 24 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 소환 시 효과: 덱에서 '죄보' 마함 세트 | 졸음의 죄보－모리안 (Sinful Spoils of Slumber - Morrian) 또는 배신의 죄보－실비아 (Sinful Spoils of Betrayal - Silvera) 세트 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 25 | 단죄의 디아벨스타 (Diabellstar Vengeance) | 묘지의 필리어스 디아벨 (Filia Diabell)(마법)과 커스 오브 디아벨 (Curse of Diabell)(함정)을 제외하고 묘지에서 특소 | 필리아가 제외되어 디아벨 몬스터 공격력 500 상승 | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
 
 **최종 필드 / 견제**: 하얀 숲의 요마 디아벨 (Diabell, Queen of the White Forest), 아자미나 레아 실비아 (Azamina Ilia Silvia), 플뢰르 드 바로네스 (Baronne de Fleur), 백마녀 디아벨제 (Diabellze the White Witch), 흑마녀 디아벨스타 (Diabellstar the Black Witch), 단죄의 디아벨스타 (Diabellstar Vengeance), 졸음의 죄보－모리안 (Sinful Spoils of Slumber - Morrian)
 
@@ -164,17 +164,17 @@ MDM 덱 메모(2025-11 Master V)의 '베스트 케이스' 흐름을 카드 텍�
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
-| 1 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 패/필드 카드 1장을 보내고 패에서 특소 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 2 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 소환 시 효과: 덱에서 '죄보' 마함 세트 | 원죄보－스네이크아이 (Original Sinful Spoils - Snake-Eye) 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 3 | 원죄보－스네이크아이 (Original Sinful Spoils - Snake-Eye) | 발동: 디아벨스타(자신 이외의 앞면 카드)를 묘지로 보내고 패/덱에서 레벨 1 화염 몬스터 특소 | 스네이크아이 엑셀 (Snake-Eye Ash) 특소 | 우라라, G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 4 | 스네이크아이 엑셀 (Snake-Eye Ash) | 특소 시 효과: 덱에서 레벨 1 화염 몬스터 서치 | 스네이크아이 오크 (Snake-Eye Oak) 등 서치 → 스네이크아이 전개로 이어짐 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 1 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 패/필드 카드 1장을 보내고 패에서 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 2 | 흑마녀 디아벨스타 (Diabellstar the Black Witch) | 소환 시 효과: 덱에서 '죄보' 마함 세트 | 원죄보－스네이크아이 (Original Sinful Spoils - Snake-Eye) 세트 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 3 | 원죄보－스네이크아이 (Original Sinful Spoils - Snake-Eye) | 발동: 디아벨스타(자신 이외의 앞면 카드)를 묘지로 보내고 패/덱에서 레벨 1 화염 몬스터 특소 | 스네이크아이 엑셀 (Snake-Eye Ash) 특소 | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 4 | 스네이크아이 엑셀 (Snake-Eye Ash) | 특소 시 효과: 덱에서 레벨 1 화염 몬스터 서치 | 스네이크아이 오크 (Snake-Eye Oak) 등 서치 → 스네이크아이 전개로 이어짐 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
 
 ## 주의할 점
 
 - 디아벨스타의 패 특소는 효과 발동이 아니라 소환 규칙이다. 우라라·포영으로 막을 수 없고, 특소 '후' 세트 효과에만 포영·뵐러를 쓴다.
 - 디아벨스타의 세트 효과는 서치가 아니어서 우라라·드롤·퍼지 모두 반응하지 않는다.
 - 디아벨스타는 '상대 턴에' 패/필드에서 묘지로 가면 자체 소생한다. 상대 턴에 흑마녀 디아벨스타 (Diabellstar the Black Witch)를 묘지로 보내는 제거는 역이용될 수 있다.
-- 할로우드 아자미나·아자미나 채무자의 융합체 특소는 엑스트라 덱 특소라 우라라 대상이 아니다(G·후와로스·임펄스는 가능).
+- 할로우드 아자미나·아자미나 채무자의 융합체 특소는 엑스트라 덱 특소라 우라라 대상이 아니다(증G·후와로스·임펄스는 가능).
 - 레드아이즈 다크 드래군은 대상 불가·효과 파괴 불가. 제거는 비대상 무효(일적 등)나 릴리스·제외로.
 - 백림 아자미나는 백마녀 디아벨제 (Diabellze the White Witch)가 있으면 디아벨 몬스터 2장 이상일 때 효과 파괴가 통하지 않는다. 디아벨제를 먼저 처리하거나 파괴 외 수단을 쓴다.
 

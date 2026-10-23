@@ -6,7 +6,7 @@
 
 ## 한눈에 보기
 
-어둠 사이버스 Lv3 몬스터들이 '제외되면 스스로 특소/회수'하는 효과를 굴려 링크를 계속 쌓는 덱. M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)·M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)·M∀LICE IN UNDERGROUND (Maliss in Underground)가 1장 초동이고, 백업＠이그니스터 (Backup @Ignister)·위저드＠이그니스터 (Wizard @Ignister)로 몸을 보충해 M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)·M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter)·어코드 토커＠이그니스터 (Allied Code Talker @Ignister)로 끝낸다. MD에서는 M∀LICE&lt;Q&gt;RED RANSOM (Maliss Q Red Ransom)이 금지라 필드 마법 서치 루트가 없고, M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)·M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)·M∀LICE&lt;P&gt;Cheshire Cat (Maliss P Chessy Cat)·M∀LICE IN UNDERGROUND (Maliss in Underground)가 제한 1이라 초동 수가 OCG보다 적다. 약점은 초동 몬스터 효과 무효(포영·뵐러)와, 제외 상태에서 특소하는 횟수가 많아 G·메오루스에 약하다는 점. 반대로 우라라는 첫 동작(덱 제외·함정 세트)에 맞지 않는다.
+어둠 사이버스 Lv3 몬스터들이 '제외되면 스스로 특소/회수'하는 효과를 굴려 링크를 계속 쌓는 덱. M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)·M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)·M∀LICE IN UNDERGROUND (Maliss in Underground)가 1장 초동이고, 백업＠이그니스터 (Backup @Ignister)·위저드＠이그니스터 (Wizard @Ignister)로 몸을 보충해 M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)·M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter)·어코드 토커＠이그니스터 (Allied Code Talker @Ignister)로 끝낸다. MD에서는 M∀LICE&lt;Q&gt;RED RANSOM (Maliss Q Red Ransom)이 금지라 필드 마법 서치 루트가 없고, M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)·M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)·M∀LICE&lt;P&gt;Cheshire Cat (Maliss P Chessy Cat)·M∀LICE IN UNDERGROUND (Maliss in Underground)가 제한 1이라 초동 수가 OCG보다 적다. 약점은 초동 몬스터 효과 무효(포영·뵐러)와, 제외 상태에서 특소하는 횟수가 많아 증G·메오루스에 약하다는 점. 반대로 우라라는 첫 동작(덱 제외·함정 세트)에 맞지 않는다.
 
 ### 패트랩 상성 요약
 
@@ -29,7 +29,7 @@
 | 금지된 일적 (Forbidden Droplet) | 🟡 할만함 | 후공 돌파용. 하트 크립터·올라이드 무효에. 함정을 보내면 상대가 M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 등 함정으로 체인 못 함 |
 | 삼전의 재 (Triple Tactics Talent) | 🟡 할만함 | 후공용. 상대가 내 턴에 하트 크립터·올라이드 효과를 쓰면 발동 조건 성립 |
 | 유령토끼 (Ghost Ogre & Snow Rabbit) | ⚪ 약함 | 파괴라 효과는 처리됨. M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) 트리거에 써서 묘지로 보내는 정도(제외가 아니라 부활 트리거 없음). 위키드는 링크 소환이면 파괴 내성 |
-| 말살의 지명자 (Crossout Designator) | ⛔ 비추 | 자기 메인 덱에 있는 카드명만 선언 가능해서 M∀LICE 카드에는 못 씀. 공용 카드(우라라·G 등)용 |
+| 말살의 지명자 (Crossout Designator) | ⛔ 비추 | 자기 메인 덱에 있는 카드명만 선언 가능해서 M∀LICE 카드에는 못 씀. 공용 카드(우라라·증G 등)용 |
 | 도미나스 스파크 (Dominus Spark) | ⛔ 비추 | 마치 헤어 패 효과 뒤에 발동은 되지만 제외는 오히려 M∀LICE 효과를 켜 줌 |
 | 비스테드 마그나무트 (Bystial Magnamhut) | ⛔ 비추 | 묘지의 M∀LICE 몬스터를 제외하면 상대가 이득(제외 시 특소·회수) |
 
@@ -50,14 +50,14 @@
 4. 🟠 아픔 **마루챠미 냐루스** (Mulcharmy Meowls) → **M∀LICE&lt;P&gt;White Rabbit** (Maliss P White Rabbit) — dormouse 3단계
    - 타이밍: M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)이 제외 상태에서 특소할 때
    - 이유: M∀LICE의 특소 대부분이 '제외 상태에서' 나오는 것이라 메오루스 드로우 조건과 정확히 맞는다(래빗·도마우스·화이트 바인더·하트 크립터). 내 필드가 비어 있어야 함.
-   - 맞은 뒤 상대 루트: G와 같이 화이트 바인더 근처에서 멈추거나, 드로우를 감수하고 끝까지 간다.
+   - 맞은 뒤 상대 루트: 증G와 같이 화이트 바인더 근처에서 멈추거나, 드로우를 감수하고 끝까지 간다.
 5. 🟠 아픔 **무한포영** (Infinite Impermanence) → **M∀LICE&lt;P&gt;White Rabbit** (Maliss P White Rabbit) — dormouse 4단계
    - 타이밍: M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)의 '덱에서 M∀LICE 함정 세트' 효과 발동에 체인
    - 이유: TB-11이 세트되지 않아 덱에서 몸을 늘리지 못한다. 화이트 래빗 1장 초동일 때는 이 지점이 첫 무효 타이밍이다.
    - 맞은 뒤 상대 루트: 도마우스 + 래빗 2장으로 스플래시 메이지 (Splash Mage) → 소생 → M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)까지는 갈 수 있어 견제가 1~2개 줄어드는 정도.
 6. 🟠 아픔 **마루챠미 후와로스** (Mulcharmy Fuwalos) → **M∀LICE&lt;C&gt;TB－11** (Maliss C TB-11) — dormouse 5단계
    - 타이밍: 전개 시작 전(도마우스 일반 소환 직후) 또는 TB-11의 덱 특소 때
-   - 이유: 덱·엑스트라 특소(TB-11, 링크 5~6회)만 세지만 그래도 4~6장 드로우가 나온다. 제외 상태 특소는 세지 않는 점은 G보다 약하다.
+   - 이유: 덱·엑스트라 특소(TB-11, 링크 5~6회)만 세지만 그래도 4~6장 드로우가 나온다. 제외 상태 특소는 세지 않는 점은 증G보다 약하다.
    - 맞은 뒤 상대 루트: 상대는 링크 횟수를 줄여 화이트 바인더 + 하트 크립터 정도로 끊을 수 있다.
 7. 🟡 할만함 **하루 우라라** (Ash Blossom & Joyous Spring) → **M∀LICE&lt;C&gt;TB－11** (Maliss C TB-11) — dormouse 5단계
    - 타이밍: M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11)의 '덱에서 특소' 발동에 체인
@@ -99,27 +99,27 @@
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
 | 1 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) | 일반 소환 |  | 푸루리아, 니비루 |
-| 2 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) | 메인 페이즈 효과: 덱에서 M∀LICE 몬스터 1장 제외 (+이번 턴 M∀LICE 공 600 업) | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) 제외 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 3 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 제외된 경우의 효과: 300LP를 내고 자신을 특소 (이번 턴 엑스트라에서는 링크만) |  | G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 4 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 특소 성공 시 효과: 덱에서 M∀LICE 함정 1장 세트 | M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 5 | M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) | 필드의 M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)를 제외하고 세트한 턴에 발동: 덱에서 M∀LICE 몬스터 특소 (이번 턴 공격·효과 발동 불가) | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) 특소 | 우라라, G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 6 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) | 제외된 경우의 효과: 300LP를 내고 자신을 특소 |  | G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 7 | 스플래시 메이지 (Splash Mage) | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) + M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 8 | 스플래시 메이지 (Splash Mage) | 효과: 묘지의 사이버스 1장을 효과 무효로 수비 특소 (이후 사이버스만 특소 가능) | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) 소생 | G, 냐루스, 무한포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 9 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) + 스플래시 메이지 (Splash Mage)로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 10 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 특소 시 효과: 묘지의 카드 3장까지 제외 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)·M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 등 제외 | 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마 |
+| 2 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) | 메인 페이즈 효과: 덱에서 M∀LICE 몬스터 1장 제외 (+이번 턴 M∀LICE 공 600 업) | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) 제외 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 3 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 제외된 경우의 효과: 300LP를 내고 자신을 특소 (이번 턴 엑스트라에서는 링크만) |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 4 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 특소 성공 시 효과: 덱에서 M∀LICE 함정 1장 세트 | M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 세트 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 5 | M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) | 필드의 M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)를 제외하고 세트한 턴에 발동: 덱에서 M∀LICE 몬스터 특소 (이번 턴 공격·효과 발동 불가) | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) 특소 | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 6 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) | 제외된 경우의 효과: 300LP를 내고 자신을 특소 |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 7 | 스플래시 메이지 (Splash Mage) | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) + M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 8 | 스플래시 메이지 (Splash Mage) | 효과: 묘지의 사이버스 1장을 효과 무효로 수비 특소 (이후 사이버스만 특소 가능) | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) 소생 | 증G, 냐루스, 포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 9 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) + 스플래시 메이지 (Splash Mage)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 10 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 특소 시 효과: 묘지의 카드 3장까지 제외 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)·M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 등 제외 | 포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마 |
 | 11 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) | 제외된 경우의 효과: 300LP를 내고 제외된 M∀LICE 몬스터 1장을 패에 넣음 (제외 상태에서 발동) | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) 자신을 회수 | 도미나스 스파크, 감마 |
-| 12 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 메인 페이즈 효과: 덱·묘지에서 M∀LICE 함정 1장 세트 | M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 13 | 사이버스 위키드 (Cyberse Wicckid) | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) + M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 14 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) | 패에서 퀵 효과: 묘지의 M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)를 제외하고 자신을 사이버스 위키드 (Cyberse Wicckid)의 링크처에 특소 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 15 | 사이버스 위키드 (Cyberse Wicckid) | 링크처 특소에 반응: 묘지의 사이버스 1장을 제외하고 덱에서 사이버스 튜너 서치 | 백업＠이그니스터 (Backup @Ignister) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 16 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 제외된 경우의 효과: 900LP를 내고 자신을 특소, 1장 드로우 |  | G, 드롤, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 17 | 백업＠이그니스터 (Backup @Ignister) | 엑스트라에서 특소된 사이버스가 있으므로 패에서 특소 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 18 | 백업＠이그니스터 (Backup @Ignister) | 소환 시 효과: 덱에서 어둠 사이버스 1장 서치 후 패 1장 버림 | 위저드＠이그니스터 (Wizard @Ignister) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 19 | 위저드＠이그니스터 (Wizard @Ignister) | 패에서 효과: 묘지의 어둠 사이버스 1장과 함께 수비 특소 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) 등 소생 | G, 푸루리아, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 20 | M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter) | M∀LICE 포함 3장으로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 21 | 어코드 토커＠이그니스터 (Allied Code Talker @Ignister) | 남은 효과 몬스터 3장 이상으로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 22 | 어코드 토커＠이그니스터 (Allied Code Talker @Ignister) | 링크 소환 시 효과: 묘지의 공 2300 사이버스를 링크처에 가능한 한 특소 (이후 특소 불가) | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) 소생 | G, 냐루스, 무한포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 12 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 메인 페이즈 효과: 덱·묘지에서 M∀LICE 함정 1장 세트 | M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 세트 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 13 | 사이버스 위키드 (Cyberse Wicckid) | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) + M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 14 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) | 패에서 퀵 효과: 묘지의 M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)를 제외하고 자신을 사이버스 위키드 (Cyberse Wicckid)의 링크처에 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 15 | 사이버스 위키드 (Cyberse Wicckid) | 링크처 특소에 반응: 묘지의 사이버스 1장을 제외하고 덱에서 사이버스 튜너 서치 | 백업＠이그니스터 (Backup @Ignister) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 16 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 제외된 경우의 효과: 900LP를 내고 자신을 특소, 1장 드로우 |  | 증G, 드롤, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 17 | 백업＠이그니스터 (Backup @Ignister) | 엑스트라에서 특소된 사이버스가 있으므로 패에서 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 18 | 백업＠이그니스터 (Backup @Ignister) | 소환 시 효과: 덱에서 어둠 사이버스 1장 서치 후 패 1장 버림 | 위저드＠이그니스터 (Wizard @Ignister) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 19 | 위저드＠이그니스터 (Wizard @Ignister) | 패에서 효과: 묘지의 어둠 사이버스 1장과 함께 수비 특소 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) 등 소생 | 증G, 푸루리아, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 20 | M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter) | M∀LICE 포함 3장으로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 21 | 어코드 토커＠이그니스터 (Allied Code Talker @Ignister) | 남은 효과 몬스터 3장 이상으로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 22 | 어코드 토커＠이그니스터 (Allied Code Talker @Ignister) | 링크 소환 시 효과: 묘지의 공 2300 사이버스를 링크처에 가능한 한 특소 (이후 특소 불가) | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) 소생 | 증G, 냐루스, 포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 
 **최종 필드 / 견제**: 어코드 토커＠이그니스터 (Allied Code Talker @Ignister), M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder), M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter), M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06)
 
@@ -134,16 +134,16 @@
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
 | 1 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 일반 소환 |  | 푸루리아, 니비루 |
-| 2 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 소환 성공 시 효과: 덱에서 M∀LICE 함정 1장 세트 | M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 3 | M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) | 필드의 M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)를 제외하고 발동: 덱에서 M∀LICE 몬스터 특소 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) 특소(이번 턴 효과 발동 불가) | 우라라, G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 4 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 제외된 경우의 효과: 300LP를 내고 자신을 특소 |  | G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 5 | 스플래시 메이지 (Splash Mage) | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) + M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 6 | 스플래시 메이지 (Splash Mage) | 효과: 묘지의 사이버스를 효과 무효로 특소 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) 소생 | G, 냐루스, 무한포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 7 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) + 스플래시 메이지 (Splash Mage)로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 8 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 특소 시 효과: 묘지 카드 3장까지 제외 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)·M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 제외 | 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마 |
-| 9 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) | 제외된 경우의 효과: 300LP를 내고 자신을 특소 (새로 나온 카드라 효과 사용 가능) |  | G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 10 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 메인 페이즈 효과: M∀LICE 함정 세트 | M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 11 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) | 메인 페이즈 효과: 덱에서 M∀LICE 몬스터 제외 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) 제외 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 2 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 소환 성공 시 효과: 덱에서 M∀LICE 함정 1장 세트 | M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 세트 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 3 | M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) | 필드의 M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)를 제외하고 발동: 덱에서 M∀LICE 몬스터 특소 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) 특소(이번 턴 효과 발동 불가) | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 4 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 제외된 경우의 효과: 300LP를 내고 자신을 특소 |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 5 | 스플래시 메이지 (Splash Mage) | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) + M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 6 | 스플래시 메이지 (Splash Mage) | 효과: 묘지의 사이버스를 효과 무효로 특소 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) 소생 | 증G, 냐루스, 포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 7 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) + 스플래시 메이지 (Splash Mage)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 8 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 특소 시 효과: 묘지 카드 3장까지 제외 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)·M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 제외 | 포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마 |
+| 9 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) | 제외된 경우의 효과: 300LP를 내고 자신을 특소 (새로 나온 카드라 효과 사용 가능) |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 10 | M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) | 메인 페이즈 효과: M∀LICE 함정 세트 | M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 세트 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 11 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) | 메인 페이즈 효과: 덱에서 M∀LICE 몬스터 제외 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) 제외 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 12 | M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) | 제외된 경우의 효과: 300LP를 내고 자신을 패에 넣음 | 이후 사이버스 위키드 (Cyberse Wicckid) → 백업＠이그니스터 (Backup @Ignister) 루트로 합류 | 도미나스 스파크, 감마 |
 
 **최종 필드 / 견제**: 어코드 토커＠이그니스터 (Allied Code Talker @Ignister), M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder), M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter), M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06)
@@ -159,9 +159,9 @@
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
 | 1 | M∀LICE IN UNDERGROUND (Maliss in Underground) | 필드 마법 발동: 패·덱·묘지에서 M∀LICE 카드 1장 제외 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) 제외 | – |
-| 2 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 제외된 경우의 효과: 300LP를 내고 자신을 특소 |  | G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 3 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 특소 성공 시 효과: 덱에서 M∀LICE 함정 세트 | M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 세트 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 4 | M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)를 제외하고 발동: 덱에서 M∀LICE 몬스터 특소 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) 등 특소 → 화이트 래빗 라인 4번 이후와 같음 | 우라라, G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 2 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 제외된 경우의 효과: 300LP를 내고 자신을 특소 |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 3 | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit) | 특소 성공 시 효과: 덱에서 M∀LICE 함정 세트 | M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) 세트 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 4 | M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11) | M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)를 제외하고 발동: 덱에서 M∀LICE 몬스터 특소 | M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse) 등 특소 → 화이트 래빗 라인 4번 이후와 같음 | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 
 **최종 필드 / 견제**: 어코드 토커＠이그니스터 (Allied Code Talker @Ignister), M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder), M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter), M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06)
 
@@ -173,7 +173,7 @@
 - M∀LICE 몬스터를 제외하는 카드(D.D. 크로우, 비스테드, 스파크 등)는 거의 항상 손해다. 제외되면 300~900LP를 내고 돌아오거나 패로 회수된다. 반대로 파괴·릴리스로 묘지에 보내는 건 제외 트리거를 주지 않는다.
 - 링그리보 (Linguriboh)가 필드에 나오면 함정(포영·도미나스 임펄스) 발동이 무효+제외당한다. 함정 계열 견제는 링크 1이 나오기 전에 쓴다.
 - M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter)는 링크처에 몬스터가 있으면 발동·효과가 무효되지 않는다. 후공에서는 링크처 몬스터를 먼저 치우거나 효과 무효를 '발동 전'에 걸어야 한다.
-- G를 맞으면 보통 화이트 바인더 + 세트 함정에서 끊는다. 이때 상대 턴의 M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 소생은 남는다.
+- 증G를 맞으면 보통 화이트 바인더 + 세트 함정에서 끊는다. 이때 상대 턴의 M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 소생은 남는다.
 
 ## 출처
 

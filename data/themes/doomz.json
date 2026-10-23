@@ -14,7 +14,7 @@
  "variants": [
   "DoomZ"
  ],
- "overview_ko": "자기 카드를 일부러 파괴하고, 파괴되었을 때의 유발 효과(서치·세트·특소)로 이어가는 바람 기계족 엑시즈 덱. 하급 둠즈([[DoomZ VII Seven - Elara]]·[[DoomZ V Five - Amalthe]])에 장착 마법을 붙이면 퀵으로 엑시즈 변신하고, [[DoomZ XIII Over - Graflareio]]·[[DoomZ Raiders]]·[[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]]로 파괴와 재소환을 반복한다. [[Springans Merrymaker]] → [[Gigantic \"Champion\" Sargas]] → [[Therion \"King\" Regulus]]를 섞어 무효 견제를 늘린다. 선공 필드: [[Therion \"King\" Regulus]] 무효, [[Gigantic \"Champion\" Sargas]] 파괴/바운스, [[DoomZ XII Zero - Drastea]]의 상대 턴 [[DoomZ XII End - Drastrius]] 변신(몬스터 효과 무효), [[DoomZ Destruction]] 서치 봉쇄. 초동은 엘라라·아말테·[[DoomZ Change]]·[[Prohibited Power Patron Portal - Terminus]]([[Medius the Pure]] 경유)로 많은 편이다. 대신 각 루트의 첫 서치/첫 효과에 의존하고, 소환 횟수가 10번 안팎이라 G·니비루에 약하다.",
+ "overview_ko": "자기 카드를 일부러 파괴하고, 파괴되었을 때의 유발 효과(서치·세트·특소)로 이어가는 바람 기계족 엑시즈 덱. 하급 둠즈([[DoomZ VII Seven - Elara]]·[[DoomZ V Five - Amalthe]])에 장착 마법을 붙이면 퀵으로 엑시즈 변신하고, [[DoomZ XIII Over - Graflareio]]·[[DoomZ Raiders]]·[[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]]로 파괴와 재소환을 반복한다. [[Springans Merrymaker]] → [[Gigantic \"Champion\" Sargas]] → [[Therion \"King\" Regulus]]를 섞어 무효 견제를 늘린다. 선공 필드: [[Therion \"King\" Regulus]] 무효, [[Gigantic \"Champion\" Sargas]] 파괴/바운스, [[DoomZ XII Zero - Drastea]]의 상대 턴 [[DoomZ XII End - Drastrius]] 변신(몬스터 효과 무효), [[DoomZ Destruction]] 서치 봉쇄. 초동은 엘라라·아말테·[[DoomZ Change]]·[[Prohibited Power Patron Portal - Terminus]]([[Medius the Pure]] 경유)로 많은 편이다. 대신 각 루트의 첫 서치/첫 효과에 의존하고, 소환 횟수가 10번 안팎이라 증G·니비루에 약하다.",
  "key_cards": [
   {
    "card": "DoomZ VII Seven - Elara",
@@ -622,7 +622,7 @@
    "step": 6,
    "target_card": "DoomZ VII Seven - Elara",
    "timing_ko": "첫 특소 효과(엘라라 ② 엑시즈 변신 또는 레이더스 덱 특소) 발동에 체인",
-   "why_ko": "풀 전개는 특소 9번 안팎이라 끝까지 가면 G 드로우가 매우 많다. 멈추면 그라플레이오나 디아크트로스 1장 수준에서 턴을 넘긴다.",
+   "why_ko": "풀 전개는 특소 9번 안팎이라 끝까지 가면 증G 드로우가 매우 많다. 멈추면 그라플레이오나 디아크트로스 1장 수준에서 턴을 넘긴다.",
    "fallback_ko": "엑시즈 1장 + 세트 마함으로 멈추는 경우가 많다."
   },
   {

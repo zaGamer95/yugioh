@@ -14,7 +14,7 @@
  "variants": [
   "Magistus Fairy Tail"
  ],
- "overview_ko": "마기스토스(장착으로 서치·특소를 잇는 마법사족)에 페어리테일과 엔디미온 파츠를 섞은 마법사족 혼합 덱. 초동은 [[Fairy Tail - Luna]]·[[Spenta, the Magistus Sealer]]·[[Regulus, the Prince of Endymion]]·[[Instant Fusion]] 등이고, 어느 쪽으로 시작해도 [[Fairy Tail - Wiccat]]의 덤핑 → [[Fairy Tail - Matchgiru]] → [[Fairy Tail Ball]] → [[Tails of the Fairy Tails]] 융합으로 [[Teller of Fairy Tails]]를 세우고, [[Artemis, the Magistus Moon Maiden]] → [[Crowley, the Gifted Magistus]] 융합으로 [[Zoroa, the Magistus Verethragna]]를 세운다. 최종 견제는 텔러(카드 무효 파괴)·조로아(몬스터 효과 무효 파괴)·페어리테일 볼(상대 특소 시 효과 무효)·묘지의 [[Fairy Tail - Snow]]. 서치 5회 이상, 특소 8회 이상을 거치므로 드롤·G·후와로스·니비루에 약하고, 위캣 덤핑 한 지점이 모든 루트의 공통 허브다. [[Genia of the Ring]]·매치리르의 제약 때문에 이 루트 중에는 마법사족만 특소할 수 있다.",
+ "overview_ko": "마기스토스(장착으로 서치·특소를 잇는 마법사족)에 페어리테일과 엔디미온 파츠를 섞은 마법사족 혼합 덱. 초동은 [[Fairy Tail - Luna]]·[[Spenta, the Magistus Sealer]]·[[Regulus, the Prince of Endymion]]·[[Instant Fusion]] 등이고, 어느 쪽으로 시작해도 [[Fairy Tail - Wiccat]]의 덤핑 → [[Fairy Tail - Matchgiru]] → [[Fairy Tail Ball]] → [[Tails of the Fairy Tails]] 융합으로 [[Teller of Fairy Tails]]를 세우고, [[Artemis, the Magistus Moon Maiden]] → [[Crowley, the Gifted Magistus]] 융합으로 [[Zoroa, the Magistus Verethragna]]를 세운다. 최종 견제는 텔러(카드 무효 파괴)·조로아(몬스터 효과 무효 파괴)·페어리테일 볼(상대 특소 시 효과 무효)·묘지의 [[Fairy Tail - Snow]]. 서치 5회 이상, 특소 8회 이상을 거치므로 드롤·증G·후와로스·니비루에 약하고, 위캣 덤핑 한 지점이 모든 루트의 공통 허브다. [[Genia of the Ring]]·매치리르의 제약 때문에 이 루트 중에는 마법사족만 특소할 수 있다.",
  "key_cards": [
   {
    "card": "Fairy Tail - Luna",
@@ -580,7 +580,7 @@
    "target_card": "Fairy Tail - Wiccat",
    "timing_ko": "위캣 엑시즈 소환 전, 내 필드가 비어 있을 때",
    "why_ko": "엑스트라 덱 특소(위캣·텔러·아르테미스·엔디미온·조로아)가 5회 이상. 루트를 끝까지 가면 상대에게 큰 손해.",
-   "fallback_ko": "G와 같은 판단."
+   "fallback_ko": "증G와 같은 판단."
   },
   {
    "handtrap": "mourner",
@@ -1147,7 +1147,7 @@
    },
    {
     "id": "after_maxxc",
-    "title_ko": "G를 맞고 텔러까지만 세운 하프 보드 (텔러 + 볼)",
+    "title_ko": "증G를 맞고 텔러까지만 세운 하프 보드 (텔러 + 볼)",
     "after": {
      "handtrap": "maxxc",
      "line": "luna",

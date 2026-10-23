@@ -14,7 +14,7 @@
  "variants": [
   "Sky Striker"
  ],
- "overview_ko": "메인 몬스터 존을 비운 채 '섬도' 속공 마법으로 상대 턴에 대응하는 컨트롤 덱(섬도희). 몬스터는 [[Sky Striker Ace - Raye]]·[[Sky Striker Ace - Roze]] 정도뿐이고, 선공 1턴은 [[Sky Striker Ace - Raye]] → [[Sky Striker Ace = Zero]]의 서치 + [[Sky Striker Mobilize - Engage!]]로 손패를 늘린 뒤 [[Sky Striker Mecha - Widow Anchor]]·[[Sky Striker Mobilize - Linkage!]]·[[Sky Striker Special Maneuver - Lemnisgate!]]·[[The Fallen & The Virtuous]]를 세트하고 넘기는 게 기본. 최근 리스트는 [[Radiant Typhoon Vision]] 등 현람 파츠와 [[Pot of Desires]]·[[Upstart Goblin]]으로 드로우를 늘린다. 특소 횟수가 적어 G·후와로스·니비루는 약하고, 몬스터 효과 무효는 레이가 '릴리스 코스트'로 사라지기 때문에 거의 안 맞는다. 아픈 건 서치·드로우를 함께 막는 드롤, 서치를 끊는 우라라, 특소 효과 자체를 무효로 하는 도미나스 임펄스.",
+ "overview_ko": "메인 몬스터 존을 비운 채 '섬도' 속공 마법으로 상대 턴에 대응하는 컨트롤 덱(섬도희). 몬스터는 [[Sky Striker Ace - Raye]]·[[Sky Striker Ace - Roze]] 정도뿐이고, 선공 1턴은 [[Sky Striker Ace - Raye]] → [[Sky Striker Ace = Zero]]의 서치 + [[Sky Striker Mobilize - Engage!]]로 손패를 늘린 뒤 [[Sky Striker Mecha - Widow Anchor]]·[[Sky Striker Mobilize - Linkage!]]·[[Sky Striker Special Maneuver - Lemnisgate!]]·[[The Fallen & The Virtuous]]를 세트하고 넘기는 게 기본. 최근 리스트는 [[Radiant Typhoon Vision]] 등 현람 파츠와 [[Pot of Desires]]·[[Upstart Goblin]]으로 드로우를 늘린다. 특소 횟수가 적어 증G·후와로스·니비루는 약하고, 몬스터 효과 무효는 레이가 '릴리스 코스트'로 사라지기 때문에 거의 안 맞는다. 아픈 건 서치·드로우를 함께 막는 드롤, 서치를 끊는 우라라, 특소 효과 자체를 무효로 하는 도미나스 임펄스.",
  "key_cards": [
   {
    "card": "Sky Striker Ace - Raye",
@@ -56,7 +56,7 @@
    "hand": [
     "Sky Striker Ace - Raye"
    ],
-   "note_ko": "일반 소환권 사용. 특소는 제로 1번뿐이라 G·후와로스를 맞아도 1드로우만 준다. [[Sky Striker Ace - Roze]]가 패에 있으면 제로 특소에 반응해 패에서 특소할 수 있지만, 메인 몬스터 존이 막혀 인게이지·위도우 앵커를 못 쓰게 되므로 보통 바로 링크 소재로 치운다.",
+   "note_ko": "일반 소환권 사용. 특소는 제로 1번뿐이라 증G·후와로스를 맞아도 1드로우만 준다. [[Sky Striker Ace - Roze]]가 패에 있으면 제로 특소에 반응해 패에서 특소할 수 있지만, 메인 몬스터 존이 막혀 인게이지·위도우 앵커를 못 쓰게 되므로 보통 바로 링크 소재로 치운다.",
    "steps": [
     {
      "card": "Sky Striker Ace - Raye",
@@ -308,7 +308,7 @@
    "step": 2,
    "target_card": "Sky Striker Ace - Raye",
    "timing_ko": "레이의 특소 효과 발동 시",
-   "why_ko": "1턴 특소가 제로 1번(+로제·토큰·카가리) 수준이라 1~2드로우가 한계. 상대가 G를 보고 멈춰도 원래 계획과 거의 같다.",
+   "why_ko": "1턴 특소가 제로 1번(+로제·토큰·카가리) 수준이라 1~2드로우가 한계. 상대가 증G를 보고 멈춰도 원래 계획과 거의 같다.",
    "fallback_ko": "그대로 진행."
   },
   {

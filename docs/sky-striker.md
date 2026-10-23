@@ -6,7 +6,7 @@
 
 ## 한눈에 보기
 
-메인 몬스터 존을 비운 채 '섬도' 속공 마법으로 상대 턴에 대응하는 컨트롤 덱(섬도희). 몬스터는 섬도희－레이 (Sky Striker Ace - Raye)·섬도희－로제 (Sky Striker Ace - Roze) 정도뿐이고, 선공 1턴은 섬도희－레이 (Sky Striker Ace - Raye) → 섬도희＝제로 (Sky Striker Ace = Zero)의 서치 + 섬도기동－인게이지 (Sky Striker Mobilize - Engage!)로 손패를 늘린 뒤 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor)·섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)·섬도아식－렘니스게이트 (Sky Striker Special Maneuver - Lemnisgate!)·The Fallen & The Virtuous (The Fallen & The Virtuous)를 세트하고 넘기는 게 기본. 최근 리스트는 현람한 견신 (Radiant Typhoon Vision) 등 현람 파츠와 욕망과 탐욕의 항아리 (Pot of Desires)·갑부 고블린 (Upstart Goblin)으로 드로우를 늘린다. 특소 횟수가 적어 G·후와로스·니비루는 약하고, 몬스터 효과 무효는 레이가 '릴리스 코스트'로 사라지기 때문에 거의 안 맞는다. 아픈 건 서치·드로우를 함께 막는 드롤, 서치를 끊는 우라라, 특소 효과 자체를 무효로 하는 도미나스 임펄스.
+메인 몬스터 존을 비운 채 '섬도' 속공 마법으로 상대 턴에 대응하는 컨트롤 덱(섬도희). 몬스터는 섬도희－레이 (Sky Striker Ace - Raye)·섬도희－로제 (Sky Striker Ace - Roze) 정도뿐이고, 선공 1턴은 섬도희－레이 (Sky Striker Ace - Raye) → 섬도희＝제로 (Sky Striker Ace = Zero)의 서치 + 섬도기동－인게이지 (Sky Striker Mobilize - Engage!)로 손패를 늘린 뒤 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor)·섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)·섬도아식－렘니스게이트 (Sky Striker Special Maneuver - Lemnisgate!)·The Fallen & The Virtuous (The Fallen & The Virtuous)를 세트하고 넘기는 게 기본. 최근 리스트는 현람한 견신 (Radiant Typhoon Vision) 등 현람 파츠와 욕망과 탐욕의 항아리 (Pot of Desires)·갑부 고블린 (Upstart Goblin)으로 드로우를 늘린다. 특소 횟수가 적어 증G·후와로스·니비루는 약하고, 몬스터 효과 무효는 레이가 '릴리스 코스트'로 사라지기 때문에 거의 안 맞는다. 아픈 건 서치·드로우를 함께 막는 드롤, 서치를 끊는 우라라, 특소 효과 자체를 무효로 하는 도미나스 임펄스.
 
 ### 패트랩 상성 요약
 
@@ -65,7 +65,7 @@
    - 맞은 뒤 상대 루트: 패의 인게이지로 진행.
 8. ⚪ 약함 **증식의 G** (Maxx "C") → **섬도희－레이** (Sky Striker Ace - Raye) — raye-zero 2단계
    - 타이밍: 레이의 특소 효과 발동 시
-   - 이유: 1턴 특소가 제로 1번(+로제·토큰·카가리) 수준이라 1~2드로우가 한계. 상대가 G를 보고 멈춰도 원래 계획과 거의 같다.
+   - 이유: 1턴 특소가 제로 1번(+로제·토큰·카가리) 수준이라 1~2드로우가 한계. 상대가 증G를 보고 멈춰도 원래 계획과 거의 같다.
    - 맞은 뒤 상대 루트: 그대로 진행.
 9. ⛔ 비추 **무한포영** (Infinite Impermanence) → **섬도희－레이** (Sky Striker Ace - Raye) — raye-zero 2단계
    - 타이밍: 섬도희－레이 (Sky Striker Ace - Raye)에 포영·뵐러·유령토끼
@@ -89,13 +89,13 @@
 
 초동 패: **섬도희－레이** (Sky Striker Ace - Raye)
 
-일반 소환권 사용. 특소는 제로 1번뿐이라 G·후와로스를 맞아도 1드로우만 준다. 섬도희－로제 (Sky Striker Ace - Roze)가 패에 있으면 제로 특소에 반응해 패에서 특소할 수 있지만, 메인 몬스터 존이 막혀 인게이지·위도우 앵커를 못 쓰게 되므로 보통 바로 링크 소재로 치운다.
+일반 소환권 사용. 특소는 제로 1번뿐이라 증G·후와로스를 맞아도 1드로우만 준다. 섬도희－로제 (Sky Striker Ace - Roze)가 패에 있으면 제로 특소에 반응해 패에서 특소할 수 있지만, 메인 몬스터 존이 막혀 인게이지·위도우 앵커를 못 쓰게 되므로 보통 바로 링크 소재로 치운다.
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
 | 1 | 섬도희－레이 (Sky Striker Ace - Raye) | 일반 소환 |  | 푸루리아, 니비루 |
-| 2 | 섬도희－레이 (Sky Striker Ace - Raye) | 퀵 효과: 자신을 릴리스(코스트)하고 엑스트라 덱의 섬도희 1장을 엑스트라 몬스터 존에 특소 | 섬도희＝제로 (Sky Striker Ace = Zero) 특소 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 3 | 섬도희＝제로 (Sky Striker Ace = Zero) | 특소 성공 시 효과: 덱·묘지에서 섬도 마법 1장을 패에 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 2 | 섬도희－레이 (Sky Striker Ace - Raye) | 퀵 효과: 자신을 릴리스(코스트)하고 엑스트라 덱의 섬도희 1장을 엑스트라 몬스터 존에 특소 | 섬도희＝제로 (Sky Striker Ace = Zero) 특소 | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 3 | 섬도희＝제로 (Sky Striker Ace = Zero) | 특소 성공 시 효과: 덱·묘지에서 섬도 마법 1장을 패에 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
 | 4 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 메인 몬스터 존이 비었으므로 발동: 덱에서 섬도 카드 서치 (묘지 마법 3장 이상이면 1드로우) | 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor) / 2번째 섬도희－레이 (Sky Striker Ace - Raye) 등 | 우라라, 드롤, 도미나스 퍼지 |
 | 5 | 욕망과 탐욕의 항아리 (Pot of Desires) | (채용 시) 덱 위 10장을 뒷면 제외하고 2드로우 |  | 드롤 |
 | 6 | 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor) | 속공 마법들을 세트하고 턴 종료 | 섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)·섬도아식－렘니스게이트 (Sky Striker Special Maneuver - Lemnisgate!)·The Fallen & The Virtuous (The Fallen & The Virtuous) 등 함께 세트 | – |
@@ -114,8 +114,8 @@
 |---|---|---|---|---|
 | 1 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 발동: 덱에서 섬도 카드 서치 | 섬도희－레이 (Sky Striker Ace - Raye) 서치 | 우라라, 드롤, 도미나스 퍼지 |
 | 2 | 섬도희－레이 (Sky Striker Ace - Raye) | 일반 소환 |  | 푸루리아, 니비루 |
-| 3 | 섬도희－레이 (Sky Striker Ace - Raye) | 퀵 효과: 자신을 릴리스하고 섬도희를 엑스트라 몬스터 존에 특소 | 섬도희＝제로 (Sky Striker Ace = Zero) 특소 | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 4 | 섬도희＝제로 (Sky Striker Ace = Zero) | 특소 성공 시 효과: 묘지의 섬도기동－인게이지 (Sky Striker Mobilize - Engage!)를 패에 (덱에서 다른 섬도 마법을 가져와도 됨) | 인게이지 회수 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 도미나스 퍼지, 마그나무트, 감마 |
+| 3 | 섬도희－레이 (Sky Striker Ace - Raye) | 퀵 효과: 자신을 릴리스하고 섬도희를 엑스트라 몬스터 존에 특소 | 섬도희＝제로 (Sky Striker Ace = Zero) 특소 | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 4 | 섬도희＝제로 (Sky Striker Ace = Zero) | 특소 성공 시 효과: 묘지의 섬도기동－인게이지 (Sky Striker Mobilize - Engage!)를 패에 (덱에서 다른 섬도 마법을 가져와도 됨) | 인게이지 회수 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 도미나스 퍼지, 마그나무트, 감마 |
 | 5 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 다시 발동: 덱에서 섬도 카드 서치 | 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor) 또는 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) | 우라라, 드롤, 도미나스 퍼지 |
 
 **최종 필드 / 견제**: 섬도희＝제로 (Sky Striker Ace = Zero), 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor), 섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)
@@ -131,8 +131,8 @@
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
 | 1 | 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) | 속공 발동: 섬도희 토큰 1장 수비 특소 |  | – |
-| 2 | 섬도희－카가리 (Sky Striker Ace - Kagari) | 토큰 1장으로 링크 소환 (엑스트라 몬스터 존) |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 3 | 섬도희－카가리 (Sky Striker Ace - Kagari) | 특소 성공 시 효과: 묘지의 섬도 마법 1장을 대상으로 패에 | 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) 또는 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) 회수 | 무한포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마 |
+| 2 | 섬도희－카가리 (Sky Striker Ace - Kagari) | 토큰 1장으로 링크 소환 (엑스트라 몬스터 존) |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 3 | 섬도희－카가리 (Sky Striker Ace - Kagari) | 특소 성공 시 효과: 묘지의 섬도 마법 1장을 대상으로 패에 | 섬도기－호넷비트 (Sky Striker Mecha - Hornet Drones) 또는 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) 회수 | 포영, 뵐러, 유령토끼, 와라시, 금지된 일적, 마그나무트, 감마 |
 | 4 | 섬도기동－인게이지 (Sky Striker Mobilize - Engage!) | 메인 몬스터 존이 비었으므로 발동: 섬도 카드 서치 |  | 우라라, 드롤, 도미나스 퍼지 |
 
 **최종 필드 / 견제**: 섬도희－카가리 (Sky Striker Ace - Kagari), 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor), 섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)

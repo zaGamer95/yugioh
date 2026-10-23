@@ -76,7 +76,7 @@
    "hand": [
     "Fallen of the White Dragon"
    ],
-   "note_ko": "일반 소환권을 쓰지 않는다. 이 라인 뒤에는 엑덱이 레벨 8 융합·싱크로만 되고, 싱크로를 했으니 같은 턴 [[Branded Fusion]]은 발동할 수 없다. G를 맞으면 보통 쿠엠까지(4드로우)에서 멈추고 엔드 페이즈 세트만 챙긴다. 손에 알베르·낙인융합 같은 추가 초동이 있으면 엔드 페이즈의 알비온으로 [[Branded in High Spirits]]·[[Branded in Red]]를 서치해 [[Mirrorjade the Iceblade Dragon]]까지 늘린다.",
+   "note_ko": "일반 소환권을 쓰지 않는다. 이 라인 뒤에는 엑덱이 레벨 8 융합·싱크로만 되고, 싱크로를 했으니 같은 턴 [[Branded Fusion]]은 발동할 수 없다. 증G를 맞으면 보통 쿠엠까지(4드로우)에서 멈추고 엔드 페이즈 세트만 챙긴다. 손에 알베르·낙인융합 같은 추가 초동이 있으면 엔드 페이즈의 알비온으로 [[Branded in High Spirits]]·[[Branded in Red]]를 서치해 [[Mirrorjade the Iceblade Dragon]]까지 늘린다.",
    "steps": [
     {
      "card": "Fallen of the White Dragon",
@@ -162,7 +162,7 @@
    "hand": [
     "Aluber the Jester of Despia"
    ],
-   "note_ko": "[[Branded Fusion]]을 직접 잡았다면 1~2단계를 건너뛴다. 낙인융합 발동 턴은 엑덱이 융합만. 메인 페이즈 소환 3회(알베르·알비온·그랑기뇰)라 니비루 조건에 못 미치고, 엔드 페이즈 소환까지 G 4장.",
+   "note_ko": "[[Branded Fusion]]을 직접 잡았다면 1~2단계를 건너뛴다. 낙인융합 발동 턴은 엑덱이 융합만. 메인 페이즈 소환 3회(알베르·알비온·그랑기뇰)라 니비루 조건에 못 미치고, 엔드 페이즈 소환까지 증G 4장.",
    "steps": [
     {
      "card": "Aluber the Jester of Despia",
@@ -412,7 +412,7 @@
    "step": 2,
    "target_card": "Fallen of the White Dragon",
    "timing_ko": "첫 특소(하얀 용 자신 특소) 시점",
-   "why_ko": "어느 라인이든 선공 턴 특소는 4회 안팎이지만 상대 턴에도 특소를 반복하는 덱이라, G로 받은 패로 상대 턴 견제를 넘기기 쉽다. 하얀 용 라인은 쿠엠까지 4장.",
+   "why_ko": "어느 라인이든 선공 턴 특소는 4회 안팎이지만 상대 턴에도 특소를 반복하는 덱이라, 증G로 받은 패로 상대 턴 견제를 넘기기 쉽다. 하얀 용 라인은 쿠엠까지 4장.",
    "fallback_ko": "보통 검은 용 에클레시아·쿠엠까지만 하고 엔드 페이즈 세트로 마무리. 후와로스는 덱·엑덱 특소만 세어 3장."
   },
   {

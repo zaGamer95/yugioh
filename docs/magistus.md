@@ -6,7 +6,7 @@
 
 ## 한눈에 보기
 
-마기스토스(장착으로 서치·특소를 잇는 마법사족)에 페어리테일과 엔디미온 파츠를 섞은 마법사족 혼합 덱. 초동은 페어리테일－카구야 (Fairy Tail - Luna)·씰 오브 마기스토스 스푼 (Spenta, the Magistus Sealer)·프린스 오브 엔디미온 레굴루스 (Regulus, the Prince of Endymion)·인스턴트 퓨전 (Instant Fusion) 등이고, 어느 쪽으로 시작해도 페어리테일－위캣 (Fairy Tail - Wiccat)의 덤핑 → 페어리테일－매치리르 (Fairy Tail - Matchgiru) → 페어리테일의 무답회 (Fairy Tail Ball) → 테일즈오브 페어리테일 (Tails of the Fairy Tails) 융합으로 페어리테일을 이야기하는 자 (Teller of Fairy Tails)를 세우고, 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) → 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) 융합으로 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna)를 세운다. 최종 견제는 텔러(카드 무효 파괴)·조로아(몬스터 효과 무효 파괴)·페어리테일 볼(상대 특소 시 효과 무효)·묘지의 페어리테일－백설 (Fairy Tail - Snow). 서치 5회 이상, 특소 8회 이상을 거치므로 드롤·G·후와로스·니비루에 약하고, 위캣 덤핑 한 지점이 모든 루트의 공통 허브다. 반지의 정령 지냐 (Genia of the Ring)·매치리르의 제약 때문에 이 루트 중에는 마법사족만 특소할 수 있다.
+마기스토스(장착으로 서치·특소를 잇는 마법사족)에 페어리테일과 엔디미온 파츠를 섞은 마법사족 혼합 덱. 초동은 페어리테일－카구야 (Fairy Tail - Luna)·씰 오브 마기스토스 스푼 (Spenta, the Magistus Sealer)·프린스 오브 엔디미온 레굴루스 (Regulus, the Prince of Endymion)·인스턴트 퓨전 (Instant Fusion) 등이고, 어느 쪽으로 시작해도 페어리테일－위캣 (Fairy Tail - Wiccat)의 덤핑 → 페어리테일－매치리르 (Fairy Tail - Matchgiru) → 페어리테일의 무답회 (Fairy Tail Ball) → 테일즈오브 페어리테일 (Tails of the Fairy Tails) 융합으로 페어리테일을 이야기하는 자 (Teller of Fairy Tails)를 세우고, 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) → 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) 융합으로 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna)를 세운다. 최종 견제는 텔러(카드 무효 파괴)·조로아(몬스터 효과 무효 파괴)·페어리테일 볼(상대 특소 시 효과 무효)·묘지의 페어리테일－백설 (Fairy Tail - Snow). 서치 5회 이상, 특소 8회 이상을 거치므로 드롤·증G·후와로스·니비루에 약하고, 위캣 덤핑 한 지점이 모든 루트의 공통 허브다. 반지의 정령 지냐 (Genia of the Ring)·매치리르의 제약 때문에 이 루트 중에는 마법사족만 특소할 수 있다.
 
 ### 패트랩 상성 요약
 
@@ -58,7 +58,7 @@
 6. 🟠 아픔 **마루챠미 후와로스** (Mulcharmy Fuwalos) → **페어리테일－위캣** (Fairy Tail - Wiccat) — luna 4단계
    - 타이밍: 위캣 엑시즈 소환 전, 내 필드가 비어 있을 때
    - 이유: 엑스트라 덱 특소(위캣·텔러·아르테미스·엔디미온·조로아)가 5회 이상. 루트를 끝까지 가면 상대에게 큰 손해.
-   - 맞은 뒤 상대 루트: G와 같은 판단.
+   - 맞은 뒤 상대 루트: 증G와 같은 판단.
 7. 🟠 아픔 **사요 시구레** (Ghost Mourner & Moonlit Chill) → **페어리테일－위캣** (Fairy Tail - Wiccat) — luna 4단계
    - 타이밍: 위캣이 엑시즈 소환된 직후(덤핑 효과를 쓰기 전)
    - 이유: 위캣 효과가 무효되면 덤핑을 못 해 우라라와 같은 결과가 된다.
@@ -105,24 +105,24 @@ MDM 콤보(2026-07~10) 공통 부분. 일반 소환권 사용 + 테일즈로 추
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
 | 1 | 페어리테일－카구야 (Fairy Tail - Luna) | 일반 소환 |  | 푸루리아, 니비루 |
-| 2 | 페어리테일－카구야 (Fairy Tail - Luna) | 일반 소환 유발: 공격력 1850 마법사족 서치 | 반지의 정령 지냐 (Genia of the Ring) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 3 | 반지의 정령 지냐 (Genia of the Ring) | 패 효과: 루나를 대상으로 자체 특소 (이번 턴 엑스트라 덱 특소는 마법사족만) |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 4 | 페어리테일－위캣 (Fairy Tail - Wiccat) | 루나 + 제니아로 엑시즈 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 5 | 페어리테일－위캣 (Fairy Tail - Wiccat) | 소재 2개 제거: 덱에서 페어리테일 카드 2장 덤핑 | 페어리테일－매치리르 (Fairy Tail - Matchgiru) + 테일즈오브 페어리테일 (Tails of the Fairy Tails) 묘지로 | 우라라, 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 6 | 페어리테일－매치리르 (Fairy Tail - Matchgiru) | 묘지 효과: 1850 마법사족(위캣)이 있어 자체 특소 (이후 마법사족만 특소) |  | G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 7 | 페어리테일－매치리르 (Fairy Tail - Matchgiru) | 특소 유발: 페어리테일 마함 서치 | 페어리테일의 무답회 (Fairy Tail Ball) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 2 | 페어리테일－카구야 (Fairy Tail - Luna) | 일반 소환 유발: 공격력 1850 마법사족 서치 | 반지의 정령 지냐 (Genia of the Ring) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 3 | 반지의 정령 지냐 (Genia of the Ring) | 패 효과: 루나를 대상으로 자체 특소 (이번 턴 엑스트라 덱 특소는 마법사족만) |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 4 | 페어리테일－위캣 (Fairy Tail - Wiccat) | 루나 + 제니아로 엑시즈 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 5 | 페어리테일－위캣 (Fairy Tail - Wiccat) | 소재 2개 제거: 덱에서 페어리테일 카드 2장 덤핑 | 페어리테일－매치리르 (Fairy Tail - Matchgiru) + 테일즈오브 페어리테일 (Tails of the Fairy Tails) 묘지로 | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 6 | 페어리테일－매치리르 (Fairy Tail - Matchgiru) | 묘지 효과: 1850 마법사족(위캣)이 있어 자체 특소 (이후 마법사족만 특소) |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 7 | 페어리테일－매치리르 (Fairy Tail - Matchgiru) | 특소 유발: 페어리테일 마함 서치 | 페어리테일의 무답회 (Fairy Tail Ball) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
 | 8 | 페어리테일의 무답회 (Fairy Tail Ball) | 발동 시 효과: 덱에서 페어리테일 몬스터 서치 | 두 번째 페어리테일－카구야 (Fairy Tail - Luna) 서치 | 우라라, 드롤, 도미나스 퍼지 |
 | 9 | 테일즈오브 페어리테일 (Tails of the Fairy Tails) | 묘지 효과: 매치리르에게 장착 → 추가 일반 소환 권리 |  | – |
 | 10 | 페어리테일－카구야 (Fairy Tail - Luna) | 두 번째 루나 일반 소환(테일즈 효과) |  | 푸루리아, 니비루 |
-| 11 | 페어리테일－카구야 (Fairy Tail - Luna) | 일반 소환 유발: 1850 마법사족 서치 | 페어리테일－백설 (Fairy Tail - Snow) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 12 | 테일즈오브 페어리테일 (Tails of the Fairy Tails) | 장착 상태 효과: 위캣(필드) + 스노우(패)로 마법사족 융합 | 페어리테일을 이야기하는 자 (Teller of Fairy Tails) | G, 후와로스, 유령토끼, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 13 | 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) | 매치리르 1장으로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 14 | 크레센트 오브 마기스토스 엔디미온 (Endymion, the Crescent Magistus) | 아르테미스 + 루나로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 15 | 크레센트 오브 마기스토스 엔디미온 (Endymion, the Crescent Magistus) | 링크 소환 유발: 자신을 대상으로 묘지의 아르테미스를 장착 |  | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 11 | 페어리테일－카구야 (Fairy Tail - Luna) | 일반 소환 유발: 1850 마법사족 서치 | 페어리테일－백설 (Fairy Tail - Snow) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 12 | 테일즈오브 페어리테일 (Tails of the Fairy Tails) | 장착 상태 효과: 위캣(필드) + 스노우(패)로 마법사족 융합 | 페어리테일을 이야기하는 자 (Teller of Fairy Tails) | 증G, 후와로스, 유령토끼, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 13 | 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) | 매치리르 1장으로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 14 | 크레센트 오브 마기스토스 엔디미온 (Endymion, the Crescent Magistus) | 아르테미스 + 루나로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 15 | 크레센트 오브 마기스토스 엔디미온 (Endymion, the Crescent Magistus) | 링크 소환 유발: 자신을 대상으로 묘지의 아르테미스를 장착 |  | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
 | 16 | 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) | 장착 상태 효과: 마기스토스 몬스터 서치 | 씰 오브 마기스토스 스푼 (Spenta, the Magistus Sealer) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
 | 17 | 씰 오브 마기스토스 스푼 (Spenta, the Magistus Sealer) | 패에서 버리고 마기스토스 서치 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) 서치 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
-| 18 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) | 드로우 외로 패에 들어와 자체 특소 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 19 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) | 소환 유발: 크로울리 + 엔디미온(링크)으로 융합 | 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna) | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 18 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) | 드로우 외로 패에 들어와 자체 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 19 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) | 소환 유발: 크로울리 + 엔디미온(링크)으로 융합 | 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna) | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 | 20 | 씰 오브 마기스토스 스푼 (Spenta, the Magistus Sealer) | 묘지에서 제외: 조로아를 대상으로 묘지·엑스트라 덱의 마기스토스를 장착 (조로아 무효 코스트 확보) |  | 도미나스 스파크, 감마 |
 
 **최종 필드 / 견제**: 페어리테일을 이야기하는 자 (Teller of Fairy Tails), 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna), 페어리테일의 무답회 (Fairy Tail Ball)
@@ -139,20 +139,20 @@ MDM 콤보 'Spenta, the Magistus Sealer'(2026-10-13)·'Spenta starter' 공통 �
 |---|---|---|---|---|
 | 1 | 씰 오브 마기스토스 스푼 (Spenta, the Magistus Sealer) | 패에서 버리고 마기스토스 서치 | 마기스토스 플레임 조로아 (Zoroa, the Magistus of Flame) 서치 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
 | 2 | 마기스토스 플레임 조로아 (Zoroa, the Magistus of Flame) | 일반 소환 |  | 푸루리아, 니비루 |
-| 3 | 마기스토스 플레임 조로아 (Zoroa, the Magistus of Flame) | 기동 효과: 자신을 대상으로 엑스트라 덱의 아르테미스를 장착 | 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) 장착 | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 4 | 마기스토스 플레임 조로아 (Zoroa, the Magistus of Flame) | 장착 유발: 묘지의 스펜타를 수비 표시로 특소(효과 무효) |  | G, 냐루스, 무한포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 5 | 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) | 스펜타 1장으로 두 번째 아르테미스 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 3 | 마기스토스 플레임 조로아 (Zoroa, the Magistus of Flame) | 기동 효과: 자신을 대상으로 엑스트라 덱의 아르테미스를 장착 | 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) 장착 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 4 | 마기스토스 플레임 조로아 (Zoroa, the Magistus of Flame) | 장착 유발: 묘지의 스펜타를 수비 표시로 특소(효과 무효) |  | 증G, 냐루스, 포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 5 | 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) | 스펜타 1장으로 두 번째 아르테미스 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
 | 6 | 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) | 조로아에게 장착된 아르테미스의 효과: 마기스토스 서치 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
-| 7 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) | 패에서 자체 특소 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 8 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) | 소환 유발: 크로울리 + 아르테미스(링크)로 융합 | 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna) | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
-| 9 | 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna) | 기동 효과: 묘지의 크로울리를 장착 |  | 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 10 | 마기스토스 코로조 (Magistus Chorozo) | 장착 카드인 아르테미스(링크)·크로울리(마법사족)를 묘지로 보내 엑스트라 덱에서 특소 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 11 | 페어리테일－위캣 (Fairy Tail - Wiccat) | 조로아(화염, 레벨 4) + 코로조(레벨 4)로 엑시즈 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 12 | 페어리테일－위캣 (Fairy Tail - Wiccat) | 소재 2개 제거: 매치리르 + 테일즈 덤핑 |  | 우라라, 무한포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
-| 13 | 페어리테일－매치리르 (Fairy Tail - Matchgiru) | 묘지에서 자체 특소 → 볼 서치 → 볼로 루나 서치 | 페어리테일의 무답회 (Fairy Tail Ball) → 페어리테일－카구야 (Fairy Tail - Luna) | 우라라, G, 드롤, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 퍼지, 도미나스 스파크, 감마 |
+| 7 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) | 패에서 자체 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 8 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) | 소환 유발: 크로울리 + 아르테미스(링크)로 융합 | 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna) | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 9 | 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna) | 기동 효과: 묘지의 크로울리를 장착 |  | 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 10 | 마기스토스 코로조 (Magistus Chorozo) | 장착 카드인 아르테미스(링크)·크로울리(마법사족)를 묘지로 보내 엑스트라 덱에서 특소 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 11 | 페어리테일－위캣 (Fairy Tail - Wiccat) | 조로아(화염, 레벨 4) + 코로조(레벨 4)로 엑시즈 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 12 | 페어리테일－위캣 (Fairy Tail - Wiccat) | 소재 2개 제거: 매치리르 + 테일즈 덤핑 |  | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마 |
+| 13 | 페어리테일－매치리르 (Fairy Tail - Matchgiru) | 묘지에서 자체 특소 → 볼 서치 → 볼로 루나 서치 | 페어리테일의 무답회 (Fairy Tail Ball) → 페어리테일－카구야 (Fairy Tail - Luna) | 우라라, 증G, 드롤, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 퍼지, 도미나스 스파크, 감마 |
 | 14 | 테일즈오브 페어리테일 (Tails of the Fairy Tails) | 묘지에서 장착 → 루나 추가 일반 소환 → 스노우 서치 | 페어리테일－백설 (Fairy Tail - Snow) | 우라라, 푸루리아, 드롤, 니비루, 도미나스 퍼지 |
-| 15 | 테일즈오브 페어리테일 (Tails of the Fairy Tails) | 장착 상태 효과: 위캣 + 스노우로 융합 | 페어리테일을 이야기하는 자 (Teller of Fairy Tails) | G, 후와로스, 유령토끼, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 16 | 크레센트 오브 마기스토스 엔디미온 (Endymion, the Crescent Magistus) | 매치리르 + 루나로 링크 소환 → 묘지의 마법사족 장착 |  | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 15 | 테일즈오브 페어리테일 (Tails of the Fairy Tails) | 장착 상태 효과: 위캣 + 스노우로 융합 | 페어리테일을 이야기하는 자 (Teller of Fairy Tails) | 증G, 후와로스, 유령토끼, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 16 | 크레센트 오브 마기스토스 엔디미온 (Endymion, the Crescent Magistus) | 매치리르 + 루나로 링크 소환 → 묘지의 마법사족 장착 |  | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 
 **최종 필드 / 견제**: 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna), 페어리테일을 이야기하는 자 (Teller of Fairy Tails), 크레센트 오브 마기스토스 엔디미온 (Endymion, the Crescent Magistus), 페어리테일의 무답회 (Fairy Tail Ball)
 
@@ -166,16 +166,16 @@ MDM 콤보 'Spenta, the Magistus Sealer'(2026-10-13)·'Spenta starter' 공통 �
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
-| 1 | 프린스 오브 엔디미온 레굴루스 (Regulus, the Prince of Endymion) | 패의 마법사족을 공개하고 LP를 내 자체 특소 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 2 | 프린스 오브 엔디미온 레굴루스 (Regulus, the Prince of Endymion) | 특소 유발: 레굴루스가 적힌 마법 서치 | 엔디미온 황국 (Empire of Endymion) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 1 | 프린스 오브 엔디미온 레굴루스 (Regulus, the Prince of Endymion) | 패의 마법사족을 공개하고 LP를 내 자체 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 2 | 프린스 오브 엔디미온 레굴루스 (Regulus, the Prince of Endymion) | 특소 유발: 레굴루스가 적힌 마법 서치 | 엔디미온 황국 (Empire of Endymion) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
 | 3 | 엔디미온 황국 (Empire of Endymion) | 발동 시 효과: 레굴루스가 적힌 몬스터 서치 | 엔디미온의 시녀 베르 (Verre, the Maid of Endymion) 서치 | 우라라, 드롤, 도미나스 퍼지 |
-| 4 | 엔디미온의 시녀 베르 (Verre, the Maid of Endymion) | 이번 턴 마법을 발동했으므로 패에서 자체 특소 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 5 | 엔디미온의 시녀 베르 (Verre, the Maid of Endymion) | 특소 유발: 위치크래프트 마함 서치 | 베르 매직 빛의 라크리마 (Verre Magic - Lacrima of Light) 서치 | 우라라, 드롤, 무한포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
-| 6 | 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) | 레굴루스 1장으로 링크 소환 |  | G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 7 | 크레센트 오브 마기스토스 엔디미온 (Endymion, the Crescent Magistus) | 아르테미스 + 베르로 링크 소환 → 묘지의 아르테미스 장착 |  | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 4 | 엔디미온의 시녀 베르 (Verre, the Maid of Endymion) | 이번 턴 마법을 발동했으므로 패에서 자체 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 5 | 엔디미온의 시녀 베르 (Verre, the Maid of Endymion) | 특소 유발: 위치크래프트 마함 서치 | 베르 매직 빛의 라크리마 (Verre Magic - Lacrima of Light) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마 |
+| 6 | 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) | 레굴루스 1장으로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 7 | 크레센트 오브 마기스토스 엔디미온 (Endymion, the Crescent Magistus) | 아르테미스 + 베르로 링크 소환 → 묘지의 아르테미스 장착 |  | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 | 8 | 마기스토스 메이든 아르테미스 (Artemis, the Magistus Moon Maiden) | 장착 상태 효과: 마기스토스 서치 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) (패의 스펜타는 그대로 보존하거나 서치에 사용) | 우라라, 드롤, 유령토끼, 도미나스 퍼지 |
-| 9 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) | 패에서 자체 특소 |  | G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
-| 10 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) | 소환 유발: 크로울리 + 엔디미온으로 융합 | 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna) | G, 후와로스, 무한포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
+| 9 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) | 패에서 자체 특소 |  | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 감마 |
+| 10 | 기프트 오브 마기스토스 크로울리 (Crowley, the Gifted Magistus) | 소환 유발: 크로울리 + 엔디미온으로 융합 | 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna) | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마 |
 | 11 | 베르 매직 빛의 라크리마 (Verre Magic - Lacrima of Light) | 마기스토스를 컨트롤해 덱에서 마법사족/마법 1장 덤핑(조로아·위치크래프트 제니 등) |  | 우라라 |
 
 **최종 필드 / 견제**: 마기스토스 우르스라그나 조로아 (Zoroa, the Magistus Verethragna)
