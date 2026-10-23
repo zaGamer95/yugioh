@@ -19,7 +19,7 @@
 | 마루챠미 냐루스 (Mulcharmy Meowls) | 🟠 아픔 | 제외 상태에서 특소가 주력이라 조건이 잘 맞음 |
 | 마루챠미 후와로스 (Mulcharmy Fuwalos) | 🟠 아픔 | TB-11·링크만 셈. 그래도 4~6드로우 |
 | PSY프레임기어 γ (PSY-Framegear Gamma) | 🟠 아픔 | 도마우스 효과 발동을 무효+파괴(묘지로 가서 제외 트리거도 없음) |
-| 하루 우라라 (Ash Blossom & Joyous Spring) | 🟡 할만함 | 도마우스(덱에서 제외)·래빗(함정 세트)·언더그라운드 첫 동작에는 못 씀. TB-11 덱 특소 또는 사이버스 위키드 (Cyberse Wicckid)/백업＠이그니스터 (Backup @Ignister) 서치에. M∀LICE&lt;P&gt;Cheshire Cat (Maliss P Chessy Cat)·어둠의 유혹 (Allure of Darkness)의 드로우는 우라라 대상이 아님(드롤로만 막힘) |
+| 하루 우라라 (Ash Blossom & Joyous Spring) | 🟡 할만함 | 도마우스(덱에서 제외)·래빗(함정 세트)·언더그라운드 첫 동작에는 못 씀. TB-11 덱 특소 또는 사이버스 위키드 (Cyberse Wicckid)/백업＠이그니스터 (Backup @Ignister) 서치에. M∀LICE&lt;P&gt;Cheshire Cat (Maliss P Chessy Cat)·어둠의 유혹 (Allure of Darkness)의 드로우도 '덱에서 패에 넣기'라 우라라로 무효할 수 있음 |
 | 도미나스 퍼지 (Dominus Purge) | 🟡 할만함 | 사이버스 위키드 (Cyberse Wicckid)·백업＠이그니스터 (Backup @Ignister) 서치에. 첫 동작에는 해당 없음. 패에서 쓰면 어둠·물·화염 효과 봉인 |
 | 드롤 & 로크 버드 (Droll & Lock Bird) | 🟡 할만함 | 첫 서치(위키드) 뒤에. 제외 상태에서 패로 넣는 마치 헤어는 못 막음 |
 | 저택 와라시 (Ghost Belle & Haunted Mansion) | 🟡 할만함 | 화이트 바인더의 묘지 제외, 스플래시 메이지 (Splash Mage)·위저드＠이그니스터 (Wizard @Ignister)의 묘지 소생에. 제외 상태 특소에는 해당 없음 |
@@ -172,7 +172,7 @@
 - 도마우스의 '덱에서 제외', 래빗·화이트 바인더의 '함정 세트', 언더그라운드의 '제외'는 우라라 대상이 아니다. 우라라는 TB-11(덱 특소)이나 위키드·백업 서치까지 아껴 둘 것.
 - M∀LICE 몬스터를 제외하는 카드(D.D. 크로우, 비스테드, 스파크 등)는 거의 항상 손해다. 제외되면 300~900LP를 내고 돌아오거나 패로 회수된다. 반대로 파괴·릴리스로 묘지에 보내는 건 제외 트리거를 주지 않는다.
 - 링그리보 (Linguriboh)가 필드에 나오면 함정(포영·도미나스 임펄스) 발동이 무효+제외당한다. 함정 계열 견제는 링크 1이 나오기 전에 쓴다.
-- M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter)는 링크처에 몬스터가 있으면 발동·효과가 무효되지 않는다. 후공에서는 링크처 몬스터를 먼저 치우거나 효과 무효를 '발동 전'에 걸어야 한다.
+- M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter)는 링크처에 몬스터가 있으면 발동·효과가 무효되지 않는다. 포영·명왕결계파 (Dark Ruler No More)로 효과를 '미리' 무효로 해 둬도, 크립터가 처리될 때 링크처에 몬스터가 있으면 제외는 그대로 처리된다. 후공에서는 링크처 몬스터를 먼저 치우거나, 무효가 아닌 제거(괴수·초융합·아르테미트 슬레이)로 크립터를 치운다.
 - 증G를 맞으면 보통 화이트 바인더 + 세트 함정에서 끊는다. 이때 상대 턴의 M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 소생은 남는다.
 
 ## 출처

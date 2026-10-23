@@ -6,14 +6,14 @@
 
 ## 한눈에 보기
 
-메인 몬스터 존을 비운 채 '섬도' 속공 마법으로 상대 턴에 대응하는 컨트롤 덱(섬도희). 몬스터는 섬도희－레이 (Sky Striker Ace - Raye)·섬도희－로제 (Sky Striker Ace - Roze) 정도뿐이고, 선공 1턴은 섬도희－레이 (Sky Striker Ace - Raye) → 섬도희＝제로 (Sky Striker Ace = Zero)의 서치 + 섬도기동－인게이지 (Sky Striker Mobilize - Engage!)로 손패를 늘린 뒤 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor)·섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)·섬도아식－렘니스게이트 (Sky Striker Special Maneuver - Lemnisgate!)·The Fallen & The Virtuous (The Fallen & The Virtuous)를 세트하고 넘기는 게 기본. 최근 리스트는 현람한 견신 (Radiant Typhoon Vision) 등 현람 파츠와 욕망과 탐욕의 항아리 (Pot of Desires)·갑부 고블린 (Upstart Goblin)으로 드로우를 늘린다. 특소 횟수가 적어 증G·후와로스·니비루는 약하고, 몬스터 효과 무효는 레이가 '릴리스 코스트'로 사라지기 때문에 거의 안 맞는다. 아픈 건 서치·드로우를 함께 막는 드롤, 서치를 끊는 우라라, 특소 효과 자체를 무효로 하는 도미나스 임펄스.
+메인 몬스터 존을 비운 채 '섬도' 속공 마법으로 상대 턴에 대응하는 컨트롤 덱(섬도희). 몬스터는 섬도희－레이 (Sky Striker Ace - Raye)·섬도희－로제 (Sky Striker Ace - Roze) 정도뿐이고, 선공 1턴은 섬도희－레이 (Sky Striker Ace - Raye) → 섬도희＝제로 (Sky Striker Ace = Zero)의 서치 + 섬도기동－인게이지 (Sky Striker Mobilize - Engage!)로 손패를 늘린 뒤 섬도기－위도우앵커 (Sky Striker Mecha - Widow Anchor)·섬도기동－링케이지 (Sky Striker Mobilize - Linkage!)·섬도아식－렘니스게이트 (Sky Striker Special Maneuver - Lemnisgate!)·The Fallen & The Virtuous (The Fallen & The Virtuous)를 세트하고 넘기는 게 기본. 최근 리스트는 현람한 견신 (Radiant Typhoon Vision) 등 현람 파츠와 욕망과 탐욕의 항아리 (Pot of Desires)·갑부 고블린 (Upstart Goblin)으로 드로우를 늘린다. 특소 횟수가 적어 증G·후와로스·니비루는 약하고, 몬스터 효과 무효는 레이가 '릴리스 코스트'로 사라지기 때문에 거의 안 맞는다. 아픈 건 서치·드로우를 함께 막는 드롤, 서치·드로우를 끊는 우라라, 특소 효과 자체를 무효로 하는 도미나스 임펄스.
 
 ### 패트랩 상성 요약
 
 | 패트랩 | 평가 | 언제 / 어디에 |
 |---|---|---|
 | 드롤 & 로크 버드 (Droll & Lock Bird) | 🔴 치명 | 첫 서치(제로/인게이지) 처리 후. 드로우·서치 마법이 많아 가장 아픈 패트랩 |
-| 하루 우라라 (Ash Blossom & Joyous Spring) | 🔴 치명 | 레이 없이 시작한 인게이지 서치 > 제로 서치. 후공이면 상대 턴 제로의 '레이+로제 덱 특소'에도. 욕망과 탐욕의 항아리·갑부 고블린 같은 드로우는 우라라로 무효할 수 없음(드롤만 막음) |
+| 하루 우라라 (Ash Blossom & Joyous Spring) | 🔴 치명 | 레이 없이 시작한 인게이지 서치 > 제로 서치. 후공이면 상대 턴 제로의 '레이+로제 덱 특소'에도. 욕망과 탐욕의 항아리 (Pot of Desires)·갑부 고블린 (Upstart Goblin) 같은 드로우도 '덱에서 패에 넣기'라 우라라로 무효할 수 있음(욕망과 탐욕의 항아리는 10장 제외 코스트를 낸 뒤라 특히 아픔). 레이·링키지의 엑스트라 덱 특소에는 못 씀 |
 | 도미나스 임펄스 (Dominus Impulse) | 🔴 치명 | 레이의 섬도희 특소, 제로의 레이+로제 특소, 링키지 모두 '특소 효과'라 대상. 레이에 쓰는 게 가장 좋음 |
 | 도미나스 퍼지 (Dominus Purge) | 🟠 아픔 | 제로·인게이지 서치에. 단 빈 필드에서 첫 인게이지에는 패에서 못 씀(상대가 카드를 가져야 함). 어둠·물·화염 효과 봉인 주의 |
 | PSY프레임기어 γ (PSY-Framegear Gamma) | 🟠 아픔 | 레이 효과 발동을 무효+파괴. 포영과 달리 레이에 맞음 |
@@ -141,7 +141,7 @@
 
 ## 주의할 점
 
-- 레이·제로의 퀵 효과는 자신을 릴리스하는 코스트라 대상 지정 무효(포영·뵐러)·파괴(유령토끼)가 안 맞는다. 미리 걸면 체인해서 도망간다. 레이에는 도미나스 임펄스·감마만 유효.
+- 레이·제로의 퀵 효과는 자신을 릴리스하는 코스트라, 발동에 체인하면 이미 필드에 없어 대상 지정 무효(포영·뵐러)·파괴(유령토끼)를 맞출 수 없다. 미리 걸면 체인해서 도망간다(응수하지 않고 포영이 먼저 처리되면 그 뒤의 릴리스 효과도 무효). 레이 발동 자체에는 도미나스 임펄스·감마만 유효.
 - 유령토끼는 패에서 발동하는 마법 카드에 못 쓴다. 섬도의 주요 카드가 전부 속공·일반 마법이라 유령토끼는 사이드 아웃 후보.
 - 섬도희 링크 몬스터를 상대 효과로 치우면 묘지의 레이가 소생한다(1턴 1번). 후공에서 제로를 먼저 치울 때는 레이 소생까지 계산할 것.
 - 후공 사이드: 드롤·우라라·와라시를 유지하고, 세트 속공을 치우는 싸이크론 (Mystical Space Typhoon)/코즈믹 싸이크론 (Cosmic Cyclone)/해피의 깃털 (Harpie's Feather Duster), 마법 체인을 막는 금지된 일적 (Forbidden Droplet)(마법을 보내 발동), 이블리 매치드를 넣는다. 포영·뵐러·니비루·유령토끼는 빼는 쪽.
