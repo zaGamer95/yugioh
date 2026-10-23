@@ -747,5 +747,663 @@
   "https://www.masterduelmeta.com/combo/6ac932bfe4d090c383fd165c (Aleister Droll combo)",
   "https://www.masterduelmeta.com/api/v1/cards (MDM 카드 API, MD 영문 텍스트)",
   "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=12849&request_locale=ko (공식 DB: 소환수 메르카바)"
- ]
+ ],
+ "going_second": {
+  "summary_ko": "풀 전개(추억의 알레이스터 1장)의 엔드 보드에는 진짜 무효가 없다. [[S:P Little Knight]]의 퀵 제외 1회, EX 존 [[Invoked Oceanus]]의 묘지 제외, 세트 [[Invocation - \"Sword\"]]의 퀵 융합이 전부라서 몬스터 전체 제거·명왕결계파 한 장으로도 대부분 무너진다. 다만 [[Hyperinvoked Aeon]]이 이미 내 엑스트라 덱 3장을 제외해 둔 상태라 엑스트라 덱에 의존하는 돌파(아르테미트 슬레이·초융합·링크 전개)는 카드가 남아 있는지 먼저 확인한다. 1.5장 루트는 [[Invoked Mechaba]] 무효와 [[Virakam, the Divine Spirit of Artifice]]의 보호가 붙어 한 단계 단단해지고, 드롤을 맞으면 [[Baronne de Fleur]] 1견제로 줄어든다.",
+  "difficulty": "medium",
+  "boards": [
+   {
+    "id": "full",
+    "title_ko": "풀 전개 (추억의 알레이스터 1장 초동: 오케아노스 + SPLK + 세트 소검)",
+    "line": "rem1",
+    "interruptions": [
+     {
+      "id": "splk",
+      "card": "S:P Little Knight",
+      "kind": "banish",
+      "zone": "monster",
+      "timing_ko": "내가 카드·효과를 발동했을 때 1회(퀵). 자기 몬스터를 포함한 앞면 몬스터 2장을 엔드 페이즈까지 제외. 무효가 아니라 발동한 효과는 처리된다",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인할 수 없어 SPLK·오케아노스를 한 번에 무효. 세트 소검은 체인 가능"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 코스트로 보내면 SPLK가 체인 불가. 마법도 함께 보내면 세트 소검 체인까지 막는다"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "내 필드에 몬스터가 없을 때 SPLK 발동을 무효+파괴. 미끼 효과를 몬스터 없이 먼저 발동할 것"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 SPLK가 체인할 수 없다. SPLK를 릴리스하면 견제가 사라진다"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "엑스트라 덱의 링크 몬스터를 보내고 SPLK를 덱으로. 몬스터 효과로 체인 불가. 내 링크 몬스터가 아이온 제외에 걸리지 않았는지 확인"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. SPLK(어둠 전사족)를 소재로 쓸 수 있는 융합이 내 엑스트라 덱에 있어야 함"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 시작 시 미리 무효. 다만 SPLK가 체인해 자신+오케아노스를 엔드 페이즈까지 제외해 버릴 수 있다(그 턴 상대 몬스터 존이 비므로 공격은 통함)"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "SPLK가 효과를 발동하면 파괴. 제외 효과는 그대로 처리된다"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "SPLK가 효과를 쓴 뒤라면 릴리스해 특소"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "SPLK가 내 메인 페이즈에 효과를 쓰면 발동 조건 충족. 오케아노스 탈취 또는 2드로우"
+       }
+      ],
+      "bait_ko": "SPLK는 상대 몬스터 1장(보통 내 몬스터)을 엔드 페이즈까지만 치운다. 덜 중요한 효과를 먼저 발동해 SPLK를 쓰게 하거나, 상대가 자기 몬스터 2장을 제외하면 그 턴은 상대 몬스터 존이 비므로 바로 공격한다"
+     },
+     {
+      "id": "oceanus",
+      "card": "Invoked Oceanus",
+      "kind": "floodgate",
+      "zone": "monster",
+      "timing_ko": "EX 몬스터 존에 있는 동안 상시: 내 묘지로 가는 몬스터는 대신 제외. 공격력 3000. 무효 효과는 없다",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "지속 효과도 무효라 이번 턴 내 묘지 효과를 쓸 수 있다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 오케아노스 제외 효과와 무관하게 치운다. 공격력 3000을 넘는 괴수가 아니면 전투로는 못 넘는다"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "엑스트라 덱의 융합 몬스터를 보내고 덱으로. 내 융합 몬스터가 아이온에 제외되지 않았는지 확인"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "오케아노스(땅·바다뱀족 융합)를 소재로 흡수. 체인 불가"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "파괴 내성 없음. SPLK가 체인해 오케아노스를 엔드 페이즈까지 피신시킬 수 있다"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "융합 소환된 공격 표시라 대상. SPLK 체인으로 피신 가능한 점은 번개와 같음"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "EX 존 제외 효과를 그 턴만 무효. 묘지 효과를 쓰는 덱일 때만 의미"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "효과 무효+공격력 1500. 다른 견제와 함께 묶어서"
+       }
+      ],
+      "bait_ko": ""
+     },
+     {
+      "id": "sword",
+      "card": "Invocation - \"Sword\"",
+      "kind": "other",
+      "zone": "st",
+      "timing_ko": "세트된 속공 마법. 내 턴에도 퀵으로 융합 소환한다. 필드의 몬스터에 더해 제외된 몬스터를 묘지로 되돌려 소재로 쓸 수 있어, 무엇이 나올지는 엑스트라 덱·제외 상황에 따라 다르다(소환수 융합은 알레이스터 소재가 필요). 묘지로 가면 다음 턴 알레이스터 회수로 이어진다",
+      "answered_by": [
+       {
+        "id": "droplet",
+        "note_ko": "마법을 코스트로 보내면 그 발동에 소검(마법)으로 체인할 수 없다. 소검 자체를 없애지는 못함"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "소검 발동(융합 = 특소 효과)을 무효. 패에서 쓰면 이후 빛·땅·바람 몬스터 효과를 발동할 수 없다"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "제외해 묘지 회수까지 끊는다. 단 상대는 체인해 소검을 발동할 수 있으므로 상대가 원하는 타이밍만 빼앗는 정도"
+       },
+       {
+        "id": "mst",
+        "note_ko": "코즈믹과 같지만 파괴라 묘지 효과(알레이스터 회수)가 남는다"
+       },
+       {
+        "id": "harpie",
+        "note_ko": "체인 발동은 가능. 마함 1장뿐이라 가치는 낮다"
+       }
+      ],
+      "bait_ko": "소검이 무엇을 낼 수 있는지 먼저 계산한다. 발동하면 오케아노스 등 필드 몬스터가 소재로 빠지므로, 소검을 쓰게 만든 뒤 남은 보드를 정리하는 편이 낫다"
+     }
+    ]
+   },
+   {
+    "id": "full_inv15",
+    "title_ko": "알레이스터 + 화염/바람 몬스터 (메르카바 + 오케아노스 + 비라캄 + 세트 소검)",
+    "line": "inv15",
+    "interruptions": [
+     {
+      "id": "mechaba",
+      "card": "Invoked Mechaba",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "마법·함정 카드 또는 몬스터 효과 발동 시 1턴 1회(퀵). 같은 종류(몬스터/마법/함정) 카드를 패에서 버려야 하며 무효 후 제외",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "메르카바가 체인할 수 없어 깔끔하게 무효"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "보낸 카드와 같은 종류로는 체인 불가. 몬스터를 보내면 메르카바가 응답 못 함"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "내 필드에 몬스터가 없을 때 메르카바 발동을 무효+파괴. 단 비라캄이 융합 몬스터 효과에 대한 응답을 1회 무효·제외하므로 비라캄을 먼저 처리"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 시작 시 미리 무효. 상대 패에 함정이 있으면 메르카바가 체인해 포영을 무효"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 체인 불가. 메르카바를 릴리스"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가. 융합 몬스터를 보내 덱으로"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. 메르카바(빛 기계족)를 소재로 흡수"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "메르카바가 효과를 발동하면 파괴. 무효는 그대로 처리됨"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "메르카바가 효과를 쓴 뒤 릴리스"
+       }
+      ],
+      "bait_ko": "상대 패 매수와 종류를 본다. 패가 0장이거나 버릴 종류가 없으면 메르카바는 사실상 견제가 아니다. 패가 있으면 덜 중요한 몬스터 효과나 마법으로 먼저 무효를 받아낸다"
+     },
+     {
+      "id": "virakam",
+      "card": "Virakam, the Divine Spirit of Artifice",
+      "kind": "protection",
+      "zone": "monster",
+      "timing_ko": "융합 몬스터(메르카바·오케아노스) 효과 발동에 내가 응답하면 1회 자신을 제외하고 그 효과를 무효+제외(퀵)",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "비라캄 효과도 무효. 이후 메르카바에 체인 응답이 통한다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 체인을 막으면서 비라캄 자체도 무효 대상으로 지정 가능"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "비라캄에 미리 쓰면 보호가 사라진다. 대신 메르카바가 포영에 체인할 수 있다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "체인 불가로 비라캄 릴리스"
+       }
+      ],
+      "bait_ko": "메르카바 무효에 체인으로 응답하기 전에 비라캄을 먼저 치우거나, 응답이 필요 없는 카드(명왕결계파·드롭렛·괴수)를 쓴다"
+     },
+     {
+      "id": "oceanus",
+      "card": "Invoked Oceanus",
+      "kind": "floodgate",
+      "zone": "monster",
+      "timing_ko": "EX 몬스터 존에 있는 동안 상시: 내 묘지로 가는 몬스터는 대신 제외. 공격력 3000. 무효 효과는 없다",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "지속 효과도 무효라 이번 턴 내 묘지 효과를 쓸 수 있다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 오케아노스 제외 효과와 무관하게 치운다. 공격력 3000을 넘는 괴수가 아니면 전투로는 못 넘는다"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "엑스트라 덱의 융합 몬스터를 보내고 덱으로. 내 융합 몬스터가 아이온에 제외되지 않았는지 확인"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "오케아노스(땅·바다뱀족 융합)를 소재로 흡수. 체인 불가"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "파괴 내성 없음. SPLK가 체인해 오케아노스를 엔드 페이즈까지 피신시킬 수 있다"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "융합 소환된 공격 표시라 대상. SPLK 체인으로 피신 가능한 점은 번개와 같음"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "EX 존 제외 효과를 그 턴만 무효. 묘지 효과를 쓰는 덱일 때만 의미"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "효과 무효+공격력 1500. 다른 견제와 함께 묶어서"
+       }
+      ],
+      "bait_ko": ""
+     },
+     {
+      "id": "sword",
+      "card": "Invocation - \"Sword\"",
+      "kind": "other",
+      "zone": "st",
+      "timing_ko": "세트된 속공 마법. 내 턴에도 퀵으로 융합 소환한다. 필드의 몬스터에 더해 제외된 몬스터를 묘지로 되돌려 소재로 쓸 수 있어, 무엇이 나올지는 엑스트라 덱·제외 상황에 따라 다르다(소환수 융합은 알레이스터 소재가 필요). 묘지로 가면 다음 턴 알레이스터 회수로 이어진다",
+      "answered_by": [
+       {
+        "id": "droplet",
+        "note_ko": "마법을 코스트로 보내면 그 발동에 소검(마법)으로 체인할 수 없다. 소검 자체를 없애지는 못함"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "소검 발동(융합 = 특소 효과)을 무효. 패에서 쓰면 이후 빛·땅·바람 몬스터 효과를 발동할 수 없다"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "제외해 묘지 회수까지 끊는다. 단 상대는 체인해 소검을 발동할 수 있으므로 상대가 원하는 타이밍만 빼앗는 정도"
+       },
+       {
+        "id": "mst",
+        "note_ko": "코즈믹과 같지만 파괴라 묘지 효과(알레이스터 회수)가 남는다"
+       },
+       {
+        "id": "harpie",
+        "note_ko": "체인 발동은 가능. 마함 1장뿐이라 가치는 낮다"
+       }
+      ],
+      "bait_ko": "소검이 무엇을 낼 수 있는지 먼저 계산한다. 발동하면 오케아노스 등 필드 몬스터가 소재로 빠지므로, 소검을 쓰게 만든 뒤 남은 보드를 정리하는 편이 낫다"
+     }
+    ]
+   },
+   {
+    "id": "after_imperm_sorath",
+    "title_ko": "소라트의 소생에 포영·뵐러를 맞은 경우",
+    "after": {
+     "handtrap": "imperm",
+     "line": "rem1",
+     "step": 4
+    },
+    "interruptions": [
+     {
+      "id": "aeon_attr",
+      "card": "Hyperinvoked Aeon",
+      "kind": "other",
+      "zone": "monster",
+      "timing_ko": "퀵으로 속성 하나를 선언해 다른 몬스터 전부의 속성을 바꾼다(1턴 1회). 속성 조건이 있는 내 효과·소재를 방해. 공격력 3800",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "무효"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "파괴 내성 없음"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "융합 몬스터라 대상"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "소재로 흡수"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "공격 표시라면 대상"
+       }
+      ],
+      "bait_ko": ""
+     }
+    ]
+   },
+   {
+    "id": "after_droll",
+    "title_ko": "첫 서치 직후 드롤을 맞은 경우 (바로네 + 아이온)",
+    "after": {
+     "handtrap": "droll",
+     "line": "rem1",
+     "step": 2
+    },
+    "interruptions": [
+     {
+      "id": "baronne",
+      "card": "Baronne de Fleur",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "앞면으로 있는 동안 1회, 카드·효과 발동 시 무효+파괴(퀵). 내 스탠바이 페이즈에 엑스트라 덱으로 돌아가며 묘지의 레벨 9 이하를 특소할 수도 있다",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가. 깔끔하게 무효"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내면 바로네가 체인 불가"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "내 필드에 몬스터가 없을 때 바로네의 무효를 무효+파괴"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 체인 불가. 바로네를 릴리스"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "엑스트라 덱의 싱크로 몬스터를 보내 덱으로. 내 싱크로가 아이온에 제외되지 않았는지 확인"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가로 흡수"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 시작 시. 바로네가 포영 발동 자체를 무효할 수 있으니 미끼 먼저"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "무효는 처리되지만 바로네가 파괴된다"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "바로네가 무효를 쓴 뒤 아이온과 함께 릴리스"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "바로네가 내 메인 페이즈에 발동하면 조건 충족. 바로네 탈취 가능"
+       }
+      ],
+      "bait_ko": "무효가 1회뿐이라 일반 소환 유발 효과 등 덜 중요한 발동으로 먼저 소모시킨다"
+     },
+     {
+      "id": "aeon_attr",
+      "card": "Hyperinvoked Aeon",
+      "kind": "other",
+      "zone": "monster",
+      "timing_ko": "퀵으로 속성 하나를 선언해 다른 몬스터 전부의 속성을 바꾼다(1턴 1회). 속성 조건이 있는 내 효과·소재를 방해. 공격력 3800",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "무효"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "파괴 내성 없음"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "융합 몬스터라 대상"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "소재로 흡수"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "공격 표시라면 대상"
+       }
+      ],
+      "bait_ko": ""
+     }
+    ]
+   },
+   {
+    "id": "after_ash_baybarron",
+    "title_ko": "베이바론의 비라캄 서치에 우라라를 맞은 경우 (오케아노스 + SPLK, 소검 세트 없음)",
+    "after": {
+     "handtrap": "ash",
+     "line": "rem1",
+     "step": 13
+    },
+    "interruptions": [
+     {
+      "id": "splk_ash",
+      "card": "S:P Little Knight",
+      "kind": "banish",
+      "zone": "monster",
+      "timing_ko": "내가 카드·효과를 발동했을 때 1회(퀵). 자기 몬스터를 포함한 앞면 몬스터 2장을 엔드 페이즈까지 제외. 무효가 아니라 발동한 효과는 처리된다",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인할 수 없어 SPLK·오케아노스를 한 번에 무효. 세트 소검은 체인 가능"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 코스트로 보내면 SPLK가 체인 불가. 마법도 함께 보내면 세트 소검 체인까지 막는다"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "내 필드에 몬스터가 없을 때 SPLK 발동을 무효+파괴. 미끼 효과를 몬스터 없이 먼저 발동할 것"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 SPLK가 체인할 수 없다. SPLK를 릴리스하면 견제가 사라진다"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "엑스트라 덱의 링크 몬스터를 보내고 SPLK를 덱으로. 몬스터 효과로 체인 불가. 내 링크 몬스터가 아이온 제외에 걸리지 않았는지 확인"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. SPLK(어둠 전사족)를 소재로 쓸 수 있는 융합이 내 엑스트라 덱에 있어야 함"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 시작 시 미리 무효. 다만 SPLK가 체인해 자신+오케아노스를 엔드 페이즈까지 제외해 버릴 수 있다(그 턴 상대 몬스터 존이 비므로 공격은 통함)"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "SPLK가 효과를 발동하면 파괴. 제외 효과는 그대로 처리된다"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "SPLK가 효과를 쓴 뒤라면 릴리스해 특소"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "SPLK가 내 메인 페이즈에 효과를 쓰면 발동 조건 충족. 오케아노스 탈취 또는 2드로우"
+       }
+      ],
+      "bait_ko": "SPLK는 상대 몬스터 1장(보통 내 몬스터)을 엔드 페이즈까지만 치운다. 덜 중요한 효과를 먼저 발동해 SPLK를 쓰게 하거나, 상대가 자기 몬스터 2장을 제외하면 그 턴은 상대 몬스터 존이 비므로 바로 공격한다"
+     },
+     {
+      "id": "oceanus_ash",
+      "card": "Invoked Oceanus",
+      "kind": "floodgate",
+      "zone": "monster",
+      "timing_ko": "EX 몬스터 존에 있는 동안 상시: 내 묘지로 가는 몬스터는 대신 제외. 공격력 3000. 무효 효과는 없다",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "지속 효과도 무효라 이번 턴 내 묘지 효과를 쓸 수 있다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 오케아노스 제외 효과와 무관하게 치운다. 공격력 3000을 넘는 괴수가 아니면 전투로는 못 넘는다"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "엑스트라 덱의 융합 몬스터를 보내고 덱으로. 내 융합 몬스터가 아이온에 제외되지 않았는지 확인"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "오케아노스(땅·바다뱀족 융합)를 소재로 흡수. 체인 불가"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "파괴 내성 없음. SPLK가 체인해 오케아노스를 엔드 페이즈까지 피신시킬 수 있다"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "융합 소환된 공격 표시라 대상. SPLK 체인으로 피신 가능한 점은 번개와 같음"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "EX 존 제외 효과를 그 턴만 무효. 묘지 효과를 쓰는 덱일 때만 의미"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "효과 무효+공격력 1500. 다른 견제와 함께 묶어서"
+       }
+      ],
+      "bait_ko": ""
+     }
+    ]
+   }
+  ],
+  "breakers": {
+   "lightning_storm": {
+    "rating": "ok",
+    "note_ko": "오케아노스·SPLK 모두 공격 표시라 대상이지만, SPLK가 체인해 자신과 오케아노스를 엔드 페이즈까지 제외하면 파괴는 빗나간다. 그 턴 상대 몬스터 존이 비므로 공격은 통함"
+   },
+   "evenly_matched": {
+    "rating": "ok",
+    "note_ko": "카드 수가 3장 안팎이라 효과는 작다. SPLK·소검으로 응답 가능"
+   },
+   "dark_ruler": {
+    "rating": "strong",
+    "note_ko": "SPLK·오케아노스·메르카바·비라캄·바로네를 한 번에 무효하고 체인도 못 받는다. 세트 소검(마법)은 남는다"
+   },
+   "harpie": {
+    "rating": "weak",
+    "note_ko": "마함은 세트 소검 1장뿐이고 상대는 체인해 발동할 수 있다"
+   },
+   "heavy_storm": {
+    "rating": "weak",
+    "note_ko": "해피의 깃털과 같은 이유로 가치 낮음"
+   },
+   "raigeki": {
+    "rating": "strong",
+    "note_ko": "파괴 내성 몬스터가 없다. SPLK가 체인해 2장을 엔드 페이즈까지 피신시킬 수 있지만 그 턴 보드는 비고, 메르카바가 있으면 무효될 수 있음"
+   },
+   "dark_hole": {
+    "rating": "ok",
+    "note_ko": "번개와 같지만 내 몬스터도 사라진다"
+   },
+   "kaiju": {
+    "rating": "strong",
+    "note_ko": "소환 절차라 SPLK·메르카바·바로네가 체인 불가. 오케아노스나 핵심 무효를 릴리스"
+   },
+   "kaiju_slumber": {
+    "rating": "ok",
+    "note_ko": "발동에 SPLK·메르카바가 응답할 수 있다"
+   },
+   "cosmic": {
+    "rating": "weak",
+    "note_ko": "세트 소검을 노리지만 체인 발동은 막지 못한다. 제외라서 묘지 회수는 끊음"
+   },
+   "mst": {
+    "rating": "weak",
+    "note_ko": "코즈믹보다 못함(묘지 효과 남김)"
+   },
+   "super_poly": {
+    "rating": "strong",
+    "note_ko": "체인 불가로 오케아노스·메르카바·바로네를 흡수. 맞는 융합 몬스터가 아이온에 제외되지 않았는지 확인"
+   },
+   "book_eclipse": {
+    "rating": "ok",
+    "note_ko": "SPLK·메르카바가 체인할 수 있다. 엔드 페이즈 드로우를 준다"
+   },
+   "kurikara": {
+    "rating": "ok",
+    "note_ko": "효과를 쓴 몬스터(SPLK·메르카바·바로네)가 생긴 뒤에만. 오케아노스는 효과를 발동하지 않아 대상이 아님"
+   },
+   "ultimate_slayer": {
+    "rating": "strong",
+    "note_ko": "몬스터 효과로 체인 불가. 오케아노스·메르카바(융합), SPLK(링크), 바로네(싱크로) 모두 대상. 아이온의 엑스트라 덱 제외에 같은 종류가 남아 있는지 확인"
+   },
+   "fallen_virtuous": {
+    "rating": "ok",
+    "note_ko": "알바스 덱 전용. 퀵 파괴 1회지만 SPLK·메르카바가 응답 가능"
+   },
+   "harmonia": {
+    "rating": "weak",
+    "note_ko": "싱크로 덱 전용. 상대가 내 턴에 몬스터 효과를 쓸 때만"
+   },
+   "imperm": {
+    "rating": "ok",
+    "note_ko": "SPLK에 쓰면 SPLK가 체인해 피신할 수 있고, 메르카바는 함정을 버려 무효할 수 있다. 미끼 이후 혹은 비라캄 제거용"
+   },
+   "ogre": {
+    "rating": "ok",
+    "note_ko": "SPLK·메르카바·바로네가 효과를 쓰면 파괴(효과는 처리됨)"
+   },
+   "gamma": {
+    "rating": "strong",
+    "note_ko": "내 필드에 몬스터가 없을 때 SPLK·메르카바·바로네의 발동을 무효+파괴. 비라캄이 있으면 메르카바에 대한 응답은 막힌다"
+   },
+   "belle": {
+    "rating": "bad",
+    "note_ko": "내 턴에 상대가 묘지 효과를 쓸 일이 거의 없다"
+   },
+   "droplet": {
+    "rating": "strong",
+    "note_ko": "몬스터+마법을 코스트로 보내면 SPLK·메르카바·소검 모두 체인 불가. 2장 무효"
+   },
+   "ttt": {
+    "rating": "ok",
+    "note_ko": "SPLK·메르카바·바로네가 내 메인 페이즈에 효과를 쓰면 발동 가능. 오케아노스·바로네 탈취"
+   },
+   "spark": {
+    "rating": "weak",
+    "note_ko": "상대가 내 턴에 패·묘지 몬스터 효과를 쓰지 않으면 발동 불가"
+   },
+   "crossout": {
+    "rating": "weak",
+    "note_ko": "내 덱에 같은 카드가 있을 때만"
+   },
+   "impulse": {
+    "rating": "ok",
+    "note_ko": "세트 소검의 퀵 융합을 무효. 패에서 쓰면 빛·땅·바람 몬스터 효과 봉인"
+   },
+   "magnamhut": {
+    "rating": "weak",
+    "note_ko": "묘지의 알레이스터(어둠)를 제외해 소검·소환마술 회수 대상을 줄이는 정도. 오케아노스가 EX 존에 있어도 마그나무트 자체는 문제 없음"
+   },
+   "ash": {
+    "rating": "bad",
+    "note_ko": "내 턴에 상대가 서치·덱 특소를 하지 않는다"
+   },
+   "veiler": {
+    "rating": "bad",
+    "note_ko": "상대 메인 페이즈 전용이라 내 턴 돌파에 못 씀"
+   },
+   "nibiru": {
+    "rating": "bad",
+    "note_ko": "상대가 내 턴에 5번 소환하지 않는다"
+   }
+  },
+  "sequencing_ko": [
+   "먼저 상대가 [[Hyperinvoked Aeon]]으로 내 엑스트라 덱의 무엇을 제외했는지 확인하고 돌파 루트를 고른다.",
+   "[[S:P Little Knight]]는 무효가 아니라 제외(엔드 페이즈까지)다. 덜 중요한 효과로 먼저 쓰게 하고, 상대가 자기 몬스터 2장을 제외하면 그 틈에 공격한다.",
+   "[[Invoked Oceanus]]가 EX 존에 있는 동안 내 묘지로 가는 몬스터는 제외된다. 묘지 효과에 의존하는 전개는 오케아노스를 먼저 치우거나 명왕결계파로 무효한 뒤 시작한다.",
+   "세트 [[Invocation - \"Sword\"]]는 체인으로 발동할 수 있으니 마함 제거로는 못 막는다. 드롭렛(마법 코스트)·도미너스 임펄스로 대응하거나, 발동해도 낼 융합이 없는 상황을 만든다.",
+   "[[Invoked Mechaba]]가 있으면 상대 패 매수·종류를 본다. [[Virakam, the Divine Spirit of Artifice]]가 있으면 메르카바 무효에 체인 응답이 무효되므로 명왕결계파·드롭렛·괴수처럼 응답이 필요 없는 카드를 쓴다."
+  ]
+ }
 }
