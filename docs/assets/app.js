@@ -935,28 +935,62 @@
     tip.style.left = left + "px";
     tip.style.top = top + "px";
   }
-  const hideTip = () => (tip.hidden = true);
+  // 호버: 올리면 표시, 떠나면 숨김. 클릭: 고정 ↔ 해제 (링크·버튼은 원래 동작 유지)
+  const TIP_SEL = "[data-card],[data-tip]";
+  let pinned = null;
+  let hovered = null;
+  const hideTip = () => {
+    tip.hidden = true;
+    hovered = null;
+  };
+  const unpin = () => {
+    if (pinned) pinned.classList.remove("tip-pinned");
+    pinned = null;
+    tip.classList.remove("pinned");
+    hideTip();
+  };
   document.addEventListener("mouseover", (e) => {
-    const el = e.target.closest("[data-card],[data-tip]");
-    if (el) showTip(el, e.clientX, e.clientY);
-    else hideTip();
-  });
-  document.addEventListener("focusin", (e) => {
-    const el = e.target.closest("[data-card],[data-tip]");
+    if (pinned) return;
+    const el = e.target.closest(TIP_SEL);
+    if (el === hovered) return;
     if (el) {
+      hovered = el;
+      showTip(el, e.clientX, e.clientY);
+    } else hideTip();
+  });
+  document.addEventListener("mouseout", (e) => {
+    if (pinned || !hovered) return;
+    const to = e.relatedTarget && e.relatedTarget.closest ? e.relatedTarget.closest(TIP_SEL) : null;
+    if (to !== hovered && !(e.relatedTarget && hovered.contains(e.relatedTarget))) hideTip();
+  });
+  document.documentElement.addEventListener("mouseleave", () => { if (!pinned) hideTip(); });
+  document.addEventListener("click", (e) => {
+    const el = e.target.closest(TIP_SEL);
+    const interactive = el && el.closest("a,button,input");
+    if (el && !interactive) {
+      if (pinned === el) return unpin();
+      if (pinned) pinned.classList.remove("tip-pinned");
+      pinned = el;
+      el.classList.add("tip-pinned");
+      tip.classList.add("pinned");
+      const r = el.getBoundingClientRect();
+      showTip(el, r.left, r.bottom);
+      return;
+    }
+    if (pinned) unpin();
+  });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") unpin(); });
+  document.addEventListener("focusin", (e) => {
+    if (pinned) return;
+    const el = e.target.closest(TIP_SEL);
+    if (el && el.matches(":focus-visible")) {
       const r = el.getBoundingClientRect();
       showTip(el, r.left, r.bottom);
     }
   });
-  document.addEventListener("focusout", hideTip);
-  document.addEventListener("scroll", hideTip, { passive: true });
-  document.addEventListener("touchstart", (e) => {
-    const el = e.target.closest("[data-card]");
-    if (el) {
-      const r = el.getBoundingClientRect();
-      showTip(el, r.left, r.bottom);
-    } else hideTip();
-  }, { passive: true });
+  document.addEventListener("focusout", () => { if (!pinned) hideTip(); });
+  // 페이지·스트립 안쪽 스크롤 모두에서 닫기 (scroll 은 버블링되지 않아 capture 로 받음)
+  document.addEventListener("scroll", () => (pinned ? unpin() : hideTip()), { passive: true, capture: true });
 
   /* ---------- theme toggle ---------- */
   const root = document.documentElement;
