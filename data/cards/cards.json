@@ -344,7 +344,8 @@
   ],
   "md_rarity": "UR",
   "text_en": "2 Level 10 monsters\nOnce per turn: You can detach 1 material from this card; inflict 2000 damage to your opponent.",
-  "text_ko": "레벨 10 몬스터 × 2<br>①: 1턴에 1번, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 상대에게 2000 데미지를 준다."
+  "text_ko": "레벨 10 몬스터 × 2<br>①: 1턴에 1번, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 상대에게 2000 데미지를 준다.",
+  "password": 56910167
  },
  "10537": {
   "cid": 10537,
@@ -1228,6 +1229,21 @@
   "text_ko": "이 카드명의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이하의 어느 효과를 포함하는 마법 / 함정 / 몬스터의 효과가 발동했을 때, 이 카드를 패에서 버리고 발동할 수 있다. 그 발동을 무효로 한다.<br>●묘지에서 카드를 패 / 덱 / 엑스트라 덱에 넣는 효과<br>●묘지에서 몬스터를 특수 소환하는 효과<br>●묘지에서 카드를 제외하는 효과",
   "password": 73642296
  },
+ "13619": {
+  "cid": 13619,
+  "password": 24224830,
+  "en": "Called by the Grave",
+  "ko": "무덤의 지명자",
+  "ja": null,
+  "type": "Spell",
+  "race": "Quick-Play",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "Target 1 monster in your opponent's GY; banish it, and if you do, until the end of the next turn, its effects are negated, as well as the activated effects and effects on the field of monsters with the same original name.",
+  "text_ko": "①: 상대 묘지의 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 제외한다. 다음 턴의 종료시까지, 이 효과로 제외한 몬스터 및 그 몬스터와 원래의 카드명이 같은 몬스터의 효과는 무효화된다."
+ },
  "13631": {
   "cid": 13631,
   "en": "Infinite Impermanence",
@@ -1538,6 +1554,24 @@
   "md_rarity": "SR",
   "text_en": "Add 1 \"Endymion\" card from your Deck to your hand, then you can count the number of \"Spell Power Mastery\" and \"Spell Power Grasp\" you control and/or have in your GY, and place that many Spell Counters among card(s) you control that you can place a Spell Counter on. You can only activate 1 \"Spell Power Mastery\" per turn.",
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 덱에서 \"엔디미온\" 카드 1장을 패에 넣는다. 그 후, 자신 필드의 마력 카운터를 놓을 수 있는 카드에, 자신의 필드 / 묘지의 \"마력통할\" \"마력장악\"의 수까지 가능한 한 마력 카운터를 놓을 수 있다."
+ },
+ "14496": {
+  "cid": 14496,
+  "password": 4280258,
+  "en": "Apollousa, Bow of the Goddess",
+  "ko": "소명의 신궁－아폴로우사",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fairy",
+  "attribute": "WIND",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2+ monsters with different names, except Tokens\r\nYou can only control 1 \"Apollousa, Bow of the Goddess\". The original ATK of this card becomes 800 x the number of Link Materials used for its Link Summon. Once per Chain, when your opponent activates a monster effect (Quick Effect): You can make this card lose exactly 800 ATK, and if you do, negate the activation.",
+  "text_ko": "토큰 이외의 카드명이 다른 몬스터 2장 이상<br>①: \"소명의 신궁－아폴로우사\"는 자신 필드에 1장밖에 앞면 표시로 존재할 수 없다. ②: 이 카드의 원래 공격력은, 이 카드의 링크 소재로 한 몬스터의 수 × 800 이 된다. ③: 상대가 몬스터의 효과를 발동했을 때에 발동할 수 있다(동일한 체인 위에서는 1번까지). 이 카드의 공격력을 800 내리고, 그 발동을 무효로 한다."
  },
  "14564": {
   "cid": 14564,
@@ -2540,7 +2574,8 @@
   ],
   "md_rarity": "UR",
   "text_en": "3 monsters with different names\r\nMust first be Fusion Summoned using only Fusion Materials from your hand and field, with at least 1 monster from each. If this card is Fusion Summoned by a Spell Card or effect: You can draw cards equal to the number of cards used as material from the hand, and if you do, destroy cards your opponent controls equal to the number of cards used as material from the field. You can only use this effect of \"Guardian Chimera\" once per turn. While \"Polymerization\" is in your GY, your opponent cannot target this card with card effects.",
-  "text_ko": "카드명이 다른 몬스터 × 3<br>이 카드는 패와 자신 필드의 몬스터만을 각각 1장 이상 소재로 한 융합 소환으로만 엑스트라 덱에서 특수 소환할 수 있다. 이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 마법 카드의 효과로 융합 소환했을 경우에 발동할 수 있다. 패에서 융합 소재로 한 카드의 수만큼 자신은 드로우하고, 필드에서 융합 소재로 한 카드의 수만큼 상대 필드의 카드를 파괴한다. ②: 자신 묘지에 \"융합\"이 존재하는 한, 상대는 이 카드를 효과의 대상으로 할 수 없다."
+  "text_ko": "카드명이 다른 몬스터 × 3<br>이 카드는 패와 자신 필드의 몬스터만을 각각 1장 이상 소재로 한 융합 소환으로만 엑스트라 덱에서 특수 소환할 수 있다. 이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 마법 카드의 효과로 융합 소환했을 경우에 발동할 수 있다. 패에서 융합 소재로 한 카드의 수만큼 자신은 드로우하고, 필드에서 융합 소재로 한 카드의 수만큼 상대 필드의 카드를 파괴한다. ②: 자신 묘지에 \"융합\"이 존재하는 한, 상대는 이 카드를 효과의 대상으로 할 수 없다.",
+  "password": 11321089
  },
  "16936": {
   "cid": 16936,
@@ -3592,6 +3627,172 @@
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 패의 어둠 / 땅 / 화염 속성 몬스터를 각각 1장까지 상대에게 보여주고 발동할 수 있다. 보여준 몬스터의 수에 따라 이하의 효과를 각각 적용한다. ●1장 이상: 상대에게 400 데미지를 준다. 그 후, 패에서 \"VS(뱅키시 소울)\" 몬스터 1장을 특수 소환할 수 있다. ●2장 이상: 상대에게 600 데미지를 준다. 이 턴 중에, 자신 필드의 \"VS(뱅키시 소울)\" 몬스터는 효과로는 파괴되지 않는다. ●3장: 상대에게 800 데미지를 준다. 그 후, 필드의 몬스터를 전부 파괴할 수 있다.",
   "password": 60883493
  },
+ "19360": {
+  "cid": 19360,
+  "password": 23288411,
+  "en": "Mementoal Tecuhtlica - Combined Creation",
+  "ko": "명해합룡－메멘토랄 테쿠틀리카",
+  "ja": null,
+  "type": "Monster",
+  "race": "Wyrm",
+  "attribute": "EARTH",
+  "level": 11,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand or GY) by shuffling 5 other \"Memento\" monsters with different names from your hand and/or GY into the Deck/Extra Deck. While you control no other monsters, this card can attack all monsters your opponent controls, once each. Once per turn, if your opponent activates a card or effect (except during the Damage Step): You can Special Summon 1 \"Memento\" monster from your hand or GY.",
+  "text_ko": "이 카드는 통상 소환할 수 없다. 이 카드 이외의 자신의 패 / 묘지의 \"메멘토\" 몬스터 5종류를 1장씩, 덱 / 엑스트라 덱으로 되돌렸을 경우에만 패 / 묘지에서 특수 소환할 수 있다. ①: 자신 필드에 다른 몬스터가 존재하지 않을 경우, 이 카드는 상대 몬스터 전부에 1회씩 공격할 수 있다. ②: 1턴에 1번, 상대가 마법 / 함정 / 몬스터의 효과를 발동했을 경우에 발동할 수 있다. 자신의 패 / 묘지에서 \"메멘토\" 몬스터 1장을 특수 소환한다."
+ },
+ "19361": {
+  "cid": 19361,
+  "password": 55272555,
+  "en": "Mementotlan-Horned Dragon",
+  "ko": "메멘토 혼 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "DARK",
+  "level": 8,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "If you have 3 or more \"Memento\" monsters with different names in your GY, you can Special Summon this card (from your hand). You can only Special Summon \"Mementotlan-Horned Dragon\" once per turn this way. If this card on the field is destroyed by card effect: You can target 3 face-up cards on the field, including a \"Memento\" card you control; destroy them. You can only use this effect of \"Mementotlan-Horned Dragon\" once per turn.",
+  "text_ko": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신 묘지에 \"메멘토\" 몬스터가 3종류 이상 존재할 경우, 이 카드는 패에서 특수 소환할 수 있다. ②: 필드의 이 카드가 효과로 파괴되었을 경우, 자신 필드의 \"메멘토\" 카드를 포함하는 필드의 앞면 표시 카드 3장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다."
+ },
+ "19362": {
+  "cid": 19362,
+  "password": 81677154,
+  "en": "Mementotlan Tatsunootoshigo",
+  "ko": "메멘토 씨호스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Beast",
+  "attribute": "EARTH",
+  "level": 5,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "If you do not control any face-up monsters, other than \"Memento\" monsters: You can Special Summon this card from your hand. During your Main Phase: You can destroy 1 \"Memento\" monster you control, and send any number of \"Memento\" monster(s) (with different names) from your Deck to the GY whose total Levels are less than or equal to the destroyed monster's original Level. You can only use each effect of \"Mementotlan Tatsunootoshigo\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드에 \"메멘토\" 몬스터 이외의 앞면 표시 몬스터가 존재하지 않을 경우에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 자신 메인 페이즈에 발동할 수 있다. 자신 필드의 \"메멘토\" 몬스터 1장을 파괴하고, 레벨의 합계가 파괴한 몬스터의 원래 레벨 이하가 되도록, 덱에서 \"메멘토\" 몬스터를 묘지로 보낸다(같은 이름의 카드는 1장까지)."
+ },
+ "19363": {
+  "cid": 19363,
+  "password": 18165869,
+  "en": "Mementotlan Dark Blade",
+  "ko": "메멘토 다크 스워드",
+  "ja": null,
+  "type": "Monster",
+  "race": "Warrior",
+  "attribute": "DARK",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "If this card is Normal or Special Summoned: You can discard 1 \"Memento\" card, then target 1 Spell/Trap your opponent controls; destroy it. During your Main Phase: You can destroy 1 \"Memento\" monster you control, and if you do, Special Summon 1 Level 3 or lower \"Memento\" monster from your Deck. You can only use each effect of \"Mementotlan Dark Blade\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우, 패에서 \"메멘토\" 카드 1장을 버리고, 상대 필드의 마법 / 함정 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 파괴한다. ②: 자신 메인 페이즈에 발동할 수 있다. 자신 필드의 \"메멘토\" 몬스터 1장을 파괴하고, 덱에서 레벨 3 이하의 \"메멘토\" 몬스터 1장을 특수 소환한다."
+ },
+ "19364": {
+  "cid": 19364,
+  "password": 54550967,
+  "en": "Mementotlan Angwitch",
+  "ko": "메멘토 엔위치",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "DARK",
+  "level": 3,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "If this card is Normal or Special Summoned: You can add 1 \"Memento\" monster from your Deck to your hand, except \"Mementotlan Angwitch\". You can target 1 Level 2 or lower \"Memento\" monster in your GY; destroy 1 \"Memento\" monster you control, and if you do, Special Summon the targeted monster. You can only use each effect of \"Mementotlan Angwitch\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"메멘토 엔위치\" 이외의 \"메멘토\" 몬스터 1장을 패에 넣는다. ②: 자신 묘지의 레벨 2 이하의 \"메멘토\" 몬스터 1장을 대상으로 하고 발동할 수 있다. 자신 필드의 \"메멘토\" 몬스터 1장을 파괴하고, 대상 몬스터를 특수 소환한다."
+ },
+ "19365": {
+  "cid": 19365,
+  "password": 81945676,
+  "en": "Mementotlan Mace",
+  "ko": "메멘토 메이스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fairy",
+  "attribute": "LIGHT",
+  "level": 1,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "During your opponent's Main Phase, if you control \"Mementoal Tecuhtlica - Combined Creation\" (Quick Effect): You can discard this card, then target 1 face-up monster your opponent controls; take control of it until the End Phase. During your Main Phase: You can destroy 1 \"Memento\" monster you control, and if you do, add 1 \"Memento\" card from your Deck to your hand, except \"Mementotlan Mace\". You can only use each effect of \"Mementotlan Mace\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 상대 메인 페이즈에, 자신 필드에 \"명해합룡－메멘토랄 테쿠틀리카\"가 존재할 경우, 이 카드를 패에서 버리고, 상대 필드의 앞면 표시 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터의 컨트롤을 엔드 페이즈까지 얻는다. ②: 자신 메인 페이즈에 발동할 수 있다. 자신 필드의 \"메멘토\" 몬스터 1장을 파괴하고, 덱에서 \"메멘토 메이스\" 이외의 \"메멘토\" 카드 1장을 패에 넣는다."
+ },
+ "19366": {
+  "cid": 19366,
+  "password": 17943271,
+  "en": "Mementotlan Goblin",
+  "ko": "메멘토 고블린",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "DARK",
+  "level": 1,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "During the Main Phase, if you control \"Mementoal Tecuhtlica - Combined Creation\" (Quick Effect): You can discard this card; for the rest of this turn, your opponent cannot target \"Memento\" monsters you control with card effects. During your Main Phase: You can destroy 1 \"Memento\" monster you control, and if you do, send up to 2 \"Memento\" cards with different names from each other from your Deck to the GY, except \"Mementotlan Goblin\". You can only use each effect of \"Mementotlan Goblin\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 / 상대의 메인 페이즈에, 자신 필드에 \"명해합룡－메멘토랄 테쿠틀리카\"가 존재할 경우, 이 카드를 패에서 버리고 발동할 수 있다. 이 턴 중에, 자신 필드의 \"메멘토\" 몬스터를 상대는 효과의 대상으로 할 수 없다. ②: 자신 메인 페이즈에 발동할 수 있다. 자신 필드의 \"메멘토\" 몬스터 1장을 파괴하고, 덱에서 \"메멘토 고블린\" 이외의 \"메멘토\" 카드를 2장까지 묘지로 보낸다(같은 이름의 카드는 1장까지)."
+ },
+ "19367": {
+  "cid": 19367,
+  "password": 43338320,
+  "en": "Mementomictlan",
+  "ko": "명해부－메멘토란",
+  "ja": null,
+  "type": "Spell",
+  "race": "Field",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "R",
+  "text_en": "If your \"Memento\" monster battles, your opponent cannot activate any Spell/Trap Cards until the end of the Damage Step. If a monster(s) you control is destroyed by battle or card effect: You can target 1 of those monsters; Special Summon 1 \"Memento\" monster with a lower Level from your hand or GY. You can only use this effect of \"Mementomictlan\" once per turn. Once per turn, during your End Phase: You can target 1 \"Memento\" Spell/Trap in your GY; Set it.",
+  "text_ko": "이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신의 \"메멘토\" 몬스터가 전투를 실행할 경우, 상대는 데미지 스텝 종료시까지 마법 / 함정 카드를 발동할 수 없다. ②: 자신 필드의 몬스터가 전투 / 효과로 파괴되었을 경우, 그 중의 1장을 대상으로 하고 발동할 수 있다. 그 몬스터보다 레벨이 낮은 \"메멘토\" 몬스터 1장을 자신의 패 / 묘지에서 특수 소환한다. ③: 자신 엔드 페이즈에, 자신 묘지의 \"메멘토\" 마법 / 함정 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 자신 필드에 세트한다."
+ },
+ "19368": {
+  "cid": 19368,
+  "password": 80722024,
+  "en": "Mementotlan Bone Party",
+  "ko": "메멘토 본 파티",
+  "ja": null,
+  "type": "Spell",
+  "race": "Quick-Play",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Destroy 1 \"Memento\" monster in your hand or face-up field, take 1 \"Memento\" monster from your Deck with a different name, and either add it to your hand or Special Summon it in Defense Position. During your Main Phase: You can banish this card from your GY, then target 1 \"Memento\" monster you control; if it attacks a Defense Position monster this turn, inflict piercing battle damage to your opponent. You can only use each effect of \"Mementotlan Bone Party\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 패 / 필드(앞면 표시)의 \"메멘토\" 몬스터 1장을 파괴하고, 그 몬스터와는 카드명이 다른 \"메멘토\" 몬스터 1장을 덱에서 골라, 패에 넣거나 수비 표시로 특수 소환한다. ②: 자신 메인 페이즈에 묘지의 이 카드를 제외하고, 자신 필드의 \"메멘토\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 이 턴에, 그 몬스터가 수비 표시 몬스터를 공격했을 경우, 그 수비력을 공격력이 넘은 만큼만 상대에게 전투 데미지를 준다."
+ },
+ "19472": {
+  "cid": 19472,
+  "password": 52918032,
+  "en": "Mementotlan Ghattic",
+  "ko": "메멘토 우라몬",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "DARK",
+  "level": 2,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "N",
+  "text_en": "If this card is Normal or Special Summoned: You can target 1 \"Memento\" card in your GY, except \"Mementotlan Ghattic\"; add it to your hand. If this card is sent to the GY by a \"Memento\" monster's effect: You can Special Summon this card. You can only use each effect of \"Mementotlan Ghattic\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우, \"메멘토 우라몬\" 이외의 자신 묘지의 \"메멘토\" 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 패에 넣는다. ②: 이 카드가 \"메멘토\" 몬스터의 효과로 묘지로 보내졌을 경우에 발동할 수 있다. 이 카드를 특수 소환한다."
+ },
  "19497": {
   "cid": 19497,
   "en": "Enigmaster Packbit",
@@ -3626,6 +3827,24 @@
   "text_en": "3 Level 4 monsters\nOnce per turn, you can also Xyz Summon \"Full Armored Utopic Ray Lancer\" by discarding 1 Spell/Trap and using 1 Rank 4 or lower Xyz Monster you control. (Transfer its materials to this card.) Monsters your opponent controls lose 500 ATK. At the start of the Battle Phase: You can negate the effects of all Attack Position monsters your opponent currently controls. When this attacking card destroys an opponent's monster by battle: You can detach 1 material from this card; it can make a second attack in a row.",
   "text_ko": "레벨 4 몬스터 × 3<br>\"FA(풀아머드)－호프 레이 랜서\"는 1턴에 1번, 패의 마법 / 함정 카드 1장을 버리고, 자신 필드의 랭크 4 이하의 엑시즈 몬스터 위에 겹쳐 엑시즈 소환할 수도 있다. ①: 상대 필드의 몬스터의 공격력은 500 내린다. ②: 자신 / 상대의 배틀 페이즈 개시시에 발동할 수 있다. 상대 필드의 모든 공격 표시 몬스터 효과는 무효화된다. ③: 이 카드의 공격으로 상대 몬스터를 파괴했을 때, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 이 카드는 1번만 더 이어서 공격할 수 있다."
  },
+ "19878": {
+  "cid": 19878,
+  "password": 19181420,
+  "en": "Mementotlan Twin Dragon",
+  "ko": "메멘토 트윈 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Thunder",
+  "attribute": "LIGHT",
+  "level": 7,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2 \"Memento\" monsters\nAny monster destroyed by battle with your \"Memento\" monster is banished. You can only use each of the following effects of \"Mementotlan Twin Dragon\" once per turn. If this card is Fusion Summoned: You can destroy 1 \"Memento\" monster in your hand or face-up field, and if you do, add up to 2 \"Memento\" monsters with different names from your Deck to your hand. If this Fusion Summoned card is destroyed: You can Special Summon 1 Level 6 or lower \"Memento\" monster from your GY.",
+  "text_ko": "\"메멘토\" 몬스터 × 2<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 융합 소환했을 경우에 발동할 수 있다. 자신의 패 / 필드(앞면 표시)의 \"메멘토\" 몬스터 1장을 파괴하고, 덱에서 \"메멘토\" 몬스터를 2장까지 패에 넣는다(같은 이름의 카드는 1장까지). ②: 자신의 \"메멘토\" 몬스터가 전투로 파괴한 몬스터는 묘지로는 가지 않으며 제외된다. ③: 융합 소환한 이 카드가 파괴되었을 경우에 발동할 수 있다. 자신 묘지에서 레벨 6 이하의 \"메멘토\" 몬스터 1장을 특수 소환한다."
+ },
  "19886": {
   "cid": 19886,
   "en": "Varudras, the Final Bringer of the End Times",
@@ -3642,6 +3861,21 @@
   "md_rarity": "UR",
   "text_en": "2+ Level 10 monsters\nWhen your opponent activates a card or effect (Quick Effect): You can detach 1 material from this card; negate the activation, then you can detach 1 material from this card, then destroy 1 card on the field. At the start of the Damage Step, if this card attacks while it has material: You can destroy 1 card on the field. If this Xyz Summoned card is destroyed: You can destroy 1 card on the field. You can only use each effect of \"Varudras, the Final Bringer of the End Times\" once per turn.",
   "text_ko": "레벨 10 몬스터 × 2장 이상<br>이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 상대가 효과를 발동했을 때, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 그 발동을 무효로 한다. 그 후, 이 카드의 엑시즈 소재를 1개 제거할 수 있다. 그 경우, 추가로 필드의 카드 1장을 파괴한다. ②: 엑시즈 소재를 가지고 있는 이 카드가 공격하는 데미지 스텝 개시시에 발동할 수 있다. 필드의 카드 1장을 파괴한다. ③: 엑시즈 소환한 이 카드가 파괴되었을 경우에 발동할 수 있다. 필드의 카드 1장을 파괴한다."
+ },
+ "19904": {
+  "cid": 19904,
+  "password": 66518509,
+  "en": "Mementotlan Fusion",
+  "ko": "명해융합－메멘토 퓨전",
+  "ja": null,
+  "type": "Spell",
+  "race": "Quick-Play",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "During the Main Phase: Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from your hand or field as material, including a \"Memento\" monster. If a monster(s) in your possession was destroyed by card effect this turn, you can also shuffle \"Memento\" monsters from your GY into the Deck as material. During your Main Phase: You can banish this card from your GY; destroy 1 monster you control, and if you do, add 1 \"Memento\" Spell/Trap from your Deck to your hand. You can only use each effect of \"Mementotlan Fusion\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 서로의 메인 페이즈에 발동할 수 있다. \"메멘토\" 몬스터를 포함하는 자신의 패 / 필드의 몬스터를 융합 소재로 하고, 융합 몬스터 1장을 융합 소환한다. 이 턴에 자신 몬스터가 효과로 파괴되어 있을 경우, 자신 묘지의 \"메멘토\" 몬스터를 덱으로 되돌리고 융합 소재로 할 수도 있다. ②: 자신 메인 페이즈에 묘지의 이 카드를 제외하고 발동할 수 있다. 자신 필드의 몬스터 1장을 파괴하고, 덱에서 \"메멘토\" 마법 / 함정 카드 1장을 패에 넣는다."
  },
  "19916": {
   "cid": 19916,
@@ -3759,6 +3993,23 @@
   "text_en": "You can discard this card; add 1 \"Fiendsmith\" Spell/Trap from your Deck to your hand. You can target 1 \"Fiendsmith\" Equip Card you control and 1 monster on the field; send them to the GY. If this card is in your GY: You can shuffle 1 other LIGHT Fiend monster from your GY into the Deck/Extra Deck; Special Summon this card. You can only use each effect of \"Fiendsmith Engraver\" once per turn.",
   "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 패에서 버리고 발동할 수 있다. 덱에서 \"데먼스미스\" 마법 / 함정 카드 1장을 패에 넣는다. ②: 자신 필드의 \"데먼스미스\" 장착 카드 1장과 필드의 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 카드를 묘지로 보낸다. ③: 이 카드가 묘지에 존재할 경우, 자신 묘지에서 다른 악마족 / 빛 속성 몬스터 1장을 덱 / 엑스트라 덱으로 되돌리고 발동할 수 있다. 이 카드를 특수 소환한다."
  },
+ "20199": {
+  "cid": 20199,
+  "password": 50042011,
+  "en": "Mementotlan Shleepy",
+  "ko": "메멘토 영험한 양",
+  "ja": null,
+  "type": "Monster",
+  "race": "Beast",
+  "attribute": "EARTH",
+  "level": 3,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "During the turn a monster(s) in your possession was destroyed by card effect (Quick Effect): You can Special Summon this card from your hand. If this card is Normal or Special Summoned: You can Fusion Summon 1 \"Memento\" Fusion Monster from your Extra Deck, using monsters from your hand or field. If this card is destroyed by battle or card effect: You can send 1 \"Memento\" card from your Deck to the GY, except \"Mementotlan Shleepy\". You can only use each effect of \"Mementotlan Shleepy\" once per turn.",
+  "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 몬스터가 효과로 파괴된 자신 / 상대 턴에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 자신의 패 / 필드의 몬스터를 융합 소재로 하고, \"메멘토\" 융합 몬스터 1장을 융합 소환한다. ③: 이 카드가 전투 / 효과로 파괴되었을 경우에 발동할 수 있다. 덱에서 \"메멘토 영험한 양\" 이외의 \"메멘토\" 카드 1장을 묘지로 보낸다."
+ },
  "20206": {
   "cid": 20206,
   "en": "Mulcharmy Purulia",
@@ -3775,6 +4026,24 @@
   "text_en": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n● Each time your opponent Normal or Special Summons a monster(s) from the hand, immediately draw 1 card.\n● Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
   "text_ko": "이 카드의 효과를 발동하는 턴에, 자신은 이 카드 이외의 \"마루챠미\" 몬스터의 효과를 1번밖에 발동할 수 없다. ①: 자신 / 상대 턴에, 자신 필드에 카드가 존재하지 않을 경우, 이 카드를 패에서 버리고 발동할 수 있다. 이 턴 중에, 이하의 효과를 적용한다. ●상대가 패에서 몬스터를 일반 소환 / 특수 소환할 때마다, 자신은 1장 드로우한다. ●엔드 페이즈에, 자신의 패가 상대 필드의 카드의 수 ＋ 6장보다 많을 경우, 그 차의 수만큼 자신의 패를 무작위로 덱으로 되돌린다.",
   "password": 84192580
+ },
+ "20216": {
+  "cid": 20216,
+  "password": 14529511,
+  "en": "Mementomictlan Tecuhtlica - Creation King",
+  "ko": "명해왕－메멘토란 테쿠틀리카",
+  "ja": null,
+  "type": "Monster",
+  "race": "Illusion",
+  "attribute": "EARTH",
+  "level": 9,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "3 \"Memento\" monsters\nYou can banish this card from your GY; add 1 \"Mementomictlan\" from your Deck to your hand. You cannot activate the following effects of \"Mementomictlan Tecuhtlica - Creation King\" in the same Chain. If this card is Fusion Summoned: You can send 3 \"Memento\" cards from your Deck and/or Extra Deck to the GY. (Quick Effect): You can target an equal number of \"Memento\" monsters you control and cards your opponent controls; destroy them. You can only use each effect of \"Mementomictlan Tecuhtlica - Creation King\" once per turn.",
+  "text_ko": "\"메멘토\" 몬스터 × 3<br>이 카드명의, ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없으며, ①②의 효과는 동일한 체인 위에서는 발동할 수 없다. ①: 이 카드를 융합 소환했을 경우에 발동할 수 있다. 덱 / 엑스트라 덱에서 \"메멘토\" 카드 3장을 묘지로 보낸다. ②: 자신 / 상대 턴에, 자신 필드의 \"메멘토\" 몬스터와 상대 필드의 카드를 각각 같은 수만큼 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다. ③: 묘지의 이 카드를 제외하고 발동할 수 있다. 덱에서 \"명해부－메멘토란\" 1장을 패에 넣는다."
  },
  "20217": {
   "cid": 20217,
@@ -4019,6 +4288,23 @@
   "text_en": "(This card is always treated as a \"Fiendsmith\" card.)\nIf this card is Normal or Special Summoned: You can send 1 \"Fiendsmith\" card from your Deck to the GY, except \"Lacrima the Crimson Tears\". During your opponent's turn, if this card is in your GY (Quick Effect): You can target 1 \"Fiendsmith\" Link Monster in your GY; shuffle this card into the Deck, and if you do, Special Summon that monster. You can only use each effect of \"Lacrima the Crimson Tears\" once per turn.",
   "text_ko": "이 카드명은 룰상 \"데먼스미스\" 카드로도 취급한다. 이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"홍루의 마 라크리모사\" 이외의 \"데먼스미스\" 카드 1장을 묘지로 보낸다. ②: 상대 턴에, 이 카드가 묘지에 존재할 경우, 자신 묘지의 \"데먼스미스\" 링크 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 덱으로 되돌리고, 대상 몬스터를 특수 소환한다."
  },
+ "20491": {
+  "cid": 20491,
+  "password": 54207171,
+  "en": "Mementotlan Akihiron",
+  "ko": "메멘토 카쿠타스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Aqua",
+  "attribute": "WATER",
+  "level": 5,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "N",
+  "text_en": "If this card is Normal or Special Summoned: You can activate this effect; this turn, Level 9 or higher \"Memento\" monsters can attack directly. If this card is destroyed by card effect: You can target 1 of your other \"Memento\" cards that is banished or in your GY; add it to your hand. If a \"Memento\" monster(s) in your hand and/or face-up field is destroyed by battle or card effect, while this card is in your GY: You can Special Summon this card. You can only use each effect of \"Mementotlan Akihiron\" once per turn.",
+  "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 이 턴 중에, 레벨 9 이상의 \"메멘토\" 몬스터는 직접 공격할 수 있다. ②: 이 카드가 효과로 파괴되었을 경우, 이 카드 이외의 자신의 묘지 / 제외 상태인 \"메멘토\" 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 패에 넣는다. ③: 이 카드가 묘지에 존재하는 상태에서, 자신의 패 / 필드(앞면 표시)의 \"메멘토\" 몬스터가 전투 / 효과로 파괴되었을 경우에 발동할 수 있다. 이 카드를 특수 소환한다."
+ },
  "20500": {
   "cid": 20500,
   "en": "Mulcharmy Fuwalos",
@@ -4180,6 +4466,21 @@
   "md_rarity": "N",
   "text_en": "Tribute 1 Synchro Monster, then target 1 face-up card on the field; negate its effects (until the end of this turn), then if you Tributed a \"White Forest\" Synchro Monster to activate this effect, you can Special Summon 1 Illusion monster from your GY. If this card is sent to the GY to activate a monster effect: You can Set this card. You can only use each effect of \"Scourge of the White Forest\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드의 싱크로 몬스터 1장을 릴리스하고, 필드의 앞면 표시 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드의 효과를 턴 종료시까지 무효로 한다. \"하얀 숲\" 싱크로 몬스터를 릴리스하고 발동했을 경우, 추가로 자신 묘지에서 환상마족 몬스터 1장을 특수 소환할 수 있다. ②: 이 카드가 몬스터의 효과를 발동하기 위해 묘지로 보내졌을 경우에 발동할 수 있다. 이 카드를 자신 필드에 세트한다."
+ },
+ "20533": {
+  "cid": 20533,
+  "password": 29111045,
+  "en": "Goblin Biker Grand Breakout",
+  "ko": "고블린라이더 대수감",
+  "ja": null,
+  "type": "Spell",
+  "race": "Quick-Play",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "Tribute 1 monster; Special Summon 1 \"Goblin\" monster from your Deck, but it cannot attack this turn. When a monster declares an attack: You can banish this card from your GY and detach any number of materials from \"Goblin\" Xyz Monsters you control; all monsters your opponent currently controls lose 1000 ATK for each material detached, until the end of this turn. You can only use each effect of \"Goblin Biker Grand Breakout\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드의 몬스터 1장을 릴리스하고 발동할 수 있다. 덱에서 \"고블린\" 몬스터 1장을 특수 소환한다. 이 효과로 특수 소환한 몬스터는 이 턴에 공격할 수 없다. ②: 자신이나 상대 몬스터의 공격 선언시, 묘지의 이 카드를 제외하고, 자신 필드의 \"고블린\" 엑시즈 몬스터의 엑시즈 소재를 임의의 수만큼 제거하여 발동할 수 있다. 상대 필드의 모든 몬스터의 공격력은 턴 종료시까지, 제거한 수 × 1000 내린다."
  },
  "20555": {
   "cid": 20555,
@@ -4597,7 +4898,8 @@
   ],
   "md_rarity": "UR",
   "text_en": "1 non-Link Machine monster with 1000 or less original ATK\nIf this card is Link Summoned: You can send 1 face-up Continuous Spell you control to the GY; add 1 \"Clockwork Night\" from your Deck to your hand. You can target 1 Machine monster with 1000 or less ATK in your GY; Tribute 1 Machine monster, except this card, and if you do, Special Summon that targeted monster in Defense Position. You can only use each effect of \"Clockwork Knight\" once per turn.",
-  "text_ko": "링크 몬스터 이외의 원래 공격력이 1000 이하인 기계족 몬스터 1장<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 링크 소환했을 경우, 자신 필드의 앞면 표시의 지속 마법 카드 1장을 묘지로 보내고 발동할 수 있다. 덱에서 \"기계장치의 밤－클락 워크 나이트－\" 1장을 패에 넣는다. ②: 자신 묘지의 공격력 1000 이하의 기계족 몬스터 1장을 대상으로 하고 발동할 수 있다. 자신 필드의 다른 기계족 몬스터 1장을 릴리스하고, 대상 몬스터를 수비 표시로 특수 소환한다."
+  "text_ko": "링크 몬스터 이외의 원래 공격력이 1000 이하인 기계족 몬스터 1장<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 링크 소환했을 경우, 자신 필드의 앞면 표시의 지속 마법 카드 1장을 묘지로 보내고 발동할 수 있다. 덱에서 \"기계장치의 밤－클락 워크 나이트－\" 1장을 패에 넣는다. ②: 자신 묘지의 공격력 1000 이하의 기계족 몬스터 1장을 대상으로 하고 발동할 수 있다. 자신 필드의 다른 기계족 몬스터 1장을 릴리스하고, 대상 몬스터를 수비 표시로 특수 소환한다.",
+  "password": 41739381
  },
  "20792": {
   "cid": 20792,
@@ -7706,7 +8008,8 @@
   "monster_type": [],
   "md_rarity": "UR",
   "text_en": "Draw cards equal to the number of cards your opponent controls, then if you drew 2 or more cards, place cards from your hand on the bottom of the Deck in any order, equal to the number you drew -1. For the rest of this turn after this card resolves, you cannot activate \"Pot of Sloth\".",
-  "text_ko": "①: 상대 필드의 카드의 수만큼 자신은 드로우한다. 2장 이상 드로우했을 경우, 추가로 그 수 －1장만큼, 자신의 패를 고르고 좋아하는 순서대로 덱 아래로 되돌린다. 이 카드의 발동 후, 턴 종료시까지 자신은 \"태만의 항아리\"를 발동할 수 없다."
+  "text_ko": "①: 상대 필드의 카드의 수만큼 자신은 드로우한다. 2장 이상 드로우했을 경우, 추가로 그 수 －1장만큼, 자신의 패를 고르고 좋아하는 순서대로 덱 아래로 되돌린다. 이 카드의 발동 후, 턴 종료시까지 자신은 \"태만의 항아리\"를 발동할 수 없다.",
+  "password": 98476659
  },
  "23019": {
   "cid": 23019,

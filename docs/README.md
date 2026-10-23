@@ -16,5 +16,7 @@
 | [VS K9 (Vanquish Soul K9)](vanquish-soul-k9.md) | 2.4% | 초안 | 포영 → VS 라젠 |
 | [아르토메기아 (Artmage)](artmage.md) | 2.3% | 초안 | 우라라 → 무구한 자 메디우스<br>우라라 → 절해한 감옥신문－테르미나스<br>포영 → 무구한 자 메디우스 |
 | [죄보 (Sinful Spoils)](sinful-spoils.md) | 1.1% | 초안 | 드롤 → 하얀 숲의 리제트<br>우라라 → “죄보사냥의 악마”<br>우라라 → 하얀 숲의 리제트 |
+| [열차 (Railway)](railway.md) | 0.7% | 초안 | 우라라 → Scrap Recycler<br>포영 → Scrap Recycler<br>와라시 → Night Train Blue Traveler |
+| [메멘토 (Memento)](memento.md) | 0.1% | 초안 | 우라라 → 메멘토 엔위치<br>증G → 메멘토 씨호스<br>우라라 → 메멘토 씨호스 |
 
 [패트랩 사전](handtraps.md)

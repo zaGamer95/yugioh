@@ -1,0 +1,1633 @@
+{
+ "slug": "memento",
+ "name": {
+  "en": "Memento",
+  "ko": "메멘토"
+ },
+ "status": "draft",
+ "updated": "2026-10-23",
+ "meta": {
+  "decks": 1,
+  "share": 0.001,
+  "window": "2026-09-22~10-22 랭크·DC"
+ },
+ "variants": [
+  "Memento"
+ ],
+ "cover": "Mementoal Tecuhtlica - Combined Creation",
+ "overview_ko": "자기 메멘토 몬스터를 효과로 파괴하면서 서치·덤핑·소생을 이어 가는 테마. [[Mementotlan Angwitch]](일반 소환 → [[Mementotlan Tatsunootoshigo]] 서치)나 타츠노오토시고 1장으로 [[Mementotlan Fusion]] → [[Mementomictlan Tecuhtlica - Creation King]]까지 가고, 묘지 5종을 덱으로 되돌려 [[Mementoal Tecuhtlica - Combined Creation]](공수 5000)을 소환 방법으로 꺼낸다. 최종 판면은 메멘토랄·[[Mementotlan-Horned Dragon]]·[[S:P Little Knight]]에 세트 [[Mementotlan Bone Party]]·[[Mementotlan Fusion]]이고, 견제는 무효보다 파괴·제외·컨트롤 탈취 위주다. 최근 30일 MD 랭크·DC 리스트는 1개뿐이라 7~10월 8개 리스트로 보강했다. 약점은 시작점(엔위치 서치·타츠노오토시고 덤핑)이 우라라에 맞는다는 점, 특소 14회라 증G에 약하다는 점, 묘지의 어둠 몬스터를 쓰는 덱이라 비스테이셜에 약하다는 점. 반대로 메멘토 몬스터를 '파괴'하는 견제(유령토끼·하르모니아)는 대부분 상대를 돕는다.",
+ "key_cards": [
+  {
+   "card": "Mementotlan Angwitch",
+   "role_ko": "1장 초동(UR, 3장). 소환 시 엔위치 이외 메멘토 몬스터 서치(보통 타츠노오토시고). ②로 자신 등 메멘토를 파괴하고 묘지의 레벨 2 이하 메멘토 소생."
+  },
+  {
+   "card": "Mementotlan Tatsunootoshigo",
+   "role_ko": "필드에 메멘토 이외 앞면 몬스터가 없으면 패에서 특소. ②로 메멘토를 파괴하고 그 원래 레벨 합계 이하만큼 덱에서 메멘토 덤핑(보통 메이스·고블린·스리피 또는 가티크)."
+  },
+  {
+   "card": "Mementotlan Mace",
+   "role_ko": "메인 페이즈에 메멘토를 파괴하고 메멘토 카드 서치(보통 [[Mementotlan Fusion]]). 메멘토랄이 있으면 상대 메인 페이즈에 패에서 버려 상대 몬스터 컨트롤 탈취."
+  },
+  {
+   "card": "Mementotlan Goblin",
+   "role_ko": "메멘토를 파괴하고 덱에서 메멘토 카드 2장 덤핑. [[Goblin Biker Grand Breakout]]으로 덱에서 특소된다. 메멘토랄이 있으면 패에서 버려 대상 내성 부여."
+  },
+  {
+   "card": "Mementotlan Ghattic",
+   "role_ko": "메멘토 몬스터 효과로 묘지에 가면 자신 특소, 소환 시 묘지의 메멘토 카드 회수."
+  },
+  {
+   "card": "Mementotlan Shleepy",
+   "role_ko": "자기 몬스터가 효과로 파괴된 턴 패에서 퀵 특소, 소환 시 메멘토 융합(패·필드), 파괴되면 덱에서 메멘토 덤핑."
+  },
+  {
+   "card": "Mementotlan Akihiron",
+   "role_ko": "묘지에 있을 때 메멘토가 파괴되면 자신 특소, 효과로 파괴되면 제외·묘지의 메멘토 카드 회수(보통 제외한 [[Mementotlan Fusion]])."
+  },
+  {
+   "card": "Mementotlan Dark Blade",
+   "role_ko": "메멘토를 파괴하고 덱에서 레벨 3 이하 메멘토 특소. 소환 시 메멘토 카드를 버려 상대 마함 파괴."
+  },
+  {
+   "card": "Mementotlan Fusion",
+   "role_ko": "메인 페이즈 속공 융합. 이번 턴 효과 파괴가 있었으면 묘지 메멘토도 덱으로 되돌려 소재. 묘지에서 제외해 자기 몬스터 파괴 + 메멘토 마함 서치."
+  },
+  {
+   "card": "Mementomictlan Tecuhtlica - Creation King",
+   "role_ko": "메멘토 3장 융합. 융합 소환 시 메멘토 3장 덤핑, 묘지에서 제외해 필드 마법 서치, 퀵으로 자신의 메멘토와 상대 카드를 같은 수 파괴."
+  },
+  {
+   "card": "Mementotlan Twin Dragon",
+   "role_ko": "메멘토 2장 융합. 소환 시 메멘토를 파괴하고 메멘토 몬스터 2장 서치. 융합 소환된 이 카드가 파괴되면 레벨 6 이하 메멘토 소생."
+  },
+  {
+   "card": "Mementomictlan",
+   "role_ko": "필드 마법. 자기 몬스터가 파괴되면 그보다 레벨이 낮은 메멘토 소생, 엔드 페이즈에 묘지의 메멘토 마함 세트."
+  },
+  {
+   "card": "Mementotlan Bone Party",
+   "role_ko": "속공 마법. 패·필드의 메멘토를 파괴하고 덱에서 다른 메멘토를 패 또는 특소. 필드 마법으로 다시 세트되어 상대 턴 견제가 된다."
+  },
+  {
+   "card": "Mementotlan-Horned Dragon",
+   "role_ko": "묘지에 메멘토 3종이 있으면 패에서 특소(소환 방법). 필드에서 효과로 파괴되면 앞면 3장(자신의 메멘토 포함) 파괴."
+  },
+  {
+   "card": "Mementoal Tecuhtlica - Combined Creation",
+   "role_ko": "묘지·패의 메멘토 5종을 덱으로 되돌려 소환(효과가 아님). 상대가 발동한 체인 처리 뒤 패·묘지의 메멘토 특소. 메이스·고블린 패 효과의 조건."
+  }
+ ],
+ "lines": [
+  {
+   "id": "angwitch",
+   "title_ko": "엔위치 1장 초동 (표준)",
+   "hand": [
+    "Mementotlan Angwitch"
+   ],
+   "note_ko": "일반 소환권 사용. MDM 가이드(Biggstarr)의 엔위치 루트를 MD 텍스트로 대조하고, MD 금지인 [[Apollousa, Bow of the Goddess]] 대신 [[S:P Little Knight]]로 마무리했다. 특소 14회라 증G는 끝까지 가면 14장, 후와로스(덱·엑덱 특소) 5장. 5번째 소환은 9단계 가티크 특소(니비루 범위). [[Mementotlan Tatsunootoshigo]] 1장으로 시작하는 appmedia 루트도 비슷한 판면(크리에이션 킹이 남는 대신 고블린 없음)에 도착한다.",
+   "steps": [
+    {
+     "card": "Mementotlan Angwitch",
+     "action_ko": "일반 소환",
+     "class": [
+      "normal_summon"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Angwitch",
+     "action_ko": "소환 성공 시 ①: 덱에서 엔위치 이외 메멘토 몬스터 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Mementotlan Tatsunootoshigo]] 서치"
+    },
+    {
+     "card": "Mementotlan Tatsunootoshigo",
+     "action_ko": "필드에 메멘토 이외 앞면 몬스터가 없으므로 패에서 ① 발동, 자신을 특소",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Tatsunootoshigo",
+     "action_ko": "② 처리 시 자신(원래 레벨 5)을 파괴하고 레벨 합계 5 이하가 되도록 덱에서 메멘토 몬스터를 묘지로",
+     "class": [
+      "monster_effect_field",
+      "send_from_deck"
+     ],
+     "result_ko": "[[Mementotlan Mace]]·[[Mementotlan Goblin]]·[[Mementotlan Shleepy]] 묘지로"
+    },
+    {
+     "card": "Mementotlan Angwitch",
+     "action_ko": "②: 묘지의 메이스(레벨 1) 대상, 자신을 파괴하고 메이스 특소",
+     "class": [
+      "monster_effect_field",
+      "ss_from_gy"
+     ],
+     "result_ko": "메이스 특소"
+    },
+    {
+     "card": "Mementotlan Mace",
+     "action_ko": "②: 자신을 파괴하고 덱에서 메멘토 카드 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Mementotlan Fusion]] 서치"
+    },
+    {
+     "card": "Mementotlan Fusion",
+     "action_ko": "발동: 이번 턴 효과 파괴가 있었으므로 묘지의 타츠노오토시고·메이스·엔위치를 덱으로 되돌려 융합",
+     "class": [
+      "spell_trap_activation",
+      "gy_effect",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Mementomictlan Tecuhtlica - Creation King]] 융합 소환"
+    },
+    {
+     "card": "Mementomictlan Tecuhtlica - Creation King",
+     "action_ko": "융합 소환 시 효과: 덱·엑덱에서 메멘토 카드 3장을 묘지로",
+     "class": [
+      "monster_effect_field",
+      "send_from_deck"
+     ],
+     "result_ko": "2번째 [[Mementomictlan Tecuhtlica - Creation King]]·[[Mementotlan Akihiron]]·[[Mementotlan Ghattic]] 묘지로"
+    },
+    {
+     "card": "Mementotlan Ghattic",
+     "action_ko": "메멘토 몬스터 효과로 묘지에 보내져 ② 발동, 자신을 특소",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Ghattic",
+     "action_ko": "소환 성공 시 ①: 묘지의 메멘토 카드 1장을 패로",
+     "class": [
+      "monster_effect_field",
+      "gy_effect"
+     ],
+     "result_ko": "[[Mementotlan Shleepy]] 회수"
+    },
+    {
+     "card": "Mementomictlan Tecuhtlica - Creation King",
+     "action_ko": "묘지의 2번째 크리에이션 킹을 제외하고 효과: 덱에서 필드 마법 서치",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "search"
+     ],
+     "result_ko": "[[Mementomictlan]] 서치"
+    },
+    {
+     "card": "Mementomictlan",
+     "action_ko": "필드 마법 발동",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Fusion",
+     "action_ko": "(체인 1) 묘지의 메멘토 퓨전을 제외하고 ②: 필드의 크리에이션 킹을 파괴하고 덱에서 메멘토 마함 서치",
+     "class": [
+      "gy_effect",
+      "search"
+     ],
+     "result_ko": "[[Mementotlan Bone Party]] 서치"
+    },
+    {
+     "card": "Mementotlan Shleepy",
+     "action_ko": "(체인 2) 이번 턴 효과 파괴가 있었으므로 패에서 ① 퀵 발동, 자신을 특소",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand"
+     ],
+     "result_ko": "체인 처리 후 크리에이션 킹 파괴 → 아래 3개 효과가 동시에 유발"
+    },
+    {
+     "card": "Mementotlan Shleepy",
+     "action_ko": "(새 체인 1) 소환 성공 시 ②: 자신 + 가티크로 메멘토 융합",
+     "class": [
+      "monster_effect_field",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Mementotlan Twin Dragon]] 융합 소환"
+    },
+    {
+     "card": "Mementomictlan",
+     "action_ko": "(체인 2) 파괴된 크리에이션 킹(레벨 9) 대상, 묘지에서 레벨이 낮은 메멘토 특소",
+     "class": [
+      "st_effect_field",
+      "ss_from_gy"
+     ],
+     "result_ko": "[[Mementotlan Goblin]] 특소"
+    },
+    {
+     "card": "Mementotlan Akihiron",
+     "action_ko": "(체인 3) 메멘토 몬스터가 파괴되어 묘지에서 ③ 발동, 자신을 특소",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Twin Dragon",
+     "action_ko": "융합 소환 시 효과: 필드의 아키히론을 파괴하고 덱에서 이름이 다른 메멘토 몬스터 2장 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Mementotlan-Horned Dragon]]·[[Mementoal Tecuhtlica - Combined Creation]] 서치"
+    },
+    {
+     "card": "Mementotlan Akihiron",
+     "action_ko": "효과로 파괴되어 ②: 제외된 메멘토 퓨전을 패로",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect"
+     ],
+     "result_ko": "[[Mementotlan Fusion]] 회수"
+    },
+    {
+     "card": "Mementotlan Goblin",
+     "action_ko": "②: 트윈 드래곤을 파괴하고 덱에서 이름이 다른 메멘토 카드 2장을 묘지로",
+     "class": [
+      "monster_effect_field",
+      "send_from_deck"
+     ],
+     "result_ko": "[[Mementotlan Mace]]·[[Mementotlan Tatsunootoshigo]] 묘지로"
+    },
+    {
+     "card": "Mementotlan Twin Dragon",
+     "action_ko": "융합 소환된 이 카드가 파괴되어 ③: 묘지의 레벨 6 이하 메멘토 특소",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "ss_from_gy"
+     ],
+     "result_ko": "[[Mementotlan Mace]] 특소"
+    },
+    {
+     "card": "Mementotlan Bone Party",
+     "action_ko": "발동: 패의 메멘토랄(CC1)을 파괴하고 덱에서 이름이 다른 메멘토 몬스터를 수비 표시로 특소",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Mementotlan Dark Blade]] 특소. CC1은 묘지로"
+    },
+    {
+     "card": "Mementotlan Dark Blade",
+     "action_ko": "②: 메이스를 파괴하고 덱에서 레벨 3 이하 메멘토 특소",
+     "class": [
+      "monster_effect_field",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Mementotlan Angwitch]] 특소 (엔위치 ①은 이미 사용)"
+    },
+    {
+     "card": "S:P Little Knight",
+     "action_ko": "다크 블레이드 + 엔위치로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementoal Tecuhtlica - Combined Creation",
+     "action_ko": "묘지에서 특소: 묘지의 다른 메멘토 몬스터 5종(스리피·가티크·트윈 드래곤·타츠노오토시고·메이스)을 덱·엑덱으로 (효과가 아닌 소환 방법)",
+     "class": [
+      "ss_from_gy"
+     ],
+     "result_ko": "아키히론·크리에이션 킹·다크 블레이드·엔위치는 묘지에 남긴다"
+    },
+    {
+     "card": "Mementotlan-Horned Dragon",
+     "action_ko": "묘지에 이름이 다른 메멘토 몬스터 3종 이상이 있어 패에서 특소 (소환 방법)",
+     "class": [
+      "ss_from_hand"
+     ],
+     "result_ko": "[[Mementotlan Fusion]]는 세트"
+    },
+    {
+     "card": "Mementomictlan",
+     "action_ko": "엔드 페이즈 ③: 묘지의 메멘토 마함 1장 세트",
+     "class": [
+      "st_effect_field",
+      "gy_effect"
+     ],
+     "result_ko": "[[Mementotlan Bone Party]] 세트"
+    }
+   ],
+   "end_board": [
+    "Mementoal Tecuhtlica - Combined Creation",
+    "Mementotlan-Horned Dragon",
+    "S:P Little Knight",
+    "Mementotlan Goblin",
+    "Mementomictlan",
+    "Mementotlan Fusion",
+    "Mementotlan Bone Party"
+   ],
+   "end_board_note_ko": "패에는 처음 손패 4장(보통 패트랩)만 남는다. 견제: [[S:P Little Knight]] 제외 1회, [[Mementoal Tecuhtlica - Combined Creation]]의 '상대가 발동한 체인 처리 뒤 패·묘지에서 메멘토 특소'(묘지의 [[Mementotlan Angwitch]]을 꺼내 [[Mementotlan Shleepy]]·[[Mementotlan Mace]] 서치로 이어짐), 세트 [[Mementotlan Bone Party]]로 [[Mementotlan-Horned Dragon]]을 파괴 → 호른 드래곤이 자신의 메멘토 포함 앞면 3장 파괴(상대 카드 2장), 세트 [[Mementotlan Fusion]]로 상대 메인 페이즈 융합(손패·필드로 [[Guardian Chimera]] 등), [[Mementomictlan]]의 파괴 시 후속 특소. 몬스터 효과 무효는 거의 없고 파괴·제외·소환으로 견제한다. 손패에 [[The Fallen & The Virtuous]]가 있으면 세트해 두고 상대 턴에 자기 호른 드래곤을 파괴하는 견제가 하나 더 붙는다."
+  },
+  {
+   "id": "breakout",
+   "title_ko": "고블린 바이커 그랜드 브레이크아웃 + 아무 몬스터 (2장)",
+   "hand": [
+    "Goblin Biker Grand Breakout",
+    "Ash Blossom & Joyous Spring"
+   ],
+   "note_ko": "MDM 가이드의 'Goblin or Breakout' 루트. 패트랩을 일반 소환해 릴리스 코스트로 쓰고 덱에서 [[Mementotlan Goblin]]을 꺼낸다([[Mementotlan Goblin]]은 '고블린' 몬스터). 고블린을 패에 직접 들고 있으면 1·2단계 대신 고블린 일반 소환. 엔위치·타츠노오토시고를 쓰지 않아 첫 우라라 타점이 고블린 덤핑이다.",
+   "steps": [
+    {
+     "card": "Ash Blossom & Joyous Spring",
+     "action_ko": "일반 소환 (릴리스 코스트용)",
+     "class": [
+      "normal_summon"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Goblin Biker Grand Breakout",
+     "action_ko": "발동: 몬스터 1장 릴리스, 덱에서 '고블린' 몬스터 특소",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Mementotlan Goblin]] 특소"
+    },
+    {
+     "card": "Mementotlan Goblin",
+     "action_ko": "②: 자신을 파괴하고 덱에서 이름이 다른 메멘토 카드 2장을 묘지로",
+     "class": [
+      "monster_effect_field",
+      "send_from_deck"
+     ],
+     "result_ko": "[[Mementotlan Ghattic]]·[[Mementotlan Fusion]] 묘지로"
+    },
+    {
+     "card": "Mementotlan Ghattic",
+     "action_ko": "메멘토 몬스터 효과로 묘지에 보내져 ② 발동, 자신을 특소",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Ghattic",
+     "action_ko": "소환 성공 시 ①: 묘지의 메멘토 퓨전을 패로",
+     "class": [
+      "monster_effect_field",
+      "gy_effect"
+     ],
+     "result_ko": "[[Mementotlan Fusion]] 회수"
+    },
+    {
+     "card": "Mementotlan Fusion",
+     "action_ko": "발동: 필드의 가티크 + 묘지의 고블린(덱으로)으로 융합",
+     "class": [
+      "spell_trap_activation",
+      "gy_effect",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Mementotlan Twin Dragon]] 융합 소환"
+    },
+    {
+     "card": "Mementotlan Twin Dragon",
+     "action_ko": "융합 소환 시 효과: 자신을 파괴하고 덱에서 메멘토 몬스터 2장 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Mementotlan Shleepy]]·[[Mementotlan Tatsunootoshigo]] 서치"
+    },
+    {
+     "card": "Mementotlan Twin Dragon",
+     "action_ko": "융합 소환된 이 카드가 파괴되어 ③: 묘지의 레벨 6 이하 메멘토 특소",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "ss_from_gy"
+     ],
+     "result_ko": "[[Mementotlan Ghattic]] 특소"
+    },
+    {
+     "card": "Mementotlan Shleepy",
+     "action_ko": "패에서 ① 퀵 발동, 자신을 특소",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Shleepy",
+     "action_ko": "소환 성공 시 ②: 필드의 스리피·가티크 + 패의 타츠노오토시고로 메멘토 융합",
+     "class": [
+      "monster_effect_field",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Mementomictlan Tecuhtlica - Creation King]] 융합 소환"
+    },
+    {
+     "card": "Mementomictlan Tecuhtlica - Creation King",
+     "action_ko": "융합 소환 시 효과: 덱·엑덱에서 메멘토 카드 3장을 묘지로",
+     "class": [
+      "monster_effect_field",
+      "send_from_deck"
+     ],
+     "result_ko": "2번째 [[Mementomictlan Tecuhtlica - Creation King]]·[[Mementotlan Akihiron]]·[[Mementotlan Dark Blade]] 묘지로"
+    },
+    {
+     "card": "Mementomictlan Tecuhtlica - Creation King",
+     "action_ko": "묘지의 2번째 크리에이션 킹을 제외하고 효과: 필드 마법 서치",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "search"
+     ],
+     "result_ko": "[[Mementomictlan]] 서치"
+    },
+    {
+     "card": "Mementomictlan",
+     "action_ko": "필드 마법 발동",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Fusion",
+     "action_ko": "묘지의 메멘토 퓨전을 제외하고 ②: 크리에이션 킹을 파괴하고 덱에서 메멘토 마함 서치",
+     "class": [
+      "gy_effect",
+      "search"
+     ],
+     "result_ko": "[[Mementotlan Bone Party]] 서치"
+    },
+    {
+     "card": "Mementomictlan",
+     "action_ko": "(체인 1) 파괴된 크리에이션 킹 대상, 묘지에서 레벨이 낮은 메멘토 특소",
+     "class": [
+      "st_effect_field",
+      "ss_from_gy"
+     ],
+     "result_ko": "[[Mementotlan Dark Blade]] 특소"
+    },
+    {
+     "card": "Mementotlan Akihiron",
+     "action_ko": "(체인 2) 묘지에서 ③ 발동, 자신을 특소",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Dark Blade",
+     "action_ko": "②: 아키히론을 파괴하고 덱에서 레벨 3 이하 메멘토 특소",
+     "class": [
+      "monster_effect_field",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Mementotlan Angwitch]] 특소"
+    },
+    {
+     "card": "Mementotlan Angwitch",
+     "action_ko": "(체인 1) 소환 성공 시 ①: 메멘토 몬스터 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Mementoal Tecuhtlica - Combined Creation]] 서치"
+    },
+    {
+     "card": "Mementotlan Akihiron",
+     "action_ko": "(체인 2) 효과로 파괴되어 ②: 제외된 메멘토 퓨전을 패로",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect"
+     ],
+     "result_ko": "[[Mementotlan Fusion]] 회수"
+    },
+    {
+     "card": "S:P Little Knight",
+     "action_ko": "다크 블레이드 + 엔위치로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementoal Tecuhtlica - Combined Creation",
+     "action_ko": "패에서 특소: 묘지의 메멘토 몬스터 5종(트윈 드래곤·스리피·가티크·타츠노오토시고·엔위치)을 덱·엑덱으로 (소환 방법)",
+     "class": [
+      "ss_from_hand"
+     ],
+     "result_ko": "크리에이션 킹·아키히론·다크 블레이드는 묘지에 남긴다"
+    }
+   ],
+   "end_board": [
+    "Mementoal Tecuhtlica - Combined Creation",
+    "S:P Little Knight",
+    "Mementomictlan",
+    "Mementotlan Fusion",
+    "Mementotlan Bone Party"
+   ],
+   "end_board_note_ko": "[[Mementotlan Fusion]]·[[Mementotlan Bone Party]]는 세트(둘 다 속공 마법). [[Mementotlan-Horned Dragon]]이 없는 대신 [[Mementotlan Bone Party]]는 상대 턴에 패·필드의 메멘토를 파괴해 덱에서 메멘토를 꺼내는 확장용. 견제: [[S:P Little Knight]] 제외, [[Mementoal Tecuhtlica - Combined Creation]] 특소 → 엔위치 서치·[[Mementotlan Mace]] 컨트롤 탈취, 상대 턴 [[Mementotlan Fusion]] 융합. 특소 11회(증G 11장), 후와로스(덱·엑덱) 5장."
+  },
+  {
+   "id": "fuwalos",
+   "title_ko": "후와로스를 맞았을 때 짧게 끝내는 엔위치 루트",
+   "hand": [
+    "Mementotlan Angwitch"
+   ],
+   "note_ko": "MDM 가이드의 'Mulcharmy Fuwalos' 탭(엔위치로 시작하면 다크 블레이드 시작보다 1장 덜 준다). 덱·엑덱 특소는 7단계 크리에이션 킹 1회뿐이라 후와로스 드로우 1장. 증G에는 특소 8회라 여전히 많이 주므로, 증G를 맞으면 MDM 'Droll lines'처럼 [[Droll & Lock Bird]]를 자기가 쓰거나 크리에이션 킹 + [[S:P Little Knight]] + 메멘토랄에서 멈추는 경우가 많다.",
+   "steps": [
+    {
+     "card": "Mementotlan Angwitch",
+     "action_ko": "일반 소환",
+     "class": [
+      "normal_summon"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Angwitch",
+     "action_ko": "소환 성공 시 ①: 메멘토 몬스터 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Mementotlan Tatsunootoshigo]] 서치"
+    },
+    {
+     "card": "Mementotlan Tatsunootoshigo",
+     "action_ko": "패에서 ① 발동, 자신을 특소",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Tatsunootoshigo",
+     "action_ko": "②: 자신을 파괴하고 덱에서 레벨 합계 5 이하 메멘토를 묘지로",
+     "class": [
+      "monster_effect_field",
+      "send_from_deck"
+     ],
+     "result_ko": "[[Mementotlan Mace]]·[[Mementotlan Goblin]]·[[Mementotlan Shleepy]] 묘지로"
+    },
+    {
+     "card": "Mementotlan Angwitch",
+     "action_ko": "②: 묘지의 메이스 대상, 자신을 파괴하고 메이스 특소",
+     "class": [
+      "monster_effect_field",
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Mace",
+     "action_ko": "②: 자신을 파괴하고 덱에서 메멘토 카드 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Mementotlan Fusion]] 서치"
+    },
+    {
+     "card": "Mementotlan Fusion",
+     "action_ko": "발동: 묘지의 엔위치·타츠노오토시고·메이스를 덱으로 되돌려 융합",
+     "class": [
+      "spell_trap_activation",
+      "gy_effect",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Mementomictlan Tecuhtlica - Creation King]] 융합 소환"
+    },
+    {
+     "card": "Mementomictlan Tecuhtlica - Creation King",
+     "action_ko": "융합 소환 시 효과: 메멘토 카드 3장을 묘지로",
+     "class": [
+      "monster_effect_field",
+      "send_from_deck"
+     ],
+     "result_ko": "2번째 [[Mementomictlan Tecuhtlica - Creation King]]·[[Mementotlan Ghattic]]·[[Mementotlan Akihiron]] 묘지로"
+    },
+    {
+     "card": "Mementotlan Ghattic",
+     "action_ko": "② 발동, 묘지에서 자신을 특소",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Ghattic",
+     "action_ko": "소환 성공 시 ①: 묘지의 스리피를 패로",
+     "class": [
+      "monster_effect_field",
+      "gy_effect"
+     ],
+     "result_ko": "[[Mementotlan Shleepy]] 회수"
+    },
+    {
+     "card": "Mementotlan Shleepy",
+     "action_ko": "패에서 ① 퀵 발동, 자신을 특소 (융합 효과는 쓰지 않는다)",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Fusion",
+     "action_ko": "묘지의 메멘토 퓨전을 제외하고 ②: 스리피를 파괴하고 메멘토 마함 서치",
+     "class": [
+      "gy_effect",
+      "search"
+     ],
+     "result_ko": "[[Mementotlan Bone Party]] 서치"
+    },
+    {
+     "card": "Mementotlan Shleepy",
+     "action_ko": "(체인 1) 파괴되어 ③: 덱에서 메멘토 카드 1장을 묘지로",
+     "class": [
+      "monster_effect_gy",
+      "send_from_deck"
+     ],
+     "result_ko": "[[Mementoal Tecuhtlica - Combined Creation]] 묘지로"
+    },
+    {
+     "card": "Mementotlan Akihiron",
+     "action_ko": "(체인 2) 묘지에서 ③ 발동, 자신을 특소",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementomictlan Tecuhtlica - Creation King",
+     "action_ko": "묘지의 2번째 크리에이션 킹을 제외하고 효과: 필드 마법 서치",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "search"
+     ],
+     "result_ko": "[[Mementomictlan]] 서치"
+    },
+    {
+     "card": "Mementomictlan",
+     "action_ko": "필드 마법 발동",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementotlan Bone Party",
+     "action_ko": "발동: 아키히론을 파괴하고 덱의 메멘토 몬스터를 패에",
+     "class": [
+      "spell_trap_activation",
+      "search"
+     ],
+     "result_ko": "[[Mementotlan-Horned Dragon]] 패로"
+    },
+    {
+     "card": "Mementomictlan",
+     "action_ko": "(체인 1) 파괴된 아키히론(레벨 5) 대상, 묘지에서 레벨이 낮은 메멘토 특소",
+     "class": [
+      "st_effect_field",
+      "ss_from_gy"
+     ],
+     "result_ko": "[[Mementotlan Goblin]] 특소"
+    },
+    {
+     "card": "Mementotlan Akihiron",
+     "action_ko": "(체인 2) 효과로 파괴되어 ②: 제외된 메멘토 퓨전을 패로",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect"
+     ],
+     "result_ko": "[[Mementotlan Fusion]] 회수 → 세트"
+    },
+    {
+     "card": "Mementotlan Goblin",
+     "action_ko": "②: 자신을 파괴하고 덱에서 메멘토 몬스터 2장을 묘지로",
+     "class": [
+      "monster_effect_field",
+      "send_from_deck"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Mementoal Tecuhtlica - Combined Creation",
+     "action_ko": "묘지에서 특소: 다른 메멘토 몬스터 5종을 덱으로 (소환 방법)",
+     "class": [
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    }
+   ],
+   "end_board": [
+    "Mementomictlan Tecuhtlica - Creation King",
+    "Mementotlan Ghattic",
+    "Mementoal Tecuhtlica - Combined Creation",
+    "Mementomictlan",
+    "Mementotlan Fusion",
+    "Mementotlan Bone Party"
+   ],
+   "end_board_note_ko": "패에 [[Mementotlan-Horned Dragon]](필드에 내지 않음). 엔드 페이즈에 [[Mementomictlan]]로 [[Mementotlan Bone Party]]를 세트. 견제: [[Mementomictlan Tecuhtlica - Creation King]] 퀵 파괴(자신의 메멘토 수만큼 상대 카드), [[Mementoal Tecuhtlica - Combined Creation]] 특소, 세트 [[Mementotlan Bone Party]](패의 호른 드래곤을 파괴해 덱에서 메멘토), 세트 [[Mementotlan Fusion]]. 후와로스 드로우 1장, 증G 8장."
+  }
+ ],
+ "chokepoints": [
+  {
+   "handtrap": "ash",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "[[Mementotlan Angwitch]] 일반 소환 후 서치 효과 발동에 체인",
+   "why_ko": "타츠노오토시고가 안 들어오면 엔위치 ②의 대상(묘지의 레벨 2 이하 메멘토)이 없어 엔위치 1장으로 아무것도 못 한다. 엔위치 ①은 1턴 1번이라 다른 엔위치를 꺼내도 서치는 다시 못 쓴다.",
+   "fallback_ko": "손패에 [[Mementotlan Tatsunootoshigo]]·[[Mementotlan Goblin]]·[[Goblin Biker Grand Breakout]]·[[Mementotlan Mace]]가 따로 있으면 그쪽으로 다시 시작한다(타츠노오토시고는 엔위치가 메멘토라 패에서 특소 가능). 없으면 엔위치 1장으로 턴 종료."
+  },
+  {
+   "handtrap": "maxxc",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 3,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "첫 특소([[Mementotlan Tatsunootoshigo]] 패 특소) 시점",
+   "why_ko": "풀 루트는 특소 14회. 이 덱은 대응으로 자기 [[Droll & Lock Bird]](5/8 리스트)나 우라라를 들고 있어, 증G를 맞으면 드롤로 막거나 크리에이션 킹 + S:P + 메멘토랄 정도에서 멈춘다.",
+   "fallback_ko": "멈춰도 8회 전후까지 가는 경우가 많다(`fuwalos` 라인). 상대가 드롤을 쓰면 이후 서로 덱에서 패에 못 넣으니 이쪽 서치 카드도 주의."
+  },
+  {
+   "handtrap": "ash",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 4,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "[[Mementotlan Tatsunootoshigo]] ②(자신 파괴 → 덱에서 묘지로) 발동에 체인",
+   "why_ko": "무효가 되면 파괴도 덤핑도 일어나지 않는다. 엔위치 ②의 대상이 묘지에 없고, 메이스 → 메멘토 퓨전 → 크리에이션 킹으로 가는 흐름이 통째로 사라진다. 엔위치 서치에 우라라를 못 맞췄다면 여기가 2순위.",
+   "fallback_ko": "필드에 엔위치 + 타츠노오토시고가 남아 [[S:P Little Knight]] 1장 정도. 손패에 [[Goblin Biker Grand Breakout]]·[[Mementotlan Goblin]]가 있으면 고블린 덤핑으로 재개. 크리에이션 킹의 덤핑(8단계)도 우라라 타점이지만 이미 융합까지 끝난 뒤라 효과가 작다.",
+   "rulings": [
+    "supp-19362"
+   ]
+  },
+  {
+   "handtrap": "crown",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "세트해 둔 금지된 성관을 엔위치의 서치 효과 발동에 체인해 엔위치에 적용 (몬스터 효과로는 체인할 수 없다)",
+   "why_ko": "서치가 무효가 되고, 엔위치는 이번 턴 파괴되지 않으며 융합 소재로도 못 쓴다. 타츠노오토시고를 다른 방법으로 들고 와도 엔위치 ②(자신 파괴)가 먹히지 않아 우라라보다 결과가 크다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "손패의 [[Mementotlan Tatsunootoshigo]]·[[Mementotlan Goblin]]·[[Goblin Biker Grand Breakout]]로 재개. 엔위치는 필드에 남지만 파괴되지 않아 메멘토 연쇄의 재료가 안 된다."
+  },
+  {
+   "handtrap": "imperm",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 4,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "[[Mementotlan Tatsunootoshigo]] ② 발동에 체인해 타츠노오토시고 대상. 뵐러도 같은 타이밍(뵐러는 특소 직후 ② 발동 전에 걸어도 된다)",
+   "why_ko": "효과가 무효가 되어 파괴·덤핑이 없다. 우라라와 같은 결과에 내 손에서 우라라를 아낄 수 있다. 엔위치 서치(2단계)에 걸면 서치는 이미 처리된 뒤라 의미가 없으니 반드시 타츠노오토시고에.",
+   "fallback_ko": "필드에 엔위치 + 타츠노오토시고. [[S:P Little Knight]] 정도로 끝나거나, 손패 확장(고블린·브레이크아웃)이 있으면 재개.",
+   "rulings": [
+    "supp-19362"
+   ]
+  },
+  {
+   "handtrap": "ogre",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 4,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "[[Mementotlan Tatsunootoshigo]] ② 발동에 체인해 타츠노오토시고를 파괴",
+   "why_ko": "② 처리 시점에 파괴할 메멘토를 고르므로 타츠노오토시고가 없으면 필드의 엔위치(레벨 3)를 대신 파괴하고 레벨 합계 3 이하만 보낸다(공식 보충 정보). 엔위치 ②를 쓸 몸이 사라지고 덤핑도 줄어 가티크 1장 정도만 남는다. 이 덱에 파괴를 쓰는 것은 대부분 손해지만, 어차피 자신을 파괴하는 이 효과에만은 예외.",
+   "fallback_ko": "보통 [[Mementotlan Ghattic]] + [[Mementotlan Goblin]]를 보내 가티크 특소 → 묘지 카드 회수. 손패에 [[Goblin Biker Grand Breakout]]가 있으면 가티크를 릴리스해 고블린으로 이어간다. 하르모니아(싱크로 5장 공개)도 같은 타이밍에 같은 결과.",
+   "rulings": [
+    "supp-19362"
+   ]
+  },
+  {
+   "handtrap": "magnamhut",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 9,
+   "target_card": "Mementotlan Ghattic",
+   "timing_ko": "크리에이션 킹 덤핑 뒤 [[Mementotlan Ghattic]]가 묘지에서 ②(자신 특소)를 발동했을 때, 상대 필드에 크리에이션 킹이 있으니 퀵으로 묘지의 가티크(어둠)를 제외",
+   "why_ko": "가티크가 특소되지 않아 스리피 회수와 이후 트윈 드래곤 융합 소재가 사라진다. 메멘토 몬스터 대부분이 어둠(가티크·고블린·엔위치·다크 블레이드·호른 드래곤)·빛(메이스·트윈 드래곤)이라 이후 메멘토랄의 '묘지 5종' 조건도 깎인다.",
+   "fallback_ko": "크리에이션 킹은 남고, 2번째 크리에이션 킹 → 필드 마법 → 퓨전 묘지 효과로 크리에이션 킹 파괴 → 아키히론·고블린 특소로 일부는 이어간다. 판면이 한 단계 작아진다."
+  },
+  {
+   "handtrap": "druiswurm",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 9,
+   "target_card": "Mementotlan Ghattic",
+   "timing_ko": "마그나무트와 같은 타이밍. 가티크의 묘지 효과 발동에 체인해 가티크 제외 후 특소",
+   "why_ko": "결과는 마그나무트와 같다. 필드에 남은 드루이드브룸은 나중에 상대 카드(크리에이션 킹 효과·파괴)로 묘지에 가면 상대의 특소 몬스터 1장을 묘지로 보낸다. 메멘토는 자기 카드로 파괴하는 덱이라 드루이드브룸을 노리게 만들기 쉽다.",
+   "fallback_ko": "마그나무트와 같다."
+  },
+  {
+   "handtrap": "super_poly",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 10,
+   "target_card": "Mementomictlan Tecuhtlica - Creation King",
+   "timing_ko": "세트해 둔 초융합을 [[Mementotlan Ghattic]]의 회수 효과 발동에 체인. 필드의 [[Mementomictlan Tecuhtlica - Creation King]](융합) + 가티크(어둠)로 [[Predaplant Dragostapelia]] 등",
+   "why_ko": "체인 불가라 크리에이션 킹이 퀵 파괴로 응수하지 못하고, 파괴가 아니라 소재로 보내므로 [[Mementomictlan]]·[[Mementotlan Akihiron]]의 '파괴되었을 때'가 하나도 발동하지 않는다. 필드가 비면 메멘토 퓨전 묘지 효과(자기 몬스터 파괴)도 쓸 수 없다. 메멘토는 대부분 어둠이라 [[Garura, Wings of Resonant Life]](같은 종족·속성: 고블린 + 가티크), [[Mudragon of the Swamp]](같은 속성·다른 종족)도 후보. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다.",
+   "fallback_ko": "가티크 회수는 처리되어 스리피가 패에 들어온다. 스리피 특소만으로는 융합 소재(메멘토 2장)가 모자라 판면이 크게 줄어든다."
+  },
+  {
+   "handtrap": "nibiru",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 9,
+   "target_card": "Mementotlan Ghattic",
+   "timing_ko": "5번째 소환(가티크 묘지 특소) 처리 뒤. 그 뒤 가티크 회수 효과가 끝날 때까지 기다려도 된다",
+   "why_ko": "크리에이션 킹·가티크를 파괴가 아니라 릴리스로 치우므로 메멘토의 파괴 유발이 전혀 일어나지 않는다. 이후 퓨전 묘지 효과로 원시생명체 토큰을 파괴해도 토큰은 메멘토가 아니라 아키히론·필드 마법이 반응하지 않는다.",
+   "fallback_ko": "패의 스리피(가티크로 회수했다면)와 2번째 크리에이션 킹의 필드 마법 서치 정도. MDM 가이드도 니비루를 의식한 순서를 따로 쓴다."
+  },
+  {
+   "handtrap": "fuwalos",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 7,
+   "target_card": "Mementomictlan Tecuhtlica - Creation King",
+   "timing_ko": "첫 덱·엑덱 특소([[Mementomictlan Tecuhtlica - Creation King]] 융합) 전, 내 필드가 비어 있을 때",
+   "why_ko": "풀 루트의 덱·엑덱 특소는 5회. 상대는 `fuwalos` 라인으로 바꿔 1장만 주고 멈출 수 있지만, 그 경우 호른 드래곤·S:P가 빠진 작은 판면이 된다.",
+   "fallback_ko": "`fuwalos` 라인 판면: 크리에이션 킹, 가티크, 메멘토랄, 필드 마법, 세트 퓨전·본 파티, 패에 호른 드래곤."
+  },
+  {
+   "handtrap": "mst",
+   "severity": "ok",
+   "line": "angwitch",
+   "step": 12,
+   "target_card": "Mementomictlan",
+   "timing_ko": "[[Mementomictlan]]의 카드 발동에 체인해 파괴",
+   "why_ko": "필드 마법이 적용되지 않아 16단계 고블린 소생과 엔드 페이즈의 [[Mementotlan Bone Party]] 세트가 사라진다. 파괴 시 효과가 없는 카드라 역이용당하지 않는다.",
+   "fallback_ko": "트윈 드래곤·아키히론·본 파티 루트는 이어지지만 몸 하나와 상대 턴 본 파티가 빠진다. 고블린 대신 다른 몸으로 S:P를 만든다."
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "ok",
+   "line": "angwitch",
+   "step": 12,
+   "target_card": "Mementomictlan",
+   "timing_ko": "세트해 둔 The Fallen & The Virtuous를 [[Mementomictlan]] 발동에 체인해 그 필드 마법 파괴 (앞면 카드 대상)",
+   "why_ko": "싸이크론과 같은 결과. 몬스터를 파괴하면 아키히론·필드 마법·스리피 조건을 채워 주므로 이 카드는 필드 마법에만 쓴다. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다.",
+   "fallback_ko": "싸이크론과 같다."
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "bad",
+   "line": "angwitch",
+   "step": 18,
+   "target_card": "Mementotlan Twin Dragon",
+   "timing_ko": "[[Mementotlan Twin Dragon]]의 서치 효과 발동에 체인해 트윈 드래곤 파괴",
+   "why_ko": "서치는 그대로 처리되고, 융합 소환된 트윈 드래곤이 파괴되면 ③으로 묘지의 메멘토를 특소한다. 필드 마법·아키히론도 '파괴되었을 때' 반응한다. [[Ghost Ogre & Snow Rabbit]]도 4단계 이외(크리에이션 킹·호른 드래곤 등)에는 같은 이유로 손해. 하르모니아는 4단계 타츠노오토시고에만 쓸 만하다.",
+   "fallback_ko": "상대는 몸이 오히려 늘어난다.",
+   "rulings": [
+    "qa-17721",
+    "supp-19361"
+   ]
+  }
+ ],
+ "handtrap_summary": {
+  "ash": {
+   "rating": "critical",
+   "note_ko": "엔위치 서치 > 타츠노오토시고 덤핑 > 크리에이션 킹 덤핑. 브레이크아웃·고블린 시작이면 고블린 덤핑. 메멘토랄·호른 드래곤의 특소는 소환 방법이라 체인 불가.",
+   "rulings": [
+    "supp-19362",
+    "supp-19360"
+   ]
+  },
+  "maxxc": {
+   "rating": "critical",
+   "note_ko": "특소 14회. 상대는 자기 드롤·우라라로 대응하거나 짧게 끊는다. 첫 특소(타츠노오토시고)에 던진다."
+  },
+  "fuwalos": {
+   "rating": "strong",
+   "note_ko": "덱·엑덱 특소 5회(풀 루트). 맞으면 1장만 주는 `fuwalos` 라인으로 바꿀 수 있지만 판면이 작아진다."
+  },
+  "purulia": {
+   "rating": "ok",
+   "note_ko": "패에서의 소환이 엔위치 일반 소환, 타츠노오토시고·스리피·호른 드래곤 특소, 메멘토랄(패에서 나올 때)으로 4~5회."
+  },
+  "meowls": {
+   "rating": "strong",
+   "note_ko": "묘지 특소가 메이스·가티크·고블린·아키히론·트윈 드래곤 플로트·메멘토랄로 6회 전후. 첫 묘지 특소(엔위치 ②의 메이스)에 던진다."
+  },
+  "droll": {
+   "rating": "strong",
+   "note_ko": "엔위치 서치 직후 쓰면 메이스(퓨전 서치)·크리에이션 킹(필드 마법)·퓨전 묘지(본 파티)·트윈 드래곤 서치가 전부 막힌다. 가티크 회수는 묘지→패라 못 막고, MDM 가이드에 드롤을 맞은 루트(크리에이션 킹 + S:P + 메멘토랄)가 따로 있다."
+  },
+  "imperm": {
+   "rating": "strong",
+   "note_ko": "선공 턴: 타츠노오토시고 ② 발동에 체인(엔위치 서치에는 늦다). 우리 턴: 메인 페이즈 시작 시 메멘토랄 또는 S:P를 미리 무효.",
+   "rulings": [
+    "supp-19362"
+   ]
+  },
+  "veiler": {
+   "rating": "strong",
+   "note_ko": "선공 턴에만. 타츠노오토시고 특소 직후(② 발동 전)에 걸어도 된다. 우리 턴에는 못 쓴다."
+  },
+  "ogre": {
+   "rating": "ok",
+   "note_ko": "타츠노오토시고 ②에만 strong(엔위치가 대신 파괴되어 몸이 사라짐). 그 외 메멘토 몬스터를 파괴하면 필드 마법·아키히론·스리피·트윈 드래곤·호른 드래곤의 파괴 유발을 도와준다.",
+   "rulings": [
+    "supp-19362"
+   ]
+  },
+  "belle": {
+   "rating": "ok",
+   "note_ko": "가티크 묘지 특소, 아키히론 묘지 효과, 크리에이션 킹 묘지 서치, 퓨전 묘지 효과(묘지 제외 포함), 트윈 드래곤 플로트에 맞는다. 체인 하나만 끊어서는 대체 루트가 많다."
+  },
+  "mourner": {
+   "rating": "strong",
+   "note_ko": "타츠노오토시고 패 특소 직후 효과를 무효하면 ②를 못 쓴다(뵐러와 같은 결과). 엔위치는 일반 소환이라 대상이 아니다."
+  },
+  "crossout": {
+   "rating": "weak",
+   "note_ko": "자기 덱의 카드만 선언 가능. 메멘토도 TFTV·초융합·금지된 성관을 쓰므로, 내가 같은 카드를 쓴다면 그 이름을 선언하는 정도."
+  },
+  "ttt": {
+   "rating": "ok",
+   "note_ko": "후공용. 우리 턴에 메멘토랄 특소 효과·S:P·호른 드래곤 같은 몬스터 효과를 쓰므로 조건은 쉽게 맞는다."
+  },
+  "droplet": {
+   "rating": "strong",
+   "note_ko": "후공용. 메멘토랄·S:P·호른 드래곤을 동시에 무효. 마법을 보내 발동하면 세트한 본 파티·메멘토 퓨전(속공 마법)으로 체인할 수 없다."
+  },
+  "nibiru": {
+   "rating": "strong",
+   "note_ko": "5번째 소환이 가티크 특소로 빠르다. 릴리스라 메멘토의 파괴 유발이 하나도 안 붙는다."
+  },
+  "impulse": {
+   "rating": "strong",
+   "note_ko": "타츠노오토시고 ①(자신 특소), 엔위치 ②, 메멘토 퓨전 발동 모두 '특소를 포함한 효과'. 타츠노오토시고에 쓰면 엔위치만 남는다."
+  },
+  "purge": {
+   "rating": "strong",
+   "note_ko": "엔위치 서치 무효. 우라라와 같은 위치."
+  },
+  "spark": {
+   "rating": "ok",
+   "note_ko": "타츠노오토시고(패)·가티크(묘지)가 효과를 쓴 뒤 크리에이션 킹 등을 제외. 제외라 파괴 유발이 없다."
+  },
+  "magnamhut": {
+   "rating": "strong",
+   "note_ko": "메멘토 몬스터 대부분이 어둠·빛. 가티크 묘지 특소에 체인해 제외하는 것이 가장 크다. 묘지를 깎아 메멘토랄의 5종 조건도 어렵게 만든다."
+  },
+  "gamma": {
+   "rating": "strong",
+   "note_ko": "엔위치 서치 무효+파괴. 내 필드에 몬스터가 없어야 한다."
+  },
+  "harmonia": {
+   "rating": "bad",
+   "note_ko": "싱크로 5장 공개 기준 파괴. 타츠노오토시고 ②에 쓰면 유령토끼와 같은 결과(ok)지만, 그 외 메멘토 몬스터 파괴는 필드 마법·아키히론·스리피·트윈 드래곤·호른 드래곤의 유발을 도와준다. 2~5장 공개는 막는 것이 없다.",
+   "rulings": [
+    "qa-17721",
+    "supp-19361"
+   ]
+  },
+  "fallen_virtuous": {
+   "rating": "ok",
+   "note_ko": "몬스터 파괴는 역효과. [[Mementomictlan]] 발동에 체인해 필드 마법을 파괴하는 용도. 속공 마법이라 상대 턴에 쓰려면 미리 세트해 둬야 한다(후공 1턴의 상대 전개에는 못 쓴다)."
+  },
+  "super_poly": {
+   "rating": "strong",
+   "note_ko": "파괴 없이 메멘토 몬스터를 치우는 최선의 카드. 크리에이션 킹 + 어둠 메멘토로 [[Predaplant Dragostapelia]], 고블린 + 가티크로 [[Garura, Wings of Resonant Life]], 어둠 2장으로 [[Mudragon of the Swamp]]. 체인 불가라 크리에이션 킹 퀵 파괴도 못 쓴다. 상대 턴은 세트 필요, 후공이면 우리 턴 패에서(호른 드래곤을 파괴 없이 치움)."
+  },
+  "crown": {
+   "rating": "strong",
+   "note_ko": "상대 턴(세트 필요): 엔위치 서치에 체인해 무효 + 파괴 불가·소재 불가. 우리 턴(패): [[Mementotlan-Horned Dragon]]에 쓰면 파괴되지 않아 본 파티로 호른 드래곤을 터뜨리는 견제가 사라지고, [[Mementoal Tecuhtlica - Combined Creation]]에 쓰면 특소 효과를 끈다."
+  },
+  "druiswurm": {
+   "rating": "strong",
+   "note_ko": "마그나무트와 같은 타이밍(가티크 묘지 특소)에 체인해 제외. 필드에 남은 드루이드브룸이 상대 카드로 묘지에 가면 특소 몬스터 1장을 묘지로 보낸다."
+  },
+  "mst": {
+   "rating": "ok",
+   "note_ko": "[[Mementomictlan]] 발동에 체인해 파괴하면 고블린 소생과 엔드 페이즈 본 파티 세트가 사라진다. 세트된 본 파티·메멘토 퓨전은 속공 마법이라 체인으로 발동되어 버린다."
+  }
+ },
+ "notes_ko": [
+  "메멘토는 '자신의 메멘토 몬스터가 효과로 파괴되었을 때' 움직이는 덱이다. [[Ghost Ogre & Snow Rabbit]]·하르모니아·TFTV로 메멘토 몬스터를 파괴하면 [[Mementomictlan]](레벨이 낮은 메멘토 특소), [[Mementotlan Akihiron]](묘지에서 자신 특소·제외 카드 회수), [[Mementotlan Shleepy]](패에서 퀵 특소·파괴 시 덤핑), [[Mementotlan Twin Dragon]](융합 소환된 경우 플로트), [[Mementotlan-Horned Dragon]](파괴 시 앞면 3장 파괴)이 반응한다. 무효·제외·릴리스·소재로 보내기를 쓸 것.",
+  "[[Mementoal Tecuhtlica - Combined Creation]]와 [[Mementotlan-Horned Dragon]]의 특소는 효과가 아닌 소환 방법이라 체인 블록이 없고 우라라·와라시 등으로 막을 수 없다(공식 보충 정보). 막으려면 묘지 5종(메멘토랄)·3종(호른 드래곤) 조건을 마그나무트·드루이드브룸으로 깎는다.",
+  "[[Mementotlan Tatsunootoshigo]] ②는 처리 시 파괴할 메멘토를 고른다. 유령토끼로 타츠노오토시고를 먼저 파괴해도 엔위치를 대신 파괴하고 레벨 합계를 줄여 보낸다. 반대로 고를 몬스터가 없으면 아무것도 안 한다.",
+  "[[Mementotlan Twin Dragon]] ③은 '융합 소환된 이 카드'가 파괴됐을 때만. 묘지에서 소생한 트윈 드래곤은 다시 파괴돼도 플로트하지 않는다(공식 Q&A 17721).",
+  "[[Mementotlan Bone Party]] ①은 처리 시 파괴할 메멘토(패 또는 필드)를 고른다. 대상을 지정하지 않으므로 무한포영 등으로 특정 몬스터를 미리 꺼 둬도 다른 몬스터를 파괴해 처리된다(공식 Q&A 18723·보충 정보).",
+  "[[Mementotlan Mace]] ①(컨트롤 탈취)과 [[Mementotlan Goblin]] ①(대상 내성)은 필드에 [[Mementoal Tecuhtlica - Combined Creation]]가 앞면으로 있을 때만 패에서 쓰는 퀵 효과다. 메멘토랄을 먼저 치우면 둘 다 죽은 카드가 된다.",
+  "MD 차이: OCG 가이드에 자주 나오는 [[Apollousa, Bow of the Goddess]]·[[Called by the Grave]]는 MD 금지. 메멘토 카드는 MD에서 전부 무제한. 최근 MD 리스트는 [[The Fallen & The Virtuous]](MD 제한 2)를 엑덱의 [[Albion the Branded Dragon]]·[[Ecclesia and the Dark Dragon]]을 보내 자기 메멘토 몬스터를 파괴하는 용도로 쓰고, 후공용 [[Super Polymerization]]·[[Forbidden Crown]]·[[Forbidden Droplet]]·[[Guardian Chimera]]를 섞는다."
+ ],
+ "sources": [
+  "https://www.masterduelmeta.com/tier-list/deck-types/Memento (Master Duel Meta: Memento deck breakdown·콤보 가이드 by Biggstarr, 2026-06-21 갱신 — Angwitch/Tatsunoo/Goblin or Breakout/Mace/Sheep/Fuwalos/Droll 루트)",
+  "https://www.masterduelmeta.com/api/v1/top-decks?deckType=663d2eee76d35f121eed0ff9 (MDM 메멘토 상위 덱 리스트, 2026-07-24~10-18 랭크·DC 8개 집계)",
+  "https://www.masterduelmeta.com/duelist-cup-dlv.-max/october-2026/memento/nah/WZ-QM/ (MDM: 최근 30일 유일한 메멘토 DC 리스트)",
+  "https://appmedia.jp/?p=77856965 (appmedia: メメントデッキのレシピと回し方, 2026-02-20 — シーホース 1장 초동 28단계 루트)",
+  "https://www.masterduelmeta.com/api/v1/cards (Master Duel Meta 카드 API: MD 영문 텍스트·제한 상태)",
+  "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19362&request_locale=ja (KONAMI: メメント・シーホース 補足情報 등 메멘토 카드 Q&A)"
+ ],
+ "going_second": {
+  "summary_ko": "풀 판면에 몬스터 효과 무효는 없다. 견제는 [[S:P Little Knight]]의 제외, [[Mementoal Tecuhtlica - Combined Creation]]의 체인 처리 뒤 메멘토 특소(엔위치 → 서치 → 메이스 컨트롤 탈취), 세트한 [[Mementotlan Bone Party]]로 [[Mementotlan-Horned Dragon]]을 터뜨리는 앞면 3장 파괴, 세트한 [[Mementotlan Fusion]]의 상대 턴 융합, [[Mementomictlan]]의 파괴 시 소생이다. 핵심은 '파괴로 처리하지 않는 것': 라이게키·번개 같은 파괴 계열은 호른 드래곤과 필드 마법을 일으켜 손해를 본다. 무한포영·금지된 일적·성관으로 먼저 끄고, 괴수·초융합·[[Evenly Matched]] 같은 릴리스·소재·제외로 치운다.",
+  "difficulty": "hard",
+  "boards": [
+   {
+    "id": "full",
+    "title_ko": "풀 전개 (엔위치 1장 초동)",
+    "line": "angwitch",
+    "interruptions": [
+     {
+      "id": "sp",
+      "card": "S:P Little Knight",
+      "kind": "banish",
+      "zone": "monster",
+      "timing_ko": "내가 카드·효과를 발동했을 때(퀵, 1턴 1번) S:P 자신을 포함해 앞면 몬스터 2장을 엔드 페이즈까지 제외. 보통 내 핵심 몬스터 1장 + S:P 자신",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 1 시작, 내 필드가 비어 있을 때 패에서 S:P 대상. S:P는 무한포영 발동에 체인해 제외할 내 몬스터가 없으니 응수 불가"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "메멘토랄·호른 드래곤과 함께 무효. 마법을 보내면 세트한 본 파티·퓨전으로 체인할 수 없다"
+       },
+       {
+        "id": "crown",
+        "note_ko": "몬스터 효과로 체인할 수 없어 S:P를 그대로 무효"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "S:P(어둠 전사족) + 호른 드래곤(어둠 드래곤족)으로 [[Mudragon of the Swamp]]. 체인 불가라 S:P가 응수 못 하고 파괴가 아니라 호른 드래곤도 안 터진다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "S:P를 릴리스. 특소는 소환 방법이라 S:P가 체인할 수 없다(직전 다른 발동은 없어야 함)"
+       },
+       {
+        "id": "evenly_matched",
+        "note_ko": "배틀 페이즈 종료 시 발동이라 S:P가 내 몬스터를 제외할 수 있지만 그 발동 자체는 막지 못한다. 뒷면 제외라 파괴 유발이 없다"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가. 단 세트한 본 파티·메멘토 퓨전은 체인 가능"
+       }
+      ],
+      "bait_ko": "아무 발동에나 반응하므로 덜 중요한 몬스터 효과를 먼저 써서 S:P를 끌어내면 그 몬스터 + S:P가 함께 빠진다. 핵심 몬스터는 S:P가 사라진 뒤에."
+     },
+     {
+      "id": "cc1",
+      "card": "Mementoal Tecuhtlica - Combined Creation",
+      "kind": "other",
+      "zone": "monster",
+      "timing_ko": "내가 카드·효과를 발동하면 그 체인 처리 뒤(1턴 1번) 패·묘지에서 메멘토 몬스터 특소. 보통 묘지의 [[Mementotlan Angwitch]] → [[Mementotlan Shleepy]]·[[Mementotlan Mace]] 서치 → 스리피 퀵 특소·트윈 드래곤 융합, 메이스로 내 몬스터 컨트롤 탈취([[Mementoal Tecuhtlica - Combined Creation]]이 필드에 있어야 함)",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 1 시작 시 패에서 메멘토랄 대상. 특소 효과가 꺼지고, 메이스·고블린의 패 효과 조건(메멘토랄 앞면 존재)은 남는다",
+        "rulings": [
+         "supp-19365"
+        ]
+       },
+       {
+        "id": "crown",
+        "note_ko": "메멘토랄에 적용하면 효과 무효 + 파괴·발동한 효과 내성. 몬스터 효과로 체인 불가"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "S:P·호른 드래곤과 함께 무효"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "공격력 5000을 릴리스로 처리. 파괴가 아니라 유발이 없고, 메멘토랄이 사라지면 메이스·고블린 패 효과도 못 쓴다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "메멘토랄(땅 환룡족)을 소재로. 맞는 융합이 있어야 한다(같은 속성 [[Mudragon of the Swamp]] 등은 다른 땅 몬스터 필요)"
+       },
+       {
+        "id": "spark",
+        "note_ko": "상대가 패·묘지에서 몬스터 효과를 쓴 턴에 제외"
+       },
+       {
+        "id": "mourner",
+        "note_ko": "메멘토랄이 꺼낸 엔위치가 특소된 직후 효과를 무효해 서치를 막는다"
+       },
+       {
+        "id": "ash",
+        "note_ko": "메멘토랄이 꺼낸 엔위치의 서치나 본 파티(덱에서 패·특소)에 체인. 메멘토랄 효과 자체는 못 막는다"
+       }
+      ],
+      "bait_ko": "체인 처리 뒤에 반응하므로 첫 발동을 가벼운 카드로 하면 그 뒤 바로 특소가 들어온다. 엔위치 → 메이스로 이어지면 내 몬스터를 빼앗기므로 메이스를 쓰기 전에 메멘토랄을 치운다."
+     },
+     {
+      "id": "bone_party",
+      "card": "Mementotlan Bone Party",
+      "kind": "removal",
+      "zone": "st",
+      "timing_ko": "세트된 속공 마법(엔드 페이즈에 필드 마법으로 세트). 패·필드의 메멘토 몬스터 1장을 파괴하고 덱에서 이름이 다른 메멘토를 패 또는 수비 표시 특소. 필드의 [[Mementotlan-Horned Dragon]]을 파괴하면 호른 드래곤이 앞면 3장(자신의 메멘토 1장 포함)을 파괴해 내 카드 2장이 날아간다",
+      "answered_by": [
+       {
+        "id": "droplet",
+        "note_ko": "마법 카드를 보내 발동하면 그 드롭렛 발동에는 본 파티로 체인할 수 없다(제거는 아님)"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "발동에 아무것도 체인할 수 없다. 호른 드래곤을 소재로 먼저 치우면 본 파티의 최대 위협이 사라진다"
+       },
+       {
+        "id": "crown",
+        "note_ko": "호른 드래곤에 적용하면 파괴되지 않아 본 파티로 터뜨릴 수 없다. 본 파티는 처리 시 다른 메멘토를 고를 수는 있다",
+        "rulings": [
+         "qa-18723"
+        ]
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "세트 상태에서 제외하려 하면 상대는 체인으로 발동한다. 미끼 정도"
+       },
+       {
+        "id": "ash",
+        "note_ko": "본 파티 발동에 체인해 효과 무효(덱에서 패 넣기·특소 포함). 파괴도 일어나지 않는다",
+        "rulings": [
+         "supp-19368"
+        ]
+       },
+       {
+        "id": "impulse",
+        "note_ko": "'특소를 포함한 효과'의 발동으로 무효할 수 있다"
+       }
+      ],
+      "bait_ko": "속공 마법이라 내가 첫 카드를 낼 때 체인으로 들어온다. 덜 중요한 카드를 먼저 앞면으로 깔아 호른 드래곤 파괴 대상을 주면 핵심 카드가 남는다."
+     },
+     {
+      "id": "horned",
+      "card": "Mementotlan-Horned Dragon",
+      "kind": "removal",
+      "zone": "monster",
+      "timing_ko": "필드의 이 카드가 카드 효과로 파괴되면(누구의 효과든) 묘지에서 앞면 카드 3장(자신의 메멘토 카드 1장 포함)을 대상으로 파괴(1턴 1번). 데미지 스텝에도 발동",
+      "answered_by": [
+       {
+        "id": "super_poly",
+        "note_ko": "소재로 보내므로 파괴가 아니다. 호른 드래곤 + S:P(둘 다 어둠)",
+        "rulings": [
+         "supp-19361"
+        ]
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 파괴 유발 없음"
+       },
+       {
+        "id": "evenly_matched",
+        "note_ko": "뒷면 제외라 유발 없음"
+       },
+       {
+        "id": "crown",
+        "note_ko": "파괴되지 않게 만들어 본 파티·TFTV로 터뜨리지 못하게 한다"
+       }
+      ],
+      "bait_ko": "번개·라이게키처럼 몬스터를 파괴하는 카드를 쓰면 내 손으로 호른 드래곤을 터뜨려 준다. 파괴 계열은 호른 드래곤을 먼저 치운 뒤에.",
+      "rulings": [
+       "supp-19361"
+      ]
+     },
+     {
+      "id": "fusion",
+      "card": "Mementotlan Fusion",
+      "kind": "removal",
+      "zone": "st",
+      "timing_ko": "세트된 속공 마법. 내 메인 페이즈에도 발동해 패·필드(이번 턴 메멘토가 효과로 파괴됐으면 묘지 메멘토도 덱으로 되돌려) 소재로 융합. 패 1장 + 필드 2장으로 [[Guardian Chimera]](마법 효과로 융합 → 패 소재 수 드로우, 필드 소재 수만큼 내 카드 파괴), 메멘토 2장으로 [[Mementotlan Twin Dragon]](메멘토 2장 서치) 등",
+      "answered_by": [
+       {
+        "id": "droplet",
+        "note_ko": "마법을 보내 발동하면 그 발동에 체인할 수 없다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "필드의 메멘토 몬스터를 먼저 소재로 흡수하면 메멘토 퓨전의 소재가 모자란다"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "세트 상태에서 노리면 체인으로 발동해 버린다. 미끼 정도"
+       },
+       {
+        "id": "ash",
+        "note_ko": "융합 뒤 트윈 드래곤 서치에 체인할 수 있다"
+       }
+      ],
+      "bait_ko": "메인 페이즈 퀵이라 배틀 페이즈의 [[Evenly Matched]]에는 응수하지 못한다.",
+      "rulings": [
+       "supp-19904"
+      ]
+     },
+     {
+      "id": "field",
+      "card": "Mementomictlan",
+      "kind": "recursion",
+      "zone": "st",
+      "timing_ko": "자기(메멘토 측) 몬스터가 전투·효과로 파괴되면 그 몬스터보다 레벨이 낮은 메멘토를 패·묘지에서 특소(1턴 1번). 메멘토 몬스터 전투 중 마함 발동 불가. 엔드 페이즈에 묘지의 메멘토 마함 세트",
+      "answered_by": [
+       {
+        "id": "cosmic",
+        "note_ko": "앞면 필드 마법을 제외. 파괴 시 효과가 없어 깔끔하다"
+       },
+       {
+        "id": "mst",
+        "note_ko": "앞면 필드 마법 파괴"
+       },
+       {
+        "id": "harpie",
+        "note_ko": "필드 마법과 세트 카드 동시 파괴. 세트한 본 파티·퓨전은 체인으로 발동된다"
+       },
+       {
+        "id": "belle",
+        "note_ko": "묘지에서 특소하는 효과라 발동 무효(패에서 특소할 때는 불가)"
+       }
+      ],
+      "bait_ko": "몬스터를 파괴하는 카드를 쓰기 전에 먼저 치운다. 파괴 계열과 함께 쓰면 소생이 따라온다.",
+      "rulings": [
+       "supp-19367"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "after_ash_angwitch",
+    "title_ko": "엔위치 서치에 우라라를 맞은 경우",
+    "after": {
+     "handtrap": "ash",
+     "line": "angwitch",
+     "step": 2
+    },
+    "interruptions": []
+   },
+   {
+    "id": "after_ash_tatsuno",
+    "title_ko": "타츠노오토시고 덤핑에 우라라를 맞은 경우 (엔위치 + 타츠노오토시고 → S:P)",
+    "after": {
+     "handtrap": "ash",
+     "line": "angwitch",
+     "step": 4
+    },
+    "interruptions": [
+     {
+      "id": "sp_ash_tatsuno",
+      "card": "S:P Little Knight",
+      "kind": "banish",
+      "zone": "monster",
+      "timing_ko": "내가 카드·효과를 발동했을 때(퀵, 1턴 1번) S:P 자신을 포함해 앞면 몬스터 2장을 엔드 페이즈까지 제외. 보통 내 핵심 몬스터 1장 + S:P 자신",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 1 시작, 내 필드가 비어 있을 때 패에서 S:P 대상. S:P는 무한포영 발동에 체인해 제외할 내 몬스터가 없으니 응수 불가"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "메멘토랄·호른 드래곤과 함께 무효. 마법을 보내면 세트한 본 파티·퓨전으로 체인할 수 없다"
+       },
+       {
+        "id": "crown",
+        "note_ko": "몬스터 효과로 체인할 수 없어 S:P를 그대로 무효"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "S:P(어둠 전사족) + 호른 드래곤(어둠 드래곤족)으로 [[Mudragon of the Swamp]]. 체인 불가라 S:P가 응수 못 하고 파괴가 아니라 호른 드래곤도 안 터진다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "S:P를 릴리스. 특소는 소환 방법이라 S:P가 체인할 수 없다(직전 다른 발동은 없어야 함)"
+       },
+       {
+        "id": "evenly_matched",
+        "note_ko": "배틀 페이즈 종료 시 발동이라 S:P가 내 몬스터를 제외할 수 있지만 그 발동 자체는 막지 못한다. 뒷면 제외라 파괴 유발이 없다"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가. 단 세트한 본 파티·메멘토 퓨전은 체인 가능"
+       }
+      ],
+      "bait_ko": "아무 발동에나 반응하므로 덜 중요한 몬스터 효과를 먼저 써서 S:P를 끌어내면 그 몬스터 + S:P가 함께 빠진다. 핵심 몬스터는 S:P가 사라진 뒤에."
+     }
+    ]
+   },
+   {
+    "id": "after_fuwalos",
+    "title_ko": "후와로스를 맞고 짧게 끝낸 경우 (`fuwalos` 라인)",
+    "after": {
+     "handtrap": "fuwalos",
+     "line": "angwitch",
+     "step": 7
+    },
+    "line": "fuwalos",
+    "interruptions": [
+     {
+      "id": "ck_fuwalos",
+      "card": "Mementomictlan Tecuhtlica - Creation King",
+      "kind": "removal",
+      "zone": "monster",
+      "timing_ko": "퀵(1턴 1번): 자신의 메멘토 몬스터와 내 필드 카드를 같은 수만큼 대상으로 파괴. 자기 메멘토를 파괴하므로 필드 마법·아키히론 등 후속이 따라온다",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 1 시작, 내 필드가 비어 있을 때 크리에이션 킹 대상",
+        "rulings": [
+         "supp-20216"
+        ]
+       },
+       {
+        "id": "crown",
+        "note_ko": "몬스터 효과로 체인 불가라 크리에이션 킹이 응수하지 못한다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "크리에이션 킹·메멘토랄을 동시에 무효. 마법을 보내면 본 파티·퓨전 체인도 봉쇄"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "크리에이션 킹 퀵 파괴 발동에 체인해 무효+파괴. 내 필드에 몬스터가 없어야 한다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "크리에이션 킹(융합 몬스터) + 가티크(어둠)로 [[Predaplant Dragostapelia]]. 체인 불가"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "크리에이션 킹이나 메멘토랄 릴리스. 파괴가 아니라 유발 없음"
+       }
+      ],
+      "bait_ko": "크리에이션 킹은 내가 무언가 할 때 체인해 오므로, 먼저 깔린 카드가 대상이 된다. 깔기 전에 끈다.",
+      "rulings": [
+       "supp-20216"
+      ]
+     },
+     {
+      "id": "cc1_fuwalos",
+      "card": "Mementoal Tecuhtlica - Combined Creation",
+      "kind": "other",
+      "zone": "monster",
+      "timing_ko": "내가 카드·효과를 발동하면 그 체인 처리 뒤(1턴 1번) 패·묘지에서 메멘토 몬스터 특소. 보통 묘지의 [[Mementotlan Angwitch]] → [[Mementotlan Shleepy]]·[[Mementotlan Mace]] 서치 → 스리피 퀵 특소·트윈 드래곤 융합, 메이스로 내 몬스터 컨트롤 탈취([[Mementoal Tecuhtlica - Combined Creation]]이 필드에 있어야 함)",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 1 시작 시 패에서 메멘토랄 대상. 특소 효과가 꺼지고, 메이스·고블린의 패 효과 조건(메멘토랄 앞면 존재)은 남는다",
+        "rulings": [
+         "supp-19365"
+        ]
+       },
+       {
+        "id": "crown",
+        "note_ko": "메멘토랄에 적용하면 효과 무효 + 파괴·발동한 효과 내성. 몬스터 효과로 체인 불가"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "S:P·호른 드래곤과 함께 무효"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "공격력 5000을 릴리스로 처리. 파괴가 아니라 유발이 없고, 메멘토랄이 사라지면 메이스·고블린 패 효과도 못 쓴다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "메멘토랄(땅 환룡족)을 소재로. 맞는 융합이 있어야 한다(같은 속성 [[Mudragon of the Swamp]] 등은 다른 땅 몬스터 필요)"
+       },
+       {
+        "id": "spark",
+        "note_ko": "상대가 패·묘지에서 몬스터 효과를 쓴 턴에 제외"
+       },
+       {
+        "id": "mourner",
+        "note_ko": "메멘토랄이 꺼낸 엔위치가 특소된 직후 효과를 무효해 서치를 막는다"
+       },
+       {
+        "id": "ash",
+        "note_ko": "메멘토랄이 꺼낸 엔위치의 서치나 본 파티(덱에서 패·특소)에 체인. 메멘토랄 효과 자체는 못 막는다"
+       }
+      ],
+      "bait_ko": "체인 처리 뒤에 반응하므로 첫 발동을 가벼운 카드로 하면 그 뒤 바로 특소가 들어온다. 엔위치 → 메이스로 이어지면 내 몬스터를 빼앗기므로 메이스를 쓰기 전에 메멘토랄을 치운다."
+     },
+     {
+      "id": "bp_fuwalos",
+      "card": "Mementotlan Bone Party",
+      "kind": "other",
+      "zone": "st",
+      "timing_ko": "세트된 속공 마법. 패의 [[Mementotlan-Horned Dragon]]이나 필드의 메멘토를 파괴하고 덱에서 메멘토를 꺼낸다. 패의 호른 드래곤은 필드에서 파괴된 게 아니라 ②가 없다",
+      "answered_by": [
+       {
+        "id": "ash",
+        "note_ko": "덱에서 패·특소를 포함하므로 발동에 체인해 무효",
+        "rulings": [
+         "supp-19368"
+        ]
+       },
+       {
+        "id": "droplet",
+        "note_ko": "마법을 보내 발동하면 본 파티로 체인할 수 없다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가"
+       }
+      ],
+      "bait_ko": ""
+     },
+     {
+      "id": "fusion_fuwalos",
+      "card": "Mementotlan Fusion",
+      "kind": "removal",
+      "zone": "st",
+      "timing_ko": "세트된 속공 마법. 내 메인 페이즈에도 발동해 패·필드(이번 턴 메멘토가 효과로 파괴됐으면 묘지 메멘토도 덱으로 되돌려) 소재로 융합. 패 1장 + 필드 2장으로 [[Guardian Chimera]](마법 효과로 융합 → 패 소재 수 드로우, 필드 소재 수만큼 내 카드 파괴), 메멘토 2장으로 [[Mementotlan Twin Dragon]](메멘토 2장 서치) 등",
+      "answered_by": [
+       {
+        "id": "droplet",
+        "note_ko": "마법을 보내 발동하면 그 발동에 체인할 수 없다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "필드의 메멘토 몬스터를 먼저 소재로 흡수하면 메멘토 퓨전의 소재가 모자란다"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "세트 상태에서 노리면 체인으로 발동해 버린다. 미끼 정도"
+       },
+       {
+        "id": "ash",
+        "note_ko": "융합 뒤 트윈 드래곤 서치에 체인할 수 있다"
+       }
+      ],
+      "bait_ko": "메인 페이즈 퀵이라 배틀 페이즈의 [[Evenly Matched]]에는 응수하지 못한다.",
+      "rulings": [
+       "supp-19904"
+      ]
+     }
+    ]
+   }
+  ],
+  "breakers": {
+   "lightning_storm": {
+    "rating": "weak",
+    "note_ko": "몬스터 모드는 호른 드래곤·필드 마법·아키히론의 파괴 유발을 전부 일으킨다. 마함 모드는 필드 마법을 치우지만 세트한 본 파티·퓨전은 체인으로 발동된다. 내 필드에 앞면 카드가 없을 때만."
+   },
+   "evenly_matched": {
+    "rating": "strong",
+    "note_ko": "뒷면 제외라 파괴 유발이 하나도 없고, 배틀 페이즈라 메멘토 퓨전(메인 페이즈 퀵)으로 응수하지 못한다. S:P·본 파티는 체인 가능. 메인 페이즈 1에 아무것도 깔지 않아야 패에서 발동 가능."
+   },
+   "dark_ruler": {
+    "rating": "ok",
+    "note_ko": "메멘토랄·S:P·호른 드래곤을 체인 없이 무효. 단 세트 본 파티·퓨전(마법)은 체인 가능하고, 무효된 호른 드래곤도 필드를 떠나면 묘지에서 파괴 효과를 쓴다."
+   },
+   "harpie": {
+    "rating": "ok",
+    "note_ko": "필드 마법 + 세트 2장. 세트 카드는 속공 마법이라 체인으로 쓰지만, 엔드 페이즈 세트·소생 원천을 끊는다. 제한 1."
+   },
+   "heavy_storm": {
+    "rating": "ok",
+    "note_ko": "해피의 깃털과 같음. 제한 1."
+   },
+   "raigeki": {
+    "rating": "weak",
+    "note_ko": "몬스터 전부 파괴 → 호른 드래곤(앞면 3장 파괴)·필드 마법 소생·아키히론 자기 소생이 전부 붙는다."
+   },
+   "dark_hole": {
+    "rating": "weak",
+    "note_ko": "라이게키와 같은 문제(내 몬스터도 파괴)."
+   },
+   "kaiju": {
+    "rating": "strong",
+    "note_ko": "메멘토랄(공 5000)을 릴리스. 파괴가 아니라 유발이 없고, 메멘토랄이 사라지면 메이스·고블린 패 효과도 못 쓴다. 호른 드래곤에 써도 깔끔."
+   },
+   "kaiju_slumber": {
+    "rating": "weak",
+    "note_ko": "파괴라 호른 드래곤·필드 마법이 반응한다."
+   },
+   "cosmic": {
+    "rating": "ok",
+    "note_ko": "앞면 [[Mementomictlan]] 제외가 가장 좋은 사용처. 세트 카드에 쓰면 체인으로 발동된다."
+   },
+   "mst": {
+    "rating": "ok",
+    "note_ko": "앞면 필드 마법 파괴. 세트 카드는 체인으로 발동."
+   },
+   "super_poly": {
+    "rating": "strong",
+    "note_ko": "체인 불가 + 파괴가 아니라 소재. 호른 드래곤 + S:P(어둠 2장)로 [[Mudragon of the Swamp]], 크리에이션 킹 + 어둠 메멘토로 [[Predaplant Dragostapelia]]. 제한 2."
+   },
+   "book_eclipse": {
+    "rating": "ok",
+    "note_ko": "앞면 몬스터를 뒷면으로 돌려 메멘토랄·S:P를 멈춘다(파괴 아님). 속공 마법이라 S:P·본 파티가 체인할 수 있다."
+   },
+   "kurikara": {
+    "rating": "ok",
+    "note_ko": "메멘토랄·S:P·호른 드래곤이 효과를 쓴 뒤 함께 릴리스. 파괴가 아니라 유발이 없다."
+   },
+   "ultimate_slayer": {
+    "rating": "ok",
+    "note_ko": "호른 드래곤·메멘토랄을 덱으로. 몬스터 효과로 체인 불가지만 세트 본 파티는 체인 가능."
+   },
+   "fallen_virtuous": {
+    "rating": "weak",
+    "note_ko": "파괴라 몬스터에는 역효과. 필드 마법에만."
+   },
+   "harmonia": {
+    "rating": "bad",
+    "note_ko": "메멘토 몬스터 파괴는 상대를 도와준다."
+   },
+   "imperm": {
+    "rating": "strong",
+    "note_ko": "메인 페이즈 1 시작, 내 필드가 비어 있을 때 메멘토랄 또는 S:P를 미리 무효. 호른 드래곤에 쓰면 파괴되어 묘지에 가면 효과가 다시 산다."
+   },
+   "gamma": {
+    "rating": "ok",
+    "note_ko": "메멘토랄 특소 효과나 S:P 제외에 체인해 무효+파괴. 메멘토랄을 파괴하면 필드 마법이 반응한다."
+   },
+   "droplet": {
+    "rating": "strong",
+    "note_ko": "메멘토랄·S:P·호른 드래곤을 한 번에 무효. 마법을 보내면 본 파티·퓨전으로 체인할 수 없다."
+   },
+   "impulse": {
+    "rating": "ok",
+    "note_ko": "메멘토랄 특소, 본 파티(특소 포함), 메멘토 퓨전을 무효. 상대 필드에 카드가 있으니 패에서 가능."
+   },
+   "spark": {
+    "rating": "ok",
+    "note_ko": "상대가 패·묘지 몬스터 효과(메이스·스리피·아키히론)를 쓴 턴에 메멘토랄 제외. 파괴가 아니라 유발이 없다."
+   },
+   "mourner": {
+    "rating": "ok",
+    "note_ko": "메멘토랄·본 파티가 꺼낸 엔위치·다크 블레이드의 효과를 특소 직후 무효."
+   },
+   "belle": {
+    "rating": "ok",
+    "note_ko": "필드 마법의 묘지 특소, 메멘토랄 효과의 묘지 특소, 아키히론 묘지 효과를 무효."
+   },
+   "ogre": {
+    "rating": "bad",
+    "note_ko": "파괴라 호른 드래곤·필드 마법·아키히론을 돕는다. 효과도 무효가 아니다."
+   },
+   "ttt": {
+    "rating": "ok",
+    "note_ko": "내 메인 페이즈에 메멘토랄·S:P가 몬스터 효과를 쓰므로 조건이 쉽게 맞는다. 일반 마법."
+   },
+   "crossout": {
+    "rating": "weak",
+    "note_ko": "자기 덱의 카드만 선언 가능."
+   },
+   "magnamhut": {
+    "rating": "ok",
+    "note_ko": "묘지의 어둠 메멘토를 제외해 필드 마법·메멘토랄의 소생 대상을 줄인다. 직접 견제를 지우지는 못한다."
+   },
+   "druiswurm": {
+    "rating": "ok",
+    "note_ko": "마그나무트와 같고, 필드에 남은 드루이드브룸이 묘지로 가면 특소 몬스터 1장을 묘지로 보낸다."
+   },
+   "crown": {
+    "rating": "strong",
+    "note_ko": "패에서 [[Mementotlan-Horned Dragon]]에 쓰면 파괴되지 않아 본 파티 연계가 끊기고, [[Mementoal Tecuhtlica - Combined Creation]]에 쓰면 특소 효과가 꺼진다. 몬스터 효과로 체인 불가."
+   },
+   "ash": {
+    "rating": "ok",
+    "note_ko": "내 턴에 상대가 쓰는 본 파티(덱에서 패·특소), 메멘토랄이 꺼낸 엔위치의 서치에 체인할 수 있다.",
+    "rulings": [
+     "supp-19368"
+    ]
+   },
+   "veiler": {
+    "rating": "bad",
+    "note_ko": "상대 메인 페이즈 전용이라 내 턴에는 발동할 수 없다."
+   }
+  },
+  "sequencing_ko": [
+   "메인 페이즈 1 시작, 아무것도 깔기 전에 [[Infinite Impermanence]](패)로 [[Mementoal Tecuhtlica - Combined Creation]]이나 [[S:P Little Knight]]을 끈다. [[Forbidden Droplet]]이 있으면 마법을 보내 메멘토랄·S:P·호른 드래곤을 한꺼번에 무효하고 본 파티·퓨전 체인도 막는다.",
+   "[[Mementotlan-Horned Dragon]]은 파괴하지 말 것. [[Super Polymerization]]·괴수·[[Kurikara Divincarnate]]·[[Evenly Matched]]처럼 파괴가 아닌 처리로 치우거나, [[Forbidden Crown]]으로 파괴 불가를 걸어 본 파티 연계를 끊는다.",
+   "[[Mementomictlan]]은 [[Cosmic Cyclone]]·싸이크론으로 먼저 치운다. 남겨 두면 몬스터를 처리할 때마다 소생이 따라오고 엔드 페이즈에 본 파티를 다시 세트한다.",
+   "메멘토랄의 특소는 내 체인이 끝난 뒤에 온다. 엔위치가 나오면 [[Mementotlan Mace]]가 서치되어 내 몬스터를 빼앗을 수 있으니, 엑스트라 덱 핵심 몬스터를 내기 전에 메멘토랄을 처리한다.",
+   "S:P는 아무 발동에나 반응해 내 몬스터 1장을 엔드 페이즈까지 제외한다. 덜 중요한 몬스터 효과로 먼저 끌어낸다.",
+   "[[Mementotlan Fusion]]은 메인 페이즈 퀵이라 배틀 페이즈에는 못 쓴다. [[Evenly Matched]]는 배틀 페이즈 종료 시라 이 카드로 응수할 수 없다."
+  ]
+ }
+}

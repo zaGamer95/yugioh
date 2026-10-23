@@ -1,0 +1,272 @@
+{
+ "sources": {
+  "konami-db-faq": {
+   "title": "遊戯王ニューロン（オフィシャルカードゲーム カードデータベース）カードに関連するQ&A・補足情報",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rulings": [
+  {
+   "id": "supp-19360",
+   "fid": null,
+   "cid": 19360,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19360&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Mementoal Tecuhtlica - Combined Creation",
+    "Ash Blossom & Joyous Spring",
+    "Ghost Belle & Haunted Mansion"
+   ],
+   "handtraps": [
+    "ash",
+    "belle"
+   ],
+   "themes": [
+    "memento"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Mementoal Tecuhtlica - Combined Creation]]의 '메멘토 몬스터 5종을 덱으로 되돌려 패·묘지에서 특소'는 효과인가? ② 특소 효과는 언제 발동하나?",
+   "answer_ko": "효과가 아니라 이 몬스터의 특수 소환 절차이며 체인 블록이 만들어지지 않는다. 덱으로 되돌린 뒤 특소한다(동시가 아님). ②는 몬스터 존에서 발동하는 유발 효과로, 상대가 마법·함정·몬스터 효과를 발동했으면 그 체인 처리가 끝난 뒤에 발동한다. 데미지 스텝에는 발동할 수 없다.",
+   "quote_ja": "■効果として扱いません。このモンスターの特殊召喚の手順です。…■この方法による特殊召喚を行う際にチェーンブロックは作られません。…■相手が魔法・罠・モンスターの効果を発動した場合、その一連のチェーン処理の後に発動できます。",
+   "impact_ko": "메멘토랄 소환 자체에는 우라라·와라시 등 어떤 패트랩도 체인할 수 없다. 막으려면 묘지 5종 조건을 비스테이셜로 깎는다. ②는 내 발동 '뒤'에 오므로 체인으로 직접 막을 수 없다."
+  },
+  {
+   "id": "supp-19362",
+   "fid": null,
+   "cid": 19362,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19362&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Mementotlan Tatsunootoshigo",
+    "Ghost Ogre & Snow Rabbit",
+    "Infinite Impermanence"
+   ],
+   "handtraps": [
+    "ogre",
+    "imperm",
+    "ash"
+   ],
+   "themes": [
+    "memento"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Mementotlan Tatsunootoshigo]] ②는 어떤 순서로 처리하며, 처리 전에 이 카드가 사라지면 어떻게 되나?",
+   "answer_ko": "기동 효과다. 처리 시 '자신 필드의 메멘토 몬스터 1장 파괴'를 하고, 성공하면 '파괴한 몬스터의 원래 레벨 이하가 되도록 덱에서 메멘토 몬스터를 묘지로' 보낸다. 파괴할 몬스터는 처리 시에 보낼 수 있는 레벨을 가진 몬스터 중에서 고른다. 적절한 조합이 없으면 아무것도 하지 않는다(파괴도 안 함). 파괴와 묘지로 보내기는 동시에 처리된 것으로 본다.",
+   "quote_ja": "■処理時に、『自分フィールドの「メメント」モンスター１体を破壊し』の処理を行います。…■『破壊し』の処理を適用するモンスターは、『墓地へ送る』処理を行えるレベルを持つモンスターの中から選びます。",
+   "impact_ko": "유령토끼로 타츠노오토시고를 먼저 파괴해도 처리 시 필드의 다른 메멘토(엔위치 등)를 대신 파괴해 그 레벨만큼 보낸다. 파괴할 몬스터를 처리 시 고르므로 대상 지정이 아니다."
+  },
+  {
+   "id": "supp-19361",
+   "fid": null,
+   "cid": 19361,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19361&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Mementotlan-Horned Dragon"
+   ],
+   "handtraps": [],
+   "themes": [
+    "memento"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Mementotlan-Horned Dragon]]의 특소와 ② 파괴 효과는 어떤 효과인가?",
+   "answer_ko": "① 패에서의 특소는 기동·유발·유발 즉시·영속 어느 것에도 속하지 않는 효과(소환 방법)다. ②는 유발 효과로 데미지 스텝에도 발동할 수 있고, 효과로 파괴되어 묘지로 가면 묘지에서, 앞면 제외되면 제외 상태에서 발동한다. 처리 시 대상 일부가 사라져도 남은 대상은 파괴한다.",
+   "quote_ja": "■効果で破壊され、墓地へ送られた場合には墓地で、表側表示で除外された場合には除外されている状態で発動できます（破壊され最初に送られたところで発動できる効果です）。",
+   "impact_ko": "호른 드래곤은 누가 파괴하든(내 라이게키·하르모니아 포함) 묘지에서 3장 파괴를 쓴다. 필드에서 무효해 둬도 묘지로 가면 새 카드로 취급되어 효과가 산다. 릴리스·소재·뒷면 제외로 치워야 한다."
+  },
+  {
+   "id": "supp-20199",
+   "fid": null,
+   "cid": 20199,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20199&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Mementotlan Shleepy"
+   ],
+   "handtraps": [],
+   "themes": [
+    "memento"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Mementotlan Shleepy]]의 각 효과는 어떤 종류인가?",
+   "answer_ko": "①은 패에서 발동하는 유발 즉시 효과(데미지 스텝 불가). ②는 소환 성공 시 유발 효과로, 처리 시 패·필드의 몬스터를 소재로 하고 그 뒤 메멘토 융합 몬스터를 융합 소환한다(동시가 아님). ③은 전투·효과로 파괴되면 발동하는 유발 효과로 데미지 스텝에도 쓸 수 있다.",
+   "quote_ja": "【①の効果について】■手札で発動できる誘発即時効果です。…【③の効果について】■誘発効果です。■ダメージステップでも発動できます。",
+   "impact_ko": "자기 몬스터가 한 번이라도 효과로 파괴된 턴이면 스리피는 패에서 언제든 튀어나온다. 메멘토 몬스터를 파괴하는 패트랩은 스리피 조건까지 채워 준다."
+  },
+  {
+   "id": "supp-19904",
+   "fid": null,
+   "cid": 19904,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19904&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Mementotlan Fusion"
+   ],
+   "handtraps": [
+    "belle"
+   ],
+   "themes": [
+    "memento"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Mementotlan Fusion]]의 묘지 소재 사용과 ② 효과는 어떻게 처리되나?",
+   "answer_ko": "①은 메멘토를 포함한 패·필드 몬스터를 소재로 한 뒤 융합 소환한다(동시가 아님). 이번 턴 자기 몬스터가 효과로 파괴됐으면 묘지의 메멘토 몬스터도 덱으로 되돌려 소재로 쓸 수 있다. ②는 묘지에서 발동하는 체인 블록이 만들어지는 효과로, 자신 메인 페이즈에 쓰는 스펠 스피드 1 효과이며, 자기 필드 몬스터 파괴와 메멘토 마함 서치를 동시에 처리한다.",
+   "quote_ja": "■このターンに自分のモンスターが効果で破壊されている場合、手札・フィールド・墓地のモンスター（墓地は「メメント」モンスターのみ）を融合素材とすることができます…■自分メインフェイズに発動できる、スペルスピード１の効果です。",
+   "impact_ko": "첫 효과 파괴(엔위치·메이스 자기 파괴) 이후에는 묘지가 소재가 된다. ②는 묘지 카드를 제외하는 발동이라 와라시 대상이고 서치를 포함해 우라라도 맞는다."
+  },
+  {
+   "id": "supp-19367",
+   "fid": null,
+   "cid": 19367,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19367&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Mementomictlan"
+   ],
+   "handtraps": [
+    "mst",
+    "belle"
+   ],
+   "themes": [
+    "memento"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Mementomictlan]]의 각 효과는 어떤 처리인가?",
+   "answer_ko": "①(메멘토 몬스터 전투 중 상대 마함 발동 불가)은 체인 블록이 없는 효과. ②(파괴된 몬스터보다 레벨이 낮은 메멘토 특소)와 ③(엔드 페이즈 메멘토 마함 세트)은 필드 존의 앞면 이 카드가 발동하는 체인 블록이 만들어지는 효과다. ②는 데미지 스텝에도 쓸 수 있고, 발동할 때 파괴된 묘지·제외 상태의 몬스터 1장을 대상으로 한다.",
+   "quote_ja": "【②の効果について】■フィールドゾーンの表側表示のこのカードが発動できるチェーンブロックの作られる効果です。■ダメージステップでも発動できます。■この効果を発動する際に、その破壊された墓地または除外状態のモンスター１体を対象として選択します。",
+   "impact_ko": "필드 마법 ②는 묘지 몬스터를 대상으로 하는 발동이라 묘지에서 특소할 때는 와라시가 맞는다. 카드 발동 시 싸이크론으로 파괴하면 적용 자체가 안 된다."
+  },
+  {
+   "id": "supp-19365",
+   "fid": null,
+   "cid": 19365,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19365&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Mementotlan Mace",
+    "Mementoal Tecuhtlica - Combined Creation"
+   ],
+   "handtraps": [],
+   "themes": [
+    "memento"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Mementotlan Mace]] ①(상대 몬스터 컨트롤 탈취)의 발동 조건은?",
+   "answer_ko": "패에서 발동하는 유발 즉시 효과이며, 자기 필드에 [[Mementoal Tecuhtlica - Combined Creation]]이 앞면으로 있으면 발동할 수 있다(몬스터 존에 한정하지 않음). ②는 처리 시 자기 메멘토 1장 파괴 후 서치하며 동시에 처리된다.",
+   "quote_ja": "■手札で発動できる誘発即時効果です。■モンスターゾーンに限らず、自分フィールドに「 冥骸合竜－メメントラル・テクトリカ 」が表側表示で存在する場合に発動できます。",
+   "impact_ko": "메멘토랄을 먼저 치우면 메이스(와 고블린 ①)는 상대 메인 페이즈에 쓸 수 없다. 후공 시 메멘토랄 처리가 최우선인 이유."
+  },
+  {
+   "id": "supp-19366",
+   "fid": null,
+   "cid": 19366,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19366&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Mementotlan Goblin",
+    "Mementoal Tecuhtlica - Combined Creation"
+   ],
+   "handtraps": [],
+   "themes": [
+    "memento"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Mementotlan Goblin]] ①(대상 내성)은 나중에 나온 메멘토 몬스터에도 적용되나?",
+   "answer_ko": "적용된다. 메멘토랄이 앞면으로 있을 때 패에서 발동하는 유발 즉시 효과이며, 처리 이후 자기 몬스터 존에 나온 메멘토 몬스터도 상대가 효과의 대상으로 할 수 없다.",
+   "quote_ja": "■この効果が適用された場合、この効果の処理時以降に自分のモンスターゾーンに存在するようになった「メメント」モンスターについても、相手は効果の対象に選択できなくなります。",
+   "impact_ko": "고블린 ①이 쓰이면 그 턴 무한포영·대상 지정 제거가 모든 메멘토 몬스터에 안 들어간다. 금지된 일적(대상 아님)·초융합·번개 등 비대상 카드가 남는다."
+  },
+  {
+   "id": "supp-20216",
+   "fid": null,
+   "cid": 20216,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20216&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Mementomictlan Tecuhtlica - Creation King"
+   ],
+   "handtraps": [
+    "imperm"
+   ],
+   "themes": [
+    "memento"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Mementomictlan Tecuhtlica - Creation King]] ② 파괴 효과는 어떤 효과인가?",
+   "answer_ko": "몬스터 존에서 발동하는 유발 즉시 효과다. 자기 몬스터 존의 메멘토 몬스터와 상대 필드의 카드를 같은 임의의 수만큼 대상으로 한다. 데미지 스텝에는 발동할 수 없다. 처리 시 일부 대상이 사라져도 남은 대상은 파괴한다. ③(필드 마법 서치)은 묘지에서 발동하는 기동 효과다.",
+   "quote_ja": "■自分のモンスターゾーンに存在する「メメント」モンスターと相手フィールドのカードをそれぞれ任意の同じ枚数だけ対象として発動できます。",
+   "impact_ko": "자기 메멘토를 함께 파괴하므로 필드 마법·아키히론·호른 드래곤이 추가로 반응한다. 메멘토 몬스터 수만큼 내 카드가 날아갈 수 있다."
+  },
+  {
+   "id": "supp-19368",
+   "fid": null,
+   "cid": 19368,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19368&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Mementotlan Bone Party",
+    "Ash Blossom & Joyous Spring"
+   ],
+   "handtraps": [
+    "ash",
+    "impulse"
+   ],
+   "themes": [
+    "memento"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Mementotlan Bone Party]] ①은 어떻게 처리하나?",
+   "answer_ko": "카드 발동 시의 효과로 데미지 스텝에는 발동할 수 없다. 처리 시 자기 패·필드(앞면)의 메멘토 몬스터 1장을 파괴하고, 성공하면 그와 이름이 다른 메멘토 몬스터를 덱에서 골라 패에 넣거나 수비 표시로 특소한다. 파괴할 몬스터는 처리 가능한 이름을 가진 것 중에서 고르고, 조합이 없으면 처리는 행해지지 않는다. 파괴와 패에 넣기·특소는 동시에 처리된 것으로 본다.",
+   "quote_ja": "■処理時に、『自分の手札・フィールド（表側表示）の「メメント」モンスター１体を破壊し』の処理を行い、破壊に成功した場合、『そのモンスターとはカード名が異なる「メメント」モンスター１体をデッキから選び、手札に加えるか守備表示で特殊召喚する』処理を行います。",
+   "impact_ko": "덱에서 패에 넣기·특소를 포함하므로 우라라를 체인할 수 있다(효과 무효면 파괴도 없다). 대상을 지정하지 않아 특정 몬스터를 무효해 둬도 다른 메멘토를 파괴해 처리된다."
+  },
+  {
+   "id": "qa-18723",
+   "fid": 18723,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18723&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mementotlan Bone Party"
+   ],
+   "handtraps": [],
+   "themes": [
+    "memento"
+   ],
+   "topic": "chain",
+   "question_ko": "처리 시 패·필드에서 파괴할 카드를 고르는 효과([[Mementotlan Bone Party]] ① 등)의 발동에 '필드의 몬스터를 파괴하는 효과의 발동을 무효' 하는 카드를 체인할 수 있는가?",
+   "answer_ko": "기본적으로 체인할 수 없다. 처리 시 패·필드 중에서 파괴할 몬스터를 고르기 때문이다. 상대 패가 비어 반드시 필드를 파괴하게 되는 상황에서만 가능하다. [[Mementotlan Bone Party]] ①도 이런 효과의 예시에 있다.",
+   "quote_ja": "処理時に、破壊するカードを手札・フィールドから選ぶ効果として以下の効果が挙げられます。…「 メメント・ボーン・パーティー 」①",
+   "impact_ko": "본 파티는 발동 시점에 무엇을 파괴할지 정해지지 않는다. 손패의 메멘토(메멘토랄 등)를 파괴해 필드를 지킬 수도 있다."
+  },
+  {
+   "id": "qa-17721",
+   "fid": 17721,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=17721&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mementotlan Twin Dragon"
+   ],
+   "handtraps": [],
+   "themes": [
+    "memento"
+   ],
+   "topic": "timing",
+   "question_ko": "융합 소환한 뒤 묘지에 간 [[Mementotlan Twin Dragon]]을 다른 효과로 특소하고 그것이 파괴되면 ③(레벨 6 이하 메멘토 소생)을 쓸 수 있는가?",
+   "answer_ko": "쓸 수 없다. 묘지·제외 상태에서 특소된 뒤 파괴된 경우는 '융합 소환한 이 카드가 파괴되었을 경우'에 해당하지 않는다. [[Mementotlan Twin Dragon]] ③이 같은 처리의 예시에 있다.",
+   "quote_ja": "以下のモンスターが、墓地や除外状態から特殊召喚されてから破壊された…場合も同様に、それぞれの効果を発動できません。…「 メメント・ツイン・ドラゴン 」③",
+   "impact_ko": "트윈 드래곤 플로트는 융합 소환된 1회차에만 있다. 필드 마법 등으로 되살아난 트윈 드래곤은 파괴해도 다시 몸을 만들지 않는다."
+  }
+ ]
+}
