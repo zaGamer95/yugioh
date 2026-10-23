@@ -447,6 +447,40 @@
    "fallback_ko": "패에 하바키리가 따로 있으면 그쪽으로 시작."
   },
   {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "habakiri",
+   "step": 1,
+   "target_card": "Ame no Habakiri no Mitsurugi",
+   "timing_ko": "내 필드에 몬스터가 없을 때 하바키리의 패 공개 효과(①) 발동에 직접 체인",
+   "why_ko": "발동이 무효가 되어 사지가 나오지 않는다. ①은 듀얼 중 1번이라 무효가 되어도 쓴 것으로 친다. 하바키리가 발동한 곳(패)에 그대로 있으므로 파괴까지 적용된다.",
+   "fallback_ko": "패에 밑준비·사지·아라마사가 있으면 일반 소환으로 우회. 감마·드라이버가 내 필드에 남아 이번 턴 마루챠미는 못 쓴다.",
+   "rulings": [
+    "qa-23336",
+    "qa-23949"
+   ]
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "ryzeal",
+   "step": 2,
+   "target_card": "Ice Ryzeal",
+   "timing_ko": "[[Ice Ryzeal]]의 일반 소환 유발(덱에서 라이제올 특소)에 직접 체인",
+   "why_ko": "무효 + 아이스 파괴. 스워드 라이제올이 안 나와 엑스·노드 → 킹그렘린 → 하바키리 서치까지 끊긴다.",
+   "fallback_ko": "패에 하바키리·밑준비가 따로 있으면 그쪽으로 시작한다."
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "prep",
+   "step": 1,
+   "target_card": "Pre-Preparation of Rites",
+   "timing_ko": "[[Pre-Preparation of Rites]] 발동에 직접 체인. 발동 중인 밑준비가 상대 필드에 있어 패에서 발동할 수 있다",
+   "why_ko": "우라라와 같다. 의식 마법과 의식 몬스터 2장 서치를 1장으로 끊는다.",
+   "fallback_ko": "패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다. 패에 하바키리가 따로 있으면 그쪽으로 시작한다."
+  },
+  {
    "handtrap": "impulse",
    "severity": "strong",
    "line": "habakiri",
@@ -527,6 +561,76 @@
    "fallback_ko": "무라쿠모가 체인해 '패 1장 버리기 or 무효'를 고르게 하므로 버릴 패 1장이 필요하다. 남는 것은 [[Futsu no Mitama no Mitsurugi]] 정도. 같은 지점에 [[Forbidden Crown]]을 쓰면 무라쿠모가 체인하지 못한다(무라쿠모는 이번 턴 효과 무효로 필드에 남음)."
   },
   {
+   "handtrap": "gamma",
+   "severity": "strong",
+   "line": "habakiri",
+   "step": 2,
+   "target_card": "Mitsurugi no Mikoto, Saji",
+   "timing_ko": "하바키리 ①을 못 막았다면: 묘지의 사지의 서치 유발에 직접 체인(묘지라 무효만 된다)",
+   "why_ko": "[[Mitsurugi Ritual]]이 안 들어와 의식 연쇄가 시작되지 않는다. 이 시점 상대 필드가 비어 도미나스 퍼지는 패에서 못 쓰지만 감마는 상관없다.",
+   "fallback_ko": "패에 의식 마법이 따로 있으면 이어 간다.",
+   "rulings": [
+    "qa-23949"
+   ]
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "strong",
+   "line": "prep",
+   "step": 2,
+   "target_card": "Ame no Habakiri no Mitsurugi",
+   "timing_ko": "밑준비로 들어온 하바키리의 패 공개 효과(①)에 직접 체인",
+   "why_ko": "habakiri 1단계와 같다. 사지가 나오지 않는다.",
+   "fallback_ko": "밑준비 발동에는 몬스터 효과가 아니라 감마를 못 쓴다.",
+   "rulings": [
+    "qa-23336",
+    "qa-23949"
+   ]
+  },
+  {
+   "handtrap": "purge",
+   "severity": "strong",
+   "line": "habakiri",
+   "step": 9,
+   "target_card": "Ame no Murakumo no Mitsurugi",
+   "timing_ko": "[[Mitsurugi Mirror]]로 릴리스된 무라쿠모의 묘지 유발(서치 후 자신 특소)에 직접 체인",
+   "why_ko": "서치와 재특소가 함께 무효가 되어 최종 필드의 무라쿠모('패 버리기 or 무효')가 없고, [[Mitsurugi Prayers]]도 안 들어와 아라마사 서치·쿠사나기 특소·후츠노미타마 릴리스(대불 서치)까지 끊긴다. 무라쿠모가 묘지에 있어 퍼지에 대응하지 못한다.",
+   "fallback_ko": "1단계(상대 필드가 빔)·2단계(사지가 이미 릴리스되어 필드가 빔)에는 패에서 쓸 수 없다. 4단계 아라마사 서치는 쿠사나기 유발이 위에 쌓이면 직접 체인할 수 없다. 7단계 하바키리 유발에도 쓸 수 있지만 필드의 무라쿠모가 '패 1장 버리기 or 무효'를 요구한다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다."
+  },
+  {
+   "handtrap": "purge",
+   "severity": "strong",
+   "line": "ryzeal",
+   "step": 9,
+   "target_card": "King of the Feral Imps",
+   "timing_ko": "[[King of the Feral Imps]]의 파충류족 서치(하바키리)에 직접 체인",
+   "why_ko": "하바키리가 안 들어와 미츠루기 의식 연쇄가 통째로 사라진다. 남는 것은 데드네이더와 킹그렘린 정도.",
+   "fallback_ko": "[[Ryzeal Detonator]]가 퍼지에 반응해 필드의 카드 1장을 파괴할 수 있지만 무효는 그대로 처리된다. 3단계 스워드 라이제올의 서치에 써도 아이스 + 스워드로 킹그렘린을 내 하바키리를 서치할 수 있다."
+  },
+  {
+   "handtrap": "meowls",
+   "severity": "strong",
+   "line": "habakiri",
+   "step": 7,
+   "target_card": "Ame no Habakiri no Mitsurugi",
+   "timing_ko": "늦어도 7단계 하바키리 릴리스 유발(서치 후 자체 특소)에 체인해 발동(내 필드에 카드가 없을 때). 체인으로 먼저 적용되므로 그 자체 특소부터 센다",
+   "why_ko": "하바키리·무라쿠모·후츠노미타마의 묘지 자체 특소와 [[Mitsurugi Prayers]]의 쿠사나기 묘지 특소로 4장. 덱 특소를 세는 후와로스와 겹치지 않는다.",
+   "fallback_ko": "엔드 페이즈에 패가 상대 필드 카드 수 + 6장을 넘으면 넘는 만큼 덱으로 돌린다."
+  },
+  {
+   "handtrap": "spark",
+   "severity": "strong",
+   "line": "habakiri",
+   "step": 7,
+   "target_card": "Ame no Murakumo no Mitsurugi",
+   "timing_ko": "하바키리의 릴리스 유발(묘지 효과) 발동에 체인해 [[Dominus Spark]]로 필드의 무라쿠모를 제외(1단계 하바키리 ①로 이미 발동 조건 충족)",
+   "why_ko": "릴리스가 아니라 제외라 무라쿠모의 서치·재특소가 없다. [[Mitsurugi Prayers]]가 안 들어와 아라마사·쿠사나기·대불 서치까지 끊기고, [[Mitsurugi Mirror]]는 하바키리를 대신 릴리스해야 해 후츠노미타마 1장 정도에서 멈춘다.",
+   "fallback_ko": "필드의 무라쿠모가 스파크 발동에 '패 1장 버리기 or 무효'를 요구하므로 버릴 패가 필요하다. 내 묘지에 함정이 없으면 상대가 패에서 1장 특소할 수 있다(의식 몬스터는 이 방법으로 못 낸다). 1단계는 상대 필드에 몬스터가 없어 대상이 없다. 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 못 쓴다.",
+   "rulings": [
+    "supp-22586"
+   ]
+  },
+  {
    "handtrap": "ash",
    "severity": "ok",
    "line": "habakiri",
@@ -565,13 +669,103 @@
   },
   {
    "handtrap": "mst",
-   "severity": "ok",
+   "severity": "weak",
    "line": "habakiri",
    "step": null,
    "target_card": "Mitsurugi Great Purification",
-   "timing_ko": "엔드 페이즈에 세트된 [[Mitsurugi Great Purification]]을 파괴",
+   "timing_ko": "내가 선공이었을 때만: 상대 엔드 페이즈에 이번 턴 세트된 [[Mitsurugi Great Purification]]을 파괴",
    "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 이번 턴 세트한 함정은 그 턴에 발동할 수 없어 상대가 체인으로 쓰지 못한다. 내 턴의 '무효 + 파괴' 1개가 사라진다.",
    "fallback_ko": "대불의 묘지 효과(제외해 파충류 소생 + 릴리스)는 다음 상대 턴에 남는다."
+  },
+  {
+   "handtrap": "purulia",
+   "severity": "ok",
+   "line": "habakiri",
+   "step": 3,
+   "target_card": "Ame no Habakiri no Mitsurugi",
+   "timing_ko": "늦어도 3단계 의식 소환 전에(하바키리 ① 발동에 체인하는 등) 내 필드가 빈 상태로 발동",
+   "why_ko": "패에서의 의식 소환(하바키리 3단계·후츠노미타마 8단계), 아라마사 일반 소환, 라이제올형은 엑스·스워드 라이제올의 패 특소까지 3~5장.",
+   "fallback_ko": "묘지에서의 자체 특소는 세지 않는다. 그쪽은 냐루스."
+  },
+  {
+   "handtrap": "purulia",
+   "severity": "ok",
+   "line": "ryzeal",
+   "step": 1,
+   "target_card": "Ice Ryzeal",
+   "timing_ko": "[[Ice Ryzeal]] 일반 소환 전(스탠바이 등)에 미리 발동",
+   "why_ko": "일반 소환, 엑스·노드 패 특소에 이어 킹그렘린이 서치한 하바키리의 의식 소환·후츠노미타마 의식 소환까지 5장 안팎.",
+   "fallback_ko": "엔드 페이즈에 패가 상대 필드 카드 수 + 6장을 넘으면 넘는 만큼 덱으로 돌린다."
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "ok",
+   "line": "ryzeal",
+   "step": 2,
+   "target_card": "Sword Ryzeal",
+   "timing_ko": "아이스 유발로 [[Sword Ryzeal]]이 덱에서 특소되었을 때 스워드를 지정. 스워드의 서치 유발과 같은 타이밍에 발동해 그 위(체인 2)에 오므로 서치가 무효로 처리된다",
+   "why_ko": "[[Ext Ryzeal]]이 안 들어와 노드도 없다. 아이스 + 스워드로 데드네이더나 킹그렘린 중 하나만 낼 수 있다.",
+   "fallback_ko": "킹그렘린을 고르면 하바키리는 서치된다. 미츠루기 본체 전개에는 효과가 작다."
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "ok",
+   "line": "habakiri",
+   "step": 13,
+   "target_card": "Ryzeal Duo Drive",
+   "timing_ko": "[[Ryzeal Duo Drive]]가 엑시즈 소환된 직후 듀오드라이브를 지정",
+   "why_ko": "효과가 이번 턴 무효라 라이제올 2장 서치(14단계)가 처리되지 않아 [[Ryzeal Detonator]]가 안 나온다.",
+   "fallback_ko": "미츠루기 본체 견제(무라쿠모·후츠노미타마·대불)는 이미 섰다. 듀오드라이브가 소재로 필드를 떠나면 상대가 원래 공격력만큼 데미지를 받는다."
+  },
+  {
+   "handtrap": "droplet",
+   "severity": "ok",
+   "line": "ryzeal",
+   "step": 2,
+   "target_card": "Ice Ryzeal",
+   "timing_ko": "(세트해 둔 경우만) [[Ice Ryzeal]]의 일반 소환 유발 발동에 [[Forbidden Droplet]]으로 아이스를 무효",
+   "why_ko": "스워드 라이제올이 안 나와 엑스·노드 → 킹그렘린 → 하바키리 서치가 끊긴다.",
+   "fallback_ko": "속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "rulings": [
+    "qa-8398"
+   ]
+  },
+  {
+   "handtrap": "droplet",
+   "severity": "ok",
+   "line": "habakiri",
+   "step": 14,
+   "target_card": "Ryzeal Duo Drive",
+   "timing_ko": "(세트해 둔 경우만) [[Ryzeal Duo Drive]]의 서치 효과 발동에 [[Forbidden Droplet]]으로 몬스터 1장을 보내 듀오드라이브를 무효",
+   "why_ko": "서치가 처리되지 않아 데드네이더가 안 나온다. 몬스터를 보내면 무라쿠모가 '패 버리기 or 무효'로 대응할 수 없다.",
+   "fallback_ko": "속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "rulings": [
+    "qa-8398"
+   ]
+  },
+  {
+   "handtrap": "nibiru",
+   "severity": "ok",
+   "line": "habakiri",
+   "step": 11,
+   "target_card": "Futsu no Mitama no Mitsurugi",
+   "timing_ko": "후츠노미타마가 재특소된 11단계 처리 뒤(8번째 소환). 의식 몬스터 3장과 하급 미츠루기의 릴리스 유발이 모두 1턴 1번을 쓴 뒤라 릴리스해도 아무것도 나오지 않는다",
+   "why_ko": "하바키리·무라쿠모·쿠사나기·후츠노미타마가 한꺼번에 사라져 최종 필드의 무라쿠모·후츠노미타마가 없고, 대불 코스트(레벨 5 이상 파충류)도 사라진다. 라이제올형은 듀오드라이브 소재도 없다.",
+   "fallback_ko": "필드의 무라쿠모가 니비루 발동에 '패 1장 버리기 or 무효'를 요구하니 버릴 패를 남겨 둔다. 8단계 직후처럼 일찍 쓰면 릴리스된 후츠노미타마 등이 서치 + 재특소를 해서 오히려 돕는다. 상대가 4회 이내로 끊으면 못 쓴다."
+  },
+  {
+   "handtrap": "magnamhut",
+   "severity": "ok",
+   "line": "habakiri",
+   "step": 9,
+   "target_card": "Ame no Murakumo no Mitsurugi",
+   "timing_ko": "무라쿠모의 묘지 유발(서치 후 자신 특소)에 체인해 [[Bystial Magnamhut]]으로 그 무라쿠모(어둠)를 제외(상대 필드에 후츠노미타마가 있어 퀵)",
+   "why_ko": "서치([[Mitsurugi Prayers]])는 처리되지만 묘지를 떠나 재특소가 안 되어 최종 필드의 무라쿠모가 빠진다. 무라쿠모가 묘지에 있어 마그나무트에 대응하지 못한다.",
+   "fallback_ko": "마그나무트 특소에 후츠노미타마가 반응해 묘지 파충류 1장을 소생시킨다. 더 깊게 노리려면 10단계 [[Mitsurugi Prayers]]가 후츠노미타마를 릴리스하며 발동했을 때 체인해 묘지의 후츠노미타마를 제외한다. 릴리스 유발이 발동하기 전에 묘지를 떠나 대불 서치·재특소가 모두 사라진다. 다만 그때는 필드의 무라쿠모가 '패 1장 버리기 or 무효'를 요구한다.",
+   "rulings": [
+    "qa-24239",
+    "qa-24070"
+   ]
   },
   {
    "handtrap": "imperm",
@@ -632,11 +826,11 @@
   },
   "purulia": {
    "rating": "ok",
-   "note_ko": "패에서의 의식 소환(하바키리·후츠노미타마)과 일반 소환, 라이제올 패 특소에 반응"
+   "note_ko": "하바키리 ① 무렵 미리. 패에서의 의식 소환(하바키리·후츠노미타마)·일반 소환, 라이제올 패 특소까지 3~5장"
   },
   "meowls": {
    "rating": "strong",
-   "note_ko": "릴리스된 의식 몬스터가 묘지에서 계속 자체 특소한다. 후와로스가 못 세는 부분을 센다"
+   "note_ko": "늦어도 하바키리 릴리스 유발에 체인. 의식 몬스터의 묘지 자체 특소와 쿠사나기 묘지 특소로 4장. 후와로스가 못 세는 부분을 센다"
   },
   "imperm": {
    "rating": "weak",
@@ -660,7 +854,7 @@
   },
   "mourner": {
    "rating": "ok",
-   "note_ko": "특소된 몬스터의 효과를 그 턴 무효. 단, 미츠루기 서치는 릴리스 후 묘지에서 나가므로 효과가 작다. 아이스 라이제올·데토네이터 쪽이 낫다"
+   "note_ko": "라이제올형에서 스워드 라이제올·듀오드라이브 특소 직후. 미츠루기 본체는 릴리스 후 묘지에서 효과를 써 효과가 작다"
   },
   "crossout": {
    "rating": "bad",
@@ -672,11 +866,11 @@
   },
   "droplet": {
    "rating": "ok",
-   "note_ko": "후공 돌파용. 몬스터를 보내 발동하면 무라쿠모·데토네이터·포톤 로드 등 몬스터 효과로 체인할 수 없다"
+   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) 상대 턴에는 아이스 라이제올 유발·듀오드라이브 서치 정도. 주 용도는 후공 내 턴: 몬스터를 보내 발동하면 무라쿠모·데드네이더 등 몬스터 효과로 체인할 수 없다"
   },
   "nibiru": {
    "rating": "ok",
-   "note_ko": "소환 수는 충분하지만 의식 몬스터가 릴리스되면 서치+자체 특소로 되살아나고, 상대가 4회 이내로 끊어 케어하기도 쉽다. 패에 숨기고 늦게"
+   "note_ko": "후츠노미타마 재특소(11단계) 뒤, 릴리스 유발을 전부 쓴 다음에. 일찍 쓰면 릴리스 유발을 돕는다. 무라쿠모 응답용 패 1장 필요"
   },
   "impulse": {
    "rating": "strong",
@@ -687,15 +881,15 @@
   },
   "purge": {
    "rating": "strong",
-   "note_ko": "밑준비·사지 서치. 패 발동은 상대 필드에 카드가 있어야 함"
+   "note_ko": "밑준비 발동, 무라쿠모 묘지 유발(9단계), 라이제올형 킹그렘린 서치. 하바키리 ①·사지 서치 때는 상대 필드가 비어 패에서 못 씀"
   },
   "spark": {
-   "rating": "ok",
-   "note_ko": "하바키리 ①(패 효과)이나 묘지 릴리스 유발 후 발동 가능. 최종 필드의 무라쿠모 제외용"
+   "rating": "strong",
+   "note_ko": "하바키리 ① 이후 발동 가능. 하바키리 릴리스 유발(7단계)에 체인해 필드의 무라쿠모 제외 → 서치·재특소 없음. 무라쿠모 응답에 패 1장 필요"
   },
   "magnamhut": {
    "rating": "ok",
-   "note_ko": "릴리스 유발 발동 '전'에 묘지의 어둠 속성 의식 몬스터를 제외하면 서치+자체 특소를 함께 막음. 이미 발동한 뒤면 서치는 남음",
+   "note_ko": "무라쿠모 묘지 유발에 체인해 제외하면 서치는 남고 재특소만 막는다. 기도가 후츠노미타마를 릴리스하며 발동했을 때 체인해 제외하면 그 유발 자체가 발동하지 않는다",
    "rulings": [
     "qa-24070",
     "qa-24239"
@@ -703,7 +897,7 @@
   },
   "gamma": {
    "rating": "strong",
-   "note_ko": "하바키리 ①이나 사지 서치(몬스터 효과)에 체인. 의식 마법에는 못 씀"
+   "note_ko": "하바키리 ①, 사지 서치(묘지라 무효만), 라이제올형 아이스 유발에 직접 체인. 의식 마법에는 못 씀"
   },
   "harmonia": {
    "rating": "weak",
@@ -739,8 +933,8 @@
    ]
   },
   "mst": {
-   "rating": "ok",
-   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 엔드 페이즈에 이번 턴 세트된 [[Mitsurugi Great Purification]]을 깨면 체인 불가. 의식 마법·기도에 체인해 봐야 효과는 처리된다"
+   "rating": "weak",
+   "note_ko": "상대 1턴 전개에는 쓸 곳이 거의 없음(속공 마법이라 세트 필요, 전개 중 마법은 체인해 부숴도 처리됨). 내 턴(후공)에: 세트된 대불을 노리지만 대불은 체인해 발동할 수 있어 미끼 정도. 내가 선공이었다면 상대 엔드 페이즈에 이번 턴 세트된 대불을 파괴"
   }
  },
  "notes_ko": [
@@ -1422,8 +1616,8 @@
     "note_ko": "대불을 노리면 대불이 체인해 무효로 응수하지만 그대로 대불을 소모시킨다. 몬스터를 내기 전에"
    },
    "mst": {
-    "rating": "ok",
-    "note_ko": "코즈믹과 같음"
+    "rating": "weak",
+    "note_ko": "세트된 대불을 파괴하려 해도 대불이 체인해 발동(레벨 5 이상 파충류 릴리스)할 수 있어 무효당한다. 릴리스된 의식 몬스터는 내 턴에도 서치 + 재특소하므로, 대불을 미리 쓰게 하는 미끼 이상은 기대하지 않는다"
    },
    "super_poly": {
     "rating": "strong",

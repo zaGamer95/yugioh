@@ -16,7 +16,7 @@
   "Azamina",
   "Snake-Eye"
  ],
- "overview_ko": "죄보(디아벨스타) 카드군은 현재 MD에서 단독 덱보다 '엔진'으로 쓰인다. 메인 테마로는 백림 아자미나(5덱)·아자미나(2덱)가 있고, 미츠루기·오르쿠스트·팬텀 나이츠·엘펜노츠·냠냠 계열에 [[WANTED: Seeker of Sinful Spoils]]+[[Diabellstar the Black Witch]]+[[Deception of the Sinful Spoils]]+[[The Hallowed Azamina]] 묶음으로 섞인다(엔진 채용률 7~10%, 집계는 메인 테마 덱만). 엔진의 공통 골격은 'WANTED → 디아벨스타 → 기만 세트 → 아자미나 서치 → 아자미나 융합체'와 '디아벨스타 → [[Dark Magician of Destruction]] → [[The Gaze of Timaeus]] → [[Red-Eyes Dark Dragoon]]'이다. 백림 아자미나는 여기에 백림 싱크로 축과 [[Diabellze the White Witch]]→[[Curse of Diabell]]→[[Filia Diabell]]→[[Diabellstar Vengeance]] 축이 붙어 무효·파괴 견제를 4~5개 쌓는다. 서치를 연달아 하는 구조라 드롤에 매우 약하고(덱 빌더들도 '드롤에 죽는다'고 적음), 엔진 단독으로 들어간 호스트 덱은 WANTED·디아벨스타 1장에 의존하므로 첫 서치를 끊으면 엔진 전체가 멈춘다.",
+ "overview_ko": "죄보(디아벨스타) 카드군은 현재 MD에서 단독 덱보다 '엔진'으로 쓰인다. 메인 테마로는 백림 아자미나(5덱)·아자미나(2덱)가 있고, 미츠루기·오르쿠스트·팬텀 나이츠·엘펜노츠·냠냠 계열에 [[WANTED: Seeker of Sinful Spoils]]+[[Diabellstar the Black Witch]]+[[Deception of the Sinful Spoils]]+[[The Hallowed Azamina]] 묶음으로 섞인다(엔진 채용률 7~10%, 집계는 메인 테마 덱만). 엔진의 공통 골격은 '[[WANTED: Seeker of Sinful Spoils]] → 디아벨스타 → 기만 세트 → 아자미나 서치 → 아자미나 융합체'와 '디아벨스타 → [[Dark Magician of Destruction]] → [[The Gaze of Timaeus]] → [[Red-Eyes Dark Dragoon]]'이다. 백림 아자미나는 여기에 백림 싱크로 축과 [[Diabellze the White Witch]]→[[Curse of Diabell]]→[[Filia Diabell]]→[[Diabellstar Vengeance]] 축이 붙어 무효·파괴 견제를 4~5개 쌓는다. 서치를 연달아 하는 구조라 드롤에 매우 약하고(덱 빌더들도 '드롤에 죽는다'고 적음), 엔진 단독으로 들어간 호스트 덱은 [[WANTED: Seeker of Sinful Spoils]]·디아벨스타 1장에 의존하므로 첫 서치를 끊으면 엔진 전체가 멈춘다.",
  "key_cards": [
   {
    "card": "WANTED: Seeker of Sinful Spoils",
@@ -40,11 +40,11 @@
   },
   {
    "card": "Azamina Mu Rcielago",
-   "role_ko": "융합 소환 시 '아자미나'/'죄보' 카드 서치. 백림 아자미나에서 WANTED를 가져오는 다리"
+   "role_ko": "융합 소환 시 '아자미나'/'죄보' 카드 서치. 백림 아자미나에서 [[WANTED: Seeker of Sinful Spoils]]를 가져오는 다리"
   },
   {
    "card": "Dark Magician of Destruction",
-   "role_ko": "디아벨스타(레벨 6 이상 어둠 마법사족)를 제외해 엑스트라 덱에서 특소, 블랙 매지션 관련 카드 서치 → 티마이오스의 눈빛 → 드래군"
+   "role_ko": "디아벨스타(레벨 6 이상 어둠 마법사족)를 제외해 엑스트라 덱에서 특소, 블랙 매지션 관련 카드 서치 → [[The Gaze of Timaeus]] → [[Red-Eyes Dark Dragoon]]"
   },
   {
    "card": "Elzette of the White Forest",
@@ -66,7 +66,7 @@
  "lines": [
   {
    "id": "engine",
-   "title_ko": "죄보 엔진 공통: WANTED(또는 디아벨스타) 1장 → 아자미나 + 드래군",
+   "title_ko": "죄보 엔진 공통: [[WANTED: Seeker of Sinful Spoils]](또는 디아벨스타) 1장 → 아자미나 + [[Red-Eyes Dark Dragoon]]",
    "hand": [
     "WANTED: Seeker of Sinful Spoils"
    ],
@@ -143,7 +143,7 @@
     },
     {
      "card": "The Gaze of Timaeus",
-     "action_ko": "속공 마법: 파괴의 흑마술사(필드에서 '블랙 매지션' 취급)를 덱에 넣고 융합 소환",
+     "action_ko": "속공 마법: [[Dark Magician of Destruction]](필드에서 '블랙 매지션' 취급)를 덱에 넣고 융합 소환",
      "class": [
       "spell_trap_activation",
       "ss_from_extra"
@@ -156,16 +156,16 @@
     "Azamina Ilia Silvia",
     "Deception of the Sinful Spoils"
    ],
-   "end_board_note_ko": "드래군 1회 발동 무효(대상 불가·효과 파괴 불가) + 일리아 실비아 1회 무효. 기만은 엔드 페이즈에 다시 세트되어 다음 턴 아자미나 서치·번 효과에 쓴다. 여기에 호스트 덱의 필드가 더해진다."
+   "end_board_note_ko": "[[Red-Eyes Dark Dragoon]] 1회 발동 무효(대상 불가·효과 파괴 불가) + [[Azamina Ilia Silvia]] 1회 무효. 기만은 엔드 페이즈에 다시 세트되어 다음 턴 아자미나 서치·번 효과에 쓴다. 여기에 호스트 덱의 필드가 더해진다."
   },
   {
    "id": "wfa",
-   "title_ko": "백림 아자미나: 엘제트 + 마함 1장 풀 전개",
+   "title_ko": "백림 아자미나: [[Elzette of the White Forest]] + 마함 1장 풀 전개",
    "hand": [
     "Elzette of the White Forest",
     "Woes of the White Forest"
    ],
-   "note_ko": "MDM 덱 메모(2025-11 Master V)의 '베스트 케이스' 흐름을 카드 텍스트로 재구성. 두 번째 카드는 엘제트의 비용이 될 아무 마함이면 된다(백림 마함은 몬스터 효과 비용으로 묘지에 가면 스스로 세트). 패 상황에 따라 [[Witch of the White Forest]]나 [[Silvy of the White Forest]]로 시작하는 변형이 많다.",
+   "note_ko": "MDM 덱 메모(2025-11 Master V)의 '베스트 케이스' 흐름을 카드 텍스트로 재구성. 두 번째 카드는 [[Elzette of the White Forest]]의 비용이 될 아무 마함이면 된다(백림 마함은 몬스터 효과 비용으로 묘지에 가면 스스로 세트). 패 상황에 따라 [[Witch of the White Forest]]나 [[Silvy of the White Forest]]로 시작하는 변형이 많다.",
    "steps": [
     {
      "card": "Elzette of the White Forest",
@@ -196,7 +196,7 @@
     },
     {
      "card": "Rciela, Sinister Soul of the White Forest",
-     "action_ko": "실비(레벨 4 튜너) + 엘제트(레벨 2)로 레벨 6 싱크로 소환",
+     "action_ko": "실비(레벨 4 튜너) + [[Elzette of the White Forest]](레벨 2)로 레벨 6 싱크로 소환",
      "class": [
       "ss_from_extra"
      ],
@@ -209,11 +209,11 @@
       "monster_effect_field",
       "search"
      ],
-     "result_ko": "[[Diabellze the White Witch]] 서치. 비용으로 보낸 전해짐은 자기 효과로 다시 세트"
+     "result_ko": "[[Diabellze the White Witch]] 서치. 비용으로 보낸 [[Tales of the White Forest]]는 자기 효과로 다시 세트"
     },
     {
      "card": "Tales of the White Forest",
-     "action_ko": "다시 세트한 전해짐 발동: 덱에서 '백림' 몬스터 서치",
+     "action_ko": "다시 세트한 [[Tales of the White Forest]] 발동: 덱에서 '백림' 몬스터 서치",
      "class": [
       "spell_trap_activation",
       "search"
@@ -231,7 +231,7 @@
     },
     {
      "card": "Diabell, Queen of the White Forest",
-     "action_ko": "루시엘라(레벨 6 튜너 싱크로) + 성도 엘제트(레벨 2)로 레벨 8 싱크로 소환",
+     "action_ko": "루시엘라(레벨 6 튜너 싱크로) + [[Elzette, Azamina of the White Forest]](레벨 2)로 레벨 8 싱크로 소환",
      "class": [
       "ss_from_extra"
      ],
@@ -285,7 +285,7 @@
     },
     {
      "card": "The Hallowed Azamina",
-     "action_ko": "묘지 효과: 묘지의 성도 엘제트(아자미나 몬스터)를 덱에 넣고 자신을 패로",
+     "action_ko": "묘지 효과: 묘지의 [[Elzette, Azamina of the White Forest]](아자미나 몬스터)를 덱에 넣고 자신을 패로",
      "class": [
       "gy_effect"
      ],
@@ -293,7 +293,7 @@
     },
     {
      "card": "The Hallowed Azamina",
-     "action_ko": "다시 발동하고 체인으로 WANTED 발동. 체인 처리 중 필드에 남아 있는 WANTED를 '죄보' 카드로 보내 융합체 특소",
+     "action_ko": "다시 발동하고 체인으로 [[WANTED: Seeker of Sinful Spoils]] 발동. 체인 처리 중 필드에 남아 있는 [[WANTED: Seeker of Sinful Spoils]]를 '죄보' 카드로 보내 융합체 특소",
      "class": [
       "spell_trap_activation",
       "ss_from_extra"
@@ -320,7 +320,7 @@
     },
     {
      "card": "Baronne de Fleur",
-     "action_ko": "무 르시엘라고(레벨 6) + 실비(레벨 4 튜너)로 레벨 10 싱크로",
+     "action_ko": "[[Azamina Mu Rcielago]](레벨 6) + 실비(레벨 4 튜너)로 레벨 10 싱크로",
      "class": [
       "ss_from_extra"
      ],
@@ -386,7 +386,7 @@
       "monster_effect_gy",
       "ss_from_gy"
      ],
-     "result_ko": "필리아가 제외되어 디아벨 몬스터 공격력 500 상승"
+     "result_ko": "[[Filia Diabell]]이 제외되어 디아벨 몬스터 공격력 500 상승"
     }
    ],
    "end_board": [
@@ -398,7 +398,7 @@
     "Diabellstar Vengeance",
     "Sinful Spoils of Slumber - Morrian"
    ],
-   "end_board_note_ko": "견제: 일리아 실비아 무효, 바롱 무효+파괴, 디아벨 퀵 효과(마함 1장 보내고 튜너 싱크로 특소 → 상대 턴 싱크로 연계), 벤전스 퀵 파괴, 세트한 모리안/실베라. 디아벨 몬스터 2장 이상이라 자기 몬스터는 상대 효과로 파괴되지 않는다. 몬스터 존이 모자라거나 패가 다르면 일부(바롱·필리아 등)를 생략한다."
+   "end_board_note_ko": "견제: [[Azamina Ilia Silvia]] 무효, [[Baronne de Fleur]] 무효+파괴, 디아벨 퀵 효과(마함 1장 보내고 튜너 싱크로 특소 → 상대 턴 싱크로 연계), [[Diabellstar Vengeance]] 퀵 파괴, 세트한 모리안/[[Sinful Spoils of Betrayal - Silvera]]. 디아벨 몬스터 2장 이상이라 자기 몬스터는 상대 효과로 파괴되지 않는다. 몬스터 존이 모자라거나 패가 다르면 일부([[Baronne de Fleur]]·[[Filia Diabell]] 등)를 생략한다."
   },
   {
    "id": "snake",
@@ -455,9 +455,9 @@
    "line": "wfa",
    "step": 1,
    "target_card": "Elzette of the White Forest",
-   "timing_ko": "엘제트의 서치(실비)가 처리된 직후, 다음 서치 전에 드롤 발동",
-   "why_ko": "백림 아자미나는 실비→전해짐→디아벨제/성도 엘제트→기만→아자미나→WANTED까지 서치 8~9회로 굴러간다. 첫 서치 뒤 드롤이면 루시엘라·성도 엘제트·기만·무 르시엘라고 서치가 전부 빈칸이 되고, 덱 빌더 메모에서도 '드롤에 죽는다'고 명시한다.",
-   "fallback_ko": "실비 일반 소환 + 엘제트로 레벨 6 싱크로 1장 정도. 패에 미리 있던 기만·WANTED가 없으면 아자미나 축 진입 불가."
+   "timing_ko": "[[Elzette of the White Forest]]의 서치(실비)가 처리된 직후, 다음 서치 전에 드롤 발동",
+   "why_ko": "백림 아자미나는 실비→[[Tales of the White Forest]]→디아벨제/[[Elzette, Azamina of the White Forest]]→기만→아자미나→[[WANTED: Seeker of Sinful Spoils]]까지 서치 8~9회로 굴러간다. 첫 서치 뒤 드롤이면 루시엘라·[[Elzette, Azamina of the White Forest]]·기만·[[Azamina Mu Rcielago]] 서치가 전부 빈칸이 되고, 덱 빌더 메모에서도 '드롤에 죽는다'고 명시한다.",
+   "fallback_ko": "실비 일반 소환 + [[Elzette of the White Forest]]로 레벨 6 싱크로 1장 정도. 패에 미리 있던 기만·[[WANTED: Seeker of Sinful Spoils]]가 없으면 아자미나 축 진입 불가."
   },
   {
    "handtrap": "ash",
@@ -465,8 +465,8 @@
    "line": "engine",
    "step": 1,
    "target_card": "WANTED: Seeker of Sinful Spoils",
-   "timing_ko": "WANTED 발동에 체인",
-   "why_ko": "호스트 덱에 섞인 엔진은 WANTED(제한 1) 또는 디아벨스타 1장에서만 시작한다. 여기서 디아벨스타를 못 가져오면 기만·아자미나·드래군 견제 2개가 통째로 사라진다.",
+   "timing_ko": "[[WANTED: Seeker of Sinful Spoils]] 발동에 체인",
+   "why_ko": "호스트 덱에 섞인 엔진은 [[WANTED: Seeker of Sinful Spoils]](제한 1) 또는 디아벨스타 1장에서만 시작한다. 여기서 디아벨스타를 못 가져오면 기만·아자미나·[[Red-Eyes Dark Dragoon]] 견제 2개가 통째로 사라진다.",
    "fallback_ko": "패에 디아벨스타 실물이 있으면 엔진은 계속된다. 호스트 본체 전개는 별개."
   },
   {
@@ -475,9 +475,45 @@
    "line": "wfa",
    "step": 1,
    "target_card": "Elzette of the White Forest",
-   "timing_ko": "엘제트의 ① 효과(자체 특소 + 서치) 발동에 체인",
+   "timing_ko": "[[Elzette of the White Forest]]의 ① 효과(자체 특소 + 서치) 발동에 체인",
    "why_ko": "특소와 서치가 한 효과라 우라라로 둘 다 무효가 된다. 비용으로 마함 1장도 이미 썼고, 실비가 없으면 싱크로 축 자체가 시작되지 않는다.",
    "fallback_ko": "패에 실비·마녀 등 다른 백림 초동이 있으면 우회. 비용 마함은 백림 카드라면 다시 세트되어 남는다.",
+   "rulings": [
+    "supp-20193"
+   ]
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "[[WANTED: Seeker of Sinful Spoils]] 발동에 직접 체인. 발동한 속공 마법이 상대 필드에 있으므로 패에서 발동 가능",
+   "why_ko": "우라라와 같은 결과로 디아벨스타가 들어오지 않아 엔진(기만·아자미나·[[Red-Eyes Dark Dragoon]])이 통째로 사라진다. 내 묘지에 함정이 있으면 [[WANTED: Seeker of Sinful Spoils]]도 파괴되지만 어차피 묘지로 간다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다.",
+   "fallback_ko": "패에 디아벨스타 실물이 있으면 엔진은 계속된다. 호스트 본체 전개는 별개."
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타의 '죄보 마함 세트' 효과 발동에 직접 체인 (내 필드에 몬스터가 없을 것)",
+   "why_ko": "세트가 무효가 되고 디아벨스타가 파괴된다. 지금은 상대 자신의 턴이라 디아벨스타의 자체 소생(상대 턴에 묘지로 갔을 때)이 일어나지 않는다. 기만이 없어 아자미나 축이, 레벨 6 이상 어둠 마법사족이 없어 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]까지 한 번에 끊긴다. 우라라로는 못 막는 구간.",
+   "fallback_ko": "호스트 덱 전개는 남는다. 감마는 제한 1.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 1,
+   "target_card": "Elzette of the White Forest",
+   "timing_ko": "[[Elzette of the White Forest]] ①(패에서 자신 특소 + 서치) 발동에 직접 체인 (내 필드에 몬스터가 없을 것)",
+   "why_ko": "발동이 무효가 되고 패에 그대로 있는 [[Elzette of the White Forest]]가 파괴된다. 특소와 서치가 한 효과라 둘 다 사라진다. 이 시점에는 상대 필드가 비어 도미나스 임펄스·퍼지는 패에서 못 쓰지만 감마는 쓸 수 있다.",
+   "fallback_ko": "비용으로 보낸 백림 마함은 다시 세트되어 남는다. 패에 실비·마녀 등 다른 백림 초동이 있으면 우회. 감마는 제한 1.",
    "rulings": [
     "supp-20193"
    ]
@@ -488,9 +524,9 @@
    "line": "engine",
    "step": 6,
    "target_card": "Azamina Ilia Silvia",
-   "timing_ko": "할로우드 아자미나로 [[Azamina Ilia Silvia]]가 나온 직후, 파괴의 흑마술사 특소 전에 [[Super Polymerization]]. 디아벨스타(어둠 마법사족) + 일리아 실비아(어둠 환상마족)로 [[Mudragon of the Swamp]]",
-   "why_ko": "초융합에는 일리아 실비아도 체인할 수 없다. 무효 견제가 사라지고, 레벨 6 이상 어둠 마법사족(디아벨스타)도 없어져 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]까지 막힌다.",
-   "fallback_ko": "놓쳤다면 최종 필드의 드래군(어둠 마법사족) + 일리아 실비아로도 머드래곤이 된다. 드래군은 대상 불가·파괴 불가지만 초융합은 대상을 잡지 않는다. 백림 아자미나는 디아벨 + 디아벨제(둘 다 빛 환상마족)로 [[Garura, Wings of Resonant Life]]. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "timing_ko": "[[The Hallowed Azamina]]로 [[Azamina Ilia Silvia]]가 나온 직후, [[Dark Magician of Destruction]] 특소 전에 [[Super Polymerization]]. 디아벨스타(어둠 마법사족) + [[Azamina Ilia Silvia]](어둠 환상마족)로 [[Mudragon of the Swamp]]",
+   "why_ko": "초융합에는 [[Azamina Ilia Silvia]]도 체인할 수 없다. 무효 견제가 사라지고, 레벨 6 이상 어둠 마법사족(디아벨스타)도 없어져 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]까지 막힌다.",
+   "fallback_ko": "놓쳤다면 최종 필드의 [[Red-Eyes Dark Dragoon]](어둠 마법사족) + [[Azamina Ilia Silvia]]로도 [[Mudragon of the Swamp]]이 된다. [[Red-Eyes Dark Dragoon]]은 대상 불가·파괴 불가지만 초융합은 대상을 잡지 않는다. 백림 아자미나는 디아벨 + 디아벨제(둘 다 빛 환상마족)로 [[Garura, Wings of Resonant Life]]. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
    "rulings": [
     "qa-10824"
    ]
@@ -503,7 +539,7 @@
    "target_card": "Deception of the Sinful Spoils",
    "timing_ko": "디아벨스타가 세트한 기만을 앞면으로 발동할 때 체인해 [[Mystical Space Typhoon]] (세트 상태에서 겨냥해도 상대가 체인 발동한 뒤 파괴된다)",
    "why_ko": "기만의 카드 발동 자체에는 효과가 없어서, 체인으로 부수면 ① 아자미나 서치를 한 번도 못 쓴다. [[The Hallowed Azamina]]로 보낼 '죄보' 카드도 사라져 아자미나 융합까지 막힌다. 유령토끼보다 이른 지점.",
-   "fallback_ko": "기만은 앞면으로 묘지에 갔으므로 엔드 페이즈에 다시 세트된다. 디아벨스타 → 드래군 루트는 남는다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "fallback_ko": "기만은 앞면으로 묘지에 갔으므로 엔드 페이즈에 다시 세트된다. 디아벨스타 → [[Red-Eyes Dark Dragoon]] 루트는 남는다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
    "rulings": [
     "qa-111",
     "qa-24148"
@@ -515,9 +551,9 @@
    "line": "engine",
    "step": 8,
    "target_card": "Dark Magician of Destruction",
-   "timing_ko": "파괴의 흑마술사의 특소 유발(서치) 발동에 체인해 [[Forbidden Crown]]",
-   "why_ko": "서치가 무효가 되고, 이번 턴 파괴의 흑마술사는 융합 소재로 쓸 수 없어 [[The Gaze of Timaeus]]로 드래군을 낼 수 없다. 이미 나온 일리아 실비아도 몬스터 효과라 성관에 체인할 수 없다.",
-   "fallback_ko": "디아벨스타에 성관을 써도 파괴의 흑마술사는 나온다(그 특소는 융합 소환이 아닌 절차라 '소재 불가'가 걸린 몬스터도 쓸 수 있음). 백림 아자미나라면 5단계 루시엘라의 서치 유발에 써서 디아벨 싱크로 소재를 막는다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "timing_ko": "[[Dark Magician of Destruction]]의 특소 유발(서치) 발동에 체인해 [[Forbidden Crown]]",
+   "why_ko": "서치가 무효가 되고, 이번 턴 [[Dark Magician of Destruction]]는 융합 소재로 쓸 수 없어 [[The Gaze of Timaeus]]로 [[Red-Eyes Dark Dragoon]]을 낼 수 없다. 이미 나온 [[Azamina Ilia Silvia]]도 몬스터 효과라 성관에 체인할 수 없다.",
+   "fallback_ko": "디아벨스타에 성관을 써도 [[Dark Magician of Destruction]]는 나온다(그 특소는 융합 소환이 아닌 절차라 '소재 불가'가 걸린 몬스터도 쓸 수 있음). 백림 아자미나라면 5단계 루시엘라의 서치 유발에 써서 디아벨 싱크로 소재를 막는다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
    "rulings": [
     "qa-24256",
     "qa-22839"
@@ -531,7 +567,7 @@
    "target_card": "Deception of the Sinful Spoils",
    "timing_ko": "앞면이 된 기만의 ① 효과(릴리스 → 아자미나 서치) 발동에 체인",
    "why_ko": "서치는 처리되지만 기만 본체가 파괴되어 [[The Hallowed Azamina]]로 보낼 '죄보' 카드가 사라진다(호스트 덱은 다른 죄보 카드가 거의 없음). 무효가 아닌 파괴라는 점이 오히려 여기서는 이득.",
-   "fallback_ko": "기만은 엔드 페이즈에 다시 세트되니 다음 턴 재사용. 디아벨스타 → 드래군 루트는 남는다.",
+   "fallback_ko": "기만은 엔드 페이즈에 다시 세트되니 다음 턴 재사용. 디아벨스타 → [[Red-Eyes Dark Dragoon]] 루트는 남는다.",
    "rulings": [
     "qa-24148"
    ]
@@ -543,8 +579,8 @@
    "step": 3,
    "target_card": "Diabellstar the Black Witch",
    "timing_ko": "디아벨스타의 세트 효과 발동에 체인해 디아벨스타를 파괴",
-   "why_ko": "세트는 처리되지만 레벨 6 이상 어둠 마법사족이 사라져 파괴의 흑마술사 → 드래군이 나오지 않는다. 디아벨스타의 자체 소생은 '상대 턴'에만 되므로 상대 자신의 턴인 지금은 돌아오지 않는다.",
-   "fallback_ko": "아자미나 쪽(일리아 실비아)은 남는다. 이 지점이 지났다면 앞면 기만의 ① 효과에 체인해 기만을 파괴(유령토끼와 같은 효과). 일리아 실비아가 서면 무효당한다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "why_ko": "세트는 처리되지만 레벨 6 이상 어둠 마법사족이 사라져 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]이 나오지 않는다. 디아벨스타의 자체 소생은 '상대 턴'에만 되므로 상대 자신의 턴인 지금은 돌아오지 않는다.",
+   "fallback_ko": "아자미나 쪽([[Azamina Ilia Silvia]])은 남는다. 이 지점이 지났다면 앞면 기만의 ① 효과에 체인해 기만을 파괴(유령토끼와 같은 효과). [[Azamina Ilia Silvia]]가 서면 무효당한다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
    "rulings": [
     "supp-19148"
    ]
@@ -556,8 +592,8 @@
    "step": 3,
    "target_card": "Diabellstar the Black Witch",
    "timing_ko": "디아벨스타의 세트 효과 발동에 [[Fydraulis Harmonia]](싱크로 5장 공개)로 디아벨스타를 파괴",
-   "why_ko": "The Fallen & The Virtuous와 같은 결과로 드래군 루트가 사라진다. 일리아 실비아가 나오기 전이라 무효당하지 않는다.",
-   "fallback_ko": "2·4장 공개는 방해 없음. 일리아 실비아·드래군이 선 뒤에는 패에서 쓰는 효과라 무효된다.",
+   "why_ko": "The Fallen & The Virtuous와 같은 결과로 [[Red-Eyes Dark Dragoon]] 루트가 사라진다. [[Azamina Ilia Silvia]]가 나오기 전이라 무효당하지 않는다.",
+   "fallback_ko": "2·4장 공개는 방해 없음. [[Azamina Ilia Silvia]]·[[Red-Eyes Dark Dragoon]]이 선 뒤에는 패에서 쓰는 효과라 무효된다.",
    "rulings": [
     "qa-24286",
     "supp-19148"
@@ -570,8 +606,8 @@
    "step": 5,
    "target_card": "Deception of the Sinful Spoils",
    "timing_ko": "기만의 아자미나 서치 효과에 체인",
-   "why_ko": "아자미나 융합(일리아 실비아 무효)이 사라진다. 릴리스 비용도 이미 냈다.",
-   "fallback_ko": "디아벨스타는 필드에 남아 파괴의 흑마술사 → 드래군은 간다."
+   "why_ko": "아자미나 융합([[Azamina Ilia Silvia]] 무효)이 사라진다. 릴리스 비용도 이미 냈다.",
+   "fallback_ko": "디아벨스타는 필드에 남아 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]은 간다."
   },
   {
    "handtrap": "imperm",
@@ -581,7 +617,7 @@
    "target_card": "Diabellstar the Black Witch",
    "timing_ko": "디아벨스타 특소 직후 '죄보 마함 세트' 효과 발동에 체인(뵐러도 동일)",
    "why_ko": "세트 효과는 서치가 아니어서 우라라로는 못 막는다. 여기를 무효로 하면 기만/원죄보/모리안이 나오지 않아 아자미나 축이 끊긴다.",
-   "fallback_ko": "디아벨스타 몸은 남아 파괴의 흑마술사 → 드래군 루트는 남음. 무한포영 세트 사용이 아니라면 디아벨스타 몸 무효 외 추가 이득은 없다.",
+   "fallback_ko": "디아벨스타 몸은 남아 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]] 루트는 남음. 무한포영 세트 사용이 아니라면 디아벨스타 몸 무효 외 추가 이득은 없다.",
    "rulings": [
     "supp-19148"
    ]
@@ -592,9 +628,9 @@
    "line": "wfa",
    "step": 9,
    "target_card": "Elzette, Azamina of the White Forest",
-   "timing_ko": "디아벨 싱크로 후 성도 엘제트의 묘지 서치(기만)에 체인",
-   "why_ko": "백림 축과 아자미나 축을 잇는 다리. 기만이 없으면 무 르시엘라고 → WANTED → 일리아 실비아 라인이 끊긴다.",
-   "fallback_ko": "디아벨·바롱 계열 싱크로 견제와 디아벨제 축은 남는다."
+   "timing_ko": "디아벨 싱크로 후 [[Elzette, Azamina of the White Forest]]의 묘지 서치(기만)에 체인",
+   "why_ko": "백림 축과 아자미나 축을 잇는 다리. 기만이 없으면 [[Azamina Mu Rcielago]] → [[WANTED: Seeker of Sinful Spoils]] → [[Azamina Ilia Silvia]] 라인이 끊긴다.",
+   "fallback_ko": "디아벨·[[Baronne de Fleur]] 계열 싱크로 견제와 디아벨제 축은 남는다."
   },
   {
    "handtrap": "harmonia",
@@ -602,9 +638,9 @@
    "line": "wfa",
    "step": 3,
    "target_card": "Silvy of the White Forest",
-   "timing_ko": "실비의 소환 유발(전해짐 서치)에 하르모니아로 실비를 파괴 (The Fallen & The Virtuous도 같은 지점)",
-   "why_ko": "서치는 처리되지만 레벨 4 튜너가 사라져 엘제트와 루시엘라를 싱크로할 수 없다. 루시엘라가 나오기 전이라 싱크로 파괴 내성도 아직 없다.",
-   "fallback_ko": "패의 전해짐으로 백림 몬스터를 하나 더 가져와 일부 잇는다. 루시엘라·디아벨이 선 뒤에는 환상마족·마법사족 싱크로가 상대 효과로 파괴되지 않는다.",
+   "timing_ko": "실비의 소환 유발([[Tales of the White Forest]] 서치)에 하르모니아로 실비를 파괴 (The Fallen & The Virtuous도 같은 지점)",
+   "why_ko": "서치는 처리되지만 레벨 4 튜너가 사라져 [[Elzette of the White Forest]]와 루시엘라를 싱크로할 수 없다. 루시엘라가 나오기 전이라 싱크로 파괴 내성도 아직 없다.",
+   "fallback_ko": "패의 [[Tales of the White Forest]]로 백림 몬스터를 하나 더 가져와 일부 잇는다. 루시엘라·디아벨이 선 뒤에는 환상마족·마법사족 싱크로가 상대 효과로 파괴되지 않는다.",
    "rulings": [
     "qa-24286"
    ]
@@ -615,9 +651,9 @@
    "line": "wfa",
    "step": 1,
    "target_card": "Elzette of the White Forest",
-   "timing_ko": "엘제트 자체 특소 효과 발동에 체인(가능한 한 이른 특소)",
+   "timing_ko": "[[Elzette of the White Forest]] 자체 특소 효과 발동에 체인(가능한 한 이른 특소)",
    "why_ko": "풀 전개는 특소가 10회 이상. 상대가 멈추면 견제가 1~2개로 줄고, 계속하면 대량 드로우.",
-   "fallback_ko": "디아벨 싱크로 + 일리아 실비아 정도에서 멈추는 경우가 많다."
+   "fallback_ko": "디아벨 싱크로 + [[Azamina Ilia Silvia]] 정도에서 멈추는 경우가 많다."
   },
   {
    "handtrap": "fuwalos",
@@ -630,14 +666,140 @@
    "fallback_ko": "엔드 페이즈 패 매수 제한이 있으니 상대가 일찍 멈추면 이득이 작다."
   },
   {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타 특소 직후 '죄보 마함 세트' 효과 발동에 체인해 디아벨스타 대상 (무한포영과 같은 지점)",
+   "why_ko": "세트가 무효가 되어 기만이 나오지 않고 아자미나 축이 끊긴다. 디아벨스타의 패 특소는 소환 규칙이라 그 자체는 막을 수 없고, 특소 뒤 세트 효과에만 쓴다.",
+   "fallback_ko": "디아벨스타 몸은 남아 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]] 루트는 남는다.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "strong",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타가 패에서 특소된 직후 버리고 디아벨스타 대상 (디아벨스타의 세트 유발이 체인 1, 사요 시구레가 체인 2)",
+   "why_ko": "디아벨스타의 효과가 무효가 되어 체인 1의 죄보 마함 세트도 무효로 처리된다. 무한포영·뵐러를 3단계에 맞춘 것과 같은 결과. 디아벨스타가 이번 턴 [[Dark Magician of Destruction]]의 소재로 제외되면 원래 공격력만큼 상대가 데미지를 받는다.",
+   "fallback_ko": "디아벨스타 몸은 남아 [[Red-Eyes Dark Dragoon]] 루트는 남는다."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "engine",
+   "step": 6,
+   "target_card": "The Hallowed Azamina",
+   "timing_ko": "[[The Hallowed Azamina]] 발동에 직접 체인 (아자미나 융합체 특소를 포함). 상대 필드에 카드가 있어 패에서 발동 가능",
+   "why_ko": "효과가 무효가 되어 [[Azamina Ilia Silvia]](무효 견제)가 나오지 않는다. [[The Hallowed Azamina]]는 묘지로 가지만 묘지 효과로 되돌릴 아자미나 몬스터가 없다. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 못 쓴다.",
+   "fallback_ko": "디아벨스타 → [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]은 남는다. [[Red-Eyes Dark Dragoon]]을 막고 싶으면 9단계 [[The Gaze of Timaeus]]에 쓴다."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "engine",
+   "step": 9,
+   "target_card": "The Gaze of Timaeus",
+   "timing_ko": "[[The Gaze of Timaeus]] 발동에 직접 체인 (융합 소환 = 특소를 포함)",
+   "why_ko": "[[Red-Eyes Dark Dragoon]]이 나오지 않는다. [[Red-Eyes Dark Dragoon]]은 대상 불가·효과 파괴 불가에 1턴 1번 발동 무효라, 내 턴 돌파 난이도가 가장 크게 내려가는 지점이다. [[Dark Magician of Destruction]]은 필드에 남는다. 6단계 [[The Hallowed Azamina]]와 둘 중 하나만 골라야 한다(도미나스 임펄스는 1턴 1장).",
+   "fallback_ko": "아자미나 융합체([[Azamina Ilia Silvia]])와 기만은 남는다. [[Azamina Ilia Silvia]]가 이미 서 있으면 이 발동은 [[Azamina Ilia Silvia]]에 무효당할 수 있다."
+  },
+  {
+   "handtrap": "purulia",
+   "severity": "strong",
+   "line": "wfa",
+   "step": 1,
+   "target_card": "Elzette of the White Forest",
+   "timing_ko": "[[Elzette of the White Forest]] ①(패 특소 + 서치) 발동에 체인 (내 필드에 카드가 없을 것)",
+   "why_ko": "패에서의 소환이 [[Elzette of the White Forest]](1)·실비 일반 소환(2)·[[Elzette, Azamina of the White Forest]](7)·디아벨제(19)·디아벨스타(23)로 5번 → 끝까지 가면 5드로우. 상대는 디아벨 싱크로 + [[Azamina Ilia Silvia]] 근처에서 멈추게 된다.",
+   "fallback_ko": "엔드 페이즈 패 매수 제한(상대 필드 카드 수 + 6)이 있어 상대가 일찍 멈추면 이득이 작다."
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "strong",
+   "line": "wfa",
+   "step": 4,
+   "target_card": "Rciela, Sinister Soul of the White Forest",
+   "timing_ko": "루시엘라가 싱크로 소환된 직후 버리고 루시엘라 대상 (루시엘라의 서치 유발이 체인 1)",
+   "why_ko": "루시엘라의 효과가 무효가 되어 체인 1의 서치(디아벨제)도 무효로 처리된다. 비용으로 보낸 [[Tales of the White Forest]]는 자기 효과로 다시 세트되므로, 디아벨제 축만 끊고 디아벨 싱크로는 이어진다. 루시엘라가 이번 턴 디아벨의 소재로 필드를 떠나면 원래 공격력만큼 상대가 데미지를 받는다.",
+   "fallback_ko": "디아벨제·[[Curse of Diabell]]·[[Diabellstar Vengeance]] 축이 빠진다. 디아벨·[[Azamina Ilia Silvia]]·[[Baronne de Fleur]]는 남는다."
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "wfa",
+   "step": 5,
+   "target_card": "Rciela, Sinister Soul of the White Forest",
+   "timing_ko": "루시엘라의 서치 효과 발동에 체인해 루시엘라 대상 (무한포영과 같은 지점)",
+   "why_ko": "서치가 무효가 되어 디아벨제가 들어오지 않는다. 루시엘라의 '환상마족·마법사족 싱크로 파괴 불가'도 이번 턴 꺼진다. [[Tales of the White Forest]]는 비용으로 묘지에 갔다가 다시 세트되므로 [[Elzette, Azamina of the White Forest]] 서치는 남는다.",
+   "fallback_ko": "디아벨제 → 커스 → [[Filia Diabell]] → [[Diabellstar Vengeance]] 축이 빠진다. 디아벨·[[Azamina Ilia Silvia]]·[[Baronne de Fleur]]는 남는다. 실비 서치(3단계)에 쓰면 [[Tales of the White Forest]]가 없어지지만 루시엘라 서치로 다시 가져올 수 있어 효과가 작다."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "wfa",
+   "step": 7,
+   "target_card": "Elzette, Azamina of the White Forest",
+   "timing_ko": "[[Elzette, Azamina of the White Forest]]의 '패에서 공개 → 백림·아자미나 몬스터 특소' 효과 발동에 직접 체인. 상대 필드에 루시엘라가 있어 패에서 발동 가능",
+   "why_ko": "[[Elzette, Azamina of the White Forest]]가 패에 남아 디아벨 싱크로(루시엘라 + 레벨 2)를 못 한다. 디아벨이 없으면 디아벨의 마함 회수·퀵 튜너 싱크로 특소가 사라지고, [[Elzette, Azamina of the White Forest]]의 싱크로 소재 서치(기만)도 없다. 1단계 [[Elzette of the White Forest]] ①에는 상대 필드가 비어 패에서 발동할 수 없으니 이 지점이 첫 기회.",
+   "fallback_ko": "[[Elzette, Azamina of the White Forest]]의 '메인 페이즈에 패·필드로 아자미나 융합'으로 [[Elzette, Azamina of the White Forest]] + 루시엘라를 소재로 [[Azamina Mu Rcielago]]를 내는 우회가 남는다. 디아벨제 축도 남는다."
+  },
+  {
+   "handtrap": "purge",
+   "severity": "strong",
+   "line": "wfa",
+   "step": 9,
+   "target_card": "Elzette, Azamina of the White Forest",
+   "timing_ko": "디아벨 싱크로 후 [[Elzette, Azamina of the White Forest]]의 묘지 서치(기만)에 직접 체인 (우라라와 같은 지점)",
+   "why_ko": "백림 축과 아자미나 축을 잇는 다리라 [[Azamina Mu Rcielago]] → [[WANTED: Seeker of Sinful Spoils]] → [[Azamina Ilia Silvia]] 라인이 끊긴다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다. 1단계 [[Elzette of the White Forest]] ①에는 상대 필드가 비어 패에서 발동할 수 없다.",
+   "fallback_ko": "디아벨·[[Baronne de Fleur]] 계열 싱크로 견제와 디아벨제 축은 남는다."
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "snake",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타의 죄보 마함 세트 효과에 체인해 디아벨스타 대상",
+   "why_ko": "[[Original Sinful Spoils - Snake-Eye]]가 세트되지 않아 스네이크아이 접속이 끊긴다.",
+   "fallback_ko": "호스트 덱(스네이크아이 등) 본체 전개는 별개.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "strong",
+   "line": "snake",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타의 죄보 마함 세트 효과 발동에 직접 체인 (내 필드에 몬스터가 없을 것)",
+   "why_ko": "세트 무효 + 디아벨스타 파괴(상대 자신의 턴이라 소생하지 않음). 원죄보와 원죄보로 보낼 앞면 카드가 함께 사라진다.",
+   "fallback_ko": "호스트 덱 본체 전개는 별개."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "snake",
+   "step": 3,
+   "target_card": "Original Sinful Spoils - Snake-Eye",
+   "timing_ko": "[[Original Sinful Spoils - Snake-Eye]] 발동에 직접 체인 (레벨 1 화염 특소 포함)",
+   "why_ko": "디아벨스타는 비용으로 묘지에 갔고 스네이크아이 몬스터가 나오지 않는다. 비용으로 보낸 디아벨스타는 상대 자신의 턴이라 소생하지 않는다.",
+   "fallback_ko": "스네이크아이 덱 본체 전개는 별개."
+  },
+  {
    "handtrap": "druiswurm",
    "severity": "ok",
    "line": "wfa",
    "step": 14,
    "target_card": "Elzette, Azamina of the White Forest",
-   "timing_ko": "할로우드 아자미나의 묘지 효과가 묘지의 성도 엘제트를 대상으로 발동했을 때 [[Bystial Druiswurm]]으로 그 성도 엘제트(빛)를 제외",
-   "why_ko": "대상이 사라져 할로우드 아자미나가 패로 돌아오지 않고, 15단계 일리아 실비아 융합이 막힌다. 상대 필드에 몬스터가 있어 퀵으로 쓸 수 있다.",
-   "fallback_ko": "디아벨·바롱·벤전스 견제는 남는다. 25단계 벤전스의 묘지 특소에 체인해 벤전스(어둠)를 제외하는 것도 가능. 필드의 드루이드브룸이 벤전스 등에 파괴되면 ②로 특소 몬스터 1장을 묘지로 보낸다(파괴 내성과 무관)."
+   "timing_ko": "[[The Hallowed Azamina]]의 묘지 효과가 묘지의 [[Elzette, Azamina of the White Forest]]를 대상으로 발동했을 때 [[Bystial Druiswurm]]으로 그 [[Elzette, Azamina of the White Forest]](빛)를 제외",
+   "why_ko": "대상이 사라져 [[The Hallowed Azamina]]가 패로 돌아오지 않고, 15단계 [[Azamina Ilia Silvia]] 융합이 막힌다. 상대 필드에 몬스터가 있어 퀵으로 쓸 수 있다.",
+   "fallback_ko": "디아벨·[[Baronne de Fleur]]·[[Diabellstar Vengeance]] 견제는 남는다. 25단계 [[Diabellstar Vengeance]]의 묘지 특소에 체인해 [[Diabellstar Vengeance]](어둠)를 제외하는 것도 가능. 필드의 드루이드브룸이 [[Diabellstar Vengeance]] 등에 파괴되면 ②로 특소 몬스터 1장을 묘지로 보낸다(파괴 내성과 무관)."
   },
   {
    "handtrap": "belle",
@@ -645,12 +807,32 @@
    "line": "wfa",
    "step": 25,
    "target_card": "Diabellstar Vengeance",
-   "timing_ko": "벤전스의 묘지 특소 효과에 체인(또는 17단계 실비의 묘지 특소)",
-   "why_ko": "퀵 파괴 견제 1개를 지운다. 할로우드 아자미나 묘지 회수(14단계)에 쓰면 일리아 실비아를 막을 수 있다.",
+   "timing_ko": "[[Diabellstar Vengeance]]의 묘지 특소 효과에 체인(또는 17단계 실비의 묘지 특소)",
+   "why_ko": "퀵 파괴 견제 1개를 지운다. [[The Hallowed Azamina]] 묘지 회수(14단계)에 쓰면 [[Azamina Ilia Silvia]]를 막을 수 있다.",
    "fallback_ko": "앞에서 이미 견제가 다 깔린 뒤라 전개 자체는 멈추지 않는다.",
    "rulings": [
     "qa-23218"
    ]
+  },
+  {
+   "handtrap": "spark",
+   "severity": "ok",
+   "line": "wfa",
+   "step": 7,
+   "target_card": "Rciela, Sinister Soul of the White Forest",
+   "timing_ko": "[[Elzette, Azamina of the White Forest]]의 패 효과 발동에 체인해 필드의 루시엘라를 제외 (1단계 [[Elzette of the White Forest]] ①로 '패·묘지 몬스터 효과' 조건 충족)",
+   "why_ko": "이 라인의 디아벨(레벨 8)은 루시엘라(레벨 6 튜너 싱크로) + [[Elzette, Azamina of the White Forest]](레벨 2)로 만든다. 루시엘라가 제외되면 필드에 튜너가 없어 디아벨이 나오지 않는다. 상대는 묘지의 실비 퀵 효과(백림 싱크로를 엑스트라로 되돌리고 자신 특소)로 루시엘라를 엑스트라로 피신시킬 수 있지만, 그러면 실비 + [[Elzette, Azamina of the White Forest]]로 루시엘라를 다시 만드느라 레벨 2가 없어 역시 디아벨이 안 나오고, 18단계 [[Baronne de Fleur]]용 실비 퀵도 이미 쓴 것이 된다.",
+   "fallback_ko": "내 묘지에 함정이 없으면 상대가 패에서 1장 특소할 수 있다(디아벨제 등). 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 못 쓴다. 디아벨·[[Azamina Ilia Silvia]]·[[Baronne de Fleur]]가 선 뒤에 쓰면 그쪽에 무효당한다."
+  },
+  {
+   "handtrap": "nibiru",
+   "severity": "ok",
+   "line": "wfa",
+   "step": 8,
+   "target_card": "Diabell, Queen of the White Forest",
+   "timing_ko": "디아벨 싱크로(5번째 소환)와 9·10단계 유발([[Elzette, Azamina of the White Forest]] 서치, 디아벨 마함 회수)이 처리된 뒤, [[Azamina Ilia Silvia]]·[[Baronne de Fleur]]가 나오기 전",
+   "why_ko": "이 시점 상대 필드는 디아벨과 세트된 백림 마함뿐이다. 디아벨이 니비루 발동에 반응해 루시엘라를 소생시켜도 함께 릴리스된다(디아벨 퀵 소모). [[Azamina Ilia Silvia]]·[[Baronne de Fleur]]가 선 뒤에는 니비루가 무효당한다.",
+   "fallback_ko": "상대 필드에 원시생명체 토큰이 남는데, 패에 서치한 기만이 있으면 토큰을 릴리스해 아자미나 서치를 하고 아자미나 축으로 일부 복구한다. 디아벨 축과 [[Baronne de Fleur]]는 사라진다."
   },
   {
    "handtrap": "ash",
@@ -660,7 +842,7 @@
    "target_card": "Diabellstar the Black Witch",
    "timing_ko": "디아벨스타의 죄보 마함 세트 효과",
    "why_ko": "덱에서 '세트'하는 효과는 서치·특소·덤핑이 아니라 우라라 발동 조건이 안 된다. 디아벨스타의 패 특소도 소환 규칙이라 체인할 효과가 없다.",
-   "fallback_ko": "우라라는 WANTED·기만·흑마술사 서치에 아껴 둔다.",
+   "fallback_ko": "우라라는 [[WANTED: Seeker of Sinful Spoils]]·기만·흑마술사 서치에 아껴 둔다.",
    "rulings": [
     "supp-19148"
    ]
@@ -671,8 +853,8 @@
    "line": "engine",
    "step": 9,
    "target_card": "Red-Eyes Dark Dragoon",
-   "timing_ko": "드래군이나 루시엘라가 있는 백림 싱크로를 하르모니아·The Fallen & The Virtuous로 파괴하려는 것",
-   "why_ko": "드래군은 효과로 파괴되지 않고 대상도 안 된다. 루시엘라가 있으면 환상마족·마법사족 싱크로가, 디아벨 몬스터 2장 이상이면 디아벨제로 모든 몬스터가 상대 효과로 파괴되지 않는다.",
+   "timing_ko": "[[Red-Eyes Dark Dragoon]]이나 루시엘라가 있는 백림 싱크로를 하르모니아·The Fallen & The Virtuous로 파괴하려는 것",
+   "why_ko": "[[Red-Eyes Dark Dragoon]]은 효과로 파괴되지 않고 대상도 안 된다. 루시엘라가 있으면 환상마족·마법사족 싱크로가, 디아벨 몬스터 2장 이상이면 디아벨제로 모든 몬스터가 상대 효과로 파괴되지 않는다.",
    "fallback_ko": "파괴가 통하는 시점(디아벨스타·실비)에 미리 쓰거나, 초융합·드루이드브룸 ②처럼 파괴가 아닌 수단을 쓴다."
   },
   {
@@ -681,7 +863,7 @@
    "line": "engine",
    "step": 1,
    "target_card": "WANTED: Seeker of Sinful Spoils",
-   "timing_ko": "WANTED·할로우드 아자미나·티마이오스의 눈빛 발동에 싸이크론",
+   "timing_ko": "[[WANTED: Seeker of Sinful Spoils]]·[[The Hallowed Azamina]]·[[The Gaze of Timaeus]] 발동에 싸이크론",
    "why_ko": "일반·속공 마법은 체인으로 파괴해도 효과가 그대로 처리된다.",
    "fallback_ko": "지속 마법인 기만(4단계)에 쓴다."
   },
@@ -691,15 +873,15 @@
    "line": "wfa",
    "step": 9,
    "target_card": "Elzette, Azamina of the White Forest",
-   "timing_ko": "성도 엘제트가 싱크로 소재로 묘지에 간 뒤의 서치 유발에 드루이드브룸으로 제외",
-   "why_ko": "그 서치는 성도 엘제트가 묘지에 있을 필요가 없어 그대로 처리된다.",
-   "fallback_ko": "같은 성도 엘제트는 14단계 할로우드 아자미나의 대상이 될 때 제외한다."
+   "timing_ko": "[[Elzette, Azamina of the White Forest]]가 싱크로 소재로 묘지에 간 뒤의 서치 유발에 드루이드브룸으로 제외",
+   "why_ko": "그 서치는 [[Elzette, Azamina of the White Forest]]가 묘지에 있을 필요가 없어 그대로 처리된다.",
+   "fallback_ko": "같은 [[Elzette, Azamina of the White Forest]]는 14단계 [[The Hallowed Azamina]]의 대상이 될 때 제외한다."
   }
  ],
  "handtrap_summary": {
   "ash": {
    "rating": "critical",
-   "note_ko": "엔진은 WANTED, 백림 아자미나는 엘제트 ①. 기만의 아자미나 서치·성도 엘제트 묘지 서치도 좋은 대상. 디아벨스타 세트 효과에는 못 씀"
+   "note_ko": "엔진은 [[WANTED: Seeker of Sinful Spoils]], 백림 아자미나는 [[Elzette of the White Forest]] ①. 기만의 아자미나 서치·[[Elzette, Azamina of the White Forest]] 묘지 서치도 좋은 대상. 디아벨스타 세트 효과에는 못 씀"
   },
   "droll": {
    "rating": "critical",
@@ -707,19 +889,19 @@
   },
   "maxxc": {
    "rating": "strong",
-   "note_ko": "첫 특소 효과(엘제트 자체 특소 등)에 체인. 백림 아자미나는 특소 10회 이상"
+   "note_ko": "첫 특소 효과([[Elzette of the White Forest]] 자체 특소 등)에 체인. 백림 아자미나는 특소 10회 이상"
   },
   "fuwalos": {
    "rating": "strong",
    "note_ko": "싱크로·아자미나 융합 등 엑스트라 덱 특소가 많다. 내 필드가 비어 있을 때만"
   },
   "purulia": {
-   "rating": "ok",
-   "note_ko": "실비 일반 소환, 엘제트·성도 엘제트·디아벨스타·디아벨제 패 특소에 반응. 앞부분에 몰려 있어 드로우는 2~4장 수준"
+   "rating": "strong",
+   "note_ko": "백림 아자미나: [[Elzette of the White Forest]] ① 발동에 체인하면 패 소환이 [[Elzette of the White Forest]]·실비 일반 소환·[[Elzette, Azamina of the White Forest]]·디아벨제·디아벨스타로 5번. 엔진 단독 루트는 디아벨스타 1번뿐이라 약하다."
   },
   "meowls": {
    "rating": "weak",
-   "note_ko": "묘지 특소는 실비 퀵·벤전스 정도뿐"
+   "note_ko": "묘지 특소는 실비 퀵·[[Diabellstar Vengeance]] 정도뿐"
   },
   "imperm": {
    "rating": "strong",
@@ -730,63 +912,66 @@
   },
   "veiler": {
    "rating": "strong",
-   "note_ko": "무한포영과 같은 지점. 상대 메인 페이즈라 선공 전개 중 사용 가능"
+   "note_ko": "무한포영과 같은 지점: 엔진은 디아벨스타의 세트 효과, 백림 아자미나는 루시엘라 서치. 상대 메인 페이즈라 선공 전개 중 사용 가능. 내 턴에는 못 쓴다.",
+   "rulings": [
+    "supp-19148"
+   ]
   },
   "ogre": {
    "rating": "strong",
-   "note_ko": "앞면 기만의 ① 효과에 체인해 파괴 → 할로우드 아자미나로 보낼 죄보 카드를 없앰"
+   "note_ko": "앞면 기만의 ① 효과에 체인해 파괴 → [[The Hallowed Azamina]]로 보낼 죄보 카드를 없앰"
   },
   "belle": {
    "rating": "ok",
-   "note_ko": "할로우드 아자미나 묘지 회수, 실비 묘지 특소, 벤전스 묘지 특소",
+   "note_ko": "[[The Hallowed Azamina]] 묘지 회수, 실비 묘지 특소, [[Diabellstar Vengeance]] 묘지 특소",
    "rulings": [
     "qa-23218",
     "qa-23215"
    ]
   },
   "mourner": {
-   "rating": "ok",
-   "note_ko": "디아벨스타 특소 직후 효과 무효(포영과 같은 효과)나 루시엘라 특소 직후"
+   "rating": "strong",
+   "note_ko": "디아벨스타 특소 직후(세트 유발까지 무효)나 루시엘라 싱크로 직후(서치 유발까지 무효). 디아벨스타의 패 특소는 소환 규칙이지만 특소된 뒤의 유발은 끊을 수 있다."
   },
   "crossout": {
    "rating": "bad",
-   "note_ko": "자기 덱의 카드만 선언 가능. 상대 테마 카드에는 사실상 못 쓴다. 나도 WANTED·디아벨스타를 넣은 경우에만 의미"
+   "note_ko": "자기 덱의 카드만 선언 가능. 상대 테마 카드에는 사실상 못 쓴다. 나도 [[WANTED: Seeker of Sinful Spoils]]·디아벨스타를 넣은 경우에만 의미"
   },
   "ttt": {
    "rating": "weak",
    "note_ko": "선공 견제가 아니라 후공 내 턴에 쓰는 카드"
   },
   "droplet": {
-   "rating": "ok",
-   "note_ko": "후공 돌파용. 드래군은 대상 불가라도 일적은 대상이 아니라 통한다"
+   "rating": "weak",
+   "note_ko": "상대 1턴 전개에는 쓸 곳이 거의 없음(속공 마법이라 미리 세트해 둬야 하고, 후공 1턴에는 불가). 내 턴(후공)에: 대상을 잡지 않아 [[Red-Eyes Dark Dragoon]]에도 통한다. 몬스터를 보내 발동하면 [[Baronne de Fleur]]·[[Azamina Ilia Silvia]]·디아벨·[[Diabellstar Vengeance]]·[[Red-Eyes Dark Dragoon]]이 모두 체인 불가, 디아벨제를 함께 무효하면 파괴 내성도 꺼진다."
   },
   "nibiru": {
    "rating": "ok",
-   "note_ko": "소환 수는 충분하지만 디아벨의 퀵 특소·일리아 실비아 무효로 대응 가능. 상대 견제를 먼저 쓰게 한 뒤에"
+   "note_ko": "백림 아자미나는 디아벨 싱크로에서 5번째 소환. 그 유발 체인이 끝난 뒤, [[Azamina Ilia Silvia]]·[[Baronne de Fleur]]가 나오기 전에 쓴다. 디아벨이 반응해도 함께 릴리스된다. 토큰을 기만으로 릴리스해 아자미나 축은 일부 살아난다."
   },
   "impulse": {
    "rating": "strong",
-   "note_ko": "할로우드 아자미나(특소), 엘제트 ①, 티마이오스의 눈빛 등 특소 포함 효과 무효. 디아벨스타 패 특소는 소환 규칙이라 불가"
+   "note_ko": "엔진: [[The Hallowed Azamina]]([[Azamina Ilia Silvia]]) 또는 [[The Gaze of Timaeus]]([[Red-Eyes Dark Dragoon]]) 중 하나. 백림 아자미나: [[Elzette, Azamina of the White Forest]]의 패 특소(디아벨 차단). [[Elzette of the White Forest]] ①은 상대 필드가 비어 패에서 못 쓰고, 디아벨스타 패 특소는 소환 규칙이라 불가."
   },
   "purge": {
    "rating": "strong",
-   "note_ko": "WANTED·기만 서치 대응. 패 발동은 상대 필드에 카드가 있어야 함"
+   "note_ko": "엔진은 [[WANTED: Seeker of Sinful Spoils]] 발동에(우라라와 같은 결과, critical). 백림 아자미나는 [[Elzette, Azamina of the White Forest]] 묘지 서치(기만). [[Elzette of the White Forest]] ①은 상대 필드가 비어 패에서 못 쓴다. 패에서 쓰면 이 듀얼 동안 어둠·물·화염 몬스터 효과 불가."
   },
   "spark": {
    "rating": "ok",
-   "note_ko": "엘제트·성도 엘제트(패 효과)·성도 엘제트 묘지 효과 등 발동 후 견제 몬스터 1장 제외"
+   "note_ko": "백림 아자미나에서 [[Elzette of the White Forest]] ①을 본 뒤, [[Elzette, Azamina of the White Forest]]의 패 효과에 체인해 루시엘라를 제외하면 디아벨이 나오지 않는다. 묘지의 실비가 피신시켜도 디아벨은 못 만든다. 엔진 단독은 패·묘지 몬스터 효과가 없어 조건이 안 맞는다."
   },
   "magnamhut": {
    "rating": "weak",
-   "note_ko": "묘지의 디아벨스타/성도 엘제트 제외 정도"
+   "note_ko": "묘지의 디아벨스타/[[Elzette, Azamina of the White Forest]] 제외 정도"
   },
   "gamma": {
-   "rating": "ok",
-   "note_ko": "엘제트 ① 또는 디아벨스타 세트 효과에 체인. 내 필드에 몬스터가 없을 때"
+   "rating": "critical",
+   "note_ko": "엔진: 디아벨스타 세트 효과에 체인 → 세트 무효 + 디아벨스타 파괴(자기 턴이라 소생 없음)로 아자미나·[[Red-Eyes Dark Dragoon]] 둘 다 끊긴다. 백림 아자미나: [[Elzette of the White Forest]] ①에 체인해 무효 + 패의 [[Elzette of the White Forest]] 파괴. 내 필드에 몬스터가 없을 때. 제한 1."
   },
   "harmonia": {
    "rating": "strong",
-   "note_ko": "싱크로 5장 공개 기준. 디아벨스타 세트 효과에 써서 디아벨스타 파괴(드래군 차단), 백림 아자미나는 실비 서치에 써서 실비 파괴. 드래군·루시엘라 싱크로는 파괴 불가"
+   "note_ko": "싱크로 5장 공개 기준. 디아벨스타 세트 효과에 써서 디아벨스타 파괴([[Red-Eyes Dark Dragoon]] 차단), 백림 아자미나는 실비 서치에 써서 실비 파괴. [[Red-Eyes Dark Dragoon]]·루시엘라 싱크로는 파괴 불가"
   },
   "fallen_virtuous": {
    "rating": "strong",
@@ -797,25 +982,25 @@
   },
   "super_poly": {
    "rating": "strong",
-   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) 일리아 실비아 직후 디아벨스타 + 실비아 → 머드래곤. 무효 견제와 드래군 루트가 동시에 사라짐. 최종 필드의 드래군 + 실비아도 가능",
+   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) [[Azamina Ilia Silvia]] 직후 디아벨스타 + [[Azamina Ilia Silvia]] → [[Mudragon of the Swamp]]. 무효 견제와 [[Red-Eyes Dark Dragoon]] 루트가 동시에 사라짐. 최종 필드의 [[Red-Eyes Dark Dragoon]] + [[Azamina Ilia Silvia]]도 가능",
    "rulings": [
     "qa-10824"
    ]
   },
   "crown": {
    "rating": "strong",
-   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) 파괴의 흑마술사 서치에 체인 → 서치 무효 + 티마이오스 융합 소재 불가로 드래군 차단. 디아벨스타에 쓰면 흑마술사 특소는 못 막음",
+   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) [[Dark Magician of Destruction]] 서치에 체인 → 서치 무효 + 티마이오스 융합 소재 불가로 [[Red-Eyes Dark Dragoon]] 차단. 디아벨스타에 쓰면 흑마술사 특소는 못 막음",
    "rulings": [
     "qa-22839"
    ]
   },
   "druiswurm": {
    "rating": "ok",
-   "note_ko": "할로우드 아자미나 묘지 효과의 대상(성도 엘제트) 제외, 또는 벤전스 묘지 특소. 엔진 단독 덱에는 쓸 곳이 거의 없음"
+   "note_ko": "[[The Hallowed Azamina]] 묘지 효과의 대상([[Elzette, Azamina of the White Forest]]) 제외, 또는 [[Diabellstar Vengeance]] 묘지 특소. 엔진 단독 덱에는 쓸 곳이 거의 없음"
   },
   "mst": {
    "rating": "strong",
-   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) 기만의 카드 발동에 체인해 파괴 → ① 서치·할로우드 아자미나 모두 불발. 일반·속공 마법에 쓰면 낭비",
+   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) 기만의 카드 발동에 체인해 파괴 → ① 서치·[[The Hallowed Azamina]] 모두 불발. 일반·속공 마법에 쓰면 낭비",
    "rulings": [
     "qa-111",
     "qa-24148"
@@ -826,8 +1011,8 @@
   "디아벨스타의 패 특소는 효과 발동이 아니라 소환 규칙이다. 우라라·포영으로 막을 수 없고, 특소 '후' 세트 효과에만 포영·뵐러를 쓴다.",
   "디아벨스타의 세트 효과는 서치가 아니어서 우라라·드롤·퍼지 모두 반응하지 않는다.",
   "디아벨스타는 '상대 턴에' 패/필드에서 묘지로 가면 자체 소생한다. 상대 턴에 [[Diabellstar the Black Witch]]를 묘지로 보내는 제거는 역이용될 수 있다.",
-  "할로우드 아자미나·아자미나 채무자의 융합체 특소는 엑스트라 덱 특소라 우라라 대상이 아니다(증G·후와로스·임펄스는 가능).",
-  "레드아이즈 다크 드래군은 대상 불가·효과 파괴 불가. 제거는 비대상 무효(일적 등)나 릴리스·제외로.",
+  "[[The Hallowed Azamina]]·[[Azamina Debtors]]의 융합체 특소는 엑스트라 덱 특소라 우라라 대상이 아니다(증G·후와로스·임펄스는 가능).",
+  "[[Red-Eyes Dark Dragoon]]은 대상 불가·효과 파괴 불가. 제거는 비대상 무효(일적 등)나 릴리스·제외로.",
   "백림 아자미나는 [[Diabellze the White Witch]]가 있으면 디아벨 몬스터 2장 이상일 때 효과 파괴가 통하지 않는다. 디아벨제를 먼저 처리하거나 파괴 외 수단을 쓴다."
  ],
  "sources": [
@@ -838,12 +1023,12 @@
   "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=19196&request_locale=ko (공식 DB 한국어명 확인)"
  ],
  "going_second": {
-  "summary_ko": "백림 아자미나 풀 전개는 [[Azamina Ilia Silvia]]·[[Baronne de Fleur]] 무효 2개, [[Diabell, Queen of the White Forest]]의 퀵 튜너 싱크로 특소, [[Diabellstar Vengeance]] 퀵 파괴, 세트한 [[Sinful Spoils of Slumber - Morrian]]에 [[Diabellze the White Witch]]의 효과 파괴 내성까지 겹친다. 견제 대부분이 필드의 몬스터 효과라 [[Dark Ruler No More]]·[[Forbidden Droplet]]·[[Ultimate Slayer]]처럼 몬스터 효과로 체인할 수 없는 카드가 가장 강하고, 디아벨 몬스터 2장 이상이면 [[Raigeki]]·[[Lightning Storm]] 같은 파괴 돌파는 통하지 않는다. 호스트 덱에 섞인 엔진 필드는 [[Red-Eyes Dark Dragoon]](대상·파괴 불가 무효)과 일리아 실비아 정도라, 드래군을 대상 없이 처리할 수단이 핵심이다.",
+  "summary_ko": "백림 아자미나 풀 전개는 [[Azamina Ilia Silvia]]·[[Baronne de Fleur]] 무효 2개, [[Diabell, Queen of the White Forest]]의 퀵 튜너 싱크로 특소, [[Diabellstar Vengeance]] 퀵 파괴, 세트한 [[Sinful Spoils of Slumber - Morrian]]에 [[Diabellze the White Witch]]의 효과 파괴 내성까지 겹친다. 견제 대부분이 필드의 몬스터 효과라 [[Dark Ruler No More]]·[[Forbidden Droplet]]·[[Ultimate Slayer]]처럼 몬스터 효과로 체인할 수 없는 카드가 가장 강하고, 디아벨 몬스터 2장 이상이면 [[Raigeki]]·[[Lightning Storm]] 같은 파괴 돌파는 통하지 않는다. 호스트 덱에 섞인 엔진 필드는 [[Red-Eyes Dark Dragoon]](대상·파괴 불가 무효)과 [[Azamina Ilia Silvia]] 정도라, [[Red-Eyes Dark Dragoon]]을 대상 없이 처리할 수단이 핵심이다.",
   "difficulty": "hard",
   "boards": [
    {
     "id": "full",
-    "title_ko": "풀 전개 (백림 아자미나: 엘제트 + 마함 1장)",
+    "title_ko": "풀 전개 (백림 아자미나: [[Elzette of the White Forest]] + 마함 1장)",
     "line": "wfa",
     "interruptions": [
      {
@@ -855,11 +1040,11 @@
       "answered_by": [
        {
         "id": "imperm",
-        "note_ko": "메인 페이즈 시작 시 미리 무효. 일리아 실비아가 체인해 포영을 무효로 할 수 있어 1:1 교환이 되기 쉽다. 어느 쪽이든 무효 1개는 사라진다"
+        "note_ko": "메인 페이즈 시작 시 미리 무효. [[Azamina Ilia Silvia]]가 체인해 포영을 무효로 할 수 있어 1:1 교환이 되기 쉽다. 어느 쪽이든 무효 1개는 사라진다"
        },
        {
         "id": "gamma",
-        "note_ko": "일리아 실비아 효과 발동에 체인해 무효. 비용 릴리스는 이미 끝나 몸도 사라진다"
+        "note_ko": "[[Azamina Ilia Silvia]] 효과 발동에 체인해 무효. 비용 릴리스는 이미 끝나 몸도 사라진다"
        },
        {
         "id": "droplet",
@@ -889,11 +1074,11 @@
       "answered_by": [
        {
         "id": "imperm",
-        "note_ko": "미리 무효. 바롱이 체인해 포영 발동을 무효+파괴할 수 있으니 미끼를 먼저 쓴다"
+        "note_ko": "미리 무효. [[Baronne de Fleur]]가 체인해 포영 발동을 무효+파괴할 수 있으니 미끼를 먼저 쓴다"
        },
        {
         "id": "gamma",
-        "note_ko": "바롱 효과 발동에 체인해 무효. 파괴는 [[Diabellze the White Witch]] 내성에 막힐 수 있다",
+        "note_ko": "[[Baronne de Fleur]] 효과 발동에 체인해 무효. 파괴는 [[Diabellze the White Witch]] 내성에 막힐 수 있다",
         "rulings": [
          "qa-23438"
         ]
@@ -981,7 +1166,7 @@
        },
        {
         "id": "gamma",
-        "note_ko": "벤전스 발동에 체인해 무효"
+        "note_ko": "[[Diabellstar Vengeance]] 발동에 체인해 무효"
        },
        {
         "id": "droplet",
@@ -1011,7 +1196,7 @@
       "answered_by": [
        {
         "id": "harpie",
-        "note_ko": "마함 전부 파괴. 체인으로 발동될 수 있지만 내가 특소한 몬스터가 없으면 모리안은 쓸 대상이 마땅치 않다. 바롱·일리아 실비아가 깃털을 무효로 할 수 있다. 제한 1"
+        "note_ko": "마함 전부 파괴. 체인으로 발동될 수 있지만 내가 특소한 몬스터가 없으면 모리안은 쓸 대상이 마땅치 않다. [[Baronne de Fleur]]·[[Azamina Ilia Silvia]]가 깃털을 무효로 할 수 있다. 제한 1"
        },
        {
         "id": "heavy_storm",
@@ -1033,7 +1218,7 @@
       "card": "Diabellze the White Witch",
       "kind": "protection",
       "zone": "monster",
-      "timing_ko": "디아벨 몬스터(디아벨·디아벨제·디아벨스타·벤전스)가 2장 이상이면 상대 몬스터 전부 내 효과로 파괴되지 않는다(지속). [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]] 등 파괴 돌파가 통하지 않는다",
+      "timing_ko": "디아벨 몬스터(디아벨·디아벨제·디아벨스타·[[Diabellstar Vengeance]])가 2장 이상이면 상대 몬스터 전부 내 효과로 파괴되지 않는다(지속). [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]] 등 파괴 돌파가 통하지 않는다",
       "answered_by": [
        {
         "id": "dark_ruler",
@@ -1041,7 +1226,7 @@
        },
        {
         "id": "imperm",
-        "note_ko": "디아벨제를 무효로 하면 내성이 꺼진다. 바롱·일리아 실비아가 체인할 수 있다"
+        "note_ko": "디아벨제를 무효로 하면 내성이 꺼진다. [[Baronne de Fleur]]·[[Azamina Ilia Silvia]]가 체인할 수 있다"
        },
        {
         "id": "droplet",
@@ -1061,7 +1246,7 @@
        },
        {
         "id": "ultimate_slayer",
-        "note_ko": "덱 되돌리기라 내성과 무관. 디아벨제는 메인 덱 몬스터라 대상은 디아벨·바롱·일리아 실비아"
+        "note_ko": "덱 되돌리기라 내성과 무관. 디아벨제는 메인 덱 몬스터라 대상은 디아벨·[[Baronne de Fleur]]·[[Azamina Ilia Silvia]]"
        }
       ],
       "bait_ko": "",
@@ -1098,7 +1283,7 @@
    },
    {
     "id": "full_engine",
-    "title_ko": "죄보 엔진 (WANTED 1장, 호스트 덱 필드는 별도)",
+    "title_ko": "죄보 엔진 ([[WANTED: Seeker of Sinful Spoils]] 1장, 호스트 덱 필드는 별도)",
     "line": "engine",
     "interruptions": [
      {
@@ -1110,15 +1295,15 @@
       "answered_by": [
        {
         "id": "dark_ruler",
-        "note_ko": "대상 없이 무효이고 몬스터 효과로 체인 불가. 드래군 처리의 정답"
+        "note_ko": "대상 없이 무효이고 몬스터 효과로 체인 불가. [[Red-Eyes Dark Dragoon]] 처리의 정답"
        },
        {
         "id": "droplet",
-        "note_ko": "대상을 잡지 않아 통한다. 몬스터를 보내 발동하면 드래군은 체인 불가"
+        "note_ko": "대상을 잡지 않아 통한다. 몬스터를 보내 발동하면 [[Red-Eyes Dark Dragoon]]은 체인 불가"
        },
        {
         "id": "kaiju",
-        "note_ko": "대상 없이 릴리스하고 소환 규칙이라 드래군이 무효로 할 발동이 없다"
+        "note_ko": "대상 없이 릴리스하고 소환 규칙이라 [[Red-Eyes Dark Dragoon]]이 무효로 할 발동이 없다"
        },
        {
         "id": "super_poly",
@@ -1126,11 +1311,11 @@
        },
        {
         "id": "gamma",
-        "note_ko": "드래군 효과 발동에 체인해 무효. 파괴는 통하지 않아 몸은 남는다"
+        "note_ko": "[[Red-Eyes Dark Dragoon]] 효과 발동에 체인해 무효. 파괴는 통하지 않아 몸은 남는다"
        },
        {
         "id": "kurikara",
-        "note_ko": "드래군이 이번 턴 무효를 쓴 뒤에는 대상 없이 릴리스로 치울 수 있다"
+        "note_ko": "[[Red-Eyes Dark Dragoon]]이 이번 턴 무효를 쓴 뒤에는 대상 없이 릴리스로 치울 수 있다"
        }
       ],
       "bait_ko": "효과 파괴 불가라 [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]]의 파괴는 통하지 않는다. 미끼로 무효를 먼저 받아내면 쿠리카라·길항승부가 통한다"
@@ -1144,11 +1329,11 @@
       "answered_by": [
        {
         "id": "imperm",
-        "note_ko": "메인 페이즈 시작 시 미리 무효. 일리아 실비아가 체인해 포영을 무효로 할 수 있어 1:1 교환이 되기 쉽다. 어느 쪽이든 무효 1개는 사라진다"
+        "note_ko": "메인 페이즈 시작 시 미리 무효. [[Azamina Ilia Silvia]]가 체인해 포영을 무효로 할 수 있어 1:1 교환이 되기 쉽다. 어느 쪽이든 무효 1개는 사라진다"
        },
        {
         "id": "gamma",
-        "note_ko": "일리아 실비아 효과 발동에 체인해 무효. 비용 릴리스는 이미 끝나 몸도 사라진다"
+        "note_ko": "[[Azamina Ilia Silvia]] 효과 발동에 체인해 무효. 비용 릴리스는 이미 끝나 몸도 사라진다"
        },
        {
         "id": "droplet",
@@ -1173,7 +1358,7 @@
    },
    {
     "id": "after_droll_wfa",
-    "title_ko": "엘제트의 첫 서치 직후 드롤을 맞은 경우 (루시엘라 1장 정도)",
+    "title_ko": "[[Elzette of the White Forest]]의 첫 서치 직후 드롤을 맞은 경우 (루시엘라 1장 정도)",
     "after": {
      "handtrap": "droll",
      "line": "wfa",
@@ -1247,7 +1432,7 @@
    },
    {
     "id": "after_ash_elzette_azamina",
-    "title_ko": "성도 엘제트의 묘지 서치(기만)에 우라라를 맞은 경우 (디아벨·디아벨제·벤전스 축, 바롱은 패에 따라)",
+    "title_ko": "[[Elzette, Azamina of the White Forest]]의 묘지 서치(기만)에 우라라를 맞은 경우 (디아벨·디아벨제·[[Diabellstar Vengeance]] 축, [[Baronne de Fleur]]는 패에 따라)",
     "after": {
      "handtrap": "ash",
      "line": "wfa",
@@ -1308,7 +1493,7 @@
        },
        {
         "id": "gamma",
-        "note_ko": "벤전스 발동에 체인해 무효"
+        "note_ko": "[[Diabellstar Vengeance]] 발동에 체인해 무효"
        },
        {
         "id": "droplet",
@@ -1334,7 +1519,7 @@
       "card": "Diabellze the White Witch",
       "kind": "protection",
       "zone": "monster",
-      "timing_ko": "디아벨 몬스터(디아벨·디아벨제·디아벨스타·벤전스)가 2장 이상이면 상대 몬스터 전부 내 효과로 파괴되지 않는다(지속). [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]] 등 파괴 돌파가 통하지 않는다",
+      "timing_ko": "디아벨 몬스터(디아벨·디아벨제·디아벨스타·[[Diabellstar Vengeance]])가 2장 이상이면 상대 몬스터 전부 내 효과로 파괴되지 않는다(지속). [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]] 등 파괴 돌파가 통하지 않는다",
       "answered_by": [
        {
         "id": "dark_ruler",
@@ -1342,7 +1527,7 @@
        },
        {
         "id": "imperm",
-        "note_ko": "디아벨제를 무효로 하면 내성이 꺼진다. 바롱·일리아 실비아가 체인할 수 있다"
+        "note_ko": "디아벨제를 무효로 하면 내성이 꺼진다. [[Baronne de Fleur]]·[[Azamina Ilia Silvia]]가 체인할 수 있다"
        },
        {
         "id": "droplet",
@@ -1362,7 +1547,7 @@
        },
        {
         "id": "ultimate_slayer",
-        "note_ko": "덱 되돌리기라 내성과 무관. 디아벨제는 메인 덱 몬스터라 대상은 디아벨·바롱·일리아 실비아"
+        "note_ko": "덱 되돌리기라 내성과 무관. 디아벨제는 메인 덱 몬스터라 대상은 디아벨·[[Baronne de Fleur]]·[[Azamina Ilia Silvia]]"
        }
       ],
       "bait_ko": "",
@@ -1374,7 +1559,7 @@
    },
    {
     "id": "after_ash_deception",
-    "title_ko": "엔진: 기만의 아자미나 서치에 우라라를 맞은 경우 (드래군만 남음)",
+    "title_ko": "엔진: 기만의 아자미나 서치에 우라라를 맞은 경우 ([[Red-Eyes Dark Dragoon]]만 남음)",
     "after": {
      "handtrap": "ash",
      "line": "engine",
@@ -1390,15 +1575,15 @@
       "answered_by": [
        {
         "id": "dark_ruler",
-        "note_ko": "대상 없이 무효이고 몬스터 효과로 체인 불가. 드래군 처리의 정답"
+        "note_ko": "대상 없이 무효이고 몬스터 효과로 체인 불가. [[Red-Eyes Dark Dragoon]] 처리의 정답"
        },
        {
         "id": "droplet",
-        "note_ko": "대상을 잡지 않아 통한다. 몬스터를 보내 발동하면 드래군은 체인 불가"
+        "note_ko": "대상을 잡지 않아 통한다. 몬스터를 보내 발동하면 [[Red-Eyes Dark Dragoon]]은 체인 불가"
        },
        {
         "id": "kaiju",
-        "note_ko": "대상 없이 릴리스하고 소환 규칙이라 드래군이 무효로 할 발동이 없다"
+        "note_ko": "대상 없이 릴리스하고 소환 규칙이라 [[Red-Eyes Dark Dragoon]]이 무효로 할 발동이 없다"
        },
        {
         "id": "super_poly",
@@ -1406,11 +1591,11 @@
        },
        {
         "id": "gamma",
-        "note_ko": "드래군 효과 발동에 체인해 무효. 파괴는 통하지 않아 몸은 남는다"
+        "note_ko": "[[Red-Eyes Dark Dragoon]] 효과 발동에 체인해 무효. 파괴는 통하지 않아 몸은 남는다"
        },
        {
         "id": "kurikara",
-        "note_ko": "드래군이 이번 턴 무효를 쓴 뒤에는 대상 없이 릴리스로 치울 수 있다"
+        "note_ko": "[[Red-Eyes Dark Dragoon]]이 이번 턴 무효를 쓴 뒤에는 대상 없이 릴리스로 치울 수 있다"
        }
       ],
       "bait_ko": "효과 파괴 불가라 [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]]의 파괴는 통하지 않는다. 미끼로 무효를 먼저 받아내면 쿠리카라·길항승부가 통한다"
@@ -1421,22 +1606,22 @@
   "breakers": {
    "lightning_storm": {
     "rating": "weak",
-    "note_ko": "몬스터 모드는 디아벨제 내성(디아벨 2장 이상)과 드래군 파괴 불가에 막힌다. 마함 모드로 모리안·세트한 기만을 치우는 정도. 바롱·일리아 실비아에 무효될 수 있다",
+    "note_ko": "몬스터 모드는 디아벨제 내성(디아벨 2장 이상)과 [[Red-Eyes Dark Dragoon]] 파괴 불가에 막힌다. 마함 모드로 모리안·세트한 기만을 치우는 정도. [[Baronne de Fleur]]·[[Azamina Ilia Silvia]]에 무효될 수 있다",
     "rulings": [
      "supp-21149"
     ]
    },
    "evenly_matched": {
     "rating": "ok",
-    "note_ko": "뒷면 제외라 디아벨제 내성·드래군 파괴 불가·디아벨스타 부활을 모두 무시. 단 배틀 페이즈 종료 시라 메인 페이즈 견제는 따로 넘어야 하고, 바롱·일리아 실비아·드래군이 남아 있으면 무효된다. 남길 카드는 상대가 고른다"
+    "note_ko": "뒷면 제외라 디아벨제 내성·[[Red-Eyes Dark Dragoon]] 파괴 불가·디아벨스타 부활을 모두 무시. 단 배틀 페이즈 종료 시라 메인 페이즈 견제는 따로 넘어야 하고, [[Baronne de Fleur]]·[[Azamina Ilia Silvia]]·[[Red-Eyes Dark Dragoon]]이 남아 있으면 무효된다. 남길 카드는 상대가 고른다"
    },
    "dark_ruler": {
     "rating": "critical",
-    "note_ko": "견제 대부분이 필드 몬스터 효과라 몬스터 효과로 체인 불가 상태에서 일리아 실비아·바롱·디아벨·벤전스·디아벨제 내성·드래군을 전부 무효. 응수할 수 있는 것은 세트 함정(모리안·실베라) 정도. 이후 파괴로 디아벨스타를 보내면 묘지에서 부활하니 주의"
+    "note_ko": "견제 대부분이 필드 몬스터 효과라 몬스터 효과로 체인 불가 상태에서 [[Azamina Ilia Silvia]]·[[Baronne de Fleur]]·디아벨·[[Diabellstar Vengeance]]·디아벨제 내성·[[Red-Eyes Dark Dragoon]]을 전부 무효. 응수할 수 있는 것은 세트 함정(모리안·[[Sinful Spoils of Betrayal - Silvera]]) 정도. 이후 파괴로 디아벨스타를 보내면 묘지에서 부활하니 주의"
    },
    "harpie": {
     "rating": "weak",
-    "note_ko": "모리안과 세트한 기만을 치우지만 몬스터 견제가 남는다. 바롱·일리아 실비아가 무효로 응수할 수 있어 미끼 겸용. 제한 1"
+    "note_ko": "모리안과 세트한 기만을 치우지만 몬스터 견제가 남는다. [[Baronne de Fleur]]·[[Azamina Ilia Silvia]]가 무효로 응수할 수 있어 미끼 겸용. 제한 1"
    },
    "heavy_storm": {
     "rating": "weak",
@@ -1444,7 +1629,7 @@
    },
    "raigeki": {
     "rating": "weak",
-    "note_ko": "디아벨제 내성(디아벨 2장 이상)과 드래군 파괴 불가에 막힌다. 명왕결계파·포영으로 디아벨제를 먼저 무효로 한 뒤에만. 파괴된 디아벨스타는 부활한다",
+    "note_ko": "디아벨제 내성(디아벨 2장 이상)과 [[Red-Eyes Dark Dragoon]] 파괴 불가에 막힌다. 명왕결계파·포영으로 디아벨제를 먼저 무효로 한 뒤에만. 파괴된 디아벨스타는 부활한다",
     "rulings": [
      "supp-21149"
     ]
@@ -1455,11 +1640,11 @@
    },
    "kaiju": {
     "rating": "strong",
-    "note_ko": "릴리스라 디아벨제 내성·드래군 파괴 불가·대상 불가를 무시하고, 소환 규칙이라 무효로 받을 발동도 없다. 바롱이나 드래군에 쓴다. 디아벨스타를 릴리스하면 부활하니 피한다"
+    "note_ko": "릴리스라 디아벨제 내성·[[Red-Eyes Dark Dragoon]] 파괴 불가·대상 불가를 무시하고, 소환 규칙이라 무효로 받을 발동도 없다. [[Baronne de Fleur]]나 [[Red-Eyes Dark Dragoon]]에 쓴다. 디아벨스타를 릴리스하면 부활하니 피한다"
    },
    "kaiju_slumber": {
     "rating": "bad",
-    "note_ko": "파괴라 디아벨제 내성·드래군에 막히고 상대에게 괴수만 준다"
+    "note_ko": "파괴라 디아벨제 내성·[[Red-Eyes Dark Dragoon]]에 막히고 상대에게 괴수만 준다"
    },
    "cosmic": {
     "rating": "weak",
@@ -1471,23 +1656,23 @@
    },
    "super_poly": {
     "rating": "strong",
-    "note_ko": "체인 불가, 대상 없음. 드래군·바롱·디아벨 등을 내성과 무관하게 소재로 쓴다. 맞는 융합체가 엑스트라에 있어야 하고, 디아벨스타를 소재로 쓰면 부활한다. 제한 2"
+    "note_ko": "체인 불가, 대상 없음. [[Red-Eyes Dark Dragoon]]·[[Baronne de Fleur]]·디아벨 등을 내성과 무관하게 소재로 쓴다. 맞는 융합체가 엑스트라에 있어야 하고, 디아벨스타를 소재로 쓰면 부활한다. 제한 2"
    },
    "book_eclipse": {
     "rating": "ok",
-    "note_ko": "몬스터를 전부 뒷면으로 해 디아벨제 내성과 퀵 효과를 지운다. 발동에 바롱·일리아 실비아·드래군이 응수할 수 있어 무효를 먼저 소모시킨 뒤에. 엔드 페이즈에 상대가 드로우"
+    "note_ko": "몬스터를 전부 뒷면으로 해 디아벨제 내성과 퀵 효과를 지운다. 발동에 [[Baronne de Fleur]]·[[Azamina Ilia Silvia]]·[[Red-Eyes Dark Dragoon]]이 응수할 수 있어 무효를 먼저 소모시킨 뒤에. 엔드 페이즈에 상대가 드로우"
    },
    "kurikara": {
     "rating": "strong",
-    "note_ko": "이번 턴 효과를 쓴 상대 몬스터를 대상 없이 전부 릴리스. 바롱·디아벨·벤전스·드래군 무효를 받아낸 뒤 쓰면 내성을 무시하고 한꺼번에 치운다. 디아벨스타가 섞이면 부활한다"
+    "note_ko": "이번 턴 효과를 쓴 상대 몬스터를 대상 없이 전부 릴리스. [[Baronne de Fleur]]·디아벨·[[Diabellstar Vengeance]]·[[Red-Eyes Dark Dragoon]] 무효를 받아낸 뒤 쓰면 내성을 무시하고 한꺼번에 치운다. 디아벨스타가 섞이면 부활한다"
    },
    "ultimate_slayer": {
     "rating": "strong",
-    "note_ko": "몬스터 효과로 체인 불가. 바롱·디아벨(싱크로)이나 일리아 실비아(융합)를 덱으로 되돌리고 디아벨제 내성도 무시. 드래군은 대상 불가라 못 고르고, 디아벨제·벤전스·디아벨스타는 메인 덱 몬스터라 대상 밖"
+    "note_ko": "몬스터 효과로 체인 불가. [[Baronne de Fleur]]·디아벨(싱크로)이나 [[Azamina Ilia Silvia]](융합)를 덱으로 되돌리고 디아벨제 내성도 무시. [[Red-Eyes Dark Dragoon]]은 대상 불가라 못 고르고, 디아벨제·[[Diabellstar Vengeance]]·디아벨스타는 메인 덱 몬스터라 대상 밖"
    },
    "fallen_virtuous": {
     "rating": "weak",
-    "note_ko": "알바스 엔진 덱 전용. 파괴라 디아벨제 내성·드래군에 막힌다. 모리안 파괴 정도"
+    "note_ko": "알버스 엔진 덱 전용. 파괴라 디아벨제 내성·[[Red-Eyes Dark Dragoon]]에 막힌다. 모리안 파괴 정도"
    },
    "harmonia": {
     "rating": "weak",
@@ -1495,31 +1680,31 @@
    },
    "imperm": {
     "rating": "strong",
-    "note_ko": "패 발동은 내 필드가 비었을 때. 메인 페이즈 시작 시 디아벨제(내성 해제)나 바롱을 미리 무효. 바롱·일리아 실비아가 체인으로 무효로 할 수 있어 무효 1개를 소모시키는 효과도 있다. 드래군은 대상 불가라 못 고른다"
+    "note_ko": "패 발동은 내 필드가 비었을 때. 메인 페이즈 시작 시 디아벨제(내성 해제)나 [[Baronne de Fleur]]를 미리 무효. [[Baronne de Fleur]]·[[Azamina Ilia Silvia]]가 체인으로 무효로 할 수 있어 무효 1개를 소모시키는 효과도 있다. [[Red-Eyes Dark Dragoon]]은 대상 불가라 못 고른다"
    },
    "ogre": {
     "rating": "bad",
-    "note_ko": "파괴만 하고 효과는 처리된다. 디아벨제 내성과 드래군 파괴 불가에 파괴도 막힌다"
+    "note_ko": "파괴만 하고 효과는 처리된다. 디아벨제 내성과 [[Red-Eyes Dark Dragoon]] 파괴 불가에 파괴도 막힌다"
    },
    "gamma": {
     "rating": "strong",
-    "note_ko": "내 필드에 몬스터가 없을 때 바롱·일리아 실비아·디아벨·벤전스·드래군 효과 1개를 무효. 파괴는 내성에 막힐 수 있다. 제한 1"
+    "note_ko": "내 필드에 몬스터가 없을 때 [[Baronne de Fleur]]·[[Azamina Ilia Silvia]]·디아벨·[[Diabellstar Vengeance]]·[[Red-Eyes Dark Dragoon]] 효과 1개를 무효. 파괴는 내성에 막힐 수 있다. 제한 1"
    },
    "belle": {
     "rating": "ok",
-    "note_ko": "디아벨스타 묘지 부활, 실비 묘지 특소를 무효. 할로우드 아자미나 묘지 회수는 상대 턴 효과라 내 턴에는 나오지 않는다"
+    "note_ko": "디아벨스타 묘지 부활, 실비 묘지 특소를 무효. [[The Hallowed Azamina]] 묘지 회수는 상대 턴 효과라 내 턴에는 나오지 않는다"
    },
    "droplet": {
     "rating": "strong",
-    "note_ko": "대상 없이 무효 + 공격력 반감이라 드래군에도 통한다. 몬스터를 보내 발동하면 몬스터 견제 전부 체인 불가, 디아벨제를 포함하면 내성도 꺼진다. 함정도 보내면 모리안 체인까지 막는다"
+    "note_ko": "대상 없이 무효 + 공격력 반감이라 [[Red-Eyes Dark Dragoon]]에도 통한다. 몬스터를 보내 발동하면 몬스터 견제 전부 체인 불가, 디아벨제를 포함하면 내성도 꺼진다. 함정도 보내면 모리안 체인까지 막는다"
    },
    "ttt": {
     "rating": "ok",
-    "note_ko": "내 메인 페이즈에 바롱·일리아 실비아 등이 효과를 쓰면 발동 가능. 2드로우나 상대 몬스터 탈취로 받아친다"
+    "note_ko": "내 메인 페이즈에 [[Baronne de Fleur]]·[[Azamina Ilia Silvia]] 등이 효과를 쓰면 발동 가능. 2드로우나 상대 몬스터 탈취로 받아친다"
    },
    "spark": {
     "rating": "weak",
-    "note_ko": "상대가 그 턴 패·묘지에서 몬스터 효과를 써야 발동 가능(디아벨스타 부활, 실비 묘지 특소). 제외라 디아벨제 내성·디아벨스타 부활을 무시하지만 드래군은 대상 불가"
+    "note_ko": "상대가 그 턴 패·묘지에서 몬스터 효과를 써야 발동 가능(디아벨스타 부활, 실비 묘지 특소). 제외라 디아벨제 내성·디아벨스타 부활을 무시하지만 [[Red-Eyes Dark Dragoon]]은 대상 불가"
    },
    "ash": {
     "rating": "weak",

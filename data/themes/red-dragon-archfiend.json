@@ -361,11 +361,11 @@
   },
   {
    "id": "fallen",
-   "title_ko": "백룡의 낙윤(알바스 엔진) 1장 초동",
+   "title_ko": "[[Fallen of the White Dragon]](알버스 엔진) 1장 초동",
    "hand": [
     "Fallen of the White Dragon"
    ],
-   "note_ko": "MD 리스트 71%가 넣는 알바스 엔진 루트(MDM 'Fallen of the White Dragon SS 1/1.5CC'). 견제는 3개 정도로 적지만 다음 턴 자원이 많고, 특소 수가 6회라 증G·후와로스에 덜 아프다. [[Incredible Ecclesia, the Virtuous]]를 일반 소환해 덱의 [[Fallen of the White Dragon]]을 꺼내도 같은 흐름.",
+   "note_ko": "MD 리스트 71%가 넣는 알버스 엔진 루트(MDM 'Fallen of the White Dragon SS 1/1.5CC'). 견제는 3개 정도로 적지만 다음 턴 자원이 많고, 특소 수가 6회라 증G·후와로스에 덜 아프다. [[Incredible Ecclesia, the Virtuous]]를 일반 소환해 덱의 [[Fallen of the White Dragon]]을 꺼내도 같은 흐름.",
    "steps": [
     {
      "card": "Fallen of the White Dragon",
@@ -497,7 +497,7 @@
       "search",
       "place_from_deck"
      ],
-     "result_ko": "[[The Fallen & The Virtuous]] 세트. [[Incredible Ecclesia, the Virtuous]]는 묘지에 남겨 TFTV의 소생 모드를 켠다"
+     "result_ko": "[[The Fallen & The Virtuous]] 세트. [[Incredible Ecclesia, the Virtuous]]는 묘지에 남겨 [[The Fallen & The Virtuous]]의 소생 모드를 켠다"
     }
    ],
    "end_board": [
@@ -1027,7 +1027,7 @@
    "line": "power_vice",
    "step": 13,
    "target_card": "Bone Archfiend",
-   "timing_ko": "[[The Crimson King]]이 앞면이고 [[Soul Resonator]]가 묘지에 있는 동안(power_vice 5~25단계) 유령토끼·하르모니아·TFTV 같은 '파괴' 견제를 쓰는 것",
+   "timing_ko": "[[The Crimson King]]이 앞면이고 [[Soul Resonator]]가 묘지에 있는 동안(power_vice 5~25단계) 유령토끼·하르모니아·[[The Fallen & The Virtuous]] 같은 '파괴' 견제를 쓰는 것",
    "why_ko": "[[Soul Resonator]]가 묘지에 있고 [[The Crimson King]](또는 [[Red Dragon Archfiend]])이 앞면이면(power_vice 5~25단계) 상대 필드 카드의 효과 파괴는 소울을 제외하는 것으로 대신된다(1턴 1번). 유령토끼는 무효가 아니라서 파괴가 대체되면 그냥 손해다. 쓰려면 소울이 묘지에 가기 전(1~4단계)이나, 크림즌 킹이 소재로 묘지에 간 26단계 이후를 노린다. 상대가 이미 소울 대체를 쓴 턴이면 통한다.",
    "fallback_ko": "",
    "rulings": [
@@ -1039,22 +1039,22 @@
  "handtrap_summary": {
   "ash": {
    "rating": "critical",
-   "note_ko": "첫 서치([[Power Vice Dragon]] ②, 알바스 루트면 [[Fallen of the White Dragon]]의 에클레시아 덱 특소)에. 서치 지점이 8곳 넘게 있어 2번째 초동이 있으면 이어 간다.",
+   "note_ko": "첫 서치([[Power Vice Dragon]] ②, 알버스 루트면 [[Fallen of the White Dragon]]의 에클레시아 덱 특소)에. 서치 지점이 8곳 넘게 있어 2번째 초동이 있으면 이어 간다.",
    "rulings": [
     "supp-22511"
    ]
   },
   "maxxc": {
    "rating": "critical",
-   "note_ko": "풀 전개 특소 17회 안팎. 첫 특소에 던지면 크림즌 킹 근처에서 멈추게 된다. 알바스 루트(6회)로 바꾸면 덜 아프다."
+   "note_ko": "풀 전개 특소 17회 안팎. 첫 특소에 던지면 크림즌 킹 근처에서 멈추게 된다. 알버스 루트(6회)로 바꾸면 덜 아프다."
   },
   "fuwalos": {
    "rating": "strong",
-   "note_ko": "덱·엑스트라 특소만 세어 풀 전개 6드로우(싱크로 6번). 크림즌 킹 싱크로 전에 내 필드가 빈 상태로 발동. 알바스 루트는 3번."
+   "note_ko": "덱·엑스트라 특소만 세어 풀 전개 6드로우(싱크로 6번). 크림즌 킹 싱크로 전에 내 필드가 빈 상태로 발동. 알버스 루트는 3번."
   },
   "purulia": {
    "rating": "strong",
-   "note_ko": "패에서의 소환이 7번(파워 바이스·소울 일반 소환·본 데몬·다크니스·마그나무트·다크니스 추가 소환·비전). 파워 바이스 ①(패 특소) 발동에 체인한다. 알바스 루트는 4번."
+   "note_ko": "패에서의 소환이 7번(파워 바이스·소울 일반 소환·본 데몬·다크니스·마그나무트·다크니스 추가 소환·비전). 파워 바이스 ①(패 특소) 발동에 체인한다. 알버스 루트는 4번."
   },
   "meowls": {
    "rating": "ok",
@@ -1077,7 +1077,7 @@
   },
   "veiler": {
    "rating": "critical",
-   "note_ko": "상대 턴에만. 파워 바이스 서치(파워 바이스 대상) > 레드 라이징 소생. 알바스 루트는 낙윤의 에클레시아 특소. 내 턴 돌파에는 쓸 수 없다."
+   "note_ko": "상대 턴에만. 파워 바이스 서치(파워 바이스 대상) > 레드 라이징 소생. 알버스 루트는 낙윤의 에클레시아 특소. 내 턴 돌파에는 쓸 수 없다."
   },
   "ogre": {
    "rating": "strong",
@@ -1096,11 +1096,11 @@
   },
   "mourner": {
    "rating": "critical",
-   "note_ko": "파워 바이스 특소 직후(서치 유발까지 무효) 또는 [[Red Rising Dragon]] 싱크로 직후(소생 유발까지 무효). 알바스 루트는 낙윤 특소 직후."
+   "note_ko": "파워 바이스 특소 직후(서치 유발까지 무효) 또는 [[Red Rising Dragon]] 싱크로 직후(소생 유발까지 무효). 알버스 루트는 낙윤 특소 직후."
   },
   "crossout": {
    "rating": "weak",
-   "note_ko": "내 덱에 있는 카드만 선언 가능. 같은 하르모니아/마그나무트/알바스 엔진을 공유한다면 [[Fydraulis Harmonia]]·[[Fallen of the White Dragon]] 선언 정도."
+   "note_ko": "내 덱에 있는 카드만 선언 가능. 같은 하르모니아/마그나무트/알버스 엔진을 공유한다면 [[Fydraulis Harmonia]]·[[Fallen of the White Dragon]] 선언 정도."
   },
   "ttt": {
    "rating": "weak",
@@ -1120,7 +1120,7 @@
   },
   "purge": {
    "rating": "critical",
-   "note_ko": "우라라와 같이 파워 바이스 서치에(상대 필드에 파워 바이스가 있어 패에서 발동 가능). 알바스 루트는 크림즌 킹 서치. 묘지에 함정이 있으면 파워 바이스까지 파괴. 패에서 쓰면 이 듀얼 동안 어둠·물·화염 몬스터 효과 불가."
+   "note_ko": "우라라와 같이 파워 바이스 서치에(상대 필드에 파워 바이스가 있어 패에서 발동 가능). 알버스 루트는 크림즌 킹 서치. 묘지에 함정이 있으면 파워 바이스까지 파괴. 패에서 쓰면 이 듀얼 동안 어둠·물·화염 몬스터 효과 불가."
   },
   "spark": {
    "rating": "weak",
@@ -1180,7 +1180,7 @@
   },
   "mst": {
    "rating": "ok",
-   "note_ko": "알바스 루트의 [[Crimson Gaia]] 발동(소울이 아직 묘지에 없음)이나, 상대 엔드 페이즈의 세트된 [[King's Resonance]]에. 파워 바이스 루트의 헬가이아는 소울 대체 때문에 bad.",
+   "note_ko": "알버스 루트의 [[Crimson Gaia]] 발동(소울이 아직 묘지에 없음)이나, 상대 엔드 페이즈의 세트된 [[King's Resonance]]에. 파워 바이스 루트의 헬가이아는 소울 대체 때문에 bad.",
    "rulings": [
     "supp-19014",
     "supp-22580"
@@ -1214,7 +1214,7 @@
   "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=19014&request_locale=ja (KONAMI: ソウル・リゾネーター 補足情報)"
  ],
  "going_second": {
-  "summary_ko": "파워 바이스 풀 보드는 몬스터 효과 무효 2개([[Crimson Dragon Quetzalcoatl]], 조건부 [[Bystial Dis Pater]]), 앞면 카드 무효 1개([[Hot Red Dragon Archfiend Abyss]], 발동한 마법·함정도 대상), 몬스터 효과에 반응하는 [[The Crimson King]](6000 레드 데몬즈), 패의 [[Fydraulis Harmonia]]로 이루어진다. 몬스터 효과로 체인할 수 없는 카드([[Dark Ruler No More]]·[[Forbidden Droplet]]·[[Super Polymerization]]·괴수·[[Forbidden Crown]])에 매우 약하고, 일반·속공 마법 전체 제거는 어비스와 묘지 [[Soul Resonator]]의 파괴 대체(크림즌 킹이 앞면일 때) 때문에 약하다. 카드를 제외하는 수는 디스 파테르를 켜 주므로 마지막에. 알바스·증G 정지 보드는 견제가 적어 훨씬 쉽다.",
+  "summary_ko": "파워 바이스 풀 보드는 몬스터 효과 무효 2개([[Crimson Dragon Quetzalcoatl]], 조건부 [[Bystial Dis Pater]]), 앞면 카드 무효 1개([[Hot Red Dragon Archfiend Abyss]], 발동한 마법·함정도 대상), 몬스터 효과에 반응하는 [[The Crimson King]](6000 레드 데몬즈), 패의 [[Fydraulis Harmonia]]로 이루어진다. 몬스터 효과로 체인할 수 없는 카드([[Dark Ruler No More]]·[[Forbidden Droplet]]·[[Super Polymerization]]·괴수·[[Forbidden Crown]])에 매우 약하고, 일반·속공 마법 전체 제거는 어비스와 묘지 [[Soul Resonator]]의 파괴 대체(크림즌 킹이 앞면일 때) 때문에 약하다. 카드를 제외하는 수는 디스 파테르를 켜 주므로 마지막에. 알버스·증G 정지 보드는 견제가 적어 훨씬 쉽다.",
   "difficulty": "hard",
   "boards": [
    {
@@ -1662,7 +1662,7 @@
    },
    {
     "id": "fallen_full",
-    "title_ko": "알바스 엔진 루트 풀 전개",
+    "title_ko": "알버스 엔진 루트 풀 전개",
     "line": "fallen",
     "interruptions": [
      {
@@ -1770,7 +1770,7 @@
       "card": "The Fallen & The Virtuous",
       "kind": "removal",
       "zone": "st",
-      "timing_ko": "세트된 속공 마법: 엑스트라의 알바스 관련 융합을 보내고 앞면 카드 1장 파괴, 또는 묘지의 [[Incredible Ecclesia, the Virtuous]]가 있으므로 양쪽 묘지 몬스터 1장 소생",
+      "timing_ko": "세트된 속공 마법: 엑스트라의 알버스 관련 융합을 보내고 앞면 카드 1장 파괴, 또는 묘지의 [[Incredible Ecclesia, the Virtuous]]가 있으므로 양쪽 묘지 몬스터 1장 소생",
       "answered_by": [
        {
         "id": "cosmic",
@@ -1849,7 +1849,7 @@
    },
    "harpie": {
     "rating": "weak",
-    "note_ko": "파워 바이스 보드의 마함은 [[Crimson Gaia]]뿐. 알바스·증G 정지 보드에서는 [[King's Resonance]]·TFTV를 메인 페이즈 1 시작에 지운다(그때 특소 0회라 레조넌스는 체인 불가). 제한 1.",
+    "note_ko": "파워 바이스 보드의 마함은 [[Crimson Gaia]]뿐. 알버스·증G 정지 보드에서는 [[King's Resonance]]·[[The Fallen & The Virtuous]]를 메인 페이즈 1 시작에 지운다(그때 특소 0회라 [[King's Resonance]]은 체인 불가). 제한 1.",
     "rulings": [
      "supp-22580"
     ]
@@ -1879,7 +1879,7 @@
    },
    "cosmic": {
     "rating": "weak",
-    "note_ko": "풀 보드에는 대상이 헬가이아뿐. 알바스·증G 정지 보드에서 [[King's Resonance]]를 메인 페이즈 1 시작에 제외하면 ok."
+    "note_ko": "풀 보드에는 대상이 헬가이아뿐. 알버스·증G 정지 보드에서 [[King's Resonance]]를 메인 페이즈 1 시작에 제외하면 ok."
    },
    "mst": {
     "rating": "weak",
@@ -1921,7 +1921,7 @@
    },
    "imperm": {
     "rating": "ok",
-    "note_ko": "패에서 쓰면 어비스가 이 무한포영을 대상으로 무효한다. 어비스를 먼저 소모시킨 뒤 켓차코아틀에. 알바스 보드(어비스 없음)에서는 strong.",
+    "note_ko": "패에서 쓰면 어비스가 이 무한포영을 대상으로 무효한다. 어비스를 먼저 소모시킨 뒤 켓차코아틀에. 알버스 보드(어비스 없음)에서는 strong.",
     "rulings": [
      "supp-12078"
     ]
@@ -1948,7 +1948,7 @@
    },
    "belle": {
     "rating": "weak",
-    "note_ko": "내 턴에 막을 묘지 효과가 거의 없다. 알바스 보드의 [[King's Resonance]] 소생, TFTV 소생에는 쓸 수 있다."
+    "note_ko": "내 턴에 막을 묘지 효과가 거의 없다. 알버스 보드의 [[King's Resonance]] 소생, [[The Fallen & The Virtuous]] 소생에는 쓸 수 있다."
    },
    "ogre": {
     "rating": "weak",
@@ -2002,7 +2002,7 @@
    "필드 몬스터 효과를 처음 쓸 때 상대 패의 하르모니아(파괴 + 마룡 바운스)를 의식한다. 가장 중요한 몬스터 효과는 하르모니아를 받아낸 뒤에.",
    "번개·라이트닝 스톰은 크림즌 킹을 먼저 치우거나(괴수·초융합) 작은 파괴로 소울 대체를 소모시킨 뒤에.",
    "마그나무트·드루이드브룸·길항승부처럼 카드를 제외하는 수는 디스 파테르를 처리한 뒤로. 제외된 카드가 없으면 디스 파테르 ②는 발동할 수 없다.",
-   "[[King's Resonance]]가 보이는 보드(알바스·증G 정지형)는 메인 페이즈 1 시작, 특소 0회일 때 코즈믹·싸이크론·해피로 지운다. 특소를 5회 이상 하면 내 몬스터가 전부 뒷면이 된다."
+   "[[King's Resonance]]가 보이는 보드(알버스·증G 정지형)는 메인 페이즈 1 시작, 특소 0회일 때 코즈믹·싸이크론·해피로 지운다. 특소를 5회 이상 하면 내 몬스터가 전부 뒷면이 된다."
   ]
  }
 }

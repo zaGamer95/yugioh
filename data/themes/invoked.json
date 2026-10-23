@@ -556,6 +556,46 @@
    "fallback_ko": "초동이 15장 안팎이라 두 번째 초동(아이와스·신령검·폭주마법진)이 있으면 그대로 다시 시작한다. 상대가 신령검을 먼저 쓰면 덱 특소에 우라라를 써도 되지만, 가이드 권장대로 융합 마법 서치를 먼저 하는 상대가 많다."
   },
   {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "내 필드에 몬스터가 없을 때 [[Aleister the Reminiscent]]의 소환 유발(융합 마법 서치) 발동에 직접 체인",
+   "why_ko": "서치가 무효가 되고 [[Aleister the Reminiscent]]도 필드에서 파괴된다. [[Invocation - \"Sword\"]]도, 그 필드 소재도 없어 [[Invoked Sorath]]가 안 나온다. 1장 초동이면 사실상 턴 종료. 우라라보다 한 장을 더 벗긴다.",
+   "fallback_ko": "두 번째 초동([[Aleister the Invoker]]·[[Aiwass, Divine Spirit of the Law]]·[[Sacred Spirit Sword Aiwass]]·[[Magical Meltdown]])이 있으면 다시 시작한다. 감마·드라이버가 엔드 페이즈까지 내 필드에 남으므로 이번 턴 마루챠미(필드에 카드 없음 조건)는 더 쓸 수 없다."
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "inv15",
+   "step": 2,
+   "target_card": "Aleister the Invoker",
+   "timing_ko": "내 필드에 몬스터가 없을 때 [[Aleister the Invoker]]의 일반 소환 유발([[Invocation]] 서치)에 직접 체인",
+   "why_ko": "서치가 무효가 되고 알레이스터도 파괴된다. 패에는 소재용 화염/바람 몬스터만 남아 [[Invoked Sorath]]가 안 나온다.",
+   "fallback_ko": "파괴된 알레이스터는 묘지에 있으므로 다른 경로로 [[Invocation]]을 잡으면 묘지의 알레이스터를 제외해 융합 소재로 쓴다. 감마·드라이버가 필드에 남아 이번 턴 마루챠미는 못 쓴다."
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "[[Aleister the Reminiscent]]의 서치 효과 발동에 직접 체인(상대 필드에 추억의 알레이스터가 있어 패에서 발동 가능)",
+   "why_ko": "우라라와 같다. 서치가 무효가 되어 [[Invocation - \"Sword\"]]가 없고 [[Invoked Sorath]]가 안 나온다. '효과 무효'라서 [[Magical Meltdown]]의 '발동 무효 불가'와 상관없다.",
+   "fallback_ko": "코스트로 제외한 소환수는 그대로 제외된다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다. 초동 서치를 놓쳤다면 13단계 [[Invoked Baybarron]]의 [[Virakam, the Divine Spirit of Artifice]] 서치에."
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "inv15",
+   "step": 2,
+   "target_card": "Aleister the Invoker",
+   "timing_ko": "[[Aleister the Invoker]]의 일반 소환 유발([[Invocation]] 서치)에 직접 체인",
+   "why_ko": "우라라와 같다. [[Invocation]]이 없으면 패의 화염/바람 몬스터를 소재로 쓸 수 없어 [[Invoked Sorath]]가 안 나온다.",
+   "fallback_ko": "패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다. 두 번째 초동이 있으면 그쪽으로 다시 시작한다."
+  },
+  {
    "handtrap": "droll",
    "severity": "strong",
    "line": "rem1",
@@ -687,6 +727,115 @@
    ]
   },
   {
+   "handtrap": "purge",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 13,
+   "target_card": "Invoked Baybarron",
+   "timing_ko": "초동 서치에 못 썼다면: [[Invoked Baybarron]]의 [[Virakam, the Divine Spirit of Artifice]] 서치 유발에 직접 체인",
+   "why_ko": "비라캄이 안 들어와 [[Invocation - \"Sword\"]] 세트와 [[Hyperinvoked Aeon]] 체인 보호가 사라진다. 비라캄 전이라 이 응답은 무효당하지 않는다.",
+   "fallback_ko": "[[Magical Meltdown]]이 앞면이고 베이발론을 낸 크로울리 융합이 체인 1로 끝났다면, 그 소환 유발에는 체인할 수 없다. 그때는 10단계 장착된 아르테미스의 크로울리 서치에 쓴다.",
+   "rulings": [
+    "supp-12851",
+    "qa-23451"
+   ]
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "[[Aleister the Reminiscent]]의 소환 유발(서치) 발동에 [[Effect Veiler]]로 그 알레이스터를 지정. 직접 체인할 필요는 없다(체인 끝에 놓아도 된다)",
+   "why_ko": "필드에서 발동한 효과라 알레이스터가 무효가 되면 서치도 처리되지 않는다. 우라라와 같은 결과로 [[Invocation - \"Sword\"]]가 없다. 상대 메인 페이즈라 쓸 수 있다.",
+   "fallback_ko": "초동이 여러 장 보이면 4단계 소라트 소생에 아껴 두는 편이 안정적이다. 코스트로 제외한 소환수는 그대로 제외된다.",
+   "rulings": [
+    "qa-8398"
+   ]
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 4,
+   "target_card": "Invoked Sorath",
+   "timing_ko": "[[Invoked Sorath]]가 묘지의 추억의 알레이스터를 소생하는 퀵 효과를 발동했을 때 소라트에 [[Effect Veiler]]. 비라캄이 나오기 전이라 보호받지 않는다",
+   "why_ko": "포영과 같다. 소생이 무효가 되어 링크 1 → 엔디미온 → 크로울리 → 베이발론 → 비라캄 줄기가 끊긴다.",
+   "fallback_ko": "[[Invocation - \"Sword\"]] 묘지 효과로 추억의 알레이스터를 회수해 [[Aleister the Invoker of Madness]]를 만들고, 소라트 묘지 효과로 소재 2장 아이온(엑스트라 덱 제외 없음) 정도. 소라트가 묘지로 가면 무효가 풀려 묘지 효과는 쓸 수 있다.",
+   "rulings": [
+    "qa-8398"
+   ]
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "inv15",
+   "step": 2,
+   "target_card": "Aleister the Invoker",
+   "timing_ko": "[[Aleister the Invoker]]의 일반 소환 유발([[Invocation]] 서치)에 [[Effect Veiler]]로 그 알레이스터를 지정",
+   "why_ko": "서치가 처리되지 않아 [[Invocation]]이 없고, 패의 화염/바람 몬스터로 [[Invoked Sorath]]를 만들 수 없다.",
+   "fallback_ko": "놓쳤다면 7단계 소라트의 소생 퀵 효과에 소라트를 지정한다.",
+   "rulings": [
+    "qa-8398"
+   ]
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "inv15",
+   "step": 7,
+   "target_card": "Invoked Sorath",
+   "timing_ko": "[[Invoked Sorath]]가 묘지의 알레이스터를 소생하는 퀵 효과를 발동했을 때 소라트에 [[Effect Veiler]]",
+   "why_ko": "소생이 무효가 되어 엔디미온(레벨 4 마법사족 필요)이 안 나오고 크로울리 → 베이발론 → 비라캄 줄기가 끊긴다.",
+   "fallback_ko": "소라트가 링크 소재 등으로 묘지에 가면 무효가 풀려 묘지 융합은 남는다.",
+   "rulings": [
+    "qa-8398"
+   ]
+  },
+  {
+   "handtrap": "magnamhut",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 6,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "[[Invocation - \"Sword\"]]의 묘지 효과가 묘지의 추억의 알레이스터를 대상으로 발동했을 때, 상대 필드에 몬스터가 있으니 퀵으로 [[Bystial Magnamhut]]을 발동해 그 알레이스터(어둠)를 제외",
+   "why_ko": "대상이 사라져 [[Invocation - \"Sword\"]] 효과가 처리되지 않는다. 필드에는 소라트·아르테미스만 남고 레벨 4 마법사족이 없어 엔디미온 → 크로울리 → 베이발론 → 비라캄 줄기가 끊긴다. 비라캄 전이라 보호도 없다.",
+   "fallback_ko": "상대는 소라트 + 아르테미스로 [[Magistus Chorozo]]를 내고 소라트 묘지 융합으로 소재 3장 아이온(엑스트라 덱 3장 제외)까지는 갈 수 있다. 더 이른 4단계(소라트 소생의 대상에 체인해 같은 알레이스터를 제외)에 쓰면 아르테미스도 안 나와 소라트 1장에서 멈추므로, 그 타이밍을 잡을 수 있으면 그쪽이 낫다. 드루이드브룸과 같은 지점이다. 원조 [[Aleister the Invoker]]는 [[Invocation]] 묘지 효과로 제외 상태에서 회수되므로 함부로 제외하지 않는다. 마그나무트는 엔드 페이즈에 덱·묘지의 드래곤족 1장을 패에 넣는다."
+  },
+  {
+   "handtrap": "magnamhut",
+   "severity": "strong",
+   "line": "inv15",
+   "step": 4,
+   "target_card": "Aleister the Invoker",
+   "timing_ko": "[[Invocation]] 발동에 체인해 [[Bystial Magnamhut]]으로 묘지의 [[Aleister the Invoker]](어둠)를 제외(상대 필드에 아르테미스가 있어 퀵)",
+   "why_ko": "융합 처리 때 쓸 '알레이스터' 소재가 없어 [[Invoked Sorath]]가 안 나온다. 패에 알레이스터가 더 없으면 여기서 멈춘다.",
+   "fallback_ko": "[[Invocation]]이 묘지로 가면 묘지 효과로 제외된 알레이스터를 패로 회수할 수 있지만, 일반 소환권을 이미 써서 다시 서치하지 못하고 [[Invocation]]도 덱으로 돌아간다. 놓쳤다면 7단계 소라트가 그 알레이스터를 소생할 때 제외한다(그때는 [[Invocation]]이 이미 덱에 있어 회수도 없다)."
+  },
+  {
+   "handtrap": "magnamhut",
+   "severity": "strong",
+   "line": "droll",
+   "step": 6,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "[[Invocation - \"Sword\"]]의 묘지 효과가 추억의 알레이스터를 대상으로 발동했을 때 퀵으로 그 알레이스터를 제외",
+   "why_ko": "회수가 불발되어 추억의 알레이스터가 없으므로 [[Baronne de Fleur]](코로조 + 레벨 6)가 안 나온다.",
+   "fallback_ko": "소라트 + 아르테미스로 코로조를 내 소라트 묘지 융합 아이온은 남는다. 4단계 소라트 소생의 대상에 체인해 제외하면 그것까지 막힌다."
+  },
+  {
+   "handtrap": "spark",
+   "severity": "strong",
+   "line": "inv15",
+   "step": 6,
+   "target_card": "Invoked Sorath",
+   "timing_ko": "[[Aleister the Invoker]]를 패에서 버려 소라트 공격력을 올리는 효과(패의 몬스터 효과)를 발동했을 때, 그 체인에서 바로 [[Dominus Spark]]를 패에서 발동해 소라트를 제외",
+   "why_ko": "소라트가 제외되어 묘지의 알레이스터 소생(7단계)도, 소라트 묘지 융합도, [[Aleister the Invoker of Madness]] 링크 소재도 사라진다. 필드에는 아르테미스만 남는다.",
+   "fallback_ko": "내 묘지에 함정이 없으면 상대는 패에서 몬스터 1장을 특소할 수 있다(이 라인은 이 시점 패가 거의 없다). 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 못 쓴다.",
+   "rulings": [
+    "supp-22586"
+   ]
+  },
+  {
    "handtrap": "super_poly",
    "severity": "ok",
    "line": "rem1",
@@ -722,6 +871,99 @@
    "rulings": [
     "qa-111"
    ]
+  },
+  {
+   "handtrap": "spark",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 7,
+   "target_card": "Invoked Sorath",
+   "timing_ko": "[[Aleister the Reminiscent]]가 소라트를 대상으로 패에서 자체 특소 효과를 발동했을 때 체인해 [[Dominus Spark]]로 소라트를 제외",
+   "why_ko": "소라트가 제외되어 [[Aleister the Invoker of Madness]](소라트 + 베이발론)와 소라트 묘지 융합([[Hyperinvoked Aeon]]·[[Invoked Oceanus]])이 사라진다.",
+   "fallback_ko": "엔디미온 → 크로울리 → 베이발론 → 비라캄과 세트 소환마술－「검」은 이어지므로 하프 보드다. 내 묘지에 함정이 없으면 상대가 패에서 1장 특소할 수 있다. 대상이 사라진 뒤 추억의 알레이스터 자체 특소가 그대로 되는지는 확인하지 못했다.",
+   "rulings": [
+    "supp-22586"
+   ]
+  },
+  {
+   "handtrap": "nibiru",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 7,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "5번째 소환(일반 소환·소라트·소생·아르테미스 다음, [[Aleister the Reminiscent]] 패 특소) 직후, 엔디미온 링크 전",
+   "why_ko": "소라트·아르테미스·추억의 알레이스터가 릴리스되어 엔디미온 → 크로울리 → 베이발론 → 비라캄 줄기가 통째로 사라진다.",
+   "fallback_ko": "릴리스된 소라트가 묘지에 가므로 소라트 묘지 효과로 [[Invoked Raidjin]]과 소재 2장 아이온(엑스트라 덱 제외 없음)은 남는다. 상대 필드에 생긴 토큰도 소재로 쓸 수 있다."
+  },
+  {
+   "handtrap": "nibiru",
+   "severity": "ok",
+   "line": "inv15",
+   "step": 8,
+   "target_card": "Endymion, the Crescent Magistus",
+   "timing_ko": "5번째 소환(엔디미온 링크 소환) 직후, 엔디미온의 장착 유발에 체인",
+   "why_ko": "엔디미온·소라트가 릴리스되어 장착(아르테미스 서치) → 크로울리 → 베이발론 → 비라캄이 끊긴다.",
+   "fallback_ko": "소라트 묘지 효과로 소라트 + 묘지의 알레이스터를 제외해 [[Invoked Mechaba]] 1장은 남는다."
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 3,
+   "target_card": "Invoked Sorath",
+   "timing_ko": "[[Invocation - \"Sword\"]]로 [[Invoked Sorath]]가 융합 소환된 직후 [[Ghost Mourner & Moonlit Chill]]로 소라트를 지정",
+   "why_ko": "소라트 효과가 이번 턴 무효라 4단계 소생 퀵 효과를 쓸 수 없다. 포영과 같은 하프 보드.",
+   "fallback_ko": "소라트가 링크 소재 등으로 필드를 떠나면 묘지 효과는 쓸 수 있고, 그때 상대가 소라트 원래 공격력만큼 데미지를 받는다. [[Magical Meltdown]]이 앞면이고 그 융합이 체인 1로 끝났다면 소환 성공 시점에 발동할 수 없다.",
+   "rulings": [
+    "supp-12851"
+   ]
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 12,
+   "target_card": "Invoked Baybarron",
+   "timing_ko": "크로울리 융합으로 [[Invoked Baybarron]]이 특소되었을 때 베이발론을 지정. 베이발론의 서치 유발과 같은 타이밍에 발동해 그 위(체인 2)에 오므로 서치가 무효로 처리된다",
+   "why_ko": "비라캄이 안 들어와 세트 소환마술－「검」과 아이온 보호가 사라진다(우라라 13단계와 같은 결과).",
+   "fallback_ko": "[[Magical Meltdown]]이 앞면이고 크로울리 융합이 체인 1로 끝났다면 소환 성공 시점에 발동할 수 없다.",
+   "rulings": [
+    "supp-12851",
+    "qa-23451"
+   ]
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "ok",
+   "line": "inv15",
+   "step": 4,
+   "target_card": "Invoked Sorath",
+   "timing_ko": "[[Invocation]]으로 [[Invoked Sorath]]가 융합 소환된 직후 소라트를 지정",
+   "why_ko": "7단계 소생 퀵 효과를 이번 턴 쓸 수 없어 엔디미온 → 크로울리 줄기가 끊긴다.",
+   "fallback_ko": "[[Magical Meltdown]]이 앞면이고 그 융합이 체인 1로 끝났다면 발동할 수 없다. 12단계 베이발론 특소 직후도 후보.",
+   "rulings": [
+    "supp-12851"
+   ]
+  },
+  {
+   "handtrap": "purulia",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 1,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "상대 스탠바이 페이즈 등 일반 소환 전에 미리 발동(내 필드에 카드가 없을 때)",
+   "why_ko": "일반 소환과 추억의 알레이스터(7단계)·크로울리(11단계)·비라캄(14단계)의 패 특소로 4장. 늦을수록 덜 뽑는다.",
+   "fallback_ko": "전개 자체는 멈추지 않는다. 엔드 페이즈에 내 패가 상대 필드 카드 수 + 6장을 넘으면 넘는 만큼 덱으로 돌린다."
+  },
+  {
+   "handtrap": "purulia",
+   "severity": "ok",
+   "line": "inv15",
+   "step": 1,
+   "target_card": "Aleister the Invoker",
+   "timing_ko": "상대 스탠바이 페이즈 등 일반 소환 전에 미리 발동",
+   "why_ko": "일반 소환, 크로울리·비라캄의 패 특소로 3장.",
+   "fallback_ko": "전개는 멈추지 않는다."
   },
   {
    "handtrap": "imperm",
@@ -777,7 +1019,7 @@
   },
   "purulia": {
    "rating": "ok",
-   "note_ko": "일반 소환·추억의 알레이스터·크로울리·비라캄 패 특소로 3~4장. 전개 자체는 안 멈춤"
+   "note_ko": "상대 일반 소환 전에 미리. 일반 소환과 추억의 알레이스터·크로울리·비라캄의 패 특소로 3~4장. 전개 자체는 안 멈춤"
   },
   "meowls": {
    "rating": "weak",
@@ -793,7 +1035,7 @@
   },
   "veiler": {
    "rating": "strong",
-   "note_ko": "포영과 같은 지점(소라트 소생). 상대 메인 페이즈라 선공 1턴에도 사용 가능"
+   "note_ko": "추억의 알레이스터·알레이스터의 서치 유발 또는 비라캄 전의 소라트 소생 퀵 효과에. 체인 끝에 놓아도 된다. 상대 메인 페이즈라 상대 1턴에 사용 가능"
   },
   "ogre": {
    "rating": "ok",
@@ -809,7 +1051,7 @@
   },
   "mourner": {
    "rating": "ok",
-   "note_ko": "첫 소라트 특소 직후 효과 무효(폭주마법진으로 융합한 경우 체인 불가)",
+   "note_ko": "첫 소라트 융합 소환 직후 소라트 지정(소생 봉쇄) 또는 베이발론 특소 직후(비라캄 서치 무효). 폭주마법진으로 체인 1 융합을 끝냈다면 발동 불가",
    "rulings": [
     "supp-12851"
    ]
@@ -828,7 +1070,7 @@
   },
   "nibiru": {
    "rating": "ok",
-   "note_ko": "5번째 소환(추억의 알레이스터 재특소) 직후가 깔끔. 묘지 소라트로 소재 2장 아이온은 남는다"
+   "note_ko": "5번째 소환 직후(rem1은 추억의 알레이스터 패 특소, inv15는 엔디미온 링크). 묘지 소라트로 소재 2장 아이온·메르카바는 남는다"
   },
   "impulse": {
    "rating": "strong",
@@ -839,19 +1081,19 @@
   },
   "purge": {
    "rating": "strong",
-   "note_ko": "우라라와 같은 서치 지점. 폭주마법진과 무관"
+   "note_ko": "우라라와 같은 서치 지점(초동 알레이스터 서치, 놓치면 베이발론의 비라캄 서치). 폭주마법진과 무관"
   },
   "spark": {
    "rating": "ok",
-   "note_ko": "추억의 알레이스터·크로울리·비라캄 패 효과를 쓴 턴에 소라트 등 허브 제외"
+   "note_ko": "패의 몬스터 효과(알레이스터 버리기·추억의 알레이스터 특소)에 체인해 소라트 제외. inv15에서는 6단계에 쓰면 사실상 정지"
   },
   "magnamhut": {
-   "rating": "ok",
-   "note_ko": "상대 필드에 몬스터가 있으면 퀵. 묘지의 소라트(빛)를 제외해 묘지 융합(아이온)을 지움"
+   "rating": "strong",
+   "note_ko": "소환마술－「검」 묘지 회수·소라트 소생의 대상인 추억의 알레이스터를 퀵으로 제외. 원조 알레이스터는 소환마술 발동에 체인해 묘지에서 지운다"
   },
   "gamma": {
    "rating": "strong",
-   "note_ko": "내 필드가 비었을 때 초동 알레이스터 서치에. 무효 후 파괴라 알레이스터 본체도 사라짐"
+   "note_ko": "내 필드에 몬스터가 없을 때 초동 알레이스터 서치에. 무효 후 파괴라 알레이스터 본체도 사라짐"
   },
   "harmonia": {
    "rating": "strong",
