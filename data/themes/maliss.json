@@ -629,5 +629,525 @@
   "https://raw.githubusercontent.com/ProjectIgnis/windbot/master/Game/AI/Decks/MalissExecutor.cs (WindBot Maliss AI 실행기: 루트·폴백 확인용)",
   "https://www.masterduelmeta.com/api/v1/cards (Master Duel Meta 카드 API: MD 영문 텍스트·제한 상태)",
   "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=20588&request_locale=ko (공식 카드 DB: M∀LICE IN UNDERGROUND 한국어명)"
- ]
+ ],
+ "going_second": {
+  "summary_ko": "엔드 보드는 [[Allied Code Talker @Ignister]]의 발동 무효+제외 1개, [[Maliss Q Hearts Crypter]]의 무효되지 않는 프리 체인 제외 1개, 세트 [[Maliss C GWC-06]]의 소생, 그리고 '제외되면 부활'하는 링크들. 올라이드는 아무 발동에나 반응하니 미끼로 먼저 소모시키고, 링크는 제외가 아니라 파괴·릴리스·덱 되돌리기로 치운다. 마함은 1장뿐이라 하피·태풍은 약하고, 체인 불가 제거(괴수·초융합·아르테미트 슬레이·쿠리카라·명왕결계파)가 특히 강하다.",
+  "difficulty": "hard",
+  "boards": [
+   {
+    "id": "full",
+    "title_ko": "풀 전개 (도마우스 1장 초동 → 올라이드·하트 크립터·화이트 바인더 + GWC-06)",
+    "line": "dormouse",
+    "interruptions": [
+     {
+      "id": "allied",
+      "card": "Allied Code Talker @Ignister",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "내가 카드·효과를 발동할 때 1회: 링크처의 링크 몬스터([[Maliss Q White Binder]]·[[Maliss Q Hearts Crypter]]) 1장을 릴리스해 발동 무효+제외. 릴리스는 묘지행이라 제외 부활은 없음",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "특소 절차라 '발동'이 아니어서 올라이드가 무효할 수 없음. 릴리스라 묘지행"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. 올라이드·하트 크립터가 모두 어둠 사이버스라 [[Garura, Wings of Resonant Life]](같은 종족·속성) 같은 융합체로 2장을 한 번에 소재로 쓸 수 있음. 제한 2"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가. 내 엑스트라의 링크를 보내 올라이드를 엑스트라 덱으로 되돌림(제외가 아니라 부활 없음)"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가라 무효된 채 남음"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 발동하면 올라이드가 체인할 수 없음. 함정도 같이 보내면 [[Maliss C GWC-06]] 체인도 봉쇄"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "올라이드 발동을 무효+파괴(내 필드에 몬스터가 없을 때). 올라이드는 1턴 1번이라 감마에 다시 대응 못 함"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 시작에 대상으로 잡으면 올라이드가 포영 자체를 무효해도 견제를 소모. 응수하지 않으면 그대로 무효"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "올라이드가 효과를 쓴 뒤 패에서 특소 절차로 릴리스(체인 불가, 묘지행)"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "올라이드 발동 시 파괴(묘지행). 무효+제외는 그대로 처리되므로 미끼에 체인해서"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "올라이드가 무효하면 견제를 소모시키는 미끼. 무효를 이미 쓴 뒤라면 링크 전부(공격 표시) 파괴"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "라이트닝 스톰과 같음. 미끼를 먼저 쓴 뒤라면 링크 전부 파괴(묘지행, 부활 없음)"
+       }
+      ],
+      "bait_ko": "올라이드는 '아무 발동'에나 반응한다. 버려도 되는 카드(포영·미끼 마법·소환 유발 효과)로 먼저 무효를 받아내고 본 카드를 쓴다. 링크처의 링크 몬스터를 먼저 치우면 릴리스할 코스트가 없어 아예 못 쓴다."
+     },
+     {
+      "id": "crypter",
+      "card": "Maliss Q Hearts Crypter",
+      "kind": "banish",
+      "zone": "monster",
+      "timing_ko": "퀵 1회: 제외된 M∀LICE 카드 1장을 덱으로 되돌리고 필드 카드 1장 제외. 링크처에 몬스터가 있으면(보통 위 화살표가 엑스트라 몬스터 존의 올라이드를 가리킴) 발동·효과가 무효되지 않음. 자신이나 화이트 바인더를 제외해 전체 제거를 피하고 부활시킬 수도 있음. 제외되면 900LP로 공격력 2배 부활",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "체인 없이 릴리스. 묘지행이라 부활 없음"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "올라이드와 함께 어둠 2장 융합 소재로. 체인 불가"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가, 엑스트라 덱으로 돌려 부활 없음"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "발동 전에 효과를 무효하면 퀵 효과를 못 씀(링크처 보호는 '발동·효과 무효'에 대한 것). 체인 불가"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 발동하면 체인 불가. 명왕결계파와 같은 '발동 전 무효'"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "효과를 쓴 뒤 릴리스(체인 불가)"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "파괴라 묘지행. 단 체인해서 자신이나 화이트 바인더를 제외해 부활로 피할 수 있음"
+       }
+      ],
+      "bait_ko": "링크처 보호 때문에 포영·감마로 발동을 무효하는 건 안 된다. 올라이드를 먼저 치우면 보호가 풀리는 배치가 많다."
+     },
+     {
+      "id": "gwc06",
+      "card": "Maliss C GWC-06",
+      "kind": "recursion",
+      "zone": "st",
+      "timing_ko": "세트 함정. 제외·묘지의 M∀LICE 몬스터 1장 특소(+LP 회복). 링크를 되살리면 소환 유발이 다시 돌고, [[Maliss P White Rabbit]]를 되살리면 [[Maliss C TB-11]]을 세트해 세트한 턴 발동으로 이어 전개할 수 있음",
+      "answered_by": [
+       {
+        "id": "harpie",
+        "note_ko": "유일한 세트 마함이라 1장 처리와 같음. 제한 1"
+       },
+       {
+        "id": "heavy_storm",
+        "note_ko": "1장 처리와 같음. 제한 1"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "마함 모드는 이 1장만. 보통은 몬스터 모드가 나음"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "제외해도 함정이라 부활 효과 없음. 단 올라이드가 무효할 수 있으니 미끼로도 쓸 수 있음"
+       },
+       {
+        "id": "mst",
+        "note_ko": "1장 처리. 올라이드 무효 미끼로도"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "특소 효과라 무효. 단 함정 발동이라 올라이드가 남아 있으면 무효당함"
+       }
+      ]
+     },
+     {
+      "id": "binder_float",
+      "card": "Maliss Q White Binder",
+      "kind": "recursion",
+      "zone": "monster",
+      "timing_ko": "제외되면 900LP로 자신 특소+1드로우, 특소 시 묘지 카드 3장까지 제외(내 묘지 효과 카드를 지움). 올라이드의 릴리스 코스트이기도 함",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 묘지행. 바인더를 치우면 올라이드가 릴리스할 링크가 줄어듦"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "파괴라 묘지행. 제외만 피하면 부활하지 않음"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "공격 표시 링크라 몬스터 모드로 파괴. 내 필드에 앞면 카드가 없을 때"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "엑스트라 덱으로 되돌려 부활 없음"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "제외 상태에서의 자신 특소에 체인해 무효(1턴 1번이라 다시 못 씀)"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "after_imperm_dormouse",
+    "title_ko": "도마우스 덱 제외 효과에 포영을 맞은 경우",
+    "after": {
+     "handtrap": "imperm",
+     "line": "dormouse",
+     "step": 2
+    },
+    "interruptions": [
+     {
+      "id": "linguriboh_i",
+      "card": "Linguriboh",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "패에 따라 견제가 아예 없을 수도 있음. 남은 도마우스로 링크 1을 만든 경우: 내가 함정을 발동했을 때 자신을 릴리스해 무효+제외. 함정을 쓰지 않으면 견제가 아님",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "체인 불가로 미리 무효"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "링크 1이라 공격 표시. 파괴"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "몬스터 모드로 파괴"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "after_maxxc",
+    "title_ko": "G를 맞고 화이트 바인더 + 세트 함정에서 멈춘 경우",
+    "after": {
+     "handtrap": "maxxc",
+     "line": "dormouse",
+     "step": 3
+    },
+    "interruptions": [
+     {
+      "id": "gwc06_m",
+      "card": "Maliss C GWC-06",
+      "kind": "recursion",
+      "zone": "st",
+      "timing_ko": "세트 함정. 제외·묘지의 M∀LICE 몬스터 1장 특소(+LP 회복). 링크를 되살리면 소환 유발이 다시 돌고, [[Maliss P White Rabbit]]를 되살리면 [[Maliss C TB-11]]을 세트해 세트한 턴 발동으로 이어 전개할 수 있음",
+      "answered_by": [
+       {
+        "id": "harpie",
+        "note_ko": "유일한 세트 마함이라 1장 처리와 같음. 제한 1"
+       },
+       {
+        "id": "heavy_storm",
+        "note_ko": "1장 처리와 같음. 제한 1"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "마함 모드는 이 1장만. 보통은 몬스터 모드가 나음"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "제외해도 함정이라 부활 효과 없음. 단 올라이드가 무효할 수 있으니 미끼로도 쓸 수 있음"
+       },
+       {
+        "id": "mst",
+        "note_ko": "1장 처리. 올라이드 무효 미끼로도"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "특소 효과라 무효. 단 함정 발동이라 올라이드가 남아 있으면 무효당함"
+       }
+      ]
+     },
+     {
+      "id": "binder_float_m",
+      "card": "Maliss Q White Binder",
+      "kind": "recursion",
+      "zone": "monster",
+      "timing_ko": "제외되면 900LP로 자신 특소+1드로우, 특소 시 묘지 카드 3장까지 제외(내 묘지 효과 카드를 지움). 올라이드의 릴리스 코스트이기도 함",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 묘지행. 바인더를 치우면 올라이드가 릴리스할 링크가 줄어듦"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "파괴라 묘지행. 제외만 피하면 부활하지 않음"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "공격 표시 링크라 몬스터 모드로 파괴. 내 필드에 앞면 카드가 없을 때"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "엑스트라 덱으로 되돌려 부활 없음"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "제외 상태에서의 자신 특소에 체인해 무효(1턴 1번이라 다시 못 씀)"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "after_ash_wicckid",
+    "title_ko": "위키드 서치에 우라라 → 올라이드 없이 마무리",
+    "after": {
+     "handtrap": "ash",
+     "line": "dormouse",
+     "step": 15
+    },
+    "interruptions": [
+     {
+      "id": "crypter_w",
+      "card": "Maliss Q Hearts Crypter",
+      "kind": "banish",
+      "zone": "monster",
+      "timing_ko": "올라이드가 없어 링크처에 몬스터가 없는 배치면 포영·감마로도 무효 가능. 퀵 1회: 제외된 M∀LICE 카드 1장을 덱으로 되돌리고 필드 카드 1장 제외. 링크처에 몬스터가 있으면(보통 위 화살표가 엑스트라 몬스터 존의 올라이드를 가리킴) 발동·효과가 무효되지 않음. 자신이나 화이트 바인더를 제외해 전체 제거를 피하고 부활시킬 수도 있음. 제외되면 900LP로 공격력 2배 부활",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "체인 없이 릴리스. 묘지행이라 부활 없음"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "올라이드와 함께 어둠 2장 융합 소재로. 체인 불가"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가, 엑스트라 덱으로 돌려 부활 없음"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "발동 전에 효과를 무효하면 퀵 효과를 못 씀(링크처 보호는 '발동·효과 무효'에 대한 것). 체인 불가"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 발동하면 체인 불가. 명왕결계파와 같은 '발동 전 무효'"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "효과를 쓴 뒤 릴리스(체인 불가)"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "파괴라 묘지행. 단 체인해서 자신이나 화이트 바인더를 제외해 부활로 피할 수 있음"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "링크처에 몬스터가 없을 때만. 링크처에 화이트 바인더 등이 있으면 무효 불가"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "링크처에 몬스터가 없고 내 몬스터가 없을 때만"
+       }
+      ],
+      "bait_ko": "링크처 보호 때문에 포영·감마로 발동을 무효하는 건 안 된다. 올라이드를 먼저 치우면 보호가 풀리는 배치가 많다."
+     },
+     {
+      "id": "gwc06_w",
+      "card": "Maliss C GWC-06",
+      "kind": "recursion",
+      "zone": "st",
+      "timing_ko": "세트 함정. 제외·묘지의 M∀LICE 몬스터 1장 특소(+LP 회복). 링크를 되살리면 소환 유발이 다시 돌고, [[Maliss P White Rabbit]]를 되살리면 [[Maliss C TB-11]]을 세트해 세트한 턴 발동으로 이어 전개할 수 있음",
+      "answered_by": [
+       {
+        "id": "harpie",
+        "note_ko": "유일한 세트 마함이라 1장 처리와 같음. 제한 1"
+       },
+       {
+        "id": "heavy_storm",
+        "note_ko": "1장 처리와 같음. 제한 1"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "마함 모드는 이 1장만. 보통은 몬스터 모드가 나음"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "제외해도 함정이라 부활 효과 없음. 단 올라이드가 무효할 수 있으니 미끼로도 쓸 수 있음"
+       },
+       {
+        "id": "mst",
+        "note_ko": "1장 처리. 올라이드 무효 미끼로도"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "특소 효과라 무효. 단 함정 발동이라 올라이드가 남아 있으면 무효당함"
+       }
+      ]
+     },
+     {
+      "id": "binder_float_w",
+      "card": "Maliss Q White Binder",
+      "kind": "recursion",
+      "zone": "monster",
+      "timing_ko": "제외되면 900LP로 자신 특소+1드로우, 특소 시 묘지 카드 3장까지 제외(내 묘지 효과 카드를 지움). 올라이드의 릴리스 코스트이기도 함",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 묘지행. 바인더를 치우면 올라이드가 릴리스할 링크가 줄어듦"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "파괴라 묘지행. 제외만 피하면 부활하지 않음"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "공격 표시 링크라 몬스터 모드로 파괴. 내 필드에 앞면 카드가 없을 때"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "엑스트라 덱으로 되돌려 부활 없음"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "제외 상태에서의 자신 특소에 체인해 무효(1턴 1번이라 다시 못 씀)"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "breakers": {
+   "lightning_storm": {
+    "rating": "strong",
+    "note_ko": "링크는 전부 공격 표시라 몬스터 모드로 올라이드·하트 크립터·화이트 바인더를 파괴(묘지행, 부활 없음). 올라이드 무효를 먼저 소모시킨 뒤에. 하트 크립터가 체인해 자신·바인더를 제외해 부활로 피할 수 있음"
+   },
+   "raigeki": {
+    "rating": "strong",
+    "note_ko": "라이트닝 스톰 몬스터 모드와 같음. 앞면 카드가 있어도 쓸 수 있음. 올라이드 미끼가 먼저 필요"
+   },
+   "dark_hole": {
+    "rating": "ok",
+    "note_ko": "번개와 같지만 내 몬스터도 파괴. 미끼가 필요하고, 내 필드를 비운 채로 써야 해서 순서가 까다로움"
+   },
+   "kaiju_slumber": {
+    "rating": "ok",
+    "note_ko": "발동이라 올라이드가 무효할 수 있음. 미끼 뒤라면 전부 파괴"
+   },
+   "kaiju": {
+    "rating": "strong",
+    "note_ko": "발동이 아니라 올라이드가 무효 못 함. 올라이드를 릴리스하면 하트 크립터 보호도 풀리는 배치가 많음"
+   },
+   "super_poly": {
+    "rating": "strong",
+    "note_ko": "체인 불가. 올라이드+하트 크립터(둘 다 어둠 사이버스)를 [[Garura, Wings of Resonant Life]](같은 종족·속성) 같은 융합체 소재로 한 번에. 묘지의 크립터를 GWC-06으로 되살리는 것은 주의. 제한 2"
+   },
+   "ultimate_slayer": {
+    "rating": "strong",
+    "note_ko": "몬스터 효과로 체인 불가, 링크를 엑스트라 덱으로. 올라이드부터"
+   },
+   "kurikara": {
+    "rating": "strong",
+    "note_ko": "올라이드·하트 크립터가 효과를 쓴 뒤 둘 다 릴리스(특소 절차라 체인 불가, 묘지행)"
+   },
+   "dark_ruler": {
+    "rating": "strong",
+    "note_ko": "올라이드·하트 크립터를 체인 없이 발동 전에 무효. GWC-06과 그걸로 나오는 몬스터는 남음"
+   },
+   "evenly_matched": {
+    "rating": "ok",
+    "note_ko": "발동하면 올라이드가 무효할 수 있음. 뒷면 제외라도 M∀LICE의 '제외된 경우' 부활이 남을 수 있어 확실하지 않음"
+   },
+   "harpie": {
+    "rating": "weak",
+    "note_ko": "마함은 GWC-06 1장뿐"
+   },
+   "heavy_storm": {
+    "rating": "weak",
+    "note_ko": "마함은 GWC-06 1장뿐"
+   },
+   "cosmic": {
+    "rating": "weak",
+    "note_ko": "GWC-06 1장. 올라이드 무효를 끌어내는 미끼로는 쓸 만함"
+   },
+   "mst": {
+    "rating": "weak",
+    "note_ko": "GWC-06 1장 또는 미끼"
+   },
+   "book_eclipse": {
+    "rating": "bad",
+    "note_ko": "링크 몬스터는 뒷면으로 할 수 없음"
+   },
+   "fallen_virtuous": {
+    "rating": "weak",
+    "note_ko": "앞면 1장 파괴(묘지행)지만 올라이드가 무효. 알바스 엔진이 있을 때 미끼 정도"
+   },
+   "harmonia": {
+    "rating": "ok",
+    "note_ko": "싱크로 덱 전용. 올라이드·크립터 효과 발동에 반응해 파괴(묘지행)"
+   },
+   "imperm": {
+    "rating": "strong",
+    "note_ko": "메인 페이즈 시작에 올라이드를 대상으로. 올라이드가 포영을 무효하면 무효 1개 소모, 응수하지 않으면 무효. 하트 크립터는 링크처 보호 때문에 미리 무효할 수 있는지 구축에 따라 다름"
+   },
+   "gamma": {
+    "rating": "strong",
+    "note_ko": "올라이드 발동을 무효+파괴(내 몬스터가 없을 때). 링크처 보호가 있는 하트 크립터에는 안 됨"
+   },
+   "droplet": {
+    "rating": "strong",
+    "note_ko": "몬스터+함정을 보내 발동하면 올라이드·하트 크립터를 체인 없이 무효하고 GWC-06 체인도 막음. 2장 이상 비용"
+   },
+   "ogre": {
+    "rating": "ok",
+    "note_ko": "올라이드·크립터 발동 시 파괴(묘지행, 부활 없음). 무효·제외는 처리됨"
+   },
+   "ttt": {
+    "rating": "ok",
+    "note_ko": "올라이드·크립터가 내 메인 페이즈에 효과를 쓰면 성립. 2드로우나 탈취(링크처 몬스터를 빼앗으면 크립터 보호가 풀림)"
+   },
+   "impulse": {
+    "rating": "ok",
+    "note_ko": "GWC-06, 화이트 바인더·크립터의 제외 부활 등 특소 효과에. 함정이라 올라이드가 남아 있으면 무효당함"
+   },
+   "ash": {
+    "rating": "weak",
+    "note_ko": "GWC-06으로 이어지는 TB-11 덱 특소 정도"
+   },
+   "belle": {
+    "rating": "weak",
+    "note_ko": "내 턴에 상대 묘지 효과가 거의 없음. [[Linguriboh]] 묘지 소생 정도"
+   },
+   "mourner": {
+    "rating": "weak",
+    "note_ko": "내 턴에 부활한 M∀LICE의 유발(바인더 묘지 제외 등)을 막는 정도"
+   },
+   "crossout": {
+    "rating": "bad",
+    "note_ko": "M∀LICE 카드는 내 덱에 없어 선언 불가"
+   },
+   "veiler": {
+    "rating": "bad",
+    "note_ko": "상대 메인 페이즈 전용이라 내 턴에 못 씀"
+   },
+   "nibiru": {
+    "rating": "bad",
+    "note_ko": "내 턴에 상대가 5번 소환하지 않음"
+   }
+  },
+  "sequencing_ko": [
+   "첫 발동은 버려도 되는 카드로: 올라이드가 무효하면 그 뒤에 본 카드. 발동이 아닌 괴수 특소·쿠리카라는 처음부터 써도 된다.",
+   "M∀LICE 링크는 제외하지 말 것: [[Cosmic Cyclone]]·[[Evenly Matched]]·제외 효과는 900LP 부활을 준다. 파괴·릴리스·엑스트라 덱 되돌리기로.",
+   "올라이드를 먼저 치우면 하트 크립터의 링크처가 비어(일반적인 배치) 포영·감마로도 무효할 수 있게 된다.",
+   "전체 파괴에는 하트 크립터가 자신·화이트 바인더를 제외해 부활로 피할 수 있다. 크립터 효과를 먼저 쓰게 하거나 체인 불가 카드로 크립터부터.",
+   "GWC-06이 [[Maliss P White Rabbit]]를 되살리면 TB-11 세트 → 재전개가 가능하다. 여유가 있으면 마함 제거로 미리 지우거나 그 턴에 끝낸다."
+  ]
+ }
 }
