@@ -491,6 +491,42 @@
    "fallback_ko": "선공 견제(바이앙카비소, 세트 함정)는 그대로 남는다."
   },
   {
+   "handtrap": "mst",
+   "severity": "strong",
+   "line": "cappello",
+   "step": 8,
+   "target_card": "Clown Crew Matinee Operatics",
+   "timing_ko": "세트된 [[Clown Crew Matinee Operatics]]를 발동했을 때 체인해 파괴(flair 8단계, rehearsal 7단계도 같다)",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 지속 마법의 카드 발동에 체인해 파괴하면 그 카드의 효과는 적용되지 않는다. ①의 덱·엑덱 특소와 엔드 페이즈 2~4장 드로우·마함 세트가 모두 사라진다. 엔드 페이즈에는 이번 턴 세트된 [[Clown Crew Malabarisme]]·[[Clown Crew Soiree Operations]]를 깨는 선택지도 있다(그 턴에는 발동할 수 없어 체인 불가).",
+   "fallback_ko": "이미 선 [[Clown Crew Biancaviso]]와 세트 카드 견제는 남는다.",
+   "rulings": [
+    "qa-111"
+   ]
+  },
+  {
+   "handtrap": "super_poly",
+   "severity": "strong",
+   "line": "rehearsal",
+   "step": 9,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "엔드 페이즈(마티네 드로우 발동 등)에 [[Clown Crew Biancaviso]](빛·환상마족) + [[Clown Crew Meteor]](빛·야수전사족)로 [[Mudragon of the Swamp]]. cappello·flair 루트는 바이앙카비소 + [[Clown Crew Flair]](빛·야수전사족)",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 체인할 수 없고, 융합 소재로 보내는 것은 릴리스가 아니라 메테오·플레어의 '릴리스되었을 때' 효과가 발동하지 않는다. 메테오가 사라져 내 턴에 상대 어드밴스 소환에 대응할 수 있게 되고, 퀵 어드밴스 소환원인 바이앙카비소도 없어진다.",
+   "fallback_ko": "세트한 [[Clown Crew Soiree Operations]]·[[Clown Crew Malabarisme]]로 재료를 꺼내 2장째 바이앙카비소를 노린다(패에 있을 때).",
+   "rulings": [
+    "qa-10824"
+   ]
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "strong",
+   "line": "cappello",
+   "step": 8,
+   "target_card": "Clown Crew Matinee Operatics",
+   "timing_ko": "[[Clown Crew Matinee Operatics]] 카드 발동에 체인해 파괴",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 싸이크론과 같은 결과. 마티네를 놓쳤다면 최종 필드의 [[Clown Crew Biancaviso]]를 파괴한다(릴리스가 아니라 크라운 클랜 유발 없음).",
+   "fallback_ko": "바이앙카비소와 세트 카드 견제는 남는다."
+  },
+  {
    "handtrap": "ash",
    "severity": "strong",
    "line": "flair",
@@ -528,6 +564,32 @@
    ]
   },
   {
+   "handtrap": "crown",
+   "severity": "ok",
+   "line": "flair",
+   "step": 5,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "[[Clown Crew Biancaviso]] 어드밴스 소환 유발(드로우) 위에 데빌즈·메테오 묘지 유발까지 쌓인 뒤 마지막으로 발동, 바이앙카비소 선택",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 필드 몬스터 효과 무효라 체인 1의 2장 드로우가 무효. 조건 없는 속공이라 체인 가드 위에서도 닿고, 몬스터 효과로 체인할 수 없다. 말라바리즘·마티네로 나온 몬스터는 원래 필드에서 효과를 못 쓰고, 릴리스 불가도 이번 턴뿐이라 다른 대상은 약하다.",
+   "fallback_ko": "데빌즈·메테오 묘지 유발과 마티네 엔드 페이즈 드로우는 그대로.",
+   "rulings": [
+    "supp-22169"
+   ]
+  },
+  {
+   "handtrap": "druiswurm",
+   "severity": "ok",
+   "line": "flair",
+   "step": 7,
+   "target_card": "Clown Crew Flair",
+   "timing_ko": "바이앙카비소 유발과 함께 쌓인 [[Clown Crew Meteor]]의 묘지 회수(대상: 묘지의 [[Clown Crew Flair]])에 체인해 플레어를 제외하고 특소(상대 필드에 바이앙카비소가 있어 퀵)",
+   "why_ko": "크라운 클랜 몬스터는 전부 빛 속성이다. 대상이 사라져 회수가 불발되고, 10단계에서 패의 플레어를 의식 소환할 수 없어 [[Clown Crew Diabolo]]가 릴리스되지 않는다. [[Clown Crew Soiree Operations]] 세트와 마티네 드로우 1장(융합 종류)이 빠진다.",
+   "fallback_ko": "드로우로 다른 재료가 들어오면 일부 회복. 드루이드브룸은 내 필드에 남지만 바이앙카비소는 어드밴스 소환이라 ②(특소된 몬스터를 묘지로)의 대상이 아니다.",
+   "rulings": [
+    "supp-17764"
+   ]
+  },
+  {
    "handtrap": "nibiru",
    "severity": "ok",
    "line": "cappello",
@@ -549,6 +611,19 @@
    "rulings": [
     "supp-22570",
     "supp-22538"
+   ]
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "bad",
+   "line": "flair",
+   "step": 5,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "[[Clown Crew Biancaviso]]의 어드밴스 소환 유발을 노리고 하르모니아를 쓰려는 것",
+   "why_ko": "선공 전개 중 필드에서 효과를 발동하는 몬스터는 바이앙카비소뿐인데, 그 유발 위에 릴리스된 몬스터들의 묘지 유발이 함께 쌓여 '직접 체인'해야 하는 하르모니아는 닿지 않는다. 펜듈럼 존의 [[Clown Crew Cappello]]는 몬스터가 아니다.",
+   "fallback_ko": "",
+   "rulings": [
+    "supp-22533"
    ]
   }
  ],
@@ -636,6 +711,45 @@
   "droplet": {
    "rating": "ok",
    "note_ko": "후공 돌파용. 바이앙카비소를 무효로 하면 퀵 어드밴스 소환이 안 된다."
+  },
+  "harmonia": {
+   "rating": "weak",
+   "note_ko": "선공 1턴에는 직접 체인할 필드 몬스터 효과가 사실상 없다([[Clown Crew Biancaviso]] 유발은 묘지 유발에 덮임). 내 턴에 상대가 바이앙카비소 퀵 효과를 쓸 때가 실질적인 사용처",
+   "rulings": [
+    "supp-22533"
+   ]
+  },
+  "fallen_virtuous": {
+   "rating": "strong",
+   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). [[Clown Crew Matinee Operatics]] 발동에 체인해 파괴(특소·엔드 페이즈 드로우 소멸). 몬스터에 쓰면 릴리스가 아니라 크라운 클랜 유발이 없다"
+  },
+  "super_poly": {
+   "rating": "strong",
+   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 최종 필드의 [[Clown Crew Biancaviso]] + [[Clown Crew Meteor]]/[[Clown Crew Flair]](모두 빛, 종족 다름)로 [[Mudragon of the Swamp]]. 소재는 릴리스가 아니라 유발 없음",
+   "rulings": [
+    "qa-10824"
+   ]
+  },
+  "crown": {
+   "rating": "ok",
+   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 바이앙카비소 드로우 유발에 체인 가드 위에서도 닿아 2장 드로우를 무효. 그 밖의 몬스터는 원래 필드 효과를 못 쓴다",
+   "rulings": [
+    "supp-22169"
+   ]
+  },
+  "druiswurm": {
+   "rating": "ok",
+   "note_ko": "크라운 클랜은 전부 빛. [[Clown Crew Meteor]]가 묘지의 [[Clown Crew Flair]]를 회수할 때 체인해 제외하면 의식 소환·디아볼로 세트가 끊긴다. 바이앙카비소는 어드밴스 소환이라 ②의 대상이 아니다",
+   "rulings": [
+    "supp-17764"
+   ]
+  },
+  "mst": {
+   "rating": "strong",
+   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). [[Clown Crew Matinee Operatics]] 발동에 체인해 파괴(엔드 페이즈 2~4장 드로우 소멸). 엔드 페이즈에 이번 턴 세트된 [[Clown Crew Malabarisme]]·[[Clown Crew Soiree Operations]]는 체인 불가라 깨기 좋다",
+   "rulings": [
+    "qa-111"
+   ]
   }
  },
  "notes_ko": [

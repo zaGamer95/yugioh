@@ -684,7 +684,7 @@
    "line": "change",
    "step": 15,
    "target_card": "DoomZ VII Seven - Elara",
-   "timing_ko": "[[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]] ②로 엘라라가 소생하고 주프레도의 '엑스트라 덱에 앞면으로 들어간' 서치가 발동했을 때 체인. 엘라라 + 아말테(둘 다 어둠 드래곤족, 이름이 다름)로 [[Garura, Wings of Resonant Life]] 또는 [[Starving Venom Fusion Dragon]]. elara 라인이면 13~14단계(아말테·주프레도 서치 체인)에 같은 방법",
+   "timing_ko": "[[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]] ②로 엘라라가 소생하고 주프레도의 '엑스트라 덱에 앞면으로 들어간' 서치가 발동했을 때 체인. 엘라라 + 아말테(둘 다 어둠 드래곤족, 이름이 다름)로 [[Garura, Wings of Resonant Life]]. elara 라인이면 13~14단계(아말테·주프레도 서치 체인)에 같은 방법",
    "why_ko": "소재는 묘지로 보내지는 것이라 '효과로 파괴되면' 유발이 하나도 나오지 않는다. [[Springans Merrymaker]] → [[Gigantic \"Champion\" Sargas]] → [[Therion \"King\" Regulus]] 가지가 통째로 사라진다. 체인 불가라 [[DoomZ XII End - Drastrius]]·레귤러스가 있어도 막지 못한다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).",
    "fallback_ko": "패의 [[DoomZ XII Zero - Drastea]]는 필드의 둠즈 카드([[DoomZ Raiders]] 등)를 파괴하고 나올 수 있다. 레이더스를 파괴하면 레이더스의 유발로 내 융합 몬스터가 파괴될 수 있다."
   },
@@ -839,7 +839,7 @@
   },
   "super_poly": {
    "rating": "strong",
-   "note_ko": "엘라라 + 아말테로 [[Garura, Wings of Resonant Life]]·[[Starving Venom Fusion Dragon]]. 묘지로 보내므로 파괴 유발이 없고, 메리메이커 → 사르가스 → 레귤러스 가지를 끊는다. 체인 불가. 미리 세트해 둬야 함"
+   "note_ko": "엘라라 + 아말테로 [[Garura, Wings of Resonant Life]]. 묘지로 보내므로 파괴 유발이 없고, 메리메이커 → 사르가스 → 레귤러스 가지를 끊는다. 체인 불가. 미리 세트해 둬야 함"
   },
   "crown": {
    "rating": "strong",

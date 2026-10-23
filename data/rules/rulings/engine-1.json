@@ -1,0 +1,96 @@
+{
+ "sources": {},
+ "rules": [
+  {
+   "id": "quickplay-set-timing",
+   "category": "spell_speed",
+   "title_ko": "속공 마법은 상대 턴에 패에서 쓸 수 없다",
+   "body_ko": "속공 마법은 자기 턴에는 어느 페이즈든 패에서 발동할 수 있지만, 상대 턴에 쓰려면 먼저 자기 턴에 세트해 두어야 한다. 또 세트한 속공 마법은 세트한 그 턴에는 발동할 수 없다. 함정도 세트한 턴에는 발동할 수 없다.",
+   "handtrap_ko": "[[The Fallen & The Virtuous]]·[[Super Polymerization]]·[[Forbidden Crown]]·[[Mystical Space Typhoon]]은 내가 후공이면 상대 1턴째 전개에 쓸 수 없다. 내가 선공으로 세트해 두었거나 이후 상대 턴에만 쓴다. 반대로 상대가 1턴째에 세트한 속공 마법·함정은 그 턴에 발동할 수 없으므로, 세트해 둔 [[Mystical Space Typhoon]]으로 상대 엔드 페이즈에 깨면 체인당하지 않는다.",
+   "sources": [
+    {
+     "id": "rulebook-en",
+     "locator": "Quick-Play Spell Cards / Setting Spell Cards (PDF p.17-18)"
+    }
+   ],
+   "official": true
+  }
+ ],
+ "rulings": [
+  {
+   "id": "supp-22533",
+   "fid": null,
+   "cid": 22533,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22533&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Fydraulis Harmonia"
+   ],
+   "handtraps": [
+    "harmonia"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "clown-crew",
+    "mitsurugi"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Fydraulis Harmonia]]의 효과는 언제, 어떻게 발동하고 처리되는가?",
+   "answer_ko": "패에서 발동하는 유발즉시 효과로, 상대 몬스터 존의 몬스터가 효과를 발동했을 때 그 발동에 '직접 체인'해서만 발동할 수 있다. 이 카드를 특수 소환할 수 없는 상황에서는 발동할 수 없다. 처리 시 조건을 만족한 ● 효과를 위에서부터 순서대로 전부 적용하고, 위의 처리를 할 수 없으면 건너뛰고 다음 ●를 적용한다. 엑스트라 덱에 앞면으로 있는 싱크로/펜듈럼 몬스터도 공개할 수 있다.",
+   "quote_ja": "相手のモンスターゾーンのモンスターが効果を発動した時に、直接チェーンして発動できます。",
+   "impact_ko": "상대가 몬스터 효과 위에 다른 유발(묘지 효과 등)을 함께 쌓으면 하르모니아는 그 몬스터 효과에 닿지 않는다(우라라와 같은 체인 가드). 단독으로 발동하는 필드 몬스터 효과를 노린다."
+  },
+  {
+   "id": "supp-22169",
+   "fid": null,
+   "cid": 22169,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22169&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Forbidden Crown"
+   ],
+   "handtraps": [
+    "crown"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "clown-crew",
+    "mitsurugi"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Forbidden Crown]]은 어떻게 처리되고, 적용된 몬스터가 필드를 떠나면 어떻게 되는가?",
+   "answer_ko": "'이 카드의 발동에 대해 몬스터 효과를 발동할 수 없다'는 효과가 아니므로 이 카드의 효과가 무효가 되어도 몬스터 효과로 체인할 수 없다. 적용할 몬스터는 처리 시에 고르며(이미 무효인 몬스터도 가능), 적용된 몬스터가 자신의 효과 발동 코스트나 체인한 효과의 코스트로 몬스터 존을 떠나면 그 효과는 무효가 된다. 앞면으로 존재하지 않게 되면 ● 효과의 적용은 끝난다.",
+   "quote_ja": "この効果が適用されたモンスターが、自身の効果を発動する際のコストとしてモンスターゾーンを離れた場合や、チェーンして発動した効果のコストによってモンスターゾーンを離れた場合、その効果は無効化されます。",
+   "impact_ko": "몬스터 효과 발동에 체인해 그 몬스터를 고르면 그 효과도 무효가 된다. 대상 지정이 아니라 처리 시 선택이다. 단 '묘지로 보내는' 코스트로 치우는 것은 막지 못하고, 떠나면 적용이 끝난다."
+  },
+  {
+   "id": "supp-17764",
+   "fid": null,
+   "cid": 17764,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=17764&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Bystial Druiswurm"
+   ],
+   "handtraps": [
+    "druiswurm"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "clown-crew",
+    "mitsurugi"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Bystial Druiswurm]]의 ①·②는 어떤 효과인가?",
+   "answer_ko": "①은 패에서 발동하는 기동 효과이고, 상대 필드에 몬스터가 있으면 유발즉시 효과로 발동할 수 있다. 처리 시 대상을 제외하고, 제외에 성공하면 이 카드를 특수 소환한다(두 처리는 동시에 한 것으로 취급). 데미지 스텝에는 발동할 수 없다. ②는 묘지에서 발동하는 유발 효과로 데미지 스텝에도 발동할 수 있다.",
+   "quote_ja": "手札で発動できる起動効果です。相手フィールドにモンスターが存在する場合、誘発即時効果として発動できます。",
+   "impact_ko": "상대 턴에는 상대 필드에 몬스터가 있어야 쓸 수 있다(전개 첫 동작 전에는 불가). 상대가 발동한 묘지 효과에 체인해 그 몬스터를 제외하는 마그나무트식 견제가 된다."
+  }
+ ]
+}

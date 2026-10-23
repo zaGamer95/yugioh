@@ -462,9 +462,9 @@
    "line": "dormouse",
    "step": 4,
    "target_card": "Maliss P White Rabbit",
-   "timing_ko": "제외 상태에서 특소된 [[Maliss P White Rabbit]]의 '덱에서 함정 세트' 발동에 체인. 필드의 도마우스 + 래빗(둘 다 어둠 사이버스, 이름이 다름)으로 [[Garura, Wings of Resonant Life]] 또는 [[Starving Venom Fusion Dragon]]을 융합 소환",
+   "timing_ko": "제외 상태에서 특소된 [[Maliss P White Rabbit]]의 '덱에서 함정 세트' 발동에 체인. 필드의 도마우스 + 래빗(둘 다 어둠 사이버스, 이름이 다름)으로 [[Garura, Wings of Resonant Life]]를 융합 소환",
    "why_ko": "세트는 처리되지만 [[Maliss C TB-11]]은 '앞면 M∀LICE 몬스터 1장 제외'가 발동 코스트라 필드가 비면 이 턴에 쓸 수 없다. 소재는 묘지로 가므로(제외가 아님) 래빗·도마우스의 '제외되면 특소'도 나오지 않는다. 초융합에는 체인이 불가능해서 막을 방법도 없다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).",
-   "fallback_ko": "패에 [[Maliss P March Hare]]·[[Backup @Ignister]]·[[Maliss in Underground]]가 있어야 재시작. 묘지의 도마우스·래빗은 나중에 제외되면 부활하니 [[Maliss Q White Binder]]까지 가게 두면 안 된다. 엔드 보드의 [[Allied Code Talker @Ignister]] + [[Maliss Q Hearts Crypter]](둘 다 어둠)를 [[Starving Venom Fusion Dragon]]으로 묶어 치우는 것도 가능(코드 토커는 초융합에 체인 불가)."
+   "fallback_ko": "패에 [[Maliss P March Hare]]·[[Backup @Ignister]]·[[Maliss in Underground]]가 있어야 재시작. 묘지의 도마우스·래빗은 나중에 제외되면 부활하니 [[Maliss Q White Binder]]까지 가게 두면 안 된다. 엔드 보드의 [[Allied Code Talker @Ignister]] + [[Maliss Q Hearts Crypter]](둘 다 어둠 사이버스)도 [[Garura, Wings of Resonant Life]]로 묶어 치울 수 있다(코드 토커는 초융합에 체인 불가)."
   },
   {
    "handtrap": "crown",
@@ -729,7 +729,7 @@
   },
   "super_poly": {
    "rating": "strong",
-   "note_ko": "도마우스 + 래빗(어둠 사이버스, 이름이 다름)으로 [[Garura, Wings of Resonant Life]]·[[Starving Venom Fusion Dragon]]. 소재는 묘지로 가서 부활하지 않고, 필드가 비면 TB-11을 발동할 수 없다. 엔드 보드의 코드 토커 + 하트 크립터도 [[Starving Venom Fusion Dragon]]으로 치울 수 있음. 미리 세트해 둬야 함"
+   "note_ko": "도마우스 + 래빗(어둠 사이버스, 이름이 다름)으로 [[Garura, Wings of Resonant Life]]. 소재는 묘지로 가서 부활하지 않고, 필드가 비면 TB-11을 발동할 수 없다. 엔드 보드의 코드 토커 + 하트 크립터도 [[Garura, Wings of Resonant Life]]로 치울 수 있음. 미리 세트해 둬야 함"
   },
   "crown": {
    "rating": "strong",

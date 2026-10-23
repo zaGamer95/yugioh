@@ -21,7 +21,7 @@
 | PSY프레임기어 γ (PSY-Framegear Gamma) | 🟠 아픔 | 도마우스 효과 발동을 무효+파괴(묘지로 가서 제외 트리거도 없음) |
 | 피드라울리스＝하르모니아 (Fydraulis Harmonia) | 🟠 아픔 | 아직 '제외되면 특소'를 쓰지 않은 M∀LICE를 파괴(묘지행이라 부활 안 함). 도마우스 덱 제외 발동 때 도마우스, 래빗 초동이면 일반 소환된 래빗을 파괴해 M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11)의 코스트(앞면 M∀LICE)를 없앤다. 싱크로 5장 공개 기준이고, 2~3장이면 자신 특소뿐이라 방해가 아님 |
 | The Fallen & The Virtuous (The Fallen & The Virtuous) | 🟠 아픔 | 하르모니아와 같은 지점(도마우스·래빗 파괴). 파괴는 제외가 아니라 M∀LICE 부활을 주지 않는다. 사이버스 위키드 (Cyberse Wicckid)·도마우스가 가리키는 링크는 파괴 내성이고 어코드 토커＠이그니스터 (Allied Code Talker @Ignister)가 서면 무효당하니 초반에. 속공 마법이라 미리 세트해 둬야 함 |
-| 초융합 (Super Polymerization) | 🟠 아픔 | 도마우스 + 래빗(어둠 사이버스, 이름이 다름)으로 공명의 날개 가루라 (Garura, Wings of Resonant Life)·스타브 베놈 퓨전 드래곤 (Starving Venom Fusion Dragon). 소재는 묘지로 가서 부활하지 않고, 필드가 비면 TB-11을 발동할 수 없다. 엔드 보드의 코드 토커 + 하트 크립터도 스타브 베놈 퓨전 드래곤 (Starving Venom Fusion Dragon)으로 치울 수 있음. 미리 세트해 둬야 함 |
+| 초융합 (Super Polymerization) | 🟠 아픔 | 도마우스 + 래빗(어둠 사이버스, 이름이 다름)으로 공명의 날개 가루라 (Garura, Wings of Resonant Life). 소재는 묘지로 가서 부활하지 않고, 필드가 비면 TB-11을 발동할 수 없다. 엔드 보드의 코드 토커 + 하트 크립터도 공명의 날개 가루라 (Garura, Wings of Resonant Life)로 치울 수 있음. 미리 세트해 둬야 함 |
 | 금지된 성관 (Forbidden Crown) | 🟠 아픔 | 포영과 같은 지점(도마우스 덱 제외 / 래빗 함정 세트). 링크 소재로도 못 쓰게 해서 링크 1 우회까지 막는다. 미리 세트해 둬야 함 |
 | 하루 우라라 (Ash Blossom & Joyous Spring) | 🟡 할만함 | 도마우스(덱에서 제외)·래빗(함정 세트)·언더그라운드 첫 동작에는 못 씀. TB-11 덱 특소 또는 사이버스 위키드 (Cyberse Wicckid)/백업＠이그니스터 (Backup @Ignister) 서치에. M∀LICE&lt;P&gt;Cheshire Cat (Maliss P Chessy Cat)·어둠의 유혹 (Allure of Darkness)의 드로우도 '덱에서 패에 넣기'라 우라라로 무효할 수 있음 |
 | 도미나스 퍼지 (Dominus Purge) | 🟡 할만함 | 사이버스 위키드 (Cyberse Wicckid)·백업＠이그니스터 (Backup @Ignister) 서치에. 첫 동작에는 해당 없음. 패에서 쓰면 어둠·물·화염 효과 봉인 |
@@ -50,9 +50,9 @@
    - 이유: 래빗이 나오지 못해 TB-11 세트가 없고, 래빗의 특소 효과는 1턴에 1번이라 다시 쓸 수 없다. 우라라가 안 맞는 구간을 끊는 몇 안 되는 카드.
    - 맞은 뒤 상대 루트: 필드에 효과를 쓴 도마우스 1장만 남는다. 패의 백업＠이그니스터 (Backup @Ignister)·M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)에 의존. 단, 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과를 못 쓰니 내 덱 속성을 확인할 것.
 3. 🟠 아픔 **초융합** (Super Polymerization) → **M∀LICE&lt;P&gt;White Rabbit** (Maliss P White Rabbit) — dormouse 4단계
-   - 타이밍: 제외 상태에서 특소된 M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)의 '덱에서 함정 세트' 발동에 체인. 필드의 도마우스 + 래빗(둘 다 어둠 사이버스, 이름이 다름)으로 공명의 날개 가루라 (Garura, Wings of Resonant Life) 또는 스타브 베놈 퓨전 드래곤 (Starving Venom Fusion Dragon)을 융합 소환
+   - 타이밍: 제외 상태에서 특소된 M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)의 '덱에서 함정 세트' 발동에 체인. 필드의 도마우스 + 래빗(둘 다 어둠 사이버스, 이름이 다름)으로 공명의 날개 가루라 (Garura, Wings of Resonant Life)를 융합 소환
    - 이유: 세트는 처리되지만 M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11)은 '앞면 M∀LICE 몬스터 1장 제외'가 발동 코스트라 필드가 비면 이 턴에 쓸 수 없다. 소재는 묘지로 가므로(제외가 아님) 래빗·도마우스의 '제외되면 특소'도 나오지 않는다. 초융합에는 체인이 불가능해서 막을 방법도 없다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).
-   - 맞은 뒤 상대 루트: 패에 M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)·백업＠이그니스터 (Backup @Ignister)·M∀LICE IN UNDERGROUND (Maliss in Underground)가 있어야 재시작. 묘지의 도마우스·래빗은 나중에 제외되면 부활하니 M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)까지 가게 두면 안 된다. 엔드 보드의 어코드 토커＠이그니스터 (Allied Code Talker @Ignister) + M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter)(둘 다 어둠)를 스타브 베놈 퓨전 드래곤 (Starving Venom Fusion Dragon)으로 묶어 치우는 것도 가능(코드 토커는 초융합에 체인 불가).
+   - 맞은 뒤 상대 루트: 패에 M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)·백업＠이그니스터 (Backup @Ignister)·M∀LICE IN UNDERGROUND (Maliss in Underground)가 있어야 재시작. 묘지의 도마우스·래빗은 나중에 제외되면 부활하니 M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)까지 가게 두면 안 된다. 엔드 보드의 어코드 토커＠이그니스터 (Allied Code Talker @Ignister) + M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter)(둘 다 어둠 사이버스)도 공명의 날개 가루라 (Garura, Wings of Resonant Life)로 묶어 치울 수 있다(코드 토커는 초융합에 체인 불가).
 4. 🟠 아픔 **금지된 성관** (Forbidden Crown) → **M∀LICE&lt;P&gt;Dormouse** (Maliss P Dormouse) — dormouse 2단계
    - 타이밍: M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)의 '덱에서 M∀LICE 몬스터 제외' 효과 발동에 체인 (화이트 래빗 초동이면 래빗의 함정 세트 발동에 체인)
    - 이유: 포영과 같은 지점이지만, 금지된 성관은 몬스터 효과로 체인할 수 없고 대상 몬스터를 링크 소재로도 못 쓰게 만든다. 도마우스로 링그리보 (Linguriboh)·링크 디코더 (Link Decoder)를 만드는 우회까지 막혀서 일반 소환권만 날린 꼴이 된다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).

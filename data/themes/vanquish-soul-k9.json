@@ -458,7 +458,7 @@
       "line": "jokul",
       "step": 6,
       "target_card": "K9-66a Jokul",
-      "timing_ko": "[[K9-66b Lantern]]이 요쿨과 함께 특소된 뒤, [[K9-66a Jokul]]의 서치 발동에 체인. 요쿨(어둠 아쿠아) + 랜턴(어둠 화염족)으로 [[Mudragon of the Swamp]] 또는 [[Starving Venom Fusion Dragon]]",
+      "timing_ko": "[[K9-66b Lantern]]이 요쿨과 함께 특소된 뒤, [[K9-66a Jokul]]의 서치 발동에 체인. 요쿨(어둠 아쿠아) + 랜턴(어둠 화염족)으로 [[Mudragon of the Swamp]]",
       "why_ko": "[[N.As.H. Knight]]의 소재 2장이 사라져 N.As.Ch. → [[Number C104: Umbral Horror Masquerade]]까지 가지 못하고, 랜턴의 마함 서치도 쓸 수 없다. 체인 불가 마법이라 리퍼가 무효하지 못하고 K9 조건도 열리지 않는다. VS 쪽은 [[Vanquish Soul Razen]] + [[Vanquish Soul Jiaolong]](둘 다 화염, 종족이 다름)이 같이 서 있으면 [[Mudragon of the Swamp]]로 묶을 수 있지만 라젠이 곧 링크 소재가 되므로 노리기 어렵다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).",
       "fallback_ko": "요쿨의 서치는 처리되어 [[K9-17 Izuna]]·[[K9-04 Noroi]]가 패에 남는다. 필드에는 리퍼(소재 1개) 정도만 남아 무효 1개 + 세트 속공 마법 정도로 끝난다."
     },
@@ -693,7 +693,7 @@
     },
     "super_poly": {
       "rating": "strong",
-      "note_ko": "요쿨 + 랜턴(어둠, 종족이 다름)으로 [[Mudragon of the Swamp]]·[[Starving Venom Fusion Dragon]]을 만들어 N.As.H. 소재를 뺏는다. 라젠 + 교룡(화염)은 [[Mudragon of the Swamp]]. 체인 불가라 리퍼도 못 막음. 미리 세트해 둬야 함"
+      "note_ko": "요쿨 + 랜턴(어둠, 종족이 다름)으로 [[Mudragon of the Swamp]]을 만들어 N.As.H. 소재를 뺏는다. 라젠 + 교룡(화염)은 [[Mudragon of the Swamp]]. 체인 불가라 리퍼도 못 막음. 미리 세트해 둬야 함"
     },
     "crown": {
       "rating": "strong",

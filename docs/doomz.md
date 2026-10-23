@@ -24,7 +24,7 @@
 | 도미나스 임펄스 (Dominus Impulse) | 🟠 아픔 | 엘라라 ②·드라스테아 ①·레이더스 ① 같은 특소 효과를 무효. 단 묘지에 함정이 있어 파괴까지 하면 파괴 유발을 줄 수 있다. |
 | 금지된 일적 (Forbidden Droplet) | 🟠 아픔 | 후공 돌파용. DURG를 소재로 한 드라스트리우스는 대상 내성이라, 대상을 잡지 않는 일적이 잘 맞는다. |
 | 피드라울리스＝하르모니아 (Fydraulis Harmonia) | 🟠 아픔 | 소환 유발을 쓴 엘라라·아말테를 파괴(파괴 유발은 같은 효과라 다시 안 나옴). 아말테 초동은 드라스테아가 깔고 나올 둠즈 카드가 없어진다. 다른 둠즈 카드를 파괴하면 유발을 줌 |
-| 초융합 (Super Polymerization) | 🟠 아픔 | 엘라라 + 아말테로 공명의 날개 가루라 (Garura, Wings of Resonant Life)·스타브 베놈 퓨전 드래곤 (Starving Venom Fusion Dragon). 묘지로 보내므로 파괴 유발이 없고, 메리메이커 → 사르가스 → 레귤러스 가지를 끊는다. 체인 불가. 미리 세트해 둬야 함 |
+| 초융합 (Super Polymerization) | 🟠 아픔 | 엘라라 + 아말테로 공명의 날개 가루라 (Garura, Wings of Resonant Life). 묘지로 보내므로 파괴 유발이 없고, 메리메이커 → 사르가스 → 레귤러스 가지를 끊는다. 체인 불가. 미리 세트해 둬야 함 |
 | 금지된 성관 (Forbidden Crown) | 🟠 아픔 | 엘라라·아말테 소환 유발에 체인. 무효 + 파괴 내성 + 발동한 효과를 받지 않음 + 소재 불가라 장착·자괴·엑시즈 변신이 전부 막히고 파괴 유발도 안 나온다. 미리 세트해 둬야 함 |
 | 유령토끼 (Ghost Ogre & Snow Rabbit) | 🟡 할만함 | 엘라라 ① 발동에 체인해 본체 제거. 그 외 둠즈 카드에 쓰면 파괴 유발만 준다. |
 | 저택 와라시 (Ghost Belle & Haunted Mansion) | 🟡 할만함 | 아드라스테이아 ② 묘지 소생, 그라플레이오 파괴 유발(덱·묘지 특소), 체인지 묘지 회수. |
@@ -86,7 +86,7 @@
    - 이유: 세트 효과는 처리되지만 엘라라 본체가 없어져 장착·엑시즈 변신을 못 한다. 엘라라의 파괴 유발은 같은 ①이라 다시 쓸 수 없다.
    - 맞은 뒤 상대 루트: 세트된 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.")를 다른 몬스터에게 써서 이어갈 수 있다.
 12. 🟠 아픔 **초융합** (Super Polymerization) → **둠즈Ⅶ－엘라라** (DoomZ VII Seven - Elara) — change 15단계
-   - 타이밍: 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") ②로 엘라라가 소생하고 주프레도의 '엑스트라 덱에 앞면으로 들어간' 서치가 발동했을 때 체인. 엘라라 + 아말테(둘 다 어둠 드래곤족, 이름이 다름)로 공명의 날개 가루라 (Garura, Wings of Resonant Life) 또는 스타브 베놈 퓨전 드래곤 (Starving Venom Fusion Dragon). elara 라인이면 13~14단계(아말테·주프레도 서치 체인)에 같은 방법
+   - 타이밍: 둠즈 커맨드 『A.D.R.A.S.T.E.I.A.』 (DoomZ Command "A.D.R.A.S.T.E.I.A.") ②로 엘라라가 소생하고 주프레도의 '엑스트라 덱에 앞면으로 들어간' 서치가 발동했을 때 체인. 엘라라 + 아말테(둘 다 어둠 드래곤족, 이름이 다름)로 공명의 날개 가루라 (Garura, Wings of Resonant Life). elara 라인이면 13~14단계(아말테·주프레도 서치 체인)에 같은 방법
    - 이유: 소재는 묘지로 보내지는 것이라 '효과로 파괴되면' 유발이 하나도 나오지 않는다. 스프리건즈 메리메이커 (Springans Merrymaker) → 기간틱 "챔피언" 사르가스 (Gigantic "Champion" Sargas) → 세리온즈 "킹" 레귤러스 (Therion "King" Regulus) 가지가 통째로 사라진다. 체인 불가라 둠즈ⅩⅡ－드라스트리우스 (DoomZ XII End - Drastrius)·레귤러스가 있어도 막지 못한다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).
    - 맞은 뒤 상대 루트: 패의 둠즈ⅩⅡ－드라스티아 (DoomZ XII Zero - Drastea)는 필드의 둠즈 카드(둠즈 레이더 (DoomZ Raiders) 등)를 파괴하고 나올 수 있다. 레이더스를 파괴하면 레이더스의 유발로 내 융합 몬스터가 파괴될 수 있다.
 13. 🟡 할만함 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **둠즈Ⅶ－엘라라** (DoomZ VII Seven - Elara) — elara 2단계

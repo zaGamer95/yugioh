@@ -463,7 +463,8 @@
      "action_ko": "묘지 효과: 패의 몬스터 1장을 덱에 섞고 자신 특소 (필드를 떠나면 제외)",
      "class": [
       "monster_effect_gy",
-      "ss_from_gy"
+      "ss_from_gy",
+      "gy_effect"
      ],
      "result_ko": ""
     },
@@ -630,6 +631,42 @@
    "fallback_ko": "패의 레기나가 무효된 루키나를 코스트로 보내 회피할 수 있다(무효된 몬스터를 치워 버리는 셈). 레기나가 보이면 레기나의 중앙 덱 특소 쪽에 아껴 두는 것도 방법."
   },
   {
+   "handtrap": "harmonia",
+   "severity": "critical",
+   "line": "lucina",
+   "step": 2,
+   "target_card": "Elfnote Lucina",
+   "timing_ko": "[[Elfnote Lucina]]의 서치 효과(체인 1 단독)에 직접 체인해 싱크로 5장 공개 → 처리 시 루키나 파괴(대상 지정 없음)",
+   "why_ko": "서치는 처리되지만 필드에 레벨 6이 없어, 서치한 [[Elfnote Power Patron]]을 일반 소환해도 레벨 업 대상(중앙 몬스터)도 싱크로 상대도 없다. 이 시점에는 [[Elfnotes: Welcome Home]]이 없어 중앙 몬스터도 파괴된다. 하르모니아는 '상대 몬스터 효과 발동에 직접 체인'해야 하므로 단독 체인인 이 지점이 가장 확실하다.",
+   "fallback_ko": "패에 다른 레벨 6([[Elfnote Tinia]] 등)이 있으면 비워진 중앙에 특소해 계속한다. 패의 [[Elfnote Regina]]가 체인해 루키나를 코스트로 보내면 하르모니아는 처리 시 그 레기나를 파괴한다(레기나의 덱 특소 유발은 남음).",
+   "rulings": [
+    "supp-22533"
+   ]
+  },
+  {
+   "handtrap": "crown",
+   "severity": "strong",
+   "line": "lucina",
+   "step": 2,
+   "target_card": "Elfnote Lucina",
+   "timing_ko": "세트해 둔 [[Forbidden Crown]]을 루키나 서치 효과 발동에 체인, 처리 시 루키나를 고른다(대상 지정 아님)",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 서치가 무효가 되고 루키나는 이번 턴 싱크로 소재가 될 수 없다. 이 카드의 발동에는 몬스터 효과로 체인할 수 없어 패의 [[Elfnote Regina]] 퀵 특소로 대응하지 못한다.",
+   "fallback_ko": "처리 뒤 레기나가 루키나를 코스트로 보내면 중앙이 비고 성관 적용도 끝난다(필드를 떠나면 적용 종료). 레기나가 이미 공개됐다면 레기나의 덱 특소 유발 쪽이 확실하다.",
+   "rulings": [
+    "supp-22169"
+   ]
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "strong",
+   "line": "lucina",
+   "step": 2,
+   "target_card": "Elfnote Lucina",
+   "timing_ko": "세트해 둔 카드를 루키나 서치 효과에 체인해 루키나 파괴(엑스트라 덱의 [[Fallen of Albaz]] 관련 융합 1장을 묘지로)",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 하르모니아와 같은 결과로 서치는 처리되지만 레벨 6이 없어 멈춘다. 마법이라 직접 체인 제한이 없다.",
+   "fallback_ko": "다른 레벨 6이나 [[Elfnote Regina]]가 패에 있으면 재개. 감옥신 루트라면 [[Elfnote Power Patron]] 레벨 업(lucina 14단계)에 아껴 두는 것도 방법."
+  },
+  {
    "handtrap": "ash",
    "severity": "strong",
    "line": "terminus",
@@ -660,6 +697,55 @@
    "fallback_ko": "랩소디아로 감옥신정을 다시 꺼내 바로네스는 만든다. 와라시는 1턴 1번이니 스트리치아 vs 랩소디아 중 먼저 나오는 쪽에 쓰는 편이 낫다.",
    "rulings": [
     "qa-23215"
+   ]
+  },
+  {
+   "handtrap": "super_poly",
+   "severity": "strong",
+   "line": "lucina",
+   "step": 14,
+   "target_card": "Elfnote Power Patron",
+   "timing_ko": "[[Elfnote Power Patron]]이 중앙의 [[Elfnote Regina]]에 레벨 업 효과를 발동했을 때 체인. 레기나(바람·마법사족) + [[Crystal Wing Synchro Dragon]](바람·드래곤족)으로 [[Mudragon of the Swamp]] 융합",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 초융합에는 아무것도 체인할 수 없어 크리스탈 윙의 무효도 닿지 않는다. 레벨 업 대상이 사라져 [[Baronne de Fleur]]가 안 나오고, 레기나도 싱크로 소재가 아니라 패로 돌아오지 않는다. [[Elfnotes: Welcome Home]]의 파괴 내성은 융합 소재와 무관하다.",
+   "fallback_ko": "[[Elfnotes: Rhapsodia of Madness]]는 13단계에서 이미 써서 다시 소생할 수단이 거의 없다. 최종 필드까지 기다려도 [[Baronne de Fleur]](바람·전사족) + 크리스탈 윙으로 같은 융합이 된다.",
+   "rulings": [
+    "qa-10824"
+   ]
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "strong",
+   "line": "lucina",
+   "step": 14,
+   "target_card": "Elfnote Power Patron",
+   "timing_ko": "[[Elfnote Power Patron]]의 레벨 업 효과에 체인해 그 [[Elfnote Power Patron]](중앙 이외 존)을 파괴",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 테마 유일의 튜너가 사라져 처리 직후 싱크로를 할 수 없어 [[Baronne de Fleur]]가 안 나온다. 마법이라 [[Crystal Wing Synchro Dragon]](몬스터 효과 무효)로 막히지 않는다.",
+   "fallback_ko": "[[Elfnote Regina]]는 레벨 9로 남지만 튜너가 없다. 크리스탈 윙 1견제 + 지속 마함 2장으로 끝난다."
+  },
+  {
+   "handtrap": "crown",
+   "severity": "strong",
+   "line": "lucina",
+   "step": 14,
+   "target_card": "Elfnote Power Patron",
+   "timing_ko": "[[Elfnote Power Patron]]의 레벨 업 효과에 체인, 처리 시 그 [[Elfnote Power Patron]]을 고른다",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 레벨 업이 무효가 되고 튜너는 이번 턴 싱크로 소재가 될 수 없어 [[Baronne de Fleur]]가 끊긴다. 몬스터 효과로 체인할 수 없어 [[Crystal Wing Synchro Dragon]]도 대응하지 못한다.",
+   "fallback_ko": "크리스탈 윙·지속 마함 2장은 남는다.",
+   "rulings": [
+    "supp-22169"
+   ]
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "strong",
+   "line": "lucina",
+   "step": 6,
+   "target_card": "Elfnote Seraphim Strelitzia",
+   "timing_ko": "[[Elfnote Seraphim Strelitzia]]의 퀵 소생 효과 발동에 직접 체인해 스트리치아 파괴(아직 [[Elfnotes: Welcome Home]] 없음)",
+   "why_ko": "소생은 처리되지만 비튜너 싱크로가 없어 [[Crystal Wing Synchro Dragon]]이 안 나온다. 루키나 서치를 놓쳤을 때의 차선. 크리스탈 윙·바로네스가 선 뒤에는 하르모니아 발동이 무효되므로 이보다 늦으면 안 된다.",
+   "fallback_ko": "[[Elfnote Power Patron]]이 남으므로 [[Elfnote Tinia]] → 패러렐리즘 → [[Elfnote Regina]] → [[Baronne de Fleur]]까지는 간다(유령토끼와 같은 결과).",
+   "rulings": [
+    "supp-22533"
    ]
   },
   {
@@ -703,6 +789,29 @@
    "fallback_ko": "이미 크리스탈 윙까지 나온 상태라 견제 1개는 남는다. 디나·포르토나의 '덱에서 놓기'에는 우라라를 쓸 수 없다."
   },
   {
+   "handtrap": "druiswurm",
+   "severity": "ok",
+   "line": "terminus",
+   "step": 27,
+   "target_card": "Medius the Pure",
+   "timing_ko": "[[Medius the Pure]]의 묘지 효과(패·필드 몬스터 1장을 덱에 섞고 자신 특소) 발동에 체인해 그 메디우스(어둠)를 제외하고 특소(상대 필드에 몬스터가 있어 퀵)",
+   "why_ko": "메디우스가 소생하지 못해 어둠 튜너 취급 소재가 없어 [[Chaos Angel]](싱크로 몬스터에 상대 몬스터 효과 내성·전투 내성, 소환 시 1장 제외)이 안 나온다. 엘펜노츠 본체는 화염·물·바람이 많아 이 밖의 대상은 적다.",
+   "fallback_ko": "[[Crystal Wing Synchro Dragon]]·[[F.A. Dawn Dragster]]·랩소디아는 이미 섰다. 드루이드브룸은 내 필드에 남고, 이후 필드에서 묘지로 가면 상대가 특소한 몬스터 1장을 묘지로 보낸다.",
+   "rulings": [
+    "supp-17764"
+   ]
+  },
+  {
+   "handtrap": "mst",
+   "severity": "ok",
+   "line": "lucina",
+   "step": 13,
+   "target_card": "Elfnotes: Rhapsodia of Madness",
+   "timing_ko": "[[Elfnotes: Rhapsodia of Madness]]의 효과 발동(13단계)에 체인하거나, 그 뒤 엔드 페이즈까지 아무 때나 파괴",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 랩소디아는 이번 턴 1번을 이미 써서 다시 체인할 수 없다. 내 턴의 '소생 + 앞면 카드 1장 무효'가 통째로 사라진다. 내 턴에 깨려 하면 랩소디아를 체인해 그대로 쓰므로 상대 턴에 처리하는 편이 낫다.",
+   "fallback_ko": "13단계에 체인한 경우 그 소생은 처리되는 것으로 본다(앞면 지속 함정의 효과, 개별 Q&A 미확인). [[Elfnotes: Welcome Home]]을 깨면 중앙 파괴 내성만 사라진다."
+  },
+  {
    "handtrap": "ogre",
    "severity": "bad",
    "line": "lucina",
@@ -711,6 +820,32 @@
    "timing_ko": "[[Elfnotes: Welcome Home]]이 앞면인 상태에서 중앙 존 몬스터(레기나 등)를 노리는 경우",
    "why_ko": "패러렐리즘은 중앙 존 몬스터에 효과 파괴 내성을 준다. 중앙의 레기나에 유령토끼를 써도 파괴되지 않는다. 노릴 거면 중앙 이외의 감옥신정(레벨 업 효과 발동 시)이나 스트리치아를 노릴 것.",
    "fallback_ko": ""
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "bad",
+   "line": "lucina",
+   "step": 14,
+   "target_card": "Elfnote Power Patron",
+   "timing_ko": "[[Crystal Wing Synchro Dragon]]·[[Baronne de Fleur]]가 앞면인 상태(7단계 이후)에서 하르모니아를 공개하는 것",
+   "why_ko": "하르모니아의 발동은 몬스터 효과라 크리스탈 윙(몬스터 효과 발동 무효)·바로네스(발동 무효)의 먹이가 된다. [[Elfnotes: Welcome Home]] 앞면 중에는 중앙 몬스터가 효과로 파괴되지 않고, 싱크로를 5장 미만 공개하면 파괴 자체가 없다.",
+   "fallback_ko": "",
+   "rulings": [
+    "supp-22533"
+   ]
+  },
+  {
+   "handtrap": "crown",
+   "severity": "bad",
+   "line": "lucina",
+   "step": 10,
+   "target_card": "Elfnote Tinia",
+   "timing_ko": "중앙의 엘펜노츠에 성관을 씌워 중앙 존을 막으려는 것",
+   "why_ko": "성관은 릴리스·소재 사용만 막고 '묘지로 보내기' 코스트는 막지 못한다. [[Elfnotes: Welcome Home]]·[[Elfnotes: Rhapsodia of Madness]]·[[Elfnote Regina]]가 그 몬스터를 코스트로 보내면 중앙이 다시 비고 성관 적용도 끝난다. 성관은 서치·레벨 업 같은 몬스터 효과 발동에 맞춰 쓴다.",
+   "fallback_ko": "",
+   "rulings": [
+    "supp-22169"
+   ]
   }
  ],
  "handtrap_summary": {
@@ -803,6 +938,42 @@
   "gamma": {
    "rating": "strong",
    "note_ko": "루키나 서치 또는 메디우스 소환 유발에. 레기나 중앙 덱 특소도 좋은 대상"
+  },
+  "harmonia": {
+   "rating": "critical",
+   "note_ko": "싱크로 5장 공개 기준. 1순위는 [[Elfnote Lucina]] 서치(단독 체인)에 직접 체인해 루키나 파괴 → 레벨 6이 없어 멈춘다. 차선은 [[Elfnote Seraphim Strelitzia]] 소생 효과. [[Crystal Wing Synchro Dragon]]·[[Baronne de Fleur]]가 선 뒤에는 무효당하고, 패러렐리즘 앞면 중 중앙 몬스터는 파괴 불가. 2~3장 공개(2+/4+)는 자기 특소·묘지 보내기뿐이라 견제가 아니다",
+   "rulings": [
+    "supp-22533"
+   ]
+  },
+  "fallen_virtuous": {
+   "rating": "strong",
+   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 루키나 서치에 체인해 루키나 파괴, 또는 [[Elfnote Power Patron]] 레벨 업에 체인해 튜너 파괴(마법이라 크리스탈 윙에 막히지 않음)"
+  },
+  "super_poly": {
+   "rating": "strong",
+   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). [[Elfnote Power Patron]] 레벨 업 때 중앙의 [[Elfnote Regina]] + [[Crystal Wing Synchro Dragon]](둘 다 바람, 종족 다름)으로 [[Mudragon of the Swamp]]. 최종 필드라면 [[Baronne de Fleur]] + 크리스탈 윙도 같은 조합",
+   "rulings": [
+    "qa-10824"
+   ]
+  },
+  "crown": {
+   "rating": "strong",
+   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 루키나 서치 또는 [[Elfnote Power Patron]] 레벨 업에. 몬스터 효과로 체인할 수 없어 레기나·크리스탈 윙이 대응 못 한다. 중앙 몬스터를 묶어도 코스트로 보내면 풀린다",
+   "rulings": [
+    "supp-22169"
+   ]
+  },
+  "druiswurm": {
+   "rating": "ok",
+   "note_ko": "엘펜노츠 본체는 빛·어둠이 적다. 감옥신 루트의 묘지 [[Medius the Pure]] 자가 소생에 체인해 제외하면 [[Chaos Angel]]이 안 나온다",
+   "rulings": [
+    "supp-17764"
+   ]
+  },
+  "mst": {
+   "rating": "ok",
+   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). [[Elfnotes: Rhapsodia of Madness]]가 1턴 1번을 쓴 뒤 깨면 내 턴의 소생+무효가 사라진다(내 턴에 깨면 체인해서 쓴다). 패러렐리즘은 중앙 파괴 내성만"
   }
  },
  "notes_ko": [
