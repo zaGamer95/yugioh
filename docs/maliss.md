@@ -19,6 +19,10 @@
 | 마루챠미 냐루스 (Mulcharmy Meowls) | 🟠 아픔 | 제외 상태에서 특소가 주력이라 조건이 잘 맞음 |
 | 마루챠미 후와로스 (Mulcharmy Fuwalos) | 🟠 아픔 | TB-11·링크만 셈. 그래도 4~6드로우 |
 | PSY프레임기어 γ (PSY-Framegear Gamma) | 🟠 아픔 | 도마우스 효과 발동을 무효+파괴(묘지로 가서 제외 트리거도 없음) |
+| 피드라울리스＝하르모니아 (Fydraulis Harmonia) | 🟠 아픔 | 아직 '제외되면 특소'를 쓰지 않은 M∀LICE를 파괴(묘지행이라 부활 안 함). 도마우스 덱 제외 발동 때 도마우스, 래빗 초동이면 일반 소환된 래빗을 파괴해 M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11)의 코스트(앞면 M∀LICE)를 없앤다. 싱크로 5장 공개 기준이고, 2~3장이면 자신 특소뿐이라 방해가 아님 |
+| The Fallen & The Virtuous (The Fallen & The Virtuous) | 🟠 아픔 | 하르모니아와 같은 지점(도마우스·래빗 파괴). 파괴는 제외가 아니라 M∀LICE 부활을 주지 않는다. 사이버스 위키드 (Cyberse Wicckid)·도마우스가 가리키는 링크는 파괴 내성이고 어코드 토커＠이그니스터 (Allied Code Talker @Ignister)가 서면 무효당하니 초반에. 속공 마법이라 미리 세트해 둬야 함 |
+| 초융합 (Super Polymerization) | 🟠 아픔 | 도마우스 + 래빗(어둠 사이버스, 이름이 다름)으로 공명의 날개 가루라 (Garura, Wings of Resonant Life)·스타브 베놈 퓨전 드래곤 (Starving Venom Fusion Dragon). 소재는 묘지로 가서 부활하지 않고, 필드가 비면 TB-11을 발동할 수 없다. 엔드 보드의 코드 토커 + 하트 크립터도 스타브 베놈 퓨전 드래곤 (Starving Venom Fusion Dragon)으로 치울 수 있음. 미리 세트해 둬야 함 |
+| 금지된 성관 (Forbidden Crown) | 🟠 아픔 | 포영과 같은 지점(도마우스 덱 제외 / 래빗 함정 세트). 링크 소재로도 못 쓰게 해서 링크 1 우회까지 막는다. 미리 세트해 둬야 함 |
 | 하루 우라라 (Ash Blossom & Joyous Spring) | 🟡 할만함 | 도마우스(덱에서 제외)·래빗(함정 세트)·언더그라운드 첫 동작에는 못 씀. TB-11 덱 특소 또는 사이버스 위키드 (Cyberse Wicckid)/백업＠이그니스터 (Backup @Ignister) 서치에. M∀LICE&lt;P&gt;Cheshire Cat (Maliss P Chessy Cat)·어둠의 유혹 (Allure of Darkness)의 드로우도 '덱에서 패에 넣기'라 우라라로 무효할 수 있음 |
 | 도미나스 퍼지 (Dominus Purge) | 🟡 할만함 | 사이버스 위키드 (Cyberse Wicckid)·백업＠이그니스터 (Backup @Ignister) 서치에. 첫 동작에는 해당 없음. 패에서 쓰면 어둠·물·화염 효과 봉인 |
 | 드롤 & 로크 버드 (Droll & Lock Bird) | 🟡 할만함 | 첫 서치(위키드) 뒤에. 제외 상태에서 패로 넣는 마치 헤어는 못 막음 |
@@ -28,10 +32,12 @@
 | 마루챠미 푸루리아 (Mulcharmy Purulia) | 🟡 할만함 | 도마우스·래빗 일반 소환, 마치 헤어·백업·위저드 패 특소에 반응. 2~4드로우 |
 | 금지된 일적 (Forbidden Droplet) | 🟡 할만함 | 후공 돌파용. 하트 크립터·올라이드 무효에. 함정을 보내면 상대가 M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 등 함정으로 체인 못 함 |
 | 삼전의 재 (Triple Tactics Talent) | 🟡 할만함 | 후공용. 상대가 내 턴에 하트 크립터·올라이드 효과를 쓰면 발동 조건 성립 |
+| 싸이크론 (Mystical Space Typhoon) | 🟡 할만함 | M∀LICE IN UNDERGROUND (Maliss in Underground) 발동에 체인하면 제외 처리가 안 돼 언더그라운드 초동이 끝난다. 세트된 M∀LICE 함정은 체인 발동되니 노리지 말 것. 미리 세트해 둬야 함 |
 | 유령토끼 (Ghost Ogre & Snow Rabbit) | ⚪ 약함 | 파괴라 효과는 처리됨. M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) 트리거에 써서 묘지로 보내는 정도(제외가 아니라 부활 트리거 없음). 위키드는 링크 소환이면 파괴 내성 |
 | 말살의 지명자 (Crossout Designator) | ⛔ 비추 | 자기 메인 덱에 있는 카드명만 선언 가능해서 M∀LICE 카드에는 못 씀. 공용 카드(우라라·증G 등)용 |
 | 도미나스 스파크 (Dominus Spark) | ⛔ 비추 | 마치 헤어 패 효과 뒤에 발동은 되지만 제외는 오히려 M∀LICE 효과를 켜 줌 |
 | 비스테드 마그나무트 (Bystial Magnamhut) | ⛔ 비추 | 묘지의 M∀LICE 몬스터를 제외하면 상대가 이득(제외 시 특소·회수) |
+| 비스테드 드루이드브룸 (Bystial Druiswurm) | ⛔ 비추 | 묘지의 M∀LICE(전부 어둠)를 제외하면 '제외되면 특소·회수'가 나와 상대 이득. 묘지의 백업＠이그니스터 (Backup @Ignister) 등 비 M∀LICE만 제외할 수 있을 때 몸을 내는 정도 |
 
 ## 혈자리 (우선순위 순)
 
@@ -43,38 +49,70 @@
    - 타이밍: 제외된 M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)의 '300LP 내고 자신 특소' 효과 발동 시 (상대 필드에 도마우스가 있어 패에서 발동 가능)
    - 이유: 래빗이 나오지 못해 TB-11 세트가 없고, 래빗의 특소 효과는 1턴에 1번이라 다시 쓸 수 없다. 우라라가 안 맞는 구간을 끊는 몇 안 되는 카드.
    - 맞은 뒤 상대 루트: 필드에 효과를 쓴 도마우스 1장만 남는다. 패의 백업＠이그니스터 (Backup @Ignister)·M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)에 의존. 단, 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과를 못 쓰니 내 덱 속성을 확인할 것.
-3. 🟠 아픔 **증식의 G** (Maxx "C") → **M∀LICE&lt;P&gt;White Rabbit** (Maliss P White Rabbit) — dormouse 3단계
+3. 🟠 아픔 **초융합** (Super Polymerization) → **M∀LICE&lt;P&gt;White Rabbit** (Maliss P White Rabbit) — dormouse 4단계
+   - 타이밍: 제외 상태에서 특소된 M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)의 '덱에서 함정 세트' 발동에 체인. 필드의 도마우스 + 래빗(둘 다 어둠 사이버스, 이름이 다름)으로 공명의 날개 가루라 (Garura, Wings of Resonant Life) 또는 스타브 베놈 퓨전 드래곤 (Starving Venom Fusion Dragon)을 융합 소환
+   - 이유: 세트는 처리되지만 M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11)은 '앞면 M∀LICE 몬스터 1장 제외'가 발동 코스트라 필드가 비면 이 턴에 쓸 수 없다. 소재는 묘지로 가므로(제외가 아님) 래빗·도마우스의 '제외되면 특소'도 나오지 않는다. 초융합에는 체인이 불가능해서 막을 방법도 없다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).
+   - 맞은 뒤 상대 루트: 패에 M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)·백업＠이그니스터 (Backup @Ignister)·M∀LICE IN UNDERGROUND (Maliss in Underground)가 있어야 재시작. 묘지의 도마우스·래빗은 나중에 제외되면 부활하니 M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)까지 가게 두면 안 된다. 엔드 보드의 어코드 토커＠이그니스터 (Allied Code Talker @Ignister) + M∀LICE&lt;Q&gt;HEARTS OF CRYPTER (Maliss Q Hearts Crypter)(둘 다 어둠)를 스타브 베놈 퓨전 드래곤 (Starving Venom Fusion Dragon)으로 묶어 치우는 것도 가능(코드 토커는 초융합에 체인 불가).
+4. 🟠 아픔 **금지된 성관** (Forbidden Crown) → **M∀LICE&lt;P&gt;Dormouse** (Maliss P Dormouse) — dormouse 2단계
+   - 타이밍: M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)의 '덱에서 M∀LICE 몬스터 제외' 효과 발동에 체인 (화이트 래빗 초동이면 래빗의 함정 세트 발동에 체인)
+   - 이유: 포영과 같은 지점이지만, 금지된 성관은 몬스터 효과로 체인할 수 없고 대상 몬스터를 링크 소재로도 못 쓰게 만든다. 도마우스로 링그리보 (Linguriboh)·링크 디코더 (Link Decoder)를 만드는 우회까지 막혀서 일반 소환권만 날린 꼴이 된다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).
+   - 맞은 뒤 상대 루트: 패의 백업＠이그니스터 (Backup @Ignister)는 엑스트라에서 나온 사이버스가 있어야 특소되므로 같이 멈춘다. M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)·M∀LICE IN UNDERGROUND (Maliss in Underground)가 패에 있으면 별도 루트로 재시작.
+5. 🟠 아픔 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **M∀LICE&lt;P&gt;Dormouse** (Maliss P Dormouse) — dormouse 2단계
+   - 타이밍: M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)의 덱 제외 효과 발동 시 피드라울리스＝하르모니아 (Fydraulis Harmonia) 공개(싱크로 5장 공개 → 도마우스 파괴)
+   - 이유: 파괴라서 덱 제외는 처리되고 래빗은 나온다. 하지만 M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11)은 앞면 M∀LICE를 제외해야 발동하므로 이미 자기 부활을 쓴 래빗을 코스트로 써야 하고, 래빗은 제외된 채 끝난다. TB-11로 나온 몬스터는 효과도 못 쓴다. 파괴된 M∀LICE는 묘지로 가서 '제외되면 특소'가 나오지 않는다. 화이트 래빗 1장 초동이면 래빗의 소환 유발(white-rabbit 2단계)에 써서 래빗을 파괴하는 게 더 좋다: 세트된 TB-11을 발동할 코스트가 없어진다.
+   - 맞은 뒤 상대 루트: 남은 몸 1장으로 링크 1을 내고 패의 백업＠이그니스터 (Backup @Ignister)로 이어가는 정도. 싱크로를 2~3장만 공개하면 하르모니아 특소뿐이라 방해가 되지 않는다.
+6. 🟠 아픔 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **M∀LICE&lt;P&gt;White Rabbit** (Maliss P White Rabbit) — white-rabbit 2단계
+   - 타이밍: 일반 소환된 M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)의 '덱에서 함정 세트' 발동 시 하르모니아 공개 → 래빗 파괴
+   - 이유: 세트는 처리되지만 필드에 앞면 M∀LICE가 없어서 M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11)을 이 턴에 발동할 수 없다. 래빗은 묘지로 가서 부활하지 않는다. 래빗 1장 초동이 일반 소환 1장으로 끝난다.
+   - 맞은 뒤 상대 루트: M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)(패 퀵 특소)·M∀LICE IN UNDERGROUND (Maliss in Underground)가 있으면 재시작. 묘지의 래빗이 나중에 제외되면 부활한다.
+7. 🟠 아픔 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **M∀LICE&lt;P&gt;Dormouse** (Maliss P Dormouse) — dormouse 2단계
+   - 타이밍: M∀LICE&lt;P&gt;Dormouse (Maliss P Dormouse)의 덱 제외 효과 발동에 체인해 도마우스 파괴 (래빗 초동이면 래빗의 세트 발동에 체인해 래빗 파괴)
+   - 이유: 하르모니아와 같은 원리. 아직 '제외되면 특소'를 쓰지 않은 M∀LICE를 파괴해서 묘지로 보낸다. 래빗만 남으면 TB-11 코스트로 래빗을 써야 해서 전개가 크게 줄고, 래빗 초동은 TB-11 자체가 묶인다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).
+   - 맞은 뒤 상대 루트: 사이버스 위키드 (Cyberse Wicckid)(링크 소환 시 파괴 내성)나 도마우스가 가리키는 M∀LICE 링크는 파괴되지 않으니 초반에 쓴다. 엔드 보드의 어코드 토커＠이그니스터 (Allied Code Talker @Ignister)는 발동을 무효+제외하므로 코드 토커가 서기 전에 써야 한다.
+8. 🟠 아픔 **증식의 G** (Maxx "C") → **M∀LICE&lt;P&gt;White Rabbit** (Maliss P White Rabbit) — dormouse 3단계
    - 타이밍: 첫 특소인 M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)의 제외 상태 특소 때(또는 도마우스 효과에 체인해 미리)
    - 이유: 제외 상태 특소 + 링크 소환을 합쳐 한 턴에 10회 이상 특소한다. 끝까지 가면 대량 드로우를 주므로, 보통 M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder) + 세트 함정 정도에서 멈춘다.
    - 맞은 뒤 상대 루트: 멈추는 지점: 화이트 바인더 + M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06) 세트 + 남은 링크 1~2장. 올라이드 코드 토커까지 안 간다.
-4. 🟠 아픔 **마루챠미 냐루스** (Mulcharmy Meowls) → **M∀LICE&lt;P&gt;White Rabbit** (Maliss P White Rabbit) — dormouse 3단계
+9. 🟠 아픔 **마루챠미 냐루스** (Mulcharmy Meowls) → **M∀LICE&lt;P&gt;White Rabbit** (Maliss P White Rabbit) — dormouse 3단계
    - 타이밍: M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)이 제외 상태에서 특소할 때
    - 이유: M∀LICE의 특소 대부분이 '제외 상태에서' 나오는 것이라 메오루스 드로우 조건과 정확히 맞는다(래빗·도마우스·화이트 바인더·하트 크립터). 내 필드가 비어 있어야 함.
    - 맞은 뒤 상대 루트: 증G와 같이 화이트 바인더 근처에서 멈추거나, 드로우를 감수하고 끝까지 간다.
-5. 🟠 아픔 **무한포영** (Infinite Impermanence) → **M∀LICE&lt;P&gt;White Rabbit** (Maliss P White Rabbit) — dormouse 4단계
+10. 🟠 아픔 **무한포영** (Infinite Impermanence) → **M∀LICE&lt;P&gt;White Rabbit** (Maliss P White Rabbit) — dormouse 4단계
    - 타이밍: M∀LICE&lt;P&gt;White Rabbit (Maliss P White Rabbit)의 '덱에서 M∀LICE 함정 세트' 효과 발동에 체인
    - 이유: TB-11이 세트되지 않아 덱에서 몸을 늘리지 못한다. 화이트 래빗 1장 초동일 때는 이 지점이 첫 무효 타이밍이다.
    - 맞은 뒤 상대 루트: 도마우스 + 래빗 2장으로 스플래시 메이지 (Splash Mage) → 소생 → M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)까지는 갈 수 있어 견제가 1~2개 줄어드는 정도.
-6. 🟠 아픔 **마루챠미 후와로스** (Mulcharmy Fuwalos) → **M∀LICE&lt;C&gt;TB－11** (Maliss C TB-11) — dormouse 5단계
+11. 🟠 아픔 **마루챠미 후와로스** (Mulcharmy Fuwalos) → **M∀LICE&lt;C&gt;TB－11** (Maliss C TB-11) — dormouse 5단계
    - 타이밍: 전개 시작 전(도마우스 일반 소환 직후) 또는 TB-11의 덱 특소 때
    - 이유: 덱·엑스트라 특소(TB-11, 링크 5~6회)만 세지만 그래도 4~6장 드로우가 나온다. 제외 상태 특소는 세지 않는 점은 증G보다 약하다.
    - 맞은 뒤 상대 루트: 상대는 링크 횟수를 줄여 화이트 바인더 + 하트 크립터 정도로 끊을 수 있다.
-7. 🟡 할만함 **하루 우라라** (Ash Blossom & Joyous Spring) → **M∀LICE&lt;C&gt;TB－11** (Maliss C TB-11) — dormouse 5단계
+12. 🟡 할만함 **싸이크론** (Mystical Space Typhoon) → **M∀LICE IN UNDERGROUND** (Maliss in Underground) — underground 1단계
+   - 타이밍: M∀LICE IN UNDERGROUND (Maliss in Underground)의 카드 발동에 체인해 싸이크론으로 파괴
+   - 이유: 발동 시 효과 처리 때 이 카드가 필드에 없으면 '패·덱·묘지에서 M∀LICE 1장 제외'가 처리되지 않는다(KONAMI Q&A). 일반 소환권을 아끼는 언더그라운드 1장 초동이 그대로 끝나고, 링크 3000 공격력 상승도 사라진다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).
+   - 맞은 뒤 상대 루트: 언더그라운드는 1턴 1장 발동이라 다시 못 쓴다. 상대는 일반 소환권이 남아 있어 도마우스·래빗을 패에 갖고 있으면 그대로 전개한다.
+13. 🟡 할만함 **하루 우라라** (Ash Blossom & Joyous Spring) → **M∀LICE&lt;C&gt;TB－11** (Maliss C TB-11) — dormouse 5단계
    - 타이밍: M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11)의 '덱에서 특소' 발동에 체인
    - 이유: 도마우스(덱 제외)·래빗(함정 세트)에는 우라라를 쓸 수 없어서, 첫 우라라 타이밍은 TB-11이다. 덱에서 나올 몸 1장을 지운다.
    - 맞은 뒤 상대 루트: 코스트로 제외된 도마우스가 자신 특소해 래빗 + 도마우스로 스플래시 메이지 (Splash Mage) 루트가 그대로 이어진다. 끊기기보다 견제 1개가 줄어드는 수준.
-8. 🟡 할만함 **저택 와라시** (Ghost Belle & Haunted Mansion) → **M∀LICE&lt;Q&gt;WHITE BINDER** (Maliss Q White Binder) — dormouse 10단계
+14. 🟡 할만함 **저택 와라시** (Ghost Belle & Haunted Mansion) → **M∀LICE&lt;Q&gt;WHITE BINDER** (Maliss Q White Binder) — dormouse 10단계
    - 타이밍: M∀LICE&lt;Q&gt;WHITE BINDER (Maliss Q White Binder)의 '묘지 카드 3장까지 제외' 효과 발동에 체인
    - 이유: 마치 헤어 회수 루프의 시동이 끊겨 M∀LICE&lt;P&gt;March Hare (Maliss P March Hare) 재사용과 위키드 서치까지의 연결이 늦어진다. 스플래시 메이지 (Splash Mage)의 소생(8번)에 써도 된다.
    - 맞은 뒤 상대 루트: 패의 마치 헤어나 백업＠이그니스터 (Backup @Ignister)로 우회 가능.
-9. 🟡 할만함 **하루 우라라** (Ash Blossom & Joyous Spring) → **사이버스 위키드** (Cyberse Wicckid) — dormouse 15단계
+15. 🟡 할만함 **하루 우라라** (Ash Blossom & Joyous Spring) → **사이버스 위키드** (Cyberse Wicckid) — dormouse 15단계
    - 타이밍: 사이버스 위키드 (Cyberse Wicckid)의 사이버스 튜너 서치 발동에 체인 (TB-11에 우라라를 안 썼다면)
    - 이유: 백업＠이그니스터 (Backup @Ignister) → 위저드＠이그니스터 (Wizard @Ignister)로 이어지는 후반 몸 보충이 끊겨 올라이드 코드 토커까지 가기 어려워진다.
    - 맞은 뒤 상대 루트: 화이트 바인더·하트 크립터 + 세트 함정으로 마무리. 견제 1개 감소.
-10. 🟡 할만함 **드롤 & 로크 버드** (Droll & Lock Bird) → **사이버스 위키드** (Cyberse Wicckid) — dormouse 15단계
+16. 🟡 할만함 **드롤 & 로크 버드** (Droll & Lock Bird) → **사이버스 위키드** (Cyberse Wicckid) — dormouse 15단계
    - 타이밍: 사이버스 위키드 (Cyberse Wicckid)의 서치가 처리된 뒤
    - 이유: 이후 백업＠이그니스터 (Backup @Ignister)의 위저드＠이그니스터 (Wizard @Ignister) 서치, M∀LICE&lt;C&gt;MTP－07 (Maliss C MTP-07)의 서치, M∀LICE&lt;P&gt;Cheshire Cat (Maliss P Chessy Cat)·어둠의 유혹 (Allure of Darkness) 드로우를 막는다. 마치 헤어의 회수는 '제외 상태에서 패로'라 막지 못한다.
    - 맞은 뒤 상대 루트: 패에 Wizard가 이미 있으면 영향이 작다.
+17. ⛔ 비추 **싸이크론** (Mystical Space Typhoon) → **M∀LICE&lt;C&gt;TB－11** (Maliss C TB-11) — dormouse 5단계
+   - 타이밍: 세트된 M∀LICE&lt;C&gt;TB－11 (Maliss C TB-11)·M∀LICE&lt;C&gt;GWC－06 (Maliss C GWC-06)을 싸이크론으로 노리거나, TB-11 발동에 체인해서 파괴
+   - 이유: M∀LICE 함정은 앞면 M∀LICE 1장을 제외하면 세트한 턴에도 발동할 수 있어서, 세트된 함정을 노리면 그대로 체인 발동한다. 일반 함정은 발동에 체인해 파괴해도 효과가 처리된다. 결국 싸이크론만 버리는 꼴.
+   - 맞은 뒤 상대 루트: 싸이크론은 M∀LICE IN UNDERGROUND (Maliss in Underground) 발동에 아끼고, 함정에는 쓰지 않는다.
+18. ⛔ 비추 **비스테드 드루이드브룸** (Bystial Druiswurm) → **M∀LICE&lt;P&gt;March Hare** (Maliss P March Hare) — dormouse 8단계
+   - 타이밍: 스플래시 메이지 (Splash Mage)가 묘지의 M∀LICE&lt;P&gt;March Hare (Maliss P March Hare)를 대상으로 했을 때 드루이드브룸으로 마치 헤어를 제외
+   - 이유: 소생은 불발되지만 마치 헤어는 '제외되면 300LP로 제외된 M∀LICE를 패에 넣는' 효과가 나와서 오히려 패가 늘어난다. M∀LICE는 몬스터 전부가 어둠이고 제외되면 효과가 나오므로, 묘지의 M∀LICE를 제외하는 드루이드브룸은 상대를 돕는다.
+   - 맞은 뒤 상대 루트: 드루이드브룸은 이 매치업에서는 상대 턴에 쓰지 않는다. 내 턴에 링크 소재로 보내서 '특소된 몬스터 1장을 묘지로'(제외가 아니라 부활하지 않음)를 노리는 용도.
 
 ## 핵심 카드
 

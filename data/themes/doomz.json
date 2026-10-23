@@ -609,6 +609,36 @@
    "fallback_ko": "패에 엘라라가 있으면 아말테와 엮어 랭크4 엑시즈 루트로 재시작."
   },
   {
+   "handtrap": "crown",
+   "severity": "strong",
+   "line": "elara",
+   "step": 2,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "일반 소환된 [[DoomZ VII Seven - Elara]]의 ①(덱에서 마함 세트) 발동에 체인 (아말테 초동이면 [[DoomZ V Five - Amalthe]]의 서치에 체인)",
+   "why_ko": "효과 무효에 더해 이번 턴 효과 파괴 내성 + '발동한 효과를 받지 않음' + 소재 불가가 붙는다. 그래서 세트가 무효될 뿐 아니라, 장착 마법 발동으로 장착하는 것, [[DoomZ XII Zero - Drastea]]·[[DoomZ Raiders]]로 파괴해서 유발을 얻는 것도 전부 안 된다. 파괴가 아니라서 둠즈의 '효과로 파괴되면' 유발도 나오지 않는다. 몬스터 효과로 체인할 수 없다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).",
+   "fallback_ko": "엘라라·아말테는 필드에 그대로 남는 벽이 된다. 패의 [[DoomZ Change]]나 다른 하급 둠즈로 다른 몸을 써서 재시작해야 한다."
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "strong",
+   "line": "elara",
+   "step": 2,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "일반 소환된 [[DoomZ VII Seven - Elara]]의 ① 발동 시 하르모니아 공개 → 엘라라 파괴",
+   "why_ko": "엘라라의 '소환되면 / 효과로 파괴되면'은 같은 ① 효과(1턴 1번)라, 이미 소환 유발로 쓴 지금 파괴하면 다시 발동할 수 없다. 세트는 처리되지만 장착·엑시즈 변신을 할 몸이 없다. 토끼와 같은 지점이고 하르모니아는 패에서 쓰므로 후공에도 가능.",
+   "fallback_ko": "세트된 [[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]]를 다른 몬스터에 써서 이어간다. 그라플레이오·둠즈·레이더스 등 다른 둠즈 카드를 파괴하면 유발을 주므로 하르모니아는 소환 유발을 쓴 하급에만 쓴다."
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "strong",
+   "line": "amalthe",
+   "step": 2,
+   "target_card": "DoomZ V Five - Amalthe",
+   "timing_ko": "일반 소환된 [[DoomZ V Five - Amalthe]]의 서치 발동 시 하르모니아 공개 → 아말테 파괴",
+   "why_ko": "아말테의 파괴 유발도 같은 효과라 다시 쓰지 못한다. 서치된 [[DoomZ XII Zero - Drastea]]는 '자신 필드의 둠즈 카드 1장을 파괴하고' 특소하는데, 필드에 둠즈 카드가 없어서 나오지 못한다.",
+   "fallback_ko": "패에 엘라라·체인지 등 다른 둠즈 카드가 있으면 그것을 깔고 드라스테아를 낸다."
+  },
+  {
    "handtrap": "droll",
    "severity": "strong",
    "line": "change",
@@ -649,6 +679,26 @@
    "fallback_ko": "세트된 [[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]]를 다른 몬스터에게 써서 이어갈 수 있다."
   },
   {
+   "handtrap": "super_poly",
+   "severity": "strong",
+   "line": "change",
+   "step": 15,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "[[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]] ②로 엘라라가 소생하고 주프레도의 '엑스트라 덱에 앞면으로 들어간' 서치가 발동했을 때 체인. 엘라라 + 아말테(둘 다 어둠 드래곤족, 이름이 다름)로 [[Garura, Wings of Resonant Life]] 또는 [[Starving Venom Fusion Dragon]]. elara 라인이면 13~14단계(아말테·주프레도 서치 체인)에 같은 방법",
+   "why_ko": "소재는 묘지로 보내지는 것이라 '효과로 파괴되면' 유발이 하나도 나오지 않는다. [[Springans Merrymaker]] → [[Gigantic \"Champion\" Sargas]] → [[Therion \"King\" Regulus]] 가지가 통째로 사라진다. 체인 불가라 [[DoomZ XII End - Drastrius]]·레귤러스가 있어도 막지 못한다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).",
+   "fallback_ko": "패의 [[DoomZ XII Zero - Drastea]]는 필드의 둠즈 카드([[DoomZ Raiders]] 등)를 파괴하고 나올 수 있다. 레이더스를 파괴하면 레이더스의 유발로 내 융합 몬스터가 파괴될 수 있다."
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "ok",
+   "line": "elara",
+   "step": 2,
+   "target_card": "DoomZ VII Seven - Elara",
+   "timing_ko": "일반 소환된 [[DoomZ VII Seven - Elara]]의 ① 발동에 체인해 엘라라 파괴 (아말테 초동이면 아말테의 서치에 체인)",
+   "why_ko": "하르모니아와 같은 원리. 이미 소환 유발로 쓴 ①은 파괴되어도 다시 나오지 않는다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).",
+   "fallback_ko": "그라플레이오·레이더스·둠즈 등 '효과로 파괴되면' 유발이 남은 카드는 절대 노리지 말 것. 드라스트리우스는 1턴에 1번 파괴되지 않는다."
+  },
+  {
    "handtrap": "belle",
    "severity": "ok",
    "line": "change",
@@ -662,6 +712,16 @@
    ]
   },
   {
+   "handtrap": "mst",
+   "severity": "ok",
+   "line": "elara",
+   "step": 3,
+   "target_card": "DoomZ Command \"A.D.R.A.S.T.E.I.A.\"",
+   "timing_ko": "[[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]]의 카드 발동(엘라라에게 장착)에 체인해 싸이크론으로 파괴",
+   "why_ko": "발동에 체인해 장착 마법을 파괴하면 장착되지 않는다. 아드라스테이아는 파괴 유발이 없다. 상대는 묘지 효과(1턴 1번)로 엘라라에 다시 장착해 엑시즈 변신은 하지만, 나중에 쓸 묘지 장착 → ② 소생(elara 8~9단계)이 사라져 와라시와 비슷한 피해를 준다. 속공 마법이라 상대 턴에 쓰려면 내 턴에 미리 세트해 둬야 한다(내가 선공이었을 때 상대의 전개, 또는 상대의 2턴째 이후).",
+   "fallback_ko": "[[DoomZ Raiders]]·[[DoomZ Change]]·[[DoomZ Destruction]]은 효과로 파괴되면 유발이 있어서 싸이크론으로 노리면 손해. 엔드 보드의 [[DoomZ Command \"D.O.O.M.D.U.R.G.\"]](대상 내성 부여)는 장착 카드 자체는 대상으로 할 수 있다."
+  },
+  {
    "handtrap": "ogre",
    "severity": "bad",
    "line": "elara",
@@ -670,6 +730,16 @@
    "timing_ko": "그라플레이오·아말테·둠즈·레이더스 등 '효과로 파괴되면' 유발이 있는 카드를 토끼·하르모니아·도미나스(파괴 처리)로 깨는 것",
    "why_ko": "토끼는 무효가 아니라서 원래 효과도 처리되고, 파괴 유발까지 덤으로 준다(그라플레이오: 덱 특소, 레이더스: 내 몬스터 파괴). 토끼는 엘라라 ① 정도에만 쓴다.",
    "fallback_ko": ""
+  },
+  {
+   "handtrap": "mst",
+   "severity": "bad",
+   "line": "change",
+   "step": 1,
+   "target_card": "DoomZ Change",
+   "timing_ko": "[[DoomZ Change]] 발동이나 [[DoomZ Raiders]]·[[DoomZ Destruction]]에 싸이크론",
+   "why_ko": "체인지는 일반 마법이라 발동에 체인해 파괴해도 효과가 처리되고, 오히려 '효과로 파괴되면 묘지의 둠즈 회수 + 패에서 특소'가 나온다. 레이더스는 파괴되면 필드 몬스터 1장 파괴(그라플레이오를 깨서 덱 특소로 이어가거나 내 몬스터 제거), 디스트럭션은 파괴되면 덱의 둠즈를 장착해 준다.",
+   "fallback_ko": "싸이크론은 [[DoomZ Command \"A.D.R.A.S.T.E.I.A.\"]] 발동 정도에만 쓴다."
   }
  ],
  "handtrap_summary": {
@@ -758,6 +828,30 @@
   "ttt": {
    "rating": "ok",
    "note_ko": "후공 내 턴용. 내 메인 페이즈에 드라스트리우스·레귤러스 무효가 나오면 발동 조건이 된다."
+  },
+  "harmonia": {
+   "rating": "strong",
+   "note_ko": "소환 유발을 쓴 엘라라·아말테를 파괴(파괴 유발은 같은 효과라 다시 안 나옴). 아말테 초동은 드라스테아가 깔고 나올 둠즈 카드가 없어진다. 다른 둠즈 카드를 파괴하면 유발을 줌"
+  },
+  "fallen_virtuous": {
+   "rating": "ok",
+   "note_ko": "하르모니아와 같은 지점(소환 유발 중인 엘라라·아말테)에만. 다른 둠즈 카드는 파괴 유발을 주니 금지. 미리 세트해 둬야 함"
+  },
+  "super_poly": {
+   "rating": "strong",
+   "note_ko": "엘라라 + 아말테로 [[Garura, Wings of Resonant Life]]·[[Starving Venom Fusion Dragon]]. 묘지로 보내므로 파괴 유발이 없고, 메리메이커 → 사르가스 → 레귤러스 가지를 끊는다. 체인 불가. 미리 세트해 둬야 함"
+  },
+  "crown": {
+   "rating": "strong",
+   "note_ko": "엘라라·아말테 소환 유발에 체인. 무효 + 파괴 내성 + 발동한 효과를 받지 않음 + 소재 불가라 장착·자괴·엑시즈 변신이 전부 막히고 파괴 유발도 안 나온다. 미리 세트해 둬야 함"
+  },
+  "druiswurm": {
+   "rating": "weak",
+   "note_ko": "아드라스테이아 ②는 제외 상태에서도 특소할 수 있고 그라플레이오는 덱에서도 꺼내서 묘지 제외가 거의 안 통한다. 특소된 드루이드브룸을 둠즈가 효과로 파괴하면 상대 특소 몬스터 1장을 묘지로 보내는(파괴가 아님) 견제가 되는 정도"
+  },
+  "mst": {
+   "rating": "ok",
+   "note_ko": "아드라스테이아 발동에 체인해 장착을 막으면 묘지 장착을 미리 쓰게 해 나중의 소생을 없앤다. 체인지·레이더스·디스트럭션은 파괴 유발이 있어 금지. 미리 세트해 둬야 함"
   }
  },
  "notes_ko": [

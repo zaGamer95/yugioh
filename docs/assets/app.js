@@ -560,8 +560,10 @@
           const bad = cps.filter((c) => c.severity === "bad");
           const sum = t.handtrap_summary[id];
           const best = good[0];
-          const blocked = state.first && NEEDS_EMPTY.has(id);
-          return { id, best, more: good.slice(1, 3), bad, sum, blocked, sev: best ? best.severity : sum ? sum.rating : "weak" };
+          const isSpell = (D.cards[HT[id].card] || {}).type === "Spell";
+          const blocked = (state.first && NEEDS_EMPTY.has(id)) || (!state.first && isSpell);
+          const setNote = state.first && isSpell;
+          return { id, best, more: good.slice(1, 3), bad, sum, blocked, isSpell, setNote, sev: best ? best.severity : sum ? sum.rating : "weak" };
         })
         .sort((a, b) => a.blocked - b.blocked || sevRank(a.sev) - sevRank(b.sev) || (a.best?.rank || 99) - (b.best?.rank || 99));
 
@@ -581,7 +583,14 @@
               const where = c ? stepOf(c) : null;
               return `<li class="pl sevb-${p.sev}${p.blocked ? " blocked" : ""}">
                 <div class="pl-head"><span class="pl-n">${n + 1}</span>${thumb(HT[p.id].card)}<b>${esc(HT[p.id].short_ko)}</b>${sevBadge(p.sev)}</div>
-                ${p.blocked ? `<p class="pl-bad small">⚠ 내 필드에 ${p.id === "gamma" ? "몬스터" : "카드"}가 있으면 쓸 수 없음${p.id === "imperm" ? " (패에서 발동 불가 — 세트해 두었다면 가능)" : ""}</p>` : ""}
+                ${
+                  p.blocked
+                    ? p.isSpell
+                      ? `<p class="pl-bad small">⚠ 속공 마법은 상대 턴에 패에서 발동할 수 없음 — 후공이면 상대 1턴에는 못 씀 (내 턴에 세트한 뒤 다음 상대 턴부터)</p>`
+                      : `<p class="pl-bad small">⚠ 내 필드에 ${p.id === "gamma" ? "몬스터" : "카드"}가 있으면 쓸 수 없음${p.id === "imperm" ? " (패에서 발동 불가 — 세트해 두었다면 가능)" : ""}</p>`
+                    : ""
+                }
+                ${p.setNote ? `<p class="small muted">※ 속공 마법: 내 턴에 세트해 둔 경우에만 상대 턴에 쓸 수 있음</p>` : ""}
                 ${
                   c
                     ? `<div class="pl-body">

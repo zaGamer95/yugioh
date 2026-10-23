@@ -819,6 +819,24 @@
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 자신의 덱 위에서 카드 10장을 뒷면 표시로 제외하고 발동할 수 있다. 자신은 덱에서 2장 드로우한다.",
   "password": 35261759
  },
+ "12628": {
+  "cid": 12628,
+  "password": 41209827,
+  "en": "Starving Venom Fusion Dragon",
+  "ko": "스타브 베놈 퓨전 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "DARK",
+  "level": 8,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2 DARK monsters on the field, except Tokens\nIf this card is Fusion Summoned: You can make this card gain ATK equal to 1 opponent's Special Summoned monster, until the end of this turn. Once per turn: You can target 1 Level 5 or higher monster your opponent controls; until the End Phase, this card's name becomes that monster's original name, and replace this effect with that monster's original effects. If this Fusion Summoned card is destroyed: You can destroy all your opponent's Special Summoned monsters.",
+  "text_ko": "토큰 이외의 필드의 어둠 속성 몬스터 × 2<br>①: 이 카드를 융합 소환했을 경우에 발동할 수 있다. 상대 필드의 특수 소환된 몬스터 1장의 공격력만큼만, 이 카드의 공격력을 턴 종료시까지 올린다. ②: 1턴에 1번, 상대 필드의 레벨 5 이상의 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드는 엔드 페이즈까지, 그 몬스터의 원래의 카드명 / 효과와 같은 카드명 / 효과를 얻는다. ③: 융합 소환한 이 카드가 파괴되었을 경우에 발동할 수 있다. 상대 필드의 특수 소환된 몬스터를 전부 파괴한다."
+ },
  "12801": {
   "cid": 12801,
   "en": "That Grass Looks Greener",

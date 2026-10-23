@@ -1,0 +1,36 @@
+{
+  "sources": {
+    "konami-db-faq": {
+      "title": "遊戯王ニューロン（オフィシャルカードゲーム カードデータベース）カードに関連するQ&A・補足情報",
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+      "publisher": "KONAMI",
+      "lang": "ja"
+    }
+  },
+  "rules": [],
+  "rulings": [
+    {
+      "id": "qa-12624",
+      "fid": 12624,
+      "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12624&request_locale=ja",
+      "official": true,
+      "cards": [
+        "\"A Case for K9\"",
+        "Maliss in Underground",
+        "Mystical Space Typhoon"
+      ],
+      "handtraps": [
+        "mst"
+      ],
+      "themes": [
+        "vanquish-soul-k9",
+        "maliss"
+      ],
+      "topic": "chain",
+      "question_ko": "[[\"A Case for K9\"]]의 카드 발동에 체인한 [[Mystical Space Typhoon]] 같은 효과로 케이스가 파괴되면, '발동 시 효과 처리로 덱에서 K9 몬스터 서치'는 적용되나?",
+      "answer_ko": "적용되지 않는다. 다만 케이스는 마법·함정 존에서 파괴되어 묘지로 갔으므로, 체인 처리 뒤 ③(효과로 파괴되면 덱·묘지에서 K9 속공 마법 세트)은 발동할 수 있다. [[Maliss in Underground]] 등 '이 카드의 발동 시 효과 처리로' 무언가를 하는 지속·필드 마법도, 처리 때 필드에 없으면 같은 이유로 그 처리를 하지 않는다.",
+      "quote_ja": "適用できません。なお、その場合でも「“Case of K９”」は魔法＆罠ゾーンで破壊され墓地に送られていますので、一連のチェーン処理後に『③：…』効果を発動できます。…フィールド魔法…「M∀LICE IN UNDERGROUND」…も同様に『このカードの発動時の効果処理として』の処理は行われません。",
+      "impact_ko": "싸이크론·[[Cosmic Cyclone]]을 세트해 두었다면 케이스·언더그라운드의 카드 발동에 체인해서 서치·제외를 통째로 지울 수 있다. 케이스는 그 대가로 [[K9-X Forced Release]]를 세트하니 이어서 대비할 것."
+    }
+  ]
+}
