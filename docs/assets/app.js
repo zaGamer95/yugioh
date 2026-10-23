@@ -9,6 +9,7 @@
 
   let D = null;
   let HT = {};
+  let BK = {};
   const app = document.getElementById("app");
   const tip = document.getElementById("tip");
 
@@ -66,6 +67,7 @@
     const m = path.match(/^\/t\/([\w-]+)/);
     if (m) return renderTheme(m[1], params);
     if (path.startsWith("/h")) return renderHandtraps();
+    if (path.startsWith("/p")) return renderPlay(params);
     renderHome();
   }
 
@@ -365,6 +367,313 @@
     return `<a href="${esc(url)}" rel="noopener" target="_blank">${esc(rest || url)}</a>${rest ? ` <span class="muted">${esc(new URL(url).hostname)}</span>` : ""}`;
   };
 
+  /* ---------- play: 즉석 족보 ---------- */
+  const NEEDS_EMPTY = new Set(["imperm", "fuwalos", "purulia", "meowls", "gamma"]); // gamma 는 '몬스터가 없을 때'
+  const WIPE = new Set(["lightning_storm", "evenly_matched", "dark_ruler", "harpie", "heavy_storm", "raigeki", "dark_hole", "kaiju_slumber", "book_eclipse"]);
+  const store = {
+    get(k, d) {
+      try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (_) { return d; }
+    },
+    set(k, v) {
+      try { localStorage.setItem(k, JSON.stringify(v)); } catch (_) {}
+    },
+  };
+  const anyCard = (id) => HT[id] || BK[id];
+  const anyName = (id) => (anyCard(id) ? anyCard(id).short_ko : id);
+  const thumb = (en, cls = "mini") => {
+    const src = img(en, "art");
+    return src ? `<img class="${cls}" src="${src}" alt="" loading="lazy">` : `<span class="${cls} ph"></span>`;
+  };
+
+  // 보유 카드 ↔ 견제 최대 매칭. 전체 제거 카드는 같은 보드의 여러 견제를 한 번에 해결한다.
+  function solveBoard(board, held) {
+    const res = board.interruptions.map((it) => ({ it, by: null, options: (it.answered_by || []).filter((a) => held.has(a.id)) }));
+    const multi = new Set([...held].filter((id) => WIPE.has(id)));
+    res.forEach((r) => {
+      const w = r.options.find((o) => multi.has(o.id));
+      if (w) r.by = w;
+    });
+    const owner = {}; // cardId -> index
+    const tryAssign = (i, seen) => {
+      for (const o of res[i].options) {
+        if (multi.has(o.id) || seen.has(o.id)) continue;
+        seen.add(o.id);
+        if (owner[o.id] === undefined || tryAssign(owner[o.id], seen)) {
+          owner[o.id] = i;
+          res[i].by = o;
+          return true;
+        }
+      }
+      return false;
+    };
+    res.forEach((r, i) => { if (!r.by) tryAssign(i, new Set()); });
+    // 다른 견제에 재배정되어 빠진 표시 정리
+    res.forEach((r, i) => { if (r.by && !multi.has(r.by.id) && owner[r.by.id] !== i) r.by = null; });
+    return res;
+  }
+
+  function verdict(res) {
+    const total = res.length;
+    const left = res.filter((r) => !r.by).length;
+    if (!total) return { cls: "good", label: "견제 없음", text: "상대 보드에 막을 수단이 거의 없습니다. 그대로 전개하세요." };
+    if (left === 0) return { cls: "good", label: "돌파 유력", text: `견제 ${total}개를 모두 처리할 카드가 있습니다. 아래 순서대로.` };
+    if (left === 1) return { cls: "mid", label: "반반", text: `견제 ${left}개가 남습니다. 미끼로 소모시키거나 남은 견제를 맞고도 이길 수 있는지 계산하세요.` };
+    return { cls: "bad", label: "어려움", text: `견제 ${left}개가 남습니다. 무리한 전개보다 자원을 아끼는 플레이를 고려하세요.` };
+  }
+
+  function renderPlay(params) {
+    const ALL = [...D.handtraps.map((h) => ({ ...h, group: h.kind })), ...D.breakers.map((b) => ({ ...b, group: "breaker" }))];
+    const state = {
+      first: params.get("s") === "1" ? true : params.get("s") === "2" ? false : store.get("play.first", false),
+      theme: params.get("t") || null,
+      held: new Set((params.get("h") || "").split(",").filter((x) => anyCard(x))),
+      board: params.get("b") || null,
+      q: "",
+      editDeck: false,
+      deck: new Set(store.get("play.deck", [])),
+    };
+
+    app.onclick = null;
+    app.oninput = null;
+    app.innerHTML = `
+      <h1>즉석 족보 <span class="en">플레이 중 바로 보기</span></h1>
+      <div class="play-top">
+        <div class="seg" role="group" aria-label="선공 후공">
+          <button type="button" data-first="1">선공</button>
+          <button type="button" data-first="0">후공</button>
+        </div>
+        <input id="themeSearch" class="search" type="search" placeholder="상대 테마 검색 (한글·영문·카드명)" autocomplete="off">
+      </div>
+      <div id="themePick" class="pick"></div>
+      <section class="hand-panel">
+        <div class="hand-head">
+          <h2>지금 내 패</h2>
+          <button type="button" class="chip sub" id="deckEdit"></button>
+          <button type="button" class="chip sub" id="clearHand">패 비우기</button>
+        </div>
+        <p class="muted small" id="deckHint"></p>
+        <div id="handPick"></div>
+      </section>
+      <div id="playOut"></div>`;
+
+    const sync = () => {
+      const q = new URLSearchParams();
+      q.set("s", state.first ? "1" : "2");
+      if (state.theme) q.set("t", state.theme);
+      if (state.held.size) q.set("h", [...state.held].join(","));
+      if (state.board) q.set("b", state.board);
+      history.replaceState(null, "", "#/p?" + q);
+      store.set("play.first", state.first);
+    };
+
+    const themeMatches = (t, q) => {
+      if (!q) return true;
+      const hay = [t.name.ko, t.name.en, t.slug, ...(t.variants || []), ...(t.key_cards || []).flatMap((k) => [k.card, ko(k.card) || ""])].join(" ").toLowerCase();
+      return q.toLowerCase().split(/\s+/).every((w) => hay.includes(w));
+    };
+
+    function drawSeg() {
+      app.querySelectorAll("[data-first]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.first === "1") === String(state.first)));
+    }
+
+    function drawThemes() {
+      const list = D.themes.filter((t) => themeMatches(t, state.q));
+      document.getElementById("themePick").innerHTML = list.length
+        ? list
+            .map((t) => `<button type="button" class="ptheme${state.theme === t.slug ? " on" : ""}" data-theme="${t.slug}">
+              ${thumb(t.cover, "pt-art")}<span><b>${esc(t.name.ko)}</b><span class="en">${esc(t.name.en)}</span></span></button>`)
+            .join("")
+        : `<p class="muted small">검색 결과가 없습니다.</p>`;
+    }
+
+    function drawHand() {
+      const theme = D.themes.find((t) => t.slug === state.theme);
+      const usage = {};
+      (theme?.staples || []).forEach((s) => (usage[s.id] = s.rate));
+      const showAll = state.editDeck || !state.deck.size;
+      const groups = [...KIND_ORDER, "breaker"]
+        .map((k) => {
+          const items = ALL.filter((c) => c.group === k && (showAll || state.deck.has(c.id)));
+          if (!items.length) return "";
+          const title = k === "breaker" ? "후공 돌파 카드" : D.kinds[k].ko;
+          return `<div class="hgroup"><div class="hg-title">${esc(title)}</div><div class="hcards">${items
+            .map((c) => {
+              const on = state.editDeck ? state.deck.has(c.id) : state.held.has(c.id);
+              return `<button type="button" class="hcard${on ? " on" : ""}${state.editDeck ? " edit" : ""}" data-card-id="${c.id}" aria-pressed="${on}">
+                ${thumb(c.card)}<span>${esc(c.short_ko)}</span></button>`;
+            })
+            .join("")}</div></div>`;
+        })
+        .join("");
+      document.getElementById("handPick").innerHTML = groups;
+      document.getElementById("deckEdit").textContent = state.editDeck ? "덱 편집 완료" : state.deck.size ? `내 덱 카드만 표시 중 (${state.deck.size}) · 편집` : "내 덱 카드 지정";
+      document.getElementById("deckHint").textContent = state.editDeck
+        ? "덱에 넣은 패트랩·돌파 카드를 눌러 두면 다음부터 그 카드만 보입니다. (이 브라우저에 저장)"
+        : "들고 있는 카드를 누르세요. 결과가 바로 아래에 바뀝니다.";
+    }
+
+    function drawOut() {
+      const out = document.getElementById("playOut");
+      const t = D.themes.find((x) => x.slug === state.theme);
+      if (!t) {
+        out.innerHTML = `<p class="empty-hint">상대 테마를 고르면 족보가 나옵니다.</p>`;
+        return;
+      }
+      const cmap = chokeMap(t);
+      const held = state.held;
+      const heldHT = [...held].filter((id) => HT[id]);
+
+      // A. 상대 턴: 패트랩 던질 곳
+      const plans = heldHT
+        .map((id) => {
+          const cps = t.chokepoints.map((c, i) => ({ ...c, rank: i + 1 })).filter((c) => c.handtrap === id);
+          const good = cps.filter((c) => c.severity !== "bad").sort((a, b) => sevRank(a.severity) - sevRank(b.severity) || a.rank - b.rank);
+          const bad = cps.filter((c) => c.severity === "bad");
+          const sum = t.handtrap_summary[id];
+          const best = good[0];
+          const blocked = state.first && NEEDS_EMPTY.has(id);
+          return { id, best, more: good.slice(1, 3), bad, sum, blocked, sev: best ? best.severity : sum ? sum.rating : "weak" };
+        })
+        .sort((a, b) => a.blocked - b.blocked || sevRank(a.sev) - sevRank(b.sev) || (a.best?.rank || 99) - (b.best?.rank || 99));
+
+      const stepOf = (c) => {
+        const line = t.lines.find((l) => l.id === c.line);
+        if (line && c.step) return { line, s: line.steps[c.step - 1], i: c.step - 1 };
+        for (const l of t.lines) {
+          const i = l.steps.findIndex((s) => s.card === c.target_card);
+          if (i >= 0) return { line: l, s: l.steps[i], i };
+        }
+        return null;
+      };
+      const planHTML = plans.length
+        ? `<ol class="plan">${plans
+            .map((p, n) => {
+              const c = p.best;
+              const where = c ? stepOf(c) : null;
+              return `<li class="pl sevb-${p.sev}${p.blocked ? " blocked" : ""}">
+                <div class="pl-head"><span class="pl-n">${n + 1}</span>${thumb(HT[p.id].card)}<b>${esc(HT[p.id].short_ko)}</b>${sevBadge(p.sev)}</div>
+                ${p.blocked ? `<p class="pl-bad small">⚠ 내 필드에 ${p.id === "gamma" ? "몬스터" : "카드"}가 있으면 쓸 수 없음${p.id === "imperm" ? " (패에서 발동 불가 — 세트해 두었다면 가능)" : ""}</p>` : ""}
+                ${
+                  c
+                    ? `<div class="pl-body">
+                        ${where ? `<div class="pl-target">${thumb(where.s.card, "tgt")}<div><div>${card(c.target_card || where.s.card, { noEn: true })}</div><div class="muted small">${esc(where.line.title_ko)} · ${where.i + 1}단계</div></div></div>` : ""}
+                        ${c.timing_ko ? `<p><span class="lbl">타이밍</span>${prose(c.timing_ko)}</p>` : ""}
+                        <p class="small">${prose(c.why_ko)}</p>
+                        ${p.more.length ? `<p class="small muted">다른 지점: ${p.more.map((m) => `${SEV_G[m.severity]} ${esc(ko(m.target_card) || m.target_card || "")}`).join(" · ")}</p>` : ""}
+                      </div>`
+                    : `<div class="pl-body"><p class="small">${p.sum ? prose(p.sum.note_ko) : "이 테마 상대로 정리된 사용 지점이 없습니다."}</p></div>`
+                }
+                ${p.bad.length ? `<p class="pl-bad small">✕ 쓰지 말 것: ${p.bad.map((b) => prose(b.why_ko)).join(" / ")}</p>` : ""}
+              </li>`;
+            })
+            .join("")}</ol>`
+        : `<p class="muted small">위에서 들고 있는 패트랩을 고르면 던질 순서가 나옵니다. 이 테마 기준 혈자리 1~3순위:</p>
+           <ol class="plan compact">${t.chokepoints
+             .filter((c) => c.severity !== "bad")
+             .slice(0, 3)
+             .map((c) => `<li>${sevBadge(c.severity, htName(c.handtrap))} → ${card(c.target_card, { noEn: true })} <span class="muted small">${prose(c.timing_ko || "")}</span></li>`)
+             .join("")}</ol>`;
+
+      // B. 후공 돌파
+      let breakHTML = "";
+      const gs = t.going_second;
+      if (!state.first) {
+        if (!gs) {
+          breakHTML = `<section class="panel"><h2>돌파 가능성</h2><p class="muted">이 테마의 후공 데이터는 준비 중입니다.</p></section>`;
+        } else {
+          const boards = gs.boards || [];
+          let bid = state.board && boards.some((b) => b.id === state.board) ? state.board : boards[0]?.id;
+          const board = boards.find((b) => b.id === bid);
+          const res = board ? solveBoard(board, held) : [];
+          const v = verdict(res);
+          const heldBk = [...held].filter((id) => gs.breakers?.[id]);
+          const wish = Object.entries(gs.breakers || {})
+            .filter(([id, r]) => !held.has(id) && (r.rating === "critical" || r.rating === "strong") && anyCard(id))
+            .sort((a, b) => sevRank(a[1].rating) - sevRank(b[1].rating))
+            .slice(0, 6);
+          breakHTML = `<section class="panel break">
+            <h2>돌파 가능성 <span class="muted small">후공 · ${esc({ hard: "풀 보드 난이도 높음", medium: "풀 보드 난이도 보통", easy: "풀 보드 난이도 낮음" }[gs.difficulty] || "")}</span></h2>
+            <p class="small">${prose(gs.summary_ko)}</p>
+            <div class="chips" role="group" aria-label="상대 보드">${boards
+              .map((b) => `<button type="button" class="chip sub" data-board="${b.id}" aria-pressed="${b.id === bid}">${esc(b.title_ko)}</button>`)
+              .join("")}</div>
+            <div class="verdict v-${v.cls}"><b>${v.label}</b><span>${esc(v.text)}</span>
+              <span class="meter" aria-hidden="true">${res.map((r) => `<i class="${r.by ? "ok" : ""}"></i>`).join("")}</span></div>
+            <ul class="ints">${res
+              .map(
+                (r) => `<li class="${r.by ? "solved" : "open"}">
+                  ${thumb(r.it.card, "tgt")}
+                  <div><div><b>${esc(ko(r.it.card) || r.it.card)}</b> <span class="muted small">${esc(r.it.timing_ko || "")}</span></div>
+                  ${
+                    r.by
+                      ? `<div class="small ans">✓ ${esc(anyName(r.by.id))} — ${prose(r.by.note_ko || "")}</div>`
+                      : `<div class="small miss">✗ 처리할 카드 없음${(r.it.answered_by || []).length ? ` · 해결 카드: ${r.it.answered_by.map((a) => esc(anyName(a.id))).join(", ")}` : ""}</div>`
+                  }
+                  ${r.it.bait_ko ? `<div class="small muted">미끼: ${prose(r.it.bait_ko)}</div>` : ""}</div>
+                </li>`
+              )
+              .join("")}</ul>
+            ${heldBk.length ? `<h3>내 카드 평가</h3><div class="sumlist">${heldBk.map((id) => `<div>${sevBadge(gs.breakers[id].rating, anyName(id))} <span class="small">${prose(gs.breakers[id].note_ko)}</span></div>`).join("")}</div>` : ""}
+            ${gs.sequencing_ko?.length ? `<h3>권장 순서</h3><ol class="small">${gs.sequencing_ko.map((s) => `<li>${prose(s)}</li>`).join("")}</ol>` : ""}
+            ${wish.length ? `<h3>이 덱 상대로 좋은 돌파 카드</h3><div class="sumlist">${wish.map(([id, r]) => `<div>${sevBadge(r.rating, anyName(id))} <span class="small">${prose(r.note_ko)}</span></div>`).join("")}</div>` : ""}
+          </section>`;
+        }
+      }
+
+      // C. 상대가 들고 있을 카드
+      const st = (t.staples || []).filter((s) => s.rate >= 0.2).slice(0, 10);
+      const stHTML = st.length
+        ? `<section class="panel"><h2>상대가 들고 있을 카드 <span class="muted small">최근 30일 채용률</span></h2>
+            <ul class="staples">${st
+              .map((s) => `<li>${thumb(anyCard(s.id).card)}<span>${esc(anyName(s.id))}</span><span class="bar"><i style="width:${(s.rate * 100).toFixed(0)}%"></i></span><span class="muted small">${(s.rate * 100).toFixed(0)}% · ${s.avg}장</span></li>`)
+              .join("")}</ul></section>`
+        : "";
+
+      out.innerHTML = `
+        <div class="play-title">${thumb(t.cover, "pt-art lg")}<div><h2 style="margin:0">${esc(t.name.ko)} <span class="en">${esc(t.name.en)}</span></h2>
+          <a class="small" href="#/t/${t.slug}">전개 흐름 전체 보기 →</a></div></div>
+        <section class="panel">
+          <h2>${state.first ? "상대 턴(후공 2턴)에 던질 곳" : "상대 1턴에 던질 곳"}</h2>
+          ${state.first ? `<p class="small muted">상대가 후공으로 전개할 때도 같은 루트를 탑니다. 다만 내 필드가 있으면 포영(패)·후와로스·푸루리아·냐루스·감마 같은 '필드가 비어 있어야' 쓰는 카드는 못 씁니다.</p>` : ""}
+          ${planHTML}
+        </section>
+        ${breakHTML}
+        ${stHTML}`;
+    }
+
+    const redraw = () => { sync(); drawSeg(); drawThemes(); drawHand(); drawOut(); };
+
+    app.onclick = (e) => {
+      const f = e.target.closest("[data-first]");
+      const th = e.target.closest("[data-theme]");
+      const hc = e.target.closest("[data-card-id]");
+      const bd = e.target.closest("[data-board]");
+      if (f) state.first = f.dataset.first === "1";
+      else if (th) { state.theme = state.theme === th.dataset.theme ? null : th.dataset.theme; state.board = null; }
+      else if (hc) {
+        const id = hc.dataset.cardId;
+        const set = state.editDeck ? state.deck : state.held;
+        set.has(id) ? set.delete(id) : set.add(id);
+        if (state.editDeck) store.set("play.deck", [...state.deck]);
+      } else if (bd) state.board = bd.dataset.board;
+      else if (e.target.closest("#deckEdit")) state.editDeck = !state.editDeck;
+      else if (e.target.closest("#clearHand")) state.held.clear();
+      else return;
+      redraw();
+      if (th && state.theme) document.getElementById("playOut").scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    app.oninput = (e) => {
+      if (e.target.id === "themeSearch") { state.q = e.target.value.trim(); drawThemes(); }
+    };
+    document.getElementById("themeSearch").addEventListener("keydown", (e) => {
+      if (e.key !== "Enter") return;
+      const first = D.themes.find((t) => themeMatches(t, state.q));
+      if (first) { state.theme = first.slug; state.board = null; redraw(); }
+    });
+    redraw();
+    window.scrollTo(0, 0);
+  }
+
   /* ---------- handtrap dictionary ---------- */
   function renderHandtraps() {
     app.onclick = null;
@@ -460,6 +769,7 @@
       D = data;
       D.themes.sort((a, b) => (b.meta.share || 0) - (a.meta.share || 0));
       D.handtraps.forEach((h) => (HT[h.id] = h));
+      (D.breakers || []).forEach((b) => (BK[b.id] = b));
       window.addEventListener("hashchange", route);
       route();
     })

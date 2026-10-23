@@ -173,8 +173,10 @@ def write_site_data(themes, hdef, names):
                 used.add(o)
             used.update(re.findall(r"\[\[([^\]]+)\]\]", o))
 
+    bdef = load_json(ROOT / "data/breakers.json")
     walk(themes)
     walk(hdef["handtraps"])
+    walk(bdef["breakers"])
     cards = {}
     for en in sorted(used):
         c = names.by_en.get(en)
@@ -183,11 +185,34 @@ def write_site_data(themes, hdef, names):
     for t in themes:
         # 개요 카드 배경용 대표 카드: 지정이 없으면 핵심 카드 첫 장
         t.setdefault("cover", (t.get("key_cards") or [{}])[0].get("card"))
+    # 상대 테마가 실제로 넣는 패트랩·돌파 카드 채용률 (메타 스냅샷, 변형 deckType 합산)
+    meta_p = ROOT / "data/meta/latest.json"
+    staples_by_card = {h["card"]: h["id"] for h in hdef["handtraps"]}
+    staples_by_card.update({b["card"]: b["id"] for b in bdef["breakers"]})
+    if meta_p.exists():
+        meta = load_json(meta_p)
+        for t in themes:
+            rows = [meta["themes"][v] for v in t.get("variants", []) if v in meta["themes"]]
+            total = sum(r["decks"] for r in rows)
+            usage = {}
+            for r in rows:
+                for c in r["main"]:
+                    sid = staples_by_card.get(c["name"])
+                    if sid:
+                        u = usage.setdefault(sid, [0.0, 0.0])
+                        u[0] += c["rate"] * r["decks"]
+                        u[1] += c["rate"] * r["decks"] * c["avg"]
+            t["staples"] = sorted(
+                ({"id": k, "rate": round(v[0] / total, 3), "avg": round(v[1] / v[0], 2)} for k, v in usage.items() if total and v[0]),
+                key=lambda x: -x["rate"],
+            )
     data = {
         "generated": max((t.get("updated", "") for t in themes), default=""),
         "kinds": hdef.get("kinds", {}),
         "effect_classes": hdef["effect_classes"],
         "handtraps": hdef["handtraps"],
+        "breakers": bdef["breakers"],
+        "answer_tags": bdef["answer_tags"],
         "themes": themes,
         "cards": cards,
     }

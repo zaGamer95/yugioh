@@ -1,0 +1,174 @@
+{
+ "_comment": "후공 돌파 카드 정의. 패트랩(handtraps.json)도 내 턴에 돌파용으로 쓸 수 있으므로 테마의 answered_by 에는 두 파일의 id 를 섞어 쓴다. MD 금제는 2026-10-06 기준.",
+ "answer_tags": {
+  "monster_remove": "몬스터 1장 제거 (파괴·제외·릴리스·바운스)",
+  "monster_wipe": "몬스터 전체 제거",
+  "monster_negate": "몬스터 효과 무효",
+  "st_remove": "마법·함정 1장 제거",
+  "st_wipe": "마법·함정 전체 제거",
+  "steal": "상대 몬스터 탈취·소재로 사용",
+  "unresponsive": "체인으로 대응 불가",
+  "hand": "패 견제·자원 확보"
+ },
+ "breakers": [
+  {
+   "id": "lightning_storm",
+   "card": "Lightning Storm",
+   "short_ko": "라이트닝 스톰",
+   "tags": [
+    "monster_wipe",
+    "st_wipe"
+   ],
+   "note_ko": "자신 필드에 앞면 카드가 없을 때. 상대 공격 표시 몬스터 전부 또는 마함 전부 파괴. 수비 표시·파괴 내성에는 무력."
+  },
+  {
+   "id": "evenly_matched",
+   "card": "Evenly Matched",
+   "short_ko": "길항승부",
+   "tags": [
+    "monster_wipe",
+    "st_wipe"
+   ],
+   "note_ko": "양쪽 배틀 페이즈 종료 시(후공이면 내 배틀 페이즈), 상대가 카드를 더 많이 가지고 있으면 같은 수가 될 때까지 상대가 골라서 뒷면 제외. 내 필드가 비어 있으면 패에서 발동. 상대가 남길 카드를 고른다."
+  },
+  {
+   "id": "dark_ruler",
+   "card": "Dark Ruler No More",
+   "short_ko": "명왕결계파",
+   "tags": [
+    "monster_negate",
+    "unresponsive"
+   ],
+   "note_ko": "상대 앞면 몬스터 효과 전부 무효(이번 턴). 발동에 몬스터 효과로 체인 불가. 이번 턴 상대는 데미지를 받지 않음. 마함 견제는 못 막음."
+  },
+  {
+   "id": "harpie",
+   "card": "Harpie's Feather Duster",
+   "short_ko": "해피의 깃털",
+   "tags": [
+    "st_wipe"
+   ],
+   "note_ko": "상대 마함 전부 파괴. 제한 1."
+  },
+  {
+   "id": "heavy_storm",
+   "card": "Heavy Storm",
+   "short_ko": "태풍",
+   "tags": [
+    "st_wipe"
+   ],
+   "note_ko": "필드의 마함 전부 파괴(내 것도). 제한 1."
+  },
+  {
+   "id": "raigeki",
+   "card": "Raigeki",
+   "short_ko": "번개",
+   "tags": [
+    "monster_wipe"
+   ],
+   "note_ko": "상대 몬스터 전부 파괴. 파괴 내성·묘지 유발에 주의."
+  },
+  {
+   "id": "dark_hole",
+   "card": "Dark Hole",
+   "short_ko": "블랙홀",
+   "tags": [
+    "monster_wipe"
+   ],
+   "note_ko": "필드의 몬스터 전부 파괴(내 것도)."
+  },
+  {
+   "id": "kaiju",
+   "card": "Gameciel, the Sea Turtle Kaiju",
+   "short_ko": "파괴수 (해귀파괴수 가메시엘 등)",
+   "tags": [
+    "monster_remove"
+   ],
+   "note_ko": "상대 몬스터 1장을 릴리스해 상대 필드에 특소(대상 안 함·파괴 아님). 괴수 계열 대표로 가메시엘 표기. 내성 몬스터 처리용."
+  },
+  {
+   "id": "kaiju_slumber",
+   "card": "Interrupted Kaiju Slumber",
+   "short_ko": "방해받은 파괴수의 잠",
+   "tags": [
+    "monster_wipe"
+   ],
+   "note_ko": "필드 몬스터 전부 파괴 후 괴수 2장 특소(1장씩)."
+  },
+  {
+   "id": "cosmic",
+   "card": "Cosmic Cyclone",
+   "short_ko": "코즈믹 싸이크론",
+   "tags": [
+    "st_remove"
+   ],
+   "note_ko": "1000LP, 마함 1장 제외(속공)."
+  },
+  {
+   "id": "mst",
+   "card": "Mystical Space Typhoon",
+   "short_ko": "싸이크론",
+   "tags": [
+    "st_remove"
+   ],
+   "note_ko": "마함 1장 파괴(속공)."
+  },
+  {
+   "id": "super_poly",
+   "card": "Super Polymerization",
+   "short_ko": "초융합",
+   "tags": [
+    "steal",
+    "monster_remove",
+    "unresponsive"
+   ],
+   "note_ko": "1장 버리고 양쪽 필드 몬스터로 융합. 발동에 체인 불가. 맞는 융합 몬스터가 엑스트라에 있어야 함. 제한 2."
+  },
+  {
+   "id": "book_eclipse",
+   "card": "Book of Eclipse",
+   "short_ko": "개기일식의 서",
+   "tags": [
+    "monster_negate"
+   ],
+   "note_ko": "필드의 앞면 몬스터를 전부 뒷면 수비로. 뒷면 몬스터는 효과를 쓸 수 없다. 엔드 페이즈에 상대 몬스터가 앞면이 되면 그 수만큼 상대 드로우."
+  },
+  {
+   "id": "kurikara",
+   "card": "Kurikara Divincarnate",
+   "short_ko": "쿠리카라천동",
+   "tags": [
+    "monster_remove"
+   ],
+   "note_ko": "이번 턴 효과를 발동한 상대 몬스터를 전부 릴리스하고 패에서 특소. 무효 효과를 '써 버린' 몬스터를 치우는 용도."
+  },
+  {
+   "id": "ultimate_slayer",
+   "card": "Ultimate Slayer",
+   "short_ko": "아르테미트 슬레이",
+   "tags": [
+    "monster_remove"
+   ],
+   "note_ko": "엑스트라 덱에서 같은 종류(융합·싱크로·엑시즈·링크·펜듈럼) 몬스터를 묘지로 보내고 상대 몬스터 1장을 덱으로. 몬스터 효과로 체인 불가."
+  },
+  {
+   "id": "fallen_virtuous",
+   "card": "The Fallen & The Virtuous",
+   "short_ko": "The Fallen & The Virtuous",
+   "tags": [
+    "monster_remove",
+    "st_remove"
+   ],
+   "note_ko": "알바스 관련 엑스트라 몬스터를 묘지로 보내고 앞면 카드 1장 파괴(속공). 알바스·에클레시아 엔진을 쓰는 덱 전용."
+  },
+  {
+   "id": "harmonia",
+   "card": "Fydraulis Harmonia",
+   "short_ko": "피드라울리스＝하르모니아",
+   "tags": [
+    "monster_remove"
+   ],
+   "note_ko": "상대 몬스터 효과 발동 시 공개. 싱크로 5장 공개(6장 효과)로 상대 몬스터 1장 파괴. 싱크로 덱 전용."
+  }
+ ]
+}
