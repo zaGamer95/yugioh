@@ -21,6 +21,7 @@ scripts/
   fetch_meta.py        메타 스냅샷 갱신
   fetch_cards.py       공식 카드명 수집 (영문명 → KONAMI ID → 한국어명)
   build_docs.py        docs/ 생성
+  fetch_images.py      카드 일러스트·카드 이미지 수집 (docs/img/, WebP)
 ```
 
 ## 갱신 방법
@@ -29,14 +30,16 @@ scripts/
 python3 scripts/fetch_meta.py --days 30          # 최근 30일 랭크·DC 상위 덱 집계
 python3 scripts/fetch_cards.py --from-themes     # 테마 데이터에 나온 카드의 공식명 수집
 python3 scripts/build_docs.py                    # 문서 + 페이지 데이터(docs/data/site.json) 생성
+python3 scripts/fetch_images.py                  # 새로 나온 카드의 이미지만 받기 (Pillow 필요)
 ```
 
-Python 3 표준 라이브러리만 사용합니다.
+`fetch_images.py` 만 Pillow 가 필요하고, 나머지는 Python 3 표준 라이브러리만 사용합니다.
 
 ## 데이터 출처와 주의
 
 - **카드명·텍스트**: [KONAMI 공식 카드 DB](https://www.db.yugioh-card.com/) (한국어/일본어), [Master Duel Meta](https://www.masterduelmeta.com/) (MD 영문명, KONAMI ID).
   마스터 듀얼 인게임 한국어명은 OCG 공식 한국어명과 같습니다.
+- **카드 이미지**: [YGOPRODeck](https://ygoprodeck.com/api-guide/) 이미지를 한 번 받아 WebP 로 줄여 직접 호스팅합니다(직접 링크 금지 정책).
 - **메타 통계**: Master Duel Meta의 공개 덱 리스트 집계입니다. 비공식 API라서 요청 간격을 두고 결과를 캐시합니다.
 - **전개 루트**: 각 테마 파일의 `sources` 에 적힌 공략 자료를 바탕으로, 카드 텍스트와 대조해서 직접 정리했습니다.
   `status: draft` 인 테마는 아직 실전 검증 전이니 틀린 부분이 있으면 이슈로 알려 주세요.

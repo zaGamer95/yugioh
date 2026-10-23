@@ -227,3 +227,28 @@ table.heat tr.kind th { text-align: left; padding: 10px 8px 2px; color: var(--mu
   .filters { top: 55px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* card art */
+.tcard { position: relative; overflow: hidden; isolation: isolate; }
+.tcard.has-cover::before {
+  content: ""; position: absolute; z-index: -1; top: 0; right: 0; width: 62%; height: 100%;
+  background: var(--cover) center 25% / cover no-repeat;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 70%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 70%);
+  opacity: .5;
+}
+.tcard.has-cover::after {
+  content: ""; position: absolute; z-index: -1; inset: 0;
+  background: linear-gradient(to right, var(--surface) 35%, color-mix(in srgb, var(--surface) 55%, transparent) 100%);
+}
+.step { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 12px; }
+.step > * { grid-column: 2; }
+.step > .thumb { grid-column: 1; grid-row: 1 / span 3; width: 64px; height: 64px; border-radius: 8px; object-fit: cover; background: var(--surface-2); }
+.step > .cp, .step > .hits { grid-column: 1 / -1; }
+.tip.with-card { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 10px; max-width: min(480px, calc(100vw - 24px)); }
+.tip-card { width: 120px; height: 175px; border-radius: 4px; object-fit: cover; background: rgb(127 127 127 / .2); }
+@media (max-width: 600px) {
+  .step > .thumb { width: 48px; height: 48px; }
+  .tip.with-card { grid-template-columns: 84px minmax(0, 1fr); }
+  .tip-card { width: 84px; height: 122px; }
+}

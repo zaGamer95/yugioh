@@ -68,6 +68,7 @@ def lookup(name, cache):
     ja = konami(cid, "ja")[0] if WITH_JA else None
     entry = {
         "cid": int(cid),
+        "password": int(m["konamiID"]) if str(m.get("konamiID") or "").isdigit() else None,
         "en": m["name"],
         "ko": ko,
         "ja": ja,

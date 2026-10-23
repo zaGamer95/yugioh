@@ -179,7 +179,10 @@ def write_site_data(themes, hdef, names):
     for en in sorted(used):
         c = names.by_en.get(en)
         if c:
-            cards[en] = {"ko": c.get("ko"), "cid": c.get("cid"), "type": c.get("type"), "text": c.get("text_ko") or c.get("text_en")}
+            cards[en] = {"ko": c.get("ko"), "cid": c.get("cid"), "pw": c.get("password"), "type": c.get("type"), "text": c.get("text_ko") or c.get("text_en")}
+    for t in themes:
+        # 개요 카드 배경용 대표 카드: 지정이 없으면 핵심 카드 첫 장
+        t.setdefault("cover", (t.get("key_cards") or [{}])[0].get("card"))
     data = {
         "generated": max((t.get("updated", "") for t in themes), default=""),
         "kinds": hdef.get("kinds", {}),

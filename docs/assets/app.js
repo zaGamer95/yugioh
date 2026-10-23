@@ -27,6 +27,10 @@
       .join("");
   const sevBadge = (sev, text) => `<span class="sev sev-${sev}" data-g="${SEV_G[sev]}">${esc(text || SEV_KO[sev])}</span>`;
   const sevRank = (s) => (SEV.indexOf(s) < 0 ? 99 : SEV.indexOf(s));
+  const img = (en, kind) => {
+    const c = D.cards[en];
+    return c && c.pw ? `img/${kind}/${c.pw}.webp` : null;
+  };
   const htName = (id) => (HT[id] ? HT[id].short_ko : id);
 
   function chokeMap(theme) {
@@ -72,7 +76,8 @@
     const tcards = themes
       .map((t) => {
         const top = t.chokepoints.filter((c) => c.severity === "critical").slice(0, 3);
-        return `<a class="tcard" href="#/t/${t.slug}">
+        const cover = img(t.cover, "art");
+        return `<a class="tcard${cover ? " has-cover" : ""}" href="#/t/${t.slug}"${cover ? ` style="--cover:url('${new URL(cover, location.href).href}')"` : ""}>
           <h3>${esc(t.name.ko)} <span class="en">${esc(t.name.en)}</span></h3>
           <div class="share"><span class="bar"><i style="width:${((t.meta.share / maxShare) * 100).toFixed(1)}%"></i></span>${(t.meta.share * 100).toFixed(1)}% · ${t.meta.decks}덱</div>
           <ul>${top.map((c) => `<li>${sevBadge("critical", htName(c.handtrap))}<span>→ ${esc(ko(c.target_card) || c.target_card || "")}</span></li>`).join("")}</ul>
@@ -287,6 +292,7 @@
           return `<li id="step-${i}">
             <span class="node ${nodeCls}">${i + 1}</span>
             <div class="step ${dim ? "dim" : ""}">
+              ${img(s.card, "art") ? `<img class="thumb" src="${img(s.card, "art")}" alt="" loading="lazy" width="64" height="64">` : ""}
               <div class="who">${card(s.card)}</div>
               <div class="act">${prose(s.action_ko)}</div>
               ${s.result_ko ? `<div class="res">${prose(s.result_ko)}</div>` : ""}
@@ -395,12 +401,14 @@
     if (el.dataset.card) {
       const en = el.dataset.card;
       const c = D.cards[en] || {};
-      html = `<b>${esc(c.ko || en)}</b>\n${esc(en)}${c.text ? "\n\n" + esc(c.text) : ""}`;
+      const pic = img(en, "card");
+      html = `${pic ? `<img class="tip-card" src="${pic}" alt="" width="120" height="175">` : ""}<div class="tip-body"><b>${esc(c.ko || en)}</b>\n${esc(en)}${c.text ? "\n\n" + esc(c.text) : ""}</div>`;
     } else if (el.dataset.tip) {
       html = esc(el.dataset.tip);
     }
     if (!html) return;
     tip.innerHTML = html;
+    tip.classList.toggle("with-card", !!tip.querySelector(".tip-card"));
     tip.hidden = false;
     const r = tip.getBoundingClientRect();
     const vw = window.innerWidth, vh = window.innerHeight;

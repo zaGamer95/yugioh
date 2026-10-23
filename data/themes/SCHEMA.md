@@ -12,6 +12,7 @@
   "updated": "2026-10-22",
   "meta": {"decks": 72, "share": 0.099, "window": "2026-09-22~10-22 랭크·DC"},
   "variants": ["Elfnote", "Elfnote Kewl Tune"],          // 집계에 포함한 MDM deckType 이름
+  "cover": "Elfnote Lucina",                            // 선택: 사이트 개요 카드 배경 일러스트 (없으면 key_cards 첫 장)
   "overview_ko": "덱의 승리 플랜, 초동 수, 약점 3~6문장",
   "key_cards": [{"card": "Elfnote Lucina", "role_ko": "1장 초동. 메인 페이즈에 엘펜노츠 몬스터 서치"}],
   "lines": [
