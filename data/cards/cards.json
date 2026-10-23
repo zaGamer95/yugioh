@@ -196,6 +196,24 @@
   "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>①: 필드의 카드를 파괴하는 마법 / 함정 / 몬스터의 효과가 발동했을 때, 이 카드를 릴리스하고 발동할 수 있다. 그 발동을 무효로 하고 파괴한다. ②: 이 카드의 ①의 효과를 적용한 턴의 엔드 페이즈에 발동할 수 있다. 그 효과를 발동하기 위해 릴리스한 이 카드를 묘지에서 특수 소환한다.",
   "password": 44508094
  },
+ "7735": {
+  "cid": 7735,
+  "password": 70902743,
+  "en": "Red Dragon Archfiend",
+  "ko": "레드 데몬즈 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "DARK",
+  "level": 8,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "1 Tuner + 1+ non-Tuner monsters\nAfter damage calculation, if this card attacked an opponent's Defense Position monster: Destroy all Defense Position monsters your opponent controls. Once per turn, during your End Phase: Destroy all other monsters you control that did not declare an attack this turn. This card must be face-up on the field to activate and to resolve this effect.",
+  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>①: 이 카드가 상대의 수비 표시 몬스터에 공격을 실행한 데미지 계산 후에 발동한다. 상대 필드의 수비 표시 몬스터를 전부 파괴한다. ②: 자신 엔드 페이즈에 발동한다. 이 카드가 필드에 앞면 표시로 존재할 경우, 이 턴에 공격 선언을 하고 있지 않은 자신 필드의 다른 몬스터를 전부 파괴한다."
+ },
  "7752": {
   "cid": 7752,
   "password": 35480699,
@@ -258,6 +276,23 @@
   "text_en": "Add 1 Level 7 or lower Ritual Monster from your Deck to your hand, then you can add 1 Ritual Spell from your GY to your hand.",
   "text_ko": "①: 덱에서 레벨 7 이하의 의식 몬스터 1장을 패에 넣는다. 그 후, 자신 묘지에서 의식 마법 카드 1장을 패에 넣을 수 있다.",
   "password": 96729612
+ },
+ "8695": {
+  "cid": 8695,
+  "password": 4334811,
+  "en": "Scrap Recycler",
+  "ko": "스크랩 리사이클러",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "EARTH",
+  "level": 3,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "When this card is Normal or Special Summoned: You can send 1 Machine monster from your Deck to the GY. Once per turn: You can shuffle 2 Level 4 EARTH Machine monsters from your GY into the Deck; draw 1 card.",
+  "text_ko": "①: 이 카드가 일반 소환 / 특수 소환에 성공했을 때에 발동할 수 있다. 덱에서 기계족 몬스터 1장을 묘지로 보낸다. ②: 1턴에 1번, 자신 묘지의 기계족 / 땅 속성 / 레벨 4 몬스터 2장을 덱으로 되돌리고 발동할 수 있다. 자신은 덱에서 1장 드로우한다."
  },
  "8933": {
   "cid": 8933,
@@ -486,6 +521,56 @@
   "text_en": "2 Xyz Monsters with the same Rank, except \"Number\" monsters\n(This card's original Rank is always treated as 1.)\nCannot be destroyed by battle, and neither player takes any battle damage from attacks involving this card. At the end of the Damage Step, if this card battled an opponent's monster: You can take control of that opponent's monster until the end of the Battle Phase. If this face-up card on the field would be destroyed by card effect, you can detach 1 material from this card instead.",
   "text_ko": "\"No.\" 몬스터 이외의 같은 랭크의 엑시즈 몬스터 × 2<br>룰상, 이 카드의 랭크는 1 로 취급한다. ①: 이 카드는 전투로는 파괴되지 않으며, 이 카드의 전투로 발생하는 서로의 전투 데미지는 0 이 된다. ②: 이 카드가 상대 몬스터와 전투를 실행한 데미지 스텝 종료시에 발동할 수 있다. 그 상대 몬스터의 컨트롤을 배틀 페이즈 종료시까지 얻는다. ③: 필드의 이 카드가 효과로 파괴될 경우, 대신에 이 카드의 엑시즈 소재를 1개 제거할 수 있다."
  },
+ "11605": {
+  "cid": 11605,
+  "password": 13647631,
+  "en": "Heavy Freight Train Derricrane",
+  "ko": "중기화열차 데릭크레인",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "EARTH",
+  "level": 10,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "If an EARTH Machine monster(s) is Normal or Special Summoned to your field (except during the Damage Step): You can Special Summon this card from your hand, but its original ATK/DEF become halved. You can only use this effect of \"Heavy Freight Train Derricrane\" once per turn. If this card is detached from an Xyz Monster and sent to the GY to activate that monster's effect: You can target 1 card your opponent controls; destroy it.",
+  "text_ko": "이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드에 기계족 / 땅 속성 몬스터가 일반 소환 / 특수 소환되었을 경우에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. 이 효과로 특수 소환한 이 카드의 원래의 공격력 / 수비력은 절반이 된다. ②: 엑시즈 소재의 이 카드가 엑시즈 몬스터의 효과를 발동하기 위해 제거되어 묘지로 보내졌을 경우, 상대 필드의 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다."
+ },
+ "11606": {
+  "cid": 11606,
+  "password": 49032236,
+  "en": "Number 81: Superdreadnought Rail Cannon Super Dora",
+  "ko": "No.81 초노급포탑열차 슈페리어 도라",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "EARTH",
+  "level": 10,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2 Level 10 monsters\r\nOnce per turn (Quick Effect): You can detach 1 material from this card, then target 1 face-up monster on the field; that target is unaffected by card effects, except its own, until the end of this turn.",
+  "text_ko": "레벨 10 몬스터 × 2<br>①: 자신 / 상대 턴에 1번, 이 카드의 엑시즈 소재를 1개 제거하고, 필드의 앞면 표시 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 앞면 표시 몬스터는 턴 종료시까지, 자신 이외의 카드의 효과를 받지 않는다."
+ },
+ "11607": {
+  "cid": 11607,
+  "password": 76136345,
+  "en": "Revolving Switchyard",
+  "ko": "전회조차",
+  "ja": null,
+  "type": "Spell",
+  "race": "Field",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "If a Level 10 EARTH Machine monster(s) is Normal or Special Summoned to your field (except during the Damage Step): You can activate this effect; your opponent takes no battle damage for the rest of this turn (even if this card leaves the field), also you Special Summon 1 Level 4 EARTH Machine monster with 1800 or more ATK from your Deck, and if you do, it becomes Level 10. You can send 1 card from your hand to the GY; add 1 Level 10 EARTH Machine monster from your Deck to your hand. You can only use 1 \"Revolving Switchyard\" effect per turn, and only once that turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 자신 필드에 기계족 / 땅 속성 / 레벨 10 몬스터가 일반 소환 / 특수 소환되었을 경우에 발동할 수 있다. 덱에서 공격력 1800 이상의 기계족 / 땅 속성 / 레벨 4 몬스터 1장을 특수 소환한다. 이 효과로 특수 소환된 몬스터의 레벨은 10 이 된다. 이 효과의 발동 후, 턴 종료시까지 상대가 받는 전투 데미지는 0 이 된다. ②: 자신의 패를 1장 묘지로 보내고 발동할 수 있다. 덱에서 기계족 / 땅 속성 / 레벨 10 몬스터 1장을 패에 넣는다."
+ },
  "11620": {
   "cid": 11620,
   "en": "Jet Synchron",
@@ -606,6 +691,24 @@
   "text_en": "You can Special Summon this card (from your hand) to your opponent's field in Attack Position, by Tributing 1 monster they control. If your opponent controls a \"Kaiju\" monster, you can Special Summon this card (from your hand) in Attack Position. You can only control 1 \"Kaiju\" monster. Once per turn: You can remove 3 Kaiju Counters from anywhere on the field; destroy all monsters your opponent controls. This card cannot attack the turn this effect is activated.",
   "text_ko": "①: 이 카드는 상대 필드의 몬스터 1장을 릴리스하고, 패에서 상대 필드에 공격 표시로 특수 소환할 수 있다. ②: 상대 필드에 \"파괴수\" 몬스터가 존재할 경우, 이 카드는 패에서 공격 표시로 특수 소환할 수 있다. ③: \"파괴수\" 몬스터는 자신 필드에 1장밖에 앞면 표시로 존재할 수 없다. ④: 1턴에 1번, 자신 / 상대 필드의 파괴수 카운터를 3개 제거하고 발동할 수 있다(이 효과를 발동하는 턴에, 이 카드는 공격할 수 없다). 상대 필드의 몬스터를 전부 파괴한다."
  },
+ "12062": {
+  "cid": 12062,
+  "password": 77360173,
+  "en": "Synkron Resonator",
+  "ko": "싱클론 레조네이터",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "DARK",
+  "level": 1,
+  "monster_type": [
+   "Tuner",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "If a Synchro Monster is on the field, you can Special Summon this card (from your hand). You can only Special Summon \"Synkron Resonator\" once per turn this way. If this card is sent from the field to the GY: You can target 1 \"Resonator\" monster in your GY, except \"Synkron Resonator\"; add it to your hand.",
+  "text_ko": "이 카드명의 ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없다. ①: 필드에 싱크로 몬스터가 존재할 경우, 이 카드는 패에서 특수 소환할 수 있다. ②: 이 카드가 필드에서 묘지로 보내졌을 경우, \"싱클론 레조네이터\" 이외의 자신 묘지의 \"레조네이터\" 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 패에 넣는다."
+ },
  "12067": {
   "cid": 12067,
   "en": "PSY-Frame Driver",
@@ -657,6 +760,24 @@
   "text_en": "1 Tuner + 1+ non-Tuner monsters\r\nOnce per turn, during the Main Phase (Quick Effect): You can banish both this face-up card from the field and 1 random card from your opponent's hand, face-up, until your next Standby Phase. Once per turn, during your opponent's Standby Phase: You can target 1 banished card; return it to the GY. If this card is in your GY: You can target 1 other card in the GY; shuffle both that card and this card from the GY into the Deck.",
   "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>①: 1턴에 1번, 자신 / 상대의 메인 페이즈에 발동할 수 있다. 상대의 패를 무작위로 1장 고르고, 그 카드와 앞면 표시의 이 카드를 다음 자신 스탠바이 페이즈까지 앞면 표시로 제외한다. ②: 상대 스탠바이 페이즈에, 제외되어 있는 자신 또는 상대의 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 묘지로 되돌린다. ③: 이 카드가 묘지에 존재할 경우, 이 카드 이외의 자신 또는 상대 묘지의 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드와 묘지의 이 카드를 덱으로 되돌린다."
  },
+ "12078": {
+  "cid": 12078,
+  "password": 9753964,
+  "en": "Hot Red Dragon Archfiend Abyss",
+  "ko": "염마룡 레드 데몬 어비스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "DARK",
+  "level": 9,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 Tuner + 1 non-Tuner DARK Dragon Synchro Monster\n(Quick Effect): You can target 1 face-up card your opponent controls; negate its effects until the end of this turn. When this card inflicts battle damage to your opponent: You can target 1 Tuner in your GY; Special Summon it in Defense Position. You can only use each effect of \"Hot Red Dragon Archfiend Abyss\" once per turn.",
+  "text_ko": "튜너 ＋ 튜너 이외의 드래곤족 / 어둠 속성 싱크로 몬스터 1장<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 / 상대 턴에, 상대 필드의 앞면 표시 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드의 효과를 턴 종료시까지 무효로 한다. ②: 이 카드가 상대에게 전투 데미지를 주었을 때, 자신 묘지의 튜너 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 수비 표시로 특수 소환한다."
+ },
  "12106": {
   "cid": 12106,
   "password": 55063751,
@@ -689,6 +810,23 @@
   "md_rarity": "SR",
   "text_en": "If you control a \"The Phantom Knights\" monster, you can Special Summon this card (from your hand). You can only Special Summon \"The Phantom Knights of Silent Boots\" once per turn this way. You can banish this card from your GY; add 1 \"Phantom Knights\" Spell/Trap from your Deck to your hand. You can only use this effect of \"The Phantom Knights of Silent Boots\" once per turn.",
   "text_ko": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드에 \"팬텀 나이츠\" 몬스터가 존재할 경우, 이 카드는 패에서 특수 소환할 수 있다. ②: 묘지의 이 카드를 제외하고 발동할 수 있다. 덱에서 \"팬텀\" 마법 / 함정 카드 1장을 패에 넣는다."
+ },
+ "12249": {
+  "cid": 12249,
+  "password": 63941210,
+  "en": "Jizukiru, the Star Destroying Kaiju",
+  "ko": "괴성파괴수 지즈키엘",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "LIGHT",
+  "level": 10,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "You can Special Summon this card (from your hand) to your opponent's field in Attack Position, by Tributing 1 monster they control. If your opponent controls a \"Kaiju\" monster, you can Special Summon this card (from your hand) in Attack Position. You can only control 1 \"Kaiju\" monster. When a card or effect is activated that targets 1 card (and no other cards) (Quick Effect): You can remove 3 Kaiju Counters from anywhere on the field; negate that effect, and if you do, you can destroy 1 card on the field.",
+  "text_ko": "①: 이 카드는 상대 필드의 몬스터 1장을 릴리스하고, 패에서 상대 필드에 공격 표시로 특수 소환할 수 있다. ②: 상대 필드에 \"파괴수\" 몬스터가 존재할 경우, 이 카드는 패에서 공격 표시로 특수 소환할 수 있다. ③: \"파괴수\" 몬스터는 자신 필드에 1장밖에 앞면 표시로 존재할 수 없다. ④: 카드 1장만을 대상으로 하는 마법 / 함정 / 몬스터의 효과가 발동했을 때, 자신 / 상대 필드의 파괴수 카운터를 3개 제거하고 발동할 수 있다. 그 효과를 무효로 한다. 그 후, 필드의 카드 1장을 파괴할 수 있다."
  },
  "12250": {
   "cid": 12250,
@@ -837,6 +975,24 @@
   "md_rarity": "SR",
   "text_en": "2 DARK monsters on the field, except Tokens\nIf this card is Fusion Summoned: You can make this card gain ATK equal to 1 opponent's Special Summoned monster, until the end of this turn. Once per turn: You can target 1 Level 5 or higher monster your opponent controls; until the End Phase, this card's name becomes that monster's original name, and replace this effect with that monster's original effects. If this Fusion Summoned card is destroyed: You can destroy all your opponent's Special Summoned monsters.",
   "text_ko": "토큰 이외의 필드의 어둠 속성 몬스터 × 2<br>①: 이 카드를 융합 소환했을 경우에 발동할 수 있다. 상대 필드의 특수 소환된 몬스터 1장의 공격력만큼만, 이 카드의 공격력을 턴 종료시까지 올린다. ②: 1턴에 1번, 상대 필드의 레벨 5 이상의 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드는 엔드 페이즈까지, 그 몬스터의 원래의 카드명 / 효과와 같은 카드명 / 효과를 얻는다. ③: 융합 소환한 이 카드가 파괴되었을 경우에 발동할 수 있다. 상대 필드의 특수 소환된 몬스터를 전부 파괴한다."
+ },
+ "12695": {
+  "cid": 12695,
+  "password": 66141736,
+  "en": "Red Rising Dragon",
+  "ko": "레드 라이징 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "DARK",
+  "level": 6,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "1 Fiend Tuner + 1+ non-Tuner monsters\nWhen this card is Synchro Summoned: You can target 1 \"Resonator\" monster in your GY; Special Summon it. You cannot Special Summon monsters from the Extra Deck the turn you activate this effect, except DARK Dragon Synchro Monsters. During your Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY, then target 2 Level 1 \"Resonator\" monsters in your GY; Special Summon both.",
+  "text_ko": "악마족 튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>①: 이 카드를 싱크로 소환했을 때, 자신 묘지의 \"레조네이터\" 몬스터 1장을 대상으로 하고 발동할 수 있다(이 효과를 발동하는 턴에, 자신은 드래곤족 / 어둠 속성 싱크로 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다). 그 몬스터를 특수 소환한다. ②: 이 턴에 묘지로 보내져 있지 않은 이 카드를 묘지에서 제외하고, 자신 묘지의 레벨 1 의 \"레조네이터\" 몬스터 2장을 대상으로 하여 발동할 수 있다. 그 몬스터 2장을 특수 소환한다."
  },
  "12801": {
   "cid": 12801,
@@ -1140,6 +1296,24 @@
   "text_en": "2 monsters with the same Attribute but different Types\nYour opponent cannot target this card, or monsters on the field with the same Attribute as this card, with card effects. Once per turn (Quick Effect): You can declare 1 Attribute; this card becomes that Attribute until the end of this turn.\n\nDeck Support- Super Polymerization",
   "text_ko": "같은 속성으로 종족이 다른 몬스터 × 2<br>①: 이 카드가 몬스터 존에 존재하는 한, 상대는 이 카드 및 이 카드와 같은 속성을 가지는 필드의 몬스터를 효과의 대상으로 할 수 없다. ②: 1턴에 1번, 속성을 1개 선언하고 발동할 수 있다. 이 카드는 턴 종료시까지 선언한 속성이 된다. 이 효과는 상대 턴에도 발동할 수 있다.",
   "password": 54757758
+ },
+ "13502": {
+  "cid": 13502,
+  "password": 22423493,
+  "en": "Qliphort Genius",
+  "ko": "클리포트 게니우스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "EARTH",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2 Machine monsters\r\nThis Link Summoned card is unaffected by Spell/Trap effects and the activated effects of other Link Monsters. Once per turn: You can target 1 face-up card on each player's field, except this card; both those cards have their effects negated until the end of this turn. When 2 monsters are Special Summoned at the same time to the zones this card points to: You can add 1 Level 5 or higher Machine monster from your Deck to your hand.",
+  "text_ko": "기계족 몬스터 2장<br>①: 링크 소환한 이 카드는 마법 / 함정 카드의 효과를 받지 않으며, 이 카드 이외의 링크 몬스터가 발동한 효과도 받지 않는다. ②: 1턴에 1번, 이 카드 이외의, 자신 및 상대 필드의 앞면 표시의 카드를 1장씩 대상으로 하고 발동할 수 있다. 그 카드 2장의 효과를 턴 종료시까지 무효로 한다. ③: 이 카드의 링크 앞에 몬스터 2장이 동시에 특수 소환되었을 때에 발동할 수 있다. 덱에서 레벨 5 이상의 기계족 몬스터 1장을 패에 넣는다."
  },
  "13506": {
   "cid": 13506,
@@ -1493,6 +1667,56 @@
   "text_ko": "사이버스족 몬스터 2장<br>이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 링크 소환한 이 카드는 전투 / 효과로는 파괴되지 않는다. ②: 이 카드의 링크 앞의 사이버스족 몬스터는 효과로는 파괴되지 않는다. ③: 이 카드가 몬스터 존에 존재하는 상태에서, 이 카드의 링크 앞에 몬스터가 특수 소환되었을 경우, 자신 묘지에서 사이버스족 몬스터 1장을 제외하고 발동할 수 있다. 덱에서 사이버스족 튜너 1장을 패에 넣는다.",
   "password": 52698008
  },
+ "14180": {
+  "cid": 14180,
+  "password": 26096328,
+  "en": "Superdreadnought Rail Cannon Juggernaut Liebe",
+  "ko": "초노급포탑열차 저거너트 리베",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "EARTH",
+  "level": 11,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "3 Level 11 monsters\r\nOnce per turn, you can also Xyz Summon \"Superdreadnought Rail Cannon Juggernaut Liebe\" by using 1 Rank 10 Machine Xyz Monster you control as material. (Transfer its materials to this card.) Once per turn: You can detach 1 material from this card; it gains 2000 ATK/DEF, also for the rest of this turn, you can only declare an attack with this card. During each Battle Phase, this card can make attacks on monsters up to the number of materials it has +1.",
+  "text_ko": "레벨 11 몬스터 × 3<br>\"초노급포탑열차 저거너트 리베\"는 1턴에 1번, 자신 필드의 기계족 / 랭크 10 의 엑시즈 몬스터 위에 겹쳐 엑시즈 소환할 수도 있다. ①: 1턴에 1번, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 이 카드의 공격력 / 수비력은 2000 올린다. 이 효과의 발동 후, 턴 종료시까지 자신은 이 카드로밖에 공격 선언할 수 없다. ②: 이 카드는 1번의 배틀 페이즈 중에, 이 카드의 엑시즈 소재의 수 ＋ 1회까지 몬스터에 공격할 수 있다."
+ },
+ "14182": {
+  "cid": 14182,
+  "password": 88875132,
+  "en": "Flying Pegasus Railroad Stampede",
+  "ko": "폭주궤도 플라잉 페가수스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "EARTH",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "If this card is Normal or Special Summoned: You can target 1 EARTH Machine monster in your GY, except \"Flying Pegasus Railroad Stampede\"; Special Summon it in Defense Position, but negate its effects. You can target 1 other face-up monster you control; the Level of that monster or this card becomes the Level of the other. You cannot declare attacks the turn you activate this effect, except with Xyz Monsters. You can only use each effect of \"Flying Pegasus Railroad Stampede\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우, \"폭주궤도 플라잉 페가수스\" 이외의 자신 묘지의 기계족 / 땅 속성 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 효과를 무효로 하고 수비 표시로 특수 소환한다. ②: 자신 필드의 다른 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다(이 효과를 발동하는 턴에, 자신은 엑시즈 몬스터로밖에 공격 선언할 수 없다). 그 몬스터와 이 카드 중 1장의 레벨을, 나머지 1장의 레벨과 같게 한다."
+ },
+ "14183": {
+  "cid": 14183,
+  "password": 25274141,
+  "en": "Urgent Schedule",
+  "ko": "긴급 다이어",
+  "ja": null,
+  "type": "Spell",
+  "race": "Quick-Play",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "If your opponent controls more monsters than you do: Special Summon 1 Level 4 or lower and 1 Level 5 or higher EARTH Machine monsters from your Deck in Defense Position, but negate their effects. You cannot declare attacks the turn you activate this card, except with Machine monsters. If this Set card is sent from the field to the GY: You can add 1 Level 10 Machine monster from your Deck to your hand. You can only use each effect of \"Urgent Schedule\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 상대 필드의 몬스터의 수가 자신 필드의 몬스터보다 많을 경우에 발동할 수 있다. 기계족 / 땅 속성의, 레벨 4 이하의 몬스터 1장과 레벨 5 이상의 몬스터 1장을 덱에서 효과를 무효로 하고 수비 표시로 특수 소환한다. 이 카드를 발동하는 턴에, 자신은 기계족 몬스터로밖에 공격 선언할 수 없다. ②: 세트된 이 카드가 묘지로 보내졌을 경우에 발동할 수 있다. 덱에서 기계족 / 레벨 10 몬스터 1장을 패에 넣는다."
+ },
  "14338": {
   "cid": 14338,
   "en": "Salamangreat Almiraj",
@@ -1605,6 +1829,24 @@
   "text_en": "Declare 1 card name; banish 1 of that declared card from your Main Deck, and if you do, negate its effects, as well as the activated effects and effects on the field of cards with the same original name, until the end of this turn. You can only activate 1 \"Crossout Designator\" per turn.",
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 카드명을 1개 선언하고 발동할 수 있다. 선언한 카드 1장을 덱에서 제외한다. 이 턴 중에, 이 효과로 제외한 카드 및 그 카드와 원래의 카드명이 같은 카드의 효과는 무효화된다.",
   "password": 65681983
+ },
+ "14662": {
+  "cid": 14662,
+  "password": 5041348,
+  "en": "Draco Berserker of the Tenyi",
+  "ko": "천위의 용귀신",
+  "ja": null,
+  "type": "Monster",
+  "race": "Wyrm",
+  "attribute": "DARK",
+  "level": 8,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 Tuner + 1+ non-Tuner monsters\nWhen your opponent activates a monster effect (Quick Effect): You can banish it. If this attacking card destroys an Effect Monster by battle and sends it to the GY: This card gains ATK equal to the destroyed monster's original ATK, also it can make a second attack on a monster during this Battle Phase. You can only use each effect of \"Draco Berserker of the Tenyi\" once per turn.",
+  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 상대가 몬스터의 효과를 발동했을 때에 발동할 수 있다. 그 몬스터를 제외한다. ②: 이 카드의 공격으로 효과 몬스터를 파괴하고 묘지로 보냈을 경우에 발동한다. 이 카드의 공격력은 파괴한 몬스터의 원래 공격력만큼 올린다. 이 배틀 페이즈 중, 이 카드는 1번만 더 몬스터에 공격할 수 있다."
  },
  "14676": {
   "cid": 14676,
@@ -3004,7 +3246,8 @@
   ],
   "md_rarity": "UR",
   "text_en": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand or GY) by Tributing 1 Level 6 or higher DARK Dragon monster. You can only Special Summon \"The Bystial Lubellion\" once per turn this way. You can send this card from your hand to the GY; add 1 \"Bystial\" monster from your Deck to your hand, except \"The Bystial Lubellion\". During your Main Phase: You can place 1 \"Branded\" Continuous Spell/Trap from your Deck face-up on your field. You can only use each effect of \"The Bystial Lubellion\" once per turn.",
-  "text_ko": "이 카드는 통상 소환할 수 없다. \"더 비스테드 루벨리온\"은 1턴에 1번, 자신 필드의 레벨 6 이상의 드래곤족 / 어둠 속성 몬스터 1장을 릴리스했을 경우에만 패 / 묘지에서 특수 소환할 수 있다. 이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 패에서 묘지로 보내고 발동할 수 있다. 덱에서 \"더 비스테드 루벨리온\" 이외의 \"비스테드\" 몬스터 1장을 패에 넣는다. ②: 자신 메인 페이즈에 발동할 수 있다. 덱에서 \"낙인\" 지속 마법 / 지속 함정 카드 1장을 자신 필드에 앞면 표시로 놓는다."
+  "text_ko": "이 카드는 통상 소환할 수 없다. \"더 비스테드 루벨리온\"은 1턴에 1번, 자신 필드의 레벨 6 이상의 드래곤족 / 어둠 속성 몬스터 1장을 릴리스했을 경우에만 패 / 묘지에서 특수 소환할 수 있다. 이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 패에서 묘지로 보내고 발동할 수 있다. 덱에서 \"더 비스테드 루벨리온\" 이외의 \"비스테드\" 몬스터 1장을 패에 넣는다. ②: 자신 메인 페이즈에 발동할 수 있다. 덱에서 \"낙인\" 지속 마법 / 지속 함정 카드 1장을 자신 필드에 앞면 표시로 놓는다.",
+  "password": 32731036
  },
  "17767": {
   "cid": 17767,
@@ -3058,6 +3301,21 @@
   "md_rarity": "UR",
   "text_en": "1+ Effect Monsters\nYou can only control 1 \"Worldsea Dragon Zealantis\". You can only use each of the following effects of \"Worldsea Dragon Zealantis\" once per turn. During your Main Phase: You can banish all monsters on the field, then Special Summon as many monsters as possible that were banished by this effect, to their owners' fields, face-up, or in face-down Defense Position. During the Battle Phase (Quick Effect): You can destroy cards on the field up to the number of co-linked monsters on the field.",
   "text_ko": "효과 몬스터 1장 이상<br>이 카드명의 ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: \"세해룡 질란티스\"는 자신 필드에 1장밖에 앞면 표시로 존재할 수 없다. ②: 자신 메인 페이즈에 발동할 수 있다. 필드의 몬스터를 전부 제외한다. 그 후, 이 효과로 제외한 몬스터를 가능한 한 원래 주인의 필드에 앞면 표시나 뒷면 수비 표시로 특수 소환한다. ③: 자신 / 상대의 배틀 페이즈에 발동할 수 있다. 필드의 상호 링크 상태의 몬스터의 수까지, 필드의 카드를 파괴한다."
+ },
+ "17828": {
+  "cid": 17828,
+  "password": 32756828,
+  "en": "Branded Beast",
+  "ko": "낙인의 야수",
+  "ja": null,
+  "type": "Trap",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "R",
+  "text_en": "Once per turn, during the Main Phase, if you control a \"Bystial\" monster: You can Tribute 1 Dragon monster, then target 1 card your opponent controls; destroy it. During the End Phase: You can target 1 \"Branded\" Continuous Spell/Trap in your GY; place it face-up on your field. You can only use this effect of \"Branded Beast\" once per turn.",
+  "text_ko": "이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 1턴에 1번, 자신 / 상대의 메인 페이즈에, 자신 필드에 \"비스테드\" 몬스터가 존재할 경우, 자신 필드의 드래곤족 몬스터 1장을 릴리스하고, 상대 필드의 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 파괴한다. ②: 자신 / 상대의 엔드 페이즈에, 자신 묘지의 \"낙인\" 지속 마법 / 지속 함정 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 자신 필드에 앞면 표시로 놓는다."
  },
  "18178": {
   "cid": 18178,
@@ -3197,6 +3455,24 @@
   "text_en": "\"Fallen of Albaz\" + 1 LIGHT Spellcaster monster\nCannot be used as Fusion Material. Your opponent cannot target this card with card effects. You can only use each of the following effects of \"Albion the Sanctifire Dragon\" once per turn. During your opponent's turn (Quick Effect): You can target 2 monsters in any GY(s); Special Summon both monsters, 1 to each field. If this card is in your GY: You can Tribute 4 monsters, the 2 in the Extra Monster Zones and the 2 in the center Main Monster Zones, and if you do, Special Summon this card.",
   "text_ko": "\"알버스의 낙윤\" ＋ 마법사족 / 빛 속성 몬스터<br>이 카드는 융합 소재로 할 수 없다. 이 카드명의 ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드는 상대 효과의 대상이 되지 않는다. ②: 상대 턴에, 자신 / 상대 묘지의 몬스터를 합계 2장 대상으로 하고 발동할 수 있다. 그 몬스터를 서로의 필드에 1장씩 특수 소환한다. ③: 이 카드가 묘지에 존재할 경우에 발동할 수 있다. 엑스트라 몬스터 존 및 서로의 중앙 메인 몬스터 존에 존재하는 몬스터 4장을 릴리스하고, 이 카드를 특수 소환한다."
  },
+ "18504": {
+  "cid": 18504,
+  "password": 27572350,
+  "en": "Bystial Dis Pater",
+  "ko": "비스테드 디스 파테르",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "DARK",
+  "level": 10,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 Tuner + 1+ non-Tuner Dragon monsters\nYou can target 1 banished LIGHT or DARK monster; Special Summon it to your field. When your opponent activates a monster effect (Quick Effect): You can target 1 banished card; shuffle it into the Deck, then if you shuffled it into your Deck, destroy that monster, or if you shuffled it into your opponent's Deck, negate that activated effect. You can only use each effect of \"Bystial Dis Pater\" once per turn.",
+  "text_ko": "튜너 ＋ 튜너 이외의 드래곤족 몬스터 1장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 제외되어 있는 자신 또는 상대의 빛 / 어둠 속성 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 자신 필드에 특수 소환한다. ②: 상대가 몬스터의 효과를 발동했을 때, 제외되어 있는 자신 또는 상대의 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 주인의 덱으로 되돌린다. 추가로, 대상의 카드의 주인이 자신일 경우, 그 몬스터를 파괴한다. 상대일 경우, 그 발동한 효과를 무효로 한다."
+ },
  "18507": {
   "cid": 18507,
   "en": "Chaos Angel",
@@ -3249,7 +3525,8 @@
   ],
   "md_rarity": "SR",
   "text_en": "1 Tuner + 1+ non-Tuner monsters\nIf this card is Special Summoned: You can increase or decrease its Level by 1. If this card is sent to the GY: You can target 1 face-up card your opponent controls; return it to the hand. You can only use this effect of \"Golden Cloud Beast - Malong\" once per turn.",
-  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 이 카드의 레벨을 1개 올리거나 내린다. ②: 이 카드가 묘지로 보내졌을 경우, 상대 필드의 앞면 표시 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 패로 되돌린다."
+  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 이 카드의 레벨을 1개 올리거나 내린다. ②: 이 카드가 묘지로 보내졌을 경우, 상대 필드의 앞면 표시 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 패로 되돌린다.",
+  "password": 93125329
  },
  "18727": {
   "cid": 18727,
@@ -3415,6 +3692,74 @@
   "md_rarity": "UR",
   "text_en": "2 Effect Monsters\nMust first be Link Summoned. You can only Special Summon \"Sky Striker Ace - Camellia(s)\" once per turn. Once per turn, if you have 3 or less Spells in your GY: You can send 1 \"Sky Striker\" card from your Deck to the GY. If this card is sent to the GY: You can target 1 monster your opponent controls; Special Summon this card to your opponent's field (but shift control to its owner during the End Phase of this turn), and if you do, send that targeted monster to the GY.",
   "text_ko": "효과 몬스터 2장<br>이 카드는 링크 소환으로밖에 엑스트라 덱에서 특수 소환할 수 없으며, 자신은 \"섬도희－카멜리아\"를 1턴에 1번밖에 특수 소환할 수 없다. ①: 1턴에 1번, 자신 묘지의 마법 카드가 3장 이하일 경우에 발동할 수 있다. 덱에서 \"섬도\" 카드 1장을 묘지로 보낸다. ②: 이 카드가 묘지로 보내졌을 경우, 상대 필드의 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 상대 필드에 특수 소환하고, 대상 몬스터를 묘지로 보낸다. 이 카드의 컨트롤은 이 턴의 엔드 페이즈에 원래의 주인에게 되돌아간다."
+ },
+ "19014": {
+  "cid": 19014,
+  "password": 62991792,
+  "en": "Soul Resonator",
+  "ko": "소울 레조네이터",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "FIRE",
+  "level": 3,
+  "monster_type": [
+   "Tuner",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "If this card is Normal or Special Summoned: You can add 1 Level 4 or lower Fiend monster from your Deck to your hand, except \"Soul Resonator\", also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except DARK Synchro Monsters. If a card(s) you control would be destroyed by card effect, while you control \"Red Dragon Archfiend\" or a Synchro Monster that mentions it, you can banish this card from your GY instead. You can only use each effect of \"Soul Resonator\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. \"소울 레조네이터\"가 아닌, 레벨 4 이하의 악마족 몬스터 1장을 덱에서 패에 넣는다. 이 효과의 발동 후, 턴 종료시까지 자신은 어둠 속성 싱크로 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 자신 필드에 \"레드 데몬즈 드래곤\" 또는 그 카드명이 쓰여진 싱크로 몬스터가 존재하고, 자신 필드의 카드가 효과로 파괴될 경우, 대신에 묘지의 이 카드를 제외할 수 있다."
+ },
+ "19015": {
+  "cid": 19015,
+  "password": 98396890,
+  "en": "Vision Resonator",
+  "ko": "비전 레조네이터",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "DARK",
+  "level": 2,
+  "monster_type": [
+   "Tuner",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "If a Level 5 or higher DARK monster is on the field, you can Special Summon this card (from your hand). You can only Special Summon \"Vision Resonator\" once per turn this way. If this card is sent to the GY: You can add 1 Spell/Trap that mentions \"Red Dragon Archfiend\" from your Deck to your hand. You can only use this effect of \"Vision Resonator\" once per turn.",
+  "text_ko": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 필드에 레벨 5 이상의 어둠 속성 몬스터가 존재할 경우, 이 카드는 패에서 특수 소환할 수 있다. ②: 이 카드가 묘지로 보내졌을 경우에 발동할 수 있다. 덱에서 \"레드 데몬즈 드래곤\"의 카드명이 쓰여진 마법 / 함정 카드 1장을 패에 넣는다."
+ },
+ "19016": {
+  "cid": 19016,
+  "password": 25784595,
+  "en": "Bone Archfiend",
+  "ko": "본 데몬",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "DARK",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "If this card is in your hand or GY: You can send 1 other card from your hand or field to the GY; Special Summon this card, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except DARK Dragon Synchro Monsters. You can target 1 face-up monster you control that has a Level; send 1 Fiend Tuner from your hand or Deck to the GY, and if you do, increase or decrease that monster's Level by 1. You can only use each effect of \"Bone Archfiend\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 패 / 묘지에 존재할 경우, 자신의 패 / 필드에서 이 카드 이외의 카드 1장을 묘지로 보내고 발동할 수 있다. 이 카드를 특수 소환한다. 이 효과의 발동 후, 턴 종료시까지 자신은 드래곤족 / 어둠 속성 싱크로 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 자신 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 패 / 덱에서 악마족 튜너 1장을 묘지로 보내고, 대상 몬스터의 레벨을 1개 올리거나 내린다."
+ },
+ "19018": {
+  "cid": 19018,
+  "password": 98173209,
+  "en": "Crimson Gaia",
+  "ko": "크림즌 헬가이아",
+  "ja": null,
+  "type": "Spell",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "During your Main Phase: You can add 1 \"Red Dragon Archfiend\" or 1 card that mentions it from your Deck or GY to your hand, except \"Crimson Gaia\". When your \"Red Dragon Archfiend\" declares an attack: You can change all monsters your opponent controls to face-down Defense Position. If a monster(s) on the field is destroyed by battle or card effect: You can Special Summon 1 \"Red Dragon Archfiend\" from your GY. You can only use each effect of \"Crimson Gaia\" once per turn.",
+  "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 메인 페이즈에 발동할 수 있다. \"크림즌 헬가이아\"가 아닌, \"레드 데몬즈 드래곤\" 또는 그 카드명이 쓰여진 카드 1장을 자신의 덱 / 묘지에서 패에 넣는다. ②: 자신의 \"레드 데몬즈 드래곤\"의 공격 선언시에 발동할 수 있다. 상대 필드의 몬스터를 전부 뒷면 수비 표시로 한다. ③: 필드의 몬스터가 전투 / 효과로 파괴되었을 경우에 발동할 수 있다. 자신 묘지에서 \"레드 데몬즈 드래곤\" 1장을 특수 소환한다."
  },
  "19027": {
   "cid": 19027,
@@ -3792,6 +4137,23 @@
   "md_rarity": "N",
   "text_en": "If this card is Normal or Special Summoned: You can target 1 \"Memento\" card in your GY, except \"Mementotlan Ghattic\"; add it to your hand. If this card is sent to the GY by a \"Memento\" monster's effect: You can Special Summon this card. You can only use each effect of \"Mementotlan Ghattic\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우, \"메멘토 우라몬\" 이외의 자신 묘지의 \"메멘토\" 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 패에 넣는다. ②: 이 카드가 \"메멘토\" 몬스터의 효과로 묘지로 보내졌을 경우에 발동할 수 있다. 이 카드를 특수 소환한다."
+ },
+ "19480": {
+  "cid": 19480,
+  "password": 13567610,
+  "en": "Carnot the Eternal Machine",
+  "ko": "에테르마키나 카르놀",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "LIGHT",
+  "level": 10,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand or GY) during a Duel in which your opponent has activated a monster effect in their hand or GY. You can only Special Summon \"Carnot the Eternal Machine\" once per turn. Once per turn, if your opponent activates a monster effect (except during the Damage Step): You can make this card gain 1000 ATK. If this card is sent to the GY, except from the hand or Deck: Shuffle this card into the Deck.",
+  "text_ko": "이 카드는 통상 소환할 수 없다. 상대가 이 듀얼 중에 패나 묘지의 몬스터 효과를 발동하고 있었을 경우에 패 / 묘지에서 특수 소환할 수 있다. 자신은 \"에테르마키나 카르놀\"을 1턴에 1번밖에 특수 소환할 수 없다. ①: 1턴에 1번, 상대가 몬스터의 효과를 발동했을 경우에 발동할 수 있다. 이 카드의 공격력은 1000 올린다. ②: 이 카드가 패 / 덱 이외에서 묘지로 보내졌을 경우에 발동한다. 이 카드를 덱으로 되돌린다."
  },
  "19497": {
   "cid": 19497,
@@ -7077,6 +7439,75 @@
   "text_ko": "이 카드명은 룰상 \"위치크래프트\" 카드로도 취급한다. 이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 마법 카드의 효과가 발동한 턴의 자신 메인 페이즈에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"위치크래프트\" 마법 / 함정 카드나 \"디멘션 매직\" 1장을 패에 넣는다. ③: 자신의 필드나 묘지에 \"프린스 오브 엔디미온 레굴루스\"가 존재하는 한, 이 카드의 공격력은 2300 올린다.",
   "password": 22623509
  },
+ "22510": {
+  "cid": 22510,
+  "password": 83445539,
+  "en": "Darkness Resonator",
+  "ko": "다크니스 레조네이터",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "DARK",
+  "level": 3,
+  "monster_type": [
+   "Tuner",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "You can reveal 1 \"Red Dragon Archfiend\" in your Extra Deck; Special Summon this card from your hand, also you cannot Special Summon from the Extra Deck for the rest of this turn, except Synchro Monsters. If this card is Special Summoned: You can activate this effect; during your Main Phase this turn, you can Normal Summon 1 \"Resonator\" monster, in addition to your Normal Summon/Set (you can only gain this effect once per turn). You can target any number of Tuners you control; change their Levels to 1. You can only use each effect of \"Darkness Resonator\" once per turn.",
+  "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 엑스트라 덱의 \"레드 데몬즈 드래곤\" 1장을 상대에게 보여주고 발동할 수 있다. 이 카드를 패에서 특수 소환한다. 이 턴에, 자신은 싱크로 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 이 턴에, 자신은 통상 소환 외에도 1번만, 자신 메인 페이즈에 \"레조네이터\" 몬스터 1장을 일반 소환할 수 있다. ③: 자신 필드의 튜너를 임의의 수만큼 대상으로 하고 발동할 수 있다. 그 몬스터의 레벨을 1 로 한다."
+ },
+ "22511": {
+  "cid": 22511,
+  "password": 19434243,
+  "en": "Power Vice Dragon",
+  "ko": "파워 바이스 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "DARK",
+  "level": 5,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "A \"Red Dragon Archfiend\" that was Synchro Summoned using this card as material cannot be destroyed by battle. You can only use each of the following effects of \"Power Vice Dragon\" once per turn. If you control no monsters, or all monsters you control are DARK Synchro Monsters: You can Special Summon this card from your hand. If this card is Special Summoned: You can add 1 \"Resonator\" monster from your Deck to your hand, also you cannot Special Summon from the Extra Deck for the rest of this turn, except DARK Synchro Monsters.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드의 몬스터가, 존재하지 않을 경우 또는 어둠 속성 싱크로 몬스터뿐일 경우에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"레조네이터\" 몬스터 1장을 패에 넣는다. 이 턴에, 자신은 어둠 속성 싱크로 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ③: 이 카드를 싱크로 소재로서 \"레드 데몬즈 드래곤\"을 싱크로 소환했을 경우, 그 몬스터는 전투로는 파괴되지 않는다."
+ },
+ "22515": {
+  "cid": 22515,
+  "password": 45116390,
+  "en": "Heavy Armored Knight Babeldecker",
+  "ko": "중장기사 바벨데커",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "EARTH",
+  "level": 10,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "You can Normal Summon this card without Tributing. You can only use each of the following effects of \"Heavy Armored Knight Babeldecker\" once per turn. If this card is Normal or Special Summoned: You can Special Summon 1 EARTH Machine monster from your hand. During your Main Phase, if your opponent activated a card or effect this turn: You can Special Summon 1 Rank 10 EARTH Machine Xyz Monster from your Extra Deck using this card you control as material (this is treated as an Xyz Summon).",
+  "text_ko": "이 카드명의 ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드는 릴리스 없이 일반 소환할 수 있다. ②: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 패에서 기계족 / 땅 속성 몬스터 1장을 특수 소환한다. ③: 상대가 카드의 효과를 발동한 턴의 자신 메인 페이즈에 발동할 수 있다. 기계족 / 땅 속성 / 랭크 10 인 엑시즈 몬스터 1장을 자신 필드의 이 카드 위에 겹쳐 엑시즈 소환으로 취급하고 엑스트라 덱에서 특수 소환한다."
+ },
+ "22516": {
+  "cid": 22516,
+  "password": 81101309,
+  "en": "Night Train Blue Traveler",
+  "ko": "야광열차 블루트래블러",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "EARTH",
+  "level": 10,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "You can discard this card; add 1 \"Train Connection\" or \"Revolving Switchyard\" from your Deck or GY to your hand. If this card is in your GY: You can target 1 other EARTH Machine monster in your GY; Special Summon both it and this card, also you cannot Special Summon from the Extra Deck for the rest of this turn, except Machine monsters. You can only use this effect of \"Night Train Blue Traveler\" once per Duel, and its previous effect only once per turn.",
+  "text_ko": "이 카드명의, ①의 효과는 1턴에 1번밖에 사용할 수 없으며, ②의 효과는 듀얼 중에 1번밖에 사용할 수 없다. ①: 이 카드를 패에서 버리고 발동할 수 있다. 자신의 덱 / 묘지에서 \"기관 연결\"이나 \"전회조차\" 1장을 패에 넣는다. ②: 이 카드가 묘지에 존재할 경우, 자신 묘지의 다른 기계족 / 땅 속성 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터와 이 카드를 특수 소환한다. 이 효과의 발동 후, 턴 종료시까지 자신은 기계족 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다."
+ },
  "22519": {
   "cid": 22519,
   "en": "Vidolium the Unstable Power Patron of Unity",
@@ -7308,6 +7739,42 @@
   "text_ko": "빛 속성의 \"페어리테일\" 몬스터 ＋ 마법사족 몬스터<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 \"요정의 왕자님\"을 소재로서 융합 소환했을 경우에 발동할 수 있다. 상대 필드의 카드를 전부 파괴하고, 파괴한 수 × 500 데미지를 상대에게 준다. ②: 자신의 \"페어리테일\" 몬스터는 전투로는 파괴되지 않는다. ③: 상대가 마법 / 함정 / 몬스터의 효과를 발동했을 때, 자신의 패 / 묘지에서 \"페어리테일\" 카드 1장을 제외하고 발동할 수 있다. 그 발동을 무효로 하고 파괴한다.",
   "password": 4026187
  },
+ "22545": {
+  "cid": 22545,
+  "password": 67809530,
+  "en": "The Crimson King",
+  "ko": "더 크림즌 킹",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "DARK",
+  "level": 8,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 Tuner + 1+ non-Tuner DARK monsters\nIf this card is Synchro Summoned: You can add 1 card that mentions \"Red Dragon Archfiend\" from your Deck to your hand. When your opponent activates a monster effect (Quick Effect): You can banish this card you control; Special Summon 1 \"Red Dragon Archfiend\" from your Extra Deck (this is treated as a Synchro Summon), and if you do, its ATK becomes doubled, also it cannot be destroyed by your opponent's card effects. You can only use each effect of \"The Crimson King\" once per turn.",
+  "text_ko": "튜너 ＋ 튜너 이외의 어둠 속성 몬스터 1장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 싱크로 소환했을 경우에 발동할 수 있다. 덱에서 \"레드 데몬즈 드래곤\"의 카드명이 쓰여진 카드 1장을 패에 넣는다. ②: 상대가 몬스터의 효과를 발동했을 때, 필드의 이 카드를 제외하고 발동할 수 있다. 엑스트라 덱에서 \"레드 데몬즈 드래곤\" 1장을 싱크로 소환으로 취급하고 특수 소환한다. 이 효과로 특수 소환한 몬스터의 공격력은 배가 되고, 상대 효과로는 파괴되지 않는다."
+ },
+ "22546": {
+  "cid": 22546,
+  "password": 3294539,
+  "en": "Crimson Blade Dragon",
+  "ko": "크림즌 블레이드 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "DARK",
+  "level": 7,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "1 \"Resonator\" Tuner + 1+ non-Tuners\n(This card is always treated as \"Crimson Blader\".)\nIf this card is Synchro Summoned: You can take 1 Level 8 or higher monster that cannot be Normal Summoned/Set from your Deck or GY, and either add it to your hand or Special Summon it, but negate its effects. You can only use this effect of \"Crimson Blade Dragon\" once per turn. At the start of the Damage Step, if this card battles a Level 5 or higher monster: You can destroy that monster.",
+  "text_ko": "\"레조네이터\" 튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명은 룰상 \"크림즌 블레이더\"로 취급한다. 이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 싱크로 소환했을 경우에 발동할 수 있다. 자신의 덱 / 묘지에서 레벨 8 이상의 통상 소환할 수 없는 몬스터 1장을 고르고, 패에 넣거나 효과를 무효로 하여 특수 소환한다. ②: 이 카드가 레벨 5 이상의 몬스터와 전투를 실행하는 데미지 스텝 개시시에 발동할 수 있다. 그 몬스터를 파괴한다."
+ },
  "22549": {
   "cid": 22549,
   "en": "Clown Crew Meteor",
@@ -7362,6 +7829,42 @@
   "text_en": "1 Tuner + 1+ Synchro Monsters\nThe Levels of monsters your opponent controls are increased by 2. Your Tuners can make a second attack during each Battle Phase. When your opponent activates a monster effect (Quick Effect): You can target 1 Tuner in your GY or banishment, except a Level 10 Tuner; add it to your hand or Special Summon it, then immediately after this effect resolves, you can Synchro Summon 1 Synchro Monster. You can only use this effect of \"Kewl Tune B2B\" twice per turn.",
   "text_ko": "튜너 ＋ 싱크로 몬스터 1장 이상<br>이 카드명의 ③의 효과는 1턴에 2번까지 사용할 수 있다. ①: 상대 필드의 몬스터의 레벨은 2개 올라간다. ②: 자신의 튜너는 1번의 배틀 페이즈 중에 2회 공격할 수 있다. ③: 상대가 몬스터의 효과를 발동했을 때, 레벨 10 이외의 자신의 묘지 / 제외 상태인 튜너 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 패에 넣거나 특수 소환한다. 그 후, 싱크로 몬스터 1장의 싱크로 소환을 실행할 수 있다.",
   "password": 65961304
+ },
+ "22552": {
+  "cid": 22552,
+  "password": 92359409,
+  "en": "Superdreadnought Rail Cannon Gustav Rocket",
+  "ko": "초노급포탑열차 구스타프 로켓",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "EARTH",
+  "level": 10,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "3 Level 10 monsters\nOnce per turn, you can also Xyz Summon \"Superdreadnought Rail Cannon Gustav Rocket\" by discarding 1 card and using 1 \"Superdreadnought Rail Cannon Gustav Max\" you control (transfer its materials). When your opponent activates a monster effect, while this card has material (Quick Effect): You can negate that effect, and if you do, destroy that card, then inflict 1000 damage to your opponent. You can only use this effect of \"Superdreadnought Rail Cannon Gustav Rocket\" once per turn. Once per turn, during your End Phase: Detach 1 material from this card or destroy this card.",
+  "text_ko": "레벨 10 몬스터 × 3<br>\"초노급포탑열차 구스타프 로켓\"은 1턴에 1번, 패를 1장 버리고, 자신 필드의 \"초노급포탑열차 구스타프 맥스\" 위에 겹쳐 엑시즈 소환할 수도 있다. 이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 엑시즈 소재를 가지고, 상대가 몬스터의 효과를 발동했을 때에 발동할 수 있다. 그 효과를 무효로 하고 파괴한다. 그 후, 상대에게 1000 데미지를 준다. ②: 자신 엔드 페이즈에 발동한다. 이 카드의 엑시즈 소재를 1개 제거하거나, 이 카드를 파괴한다."
+ },
+ "22553": {
+  "cid": 22553,
+  "password": 38354018,
+  "en": "Superdreadnought Rail Cannon Flying Launcher",
+  "ko": "초노급포탑열차 플라잉 런처",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "EARTH",
+  "level": 10,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2 Level 10 monsters\nDuring your Main Phase, you can Normal Summon 1 Machine monster, in addition to your Normal Summon/Set (you can only gain this effect once per turn). You can only use each of the following effects of \"Superdreadnought Rail Cannon Flying Launcher\" once per turn. If this card is Xyz Summoned: You can add 1 EARTH Machine monster or 1 \"Barrage Blast\" from your Deck to your hand. You can detach any number of materials from this card, then target that many Spells/Traps on the field; destroy them.",
+  "text_ko": "레벨 10 몬스터 × 2<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 엑시즈 소환했을 경우에 발동할 수 있다. 덱에서 기계족 / 땅 속성 몬스터 1장이나 \"소사특공\" 1장을 패에 넣는다. ②: 이 카드가 몬스터 존에 존재하는 한, 자신은 통상 소환 외에도 1번만, 자신 메인 페이즈에 기계족 몬스터 1장을 일반 소환할 수 있다. ③: 이 카드의 엑시즈 소재를 임의의 수만큼 제거하고, 그 수만큼 필드의 마법 / 함정 카드를 대상으로 하여 발동할 수 있다. 그 카드를 파괴한다."
  },
  "22554": {
   "cid": 22554,
@@ -7434,6 +7937,36 @@
   "text_en": "2+ monsters\nGains 300 ATK for each different Attribute on the field. Once, while this card is face-up on the field, during the Main Phase (Quick Effect): You can target 2 monsters in your GY with the same Attribute but different Types, or with the same Type but different Attributes; Special Summon both, also until the end of the next turn, this card and the Special Summoned monsters cannot be used as material for a Fusion, Synchro, Xyz, or Link Summon. You can only use this effect of \"Charmer Quartet in Bloom\" once per turn.",
   "text_ko": "몬스터 2장 이상<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 공격력은, 필드의 몬스터의 속성의 종류 × 300 올린다. ②: 이 카드가 앞면 표시로 존재하는 한 1번만, 자신 / 상대의 메인 페이즈에, 자신 묘지의, 같은 속성으로 종족이 다른 몬스터 2장 또는 같은 종족으로 속성이 다른 몬스터 2장을 대상으로 하고 발동할 수 있다. 그 몬스터 2장을 특수 소환한다. 이 카드 및 이 효과로 특수 소환한 몬스터는 다음 턴의 종료시까지 융합 / 싱크로 / 엑시즈 / 링크 소환의 소재로 할 수 없다.",
   "password": 27519978
+ },
+ "22561": {
+  "cid": 22561,
+  "password": 99398682,
+  "en": "Crimson Call",
+  "ko": "크림즌 헬콜",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Add 1 Level 4 or lower Fiend monster from your GY to your hand, or if you control \"Red Dragon Archfiend\" or a Synchro Monster that mentions it, you can add 1 such monster from your Deck instead. At the end of the Damage Step, if your \"/Assault Mode\" monster or \"Red Dragon Archfiend\" attacked: You can banish this card from your GY; the attacking monster can make a second attack in a row. You can only activate 1 \"Crimson Call\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 자신 묘지에서 레벨 4 이하의 악마족 몬스터 1장을 패에 넣는다. 자신 필드에 \"레드 데몬즈 드래곤\" 또는 그 카드명이 쓰여진 싱크로 몬스터가 존재할 경우, 패에 넣는 몬스터를 덱에서 고를 수도 있다. ②: 자신의 \"/ 버스터\" 몬스터나 \"레드 데몬즈 드래곤\"이 공격한 데미지 스텝 종료시, 묘지의 이 카드를 제외하고 발동할 수 있다. 그 공격 몬스터는 1번만 더 이어서 공격할 수 있다."
+ },
+ "22563": {
+  "cid": 22563,
+  "password": 52782439,
+  "en": "Exceptional Schedule",
+  "ko": "특별 다이어",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Add 1 \"Special Schedule\" or \"Urgent Schedule\" from your Deck to your hand, then you can Special Summon 1 \"Diagram Token\" (Machine/EARTH/Level 10/ATK 3000/DEF 3000) to your opponent's field. You can banish this card from your GY, then target 1 Level 10 Machine monster in your GY or banishment; send 1 card you control to the GY, and if you do, Special Summon that monster. You can only use each effect of \"Exceptional Schedule\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 덱에서 \"임시 다이어\"나 \"긴급 다이어\" 1장을 패에 넣는다. 그 후, 상대 필드에 \"다이어그램 토큰\"(기계족 / 땅 / 레벨 10 / 공 3000 / 수 3000) 1장을 특수 소환할 수 있다. ②: 묘지의 이 카드를 제외하고, 자신의 묘지 / 제외 상태인 기계족 / 레벨 10 몬스터 1장을 대상으로 하여 발동할 수 있다. 자신 필드의 카드 1장을 묘지로 보내고, 대상 몬스터를 특수 소환한다."
  },
  "22565": {
   "cid": 22565,
@@ -7568,6 +8101,21 @@
   "text_ko": "이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 장착 몬스터의 공격력은 1000 올린다. ②: 1턴에 1번, 자신 메인 페이즈에 발동할 수 있다. 자신의 패 / 필드의 몬스터를 융합 소재로 하고, 마법사족 융합 몬스터 1장을 융합 소환한다. 그 시기에, 상대 필드의 \"요정의 왕자님\"도 융합 소재로 할 수 있다. ③: 이 카드가 묘지에 존재할 경우에 발동할 수 있다. 이 카드를 필드의 \"페어리테일\" 몬스터 1장에 장착한다. 그 후, 공격력 1850 인 마법사족 몬스터 1장의 일반 소환을 실행할 수 있다.",
   "password": 82119326
  },
+ "22580": {
+  "cid": 22580,
+  "password": 17269895,
+  "en": "King's Resonance",
+  "ko": "패자의 명동",
+  "ja": null,
+  "type": "Trap",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "N",
+  "text_en": "During the turn in which your opponent has Special Summoned 10 or more monsters, neither player can activate cards or effects in response to this card's activation. Apply the following effects in sequence, based on the number of monsters your opponent Special Summoned this turn.\n● 1+: Special Summon 1 DARK Synchro Monster from your GY or banishment.\n● 3+: Every \"Red Dragon Archfiend\" in your Monster Zone is unaffected by your opponent's activated effects, until the end of your next turn.\n● 5+: Change all your opponent's monsters to face-down Defense Position.\nYou can only activate 1 \"King's Resonance\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없으며, 상대가 10장 이상의 몬스터를 특수 소환한 턴에, 이 카드의 발동에 대하여 효과는 발동할 수 없다. ①: 이 턴에 상대가 특수 소환한 몬스터의 수에 따라, 이하의 효과를 각각 적용한다.<br>●1장 이상: 자신의 묘지 / 제외 상태인 어둠 속성 싱크로 몬스터 1장을 특수 소환한다.<br>●3장 이상: 다음 자신 턴의 종료시까지 동안, 자신 몬스터 존의 \"레드 데몬즈 드래곤\"은 상대가 발동한 효과를 받지 않는다.<br>●5장 이상: 상대 필드의 몬스터를 전부 뒷면 수비 표시로 한다."
+ },
  "22581": {
   "cid": 22581,
   "en": "Artmage Impasto -Recapture-",
@@ -7627,6 +8175,21 @@
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. 상대가 패 / 묘지의 몬스터의 효과를 발동한 턴에, 이 카드의 발동은 패에서도 할 수 있다. ①: 상대 필드의 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 제외한다. 자신 묘지에 함정 카드가 존재하지 않을 경우, 추가로 상대는 자신의 패에서 몬스터 1장을 특수 소환할 수 있다. 이 카드를 패에서 발동했을 경우, 발동 후, 이 듀얼 중에 자신은 땅 / 물 / 화염 / 바람 속성 몬스터의 효과를 발동할 수 없다.",
   "password": 6325660
  },
+ "22687": {
+  "cid": 22687,
+  "password": 89693655,
+  "en": "Subspace Battle",
+  "ko": "아공간 배틀",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "Apply the following effect, 3 times, in sequence.\n● Each player reveals 1 monster from their Deck that does not have ? ATK. Add the monster with the higher ATK to the hand of the player that revealed it, also destroy the monster with the lower ATK and inflict 500 damage to the player that revealed it. If tied, shuffle those monsters into the Decks.\nFor the rest of this turn, neither player can activate the effects of monsters with any of their revealed monsters' names. You can only activate 1 \"Subspace Battle\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 이하의 효과를 3회 적용한다. ●양쪽 플레이어는 각각 자신의 덱에서 공격력 ? 이외의 몬스터 1장을 골라, 서로 확인한다. 공격력이 높은 쪽의 몬스터는, 그것을 고른 플레이어의 패에 추가된다. 공격력이 낮은 쪽의 몬스터는 파괴되고, 그것을 고른 플레이어는 500 데미지를 받는다. 공격력이 같았을 경우, 고른 몬스터는 덱으로 되돌린다. 이 턴에, 양쪽 플레이어는 이 효과로 자신이 고른 몬스터 및 그와 같은 이름의 몬스터의 몬스터 효과를 발동할 수 없다."
+ },
  "22693": {
   "cid": 22693,
   "en": "Favorite HERO Shining Flare Wingman",
@@ -7660,6 +8223,39 @@
   "md_rarity": "UR",
   "text_en": "2+ Effect Monsters\nWhen your opponent activates a monster effect on the field or GY (Quick Effect): You can banish this card that was Special Summoned this turn until the End Phase; negate that effect, and if you do, banish it. During your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Link Summon 1 Link Monster, and if this card you control would be used as material for that Link Summon, you can also use 1 Link-2 or lower monster your opponent controls. Neither player can activate the effects of Link Monsters in response to this effect's activation. You can only use each effect of \"W:P Fancy Ball\" once per turn.",
   "text_ko": "효과 몬스터 2장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 상대가 필드 / 묘지의 몬스터의 효과를 발동했을 때, 이 턴에 특수 소환한 이 카드를 엔드 페이즈까지 제외하고 발동할 수 있다. 그 효과를 무효로 하고 제외한다. ②: 상대 메인 페이즈에 발동할 수 있다(이 발동에 대하여 양쪽 플레이어는 링크 몬스터의 효과를 발동할 수 없다). 링크 몬스터 1장의 링크 소환을 실행한다. 자신 필드의 이 카드를 링크 소재로 할 경우, 상대 필드의 링크 2 이하의 링크 몬스터 1장도 링크 소재로 할 수 있다."
+ },
+ "22722": {
+  "cid": 22722,
+  "password": 29053656,
+  "en": "Crimson Dragon Quetzalcoatl",
+  "ko": "붉은 용 켓차코아틀",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "DARK",
+  "level": 12,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 Tuner + 1+ non-Tuners\nGains ATK equal to the total original ATK of all other Synchro Monsters you control. You can only use each of the following effects of \"Crimson Dragon Quetzalcoatl\" once per turn. If this card is Synchro Summoned: You can Special Summon as many Dragon Synchro Monsters from your GY as possible, also you cannot Special Summon for the rest of this turn. When your opponent activates a monster effect (Quick Effect): You can return 1 other Dragon Synchro Monster you control to the Extra Deck, and if you do, negate that activation.",
+  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 싱크로 소환했을 경우에 발동할 수 있다. 자신 묘지에서 드래곤족 싱크로 몬스터를 가능한 한 특수 소환한다. 이 턴에, 자신은 몬스터를 특수 소환할 수 없다. ②: 이 카드의 공격력은, 자신 필드의 다른 싱크로 몬스터의 원래 공격력의 합계만큼 올린다. ③: 상대가 몬스터의 효과를 발동했을 때에 발동할 수 있다. 자신 필드의 다른 드래곤족 싱크로 몬스터 1장을 엑스트라 덱으로 되돌리고, 그 발동을 무효로 한다."
+ },
+ "22724": {
+  "cid": 22724,
+  "password": 92936364,
+  "en": "Red Dragon Archfiend's Chains",
+  "ko": "레드 데몬즈 체인",
+  "ja": null,
+  "type": "Trap",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "You can activate this card the turn it was Set, by revealing 1 \"Red Dragon Archfiend\" in your Extra Deck. Activate this card by revealing any number of monsters in your hand, then target Effect Monsters your opponent controls equal to the number of Tuners revealed +1; they lose 100 ATK for each card you revealed in the hand to activate this card, also their effects are negated. If the last of those monsters is not on the field, destroy this card. You can only activate 1 \"Red Dragon Archfiend's Chains\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. 이 카드는 엑스트라 덱의 \"레드 데몬즈 드래곤\" 1장을 상대에게 보여주고, 세트한 턴에 발동할 수도 있다. ①: 패의 몬스터를 임의의 수만큼 상대에게 보여주고, 그 중의 튜너의 수 ＋ 1장만 상대 필드의 효과 몬스터를 대상으로 하여 이 카드를 발동할 수 있다. 이 카드가 마법 & 함정 존에 존재하는 한, 대상 몬스터의 공격력은 패에서 보여준 수 × 100 내리고, 효과는 무효화된다. 대상 몬스터가 필드에 존재하지 않을 경우에 이 카드는 파괴된다."
  },
  "22920": {
   "cid": 22920,

@@ -15,9 +15,9 @@
 | [미츠루기 (Mitsurugi)](mitsurugi.md) | 2.6% | 초안 | 우라라 → 아메노하바키리노미츠루기<br>드롤 → 미츠루기노미코토 사지<br>우라라 → 의식의 밑준비 |
 | [VS K9 (Vanquish Soul K9)](vanquish-soul-k9.md) | 2.4% | 초안 | 포영 → VS 라젠 |
 | [아르토메기아 (Artmage)](artmage.md) | 2.3% | 초안 | 우라라 → 무구한 자 메디우스<br>우라라 → 절해한 감옥신문－테르미나스<br>포영 → 무구한 자 메디우스 |
-| [레드 데몬즈 (Red Dragon Archfiend)](red-dragon-archfiend.md) | 1.9% | 초안 | 우라라 → Power Vice Dragon<br>포영 → Power Vice Dragon<br>드롤 → Power Vice Dragon |
+| [레드 데몬즈 (Red Dragon Archfiend)](red-dragon-archfiend.md) | 1.9% | 초안 | 우라라 → 파워 바이스 드래곤<br>포영 → 파워 바이스 드래곤<br>드롤 → 파워 바이스 드래곤 |
 | [죄보 (Sinful Spoils)](sinful-spoils.md) | 1.1% | 초안 | 드롤 → 하얀 숲의 리제트<br>우라라 → “죄보사냥의 악마”<br>우라라 → 하얀 숲의 리제트 |
-| [열차 (Railway)](railway.md) | 0.7% | 초안 | 우라라 → Scrap Recycler<br>포영 → Scrap Recycler<br>와라시 → Night Train Blue Traveler |
+| [열차 (Railway)](railway.md) | 0.7% | 초안 | 우라라 → 스크랩 리사이클러<br>포영 → 스크랩 리사이클러<br>와라시 → 야광열차 블루트래블러 |
 | [메멘토 (Memento)](memento.md) | 0.1% | 초안 | 우라라 → 메멘토 엔위치<br>증G → 메멘토 씨호스<br>우라라 → 메멘토 씨호스 |
 
 [패트랩 사전](handtraps.md)
