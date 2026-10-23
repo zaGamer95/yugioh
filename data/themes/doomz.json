@@ -573,7 +573,10 @@
    "target_card": "Power Patron DoomZ",
    "timing_ko": "[[DoomZ Change]]로 덱에서 파괴된 [[Power Patron DoomZ]]의 서치 효과에 체인",
    "why_ko": "체인지 1장 초동은 이 서치가 유일한 연결이다. 체인지 ① 자체(덱의 카드 파괴)는 서치·덤핑이 아니라 우라라를 쓸 수 없으니, 그 다음 둠즈 유발을 기다렸다 던진다.",
-   "fallback_ko": "패의 다른 하급 둠즈·[[Prohibited Power Patron Portal - Terminus]]로 재시작할 수 있다."
+   "fallback_ko": "패의 다른 하급 둠즈·[[Prohibited Power Patron Portal - Terminus]]로 재시작할 수 있다.",
+   "rulings": [
+    "qa-23996"
+   ]
   },
   {
    "handtrap": "imperm",
@@ -653,7 +656,10 @@
    "target_card": "DoomZ Command \"A.D.R.A.S.T.E.I.A.\"",
    "timing_ko": "아드라스테이아 ②(장착 몬스터 파괴 → 묘지 둠즈 특소) 발동에 체인",
    "why_ko": "엘라라 소생이 막혀 메리메이커 → 사르가스 → 레귤러스 가지가 사라진다. 패·제외 상태에서도 특소할 수 있는 효과지만, 묘지 특소를 포함하므로 와라시 대상이다. 그라플레이오 파괴 유발(덱·묘지 특소)이나 체인지 묘지 회수에도 쓸 수 있다.",
-   "fallback_ko": "드라스테아 + 드라스트리우스 변신 가지는 남는다."
+   "fallback_ko": "드라스테아 + 드라스트리우스 변신 가지는 남는다.",
+   "rulings": [
+    "qa-23215"
+   ]
   },
   {
    "handtrap": "ogre",
@@ -669,7 +675,10 @@
  "handtrap_summary": {
   "ash": {
    "rating": "critical",
-   "note_ko": "첫 둠즈 서치(둠즈·아말테) 또는 그라플레이오 ① 서치. 체인지 ① 자체에는 못 쓴다."
+   "note_ko": "첫 둠즈 서치(둠즈·아말테) 또는 그라플레이오 ① 서치. 체인지 ① 자체에는 못 쓴다.",
+   "rulings": [
+    "qa-23996"
+   ]
   },
   "imperm": {
    "rating": "critical",
@@ -717,7 +726,10 @@
   },
   "belle": {
    "rating": "ok",
-   "note_ko": "아드라스테이아 ② 묘지 소생, 그라플레이오 파괴 유발(덱·묘지 특소), 체인지 묘지 회수."
+   "note_ko": "아드라스테이아 ② 묘지 소생, 그라플레이오 파괴 유발(덱·묘지 특소), 체인지 묘지 회수.",
+   "rulings": [
+    "qa-23215"
+   ]
   },
   "purulia": {
    "rating": "ok",

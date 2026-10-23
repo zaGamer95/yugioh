@@ -697,7 +697,10 @@
   },
   "impulse": {
    "rating": "strong",
-   "note_ko": "큐의 튜너 특소, 주크조인트의 덱 특소, 킬러튠 싱크로(싱크로 소환 포함)에. 패에서 쓰면 빛·땅·바람 봉인"
+   "note_ko": "큐의 튜너 특소, 주크조인트의 덱 특소, 킬러튠 싱크로(싱크로 소환 포함)에. 패에서 쓰면 빛·땅·바람 봉인",
+   "rulings": [
+    "qa-23933"
+   ]
   },
   "purge": {
    "rating": "strong",
@@ -757,7 +760,10 @@
        },
        {
         "id": "impulse",
-        "note_ko": "효과 처리 중 싱크로 소환을 하므로 특소 포함 효과로 보고 무효 가능(테마 문서 기준, 실전 확인 필요)"
+        "note_ko": "효과 처리 중 싱크로 소환을 하므로 '몬스터를 특수 소환하는 효과를 포함하는 효과'로 취급된다(공식 판정에 [[Kewl Tune Synchro]]가 직접 예시로 나옴) → 무효 가능",
+        "rulings": [
+         "qa-23933"
+        ]
        }
       ],
       "bait_ko": "마함 제거([[Mystical Space Typhoon]]·[[Cosmic Cyclone]]·[[Harpie's Feather Duster]])를 쓰면 상대가 체인해 발동할 뿐이라 답은 아니지만, 내가 중요한 카드를 내기 전에 쓰게 만드는 효과는 있다"
@@ -771,7 +777,10 @@
       "answered_by": [
        {
         "id": "gamma",
-        "note_ko": "릴리스는 코스트라 [[Kewl Tune Remix]]는 사라지고, 발동이 무효+파괴되어 회수·특소·싱크로가 전부 없다. 내 필드에 몬스터가 없어야 하며, 이미 [[Zalen the Shackled Dragon]]가 있으면 체인 2가 되어 [[Zalen the Shackled Dragon]]에 무효된다"
+        "note_ko": "릴리스는 코스트라 [[Kewl Tune Remix]]는 사라지고, 발동이 무효되어 회수·특소·싱크로가 전부 없다(이미 필드를 떠났으므로 파괴 처리는 없음). 내 필드에 몬스터가 없어야 하며, 이미 [[Zalen the Shackled Dragon]]가 있으면 체인 2가 되어 [[Zalen the Shackled Dragon]]에 무효된다",
+        "rulings": [
+         "qa-23949"
+        ]
        },
        {
         "id": "belle",
@@ -906,7 +915,12 @@
         "note_ko": "효과를 쓴 뒤 릴리스. 대상을 잡지 않아 보호 무관"
        }
       ],
-      "bait_ko": "어떤 발동에도 반응하므로 버려도 되는 카드로 먼저 쓰게 만든다. 제외 코스트라 [[Ghost Belle & Haunted Mansion]]로는 못 막는다"
+      "bait_ko": "어떤 발동에도 반응하므로 버려도 되는 카드로 먼저 쓰게 만든다. 제외 코스트라 [[Ghost Belle & Haunted Mansion]]로는 못 막는다",
+      "rulings": [
+       "qa-21720",
+       "qa-24251",
+       "qa-24238"
+      ]
      },
      {
       "id": "b2b",
@@ -1070,7 +1084,10 @@
       "answered_by": [
        {
         "id": "gamma",
-        "note_ko": "릴리스는 코스트라 [[Kewl Tune Remix]]는 사라지고, 발동이 무효+파괴되어 회수·특소·싱크로가 전부 없다. 내 필드에 몬스터가 없어야 하며, 이미 [[Zalen the Shackled Dragon]]가 있으면 체인 2가 되어 [[Zalen the Shackled Dragon]]에 무효된다"
+        "note_ko": "릴리스는 코스트라 [[Kewl Tune Remix]]는 사라지고, 발동이 무효되어 회수·특소·싱크로가 전부 없다(이미 필드를 떠났으므로 파괴 처리는 없음). 내 필드에 몬스터가 없어야 하며, 이미 [[Zalen the Shackled Dragon]]가 있으면 체인 2가 되어 [[Zalen the Shackled Dragon]]에 무효된다",
+        "rulings": [
+         "qa-23949"
+        ]
        },
        {
         "id": "belle",
@@ -1116,7 +1133,10 @@
        },
        {
         "id": "impulse",
-        "note_ko": "효과 처리 중 싱크로 소환을 하므로 특소 포함 효과로 보고 무효 가능(테마 문서 기준, 실전 확인 필요)"
+        "note_ko": "효과 처리 중 싱크로 소환을 하므로 '몬스터를 특수 소환하는 효과를 포함하는 효과'로 취급된다(공식 판정에 [[Kewl Tune Synchro]]가 직접 예시로 나옴) → 무효 가능",
+        "rulings": [
+         "qa-23933"
+        ]
        }
       ],
       "bait_ko": "마함 제거([[Mystical Space Typhoon]]·[[Cosmic Cyclone]]·[[Harpie's Feather Duster]])를 쓰면 상대가 체인해 발동할 뿐이라 답은 아니지만, 내가 중요한 카드를 내기 전에 쓰게 만드는 효과는 있다"
@@ -1343,7 +1363,10 @@
    },
    "imperm": {
     "rating": "weak",
-    "note_ko": "[[Kewl Tune Remix]]에는 릴리스로 피한다. 내 턴에 나온 [[Zalen the Shackled Dragon]]·[[Kewl Tune Loudness War]]·[[Kewl Tune B2B]]에 쓰는 정도인데 [[Kewl Tune Loudness War]]가 있으면 다른 튜너는 대상 불가"
+    "note_ko": "[[Kewl Tune Remix]]에는 릴리스로 피한다. 내 턴에 나온 [[Zalen the Shackled Dragon]]·[[Kewl Tune Loudness War]]·[[Kewl Tune B2B]]에 쓰는 정도인데 [[Kewl Tune Loudness War]]가 있으면 다른 튜너는 대상 불가",
+    "rulings": [
+     "qa-8398"
+    ]
    },
    "ogre": {
     "rating": "weak",
@@ -1351,7 +1374,10 @@
    },
    "gamma": {
     "rating": "strong",
-    "note_ko": "[[Kewl Tune Remix]]의 발동을 무효+파괴([[Kewl Tune Remix]]는 코스트로 이미 사라짐) → 내 턴 상대 전개의 핵심을 끊는다. [[Zalen the Shackled Dragon]]가 나온 뒤에는 체인 2가 되어 무효당하니 첫 퀵 효과에"
+    "note_ko": "[[Kewl Tune Remix]]의 발동을 무효+파괴([[Kewl Tune Remix]]는 코스트로 이미 사라짐) → 내 턴 상대 전개의 핵심을 끊는다. [[Zalen the Shackled Dragon]]가 나온 뒤에는 체인 2가 되어 무효당하니 첫 퀵 효과에",
+    "rulings": [
+     "qa-23949"
+    ]
    },
    "belle": {
     "rating": "strong",
@@ -1387,7 +1413,10 @@
    },
    "impulse": {
     "rating": "strong",
-    "note_ko": "[[Kewl Tune Remix]]·[[Kewl Tune Clip]]·[[Kewl Tune B2B]] 등 특소 포함 효과가 많다. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 봉인"
+    "note_ko": "[[Kewl Tune Remix]]·[[Kewl Tune Clip]]·[[Kewl Tune B2B]] 등 특소 포함 효과가 많다. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 봉인",
+    "rulings": [
+     "qa-23933"
+    ]
    },
    "purge": {
     "rating": "ok",
