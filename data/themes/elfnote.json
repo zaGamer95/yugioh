@@ -811,5 +811,856 @@
   "https://www.masterduelmeta.com/articles/guides/elfnote-galacticjoey (Master Duel Meta: Elfnote guide)",
   "https://note.com/ttoyp/n/nb311147b8e76 (note: 先立てバロネス エルフェンノーツ, 니비루·드롤 케어)",
   "https://www.masterduelmeta.com/api/v1/cards (Master Duel Meta 카드 API, MD 영문 텍스트·제한 상태)"
- ]
+ ],
+ "going_second": {
+  "summary_ko": "풀 전개는 [[Baronne de Fleur]](모든 발동 1회 무효)·[[Crystal Wing Synchro Dragon]](몬스터 효과 무효)·[[Elfnotes: Rhapsodia of Madness]](소생+앞면 카드 무효) 3견제에, 패의 [[Elfnote Regina]]가 내 턴에도 퀵 특소 → 덱에서 [[Elfnote Lucina]]를 불러 레벨 6 이하 몬스터를 바운스하는 구조다. [[Baronne de Fleur]] 무효를 미끼로 먼저 빼고, [[Crystal Wing Synchro Dragon]]는 마법·함정으로, [[Elfnotes: Rhapsodia of Madness]]는 [[Ghost Belle & Haunted Mansion]]·[[Dominus Impulse]]나 미끼로 처리한다. [[Dark Ruler No More]]·[[Forbidden Droplet]]·[[Super Polymerization]]처럼 몬스터 효과 체인을 막는 카드가 특히 잘 듣고, [[Elfnote Regina]]의 코스트(다른 엘펜노츠 카드)를 없애면 상대 턴 재전개도 끊긴다. 감옥신 루트 보드는 [[F.A. Dawn Dragster]](마함 발동 무효)와 [[Chaos Angel]](싱크로가 내 몬스터 효과를 받지 않음)가 더해져 훨씬 단단하다.",
+  "difficulty": "hard",
+  "boards": [
+   {
+    "id": "full",
+    "title_ko": "풀 전개 ([[Elfnote Lucina]] 1장 초동)",
+    "line": "lucina",
+    "interruptions": [
+     {
+      "id": "baronne",
+      "card": "Baronne de Fleur",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "카드·효과 발동 시 1회 발동 무효+파괴 (퀵, 마법·함정·몬스터 모두). 파괴 효과는 기동이라 내 턴에는 안 씀. 스탠바이 페이즈에 엑스트라로 돌아가며 묘지의 레벨 9 이하를 특소하는 효과도 있다",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "내 메인 페이즈 시작 시 [[Baronne de Fleur]]를 대상으로 발동하면 [[Baronne de Fleur]]가 체인해 무효로 받는다. 무효 소모용 미끼로는 가장 싸다"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "발동에 몬스터 효과로 체인 불가라 [[Baronne de Fleur]]·[[Crystal Wing Synchro Dragon]]를 함께 무효. 단 [[Elfnotes: Rhapsodia of Madness]]는 함정이라 체인 가능"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 코스트로 보내면 상대는 몬스터 효과로 체인 불가 → 깔끔하게 무효+공격력 반감"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. [[Baronne de Fleur]](바람·전사족)+[[Crystal Wing Synchro Dragon]](바람·드래곤족)로 [[Mudragon of the Swamp]]를 만들면 2장 동시 처리. 1장 버려야 함"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스는 소환 절차라 발동이 아니다 → 무효당하지 않고 치움"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가. 내 엑스트라 덱에 싱크로 몬스터가 있어야 함. 덱으로 되돌려 스탠바이 효과도 막힘"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "무효를 한 번 쓴 뒤(효과를 발동한 몬스터) 릴리스해 특소. 발동이 아니라 체인 불가"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "[[Baronne de Fleur]]의 무효 발동에 체인해 그 무효를 무효+파괴. 단 [[Crystal Wing Synchro Dragon]]가 [[PSY-Framegear Gamma]](몬스터 효과)를 다시 무효할 수 있어 [[Crystal Wing Synchro Dragon]]를 먼저 소모시킬 것"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "[[Baronne de Fleur]]가 무효를 발동했을 때 파괴. 무효 자체는 처리되므로 미끼 카드 1장은 잃는다. [[Crystal Wing Synchro Dragon]]가 [[Ghost Ogre & Snow Rabbit]]를 무효할 수 있음"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "무효를 쓴 뒤(내 메인 페이즈에 몬스터 효과 발동) 컨트롤 탈취로 가져온다"
+       }
+      ],
+      "bait_ko": "어떤 카드의 발동에도 반응하므로 덜 중요한 카드(서치 마법·일반 소환 유발 효과 등)를 먼저 발동해 무효를 받아낸다. 무효는 '앞면으로 있는 동안 1번'"
+     },
+     {
+      "id": "crystal_wing",
+      "card": "Crystal Wing Synchro Dragon",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "다른 몬스터의 효과 발동 시 1턴 1번 무효+파괴 (퀵). 마법·함정에는 반응하지 않는다",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가 → 그대로 무효"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내면 체인 불가. 2장 보내면 [[Baronne de Fleur]]와 함께 무효"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "함정이라 [[Crystal Wing Synchro Dragon]]는 반응 못 함. 단 [[Baronne de Fleur]]가 남아 있으면 그쪽이 무효하므로 [[Baronne de Fleur]] 무효를 먼저 소모"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "[[Baronne de Fleur]]와 함께 [[Mudragon of the Swamp]]의 소재로"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 무효 불가"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가. 내 엑스트라에 싱크로 필요"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "마법이라 [[Crystal Wing Synchro Dragon]]는 못 막음. 공격 표시라면 몬스터 모드로 파괴. 내 필드에 앞면 카드가 없어야 하고 [[Baronne de Fleur]]·[[Elfnotes: Rhapsodia of Madness]]가 먼저 소모돼 있어야 함"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "마법이라 [[Crystal Wing Synchro Dragon]]는 못 막음. [[Baronne de Fleur]]가 남아 있으면 무효당한다"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "몬스터 효과를 무효(발동)한 뒤라면 릴리스 대상"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "무효를 쓴 뒤 컨트롤 탈취"
+       }
+      ],
+      "bait_ko": "아무 몬스터 효과(일반 소환 유발·패의 몬스터 효과)를 먼저 써서 무효를 받아낸다. 무효+파괴 뒤 공격력이 올라가므로 전투로 넘기기는 어려워진다"
+     },
+     {
+      "id": "rhapsodia",
+      "card": "Elfnotes: Rhapsodia of Madness",
+      "kind": "quick_negate",
+      "zone": "st",
+      "timing_ko": "지속 함정의 효과라 내 턴 아무 때나 1턴 1번. 패·필드 몬스터 1장을 보내고 묘지의 속성이 다른 엘펜노츠를 소생 → 싱크로가 있으면 내 앞면 카드 1장 효과 무효. 발동 무효가 아니라 '앞면 카드 무효'지만, 체인 위에서 앞면인 내 마법도 무효할 수 있는 것으로 보인다(카드 텍스트 기준 추정)",
+      "answered_by": [
+       {
+        "id": "belle",
+        "note_ko": "묘지 특소를 포함하므로 발동 자체를 무효 → 소생과 앞면 카드 무효가 함께 사라진다. 가장 깔끔한 답"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "특소를 포함한 효과라 무효(묘지에 함정이 있으면 파괴). 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 봉인"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "제외는 되지만 상대가 체인해 효과를 쓰고 ([[Cosmic Cyclone]] 자체를 무효할 수도 있다). 사실상 1턴 1번 효과를 미리 쓰게 만드는 미끼"
+       },
+       {
+        "id": "harpie",
+        "note_ko": "[[Elfnotes: Welcome Home]]와 함께 파괴. 단 [[Baronne de Fleur]]가 무효할 수 있고, [[Elfnotes: Rhapsodia of Madness]]도 체인해 효과를 쓴다. [[Baronne de Fleur]] 소모 후 미끼 겸 정리용"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "앞면 함정이 효과를 발동했을 때 파괴. 효과는 처리된다(이후 재사용만 막음)"
+       }
+      ],
+      "bait_ko": "1턴 1번이라 중요하지 않은 앞면 카드(지속 마법·필드 마법, 일반 소환한 몬스터 등)를 먼저 깔아 무효 대상으로 소모시키거나, [[Mystical Space Typhoon]]류로 미리 쓰게 만든다. 싱크로가 없으면 무효는 안 나온다"
+     },
+     {
+      "id": "regina",
+      "card": "Elfnote Regina",
+      "kind": "other",
+      "zone": "hand",
+      "timing_ko": "패에서 퀵: 패·앞면 필드의 다른 엘펜노츠 카드 1장을 보내고 자가 특소 → 중앙 존이면 덱에서 엘펜노츠 특소([[Elfnote Lucina]] 등). 각 효과 1턴 1번이라 내 턴에 다시 쓸 수 있다",
+      "answered_by": [
+       {
+        "id": "ash",
+        "note_ko": "중앙 소환 유발(덱에서 특소)에 체인해 무효. [[Elfnote Regina]] 자체 특소는 남는다"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "중앙에 나온 [[Elfnote Regina]]의 덱 특소 유발에 체인해 무효(패에서 쓰려면 내 필드가 비어 있어야 함)"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "패에서 발동한 몬스터 효과에도 반응. 내 필드에 몬스터가 없을 때만, [[Crystal Wing Synchro Dragon]]가 남아 있으면 [[PSY-Framegear Gamma]]가 무효당한다"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "자가 특소·덱 특소 둘 다 특소 효과라 무효 가능"
+       },
+       {
+        "id": "spark",
+        "note_ko": "[[Elfnote Regina]]가 패에서 효과를 발동한 턴이라 발동 가능 → 몬스터 1장 제외"
+       }
+      ],
+      "bait_ko": "코스트로 '다른 엘펜노츠 카드'가 필요하다. 필드의 엘펜노츠 카드([[Elfnotes: Welcome Home]]·[[Elfnotes: Rhapsodia of Madness]]·엘펜노츠 몬스터)를 먼저 전부 치우고 패에 다른 엘펜노츠가 없으면 [[Elfnote Regina]]는 나오지 못한다. 중앙 존이 막혀 있으면 덱 특소도 없다"
+     },
+     {
+      "id": "lucina_bounce",
+      "card": "Elfnote Lucina",
+      "kind": "bounce",
+      "zone": "monster",
+      "timing_ko": "[[Elfnote Regina]]의 덱 특소나 [[Elfnotes: Rhapsodia of Madness]]의 소생로 나온 [[Elfnote Lucina]]가 퀵으로 중앙 몬스터와 자리를 바꾸고 레벨 6 이하 몬스터 1장 바운스(1턴 1번). [[Elfnote Fortuna]]면 앞면 마함 1장 바운스, [[Elfnote Tinia]]면 내 패 1장 무작위 제외(엔드 페이즈까지)",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "자리 교환 효과 발동에 체인해 무효"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "몬스터 효과 발동이라 대응 가능(내 필드에 몬스터가 없을 때만)"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "[[Dark Ruler No More]] 처리 시점에 앞면이면 무효. 처리 뒤에 새로 나온 몬스터는 무효되지 않는다"
+       }
+      ],
+      "bait_ko": "레벨 6 이하만 바운스한다. 엑시즈·링크(레벨 없음)나 레벨 7 이상으로 마무리하면 맞지 않는다. 엑스트라 덱 몬스터가 바운스되면 엑스트라로 돌아가니 주의"
+     },
+     {
+      "id": "welcome_home",
+      "card": "Elfnotes: Welcome Home",
+      "kind": "protection",
+      "zone": "st",
+      "timing_ko": "앞면인 동안 중앙 메인 몬스터 존의 몬스터는 효과로 파괴되지 않는다. [[Baronne de Fleur]]는 보통 중앙을 비워 두려고 중앙 이외에 내지만, 중앙에 있으면 [[Lightning Storm]]·[[Raigeki]]로 안 죽는다. 내 턴에 [[Elfnote Regina]]가 중앙에 나오면 그 [[Elfnote Regina]]가 보호된다. 특소 효과는 기동이라 내 턴에는 못 씀",
+      "answered_by": [
+       {
+        "id": "harpie",
+        "note_ko": "지속 마법째 파괴. 지속 마법 자체는 체인할 효과가 없지만 다른 견제가 반응한다"
+       },
+       {
+        "id": "heavy_storm",
+        "note_ko": "같은 이유. 내 마함도 파괴"
+       },
+       {
+        "id": "mst",
+        "note_ko": "1장 파괴(속공). 엘펜노츠 카드가 줄어 [[Elfnote Regina]]의 코스트도 줄어든다"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "1장 제외"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "파괴가 아니라 릴리스라 내성을 무시"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "융합 소재로 쓰는 것이라 내성 무관"
+       }
+      ],
+      "bait_ko": ""
+     }
+    ]
+   },
+   {
+    "id": "full_terminus",
+    "title_ko": "풀 전개 ([[Prohibited Power Patron Portal - Terminus]] 감옥신 루트)",
+    "line": "terminus",
+    "interruptions": [
+     {
+      "id": "dawn_dragster",
+      "card": "F.A. Dawn Dragster",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "내가 마법·함정 카드·효과를 발동했을 때 1턴 1번, 레벨 2를 낮추고 발동 무효+파괴 (퀵)",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "발동에 몬스터 효과로 체인 불가 → [[F.A. Dawn Dragster]]·[[Crystal Wing Synchro Dragon]]을 함께 무효. 단 [[Dark Ruler No More]] 처리 시 [[Chaos Angel]]의 내성은 '몬스터 효과'에 대한 것이라 마법인 [[Dark Ruler No More]]는 통한다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내면 몬스터 효과로 체인 불가. 3장 보내면 [[F.A. Dawn Dragster]]·[[Crystal Wing Synchro Dragon]]·[[Chaos Angel]]을 모두 무효([[Chaos Angel]] 내성도 사라짐)"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. 이 보드에서는 [[Chaos Angel]](어둠·악마족)+[[T.G. Hyper Librarian]](어둠·마법사족)로 [[Mudragon of the Swamp]]"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가. 내 엑스트라에 싱크로 필요"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 무효 불가. [[Chaos Angel]] 내성과도 무관"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "[[F.A. Dawn Dragster]]의 무효 발동에 체인해 무효는 가능하나, [[Chaos Angel]] 때문에 파괴는 적용되지 않는다(카드 텍스트 기준 추정). [[Crystal Wing Synchro Dragon]]이 [[PSY-Framegear Gamma]]를 무효할 수 있음"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "무효를 쓴 뒤 릴리스"
+       }
+      ],
+      "bait_ko": "첫 마법·함정은 반드시 무효당한다고 보고 싼 마법([[Mystical Space Typhoon]] 등)을 먼저 발동"
+     },
+     {
+      "id": "crystal_wing_t",
+      "card": "Crystal Wing Synchro Dragon",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "다른 몬스터의 효과 발동 시 1턴 1번 무효+파괴 (퀵). 마법·함정에는 반응하지 않는다",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가 → 그대로 무효"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내면 체인 불가. 2장 보내면 [[Baronne de Fleur]]와 함께 무효"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "함정이라 [[Crystal Wing Synchro Dragon]]는 반응 못 함. 단 [[Baronne de Fleur]]가 남아 있으면 그쪽이 무효하므로 [[Baronne de Fleur]] 무효를 먼저 소모"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "[[Baronne de Fleur]]와 함께 [[Mudragon of the Swamp]]의 소재로"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 무효 불가"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가. 내 엑스트라에 싱크로 필요"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "마법이라 [[Crystal Wing Synchro Dragon]]는 못 막음. 공격 표시라면 몬스터 모드로 파괴. 내 필드에 앞면 카드가 없어야 하고 [[Baronne de Fleur]]·[[Elfnotes: Rhapsodia of Madness]]가 먼저 소모돼 있어야 함"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "마법이라 [[Crystal Wing Synchro Dragon]]는 못 막음. [[Baronne de Fleur]]가 남아 있으면 무효당한다"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "몬스터 효과를 무효(발동)한 뒤라면 릴리스 대상"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "무효를 쓴 뒤 컨트롤 탈취"
+       }
+      ],
+      "bait_ko": "아무 몬스터 효과(일반 소환 유발·패의 몬스터 효과)를 먼저 써서 무효를 받아낸다. 무효+파괴 뒤 공격력이 올라가므로 전투로 넘기기는 어려워진다"
+     },
+     {
+      "id": "chaos_angel",
+      "card": "Chaos Angel",
+      "kind": "protection",
+      "zone": "monster",
+      "timing_ko": "빛·어둠 소재 싱크로라 두 효과를 모두 얻는다: 상대 싱크로 몬스터는 내가 발동한 몬스터 효과를 받지 않고, 상대 몬스터는 전투로 파괴되지 않는다. 특소 시 제외 효과는 상대 턴에 이미 사용",
+      "answered_by": [
+       {
+        "id": "droplet",
+        "note_ko": "마법이라 내성 무관. [[Chaos Angel]]을 무효하면 내성도 사라진다"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "마법이라 통함. [[Chaos Angel]]의 지속 효과도 무효"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가 융합 소재로 처리"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 내성 무관"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "마법이라 내성 무관, 몬스터 효과로 체인 불가"
+       }
+      ],
+      "bait_ko": "[[Ghost Ogre & Snow Rabbit]]·[[PSY-Framegear Gamma]]의 파괴·[[Fydraulis Harmonia]] 같은 몬스터 효과는 싱크로에 통하지 않으니 이 보드에서는 마법·함정·소환 절차로 돌파"
+     },
+     {
+      "id": "rhapsodia_t",
+      "card": "Elfnotes: Rhapsodia of Madness",
+      "kind": "quick_negate",
+      "zone": "st",
+      "timing_ko": "지속 함정의 효과라 내 턴 아무 때나 1턴 1번. 패·필드 몬스터 1장을 보내고 묘지의 속성이 다른 엘펜노츠를 소생 → 싱크로가 있으면 내 앞면 카드 1장 효과 무효. 발동 무효가 아니라 '앞면 카드 무효'지만, 체인 위에서 앞면인 내 마법도 무효할 수 있는 것으로 보인다(카드 텍스트 기준 추정)",
+      "answered_by": [
+       {
+        "id": "belle",
+        "note_ko": "묘지 특소를 포함하므로 발동 자체를 무효 → 소생과 앞면 카드 무효가 함께 사라진다. 가장 깔끔한 답"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "특소를 포함한 효과라 무효(묘지에 함정이 있으면 파괴). 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 봉인"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "제외는 되지만 상대가 체인해 효과를 쓰고 ([[Cosmic Cyclone]] 자체를 무효할 수도 있다). 사실상 1턴 1번 효과를 미리 쓰게 만드는 미끼"
+       },
+       {
+        "id": "harpie",
+        "note_ko": "[[Elfnotes: Welcome Home]]와 함께 파괴. 단 [[Baronne de Fleur]]가 무효할 수 있고, [[Elfnotes: Rhapsodia of Madness]]도 체인해 효과를 쓴다. [[Baronne de Fleur]] 소모 후 미끼 겸 정리용"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "앞면 함정이 효과를 발동했을 때 파괴. 효과는 처리된다(이후 재사용만 막음)"
+       }
+      ],
+      "bait_ko": "1턴 1번이라 중요하지 않은 앞면 카드(지속 마법·필드 마법, 일반 소환한 몬스터 등)를 먼저 깔아 무효 대상으로 소모시키거나, [[Mystical Space Typhoon]]류로 미리 쓰게 만든다. 싱크로가 없으면 무효는 안 나온다"
+     },
+     {
+      "id": "regina_t",
+      "card": "Elfnote Regina",
+      "kind": "other",
+      "zone": "hand",
+      "timing_ko": "패에서 퀵: 패·앞면 필드의 다른 엘펜노츠 카드 1장을 보내고 자가 특소 → 중앙 존이면 덱에서 엘펜노츠 특소([[Elfnote Lucina]] 등). 각 효과 1턴 1번이라 내 턴에 다시 쓸 수 있다. 이 루트는 드로우로 패가 많아 [[Elfnote Regina]] 코스트가 거의 항상 있다",
+      "answered_by": [
+       {
+        "id": "ash",
+        "note_ko": "중앙 소환 유발(덱에서 특소)에 체인해 무효. [[Elfnote Regina]] 자체 특소는 남는다"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "중앙에 나온 [[Elfnote Regina]]의 덱 특소 유발에 체인해 무효(패에서 쓰려면 내 필드가 비어 있어야 함)"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "패에서 발동한 몬스터 효과에도 반응. 내 필드에 몬스터가 없을 때만, [[Crystal Wing Synchro Dragon]]가 남아 있으면 [[PSY-Framegear Gamma]]가 무효당한다"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "자가 특소·덱 특소 둘 다 특소 효과라 무효 가능"
+       },
+       {
+        "id": "spark",
+        "note_ko": "[[Elfnote Regina]]가 패에서 효과를 발동한 턴이라 발동 가능 → 몬스터 1장 제외"
+       }
+      ],
+      "bait_ko": "코스트로 '다른 엘펜노츠 카드'가 필요하다. 필드의 엘펜노츠 카드([[Elfnotes: Welcome Home]]·[[Elfnotes: Rhapsodia of Madness]]·엘펜노츠 몬스터)를 먼저 전부 치우고 패에 다른 엘펜노츠가 없으면 [[Elfnote Regina]]는 나오지 못한다. 중앙 존이 막혀 있으면 덱 특소도 없다"
+     }
+    ]
+   },
+   {
+    "id": "after_ash_lucina",
+    "title_ko": "[[Elfnote Lucina]] 서치에 [[Ash Blossom & Joyous Spring]]을 맞은 경우 (패에 [[Elfnote Regina]] 없음)",
+    "after": {
+     "handtrap": "ash",
+     "line": "lucina",
+     "step": 2
+    },
+    "interruptions": []
+   },
+   {
+    "id": "after_ogre_strelitzia",
+    "title_ko": "[[Elfnote Seraphim Strelitzia]] 소생에 [[Ghost Ogre & Snow Rabbit]]을 맞은 경우 ([[Crystal Wing Synchro Dragon]] 없음)",
+    "after": {
+     "handtrap": "ogre",
+     "line": "lucina",
+     "step": 6
+    },
+    "interruptions": [
+     {
+      "id": "baronne_o",
+      "card": "Baronne de Fleur",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "카드·효과 발동 시 1회 발동 무효+파괴 (퀵, 마법·함정·몬스터 모두). 파괴 효과는 기동이라 내 턴에는 안 씀. 스탠바이 페이즈에 엑스트라로 돌아가며 묘지의 레벨 9 이하를 특소하는 효과도 있다",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "내 메인 페이즈 시작 시 [[Baronne de Fleur]]를 대상으로 발동하면 [[Baronne de Fleur]]가 체인해 무효로 받는다. 무효 소모용 미끼로는 가장 싸다"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "발동에 몬스터 효과로 체인 불가라 [[Baronne de Fleur]]·[[Crystal Wing Synchro Dragon]]를 함께 무효. 단 [[Elfnotes: Rhapsodia of Madness]]는 함정이라 체인 가능"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 코스트로 보내면 상대는 몬스터 효과로 체인 불가 → 깔끔하게 무효+공격력 반감"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. [[Baronne de Fleur]](바람·전사족)+[[Crystal Wing Synchro Dragon]](바람·드래곤족)로 [[Mudragon of the Swamp]]를 만들면 2장 동시 처리. 1장 버려야 함"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스는 소환 절차라 발동이 아니다 → 무효당하지 않고 치움"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가. 내 엑스트라 덱에 싱크로 몬스터가 있어야 함. 덱으로 되돌려 스탠바이 효과도 막힘"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "무효를 한 번 쓴 뒤(효과를 발동한 몬스터) 릴리스해 특소. 발동이 아니라 체인 불가"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "[[Baronne de Fleur]]의 무효 발동에 체인해 그 무효를 무효+파괴. 단 [[Crystal Wing Synchro Dragon]]가 [[PSY-Framegear Gamma]](몬스터 효과)를 다시 무효할 수 있어 [[Crystal Wing Synchro Dragon]]를 먼저 소모시킬 것"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "[[Baronne de Fleur]]가 무효를 발동했을 때 파괴. 무효 자체는 처리되므로 미끼 카드 1장은 잃는다. [[Crystal Wing Synchro Dragon]]가 [[Ghost Ogre & Snow Rabbit]]를 무효할 수 있음"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "무효를 쓴 뒤(내 메인 페이즈에 몬스터 효과 발동) 컨트롤 탈취로 가져온다"
+       }
+      ],
+      "bait_ko": "어떤 카드의 발동에도 반응하므로 덜 중요한 카드(서치 마법·일반 소환 유발 효과 등)를 먼저 발동해 무효를 받아낸다. 무효는 '앞면으로 있는 동안 1번'"
+     },
+     {
+      "id": "rhapsodia_o",
+      "card": "Elfnotes: Rhapsodia of Madness",
+      "kind": "quick_negate",
+      "zone": "st",
+      "timing_ko": "지속 함정의 효과라 내 턴 아무 때나 1턴 1번. 패·필드 몬스터 1장을 보내고 묘지의 속성이 다른 엘펜노츠를 소생 → 싱크로가 있으면 내 앞면 카드 1장 효과 무효. 발동 무효가 아니라 '앞면 카드 무효'지만, 체인 위에서 앞면인 내 마법도 무효할 수 있는 것으로 보인다(카드 텍스트 기준 추정)",
+      "answered_by": [
+       {
+        "id": "belle",
+        "note_ko": "묘지 특소를 포함하므로 발동 자체를 무효 → 소생과 앞면 카드 무효가 함께 사라진다. 가장 깔끔한 답"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "특소를 포함한 효과라 무효(묘지에 함정이 있으면 파괴). 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 봉인"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "제외는 되지만 상대가 체인해 효과를 쓰고 ([[Cosmic Cyclone]] 자체를 무효할 수도 있다). 사실상 1턴 1번 효과를 미리 쓰게 만드는 미끼"
+       },
+       {
+        "id": "harpie",
+        "note_ko": "[[Elfnotes: Welcome Home]]와 함께 파괴. 단 [[Baronne de Fleur]]가 무효할 수 있고, [[Elfnotes: Rhapsodia of Madness]]도 체인해 효과를 쓴다. [[Baronne de Fleur]] 소모 후 미끼 겸 정리용"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "앞면 함정이 효과를 발동했을 때 파괴. 효과는 처리된다(이후 재사용만 막음)"
+       }
+      ],
+      "bait_ko": "1턴 1번이라 중요하지 않은 앞면 카드(지속 마법·필드 마법, 일반 소환한 몬스터 등)를 먼저 깔아 무효 대상으로 소모시키거나, [[Mystical Space Typhoon]]류로 미리 쓰게 만든다. 싱크로가 없으면 무효는 안 나온다"
+     },
+     {
+      "id": "regina_o",
+      "card": "Elfnote Regina",
+      "kind": "other",
+      "zone": "hand",
+      "timing_ko": "패에서 퀵: 패·앞면 필드의 다른 엘펜노츠 카드 1장을 보내고 자가 특소 → 중앙 존이면 덱에서 엘펜노츠 특소([[Elfnote Lucina]] 등). 각 효과 1턴 1번이라 내 턴에 다시 쓸 수 있다",
+      "answered_by": [
+       {
+        "id": "ash",
+        "note_ko": "중앙 소환 유발(덱에서 특소)에 체인해 무효. [[Elfnote Regina]] 자체 특소는 남는다"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "중앙에 나온 [[Elfnote Regina]]의 덱 특소 유발에 체인해 무효(패에서 쓰려면 내 필드가 비어 있어야 함)"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "패에서 발동한 몬스터 효과에도 반응. 내 필드에 몬스터가 없을 때만, [[Crystal Wing Synchro Dragon]]가 남아 있으면 [[PSY-Framegear Gamma]]가 무효당한다"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "자가 특소·덱 특소 둘 다 특소 효과라 무효 가능"
+       },
+       {
+        "id": "spark",
+        "note_ko": "[[Elfnote Regina]]가 패에서 효과를 발동한 턴이라 발동 가능 → 몬스터 1장 제외"
+       }
+      ],
+      "bait_ko": "코스트로 '다른 엘펜노츠 카드'가 필요하다. 필드의 엘펜노츠 카드([[Elfnotes: Welcome Home]]·[[Elfnotes: Rhapsodia of Madness]]·엘펜노츠 몬스터)를 먼저 전부 치우고 패에 다른 엘펜노츠가 없으면 [[Elfnote Regina]]는 나오지 못한다. 중앙 존이 막혀 있으면 덱 특소도 없다"
+     },
+     {
+      "id": "lucina_bounce_o",
+      "card": "Elfnote Lucina",
+      "kind": "bounce",
+      "zone": "monster",
+      "timing_ko": "[[Elfnote Regina]]의 덱 특소나 [[Elfnotes: Rhapsodia of Madness]]의 소생로 나온 [[Elfnote Lucina]]가 퀵으로 중앙 몬스터와 자리를 바꾸고 레벨 6 이하 몬스터 1장 바운스(1턴 1번). [[Elfnote Fortuna]]면 앞면 마함 1장 바운스, [[Elfnote Tinia]]면 내 패 1장 무작위 제외(엔드 페이즈까지)",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "자리 교환 효과 발동에 체인해 무효"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "몬스터 효과 발동이라 대응 가능(내 필드에 몬스터가 없을 때만)"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "[[Dark Ruler No More]] 처리 시점에 앞면이면 무효. 처리 뒤에 새로 나온 몬스터는 무효되지 않는다"
+       }
+      ],
+      "bait_ko": "레벨 6 이하만 바운스한다. 엑시즈·링크(레벨 없음)나 레벨 7 이상으로 마무리하면 맞지 않는다. 엑스트라 덱 몬스터가 바운스되면 엑스트라로 돌아가니 주의"
+     }
+    ]
+   },
+   {
+    "id": "after_fuwalos",
+    "title_ko": "[[Mulcharmy Fuwalos]]·[[Maxx \"C\"]]로 멈춘 경우 ([[Baronne de Fleur]] 우선 순서)",
+    "after": {
+     "handtrap": "fuwalos",
+     "line": "lucina",
+     "step": 4
+    },
+    "interruptions": [
+     {
+      "id": "baronne_f",
+      "card": "Baronne de Fleur",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "카드·효과 발동 시 1회 발동 무효+파괴 (퀵, 마법·함정·몬스터 모두). 파괴 효과는 기동이라 내 턴에는 안 씀. 스탠바이 페이즈에 엑스트라로 돌아가며 묘지의 레벨 9 이하를 특소하는 효과도 있다",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "내 메인 페이즈 시작 시 [[Baronne de Fleur]]를 대상으로 발동하면 [[Baronne de Fleur]]가 체인해 무효로 받는다. 무효 소모용 미끼로는 가장 싸다"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "발동에 몬스터 효과로 체인 불가라 [[Baronne de Fleur]]·[[Crystal Wing Synchro Dragon]]를 함께 무효. 단 [[Elfnotes: Rhapsodia of Madness]]는 함정이라 체인 가능"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 코스트로 보내면 상대는 몬스터 효과로 체인 불가 → 깔끔하게 무효+공격력 반감"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. [[Baronne de Fleur]](바람·전사족)+[[Crystal Wing Synchro Dragon]](바람·드래곤족)로 [[Mudragon of the Swamp]]를 만들면 2장 동시 처리. 1장 버려야 함"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스는 소환 절차라 발동이 아니다 → 무효당하지 않고 치움"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가. 내 엑스트라 덱에 싱크로 몬스터가 있어야 함. 덱으로 되돌려 스탠바이 효과도 막힘"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "무효를 한 번 쓴 뒤(효과를 발동한 몬스터) 릴리스해 특소. 발동이 아니라 체인 불가"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "[[Baronne de Fleur]]의 무효 발동에 체인해 그 무효를 무효+파괴. 단 [[Crystal Wing Synchro Dragon]]가 [[PSY-Framegear Gamma]](몬스터 효과)를 다시 무효할 수 있어 [[Crystal Wing Synchro Dragon]]를 먼저 소모시킬 것"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "[[Baronne de Fleur]]가 무효를 발동했을 때 파괴. 무효 자체는 처리되므로 미끼 카드 1장은 잃는다. [[Crystal Wing Synchro Dragon]]가 [[Ghost Ogre & Snow Rabbit]]를 무효할 수 있음"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "무효를 쓴 뒤(내 메인 페이즈에 몬스터 효과 발동) 컨트롤 탈취로 가져온다"
+       }
+      ],
+      "bait_ko": "어떤 카드의 발동에도 반응하므로 덜 중요한 카드(서치 마법·일반 소환 유발 효과 등)를 먼저 발동해 무효를 받아낸다. 무효는 '앞면으로 있는 동안 1번'"
+     },
+     {
+      "id": "rhapsodia_f",
+      "card": "Elfnotes: Rhapsodia of Madness",
+      "kind": "quick_negate",
+      "zone": "st",
+      "timing_ko": "지속 함정의 효과라 내 턴 아무 때나 1턴 1번. 패·필드 몬스터 1장을 보내고 묘지의 속성이 다른 엘펜노츠를 소생 → 싱크로가 있으면 내 앞면 카드 1장 효과 무효. 발동 무효가 아니라 '앞면 카드 무효'지만, 체인 위에서 앞면인 내 마법도 무효할 수 있는 것으로 보인다(카드 텍스트 기준 추정)",
+      "answered_by": [
+       {
+        "id": "belle",
+        "note_ko": "묘지 특소를 포함하므로 발동 자체를 무효 → 소생과 앞면 카드 무효가 함께 사라진다. 가장 깔끔한 답"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "특소를 포함한 효과라 무효(묘지에 함정이 있으면 파괴). 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 봉인"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "제외는 되지만 상대가 체인해 효과를 쓰고 ([[Cosmic Cyclone]] 자체를 무효할 수도 있다). 사실상 1턴 1번 효과를 미리 쓰게 만드는 미끼"
+       },
+       {
+        "id": "harpie",
+        "note_ko": "[[Elfnotes: Welcome Home]]와 함께 파괴. 단 [[Baronne de Fleur]]가 무효할 수 있고, [[Elfnotes: Rhapsodia of Madness]]도 체인해 효과를 쓴다. [[Baronne de Fleur]] 소모 후 미끼 겸 정리용"
+       },
+       {
+        "id": "ogre",
+        "note_ko": "앞면 함정이 효과를 발동했을 때 파괴. 효과는 처리된다(이후 재사용만 막음)"
+       }
+      ],
+      "bait_ko": "1턴 1번이라 중요하지 않은 앞면 카드(지속 마법·필드 마법, 일반 소환한 몬스터 등)를 먼저 깔아 무효 대상으로 소모시키거나, [[Mystical Space Typhoon]]류로 미리 쓰게 만든다. 싱크로가 없으면 무효는 안 나온다"
+     },
+     {
+      "id": "lucina_bounce_f",
+      "card": "Elfnote Lucina",
+      "kind": "bounce",
+      "zone": "monster",
+      "timing_ko": "[[Elfnotes: Rhapsodia of Madness]]의 소생([[Elfnote Lucina]]/[[Elfnote Tinia]])로 나온 [[Elfnote Lucina]]가 퀵으로 중앙 몬스터와 자리를 바꾸고 레벨 6 이하 몬스터 1장 바운스(1턴 1번). [[Elfnote Fortuna]]면 앞면 마함 1장 바운스, [[Elfnote Tinia]]면 내 패 1장 무작위 제외(엔드 페이즈까지)",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "자리 교환 효과 발동에 체인해 무효"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "몬스터 효과 발동이라 대응 가능(내 필드에 몬스터가 없을 때만)"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "[[Dark Ruler No More]] 처리 시점에 앞면이면 무효. 처리 뒤에 새로 나온 몬스터는 무효되지 않는다"
+       }
+      ],
+      "bait_ko": "레벨 6 이하만 바운스한다. 엑시즈·링크(레벨 없음)나 레벨 7 이상으로 마무리하면 맞지 않는다. 엑스트라 덱 몬스터가 바운스되면 엑스트라로 돌아가니 주의"
+     },
+     {
+      "id": "welcome_home_f",
+      "card": "Elfnotes: Welcome Home",
+      "kind": "protection",
+      "zone": "st",
+      "timing_ko": "앞면인 동안 중앙 메인 몬스터 존의 몬스터는 효과로 파괴되지 않는다. 중앙에 [[Elfnote Fortuna]](수비 표시)가 있어 파괴계로 안 죽는다. 중앙이 막혀 있어 패의 [[Elfnote Regina]]는 덱 특소를 못 한다. 특소 효과는 기동이라 내 턴에는 못 씀",
+      "answered_by": [
+       {
+        "id": "harpie",
+        "note_ko": "지속 마법째 파괴. 지속 마법 자체는 체인할 효과가 없지만 다른 견제가 반응한다"
+       },
+       {
+        "id": "heavy_storm",
+        "note_ko": "같은 이유. 내 마함도 파괴"
+       },
+       {
+        "id": "mst",
+        "note_ko": "1장 파괴(속공). 엘펜노츠 카드가 줄어 [[Elfnote Regina]]의 코스트도 줄어든다"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "1장 제외"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "파괴가 아니라 릴리스라 내성을 무시"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "융합 소재로 쓰는 것이라 내성 무관"
+       }
+      ],
+      "bait_ko": ""
+     }
+    ]
+   }
+  ],
+  "breakers": {
+   "lightning_storm": {
+    "rating": "ok",
+    "note_ko": "[[Baronne de Fleur]]가 무효하고 [[Elfnotes: Rhapsodia of Madness]]도 체인해 무효할 수 있다. 미끼로 둘을 소모시킨 뒤 몬스터 모드면 공격 표시인 [[Baronne de Fleur]]·[[Crystal Wing Synchro Dragon]] 정리. 중앙 몬스터는 [[Elfnotes: Welcome Home]]로 파괴 불가"
+   },
+   "evenly_matched": {
+    "rating": "ok",
+    "note_ko": "배틀 페이즈 종료 시라 그 전에 견제를 다 쓰게 만들 수 있지만, [[Baronne de Fleur]]가 남아 있으면 무효된다. 상대가 남길 카드를 고르므로 보통 [[Baronne de Fleur]]나 [[Elfnotes: Rhapsodia of Madness]]가 남는다. 패의 [[Elfnote Regina]]는 그대로"
+   },
+   "dark_ruler": {
+    "rating": "strong",
+    "note_ko": "[[Baronne de Fleur]]·[[Crystal Wing Synchro Dragon]]·[[F.A. Dawn Dragster]]가 모두 몬스터라 체인 불가. [[Elfnotes: Rhapsodia of Madness]]만 체인 가능하니 미리 소모시키면 거의 완벽. 처리 뒤 나오는 [[Elfnote Regina]]·[[Elfnote Lucina]]는 무효되지 않음"
+   },
+   "harpie": {
+    "rating": "ok",
+    "note_ko": "[[Elfnotes: Welcome Home]]·[[Elfnotes: Rhapsodia of Madness]]를 한 번에. [[Baronne de Fleur]]가 무효하고 [[Elfnotes: Rhapsodia of Madness]]가 체인하므로 [[Baronne de Fleur]] 무효를 먼저 빼야 한다. 엘펜노츠 마함이 사라지면 [[Elfnote Regina]]의 코스트도 줄어든다. 제한 1"
+   },
+   "heavy_storm": {
+    "rating": "weak",
+    "note_ko": "[[Harpie's Feather Duster]]과 같지만 내 마함도 파괴. 제한 1"
+   },
+   "raigeki": {
+    "rating": "ok",
+    "note_ko": "[[Baronne de Fleur]]가 무효. 중앙 몬스터는 파괴 불가. 감옥신 보드는 [[F.A. Dawn Dragster]]가 무효"
+   },
+   "dark_hole": {
+    "rating": "weak",
+    "note_ko": "[[Raigeki]]와 같은 문제에 내 몬스터도 파괴"
+   },
+   "kaiju": {
+    "rating": "strong",
+    "note_ko": "소환 절차라 [[Baronne de Fleur]]·[[F.A. Dawn Dragster]]에 무효당하지 않고 1장 처리. [[Chaos Angel]]·[[Elfnotes: Welcome Home]] 내성도 무시"
+   },
+   "kaiju_slumber": {
+    "rating": "weak",
+    "note_ko": "[[Baronne de Fleur]]가 무효. 중앙 몬스터는 파괴 불가"
+   },
+   "cosmic": {
+    "rating": "weak",
+    "note_ko": "[[Elfnotes: Rhapsodia of Madness]]를 노리면 상대가 체인해 효과를 쓴다. 1턴 1번을 미리 빼는 미끼 정도"
+   },
+   "mst": {
+    "rating": "weak",
+    "note_ko": "[[Cosmic Cyclone]]과 같음. [[Baronne de Fleur]] 무효 미끼로 쓰기 좋은 정도"
+   },
+   "super_poly": {
+    "rating": "strong",
+    "note_ko": "체인 불가. [[Baronne de Fleur]]+[[Crystal Wing Synchro Dragon]](둘 다 바람, 종족 다름) 또는 [[Chaos Angel]]+[[T.G. Hyper Librarian]](둘 다 어둠)로 [[Mudragon of the Swamp]]. [[Elfnotes: Rhapsodia of Madness]]·[[Elfnote Regina]]는 남는다. 제한 2"
+   },
+   "book_eclipse": {
+    "rating": "weak",
+    "note_ko": "[[Baronne de Fleur]]·[[F.A. Dawn Dragster]]가 무효. 통하더라도 [[Elfnotes: Rhapsodia of Madness]]·[[Elfnote Regina]]는 남고 내 몬스터도 뒷면이 된다"
+   },
+   "kurikara": {
+    "rating": "strong",
+    "note_ko": "[[Baronne de Fleur]]·[[Crystal Wing Synchro Dragon]]가 무효를 쓴 뒤 둘을 함께 릴리스. 발동이 아니라 무효 불가, [[Chaos Angel]] 내성도 무관"
+   },
+   "ultimate_slayer": {
+    "rating": "strong",
+    "note_ko": "몬스터 효과로 체인 불가. 엔드 보드 몬스터가 전부 싱크로라 대상이 많다. 내 엑스트라에 싱크로 필요"
+   },
+   "fallen_virtuous": {
+    "rating": "weak",
+    "note_ko": "알바스 엔진 전용. 발동형이라 [[Baronne de Fleur]]·[[F.A. Dawn Dragster]]에 무효된다"
+   },
+   "harmonia": {
+    "rating": "weak",
+    "note_ko": "패에서 발동하는 몬스터 효과라 [[Baronne de Fleur]]·[[Crystal Wing Synchro Dragon]]가 무효. 감옥신 보드는 [[Chaos Angel]] 때문에 파괴도 안 됨"
+   },
+   "imperm": {
+    "rating": "ok",
+    "note_ko": "[[Baronne de Fleur]] 무효를 빼는 미끼로 가장 좋다. [[Elfnote Regina]]의 덱 특소 유발에 써도 된다. 감옥신 보드는 [[F.A. Dawn Dragster]]가 함정을 무효"
+   },
+   "ogre": {
+    "rating": "ok",
+    "note_ko": "[[Baronne de Fleur]]·[[Crystal Wing Synchro Dragon]]가 무효를 발동했을 때 파괴(무효는 처리됨). [[Crystal Wing Synchro Dragon]]가 [[Ghost Ogre & Snow Rabbit]]를 무효할 수 있고, 감옥신 보드는 [[Chaos Angel]] 때문에 싱크로에 안 통함"
+   },
+   "gamma": {
+    "rating": "ok",
+    "note_ko": "[[Baronne de Fleur]]의 무효에 체인하면 강하지만 [[Crystal Wing Synchro Dragon]]가 [[PSY-Framegear Gamma]]를 무효할 수 있다. [[Crystal Wing Synchro Dragon]]를 먼저 소모시킨 뒤에"
+   },
+   "belle": {
+    "rating": "strong",
+    "note_ko": "[[Elfnotes: Rhapsodia of Madness]]의 소생을 발동째 무효 → 앞면 카드 무효까지 사라진다. [[Baronne de Fleur]]의 스탠바이 소생에도 대응"
+   },
+   "droplet": {
+    "rating": "strong",
+    "note_ko": "몬스터를 보내면 몬스터 효과로 체인 불가. 2~3장 보내 [[Baronne de Fleur]]·[[Crystal Wing Synchro Dragon]](·[[F.A. Dawn Dragster]]·[[Chaos Angel]]) 동시 무효. 함정까지 보내면 [[Elfnotes: Rhapsodia of Madness]]도 체인 불가"
+   },
+   "ttt": {
+    "rating": "ok",
+    "note_ko": "[[Baronne de Fleur]]·[[Crystal Wing Synchro Dragon]]가 무효를 쓰면 내 메인 페이즈에 몬스터 효과를 발동한 것이라 발동 가능 → 컨트롤 탈취로 1장 가져오기"
+   },
+   "spark": {
+    "rating": "ok",
+    "note_ko": "[[Elfnote Regina]]가 패에서 효과를 쓴 턴에 발동 가능. 함정이라 [[Baronne de Fleur]]·[[F.A. Dawn Dragster]]에 무효될 수 있음"
+   },
+   "crossout": {
+    "rating": "bad",
+    "note_ko": "엘펜노츠 카드는 내 덱에 없어 선언 불가"
+   },
+   "veiler": {
+    "rating": "bad",
+    "note_ko": "상대 메인 페이즈 전용이라 내 턴 돌파에는 못 쓴다"
+   },
+   "ash": {
+    "rating": "ok",
+    "note_ko": "[[Elfnote Regina]]의 중앙 소환 유발(덱 특소)에 체인해 [[Elfnote Lucina]] 바운스를 막는 용도"
+   },
+   "nibiru": {
+    "rating": "bad",
+    "note_ko": "내 턴에 상대가 5번 소환하는 일은 거의 없다"
+   },
+   "impulse": {
+    "rating": "strong",
+    "note_ko": "[[Elfnotes: Rhapsodia of Madness]] 소생·[[Elfnote Regina]] 자가 특소·덱 특소를 모두 무효 가능. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 봉인"
+   },
+   "purge": {
+    "rating": "weak",
+    "note_ko": "내 턴에 상대가 서치하는 효과는 거의 없다"
+   },
+   "mourner": {
+    "rating": "weak",
+    "note_ko": "[[Elfnote Regina]] 특소에 써도 턴 플레이어인 내 효과가 체인 1이 되어 [[Elfnote Regina]]의 덱 특소 유발이 먼저 처리된다. 바운스 담당 [[Elfnote Lucina]] 무효 정도"
+   },
+   "maxxc": {
+    "rating": "weak",
+    "note_ko": "내 턴 상대 특소는 2~3번 정도"
+   }
+  },
+  "sequencing_ko": [
+   "메인 페이즈 전에 중앙 존을 확인: 중앙 몬스터는 [[Elfnotes: Welcome Home]]로 효과 파괴되지 않으니 파괴계는 중앙 이외를 노리거나 릴리스·융합 소재·덱 되돌리기를 쓴다.",
+   "[[Baronne de Fleur]] 무효부터 미끼로 소모 → [[Crystal Wing Synchro Dragon]]는 몬스터 효과에만 반응하므로 마법·함정으로 처리. [[Dark Ruler No More]]·[[Forbidden Droplet]](몬스터 코스트)이면 둘을 한 번에.",
+   "[[Elfnotes: Rhapsodia of Madness]]는 1턴 1번. 핵심 돌파 카드 전에 싼 앞면 카드나 [[Mystical Space Typhoon]]류로 먼저 쓰게 만들거나 [[Ghost Belle & Haunted Mansion]]·[[Dominus Impulse]]로 발동째 끊는다.",
+   "패의 [[Elfnote Regina]]는 '다른 엘펜노츠 카드'를 코스트로 보내야 나온다. [[Elfnotes: Welcome Home]]·[[Elfnotes: Rhapsodia of Madness]]·엘펜노츠 몬스터를 정리하면 [[Elfnote Regina]]가 막히고, 중앙 존이 비면 [[Elfnote Regina]]가 들어와 덱에서 [[Elfnote Lucina]]를 부른다.",
+   "[[Elfnote Lucina]]의 바운스는 레벨 6 이하만 → 마무리는 엑시즈·링크·레벨 7 이상 몬스터로. 감옥신 보드는 [[F.A. Dawn Dragster]]가 첫 마법·함정을 무효하고 [[Chaos Angel]] 때문에 몬스터 효과 파괴가 싱크로에 안 통한다."
+  ]
+ }
 }

@@ -656,5 +656,682 @@
   "https://www.masterduelmeta.com/top-decks/master-v/july-2026/white-forest-azamina/shachouroka/ZW9E2/ (MDM White Forest Azamina, 2026-07 Master V, 드롤·디멘션 시프터 약점 언급)",
   "https://www.masterduelmeta.com/api/v1/cards (MDM 카드 API, MD 영문 텍스트·제한 상태)",
   "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=19196&request_locale=ko (공식 DB 한국어명 확인)"
- ]
+ ],
+ "going_second": {
+  "summary_ko": "백림 아자미나 풀 전개는 [[Azamina Ilia Silvia]]·[[Baronne de Fleur]] 무효 2개, [[Diabell, Queen of the White Forest]]의 퀵 튜너 싱크로 특소, [[Diabellstar Vengeance]] 퀵 파괴, 세트한 [[Sinful Spoils of Slumber - Morrian]]에 [[Diabellze the White Witch]]의 효과 파괴 내성까지 겹친다. 견제 대부분이 필드의 몬스터 효과라 [[Dark Ruler No More]]·[[Forbidden Droplet]]·[[Ultimate Slayer]]처럼 몬스터 효과로 체인할 수 없는 카드가 가장 강하고, 디아벨 몬스터 2장 이상이면 [[Raigeki]]·[[Lightning Storm]] 같은 파괴 돌파는 통하지 않는다. 호스트 덱에 섞인 엔진 필드는 [[Red-Eyes Dark Dragoon]](대상·파괴 불가 무효)과 일리아 실비아 정도라, 드래군을 대상 없이 처리할 수단이 핵심이다.",
+  "difficulty": "hard",
+  "boards": [
+   {
+    "id": "full",
+    "title_ko": "풀 전개 (백림 아자미나: 엘제트 + 마함 1장)",
+    "line": "wfa",
+    "interruptions": [
+     {
+      "id": "ilia",
+      "card": "Azamina Ilia Silvia",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "내 카드·효과 발동 시 자신을 릴리스해 그 효과 무효(퀵, 1턴 1번). 파괴는 없다. 전투·효과로 파괴되면 덱에서 '죄보' 함정 서치",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 시작 시 미리 무효. 일리아 실비아가 체인해 포영을 무효로 할 수 있어 1:1 교환이 되기 쉽다. 어느 쪽이든 무효 1개는 사라진다"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "일리아 실비아 효과 발동에 체인해 무효. 비용 릴리스는 이미 끝나 몸도 사라진다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 발동하면 체인 불가로 무효"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가라 확정 무효"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "융합 몬스터라 덱으로 되돌릴 수 있고 몬스터 효과로 체인 불가. 파괴가 아니라 함정 서치도 없다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. 소재로 보내 파괴 유발 없이 처리"
+       }
+      ],
+      "bait_ko": "효과 무효(파괴 없음)라 덜 중요한 카드 1장을 먼저 발동하면 그대로 소모된다"
+     },
+     {
+      "id": "baronne",
+      "card": "Baronne de Fleur",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "카드·효과 발동 시 발동 무효+파괴(퀵). MD 텍스트상 '앞면으로 있는 동안 1번'",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "미리 무효. 바롱이 체인해 포영 발동을 무효+파괴할 수 있으니 미끼를 먼저 쓴다"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "바롱 효과 발동에 체인해 무효. 파괴는 [[Diabellze the White Witch]] 내성에 막힐 수 있다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 발동하면 체인 불가로 무효"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "체인 불가로 무효"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "싱크로를 엑스트라에서 보내고 덱으로 되돌림. 몬스터 효과로 체인 불가"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 디아벨제 파괴 내성을 무시. 소환 규칙이라 체인할 발동도 없다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. 바람 속성 전사족 등 맞는 융합체가 있어야 함"
+       }
+      ],
+      "bait_ko": "발동 무효+파괴라 일반 소환 유발이나 남는 마법으로 먼저 받아낸다. 앞면으로 있는 동안 1번이라 한 번 쓰면 끝"
+     },
+     {
+      "id": "diabell_queen",
+      "card": "Diabell, Queen of the White Forest",
+      "kind": "other",
+      "zone": "monster",
+      "timing_ko": "내 카드·효과 발동 시 패·필드의 마함 1장을 보내고 엑스트라·묘지·제외 상태에서 레벨 7 이하 튜너 싱크로(주로 [[Rciela, Sinister Soul of the White Forest]]) 특소(퀵, 1턴 1번). 루시엘라가 서면 서치 + 환상마족·마법사족 싱크로 효과 파괴 내성이 붙고 상대 턴 싱크로로 이어진다",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "미리 무효로 하면 튜너 싱크로 특소가 없다"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "디아벨 효과 발동에 체인해 무효"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 발동하면 체인 불가로 무효"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "체인 불가로 무효"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "싱크로라 덱으로 되돌릴 수 있고 체인 불가"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 파괴 내성 무시"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가로 소재로 처리"
+       }
+      ],
+      "bait_ko": ""
+     },
+     {
+      "id": "vengeance",
+      "card": "Diabellstar Vengeance",
+      "kind": "removal",
+      "zone": "monster",
+      "timing_ko": "퀵으로 LP 절반을 내고 내 카드 1장 파괴, 다른 디아벨 몬스터가 있으면 엑스트라에서 튜너 싱크로(환상마족·마법사족) 특소. 1턴 1번",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "미리 무효"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "벤전스 발동에 체인해 무효"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 발동하면 체인 불가로 무효"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "체인 불가로 무효"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 파괴 내성 무시. 메인 덱 몬스터라 [[Ultimate Slayer]]로는 못 치운다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가로 소재로 처리"
+       }
+      ],
+      "bait_ko": ""
+     },
+     {
+      "id": "morrian",
+      "card": "Sinful Spoils of Slumber - Morrian",
+      "kind": "other",
+      "zone": "st",
+      "timing_ko": "세트된 일반 함정. 특소된 앞면 몬스터 1장을 뒷면 수비로 바꿔 효과를 지운다. 디아벨스타 세트 효과로 [[Sinful Spoils of Betrayal - Silvera]](디아벨스타를 보내 앞면 카드 1장 무효)가 대신 세트되기도 한다",
+      "answered_by": [
+       {
+        "id": "harpie",
+        "note_ko": "마함 전부 파괴. 체인으로 발동될 수 있지만 내가 특소한 몬스터가 없으면 모리안은 쓸 대상이 마땅치 않다. 바롱·일리아 실비아가 깃털을 무효로 할 수 있다. 제한 1"
+       },
+       {
+        "id": "heavy_storm",
+        "note_ko": "깃털과 같음. 내 마함도 파괴. 제한 1"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "1장 제외. 체인 발동될 수 있으니 몬스터를 특소하기 전에"
+       },
+       {
+        "id": "mst",
+        "note_ko": "코즈믹과 같음"
+       }
+      ],
+      "bait_ko": "몬스터를 특소하기 전에 마함 제거를 쓰면 모리안은 내 몬스터를 대상으로 할 수 없다"
+     },
+     {
+      "id": "diabellze_protect",
+      "card": "Diabellze the White Witch",
+      "kind": "protection",
+      "zone": "monster",
+      "timing_ko": "디아벨 몬스터(디아벨·디아벨제·디아벨스타·벤전스)가 2장 이상이면 상대 몬스터 전부 내 효과로 파괴되지 않는다(지속). [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]] 등 파괴 돌파가 통하지 않는다",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "디아벨제 지속 효과도 무효가 되어 이후 파괴가 통한다. 몬스터 효과로 체인 불가"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "디아벨제를 무효로 하면 내성이 꺼진다. 바롱·일리아 실비아가 체인할 수 있다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "디아벨제를 포함해 무효로 하면 내성이 꺼진다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 내성과 무관"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "소재로 보내므로 내성과 무관"
+       },
+       {
+        "id": "evenly_matched",
+        "note_ko": "뒷면 제외라 내성과 무관. 남길 카드는 상대가 고른다"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "덱 되돌리기라 내성과 무관. 디아벨제는 메인 덱 몬스터라 대상은 디아벨·바롱·일리아 실비아"
+       }
+      ],
+      "bait_ko": ""
+     },
+     {
+      "id": "diabellstar_revive",
+      "card": "Diabellstar the Black Witch",
+      "kind": "recursion",
+      "zone": "monster",
+      "timing_ko": "내 턴(상대 입장에서 상대 턴)에 패·필드에서 묘지로 가면 패·필드 1장을 보내고 자신 특소, 특소 시 덱에서 '죄보' 마함 세트(효과마다 1턴 1번). 몸이 다시 서고 [[Sinful Spoils of Betrayal - Silvera]]의 코스트도 된다",
+      "answered_by": [
+       {
+        "id": "belle",
+        "note_ko": "묘지에서 자신을 특소하는 효과라 와라시로 무효"
+       },
+       {
+        "id": "evenly_matched",
+        "note_ko": "뒷면 제외라 묘지 유발이 없다"
+       },
+       {
+        "id": "spark",
+        "note_ko": "디아벨스타 등이 그 턴 묘지·패에서 효과를 쓴 뒤 제외로 처리"
+       }
+      ],
+      "bait_ko": "파괴·릴리스·융합 소재로 묘지에 보내면 모두 부활 조건이 된다. 제외나 덱 되돌리기 이외에는 몸이 돌아온다고 보고 계산한다"
+     }
+    ]
+   },
+   {
+    "id": "full_engine",
+    "title_ko": "죄보 엔진 (WANTED 1장, 호스트 덱 필드는 별도)",
+    "line": "engine",
+    "interruptions": [
+     {
+      "id": "dragoon",
+      "card": "Red-Eyes Dark Dragoon",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "카드·효과 발동 시 패 1장 버리고 발동 무효+파괴, 공격력 1000 증가(1턴 1번). 효과 파괴 불가·대상 불가",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "대상 없이 무효이고 몬스터 효과로 체인 불가. 드래군 처리의 정답"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "대상을 잡지 않아 통한다. 몬스터를 보내 발동하면 드래군은 체인 불가"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "대상 없이 릴리스하고 소환 규칙이라 드래군이 무효로 할 발동이 없다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "대상 없이 소재로 쓰고 체인 불가. 어둠 속성·마법사족 등 맞는 융합체가 있어야 함"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "드래군 효과 발동에 체인해 무효. 파괴는 통하지 않아 몸은 남는다"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "드래군이 이번 턴 무효를 쓴 뒤에는 대상 없이 릴리스로 치울 수 있다"
+       }
+      ],
+      "bait_ko": "효과 파괴 불가라 [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]]의 파괴는 통하지 않는다. 미끼로 무효를 먼저 받아내면 쿠리카라·길항승부가 통한다"
+     },
+     {
+      "id": "ilia__full_engine",
+      "card": "Azamina Ilia Silvia",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "내 카드·효과 발동 시 자신을 릴리스해 그 효과 무효(퀵, 1턴 1번). 파괴는 없다. 전투·효과로 파괴되면 덱에서 '죄보' 함정 서치",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 시작 시 미리 무효. 일리아 실비아가 체인해 포영을 무효로 할 수 있어 1:1 교환이 되기 쉽다. 어느 쪽이든 무효 1개는 사라진다"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "일리아 실비아 효과 발동에 체인해 무효. 비용 릴리스는 이미 끝나 몸도 사라진다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 발동하면 체인 불가로 무효"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가라 확정 무효"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "융합 몬스터라 덱으로 되돌릴 수 있고 몬스터 효과로 체인 불가. 파괴가 아니라 함정 서치도 없다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. 소재로 보내 파괴 유발 없이 처리"
+       }
+      ],
+      "bait_ko": "효과 무효(파괴 없음)라 덜 중요한 카드 1장을 먼저 발동하면 그대로 소모된다"
+     }
+    ]
+   },
+   {
+    "id": "after_droll_wfa",
+    "title_ko": "엘제트의 첫 서치 직후 드롤을 맞은 경우 (루시엘라 1장 정도)",
+    "after": {
+     "handtrap": "droll",
+     "line": "wfa",
+     "step": 1
+    },
+    "interruptions": [
+     {
+      "id": "rciela_protect",
+      "card": "Rciela, Sinister Soul of the White Forest",
+      "kind": "protection",
+      "zone": "monster",
+      "timing_ko": "환상마족·마법사족 싱크로(자신 포함)는 내 효과로 파괴되지 않는다(지속)",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 내성 무시"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "소재로 보내 처리"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "싱크로라 덱으로 되돌림. 묘지의 실비가 체인하지 못한다"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "지속 효과를 무효로 하면 파괴가 통한다"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "무효 후 파괴로 처리 가능"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "무효 + 공격력 반감"
+       }
+      ],
+      "bait_ko": ""
+     },
+     {
+      "id": "silvy_dodge",
+      "card": "Silvy of the White Forest",
+      "kind": "protection",
+      "zone": "gy",
+      "timing_ko": "묘지에서 퀵으로 필드의 백림 싱크로(루시엘라)를 엑스트라 덱으로 되돌리고 자신 특소(효과 무효). 내가 루시엘라를 처리하려 하면 체인으로 피한다. 1턴 1번",
+      "answered_by": [
+       {
+        "id": "belle",
+        "note_ko": "묘지에서 자신을 특소하는 효과라 무효"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "몬스터 효과로 체인 불가라 실비로 피할 수 없다"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 발동하면 체인 불가"
+       }
+      ],
+      "bait_ko": ""
+     }
+    ]
+   },
+   {
+    "id": "after_ash_elzette_azamina",
+    "title_ko": "성도 엘제트의 묘지 서치(기만)에 우라라를 맞은 경우 (디아벨·디아벨제·벤전스 축, 바롱은 패에 따라)",
+    "after": {
+     "handtrap": "ash",
+     "line": "wfa",
+     "step": 9
+    },
+    "interruptions": [
+     {
+      "id": "diabell_queen__after_ash_elzette_azamina",
+      "card": "Diabell, Queen of the White Forest",
+      "kind": "other",
+      "zone": "monster",
+      "timing_ko": "내 카드·효과 발동 시 패·필드의 마함 1장을 보내고 엑스트라·묘지·제외 상태에서 레벨 7 이하 튜너 싱크로(주로 [[Rciela, Sinister Soul of the White Forest]]) 특소(퀵, 1턴 1번). 루시엘라가 서면 서치 + 환상마족·마법사족 싱크로 효과 파괴 내성이 붙고 상대 턴 싱크로로 이어진다",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "미리 무효로 하면 튜너 싱크로 특소가 없다"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "디아벨 효과 발동에 체인해 무효"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 발동하면 체인 불가로 무효"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "체인 불가로 무효"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "싱크로라 덱으로 되돌릴 수 있고 체인 불가"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 파괴 내성 무시"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가로 소재로 처리"
+       }
+      ],
+      "bait_ko": ""
+     },
+     {
+      "id": "vengeance__after_ash_elzette_azamina",
+      "card": "Diabellstar Vengeance",
+      "kind": "removal",
+      "zone": "monster",
+      "timing_ko": "퀵으로 LP 절반을 내고 내 카드 1장 파괴, 다른 디아벨 몬스터가 있으면 엑스트라에서 튜너 싱크로(환상마족·마법사족) 특소. 1턴 1번",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "미리 무효"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "벤전스 발동에 체인해 무효"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 발동하면 체인 불가로 무효"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "체인 불가로 무효"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 파괴 내성 무시. 메인 덱 몬스터라 [[Ultimate Slayer]]로는 못 치운다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가로 소재로 처리"
+       }
+      ],
+      "bait_ko": ""
+     },
+     {
+      "id": "diabellze_protect__after_ash_elzette_azamina",
+      "card": "Diabellze the White Witch",
+      "kind": "protection",
+      "zone": "monster",
+      "timing_ko": "디아벨 몬스터(디아벨·디아벨제·디아벨스타·벤전스)가 2장 이상이면 상대 몬스터 전부 내 효과로 파괴되지 않는다(지속). [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]] 등 파괴 돌파가 통하지 않는다",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "디아벨제 지속 효과도 무효가 되어 이후 파괴가 통한다. 몬스터 효과로 체인 불가"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "디아벨제를 무효로 하면 내성이 꺼진다. 바롱·일리아 실비아가 체인할 수 있다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "디아벨제를 포함해 무효로 하면 내성이 꺼진다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 내성과 무관"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "소재로 보내므로 내성과 무관"
+       },
+       {
+        "id": "evenly_matched",
+        "note_ko": "뒷면 제외라 내성과 무관. 남길 카드는 상대가 고른다"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "덱 되돌리기라 내성과 무관. 디아벨제는 메인 덱 몬스터라 대상은 디아벨·바롱·일리아 실비아"
+       }
+      ],
+      "bait_ko": ""
+     }
+    ]
+   },
+   {
+    "id": "after_ash_deception",
+    "title_ko": "엔진: 기만의 아자미나 서치에 우라라를 맞은 경우 (드래군만 남음)",
+    "after": {
+     "handtrap": "ash",
+     "line": "engine",
+     "step": 5
+    },
+    "interruptions": [
+     {
+      "id": "dragoon__after_ash_deception",
+      "card": "Red-Eyes Dark Dragoon",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "카드·효과 발동 시 패 1장 버리고 발동 무효+파괴, 공격력 1000 증가(1턴 1번). 효과 파괴 불가·대상 불가",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "대상 없이 무효이고 몬스터 효과로 체인 불가. 드래군 처리의 정답"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "대상을 잡지 않아 통한다. 몬스터를 보내 발동하면 드래군은 체인 불가"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "대상 없이 릴리스하고 소환 규칙이라 드래군이 무효로 할 발동이 없다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "대상 없이 소재로 쓰고 체인 불가. 어둠 속성·마법사족 등 맞는 융합체가 있어야 함"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "드래군 효과 발동에 체인해 무효. 파괴는 통하지 않아 몸은 남는다"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "드래군이 이번 턴 무효를 쓴 뒤에는 대상 없이 릴리스로 치울 수 있다"
+       }
+      ],
+      "bait_ko": "효과 파괴 불가라 [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]]의 파괴는 통하지 않는다. 미끼로 무효를 먼저 받아내면 쿠리카라·길항승부가 통한다"
+     }
+    ]
+   }
+  ],
+  "breakers": {
+   "lightning_storm": {
+    "rating": "weak",
+    "note_ko": "몬스터 모드는 디아벨제 내성(디아벨 2장 이상)과 드래군 파괴 불가에 막힌다. 마함 모드로 모리안·세트한 기만을 치우는 정도. 바롱·일리아 실비아에 무효될 수 있다"
+   },
+   "evenly_matched": {
+    "rating": "ok",
+    "note_ko": "뒷면 제외라 디아벨제 내성·드래군 파괴 불가·디아벨스타 부활을 모두 무시. 단 배틀 페이즈 종료 시라 메인 페이즈 견제는 따로 넘어야 하고, 바롱·일리아 실비아·드래군이 남아 있으면 무효된다. 남길 카드는 상대가 고른다"
+   },
+   "dark_ruler": {
+    "rating": "critical",
+    "note_ko": "견제 대부분이 필드 몬스터 효과라 몬스터 효과로 체인 불가 상태에서 일리아 실비아·바롱·디아벨·벤전스·디아벨제 내성·드래군을 전부 무효. 응수할 수 있는 것은 세트 함정(모리안·실베라) 정도. 이후 파괴로 디아벨스타를 보내면 묘지에서 부활하니 주의"
+   },
+   "harpie": {
+    "rating": "weak",
+    "note_ko": "모리안과 세트한 기만을 치우지만 몬스터 견제가 남는다. 바롱·일리아 실비아가 무효로 응수할 수 있어 미끼 겸용. 제한 1"
+   },
+   "heavy_storm": {
+    "rating": "weak",
+    "note_ko": "깃털과 같음. 내 마함도 파괴. 제한 1"
+   },
+   "raigeki": {
+    "rating": "weak",
+    "note_ko": "디아벨제 내성(디아벨 2장 이상)과 드래군 파괴 불가에 막힌다. 명왕결계파·포영으로 디아벨제를 먼저 무효로 한 뒤에만. 파괴된 디아벨스타는 부활한다"
+   },
+   "dark_hole": {
+    "rating": "weak",
+    "note_ko": "번개와 같음. 내 몬스터도 파괴"
+   },
+   "kaiju": {
+    "rating": "strong",
+    "note_ko": "릴리스라 디아벨제 내성·드래군 파괴 불가·대상 불가를 무시하고, 소환 규칙이라 무효로 받을 발동도 없다. 바롱이나 드래군에 쓴다. 디아벨스타를 릴리스하면 부활하니 피한다"
+   },
+   "kaiju_slumber": {
+    "rating": "bad",
+    "note_ko": "파괴라 디아벨제 내성·드래군에 막히고 상대에게 괴수만 준다"
+   },
+   "cosmic": {
+    "rating": "weak",
+    "note_ko": "모리안 1장 제외. 몬스터를 특소하기 전에 써야 모리안이 내 몬스터를 노리지 못한다"
+   },
+   "mst": {
+    "rating": "weak",
+    "note_ko": "코즈믹과 같음"
+   },
+   "super_poly": {
+    "rating": "strong",
+    "note_ko": "체인 불가, 대상 없음. 드래군·바롱·디아벨 등을 내성과 무관하게 소재로 쓴다. 맞는 융합체가 엑스트라에 있어야 하고, 디아벨스타를 소재로 쓰면 부활한다. 제한 2"
+   },
+   "book_eclipse": {
+    "rating": "ok",
+    "note_ko": "몬스터를 전부 뒷면으로 해 디아벨제 내성과 퀵 효과를 지운다. 발동에 바롱·일리아 실비아·드래군이 응수할 수 있어 무효를 먼저 소모시킨 뒤에. 엔드 페이즈에 상대가 드로우"
+   },
+   "kurikara": {
+    "rating": "strong",
+    "note_ko": "이번 턴 효과를 쓴 상대 몬스터를 대상 없이 전부 릴리스. 바롱·디아벨·벤전스·드래군 무효를 받아낸 뒤 쓰면 내성을 무시하고 한꺼번에 치운다. 디아벨스타가 섞이면 부활한다"
+   },
+   "ultimate_slayer": {
+    "rating": "strong",
+    "note_ko": "몬스터 효과로 체인 불가. 바롱·디아벨(싱크로)이나 일리아 실비아(융합)를 덱으로 되돌리고 디아벨제 내성도 무시. 드래군은 대상 불가라 못 고르고, 디아벨제·벤전스·디아벨스타는 메인 덱 몬스터라 대상 밖"
+   },
+   "fallen_virtuous": {
+    "rating": "weak",
+    "note_ko": "알바스 엔진 덱 전용. 파괴라 디아벨제 내성·드래군에 막힌다. 모리안 파괴 정도"
+   },
+   "harmonia": {
+    "rating": "weak",
+    "note_ko": "싱크로 덱 전용. 파괴라 디아벨제 내성이 켜져 있으면 통하지 않는다"
+   },
+   "imperm": {
+    "rating": "strong",
+    "note_ko": "패 발동은 내 필드가 비었을 때. 메인 페이즈 시작 시 디아벨제(내성 해제)나 바롱을 미리 무효. 바롱·일리아 실비아가 체인으로 무효로 할 수 있어 무효 1개를 소모시키는 효과도 있다. 드래군은 대상 불가라 못 고른다"
+   },
+   "ogre": {
+    "rating": "bad",
+    "note_ko": "파괴만 하고 효과는 처리된다. 디아벨제 내성과 드래군 파괴 불가에 파괴도 막힌다"
+   },
+   "gamma": {
+    "rating": "strong",
+    "note_ko": "내 필드에 몬스터가 없을 때 바롱·일리아 실비아·디아벨·벤전스·드래군 효과 1개를 무효. 파괴는 내성에 막힐 수 있다. 제한 1"
+   },
+   "belle": {
+    "rating": "ok",
+    "note_ko": "디아벨스타 묘지 부활, 실비 묘지 특소를 무효. 할로우드 아자미나 묘지 회수는 상대 턴 효과라 내 턴에는 나오지 않는다"
+   },
+   "droplet": {
+    "rating": "strong",
+    "note_ko": "대상 없이 무효 + 공격력 반감이라 드래군에도 통한다. 몬스터를 보내 발동하면 몬스터 견제 전부 체인 불가, 디아벨제를 포함하면 내성도 꺼진다. 함정도 보내면 모리안 체인까지 막는다"
+   },
+   "ttt": {
+    "rating": "ok",
+    "note_ko": "내 메인 페이즈에 바롱·일리아 실비아 등이 효과를 쓰면 발동 가능. 2드로우나 상대 몬스터 탈취로 받아친다"
+   },
+   "spark": {
+    "rating": "weak",
+    "note_ko": "상대가 그 턴 패·묘지에서 몬스터 효과를 써야 발동 가능(디아벨스타 부활, 실비 묘지 특소). 제외라 디아벨제 내성·디아벨스타 부활을 무시하지만 드래군은 대상 불가"
+   },
+   "ash": {
+    "rating": "weak",
+    "note_ko": "디아벨의 퀵으로 나온 루시엘라 서치에 체인하는 정도. 디아벨스타 세트 효과는 서치가 아니라 못 막는다"
+   },
+   "veiler": {
+    "rating": "bad",
+    "note_ko": "상대 메인 페이즈에만 써서 내 턴 돌파에는 못 쓴다"
+   },
+   "nibiru": {
+    "rating": "bad",
+    "note_ko": "내 턴에는 상대가 5번 소환하지 않는다"
+   },
+   "crossout": {
+    "rating": "bad",
+    "note_ko": "나도 해당 카드를 넣었을 때만 선언 가능"
+   }
+  },
+  "sequencing_ko": [
+   "견제가 거의 전부 필드 몬스터 효과다. [[Dark Ruler No More]]·[[Forbidden Droplet]]·[[Ultimate Slayer]]처럼 몬스터 효과로 체인할 수 없는 카드를 첫 수로 쓴다",
+   "[[Diabellze the White Witch]] 내성이 켜져 있으면 파괴 돌파는 통하지 않는다. 디아벨제를 무효로 하거나 디아벨 몬스터를 1장 이하로 줄인 뒤 [[Raigeki]] 등을 쓴다",
+   "[[Baronne de Fleur]](발동 무효+파괴)와 [[Azamina Ilia Silvia]](효과 무효)는 각각 1번뿐이다. 남는 마법이나 일반 소환 유발로 먼저 받아내고, 효과를 쓴 몬스터는 [[Kurikara Divincarnate]]로 한꺼번에 치운다",
+   "마함 제거는 몬스터를 특소하기 전에 써서 [[Sinful Spoils of Slumber - Morrian]]이 내 몬스터를 뒷면으로 만들지 못하게 한다",
+   "[[Diabellstar the Black Witch]]는 내 턴에 묘지로 가면 부활하고 '죄보' 마함을 다시 세트한다. 제외·덱 되돌리기로 처리하거나 부활해도 되는 순서로 남겨 둔다",
+   "엔진 필드의 [[Red-Eyes Dark Dragoon]]은 대상·파괴가 통하지 않는다. 명왕결계파·일적·괴수·초융합으로 처리하거나, 미끼로 무효를 받아낸 뒤 쿠리카라로 치운다"
+  ]
+ }
 }

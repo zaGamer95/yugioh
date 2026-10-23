@@ -630,5 +630,687 @@
     "https://bookyakuno.com/yugioh-vsk9/ (VSK9 메모, 2026-02-08)",
     "https://www.masterduelmeta.com/tier-list/deck-types/Vanquish%20Soul%20K9 (Master Duel Meta: Vanquish Soul K9 덱 분석)",
     "https://www.masterduelmeta.com/api/v1/cards (Master Duel Meta 카드 API: 카드 텍스트·제한 상태)"
-  ]
+  ],
+  "going_second": {
+    "summary_ko": "두 덱이 섞여 엔드 보드가 두 가지다. VS 쪽([[Rock of the Vanquisher]]·[[Vanquish Soul Jiaolong]]·[[Vanquish Soul Hollie Sue]]·[[Vanquish Soul, Start!]]·[[Vanquish Soul Snow Devil]])은 무효가 없는 대신 패의 화염·어둠·땅을 공개해 탈취·세로열 파괴·바운스·전체 파괴를 쏟아내고, [[Vanquish Soul, Start!]]가 파괴를 한 번 대신 막는다. K9 쪽([[K9-17 \"Ripper\"]]·[[Number C104: Umbral Horror Masquerade]]·[[K9-X Forced Release]])은 무효 2개(리퍼는 패·묘지 몬스터 효과, C104는 필드 몬스터 효과)와 속공 마법 제거 1개뿐이라 마법 위주 돌파([[Dark Ruler No More]]·[[Raigeki]])에 약하다. 공통 원칙은 패·묘지에서 몬스터 효과를 쓰지 않는 것: 쓰는 순간 리퍼 무효, [[K9-17 Izuna]]·[[K9-ØØ Lupis]] 특소, [[K9-66X \"Jacks\"]] 파괴 조건이 열린다. VS 보드는 마함 제거로 필드 마법·세트 함정을 먼저, 그다음 몬스터를 치운다.",
+    "difficulty": "medium",
+    "boards": [
+      {
+        "id": "full",
+        "title_ko": "풀 전개 (라젠 + 화염 몬스터, VS 기본)",
+        "line": "razen",
+        "interruptions": [
+          {
+            "id": "start_protection",
+            "card": "Vanquish Soul, Start!",
+            "kind": "protection",
+            "zone": "st",
+            "timing_ko": "VS 몬스터가 전투·효과로 파괴될 때 패의 VS 몬스터 1장 공개로 대신함 (1턴 1회, 동시에 여러 장 파괴돼도 한 번에 지킴). [[Vanquish Soul Razen]]의 화염 공개 파괴 내성도 별도로 있음",
+            "answered_by": [
+              {
+                "id": "harpie",
+                "note_ko": "필드 마법을 먼저 파괴하면 번개·블랙홀이 통한다"
+              },
+              {
+                "id": "lightning_storm",
+                "note_ko": "마함 모드로 스타트!와 [[Vanquish Soul Snow Devil]]을 함께 파괴"
+              },
+              {
+                "id": "cosmic",
+                "note_ko": "제외. 스타트! 자체 효과는 이 제거에 대응하지 못함"
+              },
+              {
+                "id": "mst",
+                "note_ko": "파괴"
+              },
+              {
+                "id": "heavy_storm",
+                "note_ko": "내 마함도 파괴되므로 전개 전에"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "릴리스라 대체가 적용되지 않음"
+              },
+              {
+                "id": "evenly_matched",
+                "note_ko": "제외라 대체가 적용되지 않음"
+              },
+              {
+                "id": "book_eclipse",
+                "note_ko": "파괴가 아니라 대체가 적용되지 않음"
+              }
+            ],
+            "bait_ko": "번개·블랙홀 같은 파괴 전체 처리는 스타트!의 대체로 한 번 막힌다. 파괴로 처리할 생각이면 마함 제거를 먼저"
+          },
+          {
+            "id": "snow_devil",
+            "card": "Vanquish Soul Snow Devil",
+            "kind": "removal",
+            "zone": "st",
+            "timing_ko": "일반 함정. 패의 어둠·땅·화염을 1장씩 공개한 수만큼: 1+ 400 데미지·패에서 VS 특소 / 2+ 600 데미지·VS 몬스터 효과 파괴 내성 / 3 800 데미지·필드 몬스터 전부 파괴. 1턴에 1장",
+            "answered_by": [
+              {
+                "id": "harpie",
+                "note_ko": "세트 상태에서 파괴. 상대는 체인해서 발동할 수 있지만 내 필드가 비어 있을 때라면 전체 파괴가 거의 무의미"
+              },
+              {
+                "id": "heavy_storm",
+                "note_ko": "깃털과 같음. 내 마함도 파괴되므로 전개 전에"
+              },
+              {
+                "id": "lightning_storm",
+                "note_ko": "마함 모드로 [[Vanquish Soul, Start!]]와 함께 파괴. 내 필드가 비어 있어야 해서 체인 발동돼도 손해가 적다"
+              },
+              {
+                "id": "cosmic",
+                "note_ko": "제외. 체인 발동은 막지 못함"
+              },
+              {
+                "id": "mst",
+                "note_ko": "파괴. 체인 발동은 막지 못함"
+              },
+              {
+                "id": "ttt",
+                "note_ko": "패 확인 모드로 어둠·땅·화염 중 1장을 되돌려 3속성 공개를 막는다"
+              }
+            ],
+            "bait_ko": "내 몬스터를 많이 낸 뒤에 전체 파괴가 나오는 것이 가장 위험하다. 전개 전에 마함 제거로 세트 카드를 먼저 소모시키거나, 패의 속성 수를 줄인다"
+          },
+          {
+            "id": "hollie_sue",
+            "card": "Vanquish Soul Hollie Sue",
+            "kind": "removal",
+            "zone": "monster",
+            "timing_ko": "퀵: 땅+어둠 공개로 내 몬스터 중 공격력이 가장 낮은 1장을 엔드 페이즈까지 탈취 / 화염+어둠 공개로 덱에서 사이킥족이 아닌 VS 몬스터 특소([[Vanquish Soul Dr. Mad Love]] 바운스, [[Vanquish Soul Caesar Valius]] 파괴, [[Vanquish Soul Razen]] 세로열 파괴로 연결). 각 1턴 1회",
+            "answered_by": [
+              {
+                "id": "imperm",
+                "note_ko": "메인 페이즈 시작 시 미리 무효. 홀리 수는 퀵이라 체인해 덱 특소나 탈취로 응수할 수 있다(내 필드가 비어 있으면 탈취는 대상이 없음)"
+              },
+              {
+                "id": "dark_ruler",
+                "note_ko": "체인 불가로 무효. 다만 패의 [[Vanquish Soul Caesar Valius]]·[[Vanquish Soul Heavy Borger]]는 무효된 VS 몬스터를 패로 되돌리며 새로 특소할 수 있다"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터를 코스트로 보내면 체인 불가"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "덱 특소·탈취 발동을 무효. 파괴 부분은 [[Vanquish Soul, Start!]]의 대체로 막힐 수 있음. 내 필드에 몬스터가 없어야 함"
+              },
+              {
+                "id": "ash",
+                "note_ko": "덱 특소 모드에 체인하면 무효. 상대 패에 [[K9-17 Izuna]]가 있으면 깨어나는 점 주의"
+              },
+              {
+                "id": "book_eclipse",
+                "note_ko": "뒷면 수비가 되면 공개 효과를 못 쓴다"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "릴리스라 파괴 대체를 무시"
+              },
+              {
+                "id": "ttt",
+                "note_ko": "홀리 수가 효과를 쓴 뒤 발동해 패 확인 모드로 어둠 몬스터를 덱으로 되돌리면 이후 공개 조건이 무너진다"
+              }
+            ],
+            "bait_ko": "탈취는 내 몬스터 중 공격력이 가장 낮은 것을 가져가므로, 공격력이 낮은 몬스터를 먼저 내 미끼로 쓴다"
+          },
+          {
+            "id": "rock_razen",
+            "card": "Rock of the Vanquisher",
+            "kind": "removal",
+            "zone": "monster",
+            "timing_ko": "메인 페이즈 퀵으로 패의 [[Vanquish Soul Razen]]을 원하는 세로열에 특소 → 라젠 소환 유발로 VS 몬스터 서치 + 화염+어둠 공개로 같은 세로열의 다른 몬스터 전부 파괴 (록 1턴 1회)",
+            "answered_by": [
+              {
+                "id": "imperm",
+                "note_ko": "메인 페이즈 시작 시 록을 미리 무효. 록은 퀵이라 체인해 라젠을 특소할 수 있으므로 미끼 성격. 특소된 라젠의 서치 유발에 쓰는 편이 확실"
+              },
+              {
+                "id": "dark_ruler",
+                "note_ko": "체인 불가로 록 무효. 이미 나온 라젠도 함께 무효"
+              },
+              {
+                "id": "ash",
+                "note_ko": "특소된 라젠의 서치 유발에 체인해 무효. 세로열 파괴는 남음"
+              },
+              {
+                "id": "belle",
+                "note_ko": "록이 묘지의 VS를 패로 넣는 모드를 쓸 때만 무효 가능"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터를 코스트로 보내면 체인 불가"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "록(링크 1)을 릴리스로 처리. 파괴 대체 무시"
+              },
+              {
+                "id": "ultimate_slayer",
+                "note_ko": "록은 링크 몬스터라 내 엑스트라의 링크를 보내 덱으로 되돌릴 수 있다. 몬스터 효과로 체인 불가"
+              }
+            ],
+            "bait_ko": "세로열 파괴는 라젠이 나온 열에만 걸린다. 내 몬스터를 여러 열에 분산하고, 가장 중요한 몬스터를 엑스트라 몬스터 존이나 라젠이 들어오기 어려운 열에 둔다"
+          },
+          {
+            "id": "caesar_valius",
+            "card": "Vanquish Soul Caesar Valius",
+            "kind": "removal",
+            "zone": "hand",
+            "timing_ko": "메인 페이즈 퀵으로 필드의 VS 몬스터를 패로 되돌리고 패에서 특소 → 땅+화염+어둠 공개로 다른 카드 1장 파괴, 땅 공개로 이번 턴 상대의 발동한 효과를 받지 않음. 각 1턴 1회",
+            "answered_by": [
+              {
+                "id": "kaiju",
+                "note_ko": "발동한 효과가 아니라 소환 절차라 바리우스의 내성을 무시하고 릴리스"
+              },
+              {
+                "id": "ttt",
+                "note_ko": "바리우스가 패에 있는 동안 패 확인 모드로 덱으로 되돌리거나, 3속성 중 1장을 되돌려 파괴 조건을 무너뜨린다"
+              },
+              {
+                "id": "book_eclipse",
+                "note_ko": "필드의 VS 몬스터가 전부 뒷면이 되면 되돌릴 대상이 없어 패에서 나올 수 없다"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "바리우스의 파괴 효과 발동을 무효. 땅 공개 내성을 먼저 체인 1로 쓰면 효과를 받지 않으므로 타이밍 주의"
+              }
+            ],
+            "bait_ko": "패에서 나오려면 필드에 용족이 아닌 VS 몬스터가 있어야 한다. 필드의 VS 몬스터를 먼저 정리하면 바리우스·[[Vanquish Soul Heavy Borger]]가 패에 묶인다"
+          },
+          {
+            "id": "jiaolong",
+            "card": "Vanquish Soul Jiaolong",
+            "kind": "other",
+            "zone": "monster",
+            "timing_ko": "퀵: 화염 1장 공개로 필드 몬스터 1장의 표시 형식 변경 / 화염 2장 공개로 VS 카드 서치. 각 1턴 1회, 같은 체인에 1개만",
+            "answered_by": [
+              {
+                "id": "imperm",
+                "note_ko": "내 메인 페이즈 시작 시 미리 무효할 수 있지만 교룡이 체인해 표시 형식 변경이나 서치로 응수한다"
+              },
+              {
+                "id": "dark_ruler",
+                "note_ko": "몬스터 효과로 체인 불가라 깔끔"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터를 코스트로 보내면 체인 불가"
+              },
+              {
+                "id": "book_eclipse",
+                "note_ko": "뒷면 수비가 되면 공개 퀵 효과를 못 쓴다"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "릴리스라 [[Vanquish Soul, Start!]]의 파괴 대체가 적용되지 않음"
+              }
+            ],
+            "bait_ko": "표시 형식 변경은 [[Lightning Storm]](공격 표시 파괴)에 체인해 자기 몬스터를 수비로 돌려 살리는 데 쓰인다. 라이트닝 스톰을 몬스터 모드로 쓸 생각이면 교룡 효과를 먼저 소모시킬 것"
+          }
+        ]
+      },
+      {
+        "id": "full_k9",
+        "title_ko": "풀 전개 (요쿨 + 레벨 5, K9 엔진: 리퍼·C104·포스드 릴리스)",
+        "line": "jokul",
+        "interruptions": [
+          {
+            "id": "ripper",
+            "card": "K9-17 \"Ripper\"",
+            "kind": "quick_negate",
+            "zone": "monster",
+            "timing_ko": "내가 패·묘지에서 몬스터 효과를 발동했을 때 소재 1개를 빼고 그 효과를 무효 (퀵, 1턴 1회). 필드 몬스터 효과·마법·함정에는 반응하지 않음",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "몬스터 효과로 체인 불가. [[K9-X Forced Release]]는 속공 마법이라 체인할 수 있지만, 그걸로 나온 [[K9-66X \"Jacks\"]]·[[K9-X \"Werewolf\"]]도 명왕결계파 처리 시 함께 무효되고 잭스의 엑시즈 소환 유발도 무효 상태로 남는다"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "함정이라 리퍼가 무효로 못 함. 단 [[K9-ØØ Lupis]]를 소재로 가졌으면 대상 불가. 대상으로 잡으면 상대가 [[K9-X Forced Release]]를 체인해 리퍼를 다른 K9 엑시즈로 바꿔 피할 수 있다"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "대상을 잡지 않아 루푸스 소재여도 무효 가능. 마법 1장을 같이 보내면 [[K9-X Forced Release]] 체인까지 막힌다"
+              },
+              {
+                "id": "lightning_storm",
+                "note_ko": "내 필드에 앞면 카드가 없을 때. 리퍼는 공격 표시가 보통. [[K9-X Forced Release]] 체인으로 나온 몬스터를 수비 표시로 내면 그 1장은 살아남는다"
+              },
+              {
+                "id": "raigeki",
+                "note_ko": "마법이라 리퍼·C104 모두 반응 불가. [[K9-X Forced Release]]를 체인해도 바뀐 몬스터까지 같이 파괴"
+              },
+              {
+                "id": "dark_hole",
+                "note_ko": "번개와 같지만 내 몬스터도 파괴되므로 전개 전에"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "특수 소환 절차라 효과 발동이 아니어서 리퍼의 무효·이즈나 조건 모두 해당 없음. 대상을 잡지 않아 루푸스 내성도 무관"
+              },
+              {
+                "id": "kaiju_slumber",
+                "note_ko": "전체 파괴. [[K9-X Forced Release]] 체인만 주의"
+              },
+              {
+                "id": "book_eclipse",
+                "note_ko": "뒷면이 되면 엑시즈 소재가 모두 묘지로 가서 무효 능력이 사라진다. [[K9-X Forced Release]] 체인으로 바뀐 몬스터도 처리 시 뒷면이 됨"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "체인 불가. 리퍼(바람·전사족)와 맞는 융합 몬스터가 엑스트라에 있어야 함"
+              },
+              {
+                "id": "kurikara",
+                "note_ko": "리퍼가 이번 턴 무효 효과를 쓴 뒤에만. 소환 절차라 리퍼가 다시 반응할 수 없음"
+              },
+              {
+                "id": "ultimate_slayer",
+                "note_ko": "내 엑스트라에 엑시즈가 있어야 하고 대상 지정이라 루푸스 소재 리퍼는 불가. 몬스터 효과 체인은 막지만 [[K9-X Forced Release]]는 체인 가능"
+              }
+            ],
+            "bait_ko": "리퍼는 '패·묘지'의 몬스터 효과에만 반응한다. 꼭 패에서 쓸 몬스터 효과(우라라·G·감마 등)가 있으면 가장 덜 중요한 것을 먼저 던져 무효를 받아낸다. 단 그 순간 [[K9-17 Izuna]]·[[K9-ØØ Lupis]]의 특소 조건과 [[K9-66X \"Jacks\"]]의 파괴 조건이 같이 열린다"
+          },
+          {
+            "id": "c104",
+            "card": "Number C104: Umbral Horror Masquerade",
+            "kind": "quick_negate",
+            "zone": "monster",
+            "timing_ko": "내 필드에서 몬스터 효과가 발동했을 때 1회 발동 무효 + 내 패 무작위 1장 묘지 + 내 LP 반감 (퀵, [[Number 104: Masquerade]]를 소재로 가진 경우). 내 턴 엔드 페이즈에 스스로 파괴됨",
+            "answered_by": [
+              {
+                "id": "imperm",
+                "note_ko": "내 메인 페이즈 시작 시 미리 무효. C104는 함정에 체인할 수 없고 리퍼도 함정에 반응하지 않아 가장 깔끔하다. 패에서 쓰려면 내 필드가 비어 있어야 함"
+              },
+              {
+                "id": "dark_ruler",
+                "note_ko": "몬스터 효과로 체인 불가라 깔끔하게 무효"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "몬스터 1장을 보내면 C104 체인 불가, 마법을 같이 보내면 [[K9-X Forced Release]]도 체인 불가"
+              },
+              {
+                "id": "lightning_storm",
+                "note_ko": "내 필드에 앞면 카드가 없을 때. C104는 보통 공격 표시"
+              },
+              {
+                "id": "raigeki",
+                "note_ko": "마법이라 반응 불가"
+              },
+              {
+                "id": "dark_hole",
+                "note_ko": "마법이라 반응 불가. 내 몬스터도 파괴"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "릴리스라 반응 불가. C104를 치우면 내 필드 몬스터 효과를 자유롭게 쓸 수 있다"
+              },
+              {
+                "id": "book_eclipse",
+                "note_ko": "뒷면이 되며 소재가 떨어져 무효 능력이 사라진다"
+              },
+              {
+                "id": "ultimate_slayer",
+                "note_ko": "내 엑스트라에 엑시즈가 있어야 함. C104는 대상 내성이 없음"
+              },
+              {
+                "id": "kurikara",
+                "note_ko": "C104가 무효를 쓴 뒤 리퍼와 함께 릴리스"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "체인 불가. C104(어둠·마법사족)에 맞는 융합 몬스터가 있어야 함"
+              }
+            ],
+            "bait_ko": "필드에서 발동하는 몬스터 효과에만 반응하므로, 일반 소환한 몬스터의 소환 유발처럼 덜 중요한 필드 효과를 먼저 써서 무효를 받아낸다. 무효될 때 패 1장이 무작위로 묘지로 가므로 핵심 카드를 쥔 채 미끼를 쓰면 손해가 크다. C104는 내 엔드 페이즈에 스스로 파괴되므로 무리해서 지울 필요는 없다"
+          },
+          {
+            "id": "forced_release",
+            "card": "K9-X Forced Release",
+            "kind": "removal",
+            "zone": "st",
+            "timing_ko": "메인 페이즈 중 속공 마법으로 리퍼를 다른 K9 엑시즈([[K9-66X \"Jacks\"]]·[[K9-X \"Werewolf\"]])로 바꾸고 내 카드 1장 파괴. 잭스로 바뀌면 엑시즈 소환 유발로 몬스터 1장 추가 파괴, 웨어울프로 바뀌면 내가 카드를 발동할 때 내 필드·묘지 1장씩 제외 (1턴 1회)",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "체인으로 바꿔도 새 몬스터가 명왕결계파 처리 시 무효되어 잭스 유발·웨어울프 효과가 나가지 않는다. 파괴 1장은 처리됨"
+              },
+              {
+                "id": "raigeki",
+                "note_ko": "체인으로 바꾼 몬스터도 번개 처리 때 함께 파괴. 파괴 1장은 처리됨"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "마법 1장을 코스트로 보내면 포스드 릴리스로 체인할 수 없다. 단 리퍼가 무효 상태로 필드에 남으면 이후 메인 페이즈에 다시 쓸 수 있음"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "리퍼를 먼저 릴리스해 치우면 대상이 될 K9 엑시즈가 없어 포스드 릴리스를 못 쓴다(C104는 K9이 아님). 괴수 소환에는 체인 불가"
+              },
+              {
+                "id": "harpie",
+                "note_ko": "세트된 포스드 릴리스를 파괴하지만 상대는 체인해서 리퍼를 바꾸고 1장 파괴. 사실상 강제로 쓰게 하는 정도"
+              },
+              {
+                "id": "cosmic",
+                "note_ko": "깃털과 마찬가지로 체인당한다. 리퍼를 먼저 치운 뒤라면 깔끔하게 제거"
+              },
+              {
+                "id": "mst",
+                "note_ko": "코즈믹과 같음"
+              }
+            ],
+            "bait_ko": "메인 페이즈에만 발동할 수 있으므로 배틀 페이즈 중 [[Evenly Matched]]에는 대응 못 한다. 리퍼를 대상으로 하는 효과나 리퍼 제거 카드를 쓰면 상대가 체인해서 쓰므로, 전체 처리 카드(번개·명왕결계파)를 먼저 쓰게 하는 편이 좋다"
+          },
+          {
+            "id": "izuna_lupis",
+            "card": "K9-17 Izuna",
+            "kind": "other",
+            "zone": "hand",
+            "timing_ko": "내가 이번 턴 패·묘지에서 몬스터 효과를 발동하면 메인 페이즈에 패에서 퀵 특소 → [[K9-ØØ Lupis]] 덤핑 → 루푸스 묘지 퀵 특소 → 루푸스 효과로 내 턴 중 즉시 엑시즈([[K9-66X \"Jacks\"]]면 몬스터 1장 파괴, 리퍼 2번째면 무효 추가)",
+            "answered_by": [
+              {
+                "id": "ttt",
+                "note_ko": "상대가 내 메인 페이즈에 리퍼·C104·이즈나 등 몬스터 효과를 쓰면 발동 가능. 패 확인 모드로 이즈나를 덱으로 되돌린다"
+              },
+              {
+                "id": "belle",
+                "note_ko": "루푸스의 묘지 특소에 체인해 무효. 와라시 자체가 패 몬스터 효과라 리퍼에 무효될 수 있으니 리퍼 무효가 소모된 뒤에"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "특소된 이즈나의 덤핑 유발에 체인해 루푸스를 못 보내게 함. 패에서 쓰려면 내 필드가 비어 있어야 함"
+              },
+              {
+                "id": "dark_ruler",
+                "note_ko": "이즈나·루푸스가 필드에 나온 뒤 쓰면 함께 무효. 다만 루푸스의 엑시즈는 퀵이라 그 전에 나올 수 있음"
+              }
+            ],
+            "bait_ko": "가장 확실한 대처는 패·묘지에서 몬스터 효과를 쓰지 않는 것. 마법·함정과 일반 소환 위주로 돌파하면 이즈나·루푸스는 패에서 깨어나지 않는다"
+          }
+        ]
+      },
+      {
+        "id": "after_imperm_razen",
+        "title_ko": "라젠 서치에 무한포영을 맞은 경우 (라젠 1장 패)",
+        "after": {
+          "handtrap": "imperm",
+          "line": "razen",
+          "step": 2
+        },
+        "interruptions": [
+          {
+            "id": "rock_razen_imperm",
+            "card": "Rock of the Vanquisher",
+            "kind": "removal",
+            "zone": "monster",
+            "timing_ko": "메인 페이즈 퀵으로 회수해 둔 [[Vanquish Soul Razen]]을 패에서 특소 → 라젠 서치 유발 + 패에 화염·어둠이 있으면 세로열 파괴. 서치가 통하면 [[Vanquish Soul Hollie Sue]] 등으로 다시 전개가 이어짐",
+            "answered_by": [
+              {
+                "id": "ash",
+                "note_ko": "특소된 라젠의 서치 유발에 체인. 이 보드에서 상대 자원이 가장 크게 줄어드는 지점"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "록을 미리 무효하거나 라젠 서치 유발에 체인"
+              },
+              {
+                "id": "dark_ruler",
+                "note_ko": "체인 불가로 록과 라젠 무효"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "록을 릴리스"
+              },
+              {
+                "id": "ultimate_slayer",
+                "note_ko": "록은 링크 몬스터. 내 엑스트라의 링크를 보내 덱으로"
+              },
+              {
+                "id": "lightning_storm",
+                "note_ko": "록은 링크라 항상 공격 표시. 내 필드가 비어 있을 때 깔끔하게 파괴"
+              },
+              {
+                "id": "raigeki",
+                "note_ko": "필드 마법이 없으면 파괴 대체도 없다. 라젠이 화염 공개로 자기만 지킬 수는 있음"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "체인 불가로 록 무효"
+              }
+            ],
+            "bait_ko": ""
+          }
+        ]
+      },
+      {
+        "id": "after_ash_razen",
+        "title_ko": "라젠 서치에 우라라를 맞고 이즈나 역습으로 간 경우",
+        "after": {
+          "handtrap": "ash",
+          "line": "razen",
+          "step": 2
+        },
+        "interruptions": [
+          {
+            "id": "ripper_lupis",
+            "card": "K9-17 \"Ripper\"",
+            "kind": "quick_negate",
+            "zone": "monster",
+            "timing_ko": "[[K9-ØØ Lupis]]를 소재로 가져 상대 효과의 대상이 되지 않음. 내가 패·묘지에서 몬스터 효과를 발동했을 때 소재 1개를 빼고 무효 (퀵, 1턴 1회). 소재가 이즈나·루푸스 2개라 무효 후에도 소재가 남을 수 있다",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "몬스터 효과로 체인 불가. [[K9-X Forced Release]]는 속공 마법이라 체인할 수 있지만, 그걸로 나온 [[K9-66X \"Jacks\"]]·[[K9-X \"Werewolf\"]]도 명왕결계파 처리 시 함께 무효되고 잭스의 엑시즈 소환 유발도 무효 상태로 남는다"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "대상을 잡지 않아 루푸스 내성을 무시하고 무효. 마법 1장을 같이 보내면 [[K9-X Forced Release]] 체인도 막힌다"
+              },
+              {
+                "id": "lightning_storm",
+                "note_ko": "내 필드에 앞면 카드가 없을 때. 리퍼는 공격 표시가 보통. [[K9-X Forced Release]] 체인으로 나온 몬스터를 수비 표시로 내면 그 1장은 살아남는다"
+              },
+              {
+                "id": "raigeki",
+                "note_ko": "마법이라 리퍼·C104 모두 반응 불가. [[K9-X Forced Release]]를 체인해도 바뀐 몬스터까지 같이 파괴"
+              },
+              {
+                "id": "dark_hole",
+                "note_ko": "번개와 같지만 내 몬스터도 파괴되므로 전개 전에"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "특수 소환 절차라 효과 발동이 아니어서 리퍼의 무효·이즈나 조건 모두 해당 없음. 대상을 잡지 않아 루푸스 내성도 무관"
+              },
+              {
+                "id": "kaiju_slumber",
+                "note_ko": "전체 파괴. [[K9-X Forced Release]] 체인만 주의"
+              },
+              {
+                "id": "book_eclipse",
+                "note_ko": "뒷면이 되면 엑시즈 소재가 모두 묘지로 가서 무효 능력이 사라진다. [[K9-X Forced Release]] 체인으로 바뀐 몬스터도 처리 시 뒷면이 됨"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "체인 불가. 리퍼(바람·전사족)와 맞는 융합 몬스터가 엑스트라에 있어야 함"
+              },
+              {
+                "id": "kurikara",
+                "note_ko": "리퍼가 이번 턴 무효 효과를 쓴 뒤에만. 소환 절차라 리퍼가 다시 반응할 수 없음"
+              }
+            ],
+            "bait_ko": "리퍼는 '패·묘지'의 몬스터 효과에만 반응한다. 꼭 패에서 쓸 몬스터 효과(우라라·G·감마 등)가 있으면 가장 덜 중요한 것을 먼저 던져 무효를 받아낸다. 단 그 순간 [[K9-17 Izuna]]·[[K9-ØØ Lupis]]의 특소 조건과 [[K9-66X \"Jacks\"]]의 파괴 조건이 같이 열린다"
+          },
+          {
+            "id": "forced_release_izuna",
+            "card": "K9-X Forced Release",
+            "kind": "removal",
+            "zone": "st",
+            "timing_ko": "메인 페이즈 중 속공 마법으로 리퍼를 다른 K9 엑시즈([[K9-66X \"Jacks\"]]·[[K9-X \"Werewolf\"]])로 바꾸고 내 카드 1장 파괴. 잭스로 바뀌면 엑시즈 소환 유발로 몬스터 1장 추가 파괴, 웨어울프로 바뀌면 내가 카드를 발동할 때 내 필드·묘지 1장씩 제외 (1턴 1회)",
+            "answered_by": [
+              {
+                "id": "dark_ruler",
+                "note_ko": "체인으로 바꿔도 새 몬스터가 명왕결계파 처리 시 무효되어 잭스 유발·웨어울프 효과가 나가지 않는다. 파괴 1장은 처리됨"
+              },
+              {
+                "id": "raigeki",
+                "note_ko": "체인으로 바꾼 몬스터도 번개 처리 때 함께 파괴. 파괴 1장은 처리됨"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "마법 1장을 코스트로 보내면 포스드 릴리스로 체인할 수 없다. 단 리퍼가 무효 상태로 필드에 남으면 이후 메인 페이즈에 다시 쓸 수 있음"
+              },
+              {
+                "id": "kaiju",
+                "note_ko": "리퍼를 먼저 릴리스해 치우면 대상이 될 K9 엑시즈가 없어 포스드 릴리스를 못 쓴다(C104는 K9이 아님). 괴수 소환에는 체인 불가"
+              },
+              {
+                "id": "harpie",
+                "note_ko": "세트된 포스드 릴리스를 파괴하지만 상대는 체인해서 리퍼를 바꾸고 1장 파괴. 사실상 강제로 쓰게 하는 정도"
+              },
+              {
+                "id": "cosmic",
+                "note_ko": "깃털과 마찬가지로 체인당한다. 리퍼를 먼저 치운 뒤라면 깔끔하게 제거"
+              },
+              {
+                "id": "mst",
+                "note_ko": "코즈믹과 같음"
+              }
+            ],
+            "bait_ko": "메인 페이즈에만 발동할 수 있으므로 배틀 페이즈 중 [[Evenly Matched]]에는 대응 못 한다. 리퍼를 대상으로 하는 효과나 리퍼 제거 카드를 쓰면 상대가 체인해서 쓰므로, 전체 처리 카드(번개·명왕결계파)를 먼저 쓰게 하는 편이 좋다"
+          }
+        ]
+      }
+    ],
+    "breakers": {
+      "lightning_storm": {
+        "rating": "strong",
+        "note_ko": "VS 보드에는 마함 모드로 [[Vanquish Soul, Start!]]·[[Vanquish Soul Snow Devil]]을 동시에 제거(몬스터 모드는 스타트! 대체·교룡 표시 변경에 막힘). K9 보드에는 몬스터 모드로 리퍼·C104를 한 번에. 내 필드에 앞면 카드가 없어야 함"
+      },
+      "evenly_matched": {
+        "rating": "ok",
+        "note_ko": "제외라 스타트! 대체를 무시하고, [[K9-X Forced Release]]는 메인 페이즈 전용이라 배틀 페이즈 종료 시에 대응 못 한다. 다만 남길 카드를 상대가 고르고, VS의 진짜 방해는 패에 있다"
+      },
+      "dark_ruler": {
+        "rating": "critical",
+        "note_ko": "K9 보드는 리퍼·C104를 체인 없이 무효하고, 포스드 릴리스로 바꾼 몬스터까지 무효된다. VS 보드도 필드 퀵 효과는 전부 멈추지만 패의 [[Vanquish Soul Caesar Valius]] 특소와 [[Vanquish Soul Snow Devil]]은 남는다"
+      },
+      "harpie": {
+        "rating": "strong",
+        "note_ko": "VS 보드의 스타트!·스노우 데빌을 제거해 파괴 대체를 없앤다. K9 보드에는 포스드 릴리스 1장뿐이고 체인당한다"
+      },
+      "heavy_storm": {
+        "rating": "ok",
+        "note_ko": "깃털과 같은 용도지만 내 마함도 파괴. 제한 1"
+      },
+      "raigeki": {
+        "rating": "strong",
+        "note_ko": "K9 보드에는 사실상 결정타(마법이라 리퍼·C104 반응 불가, 포스드 릴리스 체인도 함께 파괴). VS 보드는 스타트! 대체에 한 번 막히므로 필드 마법을 먼저 치운 뒤"
+      },
+      "dark_hole": {
+        "rating": "ok",
+        "note_ko": "번개와 같은 판단. 내 몬스터도 파괴되므로 전개 전에, VS 보드에는 스타트! 제거 후"
+      },
+      "kaiju": {
+        "rating": "strong",
+        "note_ko": "릴리스라 스타트! 대체·[[Vanquish Soul Caesar Valius]] 내성을 무시하고, 효과 발동이 아니라 리퍼·이즈나 조건도 열지 않는다. 대상 지정이 없어 루푸스 소재 리퍼도 처리 가능. 넘겨준 괴수는 [[Vanquish Soul Hollie Sue]]에 탈취될 수 있음"
+      },
+      "kaiju_slumber": {
+        "rating": "ok",
+        "note_ko": "K9 보드에는 전체 파괴로 좋지만 VS 보드는 스타트! 대체에 막힌다"
+      },
+      "cosmic": {
+        "rating": "ok",
+        "note_ko": "VS 보드의 스타트! 제외용. K9의 포스드 릴리스에 쓰면 체인당함"
+      },
+      "mst": {
+        "rating": "ok",
+        "note_ko": "코즈믹과 같음"
+      },
+      "super_poly": {
+        "rating": "ok",
+        "note_ko": "체인 불가라 확실하지만 VS·K9 몬스터는 속성·종족이 제각각이라 맞는 융합 몬스터를 준비하기 어렵다"
+      },
+      "book_eclipse": {
+        "rating": "strong",
+        "note_ko": "K9 엑시즈는 뒷면이 되며 소재를 잃고, VS 몬스터는 공개 퀵 효과를 못 쓰고 [[Vanquish Soul Caesar Valius]]·[[Vanquish Soul Heavy Borger]]가 되돌릴 대상을 잃는다. 스노우 데빌·포스드 릴리스는 남음. 엔드 페이즈에 상대가 드로우"
+      },
+      "kurikara": {
+        "rating": "strong",
+        "note_ko": "VS는 내 턴에 퀵 효과를 여러 번 쓰고, 리퍼·C104도 무효를 쓴 뒤라면 함께 릴리스. 소환 절차라 리퍼가 반응 못 함"
+      },
+      "ultimate_slayer": {
+        "rating": "weak",
+        "note_ko": "대상 후보가 록(링크)·리퍼·C104(엑시즈) 정도이고, 루푸스 소재 리퍼는 대상 불가, 포스드 릴리스 체인은 막지 못함"
+      },
+      "fallen_virtuous": {
+        "rating": "ok",
+        "note_ko": "알바스 덱이면 속공으로 스타트!나 포스드 릴리스를 처리. 몬스터에 쓰면 스타트! 대체에 막힘"
+      },
+      "harmonia": {
+        "rating": "bad",
+        "note_ko": "패에서 공개하는 몬스터 효과라 리퍼에 무효되고 이즈나·루푸스 조건까지 열어 준다"
+      },
+      "imperm": {
+        "rating": "strong",
+        "note_ko": "K9 보드에서 C104를 미리 무효하는 가장 깔끔한 카드(함정이라 리퍼·C104 모두 반응 불가, 이즈나 조건도 안 열림). VS 보드에는 홀리 수·록을 노리면 체인으로 응수당하므로 미끼 성격"
+      },
+      "ogre": {
+        "rating": "weak",
+        "note_ko": "효과는 처리되고 파괴는 스타트! 대체에 막힌다. 패의 몬스터 효과라 리퍼에 무효되고 이즈나를 깨운다"
+      },
+      "gamma": {
+        "rating": "weak",
+        "note_ko": "VS의 홀리 수·바리우스 효과 무효에는 쓸 만하지만 패의 몬스터 효과라 리퍼에 무효되고 이즈나·잭스 조건을 연다"
+      },
+      "belle": {
+        "rating": "weak",
+        "note_ko": "묘지 효과는 록의 회수·루푸스 특소 정도. 패 몬스터 효과라 리퍼·이즈나 문제 동일"
+      },
+      "droplet": {
+        "rating": "strong",
+        "note_ko": "대상을 잡지 않아 루푸스 소재 리퍼도 무효. 마법을 보내면 포스드 릴리스, 몬스터를 보내면 VS 퀵 효과·C104 체인을 막는다"
+      },
+      "ttt": {
+        "rating": "strong",
+        "note_ko": "VS·K9 모두 내 메인 페이즈에 몬스터 효과를 쓰므로 거의 항상 발동 가능. 패 확인 모드로 VS의 핵심 속성 카드나 [[K9-17 Izuna]]를 덱으로 되돌리는 것이 특히 강하다"
+      },
+      "spark": {
+        "rating": "ok",
+        "note_ko": "상대가 내 턴에 홀리 수·바리우스·이즈나 등을 패·묘지에서 발동한 뒤 패에서 발동 가능. 제외라 스타트! 대체 무시"
+      },
+      "crossout": {
+        "rating": "bad",
+        "note_ko": "내 메인 덱에 있는 카드만 선언 가능. 내가 K9 엔진을 쓸 때만 [[K9-17 Izuna]]·[[K9-ØØ Lupis]] 선언으로 역습을 막을 수 있음"
+      },
+      "veiler": {
+        "rating": "bad",
+        "note_ko": "상대 메인 페이즈에만 발동 가능해 내 턴 돌파에 못 씀"
+      },
+      "ash": {
+        "rating": "weak",
+        "note_ko": "VS 보드에서 라젠·매드 러브 서치, 홀리 수 덱 특소를 끊을 수는 있지만 패 몬스터 효과라 K9 보드에서는 리퍼에 무효되고 이즈나를 깨운다"
+      },
+      "nibiru": {
+        "rating": "bad",
+        "note_ko": "상대가 내 턴에 5번 소환할 일이 없어 돌파용이 아님"
+      }
+    },
+    "sequencing_ko": [
+      "먼저 상대 보드가 VS형인지 K9형인지 구분한다. 리퍼·C104가 있으면 마법 위주로, VS 몬스터와 필드 마법이 있으면 마함 제거 → 몬스터 순서로 간다.",
+      "패·묘지에서 발동하는 몬스터 효과(우라라·감마·패 초동 등)는 리퍼 무효, [[K9-17 Izuna]]·[[K9-ØØ Lupis]] 특소, [[K9-66X \"Jacks\"]] 파괴를 모두 연다. 써야 한다면 리퍼를 먼저 처리한 뒤에.",
+      "K9 보드: 메인 페이즈 시작 시 [[Infinite Impermanence]]로 C104를 무효 → [[Dark Ruler No More]]나 [[Raigeki]]로 리퍼 처리(포스드 릴리스 체인은 같이 정리됨). C104는 내 엔드 페이즈에 스스로 파괴되므로 무효만 해도 충분하다.",
+      "VS 보드: [[Harpie's Feather Duster]]·[[Lightning Storm]](마함)·[[Cosmic Cyclone]]으로 [[Vanquish Soul, Start!]]와 [[Vanquish Soul Snow Devil]]을 먼저 지워 파괴 대체와 전체 파괴를 없앤 뒤 몬스터를 처리한다.",
+      "VS의 방해 수는 상대 패의 화염·어둠·땅 장수에 달려 있다. 공개된 패를 기억하고, [[Triple Tactics Talent]]의 패 확인 모드로 한 속성을 빼면 여러 효과가 한꺼번에 꺼진다.",
+      "[[Vanquish Soul Hollie Sue]]는 내 몬스터 중 공격력이 가장 낮은 것을 탈취하고, [[Vanquish Soul Razen]]은 특정 세로열을 파괴한다. 핵심 몬스터는 공격력이 높게, 열을 분산해서 낸다."
+    ]
+  }
 }
