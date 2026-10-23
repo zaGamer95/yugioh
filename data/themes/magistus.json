@@ -118,7 +118,8 @@
      "action_ko": "묘지 효과: 1850 마법사족(위캣)이 있어 자체 특소 (이후 마법사족만 특소)",
      "class": [
       "monster_effect_gy",
-      "ss_from_gy"
+      "ss_from_gy",
+      "gy_effect"
      ],
      "result_ko": ""
     },
@@ -366,7 +367,8 @@
      "class": [
       "monster_effect_gy",
       "ss_from_gy",
-      "search"
+      "search",
+      "gy_effect"
      ],
      "result_ko": "[[Fairy Tail Ball]] → [[Fairy Tail - Luna]]"
     },
@@ -553,6 +555,43 @@
    "fallback_ko": "루나 라인에서는 위캣의 덤핑 효과 발동에 포영을 써도 우라라와 같은 결과(위캣 효과 무효)."
   },
   {
+   "handtrap": "crown",
+   "severity": "strong",
+   "line": "luna",
+   "step": 5,
+   "target_card": "Fairy Tail - Wiccat",
+   "timing_ko": "위캣이 소재를 제거하고 덤핑 효과를 발동했을 때 위캣에 [[Forbidden Crown]]",
+   "why_ko": "덤핑이 무효가 되고(소재는 비용으로 이미 제거), 위캣은 이번 턴 융합 소재로도 못 써서 테일즈 융합(텔러)도 막힌다. 성관에는 몬스터 효과로 체인할 수 없다. 위캣 자신은 어둠 속성이라 위캣의 '빛 페어리테일 내성'을 받지 않는다.",
+   "fallback_ko": "루나 라인은 위캣 1장으로 끝난다. 스펜타 라인이면 3단계 조로아(화염)의 장착 효과에 써도 된다(무효 + 위캣 엑시즈 소재 불가). 단 [[Magistus Chorozo]]처럼 '소재를 묘지로 보내 특소'하는 절차는 성관이 걸린 몬스터도 쓸 수 있다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "rulings": [
+    "qa-24256",
+    "qa-22839"
+   ]
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "strong",
+   "line": "luna",
+   "step": 5,
+   "target_card": "Fairy Tail - Wiccat",
+   "timing_ko": "위캣의 덤핑 효과 발동에 [[Fydraulis Harmonia]](싱크로 5장 공개)로 위캣을 파괴",
+   "why_ko": "덤핑은 처리되지만 필드에 공격력 1850 마법사족이 없어져 매치리르가 묘지에서 특소할 수 없고, 테일즈를 장착할 페어리테일 몬스터도 없다. 위캣 묘지 효과도 필드의 빛 페어리테일이 있어야 해서 못 쓴다. 텔러·조로아(베레트라그나)가 서기 전이라 무효당하지 않는다.",
+   "fallback_ko": "패에 1850 마법사족이 더 있으면 다시 잇는다. 매치리르·루나 같은 빛 페어리테일은 위캣이 있는 동안 상대가 발동한 효과를 받지 않으니 노리지 않는다. 2·4장 공개는 방해 없음.",
+   "rulings": [
+    "qa-24286"
+   ]
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "strong",
+   "line": "luna",
+   "step": 5,
+   "target_card": "Fairy Tail - Wiccat",
+   "timing_ko": "위캣의 덤핑 효과 발동에 체인해 위캣을 파괴",
+   "why_ko": "하르모니아와 같은 결과. 1850 마법사족이 사라져 매치리르 → 볼 → 루나 → 텔러 줄기가 시작되지 않는다.",
+   "fallback_ko": "텔러가 선 뒤에는 텔러가 발동을 무효·파괴하므로 그 전에 쓴다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다."
+  },
+  {
    "handtrap": "droll",
    "severity": "strong",
    "line": "luna",
@@ -606,6 +645,16 @@
    ]
   },
   {
+   "handtrap": "druiswurm",
+   "severity": "strong",
+   "line": "luna",
+   "step": 6,
+   "target_card": "Fairy Tail - Matchgiru",
+   "timing_ko": "매치리르가 묘지에서 자체 특소 효과를 발동했을 때 [[Bystial Druiswurm]]으로 묘지의 매치리르(빛)를 제외 (스펜타 라인은 13단계)",
+   "why_ko": "매치리르가 제외되어 특소되지 않고, 볼 서치 → 루나 → 스노우 → 텔러가 끊긴다. 상대 필드에 위캣이 있어 퀵으로 쓸 수 있고, 묘지의 몬스터는 위캣 내성 대상이 아니다.",
+   "fallback_ko": "테일즈 묘지 효과와 패의 1850 마법사족으로 일부 이어 간다. 이 지점을 놓쳤다면 텔러 소재로 묘지에 간 [[Fairy Tail - Snow]]를 제외해 묘지 퀵 특소를 지운다. 필드에 남은 드루이드브룸이 텔러·조로아에 처리되면 ②로 상대 특소 몬스터 1장을 묘지로 보낸다."
+  },
+  {
    "handtrap": "nibiru",
    "severity": "strong",
    "line": "luna",
@@ -626,6 +675,31 @@
    "fallback_ko": "루나 라인에서는 매치리르 서치나 장착된 아르테미스 서치에 써도 서치는 처리되므로 효과가 작다."
   },
   {
+   "handtrap": "super_poly",
+   "severity": "ok",
+   "line": "spenta",
+   "step": 9,
+   "target_card": "Zoroa, the Magistus Verethragna",
+   "timing_ko": "조로아(베레트라그나)의 장착 효과 발동에 체인해 [[Super Polymerization]]. 조로아(화염) + 조로아(베레트라그나)는 둘 다 화염 마법사족이라 [[Garura, Wings of Resonant Life]]",
+   "why_ko": "무효 견제인 조로아(베레트라그나)와 위캣 소재인 조로아(화염)가 함께 사라져 코로조 → 위캣 → 페어리테일 합류가 막힌다. 초융합에는 텔러·조로아도 체인할 수 없다.",
+   "fallback_ko": "루나 라인에서는 19단계 크로울리 융합 유발에 체인해 크로울리(알레이스터 취급) + 엔디미온(빛)으로 [[Invoked Mechaba]](소환수 융합이 있는 덱). 위캣이 있는 동안 빛 페어리테일은 효과를 받지 않아 소재로 못 쓴다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "rulings": [
+    "qa-10824",
+    "qa-23510",
+    "qa-12768"
+   ]
+  },
+  {
+   "handtrap": "mst",
+   "severity": "ok",
+   "line": "luna",
+   "step": 12,
+   "target_card": "Tails of the Fairy Tails",
+   "timing_ko": "테일즈가 매치리르에 장착된 뒤, 융합 효과를 쓰기 전(보통 11단계 두 번째 루나의 서치 유발에 체인)에 장착된 테일즈를 [[Mystical Space Typhoon]]으로 파괴",
+   "why_ko": "텔러 융합의 출처가 사라진다. 텔러가 서기 전이라 무효당하지 않는다.",
+   "fallback_ko": "12단계 융합 효과 발동에 체인해 부수면 융합은 그대로 처리된다고 보는 게 안전하다. 최종 필드의 [[Fairy Tail Ball]]은 내 턴에 패에서 치워도 된다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다."
+  },
+  {
    "handtrap": "imperm",
    "severity": "bad",
    "line": "luna",
@@ -637,6 +711,39 @@
    "rulings": [
     "qa-23294"
    ]
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "bad",
+   "line": "luna",
+   "step": 11,
+   "target_card": "Fairy Tail - Luna",
+   "timing_ko": "위캣이 필드에 있을 때 루나·매치리르(빛 페어리테일)를 파괴·무효 대상으로 고르는 것 (하르모니아 파괴, 금지된 성관도 같음)",
+   "why_ko": "위캣 ①로 원래 속성이 빛인 페어리테일 몬스터는 상대가 발동한 효과를 받지 않는다. 처리 때 아무 일도 일어나지 않는다.",
+   "fallback_ko": "위캣 본체(어둠)나 크로울리·엔디미온처럼 페어리테일이 아닌 몬스터를 노린다.",
+   "rulings": [
+    "qa-23491"
+   ]
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "bad",
+   "line": "luna",
+   "step": 19,
+   "target_card": "Zoroa, the Magistus Verethragna",
+   "timing_ko": "텔러·조로아(베레트라그나)가 선 뒤에 하르모니아·드루이드브룸",
+   "why_ko": "조로아는 몬스터 효과 발동을 무효·파괴하고, 텔러는 카드·효과 발동을 무효·파괴한다. 패에서 쓰는 몬스터 효과라 그대로 막힌다.",
+   "fallback_ko": "위캣 덤핑(5단계)이나 매치리르 묘지 특소(6단계)에서 먼저 쓴다. 텔러·조로아가 체인할 수 없는 카드는 초융합·금지된 성관뿐이다."
+  },
+  {
+   "handtrap": "druiswurm",
+   "severity": "bad",
+   "line": "luna",
+   "step": 20,
+   "target_card": "Spenta, the Magistus Sealer",
+   "timing_ko": "스펜타의 묘지 효과(자신을 제외하고 장착)에 드루이드브룸",
+   "why_ko": "스펜타는 비용으로 이미 제외되어 지울 대상이 없다. 장착 효과도 그대로 처리된다.",
+   "fallback_ko": "드루이드브룸은 묘지에 남아 있다가 쓰이는 카드(매치리르·스노우)에 쓴다."
   }
  ],
  "handtrap_summary": {
@@ -726,6 +833,40 @@
   "gamma": {
    "rating": "strong",
    "note_ko": "내 필드가 비었을 때 루나 서치나 위캣 덤핑에"
+  },
+  "harmonia": {
+   "rating": "strong",
+   "note_ko": "싱크로 5장 공개 기준. 위캣 덤핑에 체인해 위캣 파괴 → 매치리르 특소 조건(1850 마법사족) 상실. 빛 페어리테일은 위캣 내성으로 불가",
+   "rulings": [
+    "qa-23491"
+   ]
+  },
+  "fallen_virtuous": {
+   "rating": "strong",
+   "note_ko": "위캣 덤핑에 체인해 위캣 파괴. 텔러가 서면 무효당한다. 세트해 둔 경우만(후공 1턴 불가)"
+  },
+  "super_poly": {
+   "rating": "ok",
+   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) 스펜타 라인 조로아 2장 → 가루라. 루나 라인은 크로울리 + 엔디미온 → 메르카바(소환수 융합이 있을 때만). 빛 페어리테일은 위캣 내성으로 소재 불가",
+   "rulings": [
+    "qa-10824",
+    "qa-23510"
+   ]
+  },
+  "crown": {
+   "rating": "strong",
+   "note_ko": "위캣 덤핑에 체인. 무효 + 텔러 소재 불가로 우라라급 효과지만 세트해 둔 경우만(후공 1턴 불가). 텔러·조로아도 체인 불가",
+   "rulings": [
+    "qa-24256"
+   ]
+  },
+  "druiswurm": {
+   "rating": "strong",
+   "note_ko": "매치리르 묘지 특소에 체인해 매치리르 제외. 놓치면 묘지의 스노우 제외. 텔러·조로아가 선 뒤에는 무효당함"
+  },
+  "mst": {
+   "rating": "ok",
+   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) 장착된 테일즈를 융합 효과 전에 파괴(두 번째 루나 서치에 체인). 볼은 내 턴에 치워도 된다"
   }
  },
  "notes_ko": [

@@ -1,0 +1,49 @@
+{
+ "sources": {},
+ "rules": [],
+ "rulings": [
+  {
+   "id": "qa-22839",
+   "fid": 22839,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22839&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Forbidden Crown",
+    "Dark Magician of Destruction",
+    "Magistus Chorozo"
+   ],
+   "handtraps": [
+    "crown"
+   ],
+   "themes": [
+    "sinful-spoils",
+    "magistus"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Forbidden Crown]] 등으로 '융합 소환의 소재로 할 수 없는' 몬스터를, 융합 소환이 아닌 '소재를 묘지로 보내거나 제외해 엑스트라 덱에서 특소하는' 절차에 쓸 수 있는가?",
+   "answer_ko": "쓸 수 있다. 그 특소는 융합 소환이 아니므로 융합 소환의 소재로 다루지 않는다(융합 소재로는 다룬다). 이렇게 쓸 수 있는 예시 목록에 [[Dark Magician of Destruction]]과 [[Magistus Chorozo]]가 들어 있다. 단 성관은 '릴리스할 수 없다'도 적용하므로 소재를 릴리스하는 절차에는 못 쓴다.",
+   "quote_ja": "以下のモンスターをテキストに記載された手順で特殊召喚する場合、”融合召喚の素材にできない”効果が適用されているモンスターを融合素材として使用できます。…「滅びの黒魔術師」…「精霊コロゾ」",
+   "impact_ko": "디아벨스타에 금지된 성관을 걸어도 파괴의 흑마술사 특소는 막지 못한다. 성관은 흑마술사 자신(티마이오스의 눈빛 융합 소재)에 걸어야 드래군이 막힌다."
+  },
+  {
+   "id": "qa-23934",
+   "fid": 23934,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23934&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Bystial Druiswurm"
+   ],
+   "handtraps": [
+    "druiswurm"
+   ],
+   "themes": [
+    "invoked"
+   ],
+   "topic": "timing",
+   "question_ko": "파괴된 뒤 곧바로 제외된 몬스터의 '필드에서 묘지로 보내졌을 때' 효과([[Bystial Druiswurm]] 등)는 발동할 수 있는가?",
+   "answer_ko": "발동할 수 없다. 이런 효과는 묘지에서 발동하며, 발동할 때까지 묘지에 계속 있어야 한다. 예시 목록에 [[Bystial Druiswurm]]이 있다.",
+   "quote_ja": "発動するタイミングまで墓地に存在し続けている必要があります。",
+   "impact_ko": "[[Invoked Oceanus]]가 EX 몬스터 존에 있으면 내 몬스터는 묘지 대신 제외되므로 드루이드브룸 ②(상대 특소 몬스터를 묘지로)는 쓸 수 없다."
+  }
+ ]
+}

@@ -483,6 +483,47 @@
    ]
   },
   {
+   "handtrap": "super_poly",
+   "severity": "strong",
+   "line": "engine",
+   "step": 6,
+   "target_card": "Azamina Ilia Silvia",
+   "timing_ko": "할로우드 아자미나로 [[Azamina Ilia Silvia]]가 나온 직후, 파괴의 흑마술사 특소 전에 [[Super Polymerization]]. 디아벨스타(어둠 마법사족) + 일리아 실비아(어둠 환상마족)로 [[Mudragon of the Swamp]]",
+   "why_ko": "초융합에는 일리아 실비아도 체인할 수 없다. 무효 견제가 사라지고, 레벨 6 이상 어둠 마법사족(디아벨스타)도 없어져 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]까지 막힌다.",
+   "fallback_ko": "놓쳤다면 최종 필드의 드래군(어둠 마법사족) + 일리아 실비아로도 머드래곤이 된다. 드래군은 대상 불가·파괴 불가지만 초융합은 대상을 잡지 않는다. 백림 아자미나는 디아벨 + 디아벨제(둘 다 빛 환상마족)로 [[Garura, Wings of Resonant Life]]. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "rulings": [
+    "qa-10824"
+   ]
+  },
+  {
+   "handtrap": "mst",
+   "severity": "strong",
+   "line": "engine",
+   "step": 4,
+   "target_card": "Deception of the Sinful Spoils",
+   "timing_ko": "디아벨스타가 세트한 기만을 앞면으로 발동할 때 체인해 [[Mystical Space Typhoon]] (세트 상태에서 겨냥해도 상대가 체인 발동한 뒤 파괴된다)",
+   "why_ko": "기만의 카드 발동 자체에는 효과가 없어서, 체인으로 부수면 ① 아자미나 서치를 한 번도 못 쓴다. [[The Hallowed Azamina]]로 보낼 '죄보' 카드도 사라져 아자미나 융합까지 막힌다. 유령토끼보다 이른 지점.",
+   "fallback_ko": "기만은 앞면으로 묘지에 갔으므로 엔드 페이즈에 다시 세트된다. 디아벨스타 → 드래군 루트는 남는다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "rulings": [
+    "qa-111",
+    "qa-24148"
+   ]
+  },
+  {
+   "handtrap": "crown",
+   "severity": "strong",
+   "line": "engine",
+   "step": 8,
+   "target_card": "Dark Magician of Destruction",
+   "timing_ko": "파괴의 흑마술사의 특소 유발(서치) 발동에 체인해 [[Forbidden Crown]]",
+   "why_ko": "서치가 무효가 되고, 이번 턴 파괴의 흑마술사는 융합 소재로 쓸 수 없어 [[The Gaze of Timaeus]]로 드래군을 낼 수 없다. 이미 나온 일리아 실비아도 몬스터 효과라 성관에 체인할 수 없다.",
+   "fallback_ko": "디아벨스타에 성관을 써도 파괴의 흑마술사는 나온다(그 특소는 융합 소환이 아닌 절차라 '소재 불가'가 걸린 몬스터도 쓸 수 있음). 백림 아자미나라면 5단계 루시엘라의 서치 유발에 써서 디아벨 싱크로 소재를 막는다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "rulings": [
+    "qa-24256",
+    "qa-22839"
+   ]
+  },
+  {
    "handtrap": "ogre",
    "severity": "strong",
    "line": "engine",
@@ -493,6 +534,33 @@
    "fallback_ko": "기만은 엔드 페이즈에 다시 세트되니 다음 턴 재사용. 디아벨스타 → 드래군 루트는 남는다.",
    "rulings": [
     "qa-24148"
+   ]
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "strong",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타의 세트 효과 발동에 체인해 디아벨스타를 파괴",
+   "why_ko": "세트는 처리되지만 레벨 6 이상 어둠 마법사족이 사라져 파괴의 흑마술사 → 드래군이 나오지 않는다. 디아벨스타의 자체 소생은 '상대 턴'에만 되므로 상대 자신의 턴인 지금은 돌아오지 않는다.",
+   "fallback_ko": "아자미나 쪽(일리아 실비아)은 남는다. 이 지점이 지났다면 앞면 기만의 ① 효과에 체인해 기만을 파괴(유령토끼와 같은 효과). 일리아 실비아가 서면 무효당한다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "strong",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타의 세트 효과 발동에 [[Fydraulis Harmonia]](싱크로 5장 공개)로 디아벨스타를 파괴",
+   "why_ko": "The Fallen & The Virtuous와 같은 결과로 드래군 루트가 사라진다. 일리아 실비아가 나오기 전이라 무효당하지 않는다.",
+   "fallback_ko": "2·4장 공개는 방해 없음. 일리아 실비아·드래군이 선 뒤에는 패에서 쓰는 효과라 무효된다.",
+   "rulings": [
+    "qa-24286",
+    "supp-19148"
    ]
   },
   {
@@ -529,6 +597,19 @@
    "fallback_ko": "디아벨·바롱 계열 싱크로 견제와 디아벨제 축은 남는다."
   },
   {
+   "handtrap": "harmonia",
+   "severity": "strong",
+   "line": "wfa",
+   "step": 3,
+   "target_card": "Silvy of the White Forest",
+   "timing_ko": "실비의 소환 유발(전해짐 서치)에 하르모니아로 실비를 파괴 (The Fallen & The Virtuous도 같은 지점)",
+   "why_ko": "서치는 처리되지만 레벨 4 튜너가 사라져 엘제트와 루시엘라를 싱크로할 수 없다. 루시엘라가 나오기 전이라 싱크로 파괴 내성도 아직 없다.",
+   "fallback_ko": "패의 전해짐으로 백림 몬스터를 하나 더 가져와 일부 잇는다. 루시엘라·디아벨이 선 뒤에는 환상마족·마법사족 싱크로가 상대 효과로 파괴되지 않는다.",
+   "rulings": [
+    "qa-24286"
+   ]
+  },
+  {
    "handtrap": "maxxc",
    "severity": "strong",
    "line": "wfa",
@@ -547,6 +628,16 @@
    "timing_ko": "첫 엑스트라 덱 특소(루시엘라 싱크로) 전에, 내 필드가 빈 상태로 사용",
    "why_ko": "백림 아자미나의 특소는 대부분 엑스트라 덱(싱크로·아자미나 융합). 패 특소 위주인 앞부분만 지나면 증G와 비슷한 압박.",
    "fallback_ko": "엔드 페이즈 패 매수 제한이 있으니 상대가 일찍 멈추면 이득이 작다."
+  },
+  {
+   "handtrap": "druiswurm",
+   "severity": "ok",
+   "line": "wfa",
+   "step": 14,
+   "target_card": "Elzette, Azamina of the White Forest",
+   "timing_ko": "할로우드 아자미나의 묘지 효과가 묘지의 성도 엘제트를 대상으로 발동했을 때 [[Bystial Druiswurm]]으로 그 성도 엘제트(빛)를 제외",
+   "why_ko": "대상이 사라져 할로우드 아자미나가 패로 돌아오지 않고, 15단계 일리아 실비아 융합이 막힌다. 상대 필드에 몬스터가 있어 퀵으로 쓸 수 있다.",
+   "fallback_ko": "디아벨·바롱·벤전스 견제는 남는다. 25단계 벤전스의 묘지 특소에 체인해 벤전스(어둠)를 제외하는 것도 가능. 필드의 드루이드브룸이 벤전스 등에 파괴되면 ②로 특소 몬스터 1장을 묘지로 보낸다(파괴 내성과 무관)."
   },
   {
    "handtrap": "belle",
@@ -573,6 +664,36 @@
    "rulings": [
     "supp-19148"
    ]
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "bad",
+   "line": "engine",
+   "step": 9,
+   "target_card": "Red-Eyes Dark Dragoon",
+   "timing_ko": "드래군이나 루시엘라가 있는 백림 싱크로를 하르모니아·The Fallen & The Virtuous로 파괴하려는 것",
+   "why_ko": "드래군은 효과로 파괴되지 않고 대상도 안 된다. 루시엘라가 있으면 환상마족·마법사족 싱크로가, 디아벨 몬스터 2장 이상이면 디아벨제로 모든 몬스터가 상대 효과로 파괴되지 않는다.",
+   "fallback_ko": "파괴가 통하는 시점(디아벨스타·실비)에 미리 쓰거나, 초융합·드루이드브룸 ②처럼 파괴가 아닌 수단을 쓴다."
+  },
+  {
+   "handtrap": "mst",
+   "severity": "bad",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "WANTED·할로우드 아자미나·티마이오스의 눈빛 발동에 싸이크론",
+   "why_ko": "일반·속공 마법은 체인으로 파괴해도 효과가 그대로 처리된다.",
+   "fallback_ko": "지속 마법인 기만(4단계)에 쓴다."
+  },
+  {
+   "handtrap": "druiswurm",
+   "severity": "bad",
+   "line": "wfa",
+   "step": 9,
+   "target_card": "Elzette, Azamina of the White Forest",
+   "timing_ko": "성도 엘제트가 싱크로 소재로 묘지에 간 뒤의 서치 유발에 드루이드브룸으로 제외",
+   "why_ko": "그 서치는 성도 엘제트가 묘지에 있을 필요가 없어 그대로 처리된다.",
+   "fallback_ko": "같은 성도 엘제트는 14단계 할로우드 아자미나의 대상이 될 때 제외한다."
   }
  ],
  "handtrap_summary": {
@@ -662,6 +783,43 @@
   "gamma": {
    "rating": "ok",
    "note_ko": "엘제트 ① 또는 디아벨스타 세트 효과에 체인. 내 필드에 몬스터가 없을 때"
+  },
+  "harmonia": {
+   "rating": "strong",
+   "note_ko": "싱크로 5장 공개 기준. 디아벨스타 세트 효과에 써서 디아벨스타 파괴(드래군 차단), 백림 아자미나는 실비 서치에 써서 실비 파괴. 드래군·루시엘라 싱크로는 파괴 불가"
+  },
+  "fallen_virtuous": {
+   "rating": "strong",
+   "note_ko": "디아벨스타 세트 효과에 체인해 디아벨스타 파괴(상대 턴이 아니라 소생 없음), 또는 기만 파괴. 세트해 둔 경우만(후공 1턴 불가)",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  "super_poly": {
+   "rating": "strong",
+   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) 일리아 실비아 직후 디아벨스타 + 실비아 → 머드래곤. 무효 견제와 드래군 루트가 동시에 사라짐. 최종 필드의 드래군 + 실비아도 가능",
+   "rulings": [
+    "qa-10824"
+   ]
+  },
+  "crown": {
+   "rating": "strong",
+   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) 파괴의 흑마술사 서치에 체인 → 서치 무효 + 티마이오스 융합 소재 불가로 드래군 차단. 디아벨스타에 쓰면 흑마술사 특소는 못 막음",
+   "rulings": [
+    "qa-22839"
+   ]
+  },
+  "druiswurm": {
+   "rating": "ok",
+   "note_ko": "할로우드 아자미나 묘지 효과의 대상(성도 엘제트) 제외, 또는 벤전스 묘지 특소. 엔진 단독 덱에는 쓸 곳이 거의 없음"
+  },
+  "mst": {
+   "rating": "strong",
+   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) 기만의 카드 발동에 체인해 파괴 → ① 서치·할로우드 아자미나 모두 불발. 일반·속공 마법에 쓰면 낭비",
+   "rulings": [
+    "qa-111",
+    "qa-24148"
+   ]
   }
  },
  "notes_ko": [
