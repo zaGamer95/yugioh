@@ -1,1280 +1,1280 @@
 {
- "slug": "dracotail",
- "name": {
-  "en": "Dracotail",
-  "ko": "드래곤테일"
- },
- "status": "draft",
- "updated": "2026-10-22",
- "meta": {
-  "decks": 56,
-  "share": 0.077,
-  "window": "2026-09-22~10-22 랭크·DC"
- },
- "variants": [
-  "Dracotail"
- ],
- "overview_ko": "드래곤족·마법사족 융합 테마. 드래곤테일 몬스터가 융합 소재로 묘지에 가면 덱에서 드래곤테일 마법·함정을 세트하는 공통 효과로 융합 비용을 회수한다. [[Dracotail Faimena]](패에서 버리고)와 [[Dracotail Mululu]](필드에서)는 양쪽 메인 페이즈에 쓰는 속공 융합이라, 선공 후 상대 턴에도 융합을 한 번 더 하며 [[Dracotail Gulamel]]의 파괴를 얹는다. 현재 MD 리스트 대부분(약 89%)은 [[Fallen of the White Dragon]]·[[Branded Fusion]]·[[Blazing Cartesia, the Virtuous]]·[[The Fallen & The Virtuous]] 같은 알버스 엔진을 섞은 혼합형이다. 기본형은 2장 초동(루키아스/무루루/라후 + 아무 몬스터)으로 융합 2~3번, 소환 3회 정도라 G·후와로스 드로우는 2장 안팎이지만, 낙인 루트로 가면 특소가 8회까지 늘어 G가 아프다. 약점은 시작점(루키아스 서치, 라후·케투·낙인융합)이 우라라에 맞는다는 점과, 세트 효과가 '융합 소재로 묘지에 보내졌을 때'라서 묘지로 가지 못하게 하는 카드에 약하다는 점.",
- "key_cards": [
-  {
-   "card": "Dracotail Lukias",
-   "role_ko": "일반·특수 소환 시 드래곤테일 몬스터 서치(보통 파이메나). 소재로 묘지에 가면 [[Rahu Dracotail]] 등 세트. MD 제한 1."
+  "slug": "dracotail",
+  "name": {
+    "en": "Dracotail",
+    "ko": "드래곤테일"
   },
-  {
-   "card": "Dracotail Faimena",
-   "role_ko": "패에서 버리고 드래곤족·마법사족 융합(속공, 양쪽 메인 페이즈). 상대 턴 2번째 융합의 핵심. 3장 채용."
+  "status": "draft",
+  "updated": "2026-10-22",
+  "meta": {
+    "decks": 56,
+    "share": 0.077,
+    "window": "2026-09-22~10-22 랭크·DC"
   },
-  {
-   "card": "Dracotail Mululu",
-   "role_ko": "필드에서 속공 드래곤테일 융합(패·필드 소재). 덱을 안 쓰므로 우라라가 안 맞는다. 소재로 가면 세트 + 상대 몬스터 1장 효과 무효. MD 제한 2."
-  },
-  {
-   "card": "Rahu Dracotail",
-   "role_ko": "덱 소재도 쓰는 드래곤테일 융합 마법. 덱에서 [[Dracotail Urgula]]를 소재로 보내 세트를 늘린다. MD 제한 1."
-  },
-  {
-   "card": "Ketu Dracotail",
-   "role_ko": "드래곤테일 몬스터 서치(+상대 필드에 몬스터가 있으면 융합). 소재 효과로 세트되어 추가 서치원이 된다. MD 제한 2."
-  },
-  {
-   "card": "Dracotail Urgula",
-   "role_ko": "소재로 가면 세트(+마함 1장 파괴). 묘지에서 자신을 덱 맨 아래로 보내고 마법사족 드래곤테일(파이메나)을 회수."
-  },
-  {
-   "card": "Dracotail Arthalion",
-   "role_ko": "드래곤테일 + 패의 몬스터 1장 이상. 융합 소환 시 패 소재 수만큼 필드·묘지 몬스터를 패로. 소재로 쓴 패트랩·파이메나를 다시 패로 가져온다."
-  },
-  {
-   "card": "Dracotail Gulamel",
-   "role_ko": "레벨 7 융합. 자신이 드래곤테일 카드·효과를 발동했을 때 상대 카드 1장 파괴(1턴 1번, 속공). 주 견제."
-  },
-  {
-   "card": "Secreterion Dragon",
-   "role_ko": "드래곤족+마법사족 융합. 융합 소환된 이 카드가 있으면 상대는 특소된 드래곤족·마법사족 효과를 못 쓴다. 묘지의 드래곤·마법사 1장씩 골라 하나 특소, 하나 덱으로."
-  },
-  {
-   "card": "Fallen of the White Dragon",
-   "role_ko": "알버스 엔진. 엑스트라 덱의 알버스 언급 몬스터를 묘지로 보내 패에서 특소(이후 엑덱은 레벨 8 융합·싱크로만), 소환 시 에클레시아 특소."
-  },
-  {
-   "card": "Branded Fusion",
-   "role_ko": "덱에서 소재 2장을 보내 [[Albion the Branded Dragon]] 융합. 낙인 혼합형의 1장 초동. MD 제한 1."
-  },
-  {
-   "card": "Dracotail Horn",
-   "role_ko": "공격 표시 몬스터 1장 바운스 + 묘지·제외의 드래곤테일 1장 덱 맨 아래, 1드로우. 함정이라 세트된 턴에는 못 쓴다."
-  },
-  {
-   "card": "Dracotail Flame",
-   "role_ko": "앞면 마법 1장 효과 무효 + 리사이클·드로우."
-  }
- ],
- "lines": [
-  {
-   "id": "lukias",
-   "title_ko": "루키아스 + 아무 몬스터 (기본형 표준)",
-   "hand": [
-    "Dracotail Lukias"
-   ],
-   "note_ko": "손패에 몬스터 1장(패트랩도 가능)이 더 필요하다. 일반 소환권 사용. [[Rahu Dracotail]]로 시작해도 같은 판면에 도착한다(라후 → 알자리온 → 케투 → 루키아스 순서).",
-   "steps": [
-    {
-     "card": "Dracotail Lukias",
-     "action_ko": "일반 소환",
-     "class": [
-      "normal_summon"
-     ],
-     "result_ko": ""
-    },
-    {
-     "card": "Dracotail Lukias",
-     "action_ko": "소환 성공 시 효과: 덱에서 드래곤테일 몬스터 서치",
-     "class": [
-      "monster_effect_field",
-      "search"
-     ],
-     "result_ko": "[[Dracotail Faimena]] 서치"
-    },
-    {
-     "card": "Dracotail Faimena",
-     "action_ko": "패에서 자신을 버리고(코스트) 필드의 루키아스 + 패의 몬스터 1장으로 융합",
-     "class": [
-      "monster_effect_hand",
-      "ss_from_extra"
-     ],
-     "result_ko": "[[Dracotail Arthalion]] 융합 소환. 파이메나는 코스트라 세트 효과 없음"
-    },
-    {
-     "card": "Dracotail Arthalion",
-     "action_ko": "융합 소환 시 효과(체인 1): 묘지의 파이메나를 대상으로 패로",
-     "class": [
-      "monster_effect_field",
-      "gy_effect"
-     ],
-     "result_ko": "파이메나 회수 (체인 2에 루키아스 ②가 쌓임)"
-    },
-    {
-     "card": "Dracotail Lukias",
-     "action_ko": "융합 소재로 묘지에 감(체인 2): 덱에서 드래곤테일 마법·함정 세트",
-     "class": [
-      "monster_effect_gy",
-      "place_from_deck"
-     ],
-     "result_ko": "[[Rahu Dracotail]] 세트"
-    },
-    {
-     "card": "Rahu Dracotail",
-     "action_ko": "발동: 덱의 우르굴라 + 패의 파이메나로 드래곤테일 융합 (이후 엑덱은 융합만)",
-     "class": [
-      "spell_trap_activation",
-      "send_from_deck",
-      "ss_from_extra"
-     ],
-     "result_ko": "[[Dracotail Gulamel]] 융합 소환"
-    },
-    {
-     "card": "Dracotail Urgula",
-     "action_ko": "융합 소재로 묘지에 감(체인 2): 덱에서 드래곤테일 마함 세트",
-     "class": [
-      "monster_effect_gy",
-      "place_from_deck"
-     ],
-     "result_ko": "[[Dracotail Flame]] 세트"
-    },
-    {
-     "card": "Dracotail Faimena",
-     "action_ko": "융합 소재로 묘지에 감(체인 1): 덱에서 드래곤테일 마함 세트",
-     "class": [
-      "monster_effect_gy",
-      "place_from_deck"
-     ],
-     "result_ko": "[[Dracotail Horn]] 세트"
-    },
-    {
-     "card": "Dracotail Urgula",
-     "action_ko": "묘지 효과: 자신을 덱 맨 아래로 보내고 묘지의 파이메나를 패로",
-     "class": [
-      "monster_effect_gy",
-      "gy_effect"
-     ],
-     "result_ko": "파이메나 다시 패로 (상대 턴 융합용)"
-    }
-   ],
-   "end_board": [
-    "Dracotail Arthalion",
-    "Dracotail Gulamel",
-    "Dracotail Flame",
-    "Dracotail Horn"
-   ],
-   "end_board_note_ko": "패에 [[Dracotail Faimena]]. 견제 4개: 상대 메인 페이즈에 파이메나로 2번째 [[Dracotail Arthalion]] 융합(패의 몬스터를 소재로 쓰고 알자리온 효과로 바운스·회수), 그 발동에 [[Dracotail Gulamel]] 파괴 체인, [[Dracotail Horn]] 바운스, [[Dracotail Flame]] 마법 무효. 그라멜 파괴는 1턴 1번이라 첫 드래곤테일 발동에만 붙는다. 소환 3회라 G·후와로스는 최대 2장."
-  },
-  {
-   "id": "mululu",
-   "title_ko": "무루루 + 아무 몬스터 (우라라가 안 맞는 시작)",
-   "hand": [
-    "Dracotail Mululu"
-   ],
-   "note_ko": "무루루 ①은 패·필드 소재 융합이라 덱을 건드리지 않는다. 우라라 타점은 라후 1곳뿐. 파이메나를 서치하지 않으므로 상대 턴 융합이 없는 대신 판면이 작다.",
-   "steps": [
-    {
-     "card": "Dracotail Mululu",
-     "action_ko": "일반 소환",
-     "class": [
-      "normal_summon"
-     ],
-     "result_ko": ""
-    },
-    {
-     "card": "Dracotail Mululu",
-     "action_ko": "필드에서 속공 효과: 자신 + 패의 몬스터 1장으로 드래곤테일 융합 (이후 엑덱은 융합만)",
-     "class": [
-      "monster_effect_field",
-      "ss_from_extra"
-     ],
-     "result_ko": "[[Dracotail Arthalion]] 융합 소환"
-    },
-    {
-     "card": "Dracotail Arthalion",
-     "action_ko": "융합 소환 시 효과(체인 1): 묘지의 무루루를 패로",
-     "class": [
-      "monster_effect_field",
-      "gy_effect"
-     ],
-     "result_ko": "무루루 회수"
-    },
-    {
-     "card": "Dracotail Mululu",
-     "action_ko": "융합 소재로 묘지에 감(체인 2): 드래곤테일 마함 세트 (상대 앞면 몬스터가 있으면 효과 무효도 가능)",
-     "class": [
-      "monster_effect_gy",
-      "place_from_deck"
-     ],
-     "result_ko": "[[Rahu Dracotail]] 세트"
-    },
-    {
-     "card": "Rahu Dracotail",
-     "action_ko": "발동: 덱의 우르굴라 + 패의 무루루로 융합",
-     "class": [
-      "spell_trap_activation",
-      "send_from_deck",
-      "ss_from_extra"
-     ],
-     "result_ko": "[[Dracotail Gulamel]] 융합 소환"
-    },
-    {
-     "card": "Dracotail Urgula",
-     "action_ko": "융합 소재로 묘지에 감: 드래곤테일 마함 세트",
-     "class": [
-      "monster_effect_gy",
-      "place_from_deck"
-     ],
-     "result_ko": "[[Dracotail Flame]] 세트"
-    }
-   ],
-   "end_board": [
-    "Dracotail Arthalion",
-    "Dracotail Gulamel",
-    "Dracotail Flame"
-   ],
-   "end_board_note_ko": "견제 2개(플레임 + 그 발동에 붙는 그라멜 파괴). 손패에 [[Dracotail Faimena]]가 따로 있으면 상대 턴 융합이 추가된다. 무루루의 효과는 둘 다 이미 써서 패로 돌아온 무루루는 소재 역할만 한다."
-  },
-  {
-   "id": "branded",
-   "title_ko": "낙인융합 1장 초동 (낙인 혼합형)",
-   "hand": [
-    "Branded Fusion"
-   ],
-   "note_ko": "[[Branded Fusion]]을 쓴 턴은 엑스트라 덱에서 융합만 나온다. 소환 9~10회로 G 최대 8장, 9번째 단계에서 5번째 소환이라 니비루 범위. 라인 출처: ygotac 낙인형 1장 초동을 카드 텍스트로 대조.",
-   "steps": [
-    {
-     "card": "Branded Fusion",
-     "action_ko": "발동: 덱에서 [[Fallen of the White Dragon]] + [[Dracotail Phryxul]]을 보내 융합",
-     "class": [
-      "spell_trap_activation",
-      "send_from_deck",
-      "ss_from_extra"
-     ],
-     "result_ko": "[[Albion the Branded Dragon]] 융합 소환"
-    },
-    {
-     "card": "Dracotail Phryxul",
-     "action_ko": "융합 소재로 묘지에 감: 드래곤테일 마함 세트",
-     "class": [
-      "monster_effect_gy",
-      "place_from_deck"
-     ],
-     "result_ko": "[[Ketu Dracotail]] 세트"
-    },
-    {
-     "card": "Ketu Dracotail",
-     "action_ko": "발동: 덱에서 드래곤테일 몬스터 서치 (상대 필드에 몬스터가 없으니 융합은 없음)",
-     "class": [
-      "spell_trap_activation",
-      "search"
-     ],
-     "result_ko": "[[Dracotail Lukias]] 서치"
-    },
-    {
-     "card": "Dracotail Lukias",
-     "action_ko": "일반 소환",
-     "class": [
-      "normal_summon"
-     ],
-     "result_ko": ""
-    },
-    {
-     "card": "Dracotail Lukias",
-     "action_ko": "소환 성공 시 효과: 드래곤테일 몬스터 서치",
-     "class": [
-      "monster_effect_field",
-      "search"
-     ],
-     "result_ko": "[[Dracotail Faimena]] 서치"
-    },
-    {
-     "card": "Dracotail Faimena",
-     "action_ko": "패에서 버리고 알비온(드래곤) + 루키아스(마법사)로 융합",
-     "class": [
-      "monster_effect_hand",
-      "ss_from_extra"
-     ],
-     "result_ko": "[[Secreterion Dragon]] 융합 소환"
-    },
-    {
-     "card": "Dracotail Lukias",
-     "action_ko": "융합 소재로 묘지에 감: 드래곤테일 마함 세트",
-     "class": [
-      "monster_effect_gy",
-      "place_from_deck"
-     ],
-     "result_ko": "[[Rahu Dracotail]] 세트"
-    },
-    {
-     "card": "Secreterion Dragon",
-     "action_ko": "기동 효과: 묘지의 프리클(마법사) + 알비온(드래곤)을 대상, 프리클 특소·알비온은 덱(엑스트라 덱)으로",
-     "class": [
-      "monster_effect_field",
-      "gy_effect",
-      "ss_from_gy"
-     ],
-     "result_ko": "[[Dracotail Phryxul]] 특소, [[Albion the Branded Dragon]] 엑덱 복귀"
-    },
-    {
-     "card": "Dracotail Phryxul",
-     "action_ko": "특소 성공 시 효과: 묘지의 파이메나 특소 → 자신 필드 몬스터 1장(파이메나)을 패로",
-     "class": [
-      "monster_effect_field",
-      "ss_from_gy"
-     ],
-     "result_ko": "파이메나 패로"
-    },
-    {
-     "card": "Rahu Dracotail",
-     "action_ko": "발동: 덱의 우르굴라 + 패의 파이메나로 융합",
-     "class": [
-      "spell_trap_activation",
-      "send_from_deck",
-      "ss_from_extra"
-     ],
-     "result_ko": "[[Dracotail Arthalion]] 융합 소환"
-    },
-    {
-     "card": "Dracotail Arthalion",
-     "action_ko": "융합 소환 시 효과(체인 1): 묘지의 [[Fallen of the White Dragon]]을 패로",
-     "class": [
-      "monster_effect_field",
-      "gy_effect"
-     ],
-     "result_ko": "체인 2·3에 우르굴라 ①·파이메나 ②(세트)가 쌓임"
-    },
-    {
-     "card": "Dracotail Urgula",
-     "action_ko": "융합 소재 효과(체인 2·3, 파이메나와 함께): 드래곤테일 마함 세트",
-     "class": [
-      "monster_effect_gy",
-      "place_from_deck"
-     ],
-     "result_ko": "[[Dracotail Flame]]·[[Dracotail Horn]] 세트"
-    },
-    {
-     "card": "Fallen of the White Dragon",
-     "action_ko": "패에서: 엑덱의 알비온을 묘지로 보내고 자신 특소 (이후 엑덱은 레벨 8 융합·싱크로만)",
-     "class": [
-      "monster_effect_hand",
-      "ss_from_hand"
-     ],
-     "result_ko": ""
-    },
-    {
-     "card": "Fallen of the White Dragon",
-     "action_ko": "소환 성공 시 효과: 패·덱·묘지에서 에클레시아 몬스터 특소",
-     "class": [
-      "monster_effect_field",
-      "ss_from_deck"
-     ],
-     "result_ko": "[[Incredible Ecclesia, the Virtuous]] 덱에서 특소"
-    },
-    {
-     "card": "Dracotail Urgula",
-     "action_ko": "묘지 효과: 자신을 덱 맨 아래로, 파이메나를 패로",
-     "class": [
-      "monster_effect_gy",
-      "gy_effect"
-     ],
-     "result_ko": "파이메나 패로"
-    },
-    {
-     "card": "Albion the Branded Dragon",
-     "action_ko": "엔드 페이즈, 이번 턴 묘지로 보내졌으므로: 덱에서 낙인 마함 세트",
-     "class": [
-      "monster_effect_gy",
-      "place_from_deck"
-     ],
-     "result_ko": "[[The Fallen & The Virtuous]] 세트"
-    }
-   ],
-   "end_board": [
-    "Secreterion Dragon",
-    "Dracotail Arthalion",
-    "Dracotail Phryxul",
-    "Fallen of the White Dragon",
-    "Incredible Ecclesia, the Virtuous",
-    "Dracotail Flame",
-    "Dracotail Horn",
-    "The Fallen & The Virtuous"
-   ],
-   "end_board_note_ko": "패에 [[Dracotail Faimena]]. [[Secreterion Dragon]]이 상대의 특소된 드래곤족·마법사족 효과를 막는다. [[Incredible Ecclesia, the Virtuous]]는 상대 턴에 릴리스해 [[Fallen of Albaz]]를 덱에서 꺼내 상대 몬스터를 소재로 융합, [[The Fallen & The Virtuous]]는 파괴 또는 묘지 소생, 파이메나는 상대 턴 융합. 견제 5~6개."
-  },
-  {
-   "id": "opp_turn",
-   "title_ko": "상대 턴(우리 턴)의 드래곤테일 움직임",
-   "hand": [
-    "Dracotail Faimena"
-   ],
-   "note_ko": "`lukias` 라인 판면(알자리온·그라멜·플레임·혼, 패에 파이메나)을 받은 우리 턴 기준. 우리 턴이라 뵐러는 못 쓰고, 패에서 무한포영을 쓰려면 우리 필드가 비어 있어야 한다. 아래 순서는 드래곤테일 측이 보통 고르는 순서이고, 실제로는 우리가 움직이는 카드에 맞춰 체인으로 끼어든다.",
-   "steps": [
-    {
-     "card": "Dracotail Faimena",
-     "action_ko": "우리 메인 페이즈에 패에서 버리고 필드의 알자리온 + 패의 몬스터(패트랩도 가능)로 융합",
-     "class": [
-      "monster_effect_hand",
-      "ss_from_extra"
-     ],
-     "result_ko": "2번째 [[Dracotail Arthalion]]"
-    },
-    {
-     "card": "Dracotail Gulamel",
-     "action_ko": "드래곤테일 효과 발동에 체인(속공): 우리 카드 1장 파괴",
-     "class": [
-      "monster_effect_field"
-     ],
-     "result_ko": "1턴 1번"
-    },
-    {
-     "card": "Dracotail Arthalion",
-     "action_ko": "융합 소환 시 효과: 패 소재 수만큼 우리 필드 몬스터 바운스 / 자기 묘지의 소재(패트랩) 회수",
-     "class": [
-      "monster_effect_field",
-      "gy_effect"
-     ],
-     "result_ko": ""
-    },
-    {
-     "card": "Dracotail Horn",
-     "action_ko": "발동: 공격 표시 몬스터 1장을 패·엑덱으로 → 묘지의 드래곤테일 1장 덱 맨 아래 → 1드로우",
-     "class": [
-      "spell_trap_activation",
-      "gy_effect",
-      "draw"
-     ],
-     "result_ko": ""
-    },
-    {
-     "card": "Dracotail Flame",
-     "action_ko": "발동: 필드의 앞면 마법 1장(발동 중인 마법 포함) 효과를 턴 종료시까지 무효 → 리사이클·1드로우",
-     "class": [
-      "spell_trap_activation",
-      "gy_effect",
-      "draw"
-     ],
-     "result_ko": ""
-    }
-   ],
-   "end_board": [
-    "Dracotail Arthalion",
-    "Dracotail Gulamel"
-   ],
-   "end_board_note_ko": "[[Dracotail Arthalion]]·[[Dracotail Gulamel]]은 묘지에 있을 때 몬스터 2장 이상이 동시에 묘지로 가면(융합 소재 등) 스스로 특소된다(필드를 떠나면 제외). 파이메나 융합으로 알자리온+패 몬스터가 함께 묘지로 가도, 그 순간 묘지에 없던 1번째 알자리온은 자기 효과를 못 쓴다. 우리 턴에 드래곤테일이 패·필드 몬스터 효과를 쓰므로 [[Triple Tactics Talent]] 조건이 쉽게 성립한다."
-  }
- ],
- "chokepoints": [
-  {
-   "handtrap": "ash",
-   "severity": "critical",
-   "line": "lukias",
-   "step": 2,
-   "target_card": "Dracotail Lukias",
-   "timing_ko": "[[Dracotail Lukias]] 일반 소환 후 서치 효과 발동에 체인",
-   "why_ko": "파이메나가 안 들어오면 손패의 속공 융합 수단이 없어 첫 융합 자체를 못 한다. 루키아스는 제한 1이라 같은 효과를 다시 쓸 수 없다.",
-   "fallback_ko": "손에 [[Dracotail Mululu]]·[[Rahu Dracotail]]·[[Ketu Dracotail]]이 따로 있으면 그쪽으로 다시 시작(루키아스를 소재로 쓰면 ②로 세트는 된다). 없으면 루키아스 1장으로 턴 종료."
-  },
-  {
-   "handtrap": "ash",
-   "severity": "critical",
-   "line": "lukias",
-   "step": 6,
-   "target_card": "Rahu Dracotail",
-   "timing_ko": "세트된 [[Rahu Dracotail]] 발동에 체인 (덱 소재를 묘지로 보내는 효과라 맞는다)",
-   "why_ko": "그라멜 융합과 우르굴라·파이메나의 세트 2장이 통째로 사라진다. 남는 것은 알자리온 1장과 패의 파이메나뿐.",
-   "fallback_ko": "상대 턴에 파이메나로 2번째 알자리온 정도. 루키아스 서치에 우라라를 안 썼다면 여기가 2순위. 라후로 시작한 핸드면 라후가 첫 발동이라 바로 여기에."
-  },
-  {
-   "handtrap": "ash",
-   "severity": "critical",
-   "line": "branded",
-   "step": 1,
-   "target_card": "Branded Fusion",
-   "timing_ko": "[[Branded Fusion]] 발동에 체인 (덱에서 소재 2장을 보냄)",
-   "why_ko": "낙인 1장 초동은 여기서 전부 시작한다. 제한 1이라 두 번째가 없다.",
-   "fallback_ko": "낙인융합 발동 턴이라 엑덱은 융합만. 패의 다른 드래곤테일 초동이 있으면 기본형 라인으로 이어간다."
-  },
-  {
-   "handtrap": "imperm",
-   "severity": "strong",
-   "line": "lukias",
-   "step": 4,
-   "target_card": "Dracotail Arthalion",
-   "timing_ko": "[[Dracotail Arthalion]] 융합 소환 후 체인 1(회수) 위에 루키아스 ②가 쌓인 시점에 체인 3으로 알자리온 대상. 뵐러도 같은 타이밍에 가능",
-   "why_ko": "파이메나가 패로 돌아오지 않는다. [[Rahu Dracotail]]로 나오는 알자리온·그라멜은 둘 다 '패의 몬스터'가 소재로 필요해서, 손에 다른 몬스터가 없으면 라후가 헛발이 된다.",
-   "fallback_ko": "손에 몬스터(패트랩 포함)가 남아 있으면 그걸 소재로 라후 → 그라멜까지는 간다. 그래도 파이메나 상대 턴 융합은 사라진다."
-  },
-  {
-   "handtrap": "ogre",
-   "severity": "strong",
-   "line": "lukias",
-   "step": 2,
-   "target_card": "Dracotail Lukias",
-   "timing_ko": "[[Dracotail Lukias]]의 서치 효과 발동에 체인",
-   "why_ko": "서치는 처리되지만 루키아스가 파괴되어 필드에 드래곤테일이 없다. 파이메나는 코스트로 버려지므로 '드래곤테일 + 패의 몬스터' 소재를 맞추지 못하고, 루키아스도 소재가 아니라 파괴로 묘지에 가서 세트 효과가 없다.",
-   "fallback_ko": "손에 드래곤테일 몬스터와 다른 몬스터가 함께 있을 때만 파이메나로 융합 가능."
-  },
-  {
-   "handtrap": "maxxc",
-   "severity": "strong",
-   "line": "branded",
-   "step": 1,
-   "target_card": "Branded Fusion",
-   "timing_ko": "낙인 혼합 라인의 첫 특소([[Branded Fusion]] 융합) 시점",
-   "why_ko": "낙인 루트는 특소 8회 전후. 끝까지 가면 8장을 준다. 기본형(`lukias`)에는 2장뿐이라 G는 낙인 엔진이 보일 때 아껴 둔다.",
-   "fallback_ko": "보통 알자리온·사크라멘툼 드라군까지만 만들고 멈춘다. 후와로스는 덱·엑덱 특소만 세어 최대 5장."
-  },
-  {
-   "handtrap": "belle",
-   "severity": "strong",
-   "line": "branded",
-   "step": 8,
-   "target_card": "Secreterion Dragon",
-   "timing_ko": "[[Secreterion Dragon]]의 '묘지의 드래곤·마법사 중 하나 특소' 효과 발동에 체인",
-   "why_ko": "프리클이 돌아오지 않아 파이메나 회수 → 라후 융합 흐름이 끊긴다. 이후 [[Fallen of the White Dragon]] 회수도 없다.",
-   "fallback_ko": "라후는 세트되어 있으니 손에 몬스터가 있으면 알자리온 1장은 더 나온다. 와라시는 프리클 ①이나 [[Fallen of the White Dragon]]의 에클레시아 특소에도 걸리지만 여기가 가장 앞쪽 분기점."
-  },
-  {
-   "handtrap": "imperm",
-   "severity": "strong",
-   "line": "opp_turn",
-   "step": 2,
-   "target_card": "Dracotail Gulamel",
-   "timing_ko": "우리 턴 메인 페이즈 1 시작 직후, 아무것도 깔기 전(필드가 비어 있을 때 패에서) [[Dracotail Gulamel]]을 대상으로",
-   "why_ko": "그라멜 파괴가 이 판면 견제의 축이다. 먼저 꺼 두면 파이메나 융합·혼·플레임이 전부 파괴 없이 처리된다. 무효는 턴 종료시까지라 이번 턴 내내 유효.",
-   "fallback_ko": "파이메나 융합 + 알자리온 바운스, 혼, 플레임은 그대로 남는다. [[Forbidden Droplet]]으로도 같은 목적."
-  },
-  {
-   "handtrap": "belle",
-   "severity": "ok",
-   "line": "opp_turn",
-   "step": 4,
-   "target_card": "Dracotail Horn",
-   "timing_ko": "[[Dracotail Horn]]·[[Dracotail Flame]]·[[Dracotail Sting]] 발동에 체인 (묘지 카드를 덱으로 되돌리는 효과를 포함해 발동 자체가 무효)",
-   "why_ko": "바운스·마법 무효를 통째로 막는다. 그라멜 파괴 트리거는 이미 발동 시점에 걸리므로 그건 남는다.",
-   "fallback_ko": "다른 함정과 파이메나는 남는다. 선공 턴에 [[Dracotail Urgula]] 묘지 회수에 와라시를 써서 파이메나를 미리 빼는 선택도 있다."
-  },
-  {
-   "handtrap": "ash",
-   "severity": "bad",
-   "line": "mululu",
-   "step": 2,
-   "target_card": "Dracotail Mululu",
-   "timing_ko": "무루루·파이메나의 융합 효과",
-   "why_ko": "패·필드 몬스터만 소재로 쓰는 융합이라 덱을 건드리지 않아 우라라가 발동 조건을 못 맞춘다. 파이메나는 패에서 쓰는 효과라 무한포영도 안 된다.",
-   "fallback_ko": "우라라는 루키아스 서치·케투 서치·라후·낙인융합에 남겨 둔다."
-  }
- ],
- "handtrap_summary": {
-  "ash": {
-   "rating": "critical",
-   "note_ko": "루키아스 서치 > 라후(덱 소재) > 케투 서치. 낙인형이면 낙인융합이 최우선. 무루루·파이메나 융합에는 안 맞는다."
-  },
-  "maxxc": {
-   "rating": "ok",
-   "note_ko": "기본형은 소환 3회라 2장 정도. 낙인 혼합 루트(소환 8회 전후)에서는 strong. 첫 특소에 던진다."
-  },
-  "fuwalos": {
-   "rating": "ok",
-   "note_ko": "덱·엑덱 특소만 세어 기본형 2장, 낙인형 최대 5장. 필드가 비어 있어야 함."
-  },
-  "purulia": {
-   "rating": "weak",
-   "note_ko": "패에서의 소환이 일반 소환 1회와 하얀 용 특소 정도라 드로우가 적다."
-  },
-  "meowls": {
-   "rating": "weak",
-   "note_ko": "묘지 특소는 낙인형의 사크라멘툼 드라군·프리클 정도. 기본형에는 거의 없다."
-  },
-  "droll": {
-   "rating": "ok",
-   "note_ko": "루키아스 서치 뒤에 쓰면 케투·2번째 서치를 막는다. 우르굴라 회수는 묘지→패라 못 막는다."
-  },
-  "imperm": {
-   "rating": "strong",
-   "note_ko": "선공 턴: 알자리온 회수 효과(파이메나 회수 차단) 또는 무루루 융합. 상대 턴: 우리 턴 시작 시 그라멜을 미리 무효."
-  },
-  "veiler": {
-   "rating": "strong",
-   "note_ko": "선공 턴에만. 알자리온·무루루·루키아스에 무한포영과 같은 용도. 우리 턴(상대 턴 융합)에는 못 쓴다."
-  },
-  "ogre": {
-   "rating": "strong",
-   "note_ko": "루키아스 서치·무루루 융합에 쓰면 소재를 없애 융합을 막는다. 알자리온 효과는 루키아스 ②가 위에 쌓여 직접 체인이 안 된다."
-  },
-  "belle": {
-   "rating": "ok",
-   "note_ko": "낙인형의 사크라멘툼 드라군 특소, 우르굴라 회수, 드래곤테일 함정(묘지 카드를 덱으로)에 맞는다."
-  },
-  "mourner": {
-   "rating": "ok",
-   "note_ko": "알자리온 융합 소환 직후에 효과 무효를 걸면 회수가 막힌다(무한포영과 같은 효과)."
-  },
-  "crossout": {
-   "rating": "weak",
-   "note_ko": "자기 덱에 있는 카드만 선언 가능. 내가 알버스 엔진을 쓴다면 [[Branded Fusion]]·[[Fallen of the White Dragon]] 선언으로 낙인형만 견제할 수 있다."
-  },
-  "ttt": {
-   "rating": "ok",
-   "note_ko": "후공용. 우리 턴에 파이메나·그라멜이 몬스터 효과를 쓰므로 조건이 쉽게 맞는다."
-  },
-  "droplet": {
-   "rating": "strong",
-   "note_ko": "후공용. 그라멜·알자리온을 동시에 무효. 함정과 같은 종류로 버리면 혼·플레임 체인도 막는다."
-  },
-  "nibiru": {
-   "rating": "weak",
-   "note_ko": "기본형은 소환 3회로 조건 미달. 낙인형은 파이메나 특소가 5번째라 그 뒤에 쓸 수 있다."
-  },
-  "impulse": {
-   "rating": "ok",
-   "note_ko": "라후·낙인융합·무루루·파이메나 융합 같은 특소 효과를 무효. 상대 필드에 카드가 있어야 패에서 발동 가능."
-  },
-  "purge": {
-   "rating": "ok",
-   "note_ko": "루키아스·케투 서치 무효."
-  },
-  "spark": {
-   "rating": "ok",
-   "note_ko": "파이메나(패)·우르굴라(묘지)가 효과를 쓴 턴에 그라멜 등을 제외."
-  },
-  "magnamhut": {
-   "rating": "weak",
-   "note_ko": "묘지의 알비온을 엔드 페이즈 전에 제외하는 정도(낙인형)."
-  },
-  "gamma": {
-   "rating": "ok",
-   "note_ko": "루키아스 서치나 파이메나 융합 무효. 필드에 몬스터가 없어야 함."
-  }
- },
- "notes_ko": [
-  "우라라를 무루루·파이메나 융합에 던지지 말 것. 덱을 건드리지 않아 체인 자체가 불가.",
-  "알자리온 회수 효과는 항상 루키아스·무루루·파이메나의 세트 효과를 위에 쌓아 발동되므로 유령토끼·와라시처럼 '발동했을 때' 직접 체인해야 하는 카드는 타이밍이 없다. 무한포영·뵐러는 대상 지정이라 체인 3에서도 된다.",
-  "드래곤테일의 세트 효과는 '융합 소재로 묘지에 보내졌을 때'다. 융합 마법(라후·케투·낙인융합) 발동에 [[Retaliating \"C\"]]를 특소하면 이후 묘지로 가는 카드가 제외되어 세트 효과와 알자리온·그라멜의 묘지 자기 소생이 함께 막힌다. 파이메나·무루루는 몬스터 효과라 조건이 안 된다.",
-  "[[Fallen of the White Dragon]] 효과를 쓴 턴은 엑덱이 레벨 8 융합·싱크로만 되므로 레벨 7인 [[Dracotail Gulamel]]이 못 나온다. 낙인형 판면에 그라멜이 없는 이유.",
-  "상대 턴 융합이 있으므로, 우리 턴에 G나 패트랩을 먼저 쓰게 되면 파이메나 융합으로 소재(패트랩)를 회수당할 수 있다. 그라멜을 먼저 처리하고 움직일 것.",
-  "드래곤테일 함정(플레임·혼·스팅)의 1장 드로우는 '덱에서 패에 넣기'가 아니라서 우라라로 무효할 수 없다. 대응한다면 저택 와라시(묘지·제외 카드를 덱 맨 아래로 되돌리는 효과를 포함하므로 발동 무효 가능)."
- ],
- "sources": [
-  "https://ygotac.com/dragon-tail_combo/ (ygotac: ドラゴンテイル 展開ルート, MD, 2026-09-16 — 기본형 3 + 烙印型 3 루트와 패트랩 타점)",
-  "https://www.masterduelmeta.com/spreadsheet/6a2678bc6d36490346e7c8cc (Master Duel Meta: Dracotail combo spreadsheet)",
-  "https://game8.jp/yugioh-masterduel/746770 (game8: 烙印ドラゴンテイル 레시피·루키아스 초동 루트)",
-  "https://www.masterduelmeta.com/api/v1/cards (Master Duel Meta 카드 API: MD 영문 텍스트·제한 상태)"
- ],
- "going_second": {
-  "summary_ko": "기본형 판면은 몬스터 효과 무효가 하나도 없다. 견제는 [[Dracotail Gulamel]]의 파괴 1회(드래곤테일 발동에 붙음), 패의 [[Dracotail Faimena]]로 하는 2번째 [[Dracotail Arthalion]] 융합(바운스), [[Dracotail Horn]](공격 표시 바운스), [[Dracotail Flame]](마법 무효)이다. 그라멜을 먼저 끄고, 첫 마법은 플레임에 맞는다고 보고 미끼를 먼저 쓴다. 알자리온·그라멜은 몬스터 2장이 동시에 묘지로 가면 묘지에서 돌아오므로 1장만 묘지로 보내는 제거, 함정이 남은 상태의 마법 전체 파괴에는 강하고, 체인 불가([[Super Polymerization]])나 함정·배틀 페이즈 타이밍([[Evenly Matched]])에 약하다. 낙인 혼합형은 [[Secreterion Dragon]]·에클레시아·TFTV가 더해져 훨씬 단단하다.",
-  "difficulty": "medium",
-  "boards": [
-   {
-    "id": "full",
-    "title_ko": "풀 전개 (루키아스 + 몬스터 1장, 기본형)",
-    "line": "lukias",
-    "interruptions": [
-     {
-      "id": "gulamel",
-      "card": "Dracotail Gulamel",
-      "kind": "removal",
-      "zone": "monster",
-      "timing_ko": "상대가 드래곤테일 카드·효과([[Dracotail Faimena]] 융합, [[Dracotail Horn]]·[[Dracotail Flame]] 등)를 발동할 때 체인해 내 카드 1장 파괴 (퀵, 1턴 1번)",
-      "answered_by": [
-       {
-        "id": "imperm",
-        "note_ko": "내 필드가 비어 있는 메인 페이즈 1 시작 직후 패에서 [[Dracotail Gulamel]] 대상. 그라멜은 드래곤테일 발동에만 반응하므로 무한포영 자체에는 체인 못 함(파이메나를 체인해 오면 그때 파괴 1회는 소모되지만 무효는 그대로 들어간다)"
-       },
-       {
-        "id": "droplet",
-        "note_ko": "[[Dracotail Arthalion]]과 함께 무효. 함정 카드를 보내면 [[Dracotail Flame]]·[[Dracotail Horn]]으로 체인할 수 없다. 마법만 보내면 플레임에 무효당한다"
-       },
-       {
-        "id": "gamma",
-        "note_ko": "그라멜 파괴 효과 발동에 체인해 무효+파괴. 내 필드에 몬스터가 없어야 한다. 무효된 발동도 1턴 1번은 쓴 것으로 처리"
-       },
-       {
-        "id": "dark_ruler",
-        "note_ko": "몬스터 효과로 체인할 수 없어 그라멜·알자리온을 함께 무효. 단 일반 마법이라 세트된 [[Dracotail Flame]]에 무효당하니 플레임을 먼저 소모시킨 뒤에"
-       },
-       {
-        "id": "super_poly",
-        "note_ko": "그라멜 + 알자리온을 소재로 흡수. 체인 불가라 플레임·파이메나도 못 끼어든다. 맞는 융합 몬스터(드래곤족 땅 + 마법사족 물)가 내 엑덱에 있어야 함"
-       },
-       {
-        "id": "spark",
-        "note_ko": "상대가 패의 파이메나 효과를 쓴 뒤라면 그라멜을 제외. 함정이라 플레임이 못 막고, 묘지로 안 가서 자기 소생도 없다"
-       }
-      ],
-      "bait_ko": "아무 드래곤테일 발동에나 1번 붙으므로, 플레임·혼을 먼저 끌어내면 그 발동에서 파괴를 써 버린다. 가장 덜 중요한 앞면 카드를 먼저 깔아 두면 그걸 파괴 대상으로 고르게 유도할 수 있다."
-     },
-     {
-      "id": "faimena",
-      "card": "Dracotail Faimena",
-      "kind": "bounce",
-      "zone": "hand",
-      "timing_ko": "내 메인 페이즈 중 패에서 버리고(퀵) 필드의 드래곤테일 + 패의 몬스터로 2번째 [[Dracotail Arthalion]] 융합 → 융합 소환 시 패 소재 수(보통 1)만큼 내 몬스터 바운스(엑덱 몬스터는 엑덱으로). 배틀 페이즈에는 못 씀",
-      "answered_by": [
-       {
-        "id": "impulse",
-        "note_ko": "몬스터를 특소하는 효과의 발동이라 무효. 그라멜 파괴 트리거는 발동 시점에 이미 걸리므로 그라멜을 먼저 처리해 둘 것. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 발동 불가"
-       },
-       {
-        "id": "gamma",
-        "note_ko": "패에서 발동한 몬스터 효과에도 체인 가능. 내 필드에 몬스터가 없어야 한다. 그라멜 파괴와 동시에 오면 하나만 고를 수 있다"
-       },
-       {
-        "id": "mourner",
-        "note_ko": "2번째 알자리온이 특소된 직후 효과를 무효해 바운스를 막는다"
-       },
-       {
-        "id": "super_poly",
-        "note_ko": "필드의 드래곤테일 몬스터를 미리 전부 흡수하면 '드래곤테일 + 패의 몬스터' 소재가 맞지 않아 파이메나가 죽은 카드가 된다(패에 다른 드래곤테일 몬스터가 있으면 예외)"
-       },
-       {
-        "id": "evenly_matched",
-        "note_ko": "배틀 페이즈 종료 시 발동이라 메인 페이즈 전용인 파이메나로 응수할 수 없다. 필드의 드래곤테일이 사라지면 메인 페이즈 2에도 소재가 없다"
-       }
-      ],
-      "bait_ko": "파이메나는 메인 페이즈 퀵이라 내가 큰 카드를 낼 때 체인으로 들어온다. 먼저 덜 중요한 몬스터를 소환해 바운스 대상을 주거나, 바운스되어도 손해가 적은 메인 덱 몬스터로 시작한다."
-     },
-     {
-      "id": "horn",
-      "card": "Dracotail Horn",
-      "kind": "bounce",
-      "zone": "st",
-      "timing_ko": "세트된 일반 함정. 공격 표시 몬스터 1장을 패·엑덱으로 되돌림(1턴 1번). 발동하면 그라멜 파괴도 따라온다",
-      "answered_by": [
-       {
-        "id": "belle",
-        "note_ko": "묘지의 드래곤테일을 덱으로 되돌리는 효과를 포함해 발동 자체를 무효. 그라멜 트리거는 남는다"
-       },
-       {
-        "id": "harpie",
-        "note_ko": "체인으로 혼을 쓰게 되지만 공격 표시 몬스터가 없으면 대상이 없다. [[Dracotail Flame]]이 이 마법을 무효할 수 있으니 플레임을 먼저 소모"
-       },
-       {
-        "id": "cosmic",
-        "note_ko": "세트 카드를 제외하려 하면 상대는 체인으로 발동하거나 그냥 잃는다. 공격 표시 몬스터가 없는 타이밍에 쓰면 혼이 헛발. 플레임 무효 대상이기도 하다"
-       },
-       {
-        "id": "droplet",
-        "note_ko": "함정을 보내고 발동하면 그 발동에는 혼으로 체인할 수 없다(제거는 아님)"
-       }
-      ],
-      "bait_ko": "공격 표시 몬스터만 대상이다. 특소는 가능하면 수비 표시로, 핵심 엑덱 몬스터는 공격할 때까지 아껴 두면 혼이 놀거나 덜 중요한 몬스터에 쓰인다."
-     },
-     {
-      "id": "flame",
-      "card": "Dracotail Flame",
-      "kind": "quick_negate",
-      "zone": "st",
-      "timing_ko": "세트된 일반 함정. 앞면 마법 1장(발동 중인 마법 포함) 효과를 턴 종료시까지 무효(1턴 1번). 함정·몬스터 효과는 못 막는다",
-      "answered_by": [
-       {
-        "id": "belle",
-        "note_ko": "묘지의 카드를 덱으로 되돌리는 효과를 포함하므로 발동 무효"
-       },
-       {
-        "id": "droplet",
-        "note_ko": "함정을 보내면 함정으로 체인 불가라 플레임이 이 드롭렛에 못 끼어든다"
-       },
-       {
-        "id": "super_poly",
-        "note_ko": "발동에 아무것도 체인할 수 없어 플레임을 무시한다"
-       },
-       {
-        "id": "evenly_matched",
-        "note_ko": "함정이라 플레임 대상이 아니다"
-       }
-      ],
-      "bait_ko": "첫 번째 마법에 거의 확실히 맞춘다. 덜 중요한 마법(드로우 마법·싸이크론 등)을 먼저 발동해 플레임과 그라멜 파괴를 함께 받아낸 뒤 [[Dark Ruler No More]]·[[Raigeki]] 같은 핵심 마법을 쓴다."
-     },
-     {
-      "id": "gulamel_float",
-      "card": "Dracotail Gulamel",
-      "kind": "recursion",
-      "zone": "gy",
-      "timing_ko": "묘지에 있을 때 몬스터 2장 이상이 동시에 묘지로 가면 스스로 특소(필드를 떠나면 제외). [[Dracotail Arthalion]]도 같은 효과. 각자 1턴 1번",
-      "answered_by": [
-       {
-        "id": "belle",
-        "note_ko": "묘지에서 특소하는 효과라 발동을 무효"
-       },
-       {
-        "id": "evenly_matched",
-        "note_ko": "뒷면 제외라 묘지를 거치지 않아 소생 조건 자체가 안 생긴다"
-       },
-       {
-        "id": "spark",
-        "note_ko": "제외라 묘지로 보내지 않는다"
-       },
-       {
-        "id": "super_poly",
-        "note_ko": "그라멜·알자리온을 동시에 소재로 보내면 둘 다 그 순간엔 묘지에 없던 카드라 자기 소생이 안 된다"
-       }
-      ],
-      "bait_ko": "그라멜이나 알자리온 1장만 먼저 묘지로 보내면, 이후 파이메나 융합(알자리온 + 패 몬스터 2장이 동시에 묘지로)이나 내 전체 파괴가 소생 조건을 채워 준다. 파괴 효과를 쓰지 않은 그라멜이 돌아오면 견제가 1개 더 생긴다. 둘을 같이 치우거나, 묘지로 보내지 않는 제거를 쓸 것."
-     }
-    ]
-   },
-   {
-    "id": "after_ash_lukias",
-    "title_ko": "루키아스 서치에 우라라를 맞은 경우",
-    "after": {
-     "handtrap": "ash",
-     "line": "lukias",
-     "step": 2
-    },
-    "interruptions": []
-   },
-   {
-    "id": "after_ash_rahu",
-    "title_ko": "라후에 우라라를 맞은 경우 (알자리온 + 패의 파이메나)",
-    "after": {
-     "handtrap": "ash",
-     "line": "lukias",
-     "step": 6
-    },
-    "interruptions": [
-     {
-      "id": "faimena_ash_rahu",
-      "card": "Dracotail Faimena",
-      "kind": "bounce",
-      "zone": "hand",
-      "timing_ko": "필드의 [[Dracotail Arthalion]] + 패의 몬스터로 파이메나 융합 → 2번째 알자리온이 내 몬스터 1장 바운스. 그라멜·세트 함정이 없어 남는 견제는 이것뿐",
-      "answered_by": [
-       {
-        "id": "impulse",
-        "note_ko": "몬스터를 특소하는 효과의 발동이라 무효. 그라멜 파괴 트리거는 발동 시점에 이미 걸리므로 그라멜을 먼저 처리해 둘 것. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 발동 불가"
-       },
-       {
-        "id": "gamma",
-        "note_ko": "패에서 발동한 몬스터 효과에도 체인 가능. 내 필드에 몬스터가 없어야 한다. 그라멜 파괴와 동시에 오면 하나만 고를 수 있다"
-       },
-       {
-        "id": "mourner",
-        "note_ko": "2번째 알자리온이 특소된 직후 효과를 무효해 바운스를 막는다"
-       },
-       {
-        "id": "super_poly",
-        "note_ko": "필드의 드래곤테일 몬스터를 미리 전부 흡수하면 '드래곤테일 + 패의 몬스터' 소재가 맞지 않아 파이메나가 죽은 카드가 된다(패에 다른 드래곤테일 몬스터가 있으면 예외)"
-       },
-       {
-        "id": "evenly_matched",
-        "note_ko": "배틀 페이즈 종료 시 발동이라 메인 페이즈 전용인 파이메나로 응수할 수 없다. 필드의 드래곤테일이 사라지면 메인 페이즈 2에도 소재가 없다"
-       }
-      ],
-      "bait_ko": "파이메나는 메인 페이즈 퀵이라 내가 큰 카드를 낼 때 체인으로 들어온다. 먼저 덜 중요한 몬스터를 소환해 바운스 대상을 주거나, 바운스되어도 손해가 적은 메인 덱 몬스터로 시작한다."
-     }
-    ]
-   },
-   {
-    "id": "after_imperm_arthalion",
-    "title_ko": "알자리온 회수 효과에 무한포영을 맞은 경우 (패에 몬스터가 1장 더 있을 때)",
-    "after": {
-     "handtrap": "imperm",
-     "line": "lukias",
-     "step": 4
-    },
-    "interruptions": [
-     {
-      "id": "gulamel_imperm_arthalion",
-      "card": "Dracotail Gulamel",
-      "kind": "removal",
-      "zone": "monster",
-      "timing_ko": "상대가 드래곤테일 카드·효과([[Dracotail Faimena]] 융합, [[Dracotail Horn]]·[[Dracotail Flame]] 등)를 발동할 때 체인해 내 카드 1장 파괴 (퀵, 1턴 1번)",
-      "answered_by": [
-       {
-        "id": "imperm",
-        "note_ko": "내 필드가 비어 있는 메인 페이즈 1 시작 직후 패에서 [[Dracotail Gulamel]] 대상. 그라멜은 드래곤테일 발동에만 반응하므로 무한포영 자체에는 체인 못 함(파이메나를 체인해 오면 그때 파괴 1회는 소모되지만 무효는 그대로 들어간다)"
-       },
-       {
-        "id": "droplet",
-        "note_ko": "[[Dracotail Arthalion]]과 함께 무효. 함정 카드를 보내면 [[Dracotail Flame]]·[[Dracotail Horn]]으로 체인할 수 없다. 마법만 보내면 플레임에 무효당한다"
-       },
-       {
-        "id": "gamma",
-        "note_ko": "그라멜 파괴 효과 발동에 체인해 무효+파괴. 내 필드에 몬스터가 없어야 한다. 무효된 발동도 1턴 1번은 쓴 것으로 처리"
-       },
-       {
-        "id": "dark_ruler",
-        "note_ko": "몬스터 효과로 체인할 수 없어 그라멜·알자리온을 함께 무효. 단 일반 마법이라 세트된 [[Dracotail Flame]]에 무효당하니 플레임을 먼저 소모시킨 뒤에"
-       },
-       {
-        "id": "super_poly",
-        "note_ko": "그라멜 + 알자리온을 소재로 흡수. 체인 불가라 플레임·파이메나도 못 끼어든다. 맞는 융합 몬스터(드래곤족 땅 + 마법사족 물)가 내 엑덱에 있어야 함"
-       },
-       {
-        "id": "spark",
-        "note_ko": "상대가 패의 파이메나 효과를 쓴 뒤라면 그라멜을 제외. 함정이라 플레임이 못 막고, 묘지로 안 가서 자기 소생도 없다"
-       }
-      ],
-      "bait_ko": "아무 드래곤테일 발동에나 1번 붙으므로, 플레임·혼을 먼저 끌어내면 그 발동에서 파괴를 써 버린다. 가장 덜 중요한 앞면 카드를 먼저 깔아 두면 그걸 파괴 대상으로 고르게 유도할 수 있다."
-     },
-     {
-      "id": "faimena_imperm_arthalion",
-      "card": "Dracotail Faimena",
-      "kind": "bounce",
-      "zone": "hand",
-      "timing_ko": "[[Rahu Dracotail]]로 덱의 [[Dracotail Urgula]]를 소재로 보내면 우르굴라 묘지 효과로 묘지의 파이메나를 다시 패에 넣을 수 있다(카드 텍스트 기준). 그러면 내 메인 페이즈에 2번째 알자리온 바운스가 남는다. 패에 남는 몬스터가 없으면 라후가 헛발이라 이 견제도 없다",
-      "answered_by": [
-       {
-        "id": "impulse",
-        "note_ko": "몬스터를 특소하는 효과의 발동이라 무효. 그라멜 파괴 트리거는 발동 시점에 이미 걸리므로 그라멜을 먼저 처리해 둘 것. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 발동 불가"
-       },
-       {
-        "id": "gamma",
-        "note_ko": "패에서 발동한 몬스터 효과에도 체인 가능. 내 필드에 몬스터가 없어야 한다. 그라멜 파괴와 동시에 오면 하나만 고를 수 있다"
-       },
-       {
-        "id": "mourner",
-        "note_ko": "2번째 알자리온이 특소된 직후 효과를 무효해 바운스를 막는다"
-       },
-       {
-        "id": "super_poly",
-        "note_ko": "필드의 드래곤테일 몬스터를 미리 전부 흡수하면 '드래곤테일 + 패의 몬스터' 소재가 맞지 않아 파이메나가 죽은 카드가 된다(패에 다른 드래곤테일 몬스터가 있으면 예외)"
-       },
-       {
-        "id": "evenly_matched",
-        "note_ko": "배틀 페이즈 종료 시 발동이라 메인 페이즈 전용인 파이메나로 응수할 수 없다. 필드의 드래곤테일이 사라지면 메인 페이즈 2에도 소재가 없다"
-       }
-      ],
-      "bait_ko": "파이메나는 메인 페이즈 퀵이라 내가 큰 카드를 낼 때 체인으로 들어온다. 먼저 덜 중요한 몬스터를 소환해 바운스 대상을 주거나, 바운스되어도 손해가 적은 메인 덱 몬스터로 시작한다."
-     },
-     {
-      "id": "flame_imperm_arthalion",
-      "card": "Dracotail Flame",
-      "kind": "quick_negate",
-      "zone": "st",
-      "timing_ko": "세트된 일반 함정. 앞면 마법 1장(발동 중인 마법 포함) 효과를 턴 종료시까지 무효(1턴 1번). 함정·몬스터 효과는 못 막는다",
-      "answered_by": [
-       {
-        "id": "belle",
-        "note_ko": "묘지의 카드를 덱으로 되돌리는 효과를 포함하므로 발동 무효"
-       },
-       {
-        "id": "droplet",
-        "note_ko": "함정을 보내면 함정으로 체인 불가라 플레임이 이 드롭렛에 못 끼어든다"
-       },
-       {
-        "id": "super_poly",
-        "note_ko": "발동에 아무것도 체인할 수 없어 플레임을 무시한다"
-       },
-       {
-        "id": "evenly_matched",
-        "note_ko": "함정이라 플레임 대상이 아니다"
-       }
-      ],
-      "bait_ko": "첫 번째 마법에 거의 확실히 맞춘다. 덜 중요한 마법(드로우 마법·싸이크론 등)을 먼저 발동해 플레임과 그라멜 파괴를 함께 받아낸 뒤 [[Dark Ruler No More]]·[[Raigeki]] 같은 핵심 마법을 쓴다."
-     }
-    ]
-   },
-   {
-    "id": "branded_full",
-    "title_ko": "풀 전개 (낙인융합 1장 초동, 낙인 혼합형)",
-    "line": "branded",
-    "interruptions": [
-     {
-      "id": "secreterion",
-      "card": "Secreterion Dragon",
-      "kind": "floodgate",
-      "zone": "monster",
-      "timing_ko": "융합 소환된 이 카드가 있는 동안 내가 특소한 드래곤족·마법사족 몬스터는 효과를 발동할 수 없다(지속 효과)",
-      "answered_by": [
-       {
-        "id": "kaiju",
-        "note_ko": "릴리스해 치우므로 체인이 없다. 1장만 묘지로 가서 자기 소생 조건도 안 생긴다"
-       },
-       {
-        "id": "imperm",
-        "note_ko": "내 필드가 비어 있을 때 패에서 미리 무효. 세크레테리온은 대응할 퀵 효과가 없다"
-       },
-       {
-        "id": "dark_ruler",
-        "note_ko": "몬스터 효과를 전부 무효해 지속 효과도 꺼진다. 플레임이 이 마법을 무효할 수 있다"
-       },
-       {
-        "id": "droplet",
-        "note_ko": "함정을 보내면 플레임 체인도 막으면서 무효"
-       },
-       {
-        "id": "super_poly",
-        "note_ko": "세크레테리온을 소재로 흡수. 체인 불가"
-       },
-       {
-        "id": "ultimate_slayer",
-        "note_ko": "엑덱의 융합을 보내고 덱으로 되돌림. 몬스터 효과로 체인 불가지만 일반 마법이라 플레임 대상"
-       }
-      ],
-      "bait_ko": "드래곤족·마법사족이 아닌 몬스터로 움직이면 신경 쓸 필요가 없다."
-     },
-     {
-      "id": "ecclesia_albaz",
-      "card": "Incredible Ecclesia, the Virtuous",
-      "kind": "removal",
-      "zone": "monster",
-      "timing_ko": "메인 페이즈 퀵: 자신을 릴리스하고 덱에서 [[Fallen of Albaz]] 특소 → 알버스가 1장 버리고 자신 + 내 몬스터로 융합(내 몬스터를 소재로 빼앗음). 각 1턴 1번",
-      "answered_by": [
-       {
-        "id": "ash",
-        "note_ko": "에클레시아의 덱 특소에 체인. 에클레시아는 이미 릴리스되어 몸통도 사라진다"
-       },
-       {
-        "id": "impulse",
-        "note_ko": "특소를 포함한 발동이라 무효"
-       },
-       {
-        "id": "ogre",
-        "note_ko": "알버스의 융합 효과 발동에 체인해 알버스를 파괴하면 '이 카드를 포함' 소재 조건이 깨져 융합 불발"
-       },
-       {
-        "id": "mourner",
-        "note_ko": "알버스가 특소된 직후 효과를 무효"
-       },
-       {
-        "id": "gamma",
-        "note_ko": "에클레시아 또는 알버스의 발동을 무효+파괴. 내 필드에 몬스터가 없어야 하는데, 그 경우 알버스가 빼앗을 내 몬스터도 없다"
-       }
-      ],
-      "bait_ko": "알버스는 자기 쪽 다른 몬스터를 소재로 못 쓴다. 내 필드에 몬스터가 없으면 이 견제는 사실상 공짜로 지나간다. 버려도 되는 몬스터 1장을 먼저 내서 소재로 가져가게 만든다."
-     },
-     {
-      "id": "tftv",
-      "card": "The Fallen & The Virtuous",
-      "kind": "removal",
-      "zone": "st",
-      "timing_ko": "세트된 속공 마법. 엑덱의 알버스 언급 몬스터를 묘지로 보내 앞면 카드 1장 파괴, 또는 에클레시아가 있으면 양쪽 묘지 몬스터 1장 소생. 이름 1턴 1번",
-      "answered_by": [
-       {
-        "id": "crossout",
-        "note_ko": "내 덱에 [[The Fallen & The Virtuous]]가 있을 때만 선언 가능. 이번 턴 그 이름의 효과 전부 무효"
-       },
-       {
-        "id": "belle",
-        "note_ko": "소생 모드(묘지에서 특소)일 때만 무효. 파괴 모드에는 못 씀"
-       },
-       {
-        "id": "cosmic",
-        "note_ko": "체인으로 발동시키게 만들 뿐이지만 타이밍을 내가 정할 수 있다"
-       }
-      ],
-      "bait_ko": "앞면 카드 1장 파괴이므로 지속 마함이나 덜 중요한 몬스터를 먼저 앞면으로 둬 대상을 준다."
-     },
-     {
-      "id": "faimena_branded_full",
-      "card": "Dracotail Faimena",
-      "kind": "bounce",
-      "zone": "hand",
-      "timing_ko": "내 메인 페이즈 중 패에서 버리고(퀵) 필드의 드래곤테일([[Dracotail Arthalion]]·[[Dracotail Phryxul]]) + 패의 몬스터로 2번째 알자리온(바운스) 또는 [[Dracotail Gulamel]](이번 턴엔 레벨 제한이 없음) 융합",
-      "answered_by": [
-       {
-        "id": "impulse",
-        "note_ko": "몬스터를 특소하는 효과의 발동이라 무효. 그라멜 파괴 트리거는 발동 시점에 이미 걸리므로 그라멜을 먼저 처리해 둘 것. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 발동 불가"
-       },
-       {
-        "id": "gamma",
-        "note_ko": "패에서 발동한 몬스터 효과에도 체인 가능. 내 필드에 몬스터가 없어야 한다. 그라멜 파괴와 동시에 오면 하나만 고를 수 있다"
-       },
-       {
-        "id": "mourner",
-        "note_ko": "2번째 알자리온이 특소된 직후 효과를 무효해 바운스를 막는다"
-       },
-       {
-        "id": "super_poly",
-        "note_ko": "필드의 드래곤테일 몬스터를 미리 전부 흡수하면 '드래곤테일 + 패의 몬스터' 소재가 맞지 않아 파이메나가 죽은 카드가 된다(패에 다른 드래곤테일 몬스터가 있으면 예외)"
-       },
-       {
-        "id": "evenly_matched",
-        "note_ko": "배틀 페이즈 종료 시 발동이라 메인 페이즈 전용인 파이메나로 응수할 수 없다. 필드의 드래곤테일이 사라지면 메인 페이즈 2에도 소재가 없다"
-       }
-      ],
-      "bait_ko": "파이메나는 메인 페이즈 퀵이라 내가 큰 카드를 낼 때 체인으로 들어온다. 먼저 덜 중요한 몬스터를 소환해 바운스 대상을 주거나, 바운스되어도 손해가 적은 메인 덱 몬스터로 시작한다."
-     },
-     {
-      "id": "horn_branded_full",
-      "card": "Dracotail Horn",
-      "kind": "bounce",
-      "zone": "st",
-      "timing_ko": "세트된 일반 함정. 공격 표시 몬스터 1장을 패·엑덱으로 되돌림(1턴 1번). 발동하면 그라멜 파괴도 따라온다",
-      "answered_by": [
-       {
-        "id": "belle",
-        "note_ko": "묘지의 드래곤테일을 덱으로 되돌리는 효과를 포함해 발동 자체를 무효. 그라멜 트리거는 남는다"
-       },
-       {
-        "id": "harpie",
-        "note_ko": "체인으로 혼을 쓰게 되지만 공격 표시 몬스터가 없으면 대상이 없다. [[Dracotail Flame]]이 이 마법을 무효할 수 있으니 플레임을 먼저 소모"
-       },
-       {
-        "id": "cosmic",
-        "note_ko": "세트 카드를 제외하려 하면 상대는 체인으로 발동하거나 그냥 잃는다. 공격 표시 몬스터가 없는 타이밍에 쓰면 혼이 헛발. 플레임 무효 대상이기도 하다"
-       },
-       {
-        "id": "droplet",
-        "note_ko": "함정을 보내고 발동하면 그 발동에는 혼으로 체인할 수 없다(제거는 아님)"
-       }
-      ],
-      "bait_ko": "공격 표시 몬스터만 대상이다. 특소는 가능하면 수비 표시로, 핵심 엑덱 몬스터는 공격할 때까지 아껴 두면 혼이 놀거나 덜 중요한 몬스터에 쓰인다."
-     },
-     {
-      "id": "flame_branded_full",
-      "card": "Dracotail Flame",
-      "kind": "quick_negate",
-      "zone": "st",
-      "timing_ko": "세트된 일반 함정. 앞면 마법 1장(발동 중인 마법 포함) 효과를 턴 종료시까지 무효(1턴 1번). 함정·몬스터 효과는 못 막는다",
-      "answered_by": [
-       {
-        "id": "belle",
-        "note_ko": "묘지의 카드를 덱으로 되돌리는 효과를 포함하므로 발동 무효"
-       },
-       {
-        "id": "droplet",
-        "note_ko": "함정을 보내면 함정으로 체인 불가라 플레임이 이 드롭렛에 못 끼어든다"
-       },
-       {
-        "id": "super_poly",
-        "note_ko": "발동에 아무것도 체인할 수 없어 플레임을 무시한다"
-       },
-       {
-        "id": "evenly_matched",
-        "note_ko": "함정이라 플레임 대상이 아니다"
-       }
-      ],
-      "bait_ko": "첫 번째 마법에 거의 확실히 맞춘다. 덜 중요한 마법(드로우 마법·싸이크론 등)을 먼저 발동해 플레임과 그라멜 파괴를 함께 받아낸 뒤 [[Dark Ruler No More]]·[[Raigeki]] 같은 핵심 마법을 쓴다."
-     }
-    ]
-   }
+  "variants": [
+    "Dracotail"
   ],
-  "breakers": {
-   "lightning_storm": {
-    "rating": "ok",
-    "note_ko": "내 필드에 앞면 카드가 없을 때만. 일반 마법이라 [[Dracotail Flame]]에 무효당하기 쉽다. 플레임이 빠진 뒤라면 몬스터 모드로 공격 표시 알자리온·그라멜을 동시에 처리(동시에 묘지로 가도 그 순간 묘지에 없던 카드라 소생 안 함). 파이메나가 체인해 융합하면 묘지에 들어간 1번째 알자리온이 소생한다."
-   },
-   "evenly_matched": {
-    "rating": "strong",
-    "note_ko": "함정이라 플레임이 못 막고, 배틀 페이즈 종료 시라 메인 페이즈 전용인 파이메나도 체인 불가. 뒷면 제외라 묘지 소생도 없다. 메인 페이즈 1에 아무것도 깔지 않아야 패에서 발동할 수 있다."
-   },
-   "dark_ruler": {
-    "rating": "ok",
-    "note_ko": "그라멜·알자리온을 체인 없이 무효하지만 마법이라 세트된 플레임에 무효당한다. 플레임을 미끼로 소모시킨 뒤라면 strong. 패의 파이메나와 이후 나오는 2번째 알자리온은 무효 대상이 아니다."
-   },
-   "harpie": {
-    "rating": "weak",
-    "note_ko": "혼·플레임은 체인으로 발동되고, 플레임이 이 카드 자체를 무효한다. 제한 1이라 미끼로 쓰기도 아깝다."
-   },
-   "heavy_storm": {
-    "rating": "weak",
-    "note_ko": "해피의 깃털과 같은 문제. 제한 1."
-   },
-   "raigeki": {
-    "rating": "weak",
-    "note_ko": "플레임 무효 대상이고, 통과해도 파이메나가 체인으로 알자리온을 소재로 융합하면 해결 시 그 알자리온이 묘지에서 소생한다. 플레임·파이메나가 빠진 뒤에만 쓸 만하다."
-   },
-   "dark_hole": {
-    "rating": "weak",
-    "note_ko": "번개와 같은 문제(내 몬스터도 파괴)."
-   },
-   "kaiju": {
-    "rating": "ok",
-    "note_ko": "체인 없이 1장 처리. 그라멜을 릴리스하면 묘지에 들어가 파이메나 융합(2장 동시 묘지)으로 다시 돌아오니, 그라멜은 무한포영으로 끄고 괴수는 알자리온에 쓰는 편이 낫다. 낙인형의 [[Secreterion Dragon]] 처리에는 strong."
-   },
-   "kaiju_slumber": {
-    "rating": "weak",
-    "note_ko": "마법이라 플레임 대상, 파이메나 체인 융합 뒤 소생 문제도 번개와 같다."
-   },
-   "cosmic": {
-    "rating": "weak",
-    "note_ko": "세트 함정을 체인으로 쓰게 만들 뿐이고 플레임에 무효당할 수 있다. 플레임을 빼내는 미끼 정도."
-   },
-   "mst": {
-    "rating": "weak",
-    "note_ko": "코즈믹과 같다. 미끼로 플레임을 받아내는 용도."
-   },
-   "super_poly": {
-    "rating": "strong",
-    "note_ko": "체인 불가라 플레임·파이메나·그라멜 모두 응수 못 한다. 알자리온(드래곤족 땅) + 그라멜(마법사족 물)을 함께 흡수하면 자기 소생도 없고 필드의 드래곤테일이 사라져 파이메나도 소재가 없다. 내 엑덱에 맞는 융합이 필요하고 제한 2. 혼이 공격 표시 몬스터를 노리므로 수비 표시로 소환."
-   },
-   "book_eclipse": {
-    "rating": "weak",
-    "note_ko": "속공 마법이라 플레임에 무효당한다. 견제의 축이 몬스터 무효가 아니라 이득이 적다."
-   },
-   "kurikara": {
-    "rating": "ok",
-    "note_ko": "그라멜·2번째 알자리온이 효과를 쓴 뒤 둘을 함께 릴리스. 마법이 아니라 플레임이 못 막는다. 다만 2장이 동시에 묘지로 가므로 묘지에 1번째 알자리온이 있으면 소생한다."
-   },
-   "ultimate_slayer": {
-    "rating": "ok",
-    "note_ko": "그라멜을 덱으로 되돌려 소생 걱정이 없고 몬스터 효과로 체인 불가. 일반 마법이라 플레임 대상이니 플레임 소모 뒤에."
-   },
-   "fallen_virtuous": {
-    "rating": "ok",
-    "note_ko": "내가 알버스 엔진을 쓸 때만. 속공 파괴 1장이지만 마법이라 플레임 대상."
-   },
-   "harmonia": {
-    "rating": "ok",
-    "note_ko": "그라멜이나 2번째 알자리온 효과 발동에 반응해 1장 파괴. 그 효과 자체는 처리된다. 싱크로 덱 전용."
-   },
-   "imperm": {
-    "rating": "strong",
-    "note_ko": "메인 페이즈 1 시작, 내 필드가 비어 있을 때 [[Dracotail Gulamel]]을 미리 무효하는 것이 정석. 낙인형이면 [[Secreterion Dragon]]도 후보."
-   },
-   "gamma": {
-    "rating": "strong",
-    "note_ko": "그라멜 파괴 또는 파이메나 융합(패에서 발동한 효과)에 체인해 무효+파괴. 내 필드에 몬스터가 없어야 하므로 첫 움직임에 걸리게 쓴다."
-   },
-   "droplet": {
-    "rating": "strong",
-    "note_ko": "그라멜·알자리온을 동시에 무효. 함정을 보내면 플레임·혼으로 체인 불가. 무효된 몬스터도 파이메나 융합 소재로는 쓰일 수 있다."
-   },
-   "impulse": {
-    "rating": "strong",
-    "note_ko": "파이메나 융합(특소 포함 발동)을 무효. 상대 필드에 카드가 있으니 패에서 발동 가능. 패에서 쓰면 빛·땅·바람 몬스터 효과 영구 봉인."
-   },
-   "spark": {
-    "rating": "ok",
-    "note_ko": "파이메나(패)·우르굴라(묘지)가 효과를 쓴 턴에 그라멜·알자리온 제외. 함정이라 플레임이 못 막고 제외라 소생도 없다."
-   },
-   "mourner": {
-    "rating": "ok",
-    "note_ko": "파이메나로 나온 2번째 알자리온의 바운스를 특소 직후 무효."
-   },
-   "belle": {
-    "rating": "ok",
-    "note_ko": "혼·플레임 발동 무효, 그라멜·알자리온 묘지 소생 무효. 그라멜 트리거는 막지 못한다."
-   },
-   "ogre": {
-    "rating": "weak",
-    "note_ko": "그라멜 파괴나 알자리온 바운스에 체인해도 파괴만 하고 효과는 처리된다. 파괴된 그라멜은 묘지에서 다시 소생할 수 있다."
-   },
-   "ttt": {
-    "rating": "ok",
-    "note_ko": "내 메인 페이즈에 파이메나·그라멜이 몬스터 효과를 쓰므로 조건이 쉽게 맞는다. 일반 마법이라 플레임이 남아 있으면 무효당할 수 있다."
-   },
-   "crossout": {
-    "rating": "weak",
-    "note_ko": "자기 덱의 카드만 선언 가능. 내가 알버스 엔진을 쓴다면 낙인형의 [[The Fallen & The Virtuous]]·[[Fallen of the White Dragon]] 정도."
-   },
-   "magnamhut": {
-    "rating": "bad",
-    "note_ko": "알자리온(땅)·그라멜(물)·파이메나(물)는 빛·어둠이 아니라 제외할 수 없다. 낙인형의 알비온·하얀 용 정도만 대상."
-   },
-   "ash": {
-    "rating": "bad",
-    "note_ko": "내 턴의 드래곤테일 움직임(파이메나 융합, 혼·플레임의 드로우)은 덱에서 가져오는 효과가 아니다. 낙인형의 에클레시아 → 알버스 덱 특소에만 쓸 수 있다."
-   },
-   "veiler": {
-    "rating": "bad",
-    "note_ko": "상대 메인 페이즈 전용이라 내 턴에는 발동할 수 없다."
-   }
+  "overview_ko": "드래곤족·마법사족 융합 테마. 드래곤테일 몬스터가 융합 소재로 묘지에 가면 덱에서 드래곤테일 마법·함정을 세트하는 공통 효과로 융합 비용을 회수한다. [[Dracotail Faimena]](패에서 버리고)와 [[Dracotail Mululu]](필드에서)는 양쪽 메인 페이즈에 쓰는 속공 융합이라, 선공 후 상대 턴에도 융합을 한 번 더 하며 [[Dracotail Gulamel]]의 파괴를 얹는다. 현재 MD 리스트 대부분(약 89%)은 [[Fallen of the White Dragon]]·[[Branded Fusion]]·[[Blazing Cartesia, the Virtuous]]·[[The Fallen & The Virtuous]] 같은 알버스 엔진을 섞은 혼합형이다. 기본형은 2장 초동(루키아스/무루루/라후 + 아무 몬스터)으로 융합 2~3번, 소환 3회 정도라 G·후와로스 드로우는 2장 안팎이지만, 낙인 루트로 가면 특소가 8회까지 늘어 G가 아프다. 약점은 시작점(루키아스 서치, 라후·케투·낙인융합)이 우라라에 맞는다는 점과, 세트 효과가 '융합 소재로 묘지에 보내졌을 때'라서 묘지로 가지 못하게 하는 카드에 약하다는 점.",
+  "key_cards": [
+    {
+      "card": "Dracotail Lukias",
+      "role_ko": "일반·특수 소환 시 드래곤테일 몬스터 서치(보통 파이메나). 소재로 묘지에 가면 [[Rahu Dracotail]] 등 세트. MD 제한 1."
+    },
+    {
+      "card": "Dracotail Faimena",
+      "role_ko": "패에서 버리고 드래곤족·마법사족 융합(속공, 양쪽 메인 페이즈). 상대 턴 2번째 융합의 핵심. 3장 채용."
+    },
+    {
+      "card": "Dracotail Mululu",
+      "role_ko": "필드에서 속공 드래곤테일 융합(패·필드 소재). 덱을 안 쓰므로 우라라가 안 맞는다. 소재로 가면 세트 + 상대 몬스터 1장 효과 무효. MD 제한 2."
+    },
+    {
+      "card": "Rahu Dracotail",
+      "role_ko": "덱 소재도 쓰는 드래곤테일 융합 마법. 덱에서 [[Dracotail Urgula]]를 소재로 보내 세트를 늘린다. MD 제한 1."
+    },
+    {
+      "card": "Ketu Dracotail",
+      "role_ko": "드래곤테일 몬스터 서치(+상대 필드에 몬스터가 있으면 융합). 소재 효과로 세트되어 추가 서치원이 된다. MD 제한 2."
+    },
+    {
+      "card": "Dracotail Urgula",
+      "role_ko": "소재로 가면 세트(+마함 1장 파괴). 묘지에서 자신을 덱 맨 아래로 보내고 마법사족 드래곤테일(파이메나)을 회수."
+    },
+    {
+      "card": "Dracotail Arthalion",
+      "role_ko": "드래곤테일 + 패의 몬스터 1장 이상. 융합 소환 시 패 소재 수만큼 필드·묘지 몬스터를 패로. 소재로 쓴 패트랩·파이메나를 다시 패로 가져온다."
+    },
+    {
+      "card": "Dracotail Gulamel",
+      "role_ko": "레벨 7 융합. 자신이 드래곤테일 카드·효과를 발동했을 때 상대 카드 1장 파괴(1턴 1번, 속공). 주 견제."
+    },
+    {
+      "card": "Secreterion Dragon",
+      "role_ko": "드래곤족+마법사족 융합. 융합 소환된 이 카드가 있으면 상대는 특소된 드래곤족·마법사족 효과를 못 쓴다. 묘지의 드래곤·마법사 1장씩 골라 하나 특소, 하나 덱으로."
+    },
+    {
+      "card": "Fallen of the White Dragon",
+      "role_ko": "알버스 엔진. 엑스트라 덱의 알버스 언급 몬스터를 묘지로 보내 패에서 특소(이후 엑덱은 레벨 8 융합·싱크로만), 소환 시 에클레시아 특소."
+    },
+    {
+      "card": "Branded Fusion",
+      "role_ko": "덱에서 소재 2장을 보내 [[Albion the Branded Dragon]] 융합. 낙인 혼합형의 1장 초동. MD 제한 1."
+    },
+    {
+      "card": "Dracotail Horn",
+      "role_ko": "공격 표시 몬스터 1장 바운스 + 묘지·제외의 드래곤테일 1장 덱 맨 아래, 1드로우. 함정이라 세트된 턴에는 못 쓴다."
+    },
+    {
+      "card": "Dracotail Flame",
+      "role_ko": "앞면 마법 1장 효과 무효 + 리사이클·드로우."
+    }
+  ],
+  "lines": [
+    {
+      "id": "lukias",
+      "title_ko": "루키아스 + 아무 몬스터 (기본형 표준)",
+      "hand": [
+        "Dracotail Lukias"
+      ],
+      "note_ko": "손패에 몬스터 1장(패트랩도 가능)이 더 필요하다. 일반 소환권 사용. [[Rahu Dracotail]]로 시작해도 같은 판면에 도착한다(라후 → 알자리온 → 케투 → 루키아스 순서).",
+      "steps": [
+        {
+          "card": "Dracotail Lukias",
+          "action_ko": "일반 소환",
+          "class": [
+            "normal_summon"
+          ],
+          "result_ko": ""
+        },
+        {
+          "card": "Dracotail Lukias",
+          "action_ko": "소환 성공 시 효과: 덱에서 드래곤테일 몬스터 서치",
+          "class": [
+            "monster_effect_field",
+            "search"
+          ],
+          "result_ko": "[[Dracotail Faimena]] 서치"
+        },
+        {
+          "card": "Dracotail Faimena",
+          "action_ko": "패에서 자신을 버리고(코스트) 필드의 루키아스 + 패의 몬스터 1장으로 융합",
+          "class": [
+            "monster_effect_hand",
+            "ss_from_extra"
+          ],
+          "result_ko": "[[Dracotail Arthalion]] 융합 소환. 파이메나는 코스트라 세트 효과 없음"
+        },
+        {
+          "card": "Dracotail Arthalion",
+          "action_ko": "융합 소환 시 효과(체인 1): 묘지의 파이메나를 대상으로 패로",
+          "class": [
+            "monster_effect_field",
+            "gy_effect"
+          ],
+          "result_ko": "파이메나 회수 (체인 2에 루키아스 ②가 쌓임)"
+        },
+        {
+          "card": "Dracotail Lukias",
+          "action_ko": "융합 소재로 묘지에 감(체인 2): 덱에서 드래곤테일 마법·함정 세트",
+          "class": [
+            "monster_effect_gy",
+            "place_from_deck"
+          ],
+          "result_ko": "[[Rahu Dracotail]] 세트"
+        },
+        {
+          "card": "Rahu Dracotail",
+          "action_ko": "발동: 덱의 우르굴라 + 패의 파이메나로 드래곤테일 융합 (이후 엑덱은 융합만)",
+          "class": [
+            "spell_trap_activation",
+            "send_from_deck",
+            "ss_from_extra"
+          ],
+          "result_ko": "[[Dracotail Gulamel]] 융합 소환"
+        },
+        {
+          "card": "Dracotail Urgula",
+          "action_ko": "융합 소재로 묘지에 감(체인 2): 덱에서 드래곤테일 마함 세트",
+          "class": [
+            "monster_effect_gy",
+            "place_from_deck"
+          ],
+          "result_ko": "[[Dracotail Flame]] 세트"
+        },
+        {
+          "card": "Dracotail Faimena",
+          "action_ko": "융합 소재로 묘지에 감(체인 1): 덱에서 드래곤테일 마함 세트",
+          "class": [
+            "monster_effect_gy",
+            "place_from_deck"
+          ],
+          "result_ko": "[[Dracotail Horn]] 세트"
+        },
+        {
+          "card": "Dracotail Urgula",
+          "action_ko": "묘지 효과: 자신을 덱 맨 아래로 보내고 묘지의 파이메나를 패로",
+          "class": [
+            "monster_effect_gy",
+            "gy_effect"
+          ],
+          "result_ko": "파이메나 다시 패로 (상대 턴 융합용)"
+        }
+      ],
+      "end_board": [
+        "Dracotail Arthalion",
+        "Dracotail Gulamel",
+        "Dracotail Flame",
+        "Dracotail Horn"
+      ],
+      "end_board_note_ko": "패에 [[Dracotail Faimena]]. 견제 4개: 상대 메인 페이즈에 파이메나로 2번째 [[Dracotail Arthalion]] 융합(패의 몬스터를 소재로 쓰고 알자리온 효과로 바운스·회수), 그 발동에 [[Dracotail Gulamel]] 파괴 체인, [[Dracotail Horn]] 바운스, [[Dracotail Flame]] 마법 무효. 그라멜 파괴는 1턴 1번이라 첫 드래곤테일 발동에만 붙는다. 소환 3회라 G·후와로스는 최대 2장."
+    },
+    {
+      "id": "mululu",
+      "title_ko": "무루루 + 아무 몬스터 (우라라가 안 맞는 시작)",
+      "hand": [
+        "Dracotail Mululu"
+      ],
+      "note_ko": "무루루 ①은 패·필드 소재 융합이라 덱을 건드리지 않는다. 우라라 타점은 라후 1곳뿐. 파이메나를 서치하지 않으므로 상대 턴 융합이 없는 대신 판면이 작다.",
+      "steps": [
+        {
+          "card": "Dracotail Mululu",
+          "action_ko": "일반 소환",
+          "class": [
+            "normal_summon"
+          ],
+          "result_ko": ""
+        },
+        {
+          "card": "Dracotail Mululu",
+          "action_ko": "필드에서 속공 효과: 자신 + 패의 몬스터 1장으로 드래곤테일 융합 (이후 엑덱은 융합만)",
+          "class": [
+            "monster_effect_field",
+            "ss_from_extra"
+          ],
+          "result_ko": "[[Dracotail Arthalion]] 융합 소환"
+        },
+        {
+          "card": "Dracotail Arthalion",
+          "action_ko": "융합 소환 시 효과(체인 1): 묘지의 무루루를 패로",
+          "class": [
+            "monster_effect_field",
+            "gy_effect"
+          ],
+          "result_ko": "무루루 회수"
+        },
+        {
+          "card": "Dracotail Mululu",
+          "action_ko": "융합 소재로 묘지에 감(체인 2): 드래곤테일 마함 세트 (상대 앞면 몬스터가 있으면 효과 무효도 가능)",
+          "class": [
+            "monster_effect_gy",
+            "place_from_deck"
+          ],
+          "result_ko": "[[Rahu Dracotail]] 세트"
+        },
+        {
+          "card": "Rahu Dracotail",
+          "action_ko": "발동: 덱의 우르굴라 + 패의 무루루로 융합",
+          "class": [
+            "spell_trap_activation",
+            "send_from_deck",
+            "ss_from_extra"
+          ],
+          "result_ko": "[[Dracotail Gulamel]] 융합 소환"
+        },
+        {
+          "card": "Dracotail Urgula",
+          "action_ko": "융합 소재로 묘지에 감: 드래곤테일 마함 세트",
+          "class": [
+            "monster_effect_gy",
+            "place_from_deck"
+          ],
+          "result_ko": "[[Dracotail Flame]] 세트"
+        }
+      ],
+      "end_board": [
+        "Dracotail Arthalion",
+        "Dracotail Gulamel",
+        "Dracotail Flame"
+      ],
+      "end_board_note_ko": "견제 2개(플레임 + 그 발동에 붙는 그라멜 파괴). 손패에 [[Dracotail Faimena]]가 따로 있으면 상대 턴 융합이 추가된다. 무루루의 효과는 둘 다 이미 써서 패로 돌아온 무루루는 소재 역할만 한다."
+    },
+    {
+      "id": "branded",
+      "title_ko": "낙인융합 1장 초동 (낙인 혼합형)",
+      "hand": [
+        "Branded Fusion"
+      ],
+      "note_ko": "[[Branded Fusion]]을 쓴 턴은 엑스트라 덱에서 융합만 나온다. 소환 9~10회로 G 최대 8장, 9번째 단계에서 5번째 소환이라 니비루 범위. 라인 출처: ygotac 낙인형 1장 초동을 카드 텍스트로 대조.",
+      "steps": [
+        {
+          "card": "Branded Fusion",
+          "action_ko": "발동: 덱에서 [[Fallen of the White Dragon]] + [[Dracotail Phryxul]]을 보내 융합",
+          "class": [
+            "spell_trap_activation",
+            "send_from_deck",
+            "ss_from_extra"
+          ],
+          "result_ko": "[[Albion the Branded Dragon]] 융합 소환"
+        },
+        {
+          "card": "Dracotail Phryxul",
+          "action_ko": "융합 소재로 묘지에 감: 드래곤테일 마함 세트",
+          "class": [
+            "monster_effect_gy",
+            "place_from_deck"
+          ],
+          "result_ko": "[[Ketu Dracotail]] 세트"
+        },
+        {
+          "card": "Ketu Dracotail",
+          "action_ko": "발동: 덱에서 드래곤테일 몬스터 서치 (상대 필드에 몬스터가 없으니 융합은 없음)",
+          "class": [
+            "spell_trap_activation",
+            "search"
+          ],
+          "result_ko": "[[Dracotail Lukias]] 서치"
+        },
+        {
+          "card": "Dracotail Lukias",
+          "action_ko": "일반 소환",
+          "class": [
+            "normal_summon"
+          ],
+          "result_ko": ""
+        },
+        {
+          "card": "Dracotail Lukias",
+          "action_ko": "소환 성공 시 효과: 드래곤테일 몬스터 서치",
+          "class": [
+            "monster_effect_field",
+            "search"
+          ],
+          "result_ko": "[[Dracotail Faimena]] 서치"
+        },
+        {
+          "card": "Dracotail Faimena",
+          "action_ko": "패에서 버리고 알비온(드래곤) + 루키아스(마법사)로 융합",
+          "class": [
+            "monster_effect_hand",
+            "ss_from_extra"
+          ],
+          "result_ko": "[[Secreterion Dragon]] 융합 소환"
+        },
+        {
+          "card": "Dracotail Lukias",
+          "action_ko": "융합 소재로 묘지에 감: 드래곤테일 마함 세트",
+          "class": [
+            "monster_effect_gy",
+            "place_from_deck"
+          ],
+          "result_ko": "[[Rahu Dracotail]] 세트"
+        },
+        {
+          "card": "Secreterion Dragon",
+          "action_ko": "기동 효과: 묘지의 프리클(마법사) + 알비온(드래곤)을 대상, 프리클 특소·알비온은 덱(엑스트라 덱)으로",
+          "class": [
+            "monster_effect_field",
+            "gy_effect",
+            "ss_from_gy"
+          ],
+          "result_ko": "[[Dracotail Phryxul]] 특소, [[Albion the Branded Dragon]] 엑덱 복귀"
+        },
+        {
+          "card": "Dracotail Phryxul",
+          "action_ko": "특소 성공 시 효과: 묘지의 파이메나 특소 → 자신 필드 몬스터 1장(파이메나)을 패로",
+          "class": [
+            "monster_effect_field",
+            "ss_from_gy"
+          ],
+          "result_ko": "파이메나 패로"
+        },
+        {
+          "card": "Rahu Dracotail",
+          "action_ko": "발동: 덱의 우르굴라 + 패의 파이메나로 융합",
+          "class": [
+            "spell_trap_activation",
+            "send_from_deck",
+            "ss_from_extra"
+          ],
+          "result_ko": "[[Dracotail Arthalion]] 융합 소환"
+        },
+        {
+          "card": "Dracotail Arthalion",
+          "action_ko": "융합 소환 시 효과(체인 1): 묘지의 [[Fallen of the White Dragon]]을 패로",
+          "class": [
+            "monster_effect_field",
+            "gy_effect"
+          ],
+          "result_ko": "체인 2·3에 우르굴라 ①·파이메나 ②(세트)가 쌓임"
+        },
+        {
+          "card": "Dracotail Urgula",
+          "action_ko": "융합 소재 효과(체인 2·3, 파이메나와 함께): 드래곤테일 마함 세트",
+          "class": [
+            "monster_effect_gy",
+            "place_from_deck"
+          ],
+          "result_ko": "[[Dracotail Flame]]·[[Dracotail Horn]] 세트"
+        },
+        {
+          "card": "Fallen of the White Dragon",
+          "action_ko": "패에서: 엑덱의 알비온을 묘지로 보내고 자신 특소 (이후 엑덱은 레벨 8 융합·싱크로만)",
+          "class": [
+            "monster_effect_hand",
+            "ss_from_hand"
+          ],
+          "result_ko": ""
+        },
+        {
+          "card": "Fallen of the White Dragon",
+          "action_ko": "소환 성공 시 효과: 패·덱·묘지에서 에클레시아 몬스터 특소",
+          "class": [
+            "monster_effect_field",
+            "ss_from_deck"
+          ],
+          "result_ko": "[[Incredible Ecclesia, the Virtuous]] 덱에서 특소"
+        },
+        {
+          "card": "Dracotail Urgula",
+          "action_ko": "묘지 효과: 자신을 덱 맨 아래로, 파이메나를 패로",
+          "class": [
+            "monster_effect_gy",
+            "gy_effect"
+          ],
+          "result_ko": "파이메나 패로"
+        },
+        {
+          "card": "Albion the Branded Dragon",
+          "action_ko": "엔드 페이즈, 이번 턴 묘지로 보내졌으므로: 덱에서 낙인 마함 세트",
+          "class": [
+            "monster_effect_gy",
+            "place_from_deck"
+          ],
+          "result_ko": "[[The Fallen & The Virtuous]] 세트"
+        }
+      ],
+      "end_board": [
+        "Secreterion Dragon",
+        "Dracotail Arthalion",
+        "Dracotail Phryxul",
+        "Fallen of the White Dragon",
+        "Incredible Ecclesia, the Virtuous",
+        "Dracotail Flame",
+        "Dracotail Horn",
+        "The Fallen & The Virtuous"
+      ],
+      "end_board_note_ko": "패에 [[Dracotail Faimena]]. [[Secreterion Dragon]]이 상대의 특소된 드래곤족·마법사족 효과를 막는다. [[Incredible Ecclesia, the Virtuous]]는 상대 턴에 릴리스해 [[Fallen of Albaz]]를 덱에서 꺼내 상대 몬스터를 소재로 융합, [[The Fallen & The Virtuous]]는 파괴 또는 묘지 소생, 파이메나는 상대 턴 융합. 견제 5~6개."
+    },
+    {
+      "id": "opp_turn",
+      "title_ko": "상대 턴(우리 턴)의 드래곤테일 움직임",
+      "hand": [
+        "Dracotail Faimena"
+      ],
+      "note_ko": "`lukias` 라인 판면(알자리온·그라멜·플레임·혼, 패에 파이메나)을 받은 우리 턴 기준. 우리 턴이라 뵐러는 못 쓰고, 패에서 무한포영을 쓰려면 우리 필드가 비어 있어야 한다. 아래 순서는 드래곤테일 측이 보통 고르는 순서이고, 실제로는 우리가 움직이는 카드에 맞춰 체인으로 끼어든다.",
+      "steps": [
+        {
+          "card": "Dracotail Faimena",
+          "action_ko": "우리 메인 페이즈에 패에서 버리고 필드의 알자리온 + 패의 몬스터(패트랩도 가능)로 융합",
+          "class": [
+            "monster_effect_hand",
+            "ss_from_extra"
+          ],
+          "result_ko": "2번째 [[Dracotail Arthalion]]"
+        },
+        {
+          "card": "Dracotail Gulamel",
+          "action_ko": "드래곤테일 효과 발동에 체인(속공): 우리 카드 1장 파괴",
+          "class": [
+            "monster_effect_field"
+          ],
+          "result_ko": "1턴 1번"
+        },
+        {
+          "card": "Dracotail Arthalion",
+          "action_ko": "융합 소환 시 효과: 패 소재 수만큼 우리 필드 몬스터 바운스 / 자기 묘지의 소재(패트랩) 회수",
+          "class": [
+            "monster_effect_field",
+            "gy_effect"
+          ],
+          "result_ko": ""
+        },
+        {
+          "card": "Dracotail Horn",
+          "action_ko": "발동: 공격 표시 몬스터 1장을 패·엑덱으로 → 묘지의 드래곤테일 1장 덱 맨 아래 → 1드로우",
+          "class": [
+            "spell_trap_activation",
+            "gy_effect",
+            "draw"
+          ],
+          "result_ko": ""
+        },
+        {
+          "card": "Dracotail Flame",
+          "action_ko": "발동: 필드의 앞면 마법 1장(발동 중인 마법 포함) 효과를 턴 종료시까지 무효 → 리사이클·1드로우",
+          "class": [
+            "spell_trap_activation",
+            "gy_effect",
+            "draw"
+          ],
+          "result_ko": ""
+        }
+      ],
+      "end_board": [
+        "Dracotail Arthalion",
+        "Dracotail Gulamel"
+      ],
+      "end_board_note_ko": "[[Dracotail Arthalion]]·[[Dracotail Gulamel]]은 묘지에 있을 때 몬스터 2장 이상이 동시에 묘지로 가면(융합 소재 등) 스스로 특소된다(필드를 떠나면 제외). 파이메나 융합으로 알자리온+패 몬스터가 함께 묘지로 가도, 그 순간 묘지에 없던 1번째 알자리온은 자기 효과를 못 쓴다. 우리 턴에 드래곤테일이 패·필드 몬스터 효과를 쓰므로 [[Triple Tactics Talent]] 조건이 쉽게 성립한다."
+    }
+  ],
+  "chokepoints": [
+    {
+      "handtrap": "ash",
+      "severity": "critical",
+      "line": "lukias",
+      "step": 2,
+      "target_card": "Dracotail Lukias",
+      "timing_ko": "[[Dracotail Lukias]] 일반 소환 후 서치 효과 발동에 체인",
+      "why_ko": "파이메나가 안 들어오면 손패의 속공 융합 수단이 없어 첫 융합 자체를 못 한다. 루키아스는 제한 1이라 같은 효과를 다시 쓸 수 없다.",
+      "fallback_ko": "손에 [[Dracotail Mululu]]·[[Rahu Dracotail]]·[[Ketu Dracotail]]이 따로 있으면 그쪽으로 다시 시작(루키아스를 소재로 쓰면 ②로 세트는 된다). 없으면 루키아스 1장으로 턴 종료."
+    },
+    {
+      "handtrap": "ash",
+      "severity": "critical",
+      "line": "lukias",
+      "step": 6,
+      "target_card": "Rahu Dracotail",
+      "timing_ko": "세트된 [[Rahu Dracotail]] 발동에 체인 (덱 소재를 묘지로 보내는 효과라 맞는다)",
+      "why_ko": "그라멜 융합과 우르굴라·파이메나의 세트 2장이 통째로 사라진다. 남는 것은 알자리온 1장과 패의 파이메나뿐.",
+      "fallback_ko": "상대 턴에 파이메나로 2번째 알자리온 정도. 루키아스 서치에 우라라를 안 썼다면 여기가 2순위. 라후로 시작한 핸드면 라후가 첫 발동이라 바로 여기에."
+    },
+    {
+      "handtrap": "ash",
+      "severity": "critical",
+      "line": "branded",
+      "step": 1,
+      "target_card": "Branded Fusion",
+      "timing_ko": "[[Branded Fusion]] 발동에 체인 (덱에서 소재 2장을 보냄)",
+      "why_ko": "낙인 1장 초동은 여기서 전부 시작한다. 제한 1이라 두 번째가 없다.",
+      "fallback_ko": "낙인융합 발동 턴이라 엑덱은 융합만. 패의 다른 드래곤테일 초동이 있으면 기본형 라인으로 이어간다."
+    },
+    {
+      "handtrap": "imperm",
+      "severity": "strong",
+      "line": "lukias",
+      "step": 4,
+      "target_card": "Dracotail Arthalion",
+      "timing_ko": "[[Dracotail Arthalion]] 융합 소환 후 체인 1(회수) 위에 루키아스 ②가 쌓인 시점에 체인 3으로 알자리온 대상. 뵐러도 같은 타이밍에 가능",
+      "why_ko": "파이메나가 패로 돌아오지 않는다. [[Rahu Dracotail]]로 나오는 알자리온·그라멜은 둘 다 '패의 몬스터'가 소재로 필요해서, 손에 다른 몬스터가 없으면 라후가 헛발이 된다.",
+      "fallback_ko": "손에 몬스터(패트랩 포함)가 남아 있으면 그걸 소재로 [[Rahu Dracotail]] → 그라멜까지는 간다. 그때 [[Dracotail Urgula]]의 묘지 효과로 묘지의 파이메나를 패로 되돌리면 상대 턴 융합도 남는다. 손에 다른 몬스터가 없을 때만 파이메나 상대 턴 융합까지 사라진다."
+    },
+    {
+      "handtrap": "ogre",
+      "severity": "strong",
+      "line": "lukias",
+      "step": 2,
+      "target_card": "Dracotail Lukias",
+      "timing_ko": "[[Dracotail Lukias]]의 서치 효과 발동에 체인",
+      "why_ko": "서치는 처리되지만 루키아스가 파괴되어 필드에 드래곤테일이 없다. 파이메나는 코스트로 버려지므로 '드래곤테일 + 패의 몬스터' 소재를 맞추지 못하고, 루키아스도 소재가 아니라 파괴로 묘지에 가서 세트 효과가 없다.",
+      "fallback_ko": "손에 드래곤테일 몬스터와 다른 몬스터가 함께 있을 때만 파이메나로 융합 가능."
+    },
+    {
+      "handtrap": "maxxc",
+      "severity": "strong",
+      "line": "branded",
+      "step": 1,
+      "target_card": "Branded Fusion",
+      "timing_ko": "낙인 혼합 라인의 첫 특소([[Branded Fusion]] 융합) 시점",
+      "why_ko": "낙인 루트는 특소 8회 전후. 끝까지 가면 8장을 준다. 기본형(`lukias`)에는 2장뿐이라 G는 낙인 엔진이 보일 때 아껴 둔다.",
+      "fallback_ko": "보통 알자리온·사크라멘툼 드라군까지만 만들고 멈춘다. 후와로스는 덱·엑덱 특소만 세어 최대 5장."
+    },
+    {
+      "handtrap": "belle",
+      "severity": "strong",
+      "line": "branded",
+      "step": 8,
+      "target_card": "Secreterion Dragon",
+      "timing_ko": "[[Secreterion Dragon]]의 '묘지의 드래곤·마법사 중 하나 특소' 효과 발동에 체인",
+      "why_ko": "프리클이 돌아오지 않아 파이메나 회수 → 라후 융합 흐름이 끊긴다. 이후 [[Fallen of the White Dragon]] 회수도 없다.",
+      "fallback_ko": "라후는 세트되어 있으니 손에 몬스터가 있으면 알자리온 1장은 더 나온다. 와라시는 프리클 ①이나 [[Fallen of the White Dragon]]의 에클레시아 특소에도 걸리지만 여기가 가장 앞쪽 분기점."
+    },
+    {
+      "handtrap": "imperm",
+      "severity": "strong",
+      "line": "opp_turn",
+      "step": 2,
+      "target_card": "Dracotail Gulamel",
+      "timing_ko": "우리 턴 메인 페이즈 1 시작 직후, 아무것도 깔기 전(필드가 비어 있을 때 패에서) [[Dracotail Gulamel]]을 대상으로",
+      "why_ko": "그라멜 파괴가 이 판면 견제의 축이다. 먼저 꺼 두면 파이메나 융합·혼·플레임이 전부 파괴 없이 처리된다. 무효는 턴 종료시까지라 이번 턴 내내 유효.",
+      "fallback_ko": "파이메나 융합 + 알자리온 바운스, 혼, 플레임은 그대로 남는다. [[Forbidden Droplet]]으로도 같은 목적."
+    },
+    {
+      "handtrap": "belle",
+      "severity": "ok",
+      "line": "opp_turn",
+      "step": 4,
+      "target_card": "Dracotail Horn",
+      "timing_ko": "[[Dracotail Horn]]·[[Dracotail Flame]]·[[Dracotail Sting]] 발동에 체인 (묘지 카드를 덱으로 되돌리는 효과를 포함해 발동 자체가 무효)",
+      "why_ko": "바운스·마법 무효를 통째로 막는다. 그라멜 파괴 트리거는 이미 발동 시점에 걸리므로 그건 남는다.",
+      "fallback_ko": "다른 함정과 파이메나는 남는다. 선공 턴에 [[Dracotail Urgula]] 묘지 회수에 와라시를 써서 파이메나를 미리 빼는 선택도 있다."
+    },
+    {
+      "handtrap": "ash",
+      "severity": "bad",
+      "line": "mululu",
+      "step": 2,
+      "target_card": "Dracotail Mululu",
+      "timing_ko": "무루루·파이메나의 융합 효과",
+      "why_ko": "패·필드 몬스터만 소재로 쓰는 융합이라 덱을 건드리지 않아 우라라가 발동 조건을 못 맞춘다. 파이메나는 패에서 쓰는 효과라 무한포영도 안 된다.",
+      "fallback_ko": "우라라는 루키아스 서치·케투 서치·라후·낙인융합에 남겨 둔다."
+    }
+  ],
+  "handtrap_summary": {
+    "ash": {
+      "rating": "critical",
+      "note_ko": "루키아스 서치 > 라후(덱 소재) > 케투 서치. 낙인형이면 낙인융합이 최우선. 무루루·파이메나 융합에는 안 맞는다."
+    },
+    "maxxc": {
+      "rating": "ok",
+      "note_ko": "기본형은 소환 3회라 2장 정도. 낙인 혼합 루트(소환 8회 전후)에서는 strong. 첫 특소에 던진다."
+    },
+    "fuwalos": {
+      "rating": "ok",
+      "note_ko": "덱·엑덱 특소만 세어 기본형 2장, 낙인형 최대 5장. 필드가 비어 있어야 함."
+    },
+    "purulia": {
+      "rating": "weak",
+      "note_ko": "패에서의 소환이 일반 소환 1회와 하얀 용 특소 정도라 드로우가 적다."
+    },
+    "meowls": {
+      "rating": "weak",
+      "note_ko": "묘지 특소는 낙인형의 사크라멘툼 드라군·프리클 정도. 기본형에는 거의 없다."
+    },
+    "droll": {
+      "rating": "ok",
+      "note_ko": "루키아스 서치 뒤에 쓰면 케투·2번째 서치를 막는다. 우르굴라 회수는 묘지→패라 못 막는다."
+    },
+    "imperm": {
+      "rating": "strong",
+      "note_ko": "선공 턴: 알자리온 회수 효과(파이메나 회수 차단) 또는 무루루 융합. 상대 턴: 우리 턴 시작 시 그라멜을 미리 무효."
+    },
+    "veiler": {
+      "rating": "strong",
+      "note_ko": "선공 턴에만. 알자리온·무루루·루키아스에 무한포영과 같은 용도. 우리 턴(상대 턴 융합)에는 못 쓴다."
+    },
+    "ogre": {
+      "rating": "strong",
+      "note_ko": "루키아스 서치·무루루 융합에 쓰면 소재를 없애 융합을 막는다. 알자리온 효과는 루키아스 ②가 위에 쌓여 직접 체인이 안 된다."
+    },
+    "belle": {
+      "rating": "ok",
+      "note_ko": "낙인형의 사크라멘툼 드라군 특소, 우르굴라 회수, 드래곤테일 함정(묘지 카드를 덱으로)에 맞는다."
+    },
+    "mourner": {
+      "rating": "ok",
+      "note_ko": "알자리온 융합 소환 직후에 효과 무효를 걸면 회수가 막힌다(무한포영과 같은 효과)."
+    },
+    "crossout": {
+      "rating": "weak",
+      "note_ko": "자기 덱에 있는 카드만 선언 가능. 내가 알버스 엔진을 쓴다면 [[Branded Fusion]]·[[Fallen of the White Dragon]] 선언으로 낙인형만 견제할 수 있다."
+    },
+    "ttt": {
+      "rating": "ok",
+      "note_ko": "후공용. 우리 턴에 파이메나·그라멜이 몬스터 효과를 쓰므로 조건이 쉽게 맞는다."
+    },
+    "droplet": {
+      "rating": "strong",
+      "note_ko": "후공용. 그라멜·알자리온을 동시에 무효. 함정과 같은 종류로 버리면 혼·플레임 체인도 막는다."
+    },
+    "nibiru": {
+      "rating": "weak",
+      "note_ko": "기본형은 소환 3회로 조건 미달. 낙인형은 파이메나 특소가 5번째라 그 뒤에 쓸 수 있다."
+    },
+    "impulse": {
+      "rating": "ok",
+      "note_ko": "라후·낙인융합·무루루·파이메나 융합 같은 특소 효과를 무효. 상대 필드에 카드가 있어야 패에서 발동 가능."
+    },
+    "purge": {
+      "rating": "ok",
+      "note_ko": "루키아스·케투 서치 무효."
+    },
+    "spark": {
+      "rating": "ok",
+      "note_ko": "파이메나(패)·우르굴라(묘지)가 효과를 쓴 턴에 그라멜 등을 제외."
+    },
+    "magnamhut": {
+      "rating": "weak",
+      "note_ko": "묘지의 알비온을 엔드 페이즈 전에 제외하는 정도(낙인형)."
+    },
+    "gamma": {
+      "rating": "ok",
+      "note_ko": "루키아스 서치나 파이메나 융합 무효. 필드에 몬스터가 없어야 함."
+    }
   },
-  "sequencing_ko": [
-   "메인 페이즈 1 시작, 아무것도 깔기 전에 [[Infinite Impermanence]](패)로 [[Dracotail Gulamel]]을 끈다. 없으면 [[Forbidden Droplet]](함정을 보내서)이나 [[PSY-Framegear Gamma]]로 그라멜 파괴를 받아낸다.",
-   "세트 함정 2장 중 [[Dracotail Flame]]은 첫 번째 마법을 노린다. 덜 중요한 마법을 먼저 발동해 플레임(+ 그라멜 파괴)을 소모시킨 뒤 핵심 마법을 쓴다.",
-   "[[Dracotail Horn]]은 공격 표시 몬스터만 되돌린다. 특소는 수비 표시로, 엑덱 핵심 몬스터는 공격 직전까지 공격 표시로 두지 않는다.",
-   "알자리온·그라멜 중 1장만 묘지로 보내지 말 것. 이후 파이메나 융합이나 전체 파괴로 몬스터 2장이 동시에 묘지에 가면 묘지의 그 카드가 돌아온다. 둘을 같이 치우거나(초융합) 제외·덱 되돌리기로 처리한다.",
-   "패의 [[Dracotail Faimena]]는 메인 페이즈 전용 퀵이다. 필드의 드래곤테일을 없애면 소재가 맞지 않고, [[Evenly Matched]]처럼 배틀 페이즈에 쓰는 카드에는 응수하지 못한다.",
-   "우라라는 내 턴에 거의 쓸 곳이 없다(낙인형의 에클레시아 → 알버스 덱 특소 정도). 대신 [[Triple Tactics Talent]] 조건은 쉽게 성립한다."
-  ]
- }
+  "notes_ko": [
+    "우라라를 무루루·파이메나 융합에 던지지 말 것. 덱을 건드리지 않아 체인 자체가 불가.",
+    "알자리온 회수 효과는 항상 루키아스·무루루·파이메나의 세트 효과를 위에 쌓아 발동되므로 유령토끼·와라시처럼 '발동했을 때' 직접 체인해야 하는 카드는 타이밍이 없다. 무한포영·뵐러는 대상 지정이라 체인 3에서도 된다.",
+    "드래곤테일의 세트 효과는 '융합 소재로 묘지에 보내졌을 때'다. 융합 마법(라후·케투·낙인융합) 발동에 [[Retaliating \"C\"]]를 특소하면 이후 묘지로 가는 카드가 제외되어 세트 효과와 알자리온·그라멜의 묘지 자기 소생이 함께 막힌다. 파이메나·무루루는 몬스터 효과라 조건이 안 된다.",
+    "[[Fallen of the White Dragon]] 효과를 쓴 턴은 엑덱이 레벨 8 융합·싱크로만 되므로 레벨 7인 [[Dracotail Gulamel]]이 못 나온다. 낙인형 판면에 그라멜이 없는 이유.",
+    "상대 턴 융합이 있으므로, 우리 턴에 G나 패트랩을 먼저 쓰게 되면 파이메나 융합으로 소재(패트랩)를 회수당할 수 있다. 그라멜을 먼저 처리하고 움직일 것.",
+    "드래곤테일 함정(플레임·혼·스팅)의 1장 드로우는 '덱에서 패에 넣기'가 아니라서 우라라로 무효할 수 없다. 대응한다면 저택 와라시(묘지·제외 카드를 덱 맨 아래로 되돌리는 효과를 포함하므로 발동 무효 가능)."
+  ],
+  "sources": [
+    "https://ygotac.com/dragon-tail_combo/ (ygotac: ドラゴンテイル 展開ルート, MD, 2026-09-16 — 기본형 3 + 烙印型 3 루트와 패트랩 타점)",
+    "https://www.masterduelmeta.com/spreadsheet/6a2678bc6d36490346e7c8cc (Master Duel Meta: Dracotail combo spreadsheet)",
+    "https://game8.jp/yugioh-masterduel/746770 (game8: 烙印ドラゴンテイル 레시피·루키아스 초동 루트)",
+    "https://www.masterduelmeta.com/api/v1/cards (Master Duel Meta 카드 API: MD 영문 텍스트·제한 상태)"
+  ],
+  "going_second": {
+    "summary_ko": "기본형 판면은 몬스터 효과 무효가 하나도 없다. 견제는 [[Dracotail Gulamel]]의 파괴 1회(드래곤테일 발동에 붙음), 패의 [[Dracotail Faimena]]로 하는 2번째 [[Dracotail Arthalion]] 융합(바운스), [[Dracotail Horn]](공격 표시 바운스), [[Dracotail Flame]](마법 무효)이다. 그라멜을 먼저 끄고, 첫 마법은 플레임에 맞는다고 보고 미끼를 먼저 쓴다. 알자리온·그라멜은 몬스터 2장이 동시에 묘지로 가면 묘지에서 돌아오므로 1장만 묘지로 보내는 제거, 함정이 남은 상태의 마법 전체 파괴에는 강하고, 체인 불가([[Super Polymerization]])나 함정·배틀 페이즈 타이밍([[Evenly Matched]])에 약하다. 낙인 혼합형은 [[Secreterion Dragon]]·에클레시아·TFTV가 더해져 훨씬 단단하다.",
+    "difficulty": "medium",
+    "boards": [
+      {
+        "id": "full",
+        "title_ko": "풀 전개 (루키아스 + 몬스터 1장, 기본형)",
+        "line": "lukias",
+        "interruptions": [
+          {
+            "id": "gulamel",
+            "card": "Dracotail Gulamel",
+            "kind": "removal",
+            "zone": "monster",
+            "timing_ko": "상대가 드래곤테일 카드·효과([[Dracotail Faimena]] 융합, [[Dracotail Horn]]·[[Dracotail Flame]] 등)를 발동할 때 체인해 내 카드 1장 파괴 (퀵, 1턴 1번)",
+            "answered_by": [
+              {
+                "id": "imperm",
+                "note_ko": "내 필드가 비어 있는 메인 페이즈 1 시작 직후 패에서 [[Dracotail Gulamel]] 대상. 그라멜은 드래곤테일 발동에만 반응하므로 무한포영 자체에는 체인 못 함(파이메나를 체인해 오면 그때 파괴 1회는 소모되지만 무효는 그대로 들어간다)"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "[[Dracotail Arthalion]]과 함께 무효. 함정 카드를 보내면 [[Dracotail Flame]]·[[Dracotail Horn]]으로 체인할 수 없다. 마법만 보내면 플레임에 무효당한다"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "그라멜 파괴 효과 발동에 체인해 무효+파괴. 내 필드에 몬스터가 없어야 한다. 무효된 발동도 1턴 1번은 쓴 것으로 처리"
+              },
+              {
+                "id": "dark_ruler",
+                "note_ko": "몬스터 효과로 체인할 수 없어 그라멜·알자리온을 함께 무효. 단 일반 마법이라 세트된 [[Dracotail Flame]]에 무효당하니 플레임을 먼저 소모시킨 뒤에"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "그라멜 + 알자리온을 소재로 흡수. 체인 불가라 플레임·파이메나도 못 끼어든다. 맞는 융합 몬스터(드래곤족 땅 + 마법사족 물)가 내 엑덱에 있어야 함"
+              },
+              {
+                "id": "spark",
+                "note_ko": "상대가 패의 파이메나 효과를 쓴 뒤라면 그라멜을 제외. 함정이라 플레임이 못 막고, 묘지로 안 가서 자기 소생도 없다"
+              }
+            ],
+            "bait_ko": "아무 드래곤테일 발동에나 1번 붙으므로, 플레임·혼을 먼저 끌어내면 그 발동에서 파괴를 써 버린다. 가장 덜 중요한 앞면 카드를 먼저 깔아 두면 그걸 파괴 대상으로 고르게 유도할 수 있다."
+          },
+          {
+            "id": "faimena",
+            "card": "Dracotail Faimena",
+            "kind": "bounce",
+            "zone": "hand",
+            "timing_ko": "내 메인 페이즈 중 패에서 버리고(퀵) 필드의 드래곤테일 + 패의 몬스터로 2번째 [[Dracotail Arthalion]] 융합 → 융합 소환 시 패 소재 수(보통 1)만큼 내 몬스터 바운스(엑덱 몬스터는 엑덱으로). 배틀 페이즈에는 못 씀",
+            "answered_by": [
+              {
+                "id": "impulse",
+                "note_ko": "몬스터를 특소하는 효과의 발동이라 무효. 그라멜 파괴 트리거는 발동 시점에 이미 걸리므로 그라멜을 먼저 처리해 둘 것. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 발동 불가"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "패에서 발동한 몬스터 효과에도 체인 가능. 내 필드에 몬스터가 없어야 한다. 그라멜 파괴와 동시에 오면 하나만 고를 수 있다"
+              },
+              {
+                "id": "mourner",
+                "note_ko": "2번째 알자리온이 특소된 직후 효과를 무효해 바운스를 막는다"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "필드의 드래곤테일 몬스터를 미리 전부 흡수하면 '드래곤테일 + 패의 몬스터' 소재가 맞지 않아 파이메나가 죽은 카드가 된다(패에 다른 드래곤테일 몬스터가 있으면 예외)"
+              },
+              {
+                "id": "evenly_matched",
+                "note_ko": "배틀 페이즈 종료 시 발동이라 메인 페이즈 전용인 파이메나로 응수할 수 없다. 필드의 드래곤테일이 사라지면 메인 페이즈 2에도 소재가 없다"
+              }
+            ],
+            "bait_ko": "파이메나는 메인 페이즈 퀵이라 내가 큰 카드를 낼 때 체인으로 들어온다. 먼저 덜 중요한 몬스터를 소환해 바운스 대상을 주거나, 바운스되어도 손해가 적은 메인 덱 몬스터로 시작한다."
+          },
+          {
+            "id": "horn",
+            "card": "Dracotail Horn",
+            "kind": "bounce",
+            "zone": "st",
+            "timing_ko": "세트된 일반 함정. 공격 표시 몬스터 1장을 패·엑덱으로 되돌림(1턴 1번). 발동하면 그라멜 파괴도 따라온다",
+            "answered_by": [
+              {
+                "id": "belle",
+                "note_ko": "묘지의 드래곤테일을 덱으로 되돌리는 효과를 포함해 발동 자체를 무효. 그라멜 트리거는 남는다"
+              },
+              {
+                "id": "harpie",
+                "note_ko": "체인으로 혼을 쓰게 되지만 공격 표시 몬스터가 없으면 대상이 없다. [[Dracotail Flame]]이 이 마법을 무효할 수 있으니 플레임을 먼저 소모"
+              },
+              {
+                "id": "cosmic",
+                "note_ko": "세트 카드를 제외하려 하면 상대는 체인으로 발동하거나 그냥 잃는다. 공격 표시 몬스터가 없는 타이밍에 쓰면 혼이 헛발. 플레임 무효 대상이기도 하다"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "함정을 보내고 발동하면 그 발동에는 혼으로 체인할 수 없다(제거는 아님)"
+              }
+            ],
+            "bait_ko": "공격 표시 몬스터만 대상이다. 특소는 가능하면 수비 표시로, 핵심 엑덱 몬스터는 공격할 때까지 아껴 두면 혼이 놀거나 덜 중요한 몬스터에 쓰인다."
+          },
+          {
+            "id": "flame",
+            "card": "Dracotail Flame",
+            "kind": "quick_negate",
+            "zone": "st",
+            "timing_ko": "세트된 일반 함정. 앞면 마법 1장(발동 중인 마법 포함) 효과를 턴 종료시까지 무효(1턴 1번). 함정·몬스터 효과는 못 막는다",
+            "answered_by": [
+              {
+                "id": "belle",
+                "note_ko": "묘지의 카드를 덱으로 되돌리는 효과를 포함하므로 발동 무효"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "함정을 보내면 함정으로 체인 불가라 플레임이 이 드롭렛에 못 끼어든다"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "발동에 아무것도 체인할 수 없어 플레임을 무시한다"
+              },
+              {
+                "id": "evenly_matched",
+                "note_ko": "함정이라 플레임 대상이 아니다"
+              }
+            ],
+            "bait_ko": "첫 번째 마법에 거의 확실히 맞춘다. 덜 중요한 마법(드로우 마법·싸이크론 등)을 먼저 발동해 플레임과 그라멜 파괴를 함께 받아낸 뒤 [[Dark Ruler No More]]·[[Raigeki]] 같은 핵심 마법을 쓴다."
+          },
+          {
+            "id": "gulamel_float",
+            "card": "Dracotail Gulamel",
+            "kind": "recursion",
+            "zone": "gy",
+            "timing_ko": "묘지에 있을 때 몬스터 2장 이상이 동시에 묘지로 가면 스스로 특소(필드를 떠나면 제외). [[Dracotail Arthalion]]도 같은 효과. 각자 1턴 1번",
+            "answered_by": [
+              {
+                "id": "belle",
+                "note_ko": "묘지에서 특소하는 효과라 발동을 무효"
+              },
+              {
+                "id": "evenly_matched",
+                "note_ko": "뒷면 제외라 묘지를 거치지 않아 소생 조건 자체가 안 생긴다"
+              },
+              {
+                "id": "spark",
+                "note_ko": "제외라 묘지로 보내지 않는다"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "그라멜·알자리온을 동시에 소재로 보내면 둘 다 그 순간엔 묘지에 없던 카드라 자기 소생이 안 된다"
+              }
+            ],
+            "bait_ko": "그라멜이나 알자리온 1장만 먼저 묘지로 보내면, 이후 파이메나 융합(알자리온 + 패 몬스터 2장이 동시에 묘지로)이나 내 전체 파괴가 소생 조건을 채워 준다. 파괴 효과를 쓰지 않은 그라멜이 돌아오면 견제가 1개 더 생긴다. 둘을 같이 치우거나, 묘지로 보내지 않는 제거를 쓸 것."
+          }
+        ]
+      },
+      {
+        "id": "after_ash_lukias",
+        "title_ko": "루키아스 서치에 우라라를 맞은 경우",
+        "after": {
+          "handtrap": "ash",
+          "line": "lukias",
+          "step": 2
+        },
+        "interruptions": []
+      },
+      {
+        "id": "after_ash_rahu",
+        "title_ko": "라후에 우라라를 맞은 경우 (알자리온 + 패의 파이메나)",
+        "after": {
+          "handtrap": "ash",
+          "line": "lukias",
+          "step": 6
+        },
+        "interruptions": [
+          {
+            "id": "faimena_ash_rahu",
+            "card": "Dracotail Faimena",
+            "kind": "bounce",
+            "zone": "hand",
+            "timing_ko": "필드의 [[Dracotail Arthalion]] + 패의 몬스터로 파이메나 융합 → 2번째 알자리온이 내 몬스터 1장 바운스. 그라멜·세트 함정이 없어 남는 견제는 이것뿐",
+            "answered_by": [
+              {
+                "id": "impulse",
+                "note_ko": "몬스터를 특소하는 효과의 발동이라 무효. 그라멜 파괴 트리거는 발동 시점에 이미 걸리므로 그라멜을 먼저 처리해 둘 것. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 발동 불가"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "패에서 발동한 몬스터 효과에도 체인 가능. 내 필드에 몬스터가 없어야 한다. 그라멜 파괴와 동시에 오면 하나만 고를 수 있다"
+              },
+              {
+                "id": "mourner",
+                "note_ko": "2번째 알자리온이 특소된 직후 효과를 무효해 바운스를 막는다"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "필드의 드래곤테일 몬스터를 미리 전부 흡수하면 '드래곤테일 + 패의 몬스터' 소재가 맞지 않아 파이메나가 죽은 카드가 된다(패에 다른 드래곤테일 몬스터가 있으면 예외)"
+              },
+              {
+                "id": "evenly_matched",
+                "note_ko": "배틀 페이즈 종료 시 발동이라 메인 페이즈 전용인 파이메나로 응수할 수 없다. 필드의 드래곤테일이 사라지면 메인 페이즈 2에도 소재가 없다"
+              }
+            ],
+            "bait_ko": "파이메나는 메인 페이즈 퀵이라 내가 큰 카드를 낼 때 체인으로 들어온다. 먼저 덜 중요한 몬스터를 소환해 바운스 대상을 주거나, 바운스되어도 손해가 적은 메인 덱 몬스터로 시작한다."
+          }
+        ]
+      },
+      {
+        "id": "after_imperm_arthalion",
+        "title_ko": "알자리온 회수 효과에 무한포영을 맞은 경우 (패에 몬스터가 1장 더 있을 때)",
+        "after": {
+          "handtrap": "imperm",
+          "line": "lukias",
+          "step": 4
+        },
+        "interruptions": [
+          {
+            "id": "gulamel_imperm_arthalion",
+            "card": "Dracotail Gulamel",
+            "kind": "removal",
+            "zone": "monster",
+            "timing_ko": "상대가 드래곤테일 카드·효과([[Dracotail Faimena]] 융합, [[Dracotail Horn]]·[[Dracotail Flame]] 등)를 발동할 때 체인해 내 카드 1장 파괴 (퀵, 1턴 1번)",
+            "answered_by": [
+              {
+                "id": "imperm",
+                "note_ko": "내 필드가 비어 있는 메인 페이즈 1 시작 직후 패에서 [[Dracotail Gulamel]] 대상. 그라멜은 드래곤테일 발동에만 반응하므로 무한포영 자체에는 체인 못 함(파이메나를 체인해 오면 그때 파괴 1회는 소모되지만 무효는 그대로 들어간다)"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "[[Dracotail Arthalion]]과 함께 무효. 함정 카드를 보내면 [[Dracotail Flame]]·[[Dracotail Horn]]으로 체인할 수 없다. 마법만 보내면 플레임에 무효당한다"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "그라멜 파괴 효과 발동에 체인해 무효+파괴. 내 필드에 몬스터가 없어야 한다. 무효된 발동도 1턴 1번은 쓴 것으로 처리"
+              },
+              {
+                "id": "dark_ruler",
+                "note_ko": "몬스터 효과로 체인할 수 없어 그라멜·알자리온을 함께 무효. 단 일반 마법이라 세트된 [[Dracotail Flame]]에 무효당하니 플레임을 먼저 소모시킨 뒤에"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "그라멜 + 알자리온을 소재로 흡수. 체인 불가라 플레임·파이메나도 못 끼어든다. 맞는 융합 몬스터(드래곤족 땅 + 마법사족 물)가 내 엑덱에 있어야 함"
+              },
+              {
+                "id": "spark",
+                "note_ko": "상대가 패의 파이메나 효과를 쓴 뒤라면 그라멜을 제외. 함정이라 플레임이 못 막고, 묘지로 안 가서 자기 소생도 없다"
+              }
+            ],
+            "bait_ko": "아무 드래곤테일 발동에나 1번 붙으므로, 플레임·혼을 먼저 끌어내면 그 발동에서 파괴를 써 버린다. 가장 덜 중요한 앞면 카드를 먼저 깔아 두면 그걸 파괴 대상으로 고르게 유도할 수 있다."
+          },
+          {
+            "id": "faimena_imperm_arthalion",
+            "card": "Dracotail Faimena",
+            "kind": "bounce",
+            "zone": "hand",
+            "timing_ko": "[[Rahu Dracotail]]로 덱의 [[Dracotail Urgula]]를 소재로 보내면 우르굴라 묘지 효과로 묘지의 파이메나를 다시 패에 넣을 수 있다(카드 텍스트 기준). 그러면 내 메인 페이즈에 2번째 알자리온 바운스가 남는다. 패에 남는 몬스터가 없으면 라후가 헛발이라 이 견제도 없다",
+            "answered_by": [
+              {
+                "id": "impulse",
+                "note_ko": "몬스터를 특소하는 효과의 발동이라 무효. 그라멜 파괴 트리거는 발동 시점에 이미 걸리므로 그라멜을 먼저 처리해 둘 것. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 발동 불가"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "패에서 발동한 몬스터 효과에도 체인 가능. 내 필드에 몬스터가 없어야 한다. 그라멜 파괴와 동시에 오면 하나만 고를 수 있다"
+              },
+              {
+                "id": "mourner",
+                "note_ko": "2번째 알자리온이 특소된 직후 효과를 무효해 바운스를 막는다"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "필드의 드래곤테일 몬스터를 미리 전부 흡수하면 '드래곤테일 + 패의 몬스터' 소재가 맞지 않아 파이메나가 죽은 카드가 된다(패에 다른 드래곤테일 몬스터가 있으면 예외)"
+              },
+              {
+                "id": "evenly_matched",
+                "note_ko": "배틀 페이즈 종료 시 발동이라 메인 페이즈 전용인 파이메나로 응수할 수 없다. 필드의 드래곤테일이 사라지면 메인 페이즈 2에도 소재가 없다"
+              }
+            ],
+            "bait_ko": "파이메나는 메인 페이즈 퀵이라 내가 큰 카드를 낼 때 체인으로 들어온다. 먼저 덜 중요한 몬스터를 소환해 바운스 대상을 주거나, 바운스되어도 손해가 적은 메인 덱 몬스터로 시작한다."
+          },
+          {
+            "id": "flame_imperm_arthalion",
+            "card": "Dracotail Flame",
+            "kind": "quick_negate",
+            "zone": "st",
+            "timing_ko": "세트된 일반 함정. 앞면 마법 1장(발동 중인 마법 포함) 효과를 턴 종료시까지 무효(1턴 1번). 함정·몬스터 효과는 못 막는다",
+            "answered_by": [
+              {
+                "id": "belle",
+                "note_ko": "묘지의 카드를 덱으로 되돌리는 효과를 포함하므로 발동 무효"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "함정을 보내면 함정으로 체인 불가라 플레임이 이 드롭렛에 못 끼어든다"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "발동에 아무것도 체인할 수 없어 플레임을 무시한다"
+              },
+              {
+                "id": "evenly_matched",
+                "note_ko": "함정이라 플레임 대상이 아니다"
+              }
+            ],
+            "bait_ko": "첫 번째 마법에 거의 확실히 맞춘다. 덜 중요한 마법(드로우 마법·싸이크론 등)을 먼저 발동해 플레임과 그라멜 파괴를 함께 받아낸 뒤 [[Dark Ruler No More]]·[[Raigeki]] 같은 핵심 마법을 쓴다."
+          }
+        ]
+      },
+      {
+        "id": "branded_full",
+        "title_ko": "풀 전개 (낙인융합 1장 초동, 낙인 혼합형)",
+        "line": "branded",
+        "interruptions": [
+          {
+            "id": "secreterion",
+            "card": "Secreterion Dragon",
+            "kind": "floodgate",
+            "zone": "monster",
+            "timing_ko": "융합 소환된 이 카드가 있는 동안 내가 특소한 드래곤족·마법사족 몬스터는 효과를 발동할 수 없다(지속 효과)",
+            "answered_by": [
+              {
+                "id": "kaiju",
+                "note_ko": "릴리스해 치우므로 체인이 없다. 1장만 묘지로 가서 자기 소생 조건도 안 생긴다"
+              },
+              {
+                "id": "imperm",
+                "note_ko": "내 필드가 비어 있을 때 패에서 미리 무효. 세크레테리온은 대응할 퀵 효과가 없다"
+              },
+              {
+                "id": "dark_ruler",
+                "note_ko": "몬스터 효과를 전부 무효해 지속 효과도 꺼진다. 플레임이 이 마법을 무효할 수 있다"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "함정을 보내면 플레임 체인도 막으면서 무효"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "세크레테리온을 소재로 흡수. 체인 불가"
+              },
+              {
+                "id": "ultimate_slayer",
+                "note_ko": "엑덱의 융합을 보내고 덱으로 되돌림. 몬스터 효과로 체인 불가지만 일반 마법이라 플레임 대상"
+              }
+            ],
+            "bait_ko": "드래곤족·마법사족이 아닌 몬스터로 움직이면 신경 쓸 필요가 없다."
+          },
+          {
+            "id": "ecclesia_albaz",
+            "card": "Incredible Ecclesia, the Virtuous",
+            "kind": "removal",
+            "zone": "monster",
+            "timing_ko": "메인 페이즈 퀵: 자신을 릴리스하고 덱에서 [[Fallen of Albaz]] 특소 → 알버스가 1장 버리고 자신 + 내 몬스터로 융합(내 몬스터를 소재로 빼앗음). 각 1턴 1번",
+            "answered_by": [
+              {
+                "id": "ash",
+                "note_ko": "에클레시아의 덱 특소에 체인. 에클레시아는 이미 릴리스되어 몸통도 사라진다"
+              },
+              {
+                "id": "impulse",
+                "note_ko": "특소를 포함한 발동이라 무효"
+              },
+              {
+                "id": "ogre",
+                "note_ko": "알버스의 융합 효과 발동에 체인해 알버스를 파괴하면 '이 카드를 포함' 소재 조건이 깨져 융합 불발"
+              },
+              {
+                "id": "mourner",
+                "note_ko": "알버스가 특소된 직후 효과를 무효"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "에클레시아 또는 알버스의 발동을 무효+파괴. 내 필드에 몬스터가 없어야 하는데, 그 경우 알버스가 빼앗을 내 몬스터도 없다"
+              }
+            ],
+            "bait_ko": "알버스는 자기 쪽 다른 몬스터를 소재로 못 쓴다. 내 필드에 몬스터가 없으면 이 견제는 사실상 공짜로 지나간다. 버려도 되는 몬스터 1장을 먼저 내서 소재로 가져가게 만든다."
+          },
+          {
+            "id": "tftv",
+            "card": "The Fallen & The Virtuous",
+            "kind": "removal",
+            "zone": "st",
+            "timing_ko": "세트된 속공 마법. 엑덱의 알버스 언급 몬스터를 묘지로 보내 앞면 카드 1장 파괴, 또는 에클레시아가 있으면 양쪽 묘지 몬스터 1장 소생. 이름 1턴 1번",
+            "answered_by": [
+              {
+                "id": "crossout",
+                "note_ko": "내 덱에 [[The Fallen & The Virtuous]]가 있을 때만 선언 가능. 이번 턴 그 이름의 효과 전부 무효"
+              },
+              {
+                "id": "belle",
+                "note_ko": "소생 모드(묘지에서 특소)일 때만 무효. 파괴 모드에는 못 씀"
+              },
+              {
+                "id": "cosmic",
+                "note_ko": "체인으로 발동시키게 만들 뿐이지만 타이밍을 내가 정할 수 있다"
+              }
+            ],
+            "bait_ko": "앞면 카드 1장 파괴이므로 지속 마함이나 덜 중요한 몬스터를 먼저 앞면으로 둬 대상을 준다."
+          },
+          {
+            "id": "faimena_branded_full",
+            "card": "Dracotail Faimena",
+            "kind": "bounce",
+            "zone": "hand",
+            "timing_ko": "내 메인 페이즈 중 패에서 버리고(퀵) 필드의 드래곤테일([[Dracotail Arthalion]]·[[Dracotail Phryxul]]) + 패의 몬스터로 2번째 알자리온(바운스) 또는 [[Dracotail Gulamel]](이번 턴엔 레벨 제한이 없음) 융합",
+            "answered_by": [
+              {
+                "id": "impulse",
+                "note_ko": "몬스터를 특소하는 효과의 발동이라 무효. 그라멜 파괴 트리거는 발동 시점에 이미 걸리므로 그라멜을 먼저 처리해 둘 것. 패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과 발동 불가"
+              },
+              {
+                "id": "gamma",
+                "note_ko": "패에서 발동한 몬스터 효과에도 체인 가능. 내 필드에 몬스터가 없어야 한다. 그라멜 파괴와 동시에 오면 하나만 고를 수 있다"
+              },
+              {
+                "id": "mourner",
+                "note_ko": "2번째 알자리온이 특소된 직후 효과를 무효해 바운스를 막는다"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "필드의 드래곤테일 몬스터를 미리 전부 흡수하면 '드래곤테일 + 패의 몬스터' 소재가 맞지 않아 파이메나가 죽은 카드가 된다(패에 다른 드래곤테일 몬스터가 있으면 예외)"
+              },
+              {
+                "id": "evenly_matched",
+                "note_ko": "배틀 페이즈 종료 시 발동이라 메인 페이즈 전용인 파이메나로 응수할 수 없다. 필드의 드래곤테일이 사라지면 메인 페이즈 2에도 소재가 없다"
+              }
+            ],
+            "bait_ko": "파이메나는 메인 페이즈 퀵이라 내가 큰 카드를 낼 때 체인으로 들어온다. 먼저 덜 중요한 몬스터를 소환해 바운스 대상을 주거나, 바운스되어도 손해가 적은 메인 덱 몬스터로 시작한다."
+          },
+          {
+            "id": "horn_branded_full",
+            "card": "Dracotail Horn",
+            "kind": "bounce",
+            "zone": "st",
+            "timing_ko": "세트된 일반 함정. 공격 표시 몬스터 1장을 패·엑덱으로 되돌림(1턴 1번). 발동하면 그라멜 파괴도 따라온다",
+            "answered_by": [
+              {
+                "id": "belle",
+                "note_ko": "묘지의 드래곤테일을 덱으로 되돌리는 효과를 포함해 발동 자체를 무효. 그라멜 트리거는 남는다"
+              },
+              {
+                "id": "harpie",
+                "note_ko": "체인으로 혼을 쓰게 되지만 공격 표시 몬스터가 없으면 대상이 없다. [[Dracotail Flame]]이 이 마법을 무효할 수 있으니 플레임을 먼저 소모"
+              },
+              {
+                "id": "cosmic",
+                "note_ko": "세트 카드를 제외하려 하면 상대는 체인으로 발동하거나 그냥 잃는다. 공격 표시 몬스터가 없는 타이밍에 쓰면 혼이 헛발. 플레임 무효 대상이기도 하다"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "함정을 보내고 발동하면 그 발동에는 혼으로 체인할 수 없다(제거는 아님)"
+              }
+            ],
+            "bait_ko": "공격 표시 몬스터만 대상이다. 특소는 가능하면 수비 표시로, 핵심 엑덱 몬스터는 공격할 때까지 아껴 두면 혼이 놀거나 덜 중요한 몬스터에 쓰인다."
+          },
+          {
+            "id": "flame_branded_full",
+            "card": "Dracotail Flame",
+            "kind": "quick_negate",
+            "zone": "st",
+            "timing_ko": "세트된 일반 함정. 앞면 마법 1장(발동 중인 마법 포함) 효과를 턴 종료시까지 무효(1턴 1번). 함정·몬스터 효과는 못 막는다",
+            "answered_by": [
+              {
+                "id": "belle",
+                "note_ko": "묘지의 카드를 덱으로 되돌리는 효과를 포함하므로 발동 무효"
+              },
+              {
+                "id": "droplet",
+                "note_ko": "함정을 보내면 함정으로 체인 불가라 플레임이 이 드롭렛에 못 끼어든다"
+              },
+              {
+                "id": "super_poly",
+                "note_ko": "발동에 아무것도 체인할 수 없어 플레임을 무시한다"
+              },
+              {
+                "id": "evenly_matched",
+                "note_ko": "함정이라 플레임 대상이 아니다"
+              }
+            ],
+            "bait_ko": "첫 번째 마법에 거의 확실히 맞춘다. 덜 중요한 마법(드로우 마법·싸이크론 등)을 먼저 발동해 플레임과 그라멜 파괴를 함께 받아낸 뒤 [[Dark Ruler No More]]·[[Raigeki]] 같은 핵심 마법을 쓴다."
+          }
+        ]
+      }
+    ],
+    "breakers": {
+      "lightning_storm": {
+        "rating": "ok",
+        "note_ko": "내 필드에 앞면 카드가 없을 때만. 일반 마법이라 [[Dracotail Flame]]에 무효당하기 쉽다. 플레임이 빠진 뒤라면 몬스터 모드로 공격 표시 알자리온·그라멜을 동시에 처리(동시에 묘지로 가도 그 순간 묘지에 없던 카드라 소생 안 함). 파이메나가 체인해 융합하면 묘지에 들어간 1번째 알자리온이 소생한다."
+      },
+      "evenly_matched": {
+        "rating": "strong",
+        "note_ko": "함정이라 플레임이 못 막고, 배틀 페이즈 종료 시라 메인 페이즈 전용인 파이메나도 체인 불가. 뒷면 제외라 묘지 소생도 없다. 메인 페이즈 1에 아무것도 깔지 않아야 패에서 발동할 수 있다."
+      },
+      "dark_ruler": {
+        "rating": "ok",
+        "note_ko": "그라멜·알자리온을 체인 없이 무효하지만 마법이라 세트된 플레임에 무효당한다. 플레임을 미끼로 소모시킨 뒤라면 strong. 패의 파이메나와 이후 나오는 2번째 알자리온은 무효 대상이 아니다."
+      },
+      "harpie": {
+        "rating": "weak",
+        "note_ko": "혼·플레임은 체인으로 발동되고, 플레임이 이 카드 자체를 무효한다. 제한 1이라 미끼로 쓰기도 아깝다."
+      },
+      "heavy_storm": {
+        "rating": "weak",
+        "note_ko": "해피의 깃털과 같은 문제. 제한 1."
+      },
+      "raigeki": {
+        "rating": "weak",
+        "note_ko": "플레임 무효 대상이고, 통과해도 파이메나가 체인으로 알자리온을 소재로 융합하면 해결 시 그 알자리온이 묘지에서 소생한다. 플레임·파이메나가 빠진 뒤에만 쓸 만하다."
+      },
+      "dark_hole": {
+        "rating": "weak",
+        "note_ko": "번개와 같은 문제(내 몬스터도 파괴)."
+      },
+      "kaiju": {
+        "rating": "ok",
+        "note_ko": "체인 없이 1장 처리. 그라멜을 릴리스하면 묘지에 들어가 파이메나 융합(2장 동시 묘지)으로 다시 돌아오니, 그라멜은 무한포영으로 끄고 괴수는 알자리온에 쓰는 편이 낫다. 낙인형의 [[Secreterion Dragon]] 처리에는 strong."
+      },
+      "kaiju_slumber": {
+        "rating": "weak",
+        "note_ko": "마법이라 플레임 대상, 파이메나 체인 융합 뒤 소생 문제도 번개와 같다."
+      },
+      "cosmic": {
+        "rating": "weak",
+        "note_ko": "세트 함정을 체인으로 쓰게 만들 뿐이고 플레임에 무효당할 수 있다. 플레임을 빼내는 미끼 정도."
+      },
+      "mst": {
+        "rating": "weak",
+        "note_ko": "코즈믹과 같다. 미끼로 플레임을 받아내는 용도."
+      },
+      "super_poly": {
+        "rating": "strong",
+        "note_ko": "체인 불가라 플레임·파이메나·그라멜 모두 응수 못 한다. 알자리온(드래곤족 땅) + 그라멜(마법사족 물)을 함께 흡수하면 자기 소생도 없고 필드의 드래곤테일이 사라져 파이메나도 소재가 없다. 내 엑덱에 맞는 융합이 필요하고 제한 2. 혼이 공격 표시 몬스터를 노리므로 수비 표시로 소환."
+      },
+      "book_eclipse": {
+        "rating": "weak",
+        "note_ko": "속공 마법이라 플레임에 무효당한다. 견제의 축이 몬스터 무효가 아니라 이득이 적다."
+      },
+      "kurikara": {
+        "rating": "ok",
+        "note_ko": "그라멜·2번째 알자리온이 효과를 쓴 뒤 둘을 함께 릴리스. 마법이 아니라 플레임이 못 막는다. 다만 2장이 동시에 묘지로 가므로 묘지에 1번째 알자리온이 있으면 소생한다."
+      },
+      "ultimate_slayer": {
+        "rating": "ok",
+        "note_ko": "그라멜을 덱으로 되돌려 소생 걱정이 없고 몬스터 효과로 체인 불가. 일반 마법이라 플레임 대상이니 플레임 소모 뒤에."
+      },
+      "fallen_virtuous": {
+        "rating": "ok",
+        "note_ko": "내가 알버스 엔진을 쓸 때만. 속공 파괴 1장이지만 마법이라 플레임 대상."
+      },
+      "harmonia": {
+        "rating": "ok",
+        "note_ko": "그라멜이나 2번째 알자리온 효과 발동에 반응해 1장 파괴. 그 효과 자체는 처리된다. 싱크로 덱 전용."
+      },
+      "imperm": {
+        "rating": "strong",
+        "note_ko": "메인 페이즈 1 시작, 내 필드가 비어 있을 때 [[Dracotail Gulamel]]을 미리 무효하는 것이 정석. 낙인형이면 [[Secreterion Dragon]]도 후보."
+      },
+      "gamma": {
+        "rating": "strong",
+        "note_ko": "그라멜 파괴 또는 파이메나 융합(패에서 발동한 효과)에 체인해 무효+파괴. 내 필드에 몬스터가 없어야 하므로 첫 움직임에 걸리게 쓴다."
+      },
+      "droplet": {
+        "rating": "strong",
+        "note_ko": "그라멜·알자리온을 동시에 무효. 함정을 보내면 플레임·혼으로 체인 불가. 무효된 몬스터도 파이메나 융합 소재로는 쓰일 수 있다."
+      },
+      "impulse": {
+        "rating": "strong",
+        "note_ko": "파이메나 융합(특소 포함 발동)을 무효. 상대 필드에 카드가 있으니 패에서 발동 가능. 패에서 쓰면 빛·땅·바람 몬스터 효과 영구 봉인."
+      },
+      "spark": {
+        "rating": "ok",
+        "note_ko": "파이메나(패)·우르굴라(묘지)가 효과를 쓴 턴에 그라멜·알자리온 제외. 함정이라 플레임이 못 막고 제외라 소생도 없다."
+      },
+      "mourner": {
+        "rating": "ok",
+        "note_ko": "파이메나로 나온 2번째 알자리온의 바운스를 특소 직후 무효."
+      },
+      "belle": {
+        "rating": "ok",
+        "note_ko": "혼·플레임 발동 무효, 그라멜·알자리온 묘지 소생 무효. 그라멜 트리거는 막지 못한다."
+      },
+      "ogre": {
+        "rating": "weak",
+        "note_ko": "그라멜 파괴나 알자리온 바운스에 체인해도 파괴만 하고 효과는 처리된다. 파괴된 그라멜은 묘지에서 다시 소생할 수 있다."
+      },
+      "ttt": {
+        "rating": "ok",
+        "note_ko": "내 메인 페이즈에 파이메나·그라멜이 몬스터 효과를 쓰므로 조건이 쉽게 맞는다. 일반 마법이라 플레임이 남아 있으면 무효당할 수 있다."
+      },
+      "crossout": {
+        "rating": "weak",
+        "note_ko": "자기 덱의 카드만 선언 가능. 내가 알버스 엔진을 쓴다면 낙인형의 [[The Fallen & The Virtuous]]·[[Fallen of the White Dragon]] 정도."
+      },
+      "magnamhut": {
+        "rating": "bad",
+        "note_ko": "알자리온(땅)·그라멜(물)·파이메나(물)는 빛·어둠이 아니라 제외할 수 없다. 낙인형의 알비온·하얀 용 정도만 대상."
+      },
+      "ash": {
+        "rating": "bad",
+        "note_ko": "내 턴의 드래곤테일 움직임(파이메나 융합, 혼·플레임의 드로우)은 덱에서 가져오는 효과가 아니다. 낙인형의 에클레시아 → 알버스 덱 특소에만 쓸 수 있다."
+      },
+      "veiler": {
+        "rating": "bad",
+        "note_ko": "상대 메인 페이즈 전용이라 내 턴에는 발동할 수 없다."
+      }
+    },
+    "sequencing_ko": [
+      "메인 페이즈 1 시작, 아무것도 깔기 전에 [[Infinite Impermanence]](패)로 [[Dracotail Gulamel]]을 끈다. 없으면 [[Forbidden Droplet]](함정을 보내서)이나 [[PSY-Framegear Gamma]]로 그라멜 파괴를 받아낸다.",
+      "세트 함정 2장 중 [[Dracotail Flame]]은 첫 번째 마법을 노린다. 덜 중요한 마법을 먼저 발동해 플레임(+ 그라멜 파괴)을 소모시킨 뒤 핵심 마법을 쓴다.",
+      "[[Dracotail Horn]]은 공격 표시 몬스터만 되돌린다. 특소는 수비 표시로, 엑덱 핵심 몬스터는 공격 직전까지 공격 표시로 두지 않는다.",
+      "알자리온·그라멜 중 1장만 묘지로 보내지 말 것. 이후 파이메나 융합이나 전체 파괴로 몬스터 2장이 동시에 묘지에 가면 묘지의 그 카드가 돌아온다. 둘을 같이 치우거나(초융합) 제외·덱 되돌리기로 처리한다.",
+      "패의 [[Dracotail Faimena]]는 메인 페이즈 전용 퀵이다. 필드의 드래곤테일을 없애면 소재가 맞지 않고, [[Evenly Matched]]처럼 배틀 페이즈에 쓰는 카드에는 응수하지 못한다.",
+      "우라라는 내 턴에 거의 쓸 곳이 없다(낙인형의 에클레시아 → 알버스 덱 특소 정도). 대신 [[Triple Tactics Talent]] 조건은 쉽게 성립한다."
+    ]
+  }
 }
