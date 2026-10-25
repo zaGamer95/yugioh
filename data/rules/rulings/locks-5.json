@@ -1,0 +1,487 @@
+{
+ "sources": {
+  "konami-qa": {
+   "title": "遊戯王ニューロン(オフィシャルカードゲーム カードデータベース) Q&A",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rules": [],
+ "rulings": [
+  {
+   "id": "qa-6878",
+   "fid": 6878,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=6878&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Macro Cosmos",
+    "Diabellstar the Black Witch",
+    "Ice Ryzeal",
+    "Ext Ryzeal",
+    "Magistus Chorozo"
+   ],
+   "handtraps": [
+    "macro_cosmos",
+    "banisher",
+    "arise_heart",
+    "dark_law",
+    "retaliating_c"
+   ],
+   "themes": [
+    "sinful-spoils",
+    "mitsurugi",
+    "magistus"
+   ],
+   "topic": "summon",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외된다' 효과([[Macro Cosmos]] 등)가 적용 중일 때, 카드를 묘지로 보내서 하는 특수 소환(소환 규칙)을 할 수 있는가?",
+   "answer_ko": "할 수 없다. 특수 소환 절차로 카드를 묘지로 보내는 것 자체가 불가능하기 때문이다. 같은 이유로 특소할 수 없는 예시에 [[Diabellstar the Black Witch]]·[[Ice Ryzeal]]·[[Ext Ryzeal]]이 있고, 융합 몬스터 중 「精霊コロゾ」([[Magistus Chorozo]])는 묘지로 보내는 방법(접촉 특소)으로는 특소할 수 없다.",
+   "quote_ja": "モンスターを特殊召喚する手順としてカードを墓地へ送ること自体ができませんので",
+   "impact_ko": "매크로 코스모스·섬광의 추방자·크샤트리라 어라이즈하트·응전의 G가 앞면이면 디아벨스타의 패 특소, 아이스/엑스 라이제올의 특소, 코로조 접촉 특소가 전부 막힌다. 죄보 엔진은 [[WANTED: Seeker of Sinful Spoils]]로 디아벨스타를 가져와도 낼 수 없다."
+  },
+  {
+   "id": "qa-14540",
+   "fid": 14540,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=14540&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Zoroa, the Magistus Verethragna",
+    "Therion \"King\" Regulus",
+    "Maxx \"C\""
+   ],
+   "handtraps": [
+    "arise_heart",
+    "banisher",
+    "dark_law",
+    "macro_cosmos",
+    "retaliating_c"
+   ],
+   "themes": [
+    "doomz",
+    "magistus"
+   ],
+   "topic": "cost",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외된다'가 적용 중일 때, 코스트로 카드를 묘지로 보내는 효과를 발동할 수 있는가?",
+   "answer_ko": "발동할 수 없다. 예시 목록에 [[Zoroa, the Magistus Verethragna]], [[Therion \"King\" Regulus]] ②, [[Maxx \"C\"]]가 들어 있다.",
+   "quote_ja": "コストとしてカードを墓地へ送ることができないためです。",
+   "impact_ko": "[[Zoroa, the Magistus Verethragna]] ②의 '앞면 마기스토스 몬스터 카드를 묘지로 보낸다'는 코스트다. 코스트로 보낼 마기스토스 카드가 없으면 무효를 발동할 수 없다. [[Therion \"King\" Regulus]]의 무효도 같은 코스트 구조다."
+  },
+  {
+   "id": "qa-23815",
+   "fid": 23815,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23815&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring",
+    "Ghost Belle & Haunted Mansion",
+    "Mulcharmy Fuwalos",
+    "Mulcharmy Meowls",
+    "Spenta, the Magistus Sealer"
+   ],
+   "handtraps": [
+    "arise_heart",
+    "ash",
+    "banisher",
+    "belle",
+    "fuwalos",
+    "herald",
+    "macro_cosmos",
+    "meowls",
+    "purulia"
+   ],
+   "themes": [
+    "magistus"
+   ],
+   "topic": "cost",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외된다' 효과가 적용 중일 때 '이 카드를 패에서 버리고 발동' 하는 효과를 쓸 수 있나?",
+   "answer_ko": "쓸 수 있다. 버린 카드는 결과적으로 제외되지만, 텍스트에 '묘지로 버리고'라고 쓰여 있지 않으면 발동할 수 있다. [[Ghost Belle & Haunted Mansion]]·마루챠미 몬스터 등이 예로 명시돼 있다. 반면 '묘지로 버리고 발동'이라고 쓰인 효과는 발동할 수 없다.",
+   "impact_ko": "[[Macro Cosmos]]류 아래서도 우라라·와라시·마루챠미는 쓸 수 있다. '묘지로 보내서' 발동하는 증G·드롤과 다르다."
+  },
+  {
+   "id": "qa-23817",
+   "fid": 23817,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23817&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Blazing Cartesia, the Virtuous",
+    "Branded Fusion",
+    "Fallen of Albaz",
+    "Invocation",
+    "Macro Cosmos",
+    "Rahu Dracotail"
+   ],
+   "handtraps": [
+    "arise_heart",
+    "banisher",
+    "macro_cosmos",
+    "retaliating_c"
+   ],
+   "themes": [
+    "branded",
+    "dracotail",
+    "invoked",
+    "magistus",
+    "sinful-spoils"
+   ],
+   "topic": "summon",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외된다' 효과([[Retaliating \"C\"]] 등)가 적용 중일 때 융합 소환할 수 있는가?",
+   "answer_ko": "할 수 있다. 소재는 제외되지만 융합 소환은 그대로 진행된다. [[Rahu Dracotail]]·[[Branded Fusion]]·[[Fallen of Albaz]]·[[Blazing Cartesia, the Virtuous]]·[[Invocation]] 등이 예시에 있다.",
+   "quote_ja": "墓地へ送られる融合素材モンスターは除外されますが、エクストラデッキから融合モンスターを融合召喚する処理を行います。",
+   "impact_ko": "응전하는 G는 융합 자체는 못 막지만 '소재로 묘지에 갔을 때' 효과(드래곤테일 세트, 알비온 엔드 페이즈 등)를 지운다."
+  },
+  {
+   "id": "qa-24098",
+   "fid": 24098,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24098&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dimensional Barrier",
+    "Retaliating \"C\"",
+    "The Hallowed Azamina"
+   ],
+   "handtraps": [
+    "arise_heart",
+    "banisher",
+    "dim_barrier",
+    "macro_cosmos",
+    "maxxc",
+    "retaliating_c"
+   ],
+   "themes": [
+    "sinful-spoils"
+   ],
+   "topic": "summon",
+   "question_ko": "[[The Hallowed Azamina]]에 [[Retaliating \"C\"]]가 체인되어 '묘지로 가는 카드는 제외' 상태가 되면?",
+   "answer_ko": "융합 몬스터를 보여주고 '죄보' 카드를 제외하지만, 묘지로 보낸 카드가 1장도 없으므로 융합 몬스터는 특소되지 않는다.",
+   "quote_ja": "見せた融合モンスターは特殊召喚されずにエクストラデッキに残ります。",
+   "impact_ko": "할로우드 아자미나에 응전하는 G를 체인하면 아자미나 융합 자체가 나오지 않는다."
+  },
+  {
+   "id": "qa-15449",
+   "fid": 15449,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=15449&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Retaliating \"C\""
+   ],
+   "handtraps": [
+    "retaliating_c"
+   ],
+   "themes": [
+    "magistus",
+    "mitsurugi",
+    "sinful-spoils"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Retaliating \"C\"]]의 패 특소 효과는 어떤 때 발동할 수 있는가?",
+   "answer_ko": "특수 소환하는 처리를 포함한 마법 카드의 '카드의 발동'에 직접 체인해서만 발동할 수 있다. 앞면으로 있는 마법 카드가 나중에 특수 소환하는 효과를 발동한 경우나, 발동 시점에 특수 소환을 포함하지 않는 마법 카드의 발동에는 체인할 수 없다.",
+   "quote_ja": "「増草剤」や「召魔装着」などの魔法カードの、特殊召喚する効果の発動にチェーンして、手札の「応戦するG」の効果を発動する事はできません。",
+   "impact_ko": "응전의 G는 융합·의식 마법, [[The Hallowed Azamina]]처럼 발동 자체가 특소를 포함하는 마법에 쓴다. 장착 마법 [[Tails of the Fairy Tails]]의 융합 효과처럼 필드에 있는 마법의 효과 발동에는 쓸 수 없다."
+  },
+  {
+   "id": "qa-24159",
+   "fid": 24159,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24159&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Filia Diabell",
+    "Ketu Dracotail",
+    "Mitsurugi Prayers",
+    "Retaliating \"C\""
+   ],
+   "handtraps": [
+    "maxxc",
+    "retaliating_c"
+   ],
+   "themes": [
+    "dracotail",
+    "mitsurugi",
+    "sinful-spoils"
+   ],
+   "topic": "chain",
+   "question_ko": "상대가 [[Ketu Dracotail]]을 발동했을 때 [[Retaliating \"C\"]]를 체인할 수 있는가?",
+   "answer_ko": "체인할 수 있다. 내 필드에 몬스터가 없거나 상대가 융합 부분(●)을 적용할 수 없는 상황이어도 특소를 포함한 마법의 발동으로 본다.",
+   "quote_ja": "自分はチェーンして「応戦するG」の①の効果を発動できます。",
+   "impact_ko": "케투 발동에 응전하는 G를 내면, 이후 묘지로 가는 소재가 제외되어 드래곤테일의 세트 효과가 나오지 않는다."
+  },
+  {
+   "id": "supp-21054",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21054&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ame no Murakumo no Mitsurugi"
+   ],
+   "handtraps": [
+    "arise_heart",
+    "ash",
+    "banisher",
+    "belle",
+    "droll",
+    "fissure",
+    "herald",
+    "macro_cosmos",
+    "retaliating_c"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Ame no Murakumo no Mitsurugi]] 카드 보충 정보: ② 소프트 무효와 ③ 릴리스 유발은 어떻게 처리되는가?",
+   "answer_ko": "②는 상대 손패가 0장이어도 발동할 수 있다. ③은 릴리스되어 처음 간 곳(묘지 또는 앞면 제외)에서 발동하는 유발 효과다. 처리 때 먼저 서치하고, 서치에 성공했으며 한 번 정규 방법으로 특소된 이 카드가 발동한 곳에 남아 있을 때만 그 뒤 자신을 특소할 수 있다(동시가 아님).",
+   "quote_ja": "手札に加えることに成功し、一度正規の方法で特殊召喚されたこのカードが効果を発動した場所に残っている場合、その後、『このカードを特殊召喚』する処理を行うことができます。",
+   "impact_ko": "드롤로 서치를 못 하면 자신 특소도 없다. 의식 소환되지 않은 채 패·덱에서 릴리스된 무라쿠모는 서치만 하고 특소하지 못한다."
+  },
+  {
+   "id": "supp-21057",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21057&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mitsurugi no Mikoto, Saji"
+   ],
+   "handtraps": [
+    "macro_cosmos",
+    "banisher",
+    "fissure",
+    "herald",
+    "arise_heart",
+    "retaliating_c",
+    "skill_drain"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Mitsurugi no Mikoto, Saji]] 카드 보충 정보: 릴리스되었을 때의 서치 효과는 어디서 발동하는가?",
+   "answer_ko": "유발 효과이며, 릴리스되어 묘지로 갔으면 묘지에서, 앞면으로 제외됐으면 제외 상태에서 발동할 수 있다(릴리스되어 처음 간 곳에서 발동). 일반 소환·특수 소환했을 때는 몬스터 존에서 발동한다.",
+   "quote_ja": "このカードがリリースされ、墓地へ送られた場合には墓地で、表側で除外された場合には除外状態で発動できます。",
+   "impact_ko": "'묘지 대신 제외' 계열(매크로 코스모스·섬광의 추방자·차원의 틈 등)이 있어도 미츠루기의 릴리스 유발은 제외 상태에서 그대로 발동한다. 의식 몬스터 3종(무라쿠모·하바키리·후츠노미타마)도 보충 정보에 같은 문구가 있어, 제외된 곳에서 서치 후 자신 특소까지 한다. 미츠루기에 차원계 카드는 거의 안 통한다. 반대로 효과가 묘지·제외에서 발동하므로 스킬 드레인도 이 유발은 못 막는다."
+  },
+  {
+   "id": "qa-24239",
+   "fid": 24239,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24239&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ame no Habakiri no Mitsurugi",
+    "Ame no Murakumo no Mitsurugi",
+    "Futsu no Mitama no Mitsurugi"
+   ],
+   "handtraps": [
+    "dd_crow",
+    "magnamhut"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "timing",
+   "question_ko": "묘지에서 발동한 [[Ame no Habakiri no Mitsurugi]] ③에 체인해 그 하바키리를 묘지에서 제외하면?",
+   "answer_ko": "서치는 처리되지만, 발동한 곳(묘지)을 떠났으므로 자신을 특소하는 처리는 하지 않는다. 무라쿠모·후츠노미타마도 같다.",
+   "quote_ja": "自身を特殊召喚する処理は行われません。",
+   "impact_ko": "릴리스된 무라쿠모의 ③ 발동에 체인해 묘지에서 제외하면([[Bystial Magnamhut]] 등) 재특소와 전체 파괴를 막을 수 있다(서치는 남음)."
+  },
+  {
+   "id": "qa-24070",
+   "fid": 24070,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24070&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ame no Habakiri no Mitsurugi",
+    "Ame no Murakumo no Mitsurugi",
+    "Futsu no Mitama no Mitsurugi"
+   ],
+   "handtraps": [
+    "dd_crow",
+    "magnamhut"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "timing",
+   "question_ko": "릴리스되어 묘지로 간 몬스터가 '릴리스되었을 때' 효과를 발동하기 전에 묘지를 떠나면 효과가 발동하는가?",
+   "answer_ko": "발동하지 않는다. 이 효과는 릴리스된 체인 처리 뒤 처음 간 곳에서 발동하므로, 발동 전에 그곳을 떠나면 안 된다. [[Ame no Habakiri no Mitsurugi]] ③, [[Ame no Murakumo no Mitsurugi]] ③, [[Futsu no Mitama no Mitsurugi]] ②가 예시에 있다.",
+   "quote_ja": "最初に送られたところから離れている場合には発動しません。",
+   "impact_ko": "릴리스(예: 대불 코스트)와 같은 체인에서 묘지의 미츠루기를 제외하면 서치·재특소가 모두 사라진다."
+  },
+  {
+   "id": "qa-23336",
+   "fid": 23336,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23336&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ame no Habakiri no Mitsurugi",
+    "Night Train Blue Traveler"
+   ],
+   "handtraps": [
+    "ash",
+    "belle",
+    "herald",
+    "impulse"
+   ],
+   "themes": [
+    "mitsurugi",
+    "railway"
+   ],
+   "topic": "misc",
+   "question_ko": "'듀얼 중 1번' 효과의 발동이나 효과가 무효가 되면, 그 듀얼 중 다시 발동할 수 있나? ([[Night Train Blue Traveler]] ② 포함)",
+   "answer_ko": "다시 발동할 수 없다. 발동·효과가 무효가 된 경우, 효과가 바뀌어 처리된 경우, 다른 효과 때문에 특소 처리를 못 한 경우 모두 그 효과를 '사용한' 것으로 본다. 예시 목록에 「夜光列車ブルートラベラー」②가 직접 나온다.",
+   "quote_ja": "いずれの場合でも、「天羽々斬之巳剣」の①の効果を使用したことになりますので、そのデュエル中に再び発動することはできなくなります。",
+   "impact_ko": "와라시로 블루트래블러 ②를 무효하면 그 듀얼 동안 2번째 블루트래블러가 와도 묘지 효과를 다시 쓸 수 없다. 이 덱의 '레벨 10 2장을 공짜로 세우는' 핵심이 영구히 사라진다."
+  },
+  {
+   "id": "qa-8773",
+   "fid": 8773,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=8773&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Rivalry of Warlords"
+   ],
+   "handtraps": [
+    "rivalry"
+   ],
+   "themes": [
+    "magistus",
+    "mitsurugi",
+    "sinful-spoils"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Rivalry of Warlords]]가 적용 중이고 내 필드에 전사족이 있을 때, 다른 종족 몬스터를 소환·특수 소환할 수 있는가?",
+   "answer_ko": "할 수 없다. 전사족 이외의 몬스터를 일반 소환·반전 소환할 수 없고, 전사족 이외의 몬스터를 특수 소환하는 카드를 발동할 수도 없다. 뒷면 상태의 다른 종족 몬스터가 리버스하면 그 몬스터는 묘지로 보내진다.",
+   "quote_ja": "戦士族以外のモンスターを特殊召喚するようなカードを発動する事もできません。",
+   "impact_ko": "군웅할거는 '나중에 정리'가 아니라 다른 종족의 소환 자체를 막는다. 필드에 마법사족이 있으면 환상마족 아자미나 융합체를 내는 [[The Hallowed Azamina]]부터 발동할 수 없다. 센서 만별(같은 종족 2장째)·어전시합(다른 속성)도 보충 정보에 같은 구조가 적혀 있다."
+  },
+  {
+   "id": "qa-11272",
+   "fid": 11272,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11272&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Rivalry of Warlords"
+   ],
+   "handtraps": [
+    "rivalry"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Rivalry of Warlords]] 적용 중, 필드의 같은 종족 레벨 4 2장으로 다른 종족의 엑시즈 몬스터를 엑시즈 소환할 수 있는가?",
+   "answer_ko": "할 수 없다. 필드의 몬스터가 전사족이면 엑시즈 소환할 수 있는 것도 전사족 엑시즈 몬스터뿐이다.",
+   "quote_ja": "戦士族以外のエクシーズモンスターを、エクシーズ召喚する事はできません。",
+   "impact_ko": "소재가 모두 필드를 떠나는 엑시즈 소환이라도 종족이 다른 엑시즈는 못 낸다. 파충류족 미츠루기 2장으로 번개족 [[Ryzeal Duo Drive]]를 낼 수 없다."
+  },
+  {
+   "id": "supp-13447",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=13447&request_locale=ja",
+   "official": true,
+   "cards": [
+    "There Can Be Only One"
+   ],
+   "handtraps": [
+    "only_one",
+    "gozen",
+    "rivalry"
+   ],
+   "themes": [
+    "magistus",
+    "mitsurugi",
+    "sinful-spoils"
+   ],
+   "topic": "summon",
+   "question_ko": "[[There Can Be Only One]] 카드 보충 정보: 적용 중에는 무엇을 할 수 없는가?",
+   "answer_ko": "자기 몬스터 존에 앞면 몬스터가 있으면 그와 같은 종족의 몬스터를 일반 소환·반전 소환·앞면 표시 특수 소환할 수 없다(뒷면 수비 표시로 일반 소환·특수 소환하는 것은 가능). 적용된 시점에 같은 종족이 2장 이상이면 1장이 되도록 묘지로 보낸다. [[Rivalry of Warlords]](다른 종족)·[[Gozen Match]](다른 속성)의 보충 정보도 같은 구조다.",
+   "quote_ja": "そのモンスターと同じ種族のモンスターを、召喚・反転召喚・表側表示で特殊召喚することはできません。",
+   "impact_ko": "한 종족을 여러 장 쌓는 덱(마법사족 마기스토스, 파충류족 미츠루기)은 2장째부터 못 낸다. 엑시즈·링크처럼 같은 종족 2장 이상이 필드에 동시에 필요한 소환도 막힌다."
+  },
+  {
+   "id": "qa-19975",
+   "fid": 19975,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=19975&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mistake"
+   ],
+   "handtraps": [
+    "mistake"
+   ],
+   "themes": [
+    "magistus",
+    "mitsurugi",
+    "sinful-spoils"
+   ],
+   "topic": "chain",
+   "question_ko": "서치 효과의 발동에 체인해서 [[Mistake]]를 발동하면 그 서치는 어떻게 되나?",
+   "answer_ko": "미스테이크의 '드로우 이외로 덱에서 패에 넣을 수 없다' 효과가 적용된 상태로 처리되므로, 덱에서 카드를 패에 넣지 못한다(덱에서 카드를 고르는 것 자체를 하지 않는다). 서치 이외의 부분은 그대로 처리된다.",
+   "quote_ja": "デッキからカードを手札に加える事ができなくなっていますので、デッキから「アンティーク・ギア」と名のついたカードを手札に加える事はできません。",
+   "impact_ko": "세트해 둔 미스테이크는 상대의 첫 서치 효과 발동에 체인해 발동해도 그 서치부터 막는다. 반대로 내 미스테이크 발동에 상대가 체인한 서치는 정상 처리된다(보충 정보)."
+  },
+  {
+   "id": "supp-10807",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=10807&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mistake"
+   ],
+   "handtraps": [
+    "mistake"
+   ],
+   "themes": [
+    "magistus",
+    "mitsurugi",
+    "sinful-spoils"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Mistake]] 카드 보충 정보: 효과는 언제부터 적용되는가?",
+   "answer_ko": "카드의 발동 처리가 끝난 뒤부터 적용되는, 체인 블록이 만들어지지 않는 효과다. 미스테이크의 발동에 체인해 상대가 발동한 서치 효과는 평소대로 처리된다.",
+   "quote_ja": "「手違い」のカードの発動にチェーンして「幽麗なる幻滝」等の、デッキからカードを手札に加えるカードの効果が発動した場合には通常通り処理が適用されます。",
+   "impact_ko": "상대 턴 시작(스탠바이 페이즈 등)에 미리 발동하면 상대가 체인해 서치 1번을 통과시킬 수 있다. 상대의 서치 효과 발동에 체인해 발동하는 편이 확실하다."
+  },
+  {
+   "id": "supp-12668",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=12668&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dimensional Barrier"
+   ],
+   "handtraps": [
+    "dim_barrier"
+   ],
+   "themes": [
+    "magistus",
+    "mitsurugi",
+    "sinful-spoils"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Dimensional Barrier]] 카드 보충 정보: 선언한 종류의 몬스터 효과는 어디까지 무효가 되는가?",
+   "answer_ko": "필드에 앞면으로 있는 선언 종류 몬스터의 효과만 무효가 된다. 패·묘지·제외 상태·엑스트라 덱에서 발동한 효과는 무효가 되지 않고, 필드에서 발동했더라도 코스트 등으로 처리 때 필드에 없으면 무효가 되지 않는다. 필드에 없는 종류를 선언해도 된다. 적용 중에는 그 종류를 뒷면 수비로도 특소할 수 없다.",
+   "quote_ja": "該当するモンスターが、手札・墓地・除外状態・エクストラデッキで効果を発動した場合には、この効果によって無効化されることはありません。",
+   "impact_ko": "의식 선언으로 미츠루기 의식 소환은 막지만, 릴리스된 의식 몬스터가 묘지·제외 상태에서 쓰는 서치는 막지 못한다. 자신을 릴리스하며 발동하는 [[Azamina Ilia Silvia]]의 무효도 막지 못한다."
+  },
+  {
+   "id": "supp-5740",
+   "fid": null,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=5740&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Skill Drain"
+   ],
+   "handtraps": [
+    "skill_drain"
+   ],
+   "themes": [
+    "magistus",
+    "mitsurugi",
+    "sinful-spoils"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Skill Drain]] 카드 보충 정보: 필드에서 발동한 몬스터 효과가 무효가 되지 않는 경우는?",
+   "answer_ko": "몬스터 존에서 발동한 효과라도 처리 때 그 몬스터가 몬스터 존에 앞면으로 없으면(발동 코스트로 필드를 떠난 경우 등) 무효가 되지 않고 처리된다. 처리 때 앞면으로 있으면 처리되지 않는다.",
+   "quote_ja": "効果を発動したモンスターがそのコストとしてモンスターゾーンを離れた場合や、チェーンして発動した効果のコストや処理によってモンスターゾーンに表側表示で存在しなくなった場合がこれにあたります。",
+   "impact_ko": "자신을 릴리스해 무효하는 [[Azamina Ilia Silvia]], 자신을 코스트로 보낼 수 있는 [[Zoroa, the Magistus Verethragna]]는 스킬 드레인 아래서도 무효를 쓸 수 있다. 패·묘지에서 발동하는 효과는 처음부터 대상이 아니다."
+  }
+ ]
+}

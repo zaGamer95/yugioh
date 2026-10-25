@@ -1,0 +1,350 @@
+{
+ "sources": {
+  "konami-qa": {
+   "title": "遊戯王ニューロン(オフィシャルカードゲーム カードデータベース) Q&A",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rules": [],
+ "rulings": [
+  {
+   "id": "qa-22433",
+   "fid": 22433,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22433&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mistake"
+   ],
+   "handtraps": [
+    "mistake"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "chain",
+   "question_ko": "덱에서 패에 넣는 효과의 발동에 체인해서 [[Mistake]]를 발동하면 그 서치는 어떻게 되는가?",
+   "answer_ko": "[[Mistake]]의 '드로우 이외로 덱에서 패에 넣을 수 없다'가 적용된 상태에서 서치 효과가 처리되므로, 서치는 적용되지 않는다. [[Mistake]]가 이미 앞면이면 그런 카드는 발동 자체도 할 수 없다.",
+   "quote_ja": "「手違い」の…効果が適用されている状態で、「運命の一枚」の効果処理が行われる事になります。その場合、結果的に「運命の一枚」の効果処리は適用されません。",
+   "impact_ko": "세트해 둔 [[Mistake]]는 상대의 첫 서치 효과 발동에 체인해도 그 서치를 막는다(체인 2로 먼저 처리되기 때문). 미리 앞면으로 둘 필요는 없고, 상대가 서치 효과를 발동한 순간이 패트랩 타이밍이다."
+  },
+  {
+   "id": "qa-7735",
+   "fid": 7735,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=7735&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Macro Cosmos",
+    "Banisher of the Radiance"
+   ],
+   "handtraps": [
+    "macro_cosmos",
+    "banisher",
+    "fissure",
+    "herald",
+    "arise_heart",
+    "dark_law",
+    "retaliating_c"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Macro Cosmos]]·[[Banisher of the Radiance]] 적용 중 '묘지로 보내고, 그 후 ~한다' 효과를 쓰면, 묘지로 보낼 카드가 제외될 때 뒤의 처리는 되는가?",
+   "answer_ko": "되지 않는다. 묘지로 보내는 카드가 대신 제외되면 '묘지로 보냈다'는 조건을 채우지 못해 뒤의 처리(예시에서는 드로우)를 할 수 없다.",
+   "quote_ja": "「漆黒のトバリ」の効果によって墓地へ送るカードが、「マクロコスモス」等の効果によりゲームから除外された場合、その後、デッキからカードをドローする事ができません。",
+   "impact_ko": "[[Prohibited Power Patron Portal - Terminus]](감옥신 몬스터를 묘지로 → 그 후 서치)와 [[Bone Archfiend]] ②(악마족 튜너를 묘지로 → 레벨 변경)는 발동은 되지만 묘지로 보낼 카드가 제외되어 뒤의 서치·레벨 변경이 일어나지 않는다."
+  },
+  {
+   "id": "qa-23810",
+   "fid": 23810,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23810&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Herald of the Arc Light",
+    "Macro Cosmos"
+   ],
+   "handtraps": [
+    "herald",
+    "macro_cosmos",
+    "arise_heart"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "misc",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외' 효과나 [[Herald of the Arc Light]]의 '패·덱에서 묘지로 가는 몬스터는 제외' 효과 적용 중, 덱의 몬스터를 묘지로 보내고 특소하는 효과를 발동할 수 있는가?",
+   "answer_ko": "발동은 할 수 있다. 다만 처리 때 묘지로 보낼 카드가 묘지에 가지 않고 제외되면 거기서 처리가 끝나고, 뒤의 특수 소환은 하지 않는다.",
+   "quote_ja": "いずれの状況でも、…②の効果を発動できます。ただし、処理時に墓地へ送られる…やデッキのモンスターが墓地へ行かずに除外された場合にはそこで処理を完了することになり、…特殊召喚する処理は行われません。",
+   "impact_ko": "[[Herald of the Arc Light]]도 덱→묘지 몬스터에 대해 같은 결과다. 덤핑을 조건으로 하는 다음 처리(테르미나스 서치·본 데몬 레벨 변경)는 사라진다. 상대는 '아무 일도 안 일어나는 발동'을 할 수 있으므로 우라라 등을 낭비하지 말 것."
+  },
+  {
+   "id": "qa-23816",
+   "fid": 23816,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23816&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Macro Cosmos"
+   ],
+   "handtraps": [
+    "macro_cosmos",
+    "banisher",
+    "arise_heart",
+    "retaliating_c"
+   ],
+   "themes": [
+    "kewl-tune"
+   ],
+   "topic": "cost",
+   "question_ko": "[[Macro Cosmos]] 등 '묘지로 보내지는 카드는 대신 제외' 적용 중에 몬스터를 릴리스하는 코스트로 효과를 발동할 수 있는가?",
+   "answer_ko": "할 수 있다. 릴리스한 몬스터는 결과적으로 제외되지만 효과는 통상대로 처리된다.",
+   "quote_ja": "リリースされた…は結果的に「マクロコスモス」の効果によって墓地へ送られずに除外されますが、通常通り効果の処理を行い…",
+   "impact_ko": "[[JJ \"Kewl Tune\"]](튜너 릴리스)·[[Kewl Tune Remix]](자신 릴리스)는 매크로 아래에서도 발동된다. 다만 리믹스가 고를 '묘지의 비싱크로 튜너'가 매크로 아래에서는 새로 쌓이지 않는다."
+  },
+  {
+   "id": "qa-15449",
+   "fid": 15449,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=15449&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Retaliating \"C\""
+   ],
+   "handtraps": [
+    "retaliating_c"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Retaliating \"C\"]]는 어떤 마법에 반응해 패에서 특소할 수 있는가?",
+   "answer_ko": "특수 소환하는 처리를 포함한 마법 카드의 '카드의 발동'에 직접 체인할 때만 쓸 수 있다. 앞면 마법의 효과 발동(카드의 발동이 아닌 것)이나, 카드의 발동 시에는 특소를 포함하지 않는 마법에는 쓸 수 없다.",
+   "quote_ja": "モンスターを特殊召喚する効果処理を含む魔法カードのカードの発動に直接チェーンして発動する効果です。…魔法カードの、特殊召喚する効果の発動にチェーンして…発動する事はできません。",
+   "impact_ko": "[[Elfnotes: Welcome Home]](디나가 덱에서 앞면으로 놓음)·[[JJ \"Kewl Tune\"]] 릴리스 효과·[[Crimson Gaia]]는 대상이 아니다. 이 세 테마의 1턴 전개에는 응전의 G를 꺼낼 마법 발동이 거의 없다. [[Kewl Tune Synchro]](서치 후 싱크로 소환)를 내 턴에 발동할 때가 거의 유일한 기회."
+  },
+  {
+   "id": "qa-24292",
+   "fid": 24292,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24292&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Vanity's Fiend"
+   ],
+   "handtraps": [
+    "vanity_fiend",
+    "vanity_ruler"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Vanity's Fiend]]로 서로 특수 소환할 수 없을 때 특수 소환하는 카드를 발동할 수 있는가?",
+   "answer_ko": "발동할 수 없다. 상대만 특소할 수 없는 상황이라면 그 상대는 마찬가지로 특소하는 효과를 쓸 수 없다.",
+   "quote_ja": "（A）発動できません。",
+   "impact_ko": "특소 불가 상태에서는 '특소하는' 효과를 발동하는 것 자체가 막힌다. [[Elfnote Regina]] 패 효과·[[Kewl Tune Cue]] 소환 유발처럼 특소가 핵심인 효과는 체인 없이 그냥 못 쓰게 된다."
+  },
+  {
+   "id": "qa-23163",
+   "fid": 23163,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23163&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Barrier Statue of the Abyss"
+   ],
+   "handtraps": [
+    "statue_abyss",
+    "statue_heavens",
+    "statue_inferno",
+    "statue_torrent"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Barrier Statue of the Abyss]] 적용 중 특수 소환하는 효과로 원래 속성이 어둠이 아닌 몬스터를 고를 수 있는가?",
+   "answer_ko": "고를 수 없다. 특소할 수 있는 어둠 몬스터가 없으면 그 효과는 발동할 수 없다.",
+   "quote_ja": "…元々の属性が闇属性以外のモンスターを選ぶことはできません。（…１体も存在しない場合は、…①の効果は発動できません。）",
+   "impact_ko": "결계상의 속성 이외 몬스터만 특소하는 효과는 발동부터 막힌다. 예: [[Barrier Statue of the Torrent]] 아래에서는 [[Kewl Tune Cue]]가 물 튜너를 고를 수 없어 소환 유발을 쓸 수 없다. 결계상 자신의 지원(보조 정보)도 '뒷면 특소도 불가'."
+  },
+  {
+   "id": "supp-7934",
+   "fid": null,
+   "cid": 7934,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=7934&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Gozen Match"
+   ],
+   "handtraps": [
+    "gozen"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Gozen Match]] 적용 중에는 무엇을 소환할 수 없는가?",
+   "answer_ko": "자신 몬스터 존에 앞면 몬스터가 있으면, 그와 속성이 다른 몬스터를 일반 소환·반전 소환·앞면 특소할 수 없다(뒷면 세트는 가능). 여러 장이 동시에 특소되어 속성이 2종류가 되면 일부를 묘지로 보내 1종류로 맞춘다. 체인 블록은 만들어지지 않는다.",
+   "quote_ja": "自身のモンスターゾーンに表側表示のモンスターが存在する場合、そのモンスターと属性が異なるモンスターを、召喚・反転召喚・表側表示で特殊召喚することはできません。",
+   "impact_ko": "싱크로 소환은 소재가 먼저 필드를 떠나므로 필드가 비어 있으면 다른 속성 싱크로도 나온다. 막히는 것은 '필드에 다른 속성이 남은 채로' 추가 특소·소환하는 순간이다. 튜너와 비튜너의 속성이 다른 덱은 싱크로 자체가 어려워진다."
+  },
+  {
+   "id": "supp-5622",
+   "fid": null,
+   "cid": 5622,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=5622&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Rivalry of Warlords"
+   ],
+   "handtraps": [
+    "rivalry"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Rivalry of Warlords]] 적용 중에는 무엇을 소환할 수 없는가?",
+   "answer_ko": "자신 몬스터 존에 앞면 몬스터가 있으면, 그와 종족이 다른 몬스터를 일반 소환·반전 소환·앞면 특소할 수 없다(뒷면은 가능). 동시에 여러 장이 나와 종족이 2종류가 되면 일부를 묘지로 보낸다.",
+   "quote_ja": "自身のモンスターゾーンに表側表示のモンスターが存在する場合、そのモンスターと種族が異なるモンスターを、召喚・反転召喚・表側表示で特殊召喚することはできません。",
+   "impact_ko": "튜너가 악마족(감옥신정·레조네이터)이고 비튜너가 마법사족·드래곤족인 엘펜노츠·레드 데몬즈는 튜너와 비튜너를 같은 필드에 세울 수 없다."
+  },
+  {
+   "id": "supp-13447",
+   "fid": null,
+   "cid": 13447,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=13447&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "There Can Be Only One"
+   ],
+   "handtraps": [
+    "only_one"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "summon",
+   "question_ko": "[[There Can Be Only One]] 적용 중에는 무엇을 소환할 수 없는가?",
+   "answer_ko": "자신 몬스터 존에 앞면 몬스터가 있으면, 그와 같은 종족의 몬스터를 일반 소환·반전 소환·앞면 특소할 수 없다(뒷면은 가능). 동시에 같은 종족이 2장 이상 나오면 1장만 남기고 묘지로 보낸다.",
+   "quote_ja": "自身のモンスターゾーンに表側表示のモンスターが存在する場合、そのモンスターと同じ種族のモンスターを、召喚・反転召喚・表側表示で特殊召喚することはできません。",
+   "impact_ko": "같은 종족을 나란히 세우는 순간(드래곤족 싱크로 여러 장, 마법사족 엘펜노츠 2장)이 막힌다. 종족이 전부 다른 킬러튠에는 거의 영향이 없다."
+  },
+  {
+   "id": "supp-5740",
+   "fid": null,
+   "cid": 5740,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=5740&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Skill Drain"
+   ],
+   "handtraps": [
+    "skill_drain"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Skill Drain]]은 어떤 몬스터 효과를 무효로 하는가?",
+   "answer_ko": "몬스터 존에서 발동한 효과는, 처리 때 그 몬스터가 앞면으로 몬스터 존에 있으면 처리되지 않는다. 코스트로 필드를 떠났거나 체인 처리로 필드에 없어진 경우에는 무효되지 않는다. 패·묘지에서 발동한 효과는 대상이 아니다.",
+   "quote_ja": "モンスターがモンスターゾーンで効果を発動した処理時に、そのモンスターがモンスターゾーンに表側表示で存在しなくなった場合、そのモンスター効果は無効化されず、処理は行われます。（効果を発動したモンスターがそのコストとしてモンスターゾーンを離れた場合…）",
+   "impact_ko": "세트한 [[Skill Drain]]은 필드 몬스터 효과 발동에 체인해도 그 효과를 지운다. 단 [[Kewl Tune Remix]]처럼 자신을 릴리스하는 효과, [[Elfnote Regina]]의 패 효과, 싱크로 소재 묘지 유발은 그대로 처리된다."
+  },
+  {
+   "id": "supp-12668",
+   "fid": null,
+   "cid": 12668,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=12668&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Dimensional Barrier"
+   ],
+   "handtraps": [
+    "dim_barrier"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Dimensional Barrier]]로 선언한 종류는 어떻게 막히는가?",
+   "answer_ko": "필드에 없는 종류도 선언할 수 있다. 선언한 종류는 서로 특수 소환할 수 없고(뒷면 특소 포함), 필드에서 발동한 그 종류 몬스터의 효과는 처리 때 앞면으로 남아 있으면 처리되지 않는다. 패·묘지·제외·엑스트라 덱에서 발동한 효과는 무효되지 않는다. (카드 텍스트상 링크는 선언할 수 없다.)",
+   "quote_ja": "該当するモンスターが、手札・墓地・除外状態・エクストラデッキで効果を発動した場合には、この効果によって無効化されることはありません。",
+   "impact_ko": "세 테마 모두 싱크로를 선언하면 1턴 내내 싱크로 소환이 없다. 싱크로 소재로 묘지에 간 비싱크로 몬스터의 유발(감옥신정 서치·레조네이터 회수 등)은 막지 못하지만, 그 뒤에 이을 싱크로가 없다."
+  },
+  {
+   "id": "supp-14994",
+   "fid": null,
+   "cid": 14994,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=14994&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Archnemeses Protos"
+   ],
+   "handtraps": [
+    "protos"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Archnemeses Protos]]의 ②(속성 선언)는 언제 쓰며 무엇을 선언할 수 있는가?",
+   "answer_ko": "몬스터 존에서 발동하는 기동 효과(내 메인 페이즈)다. 몬스터 존에 앞면으로 있는 몬스터의 속성 1개만 선언할 수 있다. 파괴에 성공했는지와 관계없이, 효과가 무효되지 않았다면 다음 턴 종료시까지 서로 그 속성을 특소할 수 없다. 특소 절차(속성이 다른 3장 제외)는 효과가 아니라 체인이 생기지 않는다.",
+   "quote_ja": "モンスターゾーンに表側表示で存在するモンスターの属性１つを宣言して発動できます。■破壊する処理に成功したかに関わらず、この効果が無効にならなかったのであれば、次のターン終了時まで『お互いに宣言した属性のモンスターを特殊召喚できない』状態になります。",
+   "impact_ko": "선공 1턴에는 상대 필드가 비어 있으므로 내 필드 몬스터의 속성만 선언할 수 있다. 프로토스 자신이 어둠이라 '어둠'은 언제든 선언 가능(자신은 효과 파괴 내성) → 어둠 덱인 레드 데몬즈에 특히 강하다. 후공 때는 상대 보드 속성을 선언해 일괄 파괴+다음 턴 특소 봉쇄."
+  },
+  {
+   "id": "supp-11384",
+   "fid": null,
+   "cid": 11384,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=11384&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Herald of the Arc Light"
+   ],
+   "handtraps": [
+    "herald"
+   ],
+   "themes": [
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Herald of the Arc Light]]의 ①·②는 어디까지 적용되는가?",
+   "answer_ko": "①은 패·덱에서 묘지로 가는 몬스터만 제외한다. 엑스트라 덱·필드에서 묘지로 가는 몬스터는 통상대로 묘지로 간다. ②는 몬스터 효과 발동과 마법·함정 '카드의 발동'에 직접 체인할 수 있고, 카드의 발동을 동반하지 않는 앞면 마법·함정의 효과 발동에는 쓸 수 없다.",
+   "quote_ja": "モンスター効果・魔法カード・罠カードの発動に直接チェーンして発動できます。（カードの発動を伴わない魔法・罠カードの効果の発動に対して発動することはできません。）",
+   "impact_ko": "싱크로 소재(필드→묘지)의 유발은 막지 못한다. [[Elfnotes: Welcome Home]]·[[Elfnotes: Rhapsodia of Madness]]·[[JJ \"Kewl Tune\"]]·[[Crimson Gaia]]의 앞면 효과에는 무효를 쓸 수 없으니 몬스터 효과에 쓴다."
+  }
+ ]
+}

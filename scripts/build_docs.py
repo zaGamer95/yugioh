@@ -176,7 +176,7 @@ def build_handtraps(ht, classes, names):
     return "\n".join(out) + "\n"
 
 
-def write_site_data(themes, hdef, names):
+def write_site_data(themes, engines, hdef, names):
     """GitHub Pages(docs/index.html)가 읽는 데이터 한 덩어리. 카드는 테마에 나온 것만 담는다."""
     used = set()
 
@@ -194,6 +194,7 @@ def write_site_data(themes, hdef, names):
 
     bdef = load_json(ROOT / "data/breakers.json")
     walk(themes)
+    walk(engines)
     walk(hdef["handtraps"])
     walk(bdef["breakers"])
     # 공식 룰·판정 (data/rules/rules.json + data/rules/rulings/*.json), id 기준 병합
@@ -239,6 +240,19 @@ def write_site_data(themes, hdef, names):
                         u = usage.setdefault(sid, [0.0, 0.0])
                         u[0] += c["rate"] * r["decks"]
                         u[1] += c["rate"] * r["decks"] * c["avg"]
+            # MDM 이 이 테마 덱에서 찾아낸 엔진 채용률 → 우리 엔진 모듈 slug 로 연결
+            erate = {}
+            for r in rows:
+                for x in r.get("engines", []):
+                    erate[x["name"]] = erate.get(x["name"], 0) + x["rate"] * r["decks"]
+            t["engines"] = sorted(
+                (
+                    {"slug": e["slug"], "rate": round(max(erate.get(n, 0) for n in e.get("mdm_names", [e["name"]["en"]])) / total, 3)}
+                    for e in engines
+                    if total and any(erate.get(n) for n in e.get("mdm_names", [e["name"]["en"]]))
+                ),
+                key=lambda x: -x["rate"],
+            )
             t["staples"] = sorted(
                 ({"id": k, "rate": round(v[0] / total, 3), "avg": round(v[1] / v[0], 2)} for k, v in usage.items() if total and v[0]),
                 key=lambda x: -x["rate"],
@@ -254,6 +268,7 @@ def write_site_data(themes, hdef, names):
         "rules": rules,
         "rulings": sorted(rulings.values(), key=lambda q: q["id"]),
         "themes": themes,
+        "engines": engines,
         "cards": cards,
     }
     out = ROOT / "docs" / "data" / "site.json"
@@ -272,9 +287,7 @@ def main():
     docs = ROOT / "docs"
     docs.mkdir(exist_ok=True)
 
-    themes = []
-    for f in sorted((ROOT / "data/themes").glob("*.json")):
-        t = load_json(f)
+    def lint(f, t):
         for line in t.get("lines", []):
             for s in line["steps"]:
                 bad = set(s.get("class", [])) - set(classes)
@@ -292,8 +305,28 @@ def main():
             cls = set(line["steps"][step - 1].get("class", []))
             if hits.get(c["handtrap"]) is not None and hits[c["handtrap"]] and not hits[c["handtrap"]] & cls:
                 print(f"경고 {f.name}: {c['handtrap']} 는 {c['line']} {step}단계 {sorted(cls)} 에 대응 못 함")
+
+    themes = []
+    for f in sorted((ROOT / "data/themes").glob("*.json")):
+        t = load_json(f)
+        lint(f, t)
         (docs / f"{t['slug']}.md").write_text(build_theme(t, names, ht, classes), encoding="utf-8")
         themes.append(t)
+
+    # 엔진 모듈 (data/engines/*.json): 다른 테마에 섞여 들어가는 카드 묶음. 사이트에서 메인 테마와 겹쳐 본다.
+    engines = []
+    slugs = {t["slug"] for t in themes}
+    for f in sorted((ROOT / "data/engines").glob("*.json")):
+        e = load_json(f)
+        lint(f, e)
+        for h in e.get("hosts", []):
+            if h.get("theme") not in slugs:
+                print(f"경고 {f.name}: hosts 의 테마 {h.get('theme')} 가 data/themes 에 없음")
+            for j in h.get("joins", []):
+                el = next((l for l in e.get("lines", []) if l["id"] == j.get("engine_line")), None)
+                if not el or not 1 <= j.get("engine_step", 0) <= len(el["steps"]):
+                    print(f"경고 {f.name}: {h.get('theme')} 합류 지점 {j.get('engine_line')} {j.get('engine_step')} 가 없음")
+        engines.append(e)
 
     (docs / "handtraps.md").write_text(build_handtraps(ht, classes, names), encoding="utf-8")
 
@@ -312,13 +345,13 @@ def main():
         idx.append(f"| {title} | {t.get('meta', {}).get('share', 0) * 100:.1f}% | {status} | {top_txt} |")
     (docs / "README.md").write_text("\n".join(idx) + "\n\n[패트랩 사전](handtraps.md)\n", encoding="utf-8")
 
-    write_site_data(themes, hdef, names)
+    write_site_data(themes, engines, hdef, names)
 
     if names.missing:
         print("한국어명 없음:", ", ".join(sorted(names.missing)))
         if args.check:
             sys.exit(1)
-    print(f"built {len(themes)} themes")
+    print(f"built {len(themes)} themes, {len(engines)} engines")
 
 
 if __name__ == "__main__":

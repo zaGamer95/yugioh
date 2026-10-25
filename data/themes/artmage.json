@@ -442,6 +442,324 @@
       "fallback_ko": "그라플레어의 '덱에서 세트'는 패에 넣기가 아니라서 막히지 않는다. 이미 패에 있는 아르토메기아 몬스터는 특소된다."
     },
     {
+      "handtrap": "macro_cosmos",
+      "severity": "critical",
+      "line": "main",
+      "step": 4,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 [[Medius the Pure]]의 소환 유발이나 [[Artmage Power Patron]]의 융합 효과 발동에 체인해 발동",
+      "why_ko": "[[Artmage Power Patron]]의 서치는 '패·필드에서 묘지로 보내진 경우' 유발이라, 융합 소재가 묘지 대신 제외되면 발동하지 않는다. 필드 마법을 못 가져와 그라플레어·리테라·[[Artmage Finmel]] 서치 루프가 시작되지 않는다. 융합 소환 자체는 된다.",
+      "fallback_ko": "[[Artmage Diactorus]] 1장만 남는다. 패에 [[Artmage Varnish -Alteration-]]가 있으면 필드 마법을 덱에서 놓아 서치를 시작할 수 있다. [[Artmage Diactorus]]의 메디우스 특소는 '파괴된 경우' 유발이라 제외돼도 남는다.",
+      "rulings": [
+        "qa-23817"
+      ]
+    },
+    {
+      "handtrap": "macro_cosmos",
+      "severity": "critical",
+      "line": "terminus",
+      "step": 1,
+      "target_card": "Prohibited Power Patron Portal - Terminus",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 테르미나스 발동에 체인해 발동",
+      "why_ko": "테르미나스는 감옥신수를 묘지로 보낸 '뒤' 메디우스를 서치한다. 보낸 카드가 묘지 대신 제외되면 그 뒤 처리(메디우스 서치)를 하지 않는다.",
+      "fallback_ko": "패에 메디우스가 따로 있으면 main 라인으로 가지만 거기서도 같은 지점에서 막힌다.",
+      "rulings": [
+        "qa-7735",
+        "qa-23810"
+      ]
+    },
+    {
+      "handtrap": "dark_law",
+      "severity": "critical",
+      "line": "main",
+      "step": 4,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "내 필드에 미리 있으면 이 단계에서 막힘(상대 묘지로 가는 카드는 제외)",
+      "why_ko": "[[Artmage Power Patron]]의 서치는 '패·필드에서 묘지로 보내진 경우' 유발이라, 융합 소재가 묘지 대신 제외되면 발동하지 않는다. 필드 마법을 못 가져와 그라플레어·리테라·[[Artmage Finmel]] 서치 루프가 시작되지 않는다. 융합 소환 자체는 된다. 이후 상대가 덱에서 패에 넣으면 1턴 1번 패 무작위 1장 제외.",
+      "fallback_ko": "[[Artmage Diactorus]] 1장만 남는다. 패에 [[Artmage Varnish -Alteration-]]가 있으면 필드 마법을 덱에서 놓아 서치를 시작할 수 있다. [[Artmage Diactorus]]의 메디우스 특소는 '파괴된 경우' 유발이라 제외돼도 남는다.",
+      "rulings": [
+        "qa-23817"
+      ]
+    },
+    {
+      "handtrap": "dark_law",
+      "severity": "critical",
+      "line": "terminus",
+      "step": 1,
+      "target_card": "Prohibited Power Patron Portal - Terminus",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+      "why_ko": "테르미나스는 감옥신수를 묘지로 보낸 '뒤' 메디우스를 서치한다. 보낸 카드가 묘지 대신 제외되면 그 뒤 처리(메디우스 서치)를 하지 않는다.",
+      "fallback_ko": "패에 메디우스가 따로 있으면 main 라인으로 가지만 거기서도 같은 지점에서 막힌다.",
+      "rulings": [
+        "qa-7735",
+        "qa-23810"
+      ]
+    },
+    {
+      "handtrap": "arise_heart",
+      "severity": "critical",
+      "line": "main",
+      "step": 4,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "내 필드에 미리 있으면 이 단계에서 막힘",
+      "why_ko": "[[Artmage Power Patron]]의 서치는 '패·필드에서 묘지로 보내진 경우' 유발이라, 융합 소재가 묘지 대신 제외되면 발동하지 않는다. 필드 마법을 못 가져와 그라플레어·리테라·[[Artmage Finmel]] 서치 루프가 시작되지 않는다. 융합 소환 자체는 된다. 제외될 때마다 그 카드를 소재로 흡수해 소재 3개로 필드 카드 1장을 뒷면 제외(퀵)할 수 있다.",
+      "fallback_ko": "[[Artmage Diactorus]] 1장만 남는다. 패에 [[Artmage Varnish -Alteration-]]가 있으면 필드 마법을 덱에서 놓아 서치를 시작할 수 있다. [[Artmage Diactorus]]의 메디우스 특소는 '파괴된 경우' 유발이라 제외돼도 남는다.",
+      "rulings": [
+        "qa-23817"
+      ]
+    },
+    {
+      "handtrap": "arise_heart",
+      "severity": "critical",
+      "line": "terminus",
+      "step": 1,
+      "target_card": "Prohibited Power Patron Portal - Terminus",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+      "why_ko": "테르미나스는 감옥신수를 묘지로 보낸 '뒤' 메디우스를 서치한다. 보낸 카드가 묘지 대신 제외되면 그 뒤 처리(메디우스 서치)를 하지 않는다.",
+      "fallback_ko": "패에 메디우스가 따로 있으면 main 라인으로 가지만 거기서도 같은 지점에서 막힌다.",
+      "rulings": [
+        "qa-7735",
+        "qa-23810"
+      ]
+    },
+    {
+      "handtrap": "fissure",
+      "severity": "critical",
+      "line": "main",
+      "step": 4,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘(선공 때 발동해 둔 경우)",
+      "why_ko": "[[Artmage Power Patron]]의 서치는 '패·필드에서 묘지로 보내진 경우' 유발이라, 융합 소재가 묘지 대신 제외되면 발동하지 않는다. 필드 마법을 못 가져와 그라플레어·리테라·[[Artmage Finmel]] 서치 루프가 시작되지 않는다. 융합 소환 자체는 된다. 필드 마법 코스트로 버린 마함은 묘지로 가므로 리테라 회수는 남는다.",
+      "fallback_ko": "[[Artmage Diactorus]] 1장만 남는다. 패에 [[Artmage Varnish -Alteration-]]가 있으면 필드 마법을 덱에서 놓아 서치를 시작할 수 있다. [[Artmage Diactorus]]의 메디우스 특소는 '파괴된 경우' 유발이라 제외돼도 남는다.",
+      "rulings": [
+        "qa-23817"
+      ]
+    },
+    {
+      "handtrap": "fissure",
+      "severity": "critical",
+      "line": "terminus",
+      "step": 1,
+      "target_card": "Prohibited Power Patron Portal - Terminus",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+      "why_ko": "테르미나스는 감옥신수를 묘지로 보낸 '뒤' 메디우스를 서치한다. 보낸 카드가 묘지 대신 제외되면 그 뒤 처리(메디우스 서치)를 하지 않는다.",
+      "fallback_ko": "패에 메디우스가 따로 있으면 main 라인으로 가지만 거기서도 같은 지점에서 막힌다.",
+      "rulings": [
+        "qa-7735",
+        "qa-23810"
+      ]
+    },
+    {
+      "handtrap": "banisher",
+      "severity": "critical",
+      "line": "main",
+      "step": 4,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "내 필드에 미리 있으면 이 단계에서 막힘",
+      "why_ko": "[[Artmage Power Patron]]의 서치는 '패·필드에서 묘지로 보내진 경우' 유발이라, 융합 소재가 묘지 대신 제외되면 발동하지 않는다. 필드 마법을 못 가져와 그라플레어·리테라·[[Artmage Finmel]] 서치 루프가 시작되지 않는다. 융합 소환 자체는 된다. 1턴 아르토메기아는 몬스터를 치울 수단이 거의 없다([[Artmage Diactorus]]의 표시 형식 변경뿐).",
+      "fallback_ko": "[[Artmage Diactorus]] 1장만 남는다. 패에 [[Artmage Varnish -Alteration-]]가 있으면 필드 마법을 덱에서 놓아 서치를 시작할 수 있다. [[Artmage Diactorus]]의 메디우스 특소는 '파괴된 경우' 유발이라 제외돼도 남는다.",
+      "rulings": [
+        "qa-23817",
+        "qa-8151"
+      ]
+    },
+    {
+      "handtrap": "banisher",
+      "severity": "critical",
+      "line": "terminus",
+      "step": 1,
+      "target_card": "Prohibited Power Patron Portal - Terminus",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+      "why_ko": "테르미나스는 감옥신수를 묘지로 보낸 '뒤' 메디우스를 서치한다. 보낸 카드가 묘지 대신 제외되면 그 뒤 처리(메디우스 서치)를 하지 않는다.",
+      "fallback_ko": "패에 메디우스가 따로 있으면 main 라인으로 가지만 거기서도 같은 지점에서 막힌다.",
+      "rulings": [
+        "qa-7735",
+        "qa-23810"
+      ]
+    },
+    {
+      "handtrap": "herald",
+      "severity": "critical",
+      "line": "main",
+      "step": 2,
+      "target_card": "Medius the Pure",
+      "timing_ko": "[[Medius the Pure]]의 소환 성공 유발(덱에서 감옥신 몬스터 특소)에 [[Herald of the Arc Light]]를 릴리스해 발동 무효+파괴",
+      "why_ko": "우라라·포영과 같은 지점. 감옥신수도 네르베도도 안 나오면 융합·필드 마법 서치가 모두 끊긴다. 이 시점에 상대 필드는 메디우스뿐이라 디클레어러를 치울 수단이 없다.",
+      "fallback_ko": "[[Prohibited Power Patron Portal - Terminus]]·2번째 메디우스가 있으면 다시 시작하지만, 디클레어러를 릴리스한 뒤라 묘지 제외 효과는 남지 않는다."
+    },
+    {
+      "handtrap": "dim_barrier",
+      "severity": "critical",
+      "line": "main",
+      "step": 3,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "세트해 둔 [[Dimensional Barrier]]를 [[Artmage Power Patron]]의 융합 효과 발동에 체인해 '융합' 선언",
+      "why_ko": "융합 몬스터를 특소할 수 없어 융합 처리가 되지 않고, 소재도 묘지로 가지 않아 감옥신수의 필드 마법 서치도 없다. 이 턴 논피니토·네르바도 못 낸다. 함정이라 [[Artmage Diactorus]]가 없는 이 시점엔 막히지 않는다.",
+      "fallback_ko": "감옥신수와 메디우스가 필드에 남는다. 버니시·테르미나스로 필드 마법을 얻으면 메인 덱 몬스터(그라플레어·리테라·[[Artmage Finmel]])는 나오지만, 무효 담당 [[Artmage Diactorus]]가 없다."
+    },
+    {
+      "handtrap": "dim_barrier",
+      "severity": "critical",
+      "line": "nervedo",
+      "step": 3,
+      "target_card": "Artmage Non-Finito",
+      "timing_ko": "논피니토 특소는 소환 절차라 체인할 수 없다. [[Medius the Pure]]의 소환 유발(2단계)에 체인해 '융합'을 선언해 두면 이 단계에서 막힘",
+      "why_ko": "논피니토는 융합 몬스터라 특소할 수 없고, 임파스토 세트도 없다. 네르베도가 나와도 감옥신수의 융합까지 이 턴 전부 막힌다.",
+      "fallback_ko": "네르베도가 펜듈럼 존에 갈 수단이 없으면 메디우스+네르베도만 남는다."
+    },
+    {
+      "handtrap": "statue_abyss",
+      "severity": "critical",
+      "line": "main",
+      "step": 2,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "내 필드에 미리 있으면 이 단계에서 막힘",
+      "why_ko": "어둠 이외는 특소할 수 없어 메디우스가 감옥신수(땅)를 못 부른다. [[Artmage Diactorus]]·그라플레어·리테라·[[Artmage Finmel]]은 빛이라 전부 막힌다.",
+      "fallback_ko": "메디우스는 네르베도(어둠)를 부를 수 있지만 nervedo 라인 3단계에서 막힌다.",
+      "rulings": [
+        "qa-23163"
+      ]
+    },
+    {
+      "handtrap": "statue_abyss",
+      "severity": "critical",
+      "line": "nervedo",
+      "step": 3,
+      "target_card": "Artmage Non-Finito",
+      "timing_ko": "내 필드에 미리 있으면 이 단계에서 막힘",
+      "why_ko": "네르베도(어둠)까지는 나오지만 논피니토는 땅이라 특소할 수 없다. 네르베도의 네르바 특소(땅)도 막힘.",
+      "fallback_ko": "메디우스+네르베도만 남는다."
+    },
+    {
+      "handtrap": "statue_inferno",
+      "severity": "critical",
+      "line": "main",
+      "step": 2,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "내 필드에 미리 있으면 이 단계에서 막힘",
+      "why_ko": "덱에 화염 몬스터가 하나도 없다. 메디우스 일반 소환 이후 특소가 전부 막힌다.",
+      "fallback_ko": "메디우스 서치 모드로 감옥신수를 패에 넣는 정도. 1턴에 결계상을 치울 수단이 없다."
+    },
+    {
+      "handtrap": "statue_torrent",
+      "severity": "critical",
+      "line": "main",
+      "step": 2,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "내 필드에 미리 있으면 이 단계에서 막힘",
+      "why_ko": "덱에 물 몬스터가 하나도 없다. 메디우스 일반 소환 이후 특소가 전부 막힌다.",
+      "fallback_ko": "메디우스 서치 모드로 감옥신수를 패에 넣는 정도. 1턴에 결계상을 치울 수단이 없다."
+    },
+    {
+      "handtrap": "vanity_fiend",
+      "severity": "critical",
+      "line": "main",
+      "step": 2,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "내 필드에 미리 있으면 이 단계에서 막힘",
+      "why_ko": "특소가 전부 막혀 메디우스 일반 소환으로 끝난다. 아르토메기아는 1턴에 몬스터를 치울 수단이 없다(그라플레어는 마함만 파괴).",
+      "fallback_ko": "메디우스 서치 모드로 감옥신수를 패에 넣는 정도."
+    },
+    {
+      "handtrap": "vanity_ruler",
+      "severity": "critical",
+      "line": "main",
+      "step": 2,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "내 필드에 미리 있으면 이 단계에서 막힘",
+      "why_ko": "배너티 데블과 같다. 상대만 특소할 수 없다.",
+      "fallback_ko": "메디우스 서치 모드로 감옥신수를 패에 넣는 정도."
+    },
+    {
+      "handtrap": "skill_drain",
+      "severity": "critical",
+      "line": "main",
+      "step": 2,
+      "target_card": "Medius the Pure",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 [[Medius the Pure]]의 소환 성공 유발에 체인해 발동(처리 때 메디우스가 필드에 앞면이라 무효)",
+      "why_ko": "메디우스의 유발은 필드에서 발동하는 효과라 무효된다. 이후 [[Artmage Power Patron]]의 융합(필드 퀵), [[Artmage Diactorus]]·[[Artmage Finmel]]·그라플레어·네르바의 견제가 전부 필드 효과라 판면이 통째로 꺼진다.",
+      "fallback_ko": "스킬 드레인은 패·묘지 효과를 못 막는다. 테르미나스·버니시로 필드 마법을 얻으면 그라플레어·리테라·[[Artmage Finmel]]의 '패에서 특소 + 세트·회수·드로우'는 그대로 처리되고, 감옥신수의 묘지 서치도 남는다."
+    },
+    {
+      "handtrap": "skill_drain",
+      "severity": "critical",
+      "line": "nervedo",
+      "step": 4,
+      "target_card": "Artmage Non-Finito",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘(논피니토의 세트 유발은 필드 효과)",
+      "why_ko": "임파스토가 세트되지 않는다. 네르베도의 '엑스트라 덱에 앞면으로 들어간 경우' 유발은 엑스트라 덱에서 발동이라 막히지 않는다.",
+      "fallback_ko": "네르베도로 감옥신수를 불러도 그 융합 효과(필드 퀵)가 무효된다."
+    },
+    {
+      "handtrap": "mistake",
+      "severity": "critical",
+      "line": "main",
+      "step": 4,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 [[Artmage Power Patron]]의 필드 마법 서치 유발에 체인해 발동(처리 때 미스테이크가 적용되어 서치 불가)",
+      "why_ko": "드롤과 같은 지점이지만 턴 내내 남는다. 필드 마법을 못 가져오고, 필드 마법이 있어도 그 서치·버니시 서치가 전부 막혀 종족 3종류를 맞추지 못한다. 함정이라 [[Artmage Diactorus]]가 서기 전이면 막히지 않는다.",
+      "fallback_ko": "버니시의 '필드 마법을 놓기'와 그라플레어의 '덱에서 세트'는 패에 넣기가 아니라 막히지 않는다. [[Artmage Diactorus]]+메디우스 정도로 끝난다. 메디우스는 특소 모드를 고르므로 2단계에서 앞면이어도 의미가 적다.",
+      "rulings": [
+        "qa-19975",
+        "qa-9004"
+      ]
+    },
+    {
+      "handtrap": "mistake",
+      "severity": "critical",
+      "line": "terminus",
+      "step": 1,
+      "target_card": "Prohibited Power Patron Portal - Terminus",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 테르미나스 발동에 체인",
+      "why_ko": "감옥신수는 묘지로 가지만 메디우스 서치가 안 된다. 1장 초동이 그대로 멈춘다.",
+      "fallback_ko": "패에 메디우스가 따로 있으면 main 라인으로 가지만 4단계에서 다시 막힌다.",
+      "rulings": [
+        "qa-19975"
+      ]
+    },
+    {
+      "handtrap": "rivalry",
+      "severity": "critical",
+      "line": "main",
+      "step": 2,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 상대 스탠바이 페이즈나 메인 페이즈 시작 시(상대 필드에 몬스터가 없을 때) 미리 발동. 메디우스 유발에 체인하면 감옥신수 특소가 먼저 처리된 뒤 1장만 묘지로 보내게 되어, 감옥신수를 묘지로 보내면 서치 유발이 나간다",
+      "why_ko": "필드에 메디우스(천사족)가 있으면 다른 종족(감옥신수=환상마족, 네르베도=환상마족)을 특소할 수 없다. 이 덱은 종족 3종류가 [[Artmage Diactorus]]·[[Artmage Finmel]]·그라플레어의 조건이라 군웅할거 아래서는 무효·파괴가 하나도 켜지지 않는다.",
+      "fallback_ko": "메디우스 서치 모드로 감옥신수를 패에 넣는 정도. 메디우스가 없는 상태에서 필드 마법으로 아르토메기아 1장을 내도 같은 종족만 이어진다.",
+      "rulings": [
+        "qa-8773",
+        "qa-24189"
+      ]
+    },
+    {
+      "handtrap": "gozen",
+      "severity": "critical",
+      "line": "main",
+      "step": 2,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 상대 메인 페이즈 시작 시(몬스터가 없을 때) 미리 발동. 메디우스 유발에 체인하면 특소가 먼저 처리되고 1장만 묘지로 보내게 된다",
+      "why_ko": "메디우스는 어둠, 감옥신수는 땅, 아르토메기아 본체는 빛이다. 메디우스가 있으면 감옥신수를 특소할 수 없다.",
+      "fallback_ko": "네르베도(어둠)는 나오지만 nervedo 라인 3단계에서 막힌다. 필드 마법을 얻어도 빛 아르토메기아는 메디우스가 떠나야 나온다.",
+      "rulings": [
+        "qa-8773",
+        "qa-10427",
+        "qa-24189"
+      ]
+    },
+    {
+      "handtrap": "gozen",
+      "severity": "critical",
+      "line": "nervedo",
+      "step": 3,
+      "target_card": "Artmage Non-Finito",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+      "why_ko": "필드에 어둠(메디우스·네르베도)이 있는 상태로 땅인 논피니토를 소환 절차로 낼 수 없다(소재가 필드에 있는 상태로 판정).",
+      "fallback_ko": "메디우스+네르베도만 남는다.",
+      "rulings": [
+        "qa-10427"
+      ]
+    },
+    {
       "handtrap": "harmonia",
       "severity": "strong",
       "line": "main",
@@ -646,6 +964,30 @@
       ]
     },
     {
+      "handtrap": "herald",
+      "severity": "strong",
+      "line": "terminus",
+      "step": 1,
+      "target_card": "Prohibited Power Patron Portal - Terminus",
+      "timing_ko": "미리 있으면 테르미나스 발동 처리 때 막힘. 무효를 아끼고 싶으면 여기서는 쓰지 말고 메디우스 유발까지 기다린다",
+      "why_ko": "덱에서 묘지로 가는 몬스터가 제외되므로 테르미나스가 감옥신수를 보내도 제외되어 메디우스 서치가 처리되지 않는다. 무효(릴리스)를 쓰지 않고 1장을 막는다.",
+      "fallback_ko": "패에 메디우스가 따로 있으면 main 라인 2단계에서 무효를 쓴다.",
+      "rulings": [
+        "qa-23810",
+        "qa-7735"
+      ]
+    },
+    {
+      "handtrap": "statue_heavens",
+      "severity": "strong",
+      "line": "main",
+      "step": 2,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "내 필드에 미리 있으면 이 단계에서 막힘",
+      "why_ko": "빛 이외는 특소할 수 없어 메디우스가 감옥신수(땅)·네르베도(어둠)를 못 부른다. 감옥신수가 없으니 [[Artmage Diactorus]] 융합과 필드 마법 서치도 없다.",
+      "fallback_ko": "[[Artmage Varnish -Alteration-]]·테르미나스로 필드 마법을 얻으면 빛인 그라플레어·리테라·[[Artmage Finmel]]은 패에서 나온다. 메디우스(천사)+그라플레어(드래곤)+리테라(마법사)로 종족 3종류가 되면 [[Artmage Finmel]]의 퀵 효과로 결계상 효과까지 무효로 할 수 있으니 주의."
+    },
+    {
       "handtrap": "ogre",
       "severity": "ok",
       "line": "main",
@@ -674,6 +1016,30 @@
       "timing_ko": "[[Artmage Non-Finito]]가 [[Artmage Impasto -Recapture-]]를 세트한 뒤, 상대의 다음 효과 발동에 체인해 그 세트 카드에 싸이크론",
       "why_ko": "임파스토는 상대가 몬스터 효과를 발동했을 때만 쓰는 카운터 함정이라 싸이크론에 체인할 수 없다. 지워 두면 이후 내 몬스터 효과 견제(우라라·증G·하르모니아·드루이드브룸 등)가 임파스토에 막히지 않는다.",
       "fallback_ko": "아르토메기아 몬스터가 있으면 임파스토는 세트한 턴에도 발동할 수 있으니, 몬스터 효과 패트랩보다 싸이크론을 먼저 쓴다."
+    },
+    {
+      "handtrap": "protos",
+      "severity": "ok",
+      "line": "main",
+      "step": 2,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "내 턴(선공)에 '땅'을 선언해 효과를 써 두면 상대 턴 끝까지 땅 특소 불가 → 이 단계에서 막힘. 상대 턴에는 발동할 수 없는 기동 효과",
+      "why_ko": "감옥신수·논피니토·네르바가 모두 땅이다. 메디우스가 감옥신수를 특소하지 못하고, 서치 모드로 패에 넣어도 낼 방법이 없다. 네르베도(어둠)로 가도 논피니토가 막힌다.",
+      "fallback_ko": "버니시·테르미나스로 필드 마법을 얻으면 빛 속성 그라플레어·리테라·[[Artmage Finmel]]은 나온다. 선언하려면 필드에 땅 몬스터가 있어야 하고(파괴됨), 프로토스 특소에 속성이 다른 몬스터 3장이 필요해 선공 1턴에 맞추기 어렵다."
+    },
+    {
+      "handtrap": "only_one",
+      "severity": "ok",
+      "line": "nervedo",
+      "step": 5,
+      "target_card": "Artmage Power Patron",
+      "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+      "why_ko": "필드에 논피니토(환상마족)가 있어 네르베도가 감옥신수(환상마족)를 특소할 수 없다. 감옥신수가 없으면 [[Artmage Diactorus]] 융합과 필드 마법 서치가 끊긴다. 소재가 필드에 있는 채 같은 종족을 내는 소환 절차는 공식 판정상 안 되므로, 3단계 논피니토(환상마족) 특소도 네르베도(환상마족)를 릴리스하는 절차라 막힐 가능성이 높다.",
+      "fallback_ko": "네르베도는 덱에서 그라플레어 등 다른 종족을 부를 수 있다. main 라인은 효과 융합이라 소재가 먼저 떠나서 막히지 않는다.",
+      "rulings": [
+        "qa-12759",
+        "qa-13886"
+      ]
     },
     {
       "handtrap": "fuwalos",
@@ -707,6 +1073,16 @@
       "rulings": [
         "qa-12625"
       ]
+    },
+    {
+      "handtrap": "dim_barrier",
+      "severity": "bad",
+      "line": "main",
+      "step": 2,
+      "target_card": "Medius the Pure",
+      "timing_ko": "메디우스 유발에 체인해 '펜듈럼' 선언",
+      "why_ko": "펜듈럼 선언은 네르베도만 막는다. 메디우스가 [[Artmage Power Patron]]를 고르면 main 라인이 그대로 진행되고 [[Artmage Diactorus]]가 나온다. 링크는 선언할 수 없다.",
+      "fallback_ko": "항상 '융합'을 선언한다."
     }
   ],
   "handtrap_summary": {
@@ -837,6 +1213,109 @@
       "rulings": [
         "qa-24237"
       ]
+    },
+    "macro_cosmos": {
+      "rating": "critical",
+      "note_ko": "[[Artmage Power Patron]]가 융합 소재로 묘지 대신 제외되어 필드 마법 서치 유발이 없다. 테르미나스도 감옥신수가 제외되면 메디우스 서치까지 처리 안 됨. 함정이라 [[Artmage Diactorus]]·임파스토에 안 막힘"
+    },
+    "fissure": {
+      "rating": "critical",
+      "note_ko": "매크로 코스모스와 같은 지점(몬스터만 제외). 소재가 된 [[Artmage Power Patron]]의 서치, 테르미나스의 메디우스 서치가 끊긴다. 버린 마함은 묘지로 가서 리테라 회수는 남음. 선공일 때만"
+    },
+    "banisher": {
+      "rating": "critical",
+      "note_ko": "매크로 코스모스와 같다. 1턴 아르토메기아는 몬스터를 치울 수단이 거의 없다. 다만 [[Artmage Diactorus]]의 메디우스 특소는 '파괴된 경우' 유발이라 제외돼도 나간다",
+      "rulings": [
+        "qa-8151"
+      ]
+    },
+    "herald": {
+      "rating": "critical",
+      "note_ko": "[[Medius the Pure]]의 소환 유발을 릴리스해 무효+파괴(포영 지점). 테르미나스는 덱에서 보낸 감옥신수가 제외되어 메디우스 서치 실패"
+    },
+    "retaliating_c": {
+      "rating": "weak",
+      "note_ko": "아르토메기아 마법(테르미나스·버니시·반달리즘·필드 마법·[[Pendulum Treasure]])은 특소 효과가 없어 발동 조건 자체가 안 생긴다",
+      "rulings": [
+        "qa-15449"
+      ]
+    },
+    "dd_crow": {
+      "rating": "weak",
+      "note_ko": "1턴 전개에 묘지 대상 효과가 거의 없다. 리테라의 회수는 대상을 잡지 않아 다른 카드를 고른다. 후공 때 묘지의 [[Artmage Power Patron]]를 미리 지워 네르바 루트를 끊는 용도"
+    },
+    "dark_law": {
+      "rating": "critical",
+      "note_ko": "매크로 코스모스와 같은 지점 + 이후 서치 1번마다(1턴 1회) 패 무작위 제외. HERO 덱 한정"
+    },
+    "arise_heart": {
+      "rating": "critical",
+      "note_ko": "매크로 코스모스와 같은 지점. 제외된 소재를 흡수해 퀵 뒷면 제외까지 노림. 크샤트리라 덱 한정"
+    },
+    "dim_barrier": {
+      "rating": "critical",
+      "note_ko": "융합 선언. [[Artmage Power Patron]]의 융합 효과 발동에 체인하면 융합이 안 되고 소재도 묘지로 안 가 필드 마법 서치까지 없다. nervedo 라인은 메디우스 유발에 체인해야 논피니토도 막힘. 펜듈럼 선언은 오답"
+    },
+    "protos": {
+      "rating": "ok",
+      "note_ko": "내 턴(선공)에 땅 선언으로 효과를 써 두면 상대 턴 끝까지 감옥신수·논피니토·네르바(전부 땅)를 못 낸다. 단 땅 몬스터가 필드에 있어야 선언 가능. 어둠 선언(프로토스 자신이 어둠)은 네르베도만 막아 약함"
+    },
+    "statue_abyss": {
+      "rating": "critical",
+      "note_ko": "메디우스(어둠)·네르베도(어둠)는 나오지만 감옥신수·논피니토(땅), [[Artmage Diactorus]] 등 빛 아르토메기아가 전부 막힘"
+    },
+    "statue_heavens": {
+      "rating": "strong",
+      "note_ko": "감옥신수(땅)·네르베도(어둠)가 막혀 [[Artmage Diactorus]] 융합이 없다. 다만 버니시·테르미나스로 필드 마법을 얻으면 빛인 그라플레어·리테라·[[Artmage Finmel]]은 나오고, 종족 3종류가 되면 [[Artmage Finmel]]의 퀵 효과로 결계상 효과를 무효로 할 수 있다"
+    },
+    "statue_inferno": {
+      "rating": "critical",
+      "note_ko": "덱에 화염 몬스터가 없다. 메디우스 일반 소환 이후 특소가 전부 막힘"
+    },
+    "statue_torrent": {
+      "rating": "critical",
+      "note_ko": "덱에 물 몬스터가 없다. 메디우스 일반 소환 이후 특소가 전부 막힘"
+    },
+    "vanity_fiend": {
+      "rating": "critical",
+      "note_ko": "메디우스 일반 소환 이후 특소가 전부 막힘. 1턴 아르토메기아는 몬스터 제거 수단이 없다"
+    },
+    "vanity_ruler": {
+      "rating": "critical",
+      "note_ko": "배너티 데블과 같다(상대만 특소 불가)"
+    },
+    "skill_drain": {
+      "rating": "critical",
+      "note_ko": "메디우스 소환 유발에 체인하면 무효. [[Artmage Power Patron]]의 융합(필드 퀵), [[Artmage Diactorus]]·[[Artmage Finmel]]·그라플레어·네르바의 필드 효과가 전부 꺼진다. 그라플레어·리테라·[[Artmage Finmel]]의 패 특소 효과와 감옥신수의 묘지 서치는 남음"
+    },
+    "mistake": {
+      "rating": "critical",
+      "note_ko": "[[Artmage Power Patron]]의 필드 마법 서치 유발에 체인해도 막힌다(처리 때 미스테이크 적용). 필드 마법 연속 서치·버니시 서치·테르미나스 서치를 전부 봉쇄",
+      "rulings": [
+        "qa-19975"
+      ]
+    },
+    "rivalry": {
+      "rating": "critical",
+      "note_ko": "메디우스(천사족)가 있으면 감옥신수(환상마족)를 못 낸다. 종족 3종류 조건이 덱의 핵심이라 거의 전개 불가. 세트했다면 상대 메인 페이즈 시작 시 미리 앞면으로",
+      "rulings": [
+        "qa-8773"
+      ]
+    },
+    "gozen": {
+      "rating": "critical",
+      "note_ko": "메디우스(어둠)가 있으면 감옥신수(땅)를 못 낸다. 네르베도(어둠)로 가도 논피니토(땅)가 막힘. 아르토메기아 본체는 빛이라 속성이 3개 섞인 덱. 세트했다면 상대 메인 페이즈 시작 시 미리 앞면으로",
+      "rulings": [
+        "qa-10427"
+      ]
+    },
+    "only_one": {
+      "rating": "ok",
+      "note_ko": "main 라인은 종족이 다 달라 거의 안 막힌다(메디우스는 소재로 떠남). nervedo 라인은 논피니토(환상마족)가 있으면 네르베도가 감옥신수(환상마족)를 못 부른다",
+      "rulings": [
+        "qa-12759",
+        "qa-13886"
+      ]
     }
   },
   "notes_ko": [
@@ -951,6 +1430,10 @@
               {
                 "id": "book_eclipse",
                 "note_ko": "[[Artmage Diactorus]] 무효가 소모된 뒤에. 뒷면이 되면 효과를 못 쓰고 종족 수도 사라진다"
+              },
+              {
+                "id": "protos",
+                "note_ko": "[[Artmage Diactorus]] 무효를 소모시킨 뒤 '빛' 선언으로 파괴. [[Artmage Finmel]]이 체인해 프로토스를 무효로 할 수 있으니 [[Artmage Finmel]]의 효과도 먼저 쓰게 한다"
               }
             ],
             "bait_ko": "[[Artmage Finmel]]은 '지금 필드에 있는' 내 몬스터만 무효한다. 효과를 쓸 몬스터를 낸 직후가 아니라, 먼저 덜 중요한 몬스터를 내 [[Artmage Finmel]]을 쓰게 한 뒤 핵심 몬스터를 낸다. 종족 3종류 조건이 깨지면 발동 자체가 안 된다"
@@ -981,6 +1464,10 @@
               {
                 "id": "kaiju",
                 "note_ko": "대상 지정 없이 릴리스"
+              },
+              {
+                "id": "protos",
+                "note_ko": "'빛' 선언으로 그라플레어와 다른 빛 아르토메기아를 함께 파괴(그라플레어의 전투 내성과 무관). [[Artmage Diactorus]]·[[Artmage Finmel]]의 무효를 먼저 소모"
               }
             ],
             "bait_ko": "종족 수를 2종류 이하로 줄이면 퀵이 아니게 되어 내 턴에는 쓸 수 없다. 그라플레어를 직접 지우기보다 다른 종족을 줄이는 편이 효율적인 경우가 많다"
@@ -1026,6 +1513,18 @@
               {
                 "id": "ogre",
                 "note_ko": "리테라 효과 발동 시 파괴하지만 [[Artmage Power Patron]] 특소는 처리된다. 효과 적음"
+              },
+              {
+                "id": "protos",
+                "note_ko": "'빛' 선언으로 리테라를 파괴하고 다음 턴 끝까지 빛 특소 불가. 네르바(땅)는 막지 못하니 리테라를 먼저 지우는 데 의미가 있다"
+              },
+              {
+                "id": "dd_crow",
+                "note_ko": "메인 페이즈 전(스탠바이 페이즈 등)에 묘지의 [[Artmage Power Patron]]를 제외. 리테라의 특소는 대상을 잡지 않아 발동에 체인하면 다른 몬스터를 고를 뿐이니 미리 지운다"
+              },
+              {
+                "id": "dim_barrier",
+                "note_ko": "세트해 둔 다음 턴에 '융합' 선언. 네르바를 융합할 수 없고 필드의 네르바 효과도 무효. [[Artmage Diactorus]] 무효를 먼저 소모"
               }
             ],
             "bait_ko": "리테라 효과는 '상대 메인 페이즈' 퀵이라 내 배틀 페이즈에는 못 쓴다. 메인 페이즈 1에서 리테라를 먼저 처리하지 못했다면 [[Nerva the Power Patron of Creation]]가 나올 것을 전제로 카드를 아낀다"
@@ -1060,6 +1559,10 @@
               {
                 "id": "mst",
                 "note_ko": "코즈믹과 같은 용도. [[Artmage Vandalism -Assault-]]가 있으면 대신 묘지로 보내 지킨다"
+              },
+              {
+                "id": "dim_barrier",
+                "note_ko": "세트해 둔 다음 턴에 '융합' 선언. 네르바를 융합할 수 없고 필드의 네르바 효과도 무효. [[Artmage Diactorus]] 무효를 먼저 소모"
               }
             ],
             "bait_ko": "네르바의 전체 파괴는 아르토메기아 몬스터 효과 발동에 겹쳐야 하므로, 네르바가 선 뒤에는 상대가 쓸 아르토메기아 효과가 남아 있는지 본다. 내 전개를 끝내기 전에 네르바가 남아 있으면 필드를 다 잃을 수 있다"
@@ -1192,6 +1695,10 @@
               {
                 "id": "book_eclipse",
                 "note_ko": "[[Artmage Diactorus]] 무효가 소모된 뒤에. 뒷면이 되면 효과를 못 쓰고 종족 수도 사라진다"
+              },
+              {
+                "id": "protos",
+                "note_ko": "[[Artmage Diactorus]] 무효를 소모시킨 뒤 '빛' 선언으로 파괴. [[Artmage Finmel]]이 체인해 프로토스를 무효로 할 수 있으니 [[Artmage Finmel]]의 효과도 먼저 쓰게 한다"
               }
             ],
             "bait_ko": "[[Artmage Finmel]]은 '지금 필드에 있는' 내 몬스터만 무효한다. 효과를 쓸 몬스터를 낸 직후가 아니라, 먼저 덜 중요한 몬스터를 내 [[Artmage Finmel]]을 쓰게 한 뒤 핵심 몬스터를 낸다. 종족 3종류 조건이 깨지면 발동 자체가 안 된다"
@@ -1222,6 +1729,10 @@
               {
                 "id": "kaiju",
                 "note_ko": "대상 지정 없이 릴리스"
+              },
+              {
+                "id": "protos",
+                "note_ko": "'빛' 선언으로 그라플레어와 다른 빛 아르토메기아를 함께 파괴(그라플레어의 전투 내성과 무관). [[Artmage Diactorus]]·[[Artmage Finmel]]의 무효를 먼저 소모"
               }
             ],
             "bait_ko": "종족 수를 2종류 이하로 줄이면 퀵이 아니게 되어 내 턴에는 쓸 수 없다. 그라플레어를 직접 지우기보다 다른 종족을 줄이는 편이 효율적인 경우가 많다"
@@ -1501,6 +2012,25 @@
       "mourner": {
         "rating": "weak",
         "note_ko": "내 턴에 상대가 특소하면(리테라의 감옥신수 소생, 논피니토 퀵 융합 등) 쓸 수 있지만 내 유발이 체인 1이 되어 상대 유발이 먼저 처리되고, 감옥신수는 퀵 융합으로 피한다. 논피니토 퀵 융합으로 나온 융합 몬스터(새 [[Artmage Diactorus]] 등)의 무효 효과를 그 턴 끄는 정도."
+      },
+      "protos": {
+        "rating": "ok",
+        "note_ko": "특소는 소환 절차라 [[Artmage Diactorus]]가 막지 못하지만, 선언 효과는 필드 몬스터 효과라 [[Artmage Diactorus]]에 무효되고 [[Artmage Finmel]]의 퀵에도 무효된다. 둘을 미끼로 소모시킨 뒤 '빛'을 선언하면 [[Artmage Diactorus]]·그라플레어·리테라·[[Artmage Finmel]]이 전부 파괴되고 다음 턴 끝까지 빛 특소 불가. [[Artmage Diactorus]] 파괴로 메디우스(어둠)는 나온다. 내 묘지·필드에 속성이 다른 몬스터 3장이 필요"
+      },
+      "dd_crow": {
+        "rating": "ok",
+        "note_ko": "패에서 발동하는 몬스터 효과라 [[Artmage Diactorus]]가 막지 못한다. 메인 페이즈 전에 묘지의 [[Artmage Power Patron]]를 제외하면 리테라가 감옥신수를 불러 [[Nerva the Power Patron of Creation]]로 가는 루트가 끊긴다. [[Artmage Diactorus]]의 메디우스 특소는 제외 상태에서도 나오므로 메디우스는 지워도 의미 없음"
+      },
+      "dim_barrier": {
+        "rating": "ok",
+        "note_ko": "후공 1턴엔 세트한 턴이라 못 쓴다. 다음 내 턴에 '융합'을 선언하면 [[Artmage Diactorus]]·네르바·논피니토의 효과가 무효되고 리테라→감옥신수→네르바 융합도 막힌다. 다만 필드에서 발동하는 함정이라 [[Artmage Diactorus]]의 무효를 먼저 소모시켜야 한다"
+      },
+      "banisher": {
+        "rating": "weak",
+        "note_ko": "[[Artmage Diactorus]]의 메디우스 특소는 '파괴된 경우' 유발이라 제외돼도 발동하고, 메디우스는 제외 상태에서도 특소된다. 막는 것은 내 턴에 감옥신수가 융합 소재가 될 때의 서치 정도",
+        "rulings": [
+          "qa-8151"
+        ]
       }
     },
     "sequencing_ko": [

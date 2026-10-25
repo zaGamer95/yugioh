@@ -8,7 +8,7 @@
 Usage:
   python3 scripts/fetch_cards.py "Elfnote Tinia" "Ash Blossom & Joyous Spring"
   python3 scripts/fetch_cards.py --from-meta 0.3      # 메타 스냅샷에서 채용률 30% 이상 카드 전부
-  python3 scripts/fetch_cards.py --from-themes        # data/themes/*.json 에 나온 카드 전부
+  python3 scripts/fetch_cards.py --from-themes        # data/themes/*.json, data/engines/*.json 에 나온 카드 전부
   --ja 를 붙이면 일본어명도 받는다 (KONAMI DB 요청이 2배)
 """
 import argparse
@@ -113,7 +113,7 @@ def names_from_themes():
                 names.add(o)
             names.update(re.findall(r"\[\[([^\]]+)\]\]", o))
 
-    for f in (ROOT / "data/themes").glob("*.json"):
+    for f in [*(ROOT / "data/themes").glob("*.json"), *(ROOT / "data/engines").glob("*.json")]:
         walk(json.loads(f.read_text(encoding="utf-8")))
     ht = json.loads((ROOT / "data/handtraps.json").read_text(encoding="utf-8"))
     names.update(h["card"] for h in ht["handtraps"])

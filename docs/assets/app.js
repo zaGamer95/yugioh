@@ -541,16 +541,27 @@
 
   function renderPlay(params) {
     const ALL = [...D.handtraps.map((h) => ({ ...h, group: h.kind === "not_handtrap" ? "breaker" : h.kind })), ...D.breakers.map((b) => ({ ...b, group: "breaker" }))];
+    const ENG = D.engines || [];
+    // l: "t:slug=line,e:slug=line" (예전 주소의 l=line 은 메인 테마 라인으로 읽는다)
+    const lines = {};
+    (params.get("l") || "").split(",").filter(Boolean).forEach((x) => {
+      const [k, v] = x.includes("=") ? x.split("=") : ["main", x];
+      lines[k] = v;
+    });
+    const hereP = (params.get("w") || "").split("|");
     const state = {
       first: params.get("s") === "1" ? true : params.get("s") === "2" ? false : store.get("play.first", false),
       theme: params.get("t") || null,
+      engines: new Set((params.get("e") || "").split(",").filter((s) => ENG.some((e) => e.slug === s))),
       held: new Set((params.get("h") || "").split(",").filter((x) => anyCard(x))),
       board: params.get("b") || null,
-      line: params.get("l") || null,
+      lines,
+      here: hereP.length === 3 ? { key: hereP[0], line: hereP[1], i: +hereP[2] } : null,
       q: "",
       editDeck: false,
       deck: new Set(store.get("play.deck", [])),
     };
+    if (lines.main && state.theme) { lines["t:" + state.theme] = lines.main; delete lines.main; }
 
     app.onclick = null;
     app.oninput = null;
@@ -561,10 +572,12 @@
           <button type="button" data-first="1">선공</button>
           <button type="button" data-first="0">후공</button>
         </div>
-        <input id="themeSearch" class="search" type="search" placeholder="상대 테마 검색 (한글·영문·카드명)" autocomplete="off">
+        <input id="themeSearch" class="search" type="search" placeholder="상대 테마 또는 상대가 낸 카드 이름 (한글·영문)" autocomplete="off">
       </div>
+      <div id="cardFind"></div>
       <div id="themePick" class="pick"></div>
-      <section id="strip" class="strip-wrap" hidden></section>
+      <div id="enginePick"></div>
+      <div id="strip"></div>
       <section class="hand-panel">
         <div class="hand-head">
           <h2>지금 내 패</h2>
@@ -576,21 +589,97 @@
       </section>
       <div id="playOut"></div>`;
 
+    /* ----- 모듈: 메인 테마 1개 + 엔진 여러 개를 같은 모양으로 다룬다 ----- */
+    const modName = (d) => (MODE === "en" ? d.name.en : d.name.ko);
+    function modules() {
+      const out = [];
+      const t = D.themes.find((x) => x.slug === state.theme);
+      if (t) out.push({ key: "t:" + t.slug, kind: "theme", d: t, cmap: chokeMap(t) });
+      ENG.filter((e) => state.engines.has(e.slug)).forEach((e) => out.push({ key: "e:" + e.slug, kind: "engine", d: e, cmap: chokeMap(e) }));
+      return out;
+    }
+    const hostOf = (e) => (e.hosts || []).find((h) => h.theme === state.theme);
+    const engineRate = (e, t) => {
+      const m = (t?.engines || []).find((x) => x.slug === e.slug);
+      if (m) return m.rate;
+      const h = t && (e.hosts || []).find((x) => x.theme === t.slug);
+      return h?.rate ?? null;
+    };
+    const heldHT = () => [...state.held].filter((id) => HT[id] && HT[id].kind !== "not_handtrap");
+
+    // 라인 고르기: 지정 > 내 패트랩이 많이 맞는 라인 > 다른 모듈과 합류하는 라인 > 첫 라인
+    function lineOf(m) {
+      const ls = m.d.lines || [];
+      const fixed = ls.find((l) => l.id === state.lines[m.key]);
+      if (fixed) return fixed;
+      const held = heldHT();
+      const joinIds = new Set();
+      if (m.kind === "theme") ENG.filter((e) => state.engines.has(e.slug)).forEach((e) => (hostOf(e)?.joins || []).forEach((j) => joinIds.add(j.theme_line)));
+      else (hostOf(m.d)?.joins || []).forEach((j) => joinIds.add(j.engine_line));
+      const score = (l) => Object.values(m.cmap[l.id] || {}).flat().filter((c) => held.includes(c.handtrap) && c.severity !== "bad").length * 10 + (joinIds.has(l.id) ? 1 : 0);
+      return [...ls].sort((a, b) => score(b) - score(a))[0];
+    }
+
+    // 합류 지점: 엔진 줄/메인 줄 각각의 (라인, 단계) → 표시 문구
+    function joinMarks(mods) {
+      const map = {};
+      const t = mods.find((m) => m.kind === "theme");
+      if (!t) return map;
+      const put = (key, line, step, txt, note) => ((map[`${key}|${line}|${step - 1}`] = map[`${key}|${line}|${step - 1}`] || []).push({ txt, note }));
+      mods.filter((m) => m.kind === "engine").forEach((m) => {
+        (hostOf(m.d)?.joins || []).forEach((j) => {
+          put(m.key, j.engine_line, j.engine_step, `→ 메인 ${j.theme_step}단계로 합류`, j.note_ko);
+          put(t.key, j.theme_line, j.theme_step, `← ${modName(m.d)} ${j.engine_step}단계에서 합류`, j.note_ko);
+        });
+      });
+      return map;
+    }
+
+    // "지금 여기": 상대가 진행 중인 단계. 그 모듈은 이 단계 이후 타이밍만 남긴다.
+    const alive = (m, c) => {
+      const h = state.here;
+      if (!h || h.key !== m.key) return true;
+      return c.line === h.line && c.step >= h.i + 1;
+    };
+
     const sync = () => {
       const q = new URLSearchParams();
       q.set("s", state.first ? "1" : "2");
       if (state.theme) q.set("t", state.theme);
+      if (state.engines.size) q.set("e", [...state.engines].join(","));
       if (state.held.size) q.set("h", [...state.held].join(","));
       if (state.board) q.set("b", state.board);
-      if (state.line) q.set("l", state.line);
+      const ls = Object.entries(state.lines).filter(([, v]) => v).map(([k, v]) => `${k}=${v}`);
+      if (ls.length) q.set("l", ls.join(","));
+      if (state.here) q.set("w", `${state.here.key}|${state.here.line}|${state.here.i}`);
       history.replaceState(null, "", "#/p?" + q);
       store.set("play.first", state.first);
     };
 
+    /* ----- 검색: 테마 이름 + 본 카드 역색인 ----- */
+    const CARD_IDX = {};
+    const addIdx = (en, mod) => { if (en) (CARD_IDX[en] = CARD_IDX[en] || new Set()).add(mod); };
+    D.themes.forEach((t) => {
+      (t.key_cards || []).forEach((k) => addIdx(k.card, "t:" + t.slug));
+      (t.lines || []).forEach((l) => { l.steps.forEach((s) => addIdx(s.card, "t:" + t.slug)); (l.end_board || []).forEach((c) => addIdx(c, "t:" + t.slug)); });
+    });
+    ENG.forEach((e) => {
+      [...(e.starters || []), ...(e.key_cards || []).map((k) => k.card), ...(e.restrictions || []).map((r) => r.card)].forEach((c) => addIdx(c, "e:" + e.slug));
+      (e.lines || []).forEach((l) => { l.steps.forEach((s) => addIdx(s.card, "e:" + e.slug)); (l.end_board || []).forEach((c) => addIdx(c, "e:" + e.slug)); });
+    });
+    const words = (q) => q.toLowerCase().split(/\s+/).filter(Boolean);
     const themeMatches = (t, q) => {
       if (!q) return true;
       const hay = [t.name.ko, t.name.en, t.slug, ...(t.variants || []), ...(t.key_cards || []).flatMap((k) => [k.card, ko(k.card) || ""])].join(" ").toLowerCase();
-      return q.toLowerCase().split(/\s+/).every((w) => hay.includes(w));
+      return words(q).every((w) => hay.includes(w));
+    };
+    const cardHits = (q) => {
+      if (!q || q.length < 2) return [];
+      const ws = words(q);
+      return Object.keys(CARD_IDX)
+        .filter((en) => { const hay = (en + " " + (ko(en) || "")).toLowerCase(); return ws.every((w) => hay.includes(w)); })
+        .sort((a, b) => CARD_IDX[b].size - CARD_IDX[a].size || a.length - b.length)
+        .slice(0, 6);
     };
 
     function drawSeg() {
@@ -599,12 +688,50 @@
 
     function drawThemes() {
       const list = D.themes.filter((t) => themeMatches(t, state.q));
+      const hits = cardHits(state.q);
       document.getElementById("themePick").innerHTML = list.length
         ? list
             .map((t) => `<button type="button" class="ptheme${state.theme === t.slug ? " on" : ""}" data-theme="${t.slug}">
-              ${thumb(t.cover, "pt-art")}<span><b>${esc(MODE === "en" ? t.name.en : t.name.ko)}</b>${MODE === "en" ? "" : `<span class="en">${esc(t.name.en)}</span>`}</span></button>`)
+              ${thumb(t.cover, "pt-art")}<span><b>${esc(modName(t))}</b>${MODE === "en" ? "" : `<span class="en">${esc(t.name.en)}</span>`}</span></button>`)
             .join("")
-        : `<p class="muted small">검색 결과가 없습니다.</p>`;
+        : hits.length ? "" : `<p class="muted small">검색 결과가 없습니다.</p>`;
+      // 본 카드로 찾기: 그 카드를 쓰는 테마·엔진을 보여 주고 바로 고르게 한다
+      const share = (k) => {
+        if (k.startsWith("t:")) return D.themes.find((t) => "t:" + t.slug === k)?.meta?.share || 0;
+        return 0;
+      };
+      document.getElementById("cardFind").innerHTML = hits.length
+        ? `<div class="cfind"><div class="hg-title">본 카드로 찾기</div>${hits
+            .map((en) => {
+              const mods = [...CARD_IDX[en]].sort((a, b) => share(b) - share(a));
+              return `<div class="cf-row">${thumb(en)}<span class="cf-name">${card(en, { noEn: MODE !== "both" })}</span><span class="cf-mods">${mods
+                .map((k) => {
+                  const slug = k.slice(2);
+                  if (k.startsWith("t:")) {
+                    const t = D.themes.find((x) => x.slug === slug);
+                    return `<button type="button" class="chip sub" data-theme="${slug}" aria-pressed="${state.theme === slug}">${esc(modName(t))} <span class="muted">${((t.meta?.share || 0) * 100).toFixed(1)}%</span></button>`;
+                  }
+                  const e = ENG.find((x) => x.slug === slug);
+                  return `<button type="button" class="chip sub eng" data-engine="${slug}" aria-pressed="${state.engines.has(slug)}">＋ ${esc(modName(e))}</button>`;
+                })
+                .join("")}</span></div>`;
+            })
+            .join("")}</div>`
+        : "";
+    }
+
+    function drawEngines() {
+      const el = document.getElementById("enginePick");
+      if (!ENG.length) { el.innerHTML = ""; return; }
+      const t = D.themes.find((x) => x.slug === state.theme);
+      const rows = ENG.map((e) => ({ e, rate: engineRate(e, t) })).sort((a, b) => (b.rate ?? -1) - (a.rate ?? -1));
+      const sug = rows.filter((r) => r.rate);
+      const rest = rows.filter((r) => !r.rate);
+      const chip = (r) => `<button type="button" class="chip sub eng" data-engine="${r.e.slug}" aria-pressed="${state.engines.has(r.e.slug)}">${state.engines.has(r.e.slug) ? "✓" : "＋"} ${esc(modName(r.e))}${r.rate ? ` <span class="muted">${(r.rate * 100).toFixed(0)}%</span>` : ""}</button>`;
+      el.innerHTML = `<div class="engine-pick">
+        <div class="hg-title">섞어 쓰는 엔진 ${t ? `<span class="muted small">— ${esc(modName(t))} 덱에 함께 들어가는 비율</span>` : `<span class="muted small">— 엔진만 따로 볼 수도 있습니다</span>`}</div>
+        <div class="chips wrap">${sug.map(chip).join("")}${sug.length && rest.length ? `<span class="chip-sep" aria-hidden="true"></span>` : ""}${rest.map(chip).join("")}</div>
+      </div>`;
     }
 
     function drawHand() {
@@ -633,49 +760,68 @@
         : "들고 있는 카드를 누르세요. 결과가 바로 아래에 바뀝니다.";
     }
 
+    const stepOf = (m, c) => {
+      const ls = m.d.lines || [];
+      const line = ls.find((l) => l.id === c.line);
+      if (line && c.step) return { line, s: line.steps[c.step - 1], i: c.step - 1 };
+      for (const l of ls) {
+        const i = l.steps.findIndex((s) => s.card === c.target_card);
+        if (i >= 0) return { line: l, s: l.steps[i], i };
+      }
+      return null;
+    };
+    const modTag = (m, mods) => (mods.length > 1 ? `<span class="mod-tag ${m.kind}">${esc(m.kind === "engine" ? modName(m.d) : "메인")}</span>` : "");
+
     function drawOut() {
       const out = document.getElementById("playOut");
-      const t = D.themes.find((x) => x.slug === state.theme);
-      if (!t) {
-        out.innerHTML = `<p class="empty-hint">상대 테마를 고르면 족보가 나옵니다.</p>`;
+      const mods = modules();
+      if (!mods.length) {
+        out.innerHTML = `<p class="empty-hint">상대 테마를 고르면 족보가 나옵니다. 테마 이름을 모르면 위 검색칸에 상대가 낸 카드 이름을 쳐 보세요.</p>`;
         return;
       }
-      const cmap = chokeMap(t);
+      const t = mods.find((m) => m.kind === "theme")?.d || null;
+      const lead = mods[0];
       const held = state.held;
-      const heldHT = [...held].filter((id) => HT[id] && HT[id].kind !== "not_handtrap");
+      const engMods = mods.filter((m) => m.kind === "engine");
 
-      // A. 상대 턴: 패트랩 던질 곳
-      const plans = heldHT
+      // A. 상대 턴: 패트랩 던질 곳 (모든 모듈의 타이밍을 합쳐 패트랩마다 가장 아픈 곳 1개)
+      const plans = heldHT()
         .map((id) => {
-          const cps = t.chokepoints.map((c, i) => ({ ...c, rank: i + 1 })).filter((c) => c.handtrap === id);
+          const cps = mods.flatMap((m) => m.d.chokepoints.map((c, i) => ({ ...c, rank: i + 1, m })).filter((c) => c.handtrap === id && alive(m, c)));
           const good = cps.filter((c) => c.severity !== "bad").sort((a, b) => sevRank(a.severity) - sevRank(b.severity) || a.rank - b.rank);
           const bad = cps.filter((c) => c.severity === "bad");
-          const sum = t.handtrap_summary[id];
+          const sums = mods.map((m) => ({ m, s: m.d.handtrap_summary?.[id] })).filter((x) => x.s);
           const best = good[0];
+          // 둘 이상 모듈에서 치명이면 어느 쪽에 쓸지 갈린다 → 엔진의 우선순위 메모를 붙인다
+          const critMods = new Set(good.filter((c) => c.severity === "critical").map((c) => c.m.key));
+          const conflict = critMods.size > 1 ? engMods.map((m) => hostOf(m.d)?.priority_ko).filter(Boolean) : [];
           const setup = setupOf(id);
           const isSpell = setup !== "hand";
           const blocked = (state.first && NEEDS_EMPTY.has(id)) || (!state.first && isSpell);
           const setNote = state.first && isSpell ? SETUP_NOTE[setup] : "";
-          return { id, best, more: good.slice(1, 3), bad, sum, blocked, isSpell, setNote, sev: best ? best.severity : sum ? sum.rating : "weak" };
+          const sev = best ? best.severity : sums.length ? sums.map((x) => x.s.rating).sort((a, b) => sevRank(a) - sevRank(b))[0] : "weak";
+          // 다른 지점: 같은 모듈 다음 순위 + 다른 모듈 최선
+          const more = [];
+          const seenMods = new Set(best ? [best.m.key] : []);
+          good.slice(1).forEach((c) => {
+            if (more.length >= 3) return;
+            if (c.m.key === best.m.key ? more.filter((x) => x.m.key === c.m.key).length < 1 : !seenMods.has(c.m.key)) { more.push(c); seenMods.add(c.m.key); }
+          });
+          return { id, best, more, bad, sums, blocked, isSpell, setNote, sev, conflict };
         })
         .sort((a, b) => a.blocked - b.blocked || sevRank(a.sev) - sevRank(b.sev) || (a.best?.rank || 99) - (b.best?.rank || 99));
 
-      const stepOf = (c) => {
-        const line = t.lines.find((l) => l.id === c.line);
-        if (line && c.step) return { line, s: line.steps[c.step - 1], i: c.step - 1 };
-        for (const l of t.lines) {
-          const i = l.steps.findIndex((s) => s.card === c.target_card);
-          if (i >= 0) return { line: l, s: l.steps[i], i };
-        }
-        return null;
+      const myTurn = (id) => {
+        const r = mods.map((m) => ({ m, b: m.d.going_second?.breakers?.[id] })).filter((x) => x.b);
+        return r.map(({ m, b }) => `<p class="small my-turn"><span class="lbl">내 턴(후공)</span>${modTag(m, mods)}${sevBadge(b.rating)} ${prose(b.note_ko)} ${rulingChips(b.rulings)}</p>`).join("");
       };
       const planHTML = plans.length
         ? `<ol class="plan">${plans
             .map((p, n) => {
               const c = p.best;
-              const where = c ? stepOf(c) : null;
+              const where = c ? stepOf(c.m, c) : null;
               return `<li class="pl sevb-${p.sev}${p.blocked ? " blocked" : ""}">
-                <div class="pl-head"><span class="pl-n">${n + 1}</span>${thumb(HT[p.id].card)}<b>${esc(HT[p.id].short_ko)}</b>${sevBadge(p.sev)}</div>
+                <div class="pl-head"><span class="pl-n">${n + 1}</span>${thumb(HT[p.id].card)}<b>${esc(htName(p.id))}</b>${sevBadge(p.sev)}${c ? modTag(c.m, mods) : ""}</div>
                 ${
                   p.blocked
                     ? p.isSpell
@@ -687,58 +833,90 @@
                 ${
                   c
                     ? `<div class="pl-body">
-                        ${where ? `<div class="pl-target">${thumb(where.s.card, "tgt")}<div><div>${card(c.target_card || where.s.card, { noEn: true })}</div><div class="muted small">${esc(where.line.title_ko)} · ${where.i + 1}단계</div></div></div>` : ""}
+                        ${where ? `<div class="pl-target">${thumb(where.s.card, "tgt")}<div><div>${card(c.target_card || where.s.card, { noEn: true })}</div><div class="muted small">${mods.length > 1 ? esc(modName(c.m.d)) + " · " : ""}${esc(stripBr(where.line.title_ko))} · ${where.i + 1}단계</div></div></div>` : ""}
                         ${c.timing_ko ? `<p><span class="lbl">타이밍</span>${prose(c.timing_ko)}</p>` : ""}
-                        <p class="small">${prose(c.why_ko)} ${rulingChips([...(c.rulings || []), ...rulingsFor({ theme: t.slug, handtrap: p.id }).map((q) => q.id)])}</p>
-                        ${p.more.length ? `<p class="small muted">다른 지점: ${p.more.map((m) => `${SEV_G[m.severity]} ${esc(m.target_card ? nm(m.target_card) : "")}`).join(" · ")}</p>` : ""}
+                        <p class="small">${prose(c.why_ko)} ${rulingChips([...(c.rulings || []), ...rulingsFor({ theme: c.m.kind === "theme" ? c.m.d.slug : undefined, handtrap: p.id }).filter(() => c.m.kind === "theme").map((q) => q.id)])}</p>
+                        ${p.conflict.length ? `<p class="small conflict"><span class="lbl">어느 쪽에?</span>${p.conflict.map(prose).join("<br>")}</p>` : ""}
+                        ${p.more.length ? `<p class="small muted">다른 지점: ${p.more.map((m) => `${SEV_G[m.severity]} ${mods.length > 1 ? esc(modName(m.m.d)) + " " : ""}${esc(m.target_card ? nm(m.target_card) : "")}`).join(" · ")}</p>` : ""}
                       </div>`
-                    : `<div class="pl-body"><p class="small"><span class="lbl">상대 턴</span>${p.sum ? prose(p.sum.note_ko) : "상대 1턴 전개 중에는 정리된 사용 지점이 없습니다."}</p>
-                        ${(() => {
-                          const my = t.going_second?.breakers?.[p.id];
-                          return my ? `<p class="small my-turn"><span class="lbl">내 턴(후공)</span>${sevBadge(my.rating)} ${prose(my.note_ko)} ${rulingChips(my.rulings)}</p>` : "";
-                        })()}</div>`
+                    : `<div class="pl-body">${
+                        p.sums.length
+                          ? p.sums.map(({ m, s }) => `<p class="small"><span class="lbl">상대 턴</span>${modTag(m, mods)}${prose(s.note_ko)}</p>`).join("")
+                          : `<p class="small"><span class="lbl">상대 턴</span>${state.here ? "지금 단계 이후로는 정리된 사용 지점이 없습니다." : "상대 1턴 전개 중에는 정리된 사용 지점이 없습니다."}</p>`
+                      }${myTurn(p.id)}</div>`
                 }
                 ${p.bad.length ? `<p class="pl-bad small">✕ 쓰지 말 것: ${p.bad.map((b) => prose(b.why_ko)).join(" / ")}</p>` : ""}
               </li>`;
             })
             .join("")}</ol>`
-        : `<p class="muted small">위에서 들고 있는 패트랩을 고르면 던질 순서가 나옵니다. 이 테마에서 가장 아픈 타이밍 1~3순위:</p>
-           <ol class="plan compact">${t.chokepoints
-             .filter((c) => c.severity !== "bad")
-             .slice(0, 3)
-             .map((c) => `<li>${sevBadge(c.severity, htName(c.handtrap))} → ${card(c.target_card, { noEn: true })} <span class="muted small">${prose(c.timing_ko || "")}</span></li>`)
+        : `<p class="muted small">위에서 들고 있는 패트랩을 고르면 던질 순서가 나옵니다. 가장 아픈 타이밍:</p>
+           <ol class="plan compact">${mods
+             .flatMap((m) => m.d.chokepoints.map((c, i) => ({ ...c, rank: i + 1, m })).filter((c) => c.severity !== "bad" && alive(m, c)).slice(0, mods.length > 1 ? 2 : 3))
+             .map((c) => `<li>${modTag(c.m, mods)}${sevBadge(c.severity, htName(c.handtrap))} → ${card(c.target_card, { noEn: true })} <span class="muted small">${prose(c.timing_ko || "")}</span></li>`)
              .join("")}</ol>`;
 
-      // B. 후공 돌파
+      // 섞였을 때 주의: 엔진 제약 + 우선순위
+      const mixHTML = engMods.length
+        ? `<div class="mix-notes">${engMods
+            .map((m) => {
+              const h = hostOf(m.d);
+              const rs = (m.d.restrictions || []).map((r) => `<li>⛓ ${card(r.card, { noEn: true })}: ${prose(r.text_ko)}${t && r.hits_main_ko ? ` → <b>${prose(r.hits_main_ko)}</b>` : ""}</li>`).join("");
+              return `<div class="mix"><div class="mix-h">${thumb(m.d.cover)}<b>${esc(modName(m.d))}</b>${t ? ` + ${esc(modName(t))}` : ""}</div>
+                ${h?.priority_ko ? `<p class="small"><span class="lbl">우선순위</span>${prose(h.priority_ko)}</p>` : t ? `<p class="small muted">이 테마와 섞인 경우의 정리는 아직 없습니다. 엔진 단독 타이밍을 참고하세요.</p>` : ""}
+                ${rs ? `<ul class="small">${rs}</ul>` : ""}</div>`;
+            })
+            .join("")}</div>`
+        : "";
+
+      // B. 후공 돌파: 모듈별 보드 + 메인 풀 보드에 엔진 견제를 얹은 합성 보드
       let breakHTML = "";
-      const gs = t.going_second;
       if (!state.first) {
-        if (!gs) {
+        const boards = [];
+        mods.forEach((m) => (m.d.going_second?.boards || []).forEach((b) => boards.push({ ...b, id: `${m.key}#${b.id}`, m, title: mods.length > 1 ? `${modName(m.d)} · ${stripBr(b.title_ko)}` : stripBr(b.title_ko) })));
+        const tm = mods.find((m) => m.kind === "theme");
+        const tb = tm?.d.going_second?.boards?.[0];
+        if (tb && engMods.length) {
+          const eb = engMods.map((m) => ({ m, b: m.d.going_second?.boards?.[0] })).filter((x) => x.b);
+          if (eb.length) {
+            boards.unshift({
+              id: "mix",
+              title: `${modName(tm.d)} 풀 보드 + ${eb.map((x) => modName(x.m.d)).join(" + ")}`,
+              interruptions: [...tb.interruptions.map((it) => ({ ...it, m: tm })), ...eb.flatMap((x) => x.b.interruptions.map((it) => ({ ...it, m: x.m })))],
+              mixed: true,
+            });
+          }
+        }
+        if (!boards.length) {
           breakHTML = `<section class="panel"><h2>돌파 가능성</h2><p class="muted">이 테마의 후공 데이터는 준비 중입니다.</p></section>`;
         } else {
-          const boards = gs.boards || [];
-          let bid = state.board && boards.some((b) => b.id === state.board) ? state.board : boards[0]?.id;
-          const board = boards.find((b) => b.id === bid);
-          const res = board ? solveBoard(board, held) : [];
+          let board = boards.find((b) => b.id === state.board) || boards.find((b) => b.id === `${lead.key}#${state.board}`) || boards[0];
+          const res = solveBoard(board, held);
           const v = verdict(res);
-          const heldBk = [...held].filter((id) => gs.breakers?.[id]);
-          const wish = Object.entries(gs.breakers || {})
-            .filter(([id, r]) => !held.has(id) && (r.rating === "critical" || r.rating === "strong") && anyCard(id))
-            .sort((a, b) => sevRank(a[1].rating) - sevRank(b[1].rating))
-            .slice(0, 6);
+          const gsMods = mods.filter((m) => m.d.going_second);
+          const brk = (id) => gsMods.map((m) => ({ m, r: m.d.going_second.breakers?.[id] })).filter((x) => x.r);
+          const heldBk = [...held].filter((id) => brk(id).length);
+          const wishMap = {};
+          gsMods.forEach((m) =>
+            Object.entries(m.d.going_second.breakers || {}).forEach(([id, r]) => {
+              if (held.has(id) || !anyCard(id) || !(r.rating === "critical" || r.rating === "strong")) return;
+              if (!wishMap[id] || sevRank(r.rating) < sevRank(wishMap[id].r.rating)) wishMap[id] = { m, r };
+            })
+          );
+          const wish = Object.entries(wishMap).sort((a, b) => sevRank(a[1].r.rating) - sevRank(b[1].r.rating)).slice(0, 6);
+          const diff = { hard: "풀 보드 난이도 높음", medium: "풀 보드 난이도 보통", easy: "풀 보드 난이도 낮음" }[lead.d.going_second?.difficulty] || "";
           breakHTML = `<section class="panel break">
-            <h2>돌파 가능성 <span class="muted small">후공 · ${esc({ hard: "풀 보드 난이도 높음", medium: "풀 보드 난이도 보통", easy: "풀 보드 난이도 낮음" }[gs.difficulty] || "")}</span></h2>
-            <p class="small">${prose(gs.summary_ko)}</p>
+            <h2>돌파 가능성 <span class="muted small">후공 · ${esc(diff)}</span></h2>
+            ${gsMods.map((m) => `<p class="small">${modTag(m, mods)}${prose(m.d.going_second.summary_ko)}</p>`).join("")}
             <div class="chips" role="group" aria-label="상대 보드">${boards
-              .map((b) => `<button type="button" class="chip sub" data-board="${b.id}" aria-pressed="${b.id === bid}">${esc(stripBr(b.title_ko))}</button>`)
+              .map((b) => `<button type="button" class="chip sub${b.mixed ? " eng" : ""}" data-board="${esc(b.id)}" aria-pressed="${b.id === board.id}">${b.mixed ? "⧉ " : ""}${esc(b.title)}</button>`)
               .join("")}</div>
-            <div class="verdict v-${v.cls}"><b>${v.label}</b><span>${esc(v.text)}<br><span class="muted small">카드 1장 = 견제 1개로 센 단순 판정입니다. 상대 무효가 내 돌파 카드를 먼저 막을 수 있으니 '미끼'와 권장 순서를 함께 보세요.</span></span>
+            <div class="verdict v-${v.cls}"><b>${v.label}</b><span>${esc(v.text)}<br><span class="muted small">카드 1장 = 견제 1개로 센 단순 판정입니다. 상대 무효가 내 돌파 카드를 먼저 막을 수 있으니 '미끼'와 권장 순서를 함께 보세요.${board.mixed ? " 섞인 덱은 엔진 몫만큼 메인 견제가 줄 수 있어 실제보다 어렵게 나옵니다." : ""}</span></span>
               <span class="meter" aria-hidden="true">${res.map((r) => `<i class="${r.by ? "ok" : ""}"></i>`).join("")}</span></div>
             <ul class="ints">${res
               .map(
                 (r) => `<li class="${r.by ? "solved" : "open"}">
                   ${thumb(r.it.card, "tgt")}
-                  <div><div><b>${esc(nm(r.it.card))}</b> <span class="muted small">${prose(r.it.timing_ko || "")}</span></div>
+                  <div><div>${board.mixed ? modTag(r.it.m, mods) : ""}<b>${esc(nm(r.it.card))}</b> <span class="muted small">${prose(r.it.timing_ko || "")}</span></div>
                   ${
                     r.by
                       ? `<div class="small ans">✓ ${esc(anyName(r.by.id))} — ${prose(r.by.note_ko || "")} ${rulingChips(r.by.rulings)}</div>`
@@ -748,15 +926,15 @@
                 </li>`
               )
               .join("")}</ul>
-            ${heldBk.length ? `<h3>내 카드 평가</h3><div class="sumlist">${heldBk.map((id) => `<div>${sevBadge(gs.breakers[id].rating, anyName(id))} <span class="small">${prose(gs.breakers[id].note_ko)}</span></div>`).join("")}</div>` : ""}
-            ${gs.sequencing_ko?.length ? `<h3>권장 순서</h3><ol class="small">${gs.sequencing_ko.map((s) => `<li>${prose(s)}</li>`).join("")}</ol>` : ""}
-            ${wish.length ? `<h3>이 덱 상대로 좋은 돌파 카드</h3><div class="sumlist">${wish.map(([id, r]) => `<div>${sevBadge(r.rating, anyName(id))} <span class="small">${prose(r.note_ko)}</span></div>`).join("")}</div>` : ""}
+            ${heldBk.length ? `<h3>내 카드 평가</h3><div class="sumlist">${heldBk.map((id) => brk(id).map(({ m, r }) => `<div>${sevBadge(r.rating, anyName(id))} ${modTag(m, mods)}<span class="small">${prose(r.note_ko)}</span></div>`).join("")).join("")}</div>` : ""}
+            ${gsMods.some((m) => m.d.going_second.sequencing_ko?.length) ? `<h3>권장 순서</h3>${gsMods.filter((m) => m.d.going_second.sequencing_ko?.length).map((m) => `${mods.length > 1 ? `<div class="small">${modTag(m, mods)}</div>` : ""}<ol class="small">${m.d.going_second.sequencing_ko.map((s) => `<li>${prose(s)}</li>`).join("")}</ol>`).join("")}` : ""}
+            ${wish.length ? `<h3>이 덱 상대로 좋은 돌파 카드</h3><div class="sumlist">${wish.map(([id, { m, r }]) => `<div>${sevBadge(r.rating, anyName(id))} ${modTag(m, mods)}<span class="small">${prose(r.note_ko)}</span></div>`).join("")}</div>` : ""}
           </section>`;
         }
       }
 
-      // C. 상대가 들고 있을 카드
-      const st = (t.staples || []).filter((s) => s.rate >= 0.2).slice(0, 10);
+      // C. 상대가 들고 있을 카드 (메인 테마 기준)
+      const st = (t?.staples || []).filter((s) => s.rate >= 0.2).slice(0, 10);
       const stHTML = st.length
         ? `<section class="panel"><h2>상대가 들고 있을 카드 <span class="muted small">최근 30일 채용률</span></h2>
             <ul class="staples">${st
@@ -764,11 +942,16 @@
               .join("")}</ul></section>`
         : "";
 
+      const hereM = state.here && mods.find((m) => m.key === state.here.key);
+      const hereLine = hereM && (hereM.d.lines || []).find((l) => l.id === state.here.line);
+      const hereStep = hereLine?.steps[state.here.i];
       out.innerHTML = `
-        <div class="play-title">${thumb(t.cover, "pt-art lg")}<div><h2 style="margin:0">${esc(MODE === "en" ? t.name.en : t.name.ko)}</h2>
-          <a class="small" href="#/t/${t.slug}">전개 흐름 전체 보기 →</a></div></div>
+        <div class="play-title">${thumb(lead.d.cover, "pt-art lg")}<div><h2 style="margin:0">${mods.map((m) => esc(modName(m.d))).join(" <span class='muted'>+</span> ")}</h2>
+          ${t ? `<a class="small" href="#/t/${t.slug}">전개 흐름 전체 보기 →</a>` : ""}</div></div>
+        ${mixHTML}
         <section class="panel">
           <h2>${state.first ? "상대 턴(후공 2턴)에 던질 곳" : "상대 1턴에 던질 곳"}</h2>
+          ${hereStep ? `<p class="small here-note">📍 지금 여기: ${esc(modName(hereM.d))} ${state.here.i + 1}단계 ${card(hereStep.card, { noEn: true })} — 이 단계부터 남은 타이밍만 보여 줍니다. <button type="button" class="chip sub" data-here-clear>해제</button></p>` : ""}
           ${state.first ? `<p class="small muted">상대가 후공으로 전개할 때도 같은 루트를 탑니다. 다만 내 필드가 있으면 포영(패)·후와로스·푸루리아·냐루스·감마 같은 '필드가 비어 있어야' 쓰는 카드는 못 씁니다.</p>` : ""}
           ${planHTML}
         </section>
@@ -776,83 +959,125 @@
         ${stHTML}`;
     }
 
-    // 전개 스트립: 상대 전개를 일러스트로 늘어놓고, 내 패트랩을 던질 단계 바로 아래에 표시
-    function drawStrip() {
-      const el = document.getElementById("strip");
-      const t = D.themes.find((x) => x.slug === state.theme);
-      if (!t) { el.hidden = true; return; }
-      el.hidden = false;
-      const cmap = chokeMap(t);
-      const held = [...state.held].filter((id) => HT[id] && HT[id].kind !== "not_handtrap");
-      const lineScore = (l) => Object.values(cmap[l.id]).flat().filter((c) => held.includes(c.handtrap) && c.severity !== "bad").length;
-      let line = t.lines.find((l) => l.id === state.line);
-      if (!line) line = held.length ? [...t.lines].sort((a, b) => lineScore(b) - lineScore(a))[0] : t.lines[0];
-      const blockedNote = (id) => {
-        const setup = setupOf(id);
-        if (!state.first && setup !== "hand") return setup === "set" ? "후공이면 상대 1턴엔 못 씀(미리 세트 필요)" : "후공이면 상대 1턴엔 못 씀(미리 필드에 필요)";
-        if (state.first && NEEDS_EMPTY.has(id)) return "내 필드가 비어 있어야 함";
-        return "";
-      };
+    // 전개 스트립: 모듈마다 한 줄. 상대 전개를 일러스트로 늘어놓고, 내 패트랩을 던질 단계 바로 아래에 표시
+    const blockedNote = (id) => {
+      const setup = setupOf(id);
+      if (!state.first && setup !== "hand") return setup === "set" ? "후공이면 상대 1턴엔 못 씀(미리 세트 필요)" : "후공이면 상대 1턴엔 못 씀(미리 필드에 필요)";
+      if (state.first && NEEDS_EMPTY.has(id)) return "내 필드가 비어 있어야 함";
+      return "";
+    };
+    function stripOf(m, mods, joins) {
+      const held = heldHT();
+      const line = lineOf(m);
+      if (!line) return "";
+      const lineScore = (l) => Object.values(m.cmap[l.id] || {}).flat().filter((c) => held.includes(c.handtrap) && c.severity !== "bad").length;
+      const here = state.here && state.here.key === m.key && state.here.line === line.id ? state.here.i : -1;
       const cols = line.steps
         .map((s, i) => {
-          const cps = (cmap[line.id][i] || [])
+          const cps = (m.cmap[line.id][i] || [])
             .filter((c) => held.includes(c.handtrap))
             .sort((a, b) => (a.severity === "bad") - (b.severity === "bad") || sevRank(a.severity) - sevRank(b.severity) || a.rank - b.rank);
           const seen = new Set();
-          const marks = cps
-            .filter((c) => (seen.has(c.handtrap) ? false : seen.add(c.handtrap)))
-            .map((c) => {
-              const warn = c.severity === "bad" ? "" : blockedNote(c.handtrap);
-              const tipText = `${htName(c.handtrap)} · ${c.severity === "bad" ? "쓰지 말 것" : SEV_KO[c.severity] + " (우선순위 " + c.rank + ")"}\n${stripBr(c.timing_ko || "")}\n\n${stripBr(c.why_ko)}`;
-              return `<div class="mk mk-${c.severity}${warn ? " mk-blocked" : ""}" data-tip="${esc(tipText)}">
-                ${thumb(HT[c.handtrap].card, "mk-art")}
-                <div class="mk-name">${c.severity === "bad" ? "✕ " : SEV_G[c.severity] + " "}${esc(htName(c.handtrap))}</div>
-                <div class="mk-time">${c.severity === "bad" ? "쓰지 말 것" : prose(c.timing_ko || "")}</div>
-                ${warn ? `<div class="mk-warn">⚠ ${esc(warn)}</div>` : ""}
-              </div>`;
-            })
-            .join("");
-          const top = cps.find((c) => c.severity !== "bad");
-          return `<div class="sc${marks ? " has" : ""}${top ? " sc-" + top.severity : ""}">
-            <div class="sc-card" data-card="${esc(s.card)}">
-              ${thumb(s.card, "sc-art")}<span class="sc-n">${i + 1}</span>
-            </div>
+          const past = here >= 0 && i < here;
+          const marks = past
+            ? ""
+            : cps
+                .filter((c) => (seen.has(c.handtrap) ? false : seen.add(c.handtrap)))
+                .map((c) => {
+                  const warn = c.severity === "bad" ? "" : blockedNote(c.handtrap);
+                  const tipText = `${htName(c.handtrap)} · ${c.severity === "bad" ? "쓰지 말 것" : SEV_KO[c.severity] + " (우선순위 " + c.rank + ")"}\n${stripBr(c.timing_ko || "")}\n\n${stripBr(c.why_ko)}`;
+                  return `<div class="mk mk-${c.severity}${warn ? " mk-blocked" : ""}" data-tip="${esc(tipText)}">
+                    ${thumb(HT[c.handtrap].card, "mk-art")}
+                    <div class="mk-name">${c.severity === "bad" ? "✕ " : SEV_G[c.severity] + " "}${esc(htName(c.handtrap))}</div>
+                    <div class="mk-time">${c.severity === "bad" ? "쓰지 말 것" : prose(c.timing_ko || "")}</div>
+                    ${warn ? `<div class="mk-warn">⚠ ${esc(warn)}</div>` : ""}
+                  </div>`;
+                })
+                .join("");
+          const jm = (joins[`${m.key}|${line.id}|${i}`] || []).map((j) => `<div class="jn" data-tip="${esc(stripBr(j.note_ko || ""))}">${esc(j.txt)}</div>`).join("");
+          const top = past ? null : cps.find((c) => c.severity !== "bad");
+          return `<div class="sc${marks ? " has" : ""}${top ? " sc-" + top.severity : ""}${past ? " past" : ""}${i === here ? " now" : ""}">
+            <button type="button" class="sc-card" data-card="${esc(s.card)}" data-here="${esc(`${m.key}|${line.id}|${i}`)}" aria-label="${esc(`${i + 1}단계: 지금 여기로 표시`)}">
+              ${thumb(s.card, "sc-art")}<span class="sc-n">${i + 1}</span>${i === here ? `<span class="sc-here">지금</span>` : ""}
+            </button>
             <div class="sc-act" title="${esc(stripBr(s.action_ko))}">${esc(nm(s.card))}</div>
+            ${jm}
             ${marks}
           </div>`;
         })
         .join('<div class="sc-arrow" aria-hidden="true">›</div>');
-      const tabs = t.lines.length > 1
-        ? `<div class="chips">${t.lines.map((l) => `<button type="button" class="chip sub" data-line="${esc(l.id)}" aria-pressed="${l.id === line.id}">${esc(stripBr(l.title_ko))}${held.length ? ` · ${lineScore(l)}` : ""}</button>`).join("")}</div>`
+      const ls = m.d.lines || [];
+      const tabs = ls.length > 1
+        ? `<div class="chips">${ls.map((l) => `<button type="button" class="chip sub" data-line="${esc(l.id)}" data-mod="${m.key}" aria-pressed="${l.id === line.id}">${esc(stripBr(l.title_ko))}${held.length ? ` · ${lineScore(l)}` : ""}</button>`).join("")}</div>`
         : "";
-      el.innerHTML = `<div class="strip-head"><h2>${esc(MODE === "en" ? t.name.en : t.name.ko)} 전개 <span class="muted small">${esc(stripBr(line.title_ko))}</span></h2>
-          <a class="small" href="#/t/${t.slug}?line=${encodeURIComponent(line.id)}">자세히 →</a></div>
+      const restr = m.kind === "engine" && (m.d.restrictions || []).length
+        ? `<p class="small restr">⛓ ${m.d.restrictions.map((r) => `${card(r.card, { noEn: true })}: ${prose(r.text_ko)}`).join(" · ")}</p>`
+        : "";
+      const link = m.kind === "theme" ? `<a class="small" href="#/t/${m.d.slug}?line=${encodeURIComponent(line.id)}">자세히 →</a>` : "";
+      return `<section class="strip-wrap ${m.kind}">
+        <div class="strip-head"><h2>${mods.length > 1 ? `<span class="mod-tag ${m.kind}">${m.kind === "engine" ? "엔진" : "메인"}</span>` : ""}${esc(modName(m.d))} 전개 <span class="muted small">${esc(stripBr(line.title_ko))}</span></h2>${link}</div>
+        ${restr}
         ${tabs}
-        ${held.length ? "" : `<p class="small muted">아래에서 들고 있는 패트랩을 고르면, 던질 단계 아래에 표시됩니다.</p>`}
-        <div class="strip">${cols}</div>`;
+        <div class="strip">${cols}</div>
+      </section>`;
+    }
+    function drawStrip() {
+      const el = document.getElementById("strip");
+      const mods = modules();
+      if (!mods.length) { el.innerHTML = ""; return; }
+      const joins = joinMarks(mods);
+      const tip = heldHT().length
+        ? `<p class="small muted strip-tip">카드 일러를 누르면 상대가 지금 그 단계라고 표시하고, 남은 타이밍만 보여 줍니다.</p>`
+        : `<p class="small muted strip-tip">아래에서 들고 있는 패트랩을 고르면, 던질 단계 아래에 표시됩니다. 카드 일러를 누르면 '지금 여기'로 표시됩니다.</p>`;
+      el.innerHTML = tip + mods.map((m) => stripOf(m, mods, joins)).join("");
     }
 
-    const redraw = () => { sync(); drawSeg(); drawThemes(); drawStrip(); drawHand(); drawOut(); };
+    const redraw = () => { sync(); drawSeg(); drawThemes(); drawEngines(); drawStrip(); drawHand(); drawOut(); };
 
     app.onclick = (e) => {
       const f = e.target.closest("[data-first]");
       const th = e.target.closest("[data-theme]");
+      const en = e.target.closest("[data-engine]");
       const hc = e.target.closest("[data-card-id]");
       const bd = e.target.closest("[data-board]");
+      const hr = e.target.closest("[data-here]");
+      const ln = e.target.closest("#strip [data-line]");
       if (f) state.first = f.dataset.first === "1";
-      else if (th) { state.theme = state.theme === th.dataset.theme ? null : th.dataset.theme; state.board = null; state.line = null; }
-      else if (hc) {
+      else if (th) {
+        const slug = th.dataset.theme;
+        state.theme = state.theme === slug ? null : slug;
+        state.board = null;
+        state.here = null;
+        Object.keys(state.lines).filter((k) => k.startsWith("t:")).forEach((k) => delete state.lines[k]);
+      } else if (en) {
+        const s = en.dataset.engine;
+        state.engines.has(s) ? state.engines.delete(s) : state.engines.add(s);
+        state.board = null;
+        if (state.here?.key === "e:" + s) state.here = null;
+      } else if (hc) {
         const id = hc.dataset.cardId;
         const set = state.editDeck ? state.deck : state.held;
         set.has(id) ? set.delete(id) : set.add(id);
         if (state.editDeck) store.set("play.deck", [...state.deck]);
       } else if (bd) state.board = bd.dataset.board;
-      else if (e.target.closest("#strip [data-line]")) state.line = e.target.closest("[data-line]").dataset.line;
-      else if (e.target.closest("#deckEdit")) state.editDeck = !state.editDeck;
+      else if (hr) {
+        const [key, line, i] = hr.dataset.here.split("|");
+        state.here = state.here && state.here.key === key && state.here.line === line && state.here.i === +i ? null : { key, line, i: +i };
+      } else if (e.target.closest("[data-here-clear]")) state.here = null;
+      else if (ln) {
+        state.lines[ln.dataset.mod] = ln.dataset.line;
+        if (state.here?.key === ln.dataset.mod) state.here = null;
+      } else if (e.target.closest("#deckEdit")) state.editDeck = !state.editDeck;
       else if (e.target.closest("#clearHand")) state.held.clear();
       else return;
+      const y = hr ? hr.getBoundingClientRect().top : null;
       redraw();
-      if (th && state.theme) document.getElementById("strip").scrollIntoView({ behavior: "smooth", block: "start" });
+      if ((th && state.theme) || (en && !state.theme && state.engines.size)) document.getElementById("strip").scrollIntoView({ behavior: "smooth", block: "start" });
+      // 스트립 안에서 누른 경우 화면이 튀지 않게 같은 위치 유지
+      if (hr && y !== null) {
+        const again = document.querySelector(`[data-here="${CSS.escape(hr.dataset.here)}"]`);
+        if (again) window.scrollBy(0, again.getBoundingClientRect().top - y);
+      }
     };
     app.oninput = (e) => {
       if (e.target.id === "themeSearch") { state.q = e.target.value.trim(); drawThemes(); }
@@ -860,7 +1085,7 @@
     document.getElementById("themeSearch").addEventListener("keydown", (e) => {
       if (e.key !== "Enter") return;
       const first = D.themes.find((t) => themeMatches(t, state.q));
-      if (first) { state.theme = first.slug; state.board = null; state.line = null; redraw(); }
+      if (first) { state.theme = first.slug; state.board = null; state.here = null; redraw(); }
     });
     redraw();
     window.scrollTo(0, 0);
