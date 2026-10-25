@@ -191,16 +191,16 @@ MDM 가이드의 기본 루트. 레일웨이는 보통 후공을 골라 내 선�
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
 | 1 | 스크랩 리사이클러 (Scrap Recycler) | 일반 소환 |  | 푸루리아, 니비루 |
-| 2 | 스크랩 리사이클러 (Scrap Recycler) | 소환 성공 유발: 덱에서 기계족 1장을 묘지로 | 야광열차 블루트래블러 (Night Train Blue Traveler) 묘지로 | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관 |
-| 3 | 클락 워크 나이트 (Clockwork Knight) | 스크랩 리사이클러 (Scrap Recycler)(원래 공격력 900)로 링크 1 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 4 | 야광열차 블루트래블러 (Night Train Blue Traveler) | 묘지 효과(듀얼 중 1번): 묘지의 스크랩 리사이클러 (Scrap Recycler)를 대상으로 자신과 함께 특소. 이 턴 엑스트라 특소는 기계족만 | 블루트래블러(레벨 10) + 리사이클러 | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 마그나무트, 감마, 드루이드브룸 |
-| 5 | 스크랩 리사이클러 (Scrap Recycler) | 특소 성공 유발(1턴 제한 없음): 덱에서 기계족 1장을 묘지로 | 에테르마키나 카르놀 (Carnot the Eternal Machine) 묘지로 | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관 |
-| 6 | 에테르마키나 카르놀 (Carnot the Eternal Machine) | 자신의 소환 방법으로 묘지에서 특소 (효과가 아니라 체인 없음) | 레벨 10 2장째 | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 7 | 클리포트 게니우스 (Qliphort Genius) | 스크랩 리사이클러 (Scrap Recycler) + 클락 워크 나이트 (Clockwork Knight)로 링크 2 링크 소환 | 마법·함정 효과를 받지 않는 링크 2. 기동 효과로 양쪽 앞면 카드 1장씩 효과 무효 | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 8 | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) | 야광열차 블루트래블러 (Night Train Blue Traveler) + 에테르마키나 카르놀 (Carnot the Eternal Machine)로 랭크 10 엑시즈 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 9 | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) | 기동 효과: 소재 1개를 떼고 상대에게 2000 데미지 | LP 8000 → 6000 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관 |
-| 10 | 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe) | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) 위에 겹쳐 랭크 11 엑시즈 소환 (절차라 체인 없음, 소재 이어받음) |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 11 | 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe) | 기동 효과: 소재 1개를 떼고 공수 +2000 (이 턴 이 카드로만 공격 선언) | 공격력 6000 직접 공격 → 원턴킬 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관 |
+| 2 | 스크랩 리사이클러 (Scrap Recycler) | 소환 성공 유발: 덱에서 기계족 1장을 묘지로 | 야광열차 블루트래블러 (Night Train Blue Traveler) 묘지로 | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관, 매크로 코스모스, 차원의 틈, 섬광의 추방자, 아크 디클레어러, 마스크드 히어로 다크 로우, 크샤트리라 어라이즈하트, 스킬 드레인 |
+| 3 | 클락 워크 나이트 (Clockwork Knight) | 스크랩 리사이클러 (Scrap Recycler)(원래 공격력 900)로 링크 1 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 4 | 야광열차 블루트래블러 (Night Train Blue Traveler) | 묘지 효과(듀얼 중 1번): 묘지의 스크랩 리사이클러 (Scrap Recycler)를 대상으로 자신과 함께 특소. 이 턴 엑스트라 특소는 기계족만 | 블루트래블러(레벨 10) + 리사이클러 | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 마그나무트, 감마, 드루이드브룸, 매크로 코스모스, 차원의 틈, 섬광의 추방자, 아크 디클레어러, D.D. 크로우, 마스크드 히어로 다크 로우, 크샤트리라 어라이즈하트, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 5 | 스크랩 리사이클러 (Scrap Recycler) | 특소 성공 유발(1턴 제한 없음): 덱에서 기계족 1장을 묘지로 | 에테르마키나 카르놀 (Carnot the Eternal Machine) 묘지로 | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관, 매크로 코스모스, 차원의 틈, 섬광의 추방자, 아크 디클레어러, 마스크드 히어로 다크 로우, 크샤트리라 어라이즈하트, 스킬 드레인 |
+| 6 | 에테르마키나 카르놀 (Carnot the Eternal Machine) | 자신의 소환 방법으로 묘지에서 특소 (효과가 아니라 체인 없음) | 레벨 10 2장째 | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 7 | 클리포트 게니우스 (Qliphort Genius) | 스크랩 리사이클러 (Scrap Recycler) + 클락 워크 나이트 (Clockwork Knight)로 링크 2 링크 소환 | 마법·함정 효과를 받지 않는 링크 2. 기동 효과로 양쪽 앞면 카드 1장씩 효과 무효 | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 8 | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) | 야광열차 블루트래블러 (Night Train Blue Traveler) + 에테르마키나 카르놀 (Carnot the Eternal Machine)로 랭크 10 엑시즈 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 9 | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) | 기동 효과: 소재 1개를 떼고 상대에게 2000 데미지 | LP 8000 → 6000 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관, 아크 디클레어러, 스킬 드레인 |
+| 10 | 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe) | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) 위에 겹쳐 랭크 11 엑시즈 소환 (절차라 체인 없음, 소재 이어받음) |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 11 | 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe) | 기동 효과: 소재 1개를 떼고 공수 +2000 (이 턴 이 카드로만 공격 선언) | 공격력 6000 직접 공격 → 원턴킬 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관, 아크 디클레어러, 스킬 드레인 |
 
 **최종 필드 / 견제**: 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe), 클리포트 게니우스 (Qliphort Genius)
 
@@ -214,18 +214,18 @@ AppMedia·eternalduelist의 특별 다이어 루트를 현재 MD 리스트(페�
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
-| 1 | 특별 다이어 (Exceptional Schedule) | 발동: 덱에서 긴급 다이어 (Urgent Schedule) 서치, 그 후 상대 필드에 다이어그램 토큰(기계족·땅·레벨 10·공수 3000) 특소 | 긴급 다이어 (Urgent Schedule) 서치 + 내 필드에 토큰 | 우라라, 드롤, 도미나스 퍼지, 싸이크론 |
-| 2 | 긴급 다이어 (Urgent Schedule) | 발동(속공): 덱에서 레벨 4 이하와 레벨 5 이상 땅 기계족을 효과 무효·수비 표시로 특소 | 스크랩 리사이클러 (Scrap Recycler) + 야광열차 블루트래블러 (Night Train Blue Traveler) | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 싸이크론 |
-| 3 | 클락 워크 나이트 (Clockwork Knight) | 스크랩 리사이클러 (Scrap Recycler)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 4 | 클락 워크 나이트 (Clockwork Knight) | 기동 효과: 묘지의 스크랩 리사이클러 (Scrap Recycler)를 대상, 야광열차 블루트래블러 (Night Train Blue Traveler)를 릴리스하고 리사이클러를 수비 표시로 특소 | 새로 소환된 리사이클러는 효과가 살아 있다 | 증G, 냐루스, 포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마, 하르모니아, 금지된 성관 |
-| 5 | 스크랩 리사이클러 (Scrap Recycler) | 특소 성공 유발: 덱에서 기계족 1장을 묘지로 | 중기화열차 데릭크레인 (Heavy Freight Train Derricrane) 묘지로 | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관 |
-| 6 | 클리포트 게니우스 (Qliphort Genius) | 스크랩 리사이클러 (Scrap Recycler) + 클락 워크 나이트 (Clockwork Knight)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 7 | 야광열차 블루트래블러 (Night Train Blue Traveler) | 묘지 효과(듀얼 중 1번): 중기화열차 데릭크레인 (Heavy Freight Train Derricrane)을 대상으로 자신과 함께 클리포트 게니우스 (Qliphort Genius)의 링크처에 특소 |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 마그나무트, 감마, 드루이드브룸 |
-| 8 | 클리포트 게니우스 (Qliphort Genius) | 링크처에 2장이 동시에 특소된 경우의 유발: 덱에서 레벨 5 이상 기계족 서치 | 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마, 하르모니아, 금지된 성관 |
-| 9 | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) | 야광열차 블루트래블러 (Night Train Blue Traveler) + 중기화열차 데릭크레인 (Heavy Freight Train Derricrane)으로 엑시즈 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 10 | 초노급포탑열차 구스타프 로켓 (Superdreadnought Rail Cannon Gustav Rocket) | 패 1장을 버리고 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) 위에 겹쳐 엑시즈 소환 (소재 2개 이어받음) |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 1 | 특별 다이어 (Exceptional Schedule) | 발동: 덱에서 긴급 다이어 (Urgent Schedule) 서치, 그 후 상대 필드에 다이어그램 토큰(기계족·땅·레벨 10·공수 3000) 특소 | 긴급 다이어 (Urgent Schedule) 서치 + 내 필드에 토큰 | 우라라, 드롤, 도미나스 퍼지, 싸이크론, 아크 디클레어러, 응전의 G, 마스크드 히어로 다크 로우, 미스테이크 |
+| 2 | 긴급 다이어 (Urgent Schedule) | 발동(속공): 덱에서 레벨 4 이하와 레벨 5 이상 땅 기계족을 효과 무효·수비 표시로 특소 | 스크랩 리사이클러 (Scrap Recycler) + 야광열차 블루트래블러 (Night Train Blue Traveler) | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 싸이크론, 아크 디클레어러, 응전의 G, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 3 | 클락 워크 나이트 (Clockwork Knight) | 스크랩 리사이클러 (Scrap Recycler)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 4 | 클락 워크 나이트 (Clockwork Knight) | 기동 효과: 묘지의 스크랩 리사이클러 (Scrap Recycler)를 대상, 야광열차 블루트래블러 (Night Train Blue Traveler)를 릴리스하고 리사이클러를 수비 표시로 특소 | 새로 소환된 리사이클러는 효과가 살아 있다 | 증G, 냐루스, 포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마, 하르모니아, 금지된 성관, 아크 디클레어러, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러, 스킬 드레인 |
+| 5 | 스크랩 리사이클러 (Scrap Recycler) | 특소 성공 유발: 덱에서 기계족 1장을 묘지로 | 중기화열차 데릭크레인 (Heavy Freight Train Derricrane) 묘지로 | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관, 매크로 코스모스, 차원의 틈, 섬광의 추방자, 아크 디클레어러, 마스크드 히어로 다크 로우, 크샤트리라 어라이즈하트, 스킬 드레인 |
+| 6 | 클리포트 게니우스 (Qliphort Genius) | 스크랩 리사이클러 (Scrap Recycler) + 클락 워크 나이트 (Clockwork Knight)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 7 | 야광열차 블루트래블러 (Night Train Blue Traveler) | 묘지 효과(듀얼 중 1번): 중기화열차 데릭크레인 (Heavy Freight Train Derricrane)을 대상으로 자신과 함께 클리포트 게니우스 (Qliphort Genius)의 링크처에 특소 |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 마그나무트, 감마, 드루이드브룸, 매크로 코스모스, 차원의 틈, 섬광의 추방자, 아크 디클레어러, D.D. 크로우, 마스크드 히어로 다크 로우, 크샤트리라 어라이즈하트, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 8 | 클리포트 게니우스 (Qliphort Genius) | 링크처에 2장이 동시에 특소된 경우의 유발: 덱에서 레벨 5 이상 기계족 서치 | 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) 서치 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마, 하르모니아, 금지된 성관, 아크 디클레어러, 마스크드 히어로 다크 로우, 스킬 드레인, 미스테이크 |
+| 9 | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) | 야광열차 블루트래블러 (Night Train Blue Traveler) + 중기화열차 데릭크레인 (Heavy Freight Train Derricrane)으로 엑시즈 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 10 | 초노급포탑열차 구스타프 로켓 (Superdreadnought Rail Cannon Gustav Rocket) | 패 1장을 버리고 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) 위에 겹쳐 엑시즈 소환 (소재 2개 이어받음) |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
 | 11 | 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) | 릴리스 없이 일반 소환 |  | 푸루리아, 니비루 |
-| 12 | 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) | ③(이번 턴 상대가 카드·효과를 발동했을 때만): 자신 위에 No.81 초노급포탑열차 슈페리어 도라 (Number 81: Superdreadnought Rail Cannon Super Dora)를 겹쳐 X 소환 취급으로 특소 | 내가 패트랩을 쓰지 않았다면 이 단계는 없다 | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마, 하르모니아, 금지된 성관 |
+| 12 | 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) | ③(이번 턴 상대가 카드·효과를 발동했을 때만): 자신 위에 No.81 초노급포탑열차 슈페리어 도라 (Number 81: Superdreadnought Rail Cannon Super Dora)를 겹쳐 X 소환 취급으로 특소 | 내가 패트랩을 쓰지 않았다면 이 단계는 없다 | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마, 하르모니아, 금지된 성관, 아크 디클레어러, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러, 스킬 드레인 |
 
 **최종 필드 / 견제**: 초노급포탑열차 구스타프 로켓 (Superdreadnought Rail Cannon Gustav Rocket), 클리포트 게니우스 (Qliphort Genius), 중장기사 바벨데커 (Heavy Armored Knight Babeldecker)
 
@@ -239,21 +239,21 @@ MDM 가이드 5번 루트. 두 번째 카드는 전회조차 (Revolving Switchya
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
-| 1 | 야광열차 블루트래블러 (Night Train Blue Traveler) | 패에서 버리고 발동: 덱·묘지에서 전회조차 (Revolving Switchyard) 서치 | 블루트래블러는 묘지로 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마 |
-| 2 | 전회조차 (Revolving Switchyard) | 필드 마법 발동 |  | 싸이크론 |
-| 3 | 전회조차 (Revolving Switchyard) | ②: 패 1장을 묘지로 보내고 덱에서 레벨 10 땅 기계족 서치 (전회조차 효과는 1턴에 1개만) | 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지, 싸이크론 |
+| 1 | 야광열차 블루트래블러 (Night Train Blue Traveler) | 패에서 버리고 발동: 덱·묘지에서 전회조차 (Revolving Switchyard) 서치 | 블루트래블러는 묘지로 | 우라라, 드롤, 도미나스 퍼지, 도미나스 스파크, 감마, 아크 디클레어러, 마스크드 히어로 다크 로우, 미스테이크 |
+| 2 | 전회조차 (Revolving Switchyard) | 필드 마법 발동 |  | 싸이크론, 아크 디클레어러, 응전의 G |
+| 3 | 전회조차 (Revolving Switchyard) | ②: 패 1장을 묘지로 보내고 덱에서 레벨 10 땅 기계족 서치 (전회조차 효과는 1턴에 1개만) | 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) 서치 | 우라라, 드롤, 유령토끼, 도미나스 퍼지, 싸이크론, 마스크드 히어로 다크 로우, 미스테이크 |
 | 4 | 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) | 릴리스 없이 일반 소환 |  | 푸루리아, 니비루 |
-| 5 | 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) | ③(상대가 이번 턴 카드·효과를 발동했을 때): 자신 위에 초노급포탑열차 플라잉 런처 (Superdreadnought Rail Cannon Flying Launcher)를 X 소환 취급으로 특소 |  | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마, 하르모니아, 금지된 성관 |
-| 6 | 초노급포탑열차 플라잉 런처 (Superdreadnought Rail Cannon Flying Launcher) | X 소환 성공 유발: 덱에서 땅 기계족 서치 | 스크랩 리사이클러 (Scrap Recycler) 서치. 이후 기계족 추가 일반 소환권 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마, 하르모니아, 금지된 성관 |
-| 7 | 초노급포탑열차 플라잉 런처 (Superdreadnought Rail Cannon Flying Launcher) | ③: 소재(바벨데커) 1개를 떼고 필드의 마법·함정 1장 파괴 | 내 세트 카드 1장 파괴 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관 |
+| 5 | 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) | ③(상대가 이번 턴 카드·효과를 발동했을 때): 자신 위에 초노급포탑열차 플라잉 런처 (Superdreadnought Rail Cannon Flying Launcher)를 X 소환 취급으로 특소 |  | 증G, 후와로스, 포영, 뵐러, 유령토끼, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마, 하르모니아, 금지된 성관, 아크 디클레어러, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러, 스킬 드레인 |
+| 6 | 초노급포탑열차 플라잉 런처 (Superdreadnought Rail Cannon Flying Launcher) | X 소환 성공 유발: 덱에서 땅 기계족 서치 | 스크랩 리사이클러 (Scrap Recycler) 서치. 이후 기계족 추가 일반 소환권 | 우라라, 드롤, 포영, 뵐러, 유령토끼, 금지된 일적, 도미나스 퍼지, 감마, 하르모니아, 금지된 성관, 아크 디클레어러, 마스크드 히어로 다크 로우, 스킬 드레인, 미스테이크 |
+| 7 | 초노급포탑열차 플라잉 런처 (Superdreadnought Rail Cannon Flying Launcher) | ③: 소재(바벨데커) 1개를 떼고 필드의 마법·함정 1장 파괴 | 내 세트 카드 1장 파괴 | 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관, 아크 디클레어러, 스킬 드레인 |
 | 8 | 스크랩 리사이클러 (Scrap Recycler) | 추가 일반 소환 |  | 푸루리아, 니비루 |
-| 9 | 스크랩 리사이클러 (Scrap Recycler) | 소환 성공 유발: 덱에서 기계족 묘지로 | 에테르마키나 카르놀 (Carnot the Eternal Machine) 묘지로 | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관 |
-| 10 | 에테르마키나 카르놀 (Carnot the Eternal Machine) | 묘지에서 자신의 방법으로 특소 |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 11 | 클락 워크 나이트 (Clockwork Knight) | 스크랩 리사이클러 (Scrap Recycler)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 12 | 야광열차 블루트래블러 (Night Train Blue Traveler) | 묘지 효과: 스크랩 리사이클러 (Scrap Recycler)와 함께 특소 |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 마그나무트, 감마, 드루이드브룸 |
-| 13 | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) | 야광열차 블루트래블러 (Night Train Blue Traveler) + 에테르마키나 카르놀 (Carnot the Eternal Machine)로 엑시즈 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
-| 14 | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) | 소재 1개를 떼고 2000 데미지 |  | 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관 |
-| 15 | 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe) | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) 위에 겹쳐 엑시즈 소환 → 효과로 공격력 6000 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 9 | 스크랩 리사이클러 (Scrap Recycler) | 소환 성공 유발: 덱에서 기계족 묘지로 | 에테르마키나 카르놀 (Carnot the Eternal Machine) 묘지로 | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관, 매크로 코스모스, 차원의 틈, 섬광의 추방자, 아크 디클레어러, 마스크드 히어로 다크 로우, 크샤트리라 어라이즈하트, 스킬 드레인 |
+| 10 | 에테르마키나 카르놀 (Carnot the Eternal Machine) | 묘지에서 자신의 방법으로 특소 |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 11 | 클락 워크 나이트 (Clockwork Knight) | 스크랩 리사이클러 (Scrap Recycler)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 12 | 야광열차 블루트래블러 (Night Train Blue Traveler) | 묘지 효과: 스크랩 리사이클러 (Scrap Recycler)와 함께 특소 |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 마그나무트, 감마, 드루이드브룸, 매크로 코스모스, 차원의 틈, 섬광의 추방자, 아크 디클레어러, D.D. 크로우, 마스크드 히어로 다크 로우, 크샤트리라 어라이즈하트, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 13 | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) | 야광열차 블루트래블러 (Night Train Blue Traveler) + 에테르마키나 카르놀 (Carnot the Eternal Machine)로 엑시즈 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
+| 14 | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) | 소재 1개를 떼고 2000 데미지 |  | 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관, 아크 디클레어러, 스킬 드레인 |
+| 15 | 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe) | 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) 위에 겹쳐 엑시즈 소환 → 효과로 공격력 6000 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
 
 **최종 필드 / 견제**: 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe), 초노급포탑열차 플라잉 런처 (Superdreadnought Rail Cannon Flying Launcher), 스크랩 리사이클러 (Scrap Recycler), 클락 워크 나이트 (Clockwork Knight)
 
@@ -267,9 +267,9 @@ MD 리스트 대부분이 아공간 배틀 (Subspace Battle) 3장·태만의 항
 
 | # | 카드 | 행동 | 결과 | 대응 가능한 패트랩 |
 |---|---|---|---|---|
-| 1 | 태만의 항아리 (Pot of Sloth) | 발동: 상대(내) 필드 카드 수만큼 드로우, 2장 이상이면 (드로우 수-1)장을 덱 아래로 | 돌파 카드 선별 | 우라라, 드롤, 싸이크론 |
-| 2 | 아공간 배틀 (Subspace Battle) | 발동: 서로 덱에서 공격력 ? 이외 몬스터 1장 공개를 3번. 높은 쪽은 패, 낮은 쪽은 파괴+500 | 괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju) 등 패로 | 우라라, 드롤, 도미나스 퍼지, 싸이크론 |
-| 3 | 괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju) | 내 몬스터 1장을 릴리스해 내 필드에 특소 (소환 절차) | 내 내성 몬스터 제거 | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스 |
+| 1 | 태만의 항아리 (Pot of Sloth) | 발동: 상대(내) 필드 카드 수만큼 드로우, 2장 이상이면 (드로우 수-1)장을 덱 아래로 | 돌파 카드 선별 | 우라라, 드롤, 싸이크론, 아크 디클레어러, 응전의 G |
+| 2 | 아공간 배틀 (Subspace Battle) | 발동: 서로 덱에서 공격력 ? 이외 몬스터 1장 공개를 3번. 높은 쪽은 패, 낮은 쪽은 파괴+500 | 괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju) 등 패로 | 우라라, 드롤, 도미나스 퍼지, 싸이크론, 아크 디클레어러, 응전의 G, 마스크드 히어로 다크 로우, 미스테이크 |
+| 3 | 괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju) | 내 몬스터 1장을 릴리스해 내 필드에 특소 (소환 절차) | 내 내성 몬스터 제거 | 증G, 푸루리아, 사요 시구레, 니비루, 도미나스 임펄스, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
 | 4 | 스크랩 리사이클러 (Scrap Recycler) | 일반 소환 → recycler 라인 2단계부터 |  | 푸루리아, 니비루 |
 
 **최종 필드 / 견제**: 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe), 클리포트 게니우스 (Qliphort Genius)
