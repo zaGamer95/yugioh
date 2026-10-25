@@ -57,7 +57,7 @@
    "hand": [
     "Prohibited Power Patron Portal - Terminus"
    ],
-   "note_ko": "엘펜노츠 terminus 라인 1~6단계와 같은 동작이고, 아르토메기아·DoomZ도 1~3단계는 같다. 1단계에서 묘지로 보내는 감옥신 몬스터와 3단계에서 가져오는 카드만 호스트마다 다르다(엘펜노츠: [[Elfnote Power Patron]] 묘지 → 비도리움 서치, 아르토메기아: [[Artmage Power Patron]] 묘지(필드 마법 서치 유발) → 2번째 감옥신수/네르베도 특소, DoomZ: [[Power Patron DoomZ]] 특소). 일반 소환권을 메디우스에 쓴다.",
+   "note_ko": "엘펜노츠 terminus 라인 1~6단계와 같은 동작이고, 아르토메기아·DoomZ도 1~3단계는 같다. 1단계에서 묘지로 보내는 감옥신 몬스터와 3단계에서 가져오는 카드만 호스트마다 다르다(엘펜노츠: [[Elfnote Power Patron]] 묘지 → 비도리움 서치, 아르토메기아: 여분의 [[Artmage Power Patron]](또는 엑스트라 덱의 [[Nerva the Power Patron of Creation]]) 묘지 → 감옥신수/네르베도 특소. 덱에서 보낸 감옥신수는 '패·필드에서 묘지로' 조건이 아니라 서치 유발이 없다, DoomZ: [[Power Patron DoomZ]] 특소). 일반 소환권을 메디우스에 쓴다.",
    "steps": [
     {
      "card": "Prohibited Power Patron Portal - Terminus",
@@ -260,7 +260,7 @@
    "step": 1,
    "target_card": "Prohibited Power Patron Portal - Terminus",
    "timing_ko": "[[Prohibited Power Patron Portal - Terminus]] 발동에 체인",
-   "why_ko": "덤핑과 메디우스 서치가 같은 효과라 둘 다 무효가 된다. 감옥신 몬스터가 묘지에 안 가므로 아르토메기아의 필드 마법 서치(감옥신수 묘지 유발)·엘펜노츠의 비도리움 소생 대상도 함께 사라진다.",
+   "why_ko": "덤핑과 메디우스 서치가 같은 효과라 둘 다 무효가 된다. 감옥신 몬스터가 묘지에 안 가므로 엘펜노츠의 비도리움 소생 대상(감옥신정), 아르토메기아의 리테라 회수·소생 대상(감옥신수)도 함께 사라진다.",
    "fallback_ko": "패에 메디우스·호스트 초동(루키나·엘라라 등)이 따로 있으면 그쪽으로 재개. 우라라는 1턴 1장이라 테르미나스에 쓰면 메디우스 유발은 포영·뵐러로 막아야 한다."
   },
   {
@@ -1166,8 +1166,15 @@
      "engine_line": "terminus",
      "engine_step": 1,
      "theme_line": "terminus",
-     "theme_step": 2,
-     "note_ko": "테르미나스가 [[Artmage Power Patron]]를 묘지로 보내면 감옥신수의 묘지 유발로 필드 마법까지 서치된다(1장으로 메디우스 + 필드 마법)"
+     "theme_step": 1,
+     "note_ko": "같은 동작. 여분의 [[Artmage Power Patron]](또는 [[Nerva the Power Patron of Creation]])를 묘지로 보내고 메디우스 서치. 덱에서 보낸 감옥신수는 서치 유발이 없고, 묘지에서 리테라의 회수·소생 대상이 된다"
+    },
+    {
+     "engine_line": "terminus",
+     "engine_step": 3,
+     "theme_line": "terminus",
+     "theme_step": 3,
+     "note_ko": "메디우스 유발로 감옥신수(→ main 3단계) 또는 네르베도(→ nervedo 3단계)를 특소해 합류. 비도리움은 아르토메기아에서는 4~6단계 대신 다른 턴의 자원으로 쓰는 경우가 많다"
     },
     {
      "engine_line": "past_lull",
@@ -1177,7 +1184,7 @@
      "note_ko": "필드 마법 등 아르토메기아 카드가 있으면 파스토 랄로 덱의 메디우스를 특소(일반 소환권 보존) → 감옥신수 특소 → 융합"
     }
    ],
-   "priority_ko": "아르토메기아에서는 감옥신 엔진이 곧 메인 초동이다. 테르미나스가 보이면 우라라·퍼지를 테르미나스 발동에(필드 마법 서치까지 같이 끊긴다). 메디우스를 직접 일반 소환하면 메디우스 소환 유발에 포영·뵐러·감마·우라라. [[Artmage Non-Finito]]가 [[Artmage Impasto -Recapture-]]를 세트하거나 네르베도가 P존에 들어간 뒤에는 몬스터 패트랩이 무효될 수 있으니 그 전에 쓴다."
+   "priority_ko": "아르토메기아에서는 감옥신 엔진이 곧 메인 초동이다. 테르미나스가 보이면 우라라·퍼지를 테르미나스 발동에(메디우스가 안 오면 감옥신수 → 융합 → 필드 마법 서치가 통째로 없다). 메디우스를 직접 일반 소환하면 메디우스 소환 유발에 포영·뵐러·감마·우라라. [[Artmage Non-Finito]]가 [[Artmage Impasto -Recapture-]]를 세트하거나 네르베도가 P존에 들어간 뒤에는 몬스터 패트랩이 무효될 수 있으니 그 전에 쓴다."
   },
   {
    "theme": "doomz",

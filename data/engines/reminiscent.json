@@ -1,0 +1,1785 @@
+{
+ "slug": "reminiscent",
+ "kind": "engine",
+ "name": {
+  "en": "Reminiscent (Invoked) engine",
+  "ko": "추억의 알레이스터(소환수) 엔진"
+ },
+ "mdm_names": [
+  "Reminiscent",
+  "Invoked"
+ ],
+ "status": "draft",
+ "updated": "2026-10-25",
+ "cover": "Aleister the Reminiscent",
+ "overview_ko": "[[Aleister the Reminiscent]] 3장을 축으로 [[Aiwass, Divine Spirit of the Law]]·[[Sacred Spirit Sword Aiwass]](추억의 알레이스터를 가져오는 초동), [[Invocation - \"Sword\"]]·[[Invocation]](융합 마법), [[Virakam, the Divine Spirit of Artifice]]를 8~12장 넣는 소환수 출장 엔진. 추억의 알레이스터가 소환되면 엑스트라 덱의 소환수를 제외하고 [[Invocation - \"Sword\"]]를 서치하고, 소검은 그 제외된 소환수를 다시 소재로 써서 [[Invoked Baybarron]]·[[Invoked Sorath]]를 낸다. 이후 베이발론 → 비라캄 → [[Hyperinvoked Aeon]](상대 엑스트라 덱 3장 제외) → [[Invoked Oceanus]]로 끝난다. 메인 테마에 넘기는 것은 레벨 4 마법사족 몸(마기스토스 페어리테일은 [[Fairy Tail - Wiccat]] 소재), 비라캄의 융합 몬스터 효과 보호(드래곤테일 같은 융합 덱과 맞물림), 아이온의 엑스트라 덱 제외다. 추억의 알레이스터는 메인 테마의 마법사족·융합 몬스터를 대상으로 패에서 나올 수 있어 일반 소환권을 쓰지 않고 붙는다. 2026-10 MDM 기준 드래곤테일(9%)·마기스토스 페어리테일(9%)·미츠루기(4%) 출장, 순수 소환수(100%)는 메인 덱 본체. 약점은 입구가 추억의 알레이스터·아이와스의 서치 하나로 모인다는 점(우라라·포영·퍼지·감마)과 서치 의존(드롤·[[Mistake]]).",
+ "starters": [
+  "Aleister the Reminiscent",
+  "Sacred Spirit Sword Aiwass",
+  "Aiwass, Divine Spirit of the Law",
+  "Aleister the Invoker"
+ ],
+ "provides_ko": [
+  "레벨 4 마법사족 몸 2장분(추억의 알레이스터 소생·재특소): 마기스토스 페어리테일은 코로조와 함께 [[Fairy Tail - Wiccat]] 소재로 쓴다",
+  "[[Virakam, the Divine Spirit of Artifice]]: 메인 테마 것을 포함한 '내 융합 몬스터 효과 발동'에 대한 상대 응답 1회 무효·제외",
+  "[[Hyperinvoked Aeon]]: 상대 엑스트라 덱 최대 3장 제외 + 필드·묘지 제외. 메인 테마의 묘지 융합 몬스터를 3번째 소재로 더할 수 있다",
+  "[[Invoked Oceanus]](EX 존 묘지 제외 잠금), 세트 [[Invocation - \"Sword\"]](상대 턴 퀵 융합)",
+  "일반 소환권을 쓰지 않는 시작(추억의 알레이스터 패 특소, 아이와스의 추가 일반 소환)"
+ ],
+ "restrictions": [
+  {
+   "card": "Sacred Spirit Sword Aiwass",
+   "text_ko": "발동 후 이 턴 융합 몬스터로만 공격 선언 가능(●의 처리 성공 여부와 무관, 공식 보충 정보)",
+   "hits_main_ko": "선공 1턴에는 상관없다. 후공에서 쓰면 드래곤테일 하급·마기스토스 링크 등 융합이 아닌 메인 테마 몬스터는 그 턴 공격할 수 없다.",
+   "rulings": [
+    "supp-23003"
+   ]
+  },
+  {
+   "card": "Summon Sorceress",
+   "text_ko": "덱에서 특소한 경우 이 턴 그 몬스터와 같은 원래 종족만 특소 가능(서몬 소서리스 루트는 마법사족 고정)",
+   "hits_main_ko": "마기스토스 페어리테일은 지냐·매치리르 제약으로 원래 마법사족만 특소하므로 부딪히지 않는다. 그 대신 이 턴 소환수 융합(소라트 화염족·베이발론 환상마족·아이온 악마족)은 못 하고 소검을 세트해 상대 턴에 쓴다."
+  },
+  {
+   "card": "Invocation - \"Sword\"",
+   "text_ko": "제약 없음. 다만 제외 상태에서 묘지로 되돌려 소재로 쓴 몬스터는 '묘지로 보내진' 것이 아니다",
+   "hits_main_ko": "드래곤테일 몬스터를 제외 상태에서 되돌려 소검 소재로 써도 '융합 소재로 묘지에 보내졌을 때' 세트 효과는 발동하지 않는다(KONAMI Q&A). 필드의 드래곤테일을 소재로 쓰면 세트 효과는 나온다.",
+   "rulings": [
+    "qa-24330",
+    "supp-23002"
+   ]
+  },
+  {
+   "card": "Aleister the Reminiscent",
+   "text_ko": "①(패 특소)·②(서치)는 각각 1턴 1번",
+   "hits_main_ko": "rem_hand처럼 메인 테마 몬스터를 대상으로 ①을 먼저 쓰면, 그 턴 소검 회수 후 추억의 알레이스터를 다시 패에서 꺼낼 수 없다. 그래서 혼합형은 회수한 추억의 알레이스터를 다음 턴이나 [[Invocation]]의 패 소재로 남긴다.",
+   "rulings": [
+    "supp-22964"
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "rem1",
+   "title_ko": "추억의 알레이스터 1장 (아르테미스 없이: 베이발론 → 비라캄 → 아이온 → 오케아노스)",
+   "hand": [
+    "Aleister the Reminiscent"
+   ],
+   "note_ko": "MDM 콤보 'Normal Summon Aleister R'(vex, 2026-08-25)를 카드 텍스트로 대조. 마기스토스 파츠(아르테미스·엔디미온·크로울리)를 쓰지 않아 다른 덱에 출장할 때 쓰는 형태다. 일반 소환권을 쓴다. [[Aleister the Invoker of Madness]]는 13단계에서 [[The Book of the Law]]를 가져와 아이온을 [[Invoked Mechaba]]로 바꾸는 변형도 있다(드래곤테일 리스트에는 법의 서가 없어 [[Invocation]] 서치로 적었다).",
+   "steps": [
+    {
+     "card": "Aleister the Reminiscent",
+     "action_ko": "일반 소환",
+     "class": [
+      "normal_summon"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Aleister the Reminiscent",
+     "action_ko": "소환 유발: 엑스트라 덱의 [[Invoked Sorath]]를 제외하고 덱에서 소환마술 관련 마법 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Invocation - \"Sword\"]] 서치"
+    },
+    {
+     "card": "Invocation - \"Sword\"",
+     "action_ko": "발동: 필드의 추억의 알레이스터 + 제외된 소라트(빛, 묘지로 되돌림)로 융합",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Invoked Baybarron]] 융합 소환"
+    },
+    {
+     "card": "Invoked Baybarron",
+     "action_ko": "특소 유발: 덱에서 비라캄 서치 (그 후 양쪽 묘지의 몬스터 1장 제외 가능)",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Virakam, the Divine Spirit of Artifice]] 서치"
+    },
+    {
+     "card": "Virakam, the Divine Spirit of Artifice",
+     "action_ko": "묘지에 알레이스터가 있어 패에서 자체 특소",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Virakam, the Divine Spirit of Artifice",
+     "action_ko": "특소 유발: 덱에서 소환마술 관련 마법 세트",
+     "class": [
+      "monster_effect_field",
+      "place_from_deck"
+     ],
+     "result_ko": "[[Invocation]] 세트"
+    },
+    {
+     "card": "Invocation - \"Sword\"",
+     "action_ko": "묘지 효과(메인 페이즈): 자신을 덱으로 되돌리고 묘지의 추억의 알레이스터를 패에",
+     "class": [
+      "spell_trap_activation",
+      "gy_effect"
+     ],
+     "result_ko": "추억의 알레이스터 회수"
+    },
+    {
+     "card": "Aleister the Reminiscent",
+     "action_ko": "패 효과: 베이발론(융합)을 대상으로 자체 특소 (서치 효과는 이미 사용)",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Magistus Chorozo",
+     "action_ko": "베이발론(융합) + 추억의 알레이스터(마법사족)를 묘지로 보내 엑스트라 덱에서 특소(접촉 융합)",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Aleister the Invoker of Madness",
+     "action_ko": "코로조(마법사족·어둠) + 비라캄(환상마족·빛)으로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Invoked Sorath",
+     "action_ko": "묘지 효과: 소라트 + 묘지의 베이발론·코로조를 제외해 융합(소재 3장, 속성 빛·화염·어둠)",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Hyperinvoked Aeon]] 융합 소환"
+    },
+    {
+     "card": "Hyperinvoked Aeon",
+     "action_ko": "융합 소환 유발(체인 2): 필드·묘지 최대 3장 제외 → 상대 엑스트라 덱을 보고 최대 3장 제외",
+     "class": [
+      "monster_effect_field"
+     ],
+     "result_ko": "엑스트라 덱 3장 제외"
+    },
+    {
+     "card": "Aleister the Invoker of Madness",
+     "action_ko": "융합 소환 유발(체인 1): 패 1장 버리고 덱에서 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Invocation]] 또는 [[The Book of the Law]] 서치"
+    },
+    {
+     "card": "Invocation",
+     "action_ko": "세트해 둔 소환마술 발동: 필드의 폭주소환사(알레이스터 취급) + 묘지의 추억의 알레이스터(어둠)를 제외해 융합",
+     "class": [
+      "spell_trap_activation",
+      "gy_effect",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Invoked Oceanus]] (EX 몬스터 존)"
+    }
+   ],
+   "end_board": [
+    "Invoked Oceanus",
+    "Hyperinvoked Aeon"
+   ],
+   "end_board_note_ko": "오케아노스(EX 존: 상대 묘지로 가는 몬스터 제외), 아이온(속성 변경 퀵), 상대 엑스트라 덱 3장 제외 완료, 패에 [[Invocation]]. 법의 서 변형이면 아이온 대신 [[Invoked Mechaba]] 무효 1회. 진짜 무효는 많지 않고, 메인 테마의 견제와 합쳐서 보드가 된다."
+  },
+  {
+   "id": "rem_hand",
+   "title_ko": "메인 테마 몬스터를 대상으로 추억의 알레이스터 패 특소 (일반 소환권 없이)",
+   "hand": [
+    "Aleister the Reminiscent"
+   ],
+   "note_ko": "추억의 알레이스터 ①은 필드의 마법사족 또는 융합 몬스터 1장을 대상으로 패에서 자신을 특소한다(대상이 사라져도 자신은 특소됨, 공식 보충 정보). 드래곤테일([[Dracotail Lukias]]·[[Dracotail Faimena]]는 마법사족, [[Dracotail Arthalion]]·[[Dracotail Gulamel]]은 융합)이나 페어리테일([[Fairy Tail - Luna]] 등 마법사족)이 먼저 몬스터를 내면 일반 소환권 없이 엔진이 시작된다. 이 경우 ①을 이미 써서 rem1 8단계(패에서 다시 특소)는 못 한다. 순서는 카드 텍스트 기준으로 정리했다(혼합형 전용 MDM 콤보는 찾지 못함).",
+   "steps": [
+    {
+     "card": "Aleister the Reminiscent",
+     "action_ko": "패 효과: 메인 테마의 마법사족·융합 몬스터 1장을 대상으로 자체 특소(대상 공격력 +1000)",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand"
+     ],
+     "result_ko": "",
+     "rulings": [
+      "supp-22964"
+     ]
+    },
+    {
+     "card": "Aleister the Reminiscent",
+     "action_ko": "특소 유발: 엑스트라 덱의 [[Invoked Sorath]]를 제외하고 덱에서 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Invocation - \"Sword\"]] 서치"
+    },
+    {
+     "card": "Invocation - \"Sword\"",
+     "action_ko": "발동: 추억의 알레이스터 + 제외된 소라트로 융합",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Invoked Baybarron]]"
+    },
+    {
+     "card": "Invoked Baybarron",
+     "action_ko": "특소 유발: 비라캄 서치 (그 후 묘지 몬스터 1장 제외 가능)",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Virakam, the Divine Spirit of Artifice]]"
+    },
+    {
+     "card": "Virakam, the Divine Spirit of Artifice",
+     "action_ko": "패에서 자체 특소",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Virakam, the Divine Spirit of Artifice",
+     "action_ko": "특소 유발: 소환마술 관련 마법 세트",
+     "class": [
+      "monster_effect_field",
+      "place_from_deck"
+     ],
+     "result_ko": "[[Invocation]] 세트"
+    },
+    {
+     "card": "Invocation - \"Sword\"",
+     "action_ko": "묘지 효과: 자신을 덱으로, 묘지의 추억의 알레이스터를 패에",
+     "class": [
+      "spell_trap_activation",
+      "gy_effect"
+     ],
+     "result_ko": "추억의 알레이스터 회수(다음 턴 일반 소환용, 또는 [[Invocation]]의 패 소재)"
+    },
+    {
+     "card": "Invoked Sorath",
+     "action_ko": "묘지 효과: 소라트(묘지) + 필드의 베이발론을 제외해 융합. 묘지의 메인 테마 융합 몬스터(예: [[Dracotail Arthalion]])를 3번째 소재로 더할 수 있다",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Hyperinvoked Aeon]] (소재 2장이면 필드·묘지 2장 제외, 3장이면 엑스트라 덱 3장 제외까지)"
+    }
+   ],
+   "end_board": [
+    "Hyperinvoked Aeon",
+    "Virakam, the Divine Spirit of Artifice",
+    "Invocation"
+   ],
+   "end_board_note_ko": "비라캄이 필드에 있는 동안, 메인 테마의 융합 몬스터([[Dracotail Gulamel]]·[[Dracotail Arthalion]] 등)를 포함한 '내 융합 몬스터의 효과 발동'에 상대가 체인하면 1번 무효+제외한다. 세트한 [[Invocation]]은 다음 내 턴용. 패에 추억의 알레이스터."
+  },
+  {
+   "id": "aiwass",
+   "title_ko": "신령검 아이와스 1장 → 아이와스 → 추억의 알레이스터 추가 일반 소환",
+   "hand": [
+    "Sacred Spirit Sword Aiwass"
+   ],
+   "note_ko": "MDM 'Aiwass Spell 1 Card Combo'(Dawnstar, 2026-07)와 같은 시작. 아이와스를 필드에서 쓰면 서치 처리 뒤 곧바로 마법사족 1장을 일반 소환할 수 있다(공식 보충 정보). 같은 콤보가 이 소환 뒤 일반 소환을 한 번 더 하므로 원래 일반 소환권은 남는 것으로 본다. 그래서 드래곤테일은 이 추가 소환으로 추억의 알레이스터를, 남은 소환권으로 [[Dracotail Lukias]]를 낼 수 있다. 신령검을 쓴 턴은 융합 몬스터로만 공격할 수 있다. [[Aiwass, Divine Spirit of the Law]]를 패에서 바로 제외하면 서치만 하고 추가 소환은 없다.",
+   "steps": [
+    {
+     "card": "Sacred Spirit Sword Aiwass",
+     "action_ko": "발동: 덱에서 [[Aiwass, Divine Spirit of the Law]] 특소 (이 턴 융합 몬스터로만 공격)",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_deck"
+     ],
+     "result_ko": "",
+     "rulings": [
+      "supp-23003"
+     ]
+    },
+    {
+     "card": "Aiwass, Divine Spirit of the Law",
+     "action_ko": "필드에서 자신을 제외하고 발동: 덱에서 알레이스터 몬스터 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Aleister the Reminiscent]] 서치",
+     "rulings": [
+      "supp-22965"
+     ]
+    },
+    {
+     "card": "Aleister the Reminiscent",
+     "action_ko": "아이와스 효과의 체인 처리 직후 마법사족 1장 일반 소환",
+     "class": [
+      "normal_summon"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Aleister the Reminiscent",
+     "action_ko": "소환 유발 서치 → rem1 2단계부터 같다",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Invocation - \"Sword\"]] 서치"
+    }
+   ],
+   "end_board": [
+    "Invoked Oceanus",
+    "Hyperinvoked Aeon"
+   ],
+   "end_board_note_ko": "rem1과 같은 필드에 원래 일반 소환권이 하나 남는다(메인 테마 몫)."
+  },
+  {
+   "id": "ft_rem",
+   "title_ko": "마기스토스 페어리테일: 추억의 알레이스터 1장 → 위캣으로 페어리테일 합류 + 아이온",
+   "hand": [
+    "Aleister the Reminiscent"
+   ],
+   "note_ko": "MDM 'Aleister the Reminiscent 1 card combo'(Taffy, 2026-10-09, Magistus Fairy Tail) 앞부분. 추억의 알레이스터 + [[Magistus Chorozo]](레벨 4 마법사족 2장)로 [[Fairy Tail - Wiccat]]을 엑시즈해 페어리테일 덤핑으로 넘긴다. 매치리르·지냐는 '마법사족만 특소' 제약을 걸기 때문에 소라트·베이발론·아이온(마법사족이 아님)은 그 전에 끝낸다. 아르테미스를 4단계에서 썼으므로 이 턴 2번째 아르테미스 링크는 못 한다.",
+   "steps": [
+    {
+     "card": "Aleister the Reminiscent",
+     "action_ko": "일반 소환",
+     "class": [
+      "normal_summon"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Aleister the Reminiscent",
+     "action_ko": "소환 유발: 엑스트라 덱의 [[Invoked Baybarron]]을 제외하고 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Invocation - \"Sword\"]] 서치"
+    },
+    {
+     "card": "Invocation - \"Sword\"",
+     "action_ko": "발동: 추억의 알레이스터 + 제외된 베이발론(화염)으로 융합",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Invoked Sorath]]"
+    },
+    {
+     "card": "Invoked Sorath",
+     "action_ko": "퀵 효과: 묘지의 추억의 알레이스터를 수비 표시로 소생(효과 무효)",
+     "class": [
+      "monster_effect_field",
+      "ss_from_gy"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Artemis, the Magistus Moon Maiden",
+     "action_ko": "추억의 알레이스터 1장으로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Invocation - \"Sword\"",
+     "action_ko": "묘지 효과: 자신을 덱으로, 묘지의 추억의 알레이스터를 패에",
+     "class": [
+      "spell_trap_activation",
+      "gy_effect"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Aleister the Reminiscent",
+     "action_ko": "패 효과: 소라트를 대상으로 자체 특소",
+     "class": [
+      "monster_effect_hand",
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Magistus Chorozo",
+     "action_ko": "소라트(융합) + 아르테미스(링크·마법사족)를 묘지로 보내 접촉 융합",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Fairy Tail - Wiccat",
+     "action_ko": "추억의 알레이스터 + 코로조(레벨 4 마법사족 2장)로 엑시즈 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Fairy Tail - Wiccat",
+     "action_ko": "소재 2개 제거: 덱에서 페어리테일 카드 2장 덤핑 → magistus luna 라인 6단계로",
+     "class": [
+      "monster_effect_field",
+      "send_from_deck"
+     ],
+     "result_ko": "[[Fairy Tail - Matchgiru]] + [[Tails of the Fairy Tails]]"
+    },
+    {
+     "card": "Invoked Sorath",
+     "action_ko": "묘지 효과: 소라트 + 묘지의 베이발론·코로조를 제외해 융합(매치리르 특소 전에)",
+     "class": [
+      "monster_effect_gy",
+      "gy_effect",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Hyperinvoked Aeon]] → 묘지 카드 제외 + 상대 엑스트라 덱 3장 제외"
+    }
+   ],
+   "end_board": [
+    "Hyperinvoked Aeon",
+    "Fairy Tail - Wiccat"
+   ],
+   "end_board_note_ko": "여기서 매치리르 → 무답회 → 카구야 → 백설 → [[Teller of Fairy Tails]]로 페어리테일 파트가 이어진다(magistus luna 라인 6~12단계). Taffy 콤보의 최종 필드는 [[Charmer Quartet in Bloom]]·[[Teller of Fairy Tails]]·[[Zoroa, the Magistus Verethragna]]·엔디미온·아이온."
+  },
+  {
+   "id": "sorceress",
+   "title_ko": "마기스토스 페어리테일 마무리: 서몬 소서리스로 덱의 추억의 알레이스터 → 세트 소검 (상대 턴 아이온)",
+   "hand": [],
+   "note_ko": "MDM 'Fairy Tail Luna 1 Card Combo'(Taffy, 2026-10-09) 끝부분. 추억의 알레이스터를 패에 들고 있지 않아도 [[Summon Sorceress]]로 덱에서 꺼내 엔진을 쓴다. 지냐·매치리르·서몬 소서리스 제약으로 이 턴은 마법사족만 특소할 수 있으니 소환수 융합은 하지 않고 [[Invocation - \"Sword\"]]만 세트해 상대 턴에 쓴다. 상대 턴에는 백설 특소 코스트로 제외해 둔 융합 몬스터들([[Teller of Fairy Tails]]·조로아·코로조·소라트)을 소검이 묘지로 되돌려 소재로 쓴다.",
+   "steps": [
+    {
+     "card": "Summon Sorceress",
+     "action_ko": "엔디미온 + 코로조(마법사족 2장)로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Summon Sorceress",
+     "action_ko": "링크 소환 유발: 패의 [[Crowley, the Gifted Magistus]]를 상대 존에 특소 → 덱에서 같은 종족(마법사족) 특소(효과 무효, 이후 마법사족만 특소)",
+     "class": [
+      "monster_effect_field",
+      "ss_from_hand",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Aleister the Reminiscent]] 덱에서 특소"
+    },
+    {
+     "card": "Charmer Quartet in Bloom",
+     "action_ko": "서몬 소서리스 + 추억의 알레이스터로 링크 소환",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Charmer Quartet in Bloom",
+     "action_ko": "퀵: 묘지의 같은 종족·다른 속성 2장 특소(다음 턴 끝까지 소재 불가)",
+     "class": [
+      "monster_effect_field",
+      "ss_from_gy"
+     ],
+     "result_ko": "[[Teller of Fairy Tails]](땅) + [[Aleister the Reminiscent]](어둠)"
+    },
+    {
+     "card": "Aleister the Reminiscent",
+     "action_ko": "특소 유발: 엑스트라 덱의 [[Invoked Sorath]]를 제외하고 서치 → 바로 세트",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Invocation - \"Sword\"]] 세트",
+     "rulings": [
+      "supp-22964"
+     ]
+    },
+    {
+     "card": "Invocation - \"Sword\"",
+     "action_ko": "상대 턴: 제외된 융합 몬스터들을 묘지로 되돌려 소재로 융합",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Hyperinvoked Aeon]] (대상 없이 필드·묘지 최대 4장 제외)",
+     "rulings": [
+      "supp-23002"
+     ]
+    }
+   ],
+   "end_board": [
+    "Charmer Quartet in Bloom",
+    "Teller of Fairy Tails",
+    "Zoroa, the Magistus Verethragna",
+    "Invocation - \"Sword\""
+   ],
+   "end_board_note_ko": "엔진이 더하는 것은 세트 소검 1장(상대 턴 아이온 = 대상 없는 제외 3~4장)이다. 나머지 견제는 마기스토스·페어리테일 쪽([[Teller of Fairy Tails]] 무효, 조로아 무효, 묘지의 백설)."
+  }
+ ],
+ "chokepoints": [
+  {
+   "handtrap": "ash",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "[[Aleister the Reminiscent]]의 소환 유발(융합 마법 서치)에 체인",
+   "why_ko": "엔진의 입구. 소검이 없으면 베이발론·비라캄·아이온·오케아노스가 전부 사라지고 필드에는 레벨 4 추억의 알레이스터만 남는다. 섞인 덱에서는 메인 테마 초동이 따로 있으니 '엔진 1장만 보일 때' 가장 크다.",
+   "fallback_ko": "패에 두 번째 엔진 초동([[Aiwass, Divine Spirit of the Law]]·[[Sacred Spirit Sword Aiwass]]·[[Aleister the Invoker]])이 있으면 다시 시작한다. 코스트로 제외한 소환수는 그대로 제외된다(나중에 소검 소재로 재활용 가능).",
+   "rulings": [
+    "supp-22964"
+   ]
+  },
+  {
+   "handtrap": "ash",
+   "severity": "strong",
+   "line": "rem_hand",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "메인 테마 몬스터를 대상으로 패에서 나온 [[Aleister the Reminiscent]]의 서치 유발에 체인",
+   "why_ko": "rem1 2단계와 같다. 이 경우 추억의 알레이스터는 일반 소환권을 쓰지 않았으므로 상대는 메인 테마 쪽 일반 소환을 그대로 한다.",
+   "fallback_ko": "①(패 특소)에는 서치가 없어서 우라라를 쓸 수 없다. 서치 유발까지 기다린다.",
+   "rulings": [
+    "supp-22964"
+   ]
+  },
+  {
+   "handtrap": "ash",
+   "severity": "strong",
+   "line": "aiwass",
+   "step": 2,
+   "target_card": "Aiwass, Divine Spirit of the Law",
+   "timing_ko": "필드의 [[Aiwass, Divine Spirit of the Law]]가 자신을 제외하고 알레이스터 서치를 발동했을 때 체인",
+   "why_ko": "서치와 그 뒤의 추가 일반 소환이 같은 효과라 둘 다 사라진다. 아이와스는 코스트로 이미 제외되어 필드가 비고, 신령검 1장이 그대로 손해가 된다.",
+   "fallback_ko": "신령검의 덱 특소(1단계)에 쓰면 아이와스 1장만 막을 뿐이고 패의 다른 초동이 남는다. 신령검이 마지막 초동처럼 보일 때만 1단계를 노린다.",
+   "rulings": [
+    "supp-22965"
+   ]
+  },
+  {
+   "handtrap": "ash",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 4,
+   "target_card": "Invoked Baybarron",
+   "timing_ko": "초동 서치를 놓쳤다면: [[Invoked Baybarron]]의 비라캄 서치 유발에 체인",
+   "why_ko": "비라캄이 없으면 [[Invocation]] 세트와 융합 몬스터 효과 보호가 사라지고, 패의 추억의 알레이스터 재특소 뒤 코로조 → 폭주소환사 링크 소재도 모자라 아이온·오케아노스까지 못 간다.",
+   "fallback_ko": "[[Magical Meltdown]]이 앞면이고 베이발론을 낸 소검 융합이 체인 1로 끝났다면 소환 성공 시점에 체인할 수 없다(공식 보충 정보). 드래곤테일 리스트 일부만 폭주마법진을 쓴다.",
+   "rulings": [
+    "supp-12851",
+    "qa-23451"
+   ]
+  },
+  {
+   "handtrap": "purge",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "추억의 알레이스터 서치 유발에 직접 체인(추억의 알레이스터가 필드에 있어 패에서 발동 가능)",
+   "why_ko": "우라라와 같다. 함정이라 상대 패에 [[K9-17 Izuna]] 같은 몬스터 패트랩 대응 카드가 있어도 상관없다. 묘지에 함정이 있으면 추억의 알레이스터까지 파괴되어 소검의 알레이스터 소재도 없다.",
+   "fallback_ko": "패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다."
+  },
+  {
+   "handtrap": "purge",
+   "severity": "ok",
+   "line": "aiwass",
+   "step": 2,
+   "target_card": "Aiwass, Divine Spirit of the Law",
+   "timing_ko": "아이와스의 알레이스터 서치에 직접 체인(필드에 아이와스가 있었으니 상대 필드에 카드가 있음)",
+   "why_ko": "우라라와 같은 결과로 서치와 추가 일반 소환이 사라진다.",
+   "fallback_ko": "아이와스는 코스트로 제외되어 필드가 빈다. 처리 때 상대 필드에 카드가 없으면 파괴 추가 처리는 없다.",
+   "rulings": [
+    "supp-22965"
+   ]
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "내 필드에 몬스터가 없을 때 추억의 알레이스터의 서치 유발에 직접 체인",
+   "why_ko": "서치 무효 + 추억의 알레이스터 파괴. 소검도, 소검의 필드 소재도 없어 엔진이 끝난다. 우라라보다 한 장 더 벗긴다.",
+   "fallback_ko": "메인 테마 몬스터가 이미 필드에 있으면 감마를 쓸 수 없다(내 필드 조건은 내 쪽이라 상관없지만, 같은 체인에서 1번만). 감마·드라이버가 남아 이번 턴 마루챠미는 못 쓴다.",
+   "rulings": [
+    "qa-23949"
+   ]
+  },
+  {
+   "handtrap": "imperm",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "추억의 알레이스터의 서치 유발 발동에 [[Infinite Impermanence]]로 그 알레이스터 지정(체인 끝이어도 된다)",
+   "why_ko": "필드에서 발동한 효과라 무효가 되면 서치도 처리되지 않는다. 비라캄이 나오기 전이라 보호받지 않는다.",
+   "fallback_ko": "패에서 쓰려면 내 필드가 비어 있어야 한다. 엔진 초동이 여러 장 보이면 아끼고 메인 테마 쪽에 쓴다."
+  },
+  {
+   "handtrap": "imperm",
+   "severity": "ok",
+   "line": "ft_rem",
+   "step": 4,
+   "target_card": "Invoked Sorath",
+   "timing_ko": "소라트가 묘지의 추억의 알레이스터를 소생하는 퀵 효과에 소라트 지정(비라캄 전)",
+   "why_ko": "소생이 막히면 아르테미스 → 코로조 → 위캣 다리가 끊겨 페어리테일 덤핑으로 못 넘어간다.",
+   "fallback_ko": "소검 묘지 효과로 추억의 알레이스터를 회수해 패에서 소라트를 대상으로 특소하면 레벨 4 마법사족은 1장 더 생긴다. 아르테미스가 없어 코로조는 소라트 + 다른 마법사족이 필요하다."
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "추억의 알레이스터의 서치 유발에 [[Effect Veiler]]로 그 알레이스터 지정. 직접 체인할 필요 없다",
+   "why_ko": "포영과 같은 결과. 상대 메인 페이즈라 쓸 수 있다.",
+   "fallback_ko": "초동이 여러 장이면 비라캄 전의 다른 필드 효과(베이발론 서치·비라캄 세트)에 아껴 둔다.",
+   "rulings": [
+    "qa-8398"
+   ]
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 4,
+   "target_card": "Invoked Baybarron",
+   "timing_ko": "[[Invoked Baybarron]]의 비라캄 서치 유발에 베이발론 지정",
+   "why_ko": "비라캄이 안 와서 [[Invocation]] 세트·보호와 폭주소환사 링크 소재가 사라진다.",
+   "fallback_ko": "비라캄은 베이발론보다 뒤라 아직 보호가 없다.",
+   "rulings": [
+    "qa-8398"
+   ]
+  },
+  {
+   "handtrap": "droll",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "첫 서치(소검)가 패에 들어온 직후",
+   "why_ko": "이후 베이발론의 비라캄 서치, 폭주소환사의 소환마술 서치가 막힌다. 메인 테마 서치도 함께 막히므로 섞인 덱 전체가 크게 줄어든다.",
+   "fallback_ko": "소검 묘지 회수는 묘지에서 패라 드롤과 무관. 엔진은 베이발론 + 추억의 알레이스터 정도로 멈춘다."
+  },
+  {
+   "handtrap": "maxxc",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 3,
+   "target_card": "Invocation - \"Sword\"",
+   "timing_ko": "엔진 첫 융합(소검) 전후, 또는 메인 테마의 첫 특소부터",
+   "why_ko": "엔진만으로 특소 7회(베이발론·비라캄·추억의 알레이스터·코로조·폭주소환사·아이온·오케아노스). 메인 테마 특소까지 더하면 대량 드로우다.",
+   "fallback_ko": "상대는 엔진 쪽을 베이발론 + 비라캄에서 끊고 메인 테마를 우선하는 경우가 많다."
+  },
+  {
+   "handtrap": "fuwalos",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 3,
+   "target_card": "Invocation - \"Sword\"",
+   "timing_ko": "엔진 첫 엑스트라 덱 특소(소검 융합) 전, 내 필드가 비어 있을 때",
+   "why_ko": "엔진의 덱·엑스트라 특소는 베이발론·코로조·폭주소환사·아이온·오케아노스 5회. 신령검의 아이와스 덱 특소도 센다.",
+   "fallback_ko": "메인 테마가 엑스트라 덱 위주(드래곤테일 융합)면 합쳐서 더 커진다."
+  },
+  {
+   "handtrap": "purulia",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 1,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "상대 스탠바이 페이즈 등 일반 소환 전에(내 필드에 카드가 없을 때)",
+   "why_ko": "일반 소환 + 비라캄·추억의 알레이스터 패 특소로 엔진만 3장. rem_hand 시작이면 패 특소가 하나 더 붙는다.",
+   "fallback_ko": "전개 자체는 멈추지 않는다."
+  },
+  {
+   "handtrap": "belle",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 7,
+   "target_card": "Invocation - \"Sword\"",
+   "timing_ko": "[[Invocation - \"Sword\"]]의 묘지 효과(추억의 알레이스터 회수)에 체인",
+   "why_ko": "회수가 막히면 추억의 알레이스터 재특소 → 코로조 → 폭주소환사가 없어 아이온·오케아노스가 빠진다. 베이발론 + 비라캄 + 세트 [[Invocation]]에서 멈춘다.",
+   "fallback_ko": "소라트 묘지 융합(11단계)은 융합을 포함해 [[Magical Meltdown]]이 앞면이면 발동 무효가 안 된다. 회수·소생처럼 융합이 아닌 묘지 효과를 노린다.",
+   "rulings": [
+    "qa-20206",
+    "qa-23472"
+   ]
+  },
+  {
+   "handtrap": "belle",
+   "severity": "ok",
+   "line": "ft_rem",
+   "step": 4,
+   "target_card": "Invoked Sorath",
+   "timing_ko": "소라트의 묘지 소생 퀵 효과에 체인",
+   "why_ko": "포영과 같은 지점. 아르테미스가 안 나와 코로조 → 위캣이 끊긴다.",
+   "fallback_ko": "소검 묘지 회수(6단계)도 후보."
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 3,
+   "target_card": "Invoked Baybarron",
+   "timing_ko": "소검으로 [[Invoked Baybarron]]이 특소되었을 때 베이발론 지정(서치 유발 위 체인 2에 와서 서치가 무효로 처리됨)",
+   "why_ko": "비라캄이 안 와 세트 [[Invocation]]과 보호가 사라진다.",
+   "fallback_ko": "[[Magical Meltdown]]이 앞면이고 그 융합이 체인 1로 끝났다면 발동할 수 없다.",
+   "rulings": [
+    "supp-12851",
+    "qa-23451"
+   ]
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 3,
+   "target_card": "Invocation - \"Sword\"",
+   "timing_ko": "[[Invocation - \"Sword\"]] 발동(융합 = 특소 효과)에 직접 체인",
+   "why_ko": "효과 무효라 폭주마법진의 '발동 무효 불가'를 무시한다. 첫 융합이 막히면 베이발론이 안 나와 엔진이 멈춘다.",
+   "fallback_ko": "패에서 쓰면 이 듀얼 동안 빛·땅·바람 몬스터 효과를 못 쓴다.",
+   "rulings": [
+    "qa-23472"
+   ]
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "ok",
+   "line": "aiwass",
+   "step": 1,
+   "target_card": "Sacred Spirit Sword Aiwass",
+   "timing_ko": "[[Sacred Spirit Sword Aiwass]]의 아이와스 특소 발동에 체인(상대 필드에 카드가 있을 때만 패에서)",
+   "why_ko": "아이와스가 안 나와 서치·추가 일반 소환이 없다.",
+   "fallback_ko": "선공 첫 행동이면 상대 필드가 비어 패에서 못 쓴다."
+  },
+  {
+   "handtrap": "nibiru",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 9,
+   "target_card": "Magistus Chorozo",
+   "timing_ko": "5번째 소환(일반 소환·베이발론·비라캄·추억의 알레이스터 다음, 코로조) 직후",
+   "why_ko": "비라캄·코로조가 릴리스되어 폭주소환사가 안 나오고 오케아노스가 빠진다.",
+   "fallback_ko": "릴리스된 코로조가 묘지에 가므로 소라트 묘지 융합 아이온(소재 3장)은 남는다. 섞인 덱이면 메인 테마 소환이 먼저 쌓여 더 이른 시점에 쓸 수도 있다."
+  },
+  {
+   "handtrap": "spark",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 5,
+   "target_card": "Invoked Baybarron",
+   "timing_ko": "비라캄이 패에서 자체 특소 효과를 발동했을 때 체인해 [[Dominus Spark]]로 베이발론 제외",
+   "why_ko": "베이발론이 제외되어 추억의 알레이스터의 패 특소 대상(융합)과 코로조 소재가 사라진다. 아이온도 소재 2장으로 줄어든다.",
+   "fallback_ko": "내 묘지에 함정이 없으면 상대가 패에서 1장 특소할 수 있다. 패에서 쓰면 땅·물·화염·바람 봉인.",
+   "rulings": [
+    "supp-22586"
+   ]
+  },
+  {
+   "handtrap": "ogre",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "추억의 알레이스터의 서치 유발에 체인",
+   "why_ko": "서치는 처리되지만 추억의 알레이스터가 파괴되어 소검의 '알레이스터' 소재가 필드에 없다. 엔진 1장만 보이면 아주 아프다.",
+   "fallback_ko": "다른 알레이스터·[[Aiwass, Divine Spirit of the Law]]가 있으면 그대로 진행."
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "추억의 알레이스터의 서치 유발(체인 1 단독)에 직접 체인, 싱크로 5장 공개로 추억의 알레이스터 파괴",
+   "why_ko": "유령토끼와 같은 결과로 소검의 알레이스터 소재가 없다. 무효가 아니라 파괴라 폭주마법진과 무관하고, 비라캄 보호도 아직 없다.",
+   "fallback_ko": "비라캄이 선 뒤 융합 몬스터 효과에 응답하면 비라캄이 무효·제외한다.",
+   "rulings": [
+    "supp-22533"
+   ]
+  },
+  {
+   "handtrap": "crown",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "세트해 둔 [[Forbidden Crown]]을 추억의 알레이스터 서치 유발에 체인",
+   "why_ko": "서치 무효 + 소재 불가라 소검이 추억의 알레이스터를 쓸 수 없다. 몬스터 효과로 체인할 수 없다.",
+   "fallback_ko": "속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만. 내가 후공이면 상대 1턴 전개에는 못 쓴다.",
+   "rulings": [
+    "qa-24256"
+   ]
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "세트해 둔 카드를 추억의 알레이스터 서치 유발에 체인해 추억의 알레이스터 파괴",
+   "why_ko": "유령토끼와 같다. 소검의 필드 소재가 사라진다.",
+   "fallback_ko": "세트해 둔 경우만(후공 1턴 불가). 소라트·베이발론 같은 융합 몬스터를 부수면 [[Aiwass, Divine Spirit of the Law]]가 묘지에 있을 때 그 특소 + 추가 융합을 열어 준다."
+  },
+  {
+   "handtrap": "druiswurm",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 7,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "소검의 묘지 효과가 묘지의 추억의 알레이스터를 대상으로 했을 때, 퀵으로 그 알레이스터(어둠) 제외",
+   "why_ko": "대상이 사라져 회수가 처리되지 않는다. 코로조 → 폭주소환사 → 아이온 → 오케아노스 줄기가 끊긴다. 비라캄은 '융합 몬스터 효과'만 보호하므로 이 응답은 막지 못한다.",
+   "fallback_ko": "[[Aleister the Invoker]]는 제외해도 [[Invocation]] 묘지 효과로 회수되므로 노리지 않는다.",
+   "rulings": [
+    "qa-23934"
+   ]
+  },
+  {
+   "handtrap": "magnamhut",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 7,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "드루이드브룸과 같은 지점: 소검 묘지 효과의 대상인 추억의 알레이스터를 퀵으로 제외",
+   "why_ko": "회수 불발로 아이온·오케아노스가 빠진다.",
+   "fallback_ko": "마그나무트는 엔드 페이즈에 덱·묘지의 드래곤족 1장을 패에 넣는다."
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 7,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "소검 묘지 효과에 체인해 [[D.D. Crow]]로 대상인 추억의 알레이스터 제외",
+   "why_ko": "드루이드브룸과 같은 결과. 패에서 바로 버려 쓰고 조건이 없다.",
+   "fallback_ko": "소라트 묘지 융합(대상 없음)에는 크로우로 미리 소라트를 지워 두면 아이온이 사라진다."
+  },
+  {
+   "handtrap": "mst",
+   "severity": "ok",
+   "line": "rem_hand",
+   "step": 6,
+   "target_card": "Invocation",
+   "timing_ko": "비라캄이 덱에서 세트한 마법을 상대 엔드 페이즈에 파괴. 서몬 소서리스 루트(sorceress 5단계)로 세트된 [[Invocation - \"Sword\"]]가 있으면 그쪽이 1순위",
+   "why_ko": "세트한 턴에는 속공 마법을 발동할 수 없어 소검은 체인으로 피하지 못하고, 상대 턴 아이온(대상 없는 제외)이 사라진다. 세트 [[Invocation]](일반 마법)은 다음 상대 턴 전개 자원이 줄어드는 정도.",
+   "fallback_ko": "세트해 둔 경우만(후공 1턴 불가). 비라캄이 소검을 세트했다면 그 소검도 같은 이유로 엔드 페이즈에 깨면 체인당하지 않는다.",
+   "rulings": [
+    "qa-111"
+   ]
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 7,
+   "target_card": "Invocation - \"Sword\"",
+   "timing_ko": "(세트해 둔 경우) 첫 융합 전에 앞면으로",
+   "why_ko": "소검·추억의 알레이스터가 묘지 대신 제외되어 비라캄의 '알레이스터가 필드·묘지에' 조건이 깨지고, 소검 묘지 회수·소라트 묘지 융합도 없다. 융합 자체(제외 소재)는 된다.",
+   "fallback_ko": "제외된 몬스터는 오히려 다음 소검의 소재가 된다. 엔진은 베이발론 1장에서 멈추고 메인 테마도 묘지 효과가 막히는지 함께 본다."
+  },
+  {
+   "handtrap": "fissure",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 11,
+   "target_card": "Invoked Sorath",
+   "timing_ko": "(선공 때 앞면) 상대 턴 시작부터",
+   "why_ko": "몬스터만 제외라 매크로와 같은 결과(소검 자체는 묘지로 가지만 회수할 추억의 알레이스터가 제외됨).",
+   "fallback_ko": "베이발론 1장 정도."
+  },
+  {
+   "handtrap": "banisher",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 11,
+   "target_card": "Invoked Sorath",
+   "timing_ko": "(선공 때 필드) 상대 턴 시작부터",
+   "why_ko": "매크로와 같은 결과.",
+   "fallback_ko": "몬스터라 아이온 제외·SPLK에 치워질 수 있다."
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 11,
+   "target_card": "Invoked Sorath",
+   "timing_ko": "(선공 때 필드) 상대 턴 시작부터",
+   "why_ko": "매크로와 같은 지점 + 제외될 때마다 흡수해 퀵 뒷면 제외.",
+   "fallback_ko": "크샤트리라 덱 한정."
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "(HERO 덱, 선공 때 필드) 상대의 첫 서치부터",
+   "why_ko": "묘지 대신 제외 + 서치마다(1턴 1회) 패 무작위 1장 제외.",
+   "fallback_ko": "HERO 덱 한정."
+  },
+  {
+   "handtrap": "herald",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "(선공 때 필드) 추억의 알레이스터 서치 유발에 자신을 릴리스해 무효+파괴",
+   "why_ko": "감마와 같은 결과로 엔진이 끝난다. 패·덱에서 묘지로 가는 몬스터 제외라 폭주소환사의 패 버리기·소검 소재 회수도 꼬인다.",
+   "fallback_ko": "아이와스 루트면 아이와스 서치(aiwass 2단계)에."
+  },
+  {
+   "handtrap": "retaliating_c",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 3,
+   "target_card": "Invocation - \"Sword\"",
+   "timing_ko": "[[Invocation - \"Sword\"]](특소를 포함한 속공 마법) 발동에 체인해 패에서 특소",
+   "why_ko": "이후 묘지로 가는 카드가 전부 제외되어 추억의 알레이스터·소검이 제외되고 비라캄 조건·소검 회수·소라트 묘지 융합이 모두 사라진다. 융합 자체는 처리된다.",
+   "fallback_ko": "[[Sacred Spirit Sword Aiwass]]·[[Invocation]] 발동에도 쓸 수 있다. 나온 뒤 아이온·메인 테마 제거 효과의 표적이 된다.",
+   "rulings": [
+    "qa-23817"
+   ]
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "rem1",
+   "step": 3,
+   "target_card": "Invocation - \"Sword\"",
+   "timing_ko": "(세트해 둔 경우) 추억의 알레이스터 서치 유발이나 소검 발동에 체인해 '융합' 선언",
+   "why_ko": "엔진의 모든 출력(베이발론·아이온·오케아노스·코로조)이 융합이라 통째로 멈춘다. 드래곤테일처럼 메인 테마도 융합이면 섞인 덱 전체가 정지한다.",
+   "fallback_ko": "링크([[Aleister the Invoker of Madness]])는 선언할 수 없지만 소재가 안 모인다."
+  },
+  {
+   "handtrap": "protos",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 8,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "(선공 때 세워 둔 경우) 내 턴에 '어둠' 선언",
+   "why_ko": "추억의 알레이스터(어둠)의 패 특소, 코로조·폭주소환사·아이온(어둠)이 막힌다. 일반 소환 → 소검 → 베이발론 → 비라캄까지만.",
+   "fallback_ko": "메인 테마 속성에 따라 다른 속성 선언이 더 클 수 있다."
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 3,
+   "target_card": "Invocation - \"Sword\"",
+   "timing_ko": "(선공 때 필드) 상대 턴 시작부터",
+   "why_ko": "베이발론(화염)·소라트(빛)·비라캄(빛)이 막혀 첫 융합부터 갈 데가 없다(어둠 소환수 융합은 [[Invoked Caliga]]·아이온 정도).",
+   "fallback_ko": "추억의 알레이스터 일반 소환 + 서치까지는 된다."
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "ok",
+   "line": "rem1",
+   "step": 3,
+   "target_card": "Invocation - \"Sword\"",
+   "timing_ko": "(선공 때 필드) 상대 턴 시작부터",
+   "why_ko": "베이발론(화염)이 막혀 소라트(빛)로 우회하고 추억의 알레이스터(어둠) 재특소·코로조·폭주소환사·아이온이 막힌다. 소라트 + 비라캄 정도.",
+   "fallback_ko": "[[Invoked Mechaba]](빛)는 나올 수 있다."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 5,
+   "target_card": "Virakam, the Divine Spirit of Artifice",
+   "timing_ko": "(선공 때 필드) 상대 턴 시작부터",
+   "why_ko": "베이발론(화염)까지만 나오고 비라캄(빛) 특소부터 막힌다.",
+   "fallback_ko": "베이발론 1장으로 끝."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 3,
+   "target_card": "Invocation - \"Sword\"",
+   "timing_ko": "(선공 때 필드) 상대 턴 시작부터",
+   "why_ko": "물 속성 엔진 몬스터가 없어 일반 소환 1장으로 끝.",
+   "fallback_ko": "메인 테마도 함께 막히는지 확인."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "rem1",
+   "step": 3,
+   "target_card": "Invocation - \"Sword\"",
+   "timing_ko": "(선공 때 필드) 상대 턴 시작부터",
+   "why_ko": "특소 전면 봉쇄. 소검 융합부터 불가.",
+   "fallback_ko": "추억의 알레이스터 일반 소환과 서치만 남는다."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "rem1",
+   "step": 3,
+   "target_card": "Invocation - \"Sword\"",
+   "timing_ko": "(선공 때 필드) 상대 턴 시작부터",
+   "why_ko": "배너티 데블과 같다(상대만 특소 불가).",
+   "fallback_ko": "같음."
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "(세트해 둔 경우) 추억의 알레이스터 서치 유발에 체인해 앞면으로",
+   "why_ko": "추억의 알레이스터 서치·베이발론 서치·비라캄 세트·폭주소환사 서치·아이온 제외가 전부 필드 효과라 꺼진다.",
+   "fallback_ko": "패 특소(비라캄·추억의 알레이스터 ①)와 소라트 묘지 융합은 남는다."
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "(세트해 둔 경우) 상대가 움직이기 전에 앞면으로(서치 발동에 체인해도 그 서치가 막힘)",
+   "why_ko": "엔진이 서치 덩어리다(추억의 알레이스터·아이와스·베이발론·폭주소환사). 소검이 안 와서 바로 끝난다.",
+   "fallback_ko": "비라캄의 덱 세트는 패에 넣기가 아니라 막지 못한다."
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 8,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "(세트해 둔 경우) 상대 턴 시작부터",
+   "why_ko": "베이발론·비라캄(환상마족)이 있는 동안 추억의 알레이스터(마법사족) 패 특소가 막힌다. 메인 테마 몬스터와도 종족이 갈린다.",
+   "fallback_ko": "베이발론 + 비라캄 + 세트 [[Invocation]] 정도."
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 5,
+   "target_card": "Virakam, the Divine Spirit of Artifice",
+   "timing_ko": "(세트해 둔 경우) 상대 턴 시작부터",
+   "why_ko": "베이발론(화염)이 있으면 비라캄(빛) 특소 불가.",
+   "fallback_ko": "베이발론 1장."
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "strong",
+   "line": "rem1",
+   "step": 5,
+   "target_card": "Virakam, the Divine Spirit of Artifice",
+   "timing_ko": "(세트해 둔 경우) 상대 턴 시작부터",
+   "why_ko": "베이발론과 비라캄이 둘 다 환상마족이라 비라캄 특소 불가.",
+   "fallback_ko": "비라캄이 없어 [[Invocation]] 세트도 없다."
+  },
+  {
+   "handtrap": "imperm",
+   "severity": "bad",
+   "line": "rem1",
+   "step": 12,
+   "target_card": "Hyperinvoked Aeon",
+   "timing_ko": "비라캄이 필드에 있을 때 아이온(체인 2)·메인 테마 융합 몬스터 효과에 응답",
+   "why_ko": "비라캄은 '내 융합 몬스터 효과 발동에 대한 상대 응답'을 무효·제외한다. rem_hand 루트면 메인 테마의 융합 몬스터([[Dracotail Gulamel]] 등) 효과까지 보호된다.",
+   "fallback_ko": "비라캄이 나오기 전(서치 유발 단계)에 쓴다.",
+   "rulings": [
+    "supp-22966"
+   ]
+  },
+  {
+   "handtrap": "crossout",
+   "severity": "bad",
+   "line": "rem1",
+   "step": 2,
+   "target_card": "Aleister the Reminiscent",
+   "timing_ko": "선제 사용",
+   "why_ko": "자기 메인 덱에 있는 카드만 선언할 수 있다.",
+   "fallback_ko": "내 덱에도 같은 엔진이 있을 때만."
+  }
+ ],
+ "handtrap_summary": {
+  "ash": {
+   "rating": "strong",
+   "note_ko": "추억의 알레이스터 서치(엔진 입구) 1순위, 신령검 루트는 아이와스 서치. 놓치면 베이발론의 비라캄 서치",
+   "rulings": [
+    "supp-22965"
+   ]
+  },
+  "maxxc": {
+   "rating": "strong",
+   "note_ko": "엔진만 특소 7회 + 메인 테마 몫. 엔진 첫 융합 전후"
+  },
+  "fuwalos": {
+   "rating": "ok",
+   "note_ko": "엔진 덱·엑스트라 특소 5회. 메인 테마가 엑스트라 위주면 더 커짐"
+  },
+  "purulia": {
+   "rating": "ok",
+   "note_ko": "일반 소환 + 비라캄·추억의 알레이스터 패 특소로 3장 안팎. 전개는 안 멈춤"
+  },
+  "droll": {
+   "rating": "strong",
+   "note_ko": "첫 서치(소검) 직후. 엔진과 메인 테마 서치를 같이 막는다"
+  },
+  "meowls": {
+   "rating": "weak",
+   "note_ko": "묘지 특소는 소라트 소생(ft_rem) 정도"
+  },
+  "imperm": {
+   "rating": "strong",
+   "note_ko": "추억의 알레이스터 서치 유발에(체인 끝 가능). 비라캄이 선 뒤 융합 몬스터 효과에는 쓰지 말 것"
+  },
+  "veiler": {
+   "rating": "strong",
+   "note_ko": "포영과 같은 지점(추억의 알레이스터·베이발론의 서치 유발). 상대 메인 페이즈라 사용 가능",
+   "rulings": [
+    "qa-8398"
+   ]
+  },
+  "ogre": {
+   "rating": "ok",
+   "note_ko": "추억의 알레이스터 서치에 써서 소검의 알레이스터 소재를 없앤다"
+  },
+  "belle": {
+   "rating": "strong",
+   "note_ko": "소검 묘지 회수(추억의 알레이스터)·소라트 소생에. 융합을 포함한 묘지 효과는 폭주마법진 앞면이면 못 막음",
+   "rulings": [
+    "qa-20206"
+   ]
+  },
+  "mourner": {
+   "rating": "ok",
+   "note_ko": "소검으로 나온 베이발론 지정(비라캄 서치 무효). 폭주마법진 체인 1 융합이면 불가",
+   "rulings": [
+    "supp-12851"
+   ]
+  },
+  "crossout": {
+   "rating": "bad",
+   "note_ko": "자기 덱에 없는 카드는 선언 불가"
+  },
+  "ttt": {
+   "rating": "weak",
+   "note_ko": "후공 내 턴용. 엔진 선공 전개는 못 막음"
+  },
+  "droplet": {
+   "rating": "weak",
+   "note_ko": "후공 돌파용(대상 없이 오케아노스·아이온 무효)"
+  },
+  "nibiru": {
+   "rating": "ok",
+   "note_ko": "엔진 5번째 소환(코로조) 직후. 섞인 덱이면 메인 테마 소환이 먼저 쌓인다"
+  },
+  "impulse": {
+   "rating": "strong",
+   "note_ko": "소검 발동(첫 융합)에 직접 체인. 폭주마법진과 무관",
+   "rulings": [
+    "qa-23472"
+   ]
+  },
+  "purge": {
+   "rating": "strong",
+   "note_ko": "추억의 알레이스터 서치에 직접 체인. 함정이라 K9 같은 역이용 걱정 없음"
+  },
+  "spark": {
+   "rating": "ok",
+   "note_ko": "비라캄 패 특소에 체인해 베이발론 제외(코로조·아이온 소재 감소)",
+   "rulings": [
+    "supp-22586"
+   ]
+  },
+  "magnamhut": {
+   "rating": "strong",
+   "note_ko": "소검 묘지 회수의 대상인 추억의 알레이스터를 퀵으로 제외"
+  },
+  "gamma": {
+   "rating": "strong",
+   "note_ko": "내 필드에 몬스터가 없을 때 추억의 알레이스터 서치에. 무효 + 파괴로 소검 소재까지 사라짐",
+   "rulings": [
+    "qa-23949"
+   ]
+  },
+  "harmonia": {
+   "rating": "strong",
+   "note_ko": "싱크로 5장 공개 기준. 추억의 알레이스터 서치 유발에 직접 체인해 파괴. 비라캄 이후에는 쓰지 말 것",
+   "rulings": [
+    "supp-22533"
+   ]
+  },
+  "fallen_virtuous": {
+   "rating": "ok",
+   "note_ko": "세트해 둔 경우만. 추억의 알레이스터를 파괴. 융합 몬스터를 부수면 아이와스 묘지 효과를 열어 줌"
+  },
+  "super_poly": {
+   "rating": "weak",
+   "note_ko": "엔진 몬스터끼리 맞는 소재 조합이 적다(베이발론 화염·비라캄 빛·코로조 어둠). 메인 테마 몬스터와 섞어 계산"
+  },
+  "crown": {
+   "rating": "strong",
+   "note_ko": "세트해 둔 경우만. 추억의 알레이스터 서치에 체인해 무효 + 소재 불가",
+   "rulings": [
+    "qa-24256"
+   ]
+  },
+  "druiswurm": {
+   "rating": "strong",
+   "note_ko": "소검 묘지 회수 대상인 추억의 알레이스터를 퀵으로 제외. 원조 알레이스터는 피함",
+   "rulings": [
+    "qa-23934"
+   ]
+  },
+  "mst": {
+   "rating": "ok",
+   "note_ko": "세트해 둔 경우만. 서몬 소서리스 루트의 세트 소검을 엔드 페이즈에 파괴(세트 턴이라 체인 불가)",
+   "rulings": [
+    "qa-111"
+   ]
+  },
+  "macro_cosmos": {
+   "rating": "strong",
+   "note_ko": "추억의 알레이스터·소검이 제외되어 비라캄 조건·소검 회수·소라트 묘지 융합이 사라짐"
+  },
+  "fissure": {
+   "rating": "strong",
+   "note_ko": "매크로와 같은 결과(몬스터만). 선공 때만"
+  },
+  "banisher": {
+   "rating": "strong",
+   "note_ko": "매크로와 같은 결과. 몬스터라 제거당하기 쉬움"
+  },
+  "herald": {
+   "rating": "strong",
+   "note_ko": "추억의 알레이스터 서치를 릴리스로 무효+파괴. 폭주소환사 패 버리기도 제외"
+  },
+  "retaliating_c": {
+   "rating": "strong",
+   "note_ko": "소검·신령검·소환마술은 전부 특소를 포함한 마법이라 조건 충족. 이후 묘지 자원이 전부 제외",
+   "rulings": [
+    "qa-23817"
+   ]
+  },
+  "dd_crow": {
+   "rating": "ok",
+   "note_ko": "소검 묘지 회수 대상(추억의 알레이스터)이나 묘지의 소라트를 제외"
+  },
+  "dark_law": {
+   "rating": "strong",
+   "note_ko": "묘지 대신 제외 + 서치마다 패 제외. HERO 덱 한정"
+  },
+  "arise_heart": {
+   "rating": "strong",
+   "note_ko": "매크로와 같은 지점 + 퀵 뒷면 제외. 크샤트리라 덱 한정"
+  },
+  "dim_barrier": {
+   "rating": "critical",
+   "note_ko": "'융합' 선언으로 엔진 전체가 멈춤. 메인 테마도 융합이면 섞인 덱 전체 정지"
+  },
+  "protos": {
+   "rating": "ok",
+   "note_ko": "'어둠' 선언으로 추억의 알레이스터 재특소·코로조·폭주소환사·아이온 봉쇄"
+  },
+  "statue_abyss": {
+   "rating": "strong",
+   "note_ko": "베이발론·소라트·비라캄이 어둠이 아니라 첫 융합부터 막힘"
+  },
+  "statue_heavens": {
+   "rating": "ok",
+   "note_ko": "소라트·비라캄·메르카바는 빛이라 일부 남음"
+  },
+  "statue_inferno": {
+   "rating": "strong",
+   "note_ko": "베이발론(화염) 1장에서 멈춤"
+  },
+  "statue_torrent": {
+   "rating": "strong",
+   "note_ko": "물 엔진 몬스터 없음. 일반 소환 1장"
+  },
+  "vanity_fiend": {
+   "rating": "critical",
+   "note_ko": "특소 전면 봉쇄. 소검 융합부터 불가"
+  },
+  "vanity_ruler": {
+   "rating": "critical",
+   "note_ko": "배너티 데블과 같음"
+  },
+  "skill_drain": {
+   "rating": "strong",
+   "note_ko": "엔진의 서치·세트·아이온 제외가 전부 필드 효과"
+  },
+  "mistake": {
+   "rating": "critical",
+   "note_ko": "엔진 입구가 전부 서치(추억의 알레이스터·아이와스)"
+  },
+  "rivalry": {
+   "rating": "strong",
+   "note_ko": "환상마족(베이발론·비라캄)과 마법사족(추억의 알레이스터)이 갈림"
+  },
+  "gozen": {
+   "rating": "strong",
+   "note_ko": "베이발론(화염) 뒤 비라캄(빛) 불가"
+  },
+  "only_one": {
+   "rating": "strong",
+   "note_ko": "베이발론·비라캄이 같은 환상마족"
+  }
+ },
+ "notes_ko": [
+  "엔진 입구는 하나다: 추억의 알레이스터의 소환 유발 서치(또는 아이와스의 알레이스터 서치). 패 특소(①)에는 서치가 없으니 ②까지 기다린다(공식 보충 정보).",
+  "[[Virakam, the Divine Spirit of Artifice]]가 서면 내 융합 몬스터 효과 발동에 대한 응답이 1번 무효·제외된다. 메인 테마가 융합 덱(드래곤테일)이면 그 테마의 융합 몬스터 효과에 대한 응답도 해당하므로, 비라캄은 서치 단계(베이발론)에서 막는 편이 낫다.",
+  "소검이 제외 상태에서 되돌린 몬스터는 '묘지로 보내진' 것이 아니다. 드래곤테일 세트 효과, 드래곤테일 융합 몬스터의 '2장 이상 동시에 묘지로' 자기 소생은 그 소재로는 발동하지 않는다(KONAMI Q&A qa-24330).",
+  "[[Magical Meltdown]]을 쓰는 리스트(드래곤테일 소환수 7덱 중 2덱)는 융합 효과의 발동 무효(와라시·바로네스)가 안 되고, 체인 1 융합 직후 소환 유발에 체인할 수도 없다. 우라라·포영·도미나스 같은 '효과 무효'는 통한다."
+ ],
+ "going_second": {
+  "summary_ko": "출장 소환수가 혼자 남기는 견제는 작다. rem1은 EX 존 [[Invoked Oceanus]](내 묘지로 가는 몬스터 제외)와 [[Hyperinvoked Aeon]](이미 내 엑스트라 덱 3장 제외), rem_hand는 [[Virakam, the Divine Spirit of Artifice]](내 응답 1회 무효·제외, 메인 테마 융합 몬스터 효과까지 보호), 마기스토스 sorceress 루트는 세트 [[Invocation - \"Sword\"]](내 턴 퀵 아이온)뿐이다. 진짜 무효가 없으니 메인 테마 견제를 먼저 보고, 비라캄이 있으면 메인 테마의 융합 몬스터 효과에 대한 응답이 1번 막힌다는 점만 계산에 넣는다. 아이온이 내 엑스트라 덱의 어떤 카드를 지웠는지 먼저 확인할 것.",
+  "difficulty": "easy",
+  "boards": [
+   {
+    "id": "engine_pieces",
+    "title_ko": "엔진이 남기는 견제 (rem1: 오케아노스 + 아이온 / rem_hand: 비라캄 + 아이온 / sorceress: 세트 소검)",
+    "line": "rem1",
+    "interruptions": [
+     {
+      "id": "oceanus",
+      "card": "Invoked Oceanus",
+      "kind": "floodgate",
+      "zone": "monster",
+      "timing_ko": "EX 몬스터 존에 있는 동안 상시: 내 묘지로 가는 몬스터는 대신 제외. 공격력 3000. 무효 효과는 없다",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "지속 효과도 무효라 이번 턴 내 묘지 효과를 쓸 수 있다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 오케아노스 제외 효과와 무관하게 치운다. 공격력 3000을 넘는 괴수가 아니면 전투로는 못 넘는다"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "엑스트라 덱의 융합 몬스터를 보내고 덱으로. 내 융합 몬스터가 아이온에 제외되지 않았는지 확인"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "오케아노스(땅·바다뱀족 융합)를 소재로 흡수. 체인 불가"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "파괴 내성 없음. SPLK가 체인해 오케아노스를 엔드 페이즈까지 피신시킬 수 있다"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "융합 소환된 공격 표시라 대상. SPLK 체인으로 피신 가능한 점은 번개와 같음"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "EX 존 제외 효과를 그 턴만 무효. 묘지 효과를 쓰는 덱일 때만 의미"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "효과 무효+공격력 1500. 다른 견제와 함께 묶어서"
+       },
+       {
+        "id": "skill_drain",
+        "note_ko": "세트해 둔 경우 묘지 제외 잠금이 무효가 된다",
+        "rulings": [
+         "supp-5740"
+        ]
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "세트해 둔 경우 '융합' 선언으로 효과 무효",
+        "rulings": [
+         "supp-12668"
+        ]
+       },
+       {
+        "id": "protos",
+        "note_ko": "땅 선언으로 파괴. SPLK가 체인해 프로토스를 일시 제외할 수 있다",
+        "rulings": [
+         "supp-14994"
+        ]
+       }
+      ],
+      "bait_ko": ""
+     },
+     {
+      "id": "aeon",
+      "card": "Hyperinvoked Aeon",
+      "kind": "other",
+      "zone": "monster",
+      "timing_ko": "융합 소환 시 이미 내 엑스트라 덱 3장을 제외해 둔 상태(1턴 1번). 내 턴에는 퀵으로 다른 몬스터 전부의 속성을 바꾼다(아이온 효과는 1턴 1번만 고를 수 있음). 무효 효과는 없다",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "속성 변경 퀵을 체인 없이 막는다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스. 소환 절차라 체인 불가"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "파괴 내성 없음"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 시작 시 미리 무효. 속성 변경을 체인해 오면 그 턴 속성 의존 카드(결계상·[[Archnemeses Protos]] 등)를 쓰지 않는다"
+       }
+      ],
+      "bait_ko": "아이온이 내 엑스트라 덱에서 무엇을 제외했는지 먼저 확인한다. 속성을 참조하는 돌파는 아이온 퀵에 꼬일 수 있다"
+     },
+     {
+      "id": "virakam",
+      "card": "Virakam, the Divine Spirit of Artifice",
+      "kind": "protection",
+      "zone": "monster",
+      "timing_ko": "융합 몬스터(메르카바·오케아노스) 효과 발동에 내가 응답하면 1회 자신을 제외하고 그 효과를 무효+제외(퀵)",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "비라캄 효과도 무효. 이후 메르카바에 체인 응답이 통한다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 체인을 막으면서 비라캄 자체도 무효 대상으로 지정 가능"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "비라캄에 미리 쓰면 보호가 사라진다. 대신 메르카바가 포영에 체인할 수 있다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "체인 불가로 비라캄 릴리스"
+       },
+       {
+        "id": "skill_drain",
+        "note_ko": "비라캄 보호는 필드에서 자신을 제외하는 효과라 처리 시 무효",
+        "rulings": [
+         "supp-5740"
+        ]
+       }
+      ],
+      "bait_ko": "메르카바 무효에 체인으로 응답하기 전에 비라캄을 먼저 치우거나, 응답이 필요 없는 카드(명왕결계파·금지된 일적·괴수)를 쓴다",
+      "rulings": [
+       "supp-22966"
+      ]
+     },
+     {
+      "id": "sword",
+      "card": "Invocation - \"Sword\"",
+      "kind": "other",
+      "zone": "st",
+      "timing_ko": "세트된 속공 마법. 내 턴에도 퀵으로 융합 소환한다. 필드의 몬스터에 더해 제외된 몬스터를 묘지로 되돌려 소재로 쓸 수 있어, 무엇이 나올지는 엑스트라 덱·제외 상황에 따라 다르다(소환수 융합은 알레이스터 소재가 필요). 묘지로 가면 다음 턴 알레이스터 회수로 이어진다",
+      "answered_by": [
+       {
+        "id": "droplet",
+        "note_ko": "마법을 코스트로 보내면 그 발동에 [[Invocation - \"Sword\"]](마법)으로 체인할 수 없다. [[Invocation - \"Sword\"]] 자체를 없애지는 못함"
+       },
+       {
+        "id": "impulse",
+        "note_ko": "[[Invocation - \"Sword\"]] 발동(융합 = 특소 효과)을 무효. 패에서 쓰면 이후 빛·땅·바람 몬스터 효과를 발동할 수 없다"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "제외해 묘지 회수까지 끊는다. 단 상대는 체인해 [[Invocation - \"Sword\"]]을 발동할 수 있으므로 상대가 원하는 타이밍만 빼앗는 정도"
+       },
+       {
+        "id": "mst",
+        "note_ko": "코즈믹과 같지만 파괴라 묘지 효과(알레이스터 회수)가 남는다"
+       },
+       {
+        "id": "harpie",
+        "note_ko": "체인 발동은 가능. 마함 1장뿐이라 가치는 낮다"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "세트해 둔 경우 '융합' 선언 뒤에는 검이 불발",
+        "rulings": [
+         "supp-12668"
+        ]
+       }
+      ],
+      "bait_ko": "[[Invocation - \"Sword\"]]이 무엇을 낼 수 있는지 먼저 계산한다. 발동하면 오케아노스 등 필드 몬스터가 소재로 빠지므로, [[Invocation - \"Sword\"]]을 쓰게 만든 뒤 남은 보드를 정리하는 편이 낫다",
+      "rulings": [
+       "supp-23002"
+      ]
+     }
+    ]
+   }
+  ],
+  "breakers": {
+   "lightning_storm": {
+    "rating": "ok",
+    "note_ko": "오케아노스·SPLK 모두 공격 표시라 대상이지만, SPLK가 체인해 자신과 오케아노스를 엔드 페이즈까지 제외하면 파괴는 빗나간다. 그 턴 상대 몬스터 존이 비므로 공격은 통함"
+   },
+   "evenly_matched": {
+    "rating": "ok",
+    "note_ko": "카드 수가 3장 안팎이라 효과는 작다. SPLK·[[Invocation - \"Sword\"]]으로 응답 가능"
+   },
+   "dark_ruler": {
+    "rating": "strong",
+    "note_ko": "SPLK·오케아노스·메르카바·비라캄·바로네스를 한 번에 무효하고 체인도 못 받는다. 세트 [[Invocation - \"Sword\"]](마법)은 남는다"
+   },
+   "harpie": {
+    "rating": "weak",
+    "note_ko": "마함은 세트 [[Invocation - \"Sword\"]] 1장뿐이고 상대는 체인해 발동할 수 있다"
+   },
+   "heavy_storm": {
+    "rating": "weak",
+    "note_ko": "해피의 깃털과 같은 이유로 가치 낮음"
+   },
+   "raigeki": {
+    "rating": "strong",
+    "note_ko": "파괴 내성 몬스터가 없다. SPLK가 체인해 2장을 엔드 페이즈까지 피신시킬 수 있지만 그 턴 보드는 비고, 메르카바가 있으면 무효될 수 있음"
+   },
+   "dark_hole": {
+    "rating": "ok",
+    "note_ko": "번개와 같지만 내 몬스터도 사라진다"
+   },
+   "kaiju": {
+    "rating": "strong",
+    "note_ko": "소환 절차라 SPLK·메르카바·바로네스가 체인 불가. 오케아노스나 핵심 무효를 릴리스"
+   },
+   "kaiju_slumber": {
+    "rating": "ok",
+    "note_ko": "발동에 SPLK·메르카바가 응답할 수 있다"
+   },
+   "cosmic": {
+    "rating": "weak",
+    "note_ko": "세트 [[Invocation - \"Sword\"]]을 노리지만 체인 발동은 막지 못한다. 제외라서 묘지 회수는 끊음"
+   },
+   "mst": {
+    "rating": "weak",
+    "note_ko": "코즈믹보다 못함(묘지 효과 남김)"
+   },
+   "super_poly": {
+    "rating": "strong",
+    "note_ko": "체인 불가로 오케아노스·메르카바·바로네스를 흡수. 맞는 융합 몬스터가 아이온에 제외되지 않았는지 확인"
+   },
+   "book_eclipse": {
+    "rating": "ok",
+    "note_ko": "SPLK·메르카바가 체인할 수 있다. 엔드 페이즈 드로우를 준다"
+   },
+   "kurikara": {
+    "rating": "ok",
+    "note_ko": "효과를 쓴 몬스터(SPLK·메르카바·바로네스)가 생긴 뒤에만. 오케아노스는 효과를 발동하지 않아 대상이 아님"
+   },
+   "ultimate_slayer": {
+    "rating": "strong",
+    "note_ko": "몬스터 효과로 체인 불가. 오케아노스·메르카바(융합), SPLK(링크), 바로네스(싱크로) 모두 대상. 아이온의 엑스트라 덱 제외에 같은 종류가 남아 있는지 확인"
+   },
+   "fallen_virtuous": {
+    "rating": "ok",
+    "note_ko": "알버스 덱 전용. 퀵 파괴 1회지만 SPLK·메르카바가 응답 가능"
+   },
+   "harmonia": {
+    "rating": "weak",
+    "note_ko": "싱크로 덱 전용. 상대가 내 턴에 몬스터 효과를 쓸 때만"
+   },
+   "imperm": {
+    "rating": "ok",
+    "note_ko": "SPLK에 쓰면 SPLK가 체인해 피신할 수 있고, 메르카바는 함정을 버려 무효할 수 있다. 미끼 이후 혹은 비라캄 제거용"
+   },
+   "ogre": {
+    "rating": "ok",
+    "note_ko": "SPLK·메르카바·바로네스가 효과를 쓰면 파괴(효과는 처리됨)"
+   },
+   "gamma": {
+    "rating": "strong",
+    "note_ko": "내 필드에 몬스터가 없을 때 SPLK·메르카바·바로네스의 발동을 무효+파괴. 비라캄이 있으면 메르카바에 대한 응답은 막힌다"
+   },
+   "belle": {
+    "rating": "bad",
+    "note_ko": "내 턴에 상대가 묘지 효과를 쓸 일이 거의 없다"
+   },
+   "droplet": {
+    "rating": "strong",
+    "note_ko": "몬스터+마법을 코스트로 보내면 SPLK·메르카바·[[Invocation - \"Sword\"]] 모두 체인 불가. 2장 무효"
+   },
+   "ttt": {
+    "rating": "ok",
+    "note_ko": "SPLK·메르카바·바로네스가 내 메인 페이즈에 효과를 쓰면 발동 가능. 오케아노스·바로네스 탈취"
+   },
+   "spark": {
+    "rating": "weak",
+    "note_ko": "상대가 내 턴에 패·묘지 몬스터 효과를 쓰지 않으면 발동 불가"
+   },
+   "crossout": {
+    "rating": "weak",
+    "note_ko": "내 덱에 같은 카드가 있을 때만"
+   },
+   "impulse": {
+    "rating": "ok",
+    "note_ko": "세트 [[Invocation - \"Sword\"]]의 퀵 융합을 무효. 패에서 쓰면 빛·땅·바람 몬스터 효과 봉인"
+   },
+   "magnamhut": {
+    "rating": "weak",
+    "note_ko": "묘지의 알레이스터(어둠)를 제외해 [[Invocation - \"Sword\"]]·소환마술 회수 대상을 줄이는 정도. 오케아노스가 EX 존에 있어도 마그나무트 자체는 문제 없음"
+   },
+   "ash": {
+    "rating": "bad",
+    "note_ko": "내 턴에 상대가 서치·덱 특소를 하지 않는다"
+   },
+   "veiler": {
+    "rating": "bad",
+    "note_ko": "상대 메인 페이즈 전용이라 내 턴 돌파에 못 씀"
+   },
+   "nibiru": {
+    "rating": "bad",
+    "note_ko": "상대가 내 턴에 5번 소환하지 않는다"
+   },
+   "dim_barrier": {
+    "rating": "strong",
+    "note_ko": "미리 세트해 둔 상태라면 내 턴 시작에 '융합' 선언: 오케아노스·메르카바 효과가 무효(오케아노스의 묘지 제외 잠금도 해제), 세트된 검의 융합도 불발. SPLK는 링크라 남는다.",
+    "rulings": [
+     "supp-12668"
+    ]
+   },
+   "skill_drain": {
+    "rating": "strong",
+    "note_ko": "세트해 둔 상태라면 SPLK 퀵 제외·메르카바 무효·오케아노스 잠금·비라캄 보호가 전부 무효. 메르카바는 함정 발동에 패의 함정을 버려 무효할 수 있으니 메르카바 판면에서는 먼저 확인.",
+    "rulings": [
+     "supp-5740"
+    ]
+   },
+   "protos": {
+    "rating": "ok",
+    "note_ko": "땅 선언으로 오케아노스, 빛 선언으로 메르카바·비라캄을 파괴하고 그 속성 특소를 다음 턴까지 막는다. 프로토스는 효과 파괴 내성. 다만 SPLK가 프로토스 효과에 체인해 프로토스를 엔드 페이즈까지 제외할 수 있다(파괴·봉쇄 처리 자체는 그대로 될 것으로 보지만 미검증). 내 묘지·필드에 속성이 다른 몬스터 3장이 필요.",
+    "rulings": [
+     "supp-14994"
+    ]
+   },
+   "dd_crow": {
+    "rating": "bad",
+    "note_ko": "후공 내 턴에 상대 묘지에 쓸 만한 대상이 거의 없고(소환수는 제외를 쓴다), EX 존의 [[Invoked Oceanus]]가 있으면 내 몬스터가 묘지 대신 제외되어 D.D. 크로우를 발동할 수 없다고 본다.",
+    "rulings": [
+     "qa-23815"
+    ]
+   }
+  },
+  "sequencing_ko": [
+   "아이온이 제외한 내 엑스트라 덱 카드를 확인하고 돌파 루트를 고른다.",
+   "[[Virakam, the Divine Spirit of Artifice]]가 있으면 상대 융합 몬스터(드래곤테일 그라멜·알자리온 포함) 효과에 체인하는 카드는 1번 무효된다. 명왕결계파·괴수처럼 체인이 필요 없는 카드나, 비라캄을 먼저 치우는 순서로.",
+   "[[Invoked Oceanus]]가 EX 존에 있으면 내 묘지로 가는 몬스터가 제외된다. 묘지 효과를 쓰는 전개는 오케아노스부터 정리한다.",
+   "세트 [[Invocation - \"Sword\"]]는 체인으로 발동되므로 마함 제거로 못 막는다. 발동해도 낼 융합이 없게(제외된 융합 몬스터가 없게) 만들거나 금지된 일적으로 체인을 막는다."
+  ]
+ },
+ "hosts": [
+  {
+   "theme": "dracotail",
+   "rate": 0.091,
+   "rate_note_ko": "MDM 'Dracotail' 55덱 중 5덱이 'Invoked'·'Reminiscent' 태그(2026-09-25~10-25). 이 리스트들은 낙인 엔진 대신 소환수를 넣는다(추억의 알레이스터 3, 아이와스 2~3, 신령검 2~3, 소환마술 1~2, 소검 1~2, 비라캄 0~1).",
+   "joins": [
+    {
+     "engine_line": "rem_hand",
+     "engine_step": 1,
+     "theme_line": "lukias",
+     "theme_step": 3,
+     "note_ko": "파이메나 융합으로 [[Dracotail Arthalion]](융합)이 나오면 그 알자리온을 대상으로 패의 추억의 알레이스터를 특소한다. 1단계 일반 소환한 [[Dracotail Lukias]](마법사족)를 대상으로 해도 된다. 둘 다 일반 소환권을 쓰지 않으므로 루키아스 일반 소환과 같은 턴에 엔진이 붙는다."
+    },
+    {
+     "engine_line": "aiwass",
+     "engine_step": 3,
+     "theme_line": "lukias",
+     "theme_step": 1,
+     "note_ko": "신령검 → 아이와스 → 추억의 알레이스터의 추가 일반 소환을 쓰면 원래 일반 소환권이 남아 루키아스를 그대로 일반 소환한다. 반대로 아이와스의 추가 일반 소환으로 루키아스(마법사족)를 내고 추억의 알레이스터를 일반 소환해도 된다."
+    },
+    {
+     "engine_line": "rem_hand",
+     "engine_step": 5,
+     "theme_line": "opp_turn",
+     "theme_step": 2,
+     "note_ko": "비라캄은 '내 융합 몬스터의 효과 발동에 대한 상대 응답'을 무효·제외한다. 드래곤테일 융합 몬스터([[Dracotail Gulamel]] 파괴, [[Dracotail Arthalion]] 바운스)도 대상이라, 비라캄이 서 있으면 상대 턴 그라멜·알자리온 효과에 체인한 패트랩이 1번 무효된다(공식 보충 정보는 융합 몬스터의 종류를 묻지 않음)."
+    },
+    {
+     "engine_line": "rem_hand",
+     "engine_step": 8,
+     "theme_line": "lukias",
+     "theme_step": 4,
+     "note_ko": "소라트 묘지 융합은 '필드·묘지의 몬스터'를 소재로 하므로, 묘지의 드래곤테일 융합 몬스터를 아이온의 3번째 소재로 더해 상대 엑스트라 덱 3장 제외까지 갈 수 있다. 다만 그 융합 몬스터는 제외되어 '2장 이상이 동시에 묘지로 가면 자기 소생' 효과를 잃는다."
+    }
+   ],
+   "priority_ko": "드래곤테일 소환수형은 초동이 두 갈래다(드래곤테일: 루키아스·무루루·라후·케투 / 소환수: 추억의 알레이스터·아이와스·신령검). 드래곤테일 쪽 첫 행동(루키아스 서치·라후)이 먼저 보이면 그쪽이 우선이다. 판면의 핵심 견제(그라멜 파괴·상대 턴 파이메나 융합)가 드래곤테일 쪽이기 때문이다. 엔진은 rem_hand로 나중에 붙고, 특히 비라캄이 서면 드래곤테일 융합 몬스터 효과에 대한 응답까지 무효되므로 패트랩을 2장 이상 들었다면 추억의 알레이스터 서치(비라캄 전)에 하나를 써서 비라캄을 막아 둔다. 상대가 신령검이나 추억의 알레이스터 일반 소환으로 먼저 시작하면 그 서치에 우라라."
+  },
+  {
+   "theme": "magistus",
+   "rate": 0.091,
+   "rate_note_ko": "MDM 'Magistus Fairy Tail' 22덱 중 2덱 'Reminiscent' 태그(2026-09-25~10-25, 추억의 알레이스터 2~3·소검 1·소라트·아이온). 브리프의 15%는 이전 스냅샷 기준으로 보이며 현재 수치는 9.1%. 엔진 태그 없이 [[Aiwass, the Magistus Spell Spirit]](55%)·[[Invoked Mechaba]](27%)만 넣는 리스트는 이 엔진으로 치지 않았다.",
+   "joins": [
+    {
+     "engine_line": "ft_rem",
+     "engine_step": 10,
+     "theme_line": "luna",
+     "theme_step": 5,
+     "note_ko": "추억의 알레이스터 1장으로 [[Fairy Tail - Wiccat]]까지 만들고 위캣의 덤핑(매치리르 + 테일즈)부터 luna 라인과 같다. 소라트 → 아이온은 매치리르 특소(마법사족만 특소 제약) 전에 끝낸다. 4단계에 아르테미스를 이미 썼으므로 luna 라인 13단계의 아르테미스 링크 대신 Taffy 콤보는 매치리르 + 아이온으로 엔디미온을 낸다."
+    },
+    {
+     "engine_line": "sorceress",
+     "engine_step": 1,
+     "theme_line": "luna",
+     "theme_step": 14,
+     "note_ko": "luna 라인의 엔디미온 이후, 크로울리로 바로 조로아를 만들지 않고 2번째 아르테미스(스푼 묘지 효과) → 코로조 → 엔디미온 + 코로조로 [[Summon Sorceress]]를 낸다. 크로울리는 상대 필드로 보내고 덱의 추억의 알레이스터를 꺼내 세트 소검으로 끝낸다(Taffy 'Fairy Tail Luna 1 Card Combo')."
+    },
+    {
+     "engine_line": "rem_hand",
+     "engine_step": 1,
+     "theme_line": "luna",
+     "theme_step": 1,
+     "note_ko": "일반 소환한 [[Fairy Tail - Luna]](마법사족)를 대상으로 패의 추억의 알레이스터를 특소할 수 있다. 단 3단계 [[Genia of the Ring]] 특소부터 이 턴 엑스트라 덱은 마법사족만이라 소검 → 베이발론은 그 전에 써야 하고, 그만큼 페어리테일 쪽 순서가 꼬인다. 실제 리스트는 ft_rem·sorceress 루트를 쓴다."
+    }
+   ],
+   "priority_ko": "마기스토스 쪽 허브는 위캣 덤핑이고, 엔진은 ft_rem(추억의 알레이스터 1장 초동)이나 sorceress(마무리)로 들어간다. 상대가 카구야 일반 소환으로 시작하면 마기스토스 문서대로 카구야 서치(지냐)에 우라라. 추억의 알레이스터 일반 소환으로 시작하면 그 서치가 엔진 입구이자 위캣으로 가는 다리라서 우라라·포영 최우선(1장 초동이면 사실상 정지). sorceress 루트의 세트 소검은 상대 턴 아이온(대상 없는 제외)이 되므로, 세트해 둔 [[Mystical Space Typhoon]]이 있으면 엔드 페이즈에 깬다."
+  },
+  {
+   "theme": "invoked",
+   "rate": 1.0,
+   "rate_note_ko": "MDM 'Invoked' 27덱 전부 'Reminiscent' 태그. 순수 소환수는 이 엔진을 메인 덱 본체로 쓴다.",
+   "joins": [
+    {
+     "engine_line": "rem1",
+     "engine_step": 1,
+     "theme_line": "rem1",
+     "theme_step": 1,
+     "note_ko": "같은 시작이다. 소환수 테마 rem1은 라이딘을 제외해 소라트 → 아르테미스 → 엔디미온 → 크로울리(마기스토스 파츠)로 가고, 이 엔진의 rem1은 소라트를 제외해 베이발론 → 비라캄으로 가는 출장형(마기스토스 파츠 없음)이다. 패트랩 타이밍은 2단계 서치가 공통 1순위."
+    },
+    {
+     "engine_line": "rem1",
+     "engine_step": 11,
+     "theme_line": "rem1",
+     "theme_step": 17,
+     "note_ko": "두 루트 모두 소라트 묘지 효과로 소재 3장 [[Hyperinvoked Aeon]]을 내 상대 엑스트라 덱 3장을 제외한다. 그 전에 비라캄이 서 있으면 아이온에 대한 응답은 무효된다."
+    },
+    {
+     "engine_line": "aiwass",
+     "engine_step": 3,
+     "theme_line": "rem1",
+     "theme_step": 1,
+     "note_ko": "신령검 → 아이와스의 추가 일반 소환으로 추억의 알레이스터를 내면 테마 rem1과 같은 라인을 일반 소환권을 남긴 채 시작한다. 남은 소환권은 [[Aleister the Invoker]]에 쓴다(1.5장 루트)."
+    }
+   ],
+   "priority_ko": "순수 소환수는 invoked 문서의 패트랩 타이밍이 그대로 우선이다. 엔진 관점의 요약: 추억의 알레이스터·아이와스의 서치(엔진 입구)가 1순위, 놓치면 베이발론의 비라캄 서치, 비라캄이 선 뒤에는 융합 몬스터 효과에 응답하지 않는다."
+  }
+ ],
+ "sources": [
+  "https://www.masterduelmeta.com/api/v1/top-decks (MDM 상위 덱 1500개, 2026-09-19~10-25: 드래곤테일 소환수 7덱·마기스토스 페어리테일 3덱·미츠루기 1덱 리스트 확인)",
+  "https://www.masterduelmeta.com/api/v1/combos (MDM 콤보: 'Normal Summon Aleister R' vex 2026-08-25, 'Aiwass Spell 1 Card Combo' Dawnstar 2026-07-11, 'Aleister the Reminiscent 1 card combo'·'Fairy Tail Luna 1 Card Combo' Taffy 2026-10-09)",
+  "data/themes/invoked.json (rem1 라인·검증된 패트랩 타이밍·후공 보드 재사용)",
+  "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22964&request_locale=ja (공식 보충 정보: Aleister the Reminiscent)",
+  "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22965&request_locale=ja (공식 보충 정보: Aiwass, Divine Spirit of the Law)",
+  "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=23003&request_locale=ja (공식 보충 정보: Sacred Spirit Sword Aiwass)",
+  "https://www.masterduelmeta.com/api/v1/cards (MDM 카드 API: 카드 텍스트·제한 상태)"
+ ]
+}

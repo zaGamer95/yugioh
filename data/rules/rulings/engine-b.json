@@ -1,0 +1,163 @@
+{
+ "sources": {},
+ "rules": [],
+ "rulings": [
+  {
+   "id": "supp-21419",
+   "fid": null,
+   "cid": 21419,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21419&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Medius the Pure"
+   ],
+   "handtraps": [
+    "ash",
+    "imperm",
+    "veiler",
+    "belle",
+    "druiswurm",
+    "magnamhut",
+    "dd_crow"
+   ],
+   "themes": [
+    "elfnote",
+    "artmage",
+    "doomz"
+   ],
+   "engines": [
+    "power-patron"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Medius the Pure]] 카드 보충 정보: ①과 ②는 어떤 종류의 효과인가?",
+   "answer_ko": "①(일반·특수 소환 시 덱에서 감옥신 몬스터 서치 또는 특소)은 몬스터 존에서 발동하는 유발 효과이며 데미지 스텝에도 발동할 수 있다. ②는 묘지에서 발동하는 기동 효과로, 처리 때 자신의 패·몬스터 존(앞면)의 몬스터 1장을 덱(엑스트라 덱)에 되돌리고 성공하면 이 카드를 특소한다. 되돌리기와 특소는 동시에 처리된다. 토큰을 고르면 소멸해 특소는 되지 않는다.",
+   "quote_ja": "①の効果について】■モンスターゾーンで発動できる誘発効果です。…【②の効果について】■墓地で発動できる起動効果です。…■デッキに戻す処理と特殊召喚する処理は同時に行われる扱いです。",
+   "impact_ko": "① 소환 유발은 우라라·포영·뵐러·감마 지점. ②는 기동 효과라 상대(메디우스 쪽) 메인 페이즈에만 나오며, 묘지에서 발동하므로 와라시·드루이드브룸·마그나무트·D.D. 크로우로 끊을 수 있다. 내 턴에는 ②가 발동되지 않으니 내 턴 견제로 볼 필요는 없다."
+  },
+  {
+   "id": "supp-22565",
+   "fid": null,
+   "cid": 22565,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22565&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Prohibited Power Patron Portal - Terminus"
+   ],
+   "handtraps": [
+    "ash",
+    "purge",
+    "droll",
+    "macro_cosmos",
+    "fissure",
+    "banisher",
+    "herald",
+    "dark_law",
+    "arise_heart"
+   ],
+   "themes": [
+    "elfnote",
+    "artmage",
+    "doomz"
+   ],
+   "engines": [
+    "power-patron"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Prohibited Power Patron Portal - Terminus]] 카드 보충 정보: 덤핑과 서치는 어떻게 처리되나?",
+   "answer_ko": "①은 카드의 발동 시 효과다. 처리 때 덱·엑스트라 덱의 감옥신 몬스터 1장을 묘지로 보내고, 묘지로 보내는 데 성공한 경우에만 그 뒤 덱에서 천사족·어둠 속성 몬스터 1장을 패에 넣을 수 있다. 두 처리는 동시가 아니다. 발동·효과가 무효가 되지 않았다면 덤핑 성공 여부와 관계없이 이번 턴 감옥신 몬스터로만 공격 선언할 수 있다. ②는 묘지에서 발동하는 체인 블록을 만드는 효과다.",
+   "quote_ja": "墓地に送ることに成功した場合、その後、『デッキから天使族・闇属性モンスター１体を手札に加える処理を行うことができます。…墓地へ送る処理と手札に加える処理を両方行う場合、それらは同時に行われません。",
+   "impact_ko": "덤핑과 서치가 한 효과라 우라라·퍼지 1장으로 둘 다 막는다. 매크로 코스모스·차원의 틈처럼 묘지 대신 제외되는 상황에서는 '묘지로 보내기 성공'이 아니므로 서치가 없다고 보는 것은 이 문구에서의 추론이다(개별 Q&A 미확인)."
+  },
+  {
+   "id": "supp-21779",
+   "fid": null,
+   "cid": 21779,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21779&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Radiant Typhoon Eldam"
+   ],
+   "handtraps": [
+    "ash",
+    "imperm",
+    "veiler",
+    "gamma",
+    "mourner",
+    "maxxc",
+    "purulia"
+   ],
+   "themes": [
+    "maliss",
+    "sky-striker"
+   ],
+   "engines": [
+    "radiant-typhoon"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Radiant Typhoon Eldam]] 카드 보충 정보: 패에서 특소하는 ①과 서치 ②는 어떤 효과인가?",
+   "answer_ko": "①(상대 필드에 마함이 없거나 자신 묘지에 싸이크론이 있으면 패에서 특소)은 기동·유발·유발즉시·지속 어느 것에도 속하지 않는 효과로, 특소할 때 체인 블록이 만들어지지 않는다. 이 특소가 무효가 되면 그 턴에 다시 이 방법으로 특소할 수 있다. ②(일반·특수 소환 시 서치)는 몬스터 존에서 발동하는 유발 효과이며 데미지 스텝에도 발동할 수 있다.",
+   "quote_ja": "【①の効果について】■起動効果・誘発効果・誘発即時効果・永続効果のいずれにも分類されない効果です。■この効果によって特殊召喚を行う際に、チェーンブロックは作られません。…【②の効果について】■モンスターゾーンで発動できる誘発効果です。",
+   "impact_ko": "엘담(·스엔)의 패 특소에는 체인할 수 없으므로 증G·푸루리아는 미리 쓰고, 우라라·포영·뵐러·감마는 소환 시 서치 유발에 쓴다. 사요 시구레는 특소 직후 지정해 같은 타이밍의 서치를 무효로 만든다."
+  },
+  {
+   "id": "supp-21829",
+   "fid": null,
+   "cid": 21829,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21829&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Radiant Typhoon Vision",
+    "Mystical Space Typhoon"
+   ],
+   "handtraps": [
+    "ash",
+    "mst"
+   ],
+   "themes": [
+    "maliss",
+    "sky-striker"
+   ],
+   "engines": [
+    "radiant-typhoon"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Radiant Typhoon Vision]] 카드 보충 정보: ●를 고르는 방법과 '싸이크론으로 파괴되면 세트'는 어떻게 처리되나?",
+   "answer_ko": "①은 카드의 발동 시 효과로, 발동할 때 ●를 1개 골라 그 ●의 효과로 발동한다. 1번째 ●는 2장 드로우에 성공하고 패에 현람 카드나 속공 마법이 있으면 그중 1장을 버리고, 없으면 패를 전부 버린다. 드로우와 버리기는 동시가 아니다. ②는 체인 블록을 만드는 효과로, 이 카드가 [[Mystical Space Typhoon]]의 효과로 파괴되어 묘지로 갔으면 묘지에서, 앞면으로 제외되었으면 제외 상태에서 발동한다.",
+   "quote_ja": "■この効果を発動する際に『●』を１つ選択し、その『●』の効果として発動します。…【②の効果について】■チェーンブロックの作られる効果です。■このカードが「サイクロン」の効果で破壊され、墓地へ送られた場合には墓地で、表側で除外された場合には除外状態で発動できます。",
+   "impact_ko": "견신의 ●는 발동 시점에 정해지므로 우라라는 '2장 드로우'든 '싸이크론 서치'든 그 발동에 체인하면 된다(둘 다 덱에서 패에 넣음). 상대의 현람 속공 마법을 싸이크론으로 깨면 다시 세트되니 다른 마함 제거를 쓴다."
+  },
+  {
+   "id": "supp-21827",
+   "fid": null,
+   "cid": 21827,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21827&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Radiant Typhoon Chant",
+    "Mystical Space Typhoon"
+   ],
+   "handtraps": [
+    "ash",
+    "purge",
+    "mst"
+   ],
+   "themes": [
+    "maliss",
+    "sky-striker"
+   ],
+   "engines": [
+    "radiant-typhoon"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Radiant Typhoon Chant]] 카드 보충 정보: 발동 방법과 재세트 효과는?",
+   "answer_ko": "①은 카드의 발동 시 효과로, 발동할 때 ●(레벨 4 이하 현람 몬스터 서치 / 덱·묘지에서 싸이크론 회수)를 1개 골라 그 효과로 발동한다. ②는 체인 블록을 만드는 효과로, 싸이크론의 효과로 파괴되어 묘지로 갔으면 묘지에서, 앞면으로 제외되었으면 제외 상태에서 발동한다.",
+   "quote_ja": "■この効果を発動する際に『●』を１つ選択し、その『●』の効果として発動します。…■チェーンブロックの作られる効果です。",
+   "impact_ko": "헌영 발동은 어느 ●든 덱에서 패에 넣으므로 우라라 대상이고, 헌영이 필드에 놓인 상태라 퍼지도 패에서 직접 체인할 수 있다. 싸이크론으로 깨면 다시 세트된다."
+  }
+ ]
+}
