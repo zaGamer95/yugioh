@@ -519,6 +519,296 @@
    ]
   },
   {
+   "handtrap": "retaliating_c",
+   "severity": "critical",
+   "line": "engine",
+   "step": 6,
+   "target_card": "The Hallowed Azamina",
+   "timing_ko": "[[The Hallowed Azamina]] 카드 발동에 체인해 패에서 특소",
+   "why_ko": "처리 때 '묘지로 보내기'가 제외로 바뀌어 보낸 카드가 0장 → 아자미나 융합체가 특소되지 않는다(qa-24098). 기만도 제외돼 엔드 페이즈 재세트가 없다",
+   "fallback_ko": "디아벨스타는 이미 필드에 있어 [[Dark Magician of Destruction]] → [[The Gaze of Timaeus]] → [[Red-Eyes Dark Dragoon]]는 남는다(티마이오스의 안광은 덱에 되돌리는 융합). 응전의 G는 효과 몬스터라 드라군에 파괴될 수 있다",
+   "rulings": [
+    "qa-24098"
+   ]
+  },
+  {
+   "handtrap": "retaliating_c",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 12,
+   "target_card": "The Hallowed Azamina",
+   "timing_ko": "[[The Hallowed Azamina]] 발동에 체인해 패에서 특소",
+   "why_ko": "무 루시엘라고가 안 나와 [[WANTED: Seeker of Sinful Spoils]] 서치 → 레아 실비아 연결이 끊긴다. 이후 디아벨스타 패 특소, 디아벨제·리제트의 마함 코스트, 커스 오브 디아벨 덤핑도 전부 막힌다",
+   "fallback_ko": "디아벨·루시엘라 싱크로는 이미 서 있다",
+   "rulings": [
+    "qa-24098",
+    "qa-6878"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "세트해 둔 미스테이크를 [[WANTED: Seeker of Sinful Spoils]] 발동에 체인해 발동. 미리 앞면이면 1턴째엔 발동 자체가 안 된다(묘지에 디아벨스타가 없을 때)",
+   "why_ko": "디아벨스타가 없으면 엔진 전체가 시작되지 않는다",
+   "fallback_ko": "패에 디아벨스타가 직접 있으면 2단계부터 가지만 5단계 기만의 아자미나 서치가 막힌다",
+   "rulings": [
+    "qa-19975"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 1,
+   "target_card": "Elzette of the White Forest",
+   "timing_ko": "하얀 숲의 리제트 패 효과 발동에 체인해 발동",
+   "why_ko": "리제트는 특소되지만 실비 서치가 실패한다. 이후 실비·루시엘라·전해져오는 이야기·아자미나 리제트 서치가 모두 막힌다",
+   "fallback_ko": "패의 카드만으로 싱크로 1장 정도",
+   "rulings": [
+    "qa-19975"
+   ]
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "engine",
+   "step": 6,
+   "target_card": "The Hallowed Azamina",
+   "timing_ko": "디아벨스타 세트 효과(3단계)나 [[The Hallowed Azamina]] 발동에 체인해 발동, 융합 선언",
+   "why_ko": "아자미나 융합체가 특소되지 않고 처리 자체가 끝난다(qa-24098). [[Dark Magician of Destruction]]·[[Red-Eyes Dark Dragoon]]도 융합이라 이 턴 엔진 견제가 0",
+   "fallback_ko": "디아벨스타 1장 + 기만으로 종료",
+   "rulings": [
+    "qa-24098"
+   ]
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 4,
+   "target_card": "Rciela, Sinister Soul of the White Forest",
+   "timing_ko": "리제트 패 효과나 실비 일반 소환 유발에 체인해 발동, 싱크로 선언",
+   "why_ko": "루시엘라·디아벨·바로네스가 싱크로라 하얀 숲 축이 멈춘다",
+   "fallback_ko": "아자미나 리제트의 패 특소·융합 효과로 아자미나 융합체는 일부 나온다",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "세트해 둔 스킬 드레인을 디아벨스타의 세트 효과 발동에 체인해 발동 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "기만을 못 세트해 아자미나 서치가 없다",
+   "fallback_ko": "[[Dark Magician of Destruction]] 특소는 소환 규칙이라 되지만 서치 유발이 무효. 드라군 무효도 꺼진다",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 3,
+   "target_card": "Silvy of the White Forest",
+   "timing_ko": "실비 일반 소환 유발에 체인해 발동",
+   "why_ko": "전해져오는 이야기를 못 가져오고, 루시엘라 서치·디아벨 회수·디아벨제 덤핑도 전부 필드 효과라 막힌다",
+   "fallback_ko": "리제트(패 효과)는 이미 처리됐다. 아자미나 리제트의 패 특소는 통과",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "critical",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "선공 필드에 앞면이면 [[WANTED: Seeker of Sinful Spoils]] 서치 뒤 유발해 패 무작위 1장 제외. 디아벨스타 패 특소(묘지로 보내기)도 이미 불가",
+   "why_ko": "패의 디아벨스타가 빠지거나, 남아도 특소할 방법이 없다(qa-6878)",
+   "fallback_ko": "레벨 7이라 릴리스 2장 일반 소환 외에는 못 낸다",
+   "rulings": [
+    "qa-6878"
+   ]
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 1,
+   "target_card": "Elzette of the White Forest",
+   "timing_ko": "앞면이면 리제트 특소부터 불가(마함을 묘지로 보내는 코스트)",
+   "why_ko": "하얀 숲 라인의 시작점",
+   "fallback_ko": "없음",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "디아벨스타는 어둠",
+   "fallback_ko": "없음"
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 1,
+   "target_card": "Elzette of the White Forest",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "리제트는 빛",
+   "fallback_ko": "없음"
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "물 몬스터가 없다",
+   "fallback_ko": "없음"
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 1,
+   "target_card": "Elzette of the White Forest",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "물 몬스터가 없다",
+   "fallback_ko": "없음"
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "특소가 전부 막힌다",
+   "fallback_ko": "없음"
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 1,
+   "target_card": "Elzette of the White Forest",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "특소가 전부 막힌다",
+   "fallback_ko": "실비 일반 소환 1장"
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "상대 특소가 전부 막힌다",
+   "fallback_ko": "없음"
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 1,
+   "target_card": "Elzette of the White Forest",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "상대 특소가 전부 막힌다",
+   "fallback_ko": "실비 일반 소환 1장"
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "engine",
+   "step": null,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "2단계: 세트해 뒀다면 [[WANTED: Seeker of Sinful Spoils]] 발동에 체인해 발동 / 미리 앞면이면 디아벨스타 패 특소에서 막힘",
+   "why_ko": "카드를 묘지로 보내는 소환 규칙은 할 수 없다(qa-6878). 패에 디아벨스타가 있어도 못 낸다",
+   "fallback_ko": "레벨 7 릴리스 2장 일반 소환뿐. [[The Hallowed Azamina]]도 보낸 카드가 제외돼 융합체가 안 나온다",
+   "rulings": [
+    "qa-6878",
+    "qa-24098"
+   ]
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 9,
+   "target_card": "Elzette, Azamina of the White Forest",
+   "timing_ko": "미리 앞면이면 1단계부터 막힘: 리제트의 '마함을 묘지로' 코스트를 못 내 특소 불가. 세트해 뒀다면 리제트 패 효과 발동에 체인해 발동하고, 그래도 진행되면 이 단계(싱크로 소재로 제외된 아자미나 리제트는 묘지 유발 불가)에서 막힌다",
+   "why_ko": "하얀 숲 몬스터의 코스트가 전부 '마함을 묘지로'라 1단계 이후가 없다",
+   "fallback_ko": "실비 일반 소환 → 전해져오는 이야기 서치 정도",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "banisher",
+   "severity": "critical",
+   "line": "engine",
+   "step": null,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "2단계: 선공 필드에 앞면이면 디아벨스타 패 특소에서 막힘",
+   "why_ko": "매크로 코스모스와 같은 이유(qa-6878)",
+   "fallback_ko": "드라군·바로네스로 치우기 전에 막힌다",
+   "rulings": [
+    "qa-6878"
+   ]
+  },
+  {
+   "handtrap": "banisher",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 9,
+   "target_card": "Elzette, Azamina of the White Forest",
+   "timing_ko": "앞면이면 1단계 리제트 코스트부터 못 낸다. 그 전에 진행돼도 이 단계 묘지 유발이 없다",
+   "why_ko": "매크로 코스모스와 같은 이유",
+   "fallback_ko": "없음",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "critical",
+   "line": "engine",
+   "step": null,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "2단계: 선공 필드에 앞면이면 디아벨스타 패 특소에서 막힘",
+   "why_ko": "매크로 코스모스와 같은 이유(qa-6878)",
+   "fallback_ko": "소재 3개면 상대 턴 퀵 뒷면 제외도 있다",
+   "rulings": [
+    "qa-6878"
+   ]
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "critical",
+   "line": "wfa",
+   "step": 9,
+   "target_card": "Elzette, Azamina of the White Forest",
+   "timing_ko": "앞면이면 1단계 리제트 코스트부터 못 낸다",
+   "why_ko": "매크로 코스모스와 같은 이유",
+   "fallback_ko": "없음",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
    "handtrap": "super_poly",
    "severity": "strong",
    "line": "engine",
@@ -792,6 +1082,141 @@
    "fallback_ko": "스네이크아이 덱 본체 전개는 별개."
   },
   {
+   "handtrap": "retaliating_c",
+   "severity": "strong",
+   "line": "snake",
+   "step": 3,
+   "target_card": "Original Sinful Spoils - Snake-Eye",
+   "timing_ko": "원죄보 발동(레벨 1 화염 특소 포함)에 체인해 특소",
+   "why_ko": "원죄보의 특소 자체는 처리되지만, 이후 스네이크아이 엔진의 묘지 활용·디아벨스타 묘지 회수가 막힌다",
+   "fallback_ko": "스네이크아이 엑셀의 서치는 그대로",
+   "rulings": [
+    "qa-15449"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "strong",
+   "line": "snake",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타 세트 효과에 체인해 발동",
+   "why_ko": "원죄보를 못 세트해 스네이크아이 접속이 안 된다",
+   "fallback_ko": "호스트 덱 전개로 돌아간다",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  {
+   "handtrap": "herald",
+   "severity": "strong",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "선공 필드에 세워 두고 [[WANTED: Seeker of Sinful Spoils]] 발동에 자신을 릴리스해 무효+파괴",
+   "why_ko": "디아벨스타 서치가 없으면 엔진이 시작되지 않는다",
+   "fallback_ko": "패에 디아벨스타가 있으면 마법을 보내 특소(몬스터를 보내면 제외라 불가)"
+  },
+  {
+   "handtrap": "herald",
+   "severity": "strong",
+   "line": "wfa",
+   "step": 1,
+   "target_card": "Elzette of the White Forest",
+   "timing_ko": "리제트 패 효과 발동에 자신을 릴리스해 무효+파괴",
+   "why_ko": "실비 서치가 없다. 리제트는 코스트로 마함만 잃는다",
+   "fallback_ko": "패의 실비·마함으로 다시 시작"
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "strong",
+   "line": "engine",
+   "step": 6,
+   "target_card": "The Hallowed Azamina",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 [[WANTED: Seeker of Sinful Spoils]] 발동에 체인해 발동",
+   "why_ko": "디아벨스타(마법사족)가 필드에 있으면 환상마족 아자미나 융합체를 특소하는 [[The Hallowed Azamina]]를 발동할 수 없다(qa-8773)",
+   "fallback_ko": "기만으로 디아벨스타를 릴리스하면 융합체는 나오지만 [[Dark Magician of Destruction]] 소재가 없어진다. 둘 중 하나만",
+   "rulings": [
+    "qa-8773"
+   ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "strong",
+   "line": "wfa",
+   "step": 7,
+   "target_card": "Elzette, Azamina of the White Forest",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "루시엘라(마법사족)가 있어 아자미나 리제트(환상마족)를 특소할 수 없다",
+   "fallback_ko": "루시엘라 서치까지는 끝났다. 디아벨(환상마족) 싱크로도 못 낸다",
+   "rulings": [
+    "qa-8773"
+   ]
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "strong",
+   "line": "wfa",
+   "step": 2,
+   "target_card": "Silvy of the White Forest",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 리제트 패 효과에 체인해 발동",
+   "why_ko": "리제트와 실비 모두 마법사족이라 실비를 일반 소환할 수 없다. 싱크로 소재를 못 모은다",
+   "fallback_ko": "리제트 1장",
+   "rulings": [
+    "supp-13447"
+   ]
+  },
+  {
+   "handtrap": "protos",
+   "severity": "strong",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "내 선공 턴에 어둠 선언해 두면 상대 턴 끝까지 이 단계에서 막힘",
+   "why_ko": "디아벨스타·아자미나 융합체·[[Dark Magician of Destruction]]·드라군 모두 어둠",
+   "fallback_ko": "호스트 덱의 다른 속성 전개"
+  },
+  {
+   "handtrap": "protos",
+   "severity": "strong",
+   "line": "wfa",
+   "step": 1,
+   "target_card": "Elzette of the White Forest",
+   "timing_ko": "빛 선언해 두면 이 단계에서 막힘",
+   "why_ko": "리제트·실비·루시엘라·아자미나 리제트·디아벨·디아벨제가 빛",
+   "fallback_ko": "없음"
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "strong",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "디아벨스타가 어둠이라 엔진이 시작되지 않는다",
+   "fallback_ko": "없음"
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "strong",
+   "line": "wfa",
+   "step": 12,
+   "target_card": "The Hallowed Azamina",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "무 루시엘라고·레아 실비아(어둠)·바로네스(바람)·디아벨스타를 못 낸다",
+   "fallback_ko": "디아벨·루시엘라(빛)까지는 선다"
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "strong",
+   "line": "wfa",
+   "step": 1,
+   "target_card": "Elzette of the White Forest",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "리제트(빛)부터 막혀 하얀 숲 전개가 시작되지 않는다",
+   "fallback_ko": "엔진 파트(디아벨스타·아자미나 융합체·드라군, 모두 어둠)는 통과"
+  },
+  {
    "handtrap": "druiswurm",
    "severity": "ok",
    "line": "wfa",
@@ -835,6 +1260,62 @@
    "fallback_ko": "상대 필드에 원시생명체 토큰이 남는데, 패에 서치한 기만이 있으면 토큰을 릴리스해 아자미나 서치를 하고 아자미나 축으로 일부 복구한다. 디아벨 축과 [[Baronne de Fleur]]는 사라진다."
   },
   {
+   "handtrap": "only_one",
+   "severity": "ok",
+   "line": "engine",
+   "step": 7,
+   "target_card": "Dark Magician of Destruction",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힐 수 있음",
+   "why_ko": "디아벨스타(마법사족)를 소재로 같은 마법사족 [[Dark Magician of Destruction]]을 내는 소환. 링크 소환 판정(qa-12759)과 같은 원리라면 불가",
+   "fallback_ko": "아자미나 융합체(환상마족)는 디아벨스타 옆에 나온다",
+   "rulings": [
+    "qa-12759"
+   ]
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "ok",
+   "line": "wfa",
+   "step": 12,
+   "target_card": "The Hallowed Azamina",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "디아벨(빛)이 있어 어둠 아자미나 융합체를 특소할 수 없다. 바로네스(바람)·디아벨스타(어둠)도 불가",
+   "fallback_ko": "디아벨·루시엘라 2장 + 패",
+   "rulings": [
+    "supp-13447"
+   ]
+  },
+  {
+   "handtrap": "fissure",
+   "severity": "ok",
+   "line": "wfa",
+   "step": 9,
+   "target_card": "Elzette, Azamina of the White Forest",
+   "timing_ko": "선공 필드에 앞면이면 이 단계에서 막힘",
+   "why_ko": "싱크로 소재로 간 아자미나 리제트가 제외돼 죄보 서치가 없다. 17단계 실비 묘지 퀵, 25단계 단죄의 디아벨스타도 사라진다",
+   "fallback_ko": "리제트의 코스트(마함)·기만(마법)은 그대로라 엔진 쪽은 통과"
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "ok",
+   "line": "wfa",
+   "step": 17,
+   "target_card": "Silvy of the White Forest",
+   "timing_ko": "실비의 묘지 퀵 효과(루시엘라 대상) 발동에 체인해 실비를 제외",
+   "why_ko": "실비가 나오지 않아 바로네스(무효+파괴) 싱크로가 없다",
+   "fallback_ko": "아자미나 융합체·디아벨은 서 있다"
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "ok",
+   "line": "wfa",
+   "step": 25,
+   "target_card": "Diabellstar Vengeance",
+   "timing_ko": "단죄의 디아벨스타의 묘지 특소 발동에 체인해 제외",
+   "why_ko": "퀵 파괴 견제 1개와 디아벨 2장 조건이 빠질 수 있다",
+   "fallback_ko": "디아벨제 내성은 디아벨제 + 디아벨로도 성립"
+  },
+  {
    "handtrap": "ash",
    "severity": "bad",
    "line": "engine",
@@ -876,6 +1357,26 @@
    "timing_ko": "[[Elzette, Azamina of the White Forest]]가 싱크로 소재로 묘지에 간 뒤의 서치 유발에 드루이드브룸으로 제외",
    "why_ko": "그 서치는 [[Elzette, Azamina of the White Forest]]가 묘지에 있을 필요가 없어 그대로 처리된다.",
    "fallback_ko": "같은 [[Elzette, Azamina of the White Forest]]는 14단계 [[The Hallowed Azamina]]의 대상이 될 때 제외한다."
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "bad",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "엔진만 섞은 덱에 심연의 결계상은 의미 없다",
+   "why_ko": "디아벨스타·아자미나 융합체·드라군 모두 어둠",
+   "fallback_ko": "섬광·업화·호우의 결계상이나 호스트 덱 속성을 본다"
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "bad",
+   "line": "engine",
+   "step": 6,
+   "target_card": "The Hallowed Azamina",
+   "timing_ko": "엔진만 섞은 덱에 어전시합은 효과가 작다",
+   "why_ko": "엔진 몬스터가 전부 어둠이다",
+   "fallback_ko": "호스트 덱의 속성 혼합을 본다"
   }
  ],
  "handtrap_summary": {
@@ -1005,6 +1506,133 @@
     "qa-111",
     "qa-24148"
    ]
+  },
+  "macro_cosmos": {
+   "rating": "critical",
+   "note_ko": "(세트해 둔 경우만) [[WANTED: Seeker of Sinful Spoils]] 발동에 체인해 앞면으로. 디아벨스타의 패 특소(카드를 묘지로 보내는 소환 규칙)가 불가능하고(qa-6878), [[The Hallowed Azamina]]는 보낸 죄보 카드가 제외돼 융합체가 나오지 않는다(qa-24098). 하얀 숲의 리제트·루시엘라·디아벨제의 '마함을 묘지로' 코스트도 못 낸다",
+   "rulings": [
+    "qa-6878",
+    "qa-24098",
+    "qa-14540"
+   ]
+  },
+  "fissure": {
+   "rating": "ok",
+   "note_ko": "(선공 때만) 몬스터만 제외. 엔진은 마법을 보내 디아벨스타를 내고 기만(마법)을 보내 아자미나를 내서 거의 통과. 하얀 숲 쪽은 싱크로 소재로 간 아자미나 리제트의 죄보 서치, 실비 묘지 퀵, 단죄의 디아벨스타 묘지 특소가 사라진다"
+  },
+  "banisher": {
+   "rating": "critical",
+   "note_ko": "(선공 때만) 매크로 코스모스와 같다. 디아벨스타의 패 특소(카드를 묘지로 보내는 소환 규칙)가 불가능하고(qa-6878), [[The Hallowed Azamina]]는 보낸 죄보 카드가 제외돼 융합체가 나오지 않는다(qa-24098). 하얀 숲의 리제트·루시엘라·디아벨제의 '마함을 묘지로' 코스트도 못 낸다. 몬스터라 드라군·바로네스가 서면 파괴되지만 그 전에 막힌다",
+   "rulings": [
+    "qa-6878",
+    "qa-24098"
+   ]
+  },
+  "herald": {
+   "rating": "strong",
+   "note_ko": "(선공 때만) 1회 발동 무효를 [[WANTED: Seeker of Sinful Spoils]]나 하얀 숲의 리제트 패 효과에. 패에서 묘지로 가는 몬스터는 제외되지만 엔진은 마법을 보내 우회한다"
+  },
+  "retaliating_c": {
+   "rating": "critical",
+   "note_ko": "[[The Hallowed Azamina]] 발동에 체인해 패에서 특소 → 보낸 죄보 카드가 제외돼 아자미나 융합체가 나오지 않는다(qa-24098). 이후 디아벨스타 패 특소도 불가. [[Original Sinful Spoils - Snake-Eye]]·[[The Gaze of Timaeus]]·[[Filia Diabell]] 발동에도 낼 수 있다",
+   "rulings": [
+    "qa-24098",
+    "qa-15449",
+    "qa-24159",
+    "qa-6878"
+   ]
+  },
+  "dd_crow": {
+   "rating": "ok",
+   "note_ko": "엔진에는 묘지 효과가 거의 없다. 하얀 숲 라인의 실비 묘지 퀵(바로네스 재료), 성스러운 아자미나 회수, 단죄의 디아벨스타 묘지 특소에 체인해 제외"
+  },
+  "dark_law": {
+   "rating": "critical",
+   "note_ko": "(HERO 덱, 선공 때만) 상대 묘지 대신 제외라 매크로와 같은 결과에 [[WANTED: Seeker of Sinful Spoils]]·하얀 숲의 리제트 서치마다 패 무작위 1장 제외까지",
+   "rulings": [
+    "qa-6878",
+    "qa-24098"
+   ]
+  },
+  "arise_heart": {
+   "rating": "critical",
+   "note_ko": "(크샤트리라 덱, 선공 때만) 매크로와 같은 결과. 제외되는 카드가 소재로 붙어 상대 턴에 퀵 뒷면 제외도 쓴다(대상 지정이라 드라군에는 못 쓰지만, 파괴가 아니라 디아벨제 내성은 무시)",
+   "rulings": [
+    "qa-6878",
+    "qa-24098"
+   ]
+  },
+  "dim_barrier": {
+   "rating": "critical",
+   "note_ko": "(세트해 둔 경우만) 엔진은 융합 선언: 아자미나 융합체·[[Dark Magician of Destruction]]·[[Red-Eyes Dark Dragoon]]가 전부 융합이고, [[The Hallowed Azamina]]는 처리 자체가 안 된다(qa-24098). 하얀 숲 라인은 싱크로 선언으로 루시엘라부터 막는다. 리제트·실비 서치에 체인해 발동",
+   "rulings": [
+    "qa-24098",
+    "supp-12668"
+   ]
+  },
+  "protos": {
+   "rating": "strong",
+   "note_ko": "(선공으로 세워 둔 경우) 엔진은 어둠 선언(디아벨스타·아자미나 융합체·드라군 전부 어둠), 하얀 숲 라인은 빛 선언(리제트·실비·루시엘라·디아벨·디아벨제). 상대 턴 끝까지 유지"
+  },
+  "statue_abyss": {
+   "rating": "strong",
+   "note_ko": "(선공 때만) 엔진은 전원 어둠이라 통과. 하얀 숲 라인은 리제트(빛)부터 막혀 전개가 시작되지 않는다"
+  },
+  "statue_heavens": {
+   "rating": "strong",
+   "note_ko": "(선공 때만) 엔진은 디아벨스타(어둠)부터 막혀 정지. 하얀 숲 라인은 디아벨까지 가지만 아자미나 융합체(어둠)·바로네스(바람)·디아벨스타를 못 낸다"
+  },
+  "statue_inferno": {
+   "rating": "critical",
+   "note_ko": "(선공 때만) 화염 외 특소 불가. 디아벨스타·리제트부터 막힌다(스네이크아이 접속도 디아벨스타에서 정지)"
+  },
+  "statue_torrent": {
+   "rating": "critical",
+   "note_ko": "(선공 때만) 물 외 특소 불가. 엔진·하얀 숲 모두 첫 특소에서 정지"
+  },
+  "vanity_fiend": {
+   "rating": "critical",
+   "note_ko": "(선공 때만) 특소 전부 불가. 디아벨스타·리제트·아자미나 융합체 모두 막힌다"
+  },
+  "vanity_ruler": {
+   "rating": "critical",
+   "note_ko": "(선공 때만) 상대 특소 전부 불가. 배너티 데블과 같은 결과"
+  },
+  "skill_drain": {
+   "rating": "critical",
+   "note_ko": "(세트해 둔 경우만) 디아벨스타의 죄보 세트(필드 유발)에 체인해 발동하면 기만이 안 나와 엔진 정지. 실비·루시엘라·디아벨제의 필드 효과, 드라군·바로네스·디아벨 견제도 무효. 자신을 릴리스하는 [[Azamina Ilia Silvia]] 무효와 패·묘지 효과는 못 막는다",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  "mistake": {
+   "rating": "critical",
+   "note_ko": "(세트해 둔 경우만) [[WANTED: Seeker of Sinful Spoils]] 발동에 체인해 디아벨스타 서치부터 막는다. 기만의 아자미나 서치, 리제트·실비·루시엘라·아자미나 리제트의 서치도 전부 막혀 이 덱의 연쇄가 끊긴다",
+   "rulings": [
+    "qa-19975"
+   ]
+  },
+  "rivalry": {
+   "rating": "strong",
+   "note_ko": "(세트해 둔 경우만) 마법사족(디아벨스타·리제트·실비·루시엘라)과 환상마족(아자미나 융합체·디아벨·아자미나 리제트·디아벨제)을 섞는다. 디아벨스타가 있으면 [[The Hallowed Azamina]]로 환상마족 융합체를 낼 수 없다",
+   "rulings": [
+    "qa-8773"
+   ]
+  },
+  "gozen": {
+   "rating": "ok",
+   "note_ko": "(세트해 둔 경우만) 엔진은 전원 어둠이라 통과. 하얀 숲 라인은 빛(리제트·디아벨)에서 어둠(아자미나 융합체)·바람(바로네스)으로 넘어가는 지점에서 막힌다",
+   "rulings": [
+    "supp-13447"
+   ]
+  },
+  "only_one": {
+   "rating": "strong",
+   "note_ko": "(세트해 둔 경우만) 하얀 숲 라인은 리제트·실비가 둘 다 마법사족이라 실비 일반 소환부터 막힌다. 엔진은 디아벨스타 1장씩이라 덜 걸리지만, 필드의 마법사족과 같은 종족을 소재로 내는 소환(멸망의 흑마술사)도 막힐 수 있다",
+   "rulings": [
+    "supp-13447",
+    "qa-12759"
+   ]
   }
  },
  "notes_ko": [
@@ -1102,6 +1730,10 @@
        {
         "id": "super_poly",
         "note_ko": "체인 불가. 바람 속성 전사족 등 맞는 융합체가 있어야 함"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "(세트해 둔 경우) 싱크로 선언으로 무효. 바로네스가 발동을 무효할 수 있다"
        }
       ],
       "bait_ko": "발동 무효+파괴라 일반 소환 유발이나 남는 마법으로 먼저 받아낸다. 앞면으로 있는 동안 1번이라 한 번 쓰면 끝",
@@ -1146,6 +1778,10 @@
        {
         "id": "super_poly",
         "note_ko": "체인 불가로 소재로 처리"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "(세트해 둔 경우) 싱크로 선언으로 디아벨 효과 무효 + 튜너 싱크로 특소 자체가 불가"
        }
       ],
       "bait_ko": "",
@@ -1247,6 +1883,10 @@
        {
         "id": "ultimate_slayer",
         "note_ko": "덱 되돌리기라 내성과 무관. 디아벨제는 메인 덱 몬스터라 대상은 디아벨·[[Baronne de Fleur]]·[[Azamina Ilia Silvia]]"
+       },
+       {
+        "id": "skill_drain",
+        "note_ko": "(세트해 둔 경우) 디아벨제의 파괴 내성은 필드 지속 효과라 무효된다"
        }
       ],
       "bait_ko": "",
@@ -1272,6 +1912,10 @@
        {
         "id": "spark",
         "note_ko": "디아벨스타 등이 그 턴 묘지·패에서 효과를 쓴 뒤 제외로 처리"
+       },
+       {
+        "id": "dd_crow",
+        "note_ko": "디아벨스타의 묘지 소생 발동에 체인해 제외하면 불발"
        }
       ],
       "bait_ko": "파괴·릴리스·융합 소재로 묘지에 보내면 모두 부활 조건이 된다. 제외나 덱 되돌리기 이외에는 몸이 돌아온다고 보고 계산한다",
@@ -1316,6 +1960,14 @@
        {
         "id": "kurikara",
         "note_ko": "[[Red-Eyes Dark Dragoon]]이 이번 턴 무효를 쓴 뒤에는 대상 없이 릴리스로 치울 수 있다"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "(세트해 둔 경우) 융합 선언, 비대상이라 대상 내성을 무시. 드라군이 발동을 무효할 수 있으니 다른 발동으로 먼저 소모"
+       },
+       {
+        "id": "skill_drain",
+        "note_ko": "(세트해 둔 경우) 비대상 무효. 드라군이 발동을 무효할 수 있으니 먼저 소모"
        }
       ],
       "bait_ko": "효과 파괴 불가라 [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]]의 파괴는 통하지 않는다. 미끼로 무효를 먼저 받아내면 쿠리카라·길항승부가 통한다"
@@ -1473,6 +2125,10 @@
        {
         "id": "super_poly",
         "note_ko": "체인 불가로 소재로 처리"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "(세트해 둔 경우) 싱크로 선언으로 디아벨 효과 무효 + 튜너 싱크로 특소 자체가 불가"
        }
       ],
       "bait_ko": "",
@@ -1548,6 +2204,10 @@
        {
         "id": "ultimate_slayer",
         "note_ko": "덱 되돌리기라 내성과 무관. 디아벨제는 메인 덱 몬스터라 대상은 디아벨·[[Baronne de Fleur]]·[[Azamina Ilia Silvia]]"
+       },
+       {
+        "id": "skill_drain",
+        "note_ko": "(세트해 둔 경우) 디아벨제의 파괴 내성은 필드 지속 효과라 무효된다"
        }
       ],
       "bait_ko": "",
@@ -1596,6 +2256,14 @@
        {
         "id": "kurikara",
         "note_ko": "[[Red-Eyes Dark Dragoon]]이 이번 턴 무효를 쓴 뒤에는 대상 없이 릴리스로 치울 수 있다"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "(세트해 둔 경우) 융합 선언, 비대상이라 대상 내성을 무시. 드라군이 발동을 무효할 수 있으니 다른 발동으로 먼저 소모"
+       },
+       {
+        "id": "skill_drain",
+        "note_ko": "(세트해 둔 경우) 비대상 무효. 드라군이 발동을 무효할 수 있으니 먼저 소모"
        }
       ],
       "bait_ko": "효과 파괴 불가라 [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]]의 파괴는 통하지 않는다. 미끼로 무효를 먼저 받아내면 쿠리카라·길항승부가 통한다"
@@ -1721,6 +2389,28 @@
    "crossout": {
     "rating": "bad",
     "note_ko": "나도 해당 카드를 넣었을 때만 선언 가능"
+   },
+   "dd_crow": {
+    "rating": "ok",
+    "note_ko": "내 턴에 디아벨스타가 묘지로 가 자체 소생을 발동하면 체인해 제외 → 불발. 실비 묘지 퀵(튜너 회수)·단죄의 디아벨스타 묘지 특소에도"
+   },
+   "dim_barrier": {
+    "rating": "ok",
+    "note_ko": "이전 턴에 세트해 둔 경우만. 융합 선언으로 [[Red-Eyes Dark Dragoon]] 무효(비대상), 싱크로 선언으로 바로네스·디아벨 무효 + 디아벨의 튜너 싱크로 퀵 특소 불가. 자신을 릴리스해 무효하는 [[Azamina Ilia Silvia]]는 막지 못한다. 드라군·바로네스가 발동을 무효할 수 있다",
+    "rulings": [
+     "supp-12668"
+    ]
+   },
+   "skill_drain": {
+    "rating": "ok",
+    "note_ko": "이전 턴에 세트해 둔 경우만. 드라군·바로네스·디아벨·단죄의 디아벨스타 견제와 디아벨제 파괴 내성(필드 지속 효과)까지 무효. [[Azamina Ilia Silvia]]는 자신을 릴리스해 무효하므로 통과. 발동 자체를 드라군·바로네스·레아 실비아가 무효할 수 있다",
+    "rulings": [
+     "supp-5740"
+    ]
+   },
+   "protos": {
+    "rating": "weak",
+    "note_ko": "드라군은 효과 파괴 불가, 하얀 숲 필드는 디아벨제 내성(디아벨 2장 이상)이라 파괴가 거의 통하지 않는다. 엔진만 섞은 덱이면 어둠 선언으로 레아 실비아 정도"
    }
   },
   "sequencing_ko": [

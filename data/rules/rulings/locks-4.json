@@ -1,0 +1,358 @@
+{
+ "_comment": "소환 제한·차원계 카드(크라운 클랜·둠즈·메멘토) 관련 공식 Q&A. 이미 다른 파일에 있는 판정은 테마 연결용으로 다시 실었다.",
+ "sources": {},
+ "rules": [],
+ "rulings": [
+  {
+   "id": "qa-16336",
+   "fid": 16336,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=16336&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Macro Cosmos"
+   ],
+   "handtraps": [
+    "macro_cosmos",
+    "banisher",
+    "fissure",
+    "retaliating_c",
+    "dark_law",
+    "arise_heart"
+   ],
+   "themes": [
+    "clown-crew"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Macro Cosmos]] 적용 중에 '이 카드가 릴리스되었을 경우' 발동하는 효과를 가진 몬스터가 릴리스되면 그 효과를 발동할 수 있나?",
+   "answer_ko": "할 수 있다. 릴리스된 몬스터는 묘지 대신 제외되지만, 릴리스되었을 때의 유발 효과는 그대로 발동한다(같은 취지의 Q&A 16688도 '통상대로 발동하고 처리한다').",
+   "quote_ja": "リリースされた「疾走の暗黒騎士ガイア」は除外される事になりますが、その場合でも『デッキから「カオス・ソルジャー」モンスター１体を手札に加える』効果を発動する事はできます。",
+   "impact_ko": "크라운 클랜의 '릴리스되었을 때' 효과는 차원계 카드로 막지 못한다. 막히는 것은 묘지에서 무언가를 꺼내거나 묘지의 자신을 제외하는 효과뿐이다."
+  },
+  {
+   "id": "qa-22185",
+   "fid": 22185,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22185&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Macro Cosmos"
+   ],
+   "handtraps": [
+    "macro_cosmos",
+    "banisher",
+    "fissure",
+    "dark_law",
+    "arise_heart"
+   ],
+   "themes": [
+    "doomz",
+    "memento"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Macro Cosmos]] 적용 중에 '파괴되었을 경우' 발동하는 몬스터가 파괴되어 제외되면 그 효과를 발동할 수 있나?",
+   "answer_ko": "발동할 수 있다. 질문의 카드는 파괴되어 제외된 자신을 대상으로 고르는 것도 된다. 파괴된 사실은 그대로이고, 묘지 대신 제외될 뿐이다.",
+   "quote_ja": "戦闘または相手の効果によって破壊された「孤高除獣」が除外された際に『そのモンスターを手札に加える』モンスター効果を発動する場合、除外された「孤高除獣」自身を対象に選択する事もできます。",
+   "impact_ko": "둠즈·메멘토의 '효과로 파괴되었을 때' 유발은 매크로 아래서도 발동한다. 막히는 것은 묘지를 거쳐야 하는 다음 동작(묘지 대상 소생·회수·재장착)이다."
+  },
+  {
+   "id": "qa-23264",
+   "fid": 23264,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23264&request_locale=ja",
+   "official": true,
+   "cards": [
+    "D.D. Crow"
+   ],
+   "handtraps": [
+    "dd_crow"
+   ],
+   "themes": [
+    "clown-crew",
+    "memento"
+   ],
+   "topic": "chain",
+   "question_ko": "코스트로 묘지에 간 몬스터의 '묘지로 보내졌을 경우' 유발을, 그 코스트를 낸 효과에 체인한 [[D.D. Crow]]로 제외하면 어떻게 되나?",
+   "answer_ko": "그 유발은 체인 처리가 끝난 뒤 새 체인으로 묘지에서 발동하는 효과라, 그때 묘지에 없으면 발동할 수 없다. 반대로 유발 효과가 이미 발동한 뒤에 [[D.D. Crow]]로 그 카드를 제외해도 (자신이 묘지에 있어야 하는 처리가 아니면) 효과는 처리된다.",
+   "quote_ja": "その一連のチェーン処理後に改めてチェーンブロックを作ってこの効果を発動することになります。また、この効果は墓地で発動できる効果ですので、そのタイミングまでこのカードが墓地に存在していなければ発動できません。",
+   "impact_ko": "크로우는 코스트로 묘지에 간 카드의 유발이 발동하기 전(코스트를 낸 효과에 체인)에 쓰거나, 대상을 잡는 묘지 효과에 체인해서 대상을 지운다. 이미 발동한 비대상 유발에 쓰면 헛방이다."
+  },
+  {
+   "id": "qa-17520",
+   "fid": 17520,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=17520&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mistake"
+   ],
+   "handtraps": [
+    "mistake"
+   ],
+   "themes": [
+    "clown-crew",
+    "doomz",
+    "memento"
+   ],
+   "topic": "chain",
+   "question_ko": "'발동 시 효과 처리로 덱에서 패에 넣는' 카드의 발동에 체인해 [[Mistake]]가 발동하면 어떻게 되나?",
+   "answer_ko": "체인해서 발동한 [[Mistake]]가 먼저 적용되므로, 덱에서 패에 넣는 처리를 할 수 없다. [[Mistake]]가 이미 적용 중이면 그 카드는 발동 자체를 할 수 없다(Q&A 21122도 같은 취지).",
+   "quote_ja": "チェーンして発動した「手違い」の効果によって、「ダイナミスト・チャージ」の発動時の効果処理である『デッキから「ダイナミスト」モンスター１体を手札に加える』効果を適用する事はできません。",
+   "impact_ko": "세트한 미스테이크는 상대의 첫 서치 발동에 체인해도 그 서치를 지운다. 앞면으로 미리 열어 둘 필요는 없다."
+  },
+  {
+   "id": "qa-21471",
+   "fid": 21471,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=21471&request_locale=ja",
+   "official": true,
+   "cards": [
+    "There Can Be Only One"
+   ],
+   "handtraps": [
+    "only_one"
+   ],
+   "themes": [
+    "clown-crew",
+    "doomz"
+   ],
+   "topic": "summon",
+   "question_ko": "[[There Can Be Only One]] 적용 중, 상대 필드에 드래곤족이 있으면 나는 드래곤족을 소환할 수 없나?",
+   "answer_ko": "소환할 수 있다. 제한은 각 플레이어 자신의 필드 기준이다. 내 필드에 이미 같은 종족이 앞면으로 있을 때만 그 종족을 소환·특수 소환할 수 없다.",
+   "quote_ja": "相手のモンスターゾーンにドラゴン族モンスターが表側表示で存在していたとしても、自分はドラゴン族モンスターを召喚・特殊召喚する事ができます。（ただし、自分のモンスターゾーンにドラゴン族モンスターが表側表示で存在している場合には、自分はドラゴン族モンスターを召喚・特殊召喚する事はできません。）",
+   "impact_ko": "센서 만별은 내 몬스터와 같은 종족이어도 상관없다. 상대가 같은 종족을 2장째 내려는 순간만 막는다."
+  },
+  {
+   "id": "qa-23649",
+   "fid": 23649,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23649&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Skill Drain",
+    "Therion \"King\" Regulus"
+   ],
+   "handtraps": [
+    "skill_drain"
+   ],
+   "themes": [
+    "doomz"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Skill Drain]] 발동에 체인해서 [[Therion \"King\" Regulus]]의 '그 효과를 무효로 한다'를 발동하면 어떻게 되나?",
+   "answer_ko": "[[Skill Drain]]은 통상대로 적용된다. 체인 처리 후 마법·함정 존에 있는 동안 계속 적용되는 효과라, 직전 체인 블록의 처리만 무효로 하는 레귤러스로는 막을 수 없다.",
+   "quote_ja": "「大捕り物」や「スキルドレイン」の効果は通常通り適用されます。…「セリオンズ“キング”レギュラス」の②の効果は、直前のチェーンブロックの処理時に適用される効果を無効にする効果ですので、チェーンブロックの処理時以降に適用され続ける効果は無効になりません。",
+   "impact_ko": "둠즈 필드의 레귤러스는 스킬 드레인을 막지 못한다. 레귤러스를 체인으로 소모시킨 셈이 되어 이득이다."
+  },
+  {
+   "id": "qa-13363",
+   "fid": 13363,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=13363&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Dimensional Fissure"
+   ],
+   "handtraps": [
+    "fissure",
+    "macro_cosmos",
+    "banisher"
+   ],
+   "themes": [
+    "doomz"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Dimensional Fissure]] 적용 중에 몬스터 존의 펜듈럼 몬스터가 파괴되면 엑스트라 덱에 앞면으로 가나?",
+   "answer_ko": "가지 않는다. 엑스트라 덱 대신 차원의 틈 효과로 제외된다(펜듈럼 존에서 파괴된 경우는 마법 카드 취급이라 그대로 엑스트라 덱으로 간다, Q&A 13362).",
+   "quote_ja": "モンスターゾーンに存在するペンデュラムモンスターが破壊された場合、そのペンデュラムモンスターはエクストラデッキには加わらず、「次元の裂け目」の効果が適用される事によって除外されます。",
+   "impact_ko": "몬스터 존에서 파괴된 제그레도는 엑스트라 덱으로 가지 못해 '엑스트라 덱에 앞면으로 더해졌을 때' 서치가 나오지 않는다. 펜듈럼 존에서 파괴하면 영향이 없다."
+  },
+  {
+   "id": "qa-7735",
+   "fid": 7735,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=7735&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Macro Cosmos",
+    "Banisher of the Radiance"
+   ],
+   "handtraps": [
+    "macro_cosmos",
+    "banisher",
+    "fissure",
+    "herald",
+    "arise_heart",
+    "dark_law",
+    "retaliating_c"
+   ],
+   "themes": [
+    "clown-crew",
+    "elfnote",
+    "kewl-tune",
+    "red-dragon-archfiend"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Macro Cosmos]]·[[Banisher of the Radiance]] 적용 중 '묘지로 보내고, 그 후 ~한다' 효과를 쓰면, 묘지로 보낼 카드가 제외될 때 뒤의 처리는 되는가?",
+   "answer_ko": "되지 않는다. 묘지로 보내는 카드가 대신 제외되면 '묘지로 보냈다'는 조건을 채우지 못해 뒤의 처리(예시에서는 드로우)를 할 수 없다.",
+   "quote_ja": "「漆黒のトバリ」の効果によって墓地へ送るカードが、「マクロコスモス」等の効果によりゲームから除外された場合、その後、デッキからカードをドローする事ができません。",
+   "impact_ko": "[[Prohibited Power Patron Portal - Terminus]](감옥신 몬스터를 묘지로 → 그 후 서치)와 [[Bone Archfiend]] ②(악마족 튜너를 묘지로 → 레벨 변경)는 발동은 되지만 묘지로 보낼 카드가 제외되어 뒤의 서치·레벨 변경이 일어나지 않는다."
+  },
+  {
+   "id": "qa-10803",
+   "fid": 10803,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=10803&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mistake",
+    "Magical Meltdown"
+   ],
+   "handtraps": [
+    "mistake"
+   ],
+   "themes": [
+    "clown-crew",
+    "doomz",
+    "dracotail",
+    "invoked"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Mistake]]처럼 '드로우 이외로 덱에서 패에 넣을 수 없다'가 적용 중일 때, 발동 시 처리로 덱에서 패에 넣는 카드를 발동할 수 있는가?",
+   "answer_ko": "처리로 반드시 패에 넣어야 하는 카드는 발동 자체를 할 수 없다. '패에 넣을 수 있다'처럼 처리가 임의인 카드는 발동은 되지만 처리 시 적용 중이면 패에 넣지 못한다. 원문은 [[Mistake]](手違い)·드롤 등을 함께 들고, 임의 쪽 예시에 [[Magical Meltdown]](暴走魔法陣)이 명시돼 있다.",
+   "quote_ja": "（A）に該当する例として…「ライオウ」「手違い」「ドロール＆ロックバード」…等の効果が適用されている状況では、発動自体ができません。…（B）に該当する例として…「暴走魔法陣」",
+   "impact_ko": "미스테이크가 앞면이면 [[Ketu Dracotail]](서치가 필수 처리)은 발동 불가, [[Magical Meltdown]]은 발동되지만 알레이스터가 안 들어온다."
+  },
+  {
+   "id": "qa-8773",
+   "fid": 8773,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=8773&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Rivalry of Warlords"
+   ],
+   "handtraps": [
+    "rivalry"
+   ],
+   "themes": [
+    "clown-crew",
+    "doomz",
+    "memento",
+    "sky-striker"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Rivalry of Warlords]] 적용 중 자기 필드에 전사족이 있으면 다른 종족 몬스터를 소환·특소할 수 있나?",
+   "answer_ko": "할 수 없다. 다른 종족 몬스터를 특소하는 카드를 발동하는 것도 할 수 없다. 뒷면이던 다른 종족 몬스터가 앞면이 되면 묘지로 보내진다.",
+   "quote_ja": "戦士族以外のモンスターを特殊召喚するようなカードを発動する事もできません。",
+   "impact_ko": "섬도희 몸(레이·로제·섬도희 토큰)은 전사족, 링크(제로·카가리·시즈쿠 등)는 전부 기계족이라 군웅할거 아래에서는 레이 ①·링크 소환이 막힌다."
+  },
+  {
+   "id": "qa-11272",
+   "fid": 11272,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11272&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Rivalry of Warlords"
+   ],
+   "handtraps": [
+    "rivalry"
+   ],
+   "themes": [
+    "branded",
+    "doomz",
+    "dracotail",
+    "invoked",
+    "memento"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Rivalry of Warlords]] 적용 중, 필드의 전사족 2장으로 전사족이 아닌 엑시즈 몬스터를 엑시즈 소환할 수 있는가?",
+   "answer_ko": "할 수 없다. 필드 몬스터가 전사족이면 엑시즈 소환할 수 있는 것도 전사족뿐이다(소재로 쓰는 몬스터도 판정에 들어간다).",
+   "quote_ja": "戦士族以外のエクシーズモンスターをエクシーズ召喚する事はできません。",
+   "impact_ko": "군웅할거 아래에선 루키아스(마법사족)를 소재로 알자리온(드래곤족)을, 추억의 알레이스터(마법사족)를 소재로 소라트(화염족)를 낼 수 없다."
+  },
+  {
+   "id": "qa-10427",
+   "fid": 10427,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=10427&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Gozen Match"
+   ],
+   "handtraps": [
+    "gozen"
+   ],
+   "themes": [
+    "branded",
+    "doomz",
+    "dracotail",
+    "invoked",
+    "memento"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Gozen Match]] 적용 중, 필드의 몬스터를 소재로 써서 그 몬스터와 다른 속성의 엑스트라 덱 몬스터를 소환할 수 있는가?",
+   "answer_ko": "할 수 없다. 원문 사례는 어둠 몬스터 1장만 있을 때 그것을 링크 소재로 화염 링크 몬스터를 링크 소환할 수 없다는 것. 다만 자신을 '코스트로 릴리스'해 필드가 비게 되는 효과라면 다른 속성도 특소할 수 있다.",
+   "quote_ja": "「閃刀姫－レイ」をリンク素材として炎属性の「閃刀姫－カガリ」をリンク召喚することはできません。",
+   "impact_ko": "어전시합 아래에선 소재로 쓸 필드 몬스터도 속성 판정에 들어간다. 추억의 알레이스터(어둠) → 소라트(빛), 무루루(어둠) → 드래곤테일 융합이 막힌다."
+  },
+  {
+   "id": "qa-12759",
+   "fid": 12759,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12759&request_locale=ja",
+   "official": true,
+   "cards": [
+    "There Can Be Only One"
+   ],
+   "handtraps": [
+    "only_one"
+   ],
+   "themes": [
+    "branded",
+    "doomz",
+    "dracotail",
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "[[There Can Be Only One]] 적용 중, 필드의 몬스터를 링크 소재로 그 몬스터와 같은 종족의 링크 몬스터를 링크 소환할 수 있는가?",
+   "answer_ko": "할 수 없다. 자신 몬스터 존에 앞면으로 있는 몬스터와 같은 종족의 링크 소환은 그 몬스터를 소재로 쓰더라도 행할 수 없다.",
+   "quote_ja": "自身のモンスターゾーンに表側表示で存在するモンスターと同じ種族のモンスターのリンク召喚を行う事自体ができません。",
+   "impact_ko": "센서 만별 아래에선 마법사족을 소재로 마법사족(아르테미스·검은 용의 에클레시아)을, 드래곤족을 소재로 드래곤족(알자리온)을 낼 수 없다."
+  },
+  {
+   "id": "qa-15449",
+   "fid": 15449,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=15449&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Retaliating \"C\""
+   ],
+   "handtraps": [
+    "retaliating_c"
+   ],
+   "themes": [
+    "clown-crew",
+    "doomz",
+    "elfnote",
+    "kewl-tune",
+    "memento",
+    "red-dragon-archfiend"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Retaliating \"C\"]]는 어떤 마법에 반응해 패에서 특소할 수 있는가?",
+   "answer_ko": "특수 소환하는 처리를 포함한 마법 카드의 '카드의 발동'에 직접 체인할 때만 쓸 수 있다. 앞면 마법의 효과 발동(카드의 발동이 아닌 것)이나, 카드의 발동 시에는 특소를 포함하지 않는 마법에는 쓸 수 없다.",
+   "quote_ja": "モンスターを特殊召喚する効果処理を含む魔法カードのカードの発動に直接チェーンして発動する効果です。…魔法カードの、特殊召喚する効果の発動にチェーンして…発動する事はできません。",
+   "impact_ko": "[[Elfnotes: Welcome Home]](디나가 덱에서 앞면으로 놓음)·[[JJ \"Kewl Tune\"]] 릴리스 효과·[[Crimson Gaia]]는 대상이 아니다. 이 세 테마의 1턴 전개에는 응전의 G를 꺼낼 마법 발동이 거의 없다. [[Kewl Tune Synchro]](서치 후 싱크로 소환)를 내 턴에 발동할 때가 거의 유일한 기회."
+  },
+  {
+   "id": "qa-14540",
+   "fid": 14540,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=14540&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Maxx \"C\"",
+    "Forbidden Droplet"
+   ],
+   "handtraps": [
+    "maxxc",
+    "droplet"
+   ],
+   "themes": [
+    "doomz"
+   ],
+   "topic": "cost",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외된다' 효과 적용 중에 '묘지로 보내서' 발동하는 효과를 쓸 수 있나?",
+   "answer_ko": "못 한다. 코스트로 카드를 묘지에 보낼 수 없기 때문이다. [[Maxx \"C\"]]·[[Forbidden Droplet]]이 예로 명시돼 있다.",
+   "impact_ko": "[[Macro Cosmos]]류 아래서는 증G·금지된 일적을 쓸 수 없다. 패에서 '버리는' 우라라·마루챠미와 구분된다."
+  }
+ ]
+}

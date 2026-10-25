@@ -784,6 +784,408 @@
    "fallback_ko": "power_vice 라인 2단계와 같다."
   },
   {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 8,
+   "target_card": "Vision Resonator",
+   "timing_ko": "세트해 뒀다면 [[Power Vice Dragon]] 서치에 체인해 발동 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "7단계 [[Bone Archfiend]] ①은 '패·필드의 카드 1장을 묘지로 보내는' 코스트를 낼 수 없어 발동 불가이고, 비전이 묘지에 가더라도 제외라 8단계 서치가 없다. 소울도 [[The Crimson King]]의 소재로 제외되어 파괴 대체가 없다.",
+   "fallback_ko": "[[The Crimson King]] 서치로 [[Crimson Gaia]]→[[Darkness Resonator]]를 가져와도 레벨을 맞출 몬스터가 없어 크림즌 킹 + 다크니스 정도에서 끝난다. 알버스 루트는 1단계 [[Fallen of the White Dragon]] ①(알비온을 묘지로)이 코스트를 낼 수 없어 시작 불가.",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "banisher",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 8,
+   "target_card": "Vision Resonator",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Macro Cosmos]]와 같다(본 데몬 ① 코스트 불가, 비전 서치 없음).",
+   "fallback_ko": "알버스 루트도 시작 불가.",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 2,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 서치 처리 후 반응",
+   "why_ko": "파워 바이스 서치에 반응해 패 1장 무작위 제외. 이후는 [[Macro Cosmos]]와 같이 본 데몬 ①·비전·싱클론·레드 라이징이 전부 막힌다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 8,
+   "target_card": "Vision Resonator",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘. 퀵 제외는 [[The Crimson King]]에",
+   "why_ko": "[[Macro Cosmos]]와 같은 지점.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 15,
+   "target_card": "Red Rising Dragon",
+   "timing_ko": "[[Red Rising Dragon]]의 소환 유발(묘지의 [[Synkron Resonator]] 대상) 발동에 체인해 그 싱클론을 제외",
+   "why_ko": "대상이 없어져 소생이 불발 → 레벨 1 튜너가 없어 [[Crimson Blade Dragon]]·디스 파테르·켓차코아틀이 모두 안 나온다. [[Ghost Belle & Haunted Mansion]]과 같은 지점이지만 묘지 카드를 지우는 것이라 재사용도 막는다.",
+   "fallback_ko": "크림즌 킹·레드 라이징·가이아가 남는다. 묘지에 다른 레조네이터가 있으면 처리 전에 대상이 정해져 있어 바꿀 수 없다."
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 5,
+   "target_card": "The Crimson King",
+   "timing_ko": "세트해 뒀다면 상대 스탠바이 페이즈나 [[Power Vice Dragon]] 서치에 체인해 '싱크로' 선언",
+   "why_ko": "[[The Crimson King]]부터 싱크로가 하나도 안 나온다. 파워 바이스·소울 서치 제약으로 엑스트라는 어둠 싱크로만이라 우회도 없다.",
+   "fallback_ko": "소울·본 데몬 서치까지만.",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "fallen",
+   "step": 3,
+   "target_card": "The Crimson King",
+   "timing_ko": "세트해 뒀다면 [[Fallen of the White Dragon]] 소환 유발에 체인해 '싱크로' 선언",
+   "why_ko": "크림즌 킹 싱크로 불가. 이 루트는 '엑스트라는 레벨 8 융합·싱크로만'이라 융합으로 우회하려면 융합 마법이 필요하다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "maxxc_stop",
+   "step": 5,
+   "target_card": "The Crimson King",
+   "timing_ko": "세트해 뒀다면 파워 바이스 서치에 체인해 '싱크로' 선언",
+   "why_ko": "power_vice 5단계와 같다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  {
+   "handtrap": "protos",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 1,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "선공 1턴 내 메인 페이즈에 '어둠' 선언 → 상대 턴 종료시까지 서로 어둠 특소 불가",
+   "why_ko": "[[Power Vice Dragon]] 패 특소부터 막히고, 레조네이터·싱크로가 전부 어둠이다.",
+   "fallback_ko": "[[Soul Resonator]](화염) 일반 소환 → 서치 정도.",
+   "rulings": [
+    "supp-14994"
+   ]
+  },
+  {
+   "handtrap": "protos",
+   "severity": "critical",
+   "line": "fallen",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "선공 1턴에 '어둠' 선언",
+   "why_ko": "[[Fallen of the White Dragon]](어둠) 특소 불가.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-14994"
+   ]
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 1,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Power Vice Dragon]](어둠)을 특소할 수 없다. 이 덱의 특소 대상은 거의 전부 어둠.",
+   "fallback_ko": "소울 일반 소환 → 서치뿐.",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "critical",
+   "line": "fallen",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "낙윤(어둠) 특소 불가. 에클레시아(빛)는 낙윤 효과로 나와야 한다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "critical",
+   "line": "maxxc_stop",
+   "step": 1,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "power_vice 1단계와 같다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 1,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Barrier Statue of the Heavens]]와 같다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "fallen",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "낙윤 특소 불가.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "maxxc_stop",
+   "step": 1,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "power_vice 1단계와 같다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 1,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Barrier Statue of the Heavens]]와 같다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "fallen",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "낙윤 특소 불가.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "maxxc_stop",
+   "step": 1,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "power_vice 1단계와 같다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 1,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "파워 바이스 패 특소를 발동할 수 없다.",
+   "fallback_ko": "소울 일반 소환 → 서치뿐.",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "fallen",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "낙윤 특소 불가.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "maxxc_stop",
+   "step": 1,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "power_vice 1단계와 같다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 1,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Vanity's Fiend]]와 같다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "fallen",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Vanity's Fiend]]와 같다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "maxxc_stop",
+   "step": 1,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Vanity's Fiend]]와 같다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 2,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "세트해 뒀다면 이 서치 효과 발동에 체인해 발동 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "패 특소(①)는 막지 못하지만 필드에서 발동한 ② 서치가 처리되지 않는다. 1장 초동이면 레조네이터를 못 가져와 끝.",
+   "fallback_ko": "패에 레조네이터가 있으면 일반 소환해도 소울의 서치도 필드 효과라 무효. 크림즌 킹은 나오지만 서치가 무효.",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "fallen",
+   "step": 2,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "세트해 뒀다면 이 효과 발동에 체인",
+   "why_ko": "낙윤의 에클레시아 특소(필드 효과)가 무효.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "maxxc_stop",
+   "step": 2,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "세트해 뒀다면 이 서치에 체인",
+   "why_ko": "power_vice 2단계와 같다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 2,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "세트해 뒀다면 이 서치 효과 발동에 체인 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "레조네이터를 못 가져와 1장 초동이 끝난다. 이후 소울·크림즌 킹·비전·가이아 서치도 전부 막힘.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-22433"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "fallen",
+   "step": 4,
+   "target_card": "The Crimson King",
+   "timing_ko": "세트해 뒀다면 이 서치에 체인 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "낙윤→에클레시아(덱 특소)→크림즌 킹까지는 되지만 크림즌 킹 서치·가이아 서치가 막혀 파워 바이스 파트로 넘어가지 못한다.",
+   "fallback_ko": "크림즌 킹 1장 + 알비온 엔드 페이즈 효과(덱에서 세트 모드는 가능).",
+   "rulings": [
+    "qa-22433"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "maxxc_stop",
+   "step": 2,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "세트해 뒀다면 이 서치에 체인",
+   "why_ko": "power_vice 2단계와 같다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-22433"
+   ]
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "critical",
+   "line": "power_vice",
+   "step": 11,
+   "target_card": "Darkness Resonator",
+   "timing_ko": "세트해 뒀다면 파워 바이스 서치에 체인 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Bone Archfiend]](악마족)가 있는 동안 [[Darkness Resonator]](악마족)를 특소할 수 없어 레드 라이징이 안 나온다. 끝까지 가더라도 26단계 어비스는 디스 파테르와 같은 드래곤족이라 불가, 30단계 켓차코아틀의 일괄 소생은 드래곤족이 1장만 남는다.",
+   "fallback_ko": "크림즌 킹 + 악마족 1장 정도로 줄어든다.",
+   "rulings": [
+    "supp-13447"
+   ]
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "critical",
+   "line": "fallen",
+   "step": 7,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[The Crimson King]](드래곤족)이 있는 동안 [[Power Vice Dragon]](드래곤족)을 특소할 수 없다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-13447"
+   ]
+  },
+  {
    "handtrap": "impulse",
    "severity": "strong",
    "line": "power_vice",
@@ -969,6 +1371,119 @@
    ]
   },
   {
+   "handtrap": "dd_crow",
+   "severity": "strong",
+   "line": "power_vice",
+   "step": 18,
+   "target_card": "Synkron Resonator",
+   "timing_ko": "[[Synkron Resonator]]의 묘지 회수(묘지의 [[Darkness Resonator]] 대상)에 체인해 다크니스를 제외",
+   "why_ko": "다크니스 회수가 불발되어 24단계 추가 일반 소환 소재가 없다 → [[Bystial Dis Pater]]·켓차코아틀이 안 나온다.",
+   "fallback_ko": "[[Crimson Blade Dragon]]·루벨리온 쪽은 남는다."
+  },
+  {
+   "handtrap": "herald",
+   "severity": "strong",
+   "line": "power_vice",
+   "step": 2,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 서치 효과 발동에 체인해 릴리스",
+   "why_ko": "파워 바이스 서치를 무효+파괴해 1장 초동을 끊는다. 무효를 다른 데 썼더라도 13단계 본 데몬 ②의 튜너가 덱→묘지 대신 제외되어 레벨 변경이 일어나지 않는다.",
+   "fallback_ko": "패에 레조네이터가 있으면 재개. 본 데몬 ①은 패의 몬스터를 코스트로 못 쓰지만 필드의 가이아 등 마함으로는 가능.",
+   "rulings": [
+    "supp-11384",
+    "qa-23810"
+   ]
+  },
+  {
+   "handtrap": "herald",
+   "severity": "strong",
+   "line": "fallen",
+   "step": 2,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 효과 발동에 체인",
+   "why_ko": "낙윤의 에클레시아 특소를 무효+파괴. 알비온은 엑스트라→묘지라 제외되지 않는다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-11384"
+   ]
+  },
+  {
+   "handtrap": "herald",
+   "severity": "strong",
+   "line": "maxxc_stop",
+   "step": 2,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "내 필드에 미리 앞면이면 이 서치에 체인",
+   "why_ko": "power_vice 2단계와 같다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "fissure",
+   "severity": "strong",
+   "line": "power_vice",
+   "step": 8,
+   "target_card": "Vision Resonator",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "본 데몬 ①은 마함을 코스트로 보내면 쓸 수 있지만 비전(몬스터)은 제외되어 서치가 없다. 13단계 본 데몬 ②도 튜너가 제외되어 레벨 변경이 일어나지 않고, 레드 라이징 소생·싱클론 회수 대상도 없다.",
+   "fallback_ko": "다크니스(3)+본 데몬(4)으로 [[Crimson Blade Dragon]]까지는 갈 수 있다. 알버스 루트는 알비온을 코스트로 못 보내 시작 불가.",
+   "rulings": [
+    "qa-14540",
+    "qa-23810"
+   ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "strong",
+   "line": "power_vice",
+   "step": 3,
+   "target_card": "Soul Resonator",
+   "timing_ko": "세트해 뒀다면 파워 바이스 서치에 체인 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Power Vice Dragon]](드래곤족)이 있는 동안 [[Soul Resonator]](악마족)를 일반 소환할 수 없다. 튜너가 전부 악마족이라 드래곤족 비튜너와 싱크로할 수 없다.",
+   "fallback_ko": "소울 + 본 데몬(악마족끼리)으로 [[Crimson Blade Dragon]]을 노리는 정도.",
+   "rulings": [
+    "supp-5622"
+   ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "strong",
+   "line": "fallen",
+   "step": 2,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "낙윤(드래곤족)이 있는 동안 에클레시아(마법사족)를 특소할 수 없다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-5622"
+   ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "strong",
+   "line": "maxxc_stop",
+   "step": 3,
+   "target_card": "Soul Resonator",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "power_vice 3단계와 같다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-5622"
+   ]
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "strong",
+   "line": "fallen",
+   "step": 2,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "낙윤(어둠)이 있는 동안 에클레시아(빛)를 특소할 수 없어 알버스 루트가 끊긴다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-7934"
+   ]
+  },
+  {
    "handtrap": "meowls",
    "severity": "ok",
    "line": "power_vice",
@@ -1022,6 +1537,19 @@
    "fallback_ko": "에클레시아의 퀵 효과(자신 릴리스 → 패·덱의 '알버스의 낙윤' 특소)로 다른 낙윤을 꺼낼 수 있으면 이어 간다. 덱에 낙윤이 더 없으면 에클레시아 1장."
   },
   {
+   "handtrap": "gozen",
+   "severity": "ok",
+   "line": "power_vice",
+   "step": 3,
+   "target_card": "Soul Resonator",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "파워 바이스(어둠)가 있는 동안 소울(화염)을 일반 소환할 수 없다.",
+   "fallback_ko": "파워 바이스가 [[Darkness Resonator]] 등 어둠 레조네이터를 서치하면 그대로 이어진다. 소울의 파괴 대체만 사라짐.",
+   "rulings": [
+    "supp-7934"
+   ]
+  },
+  {
    "handtrap": "ogre",
    "severity": "bad",
    "line": "power_vice",
@@ -1033,6 +1561,29 @@
    "rulings": [
     "supp-19014",
     "qa-23986"
+   ]
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "bad",
+   "line": "power_vice",
+   "step": 1,
+   "target_card": "Power Vice Dragon",
+   "timing_ko": "—",
+   "why_ko": "레드 데몬즈는 거의 전부 어둠이라 [[Barrier Statue of the Abyss]]는 소울(일반 소환)·루벨리온 정도만 건드린다. [[Barrier Statue of the Heavens]]·[[Barrier Statue of the Inferno]]·[[Barrier Statue of the Torrent]]를 쓸 것.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "retaliating_c",
+   "severity": "bad",
+   "line": "power_vice",
+   "step": 9,
+   "target_card": "Crimson Gaia",
+   "timing_ko": "—",
+   "why_ko": "[[Crimson Gaia]]는 서치만 하는 지속 마법이라 [[Retaliating \"C\"]]를 꺼낼 수 없다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-15449"
    ]
   }
  ],
@@ -1185,6 +1736,152 @@
     "supp-19014",
     "supp-22580"
    ]
+  },
+  "macro_cosmos": {
+   "rating": "critical",
+   "note_ko": "묘지가 엔진의 중심인 덱. [[Bone Archfiend]] ①(카드 1장을 묘지로 보내는 코스트)·[[Fallen of the White Dragon]] ①(엑스트라의 알비온을 묘지로)·[[The Bystial Lubellion]](자신을 묘지로)이 발동 불가, [[Bone Archfiend]] ②는 튜너가 제외되어 레벨 변경이 없고, 비전·싱클론 묘지 유발과 [[Red Rising Dragon]] 소생 대상도 사라진다. 묘지의 [[Soul Resonator]] 파괴 대체도 없다",
+   "rulings": [
+    "qa-14540",
+    "qa-7735",
+    "qa-23810"
+   ]
+  },
+  "fissure": {
+   "rating": "strong",
+   "note_ko": "몬스터만 제외. 비전·싱클론 유발, 레드 라이징 소생, 소울의 파괴 대체가 사라지고 [[Bone Archfiend]] ②는 레벨 변경이 없다. [[Bone Archfiend]] ①은 마함([[Crimson Gaia]])을 코스트로 보낼 수 있어 [[Crimson Blade Dragon]] 정도까지는 간다. 알버스 루트는 알비온을 코스트로 못 보내 시작 불가",
+   "rulings": [
+    "qa-14540",
+    "qa-23810"
+   ]
+  },
+  "banisher": {
+   "rating": "critical",
+   "note_ko": "[[Macro Cosmos]]와 같다. 1턴째 레드 데몬즈가 몬스터를 치우는 수단이 거의 없어 안정적",
+   "rulings": [
+    "qa-14540",
+    "qa-7735"
+   ]
+  },
+  "herald": {
+   "rating": "strong",
+   "note_ko": "무효는 [[Power Vice Dragon]] 서치(1순위)에. 덱·패→묘지 몬스터 제외라 [[Bone Archfiend]] ②의 튜너 덤핑 뒤 레벨 변경·[[Vision Resonator]] 서치가 없고, 본 데몬 ①은 패의 몬스터를 코스트로 못 쓴다. 싱크로 소재·엑스트라→묘지(알비온)는 막지 못함",
+   "rulings": [
+    "supp-11384",
+    "qa-23810"
+   ]
+  },
+  "retaliating_c": {
+   "rating": "weak",
+   "note_ko": "1턴 전개의 마법은 [[Crimson Gaia]](서치)뿐이고 특소를 포함하지 않는다. 세트한 [[The Fallen & The Virtuous]] 소생 모드 정도",
+   "rulings": [
+    "qa-15449"
+   ]
+  },
+  "dd_crow": {
+   "rating": "critical",
+   "note_ko": "[[Red Rising Dragon]]의 소생 효과(묘지의 레조네이터 대상)에 체인해 [[Synkron Resonator]]를 제외 → 불발. [[Ghost Belle & Haunted Mansion]]과 같은 지점이라 [[Crimson Blade Dragon]] 이후가 없다. 놓쳤다면 싱클론의 묘지 회수(대상) 체인으로 [[Darkness Resonator]] 제외"
+  },
+  "dark_law": {
+   "rating": "critical",
+   "note_ko": "[[Macro Cosmos]]와 같은 지점에, 파워 바이스·소울·크림즌 킹·가이아 서치마다 패 1장 무작위 제외(1턴 1번). HERO 덱 전용",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  "arise_heart": {
+   "rating": "critical",
+   "note_ko": "[[Macro Cosmos]]와 같은 지점. 소재 3개로 [[The Crimson King]] 등을 퀵 뒷면 제외",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  "dim_barrier": {
+   "rating": "critical",
+   "note_ko": "'싱크로' 선언. 엑스트라가 전부 싱크로라 [[The Crimson King]]부터 안 나오고, 이 턴 '엑스트라는 어둠 싱크로만' 제약 때문에 다른 엑스트라로 우회도 못 한다. 스탠바이나 파워 바이스 서치에 체인",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  "protos": {
+   "rating": "critical",
+   "note_ko": "선공 1턴에 '어둠' 선언(프로토스 자신은 효과 파괴 내성) → 상대 턴 종료시까지 어둠 특소 불가. [[Power Vice Dragon]]·레조네이터·싱크로가 전부 어둠이라 소울(화염) 일반 소환 정도만 남는다",
+   "rulings": [
+    "supp-14994"
+   ]
+  },
+  "statue_abyss": {
+   "rating": "bad",
+   "note_ko": "덱이 거의 전부 어둠이라 [[Soul Resonator]](화염·일반 소환)·[[The Bystial Lubellion]](빛)만 영향. 오히려 내 전개만 묶는다"
+  },
+  "statue_heavens": {
+   "rating": "critical",
+   "note_ko": "어둠 몬스터를 특소할 수 없어 [[Power Vice Dragon]]·[[Fallen of the White Dragon]] 패 특소부터 막힌다. 엑스트라 싱크로도 전부 어둠",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  "statue_inferno": {
+   "rating": "critical",
+   "note_ko": "[[Barrier Statue of the Heavens]]와 같다. 화염은 일반 소환하는 [[Soul Resonator]]뿐",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  "statue_torrent": {
+   "rating": "critical",
+   "note_ko": "[[Barrier Statue of the Heavens]]와 같다. 물 몬스터가 없다",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  "vanity_fiend": {
+   "rating": "critical",
+   "note_ko": "[[Power Vice Dragon]]·[[Fallen of the White Dragon]]의 패 특소부터 막히고 싱크로도 불가",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  "vanity_ruler": {
+   "rating": "critical",
+   "note_ko": "[[Vanity's Fiend]]와 같다(상대만 특소 불가)",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  "skill_drain": {
+   "rating": "critical",
+   "note_ko": "패에서 쓰는 효과([[Power Vice Dragon]]·[[Bone Archfiend]] ①·[[Darkness Resonator]] 자가 특소)와 묘지 유발(비전·싱클론)은 되지만, 특소 후의 서치·소환 유발(파워 바이스 ②·소울·크림즌 킹·레드 라이징·크림즌 블레이드·켓차코아틀)이 전부 필드 효과라 무효. 세트해 뒀다면 파워 바이스 서치에 체인",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  "mistake": {
+   "rating": "critical",
+   "note_ko": "초동이 [[Power Vice Dragon]] 서치→소울 서치→크림즌 킹 서치→가이아 서치로 이어지는 서치 덱. 세트해 뒀다면 파워 바이스 서치 발동에 체인. 알버스 루트도 에클레시아 덱 특소까지만 되고 크림즌 킹 서치에서 멈춘다",
+   "rulings": [
+    "qa-22433"
+   ]
+  },
+  "rivalry": {
+   "rating": "strong",
+   "note_ko": "튜너는 전부 악마족(레조네이터), 비튜너·싱크로는 드래곤족이라 같은 필드에 세울 수 없다. 파워 바이스가 있는 동안 [[Soul Resonator]] 일반 소환 불가. 악마족끼리(소울+본 데몬→[[Crimson Blade Dragon]])로 일부 우회",
+   "rulings": [
+    "supp-5622"
+   ]
+  },
+  "gozen": {
+   "rating": "ok",
+   "note_ko": "거의 어둠 단일이라 막히는 건 [[Soul Resonator]](화염)·[[Incredible Ecclesia, the Virtuous]](빛)·루벨리온(빛) 정도. 파워 바이스는 소울 대신 어둠 레조네이터를 서치해 우회한다. 알버스 루트는 에클레시아를 못 내 크게 막힘",
+   "rulings": [
+    "supp-7934"
+   ]
+  },
+  "only_one": {
+   "rating": "critical",
+   "note_ko": "드래곤족 싱크로 여러 장과 악마족 레조네이터 여러 장을 동시에 세우는 덱. 본 데몬이 있는 동안 [[Darkness Resonator]](악마족) 특소 불가, 디스 파테르가 있는 동안 어비스(드래곤족) 불가, [[Crimson Dragon Quetzalcoatl]]의 일괄 소생은 1장만 남는다",
+   "rulings": [
+    "supp-13447"
+   ]
   }
  },
  "notes_ko": [
@@ -1276,6 +1973,10 @@
        {
         "id": "ttt",
         "note_ko": "켓차코아틀·어비스가 내 메인 페이즈에 효과를 쓴 뒤 발동해 켓차코아틀을 빼앗는다. 어비스가 남아 있으면 이 카드가 무효당할 수 있다"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "세트해 둔 경우만(후공 1턴 불가). '싱크로' 선언으로 필드 효과 무효"
        }
       ],
       "bait_ko": "되돌릴 다른 드래곤족 싱크로가 필요하다. 덜 중요한 몬스터 효과(일반 소환 유발 등)를 먼저 써서 무효를 받아내면 어비스나 크림즌 블레이드 1장이 같이 엑스트라로 돌아간다."
@@ -1317,6 +2018,10 @@
        {
         "id": "ultimate_slayer",
         "note_ko": "몬스터 효과로 체인 불가"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "세트해 둔 경우만(후공 1턴 불가). '싱크로' 선언으로 필드 효과 무효"
        }
       ],
       "bait_ko": "아무 앞면 카드(지속 마법, 일반 소환한 몬스터의 기동 효과)를 먼저 써서 어비스의 무효를 받아낸다. 어비스가 소모되기 전에는 [[Lightning Storm]]·[[Raigeki]]·[[Book of Eclipse]] 같은 일반·속공 마법이 대상으로 잡혀 무효된다."
@@ -1351,6 +2056,10 @@
        {
         "id": "crown",
         "note_ko": "무효 + 소재 봉쇄"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "세트해 둔 경우만(후공 1턴 불가). '싱크로' 선언으로 필드 효과 무효"
        }
       ],
       "bait_ko": "제외된 카드가 하나도 없으면 ②를 발동할 수 없다. 내 쪽에서 카드를 제외하는 수(마그나무트·드루이드브룸·길항승부 등)는 디스 파테르를 처리한 뒤로 미룬다. 크림즌 킹이 자신을 제외하면 켜진다."
@@ -1385,6 +2094,14 @@
        {
         "id": "impulse",
         "note_ko": "특소를 포함한 효과라 무효. 크림즌 킹은 코스트로 이미 제외되어 레드 데몬즈만 안 나온다"
+       },
+       {
+        "id": "statue_heavens",
+        "note_ko": "앞면이면 레드 데몬즈(어둠)를 특소할 수 없어 반응 불가"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "세트해 둔 경우만(후공 1턴 불가). '싱크로' 선언으로 필드 효과 무효"
        }
       ],
       "bait_ko": "크림즌 킹이 자신을 제외하면 소울 대체가 꺼지고(레드 데몬즈가 대신 켜 둠) 디스 파테르 ②의 대상이 생긴다. 레드 데몬즈는 파괴 내성뿐이니 릴리스·바운스·덱으로 되돌리기로 처리."
@@ -1439,6 +2156,10 @@
        {
         "id": "ultimate_slayer",
         "note_ko": "크림즌 킹을 엑스트라로 되돌려 조건 해제"
+       },
+       {
+        "id": "dd_crow",
+        "note_ko": "파괴 효과 전에 묘지의 소울을 제외해 대체를 없앤다"
        }
       ],
       "bait_ko": "대체는 1턴 1번. 작은 파괴 효과를 먼저 던져 소울을 소모시킨 뒤 [[Raigeki]]·[[Lightning Storm]] 같은 전체 파괴를 쓴다. 크림즌 킹이 효과로 자신을 제외해도 나온 레드 데몬즈가 조건을 이어받는다.",
@@ -1498,6 +2219,10 @@
        {
         "id": "impulse",
         "note_ko": "특소를 포함한 효과라 무효. 크림즌 킹은 코스트로 이미 제외되어 레드 데몬즈만 안 나온다"
+       },
+       {
+        "id": "statue_heavens",
+        "note_ko": "앞면이면 레드 데몬즈(어둠)를 특소할 수 없어 반응 불가"
        }
       ],
       "bait_ko": "크림즌 킹이 자신을 제외하면 소울 대체가 꺼지고(레드 데몬즈가 대신 켜 둠) 디스 파테르 ②의 대상이 생긴다. 레드 데몬즈는 파괴 내성뿐이니 릴리스·바운스·덱으로 되돌리기로 처리."
@@ -1531,6 +2256,10 @@
        {
         "id": "ultimate_slayer",
         "note_ko": "크림즌 킹을 엑스트라로 되돌려 조건 해제"
+       },
+       {
+        "id": "dd_crow",
+        "note_ko": "파괴 효과 전에 묘지의 소울을 제외해 대체를 없앤다"
        }
       ],
       "bait_ko": "대체는 1턴 1번. 작은 파괴 효과를 먼저 던져 소울을 소모시킨 뒤 [[Raigeki]]·[[Lightning Storm]] 같은 전체 파괴를 쓴다. 크림즌 킹이 효과로 자신을 제외해도 나온 레드 데몬즈가 조건을 이어받는다.",
@@ -1581,6 +2310,10 @@
        {
         "id": "impulse",
         "note_ko": "특소를 포함한 효과라 무효. 크림즌 킹은 코스트로 이미 제외되어 레드 데몬즈만 안 나온다"
+       },
+       {
+        "id": "statue_heavens",
+        "note_ko": "앞면이면 레드 데몬즈(어둠)를 특소할 수 없어 반응 불가"
        }
       ],
       "bait_ko": "크림즌 킹이 자신을 제외하면 소울 대체가 꺼지고(레드 데몬즈가 대신 켜 둠) 디스 파테르 ②의 대상이 생긴다. 레드 데몬즈는 파괴 내성뿐이니 릴리스·바운스·덱으로 되돌리기로 처리."
@@ -1650,6 +2383,10 @@
        {
         "id": "ultimate_slayer",
         "note_ko": "크림즌 킹을 엑스트라로 되돌려 조건 해제"
+       },
+       {
+        "id": "dd_crow",
+        "note_ko": "파괴 효과 전에 묘지의 소울을 제외해 대체를 없앤다"
        }
       ],
       "bait_ko": "대체는 1턴 1번. 작은 파괴 효과를 먼저 던져 소울을 소모시킨 뒤 [[Raigeki]]·[[Lightning Storm]] 같은 전체 파괴를 쓴다. 크림즌 킹이 효과로 자신을 제외해도 나온 레드 데몬즈가 조건을 이어받는다.",
@@ -1725,6 +2462,10 @@
        {
         "id": "impulse",
         "note_ko": "특소를 포함한 효과라 무효. 크림즌 킹은 코스트로 이미 제외되어 레드 데몬즈만 안 나온다"
+       },
+       {
+        "id": "statue_heavens",
+        "note_ko": "앞면이면 레드 데몬즈(어둠)를 특소할 수 없어 반응 불가"
        }
       ],
       "bait_ko": "크림즌 킹이 자신을 제외하면 소울 대체가 꺼지고(레드 데몬즈가 대신 켜 둠) 디스 파테르 ②의 대상이 생긴다. 레드 데몬즈는 파괴 내성뿐이니 릴리스·바운스·덱으로 되돌리기로 처리."
@@ -1816,6 +2557,10 @@
        {
         "id": "ultimate_slayer",
         "note_ko": "크림즌 킹을 엑스트라로 되돌려 조건 해제"
+       },
+       {
+        "id": "dd_crow",
+        "note_ko": "파괴 효과 전에 묘지의 소울을 제외해 대체를 없앤다"
        }
       ],
       "bait_ko": "대체는 1턴 1번. 작은 파괴 효과를 먼저 던져 소울을 소모시킨 뒤 [[Raigeki]]·[[Lightning Storm]] 같은 전체 파괴를 쓴다. 크림즌 킹이 효과로 자신을 제외해도 나온 레드 데몬즈가 조건을 이어받는다.",
@@ -1994,6 +2739,34 @@
    "nibiru": {
     "rating": "bad",
     "note_ko": "상대가 내 턴에 5회 소환하지 않는다."
+   },
+   "dd_crow": {
+    "rating": "ok",
+    "note_ko": "[[The Crimson King]]·레드 데몬즈가 앞면일 때 [[Soul Resonator]]가 묘지에서 제외되며 파괴를 대신한다. 파괴 효과 전에 크로우로 묘지의 소울을 지워 두면 대체가 없다. 크로우 자체는 몬스터 효과라 [[Crimson Dragon Quetzalcoatl]]·[[Bystial Dis Pater]]·크림즌 킹의 반응을 받는다(미끼로도 쓸 만함)",
+    "rulings": [
+     "supp-19014"
+    ]
+   },
+   "protos": {
+    "rating": "strong",
+    "note_ko": "'어둠' 선언 → 켓차코아틀·어비스·디스 파테르·크림즌 킹·크림즌 블레이드를 한 번에 파괴하고 다음 턴 끝까지 서로 어둠 특소 불가(상대 덱 거의 전부). 특소 절차는 무효되지 않지만 ②는 몬스터 효과라 켓차코아틀·디스 파테르·어비스가 무효하고, 크림즌 킹은 체인해 레드 데몬즈(상대 효과로 파괴되지 않음)를 낸다 → 무효를 먼저 소모시킨 뒤. 소울 대체는 1장만 지킨다",
+    "rulings": [
+     "supp-14994"
+    ]
+   },
+   "statue_heavens": {
+    "rating": "ok",
+    "note_ko": "일반 소환해 두면 어둠 특소 불가 → [[The Crimson King]]의 레드 데몬즈 특소, [[King's Resonance]]의 어둠 싱크로 소생이 안 된다. 무효 효과(켓차코아틀·어비스·디스 파테르)는 그대로라 보드 해제 카드는 아님. [[Barrier Statue of the Inferno]]·[[Barrier Statue of the Torrent]]도 같음",
+    "rulings": [
+     "qa-23163"
+    ]
+   },
+   "dim_barrier": {
+    "rating": "strong",
+    "note_ko": "후공 1턴에는 세트한 턴이라 못 쓴다. 이미 세트해 둔 다음 내 턴이라면 '싱크로' 선언으로 켓차코아틀·어비스·디스 파테르·크림즌 킹의 필드 효과를 이번 턴 전부 무효(묘지 소울 대체는 남음). 함정이라 어비스가 대상으로 잡아 무효할 수 있으니 어비스를 먼저 소모",
+    "rulings": [
+     "supp-12668"
+    ]
    }
   },
   "sequencing_ko": [

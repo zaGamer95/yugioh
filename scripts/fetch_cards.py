@@ -115,6 +115,16 @@ def names_from_themes():
 
     for f in [*(ROOT / "data/themes").glob("*.json"), *(ROOT / "data/engines").glob("*.json")]:
         walk(json.loads(f.read_text(encoding="utf-8")))
+    # 개요의 예시 덱 리스트(메타 스냅샷의 대표 덱)에 나오는 카드도 이름·이미지가 필요하다
+    meta_p = ROOT / "data/meta/latest.json"
+    if meta_p.exists():
+        meta = json.loads(meta_p.read_text(encoding="utf-8"))
+        variants = set()
+        for f in (ROOT / "data/themes").glob("*.json"):
+            variants.update(json.loads(f.read_text(encoding="utf-8")).get("variants", []))
+        for v in variants & set(meta["themes"]):
+            for d in meta["themes"][v].get("samples", []):
+                names.update(e["card"] for part in ("main", "extra", "side") for e in d[part])
     ht = json.loads((ROOT / "data/handtraps.json").read_text(encoding="utf-8"))
     names.update(h["card"] for h in ht["handtraps"])
     return sorted(names)

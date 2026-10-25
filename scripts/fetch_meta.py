@@ -78,12 +78,42 @@ def main():
         "overall_main": usage(decks, "main")[:120],
         "themes": {},
     }
+    def samples(ds, main_u, extra_u, k=2):
+        """테마 집계에 가장 가까운(채용률 높은 카드로 채워진) 실제 덱 k개. 대회형(DC) 덱을 조금 우대."""
+        rate = {c["name"]: c["rate"] for c in main_u + extra_u}
+
+        def score(d):
+            cards = [(e["card"]["name"], e["amount"]) for e in (d.get("main") or []) + (d.get("extra") or [])]
+            n = sum(a for _, a in cards) or 1
+            bonus = 0.03 if "Duelist Cup" in d["rankedType"]["name"] else 0
+            return sum(rate.get(c, 0) * a for c, a in cards) / n + bonus
+
+        def pack(part):
+            return [{"card": e["card"]["name"], "amount": e["amount"]} for e in part or []]
+
+        best = sorted(ds, key=score, reverse=True)[:k]
+        return [
+            {
+                "author": (d.get("author") or {}).get("username") if isinstance(d.get("author"), dict) else d.get("author"),
+                "url": "https://www.masterduelmeta.com" + d["url"] if d.get("url") else None,
+                "created": d["created"][:10],
+                "format": d["rankedType"]["name"],
+                "engines": [e["name"] for e in (d.get("engines") or [])],
+                "main": pack(d.get("main")),
+                "extra": pack(d.get("extra")),
+                "side": pack(d.get("side")),
+            }
+            for d in best
+        ]
+
     for name, ds in sorted(themes.items(), key=lambda kv: -len(kv[1])):
+        main_u, extra_u = usage(ds, "main"), usage(ds, "extra")
         out["themes"][name] = {
             "decks": len(ds),
             "share": round(len(ds) / len(decks), 3),
-            "main": usage(ds, "main"),
-            "extra": usage(ds, "extra"),
+            "main": main_u,
+            "extra": extra_u,
+            "samples": samples(ds, main_u, extra_u),
             "sample_urls": ["https://www.masterduelmeta.com" + d["url"] for d in ds[:5] if d.get("url")],
             # MDM 이 덱마다 붙이는 엔진 태그 (섞어 쓰는 엔진·테크 카드) 채용률
             "engines": [

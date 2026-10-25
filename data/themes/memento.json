@@ -928,6 +928,411 @@
    ]
   },
   {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 4,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 씨호스 ② 발동에 체인해 발동(처리 시 덤핑이 제외된다)",
+   "why_ko": "파괴된 씨호스와 덤핑한 메이스·고블린·영험한 양이 전부 제외된다. 5단계 엔위치 ②의 대상(묘지의 메이스)이 없어 메이스 서치 → [[Mementotlan Fusion]]로 이어지지 않는다.",
+   "fallback_ko": "패에 메멘토 퓨전이 따로 있으면 패·필드 소재 융합은 되지만, 묘지 소재·우라몬 특소·메멘토랄 조건이 전부 없다.",
+   "rulings": [
+    "qa-22185"
+   ]
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 3,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 고블린 ② 발동에 체인",
+   "why_ko": "덤핑한 [[Mementotlan Ghattic]]·[[Mementotlan Fusion]]가 제외된다. 우라몬은 '묘지로 보내졌을 때' 유발이라 제외되면 발동하지 않는다.",
+   "fallback_ko": "고블린 루트는 여기서 끝난다.",
+   "rulings": [
+    "qa-22185"
+   ]
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "fuwalos",
+   "step": 4,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 씨호스 ② 발동에 체인",
+   "why_ko": "엔위치 루트와 같다.",
+   "fallback_ko": "패에 남은 카드로 짧은 필드."
+  },
+  {
+   "handtrap": "fissure",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 4,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덤핑한 몬스터가 전부 제외되어 엔위치 ② 대상이 없다. 매크로 코스모스와 같다.",
+   "fallback_ko": "메멘토 퓨전(마법)은 묘지로 가지만 소재가 없다."
+  },
+  {
+   "handtrap": "fissure",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 3,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덤핑한 [[Mementotlan Ghattic]]가 제외되어 특소 유발이 없다.",
+   "fallback_ko": "함께 보낸 [[Mementotlan Fusion]](마법)는 묘지에 남지만 우라몬이 없어 회수할 수 없다."
+  },
+  {
+   "handtrap": "banisher",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 4,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "매크로 코스모스와 같다. 이 시점의 메멘토에는 섬광의 추방자를 치울 수단이 없다.",
+   "fallback_ko": "다크 스워드는 마함만 파괴한다."
+  },
+  {
+   "handtrap": "banisher",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 3,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덤핑이 제외되어 우라몬 특소가 없다.",
+   "fallback_ko": "고블린 루트 종료."
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 4,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 2단계 엔위치 서치 때 패 1장 무작위 제외, 이 단계의 덤핑은 전부 제외",
+   "why_ko": "매크로 코스모스와 같은 이유로 엔위치 ② 대상이 없다. 서치 1번마다 손패도 깎인다.",
+   "fallback_ko": "패의 다른 카드로 짧은 필드."
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 3,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덤핑이 제외되어 우라몬 특소가 없다.",
+   "fallback_ko": "고블린 루트 종료."
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 4,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덤핑 카드가 제외되면서 어라이즈하트 소재로 흡수된다. 소재 3개로 퀵 뒷면 제외까지 가능.",
+   "fallback_ko": "패의 다른 카드로 짧은 필드."
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 3,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덤핑이 제외된다.",
+   "fallback_ko": "고블린 루트 종료."
+  },
+  {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "엔위치 소환 성공 유발(서치) 발동에 체인해 아크 디클레어러를 릴리스, 발동 무효+파괴",
+   "why_ko": "[[Mementotlan Tatsunootoshigo]]를 못 가져오고 엔위치도 파괴된다. 엔위치 ①은 1턴 1번이라 다시 쓸 수 없다.",
+   "fallback_ko": "패에 씨호스·고블린 초동이 따로 있으면 그 루트."
+  },
+  {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 2,
+   "target_card": "Goblin Biker Grand Breakout",
+   "timing_ko": "[[Goblin Biker Grand Breakout]] 발동(코스트 릴리스 후)에 체인",
+   "why_ko": "고블린이 나오지 않아 루트가 시작도 못 한다. 릴리스한 몬스터는 이미 사라졌다.",
+   "fallback_ko": "다른 초동이 필요하다."
+  },
+  {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "fuwalos",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "엔위치 서치 발동에 체인",
+   "why_ko": "엔위치 루트와 같다.",
+   "fallback_ko": "패의 다른 초동."
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 7,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "세트해 뒀다면 메멘토 퓨전 발동에 체인해 융합 선언(더 일찍 써도 이번 턴 내내 적용)",
+   "why_ko": "[[Mementomictlan Tecuhtlica - Creation King]]가 나오지 않아 덤핑 3장·필드 마법 서치·퀵 파괴가 전부 사라진다. 영험한 양 ②의 트윈 드래곤 융합도 막힌다.",
+   "fallback_ko": "[[S:P Little Knight]](링크)는 낼 수 있지만 재료가 모자란다."
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 6,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "세트해 뒀다면 메멘토 퓨전 발동에 체인해 융합 선언",
+   "why_ko": "트윈 드래곤 2장 서치가 사라진다.",
+   "fallback_ko": "우라몬·고블린만 남는다."
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "fuwalos",
+   "step": 7,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "세트해 뒀다면 메멘토 퓨전 발동에 체인해 융합 선언",
+   "why_ko": "[[Mementomictlan Tecuhtlica - Creation King]]가 나오지 않는다.",
+   "fallback_ko": "짧은 필드."
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 3,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(땅 씨호스는 특소할 수 없다)",
+   "why_ko": "엔위치 서치까지만 된다. 씨호스를 일반 소환해도 [[Mementomictlan Tecuhtlica - Creation King]](땅) 융합은 막혀 있다.",
+   "fallback_ko": "어둠 메멘토(고블린·우라몬·다크 스워드)만 나온다."
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 6,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(빛 트윈 드래곤을 융합 소환할 수 없다)",
+   "why_ko": "고블린·우라몬(어둠)까지는 나오지만 트윈 드래곤·씨호스 이후가 막힌다.",
+   "fallback_ko": "어둠 융합 몬스터([[Guardian Chimera]])는 조건이 맞으면 나올 수 있다."
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 3,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "땅 씨호스 특소 불가.",
+   "fallback_ko": "엔위치 + 서치한 카드."
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 2,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "어둠 고블린을 덱에서 특소할 수 없다.",
+   "fallback_ko": "고블린 루트 종료."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 3,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "화염 메멘토가 없어 모든 특소가 막힌다.",
+   "fallback_ko": "엔위치 + 서치한 카드."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 2,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "고블린 특소 불가.",
+   "fallback_ko": "고블린 루트 종료."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 3,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "물 이외 특소 불가.",
+   "fallback_ko": "엔위치 + 서치한 카드."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 2,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "고블린 특소 불가.",
+   "fallback_ko": "고블린 루트 종료."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 3,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(서로 특소 불가)",
+   "why_ko": "첫 특소부터 막힌다.",
+   "fallback_ko": "엔위치 + 서치한 카드."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 2,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "고블린 특소 불가.",
+   "fallback_ko": "고블린 루트 종료."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 3,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(상대만 특소 불가)",
+   "why_ko": "첫 특소부터 막힌다.",
+   "fallback_ko": "엔위치 + 서치한 카드."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 2,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "고블린 특소 불가.",
+   "fallback_ko": "고블린 루트 종료."
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 엔위치 서치 발동에 체인해 발동",
+   "why_ko": "엔위치가 필드에 남아 있어 서치가 무효로 처리된다. 패에 씨호스가 있어도 ②(필드 효과)가 꺼져 덤핑이 안 된다.",
+   "fallback_ko": "패에서 쓰는 영험한 양 ①은 되지만 파괴가 없어 조건이 안 맞는다."
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 3,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 고블린 ② 발동에 체인",
+   "why_ko": "고블린의 파괴+덤핑이 무효가 되어 우라몬이 나오지 않는다.",
+   "fallback_ko": "고블린 루트 종료."
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "fuwalos",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 엔위치 서치 발동에 체인",
+   "why_ko": "엔위치 루트와 같다.",
+   "fallback_ko": "패의 다른 카드."
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 엔위치 서치 발동에 체인(그 서치도 처리되지 않는다)",
+   "why_ko": "씨호스가 없으면 덤핑이 시작되지 않는다. 6단계 메이스 서치, 18단계 트윈 드래곤 서치도 전부 막힌다.",
+   "fallback_ko": "패에 씨호스가 직접 있으면 덤핑은 된다(덤핑은 못 막는다).",
+   "rulings": [
+    "qa-17520"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "fuwalos",
+   "step": 2,
+   "target_card": "Mementotlan Angwitch",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 엔위치 서치 발동에 체인",
+   "why_ko": "엔위치 루트와 같다.",
+   "fallback_ko": "패의 씨호스.",
+   "rulings": [
+    "qa-17520"
+   ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 3,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(마법사족 엔위치가 있어 야수족 씨호스를 특소할 수 없다)",
+   "why_ko": "메멘토는 종족이 전부 달라 매 단계가 막힌다. 융합 몬스터도 필드 몬스터와 같은 종족만 낼 수 있다.",
+   "fallback_ko": "엔위치 + 서치한 카드.",
+   "rulings": [
+    "qa-8773"
+   ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 6,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(악마족 우라몬이 있어 번개족 트윈 드래곤을 낼 수 없다)",
+   "why_ko": "고블린·우라몬(둘 다 악마족)까지만 된다.",
+   "fallback_ko": "우라몬 1장.",
+   "rulings": [
+    "qa-8773",
+    "qa-11272"
+   ]
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "critical",
+   "line": "angwitch",
+   "step": 3,
+   "target_card": "Mementotlan Tatsunootoshigo",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(어둠 엔위치가 있어 땅 씨호스를 특소할 수 없다)",
+   "why_ko": "첫 특소부터 막힌다.",
+   "fallback_ko": "엔위치 + 서치한 카드.",
+   "rulings": [
+    "qa-10427"
+   ]
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "critical",
+   "line": "breakout",
+   "step": 6,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(어둠 우라몬이 있어 빛 트윈 드래곤을 낼 수 없다)",
+   "why_ko": "고블린·우라몬(둘 다 어둠)까지만 된다.",
+   "fallback_ko": "우라몬 1장.",
+   "rulings": [
+    "qa-10427"
+   ]
+  },
+  {
    "handtrap": "crown",
    "severity": "strong",
    "line": "angwitch",
@@ -1123,6 +1528,75 @@
    "fallback_ko": "angwitch 라인 7단계와 같다."
   },
   {
+   "handtrap": "retaliating_c",
+   "severity": "strong",
+   "line": "breakout",
+   "step": 2,
+   "target_card": "Goblin Biker Grand Breakout",
+   "timing_ko": "[[Goblin Biker Grand Breakout]] 발동(특소를 포함한 마법 카드의 발동)에 직접 체인해 패에서 특소",
+   "why_ko": "고블린은 나오지만 직후 3단계 덤핑이 전부 제외되어 [[Mementotlan Ghattic]]가 특소되지 않는다. 고블린 루트는 거의 여기서 끝난다.",
+   "fallback_ko": "응전의 G를 치우면 정상 진행(다크 스워드는 마함만 파괴).",
+   "rulings": [
+    "qa-15449"
+   ]
+  },
+  {
+   "handtrap": "retaliating_c",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 7,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "메멘토 퓨전 발동에 직접 체인",
+   "why_ko": "[[Mementomictlan Tecuhtlica - Creation King]]는 나오지만 8단계 덤핑 3장이 제외되어 우라몬 특소·2번째 [[Mementomictlan Tecuhtlica - Creation King]] 제외 서치가 사라진다. 메멘토랄·혼 드래곤 조건도 채우기 어렵다.",
+   "fallback_ko": "[[Mementomictlan Tecuhtlica - Creation King]]의 퀵 파괴로 응전의 G를 치우면 이후 묘지는 다시 쌓인다.",
+   "rulings": [
+    "qa-15449"
+   ]
+  },
+  {
+   "handtrap": "retaliating_c",
+   "severity": "strong",
+   "line": "fuwalos",
+   "step": 7,
+   "target_card": "Mementotlan Fusion",
+   "timing_ko": "메멘토 퓨전 발동에 직접 체인",
+   "why_ko": "엔위치 루트와 같다.",
+   "fallback_ko": "짧은 필드.",
+   "rulings": [
+    "qa-15449"
+   ]
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "strong",
+   "line": "angwitch",
+   "step": 9,
+   "target_card": "Mementotlan Ghattic",
+   "timing_ko": "우라몬의 묘지 특소 유발에 체인해 묘지의 우라몬을 제외(더 이르게는 5단계 엔위치 ②가 묘지의 메이스를 대상으로 했을 때 메이스를 제외)",
+   "why_ko": "우라몬이 특소되지 않아 영험한 양 회수와 이후 융합 재료가 빠진다. 5번째 소환도 늦어진다.",
+   "fallback_ko": "묘지에 다른 메멘토가 많아 대체 루트가 있다. 메이스를 지우면 6단계 서치(메멘토 퓨전)부터 사라져 더 아프다."
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "strong",
+   "line": "breakout",
+   "step": 4,
+   "target_card": "Mementotlan Ghattic",
+   "timing_ko": "우라몬의 묘지 특소 유발에 체인해 우라몬 제외",
+   "why_ko": "우라몬이 없으면 묘지의 [[Mementotlan Fusion]]를 회수할 수 없어 고블린 루트가 끝난다.",
+   "fallback_ko": "고블린만 남는다."
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "strong",
+   "line": "fuwalos",
+   "step": 9,
+   "target_card": "Mementotlan Ghattic",
+   "timing_ko": "우라몬의 묘지 특소 유발에 체인해 우라몬 제외",
+   "why_ko": "영험한 양 회수가 사라져 본 파티 서치(12단계)로 가지 못한다.",
+   "fallback_ko": "필드에 [[Mementomictlan Tecuhtlica - Creation King]]는 남는다."
+  },
+  {
    "handtrap": "mst",
    "severity": "ok",
    "line": "angwitch",
@@ -1207,6 +1681,26 @@
    "rulings": [
     "qa-7813"
    ]
+  },
+  {
+   "handtrap": "protos",
+   "severity": "ok",
+   "line": "breakout",
+   "step": 2,
+   "target_card": "Mementotlan Goblin",
+   "timing_ko": "내 턴에 어둠을 선언해 두면 이 단계에서 막힘(다음 턴 끝까지 서로 어둠 특소 불가)",
+   "why_ko": "어둠 고블린을 덱에서 꺼낼 수 없다.",
+   "fallback_ko": "엔위치(일반 소환) 루트로 간다."
+  },
+  {
+   "handtrap": "protos",
+   "severity": "ok",
+   "line": "angwitch",
+   "step": 9,
+   "target_card": "Mementotlan Ghattic",
+   "timing_ko": "내 턴에 어둠을 선언해 두면 이 단계에서 막힘",
+   "why_ko": "어둠 우라몬 특소가 막힌다. 다크 스워드·혼 드래곤(어둠)도 나중에 못 낸다.",
+   "fallback_ko": "땅·빛 메멘토로 이어 간다."
   },
   {
    "handtrap": "harmonia",
@@ -1351,6 +1845,109 @@
   "mst": {
    "rating": "ok",
    "note_ko": "[[Mementomictlan]] 발동에 체인해 파괴하면 고블린 소생과 엔드 페이즈 본 파티 세트가 사라진다. 세트된 본 파티·메멘토 퓨전은 속공 마법이라 체인으로 발동되어 버린다."
+  },
+  "macro_cosmos": {
+   "rating": "critical",
+   "note_ko": "덱의 모든 동작이 묘지를 거친다. 미리 앞면이면 [[Mementotlan Tatsunootoshigo]]·고블린·[[Mementomictlan Tecuhtlica - Creation King]]의 덤핑이 전부 제외되어, 엔위치 ②(묘지의 메이스 소생)·[[Mementotlan Ghattic]] 묘지 특소·[[Mementotlan Fusion]]의 묘지 소재·[[Mementoal Tecuhtlica - Combined Creation]](묘지 5종)·[[Mementotlan-Horned Dragon]](묘지 3종)이 전부 성립하지 않는다. '효과로 파괴되었을 때' 유발 자체는 제외돼도 발동하지만, 묘지에서 무언가를 꺼내는 효과가 대부분이라 의미가 없다.",
+   "rulings": [
+    "qa-22185"
+   ]
+  },
+  "fissure": {
+   "rating": "critical",
+   "note_ko": "몬스터만 제외하지만 메멘토는 몬스터 덤핑·묘지 몬스터 소생이 핵심이라 매크로 코스모스와 거의 같다. 마법인 메멘토 퓨전·본 파티만 묘지로 간다.",
+   "rulings": [
+    "qa-22185"
+   ]
+  },
+  "banisher": {
+   "rating": "critical",
+   "note_ko": "효과는 매크로 코스모스와 같다. 메멘토는 1턴째에 상대 몬스터를 치울 수단이 [[Mementotlan Fusion]] → [[Mementomictlan Tecuhtlica - Creation King]] 퀵 파괴 이후에야 생기는데, 그 전 단계(덤핑 → 소생)가 이미 막힌다. 다크 스워드의 파괴는 마함만 대상이다."
+  },
+  "herald": {
+   "rating": "critical",
+   "note_ko": "1번뿐인 무효를 첫 지점에. 엔위치 루트는 2단계 엔위치 서치, 고블린 루트는 [[Goblin Biker Grand Breakout]] 발동(마법 카드의 발동). 무효로 쓰기 전까지는 패·덱에서 묘지로 가는 몬스터도 제외되어 [[Mementotlan Tatsunootoshigo]]·고블린 덤핑을 막는다."
+  },
+  "retaliating_c": {
+   "rating": "strong",
+   "note_ko": "특소를 포함한 마법이 많다. [[Goblin Biker Grand Breakout]] 발동(고블린 루트 2단계)에 체인하면 직후의 고블린 덤핑이 전부 제외되어 루트가 끝난다. 엔위치 루트는 7단계 [[Mementotlan Fusion]] 발동에 체인한다. 그 뒤 [[Mementomictlan Tecuhtlica - Creation King]]의 덤핑이 제외되어 [[Mementotlan Ghattic]] 특소·필드 마법 서치가 사라진다. 본 파티(특소 선택지 포함)도 발동 조건이 된다.",
+   "rulings": [
+    "qa-15449"
+   ]
+  },
+  "dd_crow": {
+   "rating": "strong",
+   "note_ko": "묘지 몬스터를 대상으로 하거나 묘지에서 자신을 특소하는 효과가 많다. 엔위치 ②(묘지의 메이스 대상)에 체인해 메이스를 제외하거나, [[Mementotlan Ghattic]]의 묘지 특소 유발에 체인해 우라몬을 제외한다(엔위치 9·고블린 4·후와로스 9단계). [[Mementotlan Akihiron]]의 회수 대상, [[Mementomictlan]]의 소생 후보도 노릴 수 있다. 다만 묘지 장수가 많아 1장 제외로 끝나지는 않는다."
+  },
+  "dark_law": {
+   "rating": "critical",
+   "note_ko": "상대 묘지로 가는 카드가 전부 제외되어 매크로 코스모스와 같고, 엔위치·메이스·트윈 드래곤 서치 때마다 패 1장 무작위 제외(1턴 1번)가 붙는다. 메멘토는 첫 턴에 몬스터를 치울 수단이 늦게 나온다."
+  },
+  "arise_heart": {
+   "rating": "critical",
+   "note_ko": "매크로 코스모스와 같은 제외 효과. 덤핑이 전부 제외되며 소재로 쌓여 퀵 뒷면 제외도 금방 쓸 수 있다."
+  },
+  "dim_barrier": {
+   "rating": "critical",
+   "note_ko": "융합을 선언한다. [[Mementomictlan Tecuhtlica - Creation King]]·트윈 드래곤·[[Guardian Chimera]]가 전부 융합이라 [[Mementotlan Fusion]]·영험한 양 ②가 처리되지 않는다. 메멘토가 쓰는 엑덱 몬스터는 융합과 링크([[S:P Little Knight]])뿐인데 링크는 선언할 수 없다. 첫 융합 직전, [[Mementotlan Fusion]] 발동에 체인해 쓴다(더 일찍 써도 이번 턴 내내 적용)."
+  },
+  "protos": {
+   "rating": "ok",
+   "note_ko": "필드에 있는 속성만 선언할 수 있다. 내 턴에 프로토스 자신(어둠)을 이용해 어둠을 선언해 두면 상대 다음 턴 끝까지 어둠 특소가 막혀 고블린 덱 특소(고블린 루트 2단계)·[[Mementotlan Ghattic]] 묘지 특소·다크 스워드·[[Mementotlan-Horned Dragon]]가 막힌다. 엔위치 일반 소환과 땅 [[Mementotlan Tatsunootoshigo]]·[[Mementomictlan Tecuhtlica - Creation King]]는 막지 못한다."
+  },
+  "statue_abyss": {
+   "rating": "critical",
+   "note_ko": "메멘토는 어둠·땅·빛·물이 섞여 있다. 어둠 메멘토(엔위치·우라몬·고블린·다크 스워드·혼 드래곤)는 나오지만 엔위치 루트 3단계의 [[Mementotlan Tatsunootoshigo]](땅)부터 막히고, [[Mementomictlan Tecuhtlica - Creation King]](땅)·트윈 드래곤(빛)·메멘토랄(땅)도 못 낸다."
+  },
+  "statue_heavens": {
+   "rating": "critical",
+   "note_ko": "빛 메멘토는 메이스·트윈 드래곤뿐이다. [[Mementotlan Tatsunootoshigo]](땅)·고블린(어둠)부터 특소가 막힌다."
+  },
+  "statue_inferno": {
+   "rating": "critical",
+   "note_ko": "화염 메멘토가 없어 덱 전체가 특소 불가."
+  },
+  "statue_torrent": {
+   "rating": "critical",
+   "note_ko": "물 메멘토는 [[Mementotlan Akihiron]]뿐이다. 엔위치 루트 3단계·고블린 루트 2단계의 첫 특소부터 막힌다."
+  },
+  "vanity_fiend": {
+   "rating": "critical",
+   "note_ko": "서로 특소 불가. 특소 14회 덱이라 엔위치 일반 소환 → 서치 이후가 전부 막힌다."
+  },
+  "vanity_ruler": {
+   "rating": "critical",
+   "note_ko": "상대만 특소 불가. 배너티 데블과 같다."
+  },
+  "skill_drain": {
+   "rating": "critical",
+   "note_ko": "엔위치 서치·[[Mementotlan Tatsunootoshigo]] ②·메이스·고블린·다크 스워드 ②가 전부 필드에서 발동하는 효과라 무효가 된다. 패에서 쓰는 [[Mementotlan Tatsunootoshigo]] ①·영험한 양 ①, 묘지에서 쓰는 우라몬 ②·[[Mementotlan Akihiron]]·트윈 드래곤 ③은 막지 못하지만, 출발점(엔위치 서치·씨호스 덤핑)이 꺼져 거기까지 가지 못한다."
+  },
+  "mistake": {
+   "rating": "critical",
+   "note_ko": "엔위치 ①·메이스 ②·트윈 드래곤 서치·[[Mementomictlan Tecuhtlica - Creation King]]의 필드 마법 서치·[[Mementotlan Fusion]] ② 서치가 막힌다. 엔위치 루트는 2단계에서 끝난다. 덤핑과 묘지 회수(우라몬·카쿠타스)는 '덱에서 패'가 아니라 못 막는다. 세트해 뒀다면 서치 발동에 체인해도 그 서치는 처리되지 않는다(공식 Q&A).",
+   "rulings": [
+    "qa-17520"
+   ]
+  },
+  "rivalry": {
+   "rating": "critical",
+   "note_ko": "메멘토는 종족이 전부 다르다(마법사족 엔위치, 야수족 씨호스·영험한 양, 천사족 메이스, 악마족 우라몬·고블린, 환상마족 [[Mementomictlan Tecuhtlica - Creation King]], 번개족 트윈 드래곤 등). 엔위치가 있는 상태로 [[Mementotlan Tatsunootoshigo]]를 특소할 수 없고, 융합 몬스터도 필드 몬스터와 같은 종족만 낼 수 있다.",
+   "rulings": [
+    "qa-8773",
+    "qa-11272"
+   ]
+  },
+  "gozen": {
+   "rating": "critical",
+   "note_ko": "어둠 엔위치 → 땅 [[Mementotlan Tatsunootoshigo]], 어둠 우라몬 → 빛 트윈 드래곤처럼 속성이 계속 바뀐다. 첫 특소부터 막힌다.",
+   "rulings": [
+    "qa-10427"
+   ]
+  },
+  "only_one": {
+   "rating": "weak",
+   "note_ko": "메멘토는 거의 모든 몬스터의 종족이 달라 같은 종족 2장이 동시에 서는 일이 드물다. 악마족(고블린·우라몬)이 겹치는 정도라 영향이 작다."
   }
  },
  "notes_ko": [
@@ -1360,7 +1957,8 @@
   "[[Mementotlan Twin Dragon]] ③은 '융합 소환된 이 카드'가 파괴됐을 때만. 묘지에서 소생한 트윈 드래곤은 다시 파괴돼도 플로트하지 않는다(공식 Q&A 17721).",
   "[[Mementotlan Bone Party]] ①은 처리 시 파괴할 메멘토(패 또는 필드)를 고른다. 대상을 지정하지 않으므로 무한포영 등으로 특정 몬스터를 미리 꺼 둬도 다른 몬스터를 파괴해 처리된다(공식 Q&A 18723·보충 정보).",
   "[[Mementotlan Mace]] ①(컨트롤 탈취)과 [[Mementotlan Goblin]] ①(대상 내성)은 필드에 [[Mementoal Tecuhtlica - Combined Creation]]가 앞면으로 있을 때만 패에서 쓰는 퀵 효과다. 메멘토랄을 먼저 치우면 둘 다 죽은 카드가 된다.",
-  "MD 차이: OCG 가이드에 자주 나오는 [[Apollousa, Bow of the Goddess]]·[[Called by the Grave]]는 MD 금지. 메멘토 카드는 MD에서 전부 무제한. 최근 MD 리스트는 [[The Fallen & The Virtuous]](MD 제한 2)를 엑덱의 [[Albion the Branded Dragon]]·[[Ecclesia and the Dark Dragon]]를 보내 자기 메멘토 몬스터를 파괴하는 용도로 쓰고, 후공용 [[Super Polymerization]]·[[Forbidden Crown]]·[[Forbidden Droplet]]·[[Guardian Chimera]]를 섞는다."
+  "MD 차이: OCG 가이드에 자주 나오는 [[Apollousa, Bow of the Goddess]]·[[Called by the Grave]]는 MD 금지. 메멘토 카드는 MD에서 전부 무제한. 최근 MD 리스트는 [[The Fallen & The Virtuous]](MD 제한 2)를 엑덱의 [[Albion the Branded Dragon]]·[[Ecclesia and the Dark Dragon]]를 보내 자기 메멘토 몬스터를 파괴하는 용도로 쓰고, 후공용 [[Super Polymerization]]·[[Forbidden Crown]]·[[Forbidden Droplet]]·[[Guardian Chimera]]를 섞는다.",
+  "락 카드: 메멘토는 덤핑 → 묘지 소생·회수가 전개의 전부라 [[Macro Cosmos]]·[[Dimensional Fissure]]류가 가장 아프다(첫 덤핑부터 제외). 몬스터마다 속성·종족이 달라 [[Gozen Match]]·[[Rivalry of Warlords]]·결계상 4종이 전부 첫 특소를 막는다. 반대로 [[There Can Be Only One]]은 거의 걸리지 않는다."
  ],
  "sources": [
   "https://www.masterduelmeta.com/tier-list/deck-types/Memento (Master Duel Meta: Memento deck breakdown·콤보 가이드 by Biggstarr, 2026-06-21 갱신 — Angwitch/Tatsunoo/Goblin or Breakout/Mace/Sheep/Fuwalos/Droll 루트)",
@@ -1417,6 +2015,10 @@
        {
         "id": "ttt",
         "note_ko": "S:P가 제외 효과를 쓴 뒤(그 턴 1번은 소모) 발동해 2드로우나 메멘토랄 탈취"
+       },
+       {
+        "id": "protos",
+        "note_ko": "어둠 선언으로 파괴. 발동에 체인해 S:P가 프로토스를 제외해도 효과는 처리된다"
        }
       ],
       "bait_ko": "아무 발동에나 반응하므로 덜 중요한 몬스터 효과를 먼저 써서 S:P를 끌어내면 그 몬스터 + S:P가 함께 빠진다. 핵심 몬스터는 S:P가 사라진 뒤에."
@@ -1466,6 +2068,18 @@
        {
         "id": "ttt",
         "note_ko": "메멘토랄이 내 메인 페이즈에 특소 효과를 쓴 뒤 발동해 컨트롤 탈취 → 링크 소재 등으로 치운다(파괴가 아니라 유발 없음). S:P가 남아 있으면 발동에 체인당할 수 있다"
+       },
+       {
+        "id": "statue_inferno",
+        "note_ko": "앞면이면 패·묘지에서 메멘토를 특소할 수 없다"
+       },
+       {
+        "id": "vanity_fiend",
+        "note_ko": "앞면이면 패·묘지에서 메멘토를 특소할 수 없다"
+       },
+       {
+        "id": "protos",
+        "note_ko": "땅 선언으로 메멘토랄 파괴"
        }
       ],
       "bait_ko": "체인 처리 뒤에 반응하므로 첫 발동을 가벼운 카드로 하면 그 뒤 바로 특소가 들어온다. 엔위치 → 메이스로 이어지면 내 몬스터를 빼앗기므로 메이스를 쓰기 전에 메멘토랄을 치운다."
@@ -1564,6 +2178,14 @@
        {
         "id": "ash",
         "note_ko": "융합 뒤 트윈 드래곤 서치에 체인할 수 있다"
+       },
+       {
+        "id": "statue_inferno",
+        "note_ko": "앞면이면 융합 소환할 수 없다"
+       },
+       {
+        "id": "vanity_fiend",
+        "note_ko": "앞면이면 융합 소환할 수 없다"
        }
       ],
       "bait_ko": "메인 페이즈 퀵이라 배틀 페이즈의 [[Evenly Matched]]에는 응수하지 못한다.",
@@ -1593,6 +2215,14 @@
        {
         "id": "belle",
         "note_ko": "묘지에서 특소하는 효과라 발동 무효(패에서 특소할 때는 불가)"
+       },
+       {
+        "id": "statue_inferno",
+        "note_ko": "앞면이면 레벨 낮은 메멘토를 특소할 수 없다"
+       },
+       {
+        "id": "vanity_fiend",
+        "note_ko": "앞면이면 레벨 낮은 메멘토를 특소할 수 없다"
        }
       ],
       "bait_ko": "몬스터를 파괴하는 카드를 쓰기 전에 먼저 치운다. 파괴 계열과 함께 쓰면 소생이 따라온다.",
@@ -1752,6 +2382,14 @@
        {
         "id": "ash",
         "note_ko": "메멘토랄이 꺼낸 엔위치의 서치나 본 파티(덱에서 패·특소)에 체인. 메멘토랄 효과 자체는 못 막는다"
+       },
+       {
+        "id": "statue_inferno",
+        "note_ko": "앞면이면 특소할 수 없다"
+       },
+       {
+        "id": "vanity_fiend",
+        "note_ko": "앞면이면 특소할 수 없다"
        }
       ],
       "bait_ko": "체인 처리 뒤에 반응하므로 첫 발동을 가벼운 카드로 하면 그 뒤 바로 특소가 들어온다. 엔위치 → 메이스로 이어지면 내 몬스터를 빼앗기므로 메이스를 쓰기 전에 메멘토랄을 치운다."
@@ -1803,6 +2441,14 @@
        {
         "id": "ash",
         "note_ko": "융합 뒤 트윈 드래곤 서치에 체인할 수 있다"
+       },
+       {
+        "id": "statue_inferno",
+        "note_ko": "앞면이면 융합 소환할 수 없다"
+       },
+       {
+        "id": "vanity_fiend",
+        "note_ko": "앞면이면 융합 소환할 수 없다"
        }
       ],
       "bait_ko": "메인 페이즈 퀵이라 배틀 페이즈의 [[Evenly Matched]]에는 응수하지 못한다.",
@@ -1944,6 +2590,30 @@
    "veiler": {
     "rating": "bad",
     "note_ko": "상대 메인 페이즈 전용이라 내 턴에는 발동할 수 없다."
+   },
+   "statue_inferno": {
+    "rating": "strong",
+    "note_ko": "화염 메멘토가 없어, 일반 소환해 두면 내 턴에 메멘토랄의 특소 견제, [[Mementotlan Fusion]] 융합, 필드 마법 소생, 본 파티 특소 모드가 전부 막힌다. 다음 턴 상대 전개도 막는다."
+   },
+   "vanity_fiend": {
+    "rating": "strong",
+    "note_ko": "업화의 결계상과 같다. 일반 소환에 릴리스 1장이 필요하고 내 특소도 막힌다."
+   },
+   "statue_heavens": {
+    "rating": "ok",
+    "note_ko": "빛 메멘토(메이스·트윈 드래곤)만 나올 수 있어 특소 견제 대부분이 막힌다."
+   },
+   "statue_torrent": {
+    "rating": "ok",
+    "note_ko": "물 메멘토([[Mementotlan Akihiron]])만 나올 수 있다."
+   },
+   "statue_abyss": {
+    "rating": "weak",
+    "note_ko": "어둠 메멘토(엔위치·다크 스워드·고블린·혼 드래곤)는 그대로 나온다."
+   },
+   "protos": {
+    "rating": "ok",
+    "note_ko": "어둠 선언이면 [[Mementotlan-Horned Dragon]]·[[S:P Little Knight]]·고블린을 한 번에 파괴하고 다음 턴까지 어둠 특소를 막는다. 혼 드래곤 파괴 유발(앞면 3장 파괴)은 프로토스에 통하지 않지만 다른 내 카드가 맞는다. 땅 선언이면 메멘토랄을 파괴한다. 어느 쪽이든 필드 마법의 레벨 낮은 메멘토 소생은 남는다."
    }
   },
   "sequencing_ko": [

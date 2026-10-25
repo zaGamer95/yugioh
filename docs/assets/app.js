@@ -130,6 +130,7 @@
         <a class="qk" href="#/h"><b>패트랩 사전</b><span>카드별 맞는 효과·조건</span></a>
         <a class="qk" href="#/r"><b>룰·판정</b><span>공식 룰북·Q&amp;A 출처</span></a>
         <button type="button" class="qk" data-jump="themes"><b>테마 목록</b><span>전개 순서 전체 보기</span></button>
+        <button type="button" class="qk" data-jump="decks"><b>덱 구성</b><span>예시 덱 · 엔진 · 채용률</span></button>
         <button type="button" class="qk" data-jump="heat"><b>상성표</b><span>패트랩 × 테마 한눈에</span></button>
       </nav>
       <div class="quick-themes"><span class="muted small">많이 보이는 상대 · 후공 바로가기</span>
@@ -183,16 +184,81 @@
       <h2 id="themes">테마별 전개 · 패트랩 타이밍</h2>
       <div class="theme-grid">${tcards}</div>
 
+      <h2 id="decks">덱 구성 · 엔진 <span class="en">예시 덱 리스트</span></h2>
+      <p class="muted small">Master Duel Meta 랭크·DC 상위 덱을 테마별로 합산했습니다. 카드에 마우스를 올리면 효과가 나옵니다.</p>
+      <div class="chips wrap" id="deckPick" role="group" aria-label="테마">${themes.map((t) => `<button type="button" class="chip sub" data-deck="${t.slug}">${esc(t.name.ko)}</button>`).join("")}</div>
+      <div id="deckView" class="deck-view"></div>
+
       <h2 id="heat">패트랩 × 테마 상성표</h2>
       <p class="muted small">칸을 누르면 그 테마 페이지에서 해당 패트랩만 걸러 보여 줍니다. 마우스를 올리면 사용 지점이 나옵니다.</p>
       ${legend(false)}
       <div class="scroll-x">${homeHeat(themes)}</div>`;
+    const deckState = { slug: store.get("home.deck", themes[0]?.slug), sample: 0 };
+    const drawDeck = () => {
+      if (!themes.some((t) => t.slug === deckState.slug)) deckState.slug = themes[0]?.slug;
+      app.querySelectorAll("[data-deck]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.deck === deckState.slug)));
+      document.getElementById("deckView").innerHTML = deckView(themes.find((t) => t.slug === deckState.slug), deckState.sample);
+    };
+    drawDeck();
     app.onclick = (e) => {
       const j = e.target.closest("[data-jump]");
+      const dk = e.target.closest("[data-deck]");
+      const sm = e.target.closest("[data-sample]");
       if (j) document.getElementById(j.dataset.jump)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      else if (dk) { deckState.slug = dk.dataset.deck; deckState.sample = 0; store.set("home.deck", deckState.slug); drawDeck(); }
+      else if (sm) { deckState.sample = +sm.dataset.sample; drawDeck(); }
     };
     app.oninput = null;
     document.getElementById("guide").addEventListener("toggle", (e) => store.set("home.guide", e.target.open));
+  }
+  // 개요: 테마별 덱 구성 (핵심·선택 카드, 엔진, 대표 덱 리스트)
+  const TYPE_ORDER = { Monster: 0, Spell: 1, Trap: 2 };
+  const dkTile = (en, top, sub) => {
+    const src = img(en, "card") || img(en, "art");
+    return `<span class="dk" data-card="${esc(en)}" tabindex="0">${src ? `<img src="${src}" alt="${esc(nm(en))}" loading="lazy">` : `<span class="dk-ph">${esc(nm(en))}</span>`}${top ? `<b class="dk-n">${top}</b>` : ""}${sub ? `<i class="dk-r">${sub}</i>` : ""}</span>`;
+  };
+  const byType = (list) => [...list].sort((a, b) => (TYPE_ORDER[D.cards[a.card]?.type] ?? 3) - (TYPE_ORDER[D.cards[b.card]?.type] ?? 3));
+  const pct = (r) => `${Math.round(r * 100)}%`;
+  function deckView(t, si) {
+    if (!t) return "";
+    const dl = t.decklist;
+    if (!dl || !dl.decks) return `<p class="muted">최근 ${esc(String(dl?.window?.days || 30))}일 상위 덱 기록이 없습니다. 테마 페이지의 전개 라인을 참고하세요. <a href="#/t/${t.slug}">${esc(t.name.ko)} 보기 →</a></p>`;
+    const usage = (list, n) => (list.length ? `<div class="dk-grid">${byType(list).map((c) => dkTile(c.card, `×${Math.round(c.avg * 10) / 10}`, pct(c.rate))).join("")}</div>` : `<p class="muted small">없음</p>`);
+    const engRows = (dl.engines || [])
+      .map((x) => {
+        const e = x.slug && (D.engines || []).find((y) => y.slug === x.slug);
+        // MDM 엔진 태그는 테마명 또는 카드명: 우리 테마/카드 한국어명으로 보여 준다
+        const th = D.themes.find((y) => y.name.en === x.name || (y.variants || []).includes(x.name));
+        const kn = e ? e.name.ko : th ? th.name.ko : D.cards[x.name]?.ko;
+        const label = kn || x.name;
+        return `<li><span class="eng-name">${esc(label)}${kn && !e ? ` <span class="en">${esc(x.name)}</span>` : ""}</span><span class="bar"><i style="width:${pct(x.rate)}"></i></span><span class="muted small">${pct(x.rate)}</span>${e ? `<a class="small" href="#/p?s=2&t=${t.slug}&e=${e.slug}">같이 보기 →</a>` : ""}</li>`;
+      })
+      .join("");
+    const sm = dl.samples || [];
+    const cur = sm[Math.min(si, sm.length - 1)];
+    const list = (part) => {
+      const rows = byType(part);
+      return `<div class="dk-grid">${rows.map((c) => dkTile(c.card, c.amount > 1 ? `×${c.amount}` : "")).join("")}</div>`;
+    };
+    const count = (part) => part.reduce((n, c) => n + c.amount, 0);
+    const sampleHTML = cur
+      ? `<div class="chips wrap">${sm.map((d, i) => `<button type="button" class="chip sub" data-sample="${i}" aria-pressed="${d === cur}">${esc(d.author || "익명")} · ${esc(d.format.replace("Duelist Cup DLv. Max", "DC").replace("Master I", "마스터 I"))} · ${esc(d.created)}</button>`).join("")}</div>
+         ${cur.engines?.length ? `<p class="small muted">MDM 엔진 태그: ${cur.engines.map(esc).join(", ")}</p>` : ""}
+         <h4>메인 ${count(cur.main)}장</h4>${list(cur.main)}
+         <h4>엑스트라 ${count(cur.extra)}장</h4>${list(cur.extra)}
+         ${cur.side?.length ? `<h4>사이드 ${count(cur.side)}장</h4>${list(cur.side)}` : ""}
+         ${cur.url ? `<p class="small"><a href="${esc(cur.url)}" target="_blank" rel="noopener">Master Duel Meta 원본 덱 ↗</a></p>` : ""}`
+      : `<p class="muted small">예시 덱이 없습니다.</p>`;
+    return `<div class="dv-head">${thumb(t.cover, "pt-art lg")}<div><h3>${esc(t.name.ko)} <span class="en">${esc(t.name.en)}</span></h3>
+        <div class="muted small">최근 ${esc(String(dl.window?.days || 30))}일 ${dl.decks}덱${(dl.variants || []).length > 1 ? ` · ${dl.variants.map((v) => `${esc(v.name)} ${v.decks}`).join(" / ")}` : ""} · <a href="#/t/${t.slug}">전개·패트랩 타이밍 →</a> · <a href="#/p?s=2&t=${t.slug}">즉석 족보 →</a></div></div></div>
+      <div class="dv-cols">
+        <section><h4>섞어 쓰는 엔진·테크 <span class="muted small">덱 비율</span></h4>${engRows ? `<ul class="eng-list">${engRows}</ul>` : `<p class="muted small">순수 구축이 대부분입니다.</p>`}</section>
+        <section><h4>핵심 카드 <span class="muted small">채용률 60%↑ · 평균 장수</span></h4>${usage(dl.core_main)}
+          <h4>선택 카드 <span class="muted small">20~60%</span></h4>${usage(dl.flex_main)}
+          <h4>엑스트라 핵심 <span class="muted small">50%↑</span></h4>${usage(dl.core_extra)}
+          ${dl.flex_extra?.length ? `<h4>엑스트라 선택</h4>${usage(dl.flex_extra)}` : ""}</section>
+      </div>
+      <section class="dv-sample"><h4>예시 덱 <span class="muted small">집계에 가장 가까운 실제 상위 덱</span></h4>${sampleHTML}</section>`;
   }
   const SEV_HELP = {
     critical: "여기를 맞으면 전개가 끊기거나 견제가 1개 이하로 줄어드는 자리.",

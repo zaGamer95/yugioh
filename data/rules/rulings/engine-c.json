@@ -1,0 +1,137 @@
+{
+ "sources": {
+  "konami-db-faq": {
+   "title": "遊戯王ニューロン（オフィシャルカードゲーム カードデータベース）カードに関連するQ&A・補足情報",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rules": [],
+ "rulings": [
+  {
+   "id": "supp-22964",
+   "fid": null,
+   "cid": 22964,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22964&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Aleister the Reminiscent"
+   ],
+   "handtraps": [
+    "imperm",
+    "veiler",
+    "spark",
+    "ash",
+    "purge"
+   ],
+   "themes": [
+    "invoked",
+    "dracotail",
+    "magistus"
+   ],
+   "topic": "resolve",
+   "question_ko": "[[Aleister the Reminiscent]]의 ①(패에서 대상 몬스터를 정해 자신 특소)과 ②(소환 시 융합 마법 서치)는 어떻게 처리되나?",
+   "answer_ko": "①은 패에서 발동하는 기동 효과다. 처리 때 자신을 특소하고, 성공하면 대상 몬스터 공격력을 1000 올린다(둘은 동시 처리). 처리 때 대상 몬스터가 몬스터 존에 앞면으로 없으면 자신을 특소하는 처리만 한다. ②는 몬스터 존에서 발동하는 유발 효과로 데미지 스텝에도 발동할 수 있다. '그 카드명이 적힌 마법'은 텍스트에 「召喚魔術」(소환마술)을 카드명으로 적은 마법을 말한다.",
+   "quote_ja": "処理時に、対象のモンスターがモンスターゾーンに表側表示で存在しない場合、このカードを特殊召喚する処理のみを行います。",
+   "impact_ko": "추억의 알레이스터가 패에서 메인 테마의 마법사족·융합 몬스터를 대상으로 나올 때, 그 대상을 체인으로 치워도 추억의 알레이스터 특소는 막을 수 없다. 끊으려면 이어지는 ② 서치(필드의 유발 효과)를 노린다."
+  },
+  {
+   "id": "supp-22965",
+   "fid": null,
+   "cid": 22965,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=22965&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Aiwass, Divine Spirit of the Law"
+   ],
+   "handtraps": [
+    "ash",
+    "purge",
+    "imperm",
+    "veiler"
+   ],
+   "themes": [
+    "invoked",
+    "dracotail",
+    "magistus",
+    "mitsurugi"
+   ],
+   "topic": "resolve",
+   "question_ko": "[[Aiwass, Divine Spirit of the Law]]의 ①(자신을 제외하고 알레이스터 서치, 필드에서 발동하면 마법사족 1장 일반 소환)은 어떻게 처리되나?",
+   "answer_ko": "①은 패·몬스터 존에서 발동하는 기동 효과다. 처리 때 덱에서 알레이스터 몬스터를 패에 넣고, 필드에서 발동했다면 그 체인 블록 처리 뒤 곧바로 마법사족 1장을 일반 소환할 수 있다. 패에 넣기와 일반 소환은 동시에 처리되지 않는다. ②는 묘지에서 발동하는 유발 효과로, 자신을 특소한 뒤 패·필드 몬스터로 소환수 융합을 할 수 있다(특소와 융합은 동시에 처리되지 않는다).",
+   "quote_ja": "この効果をフィールドで発動していた場合、この効果のチェーンブロックの処理後、ただちに、『魔法使い族モンスター１体の召喚を行う』ことができます。",
+   "impact_ko": "[[Sacred Spirit Sword Aiwass]]로 덱에서 나온 아이와스가 필드에서 ①을 쓰면 서치 + 추가 일반 소환까지 한 효과다. 이 ①에 우라라·도미나스 퍼지를 체인하면 서치도, 따라오는 일반 소환도 없다. 아이와스 자신은 코스트로 이미 제외되어 있다."
+  },
+  {
+   "id": "supp-23003",
+   "fid": null,
+   "cid": 23003,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=23003&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Sacred Spirit Sword Aiwass"
+   ],
+   "handtraps": [],
+   "themes": [
+    "invoked",
+    "dracotail",
+    "mitsurugi"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Sacred Spirit Sword Aiwass]]의 '이 턴 융합 몬스터로만 공격 선언 가능' 제약은 언제 걸리나?",
+   "answer_ko": "발동할 때 ● 1개를 골라 그 효과로 발동한다. ●의 처리가 성공했는지와 관계없이, 이 카드의 발동이나 효과가 무효되지 않았다면 이 턴 자신은 융합 몬스터로만 공격 선언할 수 있다.",
+   "quote_ja": "『●』の処理に成功したかに関わらず、このカードの発動や効果が無効にならなかったのであれば、『このターン、自分は融合モンスターでしか攻撃宣言できない』状態になります。",
+   "impact_ko": "후공에서 신령검을 쓰면 메인 테마의 융합이 아닌 몬스터(드래곤테일 마법사족 하급, 미츠루기 의식 몬스터 등)는 그 턴 공격할 수 없다. 선공 1턴에는 영향이 없다."
+  },
+  {
+   "id": "supp-20282",
+   "fid": null,
+   "cid": 20282,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=20282&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Seventh Tachyon"
+   ],
+   "handtraps": [],
+   "themes": [
+    "mitsurugi",
+    "vanquish-soul-k9"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Seventh Tachyon]]은 어떻게 처리되고, 엑스트라 덱 제약은 언제부터 걸리나?",
+   "answer_ko": "처리 때 공개한 몬스터와 종족 또는 속성이 같고, 그 랭크와 같은 레벨인 몬스터 1장을 덱에서 패에 넣고, 성공하면 그 후 패 1장을 덱 맨 위로 되돌린다(동시 처리 아님). 이 효과 처리 이후 턴 종료까지 엑스트라 덱에서 엑시즈 몬스터만 특소할 수 있다. 이미 엑시즈 이외를 엑스트라 덱에서 특소한 턴에도 발동할 수 있다. 「CNo.」를 공개해도 되지만 그 No. 숫자가 101~107이어야 한다.",
+   "quote_ja": "この効果の処理以降、『ターン終了時まで自分はXモンスターしかEXデッキから特殊召喚できない』状態になります。",
+   "impact_ko": "미츠루기 K9은 [[Number C106: Giant Red Hand]](랭크 5·땅)나 [[Number C104: Umbral Horror Masquerade]](랭크 5·어둠)를 공개해 [[K9-04 Noroi]]·[[K9-66a Jokul]] 등 레벨 5 K9을 서치한다. 이 카드를 쓴 턴은 링크([[I:P Masquerena]]·[[S:P Little Knight]])를 엑스트라 덱에서 낼 수 없다. 서치이므로 우라라·도미나스 퍼지 대상이다."
+  },
+  {
+   "id": "supp-21791",
+   "fid": null,
+   "cid": 21791,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21791&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "K9-04 Noroi"
+   ],
+   "handtraps": [
+    "ash",
+    "imperm"
+   ],
+   "themes": [
+    "vanquish-soul-k9",
+    "mitsurugi",
+    "artmage"
+   ],
+   "topic": "summon",
+   "question_ko": "[[K9-04 Noroi]]의 ①(릴리스 없이 일반 소환)과 ②(일반 소환 시 덱에서 K9 특소)의 제약은 어떻게 적용되나?",
+   "answer_ko": "①은 어느 효과 분류에도 속하지 않는 효과로, 이 방법으로 공격 표시 일반 소환할 수 있다(뒷면 세트는 불가). ②는 몬스터 존에서 발동하는 유발 효과이고, 이 효과로 특소한 몬스터가 자신의 몬스터 존에 앞면으로 있는 동안 자신은 엑스트라 덱에서 K9 몬스터만 특소할 수 있다.",
+   "quote_ja": "この効果で自分が特殊召喚したモンスターが自分のモンスターゾーンに表側表示で存在する限り、自分には『「K９」モンスターしかEXデッキから特殊召喚できない』効果が適用されます。",
+   "impact_ko": "노로이로 덱에서 꺼낸 K9을 Ripper 소재로 치우기 전까지 메인 테마의 엑스트라 덱 몬스터(아르토메기아 융합, 미츠루기 쪽 링크·랭크 8 등)는 나오지 않는다. 노로이 덱 특소에 우라라를 맞히면 특소도 제약도 없다."
+  }
+ ]
+}

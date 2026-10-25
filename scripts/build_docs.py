@@ -176,6 +176,55 @@ def build_handtraps(ht, classes, names):
     return "\n".join(out) + "\n"
 
 
+def attach_decklists(themes, engines):
+    """개요의 '예시 덱' 영역: MDM 상위 덱 집계(변형 deckType 합산)에서 핵심·선택 카드, 엔진, 대표 덱 리스트."""
+    meta_p = ROOT / "data/meta/latest.json"
+    if not meta_p.exists():
+        return
+    meta = load_json(meta_p)
+    eng_by_mdm = {n: e["slug"] for e in engines for n in e.get("mdm_names", [])}
+    for t in themes:
+        rows = [(v, meta["themes"][v]) for v in t.get("variants", []) if v in meta["themes"]]
+        total = sum(r["decks"] for _, r in rows)
+        if not total:
+            t["decklist"] = {"decks": 0, "window": meta.get("window")}
+            continue
+
+        def agg(part):
+            acc = {}
+            for _, r in rows:
+                for c in r[part]:
+                    a = acc.setdefault(c["name"], [0.0, 0.0])
+                    a[0] += c["rate"] * r["decks"]
+                    a[1] += c["rate"] * r["decks"] * c["avg"]
+            return sorted(
+                ({"card": n, "rate": round(v[0] / total, 3), "avg": round(v[1] / v[0], 2)} for n, v in acc.items() if v[0]),
+                key=lambda x: (-x["rate"], -x["avg"]),
+            )
+
+        main, extra = agg("main"), agg("extra")
+        eng = {}
+        for _, r in rows:
+            for x in r.get("engines", []):
+                eng[x["name"]] = eng.get(x["name"], 0) + x["rate"] * r["decks"]
+        samples = [dict(d, variant=v) for v, r in rows for d in r.get("samples", [])]
+        samples.sort(key=lambda d: -next(r["decks"] for v, r in rows if v == d["variant"]))
+        t["decklist"] = {
+            "decks": total,
+            "window": meta.get("window"),
+            "variants": [{"name": v, "decks": r["decks"]} for v, r in rows],
+            "core_main": [c for c in main if c["rate"] >= 0.6],
+            "flex_main": [c for c in main if 0.2 <= c["rate"] < 0.6][:24],
+            "core_extra": [c for c in extra if c["rate"] >= 0.5],
+            "flex_extra": [c for c in extra if 0.2 <= c["rate"] < 0.5][:12],
+            "engines": sorted(
+                ({"name": n, "rate": round(k / total, 3), "slug": eng_by_mdm.get(n)} for n, k in eng.items()),
+                key=lambda x: -x["rate"],
+            )[:10],
+            "samples": samples[:3],
+        }
+
+
 def write_site_data(themes, engines, hdef, names):
     """GitHub Pages(docs/index.html)가 읽는 데이터 한 덩어리. 카드는 테마에 나온 것만 담는다."""
     used = set()
@@ -193,6 +242,7 @@ def write_site_data(themes, engines, hdef, names):
             used.update(re.findall(r"\[\[([^\]]+)\]\]", o))
 
     bdef = load_json(ROOT / "data/breakers.json")
+    attach_decklists(themes, engines)
     walk(themes)
     walk(engines)
     walk(hdef["handtraps"])
