@@ -19,6 +19,22 @@
 | 도미나스 퍼지 (Dominus Purge) | 🔴 치명 | 우라라와 같은 지점: 엘펜노츠 루키나 (Elfnote Lucina) 서치(lucina·baronne_first 2단계), 절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus) 발동(terminus 1단계). 루키나·테르미나스가 필드에 있어 패에서 발동 가능. 패에서 쓰면 어둠·물·화염 봉인. |
 | PSY프레임기어 γ (PSY-Framegear Gamma) | 🔴 치명 | 내 필드에 몬스터가 없을 때 엘펜노츠 루키나 (Elfnote Lucina) 서치(lucina·baronne_first 2단계)에 체인해 발동 무효 + 파괴. 발동 무효라 레기나 회피도 통하지 않는다. 감옥신 루트는 무구한 자 메디우스 (Medius the Pure) 소환 유발(terminus 3단계). 크리스탈윙이 선 뒤에는 무효당한다. |
 | 피드라울리스＝하르모니아 (Fydraulis Harmonia) | 🔴 치명 | 싱크로 5장 공개 기준. 1순위는 엘펜노츠 루키나 (Elfnote Lucina) 서치(단독 체인)에 직접 체인해 루키나 파괴 → 레벨 6이 없어 멈춘다. 차선은 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia) 소생 효과. 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)·플뢰르 드 바로네스 (Baronne de Fleur)가 선 뒤에는 무효당하고, 패러렐리즘 앞면 중 중앙 몬스터는 파괴 불가. 2~3장 공개(2+/4+)는 자기 특소·묘지 보내기뿐이라 견제가 아니다 |
+| 매크로 코스모스 (Macro Cosmos) | 🔴 치명 | 싱크로 소재가 전부 제외되어 엘펜노츠의 감옥신정 (Elfnote Power Patron) 서치·엘펜노츠 레기나 (Elfnote Regina) 패 회수가 없고, 엘펜노츠 레기나 (Elfnote Regina) 패 효과·엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home)·엘펜노츠~광주의 랩소디아~ (Elfnotes: Rhapsodia of Madness)는 모두 '묘지로 보내는' 코스트라 발동 자체가 안 된다. 절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus)는 발동은 되지만 감옥신정이 제외되어 그 후의 서치가 없다. 세트해 뒀다면 첫 효과(루키나 서치)에 체인해 발동 |
+| 차원의 틈 (Dimensional Fissure) | 🔴 치명 | 몬스터만 제외하지만 이 덱의 묘지 자원은 전부 몬스터다. 감옥신정 서치·레기나 회수·스트리치아 소생이 끊기고, 패러렐리즘·랩소디아(몬스터를 묘지로)는 코스트를 낼 수 없다. 선공 때 미리 앞면 |
+| 섬광의 추방자 (Banisher of the Radiance) | 🔴 치명 | 매크로 코스모스 (Macro Cosmos)와 같은 효과. 다만 몬스터라 상대 턴에 엘펜노츠 루키나 (Elfnote Lucina) 바운스(퀵)나 플뢰르 드 바로네스 (Baronne de Fleur) 파괴로 치워질 수 있다. 1턴째 전개 중에는 루키나의 바운스가 상대 턴 전용이라 내 턴 선공 보드로는 안정적 |
+| 마스크드 히어로 다크 로우 (Masked HERO Dark Law) | 🔴 치명 | 상대 묘지로 가는 카드 전부 제외라 매크로 코스모스 (Macro Cosmos)와 같은 지점이 끊기고, 엘펜노츠 루키나 (Elfnote Lucina)·감옥신정·테르미나스의 서치마다 상대 패 1장이 무작위 제외(1턴 1번). HERO 덱 전용 |
+| 크샤트리라 어라이즈하트 (Kashtira Arise-Heart) | 🔴 치명 | 매크로 코스모스 (Macro Cosmos)와 같은 지점이 끊기고, 소재 3개로 중앙의 엘펜노츠 루키나 (Elfnote Lucina)나 플뢰르 드 바로네스 (Baronne de Fleur)를 뒷면 제외(퀵) |
+| 차원 장벽 (Dimensional Barrier) | 🔴 치명 | '싱크로' 선언. 상대 스탠바이 페이즈나 첫 효과(엘펜노츠 루키나 (Elfnote Lucina) 서치)에 체인. 이번 턴 싱크로가 전혀 없어 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia)·플뢰르 드 바로네스 (Baronne de Fleur)·크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)이 다 막히고, 남는 건 레벨 6 엘펜노츠와 지속 마함뿐. 감옥신정 서치(싱크로 소재 유발)도 시작되지 않는다 |
+| 심연의 결계상 (Barrier Statue of the Abyss) | 🔴 치명 | 엘펜노츠 레벨 6이 전부 어둠이 아니라 엘펜노츠 루키나 (Elfnote Lucina)의 패 특소부터 막힌다. 감옥신 루트도 감옥신정(화염)을 특소할 수 없어 메디우스(어둠) 일반 소환 이후가 없다 |
+| 섬광의 결계상 (Barrier Statue of the Heavens) | 🔴 치명 | 빛은 엘펜노츠 포르토나 (Elfnote Fortuna)·쥰 프라이드·라이트닝마스터뿐. 엘펜노츠 루키나 (Elfnote Lucina)(화염) 패 특소부터 막히고 감옥신정(화염) 특소도 불가 |
+| 업화의 결계상 (Barrier Statue of the Inferno) | 🔴 치명 | 화염은 엘펜노츠 루키나 (Elfnote Lucina)·감옥신정·엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia)뿐이라 루키나→감옥신정→스트리치아까지는 된다. 하지만 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)·플뢰르 드 바로네스 (Baronne de Fleur)(바람), 디나(물)·레기나(바람)·포르토나(빛)가 전부 막혀 스트리치아 1장으로 끝난다 |
+| 호우의 결계상 (Barrier Statue of the Torrent) | 🔴 치명 | 물은 엘펜노츠 디나 (Elfnote Tinia)뿐. 루키나 패 특소부터 막히고 싱크로도 전부 물이 아니다 |
+| 배너티 데블 (Vanity's Fiend) | 🔴 치명 | 덱이 특소 덩어리라 엘펜노츠 루키나 (Elfnote Lucina)의 패 특소(규칙)부터 할 수 없다. 감옥신정·메디우스 일반 소환만 남는다 |
+| 배너티 룰러 (Vanity's Ruler) | 🔴 치명 | 배너티 데블 (Vanity's Fiend)과 같다(상대만 특소 불가). 레벨 8이라 내 필드에 세우기는 더 어렵다 |
+| 스킬 드레인 (Skill Drain) | 🔴 치명 | 엘펜노츠 루키나 (Elfnote Lucina)의 특소는 규칙이라 막지 못하지만 메인 페이즈 서치(필드 효과)가 무효. 세트해 뒀다면 루키나 서치 발동에 체인. 감옥신정 레벨 업·레기나 중앙 소환 유발·스트리치아 소생도 필드 효과라 무효. 레기나 패 효과와 싱크로 소재 묘지 유발은 막지 못한다 |
+| 미스테이크 (Mistake) | 🔴 치명 | 초동이 전부 서치(엘펜노츠 루키나 (Elfnote Lucina)·테르미나스·메디우스, 이후 감옥신정 소재 서치). 세트해 뒀다면 루키나 서치 발동에 체인해도 그 서치가 막힌다(공식 Q&A). 레기나의 덱 특소·패러렐리즘·디나/포르토나의 덱에서 놓기는 막지 못한다 |
+| 군웅할거 (Rivalry of Warlords) | 🔴 치명 | 유일한 튜너 감옥신정이 악마족, 레벨 6 엘펜노츠는 마법사족이라 둘을 같은 필드에 세울 수 없다(필드에 앞면 몬스터가 있으면 다른 종족은 소환 불가). 루키나 뒤 감옥신정 일반 소환부터 막혀 싱크로가 안 된다 |
+| 어전시합 (Gozen Match) | 🔴 치명 | 엘펜노츠는 '속성이 다른' 엘펜노츠를 계속 부르는 덱. 루키나·감옥신정·스트리치아(화염)→크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)(바람)까지는 소재가 빠져 되지만, 그 뒤 디나(물)를 중앙에 낼 수 없다. 레기나(바람)의 감옥신정(화염) 덱 특소도 불가 |
 | 증식의 G (Maxx "C") | 🟠 아픔 | 패 특소가 체인 없이 나오므로 스탠바이 선사용 또는 첫 서치에 체인 |
 | 마루챠미 후와로스 (Mulcharmy Fuwalos) | 🟠 아픔 | 덱·엑스트라 특소가 많다. 패 특소에는 드로우가 없으니 싱크로 전에 깔 것 |
 | 마루챠미 푸루리아 (Mulcharmy Purulia) | 🟠 아픔 | 레벨 6들의 패 특소와 감옥신정·메디우스 일반 소환에 반응. 스탠바이에 미리 |
@@ -29,14 +45,19 @@
 | The Fallen & The Virtuous (The Fallen & The Virtuous) | 🟠 아픔 | 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 루키나 서치에 체인해 루키나 파괴, 또는 엘펜노츠의 감옥신정 (Elfnote Power Patron) 레벨 업에 체인해 튜너 파괴(마법이라 크리스탈윙에 막히지 않음) |
 | 초융합 (Super Polymerization) | 🟠 아픔 | 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 엘펜노츠의 감옥신정 (Elfnote Power Patron) 레벨 업 때 중앙의 엘펜노츠 레기나 (Elfnote Regina) + 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)(둘 다 바람, 종족 다름)으로 늪지의 도로곤 (Mudragon of the Swamp). 최종 필드라면 플뢰르 드 바로네스 (Baronne de Fleur) + 크리스탈윙도 같은 조합 |
 | 금지된 성관 (Forbidden Crown) | 🟠 아픔 | 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 루키나 서치 또는 엘펜노츠의 감옥신정 (Elfnote Power Patron) 레벨 업에. 몬스터 효과로 체인할 수 없어 레기나·크리스탈윙이 대응 못 한다. 중앙 몬스터를 묶어도 코스트로 보내면 풀린다 |
+| 아크 디클레어러 (Herald of the Arc Light) | 🟠 아픔 | 무효 1회는 엘펜노츠 루키나 (Elfnote Lucina) 서치(1순위)나 무구한 자 메디우스 (Medius the Pure) 소환 유발에. 패·덱→묘지 몬스터 제외라 테르미나스 덤핑 뒤 서치가 없고, 레기나는 패의 엘펜노츠 몬스터를 코스트로 못 쓴다. 싱크로 소재(필드→묘지) 유발은 못 막는다. 패러렐리즘·랩소디아의 앞면 효과는 무효 대상이 아님 |
+| D.D. 크로우 (D.D. Crow) | 🟠 아픔 | 엘펜노츠의 감옥신정 (Elfnote Power Patron)이 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia)의 소재로 묘지에 간 직후(서치 유발에 체인) 감옥신정을 제외 → 스트리치아 소생·랩소디아 소생 대상이 사라져 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)이 안 나온다. 감옥신 루트는 비도리움 P효과 전에 묘지의 감옥신정을 제외 |
 | 마루챠미 냐루스 (Mulcharmy Meowls) | 🟡 할만함 | 내 필드에 카드가 없을 때 첫 묘지 특소에 체인. 기본형은 스트리치아 소생(lucina 6단계)부터 2장, 감옥신 루트는 비도리움 P효과(terminus 5단계)부터 5장 안팎. 크리스탈윙이 나오기 전에 깔 것. |
 | 도미나스 스파크 (Dominus Spark) | 🟡 할만함 | 상대가 패·묘지에서 몬스터 효과를 쓴 그 체인 위에서 패로 쓸 수 있다. 기본형은 감옥신정 묘지 서치(lucina 5단계)에 체인해 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia) 제외(크리스탈윙 불가), 감옥신 루트는 TG 하이퍼 라이브러리언 (T.G. Hyper Librarian) 제외(드로우 차단), 바로네스 루트는 레기나 덱 특소 유발에 맞춰 중앙 레기나 제외(바로네스 불가). 플뢰르 드 바로네스 (Baronne de Fleur)가 선 뒤에는 무효당한다. |
 | 비스테드 드루이드브룸 (Bystial Druiswurm) | 🟡 할만함 | 엘펜노츠 본체는 빛·어둠이 적다. 감옥신 루트의 묘지 무구한 자 메디우스 (Medius the Pure) 자가 소생에 체인해 제외하면 카오스 앙헬－혼돈의 쌍익－ (Chaos Angel)이 안 나온다 |
 | 싸이크론 (Mystical Space Typhoon) | 🟡 할만함 | 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 엘펜노츠~광주의 랩소디아~ (Elfnotes: Rhapsodia of Madness)가 1턴 1번을 쓴 뒤 깨면 내 턴의 소생+무효가 사라진다(내 턴에 깨면 체인해서 쓴다). 패러렐리즘은 중앙 파괴 내성만 |
+| 아크네메시스 프로토스 (Archnemeses Protos) | 🟡 할만함 | 선공 1턴엔 내 필드 속성만 선언 가능. 자신의 어둠을 선언하면 감옥신 루트의 TG 하이퍼 라이브러리언 (T.G. Hyper Librarian)·카오스 앙헬－혼돈의 쌍익－ (Chaos Angel)(어둠)만 막혀 루키나 기본형은 그대로다. 내 필드에 화염 몬스터가 있어 '화염'을 선언할 수 있다면 엘펜노츠 루키나 (Elfnote Lucina)·감옥신정·스트리치아 특소가 막혀 strong 이상 |
+| 센서 만별 (There Can Be Only One) | 🟡 할만함 | 마법사족 엘펜노츠 2장을 나란히 세우는 순간이 막힌다(엘펜노츠 레기나 (Elfnote Regina)의 엘펜노츠 덱 특소, 쥰 프라이드의 3장 동시 특소). 감옥신정(악마족)·싱크로(전사족·드래곤족·식물족)는 종족이 갈려 기본 싱크로는 이어진다 |
 | 삼전의 재 (Triple Tactics Talent) | ⚪ 약함 | 후공 내 턴에 상대가 크리스탈윙·레기나 등 몬스터 효과를 쓰면 발동 가능한 뒤집기용. 상대 선공 전개를 막는 카드는 아님 |
 | 금지된 일적 (Forbidden Droplet) | ⚪ 약함 | 후공 돌파용. 바로네스·크리스탈윙 무효에 쓴다 |
 | 원시생명체 니비루 (Nibiru, the Primal Being) | ⚪ 약함 | 5번째 소환 전후로 바로네스·크리스탈윙이 이미 서 있어 무효당하기 쉽다. 쓸 수 있다면 토큰으로 중앙 존을 막는 것이 이득 |
 | 비스테드 마그나무트 (Bystial Magnamhut) | ⚪ 약함 | 감옥신정은 화염이라 대상이 안 된다. 묘지의 메디우스(어둠)·포르토나(빛) 정도만 제외 가능 |
+| 응전의 G (Retaliating "C") | ⚪ 약함 | 1턴 전개에 '특소를 포함한 마법 카드의 발동'이 없다. 절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus)는 덤핑+서치, 패러렐리즘은 디나가 덱에서 앞면으로 놓아 발동이 아니다 |
 | 말살의 지명자 (Crossout Designator) | ⛔ 비추 | 자신의 메인 덱에서 제외하는 카드라 엘펜노츠 카드는 선언할 수 없다. 같은 메디우스·하르모니아를 쓰는 경우에만 의미 있음 |
 
 ## 패트랩 타이밍 (우선순위 순)
@@ -85,135 +106,339 @@
    - 타이밍: 엘펜노츠 루키나 (Elfnote Lucina)의 서치 효과(체인 1 단독)에 직접 체인해 싱크로 5장 공개 → 처리 시 루키나 파괴(대상 지정 없음)
    - 이유: 서치는 처리되지만 필드에 레벨 6이 없어, 서치한 엘펜노츠의 감옥신정 (Elfnote Power Patron)을 일반 소환해도 레벨 업 대상(중앙 몬스터)도 싱크로 상대도 없다. 이 시점에는 엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home)이 없어 중앙 몬스터도 파괴된다. 하르모니아는 '상대 몬스터 효과 발동에 직접 체인'해야 하므로 단독 체인인 이 지점이 가장 확실하다.
    - 맞은 뒤 상대 루트: 패에 다른 레벨 6(엘펜노츠 디나 (Elfnote Tinia) 등)이 있으면 비워진 중앙에 특소해 계속한다. 패의 엘펜노츠 레기나 (Elfnote Regina)가 체인해 루키나를 코스트로 보내면 하르모니아는 처리 시 그 레기나를 파괴한다(레기나의 덱 특소 유발은 남음).
-12. 🟠 아픔 **금지된 성관** (Forbidden Crown) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 2단계
+12. 🔴 치명 **매크로 코스모스** (Macro Cosmos) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 5단계
+   - 타이밍: 세트해 뒀다면 상대의 첫 효과(엘펜노츠 루키나 (Elfnote Lucina) 서치)에 체인해 발동 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia)의 소재가 묘지로 가지 않고 제외되어 감옥신정의 '싱크로 소재로 묘지에 보내진 경우' 서치가 발동하지 않는다. 묘지에 감옥신정이 없으니 6단계 소생→크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)도 없다. 이후 패러렐리즘·랩소디아·레기나는 코스트(묘지로 보내기)를 낼 수 없어 발동 불가.
+   - 맞은 뒤 상대 루트: 패의 레벨 6을 중앙에 내는 정도. 바로네스 우선 루트(baronne_first)도 3단계 레기나의 코스트를 낼 수 없어 시작되지 않는다.
+13. 🔴 치명 **매크로 코스모스** (Macro Cosmos) → **절해한 감옥신문－테르미나스** (Prohibited Power Patron Portal - Terminus) — terminus 1단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 이 카드의 발동에 체인해 발동
+   - 이유: 테르미나스는 발동할 수 있지만 덱의 감옥신정이 묘지 대신 제외되어 '그 후 어둠·천사족 서치'를 할 수 없다. 메디우스도 비도리움 P효과의 묘지 특소 대상도 없다.
+   - 맞은 뒤 상대 루트: 루키나 기본형으로 가도 lucina 5단계에서 다시 막힌다.
+14. 🔴 치명 **마스크드 히어로 다크 로우** (Masked HERO Dark Law) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 2단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 반응(서치 처리 후 1턴 1번)
+   - 이유: 엘펜노츠 루키나 (Elfnote Lucina) 서치에 반응해 상대 패 1장을 무작위 제외하고, 이후는 매크로 코스모스 (Macro Cosmos)와 같이 감옥신정 서치(lucina 5단계)·레기나·지속 마함 코스트가 모두 막힌다.
+   - 맞은 뒤 상대 루트: 패 제외는 무작위라 핵심 카드가 남을 수 있다. 그래도 묘지 기반 전개는 전부 막힘.
+15. 🔴 치명 **크샤트리라 어라이즈하트** (Kashtira Arise-Heart) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘. 퀵 제외는 중앙 몬스터나 마지막 싱크로에
+   - 이유: 매크로 코스모스 (Macro Cosmos)와 같은 지점. 제외될 때마다 소재가 늘어 퀵 뒷면 제외도 쓸 수 있다.
+   - 맞은 뒤 상대 루트: —
+16. 🔴 치명 **섬광의 추방자** (Banisher of the Radiance) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 매크로 코스모스 (Macro Cosmos)와 같은 지점. 1턴째 전개 중 상대는 이 몬스터를 치울 수단이 거의 없다(루키나 바운스는 상대 턴 전용).
+   - 맞은 뒤 상대 루트: —
+17. 🔴 치명 **섬광의 추방자** (Banisher of the Radiance) → **절해한 감옥신문－테르미나스** (Prohibited Power Patron Portal - Terminus) — terminus 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 덤핑한 감옥신정이 제외되어 그 후의 서치가 없다.
+   - 맞은 뒤 상대 루트: —
+18. 🔴 치명 **차원의 틈** (Dimensional Fissure) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 몬스터는 전부 제외되므로 감옥신정 서치 유발이 없고, 패러렐리즘·랩소디아는 코스트로 몬스터를 묘지로 보낼 수 없다.
+   - 맞은 뒤 상대 루트: 레기나는 패의 엘펜노츠 마함을 코스트로 보낼 수는 있다(마함은 묘지로 감). 그래도 싱크로 이후가 없다.
+19. 🔴 치명 **차원의 틈** (Dimensional Fissure) → **절해한 감옥신문－테르미나스** (Prohibited Power Patron Portal - Terminus) — terminus 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 덱의 감옥신정이 제외되어 그 후의 서치가 없다.
+   - 맞은 뒤 상대 루트: —
+20. 🔴 치명 **차원 장벽** (Dimensional Barrier) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 4단계
+   - 타이밍: 세트해 뒀다면 상대 스탠바이 페이즈 또는 첫 효과(엘펜노츠 루키나 (Elfnote Lucina) 서치) 발동에 체인해 '싱크로' 선언
+   - 이유: 이번 턴 싱크로 소환이 전혀 안 된다. 감옥신정 서치(싱크로 소재 유발)·레기나 회수도 시작되지 않고, 남는 건 중앙의 레벨 6 엘펜노츠 1~2장과 패러렐리즘·랩소디아(싱크로가 없어 무효 효과 불발).
+   - 맞은 뒤 상대 루트: 링크는 선언할 수 없지만 이 덱 엑스트라는 싱크로 위주라 우회가 거의 없다.
+21. 🔴 치명 **차원 장벽** (Dimensional Barrier) → **TG 하이퍼 라이브러리언** (T.G. Hyper Librarian) — terminus 7단계
+   - 타이밍: 세트해 뒀다면 테르미나스 발동에 체인해 '싱크로' 선언
+   - 이유: 라이브러리언부터 모든 싱크로가 막힌다. 비도리움 P효과로 감옥신정을 꺼내도 이을 싱크로가 없다.
+   - 맞은 뒤 상대 루트: —
+22. 🔴 치명 **차원 장벽** (Dimensional Barrier) → **플뢰르 드 바로네스** (Baronne de Fleur) — baronne_first 6단계
+   - 타이밍: 세트해 뒀다면 루키나 서치에 체인해 '싱크로' 선언
+   - 이유: 플뢰르 드 바로네스 (Baronne de Fleur)가 안 나온다. 감옥신정 레벨 업 뒤의 싱크로도 불가.
+   - 맞은 뒤 상대 루트: —
+23. 🔴 치명 **스킬 드레인** (Skill Drain) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 2단계
+   - 타이밍: 세트해 뒀다면 이 효과 발동에 체인해 발동 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 루키나의 특소는 규칙이라 막지 못하지만, 필드에서 발동한 서치는 처리 때 루키나가 앞면이면 처리되지 않는다. 1장 초동이면 감옥신정을 못 가져와 끝.
+   - 맞은 뒤 상대 루트: 패에 레기나가 있으면 루키나를 코스트로 보내 레기나 특소(패 효과라 무효 안 됨) → 하지만 레기나의 중앙 소환 유발(필드)은 무효. 감옥신정이 패에 있으면 일반 소환 후 레벨 업(필드 효과)이 무효라 엘펜노츠 싱크로도 막힌다.
+24. 🔴 치명 **스킬 드레인** (Skill Drain) → **무구한 자 메디우스** (Medius the Pure) — terminus 3단계
+   - 타이밍: 세트해 뒀다면 이 효과 발동에 체인해 발동 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 메디우스의 소환 유발(필드)이 무효라 비도리움을 못 가져온다.
+   - 맞은 뒤 상대 루트: 테르미나스로 이미 감옥신정을 묘지에 보냈다면 다른 패로 싱크로를 시도하지만 필드 효과는 계속 무효.
+25. 🔴 치명 **스킬 드레인** (Skill Drain) → **엘펜노츠 루키나** (Elfnote Lucina) — baronne_first 2단계
+   - 타이밍: 세트해 뒀다면 루키나 서치에 체인
+   - 이유: lucina 2단계와 같다.
+   - 맞은 뒤 상대 루트: —
+26. 🔴 치명 **미스테이크** (Mistake) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 2단계
+   - 타이밍: 세트해 뒀다면 이 서치 효과 발동에 체인해 발동(체인 2로 먼저 적용되어 서치가 처리되지 않음) / 미리 앞면이면 발동 자체가 불가
+   - 이유: 1장 초동이면 감옥신정을 못 가져와 싱크로가 시작되지 않는다. 이후 감옥신정 소재 서치도 모두 막힌다.
+   - 맞은 뒤 상대 루트: 패에 레기나가 있으면 레기나→덱에서 감옥신정 특소로 플뢰르 드 바로네스 (Baronne de Fleur)까지는 가지만 감옥신정 서치가 막혀 디나가 안 온다.
+27. 🔴 치명 **미스테이크** (Mistake) → **절해한 감옥신문－테르미나스** (Prohibited Power Patron Portal - Terminus) — terminus 1단계
+   - 타이밍: 세트해 뒀다면 테르미나스 발동에 체인
+   - 이유: 덤핑은 되지만 메디우스 서치가 막힌다. 메디우스가 패에 있어도 그 소환 유발은 '특소' 모드만 쓸 수 있다.
+   - 맞은 뒤 상대 루트: —
+28. 🔴 치명 **미스테이크** (Mistake) → **엘펜노츠 루키나** (Elfnote Lucina) — baronne_first 2단계
+   - 타이밍: 세트해 뒀다면 루키나 서치에 체인
+   - 이유: 레기나를 못 가져온다.
+   - 맞은 뒤 상대 루트: —
+29. 🔴 치명 **배너티 데블** (Vanity's Fiend) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 레벨 6 엘펜노츠의 중앙 특소(규칙)부터 할 수 없다. 레기나 패 특소·감옥신정 레벨 업 뒤 싱크로 등 특소를 포함한 효과는 발동도 안 된다.
+   - 맞은 뒤 상대 루트: 감옥신정·메디우스 일반 소환만 가능.
+30. 🔴 치명 **배너티 데블** (Vanity's Fiend) → **혼절감옥신 비도리움** (Vidolium the Unstable Power Patron of Unity) — terminus 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 비도리움 P효과의 감옥신정 특소 불가. 메디우스 소환 유발도 서치 모드만.
+   - 맞은 뒤 상대 루트: —
+31. 🔴 치명 **배너티 데블** (Vanity's Fiend) → **엘펜노츠 루키나** (Elfnote Lucina) — baronne_first 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: lucina 1단계와 같다.
+   - 맞은 뒤 상대 루트: —
+32. 🔴 치명 **배너티 룰러** (Vanity's Ruler) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 배너티 데블 (Vanity's Fiend)과 같다.
+   - 맞은 뒤 상대 루트: —
+33. 🔴 치명 **배너티 룰러** (Vanity's Ruler) → **혼절감옥신 비도리움** (Vidolium the Unstable Power Patron of Unity) — terminus 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 배너티 데블 (Vanity's Fiend)과 같다.
+   - 맞은 뒤 상대 루트: —
+34. 🔴 치명 **배너티 룰러** (Vanity's Ruler) → **엘펜노츠 루키나** (Elfnote Lucina) — baronne_first 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 배너티 데블 (Vanity's Fiend)과 같다.
+   - 맞은 뒤 상대 루트: —
+35. 🔴 치명 **심연의 결계상** (Barrier Statue of the Abyss) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 엘펜노츠 루키나 (Elfnote Lucina)(화염)를 특소할 수 없다. 레벨 6 엘펜노츠·감옥신정·엘펜노츠 싱크로가 전부 어둠이 아니다.
+   - 맞은 뒤 상대 루트: 감옥신 루트의 메디우스(어둠)는 일반 소환되지만 terminus 5단계에서 다시 막힘.
+36. 🔴 치명 **심연의 결계상** (Barrier Statue of the Abyss) → **혼절감옥신 비도리움** (Vidolium the Unstable Power Patron of Unity) — terminus 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 감옥신정(화염)을 특소할 수 없어 비도리움 P효과를 발동할 수 없다. 남는 건 메디우스 + 감옥신정 일반 소환으로 낸 TG 하이퍼 라이브러리언 (T.G. Hyper Librarian)(어둠) 정도.
+   - 맞은 뒤 상대 루트: —
+37. 🔴 치명 **심연의 결계상** (Barrier Statue of the Abyss) → **엘펜노츠 루키나** (Elfnote Lucina) — baronne_first 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: lucina 1단계와 같다.
+   - 맞은 뒤 상대 루트: —
+38. 🔴 치명 **섬광의 결계상** (Barrier Statue of the Heavens) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 엘펜노츠 루키나 (Elfnote Lucina)(화염)를 특소할 수 없다. 빛은 포르토나·쥰 프라이드·라이트닝마스터뿐이라 이어지지 않는다.
+   - 맞은 뒤 상대 루트: —
+39. 🔴 치명 **섬광의 결계상** (Barrier Statue of the Heavens) → **혼절감옥신 비도리움** (Vidolium the Unstable Power Patron of Unity) — terminus 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 감옥신정(화염) 특소 불가.
+   - 맞은 뒤 상대 루트: —
+40. 🔴 치명 **섬광의 결계상** (Barrier Statue of the Heavens) → **엘펜노츠 루키나** (Elfnote Lucina) — baronne_first 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: lucina 1단계와 같다.
+   - 맞은 뒤 상대 루트: —
+41. 🔴 치명 **업화의 결계상** (Barrier Statue of the Inferno) → **크리스탈윙 싱크로 드래곤** (Crystal Wing Synchro Dragon) — lucina 7단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 루키나·감옥신정·스트리치아는 화염이라 통과하지만 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)(바람)를 낼 수 없다. 이어서 디나(물)·레기나(바람)·포르토나(빛)·플뢰르 드 바로네스 (Baronne de Fleur)(바람)도 전부 불가.
+   - 맞은 뒤 상대 루트: 최종 필드는 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia)와 감옥신정 정도.
+42. 🔴 치명 **업화의 결계상** (Barrier Statue of the Inferno) → **TG 하이퍼 라이브러리언** (T.G. Hyper Librarian) — terminus 7단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 메디우스(어둠)는 일반 소환, 감옥신정(화염)은 특소 가능하지만 라이브러리언(어둠) 싱크로가 안 된다.
+   - 맞은 뒤 상대 루트: 감옥신정+메디우스로 화염 싱크로가 없어 사실상 정지.
+43. 🔴 치명 **업화의 결계상** (Barrier Statue of the Inferno) → **엘펜노츠 레기나** (Elfnote Regina) — baronne_first 3단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 레기나(바람)의 패 특소를 할 수 없어 바로네스 우선 루트가 안 된다.
+   - 맞은 뒤 상대 루트: lucina 기본형으로 가도 7단계에서 막힘.
+44. 🔴 치명 **호우의 결계상** (Barrier Statue of the Torrent) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 엘펜노츠 루키나 (Elfnote Lucina)(화염)를 특소할 수 없다. 물은 엘펜노츠 디나 (Elfnote Tinia)뿐이고 싱크로는 전부 물이 아니다.
+   - 맞은 뒤 상대 루트: 디나 1장을 중앙에 내는 정도.
+45. 🔴 치명 **호우의 결계상** (Barrier Statue of the Torrent) → **혼절감옥신 비도리움** (Vidolium the Unstable Power Patron of Unity) — terminus 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 감옥신정 특소 불가.
+   - 맞은 뒤 상대 루트: —
+46. 🔴 치명 **호우의 결계상** (Barrier Statue of the Torrent) → **엘펜노츠 루키나** (Elfnote Lucina) — baronne_first 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: lucina 1단계와 같다.
+   - 맞은 뒤 상대 루트: —
+47. 🔴 치명 **군웅할거** (Rivalry of Warlords) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 3단계
+   - 타이밍: 세트해 뒀다면 엘펜노츠 루키나 (Elfnote Lucina) 서치에 체인해 발동 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 필드에 마법사족 엘펜노츠 루키나 (Elfnote Lucina)가 있는 동안 악마족 감옥신정을 일반 소환할 수 없다. 튜너가 감옥신정뿐이라 싱크로가 시작되지 않는다.
+   - 맞은 뒤 상대 루트: 감옥신정을 먼저 내면 이번엔 레벨 6 엘펜노츠를 특소할 수 없다. 감옥신영정(악마족)과 감옥신정만으로 싱크로를 노리는 정도.
+48. 🔴 치명 **군웅할거** (Rivalry of Warlords) → **혼절감옥신 비도리움** (Vidolium the Unstable Power Patron of Unity) — terminus 5단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 메디우스(천사족)가 있는 동안 감옥신정(악마족)을 특소할 수 없다.
+   - 맞은 뒤 상대 루트: —
+49. 🔴 치명 **군웅할거** (Rivalry of Warlords) → **엘펜노츠 레기나** (Elfnote Regina) — baronne_first 4단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 레기나(마법사족)의 덱 특소로 감옥신정(악마족)을 낼 수 없다.
+   - 맞은 뒤 상대 루트: —
+50. 🔴 치명 **어전시합** (Gozen Match) → **엘펜노츠 디나** (Elfnote Tinia) — lucina 8단계
+   - 타이밍: 세트해 뒀다면 루키나 서치에 체인해 발동 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)(바람)가 필드에 있는 동안 디나(물)를 중앙에 낼 수 없다. 패러렐리즘·랩소디아는 '속성이 다른' 엘펜노츠를 부르는 카드라 필드를 1속성으로 유지하면 거의 쓸 수 없다.
+   - 맞은 뒤 상대 루트: 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon) 1장 + 스트리치아 정도에서 멈춘다.
+51. 🔴 치명 **어전시합** (Gozen Match) → **엘펜노츠 레기나** (Elfnote Regina) — baronne_first 4단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 레기나(바람)가 있는 동안 감옥신정(화염)을 덱에서 특소할 수 없다.
+   - 맞은 뒤 상대 루트: —
+52. 🔴 치명 **어전시합** (Gozen Match) → **혼절감옥신 비도리움** (Vidolium the Unstable Power Patron of Unity) — terminus 5단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 메디우스(어둠)가 있는 동안 감옥신정(화염)을 특소할 수 없다.
+   - 맞은 뒤 상대 루트: —
+53. 🟠 아픔 **금지된 성관** (Forbidden Crown) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 2단계
    - 타이밍: 세트해 둔 금지된 성관 (Forbidden Crown)을 루키나 서치 효과 발동에 체인, 처리 시 루키나를 고른다(대상 지정 아님)
    - 이유: 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 서치가 무효가 되고 루키나는 이번 턴 싱크로 소재가 될 수 없다. 이 카드의 발동에는 몬스터 효과로 체인할 수 없어 패의 엘펜노츠 레기나 (Elfnote Regina) 퀵 특소로 대응하지 못한다.
    - 맞은 뒤 상대 루트: 처리 뒤 레기나가 루키나를 코스트로 보내면 중앙이 비고 성관 적용도 끝난다(필드를 떠나면 적용 종료). 레기나가 이미 공개됐다면 레기나의 덱 특소 유발 쪽이 확실하다.
-13. 🟠 아픔 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 2단계
+54. 🟠 아픔 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 2단계
    - 타이밍: 세트해 둔 카드를 루키나 서치 효과에 체인해 루키나 파괴(엑스트라 덱의 알버스의 낙윤 (Fallen of Albaz) 관련 융합 1장을 묘지로)
    - 이유: 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 하르모니아와 같은 결과로 서치는 처리되지만 레벨 6이 없어 멈춘다. 마법이라 직접 체인 제한이 없다.
    - 맞은 뒤 상대 루트: 다른 레벨 6이나 엘펜노츠 레기나 (Elfnote Regina)가 패에 있으면 재개. 감옥신 루트라면 엘펜노츠의 감옥신정 (Elfnote Power Patron) 레벨 업(lucina 14단계)에 아껴 두는 것도 방법.
-14. 🟠 아픔 **하루 우라라** (Ash Blossom & Joyous Spring) → **절해한 감옥신문－테르미나스** (Prohibited Power Patron Portal - Terminus) — terminus 1단계
+55. 🟠 아픔 **하루 우라라** (Ash Blossom & Joyous Spring) → **절해한 감옥신문－테르미나스** (Prohibited Power Patron Portal - Terminus) — terminus 1단계
    - 타이밍: 절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus) 발동에 체인 (덤핑+서치 전부 무효)
    - 이유: 감옥신 엔진의 시작점. 무효되면 메디우스도 감옥신정 묘지 투입도 없다. 다만 덱에 3장 들어가 있고 패에 엘펜노츠가 함께 있으면 그쪽으로 다시 시작한다.
    - 맞은 뒤 상대 루트: 패에 루키나/디나가 있으면 기본형으로 전환. 우라라를 테르미나스에 쓰면 이후 루키나 서치는 막을 수 없다.
-15. 🟠 아픔 **도미나스 퍼지** (Dominus Purge) → **절해한 감옥신문－테르미나스** (Prohibited Power Patron Portal - Terminus) — terminus 1단계
+56. 🟠 아픔 **도미나스 퍼지** (Dominus Purge) → **절해한 감옥신문－테르미나스** (Prohibited Power Patron Portal - Terminus) — terminus 1단계
    - 타이밍: 절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus) 발동에 직접 체인(테르미나스가 필드에 놓여 패에서 발동 가능)
    - 이유: 우라라와 같은 지점. 체인 블록 전체가 무효라 감옥신정 덤핑과 무구한 자 메디우스 (Medius the Pure) 서치가 둘 다 사라진다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 발동할 수 없다.
    - 맞은 뒤 상대 루트: 패에 루키나가 있으면 기본형으로 전환. 그때는 루키나 서치에 다시 쓸 수 없으니(1턴 1장) 우라라 등과 나눠 쓴다.
-16. 🟠 아픔 **이펙트 뵐러** (Effect Veiler) → **무구한 자 메디우스** (Medius the Pure) — terminus 3단계
+57. 🟠 아픔 **이펙트 뵐러** (Effect Veiler) → **무구한 자 메디우스** (Medius the Pure) — terminus 3단계
    - 타이밍: 일반 소환된 무구한 자 메디우스 (Medius the Pure)의 소환 유발(감옥신 서치/특소)에 체인해 메디우스를 대상으로
    - 이유: 비도리움을 못 가져오면 묘지의 감옥신정을 꺼낼 수단이 없어 TG 하이퍼 라이브러리언 (T.G. Hyper Librarian)부터 막힌다. 메디우스는 엘펜노츠가 아니라 레기나 코스트로 치울 수 없다.
    - 맞은 뒤 상대 루트: 패에 루키나가 있으면 기본형으로 전환.
-17. 🟠 아픔 **PSY프레임기어 γ** (PSY-Framegear Gamma) → **무구한 자 메디우스** (Medius the Pure) — terminus 3단계
+58. 🟠 아픔 **PSY프레임기어 γ** (PSY-Framegear Gamma) → **무구한 자 메디우스** (Medius the Pure) — terminus 3단계
    - 타이밍: 내 필드에 몬스터가 없을 때 무구한 자 메디우스 (Medius the Pure)의 소환 유발에 체인
    - 이유: 발동 무효 + 메디우스 파괴. 비도리움·쥬노르도 서치 연결이 끊기고 싱크로 소재도 사라진다. 메디우스는 묘지에서 자가 소생(패·필드 몬스터 1장을 덱에)할 수 있지만 소환 유발은 1턴 1번이라 다시 못 쓴다.
    - 맞은 뒤 상대 루트: 패에 루키나가 있으면 기본형으로 전환.
-18. 🟠 아픔 **사요 시구레** (Ghost Mourner & Moonlit Chill) → **엘펜노츠 디나** (Elfnote Tinia) — terminus 9단계
+59. 🟠 아픔 **사요 시구레** (Ghost Mourner & Moonlit Chill) → **엘펜노츠 디나** (Elfnote Tinia) — terminus 9단계
    - 타이밍: 엘펜노츠 디나 (Elfnote Tinia)가 패에서 중앙에 특소된 직후 디나를 대상으로
    - 이유: 테르미나스 루트에서 첫 특소(5단계 감옥신정)는 효과가 별로 중요하지 않고, 디나의 지속 마법 배치를 막으면 엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home) → 레기나 → 2번째 감옥신정 → 쥰 프라이드－엘펜노츠 (Elfnote June Pride)까지 줄줄이 끊긴다. 7단계 TG 하이퍼 라이브러리언 (T.G. Hyper Librarian)에 써서 이후 싱크로 드로우를 지우는 선택지도 있다.
    - 맞은 뒤 상대 루트: 패에 루키나·레기나가 있으면 일부 재개.
-19. 🟠 아픔 **도미나스 임펄스** (Dominus Impulse) → **엘펜노츠 레기나** (Elfnote Regina) — baronne_first 3단계
+60. 🟠 아픔 **도미나스 임펄스** (Dominus Impulse) → **엘펜노츠 레기나** (Elfnote Regina) — baronne_first 3단계
    - 타이밍: 패의 엘펜노츠 레기나 (Elfnote Regina)가 중앙의 루키나를 보내고 자신을 특소하는 효과에 직접 체인
    - 이유: 루키나는 코스트로 이미 묘지에 갔고 레기나는 패에 남는다. 중앙 덱 특소(감옥신정)가 없으니 바로네스도 없다. 레기나 효과는 1턴 1번이라 다시 못 쓴다. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 발동할 수 없다.
    - 맞은 뒤 상대 루트: 4단계 레기나 덱 특소에 써도 된다. 패에 감옥신정이 있으면 일반 소환으로 일부 재개.
-20. 🟠 아픔 **드롤 & 로크 버드** (Droll & Lock Bird) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 2단계
+61. 🟠 아픔 **드롤 & 로크 버드** (Droll & Lock Bird) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 2단계
    - 타이밍: 엘펜노츠 루키나 (Elfnote Lucina)의 서치(감옥신정)가 처리되어 패에 들어간 직후
    - 이유: 5단계 감옥신정의 서치(디나)를 못 하게 된다. 디나가 없으면 엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home) → 레기나 → 포르토나 → 엘펜노츠~광주의 랩소디아~ (Elfnotes: Rhapsodia of Madness) → 바로네스가 통째로 없고, 크리스탈윙 정도로 끝난다. 지속 마함 '놓기'는 디나·포르토나가 필드에 있어야 하므로 우회도 안 된다.
    - 맞은 뒤 상대 루트: 패에 디나·포르토나·레기나가 처음부터 있으면 일부 재개.
-21. 🟠 아픔 **드롤 & 로크 버드** (Droll & Lock Bird) → **엘펜노츠 루키나** (Elfnote Lucina) — baronne_first 2단계
+62. 🟠 아픔 **드롤 & 로크 버드** (Droll & Lock Bird) → **엘펜노츠 루키나** (Elfnote Lucina) — baronne_first 2단계
    - 타이밍: 루키나 서치(레기나)가 처리된 직후
    - 이유: 레기나 → 감옥신정 → 바로네스까지는 덱 특소라 막지 못하지만, 7단계 감옥신정 서치(디나)가 막혀 바로네스 + 패의 레기나에서 멈춘다. 엘펜노츠~광주의 랩소디아~ (Elfnotes: Rhapsodia of Madness)가 없다.
    - 맞은 뒤 상대 루트: 레기나 회수(묘지 → 패)는 막지 못한다.
-22. 🟠 아픔 **드롤 & 로크 버드** (Droll & Lock Bird) → **절해한 감옥신문－테르미나스** (Prohibited Power Patron Portal - Terminus) — terminus 1단계
+63. 🟠 아픔 **드롤 & 로크 버드** (Droll & Lock Bird) → **절해한 감옥신문－테르미나스** (Prohibited Power Patron Portal - Terminus) — terminus 1단계
    - 타이밍: 테르미나스 서치(무구한 자 메디우스 (Medius the Pure))가 처리된 직후
    - 이유: 메디우스의 감옥신 서치(비도리움), 비도리움의 쥬노르도 서치, 감옥신정 서치(디나), 루키나 서치, 쥬노르도 P효과 2드로우가 전부 막힌다. 메디우스는 덱에 감옥신 몬스터가 남아 있으면 서치 대신 특소를 고를 수 있어 싱크로 1~2번은 한다.
    - 맞은 뒤 상대 루트: 패에 엘펜노츠 레벨 6이 있으면 덱 특소 계열(레기나 등)로 일부 우회.
-23. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 6단계
+64. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 6단계
    - 타이밍: 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia)의 퀵 소생 효과 발동에 체인 (스트리치아가 중앙에 있고 패러렐리즘이 이미 앞면이면 파괴 불가)
    - 이유: 소생은 처리되지만 스트리치아가 사라져 크리스탈윙의 싱크로 소재(비튜너 싱크로)가 없어진다. 감옥신정의 레벨 +3 효과에 맞추는 것도 좋다: 감옥신정이 싱크로 소재가 아닌 형태로 묘지에 가 서치가 안 나오고 튜너도 사라진다.
    - 맞은 뒤 상대 루트: 감옥신정은 소생되어 남으므로 패러렐리즘 → 레기나 → 포르토나 → 랩소디아로 바로네스까지는 간다. 최종 견제가 1개 줄어든 형태.
-24. 🟠 아픔 **저택 와라시** (Ghost Belle & Haunted Mansion) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 6단계
+65. 🟠 아픔 **저택 와라시** (Ghost Belle & Haunted Mansion) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 6단계
    - 타이밍: 스트리치아가 묘지의 감옥신정을 특소하는 효과 발동에 체인
    - 이유: 튜너가 감옥신정뿐이라 묘지 소생을 끊으면 크리스탈윙이 안 나온다. 랩소디아 소생(13단계), 레기나 패 회수(16단계), 메디우스 자가 소생, 비도리움 P효과(패·묘지 특소), 쥬노르도 회수도 모두 와라시 대상이라 대상이 많다.
    - 맞은 뒤 상대 루트: 랩소디아로 감옥신정을 다시 꺼내 바로네스는 만든다. 와라시는 1턴 1번이니 스트리치아 vs 랩소디아 중 먼저 나오는 쪽에 쓰는 편이 낫다.
-25. 🟠 아픔 **도미나스 임펄스** (Dominus Impulse) → **엘펜노츠~회향의 패러렐리즘~** (Elfnotes: Welcome Home) — lucina 10단계
+66. 🟠 아픔 **도미나스 임펄스** (Dominus Impulse) → **엘펜노츠~회향의 패러렐리즘~** (Elfnotes: Welcome Home) — lucina 10단계
    - 타이밍: 엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home)의 덱 특소 효과 발동에 직접 체인(상대 필드에 카드가 있어 패에서 발동 가능)
    - 이유: 디나는 코스트로 이미 묘지에 갔으므로 무효로 하면 레기나·포르토나·엘펜노츠~광주의 랩소디아~ (Elfnotes: Rhapsodia of Madness)·바로네스가 모두 안 나온다. 6단계 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia) 소생에 쓰면 크리스탈윙만 막고 뒤는 그대로라 여기가 더 아프다. 함정이라 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)이 무효할 수 없다. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 발동할 수 없다.
    - 맞은 뒤 상대 루트: 11단계 레기나 덱 특소, 13단계 랩소디아 소생도 대상이다(1장뿐이라 하나만).
-26. 🟠 아픔 **도미나스 임펄스** (Dominus Impulse) → **혼절감옥신 비도리움** (Vidolium the Unstable Power Patron of Unity) — terminus 5단계
+67. 🟠 아픔 **도미나스 임펄스** (Dominus Impulse) → **혼절감옥신 비도리움** (Vidolium the Unstable Power Patron of Unity) — terminus 5단계
    - 타이밍: 펜듈럼 존 혼절감옥신 비도리움 (Vidolium the Unstable Power Patron of Unity)의 P효과(자신 파괴 → 묘지의 감옥신정 특소)에 직접 체인
    - 이유: 감옥신정이 필드에 못 나와 TG 하이퍼 라이브러리언 (T.G. Hyper Librarian) 싱크로와 감옥신정 서치(디나)가 사라진다. 비도리움은 자기 효과로 파괴되지 않으면 엑스트라 덱에 가지 않아 쥬노르도 서치도 없다(묘지에 함정이 있으면 임펄스가 파괴해 엑스트라로 보내 버리니 주의). 놓쳤다면 15단계 쥰 프라이드－엘펜노츠 (Elfnote June Pride)의 3장 특소가 다음 표적. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 발동할 수 없다.
    - 맞은 뒤 상대 루트: 패에 루키나가 있으면 기본형으로 이어간다.
-27. 🟠 아픔 **초융합** (Super Polymerization) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 14단계
+68. 🟠 아픔 **초융합** (Super Polymerization) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 14단계
    - 타이밍: 엘펜노츠의 감옥신정 (Elfnote Power Patron)이 중앙의 엘펜노츠 레기나 (Elfnote Regina)에 레벨 업 효과를 발동했을 때 체인. 레기나(바람·마법사족) + 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)(바람·드래곤족)으로 늪지의 도로곤 (Mudragon of the Swamp) 융합
    - 이유: 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 초융합에는 아무것도 체인할 수 없어 크리스탈윙의 무효도 닿지 않는다. 레벨 업 대상이 사라져 플뢰르 드 바로네스 (Baronne de Fleur)가 안 나오고, 레기나도 싱크로 소재가 아니라 패로 돌아오지 않는다. 엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home)의 파괴 내성은 융합 소재와 무관하다.
    - 맞은 뒤 상대 루트: 엘펜노츠~광주의 랩소디아~ (Elfnotes: Rhapsodia of Madness)는 13단계에서 이미 써서 다시 소생할 수단이 거의 없다. 최종 필드까지 기다려도 플뢰르 드 바로네스 (Baronne de Fleur)(바람·전사족) + 크리스탈윙으로 같은 융합이 된다.
-28. 🟠 아픔 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 14단계
+69. 🟠 아픔 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 14단계
    - 타이밍: 엘펜노츠의 감옥신정 (Elfnote Power Patron)의 레벨 업 효과에 체인해 그 엘펜노츠의 감옥신정 (Elfnote Power Patron)(중앙 이외 존)을 파괴
    - 이유: 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 테마 유일의 튜너가 사라져 처리 직후 싱크로를 할 수 없어 플뢰르 드 바로네스 (Baronne de Fleur)가 안 나온다. 마법이라 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)(몬스터 효과 무효)로 막히지 않는다.
    - 맞은 뒤 상대 루트: 엘펜노츠 레기나 (Elfnote Regina)는 레벨 9로 남지만 튜너가 없다. 크리스탈윙 1견제 + 지속 마함 2장으로 끝난다.
-29. 🟠 아픔 **금지된 성관** (Forbidden Crown) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 14단계
+70. 🟠 아픔 **금지된 성관** (Forbidden Crown) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 14단계
    - 타이밍: 엘펜노츠의 감옥신정 (Elfnote Power Patron)의 레벨 업 효과에 체인, 처리 시 그 엘펜노츠의 감옥신정 (Elfnote Power Patron)을 고른다
    - 이유: 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 레벨 업이 무효가 되고 튜너는 이번 턴 싱크로 소재가 될 수 없어 플뢰르 드 바로네스 (Baronne de Fleur)가 끊긴다. 몬스터 효과로 체인할 수 없어 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)도 대응하지 못한다.
    - 맞은 뒤 상대 루트: 크리스탈윙·지속 마함 2장은 남는다.
-30. 🟠 아픔 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 6단계
+71. 🟠 아픔 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 6단계
    - 타이밍: 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia)의 퀵 소생 효과 발동에 직접 체인해 스트리치아 파괴(아직 엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home) 없음)
    - 이유: 소생은 처리되지만 비튜너 싱크로가 없어 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)이 안 나온다. 루키나 서치를 놓쳤을 때의 차선. 크리스탈윙·바로네스가 선 뒤에는 하르모니아 발동이 무효되므로 이보다 늦으면 안 된다.
    - 맞은 뒤 상대 루트: 엘펜노츠의 감옥신정 (Elfnote Power Patron)이 남으므로 엘펜노츠 디나 (Elfnote Tinia) → 패러렐리즘 → 엘펜노츠 레기나 (Elfnote Regina) → 플뢰르 드 바로네스 (Baronne de Fleur)까지는 간다(유령토끼와 같은 결과).
-31. 🟠 아픔 **증식의 G** (Maxx "C") → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 1단계
+72. 🟠 아픔 **증식의 G** (Maxx "C") → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 1단계
    - 타이밍: 엘펜노츠의 패 특소는 체인이 생기지 않으므로 상대 스탠바이 페이즈에 미리, 또는 첫 서치 효과에 체인해서 사용
    - 이유: 기본형만 해도 패·덱·엑스트라·묘지 특소가 10번 가까이 나온다. 상대가 멈추면 바로네스 1~2견제 수준으로 끝난다.
    - 맞은 뒤 상대 루트: baronne_first 라인처럼 바로네스를 먼저 세우고 3~4드로우 선에서 멈춘다.
-32. 🟠 아픔 **마루챠미 후와로스** (Mulcharmy Fuwalos) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 4단계
+73. 🟠 아픔 **마루챠미 후와로스** (Mulcharmy Fuwalos) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 4단계
    - 타이밍: 첫 싱크로/덱 특소 전에(스탠바이 또는 첫 서치에 체인). 루키나·디나·포르토나의 패 특소는 후와로스 드로우가 안 나온다
    - 이유: 싱크로·패러렐리즘·레기나 덱 특소가 전부 덱/엑스트라 특소라 끝까지 가면 5드로우 이상. 감옥신 루트는 더 많다.
    - 맞은 뒤 상대 루트: 출처 기준 후와로스를 맞으면 3드로우 정도 주고 견제를 줄여 착지한다.
-33. 🟠 아픔 **마루챠미 푸루리아** (Mulcharmy Purulia) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 1단계
+74. 🟠 아픔 **마루챠미 푸루리아** (Mulcharmy Purulia) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 1단계
    - 타이밍: 첫 패 특소 전(스탠바이)에 미리 발동
    - 이유: 루키나·디나·포르토나·레기나의 패 특소와 감옥신정/메디우스 일반 소환에 모두 반응한다. 체인이 안 생기는 패 특소라 미리 깔아야 한다.
    - 맞은 뒤 상대 루트: 덱·묘지 특소 위주로 바꾸기 어렵다. 패 매수 페널티(엔드 페이즈)에 주의.
-34. 🟠 아픔 **마루챠미 냐루스** (Mulcharmy Meowls) → **혼절감옥신 비도리움** (Vidolium the Unstable Power Patron of Unity) — terminus 5단계
+75. 🟠 아픔 **마루챠미 냐루스** (Mulcharmy Meowls) → **혼절감옥신 비도리움** (Vidolium the Unstable Power Patron of Unity) — terminus 5단계
    - 타이밍: 내 필드에 카드가 없을 때, 첫 묘지 특소인 혼절감옥신 비도리움 (Vidolium the Unstable Power Patron of Unity) P효과(묘지의 감옥신정 특소)에 체인
    - 이유: 테르미나스 루트는 묘지 특소가 많다: 5단계 감옥신정, 15단계 쥰 프라이드－엘펜노츠 (Elfnote June Pride)(패·덱·묘지 동시 = 1번), 23단계 스트리치아 소생, 25단계 랩소디아 소생, 27단계 메디우스 자가 소생 → 5장 안팎.
    - 맞은 뒤 상대 루트: 엔드 페이즈에 패가 (상대 필드 카드 수 + 6)장을 넘으면 넘은 만큼 덱으로. 24단계 크리스탈윙이 나온 뒤에는 발동하면 무효될 수 있으니 미리 깔아 둔다.
-35. 🟡 할만함 **마루챠미 냐루스** (Mulcharmy Meowls) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 6단계
+76. 🟠 아픔 **아크 디클레어러** (Herald of the Arc Light) → **엘펜노츠 루키나** (Elfnote Lucina) — lucina 2단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 효과 발동에 체인해 릴리스
+   - 이유: 엘펜노츠 루키나 (Elfnote Lucina)의 서치를 무효+파괴해 1장 초동을 끊는다. 하루 우라라 (Ash Blossom & Joyous Spring)와 같은 지점.
+   - 맞은 뒤 상대 루트: 패에 레기나가 있으면 레기나는 패의 엘펜노츠 '몬스터'를 코스트로 쓸 수 없지만(패→묘지 몬스터 제외) 필드나 마함 카드는 쓸 수 있다.
+77. 🟠 아픔 **아크 디클레어러** (Herald of the Arc Light) → **절해한 감옥신문－테르미나스** (Prohibited Power Patron Portal - Terminus) — terminus 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘 (무효는 아껴 둠)
+   - 이유: 덱→묘지 몬스터 제외라 감옥신정이 제외되어 그 후의 서치가 없다. 무효를 쓰지 않아도 테르미나스가 헛발동이 된다.
+   - 맞은 뒤 상대 루트: —
+78. 🟠 아픔 **아크 디클레어러** (Herald of the Arc Light) → **엘펜노츠 루키나** (Elfnote Lucina) — baronne_first 2단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 효과 발동에 체인
+   - 이유: lucina 2단계와 같다.
+   - 맞은 뒤 상대 루트: —
+79. 🟠 아픔 **D.D. 크로우** (D.D. Crow) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 5단계
+   - 타이밍: 엘펜노츠의 감옥신정 (Elfnote Power Patron)의 서치 유발 발동에 체인해 묘지의 감옥신정을 제외(서치 자체는 처리됨)
+   - 이유: 6단계 스트리치아 소생 대상이 사라져 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)이 안 나오고, 13단계 랩소디아도 감옥신정을 소생할 수 없다.
+   - 맞은 뒤 상대 루트: 스트리치아로 패의 레벨 6(디나 등)을 꺼내 전개는 이어지지만 튜너가 부족해 싱크로 수가 줄어든다. 레기나로 덱의 2장째 감옥신정을 부를 수는 있다.
+80. 🟡 할만함 **마루챠미 냐루스** (Mulcharmy Meowls) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 6단계
    - 타이밍: 내 필드에 카드가 없을 때 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia)의 묘지 소생(감옥신정)에 체인
    - 이유: 기본형의 묘지 특소는 6단계 스트리치아 소생과 13단계 랩소디아 소생 2번이라 2장. 7단계 크리스탈윙 전에 써야 냐루스가 무효되지 않는다.
    - 맞은 뒤 상대 루트: 엔드 페이즈 패 매수 제한에 주의.
-36. 🟡 할만함 **도미나스 스파크** (Dominus Spark) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 5단계
+81. 🟡 할만함 **도미나스 스파크** (Dominus Spark) → **엘펜노츠 세라핌 스트리치아** (Elfnote Seraphim Strelitzia) — lucina 5단계
    - 타이밍: 감옥신정의 묘지 서치(몬스터 효과)에 체인해 패에서 발동, 필드의 엘펜노츠 세라핌 스트리치아 (Elfnote Seraphim Strelitzia)를 제외
    - 이유: 상대가 묘지에서 몬스터 효과를 발동했으니 그 체인 위에서 패로 쓸 수 있다. 스트리치아가 체인해서 감옥신정을 소생해도, 레벨 7 싱크로 몸통이 사라져 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)을 못 만든다. 내 묘지에 함정이 없으면 상대가 패에서 몬스터 1장을 특소할 수 있다. 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 발동할 수 없다. 함정이라 크리스탈윙에는 안 막히지만 플뢰르 드 바로네스 (Baronne de Fleur)가 선 뒤에는 무효된다.
    - 맞은 뒤 상대 루트: 디나 → 엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home) → 바로네스 쪽은 그대로 이어진다.
-37. 🟡 할만함 **도미나스 스파크** (Dominus Spark) → **TG 하이퍼 라이브러리언** (T.G. Hyper Librarian) — terminus 8단계
+82. 🟡 할만함 **도미나스 스파크** (Dominus Spark) → **TG 하이퍼 라이브러리언** (T.G. Hyper Librarian) — terminus 8단계
    - 타이밍: 감옥신정의 묘지 서치에 체인해 패에서 발동, TG 하이퍼 라이브러리언 (T.G. Hyper Librarian)을 제외
    - 이유: 이 루트는 이후 싱크로를 4번 더 하므로 라이브러리언을 지우면 드로우 4장 안팎이 사라진다. 내 묘지에 함정이 없으면 상대가 패에서 몬스터 1장을 특소할 수 있다. 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 발동할 수 없다. 함정이라 크리스탈윙에는 안 막히지만 플뢰르 드 바로네스 (Baronne de Fleur)가 선 뒤에는 무효된다.
    - 맞은 뒤 상대 루트: 전개 자체는 이어진다.
-38. 🟡 할만함 **도미나스 스파크** (Dominus Spark) → **엘펜노츠 레기나** (Elfnote Regina) — baronne_first 3단계
+83. 🟡 할만함 **도미나스 스파크** (Dominus Spark) → **엘펜노츠 레기나** (Elfnote Regina) — baronne_first 3단계
    - 타이밍: 레기나의 패 효과(3단계)가 처리된 뒤, 4단계 레기나 중앙 소환 유발(덱 특소)에 체인해 패에서 발동, 중앙의 엘펜노츠 레기나 (Elfnote Regina)를 제외
    - 이유: 3단계에서 상대가 패의 몬스터 효과를 썼으므로 발동 조건이 된다(3단계 체인 위에서는 상대 필드에 대상이 없다). 유발은 그대로 처리되어 감옥신정이 나오지만, 레벨을 올릴 중앙 몬스터가 없어 바로네스를 만들 수 없다. 내 묘지에 함정이 없으면 상대가 패에서 몬스터 1장을 특소할 수 있다. 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 발동할 수 없다. 함정이라 크리스탈윙에는 안 막히지만 플뢰르 드 바로네스 (Baronne de Fleur)가 선 뒤에는 무효된다.
    - 맞은 뒤 상대 루트: 감옥신정 + 패의 다른 몬스터로 다른 싱크로는 가능.
-39. 🟡 할만함 **하루 우라라** (Ash Blossom & Joyous Spring) → **엘펜노츠~회향의 패러렐리즘~** (Elfnotes: Welcome Home) — lucina 10단계
+84. 🟡 할만함 **하루 우라라** (Ash Blossom & Joyous Spring) → **엘펜노츠~회향의 패러렐리즘~** (Elfnotes: Welcome Home) — lucina 10단계
    - 타이밍: 엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home)의 덱 특소 효과, 또는 엘펜노츠 레기나 (Elfnote Regina)의 중앙 소환 유발(11단계)에 체인
    - 이유: 첫 서치를 못 막았을 때의 두 번째 지점. 6레벨 소재와 레기나 회수 자원이 함께 줄어든다.
    - 맞은 뒤 상대 루트: 이미 크리스탈윙까지 나온 상태라 견제 1개는 남는다. 디나·포르토나의 '덱에서 놓기'에는 우라라를 쓸 수 없다.
-40. 🟡 할만함 **비스테드 드루이드브룸** (Bystial Druiswurm) → **무구한 자 메디우스** (Medius the Pure) — terminus 27단계
+85. 🟡 할만함 **비스테드 드루이드브룸** (Bystial Druiswurm) → **무구한 자 메디우스** (Medius the Pure) — terminus 27단계
    - 타이밍: 무구한 자 메디우스 (Medius the Pure)의 묘지 효과(패·필드 몬스터 1장을 덱에 섞고 자신 특소) 발동에 체인해 그 메디우스(어둠)를 제외하고 특소(상대 필드에 몬스터가 있어 퀵)
    - 이유: 메디우스가 소생하지 못해 어둠 튜너 취급 소재가 없어 카오스 앙헬－혼돈의 쌍익－ (Chaos Angel)(싱크로 몬스터에 상대 몬스터 효과 내성·전투 내성, 소환 시 1장 제외)이 안 나온다. 엘펜노츠 본체는 화염·물·바람이 많아 이 밖의 대상은 적다.
    - 맞은 뒤 상대 루트: 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)·F.A. 라이트닝마스터 (F.A. Dawn Dragster)·랩소디아는 이미 섰다. 드루이드브룸은 내 필드에 남고, 이후 필드에서 묘지로 가면 상대가 특소한 몬스터 1장을 묘지로 보낸다.
-41. 🟡 할만함 **싸이크론** (Mystical Space Typhoon) → **엘펜노츠~광주의 랩소디아~** (Elfnotes: Rhapsodia of Madness) — lucina 13단계
+86. 🟡 할만함 **싸이크론** (Mystical Space Typhoon) → **엘펜노츠~광주의 랩소디아~** (Elfnotes: Rhapsodia of Madness) — lucina 13단계
    - 타이밍: 엘펜노츠~광주의 랩소디아~ (Elfnotes: Rhapsodia of Madness)의 효과 발동(13단계)에 체인하거나, 그 뒤 엔드 페이즈까지 아무 때나 파괴
    - 이유: 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 랩소디아는 이번 턴 1번을 이미 써서 다시 체인할 수 없다. 내 턴의 '소생 + 앞면 카드 1장 무효'가 통째로 사라진다. 내 턴에 깨려 하면 랩소디아를 체인해 그대로 쓰므로 상대 턴에 처리하는 편이 낫다.
    - 맞은 뒤 상대 루트: 13단계에 체인한 경우 그 소생은 처리되는 것으로 본다(앞면 지속 함정의 효과, 개별 Q&A 미확인). 엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home)을 깨면 중앙 파괴 내성만 사라진다.
-42. ⛔ 비추 **유령토끼** (Ghost Ogre & Snow Rabbit) → **엘펜노츠 레기나** (Elfnote Regina) — lucina 14단계
+87. 🟡 할만함 **D.D. 크로우** (D.D. Crow) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — terminus 8단계
+   - 타이밍: 감옥신정이 TG 하이퍼 라이브러리언 (T.G. Hyper Librarian)의 소재로 묘지에 간 뒤(서치 유발에 체인) 제외
+   - 이유: 15단계 쥰 프라이드·23단계 스트리치아·25단계 랩소디아가 쓸 묘지의 감옥신정을 줄인다. 이 루트는 감옥신정을 여러 번 재사용하므로 보드가 1~2장 줄어든다.
+   - 맞은 뒤 상대 루트: 1턴째 묘지 자원이 많아 완전히 끊기지는 않는다. 더 이른 타이밍은 테르미나스 처리 직후(묘지에 감옥신정이 1장일 때).
+88. 🟡 할만함 **아크네메시스 프로토스** (Archnemeses Protos) → **TG 하이퍼 라이브러리언** (T.G. Hyper Librarian) — terminus 7단계
+   - 타이밍: 내 메인 페이즈(선공 1턴)에 '어둠' 선언(프로토스 자신은 효과 파괴 내성) → 상대 턴 종료시까지 어둠 특소 불가
+   - 이유: 감옥신 루트의 TG 하이퍼 라이브러리언 (T.G. Hyper Librarian)·카오스 앙헬－혼돈의 쌍익－ (Chaos Angel)(어둠)이 막히고 메디우스 묘지 특소(27단계)도 불가.
+   - 맞은 뒤 상대 루트: 루키나 기본형(lucina)은 어둠을 쓰지 않아 그대로 간다. 내 필드에 화염 몬스터가 있어 '화염'을 선언하면 lucina 1단계부터 막힘.
+89. 🟡 할만함 **센서 만별** (There Can Be Only One) → **엘펜노츠 레기나** (Elfnote Regina) — lucina 11단계
+   - 타이밍: 세트해 뒀다면 루키나 서치에 체인 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 중앙의 레기나(마법사족)가 있는 동안 덱에서 포르토나(마법사족)를 낼 수 없다.
+   - 맞은 뒤 상대 루트: 레기나는 감옥신정(악마족)을 대신 부른다. 싱크로는 종족이 달라 플뢰르 드 바로네스 (Baronne de Fleur)·크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)까지는 나온다.
+90. 🟡 할만함 **센서 만별** (There Can Be Only One) → **쥰 프라이드－엘펜노츠** (Elfnote June Pride) — terminus 15단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 쥰 프라이드로 레기나·루키나(둘 다 마법사족)를 동시에 특소하면 1장은 묘지로 보내야 한다.
+   - 맞은 뒤 상대 루트: —
+91. ⛔ 비추 **유령토끼** (Ghost Ogre & Snow Rabbit) → **엘펜노츠 레기나** (Elfnote Regina) — lucina 14단계
    - 타이밍: 엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home)이 앞면인 상태에서 중앙 존 몬스터(레기나 등)를 노리는 경우
    - 이유: 패러렐리즘은 중앙 존 몬스터에 효과 파괴 내성을 준다. 중앙의 레기나에 유령토끼를 써도 파괴되지 않는다. 노릴 거면 중앙 이외의 감옥신정(레벨 업 효과 발동 시)이나 스트리치아를 노릴 것.
-43. ⛔ 비추 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 14단계
+92. ⛔ 비추 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — lucina 14단계
    - 타이밍: 크리스탈윙 싱크로 드래곤 (Crystal Wing Synchro Dragon)·플뢰르 드 바로네스 (Baronne de Fleur)가 앞면인 상태(7단계 이후)에서 하르모니아를 공개하는 것
    - 이유: 하르모니아의 발동은 몬스터 효과라 크리스탈윙(몬스터 효과 발동 무효)·바로네스(발동 무효)의 먹이가 된다. 엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home) 앞면 중에는 중앙 몬스터가 효과로 파괴되지 않고, 싱크로를 5장 미만 공개하면 파괴 자체가 없다.
-44. ⛔ 비추 **금지된 성관** (Forbidden Crown) → **엘펜노츠 디나** (Elfnote Tinia) — lucina 10단계
+93. ⛔ 비추 **금지된 성관** (Forbidden Crown) → **엘펜노츠 디나** (Elfnote Tinia) — lucina 10단계
    - 타이밍: 중앙의 엘펜노츠에 성관을 씌워 중앙 존을 막으려는 것
    - 이유: 성관은 릴리스·소재 사용만 막고 '묘지로 보내기' 코스트는 막지 못한다. 엘펜노츠~회향의 패러렐리즘~ (Elfnotes: Welcome Home)·엘펜노츠~광주의 랩소디아~ (Elfnotes: Rhapsodia of Madness)·엘펜노츠 레기나 (Elfnote Regina)가 그 몬스터를 코스트로 보내면 중앙이 다시 비고 성관 적용도 끝난다. 성관은 서치·레벨 업 같은 몬스터 효과 발동에 맞춰 쓴다.
+94. ⛔ 비추 **심연의 결계상** (Barrier Statue of the Abyss) → **무구한 자 메디우스** (Medius the Pure) — terminus 2단계
+   - 타이밍: —
+   - 이유: 심연의 결계상 (Barrier Statue of the Abyss)은 오히려 감옥신 엔진의 어둠 몬스터(메디우스·라이브러리언·카오스 앙헬)를 통과시킨다. 엘펜노츠 기본형은 막지만, 어둠 위주로 우회할 여지를 준다. 엘펜노츠에는 호우의 결계상 (Barrier Statue of the Torrent)·섬광의 결계상 (Barrier Statue of the Heavens)이 더 확실하다.
+   - 맞은 뒤 상대 루트: —
+95. ⛔ 비추 **응전의 G** (Retaliating "C") → **절해한 감옥신문－테르미나스** (Prohibited Power Patron Portal - Terminus) — terminus 1단계
+   - 타이밍: —
+   - 이유: 절해한 감옥신문－테르미나스 (Prohibited Power Patron Portal - Terminus)는 특소를 포함하지 않는 마법이라 응전의 G (Retaliating "C")를 꺼낼 수 없다. 패러렐리즘의 효과 발동도 '카드의 발동'이 아니라 대상 밖.
+   - 맞은 뒤 상대 루트: —
 
 ## 핵심 카드
 

@@ -1,0 +1,273 @@
+{
+ "sources": {
+  "konami-db-faq": {
+   "title": "遊戯王ニューロン（オフィシャルカードゲーム カードデータベース）カードに関連するQ&A・補足情報",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rulings": [
+  {
+   "id": "supp-12299",
+   "fid": null,
+   "cid": 12299,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=12299&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Amorphage Envy"
+   ],
+   "handtraps": [
+    "kaiju",
+    "raigeki",
+    "book_eclipse",
+    "fallen_virtuous"
+   ],
+   "themes": [
+    "amorphage"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Amorphage Envy]]의 펜듈럼 효과(체인 봉쇄)·유지 비용·몬스터 효과(엑스트라 덱 봉쇄)는 어떤 효과이고 언제 적용되나?",
+   "answer_ko": "스탠바이 페이즈의 '몬스터 1장 릴리스 또는 이 카드 파괴'는 효과가 아니라 펜듈럼 존에 유지하기 위한 비용이며 체인 블록을 만들지 않는다. 펜듈럼 효과는 체인 블록을 만들지 않는 효과로, 자신의 몬스터 존에 앞면 표시 아모르파지 몬스터가 1장 이상 있는 동안만 적용된다. 몬스터 효과는 지속 효과로, 펜듈럼 소환 또는 리버스한 이 카드 자신이 앞면으로 있는 동안 적용되며, 아모르파지 이외 몬스터는 펜듈럼·융합·싱크로·엑시즈 소환이나 카드 효과 등 어떤 방법으로도 엑스트라 덱에서 특소할 수 없다(패·덱·묘지에서의 특소는 가능).",
+   "quote_ja": "■「アモルファージ・キャヴム」が自分のペンデュラムゾーンに存在し、自分のモンスターゾーンに表側表示の「アモルファージ」と名のついたモンスターが1体以上存在する間のみ、…ペンデュラム効果が適用される事になります。…■ペンデュラム召喚またはリバースした「アモルファージ・キャヴム」自身がモンスターゾーンに表側表示で存在する限り適用される効果です。",
+   "impact_ko": "모든 아모르파지 락의 스위치는 '앞면 아모르파지 몬스터'다. 그 몬스터를 치우거나 뒷면으로 만들면 스케일 락과 엑스트라 덱 봉쇄가 함께 꺼진다. 다른 아모르파지(가스톨·룩스·프레스토 등)도 같은 문구의 보충 정보가 있다."
+  },
+  {
+   "id": "qa-18287",
+   "fid": 18287,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18287&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Amorphage Envy"
+   ],
+   "handtraps": [],
+   "themes": [
+    "amorphage"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Amorphage Envy]]의 체인 봉쇄가 적용 중일 때, 마법 효과를 받지 않는 몬스터는 효과를 체인해 발동할 수 있나?",
+   "answer_ko": "할 수 없다. 캬붐의 펜듈럼 효과는 몬스터에 적용되는 효과가 아니므로, 마법 효과를 받지 않는 몬스터라도 체인해서 효과를 발동할 수 없다.",
+   "quote_ja": "「アモルファージ・キャヴム」のペンデュラム効果は、モンスターに適用される効果の扱いではありません。…チェーンして効果を発動する事はできません。",
+   "impact_ko": "캬붐 스케일 판면에서는 내성 몬스터로도 체인 대응이 안 된다. 체인 1로 쓰는 카드(파괴수·일반 마법 등)로 깬다."
+  },
+  {
+   "id": "qa-18296",
+   "fid": 18296,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18296&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Amorphage Gluttony"
+   ],
+   "handtraps": [
+    "maxxc",
+    "mourner",
+    "gamma",
+    "imperm"
+   ],
+   "themes": [
+    "amorphage"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Amorphage Gluttony]]의 펜듈럼 효과 적용 중, 마법 효과를 받지 않는 몬스터는 효과를 발동할 수 있나?",
+   "answer_ko": "할 수 없다. 가스톨이 적용되어 있으면 서로 아모르파지 이외 몬스터 효과를 발동할 수 없다.",
+   "quote_ja": "「アモルファージ・ガストル」のペンデュラム効果が適用されていますので、お互いのプレイヤーは、「アモルファージ」と名のついたモンスター以外のモンスター効果を発動する事はできません。",
+   "impact_ko": "가스톨 락이 켜진 뒤에는 증G·사요 시구레 등 패트랩도, 내성 몬스터의 효과도 못 쓴다. 패트랩은 락이 서기 전(서치 단계)에 써야 한다."
+  },
+  {
+   "id": "qa-18298",
+   "fid": 18298,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18298&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Amorphage Gluttony"
+   ],
+   "handtraps": [],
+   "themes": [
+    "amorphage"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Amorphage Gluttony]] 적용 중에 펜듈럼 몬스터를 펜듈럼 존에 발동하거나 펜듈럼 효과를 발동할 수 있나?",
+   "answer_ko": "할 수 있다. 펜듈럼 존에 발동하는 것은 마법 카드의 발동이고, 펜듈럼 효과의 발동은 마법 카드의 효과 발동으로 취급하므로 가스톨에 막히지 않는다.",
+   "quote_ja": "ペンデュラムモンスターのペンデュラムゾーンへの発動は魔法カードとしての発動として扱われますので…通常通り発動する事ができます。",
+   "impact_ko": "가스톨은 '몬스터 효과'만 막는다. 펜듈럼 덱이라도 스케일 효과는 쓸 수 있고, 반대로 [[Amorphage Lechery]]가 있으면 펜듈럼 존 발동·펜듈럼 효과도 막힌다."
+  },
+  {
+   "id": "qa-18293",
+   "fid": 18293,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18293&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Amorphage Lechery",
+    "Mystical Space Typhoon"
+   ],
+   "handtraps": [
+    "mst"
+   ],
+   "themes": [
+    "amorphage"
+   ],
+   "topic": "chain",
+   "question_ko": "아모르파지 몬스터가 필드에 있을 때 [[Amorphage Lechery]]를 펜듈럼 존에 발동하면, 그 발동에 [[Mystical Space Typhoon]]을 체인할 수 있나?",
+   "answer_ko": "할 수 있다. 룩스의 펜듈럼 효과는 펜듈럼 존에 마법 카드로 발동하고 그 처리가 끝난 뒤부터 적용된다.",
+   "quote_ja": "ペンデュラムゾーンに魔法カードとして発動し、その発動の処理が完了した後から適用される事になります。したがって…チェーンして相手が「サイクロン」を発動する事はできます。",
+   "impact_ko": "세트해 둔 싸이크론은 룩스·가스톨 스케일 발동의 순간이 마지막 기회다."
+  },
+  {
+   "id": "qa-18295",
+   "fid": 18295,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18295&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Amorphage Lechery"
+   ],
+   "handtraps": [
+    "mst",
+    "fallen_virtuous",
+    "crown",
+    "super_poly",
+    "droplet"
+   ],
+   "themes": [
+    "amorphage"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Amorphage Lechery]] 적용 중에는 아모르파지 이외 마법 카드의 '카드의 발동'과 '효과의 발동'이 둘 다 막히나?",
+   "answer_ko": "둘 다 할 수 없다. 필드에서 발동하는 효과뿐 아니라 묘지에서 발동하는 마법 카드의 효과도 아모르파지 이외라면 발동할 수 없다.",
+   "quote_ja": "「アモルファージ」と名のついたカード以外の魔法カードのカードの発動、…魔法カードの効果の発動、どちらも行う事ができません。フィールドで発動する効果に限らず、墓地で発動するような魔法カードの効果も…",
+   "impact_ko": "룩스 판면에서는 세트해 둔 속공 마법, 해피의 깃털·번개 같은 돌파 마법, 묘지의 마법 효과가 전부 죽는다. 함정·파괴수·몬스터로 깬다."
+  },
+  {
+   "id": "qa-18290",
+   "fid": 18290,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18290&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Amorphage Greed"
+   ],
+   "handtraps": [
+    "evenly_matched",
+    "imperm",
+    "spark"
+   ],
+   "themes": [
+    "amorphage"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Amorphage Greed]] 적용 중, 몬스터 카드 취급으로 특소된 함정 카드의 효과는 발동할 수 있나?",
+   "answer_ko": "발동하지 않는다. 프레스토가 적용 중이면 아모르파지 이외 함정 카드의 카드 발동과 효과 발동이 모두 불가하며, 몬스터 카드 취급인 함정의 효과 발동도 함정 카드의 효과 발동에 해당한다.",
+   "quote_ja": "お互いのプレイヤーは「アモルファージ」と名のついたカード以外の罠カードのカードの発動、…罠カードの効果の発動、どちらも行うことができなくなります。",
+   "impact_ko": "프레스토 판면에서는 [[Evenly Matched]]·[[Infinite Impermanence]]·도미나스 함정을 못 쓴다."
+  },
+  {
+   "id": "qa-18276",
+   "fid": 18276,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18276&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Amorphage Goliath",
+    "Amorphage Envy",
+    "Dark Hole"
+   ],
+   "handtraps": [
+    "dark_hole",
+    "raigeki"
+   ],
+   "themes": [
+    "amorphage"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Amorphage Goliath]]의 '묘지로 가는 카드는 제외' 적용 중, 유일한 아모르파지 몬스터와 다른 몬스터가 [[Dark Hole]]로 동시에 파괴되면 제외되나?",
+   "answer_ko": "제외되지 않는다. 블랙홀로 아모르파지 몬스터가 파괴되면 자신 필드에 아모르파지 몬스터가 없어지므로 이리튬의 펜듈럼 효과는 적용되지 않고, 아모르파지는 엑스트라 덱에 앞면으로, 다른 몬스터는 묘지로 간다.",
+   "quote_ja": "「アモルファージ・キャヴム」が破壊された事で、自分のモンスターゾーンに「アモルファージ」と名のついたモンスターが存在しなくなりますので、「アモルファージ・イリテュム」のペンデュラム効果の適用はなくなります。",
+   "impact_ko": "필드의 아모르파지 몬스터를 치우는 그 처리부터 스케일 락이 꺼진다. 몬스터 전체 파괴가 가장 효율적인 답."
+  },
+  {
+   "id": "qa-18301",
+   "fid": 18301,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18301&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Amorphage Gluttony"
+   ],
+   "handtraps": [],
+   "themes": [
+    "amorphage"
+   ],
+   "topic": "cost",
+   "question_ko": "아모르파지 스케일의 스탠바이 페이즈 유지 처리에서 뒷면 수비 몬스터를 릴리스할 수 있나?",
+   "answer_ko": "할 수 있다. 릴리스할 몬스터는 앞면이 아니어도 된다.",
+   "quote_ja": "リリースするモンスターは表側表示のモンスターでなくても構いません。（裏側守備表示のモンスターをリリースする事はできます。）",
+   "impact_ko": "유지 비용은 다음 아모르파지 턴의 이야기라 후공 1턴에는 영향이 없다. 남겨 둔 몬스터가 많을수록 락이 오래 간다."
+  },
+  {
+   "id": "qa-18302",
+   "fid": 18302,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18302&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Amorphage Gluttony",
+    "Performapal Skullcrobat Joker"
+   ],
+   "handtraps": [],
+   "themes": [
+    "amorphage"
+   ],
+   "topic": "cost",
+   "question_ko": "아모르파지 스케일의 유지 처리에서 아모르파지 이외 몬스터를 릴리스할 수 있나?",
+   "answer_ko": "할 수 있다. 몬스터 토큰이나 몬스터 카드 취급 함정도 릴리스할 수 있다.",
+   "quote_ja": "リリースするモンスターは「アモルファージ」と名のついたモンスターでなくても構いません。",
+   "impact_ko": "[[Performapal Skullcrobat Joker]]가 유지 요원. 조커를 남겨 두면 다음 턴에도 스케일 1장은 유지된다."
+  },
+  {
+   "id": "qa-16213",
+   "fid": 16213,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=16213&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Sky Iris",
+    "Performapal Skullcrobat Joker"
+   ],
+   "handtraps": [
+    "fallen_virtuous",
+    "spark",
+    "ogre"
+   ],
+   "themes": [
+    "amorphage"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Sky Iris]]의 ②(자신의 다른 앞면 카드를 대상으로 파괴하고 오드아이즈 카드 서치)에 체인해 그 대상이 먼저 파괴되면?",
+   "answer_ko": "대상이 이미 없으므로 '파괴' 처리를 할 수 없고, 서치 처리도 적용되지 않는다.",
+   "quote_ja": "「天空の虹彩」の『そのカードを破壊し』の処理を適用する事ができず、『デッキから「オッドアイズ」カード１枚を手札に加える』処理も適用されません。",
+   "impact_ko": "홍채 효과에 체인해 대상(보통 조커)을 파괴·제외하면 2번째 레볼루션 서치가 사라진다. 유령토끼는 홍채 자신을 파괴할 뿐이라 서치가 처리된다."
+  },
+  {
+   "id": "supp-11938",
+   "fid": null,
+   "cid": 11938,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=11938&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Performapal Skullcrobat Joker"
+   ],
+   "handtraps": [
+    "ash",
+    "imperm",
+    "veiler",
+    "gamma",
+    "ogre",
+    "crown"
+   ],
+   "themes": [
+    "amorphage"
+   ],
+   "topic": "timing",
+   "question_ko": "[[Performapal Skullcrobat Joker]]의 서치와 펜듈럼 효과는 어떤 효과인가?",
+   "answer_ko": "몬스터 효과(서치)는 몬스터 존에서 발동하는 유발 효과로, 일반 소환에 성공한 직후에만 발동할 수 있다. 펜듈럼 효과(펜듈럼 소환 제약)는 체인 블록을 만들지 않는 효과다.",
+   "quote_ja": "■モンスターゾーンで発動できる誘発効果です。■召喚に成功した直後にのみ発動できます。",
+   "impact_ko": "필드에서 발동하는 효과라 우라라·무한포영·뵐러·감마·유령토끼가 전부 닿는다. 조커가 이 덱의 거의 유일한 필드 몬스터 효과다."
+  }
+ ]
+}

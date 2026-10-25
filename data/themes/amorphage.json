@@ -1,0 +1,1391 @@
+{
+ "slug": "amorphage",
+ "name": {
+  "en": "Amorphage",
+  "ko": "아모르파지"
+ },
+ "status": "draft",
+ "updated": "2026-10-23",
+ "meta": {
+  "decks": 11,
+  "share": 0.0,
+  "window": "2022-03~2024-11 MDM 상위 덱 전체 기간(11개, 마지막 2024-11 Master V). 최근 30일 스냅샷에는 없고 2026-07-27~10-25 상위 덱 4,000개 중 0개"
+ },
+ "variants": [
+  "Amorphage"
+ ],
+ "cover": "Amorphage Lechery",
+ "overview_ko": "펜듈럼 존에 놓으면 '서로 ~할 수 없다'는 봉쇄를 거는 아모르파지로 상대를 묶는 플러드게이트 덱. [[Amorphage Gluttony]](아모르파지 이외 몬스터 효과), [[Amorphage Lechery]](마법), [[Amorphage Greed]](함정), [[Amorphage Envy]](체인), [[Amorphage Sloth]](서치) 등 스케일 2장을 고르고, 필드의 아모르파지 몬스터가 엑스트라 덱을 막는다. MD에서는 [[Performapal Skullcrobat Joker]] → [[Odd-Eyes Revolution Dragon]](버리고 아모르파지 서치) → [[Sky Iris]](자기 카드를 깨고 레볼루션 재서치)의 오드아이즈 서치 엔진으로 아모르파지를 모은다. 락에는 아모르파지 3장(스케일 2 + 몬스터 1)이 필요해 사실상 2~3장 초동이고, 그 전까지의 서치 3번이 전부 우라라·드롤 타점이다. 락이 서면 패트랩은 쓸 수 없으므로 상대 1턴의 승부는 서치 단계에서 끝난다. 2026년 기준 신규 지원은 없고(전 카드 2016년 OCG 출시, MD 2022-01 수록), MD 상위 덱 기록도 2024-11이 마지막인 비주류 덱이다.",
+ "key_cards": [
+  {
+   "card": "Performapal Skullcrobat Joker",
+   "role_ko": "일반 소환 시 오드아이즈 몬스터 서치([[Odd-Eyes Revolution Dragon]]). 아모르파지가 아니라서 락의 대상은 아니지만 유지 비용 릴리스 요원. 11개 중 10개 리스트 3장."
+  },
+  {
+   "card": "Odd-Eyes Revolution Dragon",
+   "role_ko": "패에서 버리고 500 LP: 레벨 8 이하 드래곤족 펜듈럼 몬스터(=모든 아모르파지) 서치. 1턴 제한이 없어 장수만큼 쓴다. 스케일 12로 놓으면 레벨 8 [[Amorphage Goliath]]도 펜듈럼 소환 가능(드래곤족만 펜듈럼 소환 제약). 11/11 리스트 3장."
+  },
+  {
+   "card": "Sky Iris",
+   "role_ko": "필드 마법. 자신의 다른 앞면 카드 1장을 파괴하고 오드아이즈 카드 서치(1턴 1번). 조커를 깨서 레볼루션 2장째. 펜듈럼 존의 오드아이즈·EM·마술사만 대상 내성(아모르파지는 아님)."
+  },
+  {
+   "card": "Amorphage Gluttony",
+   "role_ko": "스케일 5. 아모르파지 이외 몬스터 효과 발동 불가(서로). 펜듈럼 효과·스케일 발동은 마법 취급이라 막지 않는다."
+  },
+  {
+   "card": "Amorphage Lechery",
+   "role_ko": "스케일 5. 아모르파지 이외 마법 카드·효과 발동 불가(서로). 11/11 리스트 채용."
+  },
+  {
+   "card": "Amorphage Greed",
+   "role_ko": "스케일 3. 아모르파지 이외 함정 발동 불가(서로)."
+  },
+  {
+   "card": "Amorphage Envy",
+   "role_ko": "스케일 5, 레벨 4. 몬스터로 펜듈럼 소환되면 엑스트라 덱 봉쇄. 스케일이면 서로 체인 불가."
+  },
+  {
+   "card": "Amorphage Goliath",
+   "role_ko": "레벨 8. 몬스터 존에 있기만 하면(펜듈럼 소환 조건 없이) 엑스트라 덱 봉쇄. 스케일이면 묘지로 가는 카드를 제외. 9/11 리스트 채용."
+  },
+  {
+   "card": "Amorphage Infection",
+   "role_ko": "지속 마법. 자신의 패·필드 몬스터가 릴리스·파괴되면 아모르파지 카드 서치(1턴 1번). 유지 비용 릴리스로 다음 턴 자원을 만든다."
+  },
+  {
+   "card": "Heavymetalfoes Electrumite",
+   "role_ko": "엑스트라 덱 10/11 리스트. 락을 걸기 전에만 쓸 수 있는 펜듈럼 링크 2."
+  }
+ ],
+ "lines": [
+  {
+   "id": "joker_iris",
+   "title_ko": "도크로배트 조커 + 천공의 홍채 + 아모르파지 1장 (가스톨·프레스토 락)",
+   "hand": [
+    "Performapal Skullcrobat Joker",
+    "Sky Iris",
+    "Amorphage Greed"
+   ],
+   "note_ko": "MD 리스트의 표준 기점. [[Performapal Skullcrobat Joker]] 1장만으로는 아모르파지가 1장밖에 안 모여 락이 완성되지 않는다(스케일 2장 + 필드의 아모르파지 몬스터 1장, 합계 3장이 필요). [[Amorphage Greed]] 자리는 스케일 3 아모르파지 아무거나 가능. 아모르파지의 펜듈럼 효과는 자신에게도 걸리므로, 천공의 홍채 효과(마법 효과)와 레볼루션 드래곤 서치(몬스터 효과)를 아모르파지 몬스터가 필드에 나오기 전에 전부 끝낸다. 특소는 마지막 펜듈럼 소환 1번뿐이라 증G·후와로스는 1장.",
+   "steps": [
+    {
+     "card": "Sky Iris",
+     "action_ko": "필드 마법 발동",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Performapal Skullcrobat Joker",
+     "action_ko": "일반 소환",
+     "class": [
+      "normal_summon"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Performapal Skullcrobat Joker",
+     "action_ko": "일반 소환 시 효과: 덱에서 오드아이즈 몬스터 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Odd-Eyes Revolution Dragon]] 서치"
+    },
+    {
+     "card": "Odd-Eyes Revolution Dragon",
+     "action_ko": "패에서 자신을 버리고 500 LP를 지불: 덱에서 레벨 8 이하 드래곤족 펜듈럼 몬스터 서치",
+     "class": [
+      "monster_effect_hand",
+      "search"
+     ],
+     "result_ko": "[[Amorphage Gluttony]] 서치. 레볼루션은 코스트로 묘지"
+    },
+    {
+     "card": "Amorphage Gluttony",
+     "action_ko": "펜듈럼 존에 발동 (스케일 5)",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": "아직 아모르파지 몬스터가 없어 락은 꺼진 상태"
+    },
+    {
+     "card": "Amorphage Greed",
+     "action_ko": "반대쪽 펜듈럼 존에 발동 (스케일 3)",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": "스케일 3~5: 레벨 4만 펜듈럼 소환 가능"
+    },
+    {
+     "card": "Sky Iris",
+     "action_ko": "효과: 자신 필드의 앞면 카드 1장(조커)을 대상으로 파괴하고 덱에서 오드아이즈 카드 서치",
+     "class": [
+      "st_effect_field",
+      "search"
+     ],
+     "result_ko": "조커는 엑스트라 덱에 앞면으로. 2번째 [[Odd-Eyes Revolution Dragon]] 서치"
+    },
+    {
+     "card": "Odd-Eyes Revolution Dragon",
+     "action_ko": "2번째 레볼루션: 패에서 버리고 500 LP: 레벨 8 이하 드래곤족 펜듈럼 몬스터 서치",
+     "class": [
+      "monster_effect_hand",
+      "search"
+     ],
+     "result_ko": "[[Amorphage Envy]] 서치"
+    },
+    {
+     "card": "Amorphage Envy",
+     "action_ko": "펜듈럼 소환: 패의 캬붐 + 엑스트라 덱의 조커 (엑스트라 몬스터 존)",
+     "class": [
+      "ss_from_hand",
+      "ss_from_extra"
+     ],
+     "result_ko": "펜듈럼 소환된 캬붐이 앞면으로 있는 한 서로 아모르파지 이외 엑스트라 덱 특소 불가. 동시에 가스톨·프레스토의 펜듈럼 효과가 켜진다"
+    }
+   ],
+   "end_board": [
+    "Amorphage Envy",
+    "Performapal Skullcrobat Joker",
+    "Amorphage Gluttony",
+    "Amorphage Greed",
+    "Sky Iris"
+   ],
+   "end_board_note_ko": "무효 효과는 하나도 없고 지속 락 3개: [[Amorphage Envy]](몬스터, 엑스트라 덱 봉쇄), [[Amorphage Gluttony]](펜듈럼 존, 아모르파지 이외 몬스터 효과 발동 불가 — 패트랩·내 몬스터 효과 전부), [[Amorphage Greed]](펜듈럼 존, 아모르파지 이외 함정 발동 불가). 마법은 열려 있다. 펜듈럼 락은 '자신 필드에 앞면 아모르파지 몬스터가 있는 동안'만 적용되므로 캬붐 1장이 무너지면 전부 꺼진다. 다음 상대(아모르파지) 스탠바이 페이즈에 스케일 2장마다 몬스터 1장 릴리스 또는 자괴가 필요해 조커를 릴리스한다."
+  },
+  {
+   "id": "revo_goliath",
+   "title_ko": "도크로배트 조커 + 레볼루션 드래곤 + 룩스 (이리튬 + 마법 봉쇄)",
+   "hand": [
+    "Performapal Skullcrobat Joker",
+    "Odd-Eyes Revolution Dragon",
+    "Amorphage Lechery"
+   ],
+   "note_ko": "MDM 덱 메모의 '최악의 경우에도 나오는 판면'([[Amorphage Goliath]] + 스케일 [[Amorphage Lechery]]). 레볼루션을 스케일 12로 써서 레벨 8 이리튬을 펜듈럼 소환한다(레볼루션 P효과로 드래곤족만 펜듈럼 소환 가능, 아모르파지는 전부 드래곤족). 특소는 펜듈럼 소환 1회.",
+   "steps": [
+    {
+     "card": "Performapal Skullcrobat Joker",
+     "action_ko": "일반 소환",
+     "class": [
+      "normal_summon"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Performapal Skullcrobat Joker",
+     "action_ko": "일반 소환 시 효과: 덱에서 오드아이즈 몬스터 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "2번째 [[Odd-Eyes Revolution Dragon]] 서치"
+    },
+    {
+     "card": "Odd-Eyes Revolution Dragon",
+     "action_ko": "서치한 레볼루션: 패에서 버리고 500 LP: 레벨 8 이하 드래곤족 펜듈럼 몬스터 서치",
+     "class": [
+      "monster_effect_hand",
+      "search"
+     ],
+     "result_ko": "[[Amorphage Goliath]] 서치"
+    },
+    {
+     "card": "Amorphage Lechery",
+     "action_ko": "펜듈럼 존에 발동 (스케일 5)",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Odd-Eyes Revolution Dragon",
+     "action_ko": "처음부터 패에 있던 레볼루션을 반대쪽 펜듈럼 존에 발동 (스케일 12)",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": "스케일 5~12: 레벨 6~11 펜듈럼 소환 가능"
+    },
+    {
+     "card": "Amorphage Goliath",
+     "action_ko": "펜듈럼 소환 (패에서)",
+     "class": [
+      "ss_from_hand"
+     ],
+     "result_ko": "이리튬이 몬스터 존에 있는 한 서로 아모르파지 이외 엑스트라 덱 특소 불가(펜듈럼 소환 조건 없음). 룩스의 펜듈럼 효과가 켜진다"
+    }
+   ],
+   "end_board": [
+    "Amorphage Goliath",
+    "Performapal Skullcrobat Joker",
+    "Amorphage Lechery",
+    "Odd-Eyes Revolution Dragon"
+   ],
+   "end_board_note_ko": "락 2개: [[Amorphage Goliath]](몬스터, 엑스트라 덱 봉쇄 — 펜듈럼 소환이 아니어도 적용), [[Amorphage Lechery]](펜듈럼 존, 아모르파지 이외 마법 카드·효과 발동 불가 — 세트한 속공 마법도, 묘지의 마법 효과도). 몬스터 효과와 함정은 열려 있다. [[Odd-Eyes Revolution Dragon]] 스케일은 유지 비용이 없다."
+  },
+  {
+   "id": "joker_lv4",
+   "title_ko": "도크로배트 조커 + 레벨 4 아모르파지 2장 (룩스·프레스토 락)",
+   "hand": [
+    "Performapal Skullcrobat Joker",
+    "Amorphage Greed",
+    "Amorphage Envy"
+   ],
+   "note_ko": "천공의 홍채 없이 아모르파지 2장을 들고 있을 때. 스케일 3 + 5 사이로 레벨 4 아모르파지를 펜듈럼 소환하는 테마 본래의 형태. 특소 1회.",
+   "steps": [
+    {
+     "card": "Performapal Skullcrobat Joker",
+     "action_ko": "일반 소환",
+     "class": [
+      "normal_summon"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Performapal Skullcrobat Joker",
+     "action_ko": "일반 소환 시 효과: 덱에서 오드아이즈 몬스터 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Odd-Eyes Revolution Dragon]] 서치"
+    },
+    {
+     "card": "Odd-Eyes Revolution Dragon",
+     "action_ko": "패에서 버리고 500 LP: 레벨 8 이하 드래곤족 펜듈럼 몬스터 서치",
+     "class": [
+      "monster_effect_hand",
+      "search"
+     ],
+     "result_ko": "[[Amorphage Lechery]] 서치"
+    },
+    {
+     "card": "Amorphage Lechery",
+     "action_ko": "펜듈럼 존에 발동 (스케일 5)",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Amorphage Greed",
+     "action_ko": "반대쪽 펜듈럼 존에 발동 (스케일 3)",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Amorphage Envy",
+     "action_ko": "패에서 펜듈럼 소환",
+     "class": [
+      "ss_from_hand"
+     ],
+     "result_ko": "엑스트라 덱 봉쇄 + 룩스(마법)·프레스토(함정) 락이 켜진다"
+    }
+   ],
+   "end_board": [
+    "Amorphage Envy",
+    "Performapal Skullcrobat Joker",
+    "Amorphage Lechery",
+    "Amorphage Greed"
+   ],
+   "end_board_note_ko": "락 3개: [[Amorphage Envy]](엑스트라 덱 봉쇄), [[Amorphage Lechery]](마법 봉쇄), [[Amorphage Greed]](함정 봉쇄). 몬스터 효과는 열려 있어, 엑스트라 덱을 쓰지 않는 몬스터 효과와 파괴수로 깬다."
+  }
+ ],
+ "chokepoints": [
+  {
+   "handtrap": "droll",
+   "severity": "critical",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 서치가 처리되어 [[Odd-Eyes Revolution Dragon]]가 패에 들어간 직후 발동",
+   "why_ko": "이 덱의 모든 자원은 서치(레볼루션 ×2, 천공의 홍채)에서 나온다. 드롤 적용 뒤에는 레볼루션의 서치도 홍채의 서치도 처리되지 않아 아모르파지가 손의 [[Amorphage Greed]] 1장만 남는다. 우라라보다 확실하다(우라라는 1번만 끊고 홍채 → 레볼루션 루트가 남는다).",
+   "fallback_ko": "레볼루션을 스케일 12로 놓아도 손에 펜듈럼 소환할 아모르파지가 없다. 손에 레벨 4 아모르파지가 따로 있으면 스케일 2장 + 레벨 4로 락이 서지만, 스케일 3·5를 둘 다 들고 있어야 해서 드물다.",
+   "rulings": [
+    "qa-12797"
+   ]
+  },
+  {
+   "handtrap": "ash",
+   "severity": "critical",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 일반 소환 시 서치 효과 발동에 직접 체인",
+   "why_ko": "아모르파지는 레볼루션의 서치로만 모인다. 첫 서치를 끊으면 레볼루션 1장 분량(아모르파지 1장)이 사라져 '스케일 2장 + 아모르파지 몬스터 1장'의 3장을 채우지 못한다.",
+   "fallback_ko": "[[Sky Iris]]로 조커를 파괴해 레볼루션 1장 → 아모르파지 1장을 얻고, 스케일 2장을 놓은 뒤 엑스트라 덱의 조커를 펜듈럼 소환하는 정도. 필드에 아모르파지 몬스터가 없어 락은 하나도 켜지지 않는다.",
+   "rulings": [
+    "supp-11938"
+   ]
+  },
+  {
+   "handtrap": "imperm",
+   "severity": "critical",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 서치 효과 발동에 체인해 패에서 조커 대상 (대상 지정이라 직접 체인이 아니어도 된다. 내 필드가 비어 있어야 함)",
+   "why_ko": "우라라와 같은 결과. 조커는 필드에 남지만 서치가 무효된다. 우라라를 다른 서치(레볼루션·홍채)에 아껴 둘 수 있다.",
+   "fallback_ko": "홍채로 조커를 파괴하는 루트만 남는다(무효된 조커도 파괴 대상이 될 수 있다). 결과는 우라라와 같다.",
+   "rulings": [
+    "supp-13631",
+    "supp-11938"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: [[Performapal Skullcrobat Joker]]의 서치가 처리되지 않는다(서치 발동에 체인해 열면 그 서치는 막지 못한다)",
+   "why_ko": "드롤을 처음부터 깔아 둔 것과 같다. 조커·레볼루션·천공의 홍채의 서치가 전부 막혀 아모르파지가 모이지 않는다. 지속 함정의 적용은 발동이 아니라서 이후 [[Amorphage Greed]]가 서도 계속 적용된다.",
+   "fallback_ko": "손에 스케일 3·5와 레벨 4 아모르파지를 전부 들고 있을 때만 락이 선다."
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "joker_iris",
+   "step": 9,
+   "target_card": "Amorphage Envy",
+   "timing_ko": "세트해 뒀다면 [[Performapal Skullcrobat Joker]] 소환 직후나 서치 발동(3단계)에 체인해 '펜듈럼' 선언 → 이 단계의 펜듈럼 소환이 막힌다",
+   "why_ko": "이번 턴 서로 펜듈럼 몬스터를 특소할 수 없어 아모르파지(전부 펜듈럼 몬스터)를 필드에 낼 방법이 펜듈럼 소환 대신 일반 소환뿐이 된다. 조커로 일반 소환권을 이미 썼으므로 락의 스위치가 없다. 필드의 펜듈럼 몬스터 효과 무효는 몬스터 존에만 해당하고 펜듈럼 존의 스케일 효과는 막지 않는 것으로 본다(개별 Q&A 미확인).",
+   "fallback_ko": "스케일 2장 + 조커만 남고 락은 꺼진 채 턴 종료."
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "strong",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 서치 효과 발동에 직접 체인 (내 필드에 몬스터가 없어야 함)",
+   "why_ko": "서치를 무효로 하고 조커를 파괴한다. 조커는 엑스트라 덱으로 가므로 홍채가 파괴할 '자신의 다른 앞면 카드'가 스케일뿐이 된다. 스케일 1장을 홍채로 깨면 스케일 3·5가 모자라 펜듈럼 소환을 못 한다.",
+   "fallback_ko": "홍채를 쓰지 않고 손의 카드로 스케일 2장을 놓으면 엑스트라 덱의 조커만 펜듈럼 소환할 수 있다(아모르파지 아님 → 락 없음). [[Odd-Eyes Revolution Dragon]]의 패 효과(4단계)에 체인해도 무효는 되지만 레볼루션은 이미 코스트로 버려져 파괴가 없다.",
+   "rulings": [
+    "qa-23949"
+   ]
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 서치 효과 발동에 체인 (상대 메인 페이즈라 사용 가능)",
+   "why_ko": "무한포영과 같다. 조커가 필드에 남아 홍채의 파괴 대상은 된다.",
+   "fallback_ko": "홍채 → 레볼루션 → 아모르파지 1장. 스케일 2장 + 조커 펜듈럼 소환까지라 락이 켜지지 않는다.",
+   "rulings": [
+    "supp-8933"
+   ]
+  },
+  {
+   "handtrap": "purge",
+   "severity": "strong",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 서치 효과 발동에 직접 체인 (상대 필드에 카드가 있으므로 패에서)",
+   "why_ko": "우라라와 같은 결과. 패에서 쓰면 이 듀얼 동안 어둠·물·화염 몬스터 효과를 못 쓰지만, 어차피 락이 서면 내 몬스터 효과는 막힌다.",
+   "fallback_ko": "홍채 → 레볼루션 루트. 레볼루션 서치(4·8단계)에도 같은 이유로 쓸 수 있다.",
+   "rulings": [
+    "supp-20257"
+   ]
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "strong",
+   "line": "joker_iris",
+   "step": 9,
+   "target_card": "Amorphage Envy",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 펜듈럼 소환도 특수 소환이다",
+   "why_ko": "아모르파지 몬스터를 필드에 낼 수 없어 스케일 락이 켜지지 않는다. 처음부터 레벨 4 아모르파지를 일반 소환하는 길은 남지만 그러면 조커 서치를 못 써 스케일이 모이지 않는다.",
+   "fallback_ko": "조커 + 스케일 2장. 손에 레벨 4 아모르파지가 남아 다음 턴 일반 소환으로 락을 노린다."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "strong",
+   "line": "joker_iris",
+   "step": 9,
+   "target_card": "Amorphage Envy",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "배너티 데블과 같다(상대만 특소 불가).",
+   "fallback_ko": "조커 + 스케일 2장."
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "strong",
+   "line": "joker_iris",
+   "step": 9,
+   "target_card": "Amorphage Envy",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 아모르파지는 전부 땅 속성",
+   "why_ko": "펜듈럼 소환으로 아모르파지를 낼 수 없다(어둠인 조커만 가능). 락의 스위치가 없다.",
+   "fallback_ko": "조커를 일반 소환하지 않고 레벨 4 아모르파지를 일반 소환하면 스케일 락만은 켤 수 있지만 서치가 없어 손에 스케일 2장이 따로 있어야 한다."
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "strong",
+   "line": "joker_iris",
+   "step": 9,
+   "target_card": "Amorphage Envy",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 아모르파지는 땅 속성",
+   "why_ko": "심연의 결계상과 같다. 빛인 레볼루션도 이 라인에서는 펜듈럼 소환하지 않는다.",
+   "fallback_ko": "조커 + 스케일 2장."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "strong",
+   "line": "joker_iris",
+   "step": 9,
+   "target_card": "Amorphage Envy",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 아모르파지는 땅 속성",
+   "why_ko": "심연의 결계상과 같다.",
+   "fallback_ko": "조커 + 스케일 2장."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "strong",
+   "line": "joker_iris",
+   "step": 9,
+   "target_card": "Amorphage Envy",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 아모르파지는 땅 속성",
+   "why_ko": "심연의 결계상과 같다.",
+   "fallback_ko": "조커 + 스케일 2장."
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "strong",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 조커 서치는 발동되지만 필드의 몬스터 효과라 처리 시 무효 / 세트해 뒀다면 조커 서치 발동에 체인",
+   "why_ko": "아모르파지를 모으는 첫 서치가 사라진다. 락이 서더라도 [[Amorphage Envy]]·[[Amorphage Goliath]]의 엑스트라 덱 봉쇄(몬스터 효과)는 무효다. 스케일의 펜듈럼 효과와 패에서 쓰는 레볼루션 서치는 못 막는다.",
+   "fallback_ko": "홍채 → 레볼루션으로 아모르파지 1장. 락은 서도 엑스트라 덱은 열린다."
+  },
+  {
+   "handtrap": "herald",
+   "severity": "strong",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 서치 효과 발동에 자신을 릴리스해 무효+파괴",
+   "why_ko": "우라라를 맞은 것과 같다. 조커가 엑스트라 덱으로 가서 홍채가 파괴할 대상도 줄어든다. 패·덱에서 묘지로 가는 몬스터 제외 잠금은 이 덱(레볼루션 버리기)에 거의 영향이 없으므로 무효 쪽에 쓴다.",
+   "fallback_ko": "홍채를 쓰면 스케일 1장을 깨야 해 아모르파지가 모자란다."
+  },
+  {
+   "handtrap": "ash",
+   "severity": "strong",
+   "line": "joker_iris",
+   "step": 4,
+   "target_card": "Odd-Eyes Revolution Dragon",
+   "timing_ko": "1번째 [[Odd-Eyes Revolution Dragon]]의 패 효과(버리고 500 LP, 서치) 발동에 직접 체인",
+   "why_ko": "조커 서치를 통과시켰다면 여기. 레볼루션은 코스트로 이미 묘지라 서치만 사라진다.",
+   "fallback_ko": "홍채 → 2번째 레볼루션 → 아모르파지 1장. 손의 [[Amorphage Greed]]와 합쳐 2장이라 스케일만 서고 펜듈럼 소환할 아모르파지가 없다. 7·8단계(홍채·2번째 레볼루션)에 맞춰도 결과가 같다.",
+   "rulings": [
+    "supp-11938"
+   ]
+  },
+  {
+   "handtrap": "ash",
+   "severity": "critical",
+   "line": "revo_goliath",
+   "step": 2,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 서치 효과 발동에 직접 체인",
+   "why_ko": "레볼루션이 손에 1장뿐이 되어 '스케일 12'와 '이리튬 서치' 중 하나만 할 수 있다. 서치에 쓰면 스케일이 [[Amorphage Lechery]]뿐, 스케일에 쓰면 펜듈럼 소환할 이리튬이 없다.",
+   "fallback_ko": "레볼루션으로 이리튬을 서치해 패에 두고 끝내거나, 스케일만 놓고 끝. 락 없음.",
+   "rulings": [
+    "supp-11938"
+   ]
+  },
+  {
+   "handtrap": "droll",
+   "severity": "critical",
+   "line": "revo_goliath",
+   "step": 2,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 서치가 처리된 직후",
+   "why_ko": "2번째 레볼루션은 손에 들어오지만 그 서치가 막혀 [[Amorphage Goliath]]가 오지 않는다.",
+   "fallback_ko": "레볼루션 2장 중 1장을 스케일 12로 놓아도 손에 펜듈럼 소환할 레벨 6~11 아모르파지가 없다.",
+   "rulings": [
+    "qa-12797"
+   ]
+  },
+  {
+   "handtrap": "imperm",
+   "severity": "critical",
+   "line": "revo_goliath",
+   "step": 2,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 서치 효과 발동에 체인해 패에서 조커 대상",
+   "why_ko": "우라라와 같은 결과. 레볼루션 1장으로는 스케일과 서치를 동시에 못 한다.",
+   "fallback_ko": "락 없음. 손에 레벨 6~11 아모르파지(노테스·이리튬)를 따로 들고 있으면 3단계를 건너뛰고 스케일 12 + 룩스로 펜듈럼 소환한다.",
+   "rulings": [
+    "supp-13631"
+   ]
+  },
+  {
+   "handtrap": "ash",
+   "severity": "critical",
+   "line": "joker_lv4",
+   "step": 2,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 서치 효과 발동에 직접 체인",
+   "why_ko": "[[Amorphage Lechery]]가 오지 않아 손의 [[Amorphage Greed]]·[[Amorphage Envy]]를 둘 다 스케일로 놓아야 하고, 그러면 펜듈럼 소환할 레벨 4가 없다.",
+   "fallback_ko": "스케일 2장 + 조커만 남는다. 락 없음.",
+   "rulings": [
+    "supp-11938"
+   ]
+  },
+  {
+   "handtrap": "spark",
+   "severity": "ok",
+   "line": "joker_iris",
+   "step": 4,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Odd-Eyes Revolution Dragon]]의 패 효과 발동(4단계)으로 조건이 갖춰진 뒤, 그 체인 위나 이후 아무 때나 패에서 발동해 필드의 [[Performapal Skullcrobat Joker]] 제외",
+   "why_ko": "조커가 엑스트라 덱으로도 가지 않고 사라져, 홍채가 파괴할 '다른 앞면 카드'가 스케일뿐이 된다. 스케일을 깨면 스케일 3·5가 모자라고, 홍채를 안 쓰면 아모르파지가 1장 부족하다.",
+   "fallback_ko": "내 묘지에 함정이 없으면 상대가 패에서 몬스터 1장을 특소할 수 있다. 그 몬스터가 아모르파지면 펜듈럼 소환된 것이 아니라 엑스트라 덱 봉쇄는 없지만 스케일의 락은 켜진다. 패에서 쓰면 이 듀얼 동안 땅·물·화염·바람 몬스터 효과 발동 불가.",
+   "rulings": [
+    "supp-22586"
+   ]
+  },
+  {
+   "handtrap": "ogre",
+   "severity": "ok",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 서치 효과 발동에 직접 체인해 조커 파괴",
+   "why_ko": "서치는 처리되지만 조커가 엑스트라 덱으로 가서 홍채의 파괴 대상이 스케일뿐이 된다. 이후 홍채로 스케일을 깨거나 홍채를 포기해야 해 아모르파지 3장(스케일 2 + 몬스터 1)을 맞추기 어렵다.",
+   "fallback_ko": "손에 레벨 4 아모르파지가 더 있으면 그대로 락이 선다. 홍채 효과(7단계)에 쓰면 홍채만 깨지고 서치는 처리되므로 손해."
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "ok",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "[[Performapal Skullcrobat Joker]]의 서치 효과 발동에 직접 체인해 공개(싱크로 5장 공개로 조커 파괴)",
+   "why_ko": "유령토끼와 같은 결과. 서치는 처리되지만 홍채가 쓸 대상이 사라진다. 하르모니아 자신도 특소된다.",
+   "fallback_ko": "이후 [[Amorphage Gluttony]] 락이 서면 내 몬스터 효과는 어차피 못 쓴다. 하르모니아 제약(엑스트라 덱 특소 싱크로 이외 효과 불가)은 영향이 적다.",
+   "rulings": [
+    "supp-22533"
+   ]
+  },
+  {
+   "handtrap": "crown",
+   "severity": "ok",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "세트해 둔 [[Forbidden Crown]]을 [[Performapal Skullcrobat Joker]]의 서치 효과 발동에 체인",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 서치가 무효되고 조커는 이번 턴 파괴되지 않아 홍채로도 깰 수 없다(파괴 내성). 홍채가 스케일을 깨야 해 아모르파지가 모자란다.",
+   "fallback_ko": "손에 레벨 4 아모르파지가 더 있으면 락이 선다.",
+   "rulings": [
+    "supp-22169"
+   ]
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "ok",
+   "line": "joker_iris",
+   "step": 3,
+   "target_card": "Performapal Skullcrobat Joker",
+   "timing_ko": "미리 앞면이면 [[Performapal Skullcrobat Joker]] 서치 처리 후 상대 패 1장 무작위 제외(1턴 1번)",
+   "why_ko": "손의 아모르파지(스케일·레벨 4)가 빠지면 3장을 못 맞춘다. 묘지 제외 잠금은 이 덱에 영향이 없다.",
+   "fallback_ko": "무작위라 빠진 카드에 따라 그대로 락이 선다."
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "ok",
+   "line": "revo_goliath",
+   "step": 6,
+   "target_card": "Amorphage Goliath",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 필드에 [[Performapal Skullcrobat Joker]](마법사족)가 남아 있어 드래곤족 [[Amorphage Goliath]]를 펜듈럼 소환할 수 없다",
+   "why_ko": "이 라인에는 조커를 치울 수단이 없어 이리튬이 나오지 않는다. 락의 스위치가 없다.",
+   "fallback_ko": "`joker_iris`처럼 홍채로 조커를 깨는 라인이면 아모르파지만 펜듈럼 소환해 통과된다(조커 동시 펜듈럼 소환은 불가)."
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "ok",
+   "line": "revo_goliath",
+   "step": 6,
+   "target_card": "Amorphage Goliath",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 필드의 [[Performapal Skullcrobat Joker]]가 어둠이라 땅 속성 [[Amorphage Goliath]]를 펜듈럼 소환할 수 없다",
+   "why_ko": "군웅할거와 같은 이유로 이리튬이 못 나온다.",
+   "fallback_ko": "홍채로 조커를 깨는 라인은 통과된다."
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "ok",
+   "line": "joker_iris",
+   "step": 9,
+   "target_card": "Amorphage Envy",
+   "timing_ko": "펜듈럼 소환이 끝난 뒤, 세트해 둔 The Fallen & The Virtuous로 [[Amorphage Envy]] 파괴",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). [[Amorphage Gluttony]]·[[Amorphage Greed]]는 마법을 막지 않는다. 필드의 아모르파지 몬스터가 사라지면 스케일의 락이 전부 꺼지고 엑스트라 덱 봉쇄도 끝난다. 상대는 펜듈럼 소환을 이미 써서 다시 세울 수 없다.",
+   "fallback_ko": "조커 + 꺼진 스케일 2장만 남는다. [[Amorphage Infection]]이 있으면 파괴 시 아모르파지 1장 서치. 홍채 효과(7단계)에 체인해 조커를 파괴해도 홍채 서치가 처리되지 않는다.",
+   "rulings": [
+    "qa-16213",
+    "supp-12299"
+   ]
+  },
+  {
+   "handtrap": "mst",
+   "severity": "ok",
+   "line": "joker_iris",
+   "step": 5,
+   "target_card": "Amorphage Gluttony",
+   "timing_ko": "세트해 둔 싸이크론을 [[Amorphage Gluttony]]의 펜듈럼 존 발동에 체인해 파괴",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 가스톨의 펜듈럼 효과는 발동 처리 뒤부터 적용되므로 그 발동에 체인할 수 있다. 스케일 5가 사라져 펜듈럼 소환이 막힌다.",
+   "fallback_ko": "손에 스케일 5가 더 있으면 다시 놓는다. 펜듈럼 소환을 마친 뒤라도 마법을 막지 않는 판면이라 엔드 페이즈에 스케일 1장을 깨면 그 락만 지운다.",
+   "rulings": [
+    "qa-18293"
+   ]
+  },
+  {
+   "handtrap": "mst",
+   "severity": "ok",
+   "line": "revo_goliath",
+   "step": 4,
+   "target_card": "Amorphage Lechery",
+   "timing_ko": "세트해 둔 싸이크론을 [[Amorphage Lechery]]의 펜듈럼 존 발동에 체인해 파괴",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 룩스가 서면 세트한 속공 마법도 발동할 수 없게 되므로 발동 순간이 마지막 기회. 이리튬은 레볼루션(12)과 다른 스케일이 있어야 나오므로 펜듈럼 소환도 끊긴다.",
+   "fallback_ko": "손에 다른 스케일이 있으면 이리튬은 나오지만 마법 봉쇄가 사라진다.",
+   "rulings": [
+    "qa-18293",
+    "qa-18295"
+   ]
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "bad",
+   "line": "revo_goliath",
+   "step": 6,
+   "target_card": "Amorphage Goliath",
+   "timing_ko": "[[Amorphage Goliath]]가 나온 뒤 세트한 속공 마법(The Fallen & The Virtuous·싸이크론·금지된 성관)으로 대응하려는 것",
+   "why_ko": "[[Amorphage Lechery]]의 락은 아모르파지 몬스터가 필드에 나온 순간부터 마법 카드의 발동과 효과를 모두 막는다. 세트해 둔 속공 마법도 못 쓴다.",
+   "fallback_ko": "룩스 판면에는 룩스 발동(4단계) 체인이나 그 전의 서치에 쓴다.",
+   "rulings": [
+    "qa-18295"
+   ]
+  },
+  {
+   "handtrap": "maxxc",
+   "severity": "bad",
+   "line": "joker_iris",
+   "step": 9,
+   "target_card": "Amorphage Envy",
+   "timing_ko": "펜듈럼 소환을 보고 증G를 쓰려는 것",
+   "why_ko": "펜듈럼 소환은 체인을 만들지 않는 소환이라 소환된 뒤에야 증G를 쓸 수 있는데, 그 순간 [[Amorphage Envy]]가 필드에 있어 [[Amorphage Gluttony]]의 락(아모르파지 이외 몬스터 효과 발동 불가)이 이미 켜져 있다. 써도 이 덱은 특소가 1번이라 1장.",
+   "fallback_ko": "증G·후와로스는 펜듈럼 소환 전(조커 소환 직후 등)에 미리 써야 1장이라도 뽑는다.",
+   "rulings": [
+    "qa-10918",
+    "qa-18296"
+   ]
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "bad",
+   "line": "joker_iris",
+   "step": 9,
+   "target_card": "Amorphage Envy",
+   "timing_ko": "펜듈럼 소환된 [[Amorphage Envy]]에 [[Ghost Mourner & Moonlit Chill]]",
+   "why_ko": "캬붐이 필드에 나온 순간 [[Amorphage Gluttony]] 락이 켜져 몬스터 효과로는 발동할 수 없다. 가스톨이 없는 판면(`revo_goliath`)에서 이리튬에 써도 무효는 이번 턴뿐이라, 락이 필요한 내 턴에는 이미 풀린다.",
+   "fallback_ko": "",
+   "rulings": [
+    "qa-18296"
+   ]
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "bad",
+   "line": "joker_iris",
+   "step": 9,
+   "target_card": "Amorphage Envy",
+   "timing_ko": "펜듈럼 소환에 [[Dominus Impulse]]",
+   "why_ko": "펜듈럼 소환은 카드·효과의 발동이 아니라 무효할 대상이 없다. 이 덱에는 '특소하는 효과'가 없다.",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "nibiru",
+   "severity": "bad",
+   "line": "joker_iris",
+   "step": 9,
+   "target_card": "Amorphage Envy",
+   "timing_ko": "니비루",
+   "why_ko": "소환은 일반 소환 1회 + 펜듈럼 소환(2체)이라 5체에 못 미친다.",
+   "fallback_ko": ""
+  }
+ ],
+ "handtrap_summary": {
+  "ash": {
+   "rating": "critical",
+   "note_ko": "[[Performapal Skullcrobat Joker]] 서치 > [[Odd-Eyes Revolution Dragon]] 서치 > [[Sky Iris]] 서치. 아모르파지는 서치로만 모이므로 첫 서치가 최우선.",
+   "rulings": [
+    "supp-11938"
+   ]
+  },
+  "maxxc": {
+   "rating": "weak",
+   "note_ko": "특소는 마지막 펜듈럼 소환 1번뿐이라 1장. 소환 뒤에는 [[Amorphage Gluttony]] 락으로 발동조차 못 하므로 쓰려면 미리.",
+   "rulings": [
+    "qa-10918"
+   ]
+  },
+  "fuwalos": {
+   "rating": "weak",
+   "note_ko": "덱·엑스트라 덱 특소는 엑스트라 덱의 조커 펜듈럼 소환 1번 정도(`joker_iris`). 드로우 0~1장."
+  },
+  "purulia": {
+   "rating": "weak",
+   "note_ko": "일반 소환 1회 + 패에서 펜듈럼 소환 1회로 2장 안팎. 조커 소환 전에 써야 한다."
+  },
+  "droll": {
+   "rating": "critical",
+   "note_ko": "[[Performapal Skullcrobat Joker]] 서치 처리 직후. 이후 레볼루션·홍채 서치가 전부 막혀 아모르파지가 모이지 않는다.",
+   "rulings": [
+    "qa-12797"
+   ]
+  },
+  "meowls": {
+   "rating": "bad",
+   "note_ko": "묘지·제외에서 특소하는 동작이 없다."
+  },
+  "imperm": {
+   "rating": "critical",
+   "note_ko": "[[Performapal Skullcrobat Joker]] 서치에 체인해 패에서. 레볼루션 서치는 패에서 쓰는 효과라 대상이 아니다.",
+   "rulings": [
+    "supp-13631"
+   ]
+  },
+  "veiler": {
+   "rating": "strong",
+   "note_ko": "무한포영과 같은 위치([[Performapal Skullcrobat Joker]] 서치).",
+   "rulings": [
+    "supp-8933"
+   ]
+  },
+  "ogre": {
+   "rating": "ok",
+   "note_ko": "[[Performapal Skullcrobat Joker]] 서치에 체인해 조커 파괴. 서치는 처리되지만 홍채가 파괴할 대상이 사라진다. 홍채 효과에 쓰면 손해."
+  },
+  "belle": {
+   "rating": "bad",
+   "note_ko": "묘지 효과·묘지 회수가 없다(레볼루션은 버려질 뿐)."
+  },
+  "mourner": {
+   "rating": "bad",
+   "note_ko": "특소되는 순간 아모르파지 몬스터가 필드에 있어 [[Amorphage Gluttony]] 락에 막히거나, 무효가 이번 턴뿐이라 의미가 없다.",
+   "rulings": [
+    "qa-18296"
+   ]
+  },
+  "crossout": {
+   "rating": "bad",
+   "note_ko": "자기 메인 덱에 있는 카드만 선언 가능. 같은 오드아이즈 카드를 쓰지 않는 한 선언할 것이 없다."
+  },
+  "ttt": {
+   "rating": "weak",
+   "note_ko": "상대 1턴 전개에는 쓸 곳이 거의 없음. 내 턴(후공)에: 아모르파지 판면은 내 턴에 효과를 발동하지 않아 조건이 거의 안 맞는다. [[Amorphage Lechery]] 판면에서는 발동 자체가 불가."
+  },
+  "droplet": {
+   "rating": "weak",
+   "note_ko": "상대 1턴 전개에는 쓸 곳이 거의 없음. 내 턴(후공)에: [[Amorphage Gluttony]]·[[Amorphage Greed]] 판면(마법 허용)에서 [[Amorphage Envy]]를 무효로 하면 엑스트라 덱 봉쇄가 풀린다. 펜듈럼 락은 남는다(캬붐은 여전히 아모르파지 몬스터). [[Amorphage Lechery]] 판면에서는 발동 불가."
+  },
+  "nibiru": {
+   "rating": "bad",
+   "note_ko": "소환 2~3체로 조건 미달."
+  },
+  "impulse": {
+   "rating": "bad",
+   "note_ko": "특소하는 '효과'가 없다. 펜듈럼 소환은 발동이 아니다."
+  },
+  "purge": {
+   "rating": "strong",
+   "note_ko": "우라라와 같은 위치([[Performapal Skullcrobat Joker]] 서치 > 레볼루션 서치 > 홍채 서치). 패에서 쓰면 어둠·물·화염 제약.",
+   "rulings": [
+    "supp-20257"
+   ]
+  },
+  "spark": {
+   "rating": "ok",
+   "note_ko": "레볼루션 패 효과 뒤 조커를 제외하면 홍채가 쓸 대상이 사라진다. 상대가 패에서 아모르파지를 특소해 오면 스케일 락은 켜질 수 있다.",
+   "rulings": [
+    "supp-22586"
+   ]
+  },
+  "magnamhut": {
+   "rating": "weak",
+   "note_ko": "아모르파지는 땅 속성이고 묘지 효과가 없다. 묘지의 레볼루션(빛)을 지워도 영향이 없다."
+  },
+  "gamma": {
+   "rating": "strong",
+   "note_ko": "[[Performapal Skullcrobat Joker]] 서치에 체인해 무효 + 조커 파괴. 레볼루션 패 효과에도 쓸 수 있지만 레볼루션은 이미 버려져 있다.",
+   "rulings": [
+    "qa-23949"
+   ]
+  },
+  "harmonia": {
+   "rating": "ok",
+   "note_ko": "[[Performapal Skullcrobat Joker]] 서치에 체인해 조커 파괴(싱크로 5장 공개). 서치는 처리된다.",
+   "rulings": [
+    "supp-22533"
+   ]
+  },
+  "fallen_virtuous": {
+   "rating": "ok",
+   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 가스톨·프레스토 판면은 마법을 막지 않아 펜듈럼 소환 뒤 [[Amorphage Envy]]를 파괴하면 락이 전부 꺼진다. 룩스 판면에서는 아모르파지 몬스터가 나온 뒤 발동 불가. 내 턴(패)에도 가스톨 판면 돌파 카드.",
+   "rulings": [
+    "qa-18295"
+   ]
+  },
+  "super_poly": {
+   "rating": "bad",
+   "note_ko": "락이 서면 엑스트라 덱에서 아모르파지 이외 특소가 안 되어 융합 소환 자체가 불가. 세트해 두었다면 락 전에 조커를 흡수하는 정도."
+  },
+  "mst": {
+   "rating": "ok",
+   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 스케일 발동(특히 [[Amorphage Lechery]])에 체인해 파괴. 룩스가 서면 세트한 싸이크론도 못 쓴다.",
+   "rulings": [
+    "qa-18293"
+   ]
+  },
+  "crown": {
+   "rating": "ok",
+   "note_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). [[Performapal Skullcrobat Joker]] 서치에 체인. 조커는 파괴 내성이 생겨 홍채로도 못 깬다.",
+   "rulings": [
+    "supp-22169"
+   ]
+  },
+  "druiswurm": {
+   "rating": "weak",
+   "note_ko": "묘지에 빛·어둠은 버려진 레볼루션뿐이고 묘지 효과가 없다. 필드에 남긴 드루이드브룸도 락이 서면 효과를 못 쓴다."
+  },
+  "macro_cosmos": {
+   "rating": "bad",
+   "note_ko": "묘지를 쓰지 않는 덱이다. 파괴된 펜듈럼 몬스터는 엑스트라 덱으로 가고, 버린 레볼루션은 묘지 효과가 없다."
+  },
+  "fissure": {
+   "rating": "bad",
+   "note_ko": "매크로 코스모스와 같은 이유로 영향 없음."
+  },
+  "banisher": {
+   "rating": "bad",
+   "note_ko": "매크로 코스모스와 같은 이유로 영향 없음. 락이 서면 추방자 자신은 효과가 아니라 지속이라 남지만 의미가 없다."
+  },
+  "herald": {
+   "rating": "strong",
+   "note_ko": "제외 잠금은 무의미하고, 릴리스 무효를 [[Performapal Skullcrobat Joker]] 서치에 쓴다(우라라와 같은 결과)."
+  },
+  "retaliating_c": {
+   "rating": "bad",
+   "note_ko": "특소하는 효과를 포함한 마법을 쓰지 않는다(천공의 홍채는 서치·파괴)."
+  },
+  "dd_crow": {
+   "rating": "bad",
+   "note_ko": "묘지의 카드를 대상으로 하는 효과가 없다."
+  },
+  "dark_law": {
+   "rating": "ok",
+   "note_ko": "서치마다(1턴 1번) 패 1장 무작위 제외. 아모르파지 3장을 모아야 하는 덱이라 잘 맞으면 락이 무너진다."
+  },
+  "arise_heart": {
+   "rating": "weak",
+   "note_ko": "제외 잠금은 무의미. 소재 3개의 뒷면 제외로 락 전에 조커나 스케일을 지울 수는 있지만, 아모르파지 몬스터가 서면 [[Amorphage Gluttony]] 판면에서는 그 효과도 못 쓴다."
+  },
+  "protos": {
+   "rating": "weak",
+   "note_ko": "선공 내 턴에 내 필드에 땅 몬스터가 있어 '땅'을 선언할 수 있으면 다음 턴 아모르파지(전부 땅) 특소가 막힌다. 보통은 프로토스 자신의 어둠만 선언할 수 있어 조커 정도만 걸린다."
+  },
+  "statue_abyss": {
+   "rating": "strong",
+   "note_ko": "아모르파지는 전부 땅이라 펜듈럼 소환이 막혀 락의 스위치가 없다. 일반 소환한 아모르파지로 스케일 락만 켜는 길은 남는다."
+  },
+  "statue_heavens": {
+   "rating": "strong",
+   "note_ko": "심연의 결계상과 같다."
+  },
+  "statue_inferno": {
+   "rating": "strong",
+   "note_ko": "심연의 결계상과 같다."
+  },
+  "statue_torrent": {
+   "rating": "strong",
+   "note_ko": "심연의 결계상과 같다."
+  },
+  "vanity_fiend": {
+   "rating": "strong",
+   "note_ko": "펜듈럼 소환 불가. 일반 소환한 아모르파지 1장으로만 락을 켤 수 있다."
+  },
+  "vanity_ruler": {
+   "rating": "strong",
+   "note_ko": "배너티 데블과 같다."
+  },
+  "dim_barrier": {
+   "rating": "critical",
+   "note_ko": "'펜듈럼' 선언으로 이번 턴 펜듈럼 소환·펜듈럼 몬스터 특소가 전부 막힌다. 조커 소환 뒤에 열면 일반 소환권도 이미 없다."
+  },
+  "skill_drain": {
+   "rating": "strong",
+   "note_ko": "조커 서치가 무효, 락이 서도 엑스트라 덱 봉쇄(몬스터 효과)는 무효. 스케일 락(펜듈럼 효과)과 레벨 4 펜듈럼 소환은 못 막는다."
+  },
+  "mistake": {
+   "rating": "critical",
+   "note_ko": "조커·레볼루션·홍채의 서치가 전부 막힌다. 미리 앞면이어야 하며, 지속 적용이라 [[Amorphage Greed]]가 서도 계속 유효."
+  },
+  "rivalry": {
+   "rating": "ok",
+   "note_ko": "[[Performapal Skullcrobat Joker]](마법사족)와 아모르파지(드래곤족)를 같이 둘 수 없다. 조커를 치울 수단이 없는 `revo_goliath`에서 이리튬이 막힌다."
+  },
+  "gozen": {
+   "rating": "ok",
+   "note_ko": "조커(어둠)와 아모르파지(땅). 군웅할거와 같다."
+  },
+  "only_one": {
+   "rating": "weak",
+   "note_ko": "필드의 아모르파지 몬스터는 보통 1장이고 조커와 종족이 달라 거의 통과한다."
+  }
+ },
+ "going_second": {
+  "summary_ko": "무효 효과는 하나도 없고 '지속 봉쇄'만 있다. 모든 락은 '자신 필드에 앞면 아모르파지 몬스터가 있는 동안'만 적용되므로, 필드의 아모르파지 몬스터 1장([[Amorphage Envy]]·[[Amorphage Goliath]])을 없애는 것이 곧 판면 해제다. 스케일 조합에 따라 막히는 종류가 달라 먼저 무엇이 막혔는지 확인한다: [[Amorphage Gluttony]]는 몬스터 효과, [[Amorphage Lechery]]는 마법, [[Amorphage Greed]]는 함정. 소환 절차인 파괴수는 어느 판면이든 통하고, 마법 기반 돌파는 룩스 판면에서 전부 죽는다.",
+  "difficulty": "medium",
+  "boards": [
+   {
+    "id": "full",
+    "title_ko": "풀 전개 (조커 + 천공의 홍채, 가스톨·프레스토 락)",
+    "line": "joker_iris",
+    "interruptions": [
+     {
+      "id": "envy_extra",
+      "card": "Amorphage Envy",
+      "kind": "floodgate",
+      "zone": "monster",
+      "timing_ko": "펜듈럼 소환된 이 카드가 앞면으로 있는 한 서로 아모르파지 이외 몬스터를 엑스트라 덱에서 특소할 수 없다(지속, 발동 없음). 동시에 이 카드가 '필드의 아모르파지 몬스터'라서 스케일 락의 스위치이기도 하다",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 몬스터 효과 봉쇄([[Amorphage Gluttony]])에 안 걸린다. 캬붐을 릴리스하면 필드에 아모르파지 몬스터가 없어져 엑스트라 덱 봉쇄와 스케일 락이 한꺼번에 꺼진다. 가장 확실한 답",
+        "rulings": [
+         "supp-12299"
+        ]
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "캬붐·조커를 파괴하면 락이 전부 꺼진다. [[Amorphage Infection]]이 있으면 아모르파지 1장 서치",
+        "rulings": [
+         "supp-12299"
+        ]
+       },
+       {
+        "id": "dark_hole",
+        "note_ko": "번개와 같다. 내 몬스터도 파괴되므로 먼저 쓴다"
+       },
+       {
+        "id": "kaiju_slumber",
+        "note_ko": "몬스터 전부 파괴 후 덱에서 파괴수 2장(엑스트라 덱이 아니라 봉쇄와 무관)"
+       },
+       {
+        "id": "book_eclipse",
+        "note_ko": "앞면 몬스터가 없어지면 펜듈럼 락과 엑스트라 덱 봉쇄가 이번 턴 꺼진다. 엔드 페이즈에 상대 몬스터가 앞면이 되며 상대가 드로우하고, 캬붐은 '리버스'로 다시 엑스트라 덱 봉쇄",
+        "rulings": [
+         "supp-12299"
+        ]
+       },
+       {
+        "id": "fallen_virtuous",
+        "note_ko": "속공 마법이라 이 판면에서는 패에서 쓸 수 있다. 캬붐을 파괴하면 락 전부 해제"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "캬붐의 엑스트라 덱 봉쇄만 무효. 캬붐은 여전히 아모르파지 몬스터라 [[Amorphage Gluttony]]·[[Amorphage Greed]] 락은 남아 내 몬스터 효과와 함정은 계속 막힌다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "명왕결계파와 같은 한계(엑스트라 덱만 열린다)"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "캬붐은 펜듈럼 몬스터라 내 엑스트라 덱에 펜듈럼 몬스터가 있으면 덱으로 되돌릴 수 있다. 몬스터 효과로 체인 불가지만 이 덱에는 원래 체인할 카드가 없다"
+       }
+      ],
+      "bait_ko": "캬붐은 공격력 0·수비력 2050의 수비 표시가 보통이라 [[Lightning Storm]] 몬스터 모드로는 안 깨진다. 몬스터 효과가 막혀도 일반 소환한 몬스터로 전투 파괴하면 메인 페이즈 2에는 락이 전부 꺼진다."
+     },
+     {
+      "id": "gluttony",
+      "card": "Amorphage Gluttony",
+      "kind": "floodgate",
+      "zone": "st",
+      "timing_ko": "펜듈럼 존. 자신 필드에 아모르파지 몬스터가 있는 한 서로 아모르파지 이외 몬스터 효과를 발동할 수 없다(패·묘지 효과, 펜듈럼 효과 제외). 패트랩·내 덱의 몬스터 효과 전부 봉쇄",
+      "answered_by": [
+       {
+        "id": "harpie",
+        "note_ko": "펜듈럼 존의 카드는 마법 카드라 상대 마함과 함께 파괴. 마법은 막지 않는 판면이라 그대로 통한다. 캬붐의 엑스트라 덱 봉쇄는 남는다"
+       },
+       {
+        "id": "heavy_storm",
+        "note_ko": "해피의 깃털과 같다(내 마함도 파괴)"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "내 필드에 앞면 카드가 없을 때 마함 모드. 스케일 2장 + 천공의 홍채를 함께 파괴"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "1장 제외. 가스톨을 지우면 내 몬스터 효과가 풀린다(프레스토는 남음)"
+       },
+       {
+        "id": "mst",
+        "note_ko": "1장 파괴. 가스톨부터"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "캬붐을 치우면 스케일 락도 같이 꺼진다"
+       },
+       {
+        "id": "raigeki",
+        "note_ko": "필드의 아모르파지 몬스터가 사라지면 적용되지 않는다"
+       }
+      ],
+      "bait_ko": "펜듈럼 존 카드의 효과 발동은 마법 효과 취급이라 가스톨에 막히지 않는다. 몬스터 효과를 쓰기 전에 가스톨이나 캬붐부터 지운다."
+     },
+     {
+      "id": "greed",
+      "card": "Amorphage Greed",
+      "kind": "floodgate",
+      "zone": "st",
+      "timing_ko": "펜듈럼 존. 자신 필드에 아모르파지 몬스터가 있는 한 서로 아모르파지 이외 함정 카드의 발동·효과 발동 불가",
+      "answered_by": [
+       {
+        "id": "harpie",
+        "note_ko": "가스톨과 함께 파괴"
+       },
+       {
+        "id": "heavy_storm",
+        "note_ko": "같다"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "마함 모드로 함께 파괴"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "함정을 쓰고 싶을 때만 우선"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "캬붐을 치우면 꺼진다"
+       }
+      ],
+      "bait_ko": "[[Evenly Matched]]·[[Infinite Impermanence]]는 이 판면에서 발동 불가. 함정 기반 돌파는 프레스토를 먼저 지운 뒤에."
+     }
+    ]
+   },
+   {
+    "id": "full_revo",
+    "title_ko": "풀 전개 (레볼루션 스케일 + 이리튬, 룩스 락)",
+    "line": "revo_goliath",
+    "interruptions": [
+     {
+      "id": "goliath_extra",
+      "card": "Amorphage Goliath",
+      "kind": "floodgate",
+      "zone": "monster",
+      "timing_ko": "몬스터 존에 있는 한 서로 아모르파지 이외 엑스트라 덱 특소 불가(펜듈럼 소환 조건 없음, 지속). 룩스 락의 스위치. 공격력 2750",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "마법이 막혀도 소환 절차라 통한다. 이리튬을 릴리스하면 룩스 락도 꺼진다"
+       },
+       {
+        "id": "evenly_matched",
+        "note_ko": "함정이라 룩스가 못 막는다. 내 배틀 페이즈 종료 시 상대는 1장만 남긴다. 상대가 이리튬을 남기면 엑스트라 덱 봉쇄는 남지만 룩스는 사라진다"
+       },
+       {
+        "id": "imperm",
+        "note_ko": "내 필드가 비었을 때 패에서 이리튬 대상. 이번 턴 엑스트라 덱 봉쇄가 풀린다. 이리튬은 여전히 아모르파지 몬스터라 룩스 락은 남는다",
+        "rulings": [
+         "supp-13631"
+        ]
+       }
+      ],
+      "bait_ko": "몬스터 효과는 열려 있으므로 엑스트라 덱을 쓰지 않는 몬스터로 공격력 2750을 넘겨 전투 파괴하면 메인 페이즈 2에 전부 풀린다."
+     },
+     {
+      "id": "lechery",
+      "card": "Amorphage Lechery",
+      "kind": "floodgate",
+      "zone": "st",
+      "timing_ko": "펜듈럼 존. 자신 필드에 아모르파지 몬스터가 있는 한 서로 아모르파지 이외 마법 카드의 발동·효과 발동 불가(세트한 속공 마법, 묘지의 마법 효과 포함)",
+      "answered_by": [
+       {
+        "id": "evenly_matched",
+        "note_ko": "함정이라 통한다. 상대가 남길 1장은 고르므로 룩스·이리튬 중 하나가 남을 수 있다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "이리튬을 치우면 룩스 락도 꺼진다. 그 뒤 마법 돌파 카드를 쓸 수 있다"
+       }
+      ],
+      "bait_ko": "해피의 깃털·태풍·라이트닝 스톰·번개·명왕결계파·코즈믹 싸이크론 전부 발동 불가. 먼저 함정이나 파괴수로 아모르파지 몬스터를 치운다.",
+      "rulings": [
+       "qa-18295"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "full_lv4",
+    "title_ko": "풀 전개 (레벨 4 펜듈럼 소환, 룩스·프레스토 락)",
+    "line": "joker_lv4",
+    "interruptions": [
+     {
+      "id": "envy_extra_lv4",
+      "card": "Amorphage Envy",
+      "kind": "floodgate",
+      "zone": "monster",
+      "timing_ko": "펜듈럼 소환된 이 카드가 앞면으로 있는 한 서로 아모르파지 이외 몬스터를 엑스트라 덱에서 특소할 수 없다(지속, 발동 없음). 동시에 이 카드가 '필드의 아모르파지 몬스터'라서 스케일 락의 스위치이기도 하다",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 룩스·프레스토에 안 걸린다. 캬붐을 릴리스하면 전부 해제"
+       }
+      ],
+      "bait_ko": "마법·함정이 다 막혀 있지만 몬스터 효과는 열려 있다. 엑스트라 덱을 쓰지 않는 몬스터 효과로 캬붐을 제거하거나, 수비력 2050을 넘는 몬스터로 전투 파괴하면 메인 페이즈 2에 락이 풀린다."
+     },
+     {
+      "id": "lechery_lv4",
+      "card": "Amorphage Lechery",
+      "kind": "floodgate",
+      "zone": "st",
+      "timing_ko": "펜듈럼 존. 자신 필드에 아모르파지 몬스터가 있는 한 서로 아모르파지 이외 마법 카드의 발동·효과 발동 불가(세트한 속공 마법, 묘지의 마법 효과 포함)",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "캬붐을 릴리스하면 룩스·프레스토 락이 같이 꺼진다. 이 판면의 사실상 유일한 1장 해답"
+       }
+      ],
+      "bait_ko": "해피의 깃털·태풍·라이트닝 스톰·번개·명왕결계파·코즈믹 싸이크론 전부 발동 불가. 먼저 함정이나 파괴수로 아모르파지 몬스터를 치운다.",
+      "rulings": [
+       "qa-18295"
+      ]
+     },
+     {
+      "id": "greed_lv4",
+      "card": "Amorphage Greed",
+      "kind": "floodgate",
+      "zone": "st",
+      "timing_ko": "펜듈럼 존. 자신 필드에 아모르파지 몬스터가 있는 한 서로 아모르파지 이외 함정 카드의 발동·효과 발동 불가",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "캬붐을 치우면 꺼진다"
+       }
+      ],
+      "bait_ko": "[[Evenly Matched]]·[[Infinite Impermanence]]는 이 판면에서 발동 불가. 함정 기반 돌파는 프레스토를 먼저 지운 뒤에."
+     }
+    ]
+   },
+   {
+    "id": "after_ash_joker",
+    "title_ko": "조커 서치에 우라라를 맞은 경우",
+    "after": {
+     "handtrap": "ash",
+     "line": "joker_iris",
+     "step": 3
+    },
+    "interruptions": []
+   },
+   {
+    "id": "after_droll_joker",
+    "title_ko": "조커 서치 뒤 드롤을 맞은 경우",
+    "after": {
+     "handtrap": "droll",
+     "line": "joker_iris",
+     "step": 3
+    },
+    "interruptions": []
+   }
+  ],
+  "breakers": {
+   "kaiju": {
+    "rating": "critical",
+    "note_ko": "소환 절차라 몬스터 효과·마법·함정 봉쇄 어디에도 안 걸린다. 필드의 아모르파지 몬스터를 릴리스하면 스케일 락과 엑스트라 덱 봉쇄가 동시에 꺼진다. [[Amorphage Wrath]] 판면이어도 아모르파지 몬스터는 릴리스할 수 있다.",
+    "rulings": [
+     "supp-12299"
+    ]
+   },
+   "raigeki": {
+    "rating": "strong",
+    "note_ko": "가스톨·프레스토 판면이면 캬붐·조커를 함께 파괴해 락 전부 해제(critical). 룩스 판면에서는 발동 불가.",
+    "rulings": [
+     "qa-18276"
+    ]
+   },
+   "dark_hole": {
+    "rating": "strong",
+    "note_ko": "번개와 같다. 룩스 판면에서는 발동 불가.",
+    "rulings": [
+     "qa-18276"
+    ]
+   },
+   "kaiju_slumber": {
+    "rating": "strong",
+    "note_ko": "몬스터 전부 파괴 + 덱에서 파괴수 2장. 룩스 판면에서는 발동 불가."
+   },
+   "harpie": {
+    "rating": "strong",
+    "note_ko": "가스톨·프레스토 판면: 스케일 2장 + 천공의 홍채 파괴. 이후 일반 소환 몬스터로 캬붐(수비 2050)을 전투 파괴하면 메인 페이즈 2에 엑스트라 덱도 열린다. 룩스 판면에서는 발동 불가."
+   },
+   "heavy_storm": {
+    "rating": "strong",
+    "note_ko": "해피의 깃털과 같다. 룩스 판면에서는 발동 불가."
+   },
+   "lightning_storm": {
+    "rating": "ok",
+    "note_ko": "내 필드에 앞면 카드가 없을 때 마함 모드로 스케일 + 홍채 파괴. 캬붐은 보통 수비 표시라 몬스터 모드로는 안 깨진다. 룩스 판면에서는 발동 불가."
+   },
+   "cosmic": {
+    "rating": "ok",
+    "note_ko": "스케일 1장 제외. 가스톨을 지우면 내 몬스터 효과가 열린다. 룩스 판면에서는 발동 불가."
+   },
+   "mst": {
+    "rating": "ok",
+    "note_ko": "코즈믹과 같은 1장 처리. 룩스 판면에서는 세트해 둔 것도 발동 불가.",
+    "rulings": [
+     "qa-18295"
+    ]
+   },
+   "evenly_matched": {
+    "rating": "ok",
+    "note_ko": "룩스 판면(`revo_goliath`)에서는 strong: 함정이라 통하고 상대는 1장만 남긴다. 프레스토 판면(`joker_iris`·`joker_lv4`)에서는 발동 불가.",
+    "rulings": [
+     "qa-18290"
+    ]
+   },
+   "book_eclipse": {
+    "rating": "ok",
+    "note_ko": "가스톨 판면에서는 앞면 아모르파지 몬스터가 없어져 이번 턴 락 전부 해제(strong). 엔드 페이즈에 상대가 드로우하고 리버스한 아모르파지의 엑스트라 덱 봉쇄가 다시 켜진다. 룩스 판면에서는 발동 불가.",
+    "rulings": [
+     "supp-12299"
+    ]
+   },
+   "dark_ruler": {
+    "rating": "weak",
+    "note_ko": "몬스터의 엑스트라 덱 봉쇄만 무효. 아모르파지 몬스터는 남아 있어 스케일 락은 그대로라 가스톨 판면이면 몬스터 효과를 계속 못 쓴다. 룩스 판면에서는 발동 불가."
+   },
+   "kurikara": {
+    "rating": "bad",
+    "note_ko": "아모르파지 판면은 내 턴에 효과를 발동하지 않아 릴리스 조건이 안 맞는다. 가스톨 판면에서는 특소 조건 이전에 효과도 못 쓴다."
+   },
+   "ultimate_slayer": {
+    "rating": "weak",
+    "note_ko": "아모르파지는 펜듈럼 몬스터라 내 엑스트라 덱에 펜듈럼 몬스터가 있을 때만 대상이 맞는다. 일반 마법이라 룩스 판면에서는 발동 불가."
+   },
+   "super_poly": {
+    "rating": "bad",
+    "note_ko": "엑스트라 덱에서 아모르파지 이외 특소가 안 되어 융합 소환을 할 수 없다. 룩스 판면에서는 발동부터 불가."
+   },
+   "fallen_virtuous": {
+    "rating": "ok",
+    "note_ko": "가스톨·프레스토 판면에서는 패에서 써서 캬붐 파괴 → 락 전부 해제(strong). 룩스 판면에서는 발동 불가."
+   },
+   "harmonia": {
+    "rating": "bad",
+    "note_ko": "상대가 내 턴에 몬스터 효과를 발동하지 않는다. 가스톨 판면이면 하르모니아 자체도 발동 불가."
+   },
+   "imperm": {
+    "rating": "ok",
+    "note_ko": "룩스 판면에서 패에서 [[Amorphage Goliath]]에 쓰면 이번 턴 엑스트라 덱 봉쇄가 풀린다(룩스 락은 남는다). 프레스토 판면(함정 봉쇄)에서는 발동 불가.",
+    "rulings": [
+     "supp-13631"
+    ]
+   },
+   "gamma": {
+    "rating": "bad",
+    "note_ko": "상대가 내 턴에 몬스터 효과를 발동하지 않는다."
+   },
+   "droplet": {
+    "rating": "weak",
+    "note_ko": "가스톨 판면에서 캬붐을 무효로 하면 엑스트라 덱만 열린다(스케일 락은 남음). 룩스 판면에서는 발동 불가."
+   },
+   "impulse": {
+    "rating": "bad",
+    "note_ko": "상대가 내 턴에 발동하는 특소 효과가 없다."
+   },
+   "spark": {
+    "rating": "bad",
+    "note_ko": "상대가 내 턴에 패·묘지 몬스터 효과를 발동하지 않아 조건이 안 맞고, 프레스토 판면이면 함정이라 발동 불가."
+   },
+   "mourner": {
+    "rating": "bad",
+    "note_ko": "상대가 내 턴에 특소하지 않는다."
+   },
+   "belle": {
+    "rating": "bad",
+    "note_ko": "상대의 묘지 효과가 없다."
+   },
+   "ogre": {
+    "rating": "bad",
+    "note_ko": "상대가 내 턴에 효과를 발동하지 않는다."
+   },
+   "ttt": {
+    "rating": "bad",
+    "note_ko": "상대가 내 메인 페이즈에 몬스터 효과를 발동하지 않아 조건이 안 맞는다. 룩스 판면에서는 발동 불가."
+   },
+   "crossout": {
+    "rating": "bad",
+    "note_ko": "아모르파지 카드를 내 덱에 넣지 않는 한 선언할 것이 없다."
+   },
+   "magnamhut": {
+    "rating": "bad",
+    "note_ko": "가스톨 판면에서는 몬스터 효과라 발동 불가. 룩스 판면에서 특소해도 엑스트라 덱이 막혀 이어지지 않는다."
+   },
+   "ash": {
+    "rating": "bad",
+    "note_ko": "상대가 내 턴에 서치하지 않는다."
+   },
+   "veiler": {
+    "rating": "bad",
+    "note_ko": "상대 메인 페이즈 전용이라 내 턴에 못 쓴다."
+   },
+   "crown": {
+    "rating": "weak",
+    "note_ko": "가스톨 판면에서 캬붐에 쓰면 엑스트라 덱 봉쇄만 무효(스케일 락은 남음). 룩스 판면에서는 발동 불가.",
+    "rulings": [
+     "supp-22169"
+    ]
+   }
+  },
+  "sequencing_ko": [
+   "먼저 스케일을 본다: [[Amorphage Lechery]]가 있으면 마법 전부, [[Amorphage Greed]]가 있으면 함정 전부, [[Amorphage Gluttony]]가 있으면 아모르파지 이외 몬스터 효과 전부가 막혀 있다. 막히지 않은 종류의 카드로 푼다.",
+   "락의 스위치는 필드의 앞면 아모르파지 몬스터 1장이다. 파괴수로 그 몬스터를 릴리스하는 것이 어느 판면이든 가장 깔끔하다. 아모르파지 몬스터가 사라지면 스케일 2장은 효과가 없는 그냥 카드가 된다.",
+   "가스톨·프레스토 판면(마법 허용)은 번개·블랙홀·The Fallen & The Virtuous로 몬스터를 치우거나, 해피의 깃털·태풍으로 스케일을 지운다. 스케일만 지우면 캬붐의 엑스트라 덱 봉쇄는 남으므로, 일반 소환한 몬스터로 캬붐(수비력 2050)을 전투 파괴해 메인 페이즈 2에 엑스트라 덱을 연다.",
+   "룩스 판면은 마법이 하나도 안 통한다. 함정([[Evenly Matched]], 패의 [[Infinite Impermanence]])이나 파괴수, 엑스트라 덱을 쓰지 않는 몬스터 효과·전투로 [[Amorphage Goliath]](공격력 2750)를 처리한다.",
+   "상대 덱에는 체인으로 막는 카드가 거의 없다. 대신 다음 상대 스탠바이 페이즈에 스케일 1장마다 몬스터 1장 릴리스(또는 자괴)가 필요하고, [[Amorphage Infection]]이 있으면 그 릴리스·파괴로 아모르파지를 서치해 다시 세운다. 판면을 깬 턴에 최대한 밀어붙인다."
+  ]
+ },
+ "notes_ko": [
+  "아모르파지의 펜듈럼 효과는 '자신 필드에 앞면 아모르파지 몬스터가 있는 한' 적용되고, 몬스터 효과(엑스트라 덱 봉쇄)는 지속 효과라 체인 블록을 만들지 않는다. 락이 켜지는 순간은 마지막 펜듈럼 소환이고, 그 뒤에는 패트랩을 낼 틈이 없다. 패트랩은 전부 그 전의 서치에 쓴다.",
+  "[[Amorphage Gluttony]] 락은 패트랩(몬스터 효과)을 막지만 펜듈럼 존 카드의 발동과 펜듈럼 효과는 마법 취급이라 막지 않는다(공식 Q&A 18298). 효과를 받지 않는 몬스터도 막는다(Q&A 18296).",
+  "[[Amorphage Lechery]]·[[Amorphage Gluttony]] 등의 펜듈럼 효과는 펜듈럼 존에 발동 처리가 끝난 뒤부터 적용된다. 세트한 싸이크론은 그 발동에 체인할 수 있다(Q&A 18293). 룩스가 켜지면 세트한 속공 마법도, 묘지의 마법 효과도 쓸 수 없다(Q&A 18295).",
+  "[[Sky Iris]] ②는 대상으로 고른 내 카드를 파괴하는 데 성공해야 서치한다. 체인으로 그 대상(보통 조커)을 먼저 치우면 서치가 없다(Q&A 16213).",
+  "유지 비용(스탠바이 페이즈에 몬스터 1장 릴리스 또는 이 카드 파괴)은 효과가 아니라 체인이 없고, 아모르파지가 아닌 몬스터나 뒷면 몬스터도 릴리스할 수 있다(Q&A 18301·18302). 조커가 그 요원이다.",
+  "MD 기록이 적고 오래됐다(11개, 2022-03~2024-11). 당시 리스트의 [[Pot of Prosperity]]·[[Called by the Grave]]·[[Terraforming]]·[[Number 41: Bagooska the Terribly Tired Tapir]]는 현재 MD 금지, [[Pot of Extravagance]]는 제한 1이라 그대로 재현되지 않는다. 2024-11 리스트는 [[Majespecter Raccoon - Bunbuku]]·초중무사 기점의 펜듈럼 혼합형으로 아모르파지는 3장만 쓴다."
+ ],
+ "sources": [
+  "https://www.masterduelmeta.com/api/v1/top-decks?deckType=61f82d551f1c7701868b6174 (Master Duel Meta: Amorphage 상위 덱 11개, 2022-03~2024-11, 덱 메모 포함)",
+  "https://www.masterduelmeta.com/top-decks/diamond-v/june-2023/amorphage/_vanatik_/4uotF (MDM 덱 메모: 최악의 판면 [[Amorphage Goliath]] + 스케일 [[Amorphage Lechery]])",
+  "https://www.masterduelmeta.com/top-decks/diamond-v/june-2023/amorphage/cari0/hxemW (MDM 덱 메모: 룩스 대신 가스톨 스케일, 빅 아모르파지 빌드)",
+  "https://www.masterduelmeta.com/top-decks/master-v/november-2024/amorphage/heiituaku/7hw76 (MDM 마지막 아모르파지 리스트: 마제스펙터·초중무사 혼합형)",
+  "https://www.masterduelmeta.com/tier-list/deck-types/Amorphage (MDM Amorphage deck breakdown)",
+  "https://yugioh-wiki.net/index.php?%A1%DA%A5%A2%A5%E2%A5%EB%A5%D5%A5%A1%A1%BC%A5%B8%A1%DB (遊戯王カードWiki【アモルファージ】: 스케일 3·5와 레벨 4 펜듈럼 소환, 약점)",
+  "https://cubiccreativity.wordpress.com/2022/04/09/archetype-analysis-amorphage/ (Archetype Analysis: Amorphage, TCG)",
+  "https://db.ygoprodeck.com/api/v7/cardinfo.php?archetype=Amorphage (YGOPRODeck: 아모르파지 전 카드 2016-01 OCG 출시, 이후 신규 없음)",
+  "https://www.masterduelmeta.com/api/v1/cards (Master Duel Meta 카드 API: MD 영문 텍스트·제한 상태·release)",
+  "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=12299&request_locale=ja (KONAMI: アモルファージ・キャヴム Q&A·補足情報)"
+ ]
+}

@@ -547,6 +547,247 @@
    ]
   },
   {
+   "handtrap": "protos",
+   "severity": "critical",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "내 턴에 빛을 선언해 두면 이 단계에서 막힘(다음 턴 끝까지 서로 빛 특소 불가)",
+   "why_ko": "크라운 클랜은 전부 빛이라 말라바리즘이 아무것도 꺼내지 못한다. [[Clown Crew Biancaviso]] 어드밴스 소환 재료가 없어 드로우도 없다.",
+   "fallback_ko": "플레어·리허설 서치는 처리되므로 손패는 늘지만, 필드에 몬스터를 낼 방법이 일반 소환뿐이다."
+  },
+  {
+   "handtrap": "protos",
+   "severity": "critical",
+   "line": "cappello",
+   "step": 4,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "내 턴에 빛을 선언해 두면 2단계 P효과의 자신 특소부터 안 된다(이 표에서는 첫 덱·엑덱 특소인 4단계에 표시)",
+   "why_ko": "[[Clown Crew Cappello]]는 빛이라 P효과로 자신을 특소하지 못하고, 릴리스 유발 특소도 막힌다. 1장 초동이 시작부터 멈춘다.",
+   "fallback_ko": "패에 플레어·리허설이 따로 있어도 특소는 전부 막힌다."
+  },
+  {
+   "handtrap": "protos",
+   "severity": "critical",
+   "line": "rehearsal",
+   "step": 2,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "내 턴에 빛을 선언해 두면 이 단계에서 막힘",
+   "why_ko": "리허설 서치는 되지만 말라바리즘으로 재료를 꺼낼 수 없어 [[Clown Crew Biancaviso]]가 나오지 않는다.",
+   "fallback_ko": "일반 소환 1장만 남는다."
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "critical",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(말라바리즘으로 빛 몬스터를 특소할 수 없다)",
+   "why_ko": "크라운 클랜은 전부 빛이라 첫 특소부터 막힌다. 엑덱 재료가 없으면 [[Clown Crew Biancaviso]]를 어드밴스 소환할 수 없다.",
+   "fallback_ko": "서치(플레어·리허설)는 처리된다. 결계상을 치우는 카드를 서치·드로우로 찾는다."
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "critical",
+   "line": "cappello",
+   "step": 4,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "미리 앞면이면 2단계 P효과의 자신 특소부터 막힌다(이 표에서는 첫 덱·엑덱 특소인 4단계에 표시)",
+   "why_ko": "[[Clown Crew Cappello]]가 펜듈럼 존에서 나올 수 없어 1장 초동이 바로 끝난다.",
+   "fallback_ko": "패에 결계상을 치울 카드가 없으면 거의 아무것도 못 한다."
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "critical",
+   "line": "rehearsal",
+   "step": 2,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "말라바리즘 특소가 막혀 [[Clown Crew Biancaviso]] 재료가 없다.",
+   "fallback_ko": "리허설로 서치한 카드만 손패에 남는다."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "빛 덱이라 화염 이외 특소 불가에 전부 걸린다.",
+   "fallback_ko": "서치만 처리된다."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "cappello",
+   "step": 4,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "미리 앞면이면 2단계 P효과의 자신 특소부터 막힌다(4단계에 표시)",
+   "why_ko": "[[Clown Crew Cappello]]가 나오지 못해 1장 초동이 끝난다.",
+   "fallback_ko": "결계상 제거 카드가 필요하다."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "rehearsal",
+   "step": 2,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "말라바리즘 특소가 막혀 재료가 없다.",
+   "fallback_ko": "서치한 카드만 남는다."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "빛 덱이라 물 이외 특소 불가에 전부 걸린다.",
+   "fallback_ko": "서치만 처리된다."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "cappello",
+   "step": 4,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "미리 앞면이면 2단계 P효과의 자신 특소부터 막힌다(4단계에 표시)",
+   "why_ko": "[[Clown Crew Cappello]]가 나오지 못해 1장 초동이 끝난다.",
+   "fallback_ko": "결계상 제거 카드가 필요하다."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "rehearsal",
+   "step": 2,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "말라바리즘 특소가 막혀 재료가 없다.",
+   "fallback_ko": "서치한 카드만 남는다."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(서로 특소 불가)",
+   "why_ko": "말라바리즘·마티네가 아무것도 못 꺼내 [[Clown Crew Biancaviso]] 재료가 없다.",
+   "fallback_ko": "서치는 처리된다. 배너티 데블 제거 카드를 찾는다."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "cappello",
+   "step": 4,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "미리 앞면이면 2단계 P효과의 자신 특소부터 막힌다(4단계에 표시)",
+   "why_ko": "[[Clown Crew Cappello]] 1장 초동이 시작하자마자 멈춘다.",
+   "fallback_ko": "거의 없음."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "rehearsal",
+   "step": 2,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "재료를 꺼낼 수 없다.",
+   "fallback_ko": "서치한 카드만 남는다."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(상대만 특소 불가)",
+   "why_ko": "배너티 데블과 같다.",
+   "fallback_ko": "서치는 처리된다."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "cappello",
+   "step": 4,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "미리 앞면이면 2단계 P효과의 자신 특소부터 막힌다(4단계에 표시)",
+   "why_ko": "[[Clown Crew Cappello]]가 나오지 못한다.",
+   "fallback_ko": "거의 없음."
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "flair",
+   "step": 1,
+   "target_card": "Clown Crew Flair",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 플레어 공개 서치 발동에 체인해 발동(이 서치도 처리되지 않는다)",
+   "why_ko": "플레어 → 리허설로 이어지는 서치 2번이 루트의 전부다. 리허설은 앞면 미스테이크 아래서 발동조차 못 한다.",
+   "fallback_ko": "드로우는 막지 못한다. 패에 리허설 대신 [[Clown Crew Malabarisme]]·[[Clown Crew Biancaviso]]를 직접 들고 있으면 짧은 루트는 남는다.",
+   "rulings": [
+    "qa-17520",
+    "qa-10803"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "cappello",
+   "step": 3,
+   "target_card": "Clown Crew Finale",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 피날레 묘지 효과 발동에 체인",
+   "why_ko": "피날레가 서치하지 못하면 플레어가 없어 5단계 이후가 전부 사라진다. 피날레는 코스트로 [[Clown Crew Cappello]]를 이미 릴리스했으므로 [[Clown Crew Cappello]] 릴리스 유발(데블즈 특소)만 남는다.",
+   "fallback_ko": "데블즈 1장으로 할 수 있는 건 거의 없다. 패에 리허설이 있어도 발동할 수 없다.",
+   "rulings": [
+    "qa-17520"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "rehearsal",
+   "step": 1,
+   "target_card": "Clown Crew Rehearsal",
+   "timing_ko": "미리 앞면이면 발동 자체가 안 된다 / 세트해 뒀다면 리허설 발동에 체인(코스트 릴리스는 이미 냈다)",
+   "why_ko": "리허설의 2장 서치([[Clown Crew Biancaviso]] + 마함)가 이 루트의 전부다.",
+   "fallback_ko": "패에 말라바리즘·화이트페이스가 따로 있으면 최소 필드.",
+   "rulings": [
+    "qa-17520",
+    "qa-10803"
+   ]
+  },
+  {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "cappello",
+   "step": 1,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "펜듈럼 존에 [[Clown Crew Cappello]]를 발동한 것(마법 카드의 발동)에 아크 디클레어러를 릴리스해 발동 무효+파괴",
+   "why_ko": "2단계 P효과는 마법 카드의 발동이 아니라 아크 디클레어러로 무효로 할 수 없다. 1장 초동은 여기서 끊어야 한다.",
+   "fallback_ko": "패의 플레어·리허설로 다른 루트. 아크 디클레어러는 1번 쓰면 사라진다."
+  },
+  {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "flair",
+   "step": 1,
+   "target_card": "Clown Crew Flair",
+   "timing_ko": "패에서 플레어를 공개해 발동한 서치 효과에 체인(패의 몬스터 효과도 대상)",
+   "why_ko": "플레어가 무효+파괴되어 리허설을 가져오지 못한다. 플레어 루트는 첫 서치가 유일한 입구다.",
+   "fallback_ko": "패에 리허설이 있으면 리허설 루트로 넘어간다."
+  },
+  {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "rehearsal",
+   "step": 1,
+   "target_card": "Clown Crew Rehearsal",
+   "timing_ko": "리허설 발동에 체인",
+   "why_ko": "코스트(몬스터 릴리스)는 이미 냈고 2장 서치가 사라진다.",
+   "fallback_ko": "패의 다른 크라운 클랜 카드로 짧은 루트."
+  },
+  {
    "handtrap": "ogre",
    "severity": "strong",
    "line": "cappello",
@@ -653,6 +894,63 @@
    "timing_ko": "첫 특소 효과([[Clown Crew Malabarisme]] 또는 [[Clown Crew Cappello]] P효과) 발동에 체인",
    "why_ko": "끝까지 가면 증G 드로우 3~4장. 상대도 드로우 덱이라 멈추지 않고 진행하는 경우가 있어서, 그만큼 내 패를 늘려 받아치기 좋다. 멈추면 마티네 드로우와 세트 함정이 빠진다.",
    "fallback_ko": "[[Clown Crew Biancaviso]] 어드밴스 소환까지만 하고 턴을 넘기는 최소 루트(rehearsal 라인 note 참고)."
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "strong",
+   "line": "cappello",
+   "step": 2,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 이 P효과 발동에 체인해 발동",
+   "why_ko": "'피날레를 묘지로 보내고, 그렇게 했다면 자신을 특소'인데 피날레가 묘지 대신 제외되므로 [[Clown Crew Cappello]]가 특소되지 않는다(공식 Q&A: 묘지로 보낸 카드가 제외되면 '그 후' 처리 불가). 피날레의 묘지 효과도 쓸 수 없어 1장 초동이 끝난다.",
+   "fallback_ko": "패의 플레어·리허설 루트는 진행된다(릴리스 유발은 제외돼도 발동).",
+   "rulings": [
+    "qa-7735",
+    "qa-16336"
+   ]
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "strong",
+   "line": "flair",
+   "step": 7,
+   "target_card": "Clown Crew Meteor",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(2단계에서 릴리스된 플레어가 제외되어 회수 대상이 없다)",
+   "why_ko": "메테오가 플레어를 회수하지 못하면 10단계 의식 소환이 사라지고, 리허설·말라바리즘도 처리 후 제외되어 묘지 효과를 못 쓴다. [[Clown Crew Soiree Operations]]를 세트할 디아볼로 릴리스와 의식 드로우 1장이 빠진다. 상대 턴에는 [[Clown Crew Soiree Operations]]·말라바리즘의 묘지 효과(2번째 어드밴스 소환)도 없다.",
+   "fallback_ko": "[[Clown Crew Biancaviso]] 2장 드로우와 데블즈의 마티네 세트는 그대로 된다.",
+   "rulings": [
+    "qa-16336"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "strong",
+   "line": "cappello",
+   "step": 12,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 이 소환 유발 발동에 체인해 발동",
+   "why_ko": "필드의 [[Clown Crew Biancaviso]]가 무효라 드로우가 처리되지 않는다. 앞면으로 남아 있는 한 상대 턴 퀵 어드밴스 소환과 새 [[Clown Crew Biancaviso]]의 무효 유발도 꺼진다. 메테오·디아볼로 릴리스 유발은 묘지라 그대로 처리된다.",
+   "fallback_ko": "엔드 페이즈 마티네 드로우는 남는다. 스킬 드레인을 치울 마함 제거를 드로우로 찾는다."
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "strong",
+   "line": "flair",
+   "step": 5,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 소환 유발 발동에 체인",
+   "why_ko": "[[Clown Crew Biancaviso]] 드로우 2장과 상대 턴 견제가 꺼진다. 플레어 공개 서치(패)·릴리스 유발(묘지)은 막지 못한다.",
+   "fallback_ko": "마티네 드로우·세트 카드는 남는다."
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "strong",
+   "line": "rehearsal",
+   "step": 4,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 소환 유발 발동에 체인",
+   "why_ko": "드로우가 사라지고 상대 턴 퀵 어드밴스 소환도 못 한다. 메테오의 체인 불가 부여도 꺼진다.",
+   "fallback_ko": "세트한 [[Clown Crew Soiree Operations]]는 남는다."
   },
   {
    "handtrap": "fuwalos",
@@ -879,6 +1177,261 @@
    "fallback_ko": "릴리스 유발(세트·회수·특소)이 그대로 발동한다. 리허설 2장 초동은 소환이 4번뿐이라 조건이 안 된다."
   },
   {
+   "handtrap": "banisher",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 2,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "매크로 코스모스와 같다. 피날레가 제외되어 [[Clown Crew Cappello]]가 특소되지 않는다.",
+   "fallback_ko": "플레어가 리허설 코스트로 릴리스되면 그 유발로 섬광의 추방자가 뒷면이 되어 이후는 정상 진행.",
+   "rulings": [
+    "qa-7735"
+   ]
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "ok",
+   "line": "flair",
+   "step": 1,
+   "target_card": "Clown Crew Flair",
+   "timing_ko": "미리 앞면이면 플레어 서치가 처리될 때 패 1장 무작위 제외(1턴 1번)",
+   "why_ko": "서치 직후 손패가 1장 깎인다. 이후 리허설·말라바리즘 등 묘지로 가는 상대 카드는 전부 제외된다.",
+   "fallback_ko": "2단계에서 릴리스된 플레어 유발로 다크 로우가 뒷면이 되면 제외 효과도 꺼진다."
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 2,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "상대 묘지로 가는 피날레가 제외되어 [[Clown Crew Cappello]]가 특소되지 않는다.",
+   "fallback_ko": "패의 다른 초동으로 넘어간다.",
+   "rulings": [
+    "qa-7735"
+   ]
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 2,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "매크로 코스모스와 같다. 제외된 피날레는 어라이즈하트의 소재로 흡수된다.",
+   "fallback_ko": "플레어 유발로 뒷면이 되면 효과가 풀린다.",
+   "rulings": [
+    "qa-7735"
+   ]
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "ok",
+   "line": "flair",
+   "step": 7,
+   "target_card": "Clown Crew Meteor",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(릴리스된 플레어가 제외되어 회수 대상이 없다)",
+   "why_ko": "매크로 코스모스와 같은 이유로 플레어 회수·리허설 의식 소환이 사라진다. 제외된 카드가 소재로 쌓여 3개가 되면 퀵으로 [[Clown Crew Biancaviso]]를 뒷면 제외해 상대 턴 퀵 어드밴스 소환도 지울 수 있다.",
+   "fallback_ko": "어라이즈하트가 플레어 유발로 뒷면이 되면 이후는 정상 진행.",
+   "rulings": [
+    "qa-16336"
+   ]
+  },
+  {
+   "handtrap": "retaliating_c",
+   "severity": "ok",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "말라바리즘 발동(특소를 포함한 마법 카드의 발동)에 직접 체인해 패에서 특소",
+   "why_ko": "말라바리즘 특소는 그대로 처리된다. 이후 묘지로 가는 카드가 제외되어 메테오의 플레어 회수(7단계)·리허설 의식 소환(10단계)·말라바리즘 묘지 효과가 사라진다.",
+   "fallback_ko": "응전의 G가 [[Clown Crew Biancaviso]] 무효 모드나 릴리스된 플레어 유발에 꺼지면 그 뒤는 정상 진행.",
+   "rulings": [
+    "qa-15449"
+   ]
+  },
+  {
+   "handtrap": "retaliating_c",
+   "severity": "ok",
+   "line": "rehearsal",
+   "step": 2,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "말라바리즘 발동에 직접 체인",
+   "why_ko": "리허설 루트는 묘지를 거의 쓰지 않아 이득이 작다. 상대 턴 [[Clown Crew Soiree Operations]] 묘지 효과를 막는 정도.",
+   "fallback_ko": "전개는 그대로 끝난다.",
+   "rulings": [
+    "qa-15449"
+   ]
+  },
+  {
+   "handtrap": "retaliating_c",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 10,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "말라바리즘 발동에 직접 체인",
+   "why_ko": "메테오가 묘지의 말라바리즘을 회수하지 못하고(13단계), [[Clown Crew Soiree Operations]] 묘지 효과도 사라진다.",
+   "fallback_ko": "드로우는 그대로 된다.",
+   "rulings": [
+    "qa-15449"
+   ]
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 7,
+   "target_card": "Clown Crew Fiends",
+   "timing_ko": "6단계 리허설 발동에 체인해 코스트로 릴리스된 묘지의 [[Clown Crew Fiends]]를 제외",
+   "why_ko": "릴리스 유발은 체인 처리 후에 묘지에서 발동하므로, 그 전에 제외되면 발동할 수 없다(공식 Q&A). [[Clown Crew Matinee Operatics]] 세트가 사라져 9단계 플레어 특소와 엔드 페이즈 드로우 최대 4장이 빠진다.",
+   "fallback_ko": "말라바리즘·[[Clown Crew Biancaviso]] 드로우는 그대로 된다. 이미 발동한 릴리스 유발에 쓰면 처리는 그대로 일어나니 주의.",
+   "rulings": [
+    "qa-23264"
+   ]
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "ok",
+   "line": "flair",
+   "step": 7,
+   "target_card": "Clown Crew Flair",
+   "timing_ko": "메테오 릴리스 유발(묘지의 플레어 대상 회수)에 체인해 묘지의 플레어를 제외",
+   "why_ko": "대상이 사라져 회수 실패. 10단계 리허설 의식 소환이 사라져 디아볼로를 릴리스하지 못하고, [[Clown Crew Soiree Operations]] 세트와 의식 드로우가 빠진다.",
+   "fallback_ko": "같은 체인의 데블즈 유발(마티네 세트)은 이미 발동해 처리된다.",
+   "rulings": [
+    "qa-23264"
+   ]
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 13,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "메테오 회수 유발(묘지의 말라바리즘 대상)에 체인해 말라바리즘 제외",
+   "why_ko": "상대 턴용 세트 [[Clown Crew Malabarisme]]가 사라진다.",
+   "fallback_ko": "[[Clown Crew Soiree Operations]] 세트는 남는다."
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 4,
+   "target_card": "Clown Crew Cappello",
+   "timing_ko": "세트해 뒀다면 이 릴리스 유발(덱·엑덱 특소) 발동에 체인해 엑시즈를 선언",
+   "why_ko": "이번 턴 엑시즈 특소가 막혀 [[Clown Crew Fiends]]가 나오지 않는다. 이 루트에서 마티네를 세트하는 카드가 데블즈라 마티네 특소와 엔드 페이즈 드로우가 빠진다. [[Clown Crew Cappello]] 1장이면 1단계 펜듈럼 존 발동에 체인해 펜듈럼을 선언해서 P효과의 자신 특소부터 막는 것도 된다.",
+   "fallback_ko": "융합 디아볼로·싱크로 메테오로 대신 가므로 화이트페이스와 [[Clown Crew Soiree Operations]]는 남는다."
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "ok",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "세트해 뒀다면 말라바리즘 발동에 체인해 엑시즈 선언",
+   "why_ko": "데블즈를 못 꺼내 [[Clown Crew Matinee Operatics]]가 세트되지 않는다. 엔드 페이즈 드로우 최대 4장이 사라진다.",
+   "fallback_ko": "메테오 + 디아볼로로 화이트페이스는 나온다."
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "ok",
+   "line": "rehearsal",
+   "step": 2,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "세트해 뒀다면 말라바리즘 발동에 체인해 엑시즈 선언",
+   "why_ko": "데블즈 대신 다른 종류가 나와 마티네가 빠진다.",
+   "fallback_ko": "화이트페이스 + 세트 [[Clown Crew Soiree Operations]]는 남는다."
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 11,
+   "target_card": "Clown Crew Biancaviso",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(필드에 야수전사족 플레어가 남아 있어 환상마족을 어드밴스 소환할 수 없다)",
+   "why_ko": "9단계 마티네로 꺼낸 플레어가 남은 채 디아볼로·메테오를 릴리스하면 플레어 때문에 화이트페이스를 낼 수 없다. 순서를 바꿔도 화이트페이스가 나온 뒤에는 야수전사족을 특소할 수 없다.",
+   "fallback_ko": "필드의 야수전사족을 전부 릴리스하는 순서로 바꾸면 화이트페이스는 나오지만 마티네·말라바리즘 특소가 줄어든다.",
+   "rulings": [
+    "qa-8773"
+   ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "ok",
+   "line": "flair",
+   "step": 9,
+   "target_card": "Clown Crew Matinee Operatics",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(환상마족 [[Clown Crew Biancaviso]]가 있어 야수전사족 디아볼로를 특소할 수 없다)",
+   "why_ko": "마티네 특소와 10단계 의식 소환이 막혀 [[Clown Crew Soiree Operations]] 세트와 드로우 1~2장이 사라진다. 상대 턴에도 화이트페이스가 있는 한 [[Clown Crew Soiree Operations]]·말라바리즘으로 재료를 꺼낼 수 없다.",
+   "fallback_ko": "엔드 페이즈 드로우는 3장 안팎 남는다.",
+   "rulings": [
+    "qa-8773"
+   ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "ok",
+   "line": "rehearsal",
+   "step": 8,
+   "target_card": "Clown Crew Matinee Operatics",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "화이트페이스(환상마족)가 있어 메테오(야수전사족)를 특소할 수 없다. 상대 턴 체인 불가 부여가 없다.",
+   "fallback_ko": "화이트페이스 + 세트 [[Clown Crew Soiree Operations]]는 남는다.",
+   "rulings": [
+    "qa-8773"
+   ]
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "ok",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(야수전사족 2장을 동시에 꺼낼 수 없다)",
+   "why_ko": "말라바리즘이 1장만 꺼내 화이트페이스 릴리스 수와 드로우가 1장으로 준다. 데블즈·메테오 중 하나만 고를 수 있어 마티네 세트와 플레어 회수 중 하나가 빠진다.",
+   "fallback_ko": "화이트페이스는 엑덱 몬스터 1장 릴리스로도 나온다.",
+   "rulings": [
+    "qa-21471"
+   ]
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "ok",
+   "line": "cappello",
+   "step": 10,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(9단계 플레어가 필드에 있어 야수전사족을 더 낼 수 없다)",
+   "why_ko": "말라바리즘이 빈다. 디아볼로·메테오가 없어 [[Clown Crew Soiree Operations]] 세트와 말라바리즘 회수가 사라진다.",
+   "fallback_ko": "플레어 1장을 릴리스해 화이트페이스는 낼 수 있다.",
+   "rulings": [
+    "qa-21471"
+   ]
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "ok",
+   "line": "rehearsal",
+   "step": 2,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "1장만 나와 드로우 1장, 릴리스 유발도 1개만.",
+   "fallback_ko": "화이트페이스는 나온다.",
+   "rulings": [
+    "qa-21471"
+   ]
+  },
+  {
+   "handtrap": "fissure",
+   "severity": "weak",
+   "line": "flair",
+   "step": 7,
+   "target_card": "Clown Crew Meteor",
+   "timing_ko": "미리 앞면이면 릴리스된 플레어가 제외되어 회수 대상이 없다",
+   "why_ko": "몬스터만 제외라 마함(리허설·말라바리즘·피날레)의 묘지 효과는 그대로다. 플레어 의식 소환 1회가 빠지는 정도.",
+   "fallback_ko": "전개 대부분이 그대로 진행된다."
+  },
+  {
    "handtrap": "veiler",
    "severity": "bad",
    "line": "flair",
@@ -904,6 +1457,26 @@
    "rulings": [
     "supp-22533"
    ]
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "bad",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "쓰지 말 것",
+   "why_ko": "크라운 클랜은 전부 빛이라 섬광의 결계상 아래서도 모든 특소가 그대로 된다. 내 빛 이외 몬스터만 묶인다.",
+   "fallback_ko": "다른 결계상(심연·업화·호우)을 쓴다."
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "bad",
+   "line": "flair",
+   "step": 3,
+   "target_card": "Clown Crew Malabarisme",
+   "timing_ko": "쓰지 말 것",
+   "why_ko": "크라운 클랜은 전부 빛이라 속성 제한이 걸리지 않는다.",
+   "fallback_ko": "종족을 노리는 군웅할거·센서 만별이 그나마 낫다."
   }
  ],
  "handtrap_summary": {
@@ -1056,6 +1629,125 @@
    "rulings": [
     "qa-111"
    ]
+  },
+  "macro_cosmos": {
+   "rating": "strong",
+   "note_ko": "크라운 클랜의 '릴리스되었을 때' 유발은 제외돼도 그대로 발동한다(공식 Q&A). 대신 [[Clown Crew Cappello]] P효과는 '묘지로 보내고, 그렇게 했다면 특소'라 피날레가 제외되면 자신이 특소되지 않아 [[Clown Crew Cappello]] 1장 초동이 2단계에서 끝난다. 플레어 루트는 메테오가 회수할 묘지의 플레어, 리허설 묘지 효과(의식 소환), 말라바리즘·[[Clown Crew Soiree Operations]]의 묘지 효과가 전부 사라진다. 리허설 1장 루트는 묘지를 거의 안 써서 덜 아프다.",
+   "rulings": [
+    "qa-16336",
+    "qa-7735"
+   ]
+  },
+  "fissure": {
+   "rating": "weak",
+   "note_ko": "몬스터만 제외한다. 피날레·리허설·말라바리즘·{SOI}는 마함이라 묘지로 가고, 릴리스 유발도 그대로 발동한다. 메테오가 묘지의 플레어를 회수하지 못하는 정도(플레어 루트 7단계)라 거의 영향이 없다.",
+   "rulings": [
+    "qa-16336"
+   ]
+  },
+  "banisher": {
+   "rating": "ok",
+   "note_ko": "효과는 매크로 코스모스와 같아 [[Clown Crew Cappello]] 1장 초동을 2단계에서 끊는다. 다만 효과 몬스터라, 플레어가 리허설 코스트로 릴리스되면(플레어 루트 2단계) 그 유발로 섬광의 추방자를 뒷면 수비로 바꿔 락이 풀린다. [[Clown Crew Biancaviso]]의 '상대 앞면 카드 무효' 모드에도 걸린다.",
+   "rulings": [
+    "qa-16336",
+    "qa-7735"
+   ]
+  },
+  "herald": {
+   "rating": "critical",
+   "note_ko": "1번뿐인 '발동 무효+파괴'를 첫 지점에 쓴다. [[Clown Crew Cappello]]는 펜듈럼 존에 카드를 발동하는 1단계(마법 카드의 발동)를 무효로 해야 한다. P효과 자체는 마법 카드의 발동이 아니라 대상이 아니다. 플레어 루트는 1단계 플레어 공개 서치(패의 몬스터 효과), 리허설 루트는 리허설 발동. 패·덱에서 묘지로 가는 몬스터 제외는 릴리스 유발을 못 막는다."
+  },
+  "retaliating_c": {
+   "rating": "ok",
+   "note_ko": "'특수 소환을 포함한 마법 카드 발동'에 체인한다. 대상은 [[Clown Crew Malabarisme]] 발동(플레어 3단계·리허설 2단계·[[Clown Crew Cappello]] 10단계). 리허설(서치)·[[Clown Crew Matinee Operatics]] 카드 발동(특소를 포함하지 않음)·마티네 ①에는 못 쓴다. 나온 뒤에는 매크로처럼 묘지 대신 제외라 플레어 회수·리허설 의식 소환·말라바리즘 묘지 효과가 막힌다. 다만 [[Clown Crew Biancaviso]]의 무효 모드나 릴리스된 플레어의 뒷면 효과에 쉽게 풀린다.",
+   "rulings": [
+    "qa-15449"
+   ]
+  },
+  "dd_crow": {
+   "rating": "ok",
+   "note_ko": "이미 발동한 릴리스 유발은 카드를 제외해도 처리된다. 노릴 곳은 대상을 잡는 메테오 회수(플레어 7단계 플레어, [[Clown Crew Cappello]] 13단계 말라바리즘)에 체인하는 것, 그리고 리허설 코스트로 릴리스된 [[Clown Crew Fiends]]를 유발이 발동하기 전에 지우는 것([[Clown Crew Cappello]] 6단계 리허설 발동에 체인)이다. 데블즈를 지우면 [[Clown Crew Matinee Operatics]] 세트가 사라지고 엔드 페이즈 드로우도 없어진다.",
+   "rulings": [
+    "qa-23264"
+   ]
+  },
+  "dark_law": {
+   "rating": "ok",
+   "note_ko": "매크로 코스모스와 같은 제외 효과에 '드로우 이외로 덱에서 패에 넣으면 패 1장 무작위 제외'(1턴 1번)가 붙는다. 첫 서치(플레어 공개·피날레 회수)에 바로 걸린다. 다만 효과 몬스터라 릴리스된 플레어의 유발에 뒷면이 되어 풀린다.",
+   "rulings": [
+    "qa-16336",
+    "qa-7735"
+   ]
+  },
+  "arise_heart": {
+   "rating": "ok",
+   "note_ko": "효과는 매크로 코스모스와 같다([[Clown Crew Cappello]] 2단계 P효과 특소 실패). 제외된 카드를 소재로 흡수하므로 소재 3개가 되면 퀵으로 [[Clown Crew Biancaviso]]를 뒷면 제외할 수 있다. 효과 몬스터라 릴리스된 플레어 유발(뒷면)에 풀릴 수 있다.",
+   "rulings": [
+    "qa-16336",
+    "qa-7735"
+   ]
+  },
+  "dim_barrier": {
+   "rating": "ok",
+   "note_ko": "엑시즈를 선언한다. [[Clown Crew Matinee Operatics]]은 보통 엑시즈 [[Clown Crew Fiends]]의 릴리스 유발로 세트하므로, 데블즈를 못 꺼내게 하면 마티네 특소와 엔드 페이즈 드로우(2~4장)가 통째로 빠진다. 첫 엑덱 특소([[Clown Crew Cappello]]의 릴리스 유발·말라바리즘 발동)에 체인해 발동한다. [[Clown Crew Cappello]] 1장이면 1단계 펜듈럼 존 발동에 체인해 펜듈럼을 선언해서 P효과의 자신 특소를 막는 것도 된다. 링크는 선언할 수 없다."
+  },
+  "protos": {
+   "rating": "critical",
+   "note_ko": "빛을 선언한다. 크라운 클랜은 전부 빛이라, 선언하면 빛 몬스터가 전부 파괴되고 다음 턴 끝까지 빛 특소가 막힌다. 내 메인 페이즈 전용(기동 효과)이고 필드에 빛 몬스터가 있어야 선언할 수 있다. 내가 선공이면 내 턴에 써 두면 상대 턴 내내 락. 후공이면 돌파 겸 다음 턴 락이다."
+  },
+  "statue_abyss": {
+   "rating": "critical",
+   "note_ko": "크라운 클랜은 전부 빛이라 덱 전체가 특소 불가. [[Clown Crew Cappello]] 자신 특소, 말라바리즘·마티네·[[Clown Crew Soiree Operations]]·릴리스 유발 특소가 전부 막힌다. 어드밴스 소환은 특소가 아니지만 재료가 나오지 않아 [[Clown Crew Biancaviso]]도 못 낸다."
+  },
+  "statue_heavens": {
+   "rating": "bad",
+   "note_ko": "빛만 특소할 수 있게 하는데 크라운 클랜은 전부 빛이라 전혀 막지 못한다. 오히려 내 빛 이외 몬스터 특소만 막힌다."
+  },
+  "statue_inferno": {
+   "rating": "critical",
+   "note_ko": "심연의 결계상과 같다. 빛 덱이라 모든 특소가 막힌다."
+  },
+  "statue_torrent": {
+   "rating": "critical",
+   "note_ko": "심연의 결계상과 같다. 빛 덱이라 모든 특소가 막힌다."
+  },
+  "vanity_fiend": {
+   "rating": "critical",
+   "note_ko": "서로 특소 불가. 말라바리즘·마티네·[[Clown Crew Cappello]]가 전부 죽고, [[Clown Crew Biancaviso]] 어드밴스 소환 재료(엑덱 몬스터)를 꺼낼 수 없다."
+  },
+  "vanity_ruler": {
+   "rating": "critical",
+   "note_ko": "상대만 특소 불가. 배너티 데블과 같은 효과에 내 특소는 자유롭다. 레벨 8이라 세우기는 더 어렵다."
+  },
+  "skill_drain": {
+   "rating": "strong",
+   "note_ko": "릴리스 유발(묘지)·플레어 공개(패)·[[Clown Crew Cappello]] P효과(펜듈럼 존은 마법 취급)는 못 막는다. 막는 것은 필드의 [[Clown Crew Biancaviso]]다. 어드밴스 소환 성공 유발(드로우·무효)과 상대 턴 퀵 어드밴스 소환이 꺼지고 메테오의 '어드밴스 소환 시 체인 불가'도 꺼진다. 전개는 이어지지만 드로우 2장과 상대 턴 핵심 견제가 사라진다."
+  },
+  "mistake": {
+   "rating": "critical",
+   "note_ko": "플레어 공개 서치, 리허설 2장 서치, 피날레 회수(덱·묘지에서), [[Clown Crew Soiree Operations]] 서치 모드가 전부 '덱에서 패에 넣기'다. 앞면이면 리허설은 발동조차 못 한다. 드로우([[Clown Crew Biancaviso]]·마티네)는 막지 못한다. 세트해 뒀다면 첫 서치 발동에 체인해도 그 서치는 처리되지 않는다(공식 Q&A).",
+   "rulings": [
+    "qa-17520",
+    "qa-10803"
+   ]
+  },
+  "rivalry": {
+   "rating": "ok",
+   "note_ko": "크라운 클랜 몬스터는 야수전사족, [[Clown Crew Biancaviso]]만 환상마족이다. 내 필드에 야수전사족이 있으면 [[Clown Crew Biancaviso]]를 어드밴스 소환할 수 없고, [[Clown Crew Biancaviso]]가 있으면 야수전사족을 특소할 수 없다. 재료를 전부 릴리스하면 [[Clown Crew Biancaviso]]는 나오지만, 그 뒤 마티네 특소와 상대 턴 [[Clown Crew Soiree Operations]]·말라바리즘 특소가 막힌다.",
+   "rulings": [
+    "qa-8773"
+   ]
+  },
+  "gozen": {
+   "rating": "bad",
+   "note_ko": "크라운 클랜은 전부 빛이라 속성 제한에 아무것도 걸리지 않는다. 내 덱이 여러 속성이면 나만 손해."
+  },
+  "only_one": {
+   "rating": "ok",
+   "note_ko": "야수전사족을 2장 이상 못 둔다. 말라바리즘·[[Clown Crew Soiree Operations]]로 2장을 동시에 꺼낼 수 없어 1장씩만 나오고, 마티네로 꺼낸 플레어가 남아 있으면 말라바리즘이 빈다. [[Clown Crew Biancaviso]]는 엑덱 몬스터 1장 릴리스로도 나와서 전개가 멈추지는 않지만 드로우 수가 줄어든다.",
+   "rulings": [
+    "qa-21471"
+   ]
   }
  },
  "notes_ko": [
@@ -1063,7 +1755,8 @@
   "말라바리즘·마티네·[[Clown Crew Soiree Operations]]·[[Clown Crew Cappello]]는 '다음 턴 종료까지 덱·엑덱에서 특소된 몬스터 효과 발동 불가' 제약이 걸린다. 상대 덱의 엑덱 몬스터는 재료 역할일 뿐이다.",
   "[[Clown Crew Meteor]]가 필드에 있으면 상대의 어드밴스 소환 성공 시(그때 발동한 소환 유발 포함)에 효과를 발동할 수 없다. 단 체인 2 이후의 효과로 소환되어 뒤에 다른 처리가 이어졌다면 체인 처리 후에는 대응할 수 있다. 퀵 어드밴스 소환을 막으려면 [[Clown Crew Biancaviso]]의 퀵 효과 발동 전·발동 시점에 무효로 하거나 메테오를 먼저 치워야 한다.",
   "상대 턴 [[Clown Crew Biancaviso]] 어드밴스 소환으로 릴리스되는 크라운 클랜은 '같은 종류 몬스터(싱크로/엑시즈/융합/링크/의식/펜듈럼)를 필드·묘지에서 전부 덱/엑덱으로 되돌리기'를 고를 수 있다. 엑스트라 덱 의존 덱은 전개 도중 한꺼번에 날아갈 수 있다.",
-  "[[Fydraulis Harmonia]]를 거의 다 채용(94%)한다. 후공 내 턴에 필드 몬스터 효과를 발동하면 하르모니아가 패에서 튀어나와 파괴할 수 있다는 점도 염두에 둔다."
+  "[[Fydraulis Harmonia]]를 거의 다 채용(94%)한다. 후공 내 턴에 필드 몬스터 효과를 발동하면 하르모니아가 패에서 튀어나와 파괴할 수 있다는 점도 염두에 둔다.",
+  "락 카드: 크라운 클랜은 전부 빛 속성이라 [[Barrier Statue of the Heavens]]·[[Gozen Match]]는 효과가 없고, 다른 결계상·[[Archnemeses Protos]](빛 선언)는 덱 전체를 멈춘다. [[Macro Cosmos]]류 아래서도 '릴리스되었을 때' 유발은 그대로 발동한다(공식 Q&A 16336). 막히는 건 [[Clown Crew Cappello]] P효과(피날레가 제외되어 자신 특소 실패)와 묘지 효과(피날레·리허설·말라바리즘·스와레 제외, 메테오 회수)다."
  ],
  "sources": [
   "https://ygotac.com/clown-crew_combo/ (遊戯王タクティクス: 道化の一座 展開ルート・回し方, 2026-09-11)",
@@ -1142,6 +1835,10 @@
         "rulings": [
          "qa-12781"
         ]
+       },
+       {
+        "id": "protos",
+        "note_ko": "빛 선언으로 파괴. 체인해 퀵 어드밴스 소환해도 새 화이트페이스까지 같이 파괴된다"
        }
       ],
       "bait_ko": "어드밴스 소환할 몬스터가 패에 있어야 쓸 수 있다. 메인 페이즈 시작에 포영이나 아무 앞면 카드 1장으로 먼저 끌어내면, 이후 전개는 무효를 맞지 않는다.",
@@ -1175,6 +1872,10 @@
        {
         "id": "super_poly",
         "note_ko": "융합 소재로 보내면 릴리스가 아니다"
+       },
+       {
+        "id": "protos",
+        "note_ko": "릴리스가 아니라 파괴라 유발이 없다"
        }
       ],
       "bait_ko": "치우지 못했다면 중요한 효과 몬스터보다 미끼 효과 몬스터를 먼저 낸다.",
@@ -1200,6 +1901,26 @@
        {
         "id": "impulse",
         "note_ko": "특소 효과라 무효. 패에서 쓰면 빛·땅·바람 몬스터 효과 봉인"
+       },
+       {
+        "id": "statue_abyss",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 특소 모드를 쓸 수 없다(서치 모드는 남는다)"
+       },
+       {
+        "id": "statue_inferno",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 특소 모드를 쓸 수 없다(서치 모드는 남는다)"
+       },
+       {
+        "id": "statue_torrent",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 특소 모드를 쓸 수 없다(서치 모드는 남는다)"
+       },
+       {
+        "id": "vanity_fiend",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 특소 모드를 쓸 수 없다(서치 모드는 남는다)"
+       },
+       {
+        "id": "protos",
+        "note_ko": "처리 후 다음 턴 끝까지 빛 특소 불가라 특소 모드를 못 쓴다. 체인해서 꺼낸 몬스터도 같이 파괴된다"
        }
       ],
       "bait_ko": "마함 제거([[Harpie's Feather Duster]] 등)에는 체인해서 발동하므로 답이 되지 않는다. 엑덱 몬스터는 이 함정을 쓰게 만든 뒤에 낸다."
@@ -1222,6 +1943,26 @@
        {
         "id": "impulse",
         "note_ko": "특소 효과 무효. 패에서 쓰면 빛·땅·바람 몬스터 효과 봉인"
+       },
+       {
+        "id": "statue_abyss",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 발동해도 재료가 나오지 않는다"
+       },
+       {
+        "id": "statue_inferno",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 발동해도 재료가 나오지 않는다"
+       },
+       {
+        "id": "statue_torrent",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 발동해도 재료가 나오지 않는다"
+       },
+       {
+        "id": "vanity_fiend",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 발동해도 재료가 나오지 않는다"
+       },
+       {
+        "id": "protos",
+        "note_ko": "체인해서 꺼낸 빛 몬스터도 같이 파괴되고, 이후 빛 특소 불가"
        }
       ],
       "bait_ko": "세트 마함이라 마함 제거에는 체인해서 발동한다. 묘지 효과(바운스)는 상대 메인 페이즈 전용이라 내 턴에는 못 쓴다."
@@ -1290,6 +2031,10 @@
         "rulings": [
          "qa-12781"
         ]
+       },
+       {
+        "id": "protos",
+        "note_ko": "빛 선언으로 메테오와 함께 파괴. 메테오가 막는 건 어드밴스 소환 때의 발동뿐이다"
        }
       ],
       "bait_ko": "메테오가 있으면 어드밴스 소환 성공 시(소환 유발 포함)에 대응할 수 없으니, [[Clown Crew Biancaviso]]의 퀵 효과 발동 전이나 그 발동에 체인해 무효로 하거나 메테오를 먼저 치운다. 내 카드에 체인해(체인 2 이후로) 퀵 소환했다면 체인 처리 후 소환 유발에 대응할 수 있다.",
@@ -1326,6 +2071,10 @@
        {
         "id": "kaiju_slumber",
         "note_ko": "파괴라 유발 없음"
+       },
+       {
+        "id": "protos",
+        "note_ko": "빛 선언으로 파괴. 릴리스가 아니라 유발 없음"
        }
       ],
       "bait_ko": "치우지 못했다면 싱크로 몬스터는 메테오가 릴리스된 뒤에 낸다.",
@@ -1351,6 +2100,26 @@
        {
         "id": "impulse",
         "note_ko": "특소 효과 무효. 패에서 쓰면 빛·땅·바람 몬스터 효과 봉인"
+       },
+       {
+        "id": "statue_abyss",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 특소 모드를 쓸 수 없다(서치 모드는 남는다)"
+       },
+       {
+        "id": "statue_inferno",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 특소 모드를 쓸 수 없다(서치 모드는 남는다)"
+       },
+       {
+        "id": "statue_torrent",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 특소 모드를 쓸 수 없다(서치 모드는 남는다)"
+       },
+       {
+        "id": "vanity_fiend",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 특소 모드를 쓸 수 없다(서치 모드는 남는다)"
+       },
+       {
+        "id": "protos",
+        "note_ko": "빛 특소 불가로 특소 모드 봉쇄"
        }
       ],
       "bait_ko": "마함 제거에는 체인해서 발동한다."
@@ -1418,6 +2187,10 @@
        {
         "id": "lightning_storm",
         "note_ko": "공격 표시라면 몬스터 모드로"
+       },
+       {
+        "id": "protos",
+        "note_ko": "빛 선언으로 파괴"
        }
       ],
       "rulings": [
@@ -1442,6 +2215,26 @@
        {
         "id": "impulse",
         "note_ko": "특소 효과 무효"
+       },
+       {
+        "id": "statue_abyss",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 특소 모드를 쓸 수 없다(서치 모드는 남는다)"
+       },
+       {
+        "id": "statue_inferno",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 특소 모드를 쓸 수 없다(서치 모드는 남는다)"
+       },
+       {
+        "id": "statue_torrent",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 특소 모드를 쓸 수 없다(서치 모드는 남는다)"
+       },
+       {
+        "id": "vanity_fiend",
+        "note_ko": "앞면이면 빛 몬스터를 특소할 수 없어 특소 모드를 쓸 수 없다(서치 모드는 남는다)"
+       },
+       {
+        "id": "protos",
+        "note_ko": "빛 특소 불가로 특소 모드 봉쇄"
        }
       ]
      }
@@ -1581,6 +2374,26 @@
    "nibiru": {
     "rating": "bad",
     "note_ko": "내 턴에 상대가 5번 소환하지 않는다. 돌파용이 아니다."
+   },
+   "protos": {
+    "rating": "strong",
+    "note_ko": "빛 선언. [[Clown Crew Biancaviso]]·플레어·메테오가 전부 파괴되고(파괴 유발 없음) 다음 내 턴이 끝날 때까지 빛 특소가 막혀, 세트한 [[Clown Crew Soiree Operations]]·[[Clown Crew Malabarisme]]가 다음 턴까지 죽는다. 발동에 체인해 화이트페이스 퀵 어드밴스 소환을 해도 새 화이트페이스까지 같이 파괴된다. 소환하려면 내 묘지·필드에 속성이 다른 몬스터 3장이 필요하다."
+   },
+   "statue_abyss": {
+    "rating": "ok",
+    "note_ko": "일반 소환해 두면 내 턴에 [[Clown Crew Soiree Operations]]·[[Clown Crew Malabarisme]]가 빛 몬스터를 특소하지 못해 퀵 어드밴스 소환 재료가 끊기고, 상대 다음 턴 전개도 막힌다. 필드의 플레어(의식)를 릴리스하는 2번째 [[Clown Crew Biancaviso]]는 특소가 아니라 막지 못한다."
+   },
+   "statue_inferno": {
+    "rating": "ok",
+    "note_ko": "심연의 결계상과 같다."
+   },
+   "statue_torrent": {
+    "rating": "ok",
+    "note_ko": "심연의 결계상과 같다."
+   },
+   "vanity_fiend": {
+    "rating": "ok",
+    "note_ko": "결계상과 같은 이유로 세트 마함 특소를 끊는다. 일반 소환에 릴리스 1장이 필요하고 내 특소도 막힌다."
    }
   },
   "sequencing_ko": [

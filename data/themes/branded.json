@@ -423,6 +423,243 @@
    ]
   },
   {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 4,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 3단계 낙인융합의 소재(하얀 용·카르테시아)가 제외되어 알비온 ①이 쓸 묘지 소재가 없다 / 세트해 뒀다면 낙인융합 발동에 체인",
+   "why_ko": "알비온 ①은 패·필드·묘지의 소재를 제외해 융합하므로 제외 상태의 카드는 못 쓴다. 그랑기뇰 → 성흔을 먹는 용 → TFTV로 이어지는 흐름 전체가 사라지고, 알비온이 묘지에 못 가 엔드 페이즈 세트도 없다.",
+   "fallback_ko": "알베르 + 알비온 2장 판면. 알비온이 필드에 남아 있어 상대 턴 알버스 융합 견제도 시작점이 없다.",
+   "rulings": [
+    "qa-14540",
+    "qa-23817"
+   ]
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "white",
+   "step": 5,
+   "target_card": "Guiding Quem, the Virtuous",
+   "timing_ko": "미리 앞면이면 1단계 하얀 용 ①부터 발동할 수 없다(엑스트라 덱에서 묘지로 보내는 코스트를 낼 수 없음, 공식 Q&A 14540) / 세트해 뒀다면 하얀 용 ① 발동에 체인해 발동하고, 늦어도 이 쿠엠 덤핑 발동에 체인",
+   "why_ko": "체인으로 열면 이미 보낸 알비온은 묘지에 남지만, 싱크로 소재 에클레시아와 쿠엠이 보내는 카르테시아가 제외되어 엔드 페이즈 회수 2장이 사라진다. 이후 [[Mirrorjade the Iceblade Dragon]]·TFTV ①도 코스트를 못 낸다.",
+   "fallback_ko": "알비온의 엔드 페이즈 세트(이미 묘지)는 남는다. 상대 턴 린드블룸도 TFTV 코스트로 묘지에 못 가 알버스 소생이 없다.",
+   "rulings": [
+    "qa-14540",
+    "qa-23817"
+   ]
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 4,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(매크로 코스모스와 같음)",
+   "why_ko": "묘지 소재 융합이 불가능하고, 제외되는 소재를 흡수해 뒷면 제외 효과가 빨리 충전된다.",
+   "fallback_ko": "알베르 + 알비온."
+  },
+  {
+   "handtrap": "banisher",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 4,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(매크로 코스모스와 같음). `white` 라인이면 1단계 하얀 용 ① 자체가 불가",
+   "why_ko": "알비온 ①·엔드 페이즈 효과가 전부 묘지 의존이다.",
+   "fallback_ko": "알베르 + 알비온. 추방자는 몬스터라 다음 턴 알베르 소생·TFTV 대상이 된다.",
+   "rulings": [
+    "qa-14540",
+    "qa-23817"
+   ]
+  },
+  {
+   "handtrap": "fissure",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 3,
+   "target_card": "Branded Fusion",
+   "timing_ko": "미리 앞면이면 이 단계의 소재가 제외되어 4단계 알비온 ①에 쓸 묘지 소재가 없다. `white` 라인이면 1단계 하얀 용 ①(몬스터를 묘지로 보내는 코스트)부터 막힌다",
+   "why_ko": "몬스터만 제외해도 낙인의 묘지 자원은 전부 몬스터다.",
+   "fallback_ko": "알베르 + 알비온.",
+   "rulings": [
+    "qa-14540",
+    "qa-23817"
+   ]
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 2,
+   "target_card": "Aluber the Jester of Despia",
+   "timing_ko": "미리 앞면이면 알베르 서치 처리 후 패 1장 무작위 제외, 이후 소재는 전부 제외",
+   "why_ko": "낙인융합이 들어와도 알비온 ①과 엔드 페이즈 효과가 사라진다. `white` 라인은 하얀 용 ① 코스트가 막힌다.",
+   "fallback_ko": "알베르 + 알비온."
+  },
+  {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "white",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "하얀 용 ①(패에서 발동한 몬스터 효과) 발동에 릴리스해 무효+파괴",
+   "why_ko": "코스트로 보낸 알비온만 묘지에 남고 하얀 용이 나오지 않아 에클레시아·싱크로가 전부 사라진다. 하얀 용 ①은 1턴 1번.",
+   "fallback_ko": "알비온 엔드 페이즈 세트(TFTV 등)는 남는다. 손의 알베르·낙인융합으로 `bfusion` 라인 재시작(이 경우 엑스트라 덱 제약은 없음)."
+  },
+  {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 3,
+   "target_card": "Branded Fusion",
+   "timing_ko": "미리 앞면으로 잠금을 유지하면 이 단계의 덱 소재가 제외되어 4단계 알비온 ①이 불발 / 또는 낙인융합 발동에 릴리스해 무효+파괴",
+   "why_ko": "어느 쪽이든 그랑기뇰 이후가 끊긴다. 잠금 유지가 더 길게 이득이지만 디클레어러가 TFTV·알베르 소생의 대상이 된다.",
+   "fallback_ko": "잠금 유지 시 알베르 + 알비온, 무효 시 알베르만."
+  },
+  {
+   "handtrap": "retaliating_c",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 3,
+   "target_card": "Branded Fusion",
+   "timing_ko": "상대가 낙인융합을 발동했을 때 패에서 직접 체인해 특소",
+   "why_ko": "체인 2로 먼저 나오므로 낙인융합 처리 시 덱에서 보내는 하얀 용·카르테시아가 제외된다. 4단계 알비온 ①이 묘지 소재가 없어 불발되고, 알비온의 엔드 페이즈 효과도 없다. 응전의 G가 남아 있으면 하얀 용 ①도 코스트를 못 낸다.",
+   "fallback_ko": "알베르 + 알비온. 응전의 G를 치울 카드가 이번 턴엔 거의 없다.",
+   "rulings": [
+    "qa-23817",
+    "qa-14540",
+    "supp-11829"
+   ]
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "white",
+   "step": 3,
+   "target_card": "Ecclesia and the Dark Dragon",
+   "timing_ko": "세트해 뒀다면 하얀 용 ① 발동(1단계)이나 ② 발동(2단계)에 체인해 '싱크로' 선언",
+   "why_ko": "하얀 용 ① 이후 엑스트라 덱은 레벨 8 융합·싱크로만이라 싱크로가 막히면 낼 수 있는 게 거의 없다. 하얀 용을 쓴 턴은 낙인융합도 못 쓴다.",
+   "fallback_ko": "하얀 용 + 에클레시아만 남는다. 에클레시아 릴리스로 알버스를 꺼내도 레벨 8 융합 소재(상대 몬스터)가 없다. 알비온 엔드 페이즈 세트는 남는다.",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 3,
+   "target_card": "Branded Fusion",
+   "timing_ko": "세트해 뒀다면 낙인융합 발동에 체인해 '융합' 선언",
+   "why_ko": "낙인융합 처리 시 융합할 수 없어 아무것도 보내지 않는다. 그 턴 엑스트라 덱은 융합만이라 싱크로로 우회도 못 한다.",
+   "fallback_ko": "알베르 1장. 알비온 엔드 페이즈 세트도 없다.",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "critical",
+   "line": "white",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 하얀 용이 어둠",
+   "why_ko": "라인 시작점부터 특소 불가.",
+   "fallback_ko": "빛인 에클레시아·카르테시아는 조건이 안 맞아 못 나온다."
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 3,
+   "target_card": "Branded Fusion",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 알비온이 어둠",
+   "why_ko": "낙인융합으로 낼 수 있는 빛 융합이 없다.",
+   "fallback_ko": "알베르 1장."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "white",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "화염 몬스터가 없다.",
+   "fallback_ko": "없다."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "white",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "물 몬스터가 없다.",
+   "fallback_ko": "없다."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "white",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "특소 불가.",
+   "fallback_ko": "알베르를 일반 소환해 낙인융합을 서치해도 쓸 수 없다."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "white",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "상대만 특소 불가.",
+   "fallback_ko": "배너티 데블과 같다."
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "critical",
+   "line": "white",
+   "step": 2,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 하얀 용(드래곤족)이 있어 에클레시아(마법사족)를 특소할 수 없다 (발동 자체 불가)",
+   "why_ko": "싱크로 소재가 없어 라인이 멈춘다.",
+   "fallback_ko": "손의 알베르·낙인융합으로 가도 알베르(천사족)가 알비온을 막는다.",
+   "rulings": [
+    "qa-11272",
+    "supp-5622"
+   ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "critical",
+   "line": "bfusion",
+   "step": 3,
+   "target_card": "Branded Fusion",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 알베르(천사족)가 필드에 있어 알비온(드래곤족)을 융합할 수 없다",
+   "why_ko": "낙인융합 발동 자체를 못 한다(낼 수 있는 융합 몬스터가 없음).",
+   "fallback_ko": "알베르 1장.",
+   "rulings": [
+    "supp-5622"
+   ]
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "critical",
+   "line": "white",
+   "step": 2,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 하얀 용(어둠)이 있어 에클레시아(빛)를 특소할 수 없다",
+   "why_ko": "싱크로 소재가 없다.",
+   "fallback_ko": "손의 낙인융합 → 알비온(어둠) → 미라제이드(어둠)는 가능.",
+   "rulings": [
+    "supp-7934"
+   ]
+  },
+  {
    "handtrap": "crown",
    "severity": "strong",
    "line": "bfusion",
@@ -654,6 +891,113 @@
    ]
   },
   {
+   "handtrap": "dd_crow",
+   "severity": "strong",
+   "line": "bfusion",
+   "step": 4,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "알비온 융합 소환 시 효과 발동에 체인해 묘지의 [[Blazing Cartesia, the Virtuous]] 제외",
+   "why_ko": "처리 시 그랑기뇰의 소재(카르테시아)가 묘지에 없어 융합이 불발된다(하얀 용만 있으면 알비온 ①로 다른 융합을 노릴 수 있다).",
+   "fallback_ko": "알베르 + 알비온. 알비온이 묘지에 못 가 엔드 페이즈 세트도 없다."
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "strong",
+   "line": "opp_turn",
+   "step": 2,
+   "target_card": "Rindbrumm the Striking Dragon",
+   "timing_ko": "우리 턴, 린드블룸 묘지 퀵(대상: 묘지의 하얀 용) 발동에 체인해 하얀 용 제외 (린드블룸 자신을 미리 지워도 됨)",
+   "why_ko": "린드블룸은 '대상 중 하나를 특소, 다른 하나 제외'라 하얀 용이 사라지면 린드블룸 자신만 나온다. 하얀 용 ②의 에클레시아 → 알버스 융합 → 카르테시아 미라제이드 흐름이 통째로 끊긴다.",
+   "fallback_ko": "린드블룸(융합 몬스터 효과 무효+바운스)이 필드에 선다. 쿠엠 ②(엑스트라 덱에서 카드가 떠남)로 다른 알버스 언급 몬스터를 소생할 수 있다."
+  },
+  {
+   "handtrap": "protos",
+   "severity": "strong",
+   "line": "white",
+   "step": 1,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "선공 내 턴에 미리: 프로토스 효과로 어둠(프로토스 자신)을 선언 → 다음 상대 턴 끝까지 어둠 특소 불가",
+   "why_ko": "하얀 용(어둠)이 자신을 특소할 수 없고 낙인융합의 알비온(어둠)도 못 나온다.",
+   "fallback_ko": "빛인 에클레시아(상대가 몬스터가 더 많을 때 패에서 특소)·카르테시아(필드·묘지에 알버스가 있을 때) 정도만 움직인다.",
+   "rulings": [
+    "supp-14994"
+   ]
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "strong",
+   "line": "white",
+   "step": 2,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 에클레시아(빛) 특소 불가",
+   "why_ko": "하얀 용 혼자라 싱크로를 못 한다.",
+   "fallback_ko": "손의 낙인융합 → 알비온(어둠) → 알비온 ①로 [[Mirrorjade the Iceblade Dragon]](어둠)은 가능."
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "strong",
+   "line": "bfusion",
+   "step": 4,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 그랑기뇰(빛)이 막힘",
+   "why_ko": "그랑기뇰 → 성흔을 먹는 용 → TFTV 흐름이 사라진다.",
+   "fallback_ko": "알비온 ①로 미라제이드(어둠)를 내는 것은 가능하다."
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "strong",
+   "line": "white",
+   "step": 2,
+   "target_card": "Fallen of the White Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(하얀 용 ①은 패에서라 통과, ②는 필드라 무효) / 세트해 뒀다면 이 ② 발동에 체인",
+   "why_ko": "에클레시아가 안 나와 싱크로를 못 한다. 이후 검은 용의 에클레시아·쿠엠도 필드 효과라 무효.",
+   "fallback_ko": "알비온 엔드 페이즈 세트(묘지 효과)는 남는다. 에클레시아의 릴리스 효과는 코스트로 필드를 떠나 스킬 드레인으로 무효가 안 된다.",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "strong",
+   "line": "bfusion",
+   "step": 2,
+   "target_card": "Aluber the Jester of Despia",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 알베르 서치 발동에 체인",
+   "why_ko": "낙인융합이 안 들어온다. 손에 낙인융합이 있어도 4단계 알비온 ①이 무효.",
+   "fallback_ko": "알비온 엔드 페이즈 세트만.",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "strong",
+   "line": "bfusion",
+   "step": 4,
+   "target_card": "Albion the Branded Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 그랑기뇰(빛)이 막힘: 알비온·알베르(어둠)가 필드에 있고, 소재로 쓸 알비온도 판정에 들어간다",
+   "why_ko": "그랑기뇰 → 성흔을 먹는 용 → TFTV가 사라진다.",
+   "fallback_ko": "알비온 ①로 미라제이드(어둠)는 가능.",
+   "rulings": [
+    "qa-10427",
+    "supp-7934"
+   ]
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "strong",
+   "line": "white",
+   "step": 3,
+   "target_card": "Ecclesia and the Dark Dragon",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘: 에클레시아(마법사족)를 소재로 써도 필드에 있는 동안은 판정에 들어가 마법사족 싱크로가 불가",
+   "why_ko": "검은 용의 에클레시아 → 쿠엠 흐름이 사라진다.",
+   "fallback_ko": "하얀 용 + 에클레시아. 에클레시아 릴리스로 알버스(드래곤족)는 하얀 용(드래곤족)이 있어 못 꺼낸다.",
+   "rulings": [
+    "qa-12759",
+    "supp-13447"
+   ]
+  },
+  {
    "handtrap": "super_poly",
    "severity": "ok",
    "line": "bfusion",
@@ -768,6 +1112,26 @@
     "supp-18474",
     "supp-22144"
    ]
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "ok",
+   "line": "white",
+   "step": 6,
+   "target_card": "Incredible Ecclesia, the Virtuous",
+   "timing_ko": "엔드 페이즈, 에클레시아(또는 카르테시아)의 묘지 회수 발동에 체인해 그 카드를 제외",
+   "why_ko": "상대 턴 하얀 용 ②로 낼 에클레시아(또는 카르테시아 융합)가 사라진다.",
+   "fallback_ko": "TFTV·검은 용의 에클레시아는 남는다."
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "ok",
+   "line": "bfusion",
+   "step": 2,
+   "target_card": "Aluber the Jester of Despia",
+   "timing_ko": "미리 앞면이어야 함: 알베르 서치를 할 수 없다(체인해 열면 그 서치는 못 막음)",
+   "why_ko": "낙인융합 없이는 이 라인이 시작되지 않는다. 6단계 성흔을 먹는 용 서치도 막힌다.",
+   "fallback_ko": "알비온의 '서치 또는 세트'는 세트로 우회되고, `white` 라인은 서치 없이 돌아간다."
   },
   {
    "handtrap": "ogre",
@@ -941,6 +1305,128 @@
   "mst": {
    "rating": "ok",
    "note_ko": "세트된 [[Branded Retribution]]은 싸이크론에 체인할 수 없어 깔끔하게 깬다. 세트된 [[The Fallen & The Virtuous]]는 속공이라 체인해서 쓰므로 노리지 말 것."
+  },
+  "macro_cosmos": {
+   "rating": "critical",
+   "note_ko": "앞면이면 [[Fallen of the White Dragon]] ①(엑스트라 덱에서 묘지로 보내는 코스트)을 발동할 수 없어 `white` 라인이 1단계부터 막힌다(공식 Q&A 14540에 하얀 용 ①이 명시). 낙인융합은 발동되지만 소재가 제외되어 알비온 ①(묘지 소재 융합)과 엔드 페이즈의 알비온 세트·에클레시아/카르테시아 회수·성흔을 먹는 용 서치가 전부 사라진다. [[Mirrorjade the Iceblade Dragon]]도 코스트를 못 내 효과를 못 쓴다.",
+   "rulings": [
+    "qa-14540",
+    "qa-23817"
+   ]
+  },
+  "fissure": {
+   "rating": "critical",
+   "note_ko": "몬스터만 제외하지만 낙인의 묘지 의존은 전부 몬스터다. 하얀 용 ①·미라제이드 코스트도 몬스터를 묘지로 보내는 것이라 같은 원리로 막힌다고 본다. TFTV·낙인 마함은 묘지로 가도 이득이 없다. 선공 때만.",
+   "rulings": [
+    "qa-14540",
+    "qa-23817"
+   ]
+  },
+  "banisher": {
+   "rating": "critical",
+   "note_ko": "매크로 코스모스와 같은 결과. 효과 몬스터라 TFTV 파괴·메르쿠리에 대상이 되지만, TFTV ① 자체가 엑스트라 덱 몬스터를 묘지로 보내야 해서 추방자가 있는 동안은 쓰기 어렵다.",
+   "rulings": [
+    "qa-14540",
+    "qa-23817"
+   ]
+  },
+  "herald": {
+   "rating": "critical",
+   "note_ko": "패·메인 덱에서 묘지로 가는 몬스터만 제외라 하얀 용 ①(엑스트라 덱 코스트)은 통과한다. 대신 쿠엠 덤핑(카르테시아)과 낙인융합의 덱 소재가 제외되어 알비온 ①·카르테시아 회수가 사라진다. 릴리스 무효는 하얀 용 ①(패에서 발동한 몬스터 효과)이나 낙인융합 발동에 쓰면 그 라인이 시작부터 끊긴다."
+  },
+  "retaliating_c": {
+   "rating": "strong",
+   "note_ko": "낙인융합(`bfusion` 3)·[[Branded in Red]] 같은 특소 포함 마법 발동에 체인. 소재 하얀 용·카르테시아가 제외되어 알비온 ①이 불발되고 알비온 엔드 페이즈 효과도 없다. 응전의 G가 나와 있는 동안은 하얀 용 ①도 코스트를 못 내 발동 불가. 마법을 안 쓰는 `white` 라인에는 쓸 타이밍이 없다.",
+   "rulings": [
+    "qa-23817",
+    "qa-14540",
+    "qa-24159"
+   ]
+  },
+  "dd_crow": {
+   "rating": "strong",
+   "note_ko": "엔드 페이즈 회수(`white` 6, 에클레시아·카르테시아)나 알비온 ①의 묘지 소재(`bfusion` 4, 카르테시아)에 체인해 제외. 상대 턴의 [[Rindbrumm the Striking Dragon]] 묘지 퀵(`opp_turn` 2)에 체인해 하얀 용을 지우면 알버스 전개가 끊긴다. 알비온·성흔을 먹는 용의 엔드 페이즈 효과는 대상을 잡지 않아 크로우로 막는다고 보장할 수 없다."
+  },
+  "dark_law": {
+   "rating": "critical",
+   "note_ko": "상대 묘지로 가는 카드가 제외되어 하얀 용 ①·미라제이드 코스트가 막히고, 알베르 서치마다 패 1장 무작위 제외. HERO 선공 보드."
+  },
+  "arise_heart": {
+   "rating": "critical",
+   "note_ko": "매크로 코스모스와 같은 봉쇄 + 낙인이 제외하는 카드(알비온 ①의 소재 등)를 흡수해 퀵 뒷면 제외."
+  },
+  "dim_barrier": {
+   "rating": "critical",
+   "note_ko": "하얀 용 ① 발동(특소 후 엑스트라 덱이 레벨 8 융합·싱크로만)을 보면 '싱크로', 낙인융합 발동을 보면 '융합'을 선언한다. 싱크로 선언이면 [[Ecclesia and the Dark Dragon]]이 막혀 하얀 용 + 에클레시아만 남고, 융합 선언이면 낙인융합이 불발된다. 링크는 선언 불가지만 이 덱엔 필요 없다.",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  "protos": {
+   "rating": "strong",
+   "note_ko": "선공 내 턴에 프로토스 자신의 속성인 어둠을 선언해 두면(프로토스는 파괴 내성) 다음 상대 턴 끝까지 어둠 특소가 막힌다. 하얀 용·알버스·알비온·미라제이드·배스터드·린드블룸이 모두 어둠이라 `white`는 1단계, `bfusion`은 3단계에서 멈춘다.",
+   "rulings": [
+    "supp-14994"
+   ]
+  },
+  "statue_abyss": {
+   "rating": "strong",
+   "note_ko": "어둠 이외 특소 불가: 에클레시아·카르테시아·쿠엠·검은 용의 에클레시아·그랑기뇰(모두 빛)이 막힌다. 하얀 용 + 낙인융합 → 알비온(어둠)은 나오고, 알비온 ①로 미라제이드(어둠)까지 갈 수 있어 critical은 아니다."
+  },
+  "statue_heavens": {
+   "rating": "critical",
+   "note_ko": "빛 이외 특소 불가: 하얀 용·알비온이 어둠이라 `white` 1단계, `bfusion` 3단계부터 막힌다."
+  },
+  "statue_inferno": {
+   "rating": "critical",
+   "note_ko": "화염 몬스터가 없다. 모든 특소가 막힌다."
+  },
+  "statue_torrent": {
+   "rating": "critical",
+   "note_ko": "물 몬스터가 없다. 모든 특소가 막힌다."
+  },
+  "vanity_fiend": {
+   "rating": "critical",
+   "note_ko": "특소가 전부 막혀 아무것도 못 한다."
+  },
+  "vanity_ruler": {
+   "rating": "critical",
+   "note_ko": "배너티 데블과 같다(상대만 특소 불가)."
+  },
+  "skill_drain": {
+   "rating": "strong",
+   "note_ko": "하얀 용 ①은 패에서라 통과하지만 ②(에클레시아 특소)·검은 용의 에클레시아·쿠엠·알비온 ①·알베르 서치가 무효. 묘지 효과(알비온 엔드 페이즈, 에클레시아 회수)는 못 막는다. 에클레시아 릴리스처럼 자신을 코스트로 필드에서 보내는 효과는 무효가 안 된다(카드 보충 정보).",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  "mistake": {
+   "rating": "ok",
+   "note_ko": "알베르 서치(`bfusion` 2)와 성흔을 먹는 용 엔드 페이즈 서치를 막는다. 알비온은 '서치 또는 세트'라 세트로 우회되고, `white` 라인에는 서치가 없다."
+  },
+  "rivalry": {
+   "rating": "critical",
+   "note_ko": "하얀 용(드래곤족) + 에클레시아(마법사족)부터 종족이 갈라진다. 하얀 용이 있으면 에클레시아를 덱에서 못 꺼내 `white` 2단계, 알베르(천사족)가 있으면 알비온(드래곤족)을 못 내 `bfusion` 3단계에서 멈춘다.",
+   "rulings": [
+    "qa-11272",
+    "supp-5622"
+   ]
+  },
+  "gozen": {
+   "rating": "critical",
+   "note_ko": "어둠(하얀 용·알비온·알베르)과 빛(에클레시아 계열·쿠엠·카르테시아·그랑기뇰)을 섞는다. `white` 2단계에서 에클레시아(빛)가 막히고, `bfusion`은 알비온 → 그랑기뇰(빛)이 막혀 미라제이드(어둠) 정도만 남는다. 소재로 쓸 필드 몬스터도 판정에 들어간다.",
+   "rulings": [
+    "qa-10427",
+    "supp-7934"
+   ]
+  },
+  "only_one": {
+   "rating": "strong",
+   "note_ko": "에클레시아(마법사족)가 필드에 있으면 그녀를 소재로 써도 [[Ecclesia and the Dark Dragon]](마법사족)을 싱크로할 수 없다(`white` 3). 상대 턴에도 쿠엠(마법사족)이 있으면 에클레시아·카르테시아가 못 나온다. `bfusion`은 종족이 비교적 갈려 덜 맞는다.",
+   "rulings": [
+    "qa-12759",
+    "supp-13447"
+   ]
   }
  },
  "notes_ko": [
@@ -949,7 +1435,9 @@
   "알비온 엔드 페이즈 효과는 '서치 또는 세트'라 드롤이 걸려 있어도 세트로 우회된다. 비스테드·와라시처럼 묘지에서 지우는 쪽이 확실.",
   "[[Super Polymerization]](96% 채용)은 체인 불가라 막을 수 없다. 상대 턴 초융합 소재가 될 몬스터를 미리 줄이는 것 외에 대책이 없다.",
   "[[Branded Lost]]가 앞면이면 융합하는 효과의 '발동'은 무효할 수 없다(와라시처럼 발동을 무효하는 카드는 불가). 우라라·무한포영처럼 '효과'를 무효하는 카드는 쓸 수 있다.",
-  "하얀 용 라인(싱크로)을 했다면 그 턴 낙인융합은 발동 불가. 반대로 낙인융합을 먼저 쓰면 검은 용의 에클레시아 싱크로가 막힌다. 상대가 어느 쪽을 골랐는지 보고 남은 타점을 판단."
+  "하얀 용 라인(싱크로)을 했다면 그 턴 낙인융합은 발동 불가. 반대로 낙인융합을 먼저 쓰면 검은 용의 에클레시아 싱크로가 막힌다. 상대가 어느 쪽을 골랐는지 보고 남은 타점을 판단.",
+  "[[Macro Cosmos]]·[[Retaliating \"C\"]]·[[Banisher of the Radiance]] 같은 '묘지로 가는 대신 제외'가 적용 중이면 [[Fallen of the White Dragon]] ①과 [[Mirrorjade the Iceblade Dragon]]의 효과는 코스트를 못 내 발동할 수 없다(공식 Q&A 14540). 낙인융합·알버스 융합 자체는 가능하지만(Q&A 23817) 소재가 제외되어 알비온 ①·엔드 페이즈 효과가 사라진다.",
+  "[[Rivalry of Warlords]]·[[Gozen Match]]는 소재로 쓸 필드 몬스터도 판정에 들어간다(Q&A 11272·10427). 하얀 용(어둠·드래곤족)과 에클레시아(빛·마법사족)가 둘 다 어긋나 `white` 라인은 2단계에서 멈춘다."
  ],
  "sources": [
   "https://card-information.sakura.ne.jp/%e9%81%8a%e6%88%af%e7%8e%8b%e3%83%9e%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%87%e3%83%a5%e3%82%a8%e3%83%ab/%e3%80%8c%e7%83%99%e5%8d%b0%e3%80%8d%e5%b1%95%e9%96%8b%e3%83%ab%e3%83%bc%e3%83%88%e8%a7%a3%e8%aa%ac%ef%bd%9c1%e6%9e%9a%e5%88%9d%e5%8b%95%e3%83%bb%e7%9b%b8%e6%89%8b%e3%82%bf%e3%83%bc%e3%83%b3%e4%b8%ad/ (遊戯王カードインフォメーション: 2026「烙印」展開ルート解説 1枚初動・相手ターン, 2026-06-14)",
@@ -988,6 +1476,10 @@
        {
         "id": "harpie",
         "note_ko": "코즈믹과 같이 체인 발동을 강요할 뿐. 앞면 카드가 없을 때 쓰면 TFTV는 소생 모드나 헛발. 제한 1"
+       },
+       {
+        "id": "banisher",
+        "note_ko": "앞면이면 엑스트라 덱의 융합 몬스터를 묘지로 보낼 수 없어 ①(파괴)을 쓰기 어렵다(미라제이드 코스트와 같은 원리, 미검증)"
        }
       ],
       "bait_ko": "앞면 카드 1장 파괴라 핵심 몬스터를 내기 전에 버려도 되는 앞면 카드(지속 마함, 일반 소환 몬스터)를 먼저 두면 거기에 쓰거나 아끼게 만든다."
@@ -1016,6 +1508,17 @@
        {
         "id": "crossout",
         "note_ko": "내 덱에 [[Fallen of the White Dragon]]이 있으면 그 이름을 선언해 하얀 용 ②(에클레시아 특소)를 막는다"
+       },
+       {
+        "id": "dd_crow",
+        "note_ko": "린드블룸 묘지 퀵(대상: 하얀 용)에 체인해 하얀 용을 제외하면 린드블룸 자신만 나온다. 린드블룸을 미리 지워도 된다"
+       },
+       {
+        "id": "banisher",
+        "note_ko": "앞면이면 TFTV 코스트로 린드블룸을 묘지로 보낼 수 없어 이 견제 자체가 시작되지 않는다",
+        "rulings": [
+         "qa-14540"
+        ]
        }
       ],
       "bait_ko": "배틀 페이즈에도 쓸 수 있어 [[Evenly Matched]]에 체인으로 몸을 늘릴 수 있다.",
@@ -1053,6 +1556,20 @@
        {
         "id": "kaiju",
         "note_ko": "체인 없이 릴리스로 치운다"
+       },
+       {
+        "id": "skill_drain",
+        "note_ko": "세트해 둔 경우 쿠엠 ②는 처리 시 무효",
+        "rulings": [
+         "supp-5740"
+        ]
+       },
+       {
+        "id": "protos",
+        "note_ko": "빛 선언으로 쿠엠 파괴 + 빛 특소 봉쇄",
+        "rulings": [
+         "supp-14994"
+        ]
        }
       ],
       "bait_ko": "내 엑덱 소환 한 번으로도 소생이 나가므로, 쿠엠을 끄기 전에는 메인 덱 몬스터로 먼저 움직여 다른 견제를 소모시킨다.",
@@ -1086,6 +1603,13 @@
        {
         "id": "gamma",
         "note_ko": "에클레시아 또는 알버스 발동을 무효+파괴. 내 필드에 몬스터가 없어야 하는데, 그때는 알버스가 빼앗을 내 몬스터도 없다"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "세트해 둔 경우 '융합' 선언: 알버스는 나오지만 융합을 못 한다",
+        "rulings": [
+         "supp-12668"
+        ]
        }
       ],
       "bait_ko": "알버스는 자기 쪽 다른 몬스터를 소재로 못 쓴다. 내 필드에 몬스터가 없으면 빼앗을 것이 없으니, 버려도 되는 몬스터 1장을 먼저 내서 소재로 가져가게 만든다."
@@ -1131,6 +1655,20 @@
        {
         "id": "ash",
         "note_ko": "덱에서 특소할 때만. 몸통은 엔드 페이즈에 돌아오니 효과만 1번 막는다"
+       },
+       {
+        "id": "protos",
+        "note_ko": "빛 선언으로 검은 용의 에클레시아·쿠엠 동시 파괴",
+        "rulings": [
+         "supp-14994"
+        ]
+       },
+       {
+        "id": "skill_drain",
+        "note_ko": "자신을 제외하는 것이 비용이 아니라 효과 처리라, 세트해 둔 스킬 드레인이 있으면 무효",
+        "rulings": [
+         "supp-5740"
+        ]
        }
       ],
       "bait_ko": "무한포영 같은 대상 지정 무효를 걸면 체인으로 자신을 제외해 피한다. 무한포영은 쿠엠에 쓰고, 이 카드는 유령토끼·감마나 체인 불가 카드로 처리."
@@ -1190,6 +1728,20 @@
        {
         "id": "dark_ruler",
         "note_ko": "이미 필드에 있는 [[Mirrorjade the Iceblade Dragon]]를 무효. 몬스터 효과로 체인 불가"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "세트해 둔 경우 '융합' 선언으로 카르테시아 융합이 불발",
+        "rulings": [
+         "supp-12668"
+        ]
+       },
+       {
+        "id": "banisher",
+        "note_ko": "앞면이면 미라제이드는 코스트를 못 내 제외 효과를 쓸 수 없다",
+        "rulings": [
+         "qa-14540"
+        ]
        }
       ],
       "bait_ko": "[[Mirrorjade the Iceblade Dragon]] 제외는 1턴 1번이라 덜 중요한 몬스터에 먼저 쓰게 만든다."
@@ -1610,6 +2162,38 @@
    "veiler": {
     "rating": "bad",
     "note_ko": "상대 메인 페이즈 전용이라 내 턴에는 쓸 수 없다."
+   },
+   "protos": {
+    "rating": "strong",
+    "note_ko": "빛을 선언하면 검은 용의 에클레시아·쿠엠(`full`), 카르테시아·그랑기뇰이 파괴되고 다음 턴 끝까지 빛 특소가 막혀 에클레시아·카르테시아·쿠엠 재전개가 없다. 프로토스는 효과 파괴 내성이라 TFTV 파괴도 안 맞는다. 어둠 선언은 알버스 융합·미라제이드·린드블룸 쪽을 막는다. 내 묘지·필드에 속성이 다른 몬스터 3장이 필요.",
+    "rulings": [
+     "supp-14994"
+    ]
+   },
+   "dd_crow": {
+    "rating": "strong",
+    "note_ko": "TFTV 코스트로 묘지에 간 린드블룸의 묘지 퀵(대상: 하얀 용)에 체인해 하얀 용을 제외하면 알버스 전개가 끊긴다. 쿠엠 ②(묘지의 알버스 언급 몬스터 소생)에도 체인 가능."
+   },
+   "dim_barrier": {
+    "rating": "strong",
+    "note_ko": "미리 세트해 둔 상태라면 내 턴 시작에 '융합' 선언: 알버스 융합·카르테시아 융합·미라제이드·린드블룸 소생(융합 몬스터 특소)이 막히고 필드 융합 몬스터 효과도 무효. 검은 용의 에클레시아는 싱크로라 남는다.",
+    "rulings": [
+     "supp-12668"
+    ]
+   },
+   "skill_drain": {
+    "rating": "strong",
+    "note_ko": "세트해 둔 상태라면 검은 용의 에클레시아·쿠엠·카르테시아·미라제이드의 필드 효과를 무효. 패·묘지 효과(린드블룸 묘지 퀵, 패의 메르쿠리에)와 자신을 코스트로 보내는 효과(에클레시아 릴리스, 필드의 메르쿠리에)는 못 막는다.",
+    "rulings": [
+     "supp-5740"
+    ]
+   },
+   "banisher": {
+    "rating": "strong",
+    "note_ko": "내 턴에 일반 소환해 두면 묘지로 가는 카드가 제외된다. TFTV ①과 미라제이드 효과는 엑스트라 덱 몬스터를 묘지로 보내는 것이 비용이라 추방자가 있는 동안 발동하기 어렵고(공식 Q&A 14540에 미라제이드가 명시), 린드블룸·쿠엠의 묘지 소생 대상도 생기지 않는다. 추방자 자신은 알버스 융합 소재로 빼앗길 수 있다.",
+    "rulings": [
+     "qa-14540"
+    ]
    }
   },
   "sequencing_ko": [

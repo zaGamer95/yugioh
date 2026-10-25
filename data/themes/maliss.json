@@ -5,7 +5,7 @@
   "ko": "M∀LICE"
  },
  "status": "draft",
- "updated": "2026-10-22",
+ "updated": "2026-10-25",
  "meta": {
   "decks": 23,
   "share": 0.032,
@@ -511,6 +511,296 @@
    ]
   },
   {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "dormouse",
+   "step": 2,
+   "target_card": "Maliss P Dormouse",
+   "timing_ko": "내 필드의 아크 디클레어러가 Dormouse ① 발동에 퀵으로 자신을 릴리스해 발동 무효+파괴",
+   "why_ko": "덱에서 White Rabbit이 제외되지 않고 Dormouse는 묘지로 간다(파괴라 '제외되면' 부활 없음). 1장 초동이면 일반 소환권까지 쓴 상태로 끝.",
+   "fallback_ko": "패의 [[Maliss in Underground]]·[[Backup @Ignister]] 등 2번째 초동이 있으면 재개(아크 디클레어러는 이미 없음)."
+  },
+  {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "white-rabbit",
+   "step": 2,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "White Rabbit 소환 시 함정 세트 발동에 퀵으로 발동 무효+파괴",
+   "why_ko": "TB-11이 세트되지 않아 덱 특소 루트가 없고 White Rabbit은 묘지로 간다.",
+   "fallback_ko": "2번째 초동이 없으면 끝."
+  },
+  {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "underground",
+   "step": 1,
+   "target_card": "Maliss in Underground",
+   "timing_ko": "UNDERGROUND 카드 발동에 퀵으로 발동 무효+파괴",
+   "why_ko": "제외가 처리되지 않아 White Rabbit이 나오지 않는다. 일반 소환권은 남는다.",
+   "fallback_ko": "패의 Dormouse·White Rabbit으로 다시 시작(그때는 아크 디클레어러 없음)."
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "dormouse",
+   "step": 2,
+   "target_card": "Maliss P Dormouse",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 Dormouse ① 발동에 체인해 발동",
+   "why_ko": "Dormouse는 필드에 남은 채 처리하므로 덱 제외가 무효(qa-23257). 이후 White Rabbit 함정 세트·WHITE BINDER·위키드·백업까지 필드 효과가 계속 꺼진다.",
+   "fallback_ko": "'제외되면' 특소는 막지 못하지만(qa-15808) 제외할 수단이 없다. [[Maliss in Underground]]의 제외는 마법이라 통과 → White Rabbit 특소까지는 되지만 함정 세트가 무효.",
+   "rulings": [
+    "qa-23257",
+    "qa-15808"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "white-rabbit",
+   "step": 2,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 함정 세트 발동에 체인",
+   "why_ko": "TB-11이 세트되지 않아 덱 특소가 없다.",
+   "fallback_ko": "패에 2번째 초동이 있어도 필드 효과는 계속 무효.",
+   "rulings": [
+    "qa-23257"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "underground",
+   "step": 3,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 이 효과 발동에 체인",
+   "why_ko": "UNDERGROUND의 제외와 White Rabbit 자신 특소(제외 상태 발동)는 막지 못하지만, 필드의 White Rabbit 함정 세트는 무효.",
+   "fallback_ko": "White Rabbit 1장 + 일반 소환권. Dormouse를 일반 소환해도 ①이 무효.",
+   "rulings": [
+    "qa-23257",
+    "qa-15808"
+   ]
+  },
+  {
+   "handtrap": "protos",
+   "severity": "critical",
+   "line": "dormouse",
+   "step": 3,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "내 턴에 어둠을 선언해 두었다면(다음 턴 끝까지 어둠 특소 불가) 이 단계에서 막힘",
+   "why_ko": "White Rabbit은 어둠이라 '제외되면' 자신 특소를 할 수 없다. TB-11·링크·@이그니스터도 전부 어둠.",
+   "fallback_ko": "Dormouse 1장 + 덱에서 제외된 카드만 남는다. 프로토스가 필드를 떠나도 이미 걸린 특소 불가는 남는다."
+  },
+  {
+   "handtrap": "protos",
+   "severity": "critical",
+   "line": "white-rabbit",
+   "step": 3,
+   "target_card": "Maliss C TB-11",
+   "timing_ko": "어둠 선언 후 이 단계에서 막힘",
+   "why_ko": "TB-11로 덱에서 꺼낼 M∀LICE가 전부 어둠.",
+   "fallback_ko": "White Rabbit 1장과 세트된 TB-11만 남음."
+  },
+  {
+   "handtrap": "protos",
+   "severity": "critical",
+   "line": "underground",
+   "step": 2,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "어둠 선언 후 이 단계에서 막힘",
+   "why_ko": "제외된 White Rabbit이 특소되지 않는다.",
+   "fallback_ko": "일반 소환권은 남지만 이후 특소가 전부 막힌다."
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "critical",
+   "line": "dormouse",
+   "step": 3,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "필드에 Dormouse(사이버스)가 있어 같은 사이버스인 White Rabbit을 특소할 수 없다. 이후 사이버스 링크 소환도 필드에 사이버스가 있는 한 불가(qa-12759).",
+   "fallback_ko": "몬스터 1장씩만 굴리며 [[Linguriboh]] 같은 링크 1로 갈아타는 것도 안 된다(같은 종족 링크 소환 불가).",
+   "rulings": [
+    "qa-12759"
+   ]
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "critical",
+   "line": "white-rabbit",
+   "step": 4,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "TB-11로 Dormouse는 나오지만(필드가 비어 있었음) White Rabbit이 자신을 특소할 수 없고, Dormouse 1장으로 링크 소환도 못 한다.",
+   "fallback_ko": "Dormouse 1장 + 세트 함정.",
+   "rulings": [
+    "qa-12759"
+   ]
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "critical",
+   "line": "underground",
+   "step": 4,
+   "target_card": "Maliss C TB-11",
+   "timing_ko": "미리 앞면이면 이 단계 처리 뒤 막힘",
+   "why_ko": "TB-11의 덱 특소까지는 되지만 이후 White Rabbit 자신 특소·링크 소환이 전부 불가.",
+   "fallback_ko": "몬스터 1장.",
+   "rulings": [
+    "qa-12759"
+   ]
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "critical",
+   "line": "dormouse",
+   "step": 3,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "섬광의 결계상 아래에서는 어둠 M∀LICE를 특소할 수 없어 White Rabbit의 '제외되면' 자신 특소부터 막힌다. 이후 TB-11·링크·@이그니스터도 전부 불가.",
+   "fallback_ko": "Dormouse 1장 + 덱에서 제외된 카드. M∀LICE는 상대 턴 1턴에 앞면 몬스터를 치울 수단이 거의 없다."
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "critical",
+   "line": "white-rabbit",
+   "step": 3,
+   "target_card": "Maliss C TB-11",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "TB-11의 덱 특소가 불가.",
+   "fallback_ko": "White Rabbit 1장 + 세트 함정."
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "critical",
+   "line": "underground",
+   "step": 2,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "제외된 White Rabbit이 특소되지 않는다.",
+   "fallback_ko": "일반 소환권으로 Dormouse 등을 내도 그 뒤 특소 불가."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "dormouse",
+   "step": 3,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "업화의 결계상 아래에서는 어둠 M∀LICE를 특소할 수 없어 White Rabbit의 '제외되면' 자신 특소부터 막힌다. 이후 TB-11·링크·@이그니스터도 전부 불가.",
+   "fallback_ko": "Dormouse 1장 + 덱에서 제외된 카드. M∀LICE는 상대 턴 1턴에 앞면 몬스터를 치울 수단이 거의 없다."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "white-rabbit",
+   "step": 3,
+   "target_card": "Maliss C TB-11",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "TB-11의 덱 특소가 불가.",
+   "fallback_ko": "White Rabbit 1장 + 세트 함정."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "underground",
+   "step": 2,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "제외된 White Rabbit이 특소되지 않는다.",
+   "fallback_ko": "일반 소환권으로 Dormouse 등을 내도 그 뒤 특소 불가."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "dormouse",
+   "step": 3,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "호우의 결계상 아래에서는 어둠 M∀LICE를 특소할 수 없어 White Rabbit의 '제외되면' 자신 특소부터 막힌다. 이후 TB-11·링크·@이그니스터도 전부 불가.",
+   "fallback_ko": "Dormouse 1장 + 덱에서 제외된 카드. M∀LICE는 상대 턴 1턴에 앞면 몬스터를 치울 수단이 거의 없다."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "white-rabbit",
+   "step": 3,
+   "target_card": "Maliss C TB-11",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "TB-11의 덱 특소가 불가.",
+   "fallback_ko": "White Rabbit 1장 + 세트 함정."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "underground",
+   "step": 2,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "제외된 White Rabbit이 특소되지 않는다.",
+   "fallback_ko": "일반 소환권으로 Dormouse 등을 내도 그 뒤 특소 불가."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "dormouse",
+   "step": 3,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "배너티 데블 아래에서는 어둠 M∀LICE를 특소할 수 없어 White Rabbit의 '제외되면' 자신 특소부터 막힌다. 이후 TB-11·링크·@이그니스터도 전부 불가.",
+   "fallback_ko": "Dormouse 1장 + 덱에서 제외된 카드. M∀LICE는 상대 턴 1턴에 앞면 몬스터를 치울 수단이 거의 없다."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "white-rabbit",
+   "step": 3,
+   "target_card": "Maliss C TB-11",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "TB-11의 덱 특소가 불가.",
+   "fallback_ko": "White Rabbit 1장 + 세트 함정."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "underground",
+   "step": 2,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "제외된 White Rabbit이 특소되지 않는다.",
+   "fallback_ko": "일반 소환권으로 Dormouse 등을 내도 그 뒤 특소 불가."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "dormouse",
+   "step": 3,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "배너티 룰러 아래에서는 어둠 M∀LICE를 특소할 수 없어 White Rabbit의 '제외되면' 자신 특소부터 막힌다. 이후 TB-11·링크·@이그니스터도 전부 불가.",
+   "fallback_ko": "Dormouse 1장 + 덱에서 제외된 카드. M∀LICE는 상대 턴 1턴에 앞면 몬스터를 치울 수단이 거의 없다."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "white-rabbit",
+   "step": 3,
+   "target_card": "Maliss C TB-11",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "TB-11의 덱 특소가 불가.",
+   "fallback_ko": "White Rabbit 1장 + 세트 함정."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "underground",
+   "step": 2,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "제외된 White Rabbit이 특소되지 않는다.",
+   "fallback_ko": "일반 소환권으로 Dormouse 등을 내도 그 뒤 특소 불가."
+  },
+  {
    "handtrap": "super_poly",
    "severity": "strong",
    "line": "dormouse",
@@ -790,6 +1080,58 @@
    ]
   },
   {
+   "handtrap": "gozen",
+   "severity": "ok",
+   "line": "dormouse",
+   "step": 7,
+   "target_card": "Splash Mage",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "필드에 어둠 몬스터가 있으면 물 속성 [[Splash Mage]]를 링크 소환할 수 없다(소재로 어둠을 쓰는 것도 안 됨, qa-10427과 같은 원리). 스플래시 메이지의 묘지 소생 1번이 빠진다.",
+   "fallback_ko": "Dormouse+March Hare로 WHITE BINDER(어둠)를 바로 내는 우회가 가능해 몸 1장 손해 정도.",
+   "rulings": [
+    "qa-10427"
+   ]
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "ok",
+   "line": "white-rabbit",
+   "step": 5,
+   "target_card": "Splash Mage",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "dormouse 라인과 같음.",
+   "fallback_ko": "WHITE BINDER 직행 우회.",
+   "rulings": [
+    "qa-10427"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "ok",
+   "line": "dormouse",
+   "step": 15,
+   "target_card": "Cyberse Wicckid",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 위키드 서치 발동에 체인",
+   "why_ko": "[[Backup @Ignister]]가 오지 않아 [[Wizard @Ignister]]까지 이어지지 않는다. 우라라·드롤과 같은 지점이지만 미스테이크는 이후 백업 서치·MTP-07도 계속 막는다.",
+   "fallback_ko": "WHITE BINDER·HEARTS OF CRYPTER까지는 서치 없이 만들 수 있어 어코드 토커만 빠진 보드가 된다.",
+   "rulings": [
+    "qa-19975"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "ok",
+   "line": "dormouse",
+   "step": 18,
+   "target_card": "Backup @Ignister",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 백업 서치 발동에 체인",
+   "why_ko": "위저드가 오지 않아 몸 2장이 빠진다.",
+   "fallback_ko": "어코드 토커 소재가 모자라 HEARTS OF CRYPTER 위주 마무리.",
+   "rulings": [
+    "qa-19975"
+   ]
+  },
+  {
    "handtrap": "mst",
    "severity": "bad",
    "line": "dormouse",
@@ -808,6 +1150,46 @@
    "timing_ko": "[[Splash Mage]]가 묘지의 [[Maliss P March Hare]]를 대상으로 했을 때 드루이드브룸으로 March Hare를 제외",
    "why_ko": "소생은 불발되지만 March Hare는 '제외되면 300LP로 제외된 M∀LICE를 패에 넣는' 효과가 나와서 오히려 패가 늘어난다. M∀LICE는 몬스터 전부가 어둠이고 제외되면 효과가 나오므로, 묘지의 M∀LICE를 제외하는 드루이드브룸은 상대를 돕는다.",
    "fallback_ko": "드루이드브룸은 이 매치업에서는 상대 턴에 쓰지 않는다. 내 턴에 링크 소재로 보내서 '특소된 몬스터 1장을 묘지로'(제외가 아니라 부활하지 않음)를 노리는 용도."
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "bad",
+   "line": "dormouse",
+   "step": 8,
+   "target_card": "Maliss P March Hare",
+   "timing_ko": "—",
+   "why_ko": "스플래시 메이지의 소생 대상 March Hare를 제외하면 소생은 불발되지만 March Hare가 '제외되면' 효과로 제외된 M∀LICE를 패에 넣는다. 묘지의 M∀LICE는 건드리지 말 것.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "bad",
+   "line": "dormouse",
+   "step": 3,
+   "target_card": "Maliss P White Rabbit",
+   "timing_ko": "—",
+   "why_ko": "White Rabbit을 포함해 M∀LICE는 전부 어둠이라 심연의 결계상 아래에서도 그대로 특소된다. 막히는 건 물인 [[Splash Mage]]뿐.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "bad",
+   "line": "dormouse",
+   "step": 7,
+   "target_card": "Splash Mage",
+   "timing_ko": "—",
+   "why_ko": "M∀LICE 엑스트라는 전부 링크라 차원 장벽으로 선언할 종류가 없다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "bad",
+   "line": "dormouse",
+   "step": 9,
+   "target_card": "Maliss Q White Binder",
+   "timing_ko": "—",
+   "why_ko": "매크로 코스모스(묘지 대신 제외)는 스플래시 메이지·어코드 토커의 묘지 소생을 비게 하지만, 링크 소재가 된 M∀LICE가 제외되며 '제외되면' 효과가 켜지고 사용한 M∀LICE 함정도 제외되어 UNDERGROUND 조건을 채운다. 다른 패트랩을 우선할 것.",
+   "fallback_ko": "—"
   }
  ],
  "handtrap_summary": {
@@ -921,6 +1303,107 @@
    "note_ko": "[[Maliss in Underground]] 발동에 체인하면 제외 처리가 안 돼 UNDERGROUND 초동이 끝난다. 세트된 M∀LICE 함정은 체인 발동되니 노리지 말 것. 미리 세트해 둬야 함",
    "rulings": [
     "qa-12624"
+   ]
+  },
+  "macro_cosmos": {
+   "rating": "weak",
+   "note_ko": "[[Splash Mage]]·[[Wizard @Ignister]]·[[Allied Code Talker @Ignister]]의 묘지 소생과 [[Cyberse Wicckid]]의 묘지 제외 코스트가 빈다. 하지만 M∀LICE 몬스터는 '제외되면' 자신 특소·회수가 켜지므로 링크 소재로 쓰일 때 묘지 대신 제외되면 오히려 효과가 발동한다(각각 1턴에 1번이라 원래 루트에서도 쓰는 효과라 이득은 크지 않음). 사용한 M∀LICE 함정도 제외되어 [[Maliss in Underground]]의 '제외된 함정 3종' 조건을 오히려 채워 준다. 스플래시 메이지 없이 Dormouse+March Hare로 바로 WHITE BINDER를 내는 식으로 우회 가능"
+  },
+  "fissure": {
+   "rating": "weak",
+   "note_ko": "매크로 코스모스와 같은 이유(묘지 소생 파츠만 빔). 몬스터만 제외라 함정은 묘지로 간다. M∀LICE 몬스터는 '제외되면' 자신 특소·회수가 켜지므로 링크 소재로 쓰일 때 묘지 대신 제외되면 오히려 효과가 발동한다(각각 1턴에 1번이라 원래 루트에서도 쓰는 효과라 이득은 크지 않음)"
+  },
+  "banisher": {
+   "rating": "weak",
+   "note_ko": "매크로 코스모스와 같음. M∀LICE 몬스터는 '제외되면' 자신 특소·회수가 켜지므로 링크 소재로 쓰일 때 묘지 대신 제외되면 오히려 효과가 발동한다(각각 1턴에 1번이라 원래 루트에서도 쓰는 효과라 이득은 크지 않음)"
+  },
+  "herald": {
+   "rating": "critical",
+   "note_ko": "필드에 있으면 첫 동작을 무효+파괴: Dormouse ①(`dormouse` 2)·White Rabbit 함정 세트(`white-rabbit` 2)·UNDERGROUND 발동(`underground` 1). 무효되어 파괴된 M∀LICE는 묘지로 가므로 '제외되면' 부활도 없다. 패·덱에서 묘지로 가는 몬스터도 제외되어 [[Backup @Ignister]]의 버리기 코스트 등이 제외로 바뀐다"
+  },
+  "retaliating_c": {
+   "rating": "bad",
+   "note_ko": "M∀LICE가 쓰는 마법은 [[Maliss in Underground]](제외만 함)·[[Allure of Darkness]] 정도로 특소를 포함한 마법이 없어 발동 기회가 없다. 나와도 묘지 대신 제외는 M∀LICE에 이득"
+  },
+  "dd_crow": {
+   "rating": "bad",
+   "note_ko": "묘지의 M∀LICE를 제외하면 '제외되면 특소·회수'가 켜진다. [[Splash Mage]] 소생 대상인 March Hare를 지우면 March Hare가 제외 효과로 패 회수, 묘지의 WHITE BINDER를 지우면 900LP 특소+드로우. 노린다면 [[Backup @Ignister]]·[[Splash Mage]] 같은 비 M∀LICE만"
+  },
+  "dark_law": {
+   "rating": "weak",
+   "note_ko": "위키드·백업 서치 때 패 1장 무작위 제외는 아프지만, 제외된 패가 M∀LICE면 그 카드의 '제외되면' 효과가 켜진다. 묘지 대신 제외도 M∀LICE 몬스터는 '제외되면' 자신 특소·회수가 켜지므로 링크 소재로 쓰일 때 묘지 대신 제외되면 오히려 효과가 발동한다(각각 1턴에 1번이라 원래 루트에서도 쓰는 효과라 이득은 크지 않음)"
+  },
+  "arise_heart": {
+   "rating": "weak",
+   "note_ko": "묘지 대신 제외 부분은 매크로 코스모스와 같다(M∀LICE에 이득도 있음). 소재 3개 뒷면 제외는 '제외되면' 효과가 앞면 제외일 때만이라 M∀LICE 링크 처리에 유효(supp-20586 참고)",
+   "rulings": [
+    "supp-20586"
+   ]
+  },
+  "dim_barrier": {
+   "rating": "bad",
+   "note_ko": "엑스트라가 전부 링크(WHITE BINDER·HEARTS OF CRYPTER·[[Splash Mage]]·위키드·어코드 토커)라 선언할 종류가 없다. 차원 장벽은 링크 선언 불가"
+  },
+  "protos": {
+   "rating": "critical",
+   "note_ko": "내 턴에 어둠을 선언해 두면 다음 턴(상대 턴) 끝까지 서로 어둠 특소 불가 → M∀LICE·@이그니스터·위키드가 전부 어둠이라 White Rabbit 자신 특소(`dormouse` 3)부터 막힌다. 내 어둠 몬스터도 같이 막히는 점만 주의. 후공이면 내 턴 돌파용(후공 탭)"
+  },
+  "statue_abyss": {
+   "rating": "bad",
+   "note_ko": "M∀LICE·@이그니스터는 거의 전부 어둠이라 막히는 건 [[Splash Mage]](물) 1장뿐이다. Dormouse+March Hare로 바로 WHITE BINDER를 내는 식으로 우회"
+  },
+  "statue_heavens": {
+   "rating": "critical",
+   "note_ko": "빛 이외 특소 불가 → 어둠뿐인 M∀LICE는 제외 상태 특소·TB-11 덱 특소·링크 소환이 전부 막힌다. Dormouse 일반 소환 → 덱 제외까지만 된다. M∀LICE 쪽 제거 수단은 [[Maliss C MTP-07]](링크 필요)뿐이라 자기 턴에 치우기 어렵다"
+  },
+  "statue_inferno": {
+   "rating": "critical",
+   "note_ko": "섬광의 결계상과 같음(어둠 특소 전부 봉쇄)"
+  },
+  "statue_torrent": {
+   "rating": "critical",
+   "note_ko": "섬광의 결계상과 같음. 물인 [[Splash Mage]]만 허용되지만 소재가 될 몸을 특소할 수 없다"
+  },
+  "vanity_fiend": {
+   "rating": "critical",
+   "note_ko": "특소가 전부 막혀 Dormouse·White Rabbit 1장 일반 소환 → 효과 1번으로 끝난다"
+  },
+  "vanity_ruler": {
+   "rating": "critical",
+   "note_ko": "배너티 데블과 같음(상대만 특소 불가)"
+  },
+  "skill_drain": {
+   "rating": "critical",
+   "note_ko": "필드에서 처리하는 Dormouse ①(덱 제외)·White Rabbit 함정 세트·WHITE BINDER·위키드·백업 서치가 무효(qa-23257). '제외되면' 특소·회수는 제외 상태에서 발동해 막지 못하고(qa-15808), HEARTS OF CRYPTER ①은 링크처에 몬스터가 있으면 무효되지 않는다(qa-23275). 세트해 뒀다면 Dormouse ①·White Rabbit 유발에 체인",
+   "rulings": [
+    "qa-23257",
+    "qa-15808",
+    "qa-23275"
+   ]
+  },
+  "mistake": {
+   "rating": "ok",
+   "note_ko": "덱에서 패에 넣는 건 [[Cyberse Wicckid]](`dormouse` 15)·[[Backup @Ignister]](`dormouse` 18)·[[Maliss C MTP-07]] 정도. Dormouse의 덱 제외, White Rabbit·WHITE BINDER의 덱 함정 세트, March Hare의 제외 상태 회수는 못 막는다",
+   "rulings": [
+    "qa-19975"
+   ]
+  },
+  "rivalry": {
+   "rating": "bad",
+   "note_ko": "M∀LICE·@이그니스터·[[Splash Mage]] 모두 사이버스족 한 종족이라 아무것도 안 막힌다"
+  },
+  "gozen": {
+   "rating": "ok",
+   "note_ko": "거의 어둠 단일이지만 [[Splash Mage]]만 물. 어둠 몬스터가 있으면 그걸 소재로 써도 스플래시 메이지를 링크 소환할 수 없어(qa-10427과 같은 원리) `dormouse` 7·`white-rabbit` 5가 막힌다. WHITE BINDER를 바로 내는 우회 루트가 있음",
+   "rulings": [
+    "qa-10427"
+   ]
+  },
+  "only_one": {
+   "rating": "critical",
+   "note_ko": "전부 사이버스족이라 몬스터를 1장밖에 못 둔다. 사이버스가 1장이라도 있으면 다른 사이버스 특소도, 사이버스 링크 소환도 할 수 없다(소재가 떠나는 것도 안 됨, qa-12759). Dormouse 일반 소환 뒤 White Rabbit 자신 특소(`dormouse` 3)부터 멈춘다",
+   "rulings": [
+    "qa-12759"
    ]
   }
  },
@@ -1060,6 +1543,10 @@
        {
         "id": "ttt",
         "note_ko": "어코드 토커·CRYPTER가 내 메인 페이즈에 효과를 쓴 뒤 발동. CRYPTER가 가리키는 몬스터(보통 어코드 토커)를 빼앗으면 무효 보호가 풀린다"
+       },
+       {
+        "id": "protos",
+        "note_ko": "어둠 선언으로 파괴(묘지행이라 부활 없음) + 다음 턴 끝까지 어둠 특소 불가. 어코드 토커 무효를 먼저 소모시킬 것. 위키드·Dormouse 링크처의 몬스터는 효과 파괴 내성"
        }
       ],
       "bait_ko": "링크처 보호 때문에 포영·감마로 발동을 무효하는 건 안 된다. 어코드 토커를 먼저 치우면 보호가 풀리는 배치가 많다.",
@@ -1098,6 +1585,10 @@
        {
         "id": "impulse",
         "note_ko": "특소 효과라 무효. 단 함정 발동이라 어코드 토커가 남아 있으면 무효당함"
+       },
+       {
+        "id": "protos",
+        "note_ko": "어둠 선언 뒤에는 다음 턴 끝까지 어둠 특소 불가라 GWC-06으로 M∀LICE를 소생할 수 없다(발동해도 처리 불가)"
        }
       ]
      },
@@ -1127,6 +1618,10 @@
        {
         "id": "impulse",
         "note_ko": "제외 상태에서의 자신 특소에 체인해 무효(1턴 1번이라 다시 못 씀)"
+       },
+       {
+        "id": "protos",
+        "note_ko": "어둠 선언으로 파괴(묘지행이라 부활 없음) + 다음 턴 끝까지 어둠 특소 불가. 어코드 토커 무효를 먼저 소모시킬 것. 위키드·Dormouse 링크처의 몬스터는 효과 파괴 내성"
        }
       ]
      }
@@ -1207,6 +1702,10 @@
        {
         "id": "impulse",
         "note_ko": "특소 효과라 무효. 단 함정 발동이라 어코드 토커가 남아 있으면 무효당함"
+       },
+       {
+        "id": "protos",
+        "note_ko": "어둠 선언 뒤에는 다음 턴 끝까지 어둠 특소 불가라 GWC-06으로 M∀LICE를 소생할 수 없다(발동해도 처리 불가)"
        }
       ]
      },
@@ -1236,6 +1735,10 @@
        {
         "id": "impulse",
         "note_ko": "제외 상태에서의 자신 특소에 체인해 무효(1턴 1번이라 다시 못 씀)"
+       },
+       {
+        "id": "protos",
+        "note_ko": "어둠 선언으로 파괴(묘지행이라 부활 없음) + 다음 턴 끝까지 어둠 특소 불가. 어코드 토커 무효를 먼저 소모시킬 것. 위키드·Dormouse 링크처의 몬스터는 효과 파괴 내성"
        }
       ]
      }
@@ -1313,6 +1816,10 @@
        {
         "id": "ttt",
         "note_ko": "어코드 토커·CRYPTER가 내 메인 페이즈에 효과를 쓴 뒤 발동. CRYPTER가 가리키는 몬스터(보통 어코드 토커)를 빼앗으면 무효 보호가 풀린다"
+       },
+       {
+        "id": "protos",
+        "note_ko": "어둠 선언으로 파괴(묘지행이라 부활 없음) + 다음 턴 끝까지 어둠 특소 불가. 어코드 토커 무효를 먼저 소모시킬 것. 위키드·Dormouse 링크처의 몬스터는 효과 파괴 내성"
        }
       ],
       "bait_ko": "링크처 보호 때문에 포영·감마로 발동을 무효하는 건 안 된다. 어코드 토커를 먼저 치우면 보호가 풀리는 배치가 많다.",
@@ -1351,6 +1858,10 @@
        {
         "id": "impulse",
         "note_ko": "특소 효과라 무효. 단 함정 발동이라 어코드 토커가 남아 있으면 무효당함"
+       },
+       {
+        "id": "protos",
+        "note_ko": "어둠 선언 뒤에는 다음 턴 끝까지 어둠 특소 불가라 GWC-06으로 M∀LICE를 소생할 수 없다(발동해도 처리 불가)"
        }
       ]
      },
@@ -1380,6 +1891,10 @@
        {
         "id": "impulse",
         "note_ko": "제외 상태에서의 자신 특소에 체인해 무효(1턴 1번이라 다시 못 씀)"
+       },
+       {
+        "id": "protos",
+        "note_ko": "어둠 선언으로 파괴(묘지행이라 부활 없음) + 다음 턴 끝까지 어둠 특소 불가. 어코드 토커 무효를 먼저 소모시킬 것. 위키드·Dormouse 링크처의 몬스터는 효과 파괴 내성"
        }
       ]
      }
@@ -1530,6 +2045,18 @@
    "nibiru": {
     "rating": "bad",
     "note_ko": "내 턴에 상대가 5번 소환하지 않음"
+   },
+   "protos": {
+    "rating": "strong",
+    "note_ko": "어둠 선언 → 어코드 토커·HEARTS OF CRYPTER·WHITE BINDER(모두 어둠) 파괴. 파괴라 묘지로 가서 '제외되면' 부활이 없고, 다음 턴 끝까지 어둠 특소 불가라 GWC-06 소생·다음 턴 전개까지 막힌다. 프로토스 효과는 몬스터 효과라 어코드 토커가 무효+제외할 수 있으니 미끼로 무효를 먼저 소모. [[Cyberse Wicckid]]·Dormouse 링크처의 사이버스는 효과 파괴 내성이 있다"
+   },
+   "dd_crow": {
+    "rating": "bad",
+    "note_ko": "묘지의 M∀LICE를 제외하면 '제외되면' 특소·회수를 켜 준다. GWC-06 대상(제외·묘지 둘 다 가능)도 못 지움"
+   },
+   "dim_barrier": {
+    "rating": "bad",
+    "note_ko": "엑스트라가 전부 링크라 선언할 종류가 없다"
    }
   },
   "sequencing_ko": [

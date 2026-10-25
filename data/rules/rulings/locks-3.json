@@ -1,0 +1,286 @@
+{
+ "sources": {
+  "konami-db-faq": {
+   "title": "遊戯王ニューロン（オフィシャルカードゲーム カードデータベース）カードに関連するQ&A・補足情報",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rules": [],
+ "rulings": [
+  {
+   "id": "qa-24189",
+   "fid": 24189,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24189&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Sky Striker Ace = Zero",
+    "There Can Be Only One",
+    "Gozen Match",
+    "Rivalry of Warlords",
+    "Sky Striker Ace - Raye",
+    "Sky Striker Ace - Roze"
+   ],
+   "handtraps": [
+    "only_one",
+    "gozen",
+    "rivalry"
+   ],
+   "themes": [
+    "sky-striker"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Sky Striker Ace = Zero]]의 ②(자신을 릴리스하고 레이·로제 특소 → 카드 1장 파괴)에 체인해 [[There Can Be Only One]]이나 [[Gozen Match]]를 발동하면 어떻게 되나? 이미 앞면이면 ②를 발동할 수 있나?",
+   "answer_ko": "체인한 경우 제로의 처리(레이·로제 특소, 그 뒤 카드 1장 파괴)를 모두 끝낸 다음, 센서 만별·어전시합이 적용 중이면 레이와 로제 중 1장을 묘지로 보내야 한다. 제로의 파괴로 그 함정을 깨면 둘 다 남는다. 어전시합이나 [[Rivalry of Warlords]]가 이미 적용 중이면 제로의 ②는 발동할 수 없고, 센서 만별이 이미 적용 중이어도 자기 몬스터 존에 앞면 전사족이 없으면 발동할 수 있다.",
+   "quote_ja": "すでに「御前試合」や「群雄割拠」の効果が適用されている状況で「閃刀姫＝ゼロ」の効果は発動できませんが、すでに「センサー万別」の効果が適用されている場合でも、自分のモンスターゾーンに戦士族モンスターが表側表示で１体も存在していなければ、「閃刀姫＝ゼロ」の効果を発動できます。",
+   "impact_ko": "군웅할거·어전시합이 앞면이면 제로의 상대 턴 퀵 효과(레이·로제 특소 + 파괴)가 봉인된다. 체인으로 늦게 발동하면 제로가 그 함정을 파괴할 수 있다."
+  },
+  {
+   "id": "qa-10427",
+   "fid": 10427,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=10427&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Gozen Match",
+    "Sky Striker Ace - Raye",
+    "Sky Striker Ace - Kagari",
+    "Prototype Sky Striker Ace - Amatsu"
+   ],
+   "handtraps": [
+    "gozen",
+    "rivalry"
+   ],
+   "themes": [
+    "sky-striker"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Gozen Match]] 적용 중 자기 몬스터가 [[Sky Striker Ace - Raye]] 1장뿐이면 [[Sky Striker Ace - Kagari]]를 특소(링크 소환·레이 효과)할 수 있나?",
+   "answer_ko": "레이를 링크 소재로 화염 속성인 카가리를 링크 소환할 수는 없다(어둠만 특소 가능). 다만 이번 턴 카가리와 어둠 속성 [[Prototype Sky Striker Ace - Amatsu]]를 아직 특소하지 않았고 엑스트라 덱에 아마츠가 있으면 레이의 ①을 발동할 수 있고, 코스트로 레이가 릴리스되어 필드에 어둠 몬스터가 없어지므로 결과적으로 카가리도 특소할 수 있다. 엑스트라 덱에 아마츠가 없으면 레이의 ①은 발동할 수 없다.",
+   "quote_ja": "「御前試合」の効果が適用されており、エクストラデッキに「試号閃刀姫－アマツ」が存在していない場合、「閃刀姫－レイ」の①の効果は発動できません。",
+   "impact_ko": "속성·종족 제한 함정 아래에서는 '발동 시점에 특소할 수 있는 후보'가 엑스트라에 있어야 레이 ①을 쓸 수 있다. 섬도는 어둠 링크(아마츠·지크)를 넣기 때문에 어전시합으로는 레이 → 제로를 못 막지만, 전사족 섬도희 링크가 없어 군웅할거에서는 레이 ①이 막힌다(같은 원리를 적용한 추론)."
+  },
+  {
+   "id": "qa-24181",
+   "fid": 24181,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24181&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Retaliating \"C\"",
+    "Sky Striker Mobilize - Linkage!"
+   ],
+   "handtraps": [
+    "retaliating_c",
+    "macro_cosmos",
+    "banisher",
+    "arise_heart"
+   ],
+   "themes": [
+    "sky-striker"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Sky Striker Mobilize - Linkage!]] 발동에 체인해 [[Retaliating \"C\"]]를 특소해 '묘지로 가는 카드는 제외' 효과가 적용되면 링케이지는 어떻게 처리되나?",
+   "answer_ko": "엑스트라 몬스터 존의 자기 몬스터가 묘지 대신 제외되고, '묘지로 보내고' 처리에 성공하지 않았으므로 섬도희를 특소하는 처리는 하지 않는다. 링케이지의 발동·효과 자체는 무효가 아니라서 '이후 섬도희만 엑스트라 특소 가능' 제약은 적용되고, 링케이지도 제외된다.",
+   "quote_ja": "結果的に『自分フィールドの他のカード１枚を墓地へ送り』の処理に成功していませんので、『EXデッキから「閃刀姫」モンスター１体をEXモンスターゾーンに特殊召喚する』処理は行われません。",
+   "impact_ko": "응전의 G는 링케이지 카드 발동에 직접 체인할 수 있고(특소를 포함한 마법), 그러면 제로만 제외되고 새 링크는 나오지 않는다. 매크로 코스모스 등 같은 '묘지 대신 제외' 효과가 앞면이어도 링케이지는 빈 카드가 된다."
+  },
+  {
+   "id": "qa-15449",
+   "fid": 15449,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=15449&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Retaliating \"C\""
+   ],
+   "handtraps": [
+    "retaliating_c"
+   ],
+   "themes": [
+    "sky-striker",
+    "railway"
+   ],
+   "topic": "chain",
+   "question_ko": "패의 [[Retaliating \"C\"]] ①은 어떤 경우에 발동할 수 있나?",
+   "answer_ko": "몬스터를 특소하는 처리를 포함한 마법 카드의 '카드 발동'에 직접 체인해 발동한다. 발동 뒤에 특소 효과를 따로 발동하는 마법(필드에 남아 나중에 특소 효과를 쓰는 카드)의 그 효과 발동이나, 카드 발동 시점에 특소를 포함하지 않는 마법에는 쓸 수 없다.",
+   "quote_ja": "モンスターを特殊召喚する効果処理を含む魔法カードのカードの発動に直接チェーンして発動する効果です。",
+   "impact_ko": "섬도의 [[Sky Striker Mobilize - Linkage!]]·[[Sky Striker Mecha - Hornet Drones]], 레일웨이의 [[Exceptional Schedule]](토큰 특소 포함)·[[Urgent Schedule]] 발동에 쓸 수 있다. [[Sky Striker Mobilize - Engage!]]·[[Subspace Battle]]·[[Revolving Switchyard]]에는 못 쓴다."
+  },
+  {
+   "id": "qa-12759",
+   "fid": 12759,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12759&request_locale=ja",
+   "official": true,
+   "cards": [
+    "There Can Be Only One"
+   ],
+   "handtraps": [
+    "only_one"
+   ],
+   "themes": [
+    "maliss",
+    "railway"
+   ],
+   "topic": "summon",
+   "question_ko": "[[There Can Be Only One]] 적용 중, 필드의 전사족과 기계족 몬스터 2장을 소재로 전사족 링크 몬스터를 링크 소환할 수 있나?",
+   "answer_ko": "할 수 없다. 센서 만별이 적용 중이면 자기 몬스터 존에 앞면으로 있는 몬스터와 같은 종족의 몬스터를 링크 소환하는 것 자체를 할 수 없다(소재로 떠날 몬스터도 포함).",
+   "quote_ja": "自身のモンスターゾーンに表側表示で存在するモンスターと同じ種族のモンスターのリンク召喚を行う事自体ができません。",
+   "impact_ko": "사이버스만 쓰는 M∀LICE, 기계족만 쓰는 레일웨이는 필드에 몬스터가 1장이라도 있으면 같은 종족 링크를 아예 못 낸다. 소재가 떠나는 것을 계산에 넣어도 안 된다."
+  },
+  {
+   "id": "qa-8773",
+   "fid": 8773,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=8773&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Rivalry of Warlords"
+   ],
+   "handtraps": [
+    "rivalry"
+   ],
+   "themes": [
+    "sky-striker"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Rivalry of Warlords]] 적용 중 자기 필드에 전사족이 있으면 다른 종족 몬스터를 소환·특소할 수 있나?",
+   "answer_ko": "할 수 없다. 다른 종족 몬스터를 특소하는 카드를 발동하는 것도 할 수 없다. 뒷면이던 다른 종족 몬스터가 앞면이 되면 묘지로 보내진다.",
+   "quote_ja": "戦士族以外のモンスターを特殊召喚するようなカードを発動する事もできません。",
+   "impact_ko": "섬도희 몸(레이·로제·섬도희 토큰)은 전사족, 링크(제로·카가리·시즈쿠 등)는 전부 기계족이라 군웅할거 아래에서는 레이 ①·링크 소환이 막힌다."
+  },
+  {
+   "id": "qa-19975",
+   "fid": 19975,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=19975&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mistake"
+   ],
+   "handtraps": [
+    "mistake"
+   ],
+   "themes": [
+    "sky-striker",
+    "maliss",
+    "railway"
+   ],
+   "topic": "chain",
+   "question_ko": "몬스터의 서치 유발 효과 발동에 체인해 [[Mistake]]를 발동하면 어떻게 되나?",
+   "answer_ko": "미스테이크가 먼저 처리되어 '서로 드로우 이외로 덱에서 패에 넣을 수 없다'가 적용된 상태에서 서치 효과를 처리하므로, 덱에서 카드를 고르는 것 자체를 하지 않는다. 발동한 효과에 붙은 다른 제약(그 뒤 세트 불가 등)은 그대로 적용된다. 미스테이크가 이미 앞면이면 서치만 하는 카드는 발동 자체를 할 수 없다(qa-22433).",
+   "quote_ja": "「手違い」の効果によって、デッキからカードを手札に加える事ができなくなっていますので、…デッキから「アンティーク・ギア」と名のついたカードを手札に加える事はできません。",
+   "impact_ko": "미스테이크는 서치 효과 발동에 체인해도 그 서치를 막는다. 미리 앞면으로 두면 서치 카드 발동 자체를 막아 카드가 패에 남는다."
+  },
+  {
+   "id": "qa-14540",
+   "fid": 14540,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=14540&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Macro Cosmos",
+    "Retaliating \"C\"",
+    "Kashtira Arise-Heart",
+    "Forbidden Droplet",
+    "Revolving Switchyard",
+    "Maxx \"C\""
+   ],
+   "handtraps": [
+    "macro_cosmos",
+    "retaliating_c",
+    "arise_heart",
+    "banisher"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "cost",
+   "question_ko": "[[Retaliating \"C\"]]·[[Macro Cosmos]]·[[Kashtira Arise-Heart]] 등의 '묘지로 가는 카드는 제외' 효과가 적용 중일 때 [[Forbidden Droplet]]을 발동할 수 있나?",
+   "answer_ko": "발동할 수 없다. 묘지로 보낼 카드가 제외되어 코스트로 묘지에 보낼 수 없기 때문이다. 같은 이유로 [[Maxx \"C\"]], [[Revolving Switchyard]]의 ② 등 '묘지로 보내는 것'이 코스트인 효과도 발동할 수 없다.",
+   "quote_ja": "墓地へ送られるカードが除外されてしまい、コストとしてカードを墓地へ送ることができないためです。…「転回操車」②",
+   "impact_ko": "레일웨이의 후공 돌파 핵심인 [[Forbidden Droplet]](3장)과 [[Revolving Switchyard]] ② 서치가 매크로 코스모스·섬광의 추방자·응전의 G 앞에서는 발동조차 안 된다."
+  },
+  {
+   "id": "qa-23810",
+   "fid": 23810,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23810&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Macro Cosmos",
+    "Herald of the Arc Light"
+   ],
+   "handtraps": [
+    "macro_cosmos",
+    "herald",
+    "arise_heart",
+    "banisher"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "misc",
+   "question_ko": "'묘지로 가는 카드는 제외' 효과([[Macro Cosmos]] 등)나 '패·덱에서 묘지로 가는 몬스터는 제외' 효과([[Herald of the Arc Light]]) 적용 중에 '카드를 묘지로 보내고 그 뒤 특소'하는 효과를 쓰면?",
+   "answer_ko": "효과는 발동할 수 있다. 다만 처리 시 묘지로 보낼 카드가 묘지 대신 제외되면 거기서 처리를 마치고, 뒤의 특소 처리는 하지 않는다.",
+   "quote_ja": "処理時に墓地へ送られる…モンスターが墓地へ行かずに除外された場合にはそこで処理を完了することになり、「ブラックフェザー・ドラゴン」を特殊召喚する処理は行われません。",
+   "impact_ko": "레일웨이 [[Exceptional Schedule]] 묘지 효과(자기 카드 1장을 묘지로 보내고 레벨 10 소생)도 같은 구조라 매크로 코스모스 아래에서는 소생까지 이어지지 않는다(같은 원리 적용)."
+  },
+  {
+   "id": "qa-23257",
+   "fid": 23257,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23257&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Skill Drain"
+   ],
+   "handtraps": [
+    "skill_drain"
+   ],
+   "themes": [
+    "sky-striker",
+    "maliss",
+    "railway"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Skill Drain]] 적용 중에 필드의 몬스터는 효과를 발동할 수 있나? 무효가 되는 조건은?",
+   "answer_ko": "발동할 수 있다. 다만 그 효과를 처리할 때 스킬 드레인이 적용 중이고 효과를 발동한 몬스터도 필드에 있으면 그 효과는 무효가 된다. 반대로 처리 시 그 몬스터가 필드에 없으면 무효가 되지 않는다.",
+   "quote_ja": "発動した効果の処理時に「スキルドレイン」の効果が適用されており、効果を発動したモンスターもフィールドに存在する場合、その効果は無効化され処理を適用することはできません。",
+   "impact_ko": "[[Sky Striker Ace - Raye]] ①·[[Sky Striker Ace = Zero]] ②처럼 자신을 릴리스해 발동한 효과는 스킬 드레인으로 막히지 않는다. 필드에 남아서 처리하는 제로 서치·리사이클러 덤핑·Dormouse 덱 제외는 무효가 된다."
+  },
+  {
+   "id": "qa-15808",
+   "fid": 15808,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=15808&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Skill Drain"
+   ],
+   "handtraps": [
+    "skill_drain"
+   ],
+   "themes": [
+    "maliss"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Skill Drain]] 적용 중, 엑스트라 덱이나 제외 상태가 된 뒤 발동하는 몬스터 효과는 무효가 되나?",
+   "answer_ko": "무효가 되지 않는다. 필드에서 발동하는 효과가 아니므로(엑스트라 덱에 앞면으로 간 뒤나 제외된 뒤 발동) 스킬 드레인으로는 무효로 할 수 없다.",
+   "quote_ja": "除外された際に効果を発動する事になります。したがって、「魔装戦士 ドラゴディウス」のモンスター効果は「スキルドレイン」によって無効にはなりません。",
+   "impact_ko": "M∀LICE의 '제외된 경우 자신 특소·회수' 효과는 제외 상태에서 발동하므로 스킬 드레인이 못 막는다. 막히는 것은 필드에서 처리하는 Dormouse ①·White Rabbit 함정 세트·WHITE BINDER·위키드·백업 등."
+  },
+  {
+   "id": "qa-23897",
+   "fid": 23897,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23897&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Skill Drain"
+   ],
+   "handtraps": [
+    "skill_drain"
+   ],
+   "themes": [
+    "railway"
+   ],
+   "topic": "negate",
+   "question_ko": "'다른 카드의 효과를 받지 않는다'·'함정 효과를 받지 않는다' 몬스터는 [[Skill Drain]]의 영향을 받나?",
+   "answer_ko": "스킬 드레인 적용 중에 특소된 경우 그 내성 효과 자체가 스킬 드레인으로 무효가 된다. 이미 필드에 있는 상태에서 스킬 드레인이 발동했다면 내성이 그대로 적용되어 스킬 드레인을 받지 않는다.",
+   "quote_ja": "「スキルドレイン」の適用中に、…特殊召喚された場合、『③：このカードは他のカードの効果を受けない』効果は「スキルドレイン」によって無効になります。",
+   "impact_ko": "레일웨이의 [[Qliphort Genius]](마법·함정 효과를 받지 않음)도 스킬 드레인이 먼저 앞면이면 소환되자마자 내성째 무효가 된다고 보는 게 맞다(같은 원리 적용). 반대로 게니우스가 나온 뒤 발동한 스킬 드레인은 게니우스에 듣지 않는다."
+  }
+ ]
+}

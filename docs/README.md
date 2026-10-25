@@ -13,11 +13,12 @@
 | [둠즈 (DoomZ)](doomz.md) | 2.9% | 초안 | 우라라 → 감옥신기Doom－Z<br>포영 → 둠즈Ⅶ－엘라라<br>우라라 → 둠즈ⅩⅢ－그라플레이오 |
 | [마기스토스 (Magistus)](magistus.md) | 2.8% | 초안 | 우라라 → 페어리테일－위캣<br>우라라 → 페어리테일－카구야<br>포영 → 마기스토스 플레임 조로아 |
 | [미츠루기 (Mitsurugi)](mitsurugi.md) | 2.6% | 초안 | 우라라 → 아메노하바키리노미츠루기<br>드롤 → 미츠루기노미코토 사지<br>우라라 → 의식의 밑준비 |
-| [VS K9 (Vanquish Soul K9)](vanquish-soul-k9.md) | 2.4% | 초안 | 포영 → VS 라젠 |
+| [VS K9 (Vanquish Soul K9)](vanquish-soul-k9.md) | 2.4% | 초안 | 포영 → VS 라젠<br>아크 디클레어러 → VS 라젠<br>아크 디클레어러 → K9－66a호 요쿨 |
 | [아르토메기아 (Artmage)](artmage.md) | 2.3% | 초안 | 우라라 → 무구한 자 메디우스<br>우라라 → 절해한 감옥신문－테르미나스<br>포영 → 무구한 자 메디우스 |
 | [레드 데몬즈 (Red Dragon Archfiend)](red-dragon-archfiend.md) | 1.9% | 초안 | 우라라 → 파워 바이스 드래곤<br>포영 → 파워 바이스 드래곤<br>드롤 → 파워 바이스 드래곤 |
 | [죄보 (Sinful Spoils)](sinful-spoils.md) | 1.1% | 초안 | 드롤 → 하얀 숲의 리제트<br>우라라 → “죄보사냥의 악마”<br>우라라 → 하얀 숲의 리제트 |
 | [열차 (Railway)](railway.md) | 0.7% | 초안 | 우라라 → 스크랩 리사이클러<br>포영 → 스크랩 리사이클러<br>와라시 → 야광열차 블루트래블러 |
 | [메멘토 (Memento)](memento.md) | 0.1% | 초안 | 우라라 → 메멘토 엔위치<br>증G → 메멘토 씨호스<br>우라라 → 메멘토 씨호스 |
+| [아모르파지 (Amorphage)](amorphage.md) | 0.0% | 초안 | 드롤 → Performapal Skullcrobat Joker<br>우라라 → Performapal Skullcrobat Joker<br>포영 → Performapal Skullcrobat Joker |
 
 [패트랩 사전](handtraps.md)
