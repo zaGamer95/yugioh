@@ -344,7 +344,9 @@ def main():
                 if bad:
                     sys.exit(f"{f.name}: unknown effect class {bad}")
         lines = {l["id"]: l for l in t.get("lines", [])}
-        hits = {h["id"]: set(h["hits"]) for h in ht}
+        # 지속형 봉쇄(차원계·소환 제한)와 아무 때나 미리 던지는 증G류는 '그 단계 효과를 맞히는' 카드가 아니라 검사하지 않는다
+        free = {"maxxc", "fuwalos", "purulia", "meowls"}
+        hits = {h["id"]: set(h["hits"]) for h in ht if h["kind"] not in ("dimension", "summon_lock") and h["id"] not in free}
         for c in t.get("chokepoints", []):
             line, step = lines.get(c.get("line")), c.get("step")
             if c["severity"] == "bad" or not line or not step:

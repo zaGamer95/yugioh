@@ -1,0 +1,1068 @@
+{
+ "slug": "radiant-typhoon",
+ "kind": "engine",
+ "name": {
+  "en": "Radiant Typhoon engine",
+  "ko": "현람 엔진"
+ },
+ "mdm_names": [
+  "Radiant Typhoon Vision",
+  "Radiant Typhoon Eldam",
+  "Radiant Typhoon"
+ ],
+ "status": "draft",
+ "updated": "2026-10-25",
+ "cover": "Radiant Typhoon Vision",
+ "overview_ko": "레벨 3 바람 몬스터 [[Radiant Typhoon Eldam]]·[[Radiant Typhoon Swen]]과 현람 속공 마법([[Radiant Typhoon Vision]]·[[Radiant Typhoon Chant]]), [[Mystical Space Typhoon]]으로 이루어진 5~9장짜리 출장 엔진. 엘담·스엔은 상대 필드에 마함이 없거나(선공) 자신 묘지에 싸이크론이 있으면 패에서 체인 없이 특소되고, 소환 시 서로를 서치하거나 현람 마함·싸이크론을 서치한다. 일반 소환권을 쓰지 않고 레벨 3 몸 2장 + 서치 2번 + 견신 2드로우를 메인에 넘기는 것이 핵심이다. M∀LICE는 레벨 3 2장으로 [[Cherubini, Ebon Angel of the Burning Abyss]]를 만들어 레벨 3 M∀LICE를 묘지로 보내고(메인의 제외 유발 재료), 섬도는 견신·헌영을 '묘지 마법 수'와 드로우로 쓴다. 현람 속공 마법은 싸이크론으로 파괴되면 다시 세트되는 고리가 있어, 상대가 싸이크론으로 처리하면 손해다. 패트랩 타이밍은 엘담·스엔의 소환 유발 서치에 모인다(패 특소 자체는 체인이 안 생김). MD 제한: 엘담·헌영 제한 2, 견신 제한 1.",
+ "starters": [
+  "Radiant Typhoon Eldam",
+  "Radiant Typhoon Swen",
+  "Radiant Typhoon Chant"
+ ],
+ "provides_ko": [
+  "레벨 3 바람 몬스터 2장(엘담 야수족·스엔 야수전사족): 일반 소환권을 쓰지 않는 링크 소재. M∀LICE는 [[Cherubini, Ebon Angel of the Burning Abyss]], 섬도는 [[S:P Little Knight]](추정)",
+  "케루비니의 덱 송출: 레벨 3 M∀LICE 몬스터를 묘지로 → 메인이 제외해 '제외되었을 경우' 효과 사용",
+  "[[Radiant Typhoon Vision]] 2드로우(현람 카드·속공 마법 1장 버림) 또는 싸이크론 서치, [[Radiant Typhoon Chant]] 현람 몬스터 서치",
+  "묘지의 마법 수(섬도 인게이지 드로우·위도우앵커 탈취 조건), 후공 때 싸이크론으로 상대 마함 1장 제거 + 엘담·스엔 특소 조건"
+ ],
+ "restrictions": [
+  {
+   "card": "Radiant Typhoon Eldam",
+   "text_ko": "패 특소는 '상대 필드에 마함이 없음' 또는 '자신 묘지에 싸이크론'일 때만, 1턴 1번",
+   "hits_main_ko": "선공 1턴에는 자유. 후공에서는 싸이크론을 먼저 써야 한다"
+  },
+  {
+   "card": "Radiant Typhoon Vision",
+   "text_ko": "2드로우 후 현람 카드나 속공 마법 1장을 버린다. 없으면 패를 전부 버린다",
+   "hits_main_ko": "M∀LICE는 현람 카드를 남겨 두어야 하고, 섬도는 섬도 속공 마법을 버려 묘지 마법 수를 늘린다"
+  },
+  {
+   "card": "Radiant Typhoon Krosea",
+   "text_ko": "서치 후 이번 턴 바람 몬스터만 특소 가능",
+   "hits_main_ko": "어둠 M∀LICE·섬도와 같이 쓸 수 없어 출장 구성에는 거의 안 들어간다(M∀LICE 0%, 섬도 0%)"
+  }
+ ],
+ "lines": [
+  {
+   "id": "eldam",
+   "title_ko": "엘담 1장 → 스엔 → 견신 → 레벨 3 2장 링크 (일반 소환권 보존)",
+   "hand": [
+    "Radiant Typhoon Eldam"
+   ],
+   "note_ko": "선공이면 상대 필드에 마함이 없으므로 엘담·스엔을 패에서 그냥 특소할 수 있다(체인이 생기지 않는 소환). 일반 소환권을 쓰지 않고 몸 2장 + 서치 2번 + 드로우를 메인에 넘기는 것이 이 엔진의 역할. 6단계 링크는 호스트에 따라 다르다: M∀LICE는 레벨 3 2장으로 [[Cherubini, Ebon Angel of the Burning Abyss]](MDM 덱 설명 'Any RT starter will get you into Cherubini for full Maliss combo'), 섬도는 [[S:P Little Knight]](엑스트라 몬스터 존으로 보내 메인 몬스터 존을 비운다는 추정). 7단계 케루비니 송출은 M∀LICE 전용.",
+   "steps": [
+    {
+     "card": "Radiant Typhoon Eldam",
+     "action_ko": "패에서 특소(상대 필드에 마함이 없거나 내 묘지에 싸이크론이 있을 때, 체인 없는 소환)",
+     "class": [
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Radiant Typhoon Eldam",
+     "action_ko": "소환 유발: 덱에서 엘담 이외의 현람 몬스터 또는 [[Mystical Space Typhoon]] 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Radiant Typhoon Swen]] 서치"
+    },
+    {
+     "card": "Radiant Typhoon Swen",
+     "action_ko": "패에서 특소(같은 조건)",
+     "class": [
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Radiant Typhoon Swen",
+     "action_ko": "소환 유발: 덱에서 현람 마함 또는 [[Mystical Space Typhoon]] 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Radiant Typhoon Vision]](또는 [[Radiant Typhoon Chant]]·싸이크론) 서치"
+    },
+    {
+     "card": "Radiant Typhoon Vision",
+     "action_ko": "속공 마법 발동(●2장 드로우): 2장 뽑은 뒤 패의 현람 카드나 속공 마법 1장을 버린다(없으면 패 전부)",
+     "class": [
+      "spell_trap_activation",
+      "draw"
+     ],
+     "result_ko": "2장 드로우 + 현람 카드/속공 마법 1장 묘지. 묘지의 마법 수가 늘어난다"
+    },
+    {
+     "card": "Cherubini, Ebon Angel of the Burning Abyss",
+     "action_ko": "엘담 + 스엔(레벨 3 2장)으로 링크 소환 (섬도는 [[S:P Little Knight]])",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": "링크 2 1장 + 일반 소환권 남음"
+    },
+    {
+     "card": "Cherubini, Ebon Angel of the Burning Abyss",
+     "action_ko": "효과: 덱에서 레벨 3 몬스터 1장을 묘지로 보낸다(그 뒤의 '피안' 몬스터 공격력 상승은 대상이 없으면 적용할 것이 없다. 피안 몬스터 없이 송출만 쓰는 것은 커뮤니티 덱 설명 기준이며 공식 Q&A는 미확인)",
+     "class": [
+      "monster_effect_field",
+      "send_from_deck"
+     ],
+     "result_ko": "M∀LICE 레벨 3 몬스터 묘지 → 메인 콤보에서 제외해 유발"
+    }
+   ],
+   "end_board": [
+    "Cherubini, Ebon Angel of the Burning Abyss"
+   ],
+   "end_board_note_ko": "엔진이 넘기는 것: 링크 2 1장(케루비니 또는 리틀나이트), 일반 소환권, 견신 2드로우, 묘지의 레벨 3 몬스터(케루비니). 엘담·스엔은 소재로 묘지에."
+  },
+  {
+   "id": "swen",
+   "title_ko": "스엔 1장 → 헌영 → 엘담 (스엔 초동)",
+   "hand": [
+    "Radiant Typhoon Swen"
+   ],
+   "note_ko": "스엔이 [[Radiant Typhoon Chant]]를 서치하고, 헌영의 ●'덱에서 레벨 4 이하 현람 몬스터 서치'로 엘담을 가져와 eldam 라인과 같은 몸 2장을 만든다. 헌영은 제한 2, 엘담은 제한 2, 견신은 제한 1. 엘담 서치는 싸이크론 또는 현람 몬스터.",
+   "steps": [
+    {
+     "card": "Radiant Typhoon Swen",
+     "action_ko": "패에서 특소(상대 필드에 마함이 없을 때)",
+     "class": [
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Radiant Typhoon Swen",
+     "action_ko": "소환 유발: 덱에서 현람 마함 또는 싸이크론 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Radiant Typhoon Chant]] 서치"
+    },
+    {
+     "card": "Radiant Typhoon Chant",
+     "action_ko": "속공 마법 발동(●덱에서 레벨 4 이하 현람 몬스터 서치)",
+     "class": [
+      "spell_trap_activation",
+      "search"
+     ],
+     "result_ko": "[[Radiant Typhoon Eldam]] 서치"
+    },
+    {
+     "card": "Radiant Typhoon Eldam",
+     "action_ko": "패에서 특소",
+     "class": [
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Radiant Typhoon Eldam",
+     "action_ko": "소환 유발: 현람 몬스터 또는 싸이크론 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Mystical Space Typhoon]] 서치(후공 대비·견신 재세트용)"
+    },
+    {
+     "card": "Cherubini, Ebon Angel of the Burning Abyss",
+     "action_ko": "스엔 + 엘담으로 링크 소환 (섬도는 [[S:P Little Knight]])",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": "eldam 라인 6단계와 같다"
+    }
+   ],
+   "end_board": [
+    "Cherubini, Ebon Angel of the Burning Abyss"
+   ],
+   "end_board_note_ko": "eldam 라인과 같은 결과에 패의 싸이크론이 더해진다."
+  },
+  {
+   "id": "mst_loop",
+   "title_ko": "후공·상대 턴: 싸이크론 → 현람 속공 재세트 → 엘담 조건 충족",
+   "hand": [
+    "Mystical Space Typhoon",
+    "Radiant Typhoon Eldam"
+   ],
+   "note_ko": "현람 속공 마법(견신·헌영 등)은 '[[Mystical Space Typhoon]]의 효과로 파괴되면' 자신을 다시 세트한다(공식 보충: 체인 블록을 만드는 효과, 묘지에서 발동). 싸이크론이 묘지에 있으면 상대 필드에 마함이 있어도 엘담·스엔을 패에서 특소할 수 있어 후공에서도 엔진이 돈다. 다시 세트한 속공 마법은 세트한 턴에는 발동할 수 없다.",
+   "steps": [
+    {
+     "card": "Mystical Space Typhoon",
+     "action_ko": "발동: 상대의 세트 카드, 또는 자신의 세트된 현람 속공 마법을 파괴",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": "싸이크론 묘지"
+    },
+    {
+     "card": "Radiant Typhoon Vision",
+     "action_ko": "싸이크론으로 파괴된 경우(묘지에서 유발): 이 카드를 다시 세트",
+     "class": [],
+     "result_ko": "다음 내 턴(또는 상대 턴)에 다시 발동"
+    },
+    {
+     "card": "Radiant Typhoon Eldam",
+     "action_ko": "묘지에 싸이크론이 있으므로 상대 필드에 마함이 있어도 패에서 특소",
+     "class": [
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Radiant Typhoon Eldam",
+     "action_ko": "소환 유발: 현람 몬스터 또는 싸이크론 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Radiant Typhoon Swen]] 서치 → eldam 라인 3단계로"
+    }
+   ],
+   "end_board": [
+    "Radiant Typhoon Eldam"
+   ],
+   "end_board_note_ko": "후공에서 상대 마함 1장을 지우면서 엔진을 시작한다. 재세트한 견신은 다음 턴 2드로우 또는 싸이크론 회수."
+  }
+ ],
+ "chokepoints": [
+  {
+   "handtrap": "ash",
+   "severity": "critical",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "[[Radiant Typhoon Eldam]]의 소환 유발(현람 몬스터/싸이크론 서치)에 체인",
+   "why_ko": "엘담의 패 특소는 체인이 생기지 않는 소환이라 막을 수 없고, 막을 수 있는 첫 지점이 이 서치다. 스엔이 안 오면 레벨 3이 1장뿐이라 케루비니·리틀나이트가 안 나오고 견신·헌영 서치도 없다.",
+   "fallback_ko": "엘담은 몸으로 남는다. 일반 소환권이 있으니 호스트의 레벨 3(M∀LICE)과 링크는 가능.",
+   "rulings": [
+    "supp-21779"
+   ]
+  },
+  {
+   "handtrap": "ash",
+   "severity": "critical",
+   "line": "swen",
+   "step": 2,
+   "target_card": "Radiant Typhoon Swen",
+   "timing_ko": "[[Radiant Typhoon Swen]]의 소환 유발(현람 마함/싸이크론 서치)에 체인",
+   "why_ko": "스엔 초동은 헌영 → 엘담으로 이어지므로 이 서치를 막으면 몸이 스엔 1장에서 멈춘다.",
+   "fallback_ko": "",
+   "rulings": [
+    "supp-21779"
+   ]
+  },
+  {
+   "handtrap": "imperm",
+   "severity": "critical",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "엘담 서치에 체인해 엘담을 대상으로(내 필드가 비어 있으면 패에서)",
+   "why_ko": "우라라와 같은 지점. 대상 무효라 체인 끝에 붙여도 된다. 엘담은 무효 상태로 링크 소재는 된다.",
+   "fallback_ko": "스엔이 패에 따로 있으면 재개."
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "critical",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "엘담 서치에 체인해 엘담을 대상으로(포영과 같은 지점)",
+   "why_ko": "상대 메인 페이즈라 그대로 쓸 수 있다. 엔진에 몬스터 효과 무효를 막는 카드가 없다.",
+   "fallback_ko": "",
+   "rulings": [
+    "supp-8933"
+   ]
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "내 필드에 몬스터가 없을 때 엘담 서치에 바로 체인",
+   "why_ko": "발동 무효 + 엘담 파괴. 서치도 몸도 사라져 링크가 안 나온다. 엘담의 서치는 1턴 1번이라 다시 못 쓴다.",
+   "fallback_ko": "",
+   "rulings": [
+    "qa-23949"
+   ]
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "critical",
+   "line": "eldam",
+   "step": 1,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "엘담이 패에서 특소된 직후 엘담을 대상으로",
+   "why_ko": "엘담 서치는 소환 시 유발이라 같은 타이밍에 체인 1로 먼저 올라가고, 사요 시구레가 체인 2로 먼저 처리되어 엘담이 무효 → 체인 1의 서치도 무효로 처리된다. 엘담이 이번 턴 필드를 떠나면(링크 소재 등) 상대가 원래 공격력만큼 데미지를 받는다.",
+   "fallback_ko": "",
+   "rulings": [
+    "supp-15022"
+   ]
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "엘담 서치(체인 1 단독)에 직접 체인. 엘담이 필드에 있어 패에서 발동 가능",
+   "why_ko": "우라라와 같은 지점. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 발동할 수 없다.",
+   "fallback_ko": "헌영 발동(swen 3단계)도 서치라 같은 방식으로 쓸 수 있다.",
+   "rulings": [
+    "supp-20257"
+   ]
+  },
+  {
+   "handtrap": "purge",
+   "severity": "strong",
+   "line": "swen",
+   "step": 3,
+   "target_card": "Radiant Typhoon Chant",
+   "timing_ko": "[[Radiant Typhoon Chant]]의 발동(●현람 몬스터 서치)에 직접 체인",
+   "why_ko": "헌영이 필드에 놓여 있어 패에서 발동할 수 있다. 엘담이 안 와서 스엔 1장에서 멈춘다.",
+   "fallback_ko": "",
+   "rulings": [
+    "supp-20257"
+   ]
+  },
+  {
+   "handtrap": "droll",
+   "severity": "strong",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "엘담 서치(스엔)가 처리된 직후",
+   "why_ko": "스엔 서치, 견신 2드로우, 헌영 서치, 싸이크론 회수가 전부 막힌다. 엘담·스엔의 패 특소는 막지 못하지만 엔진의 가치(서치·드로우)가 거의 사라진다. 섬도 호스트라면 인게이지 서치까지 함께 막혀 가장 아프다.",
+   "fallback_ko": "",
+   "rulings": [
+    "qa-12797"
+   ]
+  },
+  {
+   "handtrap": "maxxc",
+   "severity": "strong",
+   "line": "eldam",
+   "step": 1,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "엘담의 패 특소는 체인이 생기지 않으므로 상대 스탠바이 페이즈에 미리, 또는 첫 서치에 체인",
+   "why_ko": "엔진만으로 특소 3번(엘담·스엔·링크). M∀LICE 호스트라면 이후 링크 전개가 길어 드로우가 많다.",
+   "fallback_ko": "멈추면 링크 1장 + 서치한 카드로 턴을 넘긴다."
+  },
+  {
+   "handtrap": "purulia",
+   "severity": "strong",
+   "line": "eldam",
+   "step": 1,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "엘담 특소 전에 미리(내 필드에 카드가 없을 때)",
+   "why_ko": "엘담·스엔이 둘 다 '패에서 특소'라 각각 1장 드로우. 남은 일반 소환권(M∀LICE·섬도 레이)까지 센다.",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "crown",
+   "severity": "strong",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "세트해 둔 성관을 엘담 서치에 체인, 처리 시 엘담을 고른다",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 서치가 무효가 되고 엘담은 이번 턴 링크 소재가 될 수 없어 링크 2가 안 나온다. 몬스터 효과로 체인할 수 없다.",
+   "fallback_ko": "",
+   "rulings": [
+    "supp-22169",
+    "quickplay-set-timing"
+   ]
+  },
+  {
+   "handtrap": "ash",
+   "severity": "strong",
+   "line": "eldam",
+   "step": 5,
+   "target_card": "Radiant Typhoon Vision",
+   "timing_ko": "[[Radiant Typhoon Vision]]의 ●2장 드로우 발동에 체인",
+   "why_ko": "견신은 발동할 때 ●를 하나 골라 그 효과로 발동한다(공식 보충). 2장 드로우도, 싸이크론 서치(덱·묘지)도 덱에서 패에 넣으므로 우라라 대상. 엘담 서치에 우라라를 못 썼을 때의 차선.",
+   "fallback_ko": "",
+   "rulings": [
+    "supp-21829",
+    "qa-24163"
+   ]
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "엘담 서치(체인 1 단독)에 직접 체인해 싱크로 5장 공개 → 엘담 파괴",
+   "why_ko": "서치는 처리되지만 엘담이 사라져 레벨 3이 1장만 남는다. 하르모니아는 싱크로 덱 전용.",
+   "fallback_ko": "스엔 + 호스트의 레벨 3으로 링크는 할 수 있다.",
+   "rulings": [
+    "supp-22533"
+   ]
+  },
+  {
+   "handtrap": "ogre",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "엘담이 서치 효과를 발동했을 때",
+   "why_ko": "무효가 아니라 파괴라 서치는 처리된다. 몸이 1장 줄어 링크 2가 늦어진다.",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "droplet",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "세트해 둔 일적을 엘담 서치에 체인",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 엘담이 무효가 되어 체인 위의 서치도 무효로 처리된다.",
+   "fallback_ko": "",
+   "rulings": [
+    "supp-15299",
+    "quickplay-set-timing"
+   ]
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "세트해 둔 카드를 엘담 서치에 체인해 엘담 파괴",
+   "why_ko": "세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 하르모니아와 같은 결과.",
+   "fallback_ko": "",
+   "rulings": [
+    "quickplay-set-timing"
+   ]
+  },
+  {
+   "handtrap": "ash",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 7,
+   "target_card": "Cherubini, Ebon Angel of the Burning Abyss",
+   "timing_ko": "[[Cherubini, Ebon Angel of the Burning Abyss]]의 덱 송출에 체인",
+   "why_ko": "M∀LICE 호스트에서 레벨 3 M∀LICE를 묘지로 보내는 연결을 끊는다. 엘담·스엔 서치를 놓쳤을 때의 마지막 엔진 지점이지만, M∀LICE 메인의 TB-11·위키드·백업 서치에 남겨 두는 편이 나은 경우가 많다.",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 1,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "앞면 [[Barrier Statue of the Abyss]]가 있을 때",
+   "why_ko": "현람 몬스터는 전부 바람이라 엘담·스엔을 특소할 수 없다(어둠 M∀LICE는 통과). 미리 내 필드에 앞면으로 있어야 적용된다(주로 내가 선공이었을 때). 후공 1턴째에는 쓸 수 없다.",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 1,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "앞면 [[Barrier Statue of the Heavens]]가 있을 때",
+   "why_ko": "빛 이외 특소 불가 → 현람(바람) 특소 불가. 미리 내 필드에 앞면으로 있어야 적용된다(주로 내가 선공이었을 때). 후공 1턴째에는 쓸 수 없다.",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 1,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "앞면 [[Barrier Statue of the Inferno]]가 있을 때",
+   "why_ko": "화염 이외 특소 불가 → 현람(바람) 특소 불가. 미리 내 필드에 앞면으로 있어야 적용된다(주로 내가 선공이었을 때). 후공 1턴째에는 쓸 수 없다.",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 1,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "앞면 [[Barrier Statue of the Torrent]]가 있을 때",
+   "why_ko": "물 이외 특소 불가 → 현람(바람) 특소 불가. 미리 내 필드에 앞면으로 있어야 적용된다(주로 내가 선공이었을 때). 후공 1턴째에는 쓸 수 없다.",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 1,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "앞면 [[Vanity's Fiend]]가 있을 때",
+   "why_ko": "특소 불가. 엘담·스엔은 일반 소환 1번만 가능해 몸이 1장으로 줄고 링크도 없다. 미리 내 필드에 앞면으로 있어야 적용된다(주로 내가 선공이었을 때). 후공 1턴째에는 쓸 수 없다.",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 1,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "앞면 [[Vanity's Ruler]]가 있을 때",
+   "why_ko": "배너티 데블과 같다. 미리 내 필드에 앞면으로 있어야 적용된다(주로 내가 선공이었을 때). 후공 1턴째에는 쓸 수 없다.",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "앞면 [[Skill Drain]] 아래에서 엘담 서치",
+   "why_ko": "필드의 엘담·스엔 서치가 무효. 견신·헌영(마법)은 막지 못한다. 미리 세트해 둔 경우에만 상대 턴에 발동할 수 있다(후공 1턴째에는 불가).",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "앞면 [[Mistake]]가 있을 때",
+   "why_ko": "엘담·스엔·헌영 서치와 싸이크론 회수가 모두 막힌다. 견신 2드로우는 '드로우'라 막지 못한다. 미리 세트해 둔 경우에만 상대 턴에 발동할 수 있다(후공 1턴째에는 불가).",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "앞면 [[Masked HERO Dark Law]]가 있을 때",
+   "why_ko": "서치할 때마다 패 1장 무작위 제외. 엔진은 서치 3번이라 패가 크게 준다. 미리 내 필드에 앞면으로 있어야 적용된다(주로 내가 선공이었을 때). 후공 1턴째에는 쓸 수 없다.",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "herald",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 2,
+   "target_card": "Radiant Typhoon Eldam",
+   "timing_ko": "앞면 [[Herald of the Arc Light]]가 엘담 서치에 자신을 릴리스해 발동 무효+파괴",
+   "why_ko": "엘담 서치를 1번 무효. 미리 내 필드에 앞면으로 있어야 적용된다(주로 내가 선공이었을 때). 후공 1턴째에는 쓸 수 없다.",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "ok",
+   "line": "eldam",
+   "step": 3,
+   "target_card": "Radiant Typhoon Swen",
+   "timing_ko": "앞면 [[Rivalry of Warlords]]가 있을 때 스엔 특소",
+   "why_ko": "엘담(야수족)과 스엔(야수전사족)은 종족이 달라 같이 설 수 없다. 레벨 3 2장 링크가 안 되고, 호스트(사이버스·전사족)와도 섞이지 않는다. 미리 세트해 둔 경우에만 상대 턴에 발동할 수 있다(후공 1턴째에는 불가).",
+   "fallback_ko": ""
+  },
+  {
+   "handtrap": "mst",
+   "severity": "bad",
+   "line": "eldam",
+   "step": 5,
+   "target_card": "Radiant Typhoon Vision",
+   "timing_ko": "상대가 세트한 현람 속공 마법(견신·헌영)을 싸이크론으로 파괴",
+   "why_ko": "현람 속공 마법은 싸이크론의 효과로 파괴되면 다시 세트된다(공식 보충). 게다가 세트 속공이라 체인해서 그대로 쓰고, 상대 묘지에 싸이크론까지 넣어 주는 셈이라 엘담·스엔의 특소 조건도 채워 준다. 현람 마함은 [[Cosmic Cyclone]]·[[Harpie's Feather Duster]] 등 싸이크론이 아닌 카드로 처리.",
+   "fallback_ko": "",
+   "rulings": [
+    "supp-21829",
+    "supp-21827"
+   ]
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "bad",
+   "line": "eldam",
+   "step": 7,
+   "target_card": "Cherubini, Ebon Angel of the Burning Abyss",
+   "timing_ko": "M∀LICE 호스트 상대로 매크로 코스모스·차원의 틈 등 '묘지 대신 제외'를 거는 것",
+   "why_ko": "케루비니가 보낸 M∀LICE 몬스터가 묘지 대신 제외되면 그대로 M∀LICE의 '제외되었을 경우' 효과를 준다. 현람 엔진 자체는 묘지를 거의 쓰지 않는다.",
+   "fallback_ko": ""
+  }
+ ],
+ "handtrap_summary": {
+  "ash": {
+   "rating": "critical",
+   "note_ko": "엘담·스엔의 소환 유발 서치(eldam·swen 2단계). 놓쳤으면 견신 2드로우나 헌영 서치. 엘담·스엔의 패 특소 자체는 체인이 안 생겨 못 막는다",
+   "rulings": [
+    "supp-21779"
+   ]
+  },
+  "maxxc": {
+   "rating": "strong",
+   "note_ko": "패 특소가 체인 없이 나오므로 스탠바이에 미리. 엔진만 특소 3번, 호스트 링크 전개까지 이어진다"
+  },
+  "fuwalos": {
+   "rating": "weak",
+   "note_ko": "엔진의 덱·엑스트라 특소는 링크 1번뿐. 엘담·스엔은 패 특소"
+  },
+  "purulia": {
+   "rating": "strong",
+   "note_ko": "엘담·스엔 모두 패 특소라 각각 드로우. 체인이 없으니 미리"
+  },
+  "droll": {
+   "rating": "strong",
+   "note_ko": "첫 서치 직후. 이후 서치·견신 드로우·싸이크론 회수가 전부 막힌다",
+   "rulings": [
+    "qa-12797"
+   ]
+  },
+  "meowls": {
+   "rating": "weak",
+   "note_ko": "호스트가 쓰는 현람 카드에는 묘지 특소가 거의 없다([[Radiant Typhoon Ascendance]] 채용 시만)"
+  },
+  "imperm": {
+   "rating": "critical",
+   "note_ko": "엘담·스엔 서치에 체인해 대상 무효"
+  },
+  "veiler": {
+   "rating": "critical",
+   "note_ko": "포영과 같은 지점",
+   "rulings": [
+    "supp-8933"
+   ]
+  },
+  "ogre": {
+   "rating": "ok",
+   "note_ko": "엘담·스엔 서치에. 서치는 처리되고 몸만 1장 준다"
+  },
+  "belle": {
+   "rating": "weak",
+   "note_ko": "호스트 채용분에는 묘지 소생이 거의 없다. 견신·헌영의 '덱·묘지에서 싸이크론 회수'에 쓸 수 있는지는 공식 확인 못 함"
+  },
+  "mourner": {
+   "rating": "critical",
+   "note_ko": "엘담·스엔이 패에서 특소된 직후 지정 → 같은 타이밍의 서치 유발이 무효로 처리",
+   "rulings": [
+    "supp-15022"
+   ]
+  },
+  "crossout": {
+   "rating": "weak",
+   "note_ko": "내 메인 덱에 싸이크론·견신을 넣었다면 그 이름을 선언할 수 있지만, 엘담·스엔은 선언 못 한다"
+  },
+  "ttt": {
+   "rating": "weak",
+   "note_ko": "상대 전개를 막지 못한다"
+  },
+  "droplet": {
+   "rating": "ok",
+   "note_ko": "세트해 둔 경우만. 엘담 서치에 체인",
+   "rulings": [
+    "supp-15299",
+    "quickplay-set-timing"
+   ]
+  },
+  "nibiru": {
+   "rating": "weak",
+   "note_ko": "엔진만으로는 소환 3번. 5번째는 호스트 전개 중에 온다(호스트 기준으로 판단)"
+  },
+  "impulse": {
+   "rating": "weak",
+   "note_ko": "엔진에는 특소 '효과'가 없다(엘담·스엔은 체인 없는 소환). 호스트 M∀LICE의 TB-11·제외 특소에 쓴다"
+  },
+  "purge": {
+   "rating": "critical",
+   "note_ko": "엘담 서치 또는 헌영 발동에 직접 체인",
+   "rulings": [
+    "supp-20257"
+   ]
+  },
+  "spark": {
+   "rating": "weak",
+   "note_ko": "엔진에는 패·묘지 몬스터 효과가 없다. 호스트 M∀LICE의 제외 유발로 조건이 생긴다"
+  },
+  "magnamhut": {
+   "rating": "weak",
+   "note_ko": "현람은 바람이라 대상이 없다. M∀LICE 호스트의 묘지 어둠 몬스터를 제외하면 오히려 제외 유발을 준다"
+  },
+  "gamma": {
+   "rating": "critical",
+   "note_ko": "내 필드에 몬스터가 없을 때 엘담·스엔 서치에 체인",
+   "rulings": [
+    "qa-23949"
+   ]
+  },
+  "harmonia": {
+   "rating": "ok",
+   "note_ko": "엘담 서치에 직접 체인해 엘담 파괴(링크 몸 제거)",
+   "rulings": [
+    "supp-22533"
+   ]
+  },
+  "fallen_virtuous": {
+   "rating": "ok",
+   "note_ko": "세트해 둔 경우만. 엘담 서치에 체인해 파괴"
+  },
+  "super_poly": {
+   "rating": "weak",
+   "note_ko": "엔진 단계에서는 융합할 몬스터가 적다. 엘담(야수)·스엔(야수전사)은 둘 다 바람이라 바람 2장 융합 소재로는 맞는다"
+  },
+  "mst": {
+   "rating": "bad",
+   "note_ko": "현람 속공 마법을 싸이크론으로 깨면 다시 세트되고 상대 묘지에 싸이크론까지 준다",
+   "rulings": [
+    "supp-21829"
+   ]
+  },
+  "crown": {
+   "rating": "strong",
+   "note_ko": "세트해 둔 경우만. 엘담 서치에 체인 → 무효 + 링크 소재 불가",
+   "rulings": [
+    "supp-22169"
+   ]
+  },
+  "druiswurm": {
+   "rating": "weak",
+   "note_ko": "현람은 바람이라 대상이 없다. M∀LICE 호스트의 묘지 어둠 몬스터 제외는 제외 유발을 준다"
+  },
+  "macro_cosmos": {
+   "rating": "weak",
+   "note_ko": "현람 엔진은 묘지를 거의 안 쓴다. M∀LICE 호스트에는 오히려 제외 유발을 준다"
+  },
+  "fissure": {
+   "rating": "weak",
+   "note_ko": "매크로 코스모스와 같은 이유"
+  },
+  "banisher": {
+   "rating": "weak",
+   "note_ko": "매크로 코스모스와 같은 이유"
+  },
+  "herald": {
+   "rating": "ok",
+   "note_ko": "엘담 서치 1번 무효(필드에 미리 있을 때)"
+  },
+  "retaliating_c": {
+   "rating": "weak",
+   "note_ko": "견신·헌영은 특소를 포함하지 않아 반응하지 않는다"
+  },
+  "dd_crow": {
+   "rating": "weak",
+   "note_ko": "후공 상대의 묘지 싸이크론을 지우면 상대 마함이 있을 때 엘담·스엔 특소 조건이 깨진다. 선공 상대에는 조건이 '상대 마함 없음'이라 무의미"
+  },
+  "dark_law": {
+   "rating": "ok",
+   "note_ko": "서치마다 패 1장 제외(필드에 미리 있을 때)"
+  },
+  "arise_heart": {
+   "rating": "weak",
+   "note_ko": "매크로 코스모스와 같은 이유"
+  },
+  "dim_barrier": {
+   "rating": "weak",
+   "note_ko": "엔진의 엑스트라 몬스터는 링크라 선언할 수 없다"
+  },
+  "protos": {
+   "rating": "weak",
+   "note_ko": "주로 내 턴 카드. 바람 선언이면 현람 몬스터 파괴 + 다음 턴까지 바람 특소 불가"
+  },
+  "statue_abyss": {
+   "rating": "ok",
+   "note_ko": "현람(바람) 특소 불가. 어둠 M∀LICE는 통과"
+  },
+  "statue_heavens": {
+   "rating": "ok",
+   "note_ko": "현람 특소 불가"
+  },
+  "statue_inferno": {
+   "rating": "ok",
+   "note_ko": "현람 특소 불가"
+  },
+  "statue_torrent": {
+   "rating": "ok",
+   "note_ko": "현람 특소 불가"
+  },
+  "vanity_fiend": {
+   "rating": "ok",
+   "note_ko": "특소 불가 → 엘담·스엔 중 일반 소환 1장만"
+  },
+  "vanity_ruler": {
+   "rating": "ok",
+   "note_ko": "배너티 데블과 같다"
+  },
+  "skill_drain": {
+   "rating": "ok",
+   "note_ko": "엘담·스엔 서치 무효. 견신·헌영은 통과"
+  },
+  "mistake": {
+   "rating": "ok",
+   "note_ko": "서치 전부 봉쇄. 견신 2드로우는 통과"
+  },
+  "rivalry": {
+   "rating": "ok",
+   "note_ko": "엘담(야수)·스엔(야수전사)이 같이 못 서 링크 2가 안 된다"
+  },
+  "gozen": {
+   "rating": "weak",
+   "note_ko": "엔진은 전부 바람이라 걸리지 않는다. 호스트(어둠 M∀LICE·어둠 레이)와 섞는 쪽이 막힌다(호스트 기준)"
+  },
+  "only_one": {
+   "rating": "weak",
+   "note_ko": "엘담·스엔은 종족이 달라 걸리지 않는다"
+  }
+ },
+ "going_second": {
+  "summary_ko": "현람 엔진은 보통 엔진 몬스터를 링크 소재로 써서 정리하므로 남기는 견제가 적다. 남는 것은 ① 세트된 [[Radiant Typhoon Vision]]·[[Radiant Typhoon Chant]](상대 턴에 퀵으로 2드로우·서치, 싸이크론으로 깨면 다시 세트), ② 링크 2([[Cherubini, Ebon Angel of the Burning Abyss]]: 가리키는 몬스터 효과 파괴 내성 + 자신 파괴 대체 / [[S:P Little Knight]]: 퀵 제외 1번), ③ 묘지의 [[Mystical Space Typhoon]](다음 턴 내 마함이 있어도 엘담·스엔 특소 가능). 실제 견제는 호스트 테마(M∀LICE·섬도) 페이지를 기준으로 한다.",
+  "difficulty": "easy",
+  "boards": [
+   {
+    "id": "engine_pieces",
+    "title_ko": "엔진이 남기는 견제",
+    "line": "eldam",
+    "interruptions": [
+     {
+      "id": "rt_set_qp",
+      "card": "Radiant Typhoon Vision",
+      "kind": "other",
+      "zone": "st",
+      "timing_ko": "세트된 현람 속공 마법. 내 턴에 퀵으로 2드로우(버리기 포함) 또는 싸이크론 서치. 싸이크론의 효과로 파괴되면 다시 세트된다",
+      "answered_by": [
+       {
+        "id": "harpie",
+        "note_ko": "싸이크론이 아니라 재세트가 없다. 체인해서 발동은 할 수 있으니 드로우·서치 1번은 내준다"
+       },
+       {
+        "id": "cosmic",
+        "note_ko": "제외라 재세트 조건(싸이크론으로 파괴)이 아니다. 체인 발동은 가능"
+       },
+       {
+        "id": "lightning_storm",
+        "note_ko": "내 필드가 빈 상태에서 마함 모드. 재세트 없음"
+       },
+       {
+        "id": "heavy_storm",
+        "note_ko": "재세트 없음. 내 마함도 깨진다"
+       },
+       {
+        "id": "mst",
+        "note_ko": "쓰면 손해. 다시 세트되고 상대 묘지에 싸이크론을 넣어 준다"
+       }
+      ],
+      "bait_ko": "드로우·서치 속공이라 상대가 체인해 쓰면 그만이다. 처리 우선순위는 낮고, 싸이크론으로는 절대 깨지 않는다.",
+      "rulings": [
+       "supp-21829"
+      ]
+     },
+     {
+      "id": "rt_cherubini",
+      "card": "Cherubini, Ebon Angel of the Burning Abyss",
+      "kind": "protection",
+      "zone": "monster",
+      "timing_ko": "M∀LICE 호스트. 가리키는 몬스터(왼쪽 아래·오른쪽 아래)는 효과로 파괴되지 않고, 케루비니가 전투·상대 효과로 파괴될 때는 다른 카드 1장을 대신 묘지로",
+      "answered_by": [
+       {
+        "id": "kaiju",
+        "note_ko": "릴리스라 파괴 대체가 적용되지 않는다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "융합 소재로 묘지에. 파괴가 아니다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "효과 무효로 보호가 꺼진다. 대상 지정이 아니다"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "효과 무효로 보호가 꺼진 뒤 파괴 계열이 통한다"
+       },
+       {
+        "id": "ttt",
+        "note_ko": "상대가 내 턴에 몬스터 효과로 대응했다면 컨트롤 탈취로 내 소재로"
+       }
+      ],
+      "bait_ko": "파괴 계열을 쓰기 전에 케루비니부터 치우거나 무효로 만든다."
+     },
+     {
+      "id": "rt_little_knight",
+      "card": "S:P Little Knight",
+      "kind": "removal",
+      "zone": "monster",
+      "timing_ko": "섬도 호스트(추정). 상대가 카드·효과를 발동했을 때 퀵으로 자신을 포함한 앞면 몬스터 2장을 엔드 페이즈까지 제외(1턴 1번)",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 시작에 대상 무효. 필드의 앞면 몬스터가 리틀나이트 1장뿐이면 리틀나이트는 대상 2장을 고를 수 없어 체인하지 못한다"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "소환 절차라 체인이 안 생긴다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터 카드를 보내면 체인 불가"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "체인 불가 무효"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "내 필드에 몬스터가 없을 때 리틀나이트의 발동에 체인해 무효+파괴"
+       }
+      ],
+      "bait_ko": "리틀나이트의 제외는 '자신 몬스터 포함 앞면 몬스터 2장' 대상이라, 필드의 앞면 몬스터가 리틀나이트 1장뿐인 동안(내가 몬스터를 내기 전)에는 발동할 수 없다. 마함으로 먼저 처리한다."
+     },
+     {
+      "id": "rt_mst_gy",
+      "card": "Mystical Space Typhoon",
+      "kind": "recursion",
+      "zone": "gy",
+      "timing_ko": "묘지에 싸이크론이 있으면 다음 상대 턴에 내 필드에 마함이 있어도 엘담·스엔을 패에서 특소할 수 있다. 견신·헌영의 ●로 묘지에서 다시 회수도 된다",
+      "answered_by": [
+       {
+        "id": "dd_crow",
+        "note_ko": "묘지의 싸이크론을 제외하면 내가 마함을 세트해 두는 것만으로 엘담·스엔의 특소 조건이 깨진다"
+       }
+      ],
+      "bait_ko": "내 턴 돌파 뒤 마함을 세트해 두면, 묘지에 싸이크론이 없는 한 다음 턴 엘담·스엔은 패에서 특소할 수 없다."
+     }
+    ]
+   }
+  ],
+  "breakers": {
+   "harpie": {
+    "rating": "ok",
+    "note_ko": "세트 현람 속공을 재세트 없이 정리(체인 발동은 허용). 섬도 세트 속공도 같이"
+   },
+   "lightning_storm": {
+    "rating": "ok",
+    "note_ko": "마함 모드로 재세트 없이 정리"
+   },
+   "heavy_storm": {
+    "rating": "ok",
+    "note_ko": "재세트 없음. 내 마함도 깨진다. 제한 1"
+   },
+   "cosmic": {
+    "rating": "ok",
+    "note_ko": "제외라 재세트 없음"
+   },
+   "mst": {
+    "rating": "bad",
+    "note_ko": "현람 속공을 깨면 다시 세트되고 상대 묘지에 싸이크론을 준다. 섬도·M∀LICE의 다른 카드에만 쓴다"
+   },
+   "evenly_matched": {
+    "rating": "weak",
+    "note_ko": "엔진 조각은 적다. 호스트 보드 기준"
+   },
+   "dark_ruler": {
+    "rating": "weak",
+    "note_ko": "엔진 몬스터는 링크 1장 정도. 호스트 보드 기준"
+   },
+   "raigeki": {
+    "rating": "weak",
+    "note_ko": "케루비니가 가리키는 몬스터는 파괴되지 않는다. 호스트 보드 기준"
+   },
+   "dark_hole": {
+    "rating": "weak",
+    "note_ko": "번개와 같은 이유"
+   },
+   "kaiju": {
+    "rating": "ok",
+    "note_ko": "케루비니·리틀나이트를 체인 없이 릴리스(파괴 대체·제외 대응 무시)"
+   },
+   "kaiju_slumber": {
+    "rating": "weak",
+    "note_ko": "케루비니가 가리키는 몬스터는 파괴되지 않는다"
+   },
+   "book_eclipse": {
+    "rating": "weak",
+    "note_ko": "호스트 보드 기준"
+   },
+   "kurikara": {
+    "rating": "weak",
+    "note_ko": "호스트 보드 기준"
+   },
+   "ultimate_slayer": {
+    "rating": "weak",
+    "note_ko": "호스트 보드 기준"
+   },
+   "dd_crow": {
+    "rating": "ok",
+    "note_ko": "묘지의 싸이크론을 지워 다음 턴 엘담·스엔 특소 조건을 깬다"
+   }
+  },
+  "sequencing_ko": [
+   "세트된 현람 속공 마법(견신·헌영)은 싸이크론으로 깨지 않는다. 다시 세트되고 상대 묘지에 싸이크론을 넣어 준다. 해피의 깃털·코즈믹 싸이크론·라이트닝 스톰으로 처리.",
+   "엘담·스엔의 특소 조건은 '상대 필드에 마함이 없음' 또는 '자신 묘지에 싸이크론'. 내 턴을 마칠 때 마함을 1장 이상 세트해 두면, 상대 묘지에 싸이크론이 없는 한 다음 턴 패 특소를 막는다.",
+   "케루비니가 있으면 가리키는 몬스터는 효과로 파괴되지 않는다. 파괴 계열 전에 케루비니를 릴리스·무효로 먼저 처리."
+  ]
+ },
+ "hosts": [
+  {
+   "theme": "maliss",
+   "rate": 0.6,
+   "rate_note_ko": "MDM 엔진 태그 'Radiant Typhoon Vision' 60%. 카드 채용률은 엘담·스엔·헌영·싸이크론 68%, 견신 60%, [[Radiant Typhoon Varuroon, the Marine Eidolon]] 12%",
+   "joins": [
+    {
+     "engine_line": "eldam",
+     "engine_step": 7,
+     "theme_line": "dormouse",
+     "theme_step": 1,
+     "note_ko": "엔진은 일반 소환권을 쓰지 않으므로 이어서 [[Maliss P Dormouse]]를 일반 소환해 메인 콤보를 처음부터 한다(필드에 케루비니가 추가로 남는다)"
+    },
+    {
+     "engine_line": "eldam",
+     "engine_step": 6,
+     "theme_line": "dormouse",
+     "theme_step": 9,
+     "note_ko": "케루비니(링크 2)는 [[Maliss Q White Binder]](M∀LICE 포함 2장 이상)·[[Maliss Q Hearts Crypter]](M∀LICE 포함 3장)의 M∀LICE 아닌 소재로 쓴다(재구성, 출처 루트 미확인)"
+    },
+    {
+     "engine_line": "eldam",
+     "engine_step": 7,
+     "theme_line": "dormouse",
+     "theme_step": 10,
+     "note_ko": "케루비니가 묘지로 보낸 레벨 3 M∀LICE를 화이트 바인더 특소 유발(묘지 카드 3장까지 제외)이나 [[Maliss P March Hare]]의 패 효과로 제외 → '제외되었을 경우' 효과로 특소·회수(재구성)"
+    }
+   ],
+   "priority_ko": "M∀LICE 초동(Dormouse·White Rabbit·UNDERGROUND)은 전부 제한 1이고 첫 동작(덱에서 제외·함정 세트)이 우라라 대상이 아니다. 반면 현람 엔진의 엘담·스엔 서치는 우라라·포영·뵐러·사요 시구레가 모두 닿는 첫 지점이다. 상대가 엘담부터 꺼내면 그 서치에 포영·뵐러·사요 시구레를 쓰고, 우라라는 M∀LICE의 TB-11(덱 특소)·[[Cyberse Wicckid]]·[[Backup @Ignister]] 서치에 아껴 두는 편이 낫다. 엔진이 몸 2장과 일반 소환권을 동시에 주므로 증G·푸루리아는 엘담 특소 전(스탠바이)에 미리 쓴다. 현람 마함은 싸이크론으로 깨면 다시 세트되니 깨지 말 것."
+  },
+  {
+   "theme": "sky-striker",
+   "rate": 0.429,
+   "rate_note_ko": "MDM 엔진 태그 'Radiant Typhoon Eldam' 43%. [[Radiant Typhoon Vision]]은 섬도 덱 100%(드로우 속공 마법으로 단독 채용), 엘담·스엔·헌영 43%, 싸이크론 66%",
+   "joins": [
+    {
+     "engine_line": "eldam",
+     "engine_step": 5,
+     "theme_line": "raye-zero",
+     "theme_step": 4,
+     "note_ko": "견신·헌영·싸이크론이 묘지에 쌓여 인게이지의 '묘지 마법 3장 이상이면 1드로우'와 [[Sky Striker Mecha - Widow Anchor]]의 컨트롤 탈취 조건이 일찍 켜진다. 견신 2드로우의 버리기 코스트도 섬도 속공 마법으로 채운다"
+    },
+    {
+     "engine_line": "eldam",
+     "engine_step": 6,
+     "theme_line": "engage-first",
+     "theme_step": 1,
+     "note_ko": "엘담·스엔을 링크해 메인 몬스터 존을 비워야 인게이지·위도우앵커·링케이지를 쓸 수 있다. [[S:P Little Knight]]를 엑스트라 몬스터 존에 두면 레이의 섬도희 특소 자리가 막히므로, 상대 턴에 [[Sky Striker Mobilize - Linkage!]]로 리틀나이트를 보내고 섬도희를 꺼내는 형태로 추정(출처 루트 없음, 카드 텍스트 기반)"
+    }
+   ],
+   "priority_ko": "섬도는 서치·드로우로 패를 채우는 덱이라, 현람 엔진이 섞이면 드롤의 가치가 가장 커진다(인게이지 서치 + 엘담·스엔 서치 + 견신 드로우를 한 번에 막음). 우라라는 섬도 쪽(인게이지 서치, 제로 서치)이 우선이고, 엘담이 유일한 초동처럼 보일 때만 엘담 서치에. 엘담·스엔은 메인 몬스터 존을 차지하므로 상대가 링크로 치우기 전에 포영으로 무효해 두면 링크 소재로는 쓰이지만 서치가 끊긴다. 세트된 견신·헌영은 싸이크론으로 깨면 다시 세트되니 [[Harpie's Feather Duster]]·[[Cosmic Cyclone]]으로 처리."
+  }
+ ],
+ "notes_ko": [
+  "엘담·스엔의 패 특소는 기동·유발 어느 것도 아닌 체인 없는 소환이다(공식 보충). 증G·푸루리아는 스탠바이에 미리 쓰거나 첫 서치에 체인한다. 사요 시구레는 특소 직후에 지정하면 같은 타이밍의 서치 유발이 무효로 처리된다.",
+  "현람 속공 마법은 '싸이크론의 효과로 파괴되면' 묘지(또는 앞면 제외 상태)에서 자신을 다시 세트한다(공식 보충). 다시 세트한 턴에는 발동할 수 없다.",
+  "견신은 발동할 때 ●를 골라 그 효과로 발동한다. 2장 드로우·싸이크론 서치 모두 덱에서 패에 넣으므로 우라라 대상이다. 드로우와 버리기는 동시에 처리되지 않는다.",
+  "M∀LICE 호스트 상대로 M∀LICE 몬스터를 제외하는 카드(D.D. 크로우·비스테드·스파크 등)는 '제외되었을 경우' 효과를 주므로 손해다. 케루비니가 묘지로 보낸 레벨 3 M∀LICE도 마찬가지로 건드리지 않는다.",
+  "MDM 엔진 태그로는 Orcust·Magical Musket·Goblin Biker·Radiant Typhoon Zoodiac도 현람 엔진을 쓰지만 data/themes 에 없는 테마라 호스트로 넣지 않았다."
+ ],
+ "sources": [
+  "https://game8.jp/yugioh-masterduel/763489 (Game8: 絢嵐 덱 레시피와 회전법·대책, 2026-10-23 갱신)",
+  "https://www.masterduelmeta.com/top-decks/meta-weekly/212/maliss/hipster/CKnES (Master Duel Meta: Radiant Maliss 덱 설명 'Any RT starter will get you into Cherubini for full Maliss combo')",
+  "https://www.masterduelmeta.com/tier-list/deck-types/Sky%20Striker (Master Duel Meta: Sky Striker 덱 타입 채용 카드)",
+  "https://www.masterduelmeta.com/api/v1/cards (Master Duel Meta 카드 API: MD 영문 텍스트·제한 상태 확인, 2026-10-25)",
+  "data/meta/latest.json (MDM 랭크·DC 덱 집계: engines 태그 'Radiant Typhoon Vision'·'Radiant Typhoon Eldam')",
+  "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21779&request_locale=ja (KONAMI: 絢嵐たるエルダム 보충 정보)",
+  "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21829&request_locale=ja (KONAMI: 絢嵐たる見神 보충 정보)",
+  "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21827&request_locale=ja (KONAMI: 絢嵐たる献詠 보충 정보)"
+ ]
+}

@@ -673,7 +673,7 @@
     };
     const heldHT = () => [...state.held].filter((id) => HT[id] && HT[id].kind !== "not_handtrap");
 
-    // 라인 고르기: 지정 > 내 패트랩이 많이 맞는 라인 > 다른 모듈과 합류하는 라인 > 첫 라인
+    // 라인 고르기: 지정 > 다른 모듈과 합류하는 라인 > 내 패트랩이 많이 맞는 라인 > 첫 라인
     function lineOf(m) {
       const ls = m.d.lines || [];
       const fixed = ls.find((l) => l.id === state.lines[m.key]);
@@ -682,7 +682,7 @@
       const joinIds = new Set();
       if (m.kind === "theme") ENG.filter((e) => state.engines.has(e.slug)).forEach((e) => (hostOf(e)?.joins || []).forEach((j) => joinIds.add(j.theme_line)));
       else (hostOf(m.d)?.joins || []).forEach((j) => joinIds.add(j.engine_line));
-      const score = (l) => Object.values(m.cmap[l.id] || {}).flat().filter((c) => held.includes(c.handtrap) && c.severity !== "bad").length * 10 + (joinIds.has(l.id) ? 1 : 0);
+      const score = (l) => Object.values(m.cmap[l.id] || {}).flat().filter((c) => held.includes(c.handtrap) && c.severity !== "bad").length + (joinIds.has(l.id) ? 100 : 0);
       return [...ls].sort((a, b) => score(b) - score(a))[0];
     }
 
@@ -940,8 +940,14 @@
         const boards = [];
         mods.forEach((m) => (m.d.going_second?.boards || []).forEach((b) => boards.push({ ...b, id: `${m.key}#${b.id}`, m, title: mods.length > 1 ? `${modName(m.d)} · ${stripBr(b.title_ko)}` : stripBr(b.title_ko) })));
         const tm = mods.find((m) => m.kind === "theme");
+        // 메인 테마에 이미 '엔진 혼합형' 보드(합류하는 라인의 보드)가 있으면 그걸 기본으로, 없을 때만 메인 첫 보드 + 엔진 견제를 합성
+        const joinLines = new Set(engMods.flatMap((m) => (hostOf(m.d)?.joins || []).map((j) => j.theme_line)));
+        const mixedIdx = tm ? boards.findIndex((b) => b.m === tm && joinLines.has(b.line)) : -1;
         const tb = tm?.d.going_second?.boards?.[0];
-        if (tb && engMods.length) {
+        if (mixedIdx > 0) {
+          const [mb] = boards.splice(mixedIdx, 1);
+          boards.unshift({ ...mb, title: `⧉ ${mb.title}` });
+        } else if (mixedIdx < 0 && tb && engMods.length) {
           const eb = engMods.map((m) => ({ m, b: m.d.going_second?.boards?.[0] })).filter((x) => x.b);
           if (eb.length) {
             boards.unshift({

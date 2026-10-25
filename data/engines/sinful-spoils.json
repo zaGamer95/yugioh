@@ -23,7 +23,7 @@
  "provides_ko": [
   "[[Azamina Ilia Silvia]](상대 효과 무효 1회) + [[Red-Eyes Dark Dragoon]](대상 불가·효과 파괴 불가, 발동 무효 1회): 메인 판면에 무효 2개 추가",
   "디아벨스타 특소 비용·기만 릴리스 비용으로 메인 카드를 묘지로 보내거나 릴리스(미츠루기는 릴리스 유발, 섬도희는 묘지 마법 수)",
-  "WANTED·티마이오스·할로우드 아자미나로 이번 턴 마법 발동 횟수 증가",
+  "WANTED·티마이오스·성스러운 아자미나로 이번 턴 마법 발동 횟수 증가",
   "엔드 페이즈에 다시 세트되는 기만(다음 턴 아자미나 서치·1500 번)",
   "[[Reprodocus]] 패키지: 메인의 레벨 6 이상 어둠 몬스터 1장을 제외해 드라군 1장으로 바꿈"
  ],
@@ -761,7 +761,7 @@
    "target_card": "Reprodocus",
    "timing_ko": "[[Reprodocus]]의 종족 선언 효과 발동에 체인 (뵐러도 동일)",
    "why_ko": "종족이 바뀌지 않아 레벨 6 이상 어둠 마법사족이 없으므로 흑마술사를 낼 수 없다. 효과는 대상을 잡지 않는 기동 효과라 발동 뒤에 끊어야 한다.",
-   "fallback_ko": "드라군 패키지 전체가 사라진다. 리프로도쿠스 몸은 남는다.",
+   "fallback_ko": "드라군 패키지 전체가 사라진다. [[Reprodocus]] 몸은 남는다.",
    "rulings": [
     "supp-13764"
    ]
@@ -772,7 +772,7 @@
    "line": "reprodocus",
    "step": 2,
    "target_card": "Reprodocus",
-   "timing_ko": "[[Reprodocus]]의 종족 선언 효과 발동에 체인해 리프로도쿠스 대상",
+   "timing_ko": "[[Reprodocus]]의 종족 선언 효과 발동에 체인해 [[Reprodocus]] 대상",
    "why_ko": "무한포영과 같은 결과로 흑마술사 소환 조건(마법사족)이 생기지 않는다. 상대 메인 페이즈라 쓸 수 있다.",
    "fallback_ko": "드라군 패키지 전체가 사라진다.",
    "rulings": [
@@ -808,9 +808,9 @@
    "line": "reprodocus",
    "step": 1,
    "target_card": "Reprodocus",
-   "timing_ko": "[[Reprodocus]]가 링크 소환된 직후 사요 시구레를 버리고 리프로도쿠스 대상",
+   "timing_ko": "[[Reprodocus]]가 링크 소환된 직후 사요 시구레를 버리고 [[Reprodocus]] 대상",
    "why_ko": "효과가 무효가 되어 종족 선언을 할 수 없으므로 흑마술사가 나오지 않는다. 후공 1턴에 쓸 수 있다.",
-   "fallback_ko": "리프로도쿠스가 이번 턴 필드를 떠나면 원래 공격력만큼 상대가 데미지를 받는다."
+   "fallback_ko": "[[Reprodocus]]가 이번 턴 필드를 떠나면 원래 공격력만큼 상대가 데미지를 받는다."
   },
   {
    "handtrap": "skill_drain",
@@ -1410,7 +1410,7 @@
      "engine_step": 1,
      "theme_line": "raye-zero",
      "theme_step": 4,
-     "note_ko": "[[WANTED: Seeker of Sinful Spoils]]·[[The Gaze of Timaeus]]·[[Azamina Debtors]](섬도희 리스트는 할로우드 대신 이것)는 모두 마법이라 묘지 마법 수를 늘려 인게이지 1드로우 조건(묘지 마법 3장 이상)을 돕는다. 단 섬도 마법 대부분이 '메인 몬스터 존에 몬스터가 없을 때' 조건이라, 디아벨스타 특소 이후 엔진 몬스터 전개는 섬도 전개를 끝낸 뒤에 한다(MDM 1덱 리스트 기반)."
+     "note_ko": "[[WANTED: Seeker of Sinful Spoils]]·[[The Gaze of Timaeus]]·[[Azamina Debtors]](섬도희 리스트는 [[The Hallowed Azamina]] 대신 이것)는 모두 마법이라 묘지 마법 수를 늘려 인게이지 1드로우 조건(묘지 마법 3장 이상)을 돕는다. 단 섬도 마법 대부분이 '메인 몬스터 존에 몬스터가 없을 때' 조건이라, 디아벨스타 특소 이후 엔진 몬스터 전개는 섬도 전개를 끝낸 뒤에 한다(MDM 1덱 리스트 기반)."
     },
     {
      "engine_line": "engine",
