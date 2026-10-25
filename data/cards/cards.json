@@ -118,6 +118,36 @@
   "text_ko": "①: 덱에서 레벨 4 이하의 전사족 몬스터 1장을 패에 넣는다.",
   "password": 32807846
  },
+ "5622": {
+  "cid": 5622,
+  "password": 90846359,
+  "en": "Rivalry of Warlords",
+  "ko": "군웅할거",
+  "ja": null,
+  "type": "Trap",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Each player can only control 1 Type of monster. Send all other face-up monsters they control to the GY.",
+  "text_ko": "①: 이 카드가 마법 & 함정 존에 존재하는 한, 서로의 필드에 각각 1종류의 종족의 몬스터밖에 앞면 표시로 존재할 수 없다. 양쪽 플레이어는 자신 필드의 앞면 표시 몬스터의 종족이 2종류 이상일 경우에는 1종류가 되도록 묘지로 보내야 한다."
+ },
+ "5740": {
+  "cid": 5740,
+  "password": 82732705,
+  "en": "Skill Drain",
+  "ko": "스킬 드레인",
+  "ja": null,
+  "type": "Trap",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Activate this card by paying 1000 LP. Negate the effects of all face-up monsters while they are face-up on the field (but their effects can still be activated).",
+  "text_ko": "1000 LP를 지불하고 이 카드를 발동할 수 있다. ①: 이 카드가 마법 & 함정 존에 존재하는 한, 필드의 앞면 표시 몬스터의 효과는 무효화된다."
+ },
  "6161": {
   "cid": 6161,
   "en": "Gold Sarcophagus",
@@ -133,6 +163,155 @@
   "text_ko": "①: 덱에서 카드 1장을 고르고 제외한다. 이 카드의 발동 후 2회째의 자신 스탠바이 페이즈에, 이 효과로 제외되어 있는 카드를 패에 넣는다.",
   "password": 75500286
  },
+ "6682": {
+  "cid": 6682,
+  "password": 30241314,
+  "en": "Macro Cosmos",
+  "ko": "매크로 코스모스",
+  "ja": null,
+  "type": "Trap",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "When this card is activated: You can Special Summon 1 \"Helios - The Primordial Sun\" from your hand or Deck. While this card is face-up on the field, any card sent to the GY is banished instead.",
+  "text_ko": "①: 이 카드의 발동시의 효과 처리로서, 패 / 덱에서 \"원시태양 헬리오스\" 1장을 특수 소환할 수 있다. ②: 이 카드가 마법 & 함정 존에 존재하는 한, 묘지로 보내지는 카드는 묘지로는 가지 않으며 제외된다."
+ },
+ "6695": {
+  "cid": 6695,
+  "password": 94853057,
+  "en": "Banisher of the Radiance",
+  "ko": "섬광의 추방자",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fairy",
+  "attribute": "LIGHT",
+  "level": 3,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "Any card sent to the GY is banished instead.",
+  "text_ko": "이 카드가 필드 위에 앞면 표시로 존재하는 한, 묘지로 보내지는 카드는 묘지로는 가지 않고 게임에서 제외된다."
+ },
+ "6707": {
+  "cid": 6707,
+  "password": 81674782,
+  "en": "Dimensional Fissure",
+  "ko": "차원의 틈",
+  "ja": null,
+  "type": "Spell",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "R",
+  "text_en": "Any monster sent to the GY is banished instead.",
+  "text_ko": "①: 이 카드가 마법 & 함정 존에 존재하는 한, 묘지로 보내지는 몬스터는 묘지로는 가지 않으며 제외된다."
+ },
+ "6881": {
+  "cid": 6881,
+  "password": 47084486,
+  "en": "Vanity's Fiend",
+  "ko": "배너티 데블",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "DARK",
+  "level": 6,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "Cannot be Special Summoned. Neither player can Special Summon monsters.",
+  "text_ko": "이 카드는 특수 소환할 수 없다. ①: 이 카드가 몬스터 존에 존재하는 한, 서로 몬스터를 특수 소환할 수 없다."
+ },
+ "6882": {
+  "cid": 6882,
+  "password": 84478195,
+  "en": "Barrier Statue of the Abyss",
+  "ko": "심연의 결계상",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "DARK",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "Neither player can Special Summon monsters, except DARK monsters.",
+  "text_ko": "①: 이 카드가 몬스터 존에 존재하는 한, 양쪽 플레이어는 어둠 속성 몬스터밖에 특수 소환할 수 없다."
+ },
+ "6883": {
+  "cid": 6883,
+  "password": 10963799,
+  "en": "Barrier Statue of the Torrent",
+  "ko": "호우의 결계상",
+  "ja": null,
+  "type": "Monster",
+  "race": "Aqua",
+  "attribute": "WATER",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "Neither player can Special Summon monsters, except WATER monsters.",
+  "text_ko": "이 카드가 필드 위에 앞면 표시로 존재하는 한, 서로 물 속성 이외의 몬스터를 특수 소환할 수 없다."
+ },
+ "6884": {
+  "cid": 6884,
+  "password": 47961808,
+  "en": "Barrier Statue of the Inferno",
+  "ko": "업화의 결계상",
+  "ja": null,
+  "type": "Monster",
+  "race": "Pyro",
+  "attribute": "FIRE",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "Neither player can Special Summon monsters, except FIRE monsters.",
+  "text_ko": "①: 이 카드가 몬스터 존에 존재하는 한, 양쪽 플레이어는 화염 속성 몬스터밖에 특수 소환할 수 없다."
+ },
+ "6887": {
+  "cid": 6887,
+  "password": 46145256,
+  "en": "Barrier Statue of the Heavens",
+  "ko": "섬광의 결계상",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fairy",
+  "attribute": "LIGHT",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "Neither player can Special Summon monsters, except LIGHT monsters.",
+  "text_ko": "①: 이 카드가 몬스터 존에 존재하는 한, 양쪽 플레이어는 빛 속성 몬스터밖에 특수 소환할 수 없다."
+ },
+ "6888": {
+  "cid": 6888,
+  "password": 72634965,
+  "en": "Vanity's Ruler",
+  "ko": "배너티 룰러",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fairy",
+  "attribute": "LIGHT",
+  "level": 8,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "Cannot be Special Summoned. Your opponent cannot Special Summon monsters.",
+  "text_ko": "이 카드는 특수 소환할 수 없다. ①: 이 카드가 몬스터 존에 존재하는 한, 상대는 몬스터를 특수 소환할 수 없다."
+ },
  "6901": {
   "cid": 6901,
   "en": "Instant Fusion",
@@ -147,6 +326,23 @@
   "text_en": "Pay 1000 LP; Special Summon 1 Level 5 or lower Fusion Monster from your Extra Deck, but it cannot attack, also it is destroyed during the End Phase. (This is treated as a Fusion Summon.) You can only activate 1 \"Instant Fusion\" per turn.",
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 1000 LP를 지불하고 발동할 수 있다. 레벨 5 이하의 융합 몬스터 1장을 융합 소환으로 취급하고 엑스트라 덱에서 특수 소환한다. 이 효과로 특수 소환한 몬스터는 공격할 수 없으며, 엔드 페이즈에 파괴된다.",
   "password": 1845204
+ },
+ "6980": {
+  "cid": 6980,
+  "password": 24508238,
+  "en": "D.D. Crow",
+  "ko": "D.D. 크로우",
+  "ja": null,
+  "type": "Monster",
+  "race": "Winged Beast",
+  "attribute": "DARK",
+  "level": 1,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "(Quick Effect): You can discard this card to the GY, then target 1 card in your opponent's GY; banish that target.",
+  "text_ko": "①: 자신 / 상대 턴에, 이 카드를 패에서 묘지로 버리고, 상대 묘지의 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 제외한다."
  },
  "7445": {
   "cid": 7445,
@@ -245,6 +441,21 @@
   "md_rarity": "UR",
   "text_en": "1 Tuner + 1+ non-Tuners\nWhen this card is Synchro Summoned: You can destroy all cards on the field. Once per turn: You can banish 1 Plant monster from your GY, then target 1 Defense Position monster your opponent controls; change that target to face-up Attack Position, and if you do, its ATK becomes 0 until the end of this turn.",
   "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>①: 이 카드를 싱크로 소환했을 때에 발동할 수 있다. 필드의 카드를 전부 파괴한다. ②: 1턴에 1번, 자신 묘지에서 식물족 몬스터 1장을 제외하고, 상대 필드의 수비 표시 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 상대의 수비 표시 몬스터를 앞면 공격 표시로 하고, 그 공격력은 턴 종료시까지 0 이 된다."
+ },
+ "7934": {
+  "cid": 7934,
+  "password": 53334471,
+  "en": "Gozen Match",
+  "ko": "어전시합",
+  "ja": null,
+  "type": "Trap",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Each player can only control 1 Attribute of monster. Send all other face-up monsters they control to the GY.",
+  "text_ko": "①: 이 카드가 마법 & 함정 존에 존재하는 한, 서로의 필드에 각각 1종류의 속성의 몬스터밖에 앞면 표시로 존재할 수 없다. 양쪽 플레이어는 자신 필드의 앞면 표시 몬스터의 속성이 2종류 이상일 경우에는 1종류가 되도록 묘지로 보내야 한다."
  },
  "8092": {
   "cid": 8092,
@@ -453,6 +664,21 @@
   "text_en": "3 Level 5 monsters\nIf this card has a \"Number\" monster as material, it gains this effect.\n● Once per turn, when a card or effect is activated on the field (Quick Effect): Detach 1 material from this card, and if you do, negate the effects of all other face-up cards currently on the field until the end of this turn.",
   "text_ko": "레벨 5 몬스터 × 3<br>이 카드가 \"No.\"라는 이름이 붙은 몬스터를 엑시즈 소재로 하고 있을 경우, 이하의 효과를 얻는다.<br>●1턴에 1번, 마법 / 함정 / 효과 몬스터의 효과가 필드 위에서 발동했을 때에 발동한다. 이 카드의 엑시즈 소재를 1개 제거하고, 이 카드 이외의 필드 위에 앞면 표시로 존재하는 모든 카드의 효과를 턴 종료시까지 무효로 한다."
  },
+ "10807": {
+  "cid": 10807,
+  "password": 59305593,
+  "en": "Mistake",
+  "ko": "미스테이크",
+  "ja": null,
+  "type": "Trap",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Neither player can add cards from their Deck to their hand except by drawing them.",
+  "text_ko": "①: 이 카드가 마법 & 함정 존에 존재하는 한, 서로 드로우 이외의 방법으로 덱에서 카드를 패에 넣을 수 없다."
+ },
  "10942": {
   "cid": 10942,
   "en": "Evilswarm Exciton Knight",
@@ -487,6 +713,24 @@
   "text_en": "2 Level 4 monsters\nYou can target 1 face-up Xyz Monster you control; equip this monster you control to that target. It gains 1200 ATK. You can detach 1 Xyz Material from this card, then target 1 card in your opponent's GY; banish that target. You can use this effect of \"Number 80: Rhapsody in Berserk\" up to twice per turn.",
   "text_ko": "레벨 4 몬스터 × 2<br>자신의 메인 페이즈시, 자신 필드 위의 이 몬스터를, 공격력 1200 포인트 올리는 장착 카드로 취급하여 자신 필드 위의 엑시즈 몬스터에 장착할 수 있다. 또한, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 상대 묘지의 카드 1장을 선택하고 게임에서 제외한다. \"No.80 광장패왕 랩소디 인 버서크\"의 이 효과는 1턴에 2번까지 사용할 수 있다."
  },
+ "11313": {
+  "cid": 11313,
+  "password": 58481572,
+  "en": "Masked HERO Dark Law",
+  "ko": "마스크드 히어로 다크 로우",
+  "ja": null,
+  "type": "Monster",
+  "race": "Warrior",
+  "attribute": "DARK",
+  "level": 6,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "Must be Special Summoned by \"Mask Change\". Any card sent to your opponent's GY is banished instead. Once per turn, if your opponent adds a card(s) from their Deck to their hand (except during the Draw Phase or the Damage Step): You can banish 1 random card from your opponent's hand.",
+  "text_ko": "이 카드는 \"마스크 체인지\"의 효과로만 특수 소환할 수 있다. ①: 이 카드가 몬스터 존에 존재하는 한, 상대 묘지로 보내지는 카드는 묘지로는 가지 않으며 제외된다. ②: 1턴에 1번, 상대가 드로우 페이즈 이외로 덱에서 카드를 패에 넣었을 경우에 발동할 수 있다. 상대의 패를 무작위로 1장 제외한다."
+ },
  "11384": {
   "cid": 11384,
   "en": "Herald of the Arc Light",
@@ -502,7 +746,8 @@
   ],
   "md_rarity": "SR",
   "text_en": "1 Tuner + 1+ non-Tuner monsters\r\nAny monster sent from the hand or Main Deck to the GY is banished instead. When a Spell/Trap Card, or monster effect, is activated (Quick Effect): You can Tribute this card; negate the activation, and if you do, destroy that card. If this card is sent to the GY: You can add 1 Ritual Monster or 1 Ritual Spell from your Deck to your hand.",
-  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>①: 이 카드가 몬스터 존에 존재하는 한, 서로의 패 / 덱에서 묘지로 보내지는 몬스터는 묘지로는 가지 않으며 제외된다. ②: 몬스터의 효과 / 마법 / 함정 카드가 발동했을 때, 이 카드를 릴리스하고 발동할 수 있다. 그 발동을 무효로 하고 파괴한다. ③: 이 카드가 묘지로 보내졌을 경우에 발동할 수 있다. 덱에서 의식 몬스터 1장 또는 의식 마법 카드 1장을 패에 넣는다."
+  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>①: 이 카드가 몬스터 존에 존재하는 한, 서로의 패 / 덱에서 묘지로 보내지는 몬스터는 묘지로는 가지 않으며 제외된다. ②: 몬스터의 효과 / 마법 / 함정 카드가 발동했을 때, 이 카드를 릴리스하고 발동할 수 있다. 그 발동을 무효로 하고 파괴한다. ③: 이 카드가 묘지로 보내졌을 경우에 발동할 수 있다. 덱에서 의식 몬스터 1장 또는 의식 마법 카드 1장을 패에 넣는다.",
+  "password": 79606837
  },
  "11413": {
   "cid": 11413,
@@ -976,6 +1221,21 @@
   "text_en": "2 DARK monsters on the field, except Tokens\nIf this card is Fusion Summoned: You can make this card gain ATK equal to 1 opponent's Special Summoned monster, until the end of this turn. Once per turn: You can target 1 Level 5 or higher monster your opponent controls; until the End Phase, this card's name becomes that monster's original name, and replace this effect with that monster's original effects. If this Fusion Summoned card is destroyed: You can destroy all your opponent's Special Summoned monsters.",
   "text_ko": "토큰 이외의 필드의 어둠 속성 몬스터 × 2<br>①: 이 카드를 융합 소환했을 경우에 발동할 수 있다. 상대 필드의 특수 소환된 몬스터 1장의 공격력만큼만, 이 카드의 공격력을 턴 종료시까지 올린다. ②: 1턴에 1번, 상대 필드의 레벨 5 이상의 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드는 엔드 페이즈까지, 그 몬스터의 원래의 카드명 / 효과와 같은 카드명 / 효과를 얻는다. ③: 융합 소환한 이 카드가 파괴되었을 경우에 발동할 수 있다. 상대 필드의 특수 소환된 몬스터를 전부 파괴한다."
  },
+ "12668": {
+  "cid": 12668,
+  "password": 83326048,
+  "en": "Dimensional Barrier",
+  "ko": "차원 장벽",
+  "ja": null,
+  "type": "Trap",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Declare 1 monster card type (Ritual, Fusion, Synchro, Xyz, or Pendulum); for the rest of this turn, neither player can Special Summon monsters of the declared type, also negate the effects of all monsters of that type while they are on the field. You can only activate 1 \"Dimensional Barrier\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 몬스터의 종류(의식 / 융합 / 싱크로 / 엑시즈 / 펜듈럼)를 1개 선언하고 발동할 수 있다. 이 턴 중에, 이하의 효과를 적용한다.<br>●서로 선언한 종류의 몬스터를 특수 소환할 수 없으며, 필드의 선언한 종류의 몬스터 효과는 무효화된다."
+ },
  "12695": {
   "cid": 12695,
   "password": 66141736,
@@ -1278,6 +1538,21 @@
   "md_rarity": "UR",
   "text_en": "2+ monsters with different names\nThis card gains effects based on the number of materials used for its Link Summon.\n● 2+: If a monster(s) is Normal or Special Summoned to a zone this card points to: That monster(s) gains 300 ATK/DEF.\n● 3+: Once per turn, during your Main Phase: You can Special Summon 1 monster from your hand.\n● 4: When this card is Link Summoned: You can draw 4 cards, then place 3 cards from your hand on the bottom of the Deck in any order.",
   "text_ko": "카드명이 다른 몬스터 2장 이상<br>①: 이 카드는, 이 카드의 링크 소재로 한 몬스터의 수에 따라 이하의 효과를 얻는다. ●2장 이상: 이 카드의 링크 앞에 몬스터가 일반 소환 / 특수 소환되었을 경우에 발동한다. 그 몬스터의 공격력 / 수비력은 300 올린다. ●3장 이상: 1턴에 1번, 자신 메인 페이즈에 발동할 수 있다. 패에서 몬스터 1장을 특수 소환한다. ●4장: 이 카드를 링크 소환했을 때에 발동할 수 있다. 자신은 4장 드로우한다. 그 후, 자신의 패를 3장 골라 좋아하는 순서대로 덱 아래로 되돌린다."
+ },
+ "13447": {
+  "cid": 13447,
+  "password": 24207889,
+  "en": "There Can Be Only One",
+  "ko": "센서 만별",
+  "ja": null,
+  "type": "Trap",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "Each player can only control 1 monster of each Type. If a player controls 2 or more monsters of the same Type, they must send some to the GY so they control no more than 1 monster of that Type.",
+  "text_ko": "①: 이 카드가 마법 & 함정 존에 존재하는 한, 서로의 필드에 각각 1장밖에 같은 종족의 몬스터는 앞면 표시로 존재할 수 없다. 양쪽 플레이어는 자신 필드에 같은 종족의 몬스터가 2장 이상 존재할 경우에는, 같은 종족의 몬스터가 1장이 되도록 묘지로 보내야 한다."
  },
  "13454": {
   "cid": 13454,
@@ -2184,6 +2459,23 @@
   "md_rarity": "UR",
   "text_en": "2+ Cyberse monsters with different Attributes\nGains 500 ATK for each monster it points to. (Quick Effect): You can pay 1000 LP; draw 1 card, then if your LP are 2000 or less, you can apply this effect.\n● Banish this card from the field, and if you do, Special Summon 1 Link-3 or lower Cyberse monster from your Extra Deck, except \"Decode Talker Heatsoul\".\nYou can only use this effect of \"Decode Talker Heatsoul\" once per turn.",
   "text_ko": "속성이 다른 사이버스족 몬스터 2장 이상<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 공격력은, 이 카드의 링크 앞의 몬스터의 수 × 500 올린다. ②: 자신 / 상대 턴에, 1000 LP를 지불하고 발동할 수 있다. 자신은 1장 드로우한다. 자신의 LP가 2000 이하일 경우, 추가로 이하의 효과를 적용할 수 있다. ●필드의 이 카드를 제외하고, \"디코드 토커 히트소울\"이 아닌, 링크 3 이하의 사이버스족 몬스터 1장을 엑스트라 덱에서 특수 소환한다."
+ },
+ "14994": {
+  "cid": 14994,
+  "password": 6728559,
+  "en": "Archnemeses Protos",
+  "ko": "아크네메시스 프로토스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Wyrm",
+  "attribute": "DARK",
+  "level": 11,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by banishing 3 monsters with different Attributes from your GY and/or face-up field. Cannot be destroyed by card effects. You can declare 1 monster Attribute on the field; destroy all monsters on the field with that Attribute, also until the end of the next turn, neither player can Special Summon monsters with that Attribute. You can only use this effect of \"Archnemeses Protos\" once per turn.",
+  "text_ko": "이 카드는 통상 소환할 수 없다. 자신의 필드(앞면 표시) / 묘지에서 속성이 다른 몬스터 3장을 제외했을 경우에 특수 소환할 수 있다. 이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 필드의 이 카드는 효과로는 파괴되지 않는다. ②: 필드의 몬스터의 속성을 1개 선언하고 발동할 수 있다. 필드의 선언한 속성의 몬스터를 전부 파괴한다. 다음 턴의 종료시까지, 서로 선언한 속성의 몬스터를 특수 소환할 수 없다."
  },
  "15022": {
   "cid": 15022,
@@ -3402,6 +3694,24 @@
   "text_en": "2+ Level 8 monsters\nOnce per turn, you can also Xyz Summon \"Gigantic \"Champion\" Sargas\" by using 1 \"Springans\" Xyz Monster you control. (Transfer its materials to this card.) While this card has material: You can add 1 \"Springans\" or \"Therion\" card from your Deck to your hand. If material is detached from a monster(s) on the field (except during the Damage Step): You can target 1 card on the field; either destroy it or return it to the hand. You can only use each effect of \"Gigantic \"Champion\" Sargas\" once per turn.",
   "text_ko": "레벨 8 몬스터 × 2장 이상<br>\"기간틱 \"챔피언\" 사르가스\"는 1턴에 1번, 자신 필드의 \"스프리건즈\" 엑시즈 몬스터 위에 겹쳐 엑시즈 소환할 수도 있다. 이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 엑시즈 소재를 가지고 있을 경우에 발동할 수 있다. 덱에서 \"스프리건즈\" 카드 또는 \"세리온즈\" 카드 1장을 패에 넣는다. ②: 필드의 엑시즈 소재가 제거되었을 경우, 필드의 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴하거나 주인의 패로 되돌린다.",
   "password": 11132674
+ },
+ "18191": {
+  "cid": 18191,
+  "password": 48626373,
+  "en": "Kashtira Arise-Heart",
+  "ko": "크샤트리라 어라이즈하트",
+  "ja": null,
+  "type": "Monster",
+  "race": "Machine",
+  "attribute": "DARK",
+  "level": 7,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "3 Level 7 monsters\nOnce per turn, you can also Xyz Summon \"Kashtira Arise-Heart\" by using 1 \"Kashtira\" monster you control, if an effect of \"Kashtira Shangri-Ira\" was successfully activated this turn. (Transfer its materials to this card.) Any card sent to the GY is banished instead. Once per Chain, each time a card(s) is banished: Attach 1 banished card to this card as material. Once per turn (Quick Effect): You can detach 3 materials from this card, then target 1 card on the field; banish it face-down.",
+  "text_ko": "레벨 7 몬스터 × 3<br>\"크샤트리라 어라이즈하트\"는, \"크샤트리라 샹그릴라\"가 효과를 발동한 턴에 1번, 자신의 \"크샤트리라\" 몬스터 위에 겹쳐 엑시즈 소환할 수도 있다. ①: 묘지로 보내지는 카드는 묘지로는 가지 않으며 제외된다. ②: 카드가 제외될 때마다 발동한다(동일한 체인 위에서는 1번까지). 제외되어 있는 카드 1장을 고르고 이 카드의 엑시즈 소재로 한다. ③: 서로의 턴에 1번, 이 카드의 엑시즈 소재를 3개 제거하고, 필드의 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 뒷면 표시로 제외한다."
  },
  "18195": {
   "cid": 18195,
@@ -4830,7 +5140,8 @@
   "monster_type": [],
   "md_rarity": "SR",
   "text_en": "During the Main Phase: Reveal 1 \"Azamina\" Fusion Monster in your Extra Deck, and for every 4 Levels it has (round down), send 1 \"Sinful Spoils\" card from your hand and/or field to the GY (if face-down, reveal it), then Special Summon that revealed monster. (This is treated as a Fusion Summon.) During your Main Phase: You can banish this card from your GY, then target 1 \"Azamina\" monster in your GY; Special Summon it. You can only use 1 \"Azamina Debtors\" effect per turn, and only once that turn.",
-  "text_ko": "이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 자신 / 상대의 메인 페이즈에 발동할 수 있다. 엑스트라 덱의 \"아자미나\" 융합 몬스터 1장을 상대에게 보여주고, 그 레벨 4 당 1장, 자신의 패 / 필드에서 \"죄보\" 카드를 묘지로 보낸다(뒷면 표시 카드는 넘겨서 확인한다). 그 후, 보여준 몬스터를 융합 소환으로 취급하고 특수 소환한다. ②: 자신 메인 페이즈에 묘지의 이 카드를 제외하고, 자신 묘지의 \"아자미나\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 특수 소환한다."
+  "text_ko": "이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 자신 / 상대의 메인 페이즈에 발동할 수 있다. 엑스트라 덱의 \"아자미나\" 융합 몬스터 1장을 상대에게 보여주고, 그 레벨 4 당 1장, 자신의 패 / 필드에서 \"죄보\" 카드를 묘지로 보낸다(뒷면 표시 카드는 넘겨서 확인한다). 그 후, 보여준 몬스터를 융합 소환으로 취급하고 특수 소환한다. ②: 자신 메인 페이즈에 묘지의 이 카드를 제외하고, 자신 묘지의 \"아자미나\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 특수 소환한다.",
+  "password": 20934683
  },
  "20531": {
   "cid": 20531,

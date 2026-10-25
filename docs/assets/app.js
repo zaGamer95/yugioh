@@ -5,7 +5,7 @@
   const SEV = ["critical", "strong", "ok", "weak", "bad"];
   const SEV_KO = { critical: "치명", strong: "아픔", ok: "할만함", weak: "약함", bad: "비추" };
   const SEV_G = { critical: "●", strong: "▲", ok: "◆", weak: "○", bad: "✕" };
-  const KIND_ORDER = ["search", "negate", "draw", "gy", "destroy", "dominus", "going2nd", "engine", "not_handtrap"];
+  const KIND_ORDER = ["search", "negate", "draw", "gy", "destroy", "dominus", "going2nd", "engine", "dimension", "summon_lock", "not_handtrap"];
 
   let D = null;
   let HT = {};
@@ -407,6 +407,15 @@
   };
 
   /* ---------- play: 즉석 족보 ---------- */
+  // 미리 준비가 필요한 카드: set = 내 턴에 세트해 둬야 함(속공 마법·함정), field = 내 필드에 있어야 함
+  const setupOf = (id) => {
+    const h = HT[id];
+    if (!h) return "hand";
+    if (h.setup) return h.setup;
+    return (D.cards[h.card] || {}).type === "Spell" ? "set" : "hand";
+  };
+  const SETUP_BLOCK = { set: "후공이면 상대 1턴엔 못 씀 (내 턴에 세트해 둬야 함)", field: "후공이면 상대 1턴엔 못 씀 (내 필드에 미리 있어야 함)" };
+  const SETUP_NOTE = { set: "※ 내 턴에 세트해 둔 경우에만 상대 턴에 쓸 수 있음", field: "※ 내 필드에 미리 세워 둔 경우에만 적용됨" };
   const NEEDS_EMPTY = new Set(["imperm", "fuwalos", "purulia", "meowls", "gamma"]); // gamma 는 '몬스터가 없을 때'
   const WIPE = new Set(["lightning_storm", "evenly_matched", "dark_ruler", "harpie", "heavy_storm", "raigeki", "dark_hole", "kaiju_slumber", "book_eclipse"]);
   const store = {
@@ -573,9 +582,10 @@
           const bad = cps.filter((c) => c.severity === "bad");
           const sum = t.handtrap_summary[id];
           const best = good[0];
-          const isSpell = (D.cards[HT[id].card] || {}).type === "Spell";
+          const setup = setupOf(id);
+          const isSpell = setup !== "hand";
           const blocked = (state.first && NEEDS_EMPTY.has(id)) || (!state.first && isSpell);
-          const setNote = state.first && isSpell;
+          const setNote = state.first && isSpell ? SETUP_NOTE[setup] : "";
           return { id, best, more: good.slice(1, 3), bad, sum, blocked, isSpell, setNote, sev: best ? best.severity : sum ? sum.rating : "weak" };
         })
         .sort((a, b) => a.blocked - b.blocked || sevRank(a.sev) - sevRank(b.sev) || (a.best?.rank || 99) - (b.best?.rank || 99));
@@ -599,11 +609,11 @@
                 ${
                   p.blocked
                     ? p.isSpell
-                      ? `<p class="pl-bad small">⚠ 속공 마법은 상대 턴에 패에서 발동할 수 없음 — 후공이면 상대 1턴에는 못 씀 (내 턴에 세트한 뒤 다음 상대 턴부터)</p>`
+                      ? `<p class="pl-bad small">⚠ ${esc(SETUP_BLOCK[setupOf(p.id)])}</p>`
                       : `<p class="pl-bad small">⚠ 내 필드에 ${p.id === "gamma" ? "몬스터" : "카드"}가 있으면 쓸 수 없음${p.id === "imperm" ? " (패에서 발동 불가 — 세트해 두었다면 가능)" : ""}</p>`
                     : ""
                 }
-                ${p.setNote ? `<p class="small muted">※ 속공 마법: 내 턴에 세트해 둔 경우에만 상대 턴에 쓸 수 있음</p>` : ""}
+                ${p.setNote ? `<p class="small muted">${esc(p.setNote)}</p>` : ""}
                 ${
                   c
                     ? `<div class="pl-body">
@@ -708,8 +718,8 @@
       let line = t.lines.find((l) => l.id === state.line);
       if (!line) line = held.length ? [...t.lines].sort((a, b) => lineScore(b) - lineScore(a))[0] : t.lines[0];
       const blockedNote = (id) => {
-        const isSpell = (D.cards[HT[id].card] || {}).type === "Spell";
-        if (!state.first && isSpell) return "후공이면 상대 1턴엔 못 씀(속공 마법)";
+        const setup = setupOf(id);
+        if (!state.first && setup !== "hand") return setup === "set" ? "후공이면 상대 1턴엔 못 씀(미리 세트 필요)" : "후공이면 상대 1턴엔 못 씀(미리 필드에 필요)";
         if (state.first && NEEDS_EMPTY.has(id)) return "내 필드가 비어 있어야 함";
         return "";
       };
