@@ -85,6 +85,11 @@ def main():
             "main": usage(ds, "main"),
             "extra": usage(ds, "extra"),
             "sample_urls": ["https://www.masterduelmeta.com" + d["url"] for d in ds[:5] if d.get("url")],
+            # MDM 이 덱마다 붙이는 엔진 태그 (섞어 쓰는 엔진·테크 카드) 채용률
+            "engines": [
+                {"name": n, "rate": round(k / len(ds), 3)}
+                for n, k in collections.Counter(e["name"] for d in ds for e in (d.get("engines") or [])).most_common()
+            ],
         }
 
     meta_dir = ROOT / "data" / "meta"

@@ -120,17 +120,87 @@
       })
       .join("");
 
+    const top4 = [...themes].sort((a, b) => (b.meta.share || 0) - (a.meta.share || 0)).slice(0, 4);
+    const sevRow = SEV.map((s) => `<li><span class="cell c-${s} g-sw">${SEV_G[s]}</span><b>${SEV_KO[s]}</b> ${esc(SEV_HELP[s])}</li>`).join("");
+    const guideOpen = store.get("home.guide", true);
+    const guide = `
+      <nav class="quick" aria-label="바로가기">
+        <a class="qk primary" href="#/p?s=1"><b>선공</b><span>상대 패트랩 피하기 / 내 전개 확인</span></a>
+        <a class="qk primary" href="#/p?s=2"><b>후공</b><span>패트랩 타이밍 + 돌파 판정</span></a>
+        <a class="qk" href="#/h"><b>패트랩 사전</b><span>카드별 맞는 효과·조건</span></a>
+        <a class="qk" href="#/r"><b>룰·판정</b><span>공식 룰북·Q&amp;A 출처</span></a>
+        <button type="button" class="qk" data-jump="themes"><b>테마 목록</b><span>전개 순서 전체 보기</span></button>
+        <button type="button" class="qk" data-jump="heat"><b>상성표</b><span>패트랩 × 테마 한눈에</span></button>
+      </nav>
+      <div class="quick-themes"><span class="muted small">많이 보이는 상대 · 후공 바로가기</span>
+        ${top4.map((t) => `<a class="chip" href="#/p?s=2&t=${t.slug}">${esc(t.name.ko)} <span class="muted">${(t.meta.share * 100).toFixed(1)}%</span></a>`).join("")}
+      </div>
+      <details class="guide" id="guide"${guideOpen ? " open" : ""}>
+        <summary><h2>사용법</h2><span class="muted small">처음이라면 1분만 읽어 보세요 · 접어 두면 기억합니다</span></summary>
+        <div class="guide-grid">
+          <section class="gcard">
+            <h3><span class="num">1</span> 즉석 족보 — 듀얼 중에 켜 두는 탭</h3>
+            <ol>
+              <li><b>선공/후공</b>을 고릅니다.</li>
+              <li><b>상대 테마</b>를 고릅니다. 테마 이름을 몰라도 상대가 낸 <b>카드 이름</b>(한글·영문 일부)으로 검색됩니다.</li>
+              <li><b>지금 내 패</b>에서 들고 있는 패트랩을 누릅니다. 자주 쓰는 카드는 <b>내 덱 편집</b>으로 위에 고정할 수 있습니다.</li>
+              <li>위 <b>전개 스트립</b>을 읽습니다: 윗줄은 상대 전개 순서(카드 일러), 그 아래 붙은 작은 일러가 <b>내 패트랩을 던질 단계</b>, 맨 아래 글이 <b>정확한 타이밍</b>입니다.</li>
+              <li><b>후공</b>이면 상대 엔드 필드를 골라 <b>돌파 판정</b>을 봅니다. 내 패로 견제를 몇 개 지울 수 있는지, 무엇을 먼저 써야 하는지 나옵니다.</li>
+            </ol>
+            <p class="muted small">선택 상태는 주소(URL)에 남아서 북마크·공유하면 그대로 열립니다. 오른쪽 위 <b>한글/EN</b>으로 카드명을 한 언어로 통일할 수 있습니다(인게임 검색용).</p>
+          </section>
+          <section class="gcard">
+            <h3><span class="num">2</span> 테마 페이지 — 집에서 공부할 때</h3>
+            <ul>
+              <li><b>전개 라인 탭</b>: 초동 패별로 1턴 전개를 단계마다 펼칩니다.</li>
+              <li><b>패트랩 타이밍표</b>: 가로 = 전개 단계, 세로 = 패트랩. 색이 진할수록 아픈 자리입니다. 칸을 누르면 그 단계로 이동합니다.</li>
+              <li><b>패트랩 필터</b>: 종류(서치·무효·묘지·도미나스 등)나 카드 하나만 걸러 볼 수 있습니다.</li>
+              <li>각 단계 아래에 <b>왜 아픈지</b>, <b>맞은 뒤 상대 루트</b>, 관련 <b>공식 판정</b>이 붙어 있습니다.</li>
+            </ul>
+          </section>
+          <section class="gcard">
+            <h3><span class="num">3</span> 색 읽는 법</h3>
+            <ul class="sev-help">${sevRow}</ul>
+            <p class="muted small">색 칸 없이 옅은 파랑은 “맞기는 하지만 추천 타이밍은 아님”입니다.</p>
+          </section>
+          <section class="gcard">
+            <h3><span class="num">4</span> 작은 팁</h3>
+            <ul>
+              <li>카드 이름·칸에 <b>마우스를 올리면</b> 카드 일러와 효과가 뜹니다. <b>클릭하면 고정</b>, 다시 클릭하거나 Esc로 닫습니다.</li>
+              <li>카드명은 모두 <b>마스터 듀얼 인게임 검색에 그대로 쓰는 공식 한국어명</b>입니다(영문 병기).</li>
+              <li>판정 근거는 <a href="#/r">룰·판정</a>에 KONAMI 공식 Q&amp;A 링크로 모아 두었습니다.</li>
+              <li>메타 통계는 Master Duel Meta 랭크·DC 상위 덱 기준 (${esc(D.themes[0]?.meta.window || "")}).</li>
+            </ul>
+          </section>
+        </div>
+      </details>`;
+
     app.innerHTML = `
       <h1>자겜의 족보 <span class="en">마스터 듀얼 패트랩 타이밍 노트</span></h1>
       <p class="lede">메타 테마별 1턴 전개를 단계별로 펼치고, 각 단계에서 어떤 패트랩이 맞는지와 어디가 <b>가장 아픈 타이밍</b>인지 표시했습니다.
       카드명은 모두 인게임 검색에 그대로 쓸 수 있는 <b>공식 한국어명</b>입니다. 집계 기간: ${esc(D.themes[0]?.meta.window || "")}.</p>
+      ${guide}
+      <h2 id="themes">테마별 전개 · 패트랩 타이밍</h2>
       <div class="theme-grid">${tcards}</div>
 
-      <h2>패트랩 × 테마 상성표</h2>
+      <h2 id="heat">패트랩 × 테마 상성표</h2>
       <p class="muted small">칸을 누르면 그 테마 페이지에서 해당 패트랩만 걸러 보여 줍니다. 마우스를 올리면 사용 지점이 나옵니다.</p>
       ${legend(false)}
       <div class="scroll-x">${homeHeat(themes)}</div>`;
+    app.onclick = (e) => {
+      const j = e.target.closest("[data-jump]");
+      if (j) document.getElementById(j.dataset.jump)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    app.oninput = null;
+    document.getElementById("guide").addEventListener("toggle", (e) => store.set("home.guide", e.target.open));
   }
+  const SEV_HELP = {
+    critical: "여기를 맞으면 전개가 끊기거나 견제가 1개 이하로 줄어드는 자리.",
+    strong: "전개는 이어지지만 견제·다음 턴 자원이 크게 줄어드는 자리.",
+    ok: "맞추면 이득. 다만 상대에게 대체 루트가 충분.",
+    weak: "거의 영향 없음. 다른 데 아껴 두기.",
+    bad: "쓰면 손해(대상 없음·역이용 당함).",
+  };
 
   function legend(withHit) {
     const items = SEV.map((s) => `<span><span class="sw cell c-${s}" style="display:inline-block;min-width:0;width:14px;height:14px"></span>${SEV_G[s]} ${SEV_KO[s]}</span>`);
