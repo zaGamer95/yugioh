@@ -1,0 +1,86 @@
+{
+ "sources": {},
+ "rules": [],
+ "rulings": [
+  {
+   "id": "supp-21610",
+   "fid": null,
+   "cid": 21610,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21610&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Dark Magician of Destruction"
+   ],
+   "handtraps": [
+    "ash",
+    "impulse",
+    "crown"
+   ],
+   "themes": [
+    "sinful-spoils",
+    "mitsurugi",
+    "sky-striker"
+   ],
+   "engines": [
+    "sinful-spoils"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Dark Magician of Destruction]] 카드 보충 정보: 엑스트라 덱에서 특소하는 '●' 방법은 어떤 것인가?",
+   "answer_ko": "효과가 아닌 특수 소환 절차로, 체인 블록이 만들어지지 않는다. 자신 또는 상대가 마법 카드의 효과를 발동하고 그 발동이 무효가 되지 않은 턴에, 자기 메인 페이즈에만 할 수 있다. 자신 몬스터 존의 레벨 6 이상 어둠 마법사족 1장(뒷면 수비도 가능)을 제외하며, 제외와 특소는 동시가 아니다. ② 서치는 몬스터 존에서 발동하는 유발 효과.",
+   "quote_ja": "自分または相手が魔法カードの効果を発動し、その発動が無効にならなかったターンに『●』の方法で特殊召喚することができます。…『●』の方法による特殊召喚は自分メインフェイズにしか行えません。",
+   "impact_ko": "흑마술사 특소 자체에는 우라라·임펄스를 체인할 수 없다. 패트랩은 ② 서치(우라라·성관)나 [[The Gaze of Timaeus]](임펄스)에. 엔진 마법을 우라라로 '효과 무효'해도 마법 발동 조건은 남는다."
+  },
+  {
+   "id": "supp-13764",
+   "fid": null,
+   "cid": 13764,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=13764&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Reprodocus"
+   ],
+   "handtraps": [
+    "imperm",
+    "veiler",
+    "mourner"
+   ],
+   "themes": [
+    "mitsurugi"
+   ],
+   "engines": [
+    "sinful-spoils"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Reprodocus]] 카드 보충 정보: ① 종족·속성 변경은 어떤 효과인가?",
+   "answer_ko": "몬스터 존에서 발동하는 기동 효과이고, 발동할 때 '●' 중 하나를 골라 그 효과로 발동한다. 어느 '●'도 대상을 잡는 효과가 아니다.",
+   "quote_ja": "モンスターゾーンで発動できる起動効果です。…対象を取る効果ではありません。",
+   "impact_ko": "종족 변경은 링크 마커 끝 몬스터를 대상으로 하지 않으므로 그 몬스터를 노리는 대응은 없다. 리프로도쿠스 효과 발동에 무한포영·뵐러를 체인하거나, 링크 소환 직후 사요 시구레로 무효해 흑마술사 조건(마법사족)을 막는다."
+  },
+  {
+   "id": "qa-22920",
+   "fid": 22920,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=22920&request_locale=ja",
+   "official": true,
+   "cards": [
+    "The Gaze of Timaeus",
+    "Red-Eyes Dark Dragoon",
+    "Dark Magician of Destruction"
+   ],
+   "handtraps": [],
+   "themes": [
+    "sinful-spoils",
+    "mitsurugi"
+   ],
+   "engines": [
+    "sinful-spoils"
+   ],
+   "topic": "summon",
+   "question_ko": "[[The Gaze of Timaeus]]로 [[Red-Eyes Dark Dragoon]]을 융합 소환할 수 있는가? 그때 ② 파괴 효과는 몇 번 쓸 수 있는가?",
+   "answer_ko": "할 수 있다. 일반 몬스터 '블랙 매지션'을 썼다면 융합 소재로 한 일반 몬스터 수는 1장이므로 ②를 1번 쓸 수 있다. 정규 융합 소환으로 다룬다. 티마이오스로 특소할 수 있는 예시에 [[Dark Magician of Destruction]]도 들어 있다.",
+   "quote_ja": "通常モンスターの「ブラック・マジシャン」を使用したのであれば、融合素材とした通常モンスターの数は１体となりますので、…効果は１ターンに１回発動できます。",
+   "impact_ko": "효과 몬스터인 [[Dark Magician of Destruction]]을 소재로 낸 드라군은 일반 몬스터 소재가 0장이라 ②(상대 몬스터 파괴 + 번)를 쓸 수 없다. 엔진 드라군의 견제는 1턴 1번 발동 무효 하나뿐이다."
+  }
+ ]
+}

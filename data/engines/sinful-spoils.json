@@ -1,0 +1,1438 @@
+{
+ "slug": "sinful-spoils",
+ "kind": "engine",
+ "name": {
+  "en": "Sinful Spoils engine",
+  "ko": "죄보 엔진"
+ },
+ "mdm_names": [
+  "Dragoon",
+  "Dark Magician of Destruction",
+  "Diabellstar Vengeance",
+  "Snake-Eyes"
+ ],
+ "status": "draft",
+ "updated": "2026-10-25",
+ "cover": "Diabellstar the Black Witch",
+ "overview_ko": "[[WANTED: Seeker of Sinful Spoils]](제한 1)·[[Diabellstar the Black Witch]]·[[Deception of the Sinful Spoils]]·[[The Hallowed Azamina]]와 엑스트라 덱 [[Azamina Ilia Silvia]]·[[Dark Magician of Destruction]]·[[Red-Eyes Dark Dragoon]] + [[The Gaze of Timaeus]]의 6~8장 묶음. WANTED → 디아벨스타 특소 → 기만 세트 → 아자미나 서치 → 레아 실비아(무효), 그리고 디아벨스타를 제외해 흑마술사 → 티마이오스 → 드라군(대상 불가 무효)까지 간다. 메인에 넘기는 것은 무효 2개와 마법 발동 수, 디아벨스타·기만의 비용 칸(메인 카드를 묘지로 보내거나 릴리스)이다. 디아벨스타 없이 [[Reprodocus]]로 메인의 레벨 6 이상 어둠 몬스터를 마법사족으로 바꿔 흑마술사 → 드라군만 쓰는 '드라군 패키지'도 같은 파일에 넣었다(미츠루기). 서치를 3번 하는 구조라 드롤에 매우 약하고, 시작이 WANTED·디아벨스타 1장이라 첫 서치를 끊으면 엔진이 멈춘다. 하얀 숲 아자미나(테마 자체)는 `data/themes/sinful-spoils.json`을 본다.",
+ "starters": [
+  "WANTED: Seeker of Sinful Spoils",
+  "Diabellstar the Black Witch",
+  "Reprodocus"
+ ],
+ "provides_ko": [
+  "[[Azamina Ilia Silvia]](상대 효과 무효 1회) + [[Red-Eyes Dark Dragoon]](대상 불가·효과 파괴 불가, 발동 무효 1회): 메인 판면에 무효 2개 추가",
+  "디아벨스타 특소 비용·기만 릴리스 비용으로 메인 카드를 묘지로 보내거나 릴리스(미츠루기는 릴리스 유발, 섬도희는 묘지 마법 수)",
+  "WANTED·티마이오스·할로우드 아자미나로 이번 턴 마법 발동 횟수 증가",
+  "엔드 페이즈에 다시 세트되는 기만(다음 턴 아자미나 서치·1500 번)",
+  "[[Reprodocus]] 패키지: 메인의 레벨 6 이상 어둠 몬스터 1장을 제외해 드라군 1장으로 바꿈"
+ ],
+ "restrictions": [
+  {
+   "card": "WANTED: Seeker of Sinful Spoils",
+   "text_ko": "MD 제한 1. 각 효과 1턴 1번(① 디아벨스타 서치, ② 묘지에서 제외해 '죄보' 마함을 덱 아래 + 1드로우).",
+   "hits_main_ko": "엔진 시작이 사실상 WANTED 1장 + 디아벨스타 실물뿐이라 메인과 별개로 첫 서치에서 끊긴다. 메인 초동과 WANTED가 같이 보이면 어느 쪽이 판면을 더 만드는지로 패트랩을 고른다(`hosts` 참고)."
+  },
+  {
+   "card": "Diabellstar the Black Witch",
+   "text_ko": "패 특소는 소환 규칙(1턴 1번)이고 패·필드의 카드 1장을 묘지로 보낸다. ② 세트·③ 부활 각 1턴 1번.",
+   "hits_main_ko": "메인 카드 1장을 비용으로 쓴다. 섬도희는 마법을 보내 묘지 마법 수를 늘리지만, 디아벨스타가 메인 몬스터 존에 서면 '메인 몬스터 존에 몬스터가 없을 때' 조건의 섬도 마법을 못 쓰므로 섬도 전개 뒤에 낸다."
+  },
+  {
+   "card": "Dark Magician of Destruction",
+   "text_ko": "이번 턴 누군가 마법 카드 효과를 발동(무효되지 않음)했어야 하고, 자기 메인 페이즈에만, 1턴 1번. 자신 필드의 레벨 6 이상 어둠 마법사족 1장을 제외한다.",
+   "hits_main_ko": "메인이 마법을 쓰지 않는 턴에는 못 낸다(미츠루기는 [[Mitsurugi Ritual]], 섬도희는 섬도 마법으로 충족). 디아벨스타가 없는 미츠루기는 [[Reprodocus]]로 의식 몬스터를 마법사족으로 바꿔 제외하므로, 그 의식 몬스터의 '릴리스되었을 때' 효과는 나오지 않는다.",
+   "rulings": [
+    "supp-21610"
+   ]
+  },
+  {
+   "card": "The Gaze of Timaeus",
+   "text_ko": "1턴 1장. 융합한 [[Red-Eyes Dark Dragoon]]은 다음 턴 엔드 페이즈에 제외된다. 흑마술사로 낸 드라군은 일반 몬스터 소재 0장이라 ② 파괴·번을 못 쓴다.",
+   "hits_main_ko": "드라군은 상대 턴 무효 1회용이고 다음 자기 턴 끝에 사라진다. 메인 몬스터 존 1칸을 차지한다.",
+   "rulings": [
+    "qa-22920"
+   ]
+  },
+  {
+   "card": "The Hallowed Azamina",
+   "text_ko": "처리 때 '죄보' 카드를 필드·패에서 묘지로 보내야 아자미나 융합체가 나온다(레벨 6이면 1장). 기만이 없어지면 불발.",
+   "hits_main_ko": "호스트 덱은 '죄보' 카드가 기만 1장뿐인 경우가 많아, 기만을 먼저 치우면 아자미나 축이 통째로 사라진다.",
+   "rulings": [
+    "qa-24148"
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "engine",
+   "title_ko": "[[WANTED: Seeker of Sinful Spoils]](또는 디아벨스타) 1장 → 아자미나 + [[Red-Eyes Dark Dragoon]]",
+   "hand": [
+    "WANTED: Seeker of Sinful Spoils"
+   ],
+   "note_ko": "죄보 엔진 공통 부분. 디아벨스타 특소 비용과 기만의 릴리스 비용은 호스트 카드로 낸다(미츠루기는 미츠루기 몬스터를 기만으로 릴리스해 릴리스 유발까지 챙김, 섬도희는 디아벨스타 비용으로 마법을 보내 묘지 마법 수를 늘림). 디아벨스타를 직접 잡았으면 1단계를 건너뛴다. 7단계 [[Dark Magician of Destruction]]은 이번 턴 누군가 마법 카드 효과를 발동(무효되지 않음)했어야 하고 메인 페이즈에만 낼 수 있다. 흑마술사로 낸 드라군은 일반 몬스터 소재가 0장이라 ② 파괴·번을 못 쓰고 무효 1회만 남는다. 섬도희 리스트는 [[The Hallowed Azamina]] 대신 속공 마법 [[Azamina Debtors]]로 6단계를 한다.",
+   "steps": [
+    {
+     "card": "WANTED: Seeker of Sinful Spoils",
+     "action_ko": "속공 마법 발동: 덱(또는 묘지)에서 디아벨스타 서치",
+     "class": [
+      "spell_trap_activation",
+      "search"
+     ],
+     "result_ko": "[[Diabellstar the Black Witch]] 서치"
+    },
+    {
+     "card": "Diabellstar the Black Witch",
+     "action_ko": "패/필드의 카드 1장을 묘지로 보내고 패에서 특소(효과 발동이 아닌 소환 규칙)",
+     "class": [
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Diabellstar the Black Witch",
+     "action_ko": "특소 성공 시 효과: 덱에서 '죄보' 마함 1장 세트",
+     "class": [
+      "monster_effect_field",
+      "place_from_deck"
+     ],
+     "result_ko": "[[Deception of the Sinful Spoils]] 세트"
+    },
+    {
+     "card": "Deception of the Sinful Spoils",
+     "action_ko": "세트한 기만을 앞면으로 발동(카드 발동만, 효과 없음)",
+     "class": [
+      "spell_trap_activation"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Deception of the Sinful Spoils",
+     "action_ko": "① 효과: 패/필드 몬스터 1장 릴리스 → 덱에서 '아자미나' 카드 서치",
+     "class": [
+      "st_effect_field",
+      "search"
+     ],
+     "result_ko": "[[The Hallowed Azamina]] 서치"
+    },
+    {
+     "card": "The Hallowed Azamina",
+     "action_ko": "일반 마법: 필드의 기만('죄보' 카드)을 묘지로 보내고 레벨 6 아자미나 융합체 특소(융합 소환 취급)",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Azamina Ilia Silvia]](견제) 또는 서치가 필요하면 [[Azamina Mu Rcielago]]. 기만은 엔드 페이즈에 재세트"
+    },
+    {
+     "card": "Dark Magician of Destruction",
+     "action_ko": "이번 턴 마법을 발동했으므로 필드의 디아벨스타를 제외해 엑스트라 덱에서 특소(소환 규칙)",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Dark Magician of Destruction",
+     "action_ko": "특소 성공 시 효과: 덱에서 '블랙 매지션' 또는 그 이름이 적힌 카드 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[The Gaze of Timaeus]] 서치"
+    },
+    {
+     "card": "The Gaze of Timaeus",
+     "action_ko": "속공 마법: [[Dark Magician of Destruction]](필드에서 '블랙 매지션' 취급)를 덱에 넣고 융합 소환",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Red-Eyes Dark Dragoon]] (다음 턴 엔드 페이즈에 제외)"
+    }
+   ],
+   "end_board": [
+    "Red-Eyes Dark Dragoon",
+    "Azamina Ilia Silvia",
+    "Deception of the Sinful Spoils"
+   ],
+   "end_board_note_ko": "[[Red-Eyes Dark Dragoon]] 1회 발동 무효(대상 불가·효과 파괴 불가) + [[Azamina Ilia Silvia]] 1회 무효. 기만은 엔드 페이즈에 다시 세트되어 다음 턴 아자미나 서치·번 효과에 쓴다. 여기에 호스트 덱의 필드가 더해진다."
+  },
+  {
+   "id": "snake",
+   "title_ko": "디아벨스타 → 원죄보로 스네이크아이 접속(엘펜노츠·냠냠 호스트)",
+   "hand": [
+    "Diabellstar the Black Witch"
+   ],
+   "note_ko": "스네이크아이를 함께 넣은 호스트(냠냠·엘펜노츠·스네이크아이 계열, MDM 태그 'Snake-Eyes')의 짧은 연결. 이후는 스네이크아이 쪽 전개라 엔진 진입 구간만 적는다.",
+   "steps": [
+    {
+     "card": "Diabellstar the Black Witch",
+     "action_ko": "패/필드 카드 1장을 보내고 패에서 특소",
+     "class": [
+      "ss_from_hand"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Diabellstar the Black Witch",
+     "action_ko": "소환 시 효과: 덱에서 '죄보' 마함 세트",
+     "class": [
+      "monster_effect_field",
+      "place_from_deck"
+     ],
+     "result_ko": "[[Original Sinful Spoils - Snake-Eye]] 세트"
+    },
+    {
+     "card": "Original Sinful Spoils - Snake-Eye",
+     "action_ko": "발동: 디아벨스타(자신 이외의 앞면 카드)를 묘지로 보내고 패/덱에서 레벨 1 화염 몬스터 특소",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_deck"
+     ],
+     "result_ko": "[[Snake-Eye Ash]] 특소"
+    },
+    {
+     "card": "Snake-Eye Ash",
+     "action_ko": "특소 시 효과: 덱에서 레벨 1 화염 몬스터 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[Snake-Eye Oak]] 등 서치 → 스네이크아이 전개로 이어짐"
+    }
+   ],
+   "end_board": [],
+   "end_board_note_ko": "호스트에 따라 다름. 원죄보는 묘지에서 제외해 디아벨스타를 덱 아래로 돌리고 레벨 1 화염을 다시 서치하는 2차 효과도 있다."
+  },
+  {
+   "id": "reprodocus",
+   "title_ko": "[[Reprodocus]] 종족 변경 → [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]] (디아벨스타 없는 드라군 패키지)",
+   "hand": [],
+   "note_ko": "미츠루기 리스트(MDM 2026-10 DC, 'Dragoon'·'Dark Magician of Destruction' 태그)는 디아벨스타 없이 엑스트라 덱의 [[Reprodocus]]·[[Dark Magician of Destruction]]·[[Red-Eyes Dark Dragoon]] + 메인 덱 [[The Gaze of Timaeus]]만 넣는다. 레벨 8 어둠 파충류족 의식 몬스터를 [[Reprodocus]]로 마법사족으로 바꿔 흑마술사 소환 조건(레벨 6 이상 어둠 마법사족 1장 제외)을 채우는 구성으로 보인다(덱 리스트에서 역산, 출처의 콤보 기록 아님). 마법 조건은 같은 턴의 [[Mitsurugi Ritual]] 발동으로 충족된다. 패에서 쓰는 카드가 없어 손패 요구는 '레벨 6 이상 어둠 몬스터 1장 + 링크 소재 2장'뿐.",
+   "steps": [
+    {
+     "card": "Reprodocus",
+     "action_ko": "필드의 몬스터 2장으로 링크 소환. 레벨 6 이상 어둠 몬스터(미츠루기는 [[Ame no Habakiri no Mitsurugi]] 등 레벨 8 어둠 파충류족)가 링크 마커 끝에 오도록 놓는다",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Reprodocus",
+     "action_ko": "① 기동 효과: 종족 '마법사족'을 선언 → 링크 마커 끝의 앞면 몬스터 전부 턴 종료시까지 마법사족 (대상 지정 아님)",
+     "class": [
+      "monster_effect_field"
+     ],
+     "result_ko": "레벨 8 어둠 의식 몬스터가 '레벨 6 이상 어둠 마법사족'이 됨"
+    },
+    {
+     "card": "Dark Magician of Destruction",
+     "action_ko": "이번 턴 마법 카드 효과가 발동되었으므로 그 레벨 8 어둠 마법사족을 제외하고 엑스트라 덱에서 특소 (소환 절차, 체인 없음, 메인 페이즈만)",
+     "class": [
+      "ss_from_extra"
+     ],
+     "result_ko": ""
+    },
+    {
+     "card": "Dark Magician of Destruction",
+     "action_ko": "특소 성공 시 효과: 덱에서 '블랙 매지션' 또는 그 이름이 적힌 카드 서치",
+     "class": [
+      "monster_effect_field",
+      "search"
+     ],
+     "result_ko": "[[The Gaze of Timaeus]] 서치"
+    },
+    {
+     "card": "The Gaze of Timaeus",
+     "action_ko": "속공 마법: 필드의 [[Dark Magician of Destruction]](필드에서 '블랙 매지션' 취급)를 덱에 넣고 융합 소환",
+     "class": [
+      "spell_trap_activation",
+      "ss_from_extra"
+     ],
+     "result_ko": "[[Red-Eyes Dark Dragoon]] (다음 턴 엔드 페이즈에 제외)"
+    }
+   ],
+   "end_board": [
+    "Red-Eyes Dark Dragoon",
+    "Reprodocus"
+   ],
+   "end_board_note_ko": "[[Red-Eyes Dark Dragoon]] 1회 발동 무효(대상 불가·효과 파괴 불가). 일반 몬스터 소재가 0장이라 ② 파괴·번은 쓸 수 없다. 제외한 의식 몬스터는 '릴리스되었을 때' 효과가 나오지 않는다. 여기에 호스트(미츠루기) 필드가 더해진다."
+  }
+ ],
+ "chokepoints": [
+  {
+   "handtrap": "ash",
+   "severity": "critical",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "[[WANTED: Seeker of Sinful Spoils]] 발동에 체인",
+   "why_ko": "호스트 덱에 섞인 엔진은 [[WANTED: Seeker of Sinful Spoils]](제한 1) 또는 디아벨스타 1장에서만 시작한다. 여기서 디아벨스타를 못 가져오면 기만·아자미나·[[Red-Eyes Dark Dragoon]] 견제 2개가 통째로 사라진다.",
+   "fallback_ko": "패에 디아벨스타 실물이 있으면 엔진은 계속된다. 호스트 본체 전개는 별개."
+  },
+  {
+   "handtrap": "purge",
+   "severity": "critical",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "[[WANTED: Seeker of Sinful Spoils]] 발동에 직접 체인. 발동한 속공 마법이 상대 필드에 있으므로 패에서 발동 가능",
+   "why_ko": "우라라와 같은 결과로 디아벨스타가 들어오지 않아 엔진(기만·아자미나·[[Red-Eyes Dark Dragoon]])이 통째로 사라진다. 내 묘지에 함정이 있으면 [[WANTED: Seeker of Sinful Spoils]]도 파괴되지만 어차피 묘지로 간다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 못 쓴다.",
+   "fallback_ko": "패에 디아벨스타 실물이 있으면 엔진은 계속된다. 호스트 본체 전개는 별개."
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "critical",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타의 '죄보 마함 세트' 효과 발동에 직접 체인 (내 필드에 몬스터가 없을 것)",
+   "why_ko": "세트가 무효가 되고 디아벨스타가 파괴된다. 지금은 상대 자신의 턴이라 디아벨스타의 자체 소생(상대 턴에 묘지로 갔을 때)이 일어나지 않는다. 기만이 없어 아자미나 축이, 레벨 6 이상 어둠 마법사족이 없어 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]까지 한 번에 끊긴다. 우라라로는 못 막는 구간.",
+   "fallback_ko": "호스트 덱 전개는 남는다. 감마는 제한 1.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  {
+   "handtrap": "super_poly",
+   "severity": "strong",
+   "line": "engine",
+   "step": 6,
+   "target_card": "Azamina Ilia Silvia",
+   "timing_ko": "[[The Hallowed Azamina]]로 [[Azamina Ilia Silvia]]가 나온 직후, [[Dark Magician of Destruction]] 특소 전에 [[Super Polymerization]]. 디아벨스타(어둠 마법사족) + [[Azamina Ilia Silvia]](어둠 환상마족)로 [[Mudragon of the Swamp]]",
+   "why_ko": "초융합에는 [[Azamina Ilia Silvia]]도 체인할 수 없다. 무효 견제가 사라지고, 레벨 6 이상 어둠 마법사족(디아벨스타)도 없어져 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]까지 막힌다.",
+   "fallback_ko": "놓쳤다면 최종 필드의 [[Red-Eyes Dark Dragoon]](어둠 마법사족) + [[Azamina Ilia Silvia]]로도 [[Mudragon of the Swamp]]이 된다. [[Red-Eyes Dark Dragoon]]은 대상 불가·파괴 불가지만 초융합은 대상을 잡지 않는다. 하얀 숲 아자미나는 디아벨 + 디아벨제(둘 다 빛 환상마족)로 [[Garura, Wings of Resonant Life]]. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "rulings": [
+    "qa-10824"
+   ]
+  },
+  {
+   "handtrap": "mst",
+   "severity": "strong",
+   "line": "engine",
+   "step": 4,
+   "target_card": "Deception of the Sinful Spoils",
+   "timing_ko": "디아벨스타가 세트한 기만을 앞면으로 발동할 때 체인해 [[Mystical Space Typhoon]] (세트 상태에서 겨냥해도 상대가 체인 발동한 뒤 파괴된다)",
+   "why_ko": "기만의 카드 발동 자체에는 효과가 없어서, 체인으로 부수면 ① 아자미나 서치를 한 번도 못 쓴다. [[The Hallowed Azamina]]로 보낼 '죄보' 카드도 사라져 아자미나 융합까지 막힌다. 유령토끼보다 이른 지점.",
+   "fallback_ko": "기만은 앞면으로 묘지에 갔으므로 엔드 페이즈에 다시 세트된다. 디아벨스타 → [[Red-Eyes Dark Dragoon]] 루트는 남는다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "rulings": [
+    "qa-111",
+    "qa-24148"
+   ]
+  },
+  {
+   "handtrap": "crown",
+   "severity": "strong",
+   "line": "engine",
+   "step": 8,
+   "target_card": "Dark Magician of Destruction",
+   "timing_ko": "[[Dark Magician of Destruction]]의 특소 유발(서치) 발동에 체인해 [[Forbidden Crown]]",
+   "why_ko": "서치가 무효가 되고, 이번 턴 [[Dark Magician of Destruction]]는 융합 소재로 쓸 수 없어 [[The Gaze of Timaeus]]으로 [[Red-Eyes Dark Dragoon]]을 낼 수 없다. 이미 나온 [[Azamina Ilia Silvia]]도 몬스터 효과라 성관에 체인할 수 없다.",
+   "fallback_ko": "디아벨스타에 성관을 써도 [[Dark Magician of Destruction]]는 나온다(그 특소는 융합 소환이 아닌 절차라 '소재 불가'가 걸린 몬스터도 쓸 수 있음). 하얀 숲 아자미나라면 5단계 루시엘라의 서치 유발에 써서 디아벨 싱크로 소재를 막는다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "rulings": [
+    "qa-24256",
+    "qa-22839"
+   ]
+  },
+  {
+   "handtrap": "ogre",
+   "severity": "strong",
+   "line": "engine",
+   "step": 5,
+   "target_card": "Deception of the Sinful Spoils",
+   "timing_ko": "앞면이 된 기만의 ① 효과(릴리스 → 아자미나 서치) 발동에 체인",
+   "why_ko": "서치는 처리되지만 기만 본체가 파괴되어 [[The Hallowed Azamina]]로 보낼 '죄보' 카드가 사라진다(호스트 덱은 다른 죄보 카드가 거의 없음). 무효가 아닌 파괴라는 점이 오히려 여기서는 이득.",
+   "fallback_ko": "기만은 엔드 페이즈에 다시 세트되니 다음 턴 재사용. 디아벨스타 → [[Red-Eyes Dark Dragoon]] 루트는 남는다.",
+   "rulings": [
+    "qa-24148"
+   ]
+  },
+  {
+   "handtrap": "fallen_virtuous",
+   "severity": "strong",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타의 세트 효과 발동에 체인해 디아벨스타를 파괴",
+   "why_ko": "세트는 처리되지만 레벨 6 이상 어둠 마법사족이 사라져 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]이 나오지 않는다. 디아벨스타의 자체 소생은 '상대 턴'에만 되므로 상대 자신의 턴인 지금은 돌아오지 않는다.",
+   "fallback_ko": "아자미나 쪽([[Azamina Ilia Silvia]])은 남는다. 이 지점이 지났다면 앞면 기만의 ① 효과에 체인해 기만을 파괴(유령토끼와 같은 효과). [[Azamina Ilia Silvia]]가 서면 무효당한다. 속공 마법은 상대 턴에 패에서 발동할 수 없어 내 턴에 세트해 둔 경우만 쓸 수 있다. 내가 후공이면 상대 1턴 전개 중에는 못 쓰고(하르모니아·드루이드브룸만 가능), 내가 선공이었거나 이후 상대 턴에만 해당한다.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "strong",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타의 세트 효과 발동에 [[Fydraulis Harmonia]](싱크로 5장 공개)로 디아벨스타를 파괴",
+   "why_ko": "The Fallen & The Virtuous와 같은 결과로 [[Red-Eyes Dark Dragoon]] 루트가 사라진다. [[Azamina Ilia Silvia]]가 나오기 전이라 무효당하지 않는다.",
+   "fallback_ko": "2·4장 공개는 방해 없음. [[Azamina Ilia Silvia]]·[[Red-Eyes Dark Dragoon]]이 선 뒤에는 패에서 쓰는 효과라 무효된다.",
+   "rulings": [
+    "qa-24286",
+    "supp-19148"
+   ]
+  },
+  {
+   "handtrap": "ash",
+   "severity": "strong",
+   "line": "engine",
+   "step": 5,
+   "target_card": "Deception of the Sinful Spoils",
+   "timing_ko": "기만의 아자미나 서치 효과에 체인",
+   "why_ko": "아자미나 융합([[Azamina Ilia Silvia]] 무효)이 사라진다. 릴리스 비용도 이미 냈다.",
+   "fallback_ko": "디아벨스타는 필드에 남아 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]은 간다."
+  },
+  {
+   "handtrap": "imperm",
+   "severity": "strong",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타 특소 직후 '죄보 마함 세트' 효과 발동에 체인(뵐러도 동일)",
+   "why_ko": "세트 효과는 서치가 아니어서 우라라로는 못 막는다. 여기를 무효로 하면 기만/원죄보/모리안이 나오지 않아 아자미나 축이 끊긴다.",
+   "fallback_ko": "디아벨스타 몸은 남아 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]] 루트는 남음. 무한포영 세트 사용이 아니라면 디아벨스타 몸 무효 외 추가 이득은 없다.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타 특소 직후 '죄보 마함 세트' 효과 발동에 체인해 디아벨스타 대상 (무한포영과 같은 지점)",
+   "why_ko": "세트가 무효가 되어 기만이 나오지 않고 아자미나 축이 끊긴다. 디아벨스타의 패 특소는 소환 규칙이라 그 자체는 막을 수 없고, 특소 뒤 세트 효과에만 쓴다.",
+   "fallback_ko": "디아벨스타 몸은 남아 [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]] 루트는 남는다.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "strong",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타가 패에서 특소된 직후 버리고 디아벨스타 대상 (디아벨스타의 세트 유발이 체인 1, 사요 시구레가 체인 2)",
+   "why_ko": "디아벨스타의 효과가 무효가 되어 체인 1의 죄보 마함 세트도 무효로 처리된다. 무한포영·뵐러를 3단계에 맞춘 것과 같은 결과. 디아벨스타가 이번 턴 [[Dark Magician of Destruction]]의 소재로 제외되면 원래 공격력만큼 상대가 데미지를 받는다.",
+   "fallback_ko": "디아벨스타 몸은 남아 [[Red-Eyes Dark Dragoon]] 루트는 남는다."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "engine",
+   "step": 6,
+   "target_card": "The Hallowed Azamina",
+   "timing_ko": "[[The Hallowed Azamina]] 발동에 직접 체인 (아자미나 융합체 특소를 포함). 상대 필드에 카드가 있어 패에서 발동 가능",
+   "why_ko": "효과가 무효가 되어 [[Azamina Ilia Silvia]](무효 견제)가 나오지 않는다. [[The Hallowed Azamina]]는 묘지로 가지만 묘지 효과로 되돌릴 아자미나 몬스터가 없다. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 못 쓴다.",
+   "fallback_ko": "디아벨스타 → [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]은 남는다. [[Red-Eyes Dark Dragoon]]을 막고 싶으면 9단계 [[The Gaze of Timaeus]]에 쓴다."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "engine",
+   "step": 9,
+   "target_card": "The Gaze of Timaeus",
+   "timing_ko": "[[The Gaze of Timaeus]] 발동에 직접 체인 (융합 소환 = 특소를 포함)",
+   "why_ko": "[[Red-Eyes Dark Dragoon]]이 나오지 않는다. [[Red-Eyes Dark Dragoon]]은 대상 불가·효과 파괴 불가에 1턴 1번 발동 무효라, 내 턴 돌파 난이도가 가장 크게 내려가는 지점이다. [[Dark Magician of Destruction]]는 필드에 남는다. 6단계 [[The Hallowed Azamina]]와 둘 중 하나만 골라야 한다(도미나스 임펄스는 1턴 1장).",
+   "fallback_ko": "아자미나 융합체([[Azamina Ilia Silvia]])와 기만은 남는다. [[Azamina Ilia Silvia]]가 이미 서 있으면 이 발동은 [[Azamina Ilia Silvia]]에 무효당할 수 있다."
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "snake",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타의 죄보 마함 세트 효과에 체인해 디아벨스타 대상",
+   "why_ko": "[[Original Sinful Spoils - Snake-Eye]]가 세트되지 않아 스네이크아이 접속이 끊긴다.",
+   "fallback_ko": "호스트 덱(스네이크아이 등) 본체 전개는 별개.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  {
+   "handtrap": "gamma",
+   "severity": "strong",
+   "line": "snake",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타의 죄보 마함 세트 효과 발동에 직접 체인 (내 필드에 몬스터가 없을 것)",
+   "why_ko": "세트 무효 + 디아벨스타 파괴(상대 자신의 턴이라 소생하지 않음). 원죄보와 원죄보로 보낼 앞면 카드가 함께 사라진다.",
+   "fallback_ko": "호스트 덱 본체 전개는 별개."
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "snake",
+   "step": 3,
+   "target_card": "Original Sinful Spoils - Snake-Eye",
+   "timing_ko": "[[Original Sinful Spoils - Snake-Eye]] 발동에 직접 체인 (레벨 1 화염 특소 포함)",
+   "why_ko": "디아벨스타는 비용으로 묘지에 갔고 스네이크아이 몬스터가 나오지 않는다. 비용으로 보낸 디아벨스타는 상대 자신의 턴이라 소생하지 않는다.",
+   "fallback_ko": "스네이크아이 덱 본체 전개는 별개."
+  },
+  {
+   "handtrap": "ash",
+   "severity": "bad",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "디아벨스타의 죄보 마함 세트 효과",
+   "why_ko": "덱에서 '세트'하는 효과는 서치·특소·덤핑이 아니라 우라라 발동 조건이 안 된다. 디아벨스타의 패 특소도 소환 규칙이라 체인할 효과가 없다.",
+   "fallback_ko": "우라라는 [[WANTED: Seeker of Sinful Spoils]]·기만·흑마술사 서치에 아껴 둔다.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  {
+   "handtrap": "harmonia",
+   "severity": "bad",
+   "line": "engine",
+   "step": 9,
+   "target_card": "Red-Eyes Dark Dragoon",
+   "timing_ko": "[[Red-Eyes Dark Dragoon]]이나 루시엘라가 있는 하얀 숲 싱크로를 하르모니아·The Fallen & The Virtuous로 파괴하려는 것",
+   "why_ko": "[[Red-Eyes Dark Dragoon]]은 효과로 파괴되지 않고 대상도 안 된다. 루시엘라가 있으면 환상마족·마법사족 싱크로가, 디아벨 몬스터 2장 이상이면 디아벨제로 모든 몬스터가 상대 효과로 파괴되지 않는다.",
+   "fallback_ko": "파괴가 통하는 시점(디아벨스타·실비)에 미리 쓰거나, 초융합·드루이드브룸 ②처럼 파괴가 아닌 수단을 쓴다."
+  },
+  {
+   "handtrap": "mst",
+   "severity": "bad",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "[[WANTED: Seeker of Sinful Spoils]]·[[The Hallowed Azamina]]·[[The Gaze of Timaeus]] 발동에 싸이크론",
+   "why_ko": "일반·속공 마법은 체인으로 파괴해도 효과가 그대로 처리된다.",
+   "fallback_ko": "지속 마법인 기만(4단계)에 쓴다."
+  },
+  {
+   "handtrap": "droll",
+   "severity": "critical",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "[[WANTED: Seeker of Sinful Spoils]]의 디아벨스타 서치가 처리된 직후",
+   "why_ko": "디아벨스타 특소·세트는 서치가 아니라 그대로 진행되지만, 기만의 아자미나 서치(5단계)와 [[Dark Magician of Destruction]]의 [[The Gaze of Timaeus]] 서치(8단계)가 둘 다 막혀 [[Azamina Ilia Silvia]]·[[Red-Eyes Dark Dragoon]]이 모두 나오지 않는다. 호스트의 이후 서치도 같이 막힌다.",
+   "fallback_ko": "디아벨스타 + 앞면 기만 + 흑마술사 몸만 남는다. 기만은 엔드 페이즈 재세트 조건(필드에서 앞면으로 묘지)이 없으면 그대로 남는다."
+  },
+  {
+   "handtrap": "maxxc",
+   "severity": "ok",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "[[WANTED: Seeker of Sinful Spoils]] 발동에 체인 (디아벨스타 패 특소는 소환 규칙이라 그 자체에는 체인할 수 없다)",
+   "why_ko": "엔진 단독 특소는 디아벨스타·[[Azamina Ilia Silvia]]·흑마술사·드라군 4회. 증G의 가치는 호스트 전개량이 결정한다.",
+   "fallback_ko": "보통 레아 실비아까지만 하고 드라군을 생략하거나 호스트 전개를 줄인다."
+  },
+  {
+   "handtrap": "fuwalos",
+   "severity": "ok",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "[[WANTED: Seeker of Sinful Spoils]] 발동에 체인해 버린다. 내 필드에 카드가 없어야 한다",
+   "why_ko": "덱·엑덱 특소만 센다: [[Azamina Ilia Silvia]]·흑마술사·드라군 3장(디아벨스타는 패 특소라 세지 않음).",
+   "fallback_ko": "엔드 페이즈 패 매수 제한 주의."
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "상대 턴 첫 동작 전(스탠바이 페이즈 등)에 세트해 둔 [[Macro Cosmos]]를 앞면으로 해 둔다",
+   "why_ko": "'묘지로 가는 카드는 제외' 적용 중에는 카드를 묘지로 보내는 특소 절차를 할 수 없어 디아벨스타를 패에서 특소할 수 없다(공식 예시에 디아벨스타가 명시). [[WANTED: Seeker of Sinful Spoils]]로 가져와도 낼 수 없어 엔진 전체가 멈춘다. [[The Hallowed Azamina]]도 '죄보' 카드가 묘지에 가지 않아 융합체가 나오지 않는다. 미리 세트해 둔 경우에만 상대 턴에 쓸 수 있다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "디아벨스타 일반 소환(레벨 7이라 릴리스 2장)으로만 우회 가능. [[Reprodocus]] 패키지(`reprodocus` 라인)는 제외·덱 되돌리기만 쓰므로 막지 못한다.",
+   "rulings": [
+    "qa-6878",
+    "qa-24098"
+   ]
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "strong",
+   "line": "snake",
+   "step": 3,
+   "target_card": "Original Sinful Spoils - Snake-Eye",
+   "timing_ko": "앞면 [[Macro Cosmos]] 적용 중 (디아벨스타가 일반 소환 등으로 나왔더라도)",
+   "why_ko": "[[Original Sinful Spoils - Snake-Eye]]는 앞면 카드를 묘지로 보내는 코스트라 발동할 수 없다(공식 예시에 명시). 스네이크아이 접속이 끊긴다. 미리 세트해 둔 경우에만 상대 턴에 쓸 수 있다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "스네이크아이 몬스터의 묘지 효과도 대부분 사라진다.",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "banisher",
+   "severity": "strong",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "내 필드에 [[Banisher of the Radiance]]가 앞면으로 있는 상태에서 상대가 디아벨스타를 특소하려 할 때",
+   "why_ko": "매크로와 같이 디아벨스타 패 특소(묘지로 보내는 절차)가 불가능하다(공식 예시에 섬광의 추방자가 명시). 내 필드에 미리 앞면으로 있어야 하므로 사실상 내가 선공이었을 때만 해당한다.",
+   "fallback_ko": "호스트가 먼저 추방자를 제거하면 엔진은 통상 진행.",
+   "rulings": [
+    "qa-6878"
+   ]
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "strong",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "내 필드에 [[Kashtira Arise-Heart]]가 앞면으로 있는 상태에서 상대가 디아벨스타를 특소하려 할 때",
+   "why_ko": "디아벨스타 패 특소가 불가능하다(공식 예시에 어라이즈하트가 명시). 내 필드에 미리 앞면으로 있어야 하므로 사실상 내가 선공이었을 때만 해당한다.",
+   "fallback_ko": "호스트가 먼저 어라이즈하트를 제거하면 엔진은 통상 진행.",
+   "rulings": [
+    "qa-6878"
+   ]
+  },
+  {
+   "handtrap": "retaliating_c",
+   "severity": "strong",
+   "line": "engine",
+   "step": 6,
+   "target_card": "The Hallowed Azamina",
+   "timing_ko": "[[The Hallowed Azamina]] 카드의 발동(융합체 특소 포함)에 직접 체인해 패에서 [[Retaliating \"C\"]] 특소",
+   "why_ko": "응전의 G가 먼저 처리되어 처리 때 '죄보' 카드가 묘지 대신 제외되므로 묘지로 보낸 카드가 0장이 되어 아자미나 융합체가 나오지 않는다. 기만도 제외되어 엔드 페이즈 재세트가 없다. 패트랩이라 후공 1턴에 쓸 수 있다.",
+   "fallback_ko": "디아벨스타 → [[Dark Magician of Destruction]] → [[Red-Eyes Dark Dragoon]]은 묘지를 쓰지 않아 남는다. [[WANTED: Seeker of Sinful Spoils]]·[[The Gaze of Timaeus]]는 응전의 G를 꺼낼 수 없다(WANTED는 특소가 없고, 티마이오스는 소재를 덱으로 되돌려 효과가 없다).",
+   "rulings": [
+    "qa-24098",
+    "qa-15449"
+   ]
+  },
+  {
+   "handtrap": "herald",
+   "severity": "strong",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "내 필드의 [[Herald of the Arc Light]]를 릴리스해 [[WANTED: Seeker of Sinful Spoils]] 카드의 발동을 무효+파괴",
+   "why_ko": "제한 1의 시작점이 사라져 엔진 전체가 멈춘다(우라라와 같은 결과). 내 필드에 미리 앞면으로 있어야 하므로 사실상 내가 선공이었을 때만 해당한다.",
+   "fallback_ko": "패에 디아벨스타 실물이 있으면 엔진은 계속된다.",
+   "rulings": [
+    "supp-11384"
+   ]
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "strong",
+   "line": "engine",
+   "step": 6,
+   "target_card": "The Hallowed Azamina",
+   "timing_ko": "세트해 둔 [[Dimensional Barrier]]를 [[The Hallowed Azamina]] 발동에 체인해 '융합' 선언",
+   "why_ko": "아자미나 융합체가 특소되지 않고, 같은 턴 [[Dark Magician of Destruction]]·[[Red-Eyes Dark Dragoon]](둘 다 융합 몬스터)도 특소할 수 없어 엔진의 견제 2개가 한 번에 사라진다. 미리 세트해 둔 경우에만 상대 턴에 쓸 수 있다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "디아벨스타와 기만만 남는다. 호스트가 의식·싱크로면 호스트 전개는 그대로.",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  {
+   "handtrap": "protos",
+   "severity": "ok",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "선공 내 턴에 [[Archnemeses Protos]] ②로 '어둠' 선언(프로토스 자신이 어둠이라 항상 선언 가능)",
+   "why_ko": "다음 턴(상대 턴) 끝까지 서로 어둠 몬스터를 특소할 수 없다. 엔진 몬스터(디아벨스타·아자미나·흑마술사·드라군)는 전부 어둠이라 하나도 나오지 않는다. 내 필드에 미리 앞면으로 있어야 하므로 사실상 내가 선공이었을 때만 해당한다.",
+   "fallback_ko": "호스트가 어둠 테마(미츠루기 등)면 메인까지 같이 멈춘다.",
+   "rulings": [
+    "supp-14994"
+   ]
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "strong",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "내 필드에 [[Barrier Statue of the Heavens]]가 있는 상태에서 디아벨스타 특소",
+   "why_ko": "빛 이외는 특소할 수 없어 엔진 몬스터(전부 어둠)가 하나도 나오지 않는다. 내 필드에 미리 앞면으로 있어야 하므로 사실상 내가 선공이었을 때만 해당한다.",
+   "fallback_ko": "WANTED 서치·기만 세트 같은 마함만 남는다."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "strong",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "내 필드에 [[Barrier Statue of the Inferno]]가 있는 상태에서 디아벨스타 특소",
+   "why_ko": "화염 이외는 특소할 수 없어 엔진 몬스터(전부 어둠)가 나오지 않는다. 스네이크아이 계열(화염)만 통과. 내 필드에 미리 앞면으로 있어야 하므로 사실상 내가 선공이었을 때만 해당한다.",
+   "fallback_ko": "스네이크아이 호스트는 `snake` 라인 화염 몬스터로 우회하지만 디아벨스타 자체가 못 나와 원죄보 세트가 없다."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "strong",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "내 필드에 [[Barrier Statue of the Torrent]]가 있는 상태에서 디아벨스타 특소",
+   "why_ko": "물 이외는 특소할 수 없어 엔진 몬스터(전부 어둠)가 나오지 않는다. 내 필드에 미리 앞면으로 있어야 하므로 사실상 내가 선공이었을 때만 해당한다.",
+   "fallback_ko": "마함만 남는다."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "strong",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "내 필드에 [[Vanity's Fiend]]가 있는 상태에서 상대가 전개 시작",
+   "why_ko": "서로 특소할 수 없고, 특소하는 효과는 발동도 못 한다. 디아벨스타·아자미나·흑마술사·드라군 전부 불가. 내 필드에 미리 앞면으로 있어야 하므로 사실상 내가 선공이었을 때만 해당한다.",
+   "fallback_ko": "호스트의 일반 소환·마함으로 배너티를 먼저 치우려 한다.",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "strong",
+   "line": "engine",
+   "step": 2,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "내 필드에 [[Vanity's Ruler]]가 있는 상태에서 상대가 전개 시작",
+   "why_ko": "상대만 특소할 수 없고 특소 효과도 발동할 수 없다. 엔진 전체 불가. 내 필드에 미리 앞면으로 있어야 하므로 사실상 내가 선공이었을 때만 해당한다.",
+   "fallback_ko": "배너티 데블과 같다.",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "strong",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "세트해 둔 [[Skill Drain]]을 디아벨스타의 '죄보 마함 세트' 효과 발동에 체인",
+   "why_ko": "디아벨스타가 처리 때 필드에 앞면으로 있어 세트가 무효가 된다(무한포영과 같은 결과). 이후 흑마술사 서치·[[Azamina Ilia Silvia]]·[[Red-Eyes Dark Dragoon]]의 필드 효과도 턴 내내 무효라, 드라군이 나와도 무효 견제가 없다. 미리 세트해 둔 경우에만 상대 턴에 쓸 수 있다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "흑마술사 소환 절차·[[The Gaze of Timaeus]]는 효과가 아니거나 마법이라 막지 못한다.",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "strong",
+   "line": "engine",
+   "step": 1,
+   "target_card": "WANTED: Seeker of Sinful Spoils",
+   "timing_ko": "세트해 둔 [[Mistake]]를 [[WANTED: Seeker of Sinful Spoils]] 발동에 체인",
+   "why_ko": "미스테이크가 먼저 처리되어 디아벨스타 서치가 안 되고, 앞면으로 남아 기만·흑마술사 서치도 전부 막힌다. 엔진 전체가 멈춘다. 미리 세트해 둔 경우에만 상대 턴에 쓸 수 있다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "패에 디아벨스타 실물이 있으면 특소·세트(서치가 아님)까지는 된다.",
+   "rulings": [
+    "qa-19975",
+    "qa-22433"
+   ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "ok",
+   "line": "engine",
+   "step": 3,
+   "target_card": "Diabellstar the Black Witch",
+   "timing_ko": "세트해 둔 [[Rivalry of Warlords]]를 디아벨스타의 '죄보 마함 세트' 효과 발동에 체인",
+   "why_ko": "마법사족 디아벨스타가 필드에 있는 동안 환상마족 아자미나 융합체를 특소할 수 없어, 그 특소를 하는 [[The Hallowed Azamina]]도 발동할 수 없다. 호스트가 파충류족(미츠루기) 등 다른 종족이면 디아벨스타 자체가 나오기 어렵다. 미리 세트해 둔 경우에만 상대 턴에 쓸 수 있다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "흑마술사·드라군은 디아벨스타와 같은 마법사족이라 통과한다.",
+   "rulings": [
+    "qa-8773"
+   ]
+  },
+  {
+   "handtrap": "ash",
+   "severity": "strong",
+   "line": "reprodocus",
+   "step": 4,
+   "target_card": "Dark Magician of Destruction",
+   "timing_ko": "[[Dark Magician of Destruction]]의 '블랙 매지션 관련 카드 서치' 발동에 체인",
+   "why_ko": "[[The Gaze of Timaeus]]가 들어오지 않아 [[Red-Eyes Dark Dragoon]]이 나오지 않는다. 흑마술사 특소는 소환 절차라 체인할 수 없으니 여기가 이 패키지의 우라라 타점. 다만 미츠루기 호스트라면 우라라는 하바키리 ①에 쓰는 편이 훨씬 크다.",
+   "fallback_ko": "흑마술사 몸만 남는다(견제 없음).",
+   "rulings": [
+    "supp-21610"
+   ]
+  },
+  {
+   "handtrap": "imperm",
+   "severity": "strong",
+   "line": "reprodocus",
+   "step": 2,
+   "target_card": "Reprodocus",
+   "timing_ko": "[[Reprodocus]]의 종족 선언 효과 발동에 체인 (뵐러도 동일)",
+   "why_ko": "종족이 바뀌지 않아 레벨 6 이상 어둠 마법사족이 없으므로 흑마술사를 낼 수 없다. 효과는 대상을 잡지 않는 기동 효과라 발동 뒤에 끊어야 한다.",
+   "fallback_ko": "드라군 패키지 전체가 사라진다. 리프로도쿠스 몸은 남는다.",
+   "rulings": [
+    "supp-13764"
+   ]
+  },
+  {
+   "handtrap": "veiler",
+   "severity": "strong",
+   "line": "reprodocus",
+   "step": 2,
+   "target_card": "Reprodocus",
+   "timing_ko": "[[Reprodocus]]의 종족 선언 효과 발동에 체인해 리프로도쿠스 대상",
+   "why_ko": "무한포영과 같은 결과로 흑마술사 소환 조건(마법사족)이 생기지 않는다. 상대 메인 페이즈라 쓸 수 있다.",
+   "fallback_ko": "드라군 패키지 전체가 사라진다.",
+   "rulings": [
+    "supp-13764"
+   ]
+  },
+  {
+   "handtrap": "impulse",
+   "severity": "strong",
+   "line": "reprodocus",
+   "step": 5,
+   "target_card": "The Gaze of Timaeus",
+   "timing_ko": "[[The Gaze of Timaeus]] 발동에 직접 체인 (융합 소환 = 특소를 포함)",
+   "why_ko": "[[Red-Eyes Dark Dragoon]]이 나오지 않는다. 흑마술사 특소는 소환 절차라 임펄스로는 이 지점뿐이다.",
+   "fallback_ko": "흑마술사는 이미 덱으로 돌아갔으므로 필드에 남는 것이 없다."
+  },
+  {
+   "handtrap": "crown",
+   "severity": "strong",
+   "line": "reprodocus",
+   "step": 4,
+   "target_card": "Dark Magician of Destruction",
+   "timing_ko": "[[Dark Magician of Destruction]]의 서치 유발에 체인해 세트해 둔 [[Forbidden Crown]]",
+   "why_ko": "서치가 무효가 되고, 흑마술사는 이번 턴 융합 소재가 될 수 없어 [[The Gaze of Timaeus]] 융합이 안 된다. 미리 세트해 둔 경우에만 상대 턴에 쓸 수 있다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "흑마술사 몸만 남는다.",
+   "rulings": [
+    "qa-22839"
+   ]
+  },
+  {
+   "handtrap": "mourner",
+   "severity": "ok",
+   "line": "reprodocus",
+   "step": 1,
+   "target_card": "Reprodocus",
+   "timing_ko": "[[Reprodocus]]가 링크 소환된 직후 사요 시구레를 버리고 리프로도쿠스 대상",
+   "why_ko": "효과가 무효가 되어 종족 선언을 할 수 없으므로 흑마술사가 나오지 않는다. 후공 1턴에 쓸 수 있다.",
+   "fallback_ko": "리프로도쿠스가 이번 턴 필드를 떠나면 원래 공격력만큼 상대가 데미지를 받는다."
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "ok",
+   "line": "reprodocus",
+   "step": 2,
+   "target_card": "Reprodocus",
+   "timing_ko": "세트해 둔 [[Skill Drain]]을 [[Reprodocus]] 효과 발동에 체인",
+   "why_ko": "종족 변경이 무효가 되어 흑마술사가 나오지 않는다. 이후 드라군의 무효도 턴 내내 무효. 미리 세트해 둔 경우에만 상대 턴에 쓸 수 있다(내가 선공이었거나 이전 턴에 세트). 후공 1턴의 상대 전개에는 못 쓴다.",
+   "fallback_ko": "호스트 미츠루기의 필드 효과도 같이 무효가 된다.",
+   "rulings": [
+    "supp-5740"
+   ]
+  }
+ ],
+ "handtrap_summary": {
+  "ash": {
+   "rating": "critical",
+   "note_ko": "[[WANTED: Seeker of Sinful Spoils]](엔진 시작, 제한 1) > 기만의 아자미나 서치 > 흑마술사의 티마이오스 서치(드라군 패키지). 디아벨스타 특소·세트에는 못 쓴다."
+  },
+  "maxxc": {
+   "rating": "ok",
+   "note_ko": "엔진 단독 특소 4회(디아벨스타·레아 실비아·흑마술사·드라군). 호스트 전개량이 가치를 정한다."
+  },
+  "fuwalos": {
+   "rating": "ok",
+   "note_ko": "덱·엑덱 특소 3회. 내 필드가 비어 있을 때 WANTED에 체인."
+  },
+  "purulia": {
+   "rating": "weak",
+   "note_ko": "패 소환은 디아벨스타 1회뿐."
+  },
+  "droll": {
+   "rating": "critical",
+   "note_ko": "WANTED 서치 처리 직후. 기만·흑마술사 서치가 둘 다 막혀 레아 실비아·드라군이 모두 사라진다."
+  },
+  "meowls": {
+   "rating": "weak",
+   "note_ko": "엔진 몬스터가 묘지에서 특소하지 않는다(디아벨스타 부활은 상대 턴 전용)."
+  },
+  "imperm": {
+   "rating": "strong",
+   "note_ko": "디아벨스타 세트 효과(우라라가 못 막는 구간) 또는 [[Reprodocus]] 종족 선언.",
+   "rulings": [
+    "supp-19148",
+    "supp-13764"
+   ]
+  },
+  "veiler": {
+   "rating": "strong",
+   "note_ko": "무한포영과 같은 지점. 상대 메인 페이즈에만.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  "ogre": {
+   "rating": "strong",
+   "note_ko": "앞면 기만의 ① 효과에 체인해 기만 파괴 → [[The Hallowed Azamina]]로 보낼 '죄보' 카드가 사라진다.",
+   "rulings": [
+    "qa-24148"
+   ]
+  },
+  "belle": {
+   "rating": "weak",
+   "note_ko": "엔진 1턴 전개에 묘지 효과가 거의 없다([[The Hallowed Azamina]] 회수 정도)."
+  },
+  "mourner": {
+   "rating": "strong",
+   "note_ko": "디아벨스타 패 특소 직후(세트 유발까지 무효) 또는 [[Reprodocus]] 링크 직후."
+  },
+  "crossout": {
+   "rating": "bad",
+   "note_ko": "자기 덱 카드만 선언 가능. 나도 WANTED·디아벨스타를 넣었을 때만."
+  },
+  "ttt": {
+   "rating": "weak",
+   "note_ko": "후공 내 턴용."
+  },
+  "droplet": {
+   "rating": "weak",
+   "note_ko": "상대 1턴 전개에는 세트가 필요해 거의 못 쓴다. 내 턴에는 대상을 잡지 않아 [[Red-Eyes Dark Dragoon]]에도 통하는 주력 돌파."
+  },
+  "nibiru": {
+   "rating": "weak",
+   "note_ko": "엔진 소환은 4회라 니비루 조건은 호스트 전개량에 달렸다. 드라군은 효과 파괴 불가지만 니비루는 릴리스라 통한다."
+  },
+  "impulse": {
+   "rating": "strong",
+   "note_ko": "[[The Hallowed Azamina]](레아 실비아) 또는 [[The Gaze of Timaeus]](드라군) 중 하나. 디아벨스타·흑마술사 특소는 소환 절차라 불가."
+  },
+  "purge": {
+   "rating": "critical",
+   "note_ko": "WANTED 발동에 직접 체인(우라라와 같은 결과). 패에서 쓰면 어둠·물·화염 몬스터 효과 영구 봉인."
+  },
+  "spark": {
+   "rating": "weak",
+   "note_ko": "엔진은 패·묘지 몬스터 효과를 쓰지 않아 조건이 안 맞는다(호스트 쪽 효과로 조건이 맞으면 드라군 이전 몸을 제외)."
+  },
+  "magnamhut": {
+   "rating": "weak",
+   "note_ko": "묘지 대상이 거의 없다."
+  },
+  "gamma": {
+   "rating": "critical",
+   "note_ko": "디아벨스타 세트 효과에 체인 → 세트 무효 + 디아벨스타 파괴(자기 턴이라 부활 없음)로 레아 실비아·드라군 둘 다 끊긴다. 내 필드에 몬스터가 없을 때. 제한 1.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  "harmonia": {
+   "rating": "strong",
+   "note_ko": "디아벨스타 세트 효과에 써서 디아벨스타 파괴(드라군 차단). 드라군은 파괴 불가.",
+   "rulings": [
+    "qa-24286"
+   ]
+  },
+  "fallen_virtuous": {
+   "rating": "strong",
+   "note_ko": "(세트해 둔 경우만) 디아벨스타 세트 효과에 체인해 디아벨스타 파괴, 또는 기만 파괴.",
+   "rulings": [
+    "supp-19148"
+   ]
+  },
+  "super_poly": {
+   "rating": "strong",
+   "note_ko": "(세트해 둔 경우만) 레아 실비아가 나온 직후 디아벨스타 + 레아 실비아 → [[Mudragon of the Swamp]]. 최종 드라군 + 레아 실비아도 가능.",
+   "rulings": [
+    "qa-10824"
+   ]
+  },
+  "mst": {
+   "rating": "strong",
+   "note_ko": "(세트해 둔 경우만) 기만의 카드 발동에 체인해 파괴 → 아자미나 서치·융합 모두 불발.",
+   "rulings": [
+    "qa-111"
+   ]
+  },
+  "crown": {
+   "rating": "strong",
+   "note_ko": "(세트해 둔 경우만) 흑마술사 서치에 체인 → 서치 무효 + 티마이오스 융합 소재 불가. 디아벨스타에 쓰면 흑마술사 특소는 못 막는다.",
+   "rulings": [
+    "qa-22839"
+   ]
+  },
+  "druiswurm": {
+   "rating": "weak",
+   "note_ko": "엔진 1턴 전개에 묘지의 대상이 거의 없다."
+  },
+  "macro_cosmos": {
+   "rating": "critical",
+   "note_ko": "(세트해 둔 경우만, 후공 1턴 불가) 미리 앞면이면 디아벨스타 패 특소 불가(공식 예시), [[The Hallowed Azamina]]·[[Original Sinful Spoils - Snake-Eye]]도 무력. [[Reprodocus]] 패키지는 막지 못한다.",
+   "rulings": [
+    "qa-6878",
+    "qa-14540"
+   ]
+  },
+  "fissure": {
+   "rating": "weak",
+   "note_ko": "묘지로 가는 '몬스터'만 제외라 디아벨스타 비용·기만 릴리스 정도에만 영향. 공식 예시(매크로 계열)에 포함되지 않아 디아벨스타 특소는 막는다고 볼 수 없다."
+  },
+  "banisher": {
+   "rating": "strong",
+   "note_ko": "(선공일 때만) 디아벨스타 패 특소 불가(공식 예시).",
+   "rulings": [
+    "qa-6878"
+   ]
+  },
+  "herald": {
+   "rating": "strong",
+   "note_ko": "(선공일 때만) WANTED 카드의 발동을 무효+파괴.",
+   "rulings": [
+    "supp-11384"
+   ]
+  },
+  "retaliating_c": {
+   "rating": "strong",
+   "note_ko": "[[The Hallowed Azamina]] 발동에 체인하면 융합체가 나오지 않는다(공식 Q&A). WANTED·티마이오스에는 꺼낼 수 없다.",
+   "rulings": [
+    "qa-24098",
+    "qa-15449"
+   ]
+  },
+  "dd_crow": {
+   "rating": "weak",
+   "note_ko": "엔진 1턴 전개에 묘지 의존이 거의 없다."
+  },
+  "dark_law": {
+   "rating": "weak",
+   "note_ko": "HERO 덱 전용. 앞면이면 WANTED·기만·흑마술사 서치마다 패 1장 제외라 강하지만 채용 덱이 적다."
+  },
+  "arise_heart": {
+   "rating": "strong",
+   "note_ko": "(선공일 때만) 디아벨스타 패 특소 불가(공식 예시).",
+   "rulings": [
+    "qa-6878"
+   ]
+  },
+  "dim_barrier": {
+   "rating": "strong",
+   "note_ko": "(세트해 둔 경우만) [[The Hallowed Azamina]]에 체인해 '융합' 선언 → 아자미나·흑마술사·드라군 모두 불가.",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  "protos": {
+   "rating": "ok",
+   "note_ko": "(선공 내 턴에) '어둠' 선언 → 상대 턴 끝까지 엔진 몬스터(전부 어둠) 특소 불가.",
+   "rulings": [
+    "supp-14994"
+   ]
+  },
+  "statue_abyss": {
+   "rating": "weak",
+   "note_ko": "엔진 몬스터가 전부 어둠이라 엔진에는 영향이 없다(호스트 쪽만)."
+  },
+  "statue_heavens": {
+   "rating": "strong",
+   "note_ko": "(선공일 때만) 어둠인 엔진 몬스터 전부 특소 불가."
+  },
+  "statue_inferno": {
+   "rating": "strong",
+   "note_ko": "(선공일 때만) 엔진 몬스터 전부 특소 불가(스네이크아이 화염만 통과)."
+  },
+  "statue_torrent": {
+   "rating": "strong",
+   "note_ko": "(선공일 때만) 엔진 몬스터 전부 특소 불가."
+  },
+  "vanity_fiend": {
+   "rating": "strong",
+   "note_ko": "(선공일 때만) 특소·특소 효과 발동 불가로 엔진 전체 정지.",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  "vanity_ruler": {
+   "rating": "strong",
+   "note_ko": "(선공일 때만) 상대만 특소 불가. 엔진 전체 정지.",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  "skill_drain": {
+   "rating": "strong",
+   "note_ko": "(세트해 둔 경우만) 디아벨스타 세트에 체인 → 이후 레아 실비아·드라군 무효까지 턴 내내 무효.",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  "mistake": {
+   "rating": "strong",
+   "note_ko": "(세트해 둔 경우만) WANTED 발동에 체인 → 디아벨스타·아자미나·티마이오스 서치 전부 불가.",
+   "rulings": [
+    "qa-19975"
+   ]
+  },
+  "rivalry": {
+   "rating": "ok",
+   "note_ko": "(세트해 둔 경우만) 마법사족 디아벨스타가 있는 동안 환상마족 아자미나 융합 불가. 흑마술사·드라군은 같은 마법사족이라 통과.",
+   "rulings": [
+    "qa-8773"
+   ]
+  },
+  "gozen": {
+   "rating": "weak",
+   "note_ko": "엔진 몬스터가 전부 어둠이라 엔진에는 영향이 없다(호스트와 속성이 섞이면 그쪽에서 걸린다)."
+  },
+  "only_one": {
+   "rating": "weak",
+   "note_ko": "디아벨스타는 흑마술사 소환 때 먼저 제외되고, 흑마술사는 티마이오스로 덱에 돌아가 마법사족이 겹치는 순간이 거의 없다."
+  }
+ },
+ "notes_ko": [
+  "디아벨스타의 패 특소는 효과 발동이 아니라 소환 규칙이다. 우라라·포영으로 막을 수 없고, 특소 '후' 세트 효과에만 포영·뵐러를 쓴다.",
+  "디아벨스타의 세트 효과는 서치가 아니어서 우라라·드롤·퍼지 모두 반응하지 않는다.",
+  "디아벨스타는 '상대 턴에' 패/필드에서 묘지로 가면 자체 소생한다. 상대 턴에 [[Diabellstar the Black Witch]]를 묘지로 보내는 제거는 역이용될 수 있다.",
+  "[[The Hallowed Azamina]]·[[Azamina Debtors]]의 융합체 특소는 엑스트라 덱 특소라 우라라 대상이 아니다(증G·후와로스·임펄스는 가능).",
+  "[[Red-Eyes Dark Dragoon]]은 대상 불가·효과 파괴 불가. 제거는 비대상 무효(일적 등)나 릴리스·제외로.",
+  "'묘지로 가는 카드는 제외' 효과([[Macro Cosmos]]·[[Banisher of the Radiance]]·[[Kashtira Arise-Heart]]·[[Retaliating \"C\"]])가 앞면이면 디아벨스타 패 특소(카드를 묘지로 보내는 절차) 자체를 할 수 없다(KONAMI Q&A).",
+  "흑마술사 소환 조건의 '마법 카드 효과 발동'은 어느 플레이어든 상관없고 발동이 무효되지 않았으면 된다. 엔진 마법을 우라라로 막아도(효과 무효) 조건은 남는다.",
+  "MDM 태그 'Diabellstar Vengeance'는 하얀 숲·디아벨 축(디아벨제·[[Curse of Diabell]]·[[Filia Diabell]])이 같이 들어간 형태로, 테마 파일의 `wfa` 라인이 더 정확하다. 엘펜노츠(3.6%)·스네이크아이 계열도 이 엔진을 쓰지만 data/themes에 해당 테마 파일이 없거나(스네이크아이) 합류 지점을 검증하지 못해(엘펜노츠, 싱크로 제약) hosts에서 뺐다."
+ ],
+ "going_second": {
+  "summary_ko": "호스트 덱에 섞인 죄보 엔진이 남기는 것은 [[Red-Eyes Dark Dragoon]](대상 불가·효과 파괴 불가, 1턴 1번 발동 무효+파괴)과 [[Azamina Ilia Silvia]](릴리스해 효과 무효) 2개, 그리고 앞면 기만 정도다. [[Reprodocus]] 패키지(미츠루기)는 드라군 1장만 더한다. 흑마술사로 낸 드라군은 일반 몬스터 소재가 0장이라 내 몬스터를 파괴하는 ②를 쓰지 못한다. 핵심은 드라군을 대상 없이 처리하는 수단([[Dark Ruler No More]]·[[Forbidden Droplet]]·괴수 카드·[[Super Polymerization]])과, 무효 2개를 미끼로 먼저 받아내는 순서다.",
+  "difficulty": "medium",
+  "boards": [
+   {
+    "id": "engine_pieces",
+    "title_ko": "엔진이 남기는 견제 ([[WANTED: Seeker of Sinful Spoils]] 1장, 호스트 필드는 별도)",
+    "line": "engine",
+    "interruptions": [
+     {
+      "id": "dragoon",
+      "card": "Red-Eyes Dark Dragoon",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "카드·효과 발동 시 패 1장 버리고 발동 무효+파괴, 공격력 1000 증가(1턴 1번). 효과 파괴 불가·대상 불가",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "대상 없이 무효이고 몬스터 효과로 체인 불가. [[Red-Eyes Dark Dragoon]] 처리의 정답"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "대상을 잡지 않아 통한다. 몬스터를 보내 발동하면 [[Red-Eyes Dark Dragoon]]은 체인 불가"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "대상 없이 릴리스하고 소환 규칙이라 [[Red-Eyes Dark Dragoon]]이 무효로 할 발동이 없다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "대상 없이 소재로 쓰고 체인 불가. 어둠 속성·마법사족 등 맞는 융합체가 있어야 함"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "[[Red-Eyes Dark Dragoon]] 효과 발동에 체인해 무효. 파괴는 통하지 않아 몸은 남는다"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "[[Red-Eyes Dark Dragoon]]이 이번 턴 무효를 쓴 뒤에는 대상 없이 릴리스로 치울 수 있다"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "(세트해 둔 경우) 융합 선언, 비대상이라 대상 내성을 무시. 드라군이 발동을 무효할 수 있으니 다른 발동으로 먼저 소모"
+       },
+       {
+        "id": "skill_drain",
+        "note_ko": "(세트해 둔 경우) 비대상 무효. 드라군이 발동을 무효할 수 있으니 먼저 소모"
+       }
+      ],
+      "bait_ko": "효과 파괴 불가라 [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]]의 파괴는 통하지 않는다. 미끼로 무효를 먼저 받아내면 쿠리카라·길항승부가 통한다"
+     },
+     {
+      "id": "ilia",
+      "card": "Azamina Ilia Silvia",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "내 카드·효과 발동 시 자신을 릴리스해 그 효과 무효(퀵, 1턴 1번). 파괴는 없다. 전투·효과로 파괴되면 덱에서 '죄보' 함정 서치",
+      "answered_by": [
+       {
+        "id": "imperm",
+        "note_ko": "메인 페이즈 시작 시 미리 무효. [[Azamina Ilia Silvia]]가 체인해 포영을 무효로 할 수 있어 1:1 교환이 되기 쉽다. 어느 쪽이든 무효 1개는 사라진다"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "[[Azamina Ilia Silvia]] 효과 발동에 체인해 무효. 비용 릴리스는 이미 끝나 몸도 사라진다"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "몬스터를 보내 발동하면 체인 불가로 무효"
+       },
+       {
+        "id": "dark_ruler",
+        "note_ko": "몬스터 효과로 체인 불가라 확정 무효"
+       },
+       {
+        "id": "ultimate_slayer",
+        "note_ko": "융합 몬스터라 덱으로 되돌릴 수 있고 몬스터 효과로 체인 불가. 파괴가 아니라 함정 서치도 없다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "체인 불가. 소재로 보내 파괴 유발 없이 처리"
+       }
+      ],
+      "bait_ko": "효과 무효(파괴 없음)라 덜 중요한 카드 1장을 먼저 발동하면 그대로 소모된다"
+     },
+     {
+      "id": "deception_burn",
+      "card": "Deception of the Sinful Spoils",
+      "kind": "other",
+      "zone": "st",
+      "timing_ko": "앞면 기만: 아자미나 몬스터가 있는 동안 몬스터가 내 묘지로 가면 1500 번 + 회복(1턴 1번). 엔드 페이즈 재세트로 다음 턴에도 아자미나 서치를 다시 쓴다",
+      "answered_by": [
+       {
+        "id": "cosmic",
+        "note_ko": "앞면 지속 마법이라 체인 걱정 없이 제외. 재세트 조건(묘지로 감)도 생기지 않는다"
+       },
+       {
+        "id": "harpie",
+        "note_ko": "파괴. 앞면에서 묘지로 가면 엔드 페이즈에 재세트된다. 제한 1"
+       },
+       {
+        "id": "mst",
+        "note_ko": "파괴. 재세트는 된다"
+       }
+      ],
+      "bait_ko": "번은 견제가 아니라 LP 압박. 아자미나를 먼저 치우면 조건이 꺼진다."
+     }
+    ]
+   },
+   {
+    "id": "engine_pieces_dragoon",
+    "title_ko": "드라군만 남는 경우 ([[Reprodocus]] 패키지, 또는 기만 서치를 막았을 때)",
+    "line": "reprodocus",
+    "interruptions": [
+     {
+      "id": "dragoon",
+      "card": "Red-Eyes Dark Dragoon",
+      "kind": "quick_negate",
+      "zone": "monster",
+      "timing_ko": "카드·효과 발동 시 패 1장 버리고 발동 무효+파괴, 공격력 1000 증가(1턴 1번). 효과 파괴 불가·대상 불가",
+      "answered_by": [
+       {
+        "id": "dark_ruler",
+        "note_ko": "대상 없이 무효이고 몬스터 효과로 체인 불가. [[Red-Eyes Dark Dragoon]] 처리의 정답"
+       },
+       {
+        "id": "droplet",
+        "note_ko": "대상을 잡지 않아 통한다. 몬스터를 보내 발동하면 [[Red-Eyes Dark Dragoon]]은 체인 불가"
+       },
+       {
+        "id": "kaiju",
+        "note_ko": "대상 없이 릴리스하고 소환 규칙이라 [[Red-Eyes Dark Dragoon]]이 무효로 할 발동이 없다"
+       },
+       {
+        "id": "super_poly",
+        "note_ko": "대상 없이 소재로 쓰고 체인 불가. 어둠 속성·마법사족 등 맞는 융합체가 있어야 함"
+       },
+       {
+        "id": "gamma",
+        "note_ko": "[[Red-Eyes Dark Dragoon]] 효과 발동에 체인해 무효. 파괴는 통하지 않아 몸은 남는다"
+       },
+       {
+        "id": "kurikara",
+        "note_ko": "[[Red-Eyes Dark Dragoon]]이 이번 턴 무효를 쓴 뒤에는 대상 없이 릴리스로 치울 수 있다"
+       },
+       {
+        "id": "dim_barrier",
+        "note_ko": "(세트해 둔 경우) 융합 선언, 비대상이라 대상 내성을 무시. 드라군이 발동을 무효할 수 있으니 다른 발동으로 먼저 소모"
+       },
+       {
+        "id": "skill_drain",
+        "note_ko": "(세트해 둔 경우) 비대상 무효. 드라군이 발동을 무효할 수 있으니 먼저 소모"
+       }
+      ],
+      "bait_ko": "효과 파괴 불가라 [[Raigeki]]·[[Lightning Storm]]·[[Ghost Ogre & Snow Rabbit]]의 파괴는 통하지 않는다. 미끼로 무효를 먼저 받아내면 쿠리카라·길항승부가 통한다"
+     }
+    ]
+   }
+  ],
+  "breakers": {
+   "lightning_storm": {
+    "rating": "weak",
+    "note_ko": "몬스터 모드는 드라군 파괴 불가에 막히고, 레아 실비아·드라군에 무효당할 수 있다. 레아 실비아를 파괴하면 '죄보' 함정을 서치한다."
+   },
+   "evenly_matched": {
+    "rating": "ok",
+    "note_ko": "뒷면 제외라 드라군 내성을 무시한다. 배틀 페이즈 종료 시라 드라군이 무효로 응수할 수 있으니 무효를 먼저 받아낸 뒤에."
+   },
+   "dark_ruler": {
+    "rating": "strong",
+    "note_ko": "대상 없이 무효, 몬스터 효과로 체인 불가. 드라군·레아 실비아를 함께 무효하는 정답."
+   },
+   "harpie": {
+    "rating": "weak",
+    "note_ko": "기만 정도만 치운다. 드라군·레아 실비아에 무효될 수 있어 미끼 겸용. 제한 1."
+   },
+   "heavy_storm": {
+    "rating": "weak",
+    "note_ko": "깃털과 같다. 제한 1."
+   },
+   "raigeki": {
+    "rating": "weak",
+    "note_ko": "드라군은 파괴 불가. 레아 실비아는 파괴되면 '죄보' 함정 서치. 발동이 무효될 수 있다."
+   },
+   "dark_hole": {
+    "rating": "weak",
+    "note_ko": "번개와 같다(내 몬스터도 파괴)."
+   },
+   "kaiju": {
+    "rating": "strong",
+    "note_ko": "릴리스라 드라군의 대상 불가·파괴 불가를 무시하고, 소환 절차라 드라군이 무효로 할 발동이 없다."
+   },
+   "kaiju_slumber": {
+    "rating": "weak",
+    "note_ko": "파괴라 드라군에 막히고, 발동이 무효될 수 있다."
+   },
+   "cosmic": {
+    "rating": "weak",
+    "note_ko": "앞면 기만 제외 정도."
+   },
+   "mst": {
+    "rating": "weak",
+    "note_ko": "기만 파괴 정도(재세트됨)."
+   },
+   "super_poly": {
+    "rating": "strong",
+    "note_ko": "체인 불가·대상 없음. 드라군(어둠 마법사족) + 레아 실비아(어둠 환상마족)로 [[Mudragon of the Swamp]]. 제한 2."
+   },
+   "book_eclipse": {
+    "rating": "ok",
+    "note_ko": "몬스터를 전부 뒷면으로. 발동에 드라군·레아 실비아가 응수할 수 있어 무효를 먼저 소모시킨 뒤에."
+   },
+   "kurikara": {
+    "rating": "strong",
+    "note_ko": "드라군이 무효를 쓴 뒤 대상 없이 릴리스로 치운다."
+   },
+   "ultimate_slayer": {
+    "rating": "ok",
+    "note_ko": "몬스터 효과로 체인 불가. 레아 실비아(융합)는 덱으로 되돌리지만 드라군은 대상 불가라 못 고른다."
+   },
+   "fallen_virtuous": {
+    "rating": "weak",
+    "note_ko": "알버스 엔진 덱 전용. 드라군은 파괴 불가라 레아 실비아·기만에만."
+   },
+   "harmonia": {
+    "rating": "weak",
+    "note_ko": "싱크로 덱 전용. 드라군 파괴 불가."
+   },
+   "imperm": {
+    "rating": "ok",
+    "note_ko": "레아 실비아를 미리 무효(레아 실비아가 체인해 포영을 무효로 할 수 있어 1:1). 드라군은 대상 불가라 못 고른다."
+   },
+   "ogre": {
+    "rating": "bad",
+    "note_ko": "드라군 파괴 불가, 효과는 처리된다."
+   },
+   "gamma": {
+    "rating": "strong",
+    "note_ko": "내 필드에 몬스터가 없을 때 드라군·레아 실비아 효과 발동 1개를 무효. 드라군 파괴는 안 된다. 제한 1."
+   },
+   "belle": {
+    "rating": "weak",
+    "note_ko": "엔진 몸에는 묘지 효과가 거의 없다(디아벨스타 부활 정도)."
+   },
+   "droplet": {
+    "rating": "strong",
+    "note_ko": "대상을 잡지 않아 드라군에도 통하고, 몬스터를 보내 발동하면 체인 불가."
+   },
+   "ttt": {
+    "rating": "ok",
+    "note_ko": "드라군·레아 실비아가 내 메인 페이즈에 효과를 쓰면 조건 충족."
+   },
+   "spark": {
+    "rating": "weak",
+    "note_ko": "드라군은 대상 불가. 디아벨스타 부활을 본 뒤 레아 실비아 제외 정도."
+   },
+   "ash": {
+    "rating": "weak",
+    "note_ko": "내 턴에는 쓸 곳이 없다(WANTED ② 드로우는 서치가 아님)."
+   },
+   "veiler": {
+    "rating": "bad",
+    "note_ko": "상대 메인 페이즈 전용."
+   },
+   "nibiru": {
+    "rating": "bad",
+    "note_ko": "내 턴에는 상대가 소환하지 않는다."
+   },
+   "crossout": {
+    "rating": "weak",
+    "note_ko": "나도 해당 카드를 넣었을 때만."
+   }
+  },
+  "sequencing_ko": [
+   "드라군은 1턴 1번 '발동 무효+파괴'다. 덜 중요한 카드(일반 소환 유발, 남는 마법)로 먼저 받아내고, 핵심 카드는 그 뒤에 쓴다.",
+   "[[Azamina Ilia Silvia]]는 자신을 릴리스하는 '효과 무효'라 파괴 유발이 없다. 레아 실비아를 파괴로 처리하면 '죄보' 함정을 서치하니 무효·릴리스·덱 되돌리기로 처리한다.",
+   "디아벨스타가 남아 있으면 내 턴에 묘지로 보내는 순간 부활하고 '죄보' 마함을 다시 세트한다. 제외·덱 되돌리기로 처리하거나 마지막에 둔다.",
+   "드라군은 다음 턴(내 턴) 엔드 페이즈에 스스로 제외된다. 이번 턴에 꼭 치울 필요가 없으면 무효만 받아내고 넘겨도 된다."
+  ]
+ },
+ "hosts": [
+  {
+   "theme": "mitsurugi",
+   "rate": 0.154,
+   "joins": [
+    {
+     "engine_line": "reprodocus",
+     "engine_step": 1,
+     "theme_line": "habakiri",
+     "theme_step": 12,
+     "note_ko": "순수 미츠루기는 12단계 일반 소환한 [[Mitsurugi no Mikoto, Aramasa]] + 10단계에 소생한 [[Mitsurugi no Mikoto, Kusanagi]]로 [[Reprodocus]] 링크 → 링크 마커 끝의 [[Ame no Habakiri no Mitsurugi]](7단계 재특소, 레벨 8 어둠)를 마법사족으로 바꾼다. 라이제올형은 같은 소재로 [[Ryzeal Duo Drive]]를 내므로 이 패키지를 쓰지 않는다(덱 리스트 기반 추정)."
+    },
+    {
+     "engine_line": "reprodocus",
+     "engine_step": 3,
+     "theme_line": "habakiri",
+     "theme_step": 3,
+     "note_ko": "[[Mitsurugi Ritual]](3·6단계) 발동으로 '마법 카드 효과가 발동된 턴' 조건이 이미 충족되어 있다. 흑마술사 → 티마이오스 → 드라군으로 미츠루기 판면에 무효 1개가 추가된다."
+    },
+    {
+     "engine_line": "engine",
+     "engine_step": 5,
+     "theme_line": "habakiri",
+     "theme_step": 2,
+     "note_ko": "디아벨스타 채용형(MDM 1덱, 'Diabellstar Vengeance' 태그): [[Deception of the Sinful Spoils]] ①의 릴리스 비용으로 미츠루기 하급([[Mitsurugi no Mikoto, Saji]] 등)을 쓰면 그 릴리스 유발로 미츠루기 마함 서치가 따라온다. 디아벨스타(마법사족)는 흑마술사 소재로 제외된다."
+    }
+   ],
+   "priority_ko": "미츠루기 본체(하바키리 ①·[[Pre-Preparation of Rites]])가 끊기면 드라군 패키지도 마법 조건(의식 마법)과 링크 소재가 없어 같이 멈춘다. 그래서 우라라·감마는 하바키리 ①, 드롤은 사지 서치 직후가 최우선이고 엔진 쪽은 나중이다. 미츠루기가 다 전개한 뒤 드라군만 막고 싶으면 [[Reprodocus]] 종족 선언에 무한포영·뵐러, 또는 [[The Gaze of Timaeus]]에 임펄스. [[WANTED: Seeker of Sinful Spoils]]가 단독으로 먼저 보이면(디아벨스타형) WANTED 우라라도 가치가 있지만, 미츠루기 시작이 같이 보이면 메인 우선."
+  },
+  {
+   "theme": "sky-striker",
+   "rate": 0.029,
+   "joins": [
+    {
+     "engine_line": "engine",
+     "engine_step": 1,
+     "theme_line": "raye-zero",
+     "theme_step": 4,
+     "note_ko": "[[WANTED: Seeker of Sinful Spoils]]·[[The Gaze of Timaeus]]·[[Azamina Debtors]](섬도희 리스트는 할로우드 대신 이것)는 모두 마법이라 묘지 마법 수를 늘려 인게이지 1드로우 조건(묘지 마법 3장 이상)을 돕는다. 단 섬도 마법 대부분이 '메인 몬스터 존에 몬스터가 없을 때' 조건이라, 디아벨스타 특소 이후 엔진 몬스터 전개는 섬도 전개를 끝낸 뒤에 한다(MDM 1덱 리스트 기반)."
+    },
+    {
+     "engine_line": "engine",
+     "engine_step": 9,
+     "theme_line": "raye-zero",
+     "theme_step": 6,
+     "note_ko": "섬도희의 세트 마함 판면에 [[Red-Eyes Dark Dragoon]]·[[Azamina Ilia Silvia]] 무효 2개를 더한다. 대신 메인 몬스터 존이 차서 다음 턴 섬도 마법 조건이 깨지므로, 드라군은 다음 턴 엔드 페이즈에 스스로 제외되는 것을 기다리거나 소재로 치운다."
+    }
+   ],
+   "priority_ko": "섬도희 본체는 몬스터 견제가 거의 없어 엔진이 만드는 드라군·레아 실비아가 판면 무효의 대부분이다. WANTED 발동이 보이면 우라라는 거기(엔진 전체 차단). 다만 드롤은 제로 서치 직후에 쓰면 섬도 서치와 엔진 서치(WANTED·기만·흑마술사)를 함께 막으므로 가장 강하다."
+  }
+ ],
+ "sources": [
+  "https://game8.jp/yugioh-masterduel/667518 (Game8 白き森アザミナ デッキ 回し方, 2026-10-16 갱신)",
+  "https://www.masterduelmeta.com/top-decks/master-v/november-2025/white-forest-azamina/emu/tbOri (MDM White Forest Azamina 덱 메모, 2025-11 Master V)",
+  "https://www.masterduelmeta.com/top-decks/master-v/july-2026/white-forest-azamina/shachouroka/ZW9E2/ (MDM White Forest Azamina, 2026-07 Master V, 드롤·디멘션 시프터 약점 언급)",
+  "https://www.masterduelmeta.com/api/v1/cards (MDM 카드 API, MD 영문 텍스트·제한 상태)",
+  "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=19196&request_locale=ko (공식 DB 한국어명 확인)",
+  "data/meta/latest.json (MDM top-decks 2026-09-25~10-25 집계: Mitsurugi engines 'Dragoon'·'Dark Magician of Destruction' 15.4%, 'Diabellstar Vengeance' 7.7%; Sky Striker 'Dragoon' 2.9%)",
+  "https://www.masterduelmeta.com/duelist-cup-dlv.-max/october-2026/mitsurugi/hairy-senpai/9g-Sr/ (MDM Mitsurugi DC 덱: 디아벨스타 없이 Reprodocus·Dark Magician of Destruction·The Gaze of Timaeus·Red-Eyes Dark Dragoon 채용)",
+  "https://www.masterduelmeta.com/duelist-cup-dlv.-max/october-2026/sky-striker/dooming/WUEUL/ (MDM Sky Striker DC 덱: WANTED·Diabellstar·Deception·Azamina Debtors·Dragoon 채용)",
+  "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=21610&request_locale=ja (KONAMI 滅びの黒魔術師 카드 보충: 마법 효과 발동 턴·메인 페이즈 한정 소환 절차)",
+  "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=13764&request_locale=ja (KONAMI リプロドクス 카드 보충: 대상 지정 아닌 기동 효과)"
+ ]
+}
