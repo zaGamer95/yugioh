@@ -1,0 +1,300 @@
+{
+ "sources": {
+  "konami-db-faq": {
+   "title": "遊戯王ニューロン（オフィシャルカードゲーム カードデータベース）カードに関連するQ&A・補足情報",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rules": [],
+ "rulings": [
+  {
+   "id": "qa-8773",
+   "fid": 8773,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=8773&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Rivalry of Warlords"
+   ],
+   "handtraps": [
+    "rivalry"
+   ],
+   "themes": [
+    "artmage",
+    "vanquish-soul-k9"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Rivalry of Warlords]] 적용 중, 자기 필드에 전사족이 있을 때 다른 종족 몬스터를 소환·특소할 수 있나?",
+   "answer_ko": "할 수 없다. 다른 종족 몬스터를 일반 소환·반전 소환할 수 없고, 다른 종족을 특소하는 카드도 발동할 수 없다. 뒷면 몬스터가 리버스해 종족이 늘면 그 몬스터는 묘지로 간다.",
+   "quote_ja": "自分は戦士族以外の種族のモンスターを召喚・反転召喚する事ができません。なお、戦士族以外のモンスターを特殊召喚するようなカードを発動する事もできません。",
+   "impact_ko": "군웅할거가 먼저 앞면이면 [[Medius the Pure]](천사족) 뒤 [[Artmage Power Patron]](환상마족), [[Vanquish Soul Razen]](전사족) 뒤 [[Vanquish Soul Jiaolong]](환룡족)이 나오지 못한다."
+  },
+  {
+   "id": "qa-11272",
+   "fid": 11272,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11272&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Rivalry of Warlords"
+   ],
+   "handtraps": [
+    "rivalry"
+   ],
+   "themes": [
+    "artmage",
+    "vanquish-soul-k9"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Rivalry of Warlords]] 적용 중 레벨 4 전사족 2장으로 다른 종족 엑시즈 몬스터를 엑시즈 소환할 수 있나?",
+   "answer_ko": "할 수 없다. 필드의 몬스터가 전사족이면 엑시즈 소환할 수 있는 것은 전사족 엑시즈 몬스터뿐이다.",
+   "quote_ja": "エクシーズ召喚する事ができるエクシーズモンスターは、戦士族のエクシーズモンスターのみとなります。",
+   "impact_ko": "소재가 필드에 있는 상태로 판정한다. 라젠(전사족) 1장으로 [[Rock of the Vanquisher]](암석족)를 링크 소환하는 것도 같은 이유로 막힌다."
+  },
+  {
+   "id": "qa-10427",
+   "fid": 10427,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=10427&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Gozen Match",
+    "Sky Striker Ace - Raye",
+    "Sky Striker Ace - Kagari"
+   ],
+   "handtraps": [
+    "gozen"
+   ],
+   "themes": [
+    "artmage",
+    "vanquish-soul-k9"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Gozen Match]] 적용 중, 자기 필드에 어둠 속성 [[Sky Striker Ace - Raye]]만 있을 때 레이를 소재로 화염 속성 [[Sky Striker Ace - Kagari]]를 링크 소환할 수 있나?",
+   "answer_ko": "할 수 없다. 이 상황에서는 어둠 속성만 특소할 수 있다. 다만 레이를 코스트로 릴리스하는 레이 자신의 효과라면, 릴리스 뒤 필드에 어둠이 없어지므로 카가리를 특소할 수 있다.",
+   "quote_ja": "「閃刀姫－レイ」をリンク素材として炎属性の「閃刀姫－カガリ」をリンク召喚することはできません。",
+   "impact_ko": "소재로 쓰는 소환 절차(링크·엑시즈·논피니토 같은 특소 절차)는 소재가 필드에 있는 상태로 속성을 본다. 어둠 요쿨+랜턴으로 바람 [[K9-17 \"Ripper\"]]를 낼 수 없다."
+  },
+  {
+   "id": "qa-12759",
+   "fid": 12759,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12759&request_locale=ja",
+   "official": true,
+   "cards": [
+    "There Can Be Only One"
+   ],
+   "handtraps": [
+    "only_one"
+   ],
+   "themes": [
+    "artmage",
+    "vanquish-soul-k9"
+   ],
+   "topic": "summon",
+   "question_ko": "[[There Can Be Only One]] 적용 중 전사족과 기계족 2장을 소재로 전사족 링크 몬스터를 링크 소환할 수 있나?",
+   "answer_ko": "할 수 없다. 자기 몬스터 존에 앞면으로 있는 몬스터와 같은 종족 몬스터의 링크 소환은 할 수 없다.",
+   "quote_ja": "自身のモンスターゾーンに表側表示で存在するモンスターと同じ種族のモンスターのリンク召喚を行う事自体ができません。",
+   "impact_ko": "소재가 필드에 있는 채로 같은 종족을 내는 소환은 막힌다. [[K9-66a Jokul]](아쿠아족) 위 [[N.As.H. Knight]](아쿠아족), 헤트 나이트 위 [[CXyz N.As.Ch. Knight]](아쿠아족)도 같은 원리로 보인다."
+  },
+  {
+   "id": "qa-13886",
+   "fid": 13886,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=13886&request_locale=ja",
+   "official": true,
+   "cards": [
+    "There Can Be Only One"
+   ],
+   "handtraps": [
+    "only_one"
+   ],
+   "themes": [
+    "artmage"
+   ],
+   "topic": "summon",
+   "question_ko": "자기 필드에 전사족 HERO 1장만 있을 때, 그 몬스터를 묘지로 보내고 같은 속성 M・HERO를 엑스트라 덱에서 특소하는 마법 발동에 체인해 [[There Can Be Only One]]을 발동하면 어떻게 되나?",
+   "answer_ko": "먼저 그 몬스터를 묘지로 보내므로 필드에 전사족이 없어지고, 같은 속성 M・HERO는 정상적으로 특소된다.",
+   "quote_ja": "自分のモンスターゾーンに戦士族のモンスターが１体も存在しない状態となりますので…通常通り適用され",
+   "impact_ko": "효과로 소재를 먼저 보내고 소환하는 융합(예: [[Artmage Power Patron]]의 효과 융합)은 같은 종족이라도 소재가 이미 떠난 뒤라 막히지 않는다."
+  },
+  {
+   "id": "qa-19975",
+   "fid": 19975,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=19975&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mistake"
+   ],
+   "handtraps": [
+    "mistake"
+   ],
+   "themes": [
+    "artmage",
+    "vanquish-soul-k9"
+   ],
+   "topic": "chain",
+   "question_ko": "몬스터의 '소환 성공 시 덱에서 서치' 효과 발동에 체인해 [[Mistake]]를 발동하면?",
+   "answer_ko": "미스테이크가 먼저 적용되므로 그 서치 효과로 덱에서 패에 넣을 수 없다(덱에서 카드를 고르지도 않는다). 서치 외의 부가 효과는 그대로 적용된다.",
+   "quote_ja": "「手違い」の効果によって、デッキからカードを手札に加える事ができなくなっていますので…手札に加える事はできません。",
+   "impact_ko": "세트한 미스테이크는 서치 발동에 체인해도 된다. 라젠·[[Artmage Power Patron]]의 서치 유발에 체인하는 것이 기본."
+  },
+  {
+   "id": "qa-9004",
+   "fid": 9004,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=9004&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mistake"
+   ],
+   "handtraps": [
+    "mistake"
+   ],
+   "themes": [
+    "artmage"
+   ],
+   "topic": "chain",
+   "question_ko": "묘지에서 발동한 '덱에서 서치하고, 덱에서 묘지로 보낸다' 효과에 [[Mistake]]를 체인하면?",
+   "answer_ko": "미스테이크가 적용된 상태로 처리되어 서치를 할 수 없고, 그 뒤에 이어지는 '덱에서 묘지로 보내기'도 적용되지 않는다.",
+   "quote_ja": "『デッキから儀式魔法カード１枚を手札に加え』の処理を適用する事ができませんので、『デッキから「ヴェンデット」モンスター１体を墓地へ送る』処理も適用されません。",
+   "impact_ko": "묘지에서 발동한 서치 유발([[Artmage Power Patron]]처럼 묘지로 간 뒤 발동하는 효과)도 체인한 미스테이크로 막힌다."
+  },
+  {
+   "id": "qa-8151",
+   "fid": 8151,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=8151&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Banisher of the Radiance"
+   ],
+   "handtraps": [
+    "banisher",
+    "macro_cosmos",
+    "fissure"
+   ],
+   "themes": [
+    "artmage"
+   ],
+   "topic": "trigger",
+   "question_ko": "[[Banisher of the Radiance]] 적용 중 전투로 파괴된 몬스터가 묘지 대신 제외되면 '파괴된 경우' 효과는 발동하나?",
+   "answer_ko": "발동한다. 묘지 대신 제외되어도 그 몬스터는 전투로 파괴된 몬스터로 취급된다. (전투 후 다른 효과로 제외된 경우는 파괴로 취급되지 않는다.)",
+   "quote_ja": "墓地へは行かず除外される場合は、その「隼の騎士」は戦闘によって破壊されたモンスターとして扱われていますので、「補給部隊」の効果は発動します。",
+   "impact_ko": "제외 계열 락은 '묘지로 보내진 경우' 유발은 막지만 '파괴된 경우' 유발은 못 막는다. [[Artmage Diactorus]]의 메디우스 특소는 매크로 코스모스·추방자 아래서도 나간다."
+  },
+  {
+   "id": "qa-7735",
+   "fid": 7735,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=7735&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Macro Cosmos",
+    "Banisher of the Radiance"
+   ],
+   "handtraps": [
+    "macro_cosmos",
+    "banisher",
+    "fissure",
+    "dark_law",
+    "arise_heart"
+   ],
+   "themes": [
+    "artmage",
+    "vanquish-soul-k9"
+   ],
+   "topic": "resolve",
+   "question_ko": "[[Macro Cosmos]]·[[Banisher of the Radiance]] 적용 중 '묘지로 보내고, 그 후 드로우' 효과를 쓰면 드로우할 수 있나?",
+   "answer_ko": "할 수 없다. 묘지로 보낼 카드가 제외되면 그 뒤 처리(드로우)를 하지 않는다.",
+   "quote_ja": "「マクロコスモス」等の効果によりゲームから除外された場合、その後、デッキからカードをドローする事ができません。",
+   "impact_ko": "[[Prohibited Power Patron Portal - Terminus]]는 감옥신수를 묘지로 보낸 뒤 메디우스를 서치하므로 매크로 코스모스 아래서는 서치가 안 된다."
+  },
+  {
+   "id": "qa-23810",
+   "fid": 23810,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23810&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Herald of the Arc Light",
+    "Macro Cosmos"
+   ],
+   "handtraps": [
+    "herald",
+    "macro_cosmos"
+   ],
+   "themes": [
+    "artmage"
+   ],
+   "topic": "resolve",
+   "question_ko": "[[Macro Cosmos]]나 [[Herald of the Arc Light]](패·덱에서 묘지로 가는 몬스터 제외) 적용 중 '묘지로 보내고 특소' 효과를 발동하면?",
+   "answer_ko": "발동은 할 수 있지만, 처리 때 묘지로 보낼 카드가 제외되면 거기서 처리가 끝나고 특소는 하지 않는다.",
+   "quote_ja": "墓地へ行かずに除外された場合にはそこで処理を完了することになり",
+   "impact_ko": "아크 디클레어러는 덱에서 보내는 몬스터만으로도 테르미나스(덱의 감옥신수를 묘지로 → 메디우스 서치)를 멈춘다."
+  },
+  {
+   "id": "qa-15449",
+   "fid": 15449,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=15449&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Retaliating \"C\""
+   ],
+   "handtraps": [
+    "retaliating_c"
+   ],
+   "themes": [
+    "artmage",
+    "vanquish-soul-k9"
+   ],
+   "topic": "chain",
+   "question_ko": "패의 [[Retaliating \"C\"]]는 어떤 때 발동할 수 있나?",
+   "answer_ko": "특소하는 처리를 포함한 마법 카드의 '카드 발동'에 직접 체인할 때만. 발동 후 필드에서 특소 효과를 쓰는 마법의 그 효과 발동이나, 카드 발동에 특소가 없는 마법에는 쓸 수 없다.",
+   "quote_ja": "モンスターを特殊召喚する効果処理を含む魔法カードのカードの発動に直接チェーンして発動する効果です。",
+   "impact_ko": "아르토메기아 마법에는 특소를 포함한 것이 없고, VS K9은 [[Stake your Soul!]] 정도다."
+  },
+  {
+   "id": "qa-24189",
+   "fid": 24189,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24189&request_locale=ja",
+   "official": true,
+   "cards": [
+    "There Can Be Only One",
+    "Gozen Match",
+    "Rivalry of Warlords"
+   ],
+   "handtraps": [
+    "only_one",
+    "gozen",
+    "rivalry"
+   ],
+   "themes": [
+    "artmage",
+    "vanquish-soul-k9"
+   ],
+   "topic": "chain",
+   "question_ko": "몬스터 2장을 특소하는 효과에 체인해 [[There Can Be Only One]]·[[Gozen Match]]를 발동하면?",
+   "answer_ko": "특소 처리를 모두 끝낸 뒤 조건에 맞지 않는 몬스터를 묘지로 보낸다. 어전시합·군웅할거가 이미 적용 중이면 그 효과는 처음부터 발동할 수 없다.",
+   "quote_ja": "すでに「御前試合」や「群雄割拠」の効果が適用されている状況で「閃刀姫＝ゼロ」の効果は発動できません",
+   "impact_ko": "세트한 군웅할거·어전시합은 상대 특소에 체인하기보다 상대 메인 페이즈 시작 시 미리 앞면으로 두는 편이 확실하다."
+  },
+  {
+   "id": "qa-23163",
+   "fid": 23163,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23163&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Barrier Statue of the Abyss"
+   ],
+   "handtraps": [
+    "statue_abyss",
+    "statue_heavens",
+    "statue_inferno",
+    "statue_torrent"
+   ],
+   "themes": [
+    "artmage",
+    "vanquish-soul-k9"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Barrier Statue of the Abyss]] 적용 중, 속성을 바꿔 특소하는 효과로 원래 속성이 어둠이 아닌 몬스터를 특소할 수 있나?",
+   "answer_ko": "할 수 없다. 원래 속성이 어둠이 아닌 몬스터는 고를 수 없고, 고를 대상이 없으면 그 효과 자체를 발동할 수 없다.",
+   "quote_ja": "元々の属性が闇属性以外のモンスターを選ぶことはできません。",
+   "impact_ko": "결계상은 특소되는 몬스터의 속성을 본다. 아르토메기아는 메디우스·네르베도(어둠), 감옥신수·논피니토·네르바(땅), 본체(빛)로 갈린다."
+  }
+ ]
+}
