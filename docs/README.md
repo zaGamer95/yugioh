@@ -19,6 +19,6 @@
 | [죄보 (Sinful Spoils)](sinful-spoils.md) | 1.1% | 초안 | 드롤 → 하얀 숲의 리제트<br>우라라 → “죄보사냥의 악마”<br>우라라 → 하얀 숲의 리제트 |
 | [열차 (Railway)](railway.md) | 0.7% | 초안 | 우라라 → 스크랩 리사이클러<br>포영 → 스크랩 리사이클러<br>와라시 → 야광열차 블루트래블러 |
 | [메멘토 (Memento)](memento.md) | 0.1% | 초안 | 우라라 → 메멘토 엔위치<br>증G → 메멘토 씨호스<br>우라라 → 메멘토 씨호스 |
-| [아모르파지 (Amorphage)](amorphage.md) | 0.0% | 초안 | 드롤 → Performapal Skullcrobat Joker<br>우라라 → Performapal Skullcrobat Joker<br>포영 → Performapal Skullcrobat Joker |
+| [아모르파지 (Amorphage)](amorphage.md) | 0.0% | 초안 | 드롤 → EM 도크로배트 조커<br>우라라 → EM 도크로배트 조커<br>포영 → EM 도크로배트 조커 |
 
 [패트랩 사전](handtraps.md)

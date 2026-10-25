@@ -1,6 +1,6 @@
 # 열차 (Railway)
 
-> 상태: 초안 · 검증 필요 · 갱신: 2026-10-23 · 메타 점유율: 0.7% (5덱, 2026-09-22~10-22 랭크·DC)
+> 상태: 초안 · 검증 필요 · 갱신: 2026-10-25 · 메타 점유율: 0.7% (5덱, 2026-09-22~10-22 랭크·DC)
 
 > 포함 변형: Railway
 
@@ -17,6 +17,22 @@
 | 이펙트 뵐러 (Effect Veiler) | 🔴 치명 | 포영과 같은 지점(리사이클러 소환 유발, 레일웨이 메인 페이즈라 사용 가능). traveler 라인은 바벨데커 ③, 막판에는 리베 +2000에 체인해 킬을 끊는다. 몬스터 효과라 카르놀 조건을 채운다 |
 | 저택 와라시 (Ghost Belle & Haunted Mansion) | 🔴 치명 | 블루트래블러 ②(듀얼 중 1번, 무효돼도 소모). 특별 다이어 ②·클락 워크 ②도 대상 |
 | 금지된 성관 (Forbidden Crown) | 🔴 치명 | 세트해 두고 맥스 번 효과에 체인: 번 무효 + 소재 불가로 리베·로켓 겹치기 차단 |
+| 매크로 코스모스 (Macro Cosmos) | 🔴 치명 | 리사이클러가 덱에서 보내는 야광열차 블루트래블러 (Night Train Blue Traveler)·에테르마키나 카르놀 (Carnot the Eternal Machine)이 묘지 대신 제외되어 레벨 10 2장을 세울 수 없다(`recycler` 2). 앞면이면 금지된 일적 (Forbidden Droplet)·전회조차 (Revolving Switchyard) ②처럼 묘지로 보내는 코스트가 필요한 카드는 발동조차 못 한다(qa-14540). 지속 함정이라 해피의 깃털 등에 체인해 발동해도 같이 파괴되므로, 마함 제거를 맞지 않았다면 리사이클러 유발에 체인해 발동 |
+| 차원의 틈 (Dimensional Fissure) | 🔴 치명 | 몬스터만 제외지만 레일웨이가 묘지에 까는 건 전부 몬스터라 매크로 코스모스와 같은 지점(`recycler` 2)에서 끊긴다. 내 필드의 앞면 지속 마법이라 상대가 먼저 마함 제거로 치울 수 있다 |
+| 섬광의 추방자 (Banisher of the Radiance) | 🔴 치명 | 매크로 코스모스와 같은 효과(`recycler` 2). 금지된 일적 (Forbidden Droplet)도 코스트를 못 보내 발동 불가(qa-14540과 같은 원리). 대신 몬스터라 괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju)(릴리스)·라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 치워질 수 있다 |
+| 아크 디클레어러 (Herald of the Arc Light) | 🔴 치명 | 패·덱에서 묘지로 가는 몬스터는 제외 → 리사이클러 덤핑(`recycler` 2)과 블루트래블러 패 버리기(`traveler` 1)가 둘 다 제외로 바뀌어 블루트래블러 ②를 쓸 수 없다. 추가로 1번 발동 무효+파괴. 몬스터라 지즈키엘·라이트닝 스톰에 치워질 수 있음 |
+| D.D. 크로우 (D.D. Crow) | 🔴 치명 | 블루트래블러 ②(듀얼 중 1번) 발동에 체인해 묘지의 블루트래블러를 제외 → 둘 다 특소되지 않고 듀얼 중 1번도 소모(`recycler` 4·`schedule` 7·`traveler` 12). 와라시와 같은 지점이고 패에서 쓰는 카드라 레일웨이가 내 보드를 지운 뒤에도 남는다. 카르놀은 묘지에 들어오자마자 체인 없이 특소되어 노릴 틈이 없다 |
+| 마스크드 히어로 다크 로우 (Masked HERO Dark Law) | 🔴 치명 | 상대 묘지로 가는 카드가 전부 제외되어 매크로 코스모스와 같은 지점(`recycler` 2)에서 끊기고, 전회조차 (Revolving Switchyard)·특별 다이어 서치 때 패 1장 무작위 제외도 붙는다. HERO 덱 전용 |
+| 크샤트리라 어라이즈하트 (Kashtira Arise-Heart) | 🔴 치명 | 매크로 코스모스와 같은 지점(`recycler` 2) + 소재 3개로 카드 1장 뒷면 제외. 금지된 일적 (Forbidden Droplet) 발동 불가(qa-14540). 엑시즈라 괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju)에 릴리스될 수 있다 |
+| 차원 장벽 (Dimensional Barrier) | 🔴 치명 | 엑시즈를 선언. 레일웨이의 마무리(초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max)·리베·로켓·플라잉 런처·바벨데커 ③의 엑시즈 소환 취급 특소)가 전부 엑시즈라 이번 턴 킬이 사라진다(`recycler` 8 등). 일반 함정이라 해피의 깃털·헤비 스톰에 체인해 발동해도 이번 턴 내내 적용되는 게 다른 지속 락보다 좋은 점. 스탠바이 페이즈에 미리 발동해도 됨 |
+| 아크네메시스 프로토스 (Archnemeses Protos) | 🔴 치명 | 내 턴에 땅을 선언해 두면 다음 턴(레일웨이 턴) 끝까지 땅 특소 불가 → 리사이클러·블루트래블러·클락 워크·게니우스·모든 랭크 10이 땅이라 첫 링크(`recycler` 3)부터 막힌다. 프로토스가 지즈키엘에 릴리스되어도 이미 걸린 특소 불가는 남는다. 빛인 카르놀·지즈키엘만 특소 가능 |
+| 심연의 결계상 (Barrier Statue of the Abyss) | 🔴 치명 | 어둠 이외 특소 불가 → 땅 기계족 링크·엑시즈와 빛 카르놀·지즈키엘까지 전부 막힌다(`recycler` 3·`opening` 3). 레일웨이의 답은 금지된 일적 (Forbidden Droplet)(결계상 무효)·라이트닝 스톰 (Lightning Storm)·번개 (Raigeki) |
+| 업화의 결계상 (Barrier Statue of the Inferno) | 🔴 치명 | 심연의 결계상과 같음(땅·빛 모두 특소 불가) |
+| 호우의 결계상 (Barrier Statue of the Torrent) | 🔴 치명 | 심연의 결계상과 같음(땅·빛 모두 특소 불가) |
+| 배너티 데블 (Vanity's Fiend) | 🔴 치명 | 특소 전부 불가 → 리사이클러 일반 소환 → 덤핑까지만 된다. 지즈키엘도 못 냄. 금지된 일적 (Forbidden Droplet)으로 무효당하면 그 턴은 풀린다 |
+| 배너티 룰러 (Vanity's Ruler) | 🔴 치명 | 배너티 데블과 같음(상대만 특소 불가) |
+| 스킬 드레인 (Skill Drain) | 🔴 치명 | 리사이클러 덤핑(`recycler` 2)·클락 워크 소생·바벨데커 ③·맥스 번·리베 +2000·플라잉 런처 서치가 전부 무효(qa-23257). 블루트래블러 ②(묘지)와 카르놀 특소(소환 절차)는 못 막는다. 스킬 드레인이 먼저 앞면이면 나중에 나온 클리포트 게니우스 (Qliphort Genius)의 '마법·함정 효과를 받지 않음'도 무효(qa-23897). 지속 함정이라 마함 제거에 체인해도 같이 파괴되니 리사이클러 유발에 체인하는 게 기본 |
+| 센서 만별 (There Can Be Only One) | 🔴 치명 | 전부 기계족이라 몬스터를 1장밖에 못 둔다. 리사이클러가 있으면 기계족 링크(클락 워크) 소환 자체가 불가(qa-12759)이고, 레벨 10 2장을 세우는 엑시즈는 불가능하다(`recycler` 3) |
 | 드롤 & 로크 버드 (Droll & Lock Bird) | 🟠 아픔 | 태만의 항아리 (Pot of Sloth) 드로우나 첫 서치 뒤. 아공간 배틀·특별 다이어·게니우스·플라잉 런처 서치가 모두 막힌다. 리사이클러 직행은 못 막음 |
 | 유령토끼 (Ghost Ogre & Snow Rabbit) | 🟠 아픔 | 맥스 번 효과(단독 체인)나 리베 +2000에 체인해 파괴. 리베 겹치기는 체인할 틈이 없다. 리사이클러에 쓰면 묘지 보내기가 처리되어 손해 |
 | 사요 시구레 (Ghost Mourner & Moonlit Chill) | 🟠 아픔 | 엑시즈 소환된 리베에 써서 +2000을 막는다(6000 데미지로 끝남). 리사이클러 재특소에 써도 됨 |
@@ -27,7 +43,11 @@
 | 피드라울리스＝하르모니아 (Fydraulis Harmonia) | 🟠 아픔 | 맥스 번 효과(단독 체인)에 공개해 맥스 파괴 → 리베 소재 소멸. 리사이클러에는 쓰지 말 것 |
 | The Fallen & The Virtuous (The Fallen & The Virtuous) | 🟠 아픔 | 세트해 두고 맥스 효과 발동 시 맥스 파괴. 게니우스는 마법 효과를 받지 않아 대상 불가 |
 | 초융합 (Super Polymerization) | 🟠 아픔 | 블루트래블러 + 리사이클러(땅·기계족) → 공명의 날개 가루라 (Garura, Wings of Resonant Life). 맥스 + 내 땅속성 다른 종족 → 늪지의 도로곤 (Mudragon of the Swamp). 체인 불가 |
+| 섬광의 결계상 (Barrier Statue of the Heavens) | 🟠 아픔 | 땅 기계족은 막히지만 빛인 에테르마키나 카르놀 (Carnot the Eternal Machine)·괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju)은 특소된다. 지즈키엘로 섬광의 결계상을 릴리스하면 락이 풀리므로 다른 결계상보다 한 단계 약하다 |
 | 증식의 G (Maxx "C") | 🟡 할만함 | recycler 라인 특소 6회(늦어도 클락 워크 링크 전, 리사이클러 유발에 체인)지만 블라인드 후공 원턴킬이라 드로우가 의미 있는 건 킬을 막았을 때뿐. 선공 레일웨이의 긴급 다이어에 체인하면 8장 안팎. 발동 자체가 에테르마키나 카르놀 (Carnot the Eternal Machine)·중장기사 바벨데커 (Heavy Armored Knight Babeldecker) ③ 조건을 열어 준다 |
+| 응전의 G (Retaliating "C") | 🟡 할만함 | 특소를 포함한 마법인 특별 다이어 (Exceptional Schedule)(토큰)·긴급 다이어 (Urgent Schedule) 발동에 체인(`schedule` 1·2). 나온 뒤 묘지로 가는 카드가 모두 제외되어 클락 워크 소생·블루트래블러 ②가 막히고 금지된 일적 (Forbidden Droplet)도 발동 불가(qa-14540). 기본 루트(리사이클러 일반 소환)는 마법으로 특소하지 않아 기회가 없다 |
+| 미스테이크 (Mistake) | 🟡 할만함 | 특별 다이어(`schedule` 1)·블루트래블러 패 효과(`traveler` 1)·게니우스·플라잉 런처 서치를 막는다. 기본 루트(`recycler`)는 서치 없이 덤핑만 써서 거의 안 걸린다. 아공간 배틀 (Subspace Battle)은 발동할 수 있고 높은 쪽 몬스터가 패 대신 묘지로 가므로(드롤 판정 qa-24259) 카르놀이 묘지로 가 특소되는 역효과가 있다 |
+| 어전시합 (Gozen Match) | 🟡 할만함 | 거의 땅 단일이지만 에테르마키나 카르놀 (Carnot the Eternal Machine)·괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju)이 빛. 땅 몬스터가 있으면 카르놀을 특소할 수 없어(`recycler` 6) 레벨 10 2장째가 비고, 땅 몬스터만 있는 루트(바벨데커·데릭크레인)로 우회해야 한다 |
 | 마루챠미 후와로스 (Mulcharmy Fuwalos) | ⚪ 약함 | 내 필드가 비어 있어야 해서 내 선공 보드가 있는 블라인드 후공 상대로는 거의 못 쓴다. 레일웨이가 선공일 때만 긴급 다이어·엑스트라 특소로 최대 6장 |
 | 마루챠미 푸루리아 (Mulcharmy Purulia) | ⚪ 약함 | 패에서 소환은 리사이클러·바벨데커 일반 소환 정도. 내 필드 조건도 맞추기 어렵다 |
 | 마루챠미 냐루스 (Mulcharmy Meowls) | ⚪ 약함 | 블루트래블러 ②·클락 워크 ②·카르놀 묘지 특소로 2~3장이지만 내 필드 조건이 거의 안 맞는다 |
@@ -38,6 +58,7 @@
 | 싸이크론 (Mystical Space Typhoon) | ⚪ 약함 | 전회조차 발동에 체인하는 정도. 세트된 긴급 다이어를 깨면 레벨 10을 서치하게 해 준다 |
 | PSY프레임기어 γ (PSY-Framegear Gamma) | ⛔ 비추 | 블라인드 후공 상대로는 내 선공 보드에 몬스터가 있어 발동 불가. 선공 레일웨이 상대로도 다이어그램 토큰이 내 필드에 생기면 불가 |
 | 비스테드 드루이드브룸 (Bystial Druiswurm) | ⛔ 비추 | 카르놀는 묘지에 들어오자마자 체인 없이 특소되어 제외할 틈이 없다. 나머지는 땅속성 |
+| 군웅할거 (Rivalry of Warlords) | ⛔ 비추 | 레일웨이 몬스터는 전부 기계족(지즈키엘·카르놀 포함)이라 아무것도 안 막힌다 |
 
 ## 패트랩 타이밍 (우선순위 순)
 
@@ -77,90 +98,322 @@
    - 타이밍: (레일웨이 선공) 특별 다이어 (Exceptional Schedule) 발동에 체인 (발동 중인 특별 다이어가 상대 필드에 있어 패에서 발동 가능)
    - 이유: 서치와 다이어그램 토큰 특소가 같은 효과라 함께 무효가 된다. 긴급 다이어 (Urgent Schedule)가 없고, 토큰도 없어 긴급 다이어 조건(상대 몬스터가 더 많음)도 맞출 수 없다. 패에서 쓰면 이 듀얼 동안 어둠·물·화염 몬스터 효과를 못 쓴다.
    - 맞은 뒤 상대 루트: 패의 리사이클러·블루트래블러로 recycler·traveler 라인을 시작한다.
-10. 🟠 아픔 **원시생명체 니비루** (Nibiru, the Primal Being) → **에테르마키나 카르놀** (Carnot the Eternal Machine) — recycler 6단계
+10. 🔴 치명 **매크로 코스모스** (Macro Cosmos) → **스크랩 리사이클러** (Scrap Recycler) — recycler 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 리사이클러 소환 유발에 체인해 발동
+   - 이유: 덱에서 보낸 야광열차 블루트래블러 (Night Train Blue Traveler)가 묘지 대신 제외되어 블루트래블러 ②가 없다. 2번째 리사이클러로 보낸 카르놀도 제외. 앞면인 동안 금지된 일적 (Forbidden Droplet)·전회조차 (Revolving Switchyard) ②도 코스트를 못 보내 발동 불가(qa-14540).
+   - 맞은 뒤 상대 루트: 특별 다이어 (Exceptional Schedule) 묘지 효과·클락 워크 소생도 묘지가 비어 쓸 수 없다. 아공간 배틀 (Subspace Battle)로 지즈키엘을 넣어 내 몬스터를 치우는 정도가 남는다. 레일웨이가 마함 제거로 먼저 지우지 않았는지가 관건.
+11. 🔴 치명 **매크로 코스모스** (Macro Cosmos) → **스크랩 리사이클러** (Scrap Recycler) — traveler 9단계
+   - 타이밍: 미리 앞면이면 1단계 블루트래블러 버리기부터 제외로 바뀌고, 9단계 리사이클러 덤핑도 제외
+   - 이유: 블루트래블러가 버려지는 순간 제외되어 12단계 묘지 효과가 없다. 3단계 전회조차 ②도 코스트를 못 보내 발동 불가(qa-14540).
+   - 맞은 뒤 상대 루트: 블루트래블러 서치(1단계)만 처리된다.
+12. 🔴 치명 **매크로 코스모스** (Macro Cosmos) → **클락 워크 나이트** (Clockwork Knight) — schedule 4단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 3단계 링크 소재로 쓴 리사이클러가 묘지 대신 제외되어 클락 워크가 소생할 대상이 없다. 블루트래블러도 이후 묘지로 가지 못해 7단계 효과가 없다.
+   - 맞은 뒤 상대 루트: 긴급 다이어로 나온 몸 2장 + 클락 워크.
+13. 🔴 치명 **차원의 틈** (Dimensional Fissure) → **스크랩 리사이클러** (Scrap Recycler) — recycler 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 덱에서 보낸 몬스터가 제외되어 블루트래블러 ②·카르놀 묘지 특소가 없다.
+   - 맞은 뒤 상대 루트: 매크로 코스모스와 같음. 차원의 틈은 지속 마법이라 해피의 깃털·헤비 스톰에 먼저 지워지는지가 관건.
+14. 🔴 치명 **차원의 틈** (Dimensional Fissure) → **스크랩 리사이클러** (Scrap Recycler) — traveler 9단계
+   - 타이밍: 미리 앞면이면 1단계 블루트래블러 버리기부터 제외
+   - 이유: 블루트래블러 묘지 효과가 없다.
+   - 맞은 뒤 상대 루트: 블루트래블러 서치까지만.
+15. 🔴 치명 **섬광의 추방자** (Banisher of the Radiance) → **스크랩 리사이클러** (Scrap Recycler) — recycler 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 매크로 코스모스와 같은 지점. 금지된 일적 (Forbidden Droplet)도 발동 불가.
+   - 맞은 뒤 상대 루트: 레일웨이는 괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju)로 섬광의 추방자를 릴리스하거나 라이트닝 스톰 (Lightning Storm)으로 파괴한 뒤 시작하려 한다.
+16. 🔴 치명 **섬광의 추방자** (Banisher of the Radiance) → **스크랩 리사이클러** (Scrap Recycler) — traveler 9단계
+   - 타이밍: 미리 앞면이면 1단계 버리기부터 제외
+   - 이유: 블루트래블러 묘지 효과가 없다.
+   - 맞은 뒤 상대 루트: 지즈키엘로 먼저 치우면 재개.
+17. 🔴 치명 **크샤트리라 어라이즈하트** (Kashtira Arise-Heart) → **스크랩 리사이클러** (Scrap Recycler) — recycler 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 매크로 코스모스와 같은 지점. 제외될 때마다 소재가 늘어 뒷면 제외도 바로 쓸 수 있다.
+   - 맞은 뒤 상대 루트: 지즈키엘 릴리스·라이트닝 스톰으로 치워질 수 있다.
+18. 🔴 치명 **크샤트리라 어라이즈하트** (Kashtira Arise-Heart) → **스크랩 리사이클러** (Scrap Recycler) — traveler 9단계
+   - 타이밍: 미리 앞면이면 1단계 버리기부터 제외
+   - 이유: 블루트래블러 묘지 효과가 없다.
+   - 맞은 뒤 상대 루트: —
+19. 🔴 치명 **마스크드 히어로 다크 로우** (Masked HERO Dark Law) → **스크랩 리사이클러** (Scrap Recycler) — recycler 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 상대 묘지로 가는 카드가 전부 제외되어 블루트래블러·카르놀을 묘지에 깔 수 없다.
+   - 맞은 뒤 상대 루트: 지즈키엘·라이트닝 스톰으로 치운 뒤 재개.
+20. 🔴 치명 **마스크드 히어로 다크 로우** (Masked HERO Dark Law) → **야광열차 블루트래블러** (Night Train Blue Traveler) — traveler 1단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘(버린 블루트래블러 제외 + 서치 처리 뒤 패 1장 무작위 제외)
+   - 이유: 블루트래블러가 묘지에 남지 않고, 전회조차 서치에 패까지 잃는다.
+   - 맞은 뒤 상대 루트: —
+21. 🔴 치명 **아크 디클레어러** (Herald of the Arc Light) → **스크랩 리사이클러** (Scrap Recycler) — recycler 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘(덱에서 묘지로 가는 몬스터 제외) / 리사이클러 유발 발동을 퀵으로 무효+파괴해도 됨
+   - 이유: 덤핑한 블루트래블러가 제외되어 묘지 효과가 없다. 무효 효과는 아껴 두고 나중의 맥스 번·바벨데커 ③에 쓰는 게 낫다.
+   - 맞은 뒤 상대 루트: 지즈키엘로 아크 디클레어러를 릴리스하면 풀린다(지즈키엘 특소 자체는 효과 발동이 아니라 무효 불가).
+22. 🔴 치명 **아크 디클레어러** (Herald of the Arc Light) → **야광열차 블루트래블러** (Night Train Blue Traveler) — traveler 1단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘(패에서 버린 블루트래블러 제외) / 서치 발동 자체를 무효+파괴해도 됨
+   - 이유: 패에서 묘지로 가는 몬스터도 제외라 블루트래블러 ②를 영영 못 쓴다.
+   - 맞은 뒤 상대 루트: —
+23. 🔴 치명 **D.D. 크로우** (D.D. Crow) → **야광열차 블루트래블러** (Night Train Blue Traveler) — recycler 4단계
+   - 타이밍: 블루트래블러 ② 발동에 체인해 패에서 버리고 묘지의 블루트래블러를 대상으로 제외
+   - 이유: '자신과 대상 둘 다 특소'라 블루트래블러가 없으면 특소가 하나도 일어나지 않고, 듀얼 중 1번도 소모된다(qa-23336). 레벨 10 2장을 세울 길이 끊긴다.
+   - 맞은 뒤 상대 루트: 남는 건 리사이클러 + 클락 워크. 카르놀은 덤핑 즉시 특소되어 크로우로 못 막는다.
+24. 🔴 치명 **D.D. 크로우** (D.D. Crow) → **야광열차 블루트래블러** (Night Train Blue Traveler) — schedule 7단계
+   - 타이밍: 블루트래블러 ② 발동에 체인해 블루트래블러 제외
+   - 이유: recycler 라인과 같음. 게니우스 서치(8단계)도 2장 동시 특소가 없어 나오지 않는다.
+   - 맞은 뒤 상대 루트: 로켓을 세울 수 없다.
+25. 🔴 치명 **D.D. 크로우** (D.D. Crow) → **야광열차 블루트래블러** (Night Train Blue Traveler) — traveler 12단계
+   - 타이밍: 블루트래블러 ② 발동에 체인해 블루트래블러 제외
+   - 이유: 맥스 소재가 모자라 리베까지 가지 못한다.
+   - 맞은 뒤 상대 루트: 플라잉 런처 + 카르놀 + 리사이클러.
+26. 🔴 치명 **차원 장벽** (Dimensional Barrier) → **초노급포탑열차 구스타프 맥스** (Superdreadnought Rail Cannon Gustav Max) — recycler 8단계
+   - 타이밍: 세트해 뒀다면 엑시즈 소환 전 아무 때나(스탠바이 페이즈, 또는 해피의 깃털·헤비 스톰 발동에 체인) 엑시즈를 선언해 발동
+   - 이유: 이번 턴 서로 엑시즈를 특소할 수 없어 맥스·리베가 나오지 않는다. 2000 번도 6000 공격도 없다. 일반 함정이라 마함 제거에 체인해 써도 효과는 턴 끝까지 남는다.
+   - 맞은 뒤 상대 루트: 레벨 10을 쌓아 둔 채 클리포트 게니우스 (Qliphort Genius)로 다음 턴을 기다린다. 원턴킬 덱이라 다음 턴 역공이 쉽다.
+27. 🔴 치명 **차원 장벽** (Dimensional Barrier) → **초노급포탑열차 구스타프 맥스** (Superdreadnought Rail Cannon Gustav Max) — schedule 9단계
+   - 타이밍: 엑시즈 소환 전에 엑시즈 선언으로 발동
+   - 이유: 로켓까지 갈 수 없어 레일웨이 선공 보드의 견제가 없어진다.
+   - 맞은 뒤 상대 루트: 게니우스 + 레벨 10 몸만 남는다.
+28. 🔴 치명 **차원 장벽** (Dimensional Barrier) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
+   - 타이밍: 바벨데커 ③ 전에 엑시즈 선언으로 발동(내 발동이 바벨데커 ③ 조건을 채워 주지만 엑시즈는 어차피 특소 불가)
+   - 이유: 플라잉 런처가 나오지 않아 리사이클러 서치·추가 일반 소환이 없다.
+   - 맞은 뒤 상대 루트: 바벨데커 1장.
+29. 🔴 치명 **아크네메시스 프로토스** (Archnemeses Protos) → **클락 워크 나이트** (Clockwork Knight) — recycler 3단계
+   - 타이밍: 내 턴에 땅을 선언해 두었다면(다음 턴 끝까지 땅 특소 불가) 이 단계에서 막힘
+   - 이유: 클락 워크·블루트래블러·게니우스·맥스·리베가 전부 땅이라 리사이클러 일반 소환 이후 특소가 안 된다.
+   - 맞은 뒤 상대 루트: 빛인 카르놀·지즈키엘만 특소 가능. 레벨 10 빛 2장으로는 땅 엑시즈를 못 낸다.
+30. 🔴 치명 **아크네메시스 프로토스** (Archnemeses Protos) → **긴급 다이어** (Urgent Schedule) — schedule 2단계
+   - 타이밍: 땅 선언 후 이 단계에서 막힘
+   - 이유: 덱에서 꺼낼 땅 기계족을 특소할 수 없다.
+   - 맞은 뒤 상대 루트: —
+31. 🔴 치명 **아크네메시스 프로토스** (Archnemeses Protos) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
+   - 타이밍: 땅 선언 후 이 단계에서 막힘
+   - 이유: 바벨데커 ③으로 땅 엑시즈를 낼 수 없다.
+   - 맞은 뒤 상대 루트: 바벨데커 1장.
+32. 🔴 치명 **스킬 드레인** (Skill Drain) → **스크랩 리사이클러** (Scrap Recycler) — recycler 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 리사이클러 소환 유발에 체인해 발동
+   - 이유: 리사이클러는 필드에 남아 처리하므로 덤핑이 무효(qa-23257). 이후 맥스 번·리베 +2000도 무효라 킬 계산이 무너진다.
+   - 맞은 뒤 상대 루트: 패의 블루트래블러를 버려 전회조차 루트로 가도 바벨데커 ③이 무효. 블루트래블러 ②·카르놀 특소는 막지 못한다.
+33. 🔴 치명 **스킬 드레인** (Skill Drain) → **클락 워크 나이트** (Clockwork Knight) — schedule 4단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 클락 워크 소생이 무효. 긴급 다이어로 나온 몸은 원래 효과 무효.
+   - 맞은 뒤 상대 루트: 게니우스도 스킬 드레인 뒤에 나오면 내성째 무효(qa-23897).
+34. 🔴 치명 **스킬 드레인** (Skill Drain) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 바벨데커 ③ 발동에 체인
+   - 이유: 바벨데커 ③이 무효(바벨데커는 필드에 남아 처리). 내 스킬 드레인 발동이 조건을 채워도 결과는 무효.
+   - 맞은 뒤 상대 루트: 바벨데커 1장.
+35. 🔴 치명 **심연의 결계상** (Barrier Statue of the Abyss) → **클락 워크 나이트** (Clockwork Knight) — recycler 3단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 심연의 결계상 아래에서는 땅 기계족 링크 클락 워크부터 특소할 수 없다. 이후 블루트래블러 ②·맥스·리베도 전부 땅이라 불가.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+36. 🔴 치명 **심연의 결계상** (Barrier Statue of the Abyss) → **긴급 다이어** (Urgent Schedule) — schedule 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 덱에서 꺼낼 땅 기계족을 특소할 수 없다.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+37. 🔴 치명 **심연의 결계상** (Barrier Statue of the Abyss) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 바벨데커 ③의 땅 엑시즈 특소가 불가.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+38. 🔴 치명 **심연의 결계상** (Barrier Statue of the Abyss) → **괴성파괴수 지즈키엘** (Jizukiru, the Star Destroying Kaiju) — opening 3단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 빛인 지즈키엘도 특소할 수 없어 내 몬스터(결계상 포함)를 릴리스해 치울 수 없다.
+   - 맞은 뒤 상대 루트: 금지된 일적 (Forbidden Droplet)·라이트닝 스톰 (Lightning Storm)이 없으면 레일웨이는 아무것도 못 한다.
+39. 🔴 치명 **업화의 결계상** (Barrier Statue of the Inferno) → **클락 워크 나이트** (Clockwork Knight) — recycler 3단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 업화의 결계상 아래에서는 땅 기계족 링크 클락 워크부터 특소할 수 없다. 이후 블루트래블러 ②·맥스·리베도 전부 땅이라 불가.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+40. 🔴 치명 **업화의 결계상** (Barrier Statue of the Inferno) → **긴급 다이어** (Urgent Schedule) — schedule 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 덱에서 꺼낼 땅 기계족을 특소할 수 없다.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+41. 🔴 치명 **업화의 결계상** (Barrier Statue of the Inferno) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 바벨데커 ③의 땅 엑시즈 특소가 불가.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+42. 🔴 치명 **업화의 결계상** (Barrier Statue of the Inferno) → **괴성파괴수 지즈키엘** (Jizukiru, the Star Destroying Kaiju) — opening 3단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 빛인 지즈키엘도 특소할 수 없어 내 몬스터(결계상 포함)를 릴리스해 치울 수 없다.
+   - 맞은 뒤 상대 루트: 금지된 일적 (Forbidden Droplet)·라이트닝 스톰 (Lightning Storm)이 없으면 레일웨이는 아무것도 못 한다.
+43. 🔴 치명 **호우의 결계상** (Barrier Statue of the Torrent) → **클락 워크 나이트** (Clockwork Knight) — recycler 3단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 호우의 결계상 아래에서는 땅 기계족 링크 클락 워크부터 특소할 수 없다. 이후 블루트래블러 ②·맥스·리베도 전부 땅이라 불가.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+44. 🔴 치명 **호우의 결계상** (Barrier Statue of the Torrent) → **긴급 다이어** (Urgent Schedule) — schedule 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 덱에서 꺼낼 땅 기계족을 특소할 수 없다.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+45. 🔴 치명 **호우의 결계상** (Barrier Statue of the Torrent) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 바벨데커 ③의 땅 엑시즈 특소가 불가.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+46. 🔴 치명 **호우의 결계상** (Barrier Statue of the Torrent) → **괴성파괴수 지즈키엘** (Jizukiru, the Star Destroying Kaiju) — opening 3단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 빛인 지즈키엘도 특소할 수 없어 내 몬스터(결계상 포함)를 릴리스해 치울 수 없다.
+   - 맞은 뒤 상대 루트: 금지된 일적 (Forbidden Droplet)·라이트닝 스톰 (Lightning Storm)이 없으면 레일웨이는 아무것도 못 한다.
+47. 🔴 치명 **배너티 데블** (Vanity's Fiend) → **클락 워크 나이트** (Clockwork Knight) — recycler 3단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 배너티 데블 아래에서는 땅 기계족 링크 클락 워크부터 특소할 수 없다. 이후 블루트래블러 ②·맥스·리베도 전부 땅이라 불가.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+48. 🔴 치명 **배너티 데블** (Vanity's Fiend) → **긴급 다이어** (Urgent Schedule) — schedule 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 덱에서 꺼낼 땅 기계족을 특소할 수 없다.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+49. 🔴 치명 **배너티 데블** (Vanity's Fiend) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 바벨데커 ③의 땅 엑시즈 특소가 불가.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+50. 🔴 치명 **배너티 데블** (Vanity's Fiend) → **괴성파괴수 지즈키엘** (Jizukiru, the Star Destroying Kaiju) — opening 3단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 빛인 지즈키엘도 특소할 수 없어 내 몬스터(결계상 포함)를 릴리스해 치울 수 없다.
+   - 맞은 뒤 상대 루트: 금지된 일적 (Forbidden Droplet)·라이트닝 스톰 (Lightning Storm)이 없으면 레일웨이는 아무것도 못 한다.
+51. 🔴 치명 **배너티 룰러** (Vanity's Ruler) → **클락 워크 나이트** (Clockwork Knight) — recycler 3단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 배너티 룰러 아래에서는 땅 기계족 링크 클락 워크부터 특소할 수 없다. 이후 블루트래블러 ②·맥스·리베도 전부 땅이라 불가.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+52. 🔴 치명 **배너티 룰러** (Vanity's Ruler) → **긴급 다이어** (Urgent Schedule) — schedule 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 덱에서 꺼낼 땅 기계족을 특소할 수 없다.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+53. 🔴 치명 **배너티 룰러** (Vanity's Ruler) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 바벨데커 ③의 땅 엑시즈 특소가 불가.
+   - 맞은 뒤 상대 루트: 레일웨이는 금지된 일적 (Forbidden Droplet)으로 무효화하거나 라이트닝 스톰 (Lightning Storm)·번개 (Raigeki)로 파괴한 뒤 시작한다.
+54. 🔴 치명 **배너티 룰러** (Vanity's Ruler) → **괴성파괴수 지즈키엘** (Jizukiru, the Star Destroying Kaiju) — opening 3단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 빛인 지즈키엘도 특소할 수 없어 내 몬스터(결계상 포함)를 릴리스해 치울 수 없다.
+   - 맞은 뒤 상대 루트: 금지된 일적 (Forbidden Droplet)·라이트닝 스톰 (Lightning Storm)이 없으면 레일웨이는 아무것도 못 한다.
+55. 🔴 치명 **센서 만별** (There Can Be Only One) → **클락 워크 나이트** (Clockwork Knight) — recycler 3단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 필드에 리사이클러(기계족)가 있어 같은 기계족 링크 클락 워크를 링크 소환할 수 없다(소재가 떠나도 안 됨, qa-12759). 레벨 10 기계족 2장이 동시에 필드에 있을 수 없어 엑시즈도 불가.
+   - 맞은 뒤 상대 루트: 리사이클러 1장으로 끝. 몬스터 1장씩만 둘 수 있다.
+56. 🔴 치명 **센서 만별** (There Can Be Only One) → **긴급 다이어** (Urgent Schedule) — schedule 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 긴급 다이어로 기계족 2장을 꺼내도 처리 뒤 1장을 묘지로 보내야 하고(qa-24189와 같은 원리), 남은 1장과 같은 기계족 링크도 못 낸다.
+   - 맞은 뒤 상대 루트: 몸 1장.
+57. 🔴 치명 **센서 만별** (There Can Be Only One) → **스크랩 리사이클러** (Scrap Recycler) — traveler 8단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 플라잉 런처(기계족)가 있어 리사이클러(기계족)를 추가 일반 소환할 수 없다. 5단계 바벨데커 ③도 같은 이유로 막힐 가능성이 높다.
+   - 맞은 뒤 상대 루트: 플라잉 런처 1장 + 서치한 카드.
+58. 🟠 아픔 **원시생명체 니비루** (Nibiru, the Primal Being) → **에테르마키나 카르놀** (Carnot the Eternal Machine) — recycler 6단계
    - 타이밍: 에테르마키나 카르놀 (Carnot the Eternal Machine) 특소(일반 1 + 특소 4 = 5번째) 직후, 엑시즈 전에
    - 이유: 필드의 클락 워크 나이트 (Clockwork Knight)·야광열차 블루트래블러 (Night Train Blue Traveler)·스크랩 리사이클러 (Scrap Recycler)·에테르마키나 카르놀 (Carnot the Eternal Machine)이 전부 릴리스되어 맥스·리베 소재가 사라진다. 카르놀는 필드에서 묘지로 가면 덱으로 돌아간다. 블루트래블러 ②도 이미 써 버린 뒤다.
    - 맞은 뒤 상대 루트: 레일웨이는 특별 다이어 (Exceptional Schedule) ②나 패의 중장기사 바벨데커 (Heavy Armored Knight Babeldecker)로 레벨 10을 다시 모아야 한다. 원시생명체 토큰(레벨 11·암석족)은 레일웨이 엑시즈 소재로 쓸 수 없다. 내 필드 몬스터도 함께 릴리스되는 점에 주의.
-11. 🟠 아픔 **초융합** (Super Polymerization) → **야광열차 블루트래블러** (Night Train Blue Traveler) — recycler 5단계
+59. 🟠 아픔 **초융합** (Super Polymerization) → **야광열차 블루트래블러** (Night Train Blue Traveler) — recycler 5단계
    - 타이밍: (내 선공 턴에 세트) 블루트래블러 ②로 특소된 야광열차 블루트래블러 (Night Train Blue Traveler) + 스크랩 리사이클러 (Scrap Recycler)의 2번째 유발에 체인해 둘을 융합 소재로
    - 이유: 둘 다 땅·기계족·다른 이름이라 공명의 날개 가루라 (Garura, Wings of Resonant Life)의 소재가 된다. 초융합에는 체인할 수 없고, 블루트래블러의 듀얼 중 1번 효과를 쓴 직후라 레벨 10 2장이 한 번에 사라진다. 리사이클러의 묘지 보내기는 처리되지만 남는 것은 클락 워크 나이트 (Clockwork Knight)와 카르놀 1장 정도.
    - 맞은 뒤 상대 루트: 에테르마키나 카르놀 (Carnot the Eternal Machine) 1장으로는 맥스를 못 만든다. 패에 중장기사 바벨데커 (Heavy Armored Knight Babeldecker)가 있으면 일반 소환해 카르놀와 맥스까지는 간다. 맥스 이후에 쓰려면 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max) + 내 땅속성 몬스터로 늪지의 도로곤 (Mudragon of the Swamp)(다른 종족)도 가능.
-12. 🟠 아픔 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **초노급포탑열차 구스타프 맥스** (Superdreadnought Rail Cannon Gustav Max) — recycler 9단계
+60. 🟠 아픔 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **초노급포탑열차 구스타프 맥스** (Superdreadnought Rail Cannon Gustav Max) — recycler 9단계
    - 타이밍: (세트해 둔 것) 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max)의 번 효과 발동에 체인해 맥스 파괴
    - 이유: 리베의 겹치기 소환은 절차라 그 순간에는 체인할 수 없다(supp-14180). 맥스가 효과를 쓸 때가 마지막 창이다. 2000 번은 처리되지만 맥스가 사라져 리베가 나오지 않는다.
    - 맞은 뒤 상대 루트: 레일웨이가 위험을 느끼면 번을 쓰지 않고 곧바로 리베를 겹친다. 그럴 땐 리베의 +2000 기동 효과에 체인해 리베를 파괴한다. 클리포트 게니우스 (Qliphort Genius)는 마법 효과를 받지 않아 대상이 될 수 없다.
-13. 🟠 아픔 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **초노급포탑열차 구스타프 맥스** (Superdreadnought Rail Cannon Gustav Max) — recycler 9단계
+61. 🟠 아픔 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **초노급포탑열차 구스타프 맥스** (Superdreadnought Rail Cannon Gustav Max) — recycler 9단계
    - 타이밍: 맥스의 번 효과(체인 1 단독)에 직접 체인해 싱크로 5장 공개 → 맥스 파괴. 유령토끼도 같은 지점
    - 이유: The Fallen & The Virtuous (The Fallen & The Virtuous)와 같은 이유로 리베의 재료를 없앤다. 하르모니아·유령토끼는 무효가 아니라 파괴라 2000 번은 처리된다.
    - 맞은 뒤 상대 루트: 리베가 먼저 나왔다면 리베 +2000 효과에 체인해 리베를 파괴한다. 리사이클러 유발에 쓰는 것은 손해(묘지 보내기가 처리되고 블루트래블러가 리사이클러를 다시 끌어온다).
-14. 🟠 아픔 **사요 시구레** (Ghost Mourner & Moonlit Chill) → **초노급포탑열차 저거너트 리베** (Superdreadnought Rail Cannon Juggernaut Liebe) — recycler 10단계
+62. 🟠 아픔 **사요 시구레** (Ghost Mourner & Moonlit Chill) → **초노급포탑열차 저거너트 리베** (Superdreadnought Rail Cannon Juggernaut Liebe) — recycler 10단계
    - 타이밍: 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe)가 엑시즈 소환된 직후 (특소에 반응)
    - 이유: 리베 효과가 무효가 되어 +2000과 다회 공격이 사라진다. 공격력 4000 + 맥스 번 2000 = 6000이라 8000 킬에 닿지 않는다. 이 턴 리베가 필드를 떠나면 4000 데미지도 들어간다.
    - 맞은 뒤 상대 루트: 번 효과와 아공간 배틀 (Subspace Battle) 500 데미지가 쌓였다면 계산이 맞을 수 있으니 LP를 본다. 포영·뵐러로 리베 +2000 기동 효과 발동에 체인해도 같은 결과.
-15. 🟠 아픔 **드롤 & 로크 버드** (Droll & Lock Bird) → **태만의 항아리** (Pot of Sloth) — opening 1단계
+63. 🟠 아픔 **드롤 & 로크 버드** (Droll & Lock Bird) → **태만의 항아리** (Pot of Sloth) — opening 1단계
    - 타이밍: 태만의 항아리 (Pot of Sloth) 드로우 처리 뒤 (드로우 페이즈 밖의 드로우라 발동 가능)
    - 이유: 이후 아공간 배틀 (Subspace Battle)은 높은 쪽 몬스터가 패 대신 묘지로 가고(qa-24259), 특별 다이어 (Exceptional Schedule)·전회조차 (Revolving Switchyard)·클리포트 게니우스 (Qliphort Genius)·초노급포탑열차 플라잉 런처 (Superdreadnought Rail Cannon Flying Launcher) 서치가 모두 막힌다. recycler 라인 자체는 서치가 없어 남는다.
    - 맞은 뒤 상대 루트: 스크랩 리사이클러 (Scrap Recycler)·중장기사 바벨데커 (Heavy Armored Knight Babeldecker)가 패에 있으면 서치 없이 원턴킬까지 간다. 아공간 배틀로 에테르마키나 카르놀 (Carnot the Eternal Machine)이 묘지로 가면 오히려 특소 재료가 된다. 드롤로 막지 못하는 부분은 우라라·와라시로 끊는다.
-16. 🟠 아픔 **저택 와라시** (Ghost Belle & Haunted Mansion) → **야광열차 블루트래블러** (Night Train Blue Traveler) — schedule 7단계
+64. 🟠 아픔 **저택 와라시** (Ghost Belle & Haunted Mansion) → **야광열차 블루트래블러** (Night Train Blue Traveler) — schedule 7단계
    - 타이밍: (레일웨이 선공) 야광열차 블루트래블러 (Night Train Blue Traveler) 묘지 효과에 체인
    - 이유: 듀얼 중 1번 효과가 소모되고, 클리포트 게니우스 (Qliphort Genius)의 '2장 동시 특소' 서치(바벨데커)도 일어나지 않는다. 로켓까지 갈 레벨 10이 모자란다.
    - 맞은 뒤 상대 루트: 특별 다이어 (Exceptional Schedule) ②로 묘지의 레벨 10 1장을 소생할 수는 있지만 엑시즈 상대가 없다. 대개 클리포트 게니우스 (Qliphort Genius) + 레벨 10 1장, 내 필드에 토큰이 남는 정도로 끝난다.
-17. 🟠 아픔 **이펙트 뵐러** (Effect Veiler) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
+65. 🟠 아픔 **이펙트 뵐러** (Effect Veiler) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
    - 타이밍: 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) ③(자신 위에 랭크 10 엑시즈를 겹쳐 특소) 발동에 체인
    - 이유: ③은 바벨데커가 앞면으로 있어야 처리되는 기동 효과라, 무효가 되면 초노급포탑열차 플라잉 런처 (Superdreadnought Rail Cannon Flying Launcher)가 나오지 않는다. 런처의 리사이클러 서치와 추가 일반 소환이 사라져 traveler 라인은 바벨데커 1장으로 끝난다. ③이 발동됐다는 것은 이미 내가 이 턴 무언가를 발동했다는 뜻이다.
    - 맞은 뒤 상대 루트: 일반 소환권은 바벨데커에 썼으므로 패의 리사이클러도 나오지 못한다. 묘지의 블루트래블러 ②는 남지만 함께 세울 땅 기계족이 묘지에 있어야 한다.
-18. 🟠 아픔 **이펙트 뵐러** (Effect Veiler) → **초노급포탑열차 저거너트 리베** (Superdreadnought Rail Cannon Juggernaut Liebe) — recycler 11단계
+66. 🟠 아픔 **이펙트 뵐러** (Effect Veiler) → **초노급포탑열차 저거너트 리베** (Superdreadnought Rail Cannon Juggernaut Liebe) — recycler 11단계
    - 타이밍: 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe)의 +2000 기동 효과 발동에 체인
    - 이유: 리베의 효과가 무효가 되어 +2000이 처리되지 않고 턴 종료까지 다회 공격도 꺼진다. 공격력 4000 직접 공격 + 맥스 번 2000 = 6000이라 8000에 닿지 않는다. 리베를 겹치는 순간은 소환 절차라 체인할 틈이 없어 여기가 마지막 창이다.
    - 맞은 뒤 상대 루트: 아공간 배틀 (Subspace Battle) 500 데미지가 쌓였다면 계산이 맞을 수 있으니 LP를 본다.
-19. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **초노급포탑열차 구스타프 맥스** (Superdreadnought Rail Cannon Gustav Max) — recycler 9단계
+67. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **초노급포탑열차 구스타프 맥스** (Superdreadnought Rail Cannon Gustav Max) — recycler 9단계
    - 타이밍: 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max)의 2000 번 효과(체인 1 단독)에 체인해 맥스 파괴
    - 이유: 하르모니아와 같은 지점. 파괴라 번은 처리되지만 맥스가 사라져 리베를 겹칠 수 없다. 리베 겹치기는 소환 절차라 체인할 틈이 없어서 맥스가 효과를 쓰는 순간이 마지막 창이다.
    - 맞은 뒤 상대 루트: 레일웨이가 번을 건너뛰고 리베를 먼저 겹치면 리베 +2000(11단계)에 쓴다. 리사이클러 유발에 쓰면 묘지 보내기가 처리되어 손해.
-20. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **초노급포탑열차 저거너트 리베** (Superdreadnought Rail Cannon Juggernaut Liebe) — recycler 11단계
+68. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **초노급포탑열차 저거너트 리베** (Superdreadnought Rail Cannon Juggernaut Liebe) — recycler 11단계
    - 타이밍: 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe)의 +2000 기동 효과 발동에 체인해 리베 파괴
    - 이유: 맥스 번을 놓쳤을 때의 대안. 리베가 파괴되어 공격할 몬스터가 없어진다(이 턴은 리베로만 공격 선언 가능).
    - 맞은 뒤 상대 루트: 맥스 번 2000과 아공간 배틀 데미지는 이미 들어갔을 수 있다.
-21. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **초노급포탑열차 구스타프 맥스** (Superdreadnought Rail Cannon Gustav Max) — traveler 14단계
+69. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **초노급포탑열차 구스타프 맥스** (Superdreadnought Rail Cannon Gustav Max) — traveler 14단계
    - 타이밍: 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max)의 2000 번 효과 발동에 체인해 맥스 파괴
    - 이유: recycler 라인 9단계와 같다. 리베의 받침이 사라진다.
    - 맞은 뒤 상대 루트: 초노급포탑열차 플라잉 런처 (Superdreadnought Rail Cannon Flying Launcher)는 랭크 10 기계족이라 리베를 겹칠 수 있다. 런처가 필드에 남아 있으면 리베 +2000에 써야 한다.
-22. 🟠 아픔 **도미나스 임펄스** (Dominus Impulse) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
+70. 🟠 아픔 **도미나스 임펄스** (Dominus Impulse) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
    - 타이밍: 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) ③(랭크 10 엑시즈를 겹쳐 특소) 발동에 체인 (상대 필드에 전회조차 (Revolving Switchyard)·바벨데커가 있어 패에서 발동 가능)
    - 이유: 엑스트라 특소 효과라 무효. 초노급포탑열차 플라잉 런처 (Superdreadnought Rail Cannon Flying Launcher)가 나오지 않아 리사이클러 서치와 추가 일반 소환이 사라진다. 바벨데커 ③은 1턴 1번이라 다시 못 쓴다.
    - 맞은 뒤 상대 루트: 바벨데커 1장과 전회조차만 남는다.
-23. 🟠 아픔 **도미나스 퍼지** (Dominus Purge) → **전회조차** (Revolving Switchyard) — traveler 3단계
+71. 🟠 아픔 **도미나스 퍼지** (Dominus Purge) → **전회조차** (Revolving Switchyard) — traveler 3단계
    - 타이밍: 전회조차 (Revolving Switchyard) ②(패 1장을 묘지로 보내고 레벨 10 땅 기계족 서치) 발동에 체인
    - 이유: 바벨데커가 오지 않는다. 블루트래블러의 패 효과(1단계)는 1턴 1번이라 전회조차를 다시 가져오지 못하고, 전회조차 효과도 1턴에 1개라 다시 쓸 수 없다. 코스트로 보낸 패 1장도 돌아오지 않는다.
    - 맞은 뒤 상대 루트: 패에 리사이클러가 있으면 recycler 라인. 묘지의 블루트래블러 ②는 남아 있다.
-24. 🟠 아픔 **도미나스 스파크** (Dominus Spark) → **초노급포탑열차 구스타프 맥스** (Superdreadnought Rail Cannon Gustav Max) — recycler 4단계
+72. 🟠 아픔 **도미나스 스파크** (Dominus Spark) → **초노급포탑열차 구스타프 맥스** (Superdreadnought Rail Cannon Gustav Max) — recycler 4단계
    - 타이밍: 블루트래블러 묘지 효과가 발동된 이 단계부터 패에서 발동할 수 있다. 바로 쓰지 말고 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max)의 번 효과(9단계)나 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe)의 +2000(11단계) 발동에 체인해 그 몬스터를 제외
    - 이유: 함정이라 체인을 막는 견제가 없는 레일웨이 턴에는 그대로 통한다. 맥스를 제외하면 리베를 겹칠 수 없고, 리베를 제외하면 공격할 몬스터가 없다. 파괴가 아니라서 카르놀 같은 묘지행 효과도 상관없다. 패에서 쓰면 이 듀얼 동안 땅·물·화염·바람 몬스터 효과를 못 쓴다.
    - 맞은 뒤 상대 루트: 내 묘지에 함정이 없으면 상대는 스파크 처리로 패에서 1장을 특소할 수 있다. 그 몬스터가 바벨데커면 ③으로 랭크 10을 다시 세울 수 있으니(내가 이 턴 발동했으므로) 상대 남은 패 수를 본다.
-25. 🟠 아픔 **도미나스 스파크** (Dominus Spark) → **에테르마키나 카르놀** (Carnot the Eternal Machine) — traveler 12단계
+73. 🟠 아픔 **도미나스 스파크** (Dominus Spark) → **에테르마키나 카르놀** (Carnot the Eternal Machine) — traveler 12단계
    - 타이밍: 야광열차 블루트래블러 (Night Train Blue Traveler)의 묘지 효과 발동에 체인해 필드의 에테르마키나 카르놀 (Carnot the Eternal Machine)을 제외
    - 이유: 블루트래블러는 리사이클러와 함께 나오지만, 맥스를 만들 레벨 10이 블루트래블러 1장뿐이 된다(바벨데커는 런처 소재로 이미 사용). 리베 킬이 끊긴다.
    - 맞은 뒤 상대 루트: 내 묘지에 함정이 없으면 상대가 패에서 1장을 특소할 수 있다. 패에 레벨 10이 있으면 맥스는 나온다.
-26. 🟡 할만함 **증식의 G** (Maxx "C") → **클락 워크 나이트** (Clockwork Knight) — recycler 3단계
+74. 🟠 아픔 **섬광의 결계상** (Barrier Statue of the Heavens) → **클락 워크 나이트** (Clockwork Knight) — recycler 3단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 섬광의 결계상 아래에서는 땅 기계족 링크 클락 워크부터 특소할 수 없다. 이후 블루트래블러 ②·맥스·리베도 전부 땅이라 불가.
+   - 맞은 뒤 상대 루트: 빛인 괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju)로 섬광의 결계상을 릴리스하면 락이 풀린다.
+75. 🟠 아픔 **섬광의 결계상** (Barrier Statue of the Heavens) → **긴급 다이어** (Urgent Schedule) — schedule 2단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 덱에서 꺼낼 땅 기계족을 특소할 수 없다.
+   - 맞은 뒤 상대 루트: 빛인 괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju)로 섬광의 결계상을 릴리스하면 락이 풀린다.
+76. 🟠 아픔 **섬광의 결계상** (Barrier Statue of the Heavens) → **중장기사 바벨데커** (Heavy Armored Knight Babeldecker) — traveler 5단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 바벨데커 ③의 땅 엑시즈 특소가 불가.
+   - 맞은 뒤 상대 루트: 빛인 괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju)로 섬광의 결계상을 릴리스하면 락이 풀린다.
+77. 🟡 할만함 **증식의 G** (Maxx "C") → **클락 워크 나이트** (Clockwork Knight) — recycler 3단계
    - 타이밍: 스크랩 리사이클러 (Scrap Recycler) 소환 유발(2단계)에 체인해 발동. 늦어도 클락 워크 나이트 (Clockwork Knight) 링크 소환 전
    - 이유: 이 루트의 특소는 6번(클락 워크, 블루트래블러+리사이클러 동시, 카르놀, 게니우스, 맥스, 리베)이라 끝까지 가면 6장. 하지만 원턴킬 루트라 킬을 막지 못하면 드로우는 의미가 없고, 레일웨이는 증G를 보고도 킬을 노리는 경우가 많다. 증G 발동은 패의 몬스터 효과라 에테르마키나 카르놀 (Carnot the Eternal Machine) 조건을 채우고 중장기사 바벨데커 (Heavy Armored Knight Babeldecker) ③ 조건도 연다.
    - 맞은 뒤 상대 루트: 멈추면 클락 워크 1장과 묘지 자원 정도. 증G는 다른 패트랩(와라시·뵐러 등)으로 킬을 끊으면서 다음 턴 패를 늘리는 용도로 같이 쓴다.
-27. 🟡 할만함 **증식의 G** (Maxx "C") → **긴급 다이어** (Urgent Schedule) — schedule 2단계
+78. 🟡 할만함 **증식의 G** (Maxx "C") → **긴급 다이어** (Urgent Schedule) — schedule 2단계
    - 타이밍: (레일웨이 선공) 긴급 다이어 (Urgent Schedule) 발동에 체인
    - 이유: 덱 특소 2장 동시, 클락 워크, 리사이클러 소생, 게니우스, 블루트래블러+데릭크레인, 맥스, 로켓, 도라로 드로우 8장 안팎. 선공 레일웨이는 원턴킬이 아니라 로켓 보드를 만드는 것이라 멈추게 하는 효과가 있다. 단 발동 자체가 바벨데커 ③(12단계) 조건을 연다.
    - 맞은 뒤 상대 루트: 상대는 클락 워크·게니우스 정도에서 멈추고 세트한 금지된 성관 (Forbidden Crown)·긴급 다이어로 버틴다.
-28. 🟡 할만함 **도미나스 퍼지** (Dominus Purge) → **아공간 배틀** (Subspace Battle) — opening 2단계
+79. 🟡 할만함 **도미나스 퍼지** (Dominus Purge) → **아공간 배틀** (Subspace Battle) — opening 2단계
    - 타이밍: 아공간 배틀 (Subspace Battle) 발동에 체인
    - 이유: 공개한 몬스터를 '높은 쪽은 패로' 넣는 효과가 있어 효과 전체가 무효가 된다(우라라도 체인 가능). 괴성파괴수 지즈키엘 (Jizukiru, the Star Destroying Kaiju)·에테르마키나 카르놀 (Carnot the Eternal Machine)이 패에 오지 않고 500 데미지도 없다.
    - 맞은 뒤 상대 루트: 리사이클러 라인은 서치가 없어 그대로 간다. 지즈키엘로 내 몬스터를 치우는 수단이 하나 줄어드는 정도.
-29. ⛔ 비추 **싸이크론** (Mystical Space Typhoon) → **긴급 다이어** (Urgent Schedule) — schedule 2단계
+80. 🟡 할만함 **응전의 G** (Retaliating "C") → **특별 다이어** (Exceptional Schedule) — schedule 1단계
+   - 타이밍: 특별 다이어 카드 발동(토큰 특소 포함)에 체인해 패에서 특소
+   - 이유: 나온 뒤 이번 턴 묘지로 가는 카드가 전부 제외 → 3단계 링크 소재 리사이클러가 제외되어 클락 워크 소생, 블루트래블러 ②가 모두 막힌다. 레일웨이의 금지된 일적 (Forbidden Droplet)도 발동 불가.
+   - 맞은 뒤 상대 루트: 응전의 G는 몬스터라 지즈키엘·라이트닝 스톰에 치워지면 해제.
+81. 🟡 할만함 **응전의 G** (Retaliating "C") → **긴급 다이어** (Urgent Schedule) — schedule 2단계
+   - 타이밍: 긴급 다이어 카드 발동에 체인해 패에서 특소
+   - 이유: 특소는 처리되지만 이후 묘지 소생 루트가 전부 제외로 바뀐다.
+   - 맞은 뒤 상대 루트: 긴급 다이어 몸 2장 + 링크 1장 정도.
+82. 🟡 할만함 **어전시합** (Gozen Match) → **에테르마키나 카르놀** (Carnot the Eternal Machine) — recycler 6단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 필드에 땅 몬스터(블루트래블러·리사이클러·클락 워크)가 있어 빛 카르놀을 특소할 수 없다. 레벨 10 2장째가 빈다.
+   - 맞은 뒤 상대 루트: 덤핑 대상을 땅 레벨 10으로 바꾸거나 바벨데커·데릭크레인으로 레벨 10을 맞춘다. 지즈키엘(빛)도 땅 몬스터를 가진 쪽에는 못 낸다.
+83. 🟡 할만함 **어전시합** (Gozen Match) → **에테르마키나 카르놀** (Carnot the Eternal Machine) — traveler 10단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 플라잉 런처·리사이클러(땅)가 있어 카르놀(빛)을 특소할 수 없다.
+   - 맞은 뒤 상대 루트: 블루트래블러 ②로 땅 레벨 10을 맞추면 맥스까지는 간다.
+84. 🟡 할만함 **미스테이크** (Mistake) → **특별 다이어** (Exceptional Schedule) — schedule 1단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 특별 다이어 발동에 체인
+   - 이유: 긴급 다이어를 서치하지 못한다.
+   - 맞은 뒤 상대 루트: 태만의 항아리 (Pot of Sloth)·리사이클러 기본 루트로 돌아간다.
+85. 🟡 할만함 **미스테이크** (Mistake) → **야광열차 블루트래블러** (Night Train Blue Traveler) — traveler 1단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 이 효과 발동에 체인
+   - 이유: 전회조차가 오지 않아 바벨데커 서치까지 끊긴다. 블루트래블러는 묘지로 가므로 나중의 ②는 남는다.
+   - 맞은 뒤 상대 루트: 리사이클러가 있으면 recycler 라인.
+86. ⛔ 비추 **싸이크론** (Mystical Space Typhoon) → **긴급 다이어** (Urgent Schedule) — schedule 2단계
    - 타이밍: 레일웨이가 선공 엔드에 세트해 둔 긴급 다이어 (Urgent Schedule) 2장째를 싸이크론으로 파괴
    - 이유: 세트된 긴급 다이어가 필드에서 묘지로 가면 덱에서 레벨 10 기계족을 서치한다(supp-14183). 지워도 다음 턴 재료를 준다. 싸이크론을 쓸 거면 traveler 라인의 전회조차 (Revolving Switchyard) 발동(2단계)에 체인해 서치를 막는 쪽이 낫다(블루트래블러 패 효과는 1턴 1번이라 같은 턴에 다시 회수하지 못한다).
    - 맞은 뒤 상대 루트: 세트 카드는 코즈믹 싸이크론 (Cosmic Cyclone)(제외)으로 지우거나, 상대가 쓰게 두고 대응한다. 싸이크론은 레일웨이가 세트한 금지된 성관 (Forbidden Crown)에 쓰는 편이 낫다.
-30. ⛔ 비추 **비스테드 드루이드브룸** (Bystial Druiswurm) → **에테르마키나 카르놀** (Carnot the Eternal Machine) — recycler 6단계
+87. ⛔ 비추 **비스테드 드루이드브룸** (Bystial Druiswurm) → **에테르마키나 카르놀** (Carnot the Eternal Machine) — recycler 6단계
    - 타이밍: 묘지로 보내진 에테르마키나 카르놀 (Carnot the Eternal Machine)(빛)을 드루이드브룸·마그나무트로 제외하려 함
    - 이유: 리사이클러의 묘지 보내기가 처리된 뒤에는 턴 플레이어(레일웨이)가 먼저 행동하므로, 체인 없는 특소 절차로 카르놀를 바로 내 버린다(supp-19480). 리사이클러 유발에 체인하면 카르놀는 아직 덱에 있다. 레일웨이의 다른 묘지 몬스터는 거의 땅속성이라 제외할 대상이 없다.
    - 맞은 뒤 상대 루트: 묘지 견제는 블루트래블러 ②에 와라시로 쓴다. 드루이드브룸은 내 턴 링크 소재 정도로만 쓴다.
+88. ⛔ 비추 **군웅할거** (Rivalry of Warlords) → **클락 워크 나이트** (Clockwork Knight) — recycler 3단계
+   - 타이밍: —
+   - 이유: 레일웨이 몬스터는 전부 기계족이라 군웅할거는 아무것도 막지 못한다.
+   - 맞은 뒤 상대 루트: —
 
 ## 핵심 카드
 
@@ -217,7 +470,7 @@ AppMedia·eternalduelist의 특별 다이어 루트를 현재 MD 리스트(페�
 | 1 | 특별 다이어 (Exceptional Schedule) | 발동: 덱에서 긴급 다이어 (Urgent Schedule) 서치, 그 후 상대 필드에 다이어그램 토큰(기계족·땅·레벨 10·공수 3000) 특소 | 긴급 다이어 (Urgent Schedule) 서치 + 내 필드에 토큰 | 우라라, 드롤, 도미나스 퍼지, 싸이크론, 아크 디클레어러, 응전의 G, 마스크드 히어로 다크 로우, 미스테이크 |
 | 2 | 긴급 다이어 (Urgent Schedule) | 발동(속공): 덱에서 레벨 4 이하와 레벨 5 이상 땅 기계족을 효과 무효·수비 표시로 특소 | 스크랩 리사이클러 (Scrap Recycler) + 야광열차 블루트래블러 (Night Train Blue Traveler) | 우라라, 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 싸이크론, 아크 디클레어러, 응전의 G, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
 | 3 | 클락 워크 나이트 (Clockwork Knight) | 스크랩 리사이클러 (Scrap Recycler)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
-| 4 | 클락 워크 나이트 (Clockwork Knight) | 기동 효과: 묘지의 스크랩 리사이클러 (Scrap Recycler)를 대상, 야광열차 블루트래블러 (Night Train Blue Traveler)를 릴리스하고 리사이클러를 수비 표시로 특소 | 새로 소환된 리사이클러는 효과가 살아 있다 | 증G, 냐루스, 포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 감마, 하르모니아, 금지된 성관, 아크 디클레어러, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러, 스킬 드레인 |
+| 4 | 클락 워크 나이트 (Clockwork Knight) | 기동 효과: 묘지의 스크랩 리사이클러 (Scrap Recycler)를 대상, 야광열차 블루트래블러 (Night Train Blue Traveler)를 릴리스하고 리사이클러를 수비 표시로 특소 | 새로 소환된 리사이클러는 효과가 살아 있다 | 증G, 냐루스, 포영, 뵐러, 유령토끼, 와라시, 사요 시구레, 금지된 일적, 니비루, 도미나스 임펄스, 마그나무트, 감마, 하르모니아, 금지된 성관, 드루이드브룸, 매크로 코스모스, 섬광의 추방자, 아크 디클레어러, D.D. 크로우, 마스크드 히어로 다크 로우, 크샤트리라 어라이즈하트, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러, 스킬 드레인 |
 | 5 | 스크랩 리사이클러 (Scrap Recycler) | 특소 성공 유발: 덱에서 기계족 1장을 묘지로 | 중기화열차 데릭크레인 (Heavy Freight Train Derricrane) 묘지로 | 우라라, 포영, 뵐러, 유령토끼, 금지된 일적, 감마, 하르모니아, 금지된 성관, 매크로 코스모스, 차원의 틈, 섬광의 추방자, 아크 디클레어러, 마스크드 히어로 다크 로우, 크샤트리라 어라이즈하트, 스킬 드레인 |
 | 6 | 클리포트 게니우스 (Qliphort Genius) | 스크랩 리사이클러 (Scrap Recycler) + 클락 워크 나이트 (Clockwork Knight)로 링크 소환 |  | 증G, 후와로스, 사요 시구레, 니비루, 도미나스 임펄스, 차원 장벽, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
 | 7 | 야광열차 블루트래블러 (Night Train Blue Traveler) | 묘지 효과(듀얼 중 1번): 중기화열차 데릭크레인 (Heavy Freight Train Derricrane)을 대상으로 자신과 함께 클리포트 게니우스 (Qliphort Genius)의 링크처에 특소 |  | 증G, 냐루스, 와라시, 사요 시구레, 니비루, 도미나스 임펄스, 도미나스 스파크, 마그나무트, 감마, 드루이드브룸, 매크로 코스모스, 차원의 틈, 섬광의 추방자, 아크 디클레어러, D.D. 크로우, 마스크드 히어로 다크 로우, 크샤트리라 어라이즈하트, 심연의 결계상, 섬광의 결계상, 업화의 결계상, 호우의 결계상, 배너티 데블, 배너티 룰러 |
@@ -285,6 +538,7 @@ recycler 라인과 같다. 괴성파괴수 지즈키엘 (Jizukiru, the Star Dest
 - 초노급포탑열차 저거너트 리베 (Superdreadnought Rail Cannon Juggernaut Liebe)를 겹치는 순간은 체인할 틈이 없다. 파괴·탈취 견제는 초노급포탑열차 구스타프 맥스 (Superdreadnought Rail Cannon Gustav Max)가 번 효과를 쓰는 순간에 쓴다.
 - 아공간 배틀 (Subspace Battle)의 '효과 발동 불가'는 각자 자신이 공개한 이름에만 걸린다. 내가 공개할 몬스터는 패의 패트랩과 다른 이름으로 고른다(supp-22687). 아공간 배틀 발동에는 우라라를 체인할 수 있다(qa-24270).
 - 표본이 얇다: 최근 30일 5덱(점유율 0.7%). 루트·채용률은 2026-08-18~10-22 MDM 상위 덱 18개를 합쳐 봤다. MD 리스트에는 OCG 루트에 흔한 폭주궤도 플라잉 페가수스 (Flying Pegasus Railroad Stampede)·기교와－이와타테노타니구쿠 (Gizmek Taniguku, the Immobile Intellect)·소사특공 (Barrage Blast)이 거의 없다.
+- 지속 락(매크로 코스모스·스킬 드레인·미스테이크 등)은 레일웨이가 먼저 쓰는 해피의 깃털 (Harpie's Feather Duster)·태풍 (Heavy Storm)에 체인해 발동해도 같이 파괴되어 남지 않는다. 일반 함정인 차원 장벽 (Dimensional Barrier)(엑시즈 선언)는 체인해 발동해도 이번 턴 내내 적용되므로 레일웨이 상대로 가장 확실한 세트 락이다. 매크로 코스모스·섬광의 추방자·응전의 G가 앞면이면 금지된 일적 (Forbidden Droplet)은 코스트를 못 보내 발동조차 할 수 없다(qa-14540).
 
 ## 출처
 

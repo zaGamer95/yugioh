@@ -1,0 +1,452 @@
+{
+ "_comment": "소환 제한·차원계 카드(dimension/summon_lock) 재정 — 드래곤테일·낙인·소환수 분석용. 출처 KONAMI 遊戯王OCG カードデータベース.",
+ "sources": {},
+ "rules": [],
+ "rulings": [
+  {
+   "id": "qa-23815",
+   "fid": 23815,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23815&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Ash Blossom & Joyous Spring",
+    "D.D. Crow",
+    "Dracotail Faimena",
+    "Ghost Belle & Haunted Mansion",
+    "Mulcharmy Fuwalos",
+    "Mulcharmy Meowls"
+   ],
+   "handtraps": [
+    "arise_heart",
+    "ash",
+    "banisher",
+    "belle",
+    "dark_law",
+    "dd_crow",
+    "fissure",
+    "fuwalos",
+    "macro_cosmos",
+    "meowls",
+    "purulia",
+    "retaliating_c"
+   ],
+   "themes": [
+    "branded",
+    "dracotail",
+    "invoked"
+   ],
+   "topic": "cost",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외된다' 효과가 적용 중일 때 '이 카드를 패에서 버리고 발동' 하는 효과를 쓸 수 있나?",
+   "answer_ko": "쓸 수 있다. 버린 카드는 결과적으로 제외되지만, 텍스트에 '묘지로 버리고'라고 쓰여 있지 않으면 발동할 수 있다. [[Ghost Belle & Haunted Mansion]]·마루챠미 몬스터 등이 예로 명시돼 있다. 반면 '묘지로 버리고 발동'이라고 쓰인 효과는 발동할 수 없다.",
+   "impact_ko": "[[Macro Cosmos]]류 아래서도 우라라·와라시·마루챠미는 쓸 수 있다. '묘지로 보내서' 발동하는 증G·드롤과 다르다."
+  },
+  {
+   "id": "qa-14540",
+   "fid": 14540,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=14540&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Fallen of the White Dragon",
+    "Forbidden Droplet",
+    "Maxx \"C\"",
+    "Mirrorjade the Iceblade Dragon"
+   ],
+   "handtraps": [
+    "arise_heart",
+    "banisher",
+    "dark_law",
+    "droplet",
+    "fissure",
+    "macro_cosmos",
+    "maxxc",
+    "retaliating_c"
+   ],
+   "themes": [
+    "branded"
+   ],
+   "topic": "cost",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외된다' 효과 적용 중에 '묘지로 보내서' 발동하는 효과를 쓸 수 있나?",
+   "answer_ko": "못 한다. 코스트로 카드를 묘지에 보낼 수 없기 때문이다. [[Maxx \"C\"]]·[[Forbidden Droplet]]이 예로 명시돼 있다.",
+   "impact_ko": "[[Macro Cosmos]]류 아래서는 증G·금지된 일적을 쓸 수 없다. 패에서 '버리는' 우라라·마루챠미와 구분된다."
+  },
+  {
+   "id": "qa-24159",
+   "fid": 24159,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24159&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Branded in Red",
+    "Dominus Impulse",
+    "Ketu Dracotail",
+    "Retaliating \"C\""
+   ],
+   "handtraps": [
+    "impulse",
+    "retaliating_c"
+   ],
+   "themes": [
+    "branded",
+    "dracotail"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Ketu Dracotail]](計都星辰)의 발동에 '특소 효과를 포함한 발동' 대응 카드를 체인할 수 있나?",
+   "answer_ko": "가능하다. 필드에 몬스터가 없거나 융합 처리를 할 수 없는 상황이어도 마찬가지이며, [[Dominus Impulse]]도 명시돼 있다.",
+   "impact_ko": "드래곤테일 속공 융합 마법은 임펄스 대상이다."
+  },
+  {
+   "id": "qa-23817",
+   "fid": 23817,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23817&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Blazing Cartesia, the Virtuous",
+    "Branded Fusion",
+    "Fallen of Albaz",
+    "Invocation",
+    "Rahu Dracotail"
+   ],
+   "handtraps": [
+    "arise_heart",
+    "banisher",
+    "dark_law",
+    "fissure",
+    "macro_cosmos",
+    "retaliating_c"
+   ],
+   "themes": [
+    "branded",
+    "dracotail",
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "'묘지로 보내지는 카드는 대신 제외된다' 효과([[Retaliating \"C\"]] 등)가 적용 중일 때 융합 소환할 수 있는가?",
+   "answer_ko": "할 수 있다. 소재는 제외되지만 융합 소환은 그대로 진행된다. [[Rahu Dracotail]]·[[Branded Fusion]]·[[Fallen of Albaz]]·[[Blazing Cartesia, the Virtuous]]·[[Invocation]] 등이 예시에 있다.",
+   "quote_ja": "墓地へ送られる融合素材モンスターは除外されますが、エクストラデッキから融合モンスターを融合召喚する処理を行います。",
+   "impact_ko": "응전하는 G는 융합 자체는 못 막지만 '소재로 묘지에 갔을 때' 효과(드래곤테일 세트, 알비온 엔드 페이즈 등)를 지운다."
+  },
+  {
+   "id": "qa-10803",
+   "fid": 10803,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=10803&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Mistake",
+    "Magical Meltdown"
+   ],
+   "handtraps": [
+    "mistake"
+   ],
+   "themes": [
+    "dracotail",
+    "invoked"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Mistake]]처럼 '드로우 이외로 덱에서 패에 넣을 수 없다'가 적용 중일 때, 발동 시 처리로 덱에서 패에 넣는 카드를 발동할 수 있는가?",
+   "answer_ko": "처리로 반드시 패에 넣어야 하는 카드는 발동 자체를 할 수 없다. '패에 넣을 수 있다'처럼 처리가 임의인 카드는 발동은 되지만 처리 시 적용 중이면 패에 넣지 못한다. 원문은 [[Mistake]](手違い)·드롤 등을 함께 들고, 임의 쪽 예시에 [[Magical Meltdown]](暴走魔法陣)이 명시돼 있다.",
+   "quote_ja": "（A）に該当する例として…「ライオウ」「手違い」「ドロール＆ロックバード」…等の効果が適用されている状況では、発動自体ができません。…（B）に該当する例として…「暴走魔法陣」",
+   "impact_ko": "미스테이크가 앞면이면 [[Ketu Dracotail]](서치가 필수 처리)은 발동 불가, [[Magical Meltdown]]은 발동되지만 알레이스터가 안 들어온다."
+  },
+  {
+   "id": "qa-10427",
+   "fid": 10427,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=10427&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Gozen Match"
+   ],
+   "handtraps": [
+    "gozen"
+   ],
+   "themes": [
+    "dracotail",
+    "branded",
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Gozen Match]] 적용 중, 필드의 몬스터를 소재로 써서 그 몬스터와 다른 속성의 엑스트라 덱 몬스터를 소환할 수 있는가?",
+   "answer_ko": "할 수 없다. 원문 사례는 어둠 몬스터 1장만 있을 때 그것을 링크 소재로 화염 링크 몬스터를 링크 소환할 수 없다는 것. 다만 자신을 '코스트로 릴리스'해 필드가 비게 되는 효과라면 다른 속성도 특소할 수 있다.",
+   "quote_ja": "「閃刀姫－レイ」をリンク素材として炎属性の「閃刀姫－カガリ」をリンク召喚することはできません。",
+   "impact_ko": "어전시합 아래에선 소재로 쓸 필드 몬스터도 속성 판정에 들어간다. 추억의 알레이스터(어둠) → 소라트(빛), 무루루(어둠) → 드래곤테일 융합이 막힌다."
+  },
+  {
+   "id": "qa-11272",
+   "fid": 11272,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=11272&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Rivalry of Warlords"
+   ],
+   "handtraps": [
+    "rivalry"
+   ],
+   "themes": [
+    "dracotail",
+    "branded",
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Rivalry of Warlords]] 적용 중, 필드의 전사족 2장으로 전사족이 아닌 엑시즈 몬스터를 엑시즈 소환할 수 있는가?",
+   "answer_ko": "할 수 없다. 필드 몬스터가 전사족이면 엑시즈 소환할 수 있는 것도 전사족뿐이다(소재로 쓰는 몬스터도 판정에 들어간다).",
+   "quote_ja": "戦士族以外のエクシーズモンスターをエクシーズ召喚する事はできません。",
+   "impact_ko": "군웅할거 아래에선 루키아스(마법사족)를 소재로 알자리온(드래곤족)을, 추억의 알레이스터(마법사족)를 소재로 소라트(화염족)를 낼 수 없다."
+  },
+  {
+   "id": "qa-12759",
+   "fid": 12759,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=12759&request_locale=ja",
+   "official": true,
+   "cards": [
+    "There Can Be Only One"
+   ],
+   "handtraps": [
+    "only_one"
+   ],
+   "themes": [
+    "dracotail",
+    "branded",
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "[[There Can Be Only One]] 적용 중, 필드의 몬스터를 링크 소재로 그 몬스터와 같은 종족의 링크 몬스터를 링크 소환할 수 있는가?",
+   "answer_ko": "할 수 없다. 자신 몬스터 존에 앞면으로 있는 몬스터와 같은 종족의 링크 소환은 그 몬스터를 소재로 쓰더라도 행할 수 없다.",
+   "quote_ja": "自身のモンスターゾーンに表側表示で存在するモンスターと同じ種族のモンスターのリンク召喚を行う事自体ができません。",
+   "impact_ko": "센서 만별 아래에선 마법사족을 소재로 마법사족(아르테미스·검은 용의 에클레시아)을, 드래곤족을 소재로 드래곤족(알자리온)을 낼 수 없다."
+  },
+  {
+   "id": "qa-24329",
+   "fid": 24329,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24329&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Invocation - \"Sword\"",
+    "Macro Cosmos"
+   ],
+   "handtraps": [
+    "macro_cosmos",
+    "retaliating_c",
+    "arise_heart"
+   ],
+   "themes": [
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "'묘지로 가는 대신 제외' 효과가 적용 중인 턴에 [[Invocation - \"Sword\"]]의 '제외 상태의 몬스터를 묘지로 되돌려 융합 소재로 한다'를 적용할 수 있는가?",
+   "answer_ko": "적용할 수 있다. 텍스트대로 제외 상태의 몬스터를 묘지로 되돌려 융합 소재로 삼는다.",
+   "quote_ja": "適用できます。（テキスト通りに自分・相手の除外状態（表側）のモンスターを墓地へ戻して融合素材にします。）",
+   "impact_ko": "매크로 코스모스·응전의 G가 있어도 검의 제외 소재 융합은 그대로 된다. 막히는 건 그 뒤 검·소라트의 묘지 효과다."
+  },
+  {
+   "id": "qa-20778",
+   "fid": 20778,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=20778&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Macro Cosmos"
+   ],
+   "handtraps": [
+    "macro_cosmos",
+    "fissure",
+    "banisher",
+    "retaliating_c",
+    "arise_heart"
+   ],
+   "themes": [
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Macro Cosmos]] 적용 중에 링크 소환을 할 수 있는가?",
+   "answer_ko": "할 수 있다. 링크 소재는 묘지 대신 제외되지만 링크 몬스터는 통상대로 특수 소환된다.",
+   "quote_ja": "リンク素材として使用したモンスターは「マクロコスモス」の効果によって墓地へは行かず、除外される事になりますが、リンクモンスターは通常通り特殊召喚されます。",
+   "impact_ko": "소환수의 링크(아르테미스·폭주소환사)는 되지만 소라트가 링크 소재로 묘지에 가지 못해 소라트 ②가 사라진다."
+  },
+  {
+   "id": "qa-13329",
+   "fid": 13329,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=13329&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Skill Drain"
+   ],
+   "handtraps": [
+    "skill_drain"
+   ],
+   "themes": [
+    "dracotail",
+    "invoked"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Skill Drain]] 적용 중, 패에서 발동해 자신을 특소하는 몬스터 효과는 무효가 되는가?",
+   "answer_ko": "무효가 되지 않는다. 패에서 발동한 효과는 처리 도중 자신이 필드에 특소되더라도 그 일련의 처리가 그대로 적용된다.",
+   "quote_ja": "手札にて発動し、一連の効果処理として、処理が行われる事になります。…「スキルドレイン」によって無効になる事はありません。",
+   "impact_ko": "[[Dracotail Faimena]]의 패 융합, 추억의 알레이스터·크로울리의 패 특소는 스킬 드레인으로 못 막는다."
+  },
+  {
+   "id": "supp-5740",
+   "fid": null,
+   "cid": 5740,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=5740&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Skill Drain"
+   ],
+   "handtraps": [
+    "skill_drain"
+   ],
+   "themes": [
+    "dracotail",
+    "branded",
+    "invoked"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Skill Drain]]은 어떤 몬스터 효과를 무효로 하는가?",
+   "answer_ko": "몬스터 존에서 효과를 발동한 몬스터가 처리 시 앞면으로 몬스터 존에 있으면 그 처리를 하지 않는다. 처리 시 몬스터 존에 없으면(코스트로 필드를 떠났거나, 체인 처리로 떠난 경우) 무효가 되지 않는다. 체인 블록을 만들지 않는 효과도 몬스터 존에서는 적용되지 않는다.",
+   "quote_ja": "効果を発動したモンスターがそのコストとしてモンスターゾーンを離れた場合や、チェーンして発動した効果のコストや処理によってモンスターゾーンに表側表示で存在しなくなった場合がこれにあたります。",
+   "impact_ko": "자신을 릴리스·묘지로 보내는 것이 코스트인 효과([[Incredible Ecclesia, the Virtuous]] 릴리스, 필드의 [[Tri-Brigade Mercourier]])는 스킬 드레인으로 못 막는다."
+  },
+  {
+   "id": "supp-12668",
+   "fid": null,
+   "cid": 12668,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=12668&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Dimensional Barrier"
+   ],
+   "handtraps": [
+    "dim_barrier"
+   ],
+   "themes": [
+    "dracotail",
+    "branded",
+    "invoked"
+   ],
+   "topic": "negate",
+   "question_ko": "[[Dimensional Barrier]]는 무엇을 선언할 수 있고, 무엇을 무효로 하는가?",
+   "answer_ko": "의식·융합·싱크로·엑시즈·펜듈럼 중 하나를 선언한다(링크는 텍스트에 없어 선언 불가). 필드에 없는 종류도 선언할 수 있다. 적용 중에는 서로 그 종류를 특소할 수 없고(뒷면 특소 포함), 필드에서 발동한 그 종류 몬스터 효과는 처리 시 앞면으로 있으면 처리되지 않는다. 패·묘지·제외·엑스트라 덱에서 발동한 효과는 무효가 아니다. 데미지 스텝에는 발동 불가.",
+   "quote_ja": "該当するモンスターが、手札・墓地・除外状態・エクストラデッキで効果を発動した場合には、この効果によって無効化されることはありません。",
+   "impact_ko": "드래곤테일·낙인·소환수는 모두 '융합' 선언으로 엑스트라 덱이 닫힌다. 링크 위주 덱에는 쓸 수 없다."
+  },
+  {
+   "id": "supp-14994",
+   "fid": null,
+   "cid": 14994,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=14994&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Archnemeses Protos"
+   ],
+   "handtraps": [
+    "protos"
+   ],
+   "themes": [
+    "dracotail",
+    "branded",
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Archnemeses Protos]]의 특소 방법과 속성 선언 효과는 어떻게 처리되는가?",
+   "answer_ko": "특소는 효과가 아니라 소환 절차라 체인이 생기지 않는다(필드·묘지의 속성이 다른 몬스터 3장 제외 후 특소). ②는 몬스터 존에서 쓰는 기동 효과로, 몬스터 존에 앞면으로 있는 몬스터의 속성 1개를 선언해 발동한다. 파괴에 성공했는지와 관계없이 효과가 무효가 아니면 다음 턴 종료시까지 서로 그 속성을 특소할 수 없다.",
+   "quote_ja": "モンスターゾーンに表側表示で存在するモンスターの属性１つを宣言して発動できます。…破壊する処理に成功したかに関わらず…次のターン終了時まで『お互いに宣言した属性のモンスターを特殊召喚できない』状態になります。",
+   "impact_ko": "선공일 때는 필드에 있는 속성만 선언할 수 있어 보통 프로토스 자신의 어둠이 된다. 후공 돌파로 쓰면 상대 핵심 몬스터의 속성을 골라 파괴 + 재전개 봉쇄."
+  },
+  {
+   "id": "supp-7934",
+   "fid": null,
+   "cid": 7934,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=7934&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Gozen Match"
+   ],
+   "handtraps": [
+    "gozen"
+   ],
+   "themes": [
+    "dracotail",
+    "branded",
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Gozen Match]] 적용 중에는 무엇을 할 수 없는가?",
+   "answer_ko": "발동 시점에 속성이 2종류 이상이면 1종류가 되도록 묘지로 보낸다. 적용 중에는 자신 몬스터 존에 앞면 몬스터가 있으면 그와 다른 속성의 몬스터를 일반 소환·반전 소환·앞면 특소할 수 없다(뒷면 수비 표시는 가능). 이로 인해 묘지로 가는 것은 함정 효과로 보내진 것으로 취급하지 않는다.",
+   "quote_ja": "自身のモンスターゾーンに表側表示のモンスターが存在する場合、そのモンスターと属性が異なるモンスターを、召喚・反転召喚・表側表示で特殊召喚することはできません。",
+   "impact_ko": "속성을 계속 바꾸는 전개(소환수, 낙인의 어둠·빛 혼합)를 첫 다른 속성 특소에서 막는다."
+  },
+  {
+   "id": "supp-5622",
+   "fid": null,
+   "cid": 5622,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=5622&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Rivalry of Warlords"
+   ],
+   "handtraps": [
+    "rivalry"
+   ],
+   "themes": [
+    "dracotail",
+    "branded",
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Rivalry of Warlords]] 적용 중에는 무엇을 할 수 없는가?",
+   "answer_ko": "어전시합과 같은 구조로 '속성' 대신 '종족'. 자신 몬스터 존에 앞면 몬스터가 있으면 다른 종족 몬스터를 소환·앞면 특소할 수 없고, 발동 시점에 2종류 이상이면 1종류가 되도록 묘지로 보낸다.",
+   "quote_ja": "自身のモンスターゾーンに表側表示のモンスターが存在する場合、そのモンスターと種族が異なるモンスターを、召喚・反転召喚・表側表示で特殊召喚することはできません。",
+   "impact_ko": "마법사족·드래곤족을 섞는 드래곤테일·낙인, 마법사족 → 화염족 → 환상마족으로 가는 소환수에 모두 걸린다."
+  },
+  {
+   "id": "supp-13447",
+   "fid": null,
+   "cid": 13447,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=13447&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "There Can Be Only One"
+   ],
+   "handtraps": [
+    "only_one"
+   ],
+   "themes": [
+    "dracotail",
+    "branded",
+    "invoked"
+   ],
+   "topic": "summon",
+   "question_ko": "[[There Can Be Only One]] 적용 중에는 무엇을 할 수 없는가?",
+   "answer_ko": "자신 몬스터 존에 앞면 몬스터가 있으면 그와 같은 종족의 몬스터를 소환·앞면 특소할 수 없다. 상대 필드의 몬스터와 같은 종족은 상관없다. 발동 시점에 같은 종족이 2장 이상이면 1장이 되도록 묘지로 보낸다.",
+   "quote_ja": "そのモンスターと同じ種族のモンスターを、召喚・反転召喚・表側表示で特殊召喚することはできません。",
+   "impact_ko": "같은 종족을 쌓는 순간을 노린다. 마법사족이 많은 소환수·낙인은 중간 링크·싱크로에서 걸린다."
+  },
+  {
+   "id": "supp-11829",
+   "fid": null,
+   "cid": 11829,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=11829&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Retaliating \"C\""
+   ],
+   "handtraps": [
+    "retaliating_c"
+   ],
+   "themes": [
+    "dracotail",
+    "branded",
+    "invoked"
+   ],
+   "topic": "chain",
+   "question_ko": "[[Retaliating \"C\"]]는 언제 패에서 특소할 수 있는가?",
+   "answer_ko": "패에서 발동하는 유발 즉시 효과로, 상대가 몬스터를 특소하는 효과를 포함한 마법 카드를 발동했을 때 그 발동에 직접 체인한다. 카드의 발동이 아닌 마법 효과의 발동(앞면 지속 마법·묘지 효과 등)에는 체인할 수 없다. 데미지 스텝 불가. 묘지로 가는 카드를 제외하는 ②는 이 방법으로 나온 동안만 적용된다.",
+   "quote_ja": "モンスターを特殊召喚する効果を含む魔法カードを相手が発動した時に、直接チェーンして発動できます（カードの発動を伴わない魔法カードの効果の発動にチェーンして発動することはできません）。",
+   "impact_ko": "라후·케투·낙인융합·소환마술·검의 '카드 발동'에 바로 체인한다. 검·소환마술의 묘지 효과에는 못 쓴다."
+  }
+ ]
+}

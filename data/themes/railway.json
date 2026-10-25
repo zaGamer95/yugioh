@@ -5,7 +5,7 @@
   "ko": "열차"
  },
  "status": "draft",
- "updated": "2026-10-23",
+ "updated": "2026-10-25",
  "meta": {
   "decks": 5,
   "share": 0.007,
@@ -225,7 +225,8 @@
      "action_ko": "기동 효과: 묘지의 [[Scrap Recycler]]를 대상, [[Night Train Blue Traveler]]를 릴리스하고 리사이클러를 수비 표시로 특소",
      "class": [
       "monster_effect_field",
-      "ss_from_gy"
+      "ss_from_gy",
+      "gy_effect"
      ],
      "result_ko": "새로 소환된 리사이클러는 효과가 살아 있다"
     },
@@ -622,6 +623,530 @@
    ]
   },
   {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 2,
+   "target_card": "Scrap Recycler",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 리사이클러 소환 유발에 체인해 발동",
+   "why_ko": "덱에서 보낸 [[Night Train Blue Traveler]]가 묘지 대신 제외되어 블루트래블러 ②가 없다. 2번째 리사이클러로 보낸 카르놀도 제외. 앞면인 동안 [[Forbidden Droplet]]·[[Revolving Switchyard]] ②도 코스트를 못 보내 발동 불가(qa-14540).",
+   "fallback_ko": "[[Exceptional Schedule]] 묘지 효과·클락 워크 소생도 묘지가 비어 쓸 수 없다. [[Subspace Battle]]로 지즈키엘을 넣어 내 몬스터를 치우는 정도가 남는다. 레일웨이가 마함 제거로 먼저 지우지 않았는지가 관건.",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 9,
+   "target_card": "Scrap Recycler",
+   "timing_ko": "미리 앞면이면 1단계 블루트래블러 버리기부터 제외로 바뀌고, 9단계 리사이클러 덤핑도 제외",
+   "why_ko": "블루트래블러가 버려지는 순간 제외되어 12단계 묘지 효과가 없다. 3단계 전회조차 ②도 코스트를 못 보내 발동 불가(qa-14540).",
+   "fallback_ko": "블루트래블러 서치(1단계)만 처리된다.",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "schedule",
+   "step": 4,
+   "target_card": "Clockwork Knight",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "3단계 링크 소재로 쓴 리사이클러가 묘지 대신 제외되어 클락 워크가 소생할 대상이 없다. 블루트래블러도 이후 묘지로 가지 못해 7단계 효과가 없다.",
+   "fallback_ko": "긴급 다이어로 나온 몸 2장 + 클락 워크."
+  },
+  {
+   "handtrap": "fissure",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 2,
+   "target_card": "Scrap Recycler",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덱에서 보낸 몬스터가 제외되어 블루트래블러 ②·카르놀 묘지 특소가 없다.",
+   "fallback_ko": "매크로 코스모스와 같음. 차원의 틈은 지속 마법이라 해피의 깃털·헤비 스톰에 먼저 지워지는지가 관건."
+  },
+  {
+   "handtrap": "fissure",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 9,
+   "target_card": "Scrap Recycler",
+   "timing_ko": "미리 앞면이면 1단계 블루트래블러 버리기부터 제외",
+   "why_ko": "블루트래블러 묘지 효과가 없다.",
+   "fallback_ko": "블루트래블러 서치까지만."
+  },
+  {
+   "handtrap": "banisher",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 2,
+   "target_card": "Scrap Recycler",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "매크로 코스모스와 같은 지점. [[Forbidden Droplet]]도 발동 불가.",
+   "fallback_ko": "레일웨이는 [[Jizukiru, the Star Destroying Kaiju]]로 섬광의 추방자를 릴리스하거나 [[Lightning Storm]]으로 파괴한 뒤 시작하려 한다.",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "banisher",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 9,
+   "target_card": "Scrap Recycler",
+   "timing_ko": "미리 앞면이면 1단계 버리기부터 제외",
+   "why_ko": "블루트래블러 묘지 효과가 없다.",
+   "fallback_ko": "지즈키엘로 먼저 치우면 재개."
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 2,
+   "target_card": "Scrap Recycler",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "매크로 코스모스와 같은 지점. 제외될 때마다 소재가 늘어 뒷면 제외도 바로 쓸 수 있다.",
+   "fallback_ko": "지즈키엘 릴리스·라이트닝 스톰으로 치워질 수 있다.",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 9,
+   "target_card": "Scrap Recycler",
+   "timing_ko": "미리 앞면이면 1단계 버리기부터 제외",
+   "why_ko": "블루트래블러 묘지 효과가 없다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 2,
+   "target_card": "Scrap Recycler",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "상대 묘지로 가는 카드가 전부 제외되어 블루트래블러·카르놀을 묘지에 깔 수 없다.",
+   "fallback_ko": "지즈키엘·라이트닝 스톰으로 치운 뒤 재개."
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 1,
+   "target_card": "Night Train Blue Traveler",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(버린 블루트래블러 제외 + 서치 처리 뒤 패 1장 무작위 제외)",
+   "why_ko": "블루트래블러가 묘지에 남지 않고, 전회조차 서치에 패까지 잃는다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 2,
+   "target_card": "Scrap Recycler",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(덱에서 묘지로 가는 몬스터 제외) / 리사이클러 유발 발동을 퀵으로 무효+파괴해도 됨",
+   "why_ko": "덤핑한 블루트래블러가 제외되어 묘지 효과가 없다. 무효 효과는 아껴 두고 나중의 맥스 번·바벨데커 ③에 쓰는 게 낫다.",
+   "fallback_ko": "지즈키엘로 아크 디클레어러를 릴리스하면 풀린다(지즈키엘 특소 자체는 효과 발동이 아니라 무효 불가).",
+   "rulings": [
+    "qa-23810"
+   ]
+  },
+  {
+   "handtrap": "herald",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 1,
+   "target_card": "Night Train Blue Traveler",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘(패에서 버린 블루트래블러 제외) / 서치 발동 자체를 무효+파괴해도 됨",
+   "why_ko": "패에서 묘지로 가는 몬스터도 제외라 블루트래블러 ②를 영영 못 쓴다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 4,
+   "target_card": "Night Train Blue Traveler",
+   "timing_ko": "블루트래블러 ② 발동에 체인해 패에서 버리고 묘지의 블루트래블러를 대상으로 제외",
+   "why_ko": "'자신과 대상 둘 다 특소'라 블루트래블러가 없으면 특소가 하나도 일어나지 않고, 듀얼 중 1번도 소모된다(qa-23336). 레벨 10 2장을 세울 길이 끊긴다.",
+   "fallback_ko": "남는 건 리사이클러 + 클락 워크. 카르놀은 덤핑 즉시 특소되어 크로우로 못 막는다.",
+   "rulings": [
+    "qa-23336"
+   ]
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "critical",
+   "line": "schedule",
+   "step": 7,
+   "target_card": "Night Train Blue Traveler",
+   "timing_ko": "블루트래블러 ② 발동에 체인해 블루트래블러 제외",
+   "why_ko": "recycler 라인과 같음. 게니우스 서치(8단계)도 2장 동시 특소가 없어 나오지 않는다.",
+   "fallback_ko": "로켓을 세울 수 없다.",
+   "rulings": [
+    "qa-23336"
+   ]
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 12,
+   "target_card": "Night Train Blue Traveler",
+   "timing_ko": "블루트래블러 ② 발동에 체인해 블루트래블러 제외",
+   "why_ko": "맥스 소재가 모자라 리베까지 가지 못한다.",
+   "fallback_ko": "플라잉 런처 + 카르놀 + 리사이클러.",
+   "rulings": [
+    "qa-23336"
+   ]
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 8,
+   "target_card": "Superdreadnought Rail Cannon Gustav Max",
+   "timing_ko": "세트해 뒀다면 엑시즈 소환 전 아무 때나(스탠바이 페이즈, 또는 해피의 깃털·헤비 스톰 발동에 체인) 엑시즈를 선언해 발동",
+   "why_ko": "이번 턴 서로 엑시즈를 특소할 수 없어 맥스·리베가 나오지 않는다. 2000 번도 6000 공격도 없다. 일반 함정이라 마함 제거에 체인해 써도 효과는 턴 끝까지 남는다.",
+   "fallback_ko": "레벨 10을 쌓아 둔 채 [[Qliphort Genius]]로 다음 턴을 기다린다. 원턴킬 덱이라 다음 턴 역공이 쉽다."
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "schedule",
+   "step": 9,
+   "target_card": "Superdreadnought Rail Cannon Gustav Max",
+   "timing_ko": "엑시즈 소환 전에 엑시즈 선언으로 발동",
+   "why_ko": "로켓까지 갈 수 없어 레일웨이 선공 보드의 견제가 없어진다.",
+   "fallback_ko": "게니우스 + 레벨 10 몸만 남는다."
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 5,
+   "target_card": "Heavy Armored Knight Babeldecker",
+   "timing_ko": "바벨데커 ③ 전에 엑시즈 선언으로 발동(내 발동이 바벨데커 ③ 조건을 채워 주지만 엑시즈는 어차피 특소 불가)",
+   "why_ko": "플라잉 런처가 나오지 않아 리사이클러 서치·추가 일반 소환이 없다.",
+   "fallback_ko": "바벨데커 1장."
+  },
+  {
+   "handtrap": "protos",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 3,
+   "target_card": "Clockwork Knight",
+   "timing_ko": "내 턴에 땅을 선언해 두었다면(다음 턴 끝까지 땅 특소 불가) 이 단계에서 막힘",
+   "why_ko": "클락 워크·블루트래블러·게니우스·맥스·리베가 전부 땅이라 리사이클러 일반 소환 이후 특소가 안 된다.",
+   "fallback_ko": "빛인 카르놀·지즈키엘만 특소 가능. 레벨 10 빛 2장으로는 땅 엑시즈를 못 낸다."
+  },
+  {
+   "handtrap": "protos",
+   "severity": "critical",
+   "line": "schedule",
+   "step": 2,
+   "target_card": "Urgent Schedule",
+   "timing_ko": "땅 선언 후 이 단계에서 막힘",
+   "why_ko": "덱에서 꺼낼 땅 기계족을 특소할 수 없다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "protos",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 5,
+   "target_card": "Heavy Armored Knight Babeldecker",
+   "timing_ko": "땅 선언 후 이 단계에서 막힘",
+   "why_ko": "바벨데커 ③으로 땅 엑시즈를 낼 수 없다.",
+   "fallback_ko": "바벨데커 1장."
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 2,
+   "target_card": "Scrap Recycler",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 리사이클러 소환 유발에 체인해 발동",
+   "why_ko": "리사이클러는 필드에 남아 처리하므로 덤핑이 무효(qa-23257). 이후 맥스 번·리베 +2000도 무효라 킬 계산이 무너진다.",
+   "fallback_ko": "패의 블루트래블러를 버려 전회조차 루트로 가도 바벨데커 ③이 무효. 블루트래블러 ②·카르놀 특소는 막지 못한다.",
+   "rulings": [
+    "qa-23257"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "schedule",
+   "step": 4,
+   "target_card": "Clockwork Knight",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "클락 워크 소생이 무효. 긴급 다이어로 나온 몸은 원래 효과 무효.",
+   "fallback_ko": "게니우스도 스킬 드레인 뒤에 나오면 내성째 무효(qa-23897).",
+   "rulings": [
+    "qa-23257",
+    "qa-23897"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 5,
+   "target_card": "Heavy Armored Knight Babeldecker",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 바벨데커 ③ 발동에 체인",
+   "why_ko": "바벨데커 ③이 무효(바벨데커는 필드에 남아 처리). 내 스킬 드레인 발동이 조건을 채워도 결과는 무효.",
+   "fallback_ko": "바벨데커 1장.",
+   "rulings": [
+    "qa-23257"
+   ]
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 3,
+   "target_card": "Clockwork Knight",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "심연의 결계상 아래에서는 땅 기계족 링크 클락 워크부터 특소할 수 없다. 이후 블루트래블러 ②·맥스·리베도 전부 땅이라 불가.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "critical",
+   "line": "schedule",
+   "step": 2,
+   "target_card": "Urgent Schedule",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덱에서 꺼낼 땅 기계족을 특소할 수 없다.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 5,
+   "target_card": "Heavy Armored Knight Babeldecker",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "바벨데커 ③의 땅 엑시즈 특소가 불가.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "critical",
+   "line": "opening",
+   "step": 3,
+   "target_card": "Jizukiru, the Star Destroying Kaiju",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "빛인 지즈키엘도 특소할 수 없어 내 몬스터(결계상 포함)를 릴리스해 치울 수 없다.",
+   "fallback_ko": "[[Forbidden Droplet]]·[[Lightning Storm]]이 없으면 레일웨이는 아무것도 못 한다."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 3,
+   "target_card": "Clockwork Knight",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "업화의 결계상 아래에서는 땅 기계족 링크 클락 워크부터 특소할 수 없다. 이후 블루트래블러 ②·맥스·리베도 전부 땅이라 불가.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "schedule",
+   "step": 2,
+   "target_card": "Urgent Schedule",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덱에서 꺼낼 땅 기계족을 특소할 수 없다.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 5,
+   "target_card": "Heavy Armored Knight Babeldecker",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "바벨데커 ③의 땅 엑시즈 특소가 불가.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "opening",
+   "step": 3,
+   "target_card": "Jizukiru, the Star Destroying Kaiju",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "빛인 지즈키엘도 특소할 수 없어 내 몬스터(결계상 포함)를 릴리스해 치울 수 없다.",
+   "fallback_ko": "[[Forbidden Droplet]]·[[Lightning Storm]]이 없으면 레일웨이는 아무것도 못 한다."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 3,
+   "target_card": "Clockwork Knight",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "호우의 결계상 아래에서는 땅 기계족 링크 클락 워크부터 특소할 수 없다. 이후 블루트래블러 ②·맥스·리베도 전부 땅이라 불가.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "schedule",
+   "step": 2,
+   "target_card": "Urgent Schedule",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덱에서 꺼낼 땅 기계족을 특소할 수 없다.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 5,
+   "target_card": "Heavy Armored Knight Babeldecker",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "바벨데커 ③의 땅 엑시즈 특소가 불가.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "opening",
+   "step": 3,
+   "target_card": "Jizukiru, the Star Destroying Kaiju",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "빛인 지즈키엘도 특소할 수 없어 내 몬스터(결계상 포함)를 릴리스해 치울 수 없다.",
+   "fallback_ko": "[[Forbidden Droplet]]·[[Lightning Storm]]이 없으면 레일웨이는 아무것도 못 한다."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 3,
+   "target_card": "Clockwork Knight",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "배너티 데블 아래에서는 땅 기계족 링크 클락 워크부터 특소할 수 없다. 이후 블루트래블러 ②·맥스·리베도 전부 땅이라 불가.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "schedule",
+   "step": 2,
+   "target_card": "Urgent Schedule",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덱에서 꺼낼 땅 기계족을 특소할 수 없다.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 5,
+   "target_card": "Heavy Armored Knight Babeldecker",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "바벨데커 ③의 땅 엑시즈 특소가 불가.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "opening",
+   "step": 3,
+   "target_card": "Jizukiru, the Star Destroying Kaiju",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "빛인 지즈키엘도 특소할 수 없어 내 몬스터(결계상 포함)를 릴리스해 치울 수 없다.",
+   "fallback_ko": "[[Forbidden Droplet]]·[[Lightning Storm]]이 없으면 레일웨이는 아무것도 못 한다."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 3,
+   "target_card": "Clockwork Knight",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "배너티 룰러 아래에서는 땅 기계족 링크 클락 워크부터 특소할 수 없다. 이후 블루트래블러 ②·맥스·리베도 전부 땅이라 불가.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "schedule",
+   "step": 2,
+   "target_card": "Urgent Schedule",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덱에서 꺼낼 땅 기계족을 특소할 수 없다.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 5,
+   "target_card": "Heavy Armored Knight Babeldecker",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "바벨데커 ③의 땅 엑시즈 특소가 불가.",
+   "fallback_ko": "레일웨이는 [[Forbidden Droplet]]으로 무효화하거나 [[Lightning Storm]]·[[Raigeki]]로 파괴한 뒤 시작한다."
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "opening",
+   "step": 3,
+   "target_card": "Jizukiru, the Star Destroying Kaiju",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "빛인 지즈키엘도 특소할 수 없어 내 몬스터(결계상 포함)를 릴리스해 치울 수 없다.",
+   "fallback_ko": "[[Forbidden Droplet]]·[[Lightning Storm]]이 없으면 레일웨이는 아무것도 못 한다."
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "critical",
+   "line": "recycler",
+   "step": 3,
+   "target_card": "Clockwork Knight",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "필드에 리사이클러(기계족)가 있어 같은 기계족 링크 클락 워크를 링크 소환할 수 없다(소재가 떠나도 안 됨, qa-12759). 레벨 10 기계족 2장이 동시에 필드에 있을 수 없어 엑시즈도 불가.",
+   "fallback_ko": "리사이클러 1장으로 끝. 몬스터 1장씩만 둘 수 있다.",
+   "rulings": [
+    "qa-12759"
+   ]
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "critical",
+   "line": "schedule",
+   "step": 2,
+   "target_card": "Urgent Schedule",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "긴급 다이어로 기계족 2장을 꺼내도 처리 뒤 1장을 묘지로 보내야 하고(qa-24189와 같은 원리), 남은 1장과 같은 기계족 링크도 못 낸다.",
+   "fallback_ko": "몸 1장.",
+   "rulings": [
+    "qa-24189",
+    "qa-12759"
+   ]
+  },
+  {
+   "handtrap": "only_one",
+   "severity": "critical",
+   "line": "traveler",
+   "step": 8,
+   "target_card": "Scrap Recycler",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "플라잉 런처(기계족)가 있어 리사이클러(기계족)를 추가 일반 소환할 수 없다. 5단계 바벨데커 ③도 같은 이유로 막힐 가능성이 높다.",
+   "fallback_ko": "플라잉 런처 1장 + 서치한 카드.",
+   "rulings": [
+    "qa-12759"
+   ]
+  },
+  {
    "handtrap": "nibiru",
    "severity": "strong",
    "line": "recycler",
@@ -812,6 +1337,36 @@
    "fallback_ko": "내 묘지에 함정이 없으면 상대가 패에서 1장을 특소할 수 있다. 패에 레벨 10이 있으면 맥스는 나온다."
   },
   {
+   "handtrap": "statue_heavens",
+   "severity": "strong",
+   "line": "recycler",
+   "step": 3,
+   "target_card": "Clockwork Knight",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "섬광의 결계상 아래에서는 땅 기계족 링크 클락 워크부터 특소할 수 없다. 이후 블루트래블러 ②·맥스·리베도 전부 땅이라 불가.",
+   "fallback_ko": "빛인 [[Jizukiru, the Star Destroying Kaiju]]로 섬광의 결계상을 릴리스하면 락이 풀린다."
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "strong",
+   "line": "schedule",
+   "step": 2,
+   "target_card": "Urgent Schedule",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "덱에서 꺼낼 땅 기계족을 특소할 수 없다.",
+   "fallback_ko": "빛인 [[Jizukiru, the Star Destroying Kaiju]]로 섬광의 결계상을 릴리스하면 락이 풀린다."
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "strong",
+   "line": "traveler",
+   "step": 5,
+   "target_card": "Heavy Armored Knight Babeldecker",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "바벨데커 ③의 땅 엑시즈 특소가 불가.",
+   "fallback_ko": "빛인 [[Jizukiru, the Star Destroying Kaiju]]로 섬광의 결계상을 릴리스하면 락이 풀린다."
+  },
+  {
    "handtrap": "maxxc",
    "severity": "ok",
    "line": "recycler",
@@ -848,6 +1403,85 @@
    ]
   },
   {
+   "handtrap": "retaliating_c",
+   "severity": "ok",
+   "line": "schedule",
+   "step": 1,
+   "target_card": "Exceptional Schedule",
+   "timing_ko": "특별 다이어 카드 발동(토큰 특소 포함)에 체인해 패에서 특소",
+   "why_ko": "나온 뒤 이번 턴 묘지로 가는 카드가 전부 제외 → 3단계 링크 소재 리사이클러가 제외되어 클락 워크 소생, 블루트래블러 ②가 모두 막힌다. 레일웨이의 [[Forbidden Droplet]]도 발동 불가.",
+   "fallback_ko": "응전의 G는 몬스터라 지즈키엘·라이트닝 스톰에 치워지면 해제.",
+   "rulings": [
+    "qa-15449",
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "retaliating_c",
+   "severity": "ok",
+   "line": "schedule",
+   "step": 2,
+   "target_card": "Urgent Schedule",
+   "timing_ko": "긴급 다이어 카드 발동에 체인해 패에서 특소",
+   "why_ko": "특소는 처리되지만 이후 묘지 소생 루트가 전부 제외로 바뀐다.",
+   "fallback_ko": "긴급 다이어 몸 2장 + 링크 1장 정도.",
+   "rulings": [
+    "qa-15449"
+   ]
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "ok",
+   "line": "recycler",
+   "step": 6,
+   "target_card": "Carnot the Eternal Machine",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "필드에 땅 몬스터(블루트래블러·리사이클러·클락 워크)가 있어 빛 카르놀을 특소할 수 없다. 레벨 10 2장째가 빈다.",
+   "fallback_ko": "덤핑 대상을 땅 레벨 10으로 바꾸거나 바벨데커·데릭크레인으로 레벨 10을 맞춘다. 지즈키엘(빛)도 땅 몬스터를 가진 쪽에는 못 낸다.",
+   "rulings": [
+    "qa-10427"
+   ]
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "ok",
+   "line": "traveler",
+   "step": 10,
+   "target_card": "Carnot the Eternal Machine",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "플라잉 런처·리사이클러(땅)가 있어 카르놀(빛)을 특소할 수 없다.",
+   "fallback_ko": "블루트래블러 ②로 땅 레벨 10을 맞추면 맥스까지는 간다.",
+   "rulings": [
+    "qa-10427"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "ok",
+   "line": "schedule",
+   "step": 1,
+   "target_card": "Exceptional Schedule",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 특별 다이어 발동에 체인",
+   "why_ko": "긴급 다이어를 서치하지 못한다.",
+   "fallback_ko": "[[Pot of Sloth]]·리사이클러 기본 루트로 돌아간다.",
+   "rulings": [
+    "qa-19975"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "ok",
+   "line": "traveler",
+   "step": 1,
+   "target_card": "Night Train Blue Traveler",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘 / 세트해 뒀다면 이 효과 발동에 체인",
+   "why_ko": "전회조차가 오지 않아 바벨데커 서치까지 끊긴다. 블루트래블러는 묘지로 가므로 나중의 ②는 남는다.",
+   "fallback_ko": "리사이클러가 있으면 recycler 라인.",
+   "rulings": [
+    "qa-19975"
+   ]
+  },
+  {
    "handtrap": "mst",
    "severity": "bad",
    "line": "schedule",
@@ -872,6 +1506,16 @@
    "rulings": [
     "supp-19480"
    ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "bad",
+   "line": "recycler",
+   "step": 3,
+   "target_card": "Clockwork Knight",
+   "timing_ko": "—",
+   "why_ko": "레일웨이 몬스터는 전부 기계족이라 군웅할거는 아무것도 막지 못한다.",
+   "fallback_ko": "—"
   }
  ],
  "handtrap_summary": {
@@ -1026,6 +1670,121 @@
    "rulings": [
     "supp-14183"
    ]
+  },
+  "macro_cosmos": {
+   "rating": "critical",
+   "note_ko": "리사이클러가 덱에서 보내는 [[Night Train Blue Traveler]]·[[Carnot the Eternal Machine]]이 묘지 대신 제외되어 레벨 10 2장을 세울 수 없다(`recycler` 2). 앞면이면 [[Forbidden Droplet]]·[[Revolving Switchyard]] ②처럼 묘지로 보내는 코스트가 필요한 카드는 발동조차 못 한다(qa-14540). 지속 함정이라 해피의 깃털 등에 체인해 발동해도 같이 파괴되므로, 마함 제거를 맞지 않았다면 리사이클러 유발에 체인해 발동",
+   "rulings": [
+    "qa-14540",
+    "qa-23810"
+   ]
+  },
+  "fissure": {
+   "rating": "critical",
+   "note_ko": "몬스터만 제외지만 레일웨이가 묘지에 까는 건 전부 몬스터라 매크로 코스모스와 같은 지점(`recycler` 2)에서 끊긴다. 내 필드의 앞면 지속 마법이라 상대가 먼저 마함 제거로 치울 수 있다"
+  },
+  "banisher": {
+   "rating": "critical",
+   "note_ko": "매크로 코스모스와 같은 효과(`recycler` 2). [[Forbidden Droplet]]도 코스트를 못 보내 발동 불가(qa-14540과 같은 원리). 대신 몬스터라 [[Jizukiru, the Star Destroying Kaiju]](릴리스)·[[Lightning Storm]]·[[Raigeki]]로 치워질 수 있다",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  "herald": {
+   "rating": "critical",
+   "note_ko": "패·덱에서 묘지로 가는 몬스터는 제외 → 리사이클러 덤핑(`recycler` 2)과 블루트래블러 패 버리기(`traveler` 1)가 둘 다 제외로 바뀌어 블루트래블러 ②를 쓸 수 없다. 추가로 1번 발동 무효+파괴. 몬스터라 지즈키엘·라이트닝 스톰에 치워질 수 있음",
+   "rulings": [
+    "qa-23810"
+   ]
+  },
+  "retaliating_c": {
+   "rating": "ok",
+   "note_ko": "특소를 포함한 마법인 [[Exceptional Schedule]](토큰)·[[Urgent Schedule]] 발동에 체인(`schedule` 1·2). 나온 뒤 묘지로 가는 카드가 모두 제외되어 클락 워크 소생·블루트래블러 ②가 막히고 [[Forbidden Droplet]]도 발동 불가(qa-14540). 기본 루트(리사이클러 일반 소환)는 마법으로 특소하지 않아 기회가 없다",
+   "rulings": [
+    "qa-15449",
+    "qa-14540"
+   ]
+  },
+  "dd_crow": {
+   "rating": "critical",
+   "note_ko": "블루트래블러 ②(듀얼 중 1번) 발동에 체인해 묘지의 블루트래블러를 제외 → 둘 다 특소되지 않고 듀얼 중 1번도 소모(`recycler` 4·`schedule` 7·`traveler` 12). 와라시와 같은 지점이고 패에서 쓰는 카드라 레일웨이가 내 보드를 지운 뒤에도 남는다. 카르놀은 묘지에 들어오자마자 체인 없이 특소되어 노릴 틈이 없다"
+  },
+  "dark_law": {
+   "rating": "critical",
+   "note_ko": "상대 묘지로 가는 카드가 전부 제외되어 매크로 코스모스와 같은 지점(`recycler` 2)에서 끊기고, [[Revolving Switchyard]]·특별 다이어 서치 때 패 1장 무작위 제외도 붙는다. HERO 덱 전용"
+  },
+  "arise_heart": {
+   "rating": "critical",
+   "note_ko": "매크로 코스모스와 같은 지점(`recycler` 2) + 소재 3개로 카드 1장 뒷면 제외. [[Forbidden Droplet]] 발동 불가(qa-14540). 엑시즈라 [[Jizukiru, the Star Destroying Kaiju]]에 릴리스될 수 있다",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  "dim_barrier": {
+   "rating": "critical",
+   "note_ko": "엑시즈를 선언. 레일웨이의 마무리([[Superdreadnought Rail Cannon Gustav Max]]·리베·로켓·플라잉 런처·바벨데커 ③의 엑시즈 소환 취급 특소)가 전부 엑시즈라 이번 턴 킬이 사라진다(`recycler` 8 등). 일반 함정이라 해피의 깃털·헤비 스톰에 체인해 발동해도 이번 턴 내내 적용되는 게 다른 지속 락보다 좋은 점. 스탠바이 페이즈에 미리 발동해도 됨"
+  },
+  "protos": {
+   "rating": "critical",
+   "note_ko": "내 턴에 땅을 선언해 두면 다음 턴(레일웨이 턴) 끝까지 땅 특소 불가 → 리사이클러·블루트래블러·클락 워크·게니우스·모든 랭크 10이 땅이라 첫 링크(`recycler` 3)부터 막힌다. 프로토스가 지즈키엘에 릴리스되어도 이미 걸린 특소 불가는 남는다. 빛인 카르놀·지즈키엘만 특소 가능"
+  },
+  "statue_abyss": {
+   "rating": "critical",
+   "note_ko": "어둠 이외 특소 불가 → 땅 기계족 링크·엑시즈와 빛 카르놀·지즈키엘까지 전부 막힌다(`recycler` 3·`opening` 3). 레일웨이의 답은 [[Forbidden Droplet]](결계상 무효)·[[Lightning Storm]]·[[Raigeki]]"
+  },
+  "statue_heavens": {
+   "rating": "strong",
+   "note_ko": "땅 기계족은 막히지만 빛인 [[Carnot the Eternal Machine]]·[[Jizukiru, the Star Destroying Kaiju]]는 특소된다. 지즈키엘로 섬광의 결계상을 릴리스하면 락이 풀리므로 다른 결계상보다 한 단계 약하다"
+  },
+  "statue_inferno": {
+   "rating": "critical",
+   "note_ko": "심연의 결계상과 같음(땅·빛 모두 특소 불가)"
+  },
+  "statue_torrent": {
+   "rating": "critical",
+   "note_ko": "심연의 결계상과 같음(땅·빛 모두 특소 불가)"
+  },
+  "vanity_fiend": {
+   "rating": "critical",
+   "note_ko": "특소 전부 불가 → 리사이클러 일반 소환 → 덤핑까지만 된다. 지즈키엘도 못 냄. [[Forbidden Droplet]]으로 무효당하면 그 턴은 풀린다"
+  },
+  "vanity_ruler": {
+   "rating": "critical",
+   "note_ko": "배너티 데블과 같음(상대만 특소 불가)"
+  },
+  "skill_drain": {
+   "rating": "critical",
+   "note_ko": "리사이클러 덤핑(`recycler` 2)·클락 워크 소생·바벨데커 ③·맥스 번·리베 +2000·플라잉 런처 서치가 전부 무효(qa-23257). 블루트래블러 ②(묘지)와 카르놀 특소(소환 절차)는 못 막는다. 스킬 드레인이 먼저 앞면이면 나중에 나온 [[Qliphort Genius]]의 '마법·함정 효과를 받지 않음'도 무효(qa-23897). 지속 함정이라 마함 제거에 체인해도 같이 파괴되니 리사이클러 유발에 체인하는 게 기본",
+   "rulings": [
+    "qa-23257",
+    "qa-23897"
+   ]
+  },
+  "mistake": {
+   "rating": "ok",
+   "note_ko": "특별 다이어(`schedule` 1)·블루트래블러 패 효과(`traveler` 1)·게니우스·플라잉 런처 서치를 막는다. 기본 루트(`recycler`)는 서치 없이 덤핑만 써서 거의 안 걸린다. [[Subspace Battle]]은 발동할 수 있고 높은 쪽 몬스터가 패 대신 묘지로 가므로(드롤 판정 qa-24259) 카르놀이 묘지로 가 특소되는 역효과가 있다",
+   "rulings": [
+    "qa-19975",
+    "qa-24259"
+   ]
+  },
+  "rivalry": {
+   "rating": "bad",
+   "note_ko": "레일웨이 몬스터는 전부 기계족(지즈키엘·카르놀 포함)이라 아무것도 안 막힌다"
+  },
+  "gozen": {
+   "rating": "ok",
+   "note_ko": "거의 땅 단일이지만 [[Carnot the Eternal Machine]]·[[Jizukiru, the Star Destroying Kaiju]]가 빛. 땅 몬스터가 있으면 카르놀을 특소할 수 없어(`recycler` 6) 레벨 10 2장째가 비고, 땅 몬스터만 있는 루트(바벨데커·데릭크레인)로 우회해야 한다",
+   "rulings": [
+    "qa-10427"
+   ]
+  },
+  "only_one": {
+   "rating": "critical",
+   "note_ko": "전부 기계족이라 몬스터를 1장밖에 못 둔다. 리사이클러가 있으면 기계족 링크(클락 워크) 소환 자체가 불가(qa-12759)이고, 레벨 10 2장을 세우는 엑시즈는 불가능하다(`recycler` 3)",
+   "rulings": [
+    "qa-12759"
+   ]
   }
  },
  "notes_ko": [
@@ -1035,7 +1794,8 @@
   "[[Night Train Blue Traveler]] ②는 듀얼 중 1번이고 무효가 되어도 소모된다(qa-23336). 와라시를 이 한 지점에 아끼는 것이 가장 효율적이다.",
   "[[Superdreadnought Rail Cannon Juggernaut Liebe]]를 겹치는 순간은 체인할 틈이 없다. 파괴·탈취 견제는 [[Superdreadnought Rail Cannon Gustav Max]]가 번 효과를 쓰는 순간에 쓴다.",
   "[[Subspace Battle]]의 '효과 발동 불가'는 각자 자신이 공개한 이름에만 걸린다. 내가 공개할 몬스터는 패의 패트랩과 다른 이름으로 고른다(supp-22687). 아공간 배틀 발동에는 우라라를 체인할 수 있다(qa-24270).",
-  "표본이 얇다: 최근 30일 5덱(점유율 0.7%). 루트·채용률은 2026-08-18~10-22 MDM 상위 덱 18개를 합쳐 봤다. MD 리스트에는 OCG 루트에 흔한 [[Flying Pegasus Railroad Stampede]]·[[Gizmek Taniguku, the Immobile Intellect]]·[[Barrage Blast]]이 거의 없다."
+  "표본이 얇다: 최근 30일 5덱(점유율 0.7%). 루트·채용률은 2026-08-18~10-22 MDM 상위 덱 18개를 합쳐 봤다. MD 리스트에는 OCG 루트에 흔한 [[Flying Pegasus Railroad Stampede]]·[[Gizmek Taniguku, the Immobile Intellect]]·[[Barrage Blast]]이 거의 없다.",
+  "지속 락(매크로 코스모스·스킬 드레인·미스테이크 등)은 레일웨이가 먼저 쓰는 [[Harpie's Feather Duster]]·[[Heavy Storm]]에 체인해 발동해도 같이 파괴되어 남지 않는다. 일반 함정인 [[Dimensional Barrier]](엑시즈 선언)는 체인해 발동해도 이번 턴 내내 적용되므로 레일웨이 상대로 가장 확실한 세트 락이다. 매크로 코스모스·섬광의 추방자·응전의 G가 앞면이면 [[Forbidden Droplet]]은 코스트를 못 보내 발동조차 할 수 없다(qa-14540)."
  ],
  "sources": [
   "https://www.masterduelmeta.com/articles/guides/railway-grumbles (Master Duel Meta: Railway guide by Grumbles, 2026-09-18 갱신, 블라인드 후공 원턴킬 루트 1~5)",
@@ -1116,6 +1876,14 @@
         "rulings": [
          "supp-22552"
         ]
+       },
+       {
+        "id": "protos",
+        "note_ko": "로켓 무효를 먼저 소모시킨 뒤 땅 선언으로 로켓·도라·게니우스 파괴 + 다음 턴 끝까지 땅 특소 불가. 도라가 로켓에 내성을 걸면 로켓은 파괴되지 않는다"
+       },
+       {
+        "id": "herald",
+        "note_ko": "로켓의 무효 효과 발동에 체인해 발동 무효+파괴"
        }
       ],
       "bait_ko": "어떤 몬스터 효과에도 직접 체인하므로, 잃어도 되는 몬스터 효과(서치 몬스터 등)를 먼저 써서 무효를 받아낸다. 1000 데미지도 들어오니 LP를 계산한다.",
@@ -1149,6 +1917,10 @@
        {
         "id": "droplet",
         "note_ko": "마법 카드를 코스트로 보내면 상대는 마법 카드로 체인할 수 없다"
+       },
+       {
+        "id": "herald",
+        "note_ko": "[[Forbidden Crown]] 카드 발동을 무효+파괴"
        }
       ],
       "bait_ko": "에이스 몬스터를 내기 전에 먼저 마함을 지우거나, 덜 중요한 몬스터를 먼저 내서 성관을 받아낸다.",
@@ -1261,6 +2033,10 @@
        {
         "id": "droplet",
         "note_ko": "마법 카드를 코스트로 보내면 상대는 마법 카드로 체인할 수 없다"
+       },
+       {
+        "id": "herald",
+        "note_ko": "[[Forbidden Crown]] 카드 발동을 무효+파괴"
        }
       ],
       "bait_ko": "에이스 몬스터를 내기 전에 먼저 마함을 지우거나, 덜 중요한 몬스터를 먼저 내서 성관을 받아낸다.",
@@ -1305,6 +2081,10 @@
        {
         "id": "droplet",
         "note_ko": "마법 카드를 코스트로 보내면 상대는 마법 카드로 체인할 수 없다"
+       },
+       {
+        "id": "herald",
+        "note_ko": "[[Forbidden Crown]] 카드 발동을 무효+파괴"
        }
       ],
       "bait_ko": "에이스 몬스터를 내기 전에 먼저 마함을 지우거나, 덜 중요한 몬스터를 먼저 내서 성관을 받아낸다.",
@@ -1467,6 +2247,14 @@
    "veiler": {
     "rating": "bad",
     "note_ko": "상대 메인 페이즈에만 써서 내 턴에는 불가"
+   },
+   "protos": {
+    "rating": "ok",
+    "note_ko": "땅 선언 → 로켓·바벨데커(도라)·게니우스·내 필드의 다이어그램 토큰까지 땅 몬스터 전부 파괴 + 다음 턴 끝까지 땅 특소 불가라 레일웨이 다음 턴 원턴킬도 막힌다. 내 필드의 다이어그램 토큰(땅)은 프로토스 특소 코스트(속성이 다른 3장) 1장으로 쓸 수 있다. 다만 로켓이 몬스터 효과를 무효로 하므로(프로토스는 파괴 내성이라 남음) 로켓 무효를 먼저 소모시키고, 도라가 로켓에 내성을 걸면 로켓은 남는다"
+   },
+   "herald": {
+    "rating": "ok",
+    "note_ko": "내 턴에 싱크로해 두면 로켓의 무효 발동이나 세트된 [[Forbidden Crown]] 발동을 1번 무효+파괴. 로켓에 쓰면 그 뒤 내 몬스터 효과가 통과한다"
    }
   },
   "sequencing_ko": [

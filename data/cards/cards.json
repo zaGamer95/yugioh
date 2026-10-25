@@ -118,6 +118,21 @@
   "text_ko": "①: 덱에서 레벨 4 이하의 전사족 몬스터 1장을 패에 넣는다.",
   "password": 32807846
  },
+ "5537": {
+  "cid": 5537,
+  "password": 73628505,
+  "en": "Terraforming",
+  "ko": "테라포밍",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "Add 1 Field Spell from your Deck to your hand.",
+  "text_ko": "①: 덱에서 필드 마법 카드 1장을 패에 넣는다."
+ },
  "5622": {
   "cid": 5622,
   "password": 90846359,
@@ -920,6 +935,57 @@
   "text_en": "Cannot be Special Summoned. Requires 3 Tributes from either side of the field to Normal Summon to that side of the field (cannot be Normal Set), then shift control to this card's owner during the End Phase of the next turn. Cannot attack. Your opponent cannot target this card for attacks or by card effects. You can Tribute this card; Special Summon 1 \"The Winged Dragon of Ra\" from your hand or Deck, ignoring its Summoning conditions, and if you do, its ATK/DEF become 4000.",
   "text_ko": "이 카드는 특수 소환할 수 없다. 이 카드를 통상 소환할 경우, 자신 필드의 몬스터 3장을 릴리스하고 자신 필드에 일반 소환, 또는 상대 필드의 몬스터 3장을 릴리스하고 상대 필드에 일반 소환해야 하며, 일반 소환한 이 카드의 컨트롤은 다음 턴의 엔드 페이즈에 원래의 주인에게 되돌아간다. ①: 이 카드는 공격할 수 없으며, 상대의 공격 / 효과의 대상이 되지 않는다. ②: 이 카드를 릴리스하고 발동할 수 있다. 패 / 덱에서 \"라의 익신룡\" 1장을, 소환 조건을 무시하고, 공격력 / 수비력을 4000 으로 하여 특수 소환한다."
  },
+ "11938": {
+  "cid": 11938,
+  "password": 40318957,
+  "en": "Performapal Skullcrobat Joker",
+  "ko": "EM 도크로배트 조커",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "DARK",
+  "level": 4,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "[ Pendulum Effect ]\r\nYou cannot Pendulum Summon monsters, except \"Performapal\" monsters, \"Magician\" Pendulum Monsters, and \"Odd-Eyes\" monsters. This effect cannot be negated.\r\n----------------------------------------\r\n[ Monster Effect ]\r\nWhen this card is Normal Summoned: You can add 1 \"Performapal\" monster, \"Magician\" Pendulum Monster, or \"Odd-Eyes\" monster from your Deck to your hand, except \"Performapal Skullcrobat Joker\".",
+  "text_ko": "①: 자신은 \"EM(엔터메이트)\" 몬스터, \"마술사\" 펜듈럼 몬스터, \"오드아이즈\" 몬스터밖에 펜듈럼 소환할 수 없다. 이 효과는 무효화되지 않는다."
+ },
+ "11939": {
+  "cid": 11939,
+  "password": 27813661,
+  "en": "Sky Iris",
+  "ko": "천공의 홍채",
+  "ja": null,
+  "type": "Spell",
+  "race": "Field",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "Your opponent cannot target \"Magician\", \"Performapal\", or \"Odd-Eyes\" cards in your Pendulum Zones with card effects. You can target 1 other face-up card you control; destroy it, and if you do, add 1 \"Odd-Eyes\" card from your Deck to your hand. You can only use this effect of \"Sky Iris\" once per turn.",
+  "text_ko": "\"천공의 홍채\"의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 필드 존에 존재하는 한, 자신의 펜듈럼 존의, \"마술사\" 카드, \"EM(엔터메이트)\" 카드, \"오드아이즈\" 카드는 상대 효과의 대상이 되지 않는다. ②: 이 카드 이외의 자신 필드의 앞면 표시 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴하고, 덱에서 \"오드아이즈\" 카드 1장을 패에 넣는다."
+ },
+ "11970": {
+  "cid": 11970,
+  "password": 31991800,
+  "en": "Majespecter Raccoon - Bunbuku",
+  "ko": "마제스펙터 라쿤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "WIND",
+  "level": 3,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "N",
+  "text_en": "When this card is Normal or Special Summoned: You can add 1 \"Majespecter\" monster from your Deck to your hand. You can only use this effect of \"Majespecter Raccoon - Bunbuku\" once per turn. While this card is in your Monster Zone, your opponent cannot target it with card effects, also it cannot be destroyed by your opponent's card effects.",
+  "text_ko": "\"마제스펙터 라쿤\"의 ①의 몬스터 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 일반 소환 / 특수 소환에 성공했을 때에 발동할 수 있다. 덱에서 \"마제스펙터\" 몬스터 1장을 패에 넣는다. ②: 이 카드는 몬스터 존에 존재하는 한, 상대의 효과 대상이 되지 않으며, 상대의 효과로는 파괴되지 않는다."
+ },
  "12038": {
   "cid": 12038,
   "en": "Dogoran, the Mad Flame Kaiju",
@@ -1123,6 +1189,132 @@
   "text_en": "When this card is Normal Summoned: You can add 1 Level 1 LIGHT Tuner from your Deck to your hand, except \"Sage with Eyes of Blue\". You can discard this card, then target 1 Effect Monster you control; send it to the GY, and if you do, Special Summon 1 \"Blue-Eyes\" monster from your Deck. You can only use this effect of \"Sage with Eyes of Blue\" once per turn.",
   "text_ko": "이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환했을 때에 발동할 수 있다. 덱에서 \"파란 눈의 현사\" 이외의 빛 속성 / 레벨 1 튜너 1장을 패에 넣는다. ②: 이 카드를 패에서 버리고, 자신 필드의 효과 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 묘지로 보내고, 덱에서 \"푸른 눈\" 몬스터 1장을 특수 소환한다."
  },
+ "12296": {
+  "cid": 12296,
+  "password": 34522216,
+  "en": "Amorphage Gluttony",
+  "ko": "아모르파지 가스톨",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "EARTH",
+  "level": 2,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "[ Pendulum Effect ]\r\nWhile you control an \"Amorphage\" monster, monsters cannot activate their effects, except \"Amorphage\" monsters. Once per turn, during your Standby Phase, Tribute 1 monster or destroy this card.\r\n----------------------------------------\r\n[ Monster Effect ]\r\nIf this card is Pendulum Summoned or flipped face-up, neither player can Special Summon monsters from the Extra Deck while this card is face-up on the field, except \"Amorphage\" monsters.",
+  "text_ko": "이 카드의 컨트롤러는, 자신 스탠바이 페이즈마다 자신 필드의 몬스터 1장을 릴리스한다. 또한 릴리스하지 않고 이 카드를 파괴한다. ①: 자신 필드에 \"아모르파지\" 몬스터가 존재하는 한, 서로 \"아모르파지\" 몬스터 이외의 몬스터의 효과를 발동할 수 없다."
+ },
+ "12297": {
+  "cid": 12297,
+  "password": 70917315,
+  "en": "Amorphage Lechery",
+  "ko": "아모르파지 룩스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "EARTH",
+  "level": 2,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "N",
+  "text_en": "[ Pendulum Effect ]\r\nWhile you control an \"Amorphage\" monster, neither player can activate Spell Cards or their effects, except for \"Amorphage\" cards. Once per turn, during your Standby Phase, Tribute 1 monster or destroy this card.\r\n----------------------------------------\r\n[ Monster Effect ]\r\nIf this card is Pendulum Summoned or flipped face-up, neither player can Special Summon monsters from the Extra Deck while this card is face-up on the field, except \"Amorphage\" monsters.",
+  "text_ko": "이 카드의 컨트롤러는, 자신 스탠바이 페이즈마다 자신 필드의 몬스터 1장을 릴리스한다. 또한 릴리스하지 않고 이 카드를 파괴한다. ①: 자신 필드에 \"아모르파지\" 몬스터가 존재하는 한, 서로 \"아모르파지\" 카드 이외의 마법 카드의 효과를 발동할 수 없다."
+ },
+ "12298": {
+  "cid": 12298,
+  "password": 7305060,
+  "en": "Amorphage Greed",
+  "ko": "아모르파지 프레스토",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "EARTH",
+  "level": 4,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "N",
+  "text_en": "[ Pendulum Effect ]\r\nWhile you control an \"Amorphage\" monster, neither player can activate Trap Cards or their effects, except for \"Amorphage\" cards. Once per turn, during your Standby Phase, Tribute 1 monster or destroy this card.\r\n----------------------------------------\r\n[ Monster Effect ]\r\nIf this card is Pendulum Summoned or flipped face-up, neither player can Special Summon monsters from the Extra Deck while this card is face-up on the field, except \"Amorphage\" monsters.",
+  "text_ko": "이 카드의 컨트롤러는, 자신 스탠바이 페이즈마다 자신 필드의 몬스터 1장을 릴리스한다. 또한 릴리스하지 않고 이 카드를 파괴한다. ①: 자신 필드에 \"아모르파지\" 몬스터가 존재하는 한, 서로 \"아모르파지\" 카드 이외의 함정 카드의 효과를 발동할 수 없다."
+ },
+ "12299": {
+  "cid": 12299,
+  "password": 33300669,
+  "en": "Amorphage Envy",
+  "ko": "아모르파지 캬붐",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "EARTH",
+  "level": 4,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "N",
+  "text_en": "[ Pendulum Effect ]\r\nWhile you control an \"Amorphage\" monster, neither player can activate cards or effects as Chain Link 2 or higher. Once per turn, during your Standby Phase, Tribute 1 monster or destroy this card.\r\n----------------------------------------\r\n[ Monster Effect ]\r\nIf this card is Pendulum Summoned or flipped face-up, neither player can Special Summon monsters from the Extra Deck while this card is face-up on the field, except \"Amorphage\" monsters.",
+  "text_ko": "이 카드의 컨트롤러는, 자신 스탠바이 페이즈마다 자신 필드의 몬스터 1장을 릴리스한다. 또한 릴리스하지 않고 이 카드를 파괴한다. ①: 자신 필드에 \"아모르파지\" 몬스터가 존재하는 한, 서로 마법 / 함정 / 몬스터의 효과를 체인하여 발동할 수 없다."
+ },
+ "12300": {
+  "cid": 12300,
+  "password": 79794767,
+  "en": "Amorphage Wrath",
+  "ko": "아모르파지 올가",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "EARTH",
+  "level": 4,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "[ Pendulum Effect ]\r\nWhile you control an \"Amorphage\" monster, neither player can Tribute monsters, except \"Amorphage\" monsters. Once per turn, during your Standby Phase, Tribute 1 monster or destroy this card.\r\n----------------------------------------\r\n[ Monster Effect ]\r\nIf this card is Pendulum Summoned or flipped face-up, neither player can Special Summon monsters from the Extra Deck while this card is face-up on the field, except \"Amorphage\" monsters.",
+  "text_ko": "이 카드의 컨트롤러는, 자신 스탠바이 페이즈마다 자신 필드의 몬스터 1장을 릴리스한다. 또한 릴리스하지 않고 이 카드를 파괴한다. ①: 자신 필드에 \"아모르파지\" 몬스터가 존재하는 한, 서로 \"아모르파지\" 몬스터 이외의 몬스터를 릴리스할 수 없다."
+ },
+ "12302": {
+  "cid": 12302,
+  "password": 32687071,
+  "en": "Amorphage Sloth",
+  "ko": "아모르파지 노테스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "EARTH",
+  "level": 6,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "[ Pendulum Effect ]\r\nWhile you control an \"Amorphage\" monster, neither player can add cards from their Deck to their hand except by drawing them. Once per turn, during your Standby Phase, Tribute 1 monster or destroy this card.\r\n----------------------------------------\r\n[ Monster Effect ]\r\nNeither player can Special Summon monsters from the Extra Deck, except \"Amorphage\" monsters.",
+  "text_ko": "이 카드의 컨트롤러는, 자신 스탠바이 페이즈마다 자신 필드의 몬스터 1장을 릴리스한다. 또한 릴리스하지 않고 이 카드를 파괴한다. ①: 자신 필드에 \"아모르파지\" 몬스터가 존재하는 한, 서로 드로우 이외의 방법으로 덱에서 카드를 패에 넣을 수 없다."
+ },
+ "12303": {
+  "cid": 12303,
+  "password": 69072185,
+  "en": "Amorphage Goliath",
+  "ko": "아모르파지 이리튬",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "EARTH",
+  "level": 8,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "[ Pendulum Effect ]\r\nWhile you control an \"Amorphage\" monster, any card sent to the GY is banished instead, except \"Amorphage\" cards. Once per turn, during your Standby Phase, Tribute 1 monster or destroy this card.\r\n----------------------------------------\r\n[ Monster Effect ]\r\nNeither player can Special Summon monsters from the Extra Deck, except \"Amorphage\" monsters.",
+  "text_ko": "이 카드의 컨트롤러는, 자신 스탠바이 페이즈마다 자신 필드의 몬스터 1장을 릴리스한다. 또한 릴리스하지 않고 이 카드를 파괴한다. ①: 자신 필드에 \"아모르파지\" 몬스터가 존재하는 한, \"아모르파지\" 카드 이외의 서로의 묘지로 보내지는 카드는 묘지로 가지 않고 제외된다."
+ },
  "12321": {
   "cid": 12321,
   "en": "Crystal Wing Synchro Dragon",
@@ -1140,6 +1332,21 @@
   "text_en": "1 Tuner + 1+ non-Tuner Synchro Monsters\r\nOnce per turn, when another monster's effect is activated (Quick Effect): You can negate the activation, and if you do, destroy that monster, and if you do that, this card gains ATK equal to the destroyed monster's original ATK until the end of this turn. If this card battles an opponent's Level 5 or higher monster, during damage calculation: This card gains ATK equal to the current ATK of the opponent's monster it is battling during that damage calculation only.",
   "text_ko": "튜너 ＋ 튜너 이외의 싱크로 몬스터 1장 이상<br>①: 1턴에 1번, 이 카드 이외의 몬스터의 효과가 발동했을 때에 발동할 수 있다. 그 발동을 무효로 하고 파괴한다. 이 효과로 몬스터를 파괴했을 경우, 이 카드의 공격력은 턴 종료시까지, 이 효과로 파괴한 몬스터의 원래 공격력만큼 올린다. ②: 이 카드가 레벨 5 이상의 상대 몬스터와 전투를 실행하는 데미지 계산시에 발동한다. 이 카드의 공격력은 그 데미지 계산시에만, 전투를 실행하는 상대 몬스터의 공격력만큼 올린다.",
   "password": 50954680
+ },
+ "12335": {
+  "cid": 12335,
+  "password": 50554729,
+  "en": "Amorphage Infection",
+  "ko": "아모르파지 인펙션",
+  "ja": null,
+  "type": "Spell",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "R",
+  "text_en": "All \"Amorphage\" monsters on the field gain 100 ATK and DEF for each \"Amorphage\" card on the field. If a monster(s) in your hand or you control is Tributed, or destroyed by battle or card effect: You can add 1 \"Amorphage\" card from your Deck to your hand. You can only use this effect of \"Amorphage Infection\" once per turn.",
+  "text_ko": "\"아모르파지 인펙션\"의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 필드의 \"아모르파지\" 몬스터의 공격력 / 수비력은, 필드의 \"아모르파지\" 카드의 수 × 100 올린다. ②: 자신의 패 / 필드의 몬스터가 릴리스될 경우, 또는 전투 / 효과로 파괴되었을 경우에 발동할 수 있다. 덱에서 \"아모르파지\" 카드 1장을 패에 넣는다."
  },
  "12337": {
   "cid": 12337,
@@ -1490,6 +1697,24 @@
   "text_en": "2+ monsters\r\nOnce while face-up on the field (Quick Effect): You can target monsters on the field and/or GY up to the number of monsters co-linked to this card; return them to the hand. If a monster this card points to is destroyed by battle or sent to the GY: You can Special Summon 1 Cyberse monster from your hand. You can only use each effect of \"Firewall Dragon\" once per turn.",
   "text_ko": "몬스터 2장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 필드에 앞면 표시로 존재하는 한 1번만, 자신 / 상대 턴에, 이 카드의 상호 링크 앞의 몬스터의 수까지, 자신 / 상대의, 필드 / 묘지의 몬스터를 대상으로 하고 발동할 수 있다. 그 몬스터를 패로 되돌린다. ②: 이 카드의 링크 앞의 몬스터가, 전투로 파괴되었을 경우 또는 묘지로 보내졌을 경우에 발동할 수 있다. 패에서 사이버스족 몬스터 1장을 특수 소환한다."
  },
+ "13163": {
+  "cid": 13163,
+  "password": 90590304,
+  "en": "Number 41: Bagooska the Terribly Tired Tapir",
+  "ko": "No.41 이수마수 바구스카",
+  "ja": null,
+  "type": "Monster",
+  "race": "Fiend",
+  "attribute": "EARTH",
+  "level": 4,
+  "monster_type": [
+   "Xyz",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "2 Level 4 monsters\r\nOnce per turn, during your Standby Phase, detach 1 material from this card. If you cannot, destroy it. This Attack Position card cannot be destroyed by your opponent's card effects. Your opponent cannot target this Attack Position card with card effects. While this card is in face-up Defense Position, change all face-up monsters on the field to Defense Position, also negate the activated effects of monsters that were in Defense Position when that effect was activated.",
+  "text_ko": "레벨 4 몬스터 × 2<br>이 카드의 컨트롤러는, 자신 스탠바이 페이즈마다 이 카드의 엑시즈 소재를 1개 제거한다(제거할 수 없을 경우, 이 카드를 파괴한다). ①: 이 카드가 몬스터 존에 공격 표시로 존재하는 한, 이 카드는 상대 효과로는 파괴되지 않으며, 상대는 이 카드를 효과의 대상으로 할 수 없다. ②: 이 카드가 몬스터 존에 수비 표시로 존재하는 한, 필드의 앞면 표시 몬스터는 수비 표시가 되고, 수비 표시 몬스터가 발동한 효과는 무효화된다."
+ },
  "13293": {
   "cid": 13293,
   "en": "Evenly Matched",
@@ -1572,6 +1797,24 @@
   "text_ko": "같은 속성으로 종족이 다른 몬스터 × 2<br>①: 이 카드가 몬스터 존에 존재하는 한, 상대는 이 카드 및 이 카드와 같은 속성을 가지는 필드의 몬스터를 효과의 대상으로 할 수 없다. ②: 1턴에 1번, 속성을 1개 선언하고 발동할 수 있다. 이 카드는 턴 종료시까지 선언한 속성이 된다. 이 효과는 상대 턴에도 발동할 수 있다.",
   "password": 54757758
  },
+ "13462": {
+  "cid": 13462,
+  "password": 16306932,
+  "en": "Odd-Eyes Revolution Dragon",
+  "ko": "초천신룡 오드아이즈 레볼루션 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": 12,
+  "monster_type": [
+   "Pendulum",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "[ Pendulum Effect ]\nYou cannot Pendulum Summon monsters, except Dragon monsters. This effect cannot be negated. You can target 1 Dragon Fusion, Synchro, or Xyz Monster in your GY; destroy this card, and if you do, Special Summon that target.\n----------------------------------------\n[ Monster Effect ]\nCannot be Normal Summoned/Set. Must be Pendulum Summoned (from your hand), or be Special Summoned (from your hand) by Tributing 3 Dragon monsters (1 Fusion, 1 Synchro, and 1 Xyz). You can discard this card and pay 500 LP: Add 1 Level 8 or lower Dragon Pendulum Monster from your Deck to your hand. Gains ATK/DEF equal to half of your opponent's LP. Once per turn: You can pay half your LP; shuffle all other cards from the field and the GYs into the Deck.",
+  "text_ko": "①: 자신은 드래곤족 몬스터밖에 펜듈럼 소환할 수 없다. 이 효과는 무효화되지 않는다. ②: 자신 묘지의 드래곤족의 융합 / 싱크로 / 엑시즈 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 파괴하고, 그 몬스터를 특수 소환한다."
+ },
  "13502": {
   "cid": 13502,
   "password": 22423493,
@@ -1622,7 +1865,8 @@
   ],
   "md_rarity": "UR",
   "text_en": "2 Pendulum Monsters\r\nIf this card is Link Summoned: You can add 1 Pendulum Monster from your Deck to your Extra Deck face-up. Once per turn: You can target 1 other face-up card you control; destroy it, then add 1 face-up Pendulum Monster from your Extra Deck to your hand. If a card(s) in your Pendulum Zone leaves the field: Draw 1 card. You can only use this effect of \"Heavymetalfoes Electrumite\" once per turn.",
-  "text_ko": "펜듈럼 몬스터 2장<br>이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 링크 소환했을 경우에 발동할 수 있다. 덱에서 펜듈럼 몬스터 1장을 엑스트라 덱에 앞면으로 넣는다. ②: 1턴에 1번, 자신 필드의 다른 앞면 표시 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다. 그 후, 자신의 엑스트라 덱(앞면)에서 펜듈럼 몬스터 1장을 패에 넣는다. ③: 자신의 펜듈럼 존의 카드가 필드에서 벗어났을 경우에 발동한다. 자신은 1장 드로우한다."
+  "text_ko": "펜듈럼 몬스터 2장<br>이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 링크 소환했을 경우에 발동할 수 있다. 덱에서 펜듈럼 몬스터 1장을 엑스트라 덱에 앞면으로 넣는다. ②: 1턴에 1번, 자신 필드의 다른 앞면 표시 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다. 그 후, 자신의 엑스트라 덱(앞면)에서 펜듈럼 몬스터 1장을 패에 넣는다. ③: 자신의 펜듈럼 존의 카드가 필드에서 벗어났을 경우에 발동한다. 자신은 1장 드로우한다.",
+  "password": 24094258
  },
  "13509": {
   "cid": 13509,
@@ -1941,6 +2185,21 @@
   "text_en": "2 Cyberse monsters\r\nThis Link Summoned card cannot be destroyed by battle or card effects. Cyberse monsters this card points to cannot be destroyed by card effects. If a monster(s) is Special Summoned to a zone(s) this card points to while you control this monster (except during the Damage Step): You can banish 1 Cyberse monster from your GY; add 1 Cyberse Tuner from your Deck to your hand. You can only use this effect of \"Cyberse Wicckid\" once per turn.",
   "text_ko": "사이버스족 몬스터 2장<br>이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 링크 소환한 이 카드는 전투 / 효과로는 파괴되지 않는다. ②: 이 카드의 링크 앞의 사이버스족 몬스터는 효과로는 파괴되지 않는다. ③: 이 카드가 몬스터 존에 존재하는 상태에서, 이 카드의 링크 앞에 몬스터가 특수 소환되었을 경우, 자신 묘지에서 사이버스족 몬스터 1장을 제외하고 발동할 수 있다. 덱에서 사이버스족 튜너 1장을 패에 넣는다.",
   "password": 52698008
+ },
+ "14144": {
+  "cid": 14144,
+  "password": 49238328,
+  "en": "Pot of Extravagance",
+  "ko": "욕망과 졸부의 항아리",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "At the start of your Main Phase 1: Banish 3 or 6 random face-down cards from your Extra Deck, face-down; draw 1 card for every 3 cards banished. For the rest of this turn after this card resolves, you cannot draw any cards by card effects.",
+  "text_ko": "①: 자신 메인 페이즈 1 개시시에, 자신의 엑스트라 덱의 뒷면의 카드 3장이나 6장을 무작위로 뒷면으로 제외하고 발동할 수 있다. 제외한 카드 3장당 1장, 자신은 드로우한다. 이 카드의 발동 후, 턴 종료시까지 자신은 카드의 효과로 드로우할 수 없다."
  },
  "14180": {
   "cid": 14180,
@@ -2406,7 +2665,8 @@
   ],
   "md_rarity": "SR",
   "text_en": "2 monsters, including a \"Sky Striker Ace\" monster\r\nMust be Link Summoned. You can only Special Summon \"Sky Striker Ace - Zeke(s)\" once per turn. If this card is Link Summoned: You can target 1 face-up monster on the field; banish it until your opponent's next End Phase. Once per turn: You can target 1 other card you control; this card gains 1000 ATK, then, send the targeted card to the GY.",
-  "text_ko": "\"섬도희\" 몬스터를 포함하는 몬스터 2장<br>이 카드는 링크 소환으로밖에 특수 소환할 수 없으며, 자신은 \"섬도희－지크\"를 1턴에 1번밖에 특수 소환할 수 없다. ①: 이 카드를 링크 소환했을 경우, 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 다음 상대 엔드 페이즈까지 제외한다. ②: 1턴에 1번, 자신 필드의 다른 카드 1장을 대상으로 하고 발동할 수 있다. 이 카드의 공격력은 1000 올린다. 그 후, 대상의 카드를 묘지로 보낸다."
+  "text_ko": "\"섬도희\" 몬스터를 포함하는 몬스터 2장<br>이 카드는 링크 소환으로밖에 특수 소환할 수 없으며, 자신은 \"섬도희－지크\"를 1턴에 1번밖에 특수 소환할 수 없다. ①: 이 카드를 링크 소환했을 경우, 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 다음 상대 엔드 페이즈까지 제외한다. ②: 1턴에 1번, 자신 필드의 다른 카드 1장을 대상으로 하고 발동할 수 있다. 이 카드의 공격력은 1000 올린다. 그 후, 대상의 카드를 묘지로 보낸다.",
+  "password": 75147529
  },
  "14952": {
   "cid": 14952,
@@ -2814,6 +3074,21 @@
   "text_en": "1 Level 4 or lower Spellcaster monster\r\nIf another \"Magistus\" monster(s) is Normal or Special Summoned while you control this monster (except during the Damage Step): You can target 1 of those monsters; equip this card you control to it. While this card is equipped to a monster: You can add 1 \"Magistus\" monster from your Deck to your hand. You can only use each effect of \"Artemis, the Magistus Moon Maiden\" once per turn. You can only Special Summon \"Artemis, the Magistus Moon Maiden\" once per turn.",
   "text_ko": "레벨 4 이하의 마법사족 몬스터 1장<br>자신은 \"마기스토스 메이든 아르테미스\"를 1턴에 1번밖에 특수 소환할 수 없으며, 그 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 몬스터 존에 존재하는 상태에서, \"마기스토스\" 몬스터가 일반 소환 / 특수 소환되었을 경우, 그 중의 1장을 대상으로 하고 발동할 수 있다. 자신 필드의 이 카드를 장착 마법 카드로 취급하고 그 몬스터에 장착한다. ②: 이 카드가 장착되어 있을 경우에 발동할 수 있다. 덱에서 \"마기스토스\" 몬스터 1장을 패에 넣는다.",
   "password": 34755994
+ },
+ "15756": {
+  "cid": 15756,
+  "password": 84211599,
+  "en": "Pot of Prosperity",
+  "ko": "졸부와 겸허의 항아리",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Banish 3 or 6 cards of your choice from your Extra Deck, face-down; for the rest of this turn after this card resolves, any damage your opponent takes is halved, also excavate cards from the top of your Deck equal to the number of cards banished, add 1 excavated card to your hand, place the rest on the bottom of your Deck in any order. You can only activate 1 \"Pot of Prosperity\" per turn. You cannot draw cards by card effects the turn you activate this card.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없으며, 이 카드를 발동하는 턴에, 자신은 카드의 효과로 드로우할 수 없다. ①: 엑스트라 덱에서 카드 3장이나 6장을 뒷면으로 제외하고 발동할 수 있다. 제외한 수만큼 자신의 덱 위에서 카드를 넘기고, 그 중에서 1장을 골라 패에 넣고, 남은 카드를 좋아하는 순서대로 덱 아래로 되돌린다. 이 카드의 발동 후, 턴 종료시까지 상대가 받는 모든 데미지는 절반이 된다."
  },
  "15994": {
   "cid": 15994,
@@ -6841,7 +7116,8 @@
   ],
   "md_rarity": "SR",
   "text_en": "1 \"Sky Striker Ace\" monster\nYou can only Special Summon \"Prototype Sky Striker Ace - Amatsu(s)\" once per turn. When a monster your opponent controls with 2000 or more ATK activates its effect (Quick Effect): You can make the activated effect become \"Destroy 1 \"Sky Striker Ace\" Link Monster your opponent controls\". When an attack is declared involving this card and an opponent's monster: You can target 1 \"Sky Striker Ace\" monster you control and 1 card your opponent controls; destroy them. You can only use each effect of \"Prototype Sky Striker Ace - Amatsu\" once per turn.",
-  "text_ko": "\"섬도희\" 몬스터 1장<br>자신은 \"시호섬도희－아마츠\"를 1턴에 1번밖에 특수 소환할 수 없으며, 그 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 상대 필드의 공격력 2000 이상의 몬스터가 효과를 발동했을 때에 발동할 수 있다. 그 효과는 \"상대 필드의 \"섬도희\" 링크 몬스터 1장을 파괴한다\"가 된다. ②: 이 카드가 상대 몬스터와 전투를 실행하는 공격 선언시, 자신 필드의 \"섬도희\" 몬스터 1장과 상대 필드의 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다."
+  "text_ko": "\"섬도희\" 몬스터 1장<br>자신은 \"시호섬도희－아마츠\"를 1턴에 1번밖에 특수 소환할 수 없으며, 그 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 상대 필드의 공격력 2000 이상의 몬스터가 효과를 발동했을 때에 발동할 수 있다. 그 효과는 \"상대 필드의 \"섬도희\" 링크 몬스터 1장을 파괴한다\"가 된다. ②: 이 카드가 상대 몬스터와 전투를 실행하는 공격 선언시, 자신 필드의 \"섬도희\" 몬스터 1장과 상대 필드의 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다.",
+  "password": 25072579
  },
  "21610": {
   "cid": 21610,
@@ -8152,7 +8428,8 @@
   ],
   "md_rarity": "R",
   "text_en": "\"Kewl Tune Clip\" + 1+ Tuners\nIf this card is Synchro Summoned: You can look at your opponent's Extra Deck, and if you do, banish (face-up) 1 card from it (until the End Phase), then you can make this card gain ATK equal to that monster's ATK. If this Synchro Summoned card is sent to the GY: You can Special Summon this card, then you can apply this effect.\n● Look at your opponent's Extra Deck and banish (face-up) 2 cards from it until the End Phase.\nYou can only use each effect of \"Kewl Tune Crackle\" once per turn.",
-  "text_ko": "\"킬러튠 클립\" ＋ 튜너 1장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 싱크로 소환했을 경우에 발동할 수 있다. 상대의 엑스트라 덱을 확인하고, 그 중의 1장을 엔드 페이즈까지 앞면으로 제외한다. 그 후, 이 카드의 공격력을 제외한 몬스터의 공격력만큼 올릴 수 있다. ②: 싱크로 소환한 이 카드가 묘지로 보내졌을 경우에 발동할 수 있다. 이 카드를 특수 소환한다. 그 후, 이하의 효과를 적용할 수 있다. ●상대의 엑스트라 덱을 확인하고, 그 중의 2장을 엔드 페이즈까지 앞면으로 제외한다."
+  "text_ko": "\"킬러튠 클립\" ＋ 튜너 1장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 싱크로 소환했을 경우에 발동할 수 있다. 상대의 엑스트라 덱을 확인하고, 그 중의 1장을 엔드 페이즈까지 앞면으로 제외한다. 그 후, 이 카드의 공격력을 제외한 몬스터의 공격력만큼 올릴 수 있다. ②: 싱크로 소환한 이 카드가 묘지로 보내졌을 경우에 발동할 수 있다. 이 카드를 특수 소환한다. 그 후, 이하의 효과를 적용할 수 있다. ●상대의 엑스트라 덱을 확인하고, 그 중의 2장을 엔드 페이즈까지 앞면으로 제외한다.",
+  "password": 39576656
  },
  "22551": {
   "cid": 22551,

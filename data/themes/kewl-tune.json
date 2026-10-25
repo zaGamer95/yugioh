@@ -767,6 +767,373 @@
    "fallback_ko": "레코+로터리로 트랙메이커만 만들고 종료. 큐 시작이면 레코 서치 이후가 막혀 리믹스가 안 나오고 킬러튠 싱크로 세트 정도로 끝난다."
   },
   {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "cue",
+   "step": 5,
+   "target_card": "Kewl Tune Rotary",
+   "timing_ko": "세트해 뒀다면 [[Kewl Tune Cue]] 소환 유발에 체인해 발동 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Kewl Tune Track Maker]]의 소재(큐·로터리)가 제외되어 로터리 서치·큐 덱 확인이 없다. 이후 레코·믹스·트랙메이커의 소재 유발도, 묘지 튜너를 쓰는 [[Kewl Tune Remix]]·[[Kewl Tune Loudness War]]도 전부 못 쓴다.",
+   "fallback_ko": "[[Kewl Tune Track Maker]] 서치로 JJ 또는 [[Kewl Tune Synchro]] 중 1장만 가져와 리믹스 보드는 만들지만, 그 보드가 내 턴에 하는 일이 거의 없다.",
+   "rulings": [
+    "qa-23816"
+   ]
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "reco",
+   "step": 5,
+   "target_card": "Kewl Tune Rotary",
+   "timing_ko": "세트해 뒀다면 [[Kewl Tune Reco]] 서치에 체인 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "cue 5단계와 같다. 이 루트는 10단계 큐의 묘지 레코 소생도 대상이 없다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-23816"
+   ]
+  },
+  {
+   "handtrap": "macro_cosmos",
+   "severity": "critical",
+   "line": "elfnote_hybrid",
+   "step": 7,
+   "target_card": "Elfnote Power Patron",
+   "timing_ko": "세트해 뒀다면 [[Elfnote Lucina]] 서치에 체인 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "엘펜노츠 파트부터 감옥신정 서치·레기나 회수가 사라지고 패러렐리즘·랩소디아는 코스트를 낼 수 없다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-14540"
+   ]
+  },
+  {
+   "handtrap": "fissure",
+   "severity": "critical",
+   "line": "cue",
+   "step": 5,
+   "target_card": "Kewl Tune Rotary",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Macro Cosmos]]와 같다(킬러튠 견제 소스는 전부 몬스터).",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "fissure",
+   "severity": "critical",
+   "line": "reco",
+   "step": 5,
+   "target_card": "Kewl Tune Rotary",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "cue 5단계와 같다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "banisher",
+   "severity": "critical",
+   "line": "cue",
+   "step": 5,
+   "target_card": "Kewl Tune Rotary",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Macro Cosmos]]와 같다. 상대가 이 몬스터를 치울 1턴째 수단(믹스 소재 파괴)이 함께 막힌다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "banisher",
+   "severity": "critical",
+   "line": "reco",
+   "step": 5,
+   "target_card": "Kewl Tune Rotary",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "cue 5단계와 같다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "critical",
+   "line": "cue",
+   "step": 4,
+   "target_card": "Kewl Tune Track Maker",
+   "timing_ko": "내 필드에 미리 앞면이면 서치 처리 후 반응",
+   "why_ko": "[[Kewl Tune Track Maker]] 서치에 반응해 패 1장 무작위 제외, 이후는 [[Macro Cosmos]]와 같이 소재 유발이 전부 사라진다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "dark_law",
+   "severity": "critical",
+   "line": "reco",
+   "step": 2,
+   "target_card": "Kewl Tune Reco",
+   "timing_ko": "내 필드에 미리 앞면이면 서치 처리 후 반응",
+   "why_ko": "레코 서치에 반응해 패 1장 무작위 제외. 이후 소재 유발 없음.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "arise_heart",
+   "severity": "critical",
+   "line": "cue",
+   "step": 5,
+   "target_card": "Kewl Tune Rotary",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘. 퀵 제외는 마지막 [[Kewl Tune Remix]]에",
+   "why_ko": "[[Macro Cosmos]]와 같은 지점에 퀵 뒷면 제외까지.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "cue",
+   "step": 3,
+   "target_card": "Kewl Tune Track Maker",
+   "timing_ko": "세트해 뒀다면 [[Kewl Tune Cue]] 소환 유발(또는 스탠바이)에 체인해 '싱크로' 선언",
+   "why_ko": "튜너 싱크로가 하나도 안 나와 JJ·[[Kewl Tune Synchro]] 서치가 시작되지 않는다. 큐+로터리(또는 레코)만 남는다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "reco",
+   "step": 3,
+   "target_card": "Kewl Tune Track Maker",
+   "timing_ko": "세트해 뒀다면 레코 서치에 체인해 '싱크로' 선언",
+   "why_ko": "cue 3단계와 같다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  {
+   "handtrap": "dim_barrier",
+   "severity": "critical",
+   "line": "elfnote_hybrid",
+   "step": 6,
+   "target_card": "Baronne de Fleur",
+   "timing_ko": "세트해 뒀다면 루키나 서치에 체인해 '싱크로' 선언",
+   "why_ko": "엘펜노츠 파트의 싱크로부터 막힌다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "cue",
+   "step": 3,
+   "target_card": "Kewl Tune Track Maker",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "큐는 [[Kewl Tune Reco]](화염)만 부를 수 있고, [[Kewl Tune Track Maker]](빛) 등 킬러튠 싱크로는 전부 화염이 아니다.",
+   "fallback_ko": "큐+레코로 레코 서치까지만.",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "reco",
+   "step": 3,
+   "target_card": "Kewl Tune Track Maker",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "레코 서치까지는 되지만 [[Kewl Tune Track Maker]]가 나오지 않는다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  {
+   "handtrap": "statue_inferno",
+   "severity": "critical",
+   "line": "elfnote_hybrid",
+   "step": 3,
+   "target_card": "Elfnote Regina",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "루키나(화염)는 나오지만 레기나(바람)가 안 된다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "cue",
+   "step": 2,
+   "target_card": "Kewl Tune Cue",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "물 튜너가 없어 큐의 소환 유발을 발동할 수 없다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "reco",
+   "step": 3,
+   "target_card": "Kewl Tune Track Maker",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "레코 서치까지만 되고 싱크로 불가.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  {
+   "handtrap": "statue_torrent",
+   "severity": "critical",
+   "line": "elfnote_hybrid",
+   "step": 1,
+   "target_card": "Elfnote Lucina",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "루키나 특소부터 불가.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "cue",
+   "step": 2,
+   "target_card": "Kewl Tune Cue",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "큐의 튜너 특소를 발동할 수 없고 싱크로도 불가.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "reco",
+   "step": 3,
+   "target_card": "Kewl Tune Track Maker",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "레코 서치는 되지만 싱크로 불가.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  {
+   "handtrap": "vanity_fiend",
+   "severity": "critical",
+   "line": "elfnote_hybrid",
+   "step": 1,
+   "target_card": "Elfnote Lucina",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "루키나 특소 불가.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "cue",
+   "step": 2,
+   "target_card": "Kewl Tune Cue",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Vanity's Fiend]]와 같다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "reco",
+   "step": 3,
+   "target_card": "Kewl Tune Track Maker",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Vanity's Fiend]]와 같다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "vanity_ruler",
+   "severity": "critical",
+   "line": "elfnote_hybrid",
+   "step": 1,
+   "target_card": "Elfnote Lucina",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Vanity's Fiend]]와 같다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "cue",
+   "step": 2,
+   "target_card": "Kewl Tune Cue",
+   "timing_ko": "세트해 뒀다면 이 효과 발동에 체인해 발동 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "큐의 튜너 특소가 처리되지 않아 1장 초동이 끝난다. 큐의 '패 튜너를 소재로' 공통 효과도 필드에서 무효.",
+   "fallback_ko": "패에 다른 튜너가 있으면 [[Kewl Tune Rotary]] 공개(패 효과)로 추가 일반 소환하는 정도.",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "reco",
+   "step": 2,
+   "target_card": "Kewl Tune Reco",
+   "timing_ko": "세트해 뒀다면 이 효과 발동에 체인 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "레코 서치가 처리되지 않는다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  {
+   "handtrap": "skill_drain",
+   "severity": "critical",
+   "line": "elfnote_hybrid",
+   "step": 2,
+   "target_card": "Elfnote Lucina",
+   "timing_ko": "세트해 뒀다면 루키나 서치에 체인",
+   "why_ko": "엘펜노츠 파트 첫 서치부터 무효.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "cue",
+   "step": 4,
+   "target_card": "Kewl Tune Track Maker",
+   "timing_ko": "세트해 뒀다면 이 서치 효과 발동에 체인 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "큐→로터리 덱 특소는 막지 못하지만, [[Kewl Tune Track Maker]]·로터리 서치가 모두 막혀 JJ·[[Kewl Tune Synchro]]가 안 온다.",
+   "fallback_ko": "[[Kewl Tune Track Maker]] 1장으로 멈춘다(로터리는 상대 묘지 카드를 덱 아래로 돌리는 모드만).",
+   "rulings": [
+    "qa-22433"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "reco",
+   "step": 2,
+   "target_card": "Kewl Tune Reco",
+   "timing_ko": "세트해 뒀다면 이 서치에 체인",
+   "why_ko": "첫 서치가 막혀 레코 1장으로 끝난다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-22433"
+   ]
+  },
+  {
+   "handtrap": "mistake",
+   "severity": "critical",
+   "line": "elfnote_hybrid",
+   "step": 2,
+   "target_card": "Elfnote Lucina",
+   "timing_ko": "세트해 뒀다면 루키나 서치에 체인",
+   "why_ko": "엘펜노츠 파트 첫 서치부터 막힌다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-22433"
+   ]
+  },
+  {
    "handtrap": "purge",
    "severity": "strong",
    "line": "cue",
@@ -928,6 +1295,166 @@
    "fallback_ko": "로터리의 묘지 효과로 이미 상대 패를 봤으므로 니비루가 보이면 4번에서 멈추거나 순서를 바꾼다. 패 공개 전에 마음 정리해 둘 것."
   },
   {
+   "handtrap": "herald",
+   "severity": "strong",
+   "line": "cue",
+   "step": 2,
+   "target_card": "Kewl Tune Cue",
+   "timing_ko": "내 필드에 미리 앞면이면 이 효과 발동에 체인해 릴리스",
+   "why_ko": "큐 1장 초동의 튜너 특소를 무효+파괴. [[Ash Blossom & Joyous Spring]]과 같은 지점.",
+   "fallback_ko": "패에 튜너가 더 있으면 재개. 패 튜너를 소재로 쓰면 그 튜너는 제외되어 소재 유발이 없다.",
+   "rulings": [
+    "supp-11384"
+   ]
+  },
+  {
+   "handtrap": "herald",
+   "severity": "strong",
+   "line": "reco",
+   "step": 2,
+   "target_card": "Kewl Tune Reco",
+   "timing_ko": "내 필드에 미리 앞면이면 이 효과 발동에 체인",
+   "why_ko": "레코 서치를 무효+파괴.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "herald",
+   "severity": "strong",
+   "line": "elfnote_hybrid",
+   "step": 2,
+   "target_card": "Elfnote Lucina",
+   "timing_ko": "내 필드에 미리 앞면이면 이 효과 발동에 체인",
+   "why_ko": "루키나 서치를 무효+파괴.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "strong",
+   "line": "cue",
+   "step": 2,
+   "target_card": "Kewl Tune Cue",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 제한",
+   "why_ko": "큐는 어둠 튜너([[Kewl Tune Clip]])만 부를 수 있다. [[Kewl Tune Track Maker]](빛)가 안 나와 JJ·[[Kewl Tune Synchro]] 서치 축이 끊긴다.",
+   "fallback_ko": "큐+클립으로 [[Kewl Tune Crackle]](어둠) 정도.",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "strong",
+   "line": "reco",
+   "step": 3,
+   "target_card": "Kewl Tune Track Maker",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "[[Kewl Tune Track Maker]](빛) 불가. 레코+패의 믹스로 [[Kewl Tune RS]](어둠)를 내는 정도.",
+   "fallback_ko": "—",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "strong",
+   "line": "cue",
+   "step": 8,
+   "target_card": "JJ \"Kewl Tune\"",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "트랙메이커까지는 빛이라 통과. JJ로 [[Kewl Tune Reco]](화염)를 특소할 수 없고, 이후 [[Kewl Tune Remix]](어둠)도 안 나온다.",
+   "fallback_ko": "JJ로 레코를 패에 넣고 JJ의 추가 일반 소환으로 내 [[Kewl Tune Loudness War]](빛) 쪽으로 우회.",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  {
+   "handtrap": "statue_heavens",
+   "severity": "strong",
+   "line": "reco",
+   "step": 7,
+   "target_card": "JJ \"Kewl Tune\"",
+   "timing_ko": "내 필드에 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "JJ로 믹스(바람)를 특소할 수 없다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "strong",
+   "line": "cue",
+   "step": 2,
+   "target_card": "Kewl Tune Cue",
+   "timing_ko": "세트해 뒀다면 큐 소환 유발에 체인 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "큐(천사족)가 있는 동안 [[Kewl Tune Rotary]](사이버스족)를 덱에서 낼 수 없다. 같은 종족 튜너가 없어 소환 유발이 사실상 불발.",
+   "fallback_ko": "패에 튜너가 있으면 큐의 '패 튜너를 소재로' 효과로 [[Kewl Tune Track Maker]]를 낸다(소재가 빠진 뒤라 소환 가능).",
+   "rulings": [
+    "supp-5622"
+   ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "strong",
+   "line": "reco",
+   "step": 9,
+   "target_card": "Kewl Tune Cue",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "믹스(전사족)가 있는 동안 큐(천사족)를 일반 소환할 수 없어 리믹스가 안 나온다.",
+   "fallback_ko": "믹스+패 튜너 싱크로로 우회.",
+   "rulings": [
+    "supp-5622"
+   ]
+  },
+  {
+   "handtrap": "rivalry",
+   "severity": "strong",
+   "line": "elfnote_hybrid",
+   "step": 4,
+   "target_card": "Elfnote Regina",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "레기나(마법사족)가 감옥신정(악마족)을 덱에서 낼 수 없다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-5622"
+   ]
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "strong",
+   "line": "cue",
+   "step": 10,
+   "target_card": "Kewl Tune Mix",
+   "timing_ko": "세트해 뒀다면 큐 소환 유발에 체인 / 미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "레코(화염)가 있는 동안 믹스(바람)를 일반 소환할 수 없어 [[Kewl Tune Remix]]가 안 나온다.",
+   "fallback_ko": "레코+패의 믹스로 [[Kewl Tune RS]](어둠)를 낸다(소재가 빠지면 필드가 비어 소환 가능).",
+   "rulings": [
+    "supp-7934"
+   ]
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "strong",
+   "line": "reco",
+   "step": 9,
+   "target_card": "Kewl Tune Cue",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "믹스(바람)가 있는 동안 큐(빛)를 일반 소환할 수 없다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-7934"
+   ]
+  },
+  {
+   "handtrap": "gozen",
+   "severity": "strong",
+   "line": "elfnote_hybrid",
+   "step": 4,
+   "target_card": "Elfnote Regina",
+   "timing_ko": "미리 앞면이면 이 단계에서 막힘",
+   "why_ko": "레기나(바람)가 감옥신정(화염)을 덱에서 낼 수 없다.",
+   "fallback_ko": "—",
+   "rulings": [
+    "supp-7934"
+   ]
+  },
+  {
    "handtrap": "mourner",
    "severity": "ok",
    "line": "cue",
@@ -984,6 +1511,19 @@
    "fallback_ko": "[[Kewl Tune Remix]]의 퀵 효과(릴리스 → 묘지 튜너 회수·특소 → 싱크로)는 남는다."
   },
   {
+   "handtrap": "protos",
+   "severity": "ok",
+   "line": "cue",
+   "step": 12,
+   "target_card": "Kewl Tune Remix",
+   "timing_ko": "내 메인 페이즈(선공 1턴)에 '어둠' 선언 → 상대 턴 종료시까지 어둠 특소 불가",
+   "why_ko": "[[Kewl Tune Remix]](어둠)를 싱크로할 수 없다. 내 턴의 [[Zalen the Shackled Dragon]]·[[Kewl Tune RS]]·[[Kewl Tune B2B]]도 어둠.",
+   "fallback_ko": "[[Kewl Tune Track Maker]]·[[Kewl Tune Loudness War]](빛)는 나온다.",
+   "rulings": [
+    "supp-14994"
+   ]
+  },
+  {
    "handtrap": "ash",
    "severity": "bad",
    "line": "cue",
@@ -1005,6 +1545,26 @@
    "rulings": [
     "supp-22533"
    ]
+  },
+  {
+   "handtrap": "statue_abyss",
+   "severity": "bad",
+   "line": "elfnote_hybrid",
+   "step": 1,
+   "target_card": "Elfnote Lucina",
+   "timing_ko": "—",
+   "why_ko": "어둠 결계상은 킬러튠의 어둠 튜너 싱크로([[Kewl Tune Remix]]·[[Kewl Tune RS]]·[[Kewl Tune Crackle]])를 통과시킨다. 막을 거라면 [[Barrier Statue of the Torrent]]·[[Barrier Statue of the Inferno]]가 확실하다.",
+   "fallback_ko": "—"
+  },
+  {
+   "handtrap": "dd_crow",
+   "severity": "bad",
+   "line": "cue",
+   "step": 9,
+   "target_card": "Kewl Tune Reco",
+   "timing_ko": "—",
+   "why_ko": "레코·믹스의 '덱·묘지에서' 서치나 큐의 '패·덱·묘지에서' 특소에 맞춰 묘지 카드를 지워도 덱에서 가져오면 그만이다. 크로우는 내 턴 [[Kewl Tune B2B]]·[[Kewl Tune Loudness War]]용으로 아낀다.",
+   "fallback_ko": "—"
   }
  ],
  "handtrap_summary": {
@@ -1152,6 +1712,152 @@
    "rulings": [
     "qa-111"
    ]
+  },
+  "macro_cosmos": {
+   "rating": "critical",
+   "note_ko": "킬러튠의 견제는 전부 '싱크로 소재로 묘지에 보내진 경우' 유발(로터리 서치·믹스 파괴·레코 마함 파괴·트랙메이커 바운스)과 묘지 튜너를 쓰는 [[Kewl Tune Remix]]·[[Kewl Tune Loudness War]]다. 소재가 제외되면 1턴째 서치가 1장 줄고, 내 턴의 퀵 싱크로 견제가 통째로 사라진다. 릴리스 코스트(JJ·리믹스)는 매크로 아래에서도 쓸 수 있다",
+   "rulings": [
+    "qa-7735",
+    "qa-23816"
+   ]
+  },
+  "fissure": {
+   "rating": "critical",
+   "note_ko": "[[Macro Cosmos]]와 같은 지점(견제 소스가 전부 몬스터). 선공 때 미리 앞면",
+   "rulings": [
+    "qa-23816"
+   ]
+  },
+  "banisher": {
+   "rating": "critical",
+   "note_ko": "[[Macro Cosmos]]와 같은 지점. 1턴째 킬러튠에게는 이 몬스터를 치울 수단이 소재 유발(믹스 파괴)밖에 없는데 그것이 막힌다",
+   "rulings": [
+    "qa-23816"
+   ]
+  },
+  "herald": {
+   "rating": "strong",
+   "note_ko": "무효는 [[Kewl Tune Cue]] 일반 소환 유발(cue 2단계)이나 [[Kewl Tune Reco]] 서치에. 패의 튜너를 소재로 쓰면(패→묘지) 제외되어 그 튜너의 소재 유발이 없다. 필드 소재의 유발은 못 막는다. JJ의 릴리스 효과는 앞면 마법 효과라 무효 불가",
+   "rulings": [
+    "supp-11384"
+   ]
+  },
+  "retaliating_c": {
+   "rating": "weak",
+   "note_ko": "상대 1턴 전개는 [[Kewl Tune Synchro]]를 세트만 하고 [[JJ \"Kewl Tune\"]] 발동에는 특소가 없어 꺼낼 기회가 없다. 내 턴에 상대가 세트한 [[Kewl Tune Synchro]](서치 후 싱크로 소환)를 발동할 때 쓰는 카드(후공 돌파 참고)",
+   "rulings": [
+    "qa-15449",
+    "qa-23933"
+   ]
+  },
+  "dd_crow": {
+   "rating": "weak",
+   "note_ko": "1턴째 묘지를 대상으로 하는 효과가 없다([[Kewl Tune Cue]]·[[Kewl Tune Reco]]·[[Kewl Tune Mix]]는 '덱·묘지에서' 고르는 효과라 묘지 카드를 지워도 덱에서 가져온다). 내 턴에 [[Kewl Tune B2B]]·[[Kewl Tune Loudness War]] 자원을 지울 때 쓴다"
+  },
+  "dark_law": {
+   "rating": "critical",
+   "note_ko": "[[Macro Cosmos]]와 같은 지점에 더해 [[Kewl Tune Track Maker]]·레코·믹스의 서치마다 패 1장 무작위 제외(1턴 1번). HERO 덱 전용",
+   "rulings": [
+    "qa-23816"
+   ]
+  },
+  "arise_heart": {
+   "rating": "critical",
+   "note_ko": "[[Macro Cosmos]]와 같은 지점. 소재 3개로 [[Kewl Tune Remix]] 등을 퀵 뒷면 제외(내성 없음)",
+   "rulings": [
+    "qa-23816"
+   ]
+  },
+  "dim_barrier": {
+   "rating": "critical",
+   "note_ko": "'싱크로' 선언. 덱 전체가 튜너 싱크로 연쇄라 [[Kewl Tune Track Maker]]부터 막혀 JJ·[[Kewl Tune Synchro]]를 가져올 수 없다. 스탠바이나 [[Kewl Tune Cue]] 소환 유발에 체인",
+   "rulings": [
+    "supp-12668"
+   ]
+  },
+  "protos": {
+   "rating": "ok",
+   "note_ko": "선공 1턴엔 '어둠'(프로토스 자신)이 확실한 선언. [[Kewl Tune Remix]]·[[Kewl Tune RS]]·[[Kewl Tune B2B]]·[[Zalen the Shackled Dragon]]·[[Kewl Tune Clip]]가 어둠이라 상대 턴과 다음 내 턴까지 특소 불가. [[Kewl Tune Track Maker]]·[[Kewl Tune Loudness War]](빛)는 남는다",
+   "rulings": [
+    "supp-14994"
+   ]
+  },
+  "statue_abyss": {
+   "rating": "strong",
+   "note_ko": "어둠 이외 특소 불가. [[Kewl Tune Cue]]는 [[Kewl Tune Rotary]](빛) 대신 [[Kewl Tune Clip]](어둠)만 부를 수 있고, [[Kewl Tune Track Maker]](빛)가 안 나와 JJ 서치가 막힌다. 어둠 튜너 싱크로([[Kewl Tune Crackle]]·[[Kewl Tune RS]])로 일부 우회",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  "statue_heavens": {
+   "rating": "strong",
+   "note_ko": "큐·로터리·트랙메이커·라우드니스워는 빛이라 통과. JJ로 [[Kewl Tune Reco]]·[[Kewl Tune Mix]]를 특소할 수 없고(패에 넣고 일반 소환으로 우회), [[Kewl Tune Remix]]·[[Kewl Tune RS]](어둠)가 막혀 1턴 보드가 [[Kewl Tune Loudness War]] 위주로 작아진다",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  "statue_inferno": {
+   "rating": "critical",
+   "note_ko": "화염은 [[Kewl Tune Reco]]뿐이고 킬러튠 싱크로는 전부 화염이 아니다. 큐로 레코를 불러도 싱크로가 안 된다",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  "statue_torrent": {
+   "rating": "critical",
+   "note_ko": "물 킬러튠이 없다. [[Kewl Tune Cue]] 소환 유발은 고를 튜너가 없어 발동할 수 없고, 싱크로도 전부 불가",
+   "rulings": [
+    "qa-23163"
+   ]
+  },
+  "vanity_fiend": {
+   "rating": "critical",
+   "note_ko": "일반 소환한 [[Kewl Tune Cue]]·[[Kewl Tune Reco]]의 유발(튜너 특소·서치) 중 특소는 불가, 싱크로도 불가. 레코 서치만 남는다",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  "vanity_ruler": {
+   "rating": "critical",
+   "note_ko": "[[Vanity's Fiend]]와 같다(상대만 특소 불가)",
+   "rulings": [
+    "qa-24292"
+   ]
+  },
+  "skill_drain": {
+   "rating": "critical",
+   "note_ko": "큐·레코·믹스의 소환 유발, [[Kewl Tune Track Maker]] 특소 유발이 모두 필드 효과라 무효. 세트해 뒀다면 [[Kewl Tune Cue]]·[[Kewl Tune Reco]]의 소환 유발에 체인. 패·묘지 효과(로터리 공개, 소재 유발)와 자신을 릴리스하는 [[Kewl Tune Remix]]는 막지 못한다",
+   "rulings": [
+    "supp-5740"
+   ]
+  },
+  "mistake": {
+   "rating": "critical",
+   "note_ko": "[[Kewl Tune Track Maker]]·레코·믹스·로터리 서치로 JJ·[[Kewl Tune Synchro]]를 모으는 덱. 큐 초동은 [[Kewl Tune Track Maker]] 서치(cue 4단계), 레코 초동은 첫 서치(reco 2단계)에서 끝난다. 세트해 뒀다면 그 서치 발동에 체인",
+   "rulings": [
+    "qa-22433"
+   ]
+  },
+  "rivalry": {
+   "rating": "strong",
+   "note_ko": "킬러튠은 종족이 전부 다르다(천사족 큐·사이버스족 로터리·악마족 레코·전사족 믹스·기계족 트랙메이커). 큐가 있는 동안 로터리를 덱에서 낼 수 없다. 다만 '필드의 이 카드+패의 튜너'로 싱크로하는 공통 효과 덕에 소재가 함께 빠지는 싱크로는 계속 된다",
+   "rulings": [
+    "supp-5622"
+   ]
+  },
+  "gozen": {
+   "rating": "strong",
+   "note_ko": "큐·로터리·트랙메이커(빛)까지는 통과하지만 레코(화염)가 있는 동안 믹스(바람)를 일반 소환할 수 없어 [[Kewl Tune Remix]]가 안 나온다. 패 튜너 소재 싱크로로 일부 우회",
+   "rulings": [
+    "supp-7934"
+   ]
+  },
+  "only_one": {
+   "rating": "weak",
+   "note_ko": "킬러튠 몬스터는 종족이 거의 겹치지 않는다(믹스·리믹스 전사족은 소재로 빠짐). 엘펜노츠 혼합형만 마법사족 2장을 세울 때 막힌다",
+   "rulings": [
+    "supp-13447"
+   ]
   }
  },
  "notes_ko": [
@@ -1240,6 +1946,14 @@
        {
         "id": "droplet",
         "note_ko": "몬스터를 보내면 몬스터 효과로 체인 불가 → 무효. 마법도 보내면 [[Kewl Tune Synchro]] 체인도 막힘"
+       },
+       {
+        "id": "statue_torrent",
+        "note_ko": "특소할 튜너가 물이 아니라 발동 불가"
+       },
+       {
+        "id": "herald",
+        "note_ko": "리믹스 발동에 체인해 발동 무효"
        }
       ],
       "bait_ko": "[[Infinite Impermanence]]·[[Ghost Ogre & Snow Rabbit]]를 [[Kewl Tune Remix]]에 쓰면 릴리스(코스트)로 체인해 피한다. 반대로 상대가 [[Kewl Tune Remix]]를 쓰게 만드는 미끼로는 쓸 수 있다"
@@ -1258,6 +1972,18 @@
        {
         "id": "super_poly",
         "note_ko": "융합 소재로 보내면 싱크로 소재가 아니라 유발 없음(체인 불가)"
+       },
+       {
+        "id": "banisher",
+        "note_ko": "앞면이면 소재가 제외되어 이 유발이 나오지 않는다"
+       },
+       {
+        "id": "fissure",
+        "note_ko": "앞면이면 소재(몬스터)가 제외되어 유발 없음"
+       },
+       {
+        "id": "retaliating_c",
+        "note_ko": "[[Kewl Tune Synchro]] 발동에 체인해 특소해 두면 소재가 제외되어 유발 없음"
        }
       ],
       "bait_ko": "애초에 마함을 세트하지 않고 패에서 바로 쓰는 카드 위주로 돌파하면 파괴 대상이 없다"
@@ -1284,6 +2010,18 @@
        {
         "id": "super_poly",
         "note_ko": "융합 소재로 보내 유발 없음"
+       },
+       {
+        "id": "banisher",
+        "note_ko": "앞면이면 소재가 제외되어 이 유발이 나오지 않는다"
+       },
+       {
+        "id": "fissure",
+        "note_ko": "앞면이면 소재(몬스터)가 제외되어 유발 없음"
+       },
+       {
+        "id": "retaliating_c",
+        "note_ko": "[[Kewl Tune Synchro]] 발동에 체인해 특소해 두면 소재가 제외되어 유발 없음"
        }
       ],
       "bait_ko": "바운스 대상이 엑스트라 덱 몬스터면 엑스트라로 돌아간다. 큰 엑스트라 몬스터는 [[Kewl Tune Track Maker]]를 처리한 뒤에 낸다"
@@ -1321,6 +2059,10 @@
         "rulings": [
          "qa-12781"
         ]
+       },
+       {
+        "id": "statue_torrent",
+        "note_ko": "[[Zalen the Shackled Dragon]](어둠)를 퀵 싱크로할 수 없다"
        }
       ],
       "bait_ko": "내 효과는 체인 1로만 쓰고, 상대 효과에 체인하지 않는다. [[Zalen the Shackled Dragon]] 무효를 버려도 되는 카드에 상대가 체인하게 만든 뒤 본명을 낸다"
@@ -1390,6 +2132,10 @@
        {
         "id": "kurikara",
         "note_ko": "효과를 쓴 뒤 릴리스"
+       },
+       {
+        "id": "dd_crow",
+        "note_ko": "대상인 묘지 튜너를 체인으로 제외해 불발"
        }
       ],
       "bait_ko": "B2B가 서 있으면 몬스터 효과 대신 마법·함정 위주로 돌파. 몬스터 효과를 쓸 때마다 상대 필드가 늘어난다"
@@ -1412,6 +2158,10 @@
        {
         "id": "spark",
         "note_ko": "패에서 몬스터 효과를 쓴 턴이라 발동 가능 → 상대 몬스터 1장 제외"
+       },
+       {
+        "id": "statue_torrent",
+        "note_ko": "클립(어둠)의 자가 특소 불가"
        }
       ],
       "bait_ko": ""
@@ -1513,6 +2263,18 @@
        {
         "id": "super_poly",
         "note_ko": "융합 소재로 보내 유발 없음"
+       },
+       {
+        "id": "banisher",
+        "note_ko": "앞면이면 소재가 제외되어 이 유발이 나오지 않는다"
+       },
+       {
+        "id": "fissure",
+        "note_ko": "앞면이면 소재(몬스터)가 제외되어 유발 없음"
+       },
+       {
+        "id": "retaliating_c",
+        "note_ko": "[[Kewl Tune Synchro]] 발동에 체인해 특소해 두면 소재가 제외되어 유발 없음"
        }
       ],
       "bait_ko": "바운스 대상이 엑스트라 덱 몬스터면 엑스트라로 돌아간다. 큰 엑스트라 몬스터는 [[Kewl Tune Track Maker]]를 처리한 뒤에 낸다"
@@ -1554,6 +2316,10 @@
        {
         "id": "droplet",
         "note_ko": "몬스터를 보내면 몬스터 효과로 체인 불가 → 무효. 마법도 보내면 [[Kewl Tune Synchro]] 체인도 막힘"
+       },
+       {
+        "id": "statue_torrent",
+        "note_ko": "특소할 튜너가 물이 아니라 발동 불가"
        }
       ],
       "bait_ko": "[[Infinite Impermanence]]·[[Ghost Ogre & Snow Rabbit]]를 [[Kewl Tune Remix]]에 쓰면 릴리스(코스트)로 체인해 피한다. 반대로 상대가 [[Kewl Tune Remix]]를 쓰게 만드는 미끼로는 쓸 수 있다"
@@ -1663,6 +2429,14 @@
        {
         "id": "super_poly",
         "note_ko": "융합 소재로 보내 유발 없음"
+       },
+       {
+        "id": "banisher",
+        "note_ko": "앞면이면 소재가 제외되어 이 유발이 나오지 않는다"
+       },
+       {
+        "id": "fissure",
+        "note_ko": "앞면이면 소재(몬스터)가 제외되어 유발 없음"
        }
       ],
       "bait_ko": "바운스 대상이 엑스트라 덱 몬스터면 엑스트라로 돌아간다. 큰 엑스트라 몬스터는 [[Kewl Tune Track Maker]]를 처리한 뒤에 낸다"
@@ -1881,6 +2655,55 @@
    "maxxc": {
     "rating": "ok",
     "note_ko": "내 턴 상대 퀵 싱크로·특소마다 드로우. 테마 문서에서도 내 턴 사용 가치를 높게 본다"
+   },
+   "retaliating_c": {
+    "rating": "ok",
+    "note_ko": "내 턴에 상대가 세트한 [[Kewl Tune Synchro]](서치 후 싱크로 소환 = 특소를 포함하는 마법)를 발동하면 체인해 특소 → 앞면인 동안 소재가 전부 제외되어 레코 마함 파괴·트랙메이커 바운스·믹스 파괴가 나오지 않는다. 서치와 싱크로 자체는 막지 못하고, 묘지에 이미 있는 킬러튠으로 [[Kewl Tune Loudness War]]는 쓸 수 있다",
+    "rulings": [
+     "qa-15449",
+     "qa-23933"
+    ]
+   },
+   "banisher": {
+    "rating": "strong",
+    "note_ko": "메인 페이즈에 일반 소환해 두면 이후 상대 퀵 싱크로의 소재가 전부 제외되어 소재 유발(믹스 파괴·레코 마함 파괴·트랙메이커 바운스·클립 엑스트라 제외)이 사라진다. 발동이 아니라 [[Zalen the Shackled Dragon]]도 손대지 못한다. 상대는 묘지에 이미 있는 킬러튠으로 [[Kewl Tune Loudness War]]를 써서 치울 수 있으니 그 전에 라우드니스워·리믹스를 소모시키거나 묘지를 비워 둘 것"
+   },
+   "fissure": {
+    "rating": "strong",
+    "note_ko": "[[Banisher of the Radiance]]와 같은 효과를 지속 마법으로. 마법 발동이라 [[Kewl Tune Loudness War]](퀵)가 반응해 소재 유발을 적용할 수 있다. 앞면이 되면 이후 소재 유발이 없다"
+   },
+   "dark_law": {
+    "rating": "ok",
+    "note_ko": "HERO 덱 전용. 소재 유발 봉쇄 + 상대가 [[Kewl Tune Synchro]]·트랙메이커로 서치할 때마다 패 1장 무작위 제외"
+   },
+   "herald": {
+    "rating": "ok",
+    "note_ko": "[[Kewl Tune Remix]]의 퀵 발동에 체인해 릴리스 → 발동 무효(리믹스는 코스트로 이미 릴리스). 패에서 소재로 쓰는 튜너는 제외되어 그 유발이 없다. 필드 소재 유발은 못 막음"
+   },
+   "dd_crow": {
+    "rating": "ok",
+    "note_ko": "[[Kewl Tune B2B]]의 묘지 튜너 대상 효과에 체인해 그 튜너를 제외하면 불발(싱크로도 없음). [[Kewl Tune Loudness War]]의 코스트(묘지 킬러튠)를 미리 지워 둘 수도 있다"
+   },
+   "statue_torrent": {
+    "rating": "strong",
+    "note_ko": "후공 메인 페이즈에 일반 소환. 킬러튠에는 물 몬스터가 없어 [[Kewl Tune Remix]]·[[Kewl Tune Clip]]·[[Kewl Tune Synchro]]·[[Kewl Tune B2B]]의 퀵 싱크로가 전부 막힌다(특소할 수 없는 효과는 발동부터 불가). [[Barrier Statue of the Inferno]]도 거의 같다(화염은 레코뿐). 라우드니스워가 소재 유발(믹스 파괴)로 결계상을 치울 수 있으니 주의",
+    "rulings": [
+     "qa-23163"
+    ]
+   },
+   "dim_barrier": {
+    "rating": "strong",
+    "note_ko": "후공 1턴에는 세트한 턴이라 못 쓴다. 이미 세트해 둔 다음 내 턴이라면 '싱크로' 선언으로 퀵 싱크로를 전부 막고, 필드의 [[Kewl Tune Remix]]·[[Zalen the Shackled Dragon]]·[[Kewl Tune Loudness War]] 효과도 무효. 리믹스는 자신을 릴리스하는 코스트라 체인되면 처리는 되지만 그 뒤 싱크로는 불가",
+    "rulings": [
+     "supp-12668"
+    ]
+   },
+   "protos": {
+    "rating": "ok",
+    "note_ko": "'어둠' 선언 → [[Kewl Tune Remix]]·[[Kewl Tune RS]]·[[Zalen the Shackled Dragon]] 등 어둠 싱크로 일괄 파괴, 다음 턴 끝까지 어둠 특소 불가. 리믹스는 체인해 릴리스로 피하면서 빛 튜너 싱크로를 낼 수 있다",
+    "rulings": [
+     "supp-14994"
+    ]
    }
   },
   "sequencing_ko": [

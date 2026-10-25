@@ -16,6 +16,18 @@
 | 저택 와라시 (Ghost Belle & Haunted Mansion) | 🔴 치명 | 킬러튠 큐 (Kewl Tune Cue) 일반 소환 유발(패·덱·묘지에서 튜너 특소)과 킬러튠 레코 (Kewl Tune Reco)·킬러튠 믹스 (Kewl Tune Mix)의 서치(덱·묘지에서 패에 넣기)는 '묘지에서'를 포함하므로 묘지가 비어 있어도 발동째 무효할 수 있다(우라라와 같은 지점: cue·reco 2단계). 혼합형은 바로네스가 먼저 서서 무효당하기 쉽다. 내 턴에는 킬러튠 리믹스 (Kewl Tune Remix)의 회수+특소, 킬러튠 B2B (Kewl Tune B2B)에. |
 | PSY프레임기어 γ (PSY-Framegear Gamma) | 🔴 치명 | 내 필드에 몬스터가 없을 때 킬러튠 큐 (Kewl Tune Cue) 일반 소환 유발(레코 시작이면 레코 서치)에 체인. 발동 무효 + 파괴라 큐가 사라져 패 튜너 싱크로도 못 한다. 혼합형은 엘펜노츠 루키나 (Elfnote Lucina) 서치(바로네스 전). |
 | 피드라울리스＝하르모니아 (Fydraulis Harmonia) | 🔴 치명 | 싱크로 5장 공개 기준. 킬러튠 큐 (Kewl Tune Cue) 일반 소환 유발(레코 시작이면 레코 서치)에 직접 체인해 파괴 → 레벨 4 싱크로가 안 나온다. 트랙메이커 서치는 묘지 유발에 덮여 닿지 않는다. 파괴는 싱크로 소재 송부가 아니라 레코·믹스 묘지 효과도 안 나온다 |
+| 매크로 코스모스 (Macro Cosmos) | 🔴 치명 | 킬러튠의 견제는 전부 '싱크로 소재로 묘지에 보내진 경우' 유발(로터리 서치·믹스 파괴·레코 마함 파괴·트랙메이커 바운스)과 묘지 튜너를 쓰는 킬러튠 리믹스 (Kewl Tune Remix)·킬러튠 라우드니스워 (Kewl Tune Loudness War)다. 소재가 제외되면 1턴째 서치가 1장 줄고, 내 턴의 퀵 싱크로 견제가 통째로 사라진다. 릴리스 코스트(JJ·리믹스)는 매크로 아래에서도 쓸 수 있다 |
+| 차원의 틈 (Dimensional Fissure) | 🔴 치명 | 매크로 코스모스 (Macro Cosmos)와 같은 지점(견제 소스가 전부 몬스터). 선공 때 미리 앞면 |
+| 섬광의 추방자 (Banisher of the Radiance) | 🔴 치명 | 매크로 코스모스 (Macro Cosmos)와 같은 지점. 1턴째 킬러튠에게는 이 몬스터를 치울 수단이 소재 유발(믹스 파괴)밖에 없는데 그것이 막힌다 |
+| 마스크드 히어로 다크 로우 (Masked HERO Dark Law) | 🔴 치명 | 매크로 코스모스 (Macro Cosmos)와 같은 지점에 더해 킬러튠 트랙메이커 (Kewl Tune Track Maker)·레코·믹스의 서치마다 패 1장 무작위 제외(1턴 1번). HERO 덱 전용 |
+| 크샤트리라 어라이즈하트 (Kashtira Arise-Heart) | 🔴 치명 | 매크로 코스모스 (Macro Cosmos)와 같은 지점. 소재 3개로 킬러튠 리믹스 (Kewl Tune Remix) 등을 퀵 뒷면 제외(내성 없음) |
+| 차원 장벽 (Dimensional Barrier) | 🔴 치명 | '싱크로' 선언. 덱 전체가 튜너 싱크로 연쇄라 킬러튠 트랙메이커 (Kewl Tune Track Maker)부터 막혀 JJ·킬러튠 싱크로 (Kewl Tune Synchro)를 가져올 수 없다. 스탠바이나 킬러튠 큐 (Kewl Tune Cue) 소환 유발에 체인 |
+| 업화의 결계상 (Barrier Statue of the Inferno) | 🔴 치명 | 화염은 킬러튠 레코 (Kewl Tune Reco)뿐이고 킬러튠 싱크로는 전부 화염이 아니다. 큐로 레코를 불러도 싱크로가 안 된다 |
+| 호우의 결계상 (Barrier Statue of the Torrent) | 🔴 치명 | 물 킬러튠이 없다. 킬러튠 큐 (Kewl Tune Cue) 소환 유발은 고를 튜너가 없어 발동할 수 없고, 싱크로도 전부 불가 |
+| 배너티 데블 (Vanity's Fiend) | 🔴 치명 | 일반 소환한 킬러튠 큐 (Kewl Tune Cue)·킬러튠 레코 (Kewl Tune Reco)의 유발(튜너 특소·서치) 중 특소는 불가, 싱크로도 불가. 레코 서치만 남는다 |
+| 배너티 룰러 (Vanity's Ruler) | 🔴 치명 | 배너티 데블 (Vanity's Fiend)과 같다(상대만 특소 불가) |
+| 스킬 드레인 (Skill Drain) | 🔴 치명 | 큐·레코·믹스의 소환 유발, 킬러튠 트랙메이커 (Kewl Tune Track Maker) 특소 유발이 모두 필드 효과라 무효. 세트해 뒀다면 킬러튠 큐 (Kewl Tune Cue)·킬러튠 레코 (Kewl Tune Reco)의 소환 유발에 체인. 패·묘지 효과(로터리 공개, 소재 유발)와 자신을 릴리스하는 킬러튠 리믹스 (Kewl Tune Remix)는 막지 못한다 |
+| 미스테이크 (Mistake) | 🔴 치명 | 킬러튠 트랙메이커 (Kewl Tune Track Maker)·레코·믹스·로터리 서치로 JJ·킬러튠 싱크로 (Kewl Tune Synchro)를 모으는 덱. 큐 초동은 킬러튠 트랙메이커 (Kewl Tune Track Maker) 서치(cue 4단계), 레코 초동은 첫 서치(reco 2단계)에서 끝난다. 세트해 뒀다면 그 서치 발동에 체인 |
 | 증식의 G (Maxx "C") | 🟠 아픔 | 선공 1턴 특소 4~5회. 쓴다면 스탠바이 또는 큐 유발에 체인. 내 턴(상대의 퀵 싱크로 대응)에 쓰는 가치도 높다 |
 | 마루챠미 후와로스 (Mulcharmy Fuwalos) | 🟠 아픔 | 덱·엑스트라 특소가 대부분. 큐 유발 전에 |
 | 드롤 & 로크 버드 (Droll & Lock Bird) | 🟠 아픔 | 레코 시작이면 첫 서치 직후가 치명적. 큐 시작은 트랙메이커+로터리 체인이 끝난 뒤에야 쓸 수 있어 효과가 줄어듦 |
@@ -28,15 +40,24 @@
 | The Fallen & The Virtuous (The Fallen & The Virtuous) | 🟠 아픔 | 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 큐 유발에 체인해 큐 파괴, 또는 주크조인트 “Killer Tune” (JJ "Kewl Tune") 발동에 체인해 필드 마법 파괴 |
 | 금지된 성관 (Forbidden Crown) | 🟠 아픔 | 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 큐 유발에 쓰면 무효 + 싱크로 소재 불가. 트랙메이커 서치에는 체인 가드 위(체인 4)에서도 닿는다 |
 | 싸이크론 (Mystical Space Typhoon) | 🟠 아픔 | 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 주크조인트 “Killer Tune” (JJ "Kewl Tune") 발동에 체인해 파괴(추가 일반 소환권·덱 특소 소멸). 엔드 페이즈에 이번 턴 세트된 킬러튠 싱크로 (Kewl Tune Synchro)를 깨면 상대가 체인 못 한다 |
+| 아크 디클레어러 (Herald of the Arc Light) | 🟠 아픔 | 무효는 킬러튠 큐 (Kewl Tune Cue) 일반 소환 유발(cue 2단계)이나 킬러튠 레코 (Kewl Tune Reco) 서치에. 패의 튜너를 소재로 쓰면(패→묘지) 제외되어 그 튜너의 소재 유발이 없다. 필드 소재의 유발은 못 막는다. JJ의 릴리스 효과는 앞면 마법 효과라 무효 불가 |
+| 심연의 결계상 (Barrier Statue of the Abyss) | 🟠 아픔 | 어둠 이외 특소 불가. 킬러튠 큐 (Kewl Tune Cue)는 킬러튠 로터리 (Kewl Tune Rotary)(빛) 대신 킬러튠 클립 (Kewl Tune Clip)(어둠)만 부를 수 있고, 킬러튠 트랙메이커 (Kewl Tune Track Maker)(빛)가 안 나와 JJ 서치가 막힌다. 어둠 튜너 싱크로(킬러튠 크랙클 (Kewl Tune Crackle)·킬러튠 레드씰 (Kewl Tune RS))로 일부 우회 |
+| 섬광의 결계상 (Barrier Statue of the Heavens) | 🟠 아픔 | 큐·로터리·트랙메이커·라우드니스워는 빛이라 통과. JJ로 킬러튠 레코 (Kewl Tune Reco)·킬러튠 믹스 (Kewl Tune Mix)를 특소할 수 없고(패에 넣고 일반 소환으로 우회), 킬러튠 리믹스 (Kewl Tune Remix)·킬러튠 레드씰 (Kewl Tune RS)(어둠)가 막혀 1턴 보드가 킬러튠 라우드니스워 (Kewl Tune Loudness War) 위주로 작아진다 |
+| 군웅할거 (Rivalry of Warlords) | 🟠 아픔 | 킬러튠은 종족이 전부 다르다(천사족 큐·사이버스족 로터리·악마족 레코·전사족 믹스·기계족 트랙메이커). 큐가 있는 동안 로터리를 덱에서 낼 수 없다. 다만 '필드의 이 카드+패의 튜너'로 싱크로하는 공통 효과 덕에 소재가 함께 빠지는 싱크로는 계속 된다 |
+| 어전시합 (Gozen Match) | 🟠 아픔 | 큐·로터리·트랙메이커(빛)까지는 통과하지만 레코(화염)가 있는 동안 믹스(바람)를 일반 소환할 수 없어 킬러튠 리믹스 (Kewl Tune Remix)가 안 나온다. 패 튜너 소재 싱크로로 일부 우회 |
 | 마루챠미 푸루리아 (Mulcharmy Purulia) | 🟡 할만함 | 내 필드에 카드가 없을 때 상대 스탠바이나 첫 일반 소환 전에. 순수형은 큐·믹스(또는 레코·큐) 일반 소환 2장, 엘펜노츠 혼합형은 루키나·레기나·디나 패 특소 + 큐 일반 소환으로 4장 안팎. 패 튜너를 소재로 쓰는 싱크로는 패 특소가 아님. |
 | 사요 시구레 (Ghost Mourner & Moonlit Chill) | 🟡 할만함 | 트랙메이커 소환 시 효과 무효. 포영과 비슷한 역할 |
 | 도미나스 스파크 (Dominus Spark) | 🟡 할만함 | 로터리·큐 묘지 유발 체인 위에서 패로 발동해 킬러튠 트랙메이커 (Kewl Tune Track Maker)를 제외(cue 6단계, reco 5단계). 주크조인트가 릴리스할 튜너가 사라져 덱 특소가 막힌다. 혼합형은 플뢰르 드 바로네스 (Baronne de Fleur)가 먼저 서서 무효당한다. |
 | 초융합 (Super Polymerization) | 🟡 할만함 | 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 순수형은 속성이 갈려 소재 조합이 거의 없다. 엘펜노츠 혼합형은 액셀싱크로 스타더스트 드래곤 (Accel Synchro Stardust Dragon) 싱크로 때 플뢰르 드 바로네스 (Baronne de Fleur)와 함께 늪지의 도로곤 (Mudragon of the Swamp)으로 치워 킬러튠 파트 진입을 막는다 |
+| 아크네메시스 프로토스 (Archnemeses Protos) | 🟡 할만함 | 선공 1턴엔 '어둠'(프로토스 자신)이 확실한 선언. 킬러튠 리믹스 (Kewl Tune Remix)·킬러튠 레드씰 (Kewl Tune RS)·킬러튠 B2B (Kewl Tune B2B)·쇄박룡 잘렌 (Zalen the Shackled Dragon)·킬러튠 클립 (Kewl Tune Clip)이 어둠이라 상대 턴과 다음 내 턴까지 특소 불가. 킬러튠 트랙메이커 (Kewl Tune Track Maker)·킬러튠 라우드니스워 (Kewl Tune Loudness War)(빛)는 남는다 |
 | 마루챠미 냐루스 (Mulcharmy Meowls) | ⚪ 약함 | 선공 1턴 묘지 특소는 큐의 레코 소생 정도. 상대 턴 리믹스·B2B 특소는 내 턴이라 해당 시점에만 |
 | 삼전의 재 (Triple Tactics Talent) | ⚪ 약함 | 상대 1턴 전개에는 쓸 곳이 거의 없음(내 메인 페이즈 조건). 내 턴(후공)에: 상대가 킬러튠 리믹스 (Kewl Tune Remix)·킬러튠 B2B (Kewl Tune B2B)·킬러튠 클립 (Kewl Tune Clip) 등 몬스터 효과로 퀵 싱크로를 하면 발동 조건이 된다. 체인 1로 발동해 쇄박룡 잘렌 (Zalen the Shackled Dragon) 등을 탈취하거나 2장 드로우. |
 | 금지된 일적 (Forbidden Droplet) | ⚪ 약함 | 후공 돌파용. 상대 턴 퀵 싱크로 체인에는 일반 마법이라 못 끼어듦 |
 | 비스테드 마그나무트 (Bystial Magnamhut) | ⚪ 약함 | 묘지의 빛·어둠 튜너(큐·로터리·클립)를 지워 리믹스 회수 후보를 줄이는 정도 |
 | 비스테드 드루이드브룸 (Bystial Druiswurm) | ⚪ 약함 | 묘지의 빛·어둠 튜너(큐·로터리·트랙메이커)를 지울 수 있지만 선공 1턴에 그 묘지를 쓰는 효과가 거의 없고, 리믹스 회수 후보도 여러 장 남는다 |
+| 응전의 G (Retaliating "C") | ⚪ 약함 | 상대 1턴 전개는 킬러튠 싱크로 (Kewl Tune Synchro)를 세트만 하고 주크조인트 “Killer Tune” (JJ "Kewl Tune") 발동에는 특소가 없어 꺼낼 기회가 없다. 내 턴에 상대가 세트한 킬러튠 싱크로 (Kewl Tune Synchro)(서치 후 싱크로 소환)를 발동할 때 쓰는 카드(후공 돌파 참고) |
+| D.D. 크로우 (D.D. Crow) | ⚪ 약함 | 1턴째 묘지를 대상으로 하는 효과가 없다(킬러튠 큐 (Kewl Tune Cue)·킬러튠 레코 (Kewl Tune Reco)·킬러튠 믹스 (Kewl Tune Mix)는 '덱·묘지에서' 고르는 효과라 묘지 카드를 지워도 덱에서 가져온다). 내 턴에 킬러튠 B2B (Kewl Tune B2B)·킬러튠 라우드니스워 (Kewl Tune Loudness War) 자원을 지울 때 쓴다 |
+| 센서 만별 (There Can Be Only One) | ⚪ 약함 | 킬러튠 몬스터는 종족이 거의 겹치지 않는다(믹스·리믹스 전사족은 소재로 빠짐). 엘펜노츠 혼합형만 마법사족 2장을 세울 때 막힌다 |
 | 말살의 지명자 (Crossout Designator) | ⛔ 비추 | 자신 메인 덱에서 제외하는 카드라 킬러튠 카드는 선언 불가. 공용 카드 대책으로만 |
 
 ## 패트랩 타이밍 (우선순위 순)
@@ -113,88 +134,276 @@
    - 타이밍: 레코의 첫 서치(로터리)가 처리된 직후
    - 이유: 레코 시작은 이후 트랙메이커·로터리·믹스의 서치가 전부 막혀 주크조인트도 킬러튠 싱크로도 못 가져온다. 큐 시작이면 트랙메이커+로터리의 서치가 한 체인으로 같이 처리된 뒤에야 드롤을 쓸 수 있어 효과가 떨어진다.
    - 맞은 뒤 상대 루트: 레코+로터리로 트랙메이커만 만들고 종료. 큐 시작이면 레코 서치 이후가 막혀 리믹스가 안 나오고 킬러튠 싱크로 세트 정도로 끝난다.
-19. 🟠 아픔 **도미나스 퍼지** (Dominus Purge) → **킬러튠 레코** (Kewl Tune Reco) — cue 9단계
+19. 🔴 치명 **매크로 코스모스** (Macro Cosmos) → **킬러튠 로터리** (Kewl Tune Rotary) — cue 5단계
+   - 타이밍: 세트해 뒀다면 킬러튠 큐 (Kewl Tune Cue) 소환 유발에 체인해 발동 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 킬러튠 트랙메이커 (Kewl Tune Track Maker)의 소재(큐·로터리)가 제외되어 로터리 서치·큐 덱 확인이 없다. 이후 레코·믹스·트랙메이커의 소재 유발도, 묘지 튜너를 쓰는 킬러튠 리믹스 (Kewl Tune Remix)·킬러튠 라우드니스워 (Kewl Tune Loudness War)도 전부 못 쓴다.
+   - 맞은 뒤 상대 루트: 킬러튠 트랙메이커 (Kewl Tune Track Maker) 서치로 JJ 또는 킬러튠 싱크로 (Kewl Tune Synchro) 중 1장만 가져와 리믹스 보드는 만들지만, 그 보드가 내 턴에 하는 일이 거의 없다.
+20. 🔴 치명 **매크로 코스모스** (Macro Cosmos) → **킬러튠 로터리** (Kewl Tune Rotary) — reco 5단계
+   - 타이밍: 세트해 뒀다면 킬러튠 레코 (Kewl Tune Reco) 서치에 체인 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: cue 5단계와 같다. 이 루트는 10단계 큐의 묘지 레코 소생도 대상이 없다.
+   - 맞은 뒤 상대 루트: —
+21. 🔴 치명 **매크로 코스모스** (Macro Cosmos) → **엘펜노츠의 감옥신정** (Elfnote Power Patron) — elfnote_hybrid 7단계
+   - 타이밍: 세트해 뒀다면 엘펜노츠 루키나 (Elfnote Lucina) 서치에 체인 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 엘펜노츠 파트부터 감옥신정 서치·레기나 회수가 사라지고 패러렐리즘·랩소디아는 코스트를 낼 수 없다.
+   - 맞은 뒤 상대 루트: —
+22. 🔴 치명 **차원의 틈** (Dimensional Fissure) → **킬러튠 로터리** (Kewl Tune Rotary) — cue 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 매크로 코스모스 (Macro Cosmos)와 같다(킬러튠 견제 소스는 전부 몬스터).
+   - 맞은 뒤 상대 루트: —
+23. 🔴 치명 **차원의 틈** (Dimensional Fissure) → **킬러튠 로터리** (Kewl Tune Rotary) — reco 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: cue 5단계와 같다.
+   - 맞은 뒤 상대 루트: —
+24. 🔴 치명 **섬광의 추방자** (Banisher of the Radiance) → **킬러튠 로터리** (Kewl Tune Rotary) — cue 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 매크로 코스모스 (Macro Cosmos)와 같다. 상대가 이 몬스터를 치울 1턴째 수단(믹스 소재 파괴)이 함께 막힌다.
+   - 맞은 뒤 상대 루트: —
+25. 🔴 치명 **섬광의 추방자** (Banisher of the Radiance) → **킬러튠 로터리** (Kewl Tune Rotary) — reco 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: cue 5단계와 같다.
+   - 맞은 뒤 상대 루트: —
+26. 🔴 치명 **마스크드 히어로 다크 로우** (Masked HERO Dark Law) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 4단계
+   - 타이밍: 내 필드에 미리 앞면이면 서치 처리 후 반응
+   - 이유: 킬러튠 트랙메이커 (Kewl Tune Track Maker) 서치에 반응해 패 1장 무작위 제외, 이후는 매크로 코스모스 (Macro Cosmos)와 같이 소재 유발이 전부 사라진다.
+   - 맞은 뒤 상대 루트: —
+27. 🔴 치명 **마스크드 히어로 다크 로우** (Masked HERO Dark Law) → **킬러튠 레코** (Kewl Tune Reco) — reco 2단계
+   - 타이밍: 내 필드에 미리 앞면이면 서치 처리 후 반응
+   - 이유: 레코 서치에 반응해 패 1장 무작위 제외. 이후 소재 유발 없음.
+   - 맞은 뒤 상대 루트: —
+28. 🔴 치명 **크샤트리라 어라이즈하트** (Kashtira Arise-Heart) → **킬러튠 로터리** (Kewl Tune Rotary) — cue 5단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘. 퀵 제외는 마지막 킬러튠 리믹스 (Kewl Tune Remix)에
+   - 이유: 매크로 코스모스 (Macro Cosmos)와 같은 지점에 퀵 뒷면 제외까지.
+   - 맞은 뒤 상대 루트: —
+29. 🔴 치명 **차원 장벽** (Dimensional Barrier) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 3단계
+   - 타이밍: 세트해 뒀다면 킬러튠 큐 (Kewl Tune Cue) 소환 유발(또는 스탠바이)에 체인해 '싱크로' 선언
+   - 이유: 튜너 싱크로가 하나도 안 나와 JJ·킬러튠 싱크로 (Kewl Tune Synchro) 서치가 시작되지 않는다. 큐+로터리(또는 레코)만 남는다.
+   - 맞은 뒤 상대 루트: —
+30. 🔴 치명 **차원 장벽** (Dimensional Barrier) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — reco 3단계
+   - 타이밍: 세트해 뒀다면 레코 서치에 체인해 '싱크로' 선언
+   - 이유: cue 3단계와 같다.
+   - 맞은 뒤 상대 루트: —
+31. 🔴 치명 **차원 장벽** (Dimensional Barrier) → **플뢰르 드 바로네스** (Baronne de Fleur) — elfnote_hybrid 6단계
+   - 타이밍: 세트해 뒀다면 루키나 서치에 체인해 '싱크로' 선언
+   - 이유: 엘펜노츠 파트의 싱크로부터 막힌다.
+   - 맞은 뒤 상대 루트: —
+32. 🔴 치명 **업화의 결계상** (Barrier Statue of the Inferno) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 3단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 큐는 킬러튠 레코 (Kewl Tune Reco)(화염)만 부를 수 있고, 킬러튠 트랙메이커 (Kewl Tune Track Maker)(빛) 등 킬러튠 싱크로는 전부 화염이 아니다.
+   - 맞은 뒤 상대 루트: 큐+레코로 레코 서치까지만.
+33. 🔴 치명 **업화의 결계상** (Barrier Statue of the Inferno) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — reco 3단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 레코 서치까지는 되지만 킬러튠 트랙메이커 (Kewl Tune Track Maker)가 나오지 않는다.
+   - 맞은 뒤 상대 루트: —
+34. 🔴 치명 **업화의 결계상** (Barrier Statue of the Inferno) → **엘펜노츠 레기나** (Elfnote Regina) — elfnote_hybrid 3단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 루키나(화염)는 나오지만 레기나(바람)가 안 된다.
+   - 맞은 뒤 상대 루트: —
+35. 🔴 치명 **호우의 결계상** (Barrier Statue of the Torrent) → **킬러튠 큐** (Kewl Tune Cue) — cue 2단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 물 튜너가 없어 큐의 소환 유발을 발동할 수 없다.
+   - 맞은 뒤 상대 루트: —
+36. 🔴 치명 **호우의 결계상** (Barrier Statue of the Torrent) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — reco 3단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 레코 서치까지만 되고 싱크로 불가.
+   - 맞은 뒤 상대 루트: —
+37. 🔴 치명 **호우의 결계상** (Barrier Statue of the Torrent) → **엘펜노츠 루키나** (Elfnote Lucina) — elfnote_hybrid 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 루키나 특소부터 불가.
+   - 맞은 뒤 상대 루트: —
+38. 🔴 치명 **배너티 데블** (Vanity's Fiend) → **킬러튠 큐** (Kewl Tune Cue) — cue 2단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 큐의 튜너 특소를 발동할 수 없고 싱크로도 불가.
+   - 맞은 뒤 상대 루트: —
+39. 🔴 치명 **배너티 데블** (Vanity's Fiend) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — reco 3단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 레코 서치는 되지만 싱크로 불가.
+   - 맞은 뒤 상대 루트: —
+40. 🔴 치명 **배너티 데블** (Vanity's Fiend) → **엘펜노츠 루키나** (Elfnote Lucina) — elfnote_hybrid 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 루키나 특소 불가.
+   - 맞은 뒤 상대 루트: —
+41. 🔴 치명 **배너티 룰러** (Vanity's Ruler) → **킬러튠 큐** (Kewl Tune Cue) — cue 2단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 배너티 데블 (Vanity's Fiend)과 같다.
+   - 맞은 뒤 상대 루트: —
+42. 🔴 치명 **배너티 룰러** (Vanity's Ruler) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — reco 3단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 배너티 데블 (Vanity's Fiend)과 같다.
+   - 맞은 뒤 상대 루트: —
+43. 🔴 치명 **배너티 룰러** (Vanity's Ruler) → **엘펜노츠 루키나** (Elfnote Lucina) — elfnote_hybrid 1단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 배너티 데블 (Vanity's Fiend)과 같다.
+   - 맞은 뒤 상대 루트: —
+44. 🔴 치명 **스킬 드레인** (Skill Drain) → **킬러튠 큐** (Kewl Tune Cue) — cue 2단계
+   - 타이밍: 세트해 뒀다면 이 효과 발동에 체인해 발동 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 큐의 튜너 특소가 처리되지 않아 1장 초동이 끝난다. 큐의 '패 튜너를 소재로' 공통 효과도 필드에서 무효.
+   - 맞은 뒤 상대 루트: 패에 다른 튜너가 있으면 킬러튠 로터리 (Kewl Tune Rotary) 공개(패 효과)로 추가 일반 소환하는 정도.
+45. 🔴 치명 **스킬 드레인** (Skill Drain) → **킬러튠 레코** (Kewl Tune Reco) — reco 2단계
+   - 타이밍: 세트해 뒀다면 이 효과 발동에 체인 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 레코 서치가 처리되지 않는다.
+   - 맞은 뒤 상대 루트: —
+46. 🔴 치명 **스킬 드레인** (Skill Drain) → **엘펜노츠 루키나** (Elfnote Lucina) — elfnote_hybrid 2단계
+   - 타이밍: 세트해 뒀다면 루키나 서치에 체인
+   - 이유: 엘펜노츠 파트 첫 서치부터 무효.
+   - 맞은 뒤 상대 루트: —
+47. 🔴 치명 **미스테이크** (Mistake) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 4단계
+   - 타이밍: 세트해 뒀다면 이 서치 효과 발동에 체인 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 큐→로터리 덱 특소는 막지 못하지만, 킬러튠 트랙메이커 (Kewl Tune Track Maker)·로터리 서치가 모두 막혀 JJ·킬러튠 싱크로 (Kewl Tune Synchro)가 안 온다.
+   - 맞은 뒤 상대 루트: 킬러튠 트랙메이커 (Kewl Tune Track Maker) 1장으로 멈춘다(로터리는 상대 묘지 카드를 덱 아래로 돌리는 모드만).
+48. 🔴 치명 **미스테이크** (Mistake) → **킬러튠 레코** (Kewl Tune Reco) — reco 2단계
+   - 타이밍: 세트해 뒀다면 이 서치에 체인
+   - 이유: 첫 서치가 막혀 레코 1장으로 끝난다.
+   - 맞은 뒤 상대 루트: —
+49. 🔴 치명 **미스테이크** (Mistake) → **엘펜노츠 루키나** (Elfnote Lucina) — elfnote_hybrid 2단계
+   - 타이밍: 세트해 뒀다면 루키나 서치에 체인
+   - 이유: 엘펜노츠 파트 첫 서치부터 막힌다.
+   - 맞은 뒤 상대 루트: —
+50. 🟠 아픔 **도미나스 퍼지** (Dominus Purge) → **킬러튠 레코** (Kewl Tune Reco) — cue 9단계
    - 타이밍: 주크조인트로 덱에서 나온 킬러튠 레코 (Kewl Tune Reco)의 서치 유발(믹스)에 직접 체인
    - 이유: 트랙메이커·로터리 서치는 큐 묘지 유발이 맨 위에 쌓여 직접 체인할 수 없다. 레코 서치는 단독 체인이라 닿고, 믹스가 없으면 킬러튠 리믹스 (Kewl Tune Remix)를 못 만든다. 패에서 쓰면 이 듀얼 동안 내 어둠·물·화염 몬스터 효과를 발동할 수 없다.
    - 맞은 뒤 상대 루트: 놓쳤다면 11단계 믹스 서치(2장째 레코)도 대상.
-20. 🟠 아픔 **도미나스 임펄스** (Dominus Impulse) → **주크조인트 “Killer Tune”** (JJ "Kewl Tune") — reco 7단계
+51. 🟠 아픔 **도미나스 임펄스** (Dominus Impulse) → **주크조인트 “Killer Tune”** (JJ "Kewl Tune") — reco 7단계
    - 타이밍: 주크조인트 “Killer Tune” (JJ "Kewl Tune")의 '튜너 릴리스 → 덱에서 킬러튠 서치 또는 특소' 효과에 직접 체인
    - 이유: 레코 루트에서 특소 효과가 처음 나오는 곳. 트랙메이커는 코스트로 이미 릴리스되었고, 믹스가 안 나오면 큐 서치·리믹스가 없다. 서치·특소 중 하나를 고르는 효과라 '특소를 포함하는 효과'로 임펄스가 닿는다. 패에서 쓰면 이 듀얼 동안 내 빛·땅·바람 몬스터 효과를 발동할 수 없다.
    - 맞은 뒤 상대 루트: 10단계 큐의 레코 소생도 대상이다(1장뿐).
-21. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **주크조인트 “Killer Tune”** (JJ "Kewl Tune") — cue 8단계
+52. 🟠 아픔 **유령토끼** (Ghost Ogre & Snow Rabbit) → **주크조인트 “Killer Tune”** (JJ "Kewl Tune") — cue 8단계
    - 타이밍: 주크조인트 “Killer Tune” (JJ "Kewl Tune")의 '튜너 릴리스 → 덱에서 서치/특소' 효과 발동에 체인 (앞면 필드 마법의 효과라 유령토끼 가능)
    - 이유: 특소 자체는 처리되지만 주크조인트가 사라져 튜너 추가 일반 소환권이 없어진다. 큐로 소환권을 쓴 뒤라 믹스를 일반 소환하지 못해 리믹스가 안 나온다.
    - 맞은 뒤 상대 루트: 레코가 서치한 믹스를 패의 튜너로 써서 킬러튠 싱크로 (Kewl Tune Synchro)를 내 턴에 쓰면 레코+패 튜너로 킬러튠 레드씰 (Kewl Tune RS) 정도는 가능. 트랙메이커 유발 체인은 묘지 효과로 덮여서 유령토끼가 닿지 않는다.
-22. 🟠 아픔 **싸이크론** (Mystical Space Typhoon) → **주크조인트 “Killer Tune”** (JJ "Kewl Tune") — cue 7단계
+53. 🟠 아픔 **싸이크론** (Mystical Space Typhoon) → **주크조인트 “Killer Tune”** (JJ "Kewl Tune") — cue 7단계
    - 타이밍: 주크조인트 “Killer Tune” (JJ "Kewl Tune") 카드 발동에 체인해 파괴(혼합형 elfnote_hybrid 22단계도 같다)
    - 이유: 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 필드 마법의 발동에 체인해 깨면 그 카드의 효과는 적용되지 않는다. 튜너 추가 일반 소환권(믹스)과 튜너 릴리스 → 덱 특소(레코)가 사라져 킬러튠 리믹스 (Kewl Tune Remix)가 안 나온다.
    - 맞은 뒤 상대 루트: 로터리가 가져온 킬러튠 싱크로 (Kewl Tune Synchro)를 세트하고 트랙메이커만 남긴다. 킬러튠 싱크로로 주크조인트를 다시 서치하는 우회는 다음 턴에나 가능.
-23. 🟠 아픔 **금지된 성관** (Forbidden Crown) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 4단계
+54. 🟠 아픔 **금지된 성관** (Forbidden Crown) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 4단계
    - 타이밍: 킬러튠 트랙메이커 (Kewl Tune Track Maker) 특소 유발 위에 로터리·큐 묘지 유발까지 쌓인 뒤 체인 4로 발동, 트랙메이커 선택
    - 이유: 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 성관은 '~했을 때' 조건이 없어 체인 가드 위에서도 쓸 수 있고, 필드 몬스터 효과 무효라 체인 1의 서치(주크조인트 “Killer Tune” (JJ "Kewl Tune"))도 무효가 된다. 이번 턴 릴리스·싱크로 소재 불가.
    - 맞은 뒤 상대 루트: 로터리의 서치(킬러튠 싱크로 (Kewl Tune Synchro))는 처리된다.
-24. 🟠 아픔 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **주크조인트 “Killer Tune”** (JJ "Kewl Tune") — cue 7단계
+55. 🟠 아픔 **The Fallen & The Virtuous** (The Fallen & The Virtuous) → **주크조인트 “Killer Tune”** (JJ "Kewl Tune") — cue 7단계
    - 타이밍: 큐 유발을 놓쳤다면 주크조인트 “Killer Tune” (JJ "Kewl Tune") 발동에 체인해 파괴
    - 이유: 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 싸이크론과 같은 결과(추가 일반 소환권·덱 특소 소멸). 같은 카드로 몬스터도 깰 수 있으니 큐 유발이 1순위다.
    - 맞은 뒤 상대 루트: 트랙메이커 + 세트 킬러튠 싱크로 (Kewl Tune Synchro)로 끝난다.
-25. 🟡 할만함 **도미나스 스파크** (Dominus Spark) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 6단계
+56. 🟡 할만함 **도미나스 스파크** (Dominus Spark) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 6단계
    - 타이밍: 로터리·큐 묘지 유발이 쌓인 그 체인 위에서 패로 발동해 킬러튠 트랙메이커 (Kewl Tune Track Maker)를 제외
    - 이유: 트랙메이커의 서치(체인 1)는 그대로 처리되지만, 8단계에서 주크조인트가 릴리스할 튜너가 필드에서 사라진다. 제외라서 트랙메이커의 소재 유발(바운스)도 없다. 내 묘지에 함정이 없으면 상대가 패에서 몬스터 1장을 특소할 수 있다(패의 튜너를 내 주크조인트 릴리스용으로 줄 수 있으니 주의). 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 발동할 수 없다.
    - 맞은 뒤 상대 루트: 패에 튜너가 있으면 주크조인트 추가 소환권으로 내서 릴리스한다.
-26. 🟡 할만함 **도미나스 스파크** (Dominus Spark) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — reco 5단계
+57. 🟡 할만함 **도미나스 스파크** (Dominus Spark) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — reco 5단계
    - 타이밍: 로터리 묘지 유발 체인 위에서 패로 발동해 킬러튠 트랙메이커 (Kewl Tune Track Maker)를 제외
    - 이유: 주크조인트가 릴리스할 튜너가 없어져 7단계 덱 특소(믹스)가 막힌다. 내 묘지에 함정이 없으면 상대가 패에서 몬스터 1장을 특소할 수 있다(패의 튜너를 내 주크조인트 릴리스용으로 줄 수 있으니 주의). 패에서 쓰면 이 듀얼 동안 내 땅·물·화염·바람 몬스터 효과를 발동할 수 없다.
    - 맞은 뒤 상대 루트: 패에 튜너가 있으면 일부 재개.
-27. 🟠 아픔 **마루챠미 후와로스** (Mulcharmy Fuwalos) → **킬러튠 큐** (Kewl Tune Cue) — cue 2단계
+58. 🟠 아픔 **마루챠미 후와로스** (Mulcharmy Fuwalos) → **킬러튠 큐** (Kewl Tune Cue) — cue 2단계
    - 타이밍: 상대 스탠바이 페이즈, 또는 큐 일반 소환 유발에 체인
    - 이유: 로터리(덱)·트랙메이커·레코(덱)·리믹스 등 거의 모든 특소가 덱·엑스트라. 상대 턴 퀵 싱크로는 다음 턴이라 해당 없음.
    - 맞은 뒤 상대 루트: 출처에서는 큐 유발로 패의 튜너를 특소해 드로우 1장을 줄이는 타협 플레이가 언급된다.
-28. 🟠 아픔 **증식의 G** (Maxx "C") → **킬러튠 큐** (Kewl Tune Cue) — cue 2단계
+59. 🟠 아픔 **증식의 G** (Maxx "C") → **킬러튠 큐** (Kewl Tune Cue) — cue 2단계
    - 타이밍: 큐 유발에 체인(큐 일반 소환 자체는 증G 이후 소환이 아니면 드로우 없음)
    - 이유: 1턴째 특소는 4~5번 정도라 드로우량 자체는 크지 않지만 리믹스+세트만 남기고 멈추기 쉽다. 내 턴에 상대가 퀵 싱크로를 할 때 증G를 쓰는 것도 가치가 높다.
    - 맞은 뒤 상대 루트: 트랙메이커까지 만들고 종료하는 선택.
-29. 🟠 아픔 **마루챠미 푸루리아** (Mulcharmy Purulia) → **엘펜노츠 루키나** (Elfnote Lucina) — elfnote_hybrid 1단계
+60. 🟠 아픔 **마루챠미 푸루리아** (Mulcharmy Purulia) → **엘펜노츠 루키나** (Elfnote Lucina) — elfnote_hybrid 1단계
    - 타이밍: 상대 스탠바이 페이즈 등 엘펜노츠 루키나 (Elfnote Lucina) 패 특소 전에(내 필드에 카드가 없을 때)
    - 이유: 내 필드에 카드가 없을 때, 상대 스탠바이 페이즈나 첫 일반 소환 전에 미리 발동해 둔다. 패에서의 일반·특수 소환 1번마다 1장. 혼합형은 루키나(1), 레기나(3), 디나(8)의 패 특소와 큐 일반 소환(18) 해서 4장 안팎. 엘펜노츠 레벨 6의 중앙 특소는 체인이 생기지 않아 미리 깔아야 한다.
    - 맞은 뒤 상대 루트: 엔드 페이즈에 패가 (상대 필드 카드 수 + 6)장을 넘으면 넘은 만큼 덱으로.
-30. 🟡 할만함 **마루챠미 푸루리아** (Mulcharmy Purulia) → **킬러튠 큐** (Kewl Tune Cue) — cue 1단계
+61. 🟡 할만함 **마루챠미 푸루리아** (Mulcharmy Purulia) → **킬러튠 큐** (Kewl Tune Cue) — cue 1단계
    - 타이밍: 상대 스탠바이 페이즈 또는 큐 일반 소환 전에(내 필드에 카드가 없을 때)
    - 이유: 내 필드에 카드가 없을 때, 상대 스탠바이 페이즈나 첫 일반 소환 전에 미리 발동해 둔다. 패에서의 일반·특수 소환 1번마다 1장. 순수형 큐 루트는 큐(1)·믹스(10) 일반 소환 2번이라 2장. 패 튜너를 싱크로 소재로 쓰는 건 패에서의 소환이 아니다.
    - 맞은 뒤 상대 루트: 엔드 페이즈 패 매수 제한에 주의.
-31. 🟡 할만함 **마루챠미 푸루리아** (Mulcharmy Purulia) → **킬러튠 레코** (Kewl Tune Reco) — reco 1단계
+62. 🟡 할만함 **마루챠미 푸루리아** (Mulcharmy Purulia) → **킬러튠 레코** (Kewl Tune Reco) — reco 1단계
    - 타이밍: 상대 스탠바이 페이즈 또는 레코 일반 소환 전에(내 필드에 카드가 없을 때)
    - 이유: 내 필드에 카드가 없을 때, 상대 스탠바이 페이즈나 첫 일반 소환 전에 미리 발동해 둔다. 패에서의 일반·특수 소환 1번마다 1장. 레코(1)·큐(9) 일반 소환 2번이라 2장.
    - 맞은 뒤 상대 루트: 엔드 페이즈 패 매수 제한에 주의.
-32. 🟠 아픔 **원시생명체 니비루** (Nibiru, the Primal Being) → **킬러튠 믹스** (Kewl Tune Mix) — cue 10단계
+63. 🟠 아픔 **원시생명체 니비루** (Nibiru, the Primal Being) → **킬러튠 믹스** (Kewl Tune Mix) — cue 10단계
    - 타이밍: 5번째 소환(킬러튠 믹스 (Kewl Tune Mix) 일반 소환) 성공 직후, 킬러튠 리믹스 (Kewl Tune Remix) 싱크로 전
    - 이유: 큐·로터리·트랙메이커·레코·믹스로 5번이 되는 지점. 레코+믹스를 릴리스하면 리믹스가 나오지 않는다.
    - 맞은 뒤 상대 루트: 로터리의 묘지 효과로 이미 상대 패를 봤으므로 니비루가 보이면 4번에서 멈추거나 순서를 바꾼다. 패 공개 전에 마음 정리해 둘 것.
-33. 🟡 할만함 **사요 시구레** (Ghost Mourner & Moonlit Chill) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 3단계
+64. 🟠 아픔 **아크 디클레어러** (Herald of the Arc Light) → **킬러튠 큐** (Kewl Tune Cue) — cue 2단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 효과 발동에 체인해 릴리스
+   - 이유: 큐 1장 초동의 튜너 특소를 무효+파괴. 하루 우라라 (Ash Blossom & Joyous Spring)와 같은 지점.
+   - 맞은 뒤 상대 루트: 패에 튜너가 더 있으면 재개. 패 튜너를 소재로 쓰면 그 튜너는 제외되어 소재 유발이 없다.
+65. 🟠 아픔 **아크 디클레어러** (Herald of the Arc Light) → **킬러튠 레코** (Kewl Tune Reco) — reco 2단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 효과 발동에 체인
+   - 이유: 레코 서치를 무효+파괴.
+   - 맞은 뒤 상대 루트: —
+66. 🟠 아픔 **아크 디클레어러** (Herald of the Arc Light) → **엘펜노츠 루키나** (Elfnote Lucina) — elfnote_hybrid 2단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 효과 발동에 체인
+   - 이유: 루키나 서치를 무효+파괴.
+   - 맞은 뒤 상대 루트: —
+67. 🟠 아픔 **심연의 결계상** (Barrier Statue of the Abyss) → **킬러튠 큐** (Kewl Tune Cue) — cue 2단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 제한
+   - 이유: 큐는 어둠 튜너(킬러튠 클립 (Kewl Tune Clip))만 부를 수 있다. 킬러튠 트랙메이커 (Kewl Tune Track Maker)(빛)가 안 나와 JJ·킬러튠 싱크로 (Kewl Tune Synchro) 서치 축이 끊긴다.
+   - 맞은 뒤 상대 루트: 큐+클립으로 킬러튠 크랙클 (Kewl Tune Crackle)(어둠) 정도.
+68. 🟠 아픔 **심연의 결계상** (Barrier Statue of the Abyss) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — reco 3단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 킬러튠 트랙메이커 (Kewl Tune Track Maker)(빛) 불가. 레코+패의 믹스로 킬러튠 레드씰 (Kewl Tune RS)(어둠)를 내는 정도.
+   - 맞은 뒤 상대 루트: —
+69. 🟠 아픔 **섬광의 결계상** (Barrier Statue of the Heavens) → **주크조인트 “Killer Tune”** (JJ "Kewl Tune") — cue 8단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: 트랙메이커까지는 빛이라 통과. JJ로 킬러튠 레코 (Kewl Tune Reco)(화염)를 특소할 수 없고, 이후 킬러튠 리믹스 (Kewl Tune Remix)(어둠)도 안 나온다.
+   - 맞은 뒤 상대 루트: JJ로 레코를 패에 넣고 JJ의 추가 일반 소환으로 내 킬러튠 라우드니스워 (Kewl Tune Loudness War)(빛) 쪽으로 우회.
+70. 🟠 아픔 **섬광의 결계상** (Barrier Statue of the Heavens) → **주크조인트 “Killer Tune”** (JJ "Kewl Tune") — reco 7단계
+   - 타이밍: 내 필드에 미리 앞면이면 이 단계에서 막힘
+   - 이유: JJ로 믹스(바람)를 특소할 수 없다.
+   - 맞은 뒤 상대 루트: —
+71. 🟠 아픔 **군웅할거** (Rivalry of Warlords) → **킬러튠 큐** (Kewl Tune Cue) — cue 2단계
+   - 타이밍: 세트해 뒀다면 큐 소환 유발에 체인 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 큐(천사족)가 있는 동안 킬러튠 로터리 (Kewl Tune Rotary)(사이버스족)를 덱에서 낼 수 없다. 같은 종족 튜너가 없어 소환 유발이 사실상 불발.
+   - 맞은 뒤 상대 루트: 패에 튜너가 있으면 큐의 '패 튜너를 소재로' 효과로 킬러튠 트랙메이커 (Kewl Tune Track Maker)를 낸다(소재가 빠진 뒤라 소환 가능).
+72. 🟠 아픔 **군웅할거** (Rivalry of Warlords) → **킬러튠 큐** (Kewl Tune Cue) — reco 9단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 믹스(전사족)가 있는 동안 큐(천사족)를 일반 소환할 수 없어 리믹스가 안 나온다.
+   - 맞은 뒤 상대 루트: 믹스+패 튜너 싱크로로 우회.
+73. 🟠 아픔 **군웅할거** (Rivalry of Warlords) → **엘펜노츠 레기나** (Elfnote Regina) — elfnote_hybrid 4단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 레기나(마법사족)가 감옥신정(악마족)을 덱에서 낼 수 없다.
+   - 맞은 뒤 상대 루트: —
+74. 🟠 아픔 **어전시합** (Gozen Match) → **킬러튠 믹스** (Kewl Tune Mix) — cue 10단계
+   - 타이밍: 세트해 뒀다면 큐 소환 유발에 체인 / 미리 앞면이면 이 단계에서 막힘
+   - 이유: 레코(화염)가 있는 동안 믹스(바람)를 일반 소환할 수 없어 킬러튠 리믹스 (Kewl Tune Remix)가 안 나온다.
+   - 맞은 뒤 상대 루트: 레코+패의 믹스로 킬러튠 레드씰 (Kewl Tune RS)(어둠)를 낸다(소재가 빠지면 필드가 비어 소환 가능).
+75. 🟠 아픔 **어전시합** (Gozen Match) → **킬러튠 큐** (Kewl Tune Cue) — reco 9단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 믹스(바람)가 있는 동안 큐(빛)를 일반 소환할 수 없다.
+   - 맞은 뒤 상대 루트: —
+76. 🟠 아픔 **어전시합** (Gozen Match) → **엘펜노츠 레기나** (Elfnote Regina) — elfnote_hybrid 4단계
+   - 타이밍: 미리 앞면이면 이 단계에서 막힘
+   - 이유: 레기나(바람)가 감옥신정(화염)을 덱에서 낼 수 없다.
+   - 맞은 뒤 상대 루트: —
+77. 🟡 할만함 **사요 시구레** (Ghost Mourner & Moonlit Chill) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 3단계
    - 타이밍: 트랙메이커 싱크로 소환 성공 시
    - 이유: 트랙메이커 효과를 지워 주크조인트 서치를 막는다(포영과 같은 효과). 필드를 떠나면 데미지를 주는 덤이 있지만 상대는 트랙메이커를 주크조인트 코스트로 쓰지 못하게 되는 것도 아님.
    - 맞은 뒤 상대 루트: 로터리의 킬러튠 싱크로 서치는 남는다.
-34. 🟡 할만함 **저택 와라시** (Ghost Belle & Haunted Mansion) → **엘펜노츠~광주의 랩소디아~** (Elfnotes: Rhapsodia of Madness) — elfnote_hybrid 11단계
+78. 🟡 할만함 **저택 와라시** (Ghost Belle & Haunted Mansion) → **엘펜노츠~광주의 랩소디아~** (Elfnotes: Rhapsodia of Madness) — elfnote_hybrid 11단계
    - 타이밍: 엘펜노츠~광주의 랩소디아~ (Elfnotes: Rhapsodia of Madness)의 묘지 감옥신정 소생에 체인(바로네스 무효를 미리 빼는 용도)
    - 이유: 혼합형은 6단계에 플뢰르 드 바로네스 (Baronne de Fleur)가 먼저 서고 그 전에는 묘지 효과가 없어서, 와라시는 바로네스에 무효당하기 쉽다. 바로네스가 와라시를 무효하면 '앞면으로 있는 동안 1번' 무효가 소모되어 내 턴에 그 무효가 없다. 바로네스가 쓰지 않으면 소생이 무효되어 스트리치아 → 액셀싱크로 → 쵸호우 → 큐 연결이 끊긴다.
    - 맞은 뒤 상대 루트: 13단계 스트리치아 소생, 14단계 액셀싱크로 스타더스트 드래곤 (Accel Synchro Stardust Dragon)의 튜너 소생도 대상.
-35. 🟡 할만함 **하루 우라라** (Ash Blossom & Joyous Spring) → **환룡성－쵸호우** (Chaofeng, Phantom of the Yang Zing) — elfnote_hybrid 17단계
+79. 🟡 할만함 **하루 우라라** (Ash Blossom & Joyous Spring) → **환룡성－쵸호우** (Chaofeng, Phantom of the Yang Zing) — elfnote_hybrid 17단계
    - 타이밍: 혼합형에서 환룡성－쵸호우 (Chaofeng, Phantom of the Yang Zing)가 파괴된 뒤 '튜너 서치' 효과에 체인
    - 이유: 킬러튠 파트의 입구. 여기서 큐가 안 오면 바로네스+엘펜노츠 견제만 남는다. 다만 엘펜노츠 쪽 첫 서치(루키나)에 쓰는 편이 보통 더 크다.
    - 맞은 뒤 상대 루트: 패에 킬러튠 튜너가 있으면 일반 소환권으로 그대로 진입.
-36. 🟡 할만함 **초융합** (Super Polymerization) → **액셀싱크로 스타더스트 드래곤** (Accel Synchro Stardust Dragon) — elfnote_hybrid 15단계
+80. 🟡 할만함 **초융합** (Super Polymerization) → **액셀싱크로 스타더스트 드래곤** (Accel Synchro Stardust Dragon) — elfnote_hybrid 15단계
    - 타이밍: 액셀싱크로 스타더스트 드래곤 (Accel Synchro Stardust Dragon)의 싱크로 소환 유발(묘지 튜너 특소)에 체인, 플뢰르 드 바로네스 (Baronne de Fleur)(바람·전사족) + 액셀싱크로 스타더스트 드래곤 (Accel Synchro Stardust Dragon)(바람·드래곤족)로 늪지의 도로곤 (Mudragon of the Swamp)
    - 이유: 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 체인 불가라 바로네스 무효도 닿지 않는다. 액셀싱크로 스타더스트 드래곤 (Accel Synchro Stardust Dragon)이 사라져 환룡성－쵸호우 (Chaofeng, Phantom of the Yang Zing)를 만들 수 없고 바로네스도 없어, 환룡성－쵸호우 (Chaofeng, Phantom of the Yang Zing) 파괴 → 큐 서치(킬러튠 파트 진입)가 시작되지 않는다. 순수형은 속성이 갈려(빛·화염·바람·어둠) 맞는 소재가 거의 없다.
    - 맞은 뒤 상대 루트: 엘펜노츠의 감옥신정 (Elfnote Power Patron)과 엘펜노츠 지속 마함 2장만 남는다. 패의 엘펜노츠 레기나 (Elfnote Regina)로 상대 턴 재전개는 가능.
-37. 🟡 할만함 **싸이크론** (Mystical Space Typhoon) → **킬러튠 싱크로** (Kewl Tune Synchro)
+81. 🟡 할만함 **싸이크론** (Mystical Space Typhoon) → **킬러튠 싱크로** (Kewl Tune Synchro)
    - 타이밍: 13단계에서 세트된 킬러튠 싱크로 (Kewl Tune Synchro)를 상대 엔드 페이즈에 파괴
    - 이유: 세트해 둔 경우에만 쓸 수 있다(속공 마법은 상대 턴에 패에서 발동 불가 → 내가 후공이면 상대 1턴째 전개에는 못 쓰고, 내가 선공이었거나 이후 상대 턴에만 해당). 이번 턴 세트한 속공 마법은 그 턴에 발동할 수 없어 상대가 체인해 쓰지 못한다. 내 턴에 상대가 쓰는 퀵 싱크로(서치 + 튜너 싱크로)의 시작점 하나가 사라진다.
    - 맞은 뒤 상대 루트: 킬러튠 리믹스 (Kewl Tune Remix)의 퀵 효과(릴리스 → 묘지 튜너 회수·특소 → 싱크로)는 남는다.
-38. ⛔ 비추 **하루 우라라** (Ash Blossom & Joyous Spring) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 4단계
+82. 🟡 할만함 **아크네메시스 프로토스** (Archnemeses Protos) → **킬러튠 리믹스** (Kewl Tune Remix) — cue 12단계
+   - 타이밍: 내 메인 페이즈(선공 1턴)에 '어둠' 선언 → 상대 턴 종료시까지 어둠 특소 불가
+   - 이유: 킬러튠 리믹스 (Kewl Tune Remix)(어둠)를 싱크로할 수 없다. 내 턴의 쇄박룡 잘렌 (Zalen the Shackled Dragon)·킬러튠 레드씰 (Kewl Tune RS)·킬러튠 B2B (Kewl Tune B2B)도 어둠.
+   - 맞은 뒤 상대 루트: 킬러튠 트랙메이커 (Kewl Tune Track Maker)·킬러튠 라우드니스워 (Kewl Tune Loudness War)(빛)는 나온다.
+83. ⛔ 비추 **하루 우라라** (Ash Blossom & Joyous Spring) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 4단계
    - 타이밍: 트랙메이커 서치를 노리고 기다리는 경우
    - 이유: 트랙메이커 유발(체인 1) 위에 로터리·큐의 묘지 유발이 쌓여 우라라는 마지막 체인(큐의 덱 위 제외)에만 응답할 수 있다. 서치는 그대로 통한다.
-39. ⛔ 비추 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 4단계
+84. ⛔ 비추 **피드라울리스＝하르모니아** (Fydraulis Harmonia) → **킬러튠 트랙메이커** (Kewl Tune Track Maker) — cue 4단계
    - 타이밍: 킬러튠 트랙메이커 (Kewl Tune Track Maker)의 서치 유발을 노리고 하르모니아를 아껴 두는 것
    - 이유: 트랙메이커 유발(체인 1) 위에 로터리·큐 묘지 유발이 함께 쌓여, 상대 몬스터 효과 발동에 '직접 체인'해야 하는 하르모니아는 닿지 않는다(우라라와 같은 체인 가드).
+85. ⛔ 비추 **심연의 결계상** (Barrier Statue of the Abyss) → **엘펜노츠 루키나** (Elfnote Lucina) — elfnote_hybrid 1단계
+   - 타이밍: —
+   - 이유: 어둠 결계상은 킬러튠의 어둠 튜너 싱크로(킬러튠 리믹스 (Kewl Tune Remix)·킬러튠 레드씰 (Kewl Tune RS)·킬러튠 크랙클 (Kewl Tune Crackle))를 통과시킨다. 막을 거라면 호우의 결계상 (Barrier Statue of the Torrent)·업화의 결계상 (Barrier Statue of the Inferno)이 확실하다.
+   - 맞은 뒤 상대 루트: —
+86. ⛔ 비추 **D.D. 크로우** (D.D. Crow) → **킬러튠 레코** (Kewl Tune Reco) — cue 9단계
+   - 타이밍: —
+   - 이유: 레코·믹스의 '덱·묘지에서' 서치나 큐의 '패·덱·묘지에서' 특소에 맞춰 묘지 카드를 지워도 덱에서 가져오면 그만이다. 크로우는 내 턴 킬러튠 B2B (Kewl Tune B2B)·킬러튠 라우드니스워 (Kewl Tune Loudness War)용으로 아낀다.
+   - 맞은 뒤 상대 루트: —
 
 ## 핵심 카드
 
