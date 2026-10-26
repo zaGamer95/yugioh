@@ -1,4 +1,21 @@
 {
+ "4007": {
+  "cid": 4007,
+  "password": 89631139,
+  "en": "Blue-Eyes White Dragon",
+  "ko": "푸른 눈의 백룡",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": 8,
+  "monster_type": [
+   "Normal"
+  ],
+  "md_rarity": "UR",
+  "text_en": "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale.",
+  "text_ko": "높은 공격력을 자랑하는 전설의 드래곤. 어떠한 상대라도 분쇄해 버리는 파괴력은 상상을 초월한다."
+ },
  "4342": {
   "cid": 4342,
   "password": 53129443,
@@ -1044,6 +1061,24 @@
   "text_en": "Cannot be Special Summoned. Requires 3 Tributes from either side of the field to Normal Summon to that side of the field (cannot be Normal Set), then shift control to this card's owner during the End Phase of the next turn. Cannot attack. Your opponent cannot target this card for attacks or by card effects. You can Tribute this card; Special Summon 1 \"The Winged Dragon of Ra\" from your hand or Deck, ignoring its Summoning conditions, and if you do, its ATK/DEF become 4000.",
   "text_ko": "이 카드는 특수 소환할 수 없다. 이 카드를 통상 소환할 경우, 자신 필드의 몬스터 3장을 릴리스하고 자신 필드에 일반 소환, 또는 상대 필드의 몬스터 3장을 릴리스하고 상대 필드에 일반 소환해야 하며, 일반 소환한 이 카드의 컨트롤은 다음 턴의 엔드 페이즈에 원래의 주인에게 되돌아간다. ①: 이 카드는 공격할 수 없으며, 상대의 공격 / 효과의 대상이 되지 않는다. ②: 이 카드를 릴리스하고 발동할 수 있다. 패 / 덱에서 \"라의 익신룡\" 1장을, 소환 조건을 무시하고, 공격력 / 수비력을 4000 으로 하여 특수 소환한다."
  },
+ "11931": {
+  "cid": 11931,
+  "password": 26268488,
+  "en": "Stardust Sifr Divine Dragon",
+  "ko": "성광신룡 스타더스트 쉬프르",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": 12,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "R",
+  "text_en": "1 Tuner Synchro Monster + 2+ non-Tuner Synchro Monsters\nMust be Synchro Summoned. The first time each card you control would be destroyed each turn, by battle or card effect, it is not destroyed. Once per turn, when your opponent activates a monster effect (Quick Effect): You can negate that effect, and if you do, destroy 1 card on the field. You can banish this card from your GY, then target 1 Level 8 or lower \"Stardust\" monster in your GY; Special Summon it.",
+  "text_ko": "싱크로 몬스터의 튜너 ＋ 튜너 이외의 싱크로 몬스터 2장 이상<br>이 카드는 싱크로 소환으로밖에 특수 소환할 수 없다. ①: 자신 필드의 카드는 각각 1턴에 1번만 전투 / 효과로는 파괴되지 않는다. ②: 1턴에 1번, 상대가 몬스터의 효과를 발동했을 때에 발동할 수 있다. 그 효과를 무효로 하고, 필드의 카드 1장을 파괴한다. ③: 묘지의 이 카드를 제외하고, 자신 묘지의 레벨 8 이하의 \"스타더스트\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 특수 소환한다."
+ },
  "11938": {
   "cid": 11938,
   "password": 40318957,
@@ -1317,7 +1352,8 @@
   ],
   "md_rarity": "SR",
   "text_en": "When this card is Normal Summoned: You can add 1 Level 1 LIGHT Tuner from your Deck to your hand, except \"Sage with Eyes of Blue\". You can discard this card, then target 1 Effect Monster you control; send it to the GY, and if you do, Special Summon 1 \"Blue-Eyes\" monster from your Deck. You can only use this effect of \"Sage with Eyes of Blue\" once per turn.",
-  "text_ko": "이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환했을 때에 발동할 수 있다. 덱에서 \"파란 눈의 현사\" 이외의 빛 속성 / 레벨 1 튜너 1장을 패에 넣는다. ②: 이 카드를 패에서 버리고, 자신 필드의 효과 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 묘지로 보내고, 덱에서 \"푸른 눈\" 몬스터 1장을 특수 소환한다."
+  "text_ko": "이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환했을 때에 발동할 수 있다. 덱에서 \"파란 눈의 현사\" 이외의 빛 속성 / 레벨 1 튜너 1장을 패에 넣는다. ②: 이 카드를 패에서 버리고, 자신 필드의 효과 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 묘지로 보내고, 덱에서 \"푸른 눈\" 몬스터 1장을 특수 소환한다.",
+  "password": 8240199
  },
  "12296": {
   "cid": 12296,
@@ -1463,6 +1499,39 @@
   "text_ko": "튜너 ＋ 튜너 이외의 싱크로 몬스터 1장 이상<br>①: 1턴에 1번, 이 카드 이외의 몬스터의 효과가 발동했을 때에 발동할 수 있다. 그 발동을 무효로 하고 파괴한다. 이 효과로 몬스터를 파괴했을 경우, 이 카드의 공격력은 턴 종료시까지, 이 효과로 파괴한 몬스터의 원래 공격력만큼 올린다. ②: 이 카드가 레벨 5 이상의 상대 몬스터와 전투를 실행하는 데미지 계산시에 발동한다. 이 카드의 공격력은 그 데미지 계산시에만, 전투를 실행하는 상대 몬스터의 공격력만큼 올린다.",
   "password": 50954680
  },
+ "12324": {
+  "cid": 12324,
+  "password": 59822133,
+  "en": "Blue-Eyes Spirit Dragon",
+  "ko": "푸른 눈의 정령룡",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": 9,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 Tuner + 1+ non-Tuner \"Blue-Eyes\" monsters\nNeither player can Special Summon 2 or more monsters at the same time. Once per turn, when an effect of a card in the GY is activated (Quick Effect): You can negate the activation. (Quick Effect): You can Tribute this Synchro Summoned card; Special Summon 1 LIGHT Dragon Synchro Monster from your Extra Deck in Defense Position, except \"Blue-Eyes Spirit Dragon\", but destroy it during the End Phase of this turn.",
+  "text_ko": "튜너 ＋ 튜너 이외의 \"푸른 눈\" 몬스터 1장 이상<br>①: 이 카드가 몬스터 존에 존재하는 한, 서로 2장 이상의 몬스터를 동시에 특수 소환할 수 없다. ②: 1턴에 1번, 묘지의 카드의 효과가 발동했을 때에 발동할 수 있다. 그 발동을 무효로 한다. ③: 자신 / 상대 턴에, 싱크로 소환한 이 카드를 릴리스하고 발동할 수 있다. 엑스트라 덱에서 \"푸른 눈의 정령룡\" 이외의 드래곤족 / 빛 속성 싱크로 몬스터 1장을 수비 표시로 특수 소환한다. 이 효과로 특수 소환한 몬스터는 이 턴의 엔드 페이즈에 파괴된다."
+ },
+ "12331": {
+  "cid": 12331,
+  "password": 24382602,
+  "en": "Mausoleum of White",
+  "ko": "빛의 영당",
+  "ja": null,
+  "type": "Spell",
+  "race": "Field",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "N",
+  "text_en": "During your Main Phase, you can Normal Summon 1 Level 1 LIGHT Tuner in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) Once per turn: You can target 1 face-up monster you control; send 1 Normal Monster from your hand or Deck to the GY, and if you do, the targeted monster gains ATK/DEF equal to the Level of the monster sent to the GY x 100, until the end of this turn (even if this card leaves the field). You can banish this card from your GY; add 1 \"Burst Stream of Destruction\" from your Deck to your hand.",
+  "text_ko": "①: 이 카드가 필드 존에 존재하는 한, 자신은 통상 소환 외에도 1번만, 자신 메인 페이즈에 빛 속성 / 레벨 1 튜너 1장을 일반 소환할 수 있다. ②: 1턴에 1번, 자신 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 패 / 덱에서 일반 몬스터 1장을 묘지로 보내고, 대상 몬스터의 공격력 / 수비력을 턴 종료시까지, 묘지로 보낸 몬스터의 원래 레벨 × 100 올린다. ③: 묘지의 이 카드를 제외하고 발동할 수 있다. 덱에서 \"멸망의 폭렬질풍탄\" 1장을 패에 넣는다."
+ },
  "12335": {
   "cid": 12335,
   "password": 50554729,
@@ -1539,6 +1608,24 @@
   "text_en": "Banish 10 cards from the top of your Deck, face-down; draw 2 cards. You can only activate 1 \"Pot of Desires\" per turn.",
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 자신의 덱 위에서 카드 10장을 뒷면 표시로 제외하고 발동할 수 있다. 자신은 덱에서 2장 드로우한다.",
   "password": 35261759
+ },
+ "12484": {
+  "cid": 12484,
+  "password": 56532353,
+  "en": "Neo Blue-Eyes Ultimate Dragon",
+  "ko": "진 궁극의 푸른 눈의 백룡",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": 12,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "\"Blue-Eyes White Dragon\" + \"Blue-Eyes White Dragon\" + \"Blue-Eyes White Dragon\"\nAt the end of the Damage Step, if this Fusion Summoned card attacked, and this is the only face-up card you control: You can send 1 \"Blue-Eyes\" Fusion Monster from your Extra Deck to the GY; this card can attack again in a row. You can use this effect of \"Neo Blue-Eyes Ultimate Dragon\" twice per turn. When a card or effect is activated that targets a \"Blue-Eyes\" monster(s) you control (Quick Effect): You can banish this card from your GY; negate the activation, and if you do, destroy that card.",
+  "text_ko": "\"푸른 눈의 백룡\" ＋ \"푸른 눈의 백룡\" ＋ \"푸른 눈의 백룡\"<br>이 카드명의 ①의 효과는 1턴에 2번까지 사용할 수 있다. ①: 융합 소환한 이 카드가 공격한 데미지 스텝 종료시, 자신 필드에 다른 앞면 표시 카드가 존재하지 않을 경우, 엑스트라 덱에서 \"푸른 눈\" 융합 몬스터 1장을 묘지로 보내고 발동할 수 있다. 이 카드는 이어서 공격할 수 있다. ②: 자신 필드의 \"푸른 눈\" 몬스터를 대상으로 하는 마법 / 함정 / 몬스터의 효과가 발동했을 때, 묘지의 이 카드를 제외하고 발동할 수 있다. 그 발동을 무효로 하고 파괴한다."
  },
  "12628": {
   "cid": 12628,
@@ -1792,6 +1879,24 @@
   "text_ko": "①: 이 카드를 일반 소환했을 때에 발동할 수 있다. 덱에서 공격력 1850 인 마법사족 몬스터 1장을 패에 넣는다. ②: 자신 / 상대 턴에 1번, 상대 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 상대는 그 몬스터와 같은 이름의 카드 1장을 자신의 덱 / 엑스트라 덱에서 묘지로 보내고 이 효과를 무효로 할 수 있다. 묘지로 보내지 않았을 경우, 이 카드와 대상 몬스터를 패로 되돌린다.",
   "password": 86937530
  },
+ "12998": {
+  "cid": 12998,
+  "password": 21123811,
+  "en": "Cosmic Blazar Dragon",
+  "ko": "코즈믹 블레이저 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "WIND",
+  "level": 12,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 Tuner Synchro Monster + 2+ non-Tuner Synchro Monsters\r\nMust be Synchro Summoned. (Quick Effect): You can banish this card until the End Phase to activate 1 of these effects;\r\n● When your opponent activates a card or effect: Negate the activation, and if you do, destroy that card.\r\n● When your opponent would Summon a monster(s): Negate the Summon, and if you do, destroy that monster(s).\r\n● When an opponent's monster declares an attack: Negate the attack, then end the Battle Phase.",
+  "text_ko": "싱크로 몬스터의 튜너 ＋ 튜너 이외의 싱크로 몬스터 2장 이상<br>이 카드는 싱크로 소환으로밖에 특수 소환할 수 없다. ①: 필드의 이 카드를 엔드 페이즈까지 제외하고, 이하의 효과에서 1개를 선택하여 발동할 수 있다. ●상대가 마법 / 함정 / 몬스터의 효과를 발동했을 때에 발동할 수 있다. 그 발동을 무효로 하고 파괴한다. ●상대가 몬스터를 일반 소환 / 반전 소환 / 특수 소환할 시기에 발동할 수 있다. 그것을 무효로 하고, 그 몬스터를 파괴한다. ●상대 몬스터의 공격 선언시에 발동할 수 있다. 그 공격을 무효로 하고, 그 후 배틀 페이즈를 종료한다."
+ },
  "13019": {
   "cid": 13019,
   "en": "Tornado Dragon",
@@ -1982,6 +2087,24 @@
   "md_rarity": "UR",
   "text_en": "[ Pendulum Effect ]\nYou cannot Pendulum Summon monsters, except Dragon monsters. This effect cannot be negated. You can target 1 Dragon Fusion, Synchro, or Xyz Monster in your GY; destroy this card, and if you do, Special Summon that target.\n----------------------------------------\n[ Monster Effect ]\nCannot be Normal Summoned/Set. Must be Pendulum Summoned (from your hand), or be Special Summoned (from your hand) by Tributing 3 Dragon monsters (1 Fusion, 1 Synchro, and 1 Xyz). You can discard this card and pay 500 LP: Add 1 Level 8 or lower Dragon Pendulum Monster from your Deck to your hand. Gains ATK/DEF equal to half of your opponent's LP. Once per turn: You can pay half your LP; shuffle all other cards from the field and the GYs into the Deck.",
   "text_ko": "①: 자신은 드래곤족 몬스터밖에 펜듈럼 소환할 수 없다. 이 효과는 무효화되지 않는다. ②: 자신 묘지의 드래곤족의 융합 / 싱크로 / 엑시즈 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 파괴하고, 그 몬스터를 특수 소환한다."
+ },
+ "13496": {
+  "cid": 13496,
+  "password": 24361622,
+  "en": "Hieratic Seal of the Heavenly Spheres",
+  "ko": "천구의 성각인",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2 Dragon monsters\nOnce per opponent's turn, if this card is in the Extra Monster Zone (Quick Effect): You can Tribute 1 monster from your hand or field; return 1 face-up card on the field to the hand. If this card is Tributed: Special Summon 1 Dragon monster from your hand or Deck, and make its ATK/DEF 0. You can only use this effect of \"Hieratic Seal of the Heavenly Spheres\" once per turn.",
+  "text_ko": "드래곤족 몬스터 2장<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 상대 턴에 1번, 이 카드가 엑스트라 몬스터 존에 존재할 경우, 자신의 패 / 필드의 몬스터 1장을 릴리스하고 발동할 수 있다. 필드의 앞면 표시 카드 1장을 패로 되돌린다. ②: 이 카드가 릴리스되었을 경우에 발동한다. 패 / 덱에서 드래곤족 몬스터 1장을, 공격력 / 수비력을 0 으로 하고 특수 소환한다."
  },
  "13502": {
   "cid": 13502,
@@ -2359,6 +2482,21 @@
   "text_en": "2 Level 8 monsters\nIf this card has a \"Photon\" card as material, it cannot be destroyed by card effects. You can only use each of the following effects of \"Number 90: Galaxy-Eyes Photon Lord\" once per turn.\n● When an opponent's monster activates its effect (Quick Effect): You can detach 1 material from this card; negate that monster's effect, and if the detached material was a \"Galaxy\" card, destroy that card.\n● During your opponent's turn (Quick Effect): You can take 1 \"Photon\" or \"Galaxy\" card from your Deck, and either add it to your hand or attach it to this card as material.",
   "text_ko": "레벨 8 몬스터 × 2<br>이 카드명의 ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: \"포톤\" 카드를 엑시즈 소재로 하고 있는 이 카드는 효과로는 파괴되지 않는다. ②: 상대가 몬스터의 효과를 발동했을 때, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 그 효과를 무효로 한다. 제거한 엑시즈 소재가 \"갤럭시\" 카드일 경우, 추가로 그 몬스터를 파괴한다. ③: 상대 턴에 발동할 수 있다. 덱에서 \"포톤\" 카드나 \"갤럭시\" 카드 1장을 고르고, 패에 넣거나 이 카드의 엑시즈 소재로 한다.",
   "password": 8165596
+ },
+ "13844": {
+  "cid": 13844,
+  "password": 93437091,
+  "en": "Bingo Machine, Go!!!",
+  "ko": "빙고머신 GO! GO!",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "Reveal 3 cards from your Deck that each meets at least 1 of the criteria listed below, your opponent randomly picks 1 for you to add to your hand, and you shuffle the rest into your Deck. You can only activate 1 \"Bingo Machine, Go!!!\" per turn.\n● \"Blue-Eyes\" monster\n● Spell/Trap that mentions \"Blue-Eyes White Dragon\" or \"Blue-Eyes Ultimate Dragon\", except \"Bingo Machine, Go!!!\"",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 덱에서 이하의 카드를 합계 3장 골라 상대에게 보여주고, 상대는 그 중에서 무작위로 1장 고른다. 그 카드 1장을 자신의 패에 넣고, 남은 카드는 덱으로 되돌린다.<br>●\"푸른 눈\" 몬스터<br>●\"빙고머신 GO(고)! GO(고)!\"가 아닌, \"푸른 눈의 백룡\" \"궁극의 푸른 눈의 백룡\" 중 어느 카드명이 쓰여진 마법 / 함정 카드"
  },
  "14114": {
   "cid": 14114,
@@ -3792,6 +3930,39 @@
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 자신 묘지의, \"데스피아\" 몬스터나 \"알버스의 낙윤\" 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 패에 넣는다. 그 후, 이하의 효과를 적용할 수 있다. ●자신의 패 / 필드의 몬스터를 융합 소재로 하여 제외하고, 레벨 8 이상의 융합 몬스터 1장을 융합 소환한다. 이 효과로 특수 소환한 몬스터는 이 턴에 직접 공격할 수 없다.",
   "password": 82738008
  },
+ "16653": {
+  "cid": 16653,
+  "password": 62089826,
+  "en": "True Light",
+  "ko": "진정한 빛",
+  "ja": null,
+  "type": "Trap",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Your opponent cannot target \"Blue-Eyes White Dragon\" in your Monster Zone with card effects. If this face-up card is sent from the Spell & Trap Zone to the GY: Destroy all monsters you control. You can only use the following effect of \"True Light\" once per turn. You can activate 1 of these effects;\n● Special Summon 1 \"Blue-Eyes White Dragon\" from your hand or GY.\n● Set 1 Spell/Trap from your Deck, that mentions \"Blue-Eyes White Dragon\", with a different name from the cards you control and in your GY.",
+  "text_ko": "이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이하의 효과에서 1개를 선택하고 발동할 수 있다. ●자신의 패 / 묘지에서 \"푸른 눈의 백룡\" 1장을 특수 소환한다. ●같은 이름의 카드가 자신의 필드 / 묘지에 존재하지 않는, \"푸른 눈의 백룡\"의 카드명이 쓰여진 마법 / 함정 카드 1장을 덱에서 자신 필드에 세트한다. ②: 자신 몬스터 존의 \"푸른 눈의 백룡\"을 상대는 효과의 대상으로 할 수 없다. ③: 마법 & 함정 존의 앞면 표시의 이 카드가 묘지로 보내졌을 경우에 발동한다. 자신 필드의 몬스터를 전부 파괴한다."
+ },
+ "16842": {
+  "cid": 16842,
+  "password": 11443677,
+  "en": "Blue-Eyes Tyrant Dragon",
+  "ko": "푸른 눈의 타이란트 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": 8,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "\"Blue-Eyes White Dragon\" + 1 Dragon monster\nMust first be either Fusion Summoned, or Special Summoned from your Extra Deck by Tributing 1 \"Blue-Eyes White Dragon\" equipped with a Fusion Monster. Unaffected by Trap Cards or effects. Can attack all monsters your opponent controls, once each. Once per turn, at the end of the Damage Step, if this card battled: You can target 1 Trap in your GY; Set it.",
+  "text_ko": "\"푸른 눈의 백룡\" ＋ 드래곤족 몬스터<br>이 카드는 융합 소환 및 이하의 방법으로만 엑스트라 덱에서 특수 소환할 수 있다. ●융합 몬스터를 장착한 자신의 \"푸른 눈의 백룡\" 1장을 릴리스했을 경우에 엑스트라 덱에서 특수 소환할 수 있다. ①: 필드의 이 카드는 함정 카드의 효과를 받지 않는다. ②: 이 카드는 상대 몬스터 전부에 1회씩 공격할 수 있다. ③: 1턴에 1번, 이 카드가 전투를 실행한 데미지 스텝 종료시, 자신 묘지의 함정 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 자신 필드에 세트한다."
+ },
  "16845": {
   "cid": 16845,
   "en": "Guardian Chimera",
@@ -4687,6 +4858,24 @@
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 패의 몬스터 1장을 상대에게 보여주고 발동할 수 있다. 보여준 몬스터와는 카드명이 다르고, 속성이 같은 \"VS(뱅키시 소울)\" 몬스터 1장을 덱에서 특수 소환한다. 이 효과로 특수 소환한 몬스터는 엔드 페이즈에 패로 되돌아간다.",
   "password": 54562327
  },
+ "18825": {
+  "cid": 18825,
+  "password": 63436931,
+  "en": "Crimson Dragon",
+  "ko": "붉은 용",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": 12,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 Tuner + 1+ non-Tuner monsters\nIf this card is Special Summoned: You can add 1 Spell/Trap that mentions \"Crimson Dragon\" from your Deck to your hand. (Quick Effect): You can target 1 Level 7 or higher Synchro Monster on the field, except \"Crimson Dragon\"; return this card to the Extra Deck, and if you do, Special Summon 1 Dragon Synchro Monster from your Extra Deck with the same Level as the targeted monster (this is treated as a Synchro Summon). You can only use each effect of \"Crimson Dragon\" once per turn.",
+  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"붉은 용\"의 카드명이 쓰여진 마법 / 함정 카드 1장을 패에 넣는다. ②: 자신 / 상대 턴에, \"붉은 용\"이 아닌, 필드의 레벨 7 이상의 싱크로 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 엑스트라 덱으로 되돌리고, 대상 몬스터와 같은 레벨의 드래곤족 싱크로 몬스터 1장을 싱크로 소환으로 취급하여 엑스트라 덱에서 특수 소환한다."
+ },
  "18826": {
   "cid": 18826,
   "en": "Visas Amritara",
@@ -5055,6 +5244,21 @@
   "text_en": "Send 1 other face-up card you control to the GY; Special Summon 1 Level 1 FIRE monster from your hand or Deck. You can banish this card from your GY, then target 1 \"Snake-Eye\" or \"Diabellstar\" monster in your GY; add 1 Level 1 FIRE monster from your Deck to your hand, then place the targeted monster on the bottom of the Deck. You can only use 1 \"Original Sinful Spoils - Snake-Eye\" effect per turn, and only once that turn.",
   "text_ko": "이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 이 카드 이외의 자신 필드의 앞면 표시 카드 1장을 묘지로 보내고 발동할 수 있다. 패 / 덱에서 화염 속성 / 레벨 1 몬스터 1장을 특수 소환한다. ②: 묘지의 이 카드를 제외하고, 자신 묘지의 \"스네이크아이\" 몬스터나 \"디아벨스타\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 덱에서 화염 속성 / 레벨 1 몬스터 1장을 패에 넣는다. 그 후, 대상 몬스터를 덱 맨 아래로 되돌린다.",
   "password": 89023486
+ },
+ "19202": {
+  "cid": 19202,
+  "password": 88901994,
+  "en": "Synchro Rumble",
+  "ko": "싱크로 럼블",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "R",
+  "text_en": "Target 1 Tuner or 1 Level 7 or 8 Dragon Synchro Monster in your GY; Special Summon it in Defense Position, also for the rest of this turn after this card resolves, you cannot Special Summon from the Extra Deck, except Synchro Monsters. If a Level 7 or 8 Dragon Synchro Monster(s) or \"Crimson Dragon\" you control would be destroyed by battle or card effect, you can banish this card from your GY instead. You can only activate 1 \"Synchro Rumble\" per turn.",
+  "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 자신 묘지의 튜너 1장 또는 레벨 7 / 8 의 드래곤족 싱크로 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 수비 표시로 특수 소환한다. 이 카드의 발동 후, 턴 종료시까지 자신은 싱크로 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 자신 필드의 \"붉은 용\" 또는 레벨 7 / 8 의 드래곤족 싱크로 몬스터가 전투 / 효과로 파괴될 경우, 대신에 묘지의 이 카드를 제외할 수 있다."
  },
  "19216": {
   "cid": 19216,
@@ -5843,6 +6047,23 @@
   "text_ko": "융합 / 싱크로 / 엑시즈 / 링크 몬스터 ＋ 마법사족 몬스터<br>이 카드는 융합 소환 및 이하의 방법으로만 엑스트라 덱에서 특수 소환할 수 있다. ●자신 필드의, 융합 / 싱크로 / 엑시즈 / 링크 몬스터 카드 1장과 마법사족 몬스터 카드 1장을 묘지로 보냈을 경우에 특수 소환할 수 있다. ①: 1턴에 1번, 자신이나 상대의 몬스터의 공격 선언시, 그 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 공격을 무효로 하고, 이 카드의 공격력은 턴 종료시까지 대상 몬스터의 공격력만큼 올린다. 그 후, 대상 몬스터를 패로 되돌릴 수 있다.",
   "password": 66532962
  },
+ "20489": {
+  "cid": 20489,
+  "password": 81418467,
+  "en": "Primite Imperial Dragon",
+  "ko": "원석룡 임페리얼 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "EARTH",
+  "level": 6,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "Cannot be Normal Summoned, except by Tributing 1 Normal Monster (but can be Normal Set). During your opponent's Main Phase (Quick Effect): You can reveal this card in your hand; immediately after this effect resolves, Normal Summon 1 \"Primite\" monster. You can only use this effect of \"Primite Imperial Dragon\" once per turn. If this card is Tribute Summoned: You can apply these effects in sequence.\n● Negate the effects of all face-up monsters your opponent currently controls.\n● Banish all monsters your opponent controls with the same Type or Attribute as a Normal Monster in your GY.",
+  "text_ko": "이 카드는 일반 몬스터 1장을 릴리스했을 경우에만 일반 소환할 수 있다. 이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 상대 메인 페이즈에, 패의 이 카드를 상대에게 보여주고 발동할 수 있다. \"원석\" 몬스터 1장의 일반 소환을 실행한다. ②: 이 카드를 어드밴스 소환했을 경우에 발동할 수 있다. 이하의 효과를 각각 적용한다. ●상대 필드의 모든 앞면 표시 몬스터의 효과는 무효화된다. ●종족이나 속성이, 자신 묘지의 일반 몬스터 중 어느 것과 같아지는 상대 필드의 몬스터를 전부 제외한다."
+ },
  "20490": {
   "cid": 20490,
   "en": "Lacrima the Crimson Tears",
@@ -6056,6 +6277,36 @@
   "md_rarity": "UR",
   "text_en": "Tribute 1 monster; Special Summon 1 \"Goblin\" monster from your Deck, but it cannot attack this turn. When a monster declares an attack: You can banish this card from your GY and detach any number of materials from \"Goblin\" Xyz Monsters you control; all monsters your opponent currently controls lose 1000 ATK for each material detached, until the end of this turn. You can only use each effect of \"Goblin Biker Grand Breakout\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 필드의 몬스터 1장을 릴리스하고 발동할 수 있다. 덱에서 \"고블린\" 몬스터 1장을 특수 소환한다. 이 효과로 특수 소환한 몬스터는 이 턴에 공격할 수 없다. ②: 자신이나 상대 몬스터의 공격 선언시, 묘지의 이 카드를 제외하고, 자신 필드의 \"고블린\" 엑시즈 몬스터의 엑시즈 소재를 임의의 수만큼 제거하여 발동할 수 있다. 상대 필드의 모든 몬스터의 공격력은 턴 종료시까지, 제거한 수 × 1000 내린다."
+ },
+ "20534": {
+  "cid": 20534,
+  "password": 56506740,
+  "en": "Primite Lordly Lode",
+  "ko": "원석의 황맥",
+  "ja": null,
+  "type": "Spell",
+  "race": "Continuous",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "When this card is activated: Add 1 \"Primite\" card from your Deck to your hand, except \"Primite Lordly Lode\". You can declare 1 Normal Monster Card name; Special Summon 1 declared Normal Monster from your hand, Deck, or GY in Defense Position, also you cannot activate the effects of Special Summoned monsters on the field this turn. You can only use each effect of \"Primite Lordly Lode\" once per turn. Normal Monsters and \"Primite\" monsters you control gain 300 ATK for each Normal Monster with different names in your GY.",
+  "text_ko": "이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 발동시의 효과 처리로서, 덱에서 \"원석의 황맥\" 이외의 \"원석\" 카드 1장을 패에 넣는다. ②: 자신 필드의 일반 몬스터 및 \"원석\" 몬스터의 공격력은, 자신 묘지의 일반 몬스터의 종류 × 300 올린다. ③: 일반 몬스터의 카드명을 1개 선언하고 발동할 수 있다. 선언한 일반 몬스터 1장을 자신의 패 / 덱 / 묘지에서 수비 표시로 특수 소환한다. 이 턴에, 자신은 특수 소환된 필드의 몬스터의 효과를 발동할 수 없다."
+ },
+ "20536": {
+  "cid": 20536,
+  "password": 29095457,
+  "en": "Primite Drillbeam",
+  "ko": "원석의 천광",
+  "ja": null,
+  "type": "Spell",
+  "race": "Quick-Play",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Reveal 1 \"Primite\" card, or 1 Normal Monster, in your hand, except \"Primite Drillbeam\" (or if you control a Normal Monster or a Level 5 or higher \"Primite\" monster, except a Token, you can activate this effect without revealing a card), then target 1 face-up card on the field; negate its effects, and if you do, banish it. During your Main Phase, if you control a \"Primite\" monster: You can Set this card from your GY. You can only use each effect of \"Primite Drillbeam\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: \"원석의 천광\" 이외의 패의 \"원석\" 카드 1장이나 일반 몬스터 1장을 상대에게 보여주고, 필드의 앞면 표시 카드 1장을 대상으로 하여 발동할 수 있다(토큰이 아닌, 일반 몬스터 또는 레벨 5 이상의 \"원석\" 몬스터가 자신 필드에 존재할 경우, 보여주지 않고 발동할 수도 있다). 대상의 카드의 효과를 무효로 하고 제외한다. ②: 자신 필드에 \"원석\" 몬스터가 존재할 경우, 자신 메인 페이즈에 발동할 수 있다. 묘지의 이 카드를 자신 필드에 세트한다."
  },
  "20549": {
   "cid": 20549,
@@ -6371,6 +6622,105 @@
   "text_ko": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. 이 카드는 자신 필드의 앞면 표시의 \"M∀LICE(맬리스)\" 몬스터 1장을 제외하고, 세트한 턴에 발동할 수도 있다. ①: 덱에서 \"M∀LICE(맬리스)\" 몬스터 1장을 특수 소환한다. 상대 필드에 카드가 3장 이상 존재할 경우, 대신에 엑스트라 덱에서 \"M∀LICE(맬리스)\" 링크 몬스터 1장을 특수 소환할 수도 있다. 이 턴에, 이 효과로 특수 소환한 몬스터는 공격할 수 없으며, 그 효과는 발동할 수 없다.",
   "password": 57111661
  },
+ "20602": {
+  "cid": 20602,
+  "password": 17947697,
+  "en": "Maiden of White",
+  "ko": "하얀 소녀",
+  "ja": null,
+  "type": "Monster",
+  "race": "Spellcaster",
+  "attribute": "LIGHT",
+  "level": 1,
+  "monster_type": [
+   "Tuner",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "You can send this card from your hand or field to the GY; place 1 \"True Light\" from your hand, Deck, or GY, face-up in your Spell & Trap Zone. If you Special Summon \"Blue-Eyes White Dragon\" while this card is in your GY (except during the Damage Step): You can Special Summon this card. When a card or effect is activated that targets this card on the field, or when this card is targeted for an attack (Quick Effect): You can Special Summon 1 \"Blue-Eyes White Dragon\" or 1 Level 1 LIGHT Tuner from your GY. You can only use each effect of \"Maiden of White\" once per turn.",
+  "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 패 / 필드의 이 카드를 묘지로 보내고 발동할 수 있다. 자신의 패 / 덱 / 묘지에서 \"진정한 빛\" 1장을 자신의 마법 & 함정 존에 앞면 표시로 놓는다. ②: 이 카드가 묘지에 존재하는 상태에서, 자신이 \"푸른 눈의 백룡\"을 특수 소환했을 경우에 발동할 수 있다. 이 카드를 특수 소환한다. ③: 필드의 이 카드가 공격 / 효과의 대상이 되었을 때에 발동할 수 있다. 자신 묘지에서 \"푸른 눈의 백룡\"이나 빛 속성 / 레벨 1 튜너 1장을 특수 소환한다."
+ },
+ "20604": {
+  "cid": 20604,
+  "password": 80326401,
+  "en": "Wishes for Eyes of Blue",
+  "ko": "파란 눈의 기도",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "UR",
+  "text_en": "Discard 1 card; add 1 Level 1 LIGHT Tuner, and 1 Spell/Trap that mentions \"Blue-Eyes White Dragon\", from your Deck to your hand, except \"Wishes for Eyes of Blue\". You can banish this card from your GY, then target 1 \"Blue-Eyes White Dragon\" you control; equip 1 \"Blue-Eyes\" monster from your Extra Deck to it as an Equip Spell that gives it 400 ATK. You can only use each effect of \"Wishes for Eyes of Blue\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 패를 1장 버리고 발동할 수 있다. \"파란 눈의 기도\"가 아닌, \"푸른 눈의 백룡\"의 카드명이 쓰여진 마법 / 함정 카드 1장과 빛 속성 / 레벨 1 튜너 1장을 덱에서 패에 넣는다. ②: 묘지의 이 카드를 제외하고, 자신 필드의 \"푸른 눈의 백룡\" 1장을 대상으로 하여 발동할 수 있다. 엑스트라 덱에서 \"푸른 눈\" 몬스터 1장을 공격력 400 올리는 장착 마법 카드로 취급하고 대상 몬스터에 장착한다."
+ },
+ "20605": {
+  "cid": 20605,
+  "password": 17725109,
+  "en": "Roar of the Blue-Eyed Dragons",
+  "ko": "청안룡굉림",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Special Summon in Defense Position, 1 \"Blue-Eyes\" monster from your Deck, GY, or banishment (but if you control no \"Blue-Eyes White Dragon\", you can only Special Summon \"Blue-Eyes White Dragon\" with this effect), also you cannot Special Summon from the Extra Deck for the rest of this turn, except Dragon monsters. You can banish this card from your GY; Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from your hand or field, including a \"Blue-Eyes\" monster. You can only use 1 \"Roar of the Blue-Eyed Dragons\" effect per turn, and only once that turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 자신의 덱 / 묘지 / 제외 상태인 \"푸른 눈\" 몬스터 1장을 수비 표시로 특수 소환한다. 자신 필드에 \"푸른 눈의 백룡\"이 존재하지 않을 경우에는, 이 효과로 \"푸른 눈의 백룡\"밖에 특수 소환할 수 없다. 이 턴에, 자신은 드래곤족 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 묘지의 이 카드를 제외하고 발동할 수 있다. \"푸른 눈\" 몬스터를 포함하는, 자신의 패 / 필드의 몬스터를 융합 소재로 하고, 융합 몬스터 1장을 융합 소환한다."
+ },
+ "20606": {
+  "cid": 20606,
+  "password": 43219114,
+  "en": "Majesty of the White Dragons",
+  "ko": "하얀 용의 위광",
+  "ja": null,
+  "type": "Trap",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "N",
+  "text_en": "Show up to 3 of the \"Blue-Eyes White Dragon\" in your hand, face-up Monster Zone, and/or GY, then destroy an equal number of cards your opponent controls. You can banish this card from your GY; Ritual Summon 1 Ritual Monster from your hand, by Tributing \"Blue-Eyes White Dragon(s)\" from your hand or field whose total Levels equal its Level. You can only use each effect of \"Majesty of the White Dragons\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 패 / 필드(앞면 표시) / 묘지의 \"푸른 눈의 백룡\"을 3장까지 고르고, 서로 확인한다. 그 후, 확인한 수만큼 상대 필드의 카드를 파괴한다. ②: 묘지의 이 카드를 제외하고 발동할 수 있다. 레벨의 합계가 의식 소환할 몬스터와 같아지도록, 자신의 패 / 필드의 \"푸른 눈의 백룡\"을 릴리스하고, 패에서 의식 몬스터 1장을 의식 소환한다."
+ },
+ "20607": {
+  "cid": 20607,
+  "password": 89604813,
+  "en": "Blue-Eyes Ultimate Spirit Dragon",
+  "ko": "궁극의 푸른 눈의 영룡",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": 12,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "2+ Tuners + 1 non-Tuner \"Blue-Eyes\" monster\nYour opponent cannot banish cards from your GY. You can only use each of the following effects of \"Blue-Eyes Ultimate Spirit Dragon\" once per turn. When a card or effect is activated on the field (Quick Effect): You can negate the activation, and if you do, this card gains 1000 ATK until the end of this turn. If this card is destroyed by battle or card effect: You can Special Summon 1 LIGHT Dragon monster from your GY, except \"Blue-Eyes Ultimate Spirit Dragon\".",
+  "text_ko": "튜너 2장 이상 ＋ 튜너 이외의 \"푸른 눈\" 몬스터 1장<br>이 카드명의 ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 몬스터 존에 존재하는 한, 자신 묘지의 카드를 상대는 제외할 수 없다. ②: 카드의 효과가 필드에서 발동했을 때에 발동할 수 있다. 그 발동을 무효로 하고, 이 카드의 공격력을 턴 종료시까지 1000 올린다. ③: 이 카드가 전투 / 효과로 파괴되었을 경우에 발동할 수 있다. 자신 묘지에서 \"궁극의 푸른 눈의 영룡\" 이외의 드래곤족 / 빛 속성 몬스터 1장을 특수 소환한다."
+ },
+ "20609": {
+  "cid": 20609,
+  "password": 42097666,
+  "en": "Spirit with Eyes of Blue",
+  "ko": "파란 눈의 정령",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": null,
+  "monster_type": [
+   "Link",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "1 Level 4 or lower Dragon or Spellcaster monster\nYou cannot Special Summon, except Dragon monsters. You can only use each of the following effects of \"Spirit with Eyes of Blue\" once per turn. If this card is Link Summoned: You can take 1 \"Mausoleum of White\" from your Deck and either add it to your hand or send it to the GY. You can Tribute this card; Special Summon 1 \"Blue-Eyes\" monster from your hand or GY, but if you Special Summoned an Effect Monster from your GY by this effect, it cannot attack and its effects are negated.",
+  "text_ko": "레벨 4 이하의 드래곤족 / 마법사족 몬스터 1장<br>이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 링크 소환했을 경우에 발동할 수 있다. 덱에서 \"빛의 영당\" 1장을 고르고, 패에 넣거나 묘지로 보낸다. ②: 이 카드가 몬스터 존에 존재하는 한, 자신은 드래곤족 몬스터밖에 특수 소환할 수 없다. ③: 이 카드를 릴리스하고 발동할 수 있다. 자신의 패 / 묘지에서 \"푸른 눈\" 몬스터 1장을 특수 소환한다. 이 효과로 묘지에서 특수 소환한 효과 몬스터는 공격할 수 없으며, 효과는 무효화된다."
+ },
  "20732": {
   "cid": 20732,
   "en": "Spenta, the Magistus Sealer",
@@ -6404,6 +6754,23 @@
   "text_en": "You can reveal this card in your hand; Special Summon 1 \"White Forest\" or \"Azamina\" monster from your hand. During your Main Phase: You can Fusion Summon 1 \"Azamina\" Fusion Monster from your Extra Deck, using monsters from your hand or field. If this card is sent to the GY as Synchro Material: You can add 1 \"Sinful Spoils\" card from your Deck to your hand. You can only use each effect of \"Elzette, Azamina of the White Forest\" once per turn.",
   "text_ko": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 패의 이 카드를 상대에게 보여주고 발동할 수 있다. 패에서 \"하얀 숲\" 몬스터나 \"아자미나\" 몬스터 1장을 특수 소환한다. ②: 자신 메인 페이즈에 발동할 수 있다. 자신의 패 / 필드의 몬스터를 융합 소재로 하고, \"아자미나\" 융합 몬스터 1장을 융합 소환한다. ③: 이 카드가 싱크로 소재로서 묘지로 보내졌을 경우에 발동할 수 있다. 덱에서 \"죄보\" 카드 1장을 패에 넣는다.",
   "password": 38648860
+ },
+ "20754": {
+  "cid": 20754,
+  "password": 63198739,
+  "en": "Primite Dragon Ether Beryl",
+  "ko": "원석룡 어나더 베릴",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "EARTH",
+  "level": 4,
+  "monster_type": [
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "If this card is Normal Summoned: You can Set 1 \"Primite\" Spell/Trap from your Deck. You can only use each of the following effects of \"Primite Dragon Ether Beryl\" once per turn. You can Tribute this card; send 1 Normal Monster from your Deck to the GY. During your Standby Phase, if you have a Normal Monster in your field or GY: You can add this card from the GY to your hand.",
+  "text_ko": "이 카드명의 ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환했을 경우에 발동할 수 있다. 덱에서 \"원석\" 마법 / 함정 카드 1장을 자신 필드에 세트한다. ②: 이 카드를 릴리스하고 발동할 수 있다. 덱에서 일반 몬스터 1장을 묘지로 보낸다. ③: 자신 스탠바이 페이즈에, 이 카드가 묘지에 존재하고, 자신의 필드나 묘지에 일반 몬스터가 존재할 경우에 발동할 수 있다. 이 카드를 패에 넣는다."
  },
  "20764": {
   "cid": 20764,
@@ -6457,6 +6824,24 @@
   "text_en": "2 Level 6 or higher monsters (1 Fusion + 1 Synchro)\nYour opponent cannot target cards in their field, GY, or banishment, or this card on the field, with card effects. Your opponent takes any battle damage you would have taken. If this card was Fusion Summoned this turn (Quick Effect): You can Special Summon 1 Level 9 or lower \"Azamina\" monster from your Deck or Extra Deck. You can only use this effect of \"Saint Azamina\" once per turn.",
   "text_ko": "레벨 6 이상의 융합 몬스터 ＋ 레벨 6 이상의 싱크로 몬스터<br>이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 몬스터 존에 존재하는 한, 이 카드 및 상대의 필드 / 묘지 / 제외 상태인 카드를 상대는 효과의 대상으로 할 수 없으며, 자신이 받는 전투 데미지는 대신에 상대가 받는다. ②: 이 카드를 융합 소환한 자신 / 상대 턴에 발동할 수 있다. 덱 / 엑스트라 덱에서 레벨 9 이하의 \"아자미나\" 몬스터 1장을 특수 소환한다.",
   "password": 85065943
+ },
+ "20780": {
+  "cid": 20780,
+  "password": 10515412,
+  "en": "Lightstorm Dragon",
+  "ko": "라이트스톰 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": 9,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "SR",
+  "text_en": "1 Tuner + 1+ non-Tuner monsters\nIf this card is Special Summoned: You can target Spells/Traps on the field up to the number of Normal Monsters in your GY +1; destroy them. If this card is destroyed by battle or card effect: You can target 1 Spell/Trap in your GY; Set it, but it cannot be activated unless you control a Normal Monster. You can only use each effect of \"Lightstorm Dragon\" once per turn.",
+  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우, 자신 묘지의 일반 몬스터의 수 ＋ 1장까지, 필드의 마법 / 함정 카드를 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다. ②: 이 카드가 전투 / 효과로 파괴되었을 경우, 자신 묘지의 마법 / 함정 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 자신 필드에 세트한다. 이 효과로 세트한 카드는, 자신 필드에 일반 몬스터가 존재하지 않을 경우에는 발동할 수 없다."
  },
  "20784": {
   "cid": 20784,
@@ -6808,6 +7193,24 @@
   "text_en": "\"Queen Azamina\" + 1 Fusion or Synchro Monster\nMust first be either Fusion Summoned, or Special Summoned (from your Extra Deck) by Tributing 1 \"Saint Azamina\" you control and 1 face-up monster your opponent controls. Cannot be destroyed by card effects. Each time your opponent activates a card or effect, all monsters they control lose 500 ATK when it resolves. Your opponent cannot activate the effects of monsters with 0 ATK.",
   "text_ko": "\"아자미나의 요마\" ＋ 융합 / 싱크로 몬스터<br>이 카드는 융합 소환 및 이하의 방법으로만 엑스트라 덱에서 특수 소환할 수 있다. ●자신 필드의 \"성 아자미나\" 1장과 상대 필드의 앞면 표시 몬스터 1장을 릴리스했을 경우에 엑스트라 덱에서 특수 소환할 수 있다. ①: 필드의 이 카드는 효과로는 파괴되지 않는다. ②: 상대가 마법 / 함정 / 몬스터의 효과를 발동할 때마다, 상대 필드의 모든 몬스터의 공격력은 500 내린다. ③: 이 카드가 몬스터 존에 존재하는 한, 상대는 공격력 0 인 몬스터의 효과를 발동할 수 없다.",
   "password": 17749468
+ },
+ "21176": {
+  "cid": 21176,
+  "password": 43321985,
+  "en": "Ancient Fairy Life Dragon",
+  "ko": "고대 요정 라이프 드래곤",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "LIGHT",
+  "level": 8,
+  "monster_type": [
+   "Synchro",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 Tuner + 1+ non-Tuner monsters\nIf this card is Synchro Summoned: You can draw 1 card, or if \"World of Spirits\" is on the field, add 1 LIGHT monster (Beast, Plant, or Fairy) or 1 \"Eternal Sunshine\" from your Deck to your hand instead. You can only use this effect of \"Ancient Fairy Life Dragon\" once per turn. Your \"Ancient Fairy Dragon\" and monsters that mention it can attack while in face-up Defense Position (apply their DEF for damage calculation).",
+  "text_ko": "튜너 ＋ 튜너 이외의 몬스터 1장 이상<br>이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 싱크로 소환했을 경우에 발동할 수 있다. 자신은 1장 드로우한다. 필드에 \"정령의 세계\"가 존재할 경우, 대신에 덱에서 빛 속성의 야수족 / 식물족 / 천사족 몬스터 1장 또는 \"이터널 선샤인\" 1장을 패에 넣는다. ②: 자신의 \"고대 요정 드래곤\" 및 그 카드명이 쓰여진 몬스터는 앞면 수비 표시 그대로 공격할 수 있다(데미지 계산에서는 수비력을 공격력으로 취급한다)."
  },
  "21177": {
   "cid": 21177,
@@ -7713,6 +8116,24 @@
   "text_ko": "\"아르토메기아\" 몬스터 × 3<br>자신은 \"창감옥신 네르바\"를 1턴에 1번밖에 특수 소환할 수 없다. 이 카드는 융합 소환 및 이하의 방법으로만 엑스트라 덱에서 특수 소환할 수 있다. ●종족이 다른 자신 필드의 몬스터 3장을 릴리스했을 경우에 수비 표시로 특수 소환할 수 있다. ①: 필드 존에 카드가 존재하는 한, 이 카드는 효과로는 파괴되지 않는다. ②: 1턴에 1번, 자신이 \"아르토메기아\" 몬스터의 효과를 발동했을 때에 발동할 수 있다. 그 효과는 \"상대 필드의 카드를 전부 파괴한다\"가 된다.",
   "password": 53589300
  },
+ "21446": {
+  "cid": 21446,
+  "password": 26462013,
+  "en": "Primite Dragon Nether Berzelius",
+  "ko": "원석룡 네더 베르셀리우스",
+  "ja": null,
+  "type": "Monster",
+  "race": "Dragon",
+  "attribute": "EARTH",
+  "level": 8,
+  "monster_type": [
+   "Fusion",
+   "Effect"
+  ],
+  "md_rarity": "UR",
+  "text_en": "1 \"Primite\" monster + 1+ Normal Monsters\nGains 1000 ATK for each Normal Monster used for its Fusion Summon. Negate the activated effects of monsters your opponent controls, whose Levels/Ranks/Link Ratings are less than or equal to the number of Normal Monsters in your field and GY. If this card is sent from the field to the GY: You can Special Summon 1 Normal Monster from your Deck in Defense Position.",
+  "text_ko": "\"원석\" 몬스터 ＋ 일반 몬스터 1장 이상<br>①: 이 카드의 공격력은, 이 카드의 융합 소재로 한 일반 몬스터의 수 × 1000 올린다. ②: 이 카드가 몬스터 존에 존재하는 한, 레벨 / 랭크 / 링크의 수치가, 자신의 필드 / 묘지의 일반 몬스터의 수 이하인, 상대 필드의 몬스터가 발동한 효과는 무효화된다. ③: 이 카드가 필드에서 묘지로 보내졌을 경우에 발동할 수 있다. 덱에서 일반 몬스터 1장을 수비 표시로 특수 소환한다."
+ },
  "21448": {
   "cid": 21448,
   "en": "Secreterion Dragon",
@@ -7865,6 +8286,21 @@
   "text_en": "Place 1 \"Artmage Academic Arcane Arts Acropolis\" from your Deck or GY, face-up in your Field Zone, or if you control \"Artmage Academic Arcane Arts Acropolis\", add 1 \"Artmage\" card from your Deck to your hand instead, except \"Artmage Varnish -Alteration-\". When your \"Artmage\" monster is targeted for an attack: You can banish this card from your GY; negate that attack, then you can Special Summon 1 \"Medius the Pure\" from your hand. You can only use each effect of \"Artmage Varnish -Alteration-\" once per turn.",
   "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 덱 / 묘지에서 \"신예학도 아르토메기아\" 1장을 자신의 필드 존에 앞면 표시로 놓는다. 자신 필드에 \"신예학도 아르토메기아\"가 존재할 경우, 대신에 덱에서 \"아르토메기아 버니시 －개변－\" 이외의 \"아르토메기아\" 카드 1장을 패에 넣는다. ②: 자신의 \"아르토메기아\" 몬스터가 공격 대상으로 선택되었을 때, 묘지의 이 카드를 제외하고 발동할 수 있다. 그 공격을 무효로 한다. 그 후, 패에서 \"무구한 자 메디우스\" 1장을 특수 소환할 수 있다.",
   "password": 74011784
+ },
+ "21476": {
+  "cid": 21476,
+  "password": 99161253,
+  "en": "Primite Fusion",
+  "ko": "원석 융합",
+  "ja": null,
+  "type": "Spell",
+  "race": "Normal",
+  "attribute": null,
+  "level": null,
+  "monster_type": [],
+  "md_rarity": "SR",
+  "text_en": "Fusion Summon 1 Dragon Fusion Monster from your Extra Deck, by shuffling its materials from your field, GY, and/or banishment into the Deck, including a Normal Monster. You can banish this card from your GY; add 1 Level 5 or higher \"Primite\" monster from your Deck or GY to your hand. You can only use each effect of \"Primite Fusion\" once per turn.",
+  "text_ko": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 일반 몬스터를 포함하는 자신의 필드 / 묘지 / 제외 상태인 몬스터를 융합 소재로 하여 덱으로 되돌리고, 드래곤족의 융합 몬스터 1장을 융합 소환한다. ②: 묘지의 이 카드를 제외하고 발동할 수 있다. 자신의 덱 / 묘지에서 레벨 5 이상의 \"원석\" 몬스터 1장을 패에 넣는다."
  },
  "21477": {
   "cid": 21477,

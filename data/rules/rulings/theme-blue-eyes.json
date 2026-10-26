@@ -1,0 +1,240 @@
+{
+ "sources": {
+  "konami-db-faq": {
+   "title": "遊戯王ニューロン（オフィシャルカードゲーム カードデータベース）カードに関連するQ&A・補足情報",
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?request_locale=ja",
+   "publisher": "KONAMI",
+   "lang": "ja"
+  }
+ },
+ "rulings": [
+  {
+   "id": "qa-24155",
+   "fid": 24155,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24155&request_locale=ja",
+   "official": true,
+   "cards": [
+    "True Light",
+    "Blue-Eyes Spirit Dragon"
+   ],
+   "handtraps": [
+    "mst",
+    "fallen_virtuous",
+    "ogre"
+   ],
+   "themes": [
+    "blue-eyes"
+   ],
+   "topic": "chain",
+   "question_ko": "자신의 [[True Light]]가 파괴되어 ③(자기 몬스터 전부 파괴)이 발동했다. 자신의 [[Blue-Eyes Spirit Dragon]] ②로 그 발동을 무효로 할 수 있는가?",
+   "answer_ko": "진정한 빛 ③을 발동한 쪽은 그 뒤에 발동할 유발 효과가 따로 없으면 반드시 상대에게 먼저 체인 여부를 묻는다. 상대가 아무것도 체인하지 않으면 정령룡 ②를 체인 2로 발동해 무효로 할 수 있지만, 상대가 무언가를 체인하면 진정한 빛 ③에 정령룡 ②를 직접 체인할 수 없다.",
+   "quote_ja": "相手が何も効果を発動しなかったのであれば、自分は「青眼の精霊龍」の②の効果をチェーン２で発動することができ…相手が効果を発動したのであれば、自分は「真の光」の効果に対し「青眼の精霊龍」の②の効果を発動することはできません。",
+   "impact_ko": "진정한 빛을 깨서 자폭시킬 때 상대 필드에 정령룡이 있으면, 자폭 발동에 내가 아무 효과든 먼저 체인하면 정령룡이 막지 못한다."
+  },
+  {
+   "id": "qa-23574",
+   "fid": 23574,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23574&request_locale=ja",
+   "official": true,
+   "cards": [
+    "True Light",
+    "Mystical Space Typhoon",
+    "Baronne de Fleur"
+   ],
+   "handtraps": [
+    "mst",
+    "fallen_virtuous",
+    "ogre"
+   ],
+   "themes": [
+    "blue-eyes"
+   ],
+   "topic": "trigger",
+   "question_ko": "지속 함정의 발동에 체인한 효과로 그 카드가 파괴되면 '앞면 이 카드가 필드를 떠났을 경우' 효과가 발동하는가? 카드의 발동이 무효가 되어 파괴되면? ([[True Light]] ③ 포함)",
+   "answer_ko": "체인한 효과로 마함 존의 앞면 카드가 파괴되면 필드를 떠난 것이므로 발동한다. 카드의 발동 자체가 무효가 되면 마함 존에서 묘지로 보내진 것으로 취급하지 않아 발동하지 않는다. [[True Light]] ③도 예시로 명시되어 있다.",
+   "quote_ja": "（A）…③の効果は発動します。（B）発動しません。魔法・罠カードのカード発動が無効になった場合、その魔法・罠カードは魔法＆罠ゾーンから墓地へ送られたことにはなりません。…「真の光」③",
+   "impact_ko": "앞면 진정한 빛을 싸이크론·The Fallen & The Virtuous·유령토끼로 파괴하면 블루아이즈 측 몬스터가 전부 파괴된다. 발동 무효(바로네스 등)로는 자폭하지 않는다."
+  },
+  {
+   "id": "qa-18150",
+   "fid": 18150,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18150&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Blue-Eyes Spirit Dragon",
+    "Stardust Sifr Divine Dragon"
+   ],
+   "handtraps": [
+    "harmonia",
+    "super_poly"
+   ],
+   "themes": [
+    "blue-eyes"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Blue-Eyes Spirit Dragon]] ③(자신을 릴리스해 빛 드래곤 싱크로 특소)으로 [[Stardust Sifr Divine Dragon]]을 특소할 수 있는가?",
+   "answer_ko": "할 수 없다. 정령룡 ③의 특소는 싱크로 소환 취급이 아니고, 쉬프르는 싱크로 소환으로만 특소할 수 있다.",
+   "quote_ja": "「青眼の精霊龍」のモンスター効果による特殊召喚はシンクロ召喚の扱いではありません。「聖珖神竜 スターダスト・シフル」はシンクロ召喚でしか特殊召喚できない…",
+   "impact_ko": "쉬프르는 반드시 [[Crimson Dragon]] ②(싱크로 소환 취급)를 거친다. 붉은 용 ②를 끊으면 쉬프르가 나오지 않는다."
+  },
+  {
+   "id": "qa-16070",
+   "fid": 16070,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=16070&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Stardust Sifr Divine Dragon"
+   ],
+   "handtraps": [
+    "mst",
+    "fallen_virtuous",
+    "ogre",
+    "harmonia",
+    "raigeki",
+    "harpie"
+   ],
+   "themes": [
+    "blue-eyes"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Stardust Sifr Divine Dragon]] ①(자기 필드 카드는 각각 1턴 1번 전투·효과로 파괴되지 않음)은 어떻게 적용되는가?",
+   "answer_ko": "쉬프르 자신을 포함해 컨트롤러 필드의 모든 카드(몬스터·마법·함정)가 각각 1번씩 전투·효과로 파괴되지 않는다. 뒷면 카드도 포함된다.",
+   "quote_ja": "「聖珖神竜 スターダスト・シフル」自身を含め…フィールドに存在する全てのカード（モンスター・魔法・罠カード）が、それぞれ1度ずつ…破壊されなくなります。…裏側表示のカードも…",
+   "impact_ko": "쉬프르가 있는 동안 [[True Light]]·세트 [[Primite Drillbeam]]·영룡도 첫 파괴를 버틴다. 파괴계 돌파는 쉬프르를 먼저 치운 뒤에."
+  },
+  {
+   "id": "qa-23488",
+   "fid": 23488,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=23488&request_locale=ja",
+   "official": true,
+   "cards": [
+    "True Light",
+    "Stardust Sifr Divine Dragon",
+    "Baronne de Fleur"
+   ],
+   "handtraps": [],
+   "themes": [
+    "blue-eyes"
+   ],
+   "topic": "negate",
+   "question_ko": "'자기 필드 카드는 상대 효과로 파괴되지 않는다'가 적용 중일 때 [[True Light]]의 카드 발동이 무효가 되면 파괴되는가?",
+   "answer_ko": "파괴된다. 발동을 무효로 하고 파괴하는 처리는 필드 카드를 파괴하는 처리가 아니다. [[Stardust Sifr Divine Dragon]]의 내성이 적용되는 경우도 같다.",
+   "quote_ja": "「真の光」のカードの発動が無効になりますので、破壊されます。…カードの発動を無効にし破壊する処理はフィールドのカードを破壊する処理ではないため…「聖珖神竜 スターダスト・シフル」",
+   "impact_ko": "쉬프르 내성은 '발동 무효 + 파괴'를 막지 못한다. 다만 진정한 빛은 카드 발동이 무효가 되면 자폭(③)하지 않는다(Q&A 23574)."
+  },
+  {
+   "id": "qa-24092",
+   "fid": 24092,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=24092&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Blue-Eyes Ultimate Spirit Dragon"
+   ],
+   "handtraps": [],
+   "themes": [
+    "blue-eyes"
+   ],
+   "topic": "negate",
+   "question_ko": "상대가 필드 마법·지속 마법·지속 함정·장착 마법의 카드 발동을 했을 때, '상대가 카드의 효과를 발동했을 때' 발동하는 효과로 대응할 수 있는가?",
+   "answer_ko": "할 수 있다. 마법·함정의 카드 발동은 '카드 효과의 발동'에 해당한다(처리가 없는 지속·필드 마법 포함). 대응 가능한 예시에 [[Blue-Eyes Ultimate Spirit Dragon]] ②가 들어 있다.",
+   "quote_ja": "魔法・罠カードのカードの発動は、”カードの効果の発動”に該当します。…「青眼の究極霊竜」②",
+   "impact_ko": "후공에서 필드 마법·지속 마법을 내기만 해도 영룡의 무효가 그쪽으로 끌려온다. 영룡 무효를 빼는 미끼로 쓸 수 있다."
+  },
+  {
+   "id": "qa-18176",
+   "fid": 18176,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=18176&request_locale=ja",
+   "official": true,
+   "cards": [
+    "Blue-Eyes Spirit Dragon",
+    "Nibiru, the Primal Being"
+   ],
+   "handtraps": [
+    "nibiru"
+   ],
+   "themes": [
+    "blue-eyes"
+   ],
+   "topic": "summon",
+   "question_ko": "[[Blue-Eyes Spirit Dragon]] ①(서로 2장 이상 동시 특소 불가)이 적용 중일 때 [[Nibiru, the Primal Being]] 등을 발동할 수 있는가?",
+   "answer_ko": "반드시 2장 이상을 동시에 특소하는 효과는 발동할 수 없다. 니비루처럼 2장의 특소가 동시에 일어나지 않는 효과는 정령룡 ①이 적용 중이어도 통상대로 발동·처리할 수 있다.",
+   "quote_ja": "「RUM－デス・ダブル・フォース」や「原始生命態ニビル」の効果のように、２体のモンスターの特殊召喚が同時に行われない効果は…通常通り行うことができます。",
+   "impact_ko": "정령룡이 필드에 있어도 니비루는 쓸 수 있다."
+  },
+  {
+   "id": "supp-16653",
+   "fid": null,
+   "cid": 16653,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=16653&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "True Light"
+   ],
+   "handtraps": [
+    "mst",
+    "fallen_virtuous",
+    "ogre",
+    "harpie",
+    "heavy_storm"
+   ],
+   "themes": [
+    "blue-eyes"
+   ],
+   "topic": "trigger",
+   "question_ko": "[[True Light]] ③(자기 몬스터 전부 파괴)은 언제 발동하는가?",
+   "answer_ko": "묘지에서 발동하는 체인 블록을 만드는 효과로, 마함 존에 앞면으로 있던 이 카드가 묘지로 보내지면 반드시 발동한다(데미지 스텝 포함). 세트된 상태로 묘지로 가거나 카드 발동이 무효가 되어 묘지로 간 경우에는 발동하지 않는다.",
+   "quote_ja": "■魔法＆罠ゾーンの表側表示のこのカードが墓地へ送られた場合に発動します。セットされているこのカードが墓地へ送られた場合や、このカードの発動が無効になり墓地へ送られた場合には発動しません。■条件を満たした場合に必ず発動します。",
+   "impact_ko": "[[Maiden of White]]가 덱에서 앞면으로 놓은 진정한 빛은 파괴만 되면 자폭한다. 묘지 효과라 [[Blue-Eyes Spirit Dragon]] ②로 무효될 수 있으니 정령룡이 없을 때 노린다."
+  },
+  {
+   "id": "supp-18825",
+   "fid": null,
+   "cid": 18825,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=18825&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Crimson Dragon"
+   ],
+   "handtraps": [
+    "harmonia",
+    "super_poly",
+    "ogre"
+   ],
+   "themes": [
+    "blue-eyes"
+   ],
+   "topic": "resolve",
+   "question_ko": "[[Crimson Dragon]] ②(레벨 7 이상 싱크로를 대상, 자신을 되돌리고 같은 레벨 드래곤 싱크로를 특소)는 어떻게 처리되는가?",
+   "answer_ko": "몬스터 존에서 발동하는 유발즉시 효과. 처리 때 이 카드가 몬스터 존에 있으면 엑스트라 덱에 되돌리고, 되돌리는 데 성공했고 대상 몬스터가 몬스터 존에 앞면으로 있으면 같은 레벨의 드래곤족 싱크로를 싱크로 소환 취급으로 특소한다. 되돌리기와 특소는 동시에 한 것으로 취급한다.",
+   "quote_ja": "■処理時に、このカードが…モンスターゾーンに存在する場合、『このカードをEXデッキに戻し』の処理を行います。エクストラデッキに戻すことに成功し、かつ対象のモンスターがモンスターゾーンに表側表示で存在する場合、『…S召喚扱いでEXデッキから特殊召喚する』処理を行います。",
+   "impact_ko": "붉은 용 ②에 체인해 대상(영룡)을 파괴·융합 소재로 치우거나 붉은 용 자신을 파괴하면 쉬프르가 나오지 않는다."
+  },
+  {
+   "id": "supp-12324",
+   "fid": null,
+   "cid": 12324,
+   "url": "https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=12324&request_locale=ja",
+   "official": true,
+   "source_kind": "card_supplement",
+   "cards": [
+    "Blue-Eyes Spirit Dragon"
+   ],
+   "handtraps": [
+    "veiler",
+    "imperm",
+    "ogre",
+    "belle"
+   ],
+   "themes": [
+    "blue-eyes"
+   ],
+   "topic": "misc",
+   "question_ko": "[[Blue-Eyes Spirit Dragon]]의 ②·③은 어떤 효과이고, 묘지에서 소생한 정령룡도 ③을 쓸 수 있는가?",
+   "answer_ko": "②는 몬스터 존의 유발즉시 효과로 묘지에서 효과가 발동했을 때 그 발동에 직접 체인한다(데미지 스텝 가능). ③도 몬스터 존의 유발즉시 효과(데미지 스텝 불가)이며, 싱크로 소환된 뒤 뒷면이 되거나 일시 제외되어 돌아와도 쓸 수 있지만, 묘지·제외 상태에서 특수 소환된 정령룡은 ③을 발동할 수 없다.",
+   "quote_ja": "■墓地で効果が発動した時、その発動に直接チェーンして発動できます。…■このカードが墓地や除外状態から特殊召喚されている場合、この効果は発動できません。",
+   "impact_ko": "[[Blue-Eyes Ultimate Spirit Dragon]] ③으로 부활한 정령룡은 묘지 효과 무효만 하고, 릴리스해 붉은 용·영룡을 내는 ③은 못 쓴다."
+  }
+ ]
+}
