@@ -12,6 +12,9 @@
 ```
 data/
   themes/<slug>.json   테마별 전개·패트랩 타이밍 원본 데이터 (스키마: data/themes/SCHEMA.md)
+  engines/<slug>.json  다른 테마에 섞여 들어가는 엔진 (낙인·죄보·감옥신 등), 합류 지점 포함
+  my/<slug>.json       덱 주인이 직접 쓴 전개·판단 (빌드 때 테마 앞에 끼움, 사용법: data/my/README.md)
+  learn/resources.json 외부 학습 자료 모음 (사이트 '배우기')
   handtraps.json       패트랩 정의와 "어떤 효과에 대응하는가" 분류
   cards/cards.json     KONAMI 카드 ID 기준 공식 영/한/일 이름·텍스트 캐시
   meta/latest.json     Master Duel Meta 상위 덱 집계 (테마 점유율, 채용률)

@@ -113,7 +113,7 @@ def names_from_themes():
                 names.add(o)
             names.update(re.findall(r"\[\[([^\]]+)\]\]", o))
 
-    for f in [*(ROOT / "data/themes").glob("*.json"), *(ROOT / "data/engines").glob("*.json")]:
+    for f in [*(ROOT / "data/themes").glob("*.json"), *(ROOT / "data/engines").glob("*.json"), *(ROOT / "data/my").glob("*.json")]:
         walk(json.loads(f.read_text(encoding="utf-8")))
     # 개요의 예시 덱 리스트(메타 스냅샷의 대표 덱)에 나오는 카드도 이름·이미지가 필요하다
     meta_p = ROOT / "data/meta/latest.json"

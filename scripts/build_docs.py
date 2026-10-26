@@ -225,6 +225,33 @@ def attach_decklists(themes, engines):
         }
 
 
+def merge_mine(t):
+    """data/my/<slug>.json: 덱 주인이 직접 쓴 전개·판단. 테마 파일을 다시 만들어도 덮어쓰지 않도록 따로 두고 빌드 때 앞에 끼운다."""
+    p = ROOT / "data/my" / f"{t['slug']}.json"
+    if not p.exists():
+        return
+    m = load_json(p)
+    who = m.get("author", "자겜")
+    ids = {l["id"] for l in t.get("lines", [])}
+    for l in m.get("lines", []):
+        if l["id"] in ids:
+            sys.exit(f"{p.name}: 라인 id '{l['id']}' 가 테마 파일과 겹침")
+    t["lines"] = [dict(l, mine=who) for l in m.get("lines", [])] + t.get("lines", [])
+    t["chokepoints"] = [dict(c, mine=who) for c in m.get("chokepoints", [])] + t.get("chokepoints", [])
+    for k, v in m.get("handtrap_summary", {}).items():
+        t.setdefault("handtrap_summary", {})[k] = dict(v, mine=who)
+    gs = m.get("going_second") or {}
+    if gs and t.get("going_second"):
+        g = t["going_second"]
+        g["boards"] = [dict(b, mine=who) for b in gs.get("boards", [])] + g.get("boards", [])
+        for k, v in gs.get("breakers", {}).items():
+            g.setdefault("breakers", {})[k] = dict(v, mine=who)
+        if gs.get("sequencing_ko"):
+            g["sequencing_ko"] = [f"[{who}] {x}" for x in gs["sequencing_ko"]] + g.get("sequencing_ko", [])
+    t["my_notes_ko"] = m.get("notes_ko", [])
+    t["mine"] = who
+
+
 def write_site_data(themes, engines, hdef, names):
     """GitHub Pages(docs/index.html)가 읽는 데이터 한 덩어리. 카드는 테마에 나온 것만 담는다."""
     used = set()
@@ -319,6 +346,7 @@ def write_site_data(themes, engines, hdef, names):
         "rulings": sorted(rulings.values(), key=lambda q: q["id"]),
         "themes": themes,
         "engines": engines,
+        "learn": load_json(ROOT / "data/learn/resources.json") if (ROOT / "data/learn/resources.json").exists() else None,
         "cards": cards,
     }
     out = ROOT / "docs" / "data" / "site.json"
@@ -361,6 +389,7 @@ def main():
     themes = []
     for f in sorted((ROOT / "data/themes").glob("*.json")):
         t = load_json(f)
+        merge_mine(t)
         lint(f, t)
         (docs / f"{t['slug']}.md").write_text(build_theme(t, names, ht, classes), encoding="utf-8")
         themes.append(t)

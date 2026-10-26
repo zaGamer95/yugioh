@@ -443,3 +443,14 @@ button.sc-card { border: 0; padding: 0; background: none; font: inherit; color: 
 .dk-n { position: absolute; top: 2px; right: 2px; background: rgb(0 0 0 / .78); color: #fff; font-size: 11px; font-weight: 800; padding: 0 5px; border-radius: 6px; }
 .dk-r { position: absolute; bottom: 2px; left: 2px; background: color-mix(in srgb, var(--accent) 88%, black); color: #fff; font-style: normal; font-size: 10.5px; font-weight: 700; padding: 0 5px; border-radius: 6px; }
 .dv-sample { border-top: 1px solid var(--border); margin-top: 14px; padding-top: 4px; }
+
+/* 내 전개 · 배우기 */
+.mine-b { display: inline-block; font-size: 11px; font-weight: 800; padding: 1px 7px; border-radius: 999px; margin-right: 6px; background: color-mix(in srgb, var(--sev-ok) 30%, var(--surface)); color: var(--text); white-space: nowrap; vertical-align: 1px; }
+.mine-notes { background: color-mix(in srgb, var(--sev-ok) 10%, var(--surface)); border: 1px solid color-mix(in srgb, var(--sev-ok) 50%, var(--border)); border-radius: 12px; padding: 4px 16px 10px; margin: 12px 0; }
+.mine-notes h2 { font-size: 1rem; }
+.reslist { list-style: none; padding: 0; display: grid; gap: 8px; }
+.res { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; }
+.res-h { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.res p { margin: 4px 0 0; }
+.study { background: var(--surface-2); border-radius: 10px; padding: 10px 12px 10px 32px; line-height: 1.6; }
+.learn-theme { margin-top: 14px; }
