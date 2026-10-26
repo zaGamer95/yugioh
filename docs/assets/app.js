@@ -1170,20 +1170,28 @@
   /* ---------- 배우기: 외부 학습 자료 ---------- */
   const LT = { video: "영상", article: "글", combo: "콤보", decklist: "덱 리스트", ruling: "판정", tool: "도구", community: "커뮤니티", replay: "리플레이" };
   const LANG_KO = { ko: "한국어", ja: "日本語", en: "English" };
-  const LTOPIC = { handtrap: "패트랩", going_second: "후공·돌파", rules: "룰·체인", deckbuilding: "덱 구축·확률", meta: "메타", replay: "리플레이", community: "커뮤니티" };
+  const LTOPIC = { etc: "기타", handtrap: "패트랩", going_second: "후공·돌파", rules: "룰·체인", deckbuilding: "덱 구축·확률", meta: "메타", replay: "리플레이", community: "커뮤니티" };
   const resItem = (r) => `<li class="res">
       <div class="res-h"><span class="pill">${esc(LT[r.type] || r.type || "")}</span><span class="pill">${esc(LANG_KO[r.lang] || r.lang || "")}</span>${r.level ? `<span class="pill">${esc(r.level)}</span>` : ""}
         <a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b> ↗</a></div>
       <div class="small muted">${[r.author, r.date].filter(Boolean).map(esc).join(" · ")}</div>
       ${r.summary_ko ? `<p class="small">${prose(r.summary_ko)}</p>` : ""}${r.why_ko ? `<p class="small muted">→ ${prose(r.why_ko)}</p>` : ""}
     </li>`;
+  // 학습 순서 문장 안의 'resource-id' 를 그 자료 링크로 바꾼다
+  const studyText = (x) => {
+    const all = [...(D.learn?.general || []), ...Object.values(D.learn?.themes || {}).flat()];
+    return prose(x).replace(/&#39;([a-z0-9-]+)&#39;/g, (m, id) => {
+      const r = all.find((y) => y.id === id);
+      return r ? `<a href="${esc(r.url)}" target="_blank" rel="noopener" title="${esc(r.title)}">「${esc(r.title.length > 36 ? r.title.slice(0, 34) + "…" : r.title)}」</a>` : m;
+    });
+  };
   function learnBlock(slug) {
     const L = D.learn;
     const items = L?.themes?.[slug] || [];
     const path = L?.study_path_ko?.[slug] || [];
     if (!items.length && !path.length) return "";
     return `<h2>배우기 <span class="muted small">외부 학습 자료 ${items.length}건</span></h2>
-      ${path.length ? `<ol class="study">${path.map((x) => `<li>${prose(x)}</li>`).join("")}</ol>` : ""}
+      ${path.length ? `<ol class="study">${path.map((x) => `<li>${studyText(x)}</li>`).join("")}</ol>` : ""}
       <ul class="reslist">${items.map(resItem).join("")}</ul>
       <p class="small"><a href="#/l">전체 학습 자료 →</a></p>`;
   }
@@ -1203,7 +1211,7 @@
       <div class="chips wrap" role="group" aria-label="테마">${slugs.map((s) => `<a class="chip sub" href="#/l?t=${s}" aria-pressed="${s === pick}">${esc(tname(s))} ${(L.themes[s] || []).length}</a>`).join("")}</div>
       ${(pick ? [pick] : slugs.filter((s) => L.study_path_ko?.[s]))
         .map((s) => `<section class="panel learn-theme"><h2>${esc(tname(s))} <a class="small" href="#/t/${s}">테마 페이지 →</a></h2>
-          ${(L.study_path_ko?.[s] || []).length ? `<h3>추천 학습 순서</h3><ol class="study">${L.study_path_ko[s].map((x) => `<li>${prose(x)}</li>`).join("")}</ol>` : ""}
+          ${(L.study_path_ko?.[s] || []).length ? `<h3>추천 학습 순서</h3><ol class="study">${L.study_path_ko[s].map((x) => `<li>${studyText(x)}</li>`).join("")}</ol>` : ""}
           <ul class="reslist">${(L.themes[s] || []).map(resItem).join("")}</ul></section>`)
         .join("")}
       <h2>공통 실력 늘리기</h2>
